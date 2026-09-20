@@ -17,7 +17,7 @@
     .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(99, 102, 241, 0.4); border-radius: 4px; }
   </style>
 </head>
-<body class="min-h-screen flex flex-col bg-slate-950 text-slate-200 antialiased selection:bg-indigo-500 selection:text-white">
+<body class="min-h-screen flex flex-col bg-slate-950 text-slate-200 antialiased selection:bg-indigo-500 selection:text-white relative">
 
   <!-- Navbar -->
   <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur-md sticky top-0 z-40 shrink-0">
@@ -91,7 +91,7 @@
   </main>
 
   <!-- TAB 2: STANDARDIZED TEST ENGINE -->
-  <main id="tab-rc" class="hidden max-w-7xl mx-auto px-4 sm:px-6 py-4 w-full flex-grow flex flex-col lg:flex-row gap-6 h-[calc(100vh-5rem)] overflow-hidden relative">
+  <main id="tab-rc" class="hidden max-w-7xl mx-auto px-4 sm:px-6 py-4 w-full flex-grow flex flex-col lg:flex-row gap-6 h-[calc(100vh-5rem)] overflow-hidden">
     
     <!-- Left Pane: Passage Viewer -->
     <section class="lg:w-7/12 flex flex-col bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl h-full">
@@ -140,44 +140,43 @@
         <button id="submit-btn" onclick="submitTest()" class="px-5 py-2 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white text-xs font-extrabold rounded-xl shadow-lg shadow-indigo-600/30 transition flex items-center gap-1.5"><i class="fa-solid fa-paper-plane"></i> Submit Test</button>
       </div>
     </section>
+  </main>
 
-    <!-- FLOATING ALWAYS VISIBLE AI TUTOR DRAWER -->
-    <div id="ai-drawer" class="fixed bottom-4 right-4 z-50 flex flex-col items-end">
-      <button onclick="toggleAiDrawer()" class="bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white font-bold text-xs px-4 py-3 rounded-full shadow-2xl flex items-center gap-2 transition transform hover:scale-105 border border-indigo-400/30">
-        <i class="fa-solid fa-robot text-base text-amber-300"></i> <span>Ask AI VARC Tutor</span>
-      </button>
+  <!-- ALWAYS VISIBLE GLOBAL FLOATING AI TUTOR DRAWER -->
+  <div id="ai-drawer" class="fixed bottom-6 right-6 z-[9999] flex flex-col items-end">
+    <button onclick="toggleAiDrawer()" class="bg-gradient-to-r from-indigo-600 via-indigo-500 to-violet-600 hover:from-indigo-500 hover:to-violet-400 text-white font-extrabold text-xs px-5 py-3.5 rounded-full shadow-2xl shadow-indigo-500/40 flex items-center gap-2.5 transition transform hover:scale-105 border border-indigo-300/40">
+      <i class="fa-solid fa-robot text-sm text-amber-300 animate-bounce"></i> <span>Ask AI VARC Tutor</span>
+    </button>
 
-      <div id="ai-chat-box" class="hidden mt-3 w-80 sm:w-96 bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl flex flex-col h-[480px] overflow-hidden">
-        <div class="p-3.5 bg-slate-800/80 border-b border-slate-700/80 flex justify-between items-center">
-          <div class="flex items-center gap-2">
-            <div class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></div>
-            <span class="text-xs font-bold text-white flex items-center gap-1.5"><i class="fa-solid fa-brain text-indigo-400"></i> NEXTORY Smart Tutor</span>
-          </div>
-          <button onclick="toggleAiDrawer()" class="text-slate-400 hover:text-white font-bold text-sm">&times;</button>
+    <div id="ai-chat-box" class="hidden mt-3 w-80 sm:w-96 bg-slate-900 border border-slate-700/80 rounded-2xl shadow-2xl flex flex-col h-[480px] overflow-hidden backdrop-blur-xl">
+      <div class="p-3.5 bg-slate-800/90 border-b border-slate-700 flex justify-between items-center">
+        <div class="flex items-center gap-2">
+          <div class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></div>
+          <span class="text-xs font-bold text-white flex items-center gap-1.5"><i class="fa-solid fa-brain text-indigo-400"></i> NEXTORY Smart Tutor</span>
         </div>
+        <button onclick="toggleAiDrawer()" class="text-slate-400 hover:text-white font-bold text-base px-1">&times;</button>
+      </div>
 
-        <div class="p-2.5 bg-slate-950/60 border-b border-slate-800 flex gap-1.5 overflow-x-auto custom-scrollbar shrink-0 text-[11px]">
-          <button onclick="sendQuickDoubt('Why Option A fail?')" class="bg-slate-800 hover:bg-slate-700 text-indigo-300 border border-slate-700 px-2.5 py-1 rounded-lg shrink-0 font-medium">❓ Why Option A fail?</button>
-          <button onclick="sendQuickDoubt('Why Option B fail?')" class="bg-slate-800 hover:bg-slate-700 text-indigo-300 border border-slate-700 px-2.5 py-1 rounded-lg shrink-0 font-medium">❓ Why Option B fail?</button>
-          <button onclick="sendQuickDoubt('Why Option C fail?')" class="bg-slate-800 hover:bg-slate-700 text-indigo-300 border border-slate-700 px-2.5 py-1 rounded-lg shrink-0 font-medium">❓ Why Option C fail?</button>
-          <button onclick="sendQuickDoubt('Why Option D fail?')" class="bg-slate-800 hover:bg-slate-700 text-indigo-300 border border-slate-700 px-2.5 py-1 rounded-lg shrink-0 font-medium">❓ Why Option D fail?</button>
-          <button onclick="sendQuickDoubt('Tone & Main Idea')" class="bg-slate-800 hover:bg-slate-700 text-amber-300 border border-slate-700 px-2.5 py-1 rounded-lg shrink-0 font-medium">🎭 Tone & Main Idea</button>
-        </div>
+      <div class="p-2.5 bg-slate-950/70 border-b border-slate-800 flex gap-1.5 overflow-x-auto custom-scrollbar shrink-0 text-[11px]">
+        <button onclick="sendQuickDoubt('Why Option A fail?')" class="bg-slate-800 hover:bg-indigo-900/60 text-indigo-300 border border-slate-700 px-2.5 py-1 rounded-lg shrink-0 font-medium transition">❓ Why Option A fail?</button>
+        <button onclick="sendQuickDoubt('Why Option B fail?')" class="bg-slate-800 hover:bg-indigo-900/60 text-indigo-300 border border-slate-700 px-2.5 py-1 rounded-lg shrink-0 font-medium transition">❓ Why Option B fail?</button>
+        <button onclick="sendQuickDoubt('Why Option C fail?')" class="bg-slate-800 hover:bg-indigo-900/60 text-indigo-300 border border-slate-700 px-2.5 py-1 rounded-lg shrink-0 font-medium transition">❓ Why Option C fail?</button>
+        <button onclick="sendQuickDoubt('Why Option D fail?')" class="bg-slate-800 hover:bg-indigo-900/60 text-indigo-300 border border-slate-700 px-2.5 py-1 rounded-lg shrink-0 font-medium transition">❓ Why Option D fail?</button>
+        <button onclick="sendQuickDoubt('Tone & Main Idea')" class="bg-slate-800 hover:bg-amber-900/60 text-amber-300 border border-slate-700 px-2.5 py-1 rounded-lg shrink-0 font-medium transition">🎭 Tone & Main Idea</button>
+      </div>
 
-        <div id="ai-messages" class="flex-grow p-4 overflow-y-auto custom-scrollbar space-y-3 text-xs">
-          <div class="p-3 bg-indigo-950/40 border border-indigo-500/20 rounded-xl text-indigo-200 leading-relaxed">
-            👋 <strong>Welcome to VARC Mentor!</strong><br>Ask me why any option fails, or click a quick question button above for instant analytical breakdowns!
-          </div>
-        </div>
-
-        <div class="p-3 bg-slate-950 border-t border-slate-800 flex gap-2 shrink-0">
-          <input id="ai-input" type="text" placeholder="Ask doubt (e.g. why C is wrong)..." onkeydown="if(event.key==='Enter') sendDoubt()" class="flex-grow bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-indigo-500">
-          <button onclick="sendDoubt()" class="bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs px-3.5 py-2 rounded-xl transition"><i class="fa-solid fa-paper-plane"></i></button>
+      <div id="ai-messages" class="flex-grow p-4 overflow-y-auto custom-scrollbar space-y-3 text-xs">
+        <div class="p-3 bg-indigo-950/50 border border-indigo-500/30 rounded-xl text-indigo-200 leading-relaxed shadow-sm">
+          👋 <strong>Welcome to VARC Mentor!</strong><br>Ask me why any specific option fails, or click a quick question button above for instant analytical breakdowns!
         </div>
       </div>
-    </div>
 
-  </main>
+      <div class="p-3 bg-slate-950 border-t border-slate-800 flex gap-2 shrink-0">
+        <input id="ai-input" type="text" placeholder="Ask doubt (e.g. why C is wrong)..." onkeydown="if(event.key==='Enter') sendDoubt()" class="flex-grow bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-indigo-500">
+        <button onclick="sendDoubt()" class="bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs px-3.5 py-2 rounded-xl transition shadow-md"><i class="fa-solid fa-paper-plane"></i></button>
+      </div>
+    </div>
+  </div>
 
   <!-- SCORECARD MODAL -->
   <div id="result-modal" class="fixed inset-0 bg-slate-950/85 backdrop-blur-md hidden z-50 flex items-center justify-center p-4">
@@ -558,7 +557,7 @@
 
       document.getElementById('result-modal').classList.remove('hidden');
 
-      // AUTO OPEN AI CHATBOX UPON TEST SUBMISSION
+      // AUTO OPEN CHATBOX
       document.getElementById('ai-chat-box').classList.remove('hidden');
     }
 
@@ -601,7 +600,7 @@
       });
     }
 
-    // --- SMART LOCAL DYNAMIC AI TUTOR ENGINE ---
+    // --- GLOBAL AI TUTOR ENGINE ---
     function toggleAiDrawer() {
       document.getElementById('ai-chat-box').classList.toggle('hidden');
     }
@@ -618,18 +617,16 @@
 
       const chatBox = document.getElementById('ai-messages');
 
-      // Append user message
       const userMsg = document.createElement('div');
-      userMsg.className = "p-2.5 bg-indigo-600 text-white rounded-xl text-xs ml-6 self-end leading-relaxed font-medium";
+      userMsg.className = "p-2.5 bg-indigo-600 text-white rounded-xl text-xs ml-6 self-end leading-relaxed font-medium shadow-sm";
       userMsg.innerText = query;
       chatBox.appendChild(userMsg);
       input.value = '';
 
-      // Instant Smart Response Generator
       setTimeout(() => {
         const activeQ = window.activeRCData.questions[currentQIndex];
         const botMsg = document.createElement('div');
-        botMsg.className = "p-3 bg-slate-800 border border-slate-700 rounded-xl text-xs space-y-2 text-slate-200 leading-relaxed";
+        botMsg.className = "p-3 bg-slate-800 border border-slate-700 rounded-xl text-xs space-y-2 text-slate-200 leading-relaxed shadow-sm";
 
         const lowerQuery = query.toLowerCase();
         let replyHTML = '';
@@ -655,13 +652,13 @@
     }
 
     function extractOptionDetail(qObj, optionLetter) {
-      const optionIndex = optionLetter.charCodeAt(0) - 65; // A=0, B=1, C=2, D=3
+      const optionIndex = optionLetter.charCodeAt(0) - 65;
       const optionText = qObj.options[optionIndex] || `Option ${optionLetter}`;
       const isCorrect = optionIndex === qObj.answer;
 
       return `
         <div class="space-y-2">
-          <div class="p-2 rounded-lg ${isCorrect ? 'bg-emerald-950/60 border border-emerald-500/30 text-emerald-300' : 'bg-rose-950/60 border border-rose-500/30 text-rose-300'} font-bold">
+          <div class="p-2 rounded-lg ${isCorrect ? 'bg-emerald-950/80 border border-emerald-500/40 text-emerald-300' : 'bg-rose-950/80 border border-rose-500/40 text-rose-300'} font-bold">
             ${isCorrect ? '✅ Correct Option Choice' : '❌ Option Analysis (' + optionLetter + ')'}
           </div>
           <div class="text-slate-300 italic bg-slate-900 p-2 rounded border border-slate-800">
