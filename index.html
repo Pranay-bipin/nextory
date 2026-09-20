@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nextory | Daily Verbal & Comprehension Prep</title>
+  <title>NEXTORY - Verbal Ability & Reading Comprehension</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,171 +17,152 @@
     .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(99, 102, 241, 0.4); border-radius: 4px; }
   </style>
 </head>
-<body class="h-full flex flex-col bg-slate-950 text-slate-200 antialiased selection:bg-indigo-500 selection:text-white">
+<body class="min-h-screen flex flex-col bg-slate-950 text-slate-200 antialiased">
 
-  <!-- Header -->
+  <!-- Navbar -->
   <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur-md sticky top-0 z-40">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-      
-      <!-- Brand Logo -->
-      <div class="flex items-center gap-3 cursor-pointer" onclick="switchMainTab('vocab')">
-        <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center font-black text-white text-lg shadow-lg shadow-indigo-500/20 tracking-wider">NX</div>
+      <div class="flex items-center gap-3">
+        <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center font-extrabold text-white text-lg shadow-lg shadow-indigo-500/20">NX</div>
         <div>
-          <span class="font-black text-xl tracking-tight bg-gradient-to-r from-white via-slate-200 to-indigo-300 bg-clip-text text-transparent">NEXTORY</span>
-          <p class="text-[10px] text-indigo-400 font-semibold tracking-wider uppercase hidden sm:block">Aptitude & Verbal Mastery</p>
+          <span class="font-extrabold text-xl tracking-tight bg-gradient-to-r from-white via-slate-200 to-indigo-300 bg-clip-text text-transparent">NEXTORY</span>
+          <span class="hidden sm:inline-block ml-2 text-xs font-semibold px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">Daily Verbal Booster</span>
         </div>
       </div>
 
-      <!-- Navigation Tabs -->
-      <nav class="flex items-center gap-1 sm:gap-2">
-        <button id="tab-btn-vocab" onclick="switchMainTab('vocab')" class="px-3 sm:px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-2 bg-indigo-600 text-white shadow-md shadow-indigo-600/20">
-          <i class="fa-solid fa-book-open-reader"></i> <span class="hidden sm:inline">Daily Boost</span>
+      <nav class="flex items-center gap-2 bg-slate-800/80 p-1 rounded-xl border border-slate-700/60">
+        <button id="nav-vocab" onclick="switchTab('vocab')" class="px-3.5 py-1.5 rounded-lg text-xs font-bold transition bg-indigo-600 text-white shadow-sm">
+          <i class="fa-solid fa-book-open mr-1.5"></i> Daily Vocab
         </button>
-        <button id="tab-btn-rc" onclick="switchMainTab('rc')" class="px-3 sm:px-4 py-2 rounded-lg text-xs font-bold text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition flex items-center gap-2">
-          <i class="fa-solid fa-file-signature"></i> <span class="hidden sm:inline">Daily RC</span>
-        </button>
-        <button id="tab-btn-archive" onclick="toggleArchiveModal()" class="px-3 sm:px-4 py-2 rounded-lg text-xs font-bold text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition flex items-center gap-2">
-          <i class="fa-solid fa-folder-open"></i> <span class="hidden sm:inline">Archives</span>
+        <button id="nav-rc" onclick="switchTab('rc')" class="px-3.5 py-1.5 rounded-lg text-xs font-bold transition text-slate-400 hover:text-white">
+          <i class="fa-solid fa-align-left mr-1.5"></i> Reading Passage
         </button>
       </nav>
 
-      <!-- Streak Badge -->
-      <div class="flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1.5 rounded-lg">
-        <span>🔥</span> <span>1 Day Streak</span>
+      <div class="flex items-center gap-3">
+        <button onclick="toggleArchiveModal()" class="bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold px-3 py-1.5 rounded-lg border border-slate-700 transition flex items-center gap-1.5">
+          <i class="fa-solid fa-folder-open text-amber-400"></i> Past RCs
+        </button>
+        <div class="hidden sm:flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1.5 rounded-lg">
+          <span>🔥</span> <span>1 Day Streak</span>
+        </div>
       </div>
-
     </div>
   </header>
 
-  <!-- ================= TAB 1: DAILY VERBAL BOOST (DEFAULT LANDING) ================= -->
-  <main id="section-vocab" class="max-w-7xl mx-auto px-4 sm:px-6 py-8 flex-grow w-full space-y-8">
+  <!-- TAB 1: DAILY VOCAB, IDIOMS & PHRASAL VERBS -->
+  <main id="tab-vocab" class="max-w-7xl mx-auto px-4 sm:px-6 py-8 w-full space-y-10">
     
     <!-- Hero Banner -->
-    <div class="bg-gradient-to-r from-indigo-950 via-slate-900 to-slate-950 border border-indigo-500/20 rounded-3xl p-6 sm:p-8 relative overflow-hidden shadow-2xl">
-      <div class="max-w-2xl relative z-10 space-y-3">
-        <span class="inline-block px-3 py-1 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-xs font-bold uppercase tracking-wider">Today's Verbal Target</span>
-        <h1 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-white">Master Vocabulary, Idioms & Phrasal Verbs</h1>
-        <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">Strengthen your verbal reasoning and comprehension foundation before diving into today's Reading Comprehension challenge.</p>
-        <div class="pt-2 flex flex-wrap gap-3">
-          <button onclick="switchMainTab('rc')" class="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 font-bold text-xs text-white shadow-lg shadow-indigo-600/30 transition flex items-center gap-2">
-            Proceed to Daily RC Practice <i class="fa-solid fa-arrow-right"></i>
-          </button>
-        </div>
+    <div class="bg-gradient-to-r from-indigo-950 via-slate-900 to-slate-950 border border-indigo-900/40 rounded-2xl p-6 sm:p-8 relative overflow-hidden shadow-2xl">
+      <div class="relative z-10 space-y-3 max-w-2xl">
+        <span class="bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">Today's Verbal Booster</span>
+        <h1 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Master High-Frequency Vocabulary, Idioms & Phrasal Verbs</h1>
+        <p class="text-sm text-slate-300 leading-relaxed">Build strong comprehension foundations before practicing today's advanced reading passage.</p>
+        <button onclick="switchTab('rc')" class="mt-2 inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs px-5 py-2.5 rounded-xl shadow-lg transition">
+          Proceed to Daily Reading Practice <i class="fa-solid fa-arrow-right"></i>
+        </button>
       </div>
     </div>
 
-    <!-- Section 1: Today's Top 10 Words -->
+    <!-- Top 10 Vocabulary Words Grid -->
     <section class="space-y-4">
-      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
-        <h2 class="text-lg font-bold text-slate-100 flex items-center gap-2">
-          <i class="fa-solid fa-arrow-trend-up text-indigo-400"></i> Top 10 Daily Vocabulary Words
+      <div class="flex justify-between items-center border-b border-slate-800 pb-3">
+        <h2 class="text-lg font-bold text-white flex items-center gap-2">
+          <i class="fa-solid fa-brain text-indigo-400"></i> Top 10 High-Frequency Vocabulary Words
         </h2>
-        <span class="text-xs text-slate-400">High-Frequency Words</span>
+        <span class="text-xs text-indigo-400 font-semibold bg-indigo-500/10 px-2.5 py-1 rounded-md border border-indigo-500/20">10 / 10 Active</span>
       </div>
-
-      <div id="words-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <!-- Injected via JS -->
+      <div id="vocab-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+        <!-- Rendered by JS -->
       </div>
     </section>
 
-    <!-- Section 2 & 3: Idioms & Phrasal Verbs Dual Row -->
+    <!-- Idioms & Phrasal Verbs Split Section -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
       
-      <!-- Idioms & Phrases -->
+      <!-- Top 5 Idioms & Phrases -->
       <section class="space-y-4">
-        <div class="flex items-center justify-between border-b border-slate-800 pb-3">
-          <h2 class="text-base font-bold text-slate-100 flex items-center gap-2">
+        <div class="flex justify-between items-center border-b border-slate-800 pb-3">
+          <h2 class="text-md font-bold text-white flex items-center gap-2">
             <i class="fa-solid fa-comments text-amber-400"></i> Today's Top 5 Idioms & Phrases
           </h2>
         </div>
-        <div id="idioms-container" class="space-y-3">
-          <!-- Injected via JS -->
+        <div id="idioms-grid" class="space-y-3">
+          <!-- Rendered by JS -->
         </div>
       </section>
 
-      <!-- Phrasal Verbs -->
+      <!-- Top 5 Phrasal Verbs -->
       <section class="space-y-4">
-        <div class="flex items-center justify-between border-b border-slate-800 pb-3">
-          <h2 class="text-base font-bold text-slate-100 flex items-center gap-2">
+        <div class="flex justify-between items-center border-b border-slate-800 pb-3">
+          <h2 class="text-md font-bold text-white flex items-center gap-2">
             <i class="fa-solid fa-bolt text-emerald-400"></i> Today's Top 5 Phrasal Verbs
           </h2>
         </div>
-        <div id="phrasals-container" class="space-y-3">
-          <!-- Injected via JS -->
+        <div id="phrasal-grid" class="space-y-3">
+          <!-- Rendered by JS -->
         </div>
       </section>
 
     </div>
   </main>
 
-  <!-- ================= TAB 2: READING COMPREHENSION PORTAL ================= -->
-  <main id="section-rc" class="hidden max-w-7xl mx-auto px-4 sm:px-6 py-6 flex-grow w-full grid grid-cols-1 lg:grid-cols-12 gap-6">
+  <!-- TAB 2: READING COMPREHENSION PRACTICE -->
+  <main id="tab-rc" class="hidden max-w-7xl mx-auto px-4 sm:px-6 py-6 w-full grid grid-cols-1 lg:grid-cols-12 gap-6 flex-grow">
     
-    <!-- Left Column: Reading Passage (7 Cols) -->
-    <section class="lg:col-span-7 flex flex-col h-[calc(100vh-7rem)] bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
-      
-      <!-- Passage Control Header -->
+    <!-- Passage Column (7 Cols) -->
+    <section class="lg:col-span-7 flex flex-col min-h-[600px] bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
       <div class="p-4 bg-slate-900/90 border-b border-slate-800 flex flex-wrap items-center justify-between gap-3">
         <div class="flex items-center gap-2">
-          <span id="rc-genre" class="bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-xs font-bold px-2.5 py-1 rounded-md">Genre</span>
-          <span id="rc-difficulty" class="bg-amber-500/10 text-amber-400 border border-amber-500/20 text-xs font-bold px-2.5 py-1 rounded-md">Advanced Level</span>
+          <span id="rc-genre" class="bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-xs font-bold px-2.5 py-1 rounded-md">Philosophy & Tech</span>
+          <span id="rc-difficulty" class="bg-rose-500/10 text-rose-400 border border-rose-500/20 text-xs font-bold px-2.5 py-1 rounded-md">Advanced Standard</span>
         </div>
-        
         <div class="flex items-center gap-3">
-          <div class="flex items-center gap-1.5 bg-slate-800 px-3 py-1 rounded-lg border border-slate-700 text-xs text-slate-300">
-            <i class="fa-regular fa-clock text-indigo-400"></i> <span id="timer">00:00</span>
-          </div>
+          <span class="text-xs text-slate-400"><i class="fa-regular fa-clock text-indigo-400"></i> <span id="timer">00:00</span></span>
           <div class="flex items-center gap-1">
-            <button onclick="adjustFontSize(-1)" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-bold border border-slate-700">A-</button>
-            <button onclick="adjustFontSize(1)" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-bold border border-slate-700">A+</button>
+            <button onclick="adjustFontSize(-1)" class="w-7 h-7 rounded bg-slate-800 text-xs font-bold border border-slate-700">A-</button>
+            <button onclick="adjustFontSize(1)" class="w-7 h-7 rounded bg-slate-800 text-xs font-bold border border-slate-700">A+</button>
           </div>
         </div>
       </div>
 
-      <!-- Passage Title & Meta -->
-      <div class="px-6 pt-5 pb-3 border-b border-slate-800/50">
+      <div class="px-6 pt-5 pb-3">
         <h1 id="rc-title" class="text-xl sm:text-2xl font-bold text-slate-100 tracking-tight leading-snug">Loading Passage...</h1>
-        <p class="text-xs text-slate-400 mt-2 flex items-center gap-4">
+        <p class="text-xs text-slate-400 mt-1 flex items-center gap-3">
           <span><i class="fa-regular fa-file-word text-indigo-400 mr-1"></i> Word Count: <strong id="word-count">550+ words</strong></span>
-          <span><i class="fa-solid fa-list-ol text-indigo-400 mr-1"></i> Questions: <strong>6 Questions</strong></span>
+          <span><i class="fa-solid fa-list-check text-indigo-400 mr-1"></i> <strong>6 Questions</strong></span>
         </p>
       </div>
 
-      <!-- Passage Text (Scrollable) -->
-      <div id="rc-passage" class="flex-grow p-6 overflow-y-auto custom-scrollbar serif-text text-slate-300 leading-relaxed space-y-4 text-base">
+      <div id="rc-passage" class="flex-grow p-6 overflow-y-auto custom-scrollbar serif-text text-slate-300 leading-relaxed space-y-4 text-base border-t border-slate-800/50">
         <p class="animate-pulse text-slate-500">Loading passage content...</p>
       </div>
     </section>
 
-    <!-- Right Column: Questions & Solutions (5 Cols) -->
-    <section class="lg:col-span-5 flex flex-col h-[calc(100vh-7rem)] bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
+    <!-- Questions Column (5 Cols) -->
+    <section class="lg:col-span-5 flex flex-col min-h-[600px] bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
       <div class="p-4 bg-slate-900 border-b border-slate-800 flex justify-between items-center">
-        <h2 class="font-bold text-slate-200 text-xs sm:text-sm flex items-center gap-2">
-          <i class="fa-solid fa-list-check text-indigo-400"></i> Questions & Detailed Elimination
+        <h2 class="font-bold text-slate-200 text-xs flex items-center gap-2">
+          <i class="fa-solid fa-list-check text-indigo-400"></i> Questions & Step-by-Step Elimination
         </h2>
-        <span id="score-badge" class="text-xs bg-slate-800 text-slate-400 font-semibold px-2.5 py-1 rounded-md border border-slate-700">0/6 Completed</span>
+        <span id="score-badge" class="text-xs bg-slate-800 text-indigo-300 font-semibold px-2 py-0.5 rounded border border-slate-700">0/6 Completed</span>
       </div>
-
-      <!-- Questions Container -->
       <div id="questions-container" class="flex-grow p-5 overflow-y-auto custom-scrollbar space-y-6">
-        <!-- Injected via JS -->
+        <!-- Rendered by JS -->
       </div>
     </section>
 
   </main>
 
-  <!-- Archives Drawer Modal -->
+  <!-- Past RCs Modal -->
   <div id="archive-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-md hidden z-50 flex items-center justify-center p-4">
     <div class="bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl max-w-lg w-full overflow-hidden">
       <div class="p-4 border-b border-slate-800 flex justify-between items-center bg-slate-800/50">
-        <h3 class="font-bold text-slate-100 flex items-center gap-2 text-sm">
-          <i class="fa-solid fa-clock-rotate-left text-amber-400"></i> Past RC Archives
-        </h3>
+        <h3 class="font-bold text-slate-100 flex items-center gap-2"><i class="fa-solid fa-clock-rotate-left text-amber-400"></i> Past Passage Archives</h3>
         <button onclick="toggleArchiveModal()" class="text-slate-400 hover:text-white font-bold text-xl">&times;</button>
       </div>
-      <div id="archive-list" class="p-4 max-h-[60vh] overflow-y-auto custom-scrollbar space-y-3">
-        <!-- Injected via JS -->
-      </div>
+      <div id="archive-list" class="p-4 max-h-[60vh] overflow-y-auto custom-scrollbar space-y-3"></div>
     </div>
   </div>
 
@@ -190,35 +171,124 @@
     let timerSeconds = 0;
     let timerInterval = null;
 
-    function switchMainTab(tab) {
-      const vSection = document.getElementById('section-vocab');
-      const rSection = document.getElementById('section-rc');
-      const vBtn = document.getElementById('tab-btn-vocab');
-      const rBtn = document.getElementById('tab-btn-rc');
+    // Hardcoded Fallback RC Data to guarantee passage loads even if JSON fetch fails
+    const defaultRC = {
+      id: "rc-default",
+      date: "2026-09-20",
+      title: "The Fallacy of Algorithmic Objectivity",
+      genre: "Sociology & Tech",
+      difficulty: "Advanced Standard",
+      passage: "Algorithms are frequently framed in modern technological discourse as impartial arbiters of human activity, purportedly free from the visceral emotional biases and cognitive shortcomings that pollute human judgment. However, this triumphalist narrative misinterprets the fundamental ontological nature of computational systems: an algorithm is not a neutral mathematical oracle, but a static encoding of historical training data.\n\nBecause historical datasets reflect structural inequities, systemic marginalization, and institutional blind spots, training neural networks on past human behavior inevitably codifies and amplifies those same disparities under the deceptive guise of statistical objectivity. When predictive policing models allocate law enforcement resources based on historical arrest records, they do not predict crime; rather, they predict where police were previously deployed, reinforcing a feedback loop of hyper-surveillance.\n\nFurthermore, the opacity of deep neural networks—commonly referred to as the 'black box' problem—compounds this ethical dilemma. Unlike traditional expert systems governed by explicit rule-based logic, deep learning models derive non-linear feature representations that remain incomprehensible even to their chief architects. When an algorithm denies a mortgage application or recommends parole revocation, tracing the deterministic causal chain behind that output becomes an exercise in futility. Consequently, automating high-stakes societal decisions does not eliminate human prejudice; it merely mechanizes it, rendering bias invisible, systemic, and entirely immune to democratic accountability.",
+      questions: [
+        {
+          id: "q1",
+          question: "Which of the following best summarizes the central thesis of the author regarding predictive algorithmic models?",
+          options: [
+            "A) Algorithmic models process historical data with unmatched mathematical precision.",
+            "B) Machine learning models formalize historical inequities while cloaking them in objectivity.",
+            "C) AI systems fail primarily due to technical errors in non-linear statistical regressions.",
+            "D) Predictive policing should be immediately replaced with traditional rule-based algorithms."
+          ],
+          answer: 1,
+          explanation: "<strong>Why Option B is Correct:</strong> Paragraph 1 & 2 state that algorithms encode historical data (containing biases) and amplify disparities under statistical objectivity.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A:</em> Opposes the text refuting algorithmic impartiality.<br>• <em>Option C:</em> Distorts the text mentioning non-linear models to explain opacity, not regression errors.<br>• <em>Option D:</em> The author uses policing only as an example, not as a policy proposal."
+        },
+        {
+          id: "q2",
+          question: "The author refers to the 'black box' problem in order to demonstrate that:",
+          options: [
+            "A) Computer engineers intentionally conceal biased source code.",
+            "B) Complex algorithms fail to process non-linear datasets efficiently.",
+            "C) Model opacity renders decisions immune to democratic accountability.",
+            "D) Historical training data contains irrecoverable mathematical corruption."
+          ],
+          answer: 2,
+          explanation: "<strong>Why Option C is Correct:</strong> Paragraph 3 explains that untraceable causal logic makes decisions 'invisible, systemic, and entirely immune to democratic accountability.'<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A:</em> Extreme trap; text notes code is incomprehensible even to architects.<br>• <em>Option B:</em> Factually inaccurate; neural networks process non-linear data well.<br>• <em>Option D:</em> The black box refers to internal opacity, not file corruption."
+        }
+      ]
+    };
 
+    const vocabList = [
+      { word: "Perspicacious", type: "adj", def: "Having a ready insight into and understanding of things; mentally perceptive.", ex: "Her perspicacious analysis of the text revealed subtle tone shifts." },
+      { word: "Equanimity", type: "noun", def: "Mental calmness and composure, especially in difficult situations.", ex: "He maintained absolute equanimity throughout the strenuous verbal section." },
+      { word: "Obfuscate", type: "verb", def: "To deliberately make something unclear, obscure, or unintelligible.", ex: "The passage uses dense academic jargon to obfuscate the core thesis." },
+      { word: "Sycophant", type: "noun", def: "A person who acts obsequiously toward someone to gain advantage.", ex: "The author criticizes sycophants who flatter corporate leaders unconditionally." },
+      { word: "Recalcitrant", type: "adj", def: "Having an obstinately uncooperative attitude toward authority.", ex: "The recalcitrant committee refused to adopt the proposed structural reforms." },
+      { word: "Ineffable", type: "adj", def: "Too great or extreme to be expressed or described in words.", ex: "The poem attempts to capture the ineffable complexity of human consciousness." },
+      { word: "Fastidious", type: "adj", def: "Very attentive to and concerned about accuracy and detail.", ex: "A fastidious reader immediately notices subtle logical flaws in arguments." },
+      { word: "Truculent", type: "adj", def: "Eager or quick to argue or fight; aggressively defiant.", ex: "His truculent tone alienated reviewers during the peer review process." },
+      { word: "Pervasive", type: "adj", def: "Spreading widely throughout an area or a group of people.", ex: "Commercialization has a pervasive influence on contemporary art choices." },
+      { word: "Esoteric", type: "adj", def: "Intended for or likely to be understood by only a small group.", ex: "The essay focuses on an esoteric branch of 19th-century political philosophy." }
+    ];
+
+    const idiomsList = [
+      { idiom: "Burn the midnight oil", def: "To work or study late into the night.", ex: "She burned the midnight oil preparing for her verbal reasoning test." },
+      { idiom: "Read between the lines", def: "To understand a subtle or implicit meaning not directly stated.", ex: "To answer inference questions correctly, you must read between the lines." },
+      { idiom: "Take with a grain of salt", def: "To view a statement with skepticism or caution.", ex: "Critical readers take unverified statistical claims with a grain of salt." },
+      { idiom: "Steal someone's thunder", def: "To take credit for someone else's ideas or accomplishments.", ex: "The rival researcher stole his thunder by publishing the discovery first." },
+      { idiom: "Bite the bullet", def: "To face a difficult situation with courage and get it over with.", ex: "He bit the bullet and spent three hours analyzing complex reading passages." }
+    ];
+
+    const phrasalList = [
+      { verb: "Iron out", def: "To resolve small problems, difficulties, or details.", ex: "They ironed out their logical disagreements before finalizing the paper." },
+      { verb: "Pertain to", def: "To be directly related or relevant to a specific topic.", ex: "The second paragraph pertains to the historical precedents of economic policy." },
+      { verb: "Whittle down", def: "To gradually reduce the size or number of options.", ex: "Through process of elimination, she whittled down the four options to one." },
+      { verb: "Gloss over", def: "To treat or describe something lightly or deceptively.", ex: "The author refuses to gloss over the catastrophic consequences of climate change." },
+      { verb: "Root out", def: "To find and completely eradicate or remove something bad.", ex: "Independent audits help root out systemic biases in financial reporting." }
+    ];
+
+    function switchTab(tab) {
       if (tab === 'vocab') {
-        vSection.classList.remove('hidden');
-        rSection.classList.add('hidden');
-        vBtn.className = "px-3 sm:px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-2 bg-indigo-600 text-white shadow-md shadow-indigo-600/20";
-        rBtn.className = "px-3 sm:px-4 py-2 rounded-lg text-xs font-bold text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition flex items-center gap-2";
+        document.getElementById('tab-vocab').classList.remove('hidden');
+        document.getElementById('tab-rc').classList.add('hidden');
+        document.getElementById('nav-vocab').className = "px-3.5 py-1.5 rounded-lg text-xs font-bold transition bg-indigo-600 text-white shadow-sm";
+        document.getElementById('nav-rc').className = "px-3.5 py-1.5 rounded-lg text-xs font-bold transition text-slate-400 hover:text-white";
       } else {
-        rSection.classList.remove('hidden');
-        vSection.classList.add('hidden');
-        rBtn.className = "px-3 sm:px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-2 bg-indigo-600 text-white shadow-md shadow-indigo-600/20";
-        vBtn.className = "px-3 sm:px-4 py-2 rounded-lg text-xs font-bold text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition flex items-center gap-2";
-        startTimer();
+        document.getElementById('tab-vocab').classList.add('hidden');
+        document.getElementById('tab-rc').classList.remove('hidden');
+        document.getElementById('nav-rc').className = "px-3.5 py-1.5 rounded-lg text-xs font-bold transition bg-indigo-600 text-white shadow-sm";
+        document.getElementById('nav-vocab').className = "px-3.5 py-1.5 rounded-lg text-xs font-bold transition text-slate-400 hover:text-white";
       }
     }
 
-    function startTimer() {
-      clearInterval(timerInterval);
-      timerSeconds = 0;
-      timerInterval = setInterval(() => {
-        timerSeconds++;
-        const m = String(Math.floor(timerSeconds / 60)).padStart(2, '0');
-        const s = String(timerSeconds % 60).padStart(2, '0');
-        document.getElementById('timer').innerText = `${m}:${s}`;
-      }, 1000);
+    function renderVocabSection() {
+      // 10 Words
+      const vGrid = document.getElementById('vocab-grid');
+      vGrid.innerHTML = vocabList.map((v, i) => `
+        <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 space-y-2 hover:border-indigo-500/40 transition">
+          <div class="flex justify-between items-center">
+            <span class="text-xs text-indigo-400 font-bold">#${i + 1} ${v.word} <span class="text-[10px] text-slate-500 italic">(${v.type})</span></span>
+            <button onclick="speak('${v.word}')" class="text-slate-400 hover:text-indigo-400 text-xs"><i class="fa-solid fa-volume-high"></i></button>
+          </div>
+          <p class="text-xs text-slate-300 font-medium">${v.def}</p>
+          <p class="text-[11px] text-slate-400 italic bg-slate-950/60 p-2 rounded border border-slate-800/80">"${v.ex}"</p>
+        </div>
+      `).join('');
+
+      // 5 Idioms
+      const iGrid = document.getElementById('idioms-grid');
+      iGrid.innerHTML = idiomsList.map(i => `
+        <div class="p-3.5 rounded-xl bg-slate-900 border border-slate-800 space-y-1">
+          <p class="text-xs font-bold text-amber-400"><i class="fa-solid fa-quote-left mr-1.5 opacity-60"></i> ${i.idiom}</p>
+          <p class="text-xs text-slate-300">${i.def}</p>
+          <p class="text-[11px] text-slate-500 italic">Example: "${i.ex}"</p>
+        </div>
+      `).join('');
+
+      // 5 Phrasal Verbs
+      const pGrid = document.getElementById('phrasal-grid');
+      pGrid.innerHTML = phrasalList.map(p => `
+        <div class="p-3.5 rounded-xl bg-slate-900 border border-slate-800 space-y-1">
+          <p class="text-xs font-bold text-emerald-400"><i class="fa-solid fa-bolt mr-1.5 opacity-60"></i> ${p.verb}</p>
+          <p class="text-xs text-slate-300">${p.def}</p>
+          <p class="text-[11px] text-slate-500 italic">Example: "${p.ex}"</p>
+        </div>
+      `).join('');
+    }
+
+    function speak(text) {
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'en-US';
+      window.speechSynthesis.speak(u);
     }
 
     function adjustFontSize(delta) {
@@ -230,86 +300,18 @@
       document.getElementById('archive-modal').classList.toggle('hidden');
     }
 
-    function speakWord(text) {
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'en-US';
-      window.speechSynthesis.speak(utterance);
-    }
-
-    async function loadData() {
+    async function fetchDailyRC() {
       try {
         const res = await fetch('/passages.json');
         if (res.ok) {
-          const data = await res.json();
-          renderVocabSection(data.vocabData || getFallbackVocab());
-          renderArchiveList(data.rcPassages || []);
-          if (data.rcPassages && data.rcPassages.length > 0) {
-            renderRC(data.rcPassages[data.rcPassages.length - 1]);
-          }
+          const list = await res.json();
+          renderArchiveList(list);
+          if (list && list.length > 0) return list[list.length - 1];
         }
       } catch (e) {
-        console.warn("Error loading json data:", e);
-        renderVocabSection(getFallbackVocab());
+        console.warn("Using local fallback RC...", e);
       }
-    }
-
-    function renderVocabSection(vocab) {
-      // Top 10 Words
-      const wordsGrid = document.getElementById('words-grid');
-      wordsGrid.innerHTML = '';
-      vocab.words.forEach((w, idx) => {
-        const card = document.createElement('div');
-        card.className = "bg-slate-900 border border-slate-800 rounded-2xl p-4 hover:border-indigo-500/40 transition space-y-2";
-        card.innerHTML = `
-          <div class="flex items-center justify-between">
-            <div class="flex items-center gap-2">
-              <span class="text-xs font-extrabold text-indigo-400">#${idx + 1}</span>
-              <h3 class="font-extrabold text-base text-slate-100">${w.word}</h3>
-              <span class="text-[10px] text-slate-400 italic">${w.type}</span>
-            </div>
-            <button onclick="speakWord('${w.word}')" class="text-slate-400 hover:text-amber-400 p-1">
-              <i class="fa-solid fa-volume-high text-xs"></i>
-            </button>
-          </div>
-          <p class="text-xs text-slate-300 font-medium">${w.meaning}</p>
-          <div class="p-2.5 rounded-xl bg-slate-950/60 border border-slate-800 text-[11px] text-slate-400 italic">
-            "${w.context}"
-          </div>
-        `;
-        wordsGrid.appendChild(card);
-      });
-
-      // Idioms
-      const idiomsContainer = document.getElementById('idioms-container');
-      idiomsContainer.innerHTML = '';
-      vocab.idioms.forEach(item => {
-        const div = document.createElement('div');
-        div.className = "p-3.5 bg-slate-900 border border-slate-800 rounded-xl space-y-1";
-        div.innerHTML = `
-          <h4 class="text-xs font-bold text-amber-300 flex items-center gap-2">
-            <i class="fa-solid fa-quote-left text-[10px] text-amber-500"></i> ${item.idiom}
-          </h4>
-          <p class="text-xs text-slate-200 font-medium">${item.meaning}</p>
-          <p class="text-[11px] text-slate-400 italic">Example: "${item.example}"</p>
-        `;
-        idiomsContainer.appendChild(div);
-      });
-
-      // Phrasal Verbs
-      const phrasalsContainer = document.getElementById('phrasals-container');
-      phrasalsContainer.innerHTML = '';
-      vocab.phrasalVerbs.forEach(item => {
-        const div = document.createElement('div');
-        div.className = "p-3.5 bg-slate-900 border border-slate-800 rounded-xl space-y-1";
-        div.innerHTML = `
-          <h4 class="text-xs font-bold text-emerald-300 flex items-center gap-2">
-            <i class="fa-solid fa-bolt text-[10px] text-emerald-500"></i> ${item.verb}
-          </h4>
-          <p class="text-xs text-slate-200 font-medium">${item.meaning}</p>
-          <p class="text-[11px] text-slate-400 italic">Example: "${item.example}"</p>
-        `;
-        phrasalsContainer.appendChild(div);
-      });
+      return defaultRC;
     }
 
     function renderRC(rc) {
@@ -318,16 +320,11 @@
       document.getElementById('rc-genre').innerText = rc.genre;
       document.getElementById('rc-difficulty').innerText = rc.difficulty || 'Advanced Level';
 
-      const wordCount = rc.passage.split(/\s+/).length;
-      document.getElementById('word-count').innerText = `${wordCount} words`;
-
-      // Render Paragraphs
       const paragraphs = rc.passage.split('\n\n');
       document.getElementById('rc-passage').innerHTML = paragraphs
         .map(p => `<p class="mb-4">${p}</p>`)
         .join('');
 
-      // Render 6 Questions
       const container = document.getElementById('questions-container');
       container.innerHTML = '';
 
@@ -355,6 +352,8 @@
         `;
         container.appendChild(qCard);
       });
+
+      startTimer();
     }
 
     function checkAnswer(qIdx, selectedIdx, correctIdx) {
@@ -380,15 +379,22 @@
 
       solBox.innerHTML = `
         <div class="font-bold flex items-center gap-2">
-          ${isCorrect ? '<i class="fa-solid fa-circle-check text-emerald-400"></i> Correct Rationale' : '<i class="fa-solid fa-circle-xmark text-rose-400"></i> Detailed Elimination Rationale'}
+          ${isCorrect ? '<i class="fa-solid fa-circle-check text-emerald-400"></i> Correct Explanation' : '<i class="fa-solid fa-circle-xmark text-rose-400"></i> Detailed Elimination Rationale'}
         </div>
-        <div class="space-y-2 text-[11px] leading-relaxed">
-          <p><strong>Core Takeaway:</strong> ${q.explanation.summary}</p>
-          <p class="text-emerald-300"><strong>Why Option ${String.fromCharCode(65 + correctIdx)} is Correct:</strong> ${q.explanation.correctReason}</p>
-          <p class="text-rose-300"><strong>Elimination Breakdown:</strong> ${q.explanation.elimination}</p>
-        </div>
+        <p class="leading-relaxed opacity-90">${q.explanation}</p>
       `;
       solBox.classList.remove('hidden');
+    }
+
+    function startTimer() {
+      clearInterval(timerInterval);
+      timerSeconds = 0;
+      timerInterval = setInterval(() => {
+        timerSeconds++;
+        const m = String(Math.floor(timerSeconds / 60)).padStart(2, '0');
+        const s = String(timerSeconds % 60).padStart(2, '0');
+        document.getElementById('timer').innerText = `${m}:${s}`;
+      }, 1000);
     }
 
     function renderArchiveList(passages) {
@@ -400,7 +406,7 @@
         item.onclick = () => {
           renderRC(p);
           toggleArchiveModal();
-          switchMainTab('rc');
+          switchTab('rc');
         };
         item.innerHTML = `
           <div>
@@ -413,18 +419,11 @@
       });
     }
 
-    function getFallbackVocab() {
-      return {
-        words: [
-          { word: "Perspicacious", type: "adj", meaning: "Having a ready insight into and understanding of things; mentally perceptive.", context: "Her perspicacious analysis of the passage revealed subtle tone shifts." },
-          { word: "Equanimity", type: "noun", meaning: "Mental calmness and composure, especially in difficult situations.", context: "He maintained absolute equanimity throughout the strenuous verbal section." }
-        ],
-        idioms: [{ idiom: "Burn the midnight oil", meaning: "To work or study late into the night.", example: "She burned the midnight oil preparing for her comprehension exam." }],
-        phrasalVerbs: [{ verb: "Iron out", meaning: "To resolve small problems or details.", example: "They ironed out their differences before making the final decision." }]
-      };
-    }
-
-    document.addEventListener('DOMContentLoaded', loadData);
+    document.addEventListener('DOMContentLoaded', async () => {
+      renderVocabSection();
+      const rc = await fetchDailyRC();
+      if (rc) renderRC(rc);
+    });
   </script>
 </body>
 </html>
