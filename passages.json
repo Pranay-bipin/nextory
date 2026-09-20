@@ -3,7 +3,7 @@
     "id": "rc-2026-09-20",
     "date": "2026-09-20",
     "source": "curated",
-    "title": "The Philosophical Imperative of Algorithmic Accountability",
+    "title": "The Epistemological Dilemma of Algorithmic Governance",
     "genre": "Sociology & Epistemology",
     "difficulty": "Advanced Standard",
     "vocab": {
@@ -106,7 +106,70 @@
           "D) Enthusiastic and optimistic about future algorithmic auditing techniques."
         ],
         "answer": 1,
-        "explanation": "<strong>Why Option B is Correct:</strong> The author critically analyzes algorithmic bias, demonstrates ethical concern regarding democratic accountability, and offers reasoned arguments.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Extreme):</em> The author is not dismissive of science, but critical of unchecked technological delegation.<br>• <em>Option C (Incorrect Tone):</em> The author takes a clear normative stance on democratic accountability.<br>• <em>Option D (Incorrect Tone):</em> The author explicitly warns that technical audits alone are insufficient."
+        "explanation": "<strong>Why Option B is Correct:</strong> The author critically analyzes algorithmic bias, demonstrates ethical concern regarding democratic accountability, and offers reasoned arguments.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Extreme):</em> The author is not dismissive of science, but critical of unchecked technological delegation.<br>• <em>Option C (Incorrect Tone):</em> The author takes a clear normative stance on democratic accountability.<br>•  preliminary D (Incorrect Tone): The author explicitly warns that technical audits alone are insufficient."
+      }
+    ]
+  },
+  {
+    "id": "rc-2026-09-21",
+    "date": "2026-09-21",
+    "source": "curated",
+    "title": "The Paradox of Creative Destruction in Modern Digital Capitalism",
+    "genre": "Economics & Philosophy",
+    "difficulty": "Advanced Standard",
+    "vocab": {
+      "words": [
+        { "word": "Iconoclastic", "type": "adj", "def": "Attacking or ignoring cherished beliefs or long-held traditions.", "ex": "His iconoclastic essay challenged traditional economic market theories." },
+        { "word": "Vicissitude", "type": "noun", def: "A change of circumstances or fortune, typically one that is unwelcome.", ex: "Entrepreneurs must adapt swiftly to the unexpected vicissitudes of global markets." },
+        { "word": "Ameliorate", "type": "verb", def: "To make something bad or unsatisfactory better; to improve.", ex: "Targeted fiscal policies helped ameliorate the harsh impact of inflation." },
+        { "word": "Pusillanimous", "type": "adj", def: "Showing a lack of courage or determination; timid.", ex: "Critics condemned the regulatory board's pusillanimous response to market monopolies." },
+        { "word": "Inequity", "type": "noun", def: "Lack of fairness or justice; imbalance.", ex: "Technological disruption often deepens income inequity between skilled and unskilled workers." },
+        { "word": "Transient", "type": "adj", def: "Lasting only for a short time; impermanent.", ex: "Speculative price surges are usually transient and followed by market corrections." },
+        { "word": "Cognizant", "type": "adj", def: "Having knowledge or being aware of something.", ex: "Economists must remain cognizant of societal costs when promoting rapid industrial automation." },
+        { "word": "Dogmatic", "type": "adj", def: "Inclined to lay down principles as incontrovertibly true without evidence.", ex: "A dogmatic adherence to outdated economic models prevents genuine policy reform." },
+        { "word": "Quintessential", "type": "adj", def: "Representing the most perfect or typical example of a quality or class.", ex: "Silicon Valley startups are often viewed as the quintessential symbols of modern innovation." },
+        { "word": "Ubiquitous", "type": "adj", def: "Present, appearing, or found everywhere.", ex: "Mobile payment gateways have become ubiquitous in metropolitan urban markets." }
+      ],
+      "idioms": [
+        { "idiom": "At a crossroads", def: "At a point where an important decision must be made.", ex: "The global energy sector stands at a crossroads between fossil fuels and renewables." },
+        { "idiom": "The lion's share", def: "The largest part or majority of something.", ex: "Tech monopolies continue to capture the lion's share of digital advertising revenue." },
+        { "idiom": "In the pipeline", def: "In the process of being developed, planned, or produced.", ex: "Several groundbreaking antitrust regulations are currently in the legislative pipeline." },
+        { "idiom": "Throw cold water on", def: "To discourage or dampen enthusiasm for an idea or plan.", ex: "Rising interest rates threw cold water on speculative real estate investments." },
+        { "idiom": "Tip of the iceberg", def: "A small, visible part of a problem that is much larger.", ex: "Reported data breaches represent merely the tip of the iceberg in cybersecurity threats." }
+      ],
+      "phrasalVerbs": [
+        { "verb": "Phase out", def: "To gradually stop using or providing something.", ex: "Central banks plan to phase out paper currency in favor of digital assets." },
+        { "verb": "Bank on", def: "To rely on or place confidence in something happening.", ex: "Investors should not bank on uninterrupted economic growth without risk management." },
+        { "verb": "Scale up", def: "To increase the size, amount, or production rate of something.", ex: "The startup successfully scaled up its cloud service infrastructure." },
+        { "verb": "Bear out", def: "To confirm or support a theory or prediction with evidence.", ex: "Recent market trends bear out the analyst's forecast regarding supply chain disruptions." },
+        { "verb": "Claw back", def: "To recover money, power, or land that was previously surrendered.", ex: "Regulators attempted to claw back excessive executive bonuses after the financial crisis." }
+      ]
+    },
+    "passage": "Joseph Schumpeter’s celebrated theory of 'creative destruction' posits that dynamic capitalism inherently progresses through continuous cycles of industrial mutation, relentlessly destroying old economic structures from within while simultaneously creating innovative new paradigms. In Schumpeter’s worldview, economic growth is not an equilibrium process driven by price competition among static firms; rather, it is a turbulent gale spearheaded by visionary entrepreneurs whose technological innovations render established monopolies obsolete.\n\nHowever, in modern digital ecosystems dominated by platform monopolies, the structural mechanics of creative destruction have undergone a fundamental metamorphosis. Unlike industrial-era manufacturing firms whose dominance was constrained by physical capital and diminishing returns to scale, modern digital platform conglomerates benefit from multi-sided network effects, data network feedback loops, and zero marginal distribution costs. These unique structural advantages create unprecedented winner-take-all dynamics that insulate dominant firms from competitive disruption.\n\nWhen a novel digital technology emerges today, platform monopolies rarely succumb to competitive displacement. Instead, they leverage vast cash reserves and comprehensive user surveillance data to execute defensive acquisitions—commonly referred to as 'killer acquisitions'—thereby neutralizing potential rivals before they achieve critical network scale. Consequently, creative destruction is effectively replaced by 'creative absorption,' where market incumbents systematically buy, absorb, or suppress disruptive innovations to perpetuate their own market dominance.\n\nThis structural consolidation carries severe macroeconomic implications for productivity and wealth distribution. By stifling genuine market entry, platform monopolies reduce economy-wide innovation, depress wage growth for specialized tech workers, and concentrate economic surplus into financial capital rather than productive investment. Therefore, preserving economic dynamism in the 21st century requires a radical rethink of traditional antitrust jurisprudence—transitioning from a passive focus on immediate consumer prices to an active defense of open market contestability.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best summarizes the main argument of the author regarding Schumpeter's theory in modern digital markets?",
+        "options": [
+          "A) Creative destruction has accelerated rapidly in digital ecosystems, enabling small startups to displace platform monopolies with ease.",
+          "B) Digital network dynamics allow platform monopolies to transform creative destruction into 'creative absorption', neutralizing disruptive market competition.",
+          "C) Schumpeter’s economic theories were fundamentally flawed because they failed to consider manufacturing supply chains.",
+          "D) Antitrust regulators should focus exclusively on lowering consumer retail prices in tech sectors."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Why Option B is Correct:</strong> Paragraph 3 explicitly explains that dominant firms use acquisitions to absorb or suppress rivals, replacing creative destruction with 'creative absorption.'<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Opposite Trap):</em> Contradicts Paragraph 2 & 3, which state monopolies are insulated from disruption.<br>• <em>Option C (Distortion):</em> The text does not say Schumpeter was flawed regarding manufacturing, but that digital markets operate under new mechanics.<br>• <em>Option D (Opposite View):</em> Paragraph 4 advocates transitioning AWAY from a passive focus on consumer prices."
+      },
+      {
+        "id": "q2",
+        "question": "According to the passage, modern digital platforms differ from industrial-era manufacturing firms primarily because digital platforms:",
+        "options": [
+          "A) Require massive physical capital investments to achieve distribution scale.",
+          "B) Benefit from multi-sided network effects, data feedback loops, and zero marginal costs.",
+          "C) Are legally prohibited from executing corporate mergers and acquisitions.",
+          "D) Experience rapid diminishing returns when expanding user bases."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Why Option B is Correct:</strong> Paragraph 2 directly highlights network effects, data feedback loops, and zero marginal costs as the key differences.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Opposite):</em> Text states manufacturing relied on physical capital, not digital platforms.<br>• <em>Option C (False):</em> Paragraph 3 explicitly states they execute acquisitions frequently.<br>• <em>Option D (Opposite):</em> Manufacturing faced diminishing returns, whereas digital platforms enjoy scale advantages."
       }
     ]
   }
