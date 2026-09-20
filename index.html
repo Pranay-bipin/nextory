@@ -72,7 +72,7 @@
       <div id="vocab-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
     </section>
 
-    <!-- Idioms & Phrasal Verbs Split Grid -->
+    <!-- Idioms & Phrasal Verbs -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <section class="space-y-4">
         <div class="border-b border-slate-800 pb-3">
@@ -101,14 +101,14 @@
         <div class="flex items-center gap-3">
           <span class="text-xs text-slate-300 font-mono bg-slate-800 px-2.5 py-1 rounded border border-slate-700">⏱️ <span id="timer">00:00</span></span>
           <div class="flex items-center gap-1">
-            <button onclick="adjustFontSize(-1)" class="w-7 h-7 rounded bg-slate-800 text-xs font-bold border border-slate-700 hover:bg-slate-700">A-</button>
-            <button onclick="adjustFontSize(1)" class="w-7 h-7 rounded bg-slate-800 text-xs font-bold border border-slate-700 hover:bg-slate-700">A+</button>
+            <button onclick="adjustFontSize(-1)" class="w-7 h-7 rounded bg-slate-800 text-xs font-bold border border-slate-700">A-</button>
+            <button onclick="adjustFontSize(1)" class="w-7 h-7 rounded bg-slate-800 text-xs font-bold border border-slate-700">A+</button>
           </div>
         </div>
       </div>
 
       <div class="px-6 pt-5 pb-3 shrink-0">
-        <h1 id="rc-title" class="text-xl sm:text-2xl font-bold text-slate-100 tracking-tight leading-snug">The Philosophical Imperative of Algorithmic Accountability</h1>
+        <h1 id="rc-title" class="text-xl sm:text-2xl font-bold text-slate-100 tracking-tight leading-snug">The Epistemological Dilemma of Algorithmic Governance</h1>
         <p class="text-xs text-slate-400 mt-1 flex items-center gap-4">
           <span><i class="fa-regular fa-file-word text-indigo-400 mr-1"></i> Word Count: <strong id="word-count" class="text-slate-200">1000+ words</strong></span>
           <span><i class="fa-solid fa-list-check text-indigo-400 mr-1"></i> Questions: <strong class="text-slate-200">6 Questions</strong></span>
@@ -183,33 +183,115 @@
     let userAnswers = {};
     let isSubmitted = false;
 
-    // Default Fallback Vocab Data
-    const fallbackVocab = {
-      words: [
-        { word: "Perspicacious", type: "adj", def: "Having a ready insight into and understanding of things; mentally perceptive.", ex: "Her perspicacious analysis of the text revealed subtle tone shifts." },
-        { word: "Equanimity", type: "noun", def: "Mental calmness and composure, especially in difficult situations.", ex: "He maintained absolute equanimity throughout the strenuous verbal section." },
-        { word: "Obfuscate", type: "verb", def: "To deliberately make something unclear, obscure, or unintelligible.", ex: "The passage uses dense academic jargon to obfuscate the core thesis." },
-        { word: "Sycophant", type: "noun", def: "A person who acts obsequiously toward someone to gain advantage.", ex: "The author criticizes sycophants who flatter corporate leaders unconditionally." },
-        { word: "Recalcitrant", type: "adj", def: "Having an obstinately uncooperative attitude toward authority.", ex: "The recalcitrant committee refused to adopt the proposed structural reforms." },
-        { word: "Ineffable", type: "adj", def: "Too great or extreme to be expressed or described in words.", ex: "The poem attempts to capture the ineffable complexity of human consciousness." },
-        { word: "Fastidious", type: "adj", def: "Very attentive to and concerned about accuracy and detail.", ex: "A fastidious reader immediately notices subtle logical flaws in arguments." },
-        { word: "Truculent", type: "adj", def: "Eager or quick to argue or fight; aggressively defiant.", ex: "His truculent tone alienated reviewers during the peer review process." },
-        { word: "Pervasive", type: "adj", def: "Spreading widely throughout an area or a group of people.", ex: "Commercialization has a pervasive influence on contemporary art choices." },
-        { word: "Esoteric", type: "adj", def: "Intended for or likely to be understood by only a small group.", ex: "The essay focuses on an esoteric branch of 19th-century political philosophy." }
-      ],
-      idioms: [
-        { idiom: "Burn the midnight oil", def: "To work or study late into the night.", ex: "She burned the midnight oil preparing for her verbal reasoning test." },
-        { idiom: "Read between the lines", def: "To understand a subtle or implicit meaning not directly stated.", ex: "To answer inference questions correctly, you must read between the lines." },
-        { idiom: "Take with a grain of salt", def: "To view a statement with skepticism or caution.", ex: "Critical readers take unverified statistical claims with a grain of salt." },
-        { idiom: "Steal someone's thunder", def: "To take credit for someone else's ideas or accomplishments.", ex: "The rival researcher stole his thunder by publishing the discovery first." },
-        { idiom: "Bite the bullet", def: "To face a difficult situation with courage and get it over with.", ex: "He bit the bullet and spent three hours analyzing complex reading passages." }
-      ],
-      phrasalVerbs: [
-        { verb: "Iron out", def: "To resolve small problems, difficulties, or details.", ex: "They ironed out their logical disagreements before finalizing the paper." },
-        { verb: "Pertain to", def: "To be directly related or relevant to a specific topic.", ex: "The second paragraph pertains to the historical precedents of economic policy." },
-        { verb: "Whittle down", def: "To gradually reduce the size or number of options.", ex: "Through process of elimination, she whittled down the four options to one." },
-        { verb: "Gloss over", def: "To treat or describe something lightly or deceptively.", ex: "The author refuses to gloss over the catastrophic consequences of climate change." },
-        { verb: "Root out", def: "To find and completely eradicate or remove something bad.", ex: "Independent audits help root out systemic biases in financial reporting." }
+    // Direct Built-in Backup Data to ensure instant load on GitHub Pages
+    const defaultData = {
+      id: "rc-2026-09-20",
+      date: "2026-09-20",
+      title: "The Epistemological Dilemma of Algorithmic Governance",
+      genre: "Sociology & Epistemology",
+      difficulty: "Advanced Standard",
+      vocab: {
+        words: [
+          { word: "Perspicacious", type: "adj", def: "Having a ready insight into and understanding of things; mentally perceptive.", ex: "Her perspicacious analysis of the text revealed subtle tone shifts." },
+          { word: "Equanimity", type: "noun", def: "Mental calmness and composure, especially in difficult situations.", ex: "He maintained absolute equanimity throughout the strenuous verbal section." },
+          { word: "Obfuscate", type: "verb", def: "To deliberately make something unclear, obscure, or unintelligible.", ex: "The passage uses dense academic jargon to obfuscate the core thesis." },
+          { word: "Sycophant", type: "noun", def: "A person who acts obsequiously toward someone to gain advantage.", ex: "The author criticizes sycophants who flatter corporate leaders unconditionally." },
+          { word: "Recalcitrant", type: "adj", def: "Having an obstinately uncooperative attitude toward authority.", ex: "The recalcitrant committee refused to adopt the proposed structural reforms." },
+          { word: "Ineffable", type: "adj", def: "Too great or extreme to be expressed or described in words.", ex: "The poem attempts to capture the ineffable complexity of human consciousness." },
+          { word: "Fastidious", type: "adj", def: "Very attentive to and concerned about accuracy and detail.", ex: "A fastidious reader immediately notices subtle logical flaws in arguments." },
+          { word: "Truculent", type: "adj", def: "Eager or quick to argue or fight; aggressively defiant.", ex: "His truculent tone alienated reviewers during the peer review process." },
+          { word: "Pervasive", type: "adj", def: "Spreading widely throughout an area or a group of people.", ex: "Commercialization has a pervasive influence on contemporary art choices." },
+          { word: "Esoteric", type: "adj", def: "Intended for or likely to be understood by only a small group.", ex: "The essay focuses on an esoteric branch of 19th-century political philosophy." }
+        ],
+        idioms: [
+          { idiom: "Burn the midnight oil", def: "To work or study late into the night.", ex: "She burned the midnight oil preparing for her verbal reasoning test." },
+          { idiom: "Read between the lines", def: "To understand a subtle or implicit meaning not directly stated.", ex: "To answer inference questions correctly, you must read between the lines." },
+          { idiom: "Take with a grain of salt", def: "To view a statement with skepticism or caution.", ex: "Critical readers take unverified statistical claims with a grain of salt." },
+          { idiom: "Steal someone's thunder", def: "To take credit for someone else's ideas or accomplishments.", ex: "The rival researcher stole his thunder by publishing the discovery first." },
+          { idiom: "Bite the bullet", def: "To face a difficult situation with courage and get it over with.", ex: "He bit the bullet and spent three hours analyzing complex reading passages." }
+        ],
+        phrasalVerbs: [
+          { verb: "Iron out", def: "To resolve small problems, difficulties, or details.", ex: "They ironed out their logical disagreements before finalizing the paper." },
+          { verb: "Pertain to", def: "To be directly related or relevant to a specific topic.", ex: "The second paragraph pertains to the historical precedents of economic policy." },
+          { verb: "Whittle down", def: "To gradually reduce the size or number of options.", ex: "Through process of elimination, she whittled down the four options to one." },
+          { verb: "Gloss over", def: "To treat or describe something lightly or deceptively.", ex: "The author refuses to gloss over the catastrophic consequences of climate change." },
+          { verb: "Root out", def: "To find and completely eradicate or remove something bad.", ex: "Independent audits help root out systemic biases in financial reporting." }
+        ]
+      },
+      passage: "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents of digital transformation champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding the ontological nature of software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in historically disenfranchised neighborhoods. The model's statistical 'objectivity' merely cloaks systemic racial and class prejudice in the prestige of mathematical authority.\n\nFurthermore, the opacity of modern deep learning architecture—commonly termed the 'black box' problem—compounds this ethical dilemma. Unlike classical rule-based expert systems governed by explicit, human-readable logic, modern deep neural networks automatically extract non-linear feature representations across millions of parameters. Consequently, even the lead architects of these systems cannot trace the precise causal chain that leads to a specific prediction. When an automated system denies a mortgage, rejects a job application, or recommends parole revocation, the subject is confronted with a decision that is fundamentally uninterpretable. Tracing the rationale behind the outcome becomes an exercise in futility.\n\nThis epistemic opacity poses a direct threat to democratic governance. In classical jurisprudence, authority is legitimized through the principle of contestability: individuals subjected to adverse state or corporate actions retain the right to demand a reasoned justification and challenge the underlying premises of the decision. When decisions are delegated to opaque algorithms, the principle of contestability is effectively obliterated. One cannot challenge a logic that cannot be articulated. Automating high-stakes social decisions does not eliminate human bias; it merely mechanizes it, rendering systemic prejudice invisible, automated, and immune to democratic accountability.\n\nTo remediate this structural crisis, computer scientists and policy theorists advocate for 'algorithmic explainability' and continuous post-deployment auditing. However, technical patches alone are insufficient. We must fundamentally reframe our ethical framework regarding technology. Society must recognize that delegating ethical and normative judgments to statistical models is itself an ideological choice—one that prioritizes computational efficiency over human dignity and justice. Until we establish robust legal frameworks that mandate transparency and human oversight, computational governance will remain a sophisticated mechanism for perpetuating injustice under the veneer of mathematical neutrality.",
+      questions: [
+        {
+          id: "q1",
+          question: "Which of the following best captures the primary thesis of the author regarding algorithmic governance?",
+          options: [
+            "A) Machine learning algorithms are inherently superior to human decision-making due to their capacity to process multi-dimensional historical datasets without emotional bias.",
+            "B) Delegating high-stakes decisions to algorithms mechanizes historical prejudice while shielding systemic bias behind a false veneer of mathematical neutrality.",
+            "C) The primary danger of artificial intelligence lies in technical coding flaws that can be fully rectified through rigorous post-deployment auditing.",
+            "D) Predictive policing models should be completely abandoned and replaced with classical rule-based expert systems in law enforcement."
+          ],
+          answer: 1,
+          explanation: "<strong>Why Option B is Correct:</strong> Paragraphs 2 and 4 directly state that algorithms encode historical biases and render prejudice invisible and immune to contestability under the guise of statistical objectivity.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Opposite Trap):</em> Paragraph 1 explicitly refutes this 'triumphalist narrative'.<br>• <em>Option C (Distortion):</em> Paragraph 5 explicitly states that 'technical patches alone are insufficient'.<br>• <em>Option D (Out of Scope):</em> Predictive policing is used merely as an illustrative example, not as a central policy recommendation."
+        },
+        {
+          id: "q2",
+          question: "According to the passage, predictive policing algorithms fail to provide objective crime forecasts primarily because they:",
+          options: [
+            "A) Depend on deep learning neural networks that suffer from non-linear computational regressions.",
+            "B) Are trained on historical arrest data that reflects past deployment patterns rather than actual crime occurrences.",
+            "C) Fail to account for economic market fluctuations in disenfranchised neighborhoods.",
+            "D) Rely on rule-based expert logic that cannot adapt to changing urban demographics."
+          ],
+          answer: 1,
+          explanation: "<strong>Why Option B is Correct:</strong> Paragraph 2 explicitly asserts that models trained on arrest records 'predict where police were previously deployed' rather than actual crime rates.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Misattribution):</em> Non-linear representations are discussed in Paragraph 3 regarding opacity, not predictive policing.<br>• <em>Option C (Irrelevant):</em> Economic fluctuations are not mentioned as the cause of policing model failure.<br>• <em>Option D (Factually Incorrect):</em> The text specifies these models are machine learning, not classical rule-based systems."
+        },
+        {
+          id: "q3",
+          question: "The author discusses the 'black box' problem in Paragraph 3 to emphasize that modern neural networks:",
+          options: [
+            "A) Are intentionally designed by computer engineers to evade legal and regulatory scrutiny.",
+            "B) Derive logic from complex parameter interactions that make causal reasoning untraceable even to their creators.",
+            "C) Process historical datasets with far less computational efficiency than rule-based systems.",
+            "D) Generate inaccurate predictions because they ignore multi-dimensional data features."
+          ],
+          answer: 1,
+          explanation: "<strong>Why Option B is Correct:</strong> Paragraph 3 states that non-linear feature representations remain 'incomprehensible even to their chief architects', making causal chains untraceable.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Extreme Intent Trap):</em> The text does not claim engineers intentionally hide logic; opacity is an inherent technical property.<br>• <em>Option C (Irrelevant):</em> Efficiency is not the issue; transparency and interpretability are.<br>• <em>Option D (Contradictory):</em> Neural networks extract multi-dimensional features; the problem is opacity, not inaccuracy."
+        },
+        {
+          id: "q4",
+          question: "Based on Paragraph 4, why does algorithmic decision-making pose a severe threat to democratic jurisprudence?",
+          options: [
+            "A) It eliminates the legal requirement for corporate institutions to conduct financial audits.",
+            "B) It deprives individuals of the fundamental right to contest adverse decisions by obscuring the underlying logic.",
+            "C) It forces judges to rely exclusively on automated parole recommendation software.",
+            "D) It increases the financial cost of litigation in civil rights law cases."
+          ],
+          answer: 1,
+          explanation: "<strong>Why Option B is Correct:</strong> Paragraph 4 asserts that jurisprudence relies on contestability, which is 'effectively obliterated' when decision logic cannot be articulated.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Irrelevant):</em> Corporate financial audits are not discussed in Paragraph 4.<br>• <em>Option C (Extreme Choice):</em> The text mentions parole as an example, not that judges are legally forced to use it.<br>• <em>Option D (Out of Scope):</em> Litigation costs are never mentioned in the passage."
+        },
+        {
+          id: "q5",
+          question: "Which of the following assumptions underlies the author's argument in the final paragraph?",
+          options: [
+            "A) Technological progress is inherently incompatible with human rights and democratic governance.",
+            "B) Technical fixes like explainability audits can fully resolve societal inequities without legislative intervention.",
+            "C) Deciding to delegate ethical judgment to automated systems is itself a value choice rather than a neutral technical decision.",
+            "D) Rule-based expert systems are mathematically superior to deep neural networks in all governance contexts."
+          ],
+          answer: 2,
+          explanation: "<strong>Why Option C is Correct:</strong> Paragraph 5 explicitly states that 'delegating ethical and normative judgments to statistical models is itself an ideological choice.'<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Extreme Trap):</em> The author advocates for ethical reframing and legal oversight, not abandoning technology altogether.<br>• <em>Option B (Contradicts Text):</em> Paragraph 5 explicitly states technical patches alone are 'insufficient'.<br>• <em>Option D (Out of Scope):</em> The passage does not claim rule-based systems are superior in all contexts."
+        },
+        {
+          id: "q6",
+          question: "The tone of the author throughout the passage can best be described as:",
+          options: [
+            "A) Cynical and dismissive of scientific technological innovation.",
+            "B) Highly critical, analytical, and ethically concerned.",
+            "C) Neutral, objective, and detached from political governance debates.",
+            "D) Enthusiastic and optimistic about future algorithmic auditing techniques."
+          ],
+          answer: 1,
+          explanation: "<strong>Why Option B is Correct:</strong> The author critically analyzes algorithmic bias, demonstrates ethical concern regarding democratic accountability, and offers reasoned arguments.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Extreme):</em> The author is not dismissive of science, but critical of unchecked technological delegation.<br>• <em>Option C (Incorrect Tone):</em> The author takes a clear normative stance on democratic accountability.<br>• <em>Option D (Incorrect Tone):</em> The author explicitly warns that technical audits alone are insufficient."
+        }
       ]
     };
 
@@ -228,7 +310,7 @@
     }
 
     function renderVocabSection(vData) {
-      const data = vData || fallbackVocab;
+      const data = vData || defaultData.vocab;
       document.getElementById('vocab-grid').innerHTML = data.words.map((v, i) => `
         <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 space-y-2 hover:border-indigo-500/40 transition">
           <div class="flex justify-between items-center">
@@ -277,23 +359,26 @@
     }
 
     async function loadContent() {
-      renderVocabSection(fallbackVocab); // Immediate load
+      // Step 1: Render default built-in data immediately
+      renderVocabSection(defaultData.vocab);
+      renderRC(defaultData);
 
+      // Step 2: Smart relative path fetch for GitHub Pages & Netlify
       try {
-        const res = await fetch('/passages.json');
+        const res = await fetch('./passages.json');
         if (res.ok) {
           const list = await res.json();
           renderArchiveList(list);
           const today = new Date().toISOString().slice(0, 10);
           const activeItem = list.find(item => item.date === today) || list[list.length - 1];
           if (activeItem) {
-            renderVocabSection(activeItem.vocab || fallbackVocab);
+            renderVocabSection(activeItem.vocab || defaultData.vocab);
             renderRC(activeItem);
             document.getElementById('active-date-badge').innerText = `Daily Verbal Booster • ${activeItem.date}`;
           }
         }
       } catch (e) {
-        console.error("Error fetching passages.json, rendered default.", e);
+        console.warn("Using built-in passage data for GitHub Pages.", e);
       }
     }
 
@@ -460,7 +545,7 @@
         const item = document.createElement('div');
         item.className = "p-3 rounded-xl bg-slate-800/80 border border-slate-700/80 hover:border-indigo-500/50 cursor-pointer flex justify-between items-center transition";
         item.onclick = () => {
-          renderVocabSection(p.vocab || fallbackVocab);
+          renderVocabSection(p.vocab || defaultData.vocab);
           renderRC(p);
           toggleArchiveModal();
           switchTab('rc');
