@@ -141,10 +141,10 @@
       </div>
     </section>
 
-    <!-- FLOATING SMART AI TUTOR DRAWER (HIDDEN UNTIL SUBMITTED) -->
-    <div id="ai-drawer" class="hidden fixed bottom-4 right-4 z-50 flex-col items-end">
+    <!-- FLOATING ALWAYS VISIBLE AI TUTOR DRAWER -->
+    <div id="ai-drawer" class="fixed bottom-4 right-4 z-50 flex flex-col items-end">
       <button onclick="toggleAiDrawer()" class="bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white font-bold text-xs px-4 py-3 rounded-full shadow-2xl flex items-center gap-2 transition transform hover:scale-105 border border-indigo-400/30">
-        <i class="fa-solid fa-robot text-base"></i> <span>Ask AI VARC Tutor</span>
+        <i class="fa-solid fa-robot text-base text-amber-300"></i> <span>Ask AI VARC Tutor</span>
       </button>
 
       <div id="ai-chat-box" class="hidden mt-3 w-80 sm:w-96 bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl flex flex-col h-[480px] overflow-hidden">
@@ -166,7 +166,7 @@
 
         <div id="ai-messages" class="flex-grow p-4 overflow-y-auto custom-scrollbar space-y-3 text-xs">
           <div class="p-3 bg-indigo-950/40 border border-indigo-500/20 rounded-xl text-indigo-200 leading-relaxed">
-            👋 <strong>Great job completing the test!</strong><br>I am your VARC Analytical Tutor. Ask me why any specific option fails, or click any quick question above for instant elimination analysis!
+            👋 <strong>Welcome to VARC Mentor!</strong><br>Ask me why any option fails, or click a quick question button above for instant analytical breakdowns!
           </div>
         </div>
 
@@ -269,7 +269,7 @@
             "D) Predictive policing models should be completely abandoned and replaced with classical rule-based expert systems in law enforcement."
           ],
           answer: 1,
-          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>The author's central thesis spans Paragraphs 1, 2, and 4. The author argues that algorithms are not neutral; they copy past human bias (Paragraph 1 & 2) and make decision-making opaque and unchallengeable (Paragraph 4).<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Opposite Trap):</strong> Incorrect. Paragraph 1 refutes this exact idea, calling it a 'triumphalist narrative' and an 'epistemological misconception'.<br>• <strong>Option B (Correct Core Answer):</strong> Correct. Accurately synthesizes Paragraph 2 ('codifies historical disparities') and Paragraph 5 ('veneer of mathematical neutrality').<br>• <strong>Option C (Distortion Trap):</strong> Incorrect. Paragraph 5 explicitly states that 'technical patches alone are insufficient'. The issue isn't coding bugs; it's using historical biased data.<br>• <strong>Option D (Out of Scope Trap):</strong> Incorrect. Predictive policing is used merely as a 1-paragraph illustrative example, not as the main thesis of the entire essay."
+          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>The author's central thesis spans Paragraphs 1, 2, and 4. The author argues that algorithms are not neutral; they copy past human bias (Paragraph 1 & 2) and make decision-making opaque and unchallengeable (Paragraph 4).<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Opposite Trap):</strong> Incorrect. Paragraph 1 refutes this exact idea, calling it a 'triumphalist narrative'.<br>• <strong>Option B (Correct Core Answer):</strong> Correct. Accurately synthesizes Paragraph 2 ('codifies historical disparities') and Paragraph 5 ('veneer of mathematical neutrality').<br>• <strong>Option C (Distortion Trap):</strong> Incorrect. Paragraph 5 explicitly states that 'technical patches alone are insufficient'.<br>• <strong>Option D (Out of Scope Trap):</strong> Incorrect. Predictive policing is used merely as a 1-paragraph illustrative example, not as the main thesis."
         },
         {
           id: "q2",
@@ -293,7 +293,7 @@
             "D) Generate inaccurate predictions because they ignore multi-dimensional data features."
           ],
           answer: 1,
-          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer to Paragraph 3. The 'black box' problem is introduced to explain opacity: modern deep neural networks automatically extract feature representations across millions of parameters, making it impossible to trace the exact rationale behind a decision.<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Extreme Intent Trap):</strong> Incorrect. The passage does not claim developers maliciously or intentionally design systems to evade law; opacity is an inherent technical property of deep learning.<br>• <strong>Option B (Correct Analytical Answer):</strong> Correct. Directly matches Paragraph 3: 'even the lead architects... cannot trace the precise causal chain that leads to a specific prediction.'<br>• <strong>Option C (Irrelevant Distortion):</strong> Incorrect. Computational efficiency is not the issue being discussed in Paragraph 3; interpretability is.<br>• <strong>Option D (Contradictory Trap):</strong> Incorrect. Deep neural networks process multi-dimensional features well; the problem is that human beings cannot interpret how those features interacted."
+          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer to Paragraph 3. The 'black box' problem is introduced to explain opacity: modern deep neural networks automatically extract feature representations across millions of parameters, making it impossible to trace the exact rationale behind a decision.<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Extreme Intent Trap):</strong> Incorrect. The passage does not claim developers maliciously design systems to evade law.<br>• <strong>Option B (Correct Analytical Answer):</strong> Correct. Directly matches Paragraph 3: 'even the lead architects... cannot trace the precise causal chain that leads to a specific prediction.'<br>• <strong>Option C (Irrelevant Distortion):</strong> Incorrect. Computational efficiency is not the issue being discussed in Paragraph 3; interpretability is.<br>• <strong>Option D (Contradictory Trap):</strong> Incorrect. Deep neural networks process multi-dimensional features well; the problem is that human beings cannot interpret how those features interacted."
         },
         {
           id: "q4",
@@ -305,7 +305,7 @@
             "D) It increases the financial cost of litigation in civil rights law cases."
           ],
           answer: 1,
-          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer to Paragraph 4. Democratic jurisprudence relies on 'contestability' (the legal right of a citizen to challenge a decision). When an algorithm's decision logic cannot be articulated, contestability is destroyed.<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Irrelevant / Out of Scope):</strong> Incorrect. Financial corporate audits are never mentioned in Paragraph 4.<br>• <strong>Option B (Correct Logical Deduction):</strong> Correct. Directly aligns with Paragraph 4: 'One cannot challenge a logic that cannot be articulated... rendering systemic prejudice immune to democratic accountability.'<br>• <strong>Option C (Extreme Language Trap):</strong> Incorrect. Paragraph 3 mentions parole revocation as an example of automated decisions, but Paragraph 4 does not state judges are 'forced exclusively' to use it.<br>• <strong>Option D (Out of Scope):</strong> Incorrect. Financial litigation costs are never mentioned in the passage."
+          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer to Paragraph 4. Democratic jurisprudence relies on 'contestability' (the legal right of a citizen to challenge a decision). When an algorithm's decision logic cannot be articulated, contestability is destroyed.<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Irrelevant / Out of Scope):</strong> Incorrect. Financial corporate audits are never mentioned in Paragraph 4.<br>• <strong>Option B (Correct Logical Deduction):</strong> Correct. Directly aligns with Paragraph 4: 'One cannot challenge a logic that cannot be articulated... rendering systemic prejudice immune to democratic accountability.'<br>• <strong>Option C (Extreme Language Trap):</strong> Incorrect. Paragraph 3 mentions parole revocation as an example, but Paragraph 4 does not state judges are 'forced exclusively' to use it.<br>• <strong>Option D (Out of Scope):</strong> Incorrect. Financial litigation costs are never mentioned in the passage."
         },
         {
           id: "q5",
@@ -424,11 +424,6 @@
       userAnswers = {};
       isSubmitted = false;
       currentQIndex = 0;
-
-      // Hide AI drawer during test taking
-      document.getElementById('ai-drawer').classList.add('hidden');
-      document.getElementById('ai-drawer').classList.remove('flex');
-      document.getElementById('ai-chat-box').classList.add('hidden');
 
       document.getElementById('rc-title').innerText = rc.title;
       document.getElementById('rc-genre').innerText = rc.genre;
@@ -563,10 +558,8 @@
 
       document.getElementById('result-modal').classList.remove('hidden');
 
-      // UNLOCK AND SHOW AI CHATBOT DRAWER AFTER TEST SUBMISSION
-      const drawer = document.getElementById('ai-drawer');
-      drawer.classList.remove('hidden');
-      drawer.classList.add('flex');
+      // AUTO OPEN AI CHATBOX UPON TEST SUBMISSION
+      document.getElementById('ai-chat-box').classList.remove('hidden');
     }
 
     function reviewSolutions() {
