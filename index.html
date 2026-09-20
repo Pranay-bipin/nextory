@@ -1,261 +1,276 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full bg-slate-900 text-slate-100">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Offsyllabus - Free CAT & IPMAT Daily Prep</title>
+  <title>Offsyllabus | CAT & IPMAT Daily Practice Platform</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
   <style>
-    .flip-card { perspective: 1000px; }
-    .flip-card-inner { transition: transform 0.6s; transform-style: preserve-3d; }
-    .flip-card.flipped .flip-card-inner { transform: rotateY(180deg); }
-    .flip-card-front, .flip-card-back { backface-visibility: hidden; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    .flip-card-back { transform: rotateY(180deg); }
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .serif-text { font-family: 'Source Serif 4', Georgia, serif; }
+    .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: rgba(15, 23, 42, 0.6); }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(99, 102, 241, 0.4); border-radius: 4px; }
+    .vocab-hl { background-color: rgba(251, 191, 36, 0.2); border-bottom: 2px dashed #fbbf24; cursor: pointer; padding: 0 2px; }
+    .vocab-hl:hover { background-color: rgba(251, 191, 36, 0.4); }
   </style>
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col">
+<body class="h-full flex flex-col bg-slate-950 text-slate-200 antialiased selection:bg-indigo-500 selection:text-white">
 
-  <!-- Navigation Bar -->
-  <header class="bg-indigo-900 text-white shadow-md sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-      <div class="flex items-center space-x-3">
-        <div class="bg-amber-400 text-indigo-950 font-black text-xl px-3 py-1 rounded-lg">OS</div>
+  <!-- Top Navigation Bar -->
+  <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur-md sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center font-extrabold text-white text-lg shadow-lg shadow-indigo-500/20">OS</div>
         <div>
-          <h1 class="text-xl font-bold tracking-tight">Offsyllabus</h1>
-          <p class="text-xs text-indigo-200">Free Daily CAT & IPMAT Practice</p>
+          <span class="font-extrabold text-lg tracking-tight bg-gradient-to-r from-white via-slate-200 to-indigo-300 bg-clip-text text-transparent">OFFSYLLABUS</span>
+          <span class="hidden sm:inline-block ml-2 text-xs font-semibold px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">CAT & IPMAT Edition</span>
         </div>
       </div>
-      <div class="flex items-center space-x-4">
-        <div class="bg-indigo-800/80 px-3 py-1.5 rounded-full flex items-center space-x-2 text-sm font-semibold border border-indigo-700">
-          <span class="text-amber-400">🔥</span>
-          <span id="streak-count">1 Day Streak</span>
+
+      <div class="flex items-center gap-4">
+        <!-- Reading Timer -->
+        <div class="hidden md:flex items-center gap-2 bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700/60 text-xs text-slate-300">
+          <i class="fa-regular fa-clock text-indigo-400"></i>
+          <span id="timer">00:00</span>
+        </div>
+
+        <button onclick="toggleArchiveModal()" class="bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold px-3.5 py-2 rounded-lg border border-slate-700 transition flex items-center gap-2">
+          <i class="fa-solid fa-folder-open text-amber-400"></i> Past RCs
+        </button>
+
+        <div class="flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1.5 rounded-lg">
+          <span>🔥</span> <span id="streak-count">1 Day Streak</span>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Main Container -->
-  <main class="max-w-7xl mx-auto px-4 py-8 flex-grow w-full grid grid-cols-1 lg:grid-cols-3 gap-8">
+  <!-- Main Content Dashboard -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 py-6 flex-grow w-full grid grid-cols-1 lg:grid-cols-12 gap-6">
     
-    <!-- Left Column: Reading Comprehension Section (2 Cols wide on LG) -->
-    <section class="lg:col-span-2 space-y-6">
-      <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+    <!-- Left Column: Reading Passage (7 Cols) -->
+    <section class="lg:col-span-7 flex flex-col h-[calc(100vh-7rem)] bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
+      
+      <!-- Passage Control Bar -->
+      <div class="p-4 bg-slate-900/90 border-b border-slate-800 flex flex-wrap items-center justify-between gap-3">
+        <div class="flex items-center gap-2">
+          <span id="rc-genre" class="bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-xs font-bold px-2.5 py-1 rounded-md">Philosophy & Tech</span>
+          <span id="rc-difficulty" class="bg-rose-500/10 text-rose-400 border border-rose-500/20 text-xs font-bold px-2.5 py-1 rounded-md">CAT High Level</span>
+        </div>
         
-        <!-- RC Header & Controls -->
-        <div class="flex flex-wrap justify-between items-center gap-4 pb-4 border-b border-slate-100">
-          <div>
-            <span id="rc-genre" class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-1 rounded-md">Loading Genre...</span>
-            <span id="rc-difficulty" class="bg-amber-100 text-amber-800 text-xs font-semibold px-2.5 py-1 rounded-md ml-2">CAT/IPMAT Level</span>
-            <h2 id="rc-title" class="text-2xl font-bold text-slate-900 mt-2">Loading Daily Passage...</h2>
-          </div>
-          <div class="flex items-center space-x-2 bg-slate-100 p-1 rounded-lg">
-            <button onclick="adjustFontSize(-1)" class="px-2.5 py-1 text-sm font-bold bg-white text-slate-700 rounded shadow-sm hover:bg-slate-50">A-</button>
-            <button onclick="adjustFontSize(1)" class="px-2.5 py-1 text-sm font-bold bg-white text-slate-700 rounded shadow-sm hover:bg-slate-50">A+</button>
-          </div>
+        <div class="flex items-center gap-2">
+          <span class="text-xs text-slate-400 mr-1"><i class="fa-solid fa-font mr-1"></i> Font Size</span>
+          <button onclick="adjustFontSize(-1)" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-bold border border-slate-700 transition">A-</button>
+          <button onclick="adjustFontSize(1)" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-bold border border-slate-700 transition">A+</button>
         </div>
+      </div>
 
-        <!-- Passage Body -->
-        <div id="rc-passage" class="prose prose-slate max-w-none my-6 text-slate-700 leading-relaxed text-base space-y-4">
-          <p class="animate-pulse text-slate-400">Fetching today's CAT/IPMAT Reading Comprehension...</p>
-        </div>
+      <!-- Passage Title & Meta -->
+      <div class="px-6 pt-5 pb-3">
+        <h1 id="rc-title" class="text-xl sm:text-2xl font-bold text-slate-100 tracking-tight leading-snug">The Fallacy of Algorithmic Neutrality</h1>
+        <p class="text-xs text-slate-400 mt-1 flex items-center gap-3">
+          <span><i class="fa-regular fa-file-word text-indigo-400 mr-1"></i> Word Count: <strong id="word-count">480 words</strong></span>
+          <span><i class="fa-regular fa-clock text-indigo-400 mr-1"></i> Avg Reading Time: <strong>2 min 30 sec</strong></span>
+        </p>
+      </div>
 
-        <!-- Questions Section -->
-        <div class="mt-8 pt-6 border-t border-slate-200 space-y-6">
-          <h3 class="text-lg font-bold text-slate-900 flex items-center gap-2">
-            <i class="fa-solid fa-list-check text-indigo-600"></i> Comprehension Questions
-          </h3>
-          <div id="questions-container" class="space-y-6"></div>
-        </div>
-
+      <!-- Passage Body (Scrollable) -->
+      <div id="rc-passage" class="flex-grow p-6 overflow-y-auto custom-scrollbar serif-text text-slate-300 leading-relaxed space-y-4 text-base border-t border-slate-800/50">
+        <p class="animate-pulse text-slate-500">Loading full passage content...</p>
       </div>
     </section>
 
-    <!-- Right Column: Daily Vocab & Quick Tools -->
-    <aside class="space-y-6">
+    <!-- Right Column: Questions & Solutions (5 Cols) -->
+    <section class="lg:col-span-5 flex flex-col h-[calc(100vh-7rem)] bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
       
-      <!-- Word of the Day -->
-      <div class="bg-gradient-to-br from-indigo-900 to-indigo-800 text-white rounded-2xl p-6 shadow-md">
-        <div class="flex justify-between items-center text-xs uppercase tracking-wider text-indigo-300 font-semibold mb-2">
-          <span>Word of the Day</span>
-          <i class="fa-solid fa-graduation-cap text-lg text-amber-400"></i>
-        </div>
-        <div class="flex items-center justify-between">
-          <h3 id="vocab-word" class="text-2xl font-black text-amber-400">Obfuscate</h3>
-          <button onclick="speakWord()" class="text-indigo-200 hover:text-white bg-indigo-800/50 p-2 rounded-full">
-            <i class="fa-solid fa-volume-high"></i>
-          </button>
-        </div>
-        <p id="vocab-type" class="text-xs text-indigo-200 italic mb-3">verb | /ˈɒbfʌskeɪt/</p>
-        <p id="vocab-def" class="text-sm text-indigo-100 mb-4">To make obscure, unclear, or unintelligible, often deliberately.</p>
-        <div class="bg-indigo-950/50 p-3 rounded-lg text-xs text-indigo-200 border border-indigo-700/50">
-          <strong>CAT Context:</strong> "The author uses dense philosophical jargon to <em>obfuscate</em> the core argument."
-        </div>
+      <div class="p-4 bg-slate-900 border-b border-slate-800 flex justify-between items-center">
+        <h2 class="font-bold text-slate-200 text-sm flex items-center gap-2">
+          <i class="fa-solid fa-list-check text-indigo-400"></i> Practice Questions & Detailed Solutions
+        </h2>
+        <span id="score-badge" class="text-xs bg-slate-800 text-slate-400 font-semibold px-2.5 py-1 rounded-md border border-slate-700">0/0 Answered</span>
       </div>
 
-      <!-- Flashcards Module -->
-      <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 space-y-4">
-        <h3 class="font-bold text-slate-900 flex items-center justify-between">
-          <span><i class="fa-solid fa-clone text-indigo-600 mr-2"></i>Vocab Flashcard</span>
-          <span class="text-xs font-normal text-slate-500">Tap card to flip</span>
-        </h3>
-        
-        <div id="flashcard" onclick="this.classList.toggle('flipped')" class="flip-card w-full h-44 cursor-pointer">
-          <div class="flip-card-inner w-full h-full relative">
-            <!-- Front -->
-            <div class="flip-card-front bg-indigo-50 border-2 border-indigo-200 rounded-xl p-4 flex flex-col justify-center items-center text-center">
-              <span class="text-xs text-indigo-500 font-bold uppercase tracking-wide">Target Word</span>
-              <p id="fc-word" class="text-xl font-extrabold text-indigo-900 mt-1">Sycophant</p>
-              <p class="text-xs text-slate-400 mt-2">Click to see meaning</p>
-            </div>
-            <!-- Back -->
-            <div class="flip-card-back bg-indigo-900 text-white rounded-xl p-4 flex flex-col justify-center items-center text-center">
-              <p id="fc-def" class="text-sm font-medium">A person who acts obsequiously toward someone important in order to gain advantage.</p>
-              <span id="fc-syn" class="text-xs text-amber-300 mt-2">Synonym: Flatterer, Toady</span>
-            </div>
-          </div>
-        </div>
+      <!-- Questions List (Scrollable) -->
+      <div id="questions-container" class="flex-grow p-5 overflow-y-auto custom-scrollbar space-y-6">
+        <!-- Injected via JS -->
       </div>
+    </section>
 
-    </aside>
   </main>
 
-  <footer class="bg-slate-900 text-slate-400 text-xs py-6 border-t border-slate-800 text-center">
-    <p>© 2026 Offsyllabus. Built for IPMAT & CAT Aspirants. Free Forever.</p>
-  </footer>
+  <!-- Past RCs Drawer Modal -->
+  <div id="archive-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-md hidden z-50 flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl max-w-lg w-full overflow-hidden">
+      <div class="p-4 border-b border-slate-800 flex justify-between items-center bg-slate-800/50">
+        <h3 class="font-bold text-slate-100 flex items-center gap-2">
+          <i class="fa-solid fa-clock-rotate-left text-amber-400"></i> Past Passage Archives
+        </h3>
+        <button onclick="toggleArchiveModal()" class="text-slate-400 hover:text-white font-bold text-xl">&times;</button>
+      </div>
+      <div id="archive-list" class="p-4 max-h-[60vh] overflow-y-auto custom-scrollbar space-y-3">
+        <p class="text-xs text-slate-400">Loading archived passages...</p>
+      </div>
+    </div>
+  </div>
 
-  <!-- Front-End JS Logic -->
   <script>
     let currentFontSize = 16;
+    let timerSeconds = 0;
+    let timerInterval = null;
+
+    function startTimer() {
+      clearInterval(timerInterval);
+      timerSeconds = 0;
+      timerInterval = setInterval(() => {
+        timerSeconds++;
+        const m = String(Math.floor(timerSeconds / 60)).padStart(2, '0');
+        const s = String(timerSeconds % 60).padStart(2, '0');
+        document.getElementById('timer').innerText = `${m}:${s}`;
+      }, 1000);
+    }
 
     function adjustFontSize(delta) {
       currentFontSize = Math.max(14, Math.min(22, currentFontSize + delta));
       document.getElementById('rc-passage').style.fontSize = `${currentFontSize}px`;
     }
 
-    function speakWord() {
-      const word = document.getElementById('vocab-word').innerText;
-      const utterance = new SpeechSynthesisUtterance(word);
-      utterance.lang = 'en-US';
-      window.speechSynthesis.speak(utterance);
+    function toggleArchiveModal() {
+      document.getElementById('archive-modal').classList.toggle('hidden');
     }
 
-    // Dual-Fetcher Logic (Method 2 -> Method 1)
     async function fetchDailyRC() {
       const today = new Date().toISOString().slice(0, 10);
-
-      // 1. Local Cache check
-      const cached = localStorage.getItem(`offsyllabus_rc_${today}`);
-      if (cached) {
-        console.log("Loaded RC from Local Cache");
-        return JSON.parse(cached);
-      }
-
-      // 2. Try Method 2: Check passages.json for hand-curated RC
       try {
         const res = await fetch('/passages.json');
         if (res.ok) {
           const list = await res.json();
-          const curatedRC = list.find(item => item.date === today);
-          if (curatedRC) {
-            console.log("Loaded Curated RC from passages.json");
-            localStorage.setItem(`offsyllabus_rc_${today}`, JSON.stringify(curatedRC));
-            return curatedRC;
-          }
+          renderArchiveList(list);
+          const todayRC = list.find(item => item.date === today) || list[list.length - 1];
+          return todayRC;
         }
       } catch (e) {
-        console.warn("passages.json fetch error, invoking AI backup...", e);
+        console.warn("passages.json error, trying API fallback...", e);
       }
 
-      // 3. Fallback to Method 1: Netlify Gemini Function
+      // API Fallback
       try {
-        console.log("Calling Gemini API Serverless Function...");
         const aiRes = await fetch('/.netlify/functions/generate-rc');
         if (aiRes.ok) {
-          const generatedRC = await aiRes.json();
-          if (generatedRC && generatedRC.passage) {
-            localStorage.setItem(`offsyllabus_rc_${today}`, JSON.stringify(generatedRC));
-            return generatedRC;
-          }
+          return await aiRes.json();
         }
       } catch (e) {
-        console.error("Gemini API generation failed:", e);
+        console.error("AI backup error:", e);
       }
-
-      // 4. Emergency Backup UI
-      return {
-        title: "The Nature of Economic Rationality",
-        genre: "Economics & Philosophy",
-        difficulty: "CAT/IPMAT Level",
-        passage: "Classical economic models presume that human actors operate with perfect rationality, maximizing utility based on complete information. However, modern behavioral economics demonstrates that cognitive biases systematically distort decision-making...",
-        questions: [
-          {
-            id: "q1",
-            question: "What is the primary argument presented against classical economic models?",
-            options: [
-              "A) They overestimate human rational capacity.",
-              "B) They fail to consider global market fluctuations.",
-              "C) They rely exclusively on mathematical proofs.",
-              "D) They apply only to macroeconomics."
-            ],
-            answer: 0,
-            explanation: "Option A is correct because the passage explicitly highlights that cognitive biases distort rational utility maximization."
-          }
-        ]
-      };
     }
 
-    function renderRC(rcData) {
-      document.getElementById('rc-title').innerText = rcData.title;
-      document.getElementById('rc-genre').innerText = rcData.genre;
-      document.getElementById('rc-difficulty').innerText = rcData.difficulty;
-      document.getElementById('rc-passage').innerHTML = `<p>${rcData.passage.replace(/\n/g, '</p><p class="mt-4">')}</p>`;
+    function renderRC(rc) {
+      window.activeRCData = rc;
+      document.getElementById('rc-title').innerText = rc.title;
+      document.getElementById('rc-genre').innerText = rc.genre;
+      document.getElementById('rc-difficulty').innerText = rc.difficulty || 'CAT Level';
 
+      // Count words
+      const words = rc.passage.split(/\s+/).length;
+      document.getElementById('word-count').innerText = `${words} words`;
+
+      // Render Passage
+      const paragraphs = rc.passage.split('\n\n');
+      document.getElementById('rc-passage').innerHTML = paragraphs
+        .map(p => `<p class="leading-relaxed mb-4">${p}</p>`)
+        .join('');
+
+      // Render Questions
       const container = document.getElementById('questions-container');
       container.innerHTML = '';
 
-      rcData.questions.forEach((q, qIndex) => {
-        const qBox = document.createElement('div');
-        qBox.className = 'bg-slate-50 p-5 rounded-xl border border-slate-200 space-y-3';
-        
+      rc.questions.forEach((q, qIndex) => {
+        const qCard = document.createElement('div');
+        qCard.className = 'bg-slate-800/50 border border-slate-700/60 rounded-xl p-4 space-y-3';
+
         let optionsHTML = '';
         q.options.forEach((opt, oIndex) => {
           optionsHTML += `
             <button onclick="checkAnswer(${qIndex}, ${oIndex}, ${q.answer})" id="q${qIndex}-opt${oIndex}" 
-              class="w-full text-left p-3 rounded-lg border border-slate-200 bg-white hover:bg-indigo-50 hover:border-indigo-300 transition text-sm font-medium text-slate-700">
+              class="w-full text-left p-3 rounded-lg border border-slate-700 bg-slate-800/80 hover:border-indigo-500/50 hover:bg-indigo-500/5 transition text-xs font-medium text-slate-200 leading-snug">
               ${opt}
             </button>
           `;
         });
 
-        qBox.innerHTML = `
-          <p class="font-semibold text-slate-900 text-sm">${qIndex + 1}. ${q.question}</p>
-          <div class="space-y-2">${optionsHTML}</div>
-          <div id="q${qIndex}-exp" class="hidden mt-3 p-3 rounded-lg text-xs leading-relaxed"></div>
+        qCard.innerHTML = `
+          <div class="flex items-start gap-2">
+            <span class="bg-indigo-500/10 text-indigo-400 font-bold text-xs px-2 py-0.5 rounded border border-indigo-500/20">Q${qIndex + 1}</span>
+            <p class="text-xs font-semibold text-slate-100 leading-relaxed">${q.question}</p>
+          </div>
+          <div class="space-y-2 pt-1">${optionsHTML}</div>
+          <div id="q${qIndex}-sol" class="hidden mt-3 p-3.5 rounded-lg text-xs space-y-2 border"></div>
         `;
-        container.appendChild(qBox);
+        container.appendChild(qCard);
       });
+
+      startTimer();
     }
 
     function checkAnswer(qIdx, selectedIdx, correctIdx) {
-      const expBox = document.getElementById(`q${qIdx}-exp`);
-      const selectedBtn = document.getElementById(`q${qIdx}-opt${selectedIdx}`);
+      const q = window.activeRCData.questions[qIdx];
+      const solBox = document.getElementById(`q${qIdx}-sol`);
 
-      if (selectedIdx === correctIdx) {
-        selectedBtn.className = "w-full text-left p-3 rounded-lg border border-emerald-500 bg-emerald-50 text-emerald-900 font-semibold text-sm";
-        expBox.className = "mt-3 p-3 rounded-lg text-xs leading-relaxed bg-emerald-100 text-emerald-900 border border-emerald-200";
-        expBox.innerHTML = `<strong>Correct!</strong> <br>${window.activeRCData.questions[qIdx].explanation}`;
-      } else {
-        selectedBtn.className = "w-full text-left p-3 rounded-lg border border-rose-500 bg-rose-50 text-rose-900 text-sm";
-        expBox.className = "mt-3 p-3 rounded-lg text-xs leading-relaxed bg-rose-100 text-rose-900 border border-rose-200";
-        expBox.innerHTML = `<strong>Incorrect.</strong> <br>${window.activeRCData.questions[qIdx].explanation}`;
-      }
-      expBox.classList.remove('hidden');
+      // Disable all options for this question
+      q.options.forEach((_, oIdx) => {
+        const btn = document.getElementById(`q${qIdx}-opt${oIdx}`);
+        btn.onclick = null;
+        if (oIdx === correctIdx) {
+          btn.className = "w-full text-left p-3 rounded-lg border border-emerald-500 bg-emerald-500/10 text-emerald-300 font-semibold text-xs leading-snug";
+        } else if (oIdx === selectedIdx) {
+          btn.className = "w-full text-left p-3 rounded-lg border border-rose-500 bg-rose-500/10 text-rose-300 text-xs leading-snug";
+        } else {
+          btn.className = "w-full text-left p-3 rounded-lg border border-slate-800 bg-slate-900/50 text-slate-500 text-xs opacity-60 leading-snug";
+        }
+      });
+
+      const isCorrect = selectedIdx === correctIdx;
+      solBox.className = isCorrect 
+        ? "mt-3 p-3.5 rounded-lg text-xs bg-emerald-950/40 border border-emerald-500/30 text-emerald-200 space-y-2"
+        : "mt-3 p-3.5 rounded-lg text-xs bg-rose-950/40 border border-rose-500/30 text-rose-200 space-y-2";
+
+      solBox.innerHTML = `
+        <div class="font-bold flex items-center gap-2">
+          ${isCorrect ? '<i class="fa-solid fa-circle-check text-emerald-400"></i> Correct Explanation' : '<i class="fa-solid fa-circle-xmark text-rose-400"></i> Detailed Explanation'}
+        </div>
+        <p class="leading-relaxed opacity-90">${q.explanation}</p>
+      `;
+      solBox.classList.remove('hidden');
+    }
+
+    function renderArchiveList(passages) {
+      const list = document.getElementById('archive-list');
+      list.innerHTML = '';
+      passages.forEach(p => {
+        const item = document.createElement('div');
+        item.className = "p-3 rounded-xl bg-slate-800/80 border border-slate-700/80 hover:border-indigo-500/50 cursor-pointer flex justify-between items-center transition";
+        item.onclick = () => {
+          renderRC(p);
+          toggleArchiveModal();
+        };
+        item.innerHTML = `
+          <div>
+            <h4 class="font-bold text-xs text-slate-200">${p.title}</h4>
+            <span class="text-[10px] text-indigo-400">${p.genre}</span>
+          </div>
+          <span class="text-[10px] bg-slate-700 text-slate-300 font-semibold px-2 py-0.5 rounded">${p.date}</span>
+        `;
+        list.appendChild(item);
+      });
     }
 
     document.addEventListener('DOMContentLoaded', async () => {
-      window.activeRCData = await fetchDailyRC();
-      renderRC(window.activeRCData);
+      const rc = await fetchDailyRC();
+      if (rc) renderRC(rc);
     });
   </script>
 </body>
