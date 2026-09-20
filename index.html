@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full bg-slate-900 text-slate-100">
+<html lang="en" class="h-full bg-slate-950 text-slate-100">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Offsyllabus | CAT & IPMAT Daily Practice Platform</title>
+  <title>Nextory | Daily Verbal & Comprehension Prep</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,87 +15,154 @@
     .custom-scrollbar::-webkit-scrollbar { width: 6px; }
     .custom-scrollbar::-webkit-scrollbar-track { background: rgba(15, 23, 42, 0.6); }
     .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(99, 102, 241, 0.4); border-radius: 4px; }
-    .vocab-hl { background-color: rgba(251, 191, 36, 0.2); border-bottom: 2px dashed #fbbf24; cursor: pointer; padding: 0 2px; }
-    .vocab-hl:hover { background-color: rgba(251, 191, 36, 0.4); }
   </style>
 </head>
 <body class="h-full flex flex-col bg-slate-950 text-slate-200 antialiased selection:bg-indigo-500 selection:text-white">
 
-  <!-- Top Navigation Bar -->
+  <!-- Header -->
   <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur-md sticky top-0 z-40">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-      <div class="flex items-center gap-3">
-        <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center font-extrabold text-white text-lg shadow-lg shadow-indigo-500/20">OS</div>
+      
+      <!-- Brand Logo -->
+      <div class="flex items-center gap-3 cursor-pointer" onclick="switchMainTab('vocab')">
+        <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center font-black text-white text-lg shadow-lg shadow-indigo-500/20 tracking-wider">NX</div>
         <div>
-          <span class="font-extrabold text-lg tracking-tight bg-gradient-to-r from-white via-slate-200 to-indigo-300 bg-clip-text text-transparent">OFFSYLLABUS</span>
-          <span class="hidden sm:inline-block ml-2 text-xs font-semibold px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">CAT & IPMAT Edition</span>
+          <span class="font-black text-xl tracking-tight bg-gradient-to-r from-white via-slate-200 to-indigo-300 bg-clip-text text-transparent">NEXTORY</span>
+          <p class="text-[10px] text-indigo-400 font-semibold tracking-wider uppercase hidden sm:block">Aptitude & Verbal Mastery</p>
         </div>
       </div>
 
-      <div class="flex items-center gap-4">
-        <!-- Reading Timer -->
-        <div class="hidden md:flex items-center gap-2 bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700/60 text-xs text-slate-300">
-          <i class="fa-regular fa-clock text-indigo-400"></i>
-          <span id="timer">00:00</span>
-        </div>
-
-        <button onclick="toggleArchiveModal()" class="bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold px-3.5 py-2 rounded-lg border border-slate-700 transition flex items-center gap-2">
-          <i class="fa-solid fa-folder-open text-amber-400"></i> Past RCs
+      <!-- Navigation Tabs -->
+      <nav class="flex items-center gap-1 sm:gap-2">
+        <button id="tab-btn-vocab" onclick="switchMainTab('vocab')" class="px-3 sm:px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-2 bg-indigo-600 text-white shadow-md shadow-indigo-600/20">
+          <i class="fa-solid fa-book-open-reader"></i> <span class="hidden sm:inline">Daily Boost</span>
         </button>
+        <button id="tab-btn-rc" onclick="switchMainTab('rc')" class="px-3 sm:px-4 py-2 rounded-lg text-xs font-bold text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition flex items-center gap-2">
+          <i class="fa-solid fa-file-signature"></i> <span class="hidden sm:inline">Daily RC</span>
+        </button>
+        <button id="tab-btn-archive" onclick="toggleArchiveModal()" class="px-3 sm:px-4 py-2 rounded-lg text-xs font-bold text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition flex items-center gap-2">
+          <i class="fa-solid fa-folder-open"></i> <span class="hidden sm:inline">Archives</span>
+        </button>
+      </nav>
 
-        <div class="flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1.5 rounded-lg">
-          <span>🔥</span> <span id="streak-count">1 Day Streak</span>
-        </div>
+      <!-- Streak Badge -->
+      <div class="flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1.5 rounded-lg">
+        <span>🔥</span> <span>1 Day Streak</span>
       </div>
+
     </div>
   </header>
 
-  <!-- Main Content Dashboard -->
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 py-6 flex-grow w-full grid grid-cols-1 lg:grid-cols-12 gap-6">
+  <!-- ================= TAB 1: DAILY VERBAL BOOST (DEFAULT LANDING) ================= -->
+  <main id="section-vocab" class="max-w-7xl mx-auto px-4 sm:px-6 py-8 flex-grow w-full space-y-8">
+    
+    <!-- Hero Banner -->
+    <div class="bg-gradient-to-r from-indigo-950 via-slate-900 to-slate-950 border border-indigo-500/20 rounded-3xl p-6 sm:p-8 relative overflow-hidden shadow-2xl">
+      <div class="max-w-2xl relative z-10 space-y-3">
+        <span class="inline-block px-3 py-1 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-xs font-bold uppercase tracking-wider">Today's Verbal Target</span>
+        <h1 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-white">Master Vocabulary, Idioms & Phrasal Verbs</h1>
+        <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">Strengthen your verbal reasoning and comprehension foundation before diving into today's Reading Comprehension challenge.</p>
+        <div class="pt-2 flex flex-wrap gap-3">
+          <button onclick="switchMainTab('rc')" class="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 font-bold text-xs text-white shadow-lg shadow-indigo-600/30 transition flex items-center gap-2">
+            Proceed to Daily RC Practice <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 1: Today's Top 10 Words -->
+    <section class="space-y-4">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <h2 class="text-lg font-bold text-slate-100 flex items-center gap-2">
+          <i class="fa-solid fa-arrow-trend-up text-indigo-400"></i> Top 10 Daily Vocabulary Words
+        </h2>
+        <span class="text-xs text-slate-400">High-Frequency Words</span>
+      </div>
+
+      <div id="words-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Injected via JS -->
+      </div>
+    </section>
+
+    <!-- Section 2 & 3: Idioms & Phrasal Verbs Dual Row -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      
+      <!-- Idioms & Phrases -->
+      <section class="space-y-4">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+          <h2 class="text-base font-bold text-slate-100 flex items-center gap-2">
+            <i class="fa-solid fa-comments text-amber-400"></i> Today's Top 5 Idioms & Phrases
+          </h2>
+        </div>
+        <div id="idioms-container" class="space-y-3">
+          <!-- Injected via JS -->
+        </div>
+      </section>
+
+      <!-- Phrasal Verbs -->
+      <section class="space-y-4">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+          <h2 class="text-base font-bold text-slate-100 flex items-center gap-2">
+            <i class="fa-solid fa-bolt text-emerald-400"></i> Today's Top 5 Phrasal Verbs
+          </h2>
+        </div>
+        <div id="phrasals-container" class="space-y-3">
+          <!-- Injected via JS -->
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ================= TAB 2: READING COMPREHENSION PORTAL ================= -->
+  <main id="section-rc" class="hidden max-w-7xl mx-auto px-4 sm:px-6 py-6 flex-grow w-full grid grid-cols-1 lg:grid-cols-12 gap-6">
     
     <!-- Left Column: Reading Passage (7 Cols) -->
     <section class="lg:col-span-7 flex flex-col h-[calc(100vh-7rem)] bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
       
-      <!-- Passage Control Bar -->
+      <!-- Passage Control Header -->
       <div class="p-4 bg-slate-900/90 border-b border-slate-800 flex flex-wrap items-center justify-between gap-3">
         <div class="flex items-center gap-2">
-          <span id="rc-genre" class="bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-xs font-bold px-2.5 py-1 rounded-md">Philosophy & Tech</span>
-          <span id="rc-difficulty" class="bg-rose-500/10 text-rose-400 border border-rose-500/20 text-xs font-bold px-2.5 py-1 rounded-md">CAT High Level</span>
+          <span id="rc-genre" class="bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-xs font-bold px-2.5 py-1 rounded-md">Genre</span>
+          <span id="rc-difficulty" class="bg-amber-500/10 text-amber-400 border border-amber-500/20 text-xs font-bold px-2.5 py-1 rounded-md">Advanced Level</span>
         </div>
         
-        <div class="flex items-center gap-2">
-          <span class="text-xs text-slate-400 mr-1"><i class="fa-solid fa-font mr-1"></i> Font Size</span>
-          <button onclick="adjustFontSize(-1)" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-bold border border-slate-700 transition">A-</button>
-          <button onclick="adjustFontSize(1)" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-bold border border-slate-700 transition">A+</button>
+        <div class="flex items-center gap-3">
+          <div class="flex items-center gap-1.5 bg-slate-800 px-3 py-1 rounded-lg border border-slate-700 text-xs text-slate-300">
+            <i class="fa-regular fa-clock text-indigo-400"></i> <span id="timer">00:00</span>
+          </div>
+          <div class="flex items-center gap-1">
+            <button onclick="adjustFontSize(-1)" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-bold border border-slate-700">A-</button>
+            <button onclick="adjustFontSize(1)" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-bold border border-slate-700">A+</button>
+          </div>
         </div>
       </div>
 
       <!-- Passage Title & Meta -->
-      <div class="px-6 pt-5 pb-3">
-        <h1 id="rc-title" class="text-xl sm:text-2xl font-bold text-slate-100 tracking-tight leading-snug">The Fallacy of Algorithmic Neutrality</h1>
-        <p class="text-xs text-slate-400 mt-1 flex items-center gap-3">
-          <span><i class="fa-regular fa-file-word text-indigo-400 mr-1"></i> Word Count: <strong id="word-count">480 words</strong></span>
-          <span><i class="fa-regular fa-clock text-indigo-400 mr-1"></i> Avg Reading Time: <strong>2 min 30 sec</strong></span>
+      <div class="px-6 pt-5 pb-3 border-b border-slate-800/50">
+        <h1 id="rc-title" class="text-xl sm:text-2xl font-bold text-slate-100 tracking-tight leading-snug">Loading Passage...</h1>
+        <p class="text-xs text-slate-400 mt-2 flex items-center gap-4">
+          <span><i class="fa-regular fa-file-word text-indigo-400 mr-1"></i> Word Count: <strong id="word-count">550+ words</strong></span>
+          <span><i class="fa-solid fa-list-ol text-indigo-400 mr-1"></i> Questions: <strong>6 Questions</strong></span>
         </p>
       </div>
 
-      <!-- Passage Body (Scrollable) -->
-      <div id="rc-passage" class="flex-grow p-6 overflow-y-auto custom-scrollbar serif-text text-slate-300 leading-relaxed space-y-4 text-base border-t border-slate-800/50">
-        <p class="animate-pulse text-slate-500">Loading full passage content...</p>
+      <!-- Passage Text (Scrollable) -->
+      <div id="rc-passage" class="flex-grow p-6 overflow-y-auto custom-scrollbar serif-text text-slate-300 leading-relaxed space-y-4 text-base">
+        <p class="animate-pulse text-slate-500">Loading passage content...</p>
       </div>
     </section>
 
     <!-- Right Column: Questions & Solutions (5 Cols) -->
     <section class="lg:col-span-5 flex flex-col h-[calc(100vh-7rem)] bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
-      
       <div class="p-4 bg-slate-900 border-b border-slate-800 flex justify-between items-center">
-        <h2 class="font-bold text-slate-200 text-sm flex items-center gap-2">
-          <i class="fa-solid fa-list-check text-indigo-400"></i> Practice Questions & Detailed Solutions
+        <h2 class="font-bold text-slate-200 text-xs sm:text-sm flex items-center gap-2">
+          <i class="fa-solid fa-list-check text-indigo-400"></i> Questions & Detailed Elimination
         </h2>
-        <span id="score-badge" class="text-xs bg-slate-800 text-slate-400 font-semibold px-2.5 py-1 rounded-md border border-slate-700">0/0 Answered</span>
+        <span id="score-badge" class="text-xs bg-slate-800 text-slate-400 font-semibold px-2.5 py-1 rounded-md border border-slate-700">0/6 Completed</span>
       </div>
 
-      <!-- Questions List (Scrollable) -->
+      <!-- Questions Container -->
       <div id="questions-container" class="flex-grow p-5 overflow-y-auto custom-scrollbar space-y-6">
         <!-- Injected via JS -->
       </div>
@@ -103,17 +170,17 @@
 
   </main>
 
-  <!-- Past RCs Drawer Modal -->
+  <!-- Archives Drawer Modal -->
   <div id="archive-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-md hidden z-50 flex items-center justify-center p-4">
     <div class="bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl max-w-lg w-full overflow-hidden">
       <div class="p-4 border-b border-slate-800 flex justify-between items-center bg-slate-800/50">
-        <h3 class="font-bold text-slate-100 flex items-center gap-2">
-          <i class="fa-solid fa-clock-rotate-left text-amber-400"></i> Past Passage Archives
+        <h3 class="font-bold text-slate-100 flex items-center gap-2 text-sm">
+          <i class="fa-solid fa-clock-rotate-left text-amber-400"></i> Past RC Archives
         </h3>
         <button onclick="toggleArchiveModal()" class="text-slate-400 hover:text-white font-bold text-xl">&times;</button>
       </div>
       <div id="archive-list" class="p-4 max-h-[60vh] overflow-y-auto custom-scrollbar space-y-3">
-        <p class="text-xs text-slate-400">Loading archived passages...</p>
+        <!-- Injected via JS -->
       </div>
     </div>
   </div>
@@ -122,6 +189,26 @@
     let currentFontSize = 16;
     let timerSeconds = 0;
     let timerInterval = null;
+
+    function switchMainTab(tab) {
+      const vSection = document.getElementById('section-vocab');
+      const rSection = document.getElementById('section-rc');
+      const vBtn = document.getElementById('tab-btn-vocab');
+      const rBtn = document.getElementById('tab-btn-rc');
+
+      if (tab === 'vocab') {
+        vSection.classList.remove('hidden');
+        rSection.classList.add('hidden');
+        vBtn.className = "px-3 sm:px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-2 bg-indigo-600 text-white shadow-md shadow-indigo-600/20";
+        rBtn.className = "px-3 sm:px-4 py-2 rounded-lg text-xs font-bold text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition flex items-center gap-2";
+      } else {
+        rSection.classList.remove('hidden');
+        vSection.classList.add('hidden');
+        rBtn.className = "px-3 sm:px-4 py-2 rounded-lg text-xs font-bold transition flex items-center gap-2 bg-indigo-600 text-white shadow-md shadow-indigo-600/20";
+        vBtn.className = "px-3 sm:px-4 py-2 rounded-lg text-xs font-bold text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition flex items-center gap-2";
+        startTimer();
+      }
+    }
 
     function startTimer() {
       clearInterval(timerInterval);
@@ -143,48 +230,104 @@
       document.getElementById('archive-modal').classList.toggle('hidden');
     }
 
-    async function fetchDailyRC() {
-      const today = new Date().toISOString().slice(0, 10);
+    function speakWord(text) {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'en-US';
+      window.speechSynthesis.speak(utterance);
+    }
+
+    async function loadData() {
       try {
         const res = await fetch('/passages.json');
         if (res.ok) {
-          const list = await res.json();
-          renderArchiveList(list);
-          const todayRC = list.find(item => item.date === today) || list[list.length - 1];
-          return todayRC;
+          const data = await res.json();
+          renderVocabSection(data.vocabData || getFallbackVocab());
+          renderArchiveList(data.rcPassages || []);
+          if (data.rcPassages && data.rcPassages.length > 0) {
+            renderRC(data.rcPassages[data.rcPassages.length - 1]);
+          }
         }
       } catch (e) {
-        console.warn("passages.json error, trying API fallback...", e);
+        console.warn("Error loading json data:", e);
+        renderVocabSection(getFallbackVocab());
       }
+    }
 
-      // API Fallback
-      try {
-        const aiRes = await fetch('/.netlify/functions/generate-rc');
-        if (aiRes.ok) {
-          return await aiRes.json();
-        }
-      } catch (e) {
-        console.error("AI backup error:", e);
-      }
+    function renderVocabSection(vocab) {
+      // Top 10 Words
+      const wordsGrid = document.getElementById('words-grid');
+      wordsGrid.innerHTML = '';
+      vocab.words.forEach((w, idx) => {
+        const card = document.createElement('div');
+        card.className = "bg-slate-900 border border-slate-800 rounded-2xl p-4 hover:border-indigo-500/40 transition space-y-2";
+        card.innerHTML = `
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-extrabold text-indigo-400">#${idx + 1}</span>
+              <h3 class="font-extrabold text-base text-slate-100">${w.word}</h3>
+              <span class="text-[10px] text-slate-400 italic">${w.type}</span>
+            </div>
+            <button onclick="speakWord('${w.word}')" class="text-slate-400 hover:text-amber-400 p-1">
+              <i class="fa-solid fa-volume-high text-xs"></i>
+            </button>
+          </div>
+          <p class="text-xs text-slate-300 font-medium">${w.meaning}</p>
+          <div class="p-2.5 rounded-xl bg-slate-950/60 border border-slate-800 text-[11px] text-slate-400 italic">
+            "${w.context}"
+          </div>
+        `;
+        wordsGrid.appendChild(card);
+      });
+
+      // Idioms
+      const idiomsContainer = document.getElementById('idioms-container');
+      idiomsContainer.innerHTML = '';
+      vocab.idioms.forEach(item => {
+        const div = document.createElement('div');
+        div.className = "p-3.5 bg-slate-900 border border-slate-800 rounded-xl space-y-1";
+        div.innerHTML = `
+          <h4 class="text-xs font-bold text-amber-300 flex items-center gap-2">
+            <i class="fa-solid fa-quote-left text-[10px] text-amber-500"></i> ${item.idiom}
+          </h4>
+          <p class="text-xs text-slate-200 font-medium">${item.meaning}</p>
+          <p class="text-[11px] text-slate-400 italic">Example: "${item.example}"</p>
+        `;
+        idiomsContainer.appendChild(div);
+      });
+
+      // Phrasal Verbs
+      const phrasalsContainer = document.getElementById('phrasals-container');
+      phrasalsContainer.innerHTML = '';
+      vocab.phrasalVerbs.forEach(item => {
+        const div = document.createElement('div');
+        div.className = "p-3.5 bg-slate-900 border border-slate-800 rounded-xl space-y-1";
+        div.innerHTML = `
+          <h4 class="text-xs font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-bolt text-[10px] text-emerald-500"></i> ${item.verb}
+          </h4>
+          <p class="text-xs text-slate-200 font-medium">${item.meaning}</p>
+          <p class="text-[11px] text-slate-400 italic">Example: "${item.example}"</p>
+        `;
+        phrasalsContainer.appendChild(div);
+      });
     }
 
     function renderRC(rc) {
       window.activeRCData = rc;
       document.getElementById('rc-title').innerText = rc.title;
       document.getElementById('rc-genre').innerText = rc.genre;
-      document.getElementById('rc-difficulty').innerText = rc.difficulty || 'CAT Level';
+      document.getElementById('rc-difficulty').innerText = rc.difficulty || 'Advanced Level';
 
-      // Count words
-      const words = rc.passage.split(/\s+/).length;
-      document.getElementById('word-count').innerText = `${words} words`;
+      const wordCount = rc.passage.split(/\s+/).length;
+      document.getElementById('word-count').innerText = `${wordCount} words`;
 
-      // Render Passage
+      // Render Paragraphs
       const paragraphs = rc.passage.split('\n\n');
       document.getElementById('rc-passage').innerHTML = paragraphs
-        .map(p => `<p class="leading-relaxed mb-4">${p}</p>`)
+        .map(p => `<p class="mb-4">${p}</p>`)
         .join('');
 
-      // Render Questions
+      // Render 6 Questions
       const container = document.getElementById('questions-container');
       container.innerHTML = '';
 
@@ -212,15 +355,12 @@
         `;
         container.appendChild(qCard);
       });
-
-      startTimer();
     }
 
     function checkAnswer(qIdx, selectedIdx, correctIdx) {
       const q = window.activeRCData.questions[qIdx];
       const solBox = document.getElementById(`q${qIdx}-sol`);
 
-      // Disable all options for this question
       q.options.forEach((_, oIdx) => {
         const btn = document.getElementById(`q${qIdx}-opt${oIdx}`);
         btn.onclick = null;
@@ -240,9 +380,13 @@
 
       solBox.innerHTML = `
         <div class="font-bold flex items-center gap-2">
-          ${isCorrect ? '<i class="fa-solid fa-circle-check text-emerald-400"></i> Correct Explanation' : '<i class="fa-solid fa-circle-xmark text-rose-400"></i> Detailed Explanation'}
+          ${isCorrect ? '<i class="fa-solid fa-circle-check text-emerald-400"></i> Correct Rationale' : '<i class="fa-solid fa-circle-xmark text-rose-400"></i> Detailed Elimination Rationale'}
         </div>
-        <p class="leading-relaxed opacity-90">${q.explanation}</p>
+        <div class="space-y-2 text-[11px] leading-relaxed">
+          <p><strong>Core Takeaway:</strong> ${q.explanation.summary}</p>
+          <p class="text-emerald-300"><strong>Why Option ${String.fromCharCode(65 + correctIdx)} is Correct:</strong> ${q.explanation.correctReason}</p>
+          <p class="text-rose-300"><strong>Elimination Breakdown:</strong> ${q.explanation.elimination}</p>
+        </div>
       `;
       solBox.classList.remove('hidden');
     }
@@ -256,6 +400,7 @@
         item.onclick = () => {
           renderRC(p);
           toggleArchiveModal();
+          switchMainTab('rc');
         };
         item.innerHTML = `
           <div>
@@ -268,10 +413,18 @@
       });
     }
 
-    document.addEventListener('DOMContentLoaded', async () => {
-      const rc = await fetchDailyRC();
-      if (rc) renderRC(rc);
-    });
+    function getFallbackVocab() {
+      return {
+        words: [
+          { word: "Perspicacious", type: "adj", meaning: "Having a ready insight into and understanding of things; mentally perceptive.", context: "Her perspicacious analysis of the passage revealed subtle tone shifts." },
+          { word: "Equanimity", type: "noun", meaning: "Mental calmness and composure, especially in difficult situations.", context: "He maintained absolute equanimity throughout the strenuous verbal section." }
+        ],
+        idioms: [{ idiom: "Burn the midnight oil", meaning: "To work or study late into the night.", example: "She burned the midnight oil preparing for her comprehension exam." }],
+        phrasalVerbs: [{ verb: "Iron out", meaning: "To resolve small problems or details.", example: "They ironed out their differences before making the final decision." }]
+      };
+    }
+
+    document.addEventListener('DOMContentLoaded', loadData);
   </script>
 </body>
 </html>
