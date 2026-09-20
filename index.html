@@ -50,10 +50,8 @@
     </div>
   </header>
 
-  <!-- TAB 1: DAILY VOCAB, IDIOMS & PHRASAL VERBS -->
+  <!-- TAB 1: DAILY VOCAB -->
   <main id="tab-vocab" class="max-w-7xl mx-auto px-4 sm:px-6 py-8 w-full space-y-10">
-    
-    <!-- Hero Banner -->
     <div class="bg-gradient-to-r from-indigo-950 via-slate-900 to-slate-950 border border-indigo-900/40 rounded-2xl p-6 sm:p-8 relative overflow-hidden shadow-2xl">
       <div class="relative z-10 space-y-3 max-w-2xl">
         <span class="bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">Today's Verbal Booster</span>
@@ -65,46 +63,30 @@
       </div>
     </div>
 
-    <!-- Top 10 Vocabulary Words Grid -->
+    <!-- 10 Vocab -->
     <section class="space-y-4">
       <div class="flex justify-between items-center border-b border-slate-800 pb-3">
-        <h2 class="text-lg font-bold text-white flex items-center gap-2">
-          <i class="fa-solid fa-brain text-indigo-400"></i> Top 10 High-Frequency Vocabulary Words
-        </h2>
+        <h2 class="text-lg font-bold text-white flex items-center gap-2"><i class="fa-solid fa-brain text-indigo-400"></i> Top 10 High-Frequency Vocabulary Words</h2>
         <span class="text-xs text-indigo-400 font-semibold bg-indigo-500/10 px-2.5 py-1 rounded-md border border-indigo-500/20">10 / 10 Active</span>
       </div>
-      <div id="vocab-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-        <!-- Rendered by JS -->
-      </div>
+      <div id="vocab-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
     </section>
 
-    <!-- Idioms & Phrasal Verbs Split Section -->
+    <!-- Idioms & Phrasal Verbs -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-      
-      <!-- Top 5 Idioms & Phrases -->
       <section class="space-y-4">
-        <div class="flex justify-between items-center border-b border-slate-800 pb-3">
-          <h2 class="text-md font-bold text-white flex items-center gap-2">
-            <i class="fa-solid fa-comments text-amber-400"></i> Today's Top 5 Idioms & Phrases
-          </h2>
+        <div class="border-b border-slate-800 pb-3">
+          <h2 class="text-md font-bold text-white flex items-center gap-2"><i class="fa-solid fa-comments text-amber-400"></i> Today's Top 5 Idioms & Phrases</h2>
         </div>
-        <div id="idioms-grid" class="space-y-3">
-          <!-- Rendered by JS -->
-        </div>
+        <div id="idioms-grid" class="space-y-3"></div>
       </section>
 
-      <!-- Top 5 Phrasal Verbs -->
       <section class="space-y-4">
-        <div class="flex justify-between items-center border-b border-slate-800 pb-3">
-          <h2 class="text-md font-bold text-white flex items-center gap-2">
-            <i class="fa-solid fa-bolt text-emerald-400"></i> Today's Top 5 Phrasal Verbs
-          </h2>
+        <div class="border-b border-slate-800 pb-3">
+          <h2 class="text-md font-bold text-white flex items-center gap-2"><i class="fa-solid fa-bolt text-emerald-400"></i> Today's Top 5 Phrasal Verbs</h2>
         </div>
-        <div id="phrasal-grid" class="space-y-3">
-          <!-- Rendered by JS -->
-        </div>
+        <div id="phrasal-grid" class="space-y-3"></div>
       </section>
-
     </div>
   </main>
 
@@ -112,14 +94,14 @@
   <main id="tab-rc" class="hidden max-w-7xl mx-auto px-4 sm:px-6 py-6 w-full grid grid-cols-1 lg:grid-cols-12 gap-6 flex-grow">
     
     <!-- Passage Column (7 Cols) -->
-    <section class="lg:col-span-7 flex flex-col min-h-[600px] bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
+    <section class="lg:col-span-7 flex flex-col min-h-[650px] bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
       <div class="p-4 bg-slate-900/90 border-b border-slate-800 flex flex-wrap items-center justify-between gap-3">
         <div class="flex items-center gap-2">
           <span id="rc-genre" class="bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-xs font-bold px-2.5 py-1 rounded-md">Philosophy & Tech</span>
           <span id="rc-difficulty" class="bg-rose-500/10 text-rose-400 border border-rose-500/20 text-xs font-bold px-2.5 py-1 rounded-md">Advanced Standard</span>
         </div>
         <div class="flex items-center gap-3">
-          <span class="text-xs text-slate-400"><i class="fa-regular fa-clock text-indigo-400"></i> <span id="timer">00:00</span></span>
+          <span class="text-xs text-slate-300 font-mono bg-slate-800 px-2.5 py-1 rounded border border-slate-700">⏱️ <span id="timer">00:00</span></span>
           <div class="flex items-center gap-1">
             <button onclick="adjustFontSize(-1)" class="w-7 h-7 rounded bg-slate-800 text-xs font-bold border border-slate-700">A-</button>
             <button onclick="adjustFontSize(1)" class="w-7 h-7 rounded bg-slate-800 text-xs font-bold border border-slate-700">A+</button>
@@ -129,9 +111,9 @@
 
       <div class="px-6 pt-5 pb-3">
         <h1 id="rc-title" class="text-xl sm:text-2xl font-bold text-slate-100 tracking-tight leading-snug">Loading Passage...</h1>
-        <p class="text-xs text-slate-400 mt-1 flex items-center gap-3">
-          <span><i class="fa-regular fa-file-word text-indigo-400 mr-1"></i> Word Count: <strong id="word-count">550+ words</strong></span>
-          <span><i class="fa-solid fa-list-check text-indigo-400 mr-1"></i> <strong>6 Questions</strong></span>
+        <p class="text-xs text-slate-400 mt-1 flex items-center gap-4">
+          <span><i class="fa-regular fa-file-word text-indigo-400 mr-1"></i> Word Count: <strong id="word-count" class="text-slate-200">1000+ words</strong></span>
+          <span><i class="fa-solid fa-list-check text-indigo-400 mr-1"></i> Questions: <strong class="text-slate-200">6 Questions</strong></span>
         </p>
       </div>
 
@@ -140,20 +122,72 @@
       </div>
     </section>
 
-    <!-- Questions Column (5 Cols) -->
-    <section class="lg:col-span-5 flex flex-col min-h-[600px] bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
+    <!-- Questions & Test Section (5 Cols) -->
+    <section class="lg:col-span-5 flex flex-col min-h-[650px] bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
       <div class="p-4 bg-slate-900 border-b border-slate-800 flex justify-between items-center">
         <h2 class="font-bold text-slate-200 text-xs flex items-center gap-2">
-          <i class="fa-solid fa-list-check text-indigo-400"></i> Questions & Step-by-Step Elimination
+          <i class="fa-solid fa-pen-to-square text-indigo-400"></i> Test Questions
         </h2>
-        <span id="score-badge" class="text-xs bg-slate-800 text-indigo-300 font-semibold px-2 py-0.5 rounded border border-slate-700">0/6 Completed</span>
+        <span id="completion-counter" class="text-xs bg-indigo-500/10 text-indigo-400 font-semibold px-2.5 py-1 rounded border border-indigo-500/20">0/6 Answered</span>
       </div>
+
       <div id="questions-container" class="flex-grow p-5 overflow-y-auto custom-scrollbar space-y-6">
         <!-- Rendered by JS -->
+      </div>
+
+      <!-- Submit Test Bar -->
+      <div id="submit-bar" class="p-4 bg-slate-900/90 border-t border-slate-800">
+        <button id="submit-btn" onclick="submitTest()" class="w-full bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white font-extrabold text-sm py-3 rounded-xl shadow-lg shadow-indigo-600/30 transition flex items-center justify-center gap-2">
+          <i class="fa-solid fa-paper-plane"></i> Submit Test & View Performance Scorecard
+        </button>
       </div>
     </section>
 
   </main>
+
+  <!-- TEST RESULT SCORECARD DASHBOARD MODAL -->
+  <div id="result-modal" class="fixed inset-0 bg-slate-950/85 backdrop-blur-md hidden z-50 flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl max-w-xl w-full overflow-hidden">
+      
+      <!-- Header -->
+      <div class="p-6 bg-gradient-to-r from-indigo-950 via-slate-900 to-slate-900 border-b border-slate-800 text-center relative">
+        <button onclick="closeResultModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white font-bold text-xl">&times;</button>
+        <span class="bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Test Completed</span>
+        <h2 class="text-2xl font-black text-white mt-2">Performance Scorecard</h2>
+        <p class="text-xs text-slate-400">Here is your detailed analysis for today's Reading Comprehension.</p>
+      </div>
+
+      <!-- Dashboard Stats Grid -->
+      <div class="p-6 space-y-6">
+        <div class="grid grid-cols-3 gap-4 text-center">
+          <div class="p-4 rounded-xl bg-slate-800/60 border border-slate-700/60">
+            <p class="text-xs text-slate-400 font-medium">Final Score</p>
+            <p id="res-score" class="text-2xl font-black text-indigo-400 mt-1">0 / 6</p>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-800/60 border border-slate-700/60">
+            <p class="text-xs text-slate-400 font-medium">Accuracy</p>
+            <p id="res-accuracy" class="text-2xl font-black text-emerald-400 mt-1">0%</p>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-800/60 border border-slate-700/60">
+            <p class="text-xs text-slate-400 font-medium">Time Taken</p>
+            <p id="res-time" class="text-2xl font-black text-amber-400 mt-1">00:00</p>
+          </div>
+        </div>
+
+        <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800/80 text-xs space-y-2 text-slate-300">
+          <div class="flex justify-between"><span>Correct Answers:</span> <strong id="res-correct" class="text-emerald-400">0</strong></div>
+          <div class="flex justify-between"><span>Incorrect Answers:</span> <strong id="res-wrong" class="text-rose-400">0</strong></div>
+          <div class="flex justify-between"><span>Unattempted Questions:</span> <strong id="res-unattempted" class="text-slate-400">0</strong></div>
+          <div class="flex justify-between border-t border-slate-800 pt-2"><span>Average Time / Question:</span> <strong id="res-avg-time" class="text-indigo-300">0 sec</strong></div>
+        </div>
+
+        <button onclick="reviewSolutions()" class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs py-3 rounded-xl shadow-lg transition">
+          Review Detailed Step-by-Step Solutions <i class="fa-solid fa-arrow-down ml-1"></i>
+        </button>
+      </div>
+
+    </div>
+  </div>
 
   <!-- Past RCs Modal -->
   <div id="archive-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-md hidden z-50 flex items-center justify-center p-4">
@@ -170,42 +204,8 @@
     let currentFontSize = 16;
     let timerSeconds = 0;
     let timerInterval = null;
-
-    // Hardcoded Fallback RC Data to guarantee passage loads even if JSON fetch fails
-    const defaultRC = {
-      id: "rc-default",
-      date: "2026-09-20",
-      title: "The Fallacy of Algorithmic Objectivity",
-      genre: "Sociology & Tech",
-      difficulty: "Advanced Standard",
-      passage: "Algorithms are frequently framed in modern technological discourse as impartial arbiters of human activity, purportedly free from the visceral emotional biases and cognitive shortcomings that pollute human judgment. However, this triumphalist narrative misinterprets the fundamental ontological nature of computational systems: an algorithm is not a neutral mathematical oracle, but a static encoding of historical training data.\n\nBecause historical datasets reflect structural inequities, systemic marginalization, and institutional blind spots, training neural networks on past human behavior inevitably codifies and amplifies those same disparities under the deceptive guise of statistical objectivity. When predictive policing models allocate law enforcement resources based on historical arrest records, they do not predict crime; rather, they predict where police were previously deployed, reinforcing a feedback loop of hyper-surveillance.\n\nFurthermore, the opacity of deep neural networks—commonly referred to as the 'black box' problem—compounds this ethical dilemma. Unlike traditional expert systems governed by explicit rule-based logic, deep learning models derive non-linear feature representations that remain incomprehensible even to their chief architects. When an algorithm denies a mortgage application or recommends parole revocation, tracing the deterministic causal chain behind that output becomes an exercise in futility. Consequently, automating high-stakes societal decisions does not eliminate human prejudice; it merely mechanizes it, rendering bias invisible, systemic, and entirely immune to democratic accountability.",
-      questions: [
-        {
-          id: "q1",
-          question: "Which of the following best summarizes the central thesis of the author regarding predictive algorithmic models?",
-          options: [
-            "A) Algorithmic models process historical data with unmatched mathematical precision.",
-            "B) Machine learning models formalize historical inequities while cloaking them in objectivity.",
-            "C) AI systems fail primarily due to technical errors in non-linear statistical regressions.",
-            "D) Predictive policing should be immediately replaced with traditional rule-based algorithms."
-          ],
-          answer: 1,
-          explanation: "<strong>Why Option B is Correct:</strong> Paragraph 1 & 2 state that algorithms encode historical data (containing biases) and amplify disparities under statistical objectivity.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A:</em> Opposes the text refuting algorithmic impartiality.<br>• <em>Option C:</em> Distorts the text mentioning non-linear models to explain opacity, not regression errors.<br>• <em>Option D:</em> The author uses policing only as an example, not as a policy proposal."
-        },
-        {
-          id: "q2",
-          question: "The author refers to the 'black box' problem in order to demonstrate that:",
-          options: [
-            "A) Computer engineers intentionally conceal biased source code.",
-            "B) Complex algorithms fail to process non-linear datasets efficiently.",
-            "C) Model opacity renders decisions immune to democratic accountability.",
-            "D) Historical training data contains irrecoverable mathematical corruption."
-          ],
-          answer: 2,
-          explanation: "<strong>Why Option C is Correct:</strong> Paragraph 3 explains that untraceable causal logic makes decisions 'invisible, systemic, and entirely immune to democratic accountability.'<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A:</em> Extreme trap; text notes code is incomprehensible even to architects.<br>• <em>Option B:</em> Factually inaccurate; neural networks process non-linear data well.<br>• <em>Option D:</em> The black box refers to internal opacity, not file corruption."
-        }
-      ]
-    };
+    let userAnswers = {};
+    let isSubmitted = false;
 
     const vocabList = [
       { word: "Perspicacious", type: "adj", def: "Having a ready insight into and understanding of things; mentally perceptive.", ex: "Her perspicacious analysis of the text revealed subtle tone shifts." },
@@ -251,9 +251,7 @@
     }
 
     function renderVocabSection() {
-      // 10 Words
-      const vGrid = document.getElementById('vocab-grid');
-      vGrid.innerHTML = vocabList.map((v, i) => `
+      document.getElementById('vocab-grid').innerHTML = vocabList.map((v, i) => `
         <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 space-y-2 hover:border-indigo-500/40 transition">
           <div class="flex justify-between items-center">
             <span class="text-xs text-indigo-400 font-bold">#${i + 1} ${v.word} <span class="text-[10px] text-slate-500 italic">(${v.type})</span></span>
@@ -264,9 +262,7 @@
         </div>
       `).join('');
 
-      // 5 Idioms
-      const iGrid = document.getElementById('idioms-grid');
-      iGrid.innerHTML = idiomsList.map(i => `
+      document.getElementById('idioms-grid').innerHTML = idiomsList.map(i => `
         <div class="p-3.5 rounded-xl bg-slate-900 border border-slate-800 space-y-1">
           <p class="text-xs font-bold text-amber-400"><i class="fa-solid fa-quote-left mr-1.5 opacity-60"></i> ${i.idiom}</p>
           <p class="text-xs text-slate-300">${i.def}</p>
@@ -274,9 +270,7 @@
         </div>
       `).join('');
 
-      // 5 Phrasal Verbs
-      const pGrid = document.getElementById('phrasal-grid');
-      pGrid.innerHTML = phrasalList.map(p => `
+      document.getElementById('phrasal-grid').innerHTML = phrasalList.map(p => `
         <div class="p-3.5 rounded-xl bg-slate-900 border border-slate-800 space-y-1">
           <p class="text-xs font-bold text-emerald-400"><i class="fa-solid fa-bolt mr-1.5 opacity-60"></i> ${p.verb}</p>
           <p class="text-xs text-slate-300">${p.def}</p>
@@ -300,6 +294,10 @@
       document.getElementById('archive-modal').classList.toggle('hidden');
     }
 
+    function closeResultModal() {
+      document.getElementById('result-modal').classList.add('hidden');
+    }
+
     async function fetchDailyRC() {
       try {
         const res = await fetch('/passages.json');
@@ -309,22 +307,30 @@
           if (list && list.length > 0) return list[list.length - 1];
         }
       } catch (e) {
-        console.warn("Using local fallback RC...", e);
+        console.warn("Using passages.json fallback...", e);
       }
-      return defaultRC;
     }
 
     function renderRC(rc) {
       window.activeRCData = rc;
+      userAnswers = {};
+      isSubmitted = false;
+
       document.getElementById('rc-title').innerText = rc.title;
       document.getElementById('rc-genre').innerText = rc.genre;
-      document.getElementById('rc-difficulty').innerText = rc.difficulty || 'Advanced Level';
+      document.getElementById('rc-difficulty').innerText = rc.difficulty || 'Advanced Standard';
 
+      // Count words
+      const words = rc.passage.split(/\s+/).length;
+      document.getElementById('word-count').innerText = `${words} words`;
+
+      // Render Passage
       const paragraphs = rc.passage.split('\n\n');
       document.getElementById('rc-passage').innerHTML = paragraphs
-        .map(p => `<p class="mb-4">${p}</p>`)
+        .map(p => `<p class="mb-4 leading-relaxed">${p}</p>`)
         .join('');
 
+      // Render Questions
       const container = document.getElementById('questions-container');
       container.innerHTML = '';
 
@@ -335,7 +341,7 @@
         let optionsHTML = '';
         q.options.forEach((opt, oIndex) => {
           optionsHTML += `
-            <button onclick="checkAnswer(${qIndex}, ${oIndex}, ${q.answer})" id="q${qIndex}-opt${oIndex}" 
+            <button onclick="selectOption(${qIndex}, ${oIndex})" id="q${qIndex}-opt${oIndex}" 
               class="w-full text-left p-3 rounded-lg border border-slate-700 bg-slate-800/80 hover:border-indigo-500/50 hover:bg-indigo-500/5 transition text-xs font-medium text-slate-200 leading-snug">
               ${opt}
             </button>
@@ -353,37 +359,97 @@
         container.appendChild(qCard);
       });
 
+      document.getElementById('completion-counter').innerText = `0/${rc.questions.length} Answered`;
+      document.getElementById('submit-btn').classList.remove('hidden');
       startTimer();
     }
 
-    function checkAnswer(qIdx, selectedIdx, correctIdx) {
-      const q = window.activeRCData.questions[qIdx];
-      const solBox = document.getElementById(`q${qIdx}-sol`);
+    function selectOption(qIdx, oIdx) {
+      if (isSubmitted) return;
+      userAnswers[qIdx] = oIdx;
 
-      q.options.forEach((_, oIdx) => {
-        const btn = document.getElementById(`q${qIdx}-opt${oIdx}`);
-        btn.onclick = null;
-        if (oIdx === correctIdx) {
-          btn.className = "w-full text-left p-3 rounded-lg border border-emerald-500 bg-emerald-500/10 text-emerald-300 font-semibold text-xs leading-snug";
-        } else if (oIdx === selectedIdx) {
-          btn.className = "w-full text-left p-3 rounded-lg border border-rose-500 bg-rose-500/10 text-rose-300 text-xs leading-snug";
+      // Update styling
+      const q = window.activeRCData.questions[qIdx];
+      q.options.forEach((_, optIdx) => {
+        const btn = document.getElementById(`q${qIdx}-opt${optIdx}`);
+        if (optIdx === oIdx) {
+          btn.className = "w-full text-left p-3 rounded-lg border-2 border-indigo-500 bg-indigo-500/20 text-indigo-200 font-bold text-xs leading-snug";
         } else {
-          btn.className = "w-full text-left p-3 rounded-lg border border-slate-800 bg-slate-900/50 text-slate-500 text-xs opacity-60 leading-snug";
+          btn.className = "w-full text-left p-3 rounded-lg border border-slate-700 bg-slate-800/80 text-slate-300 text-xs leading-snug";
         }
       });
 
-      const isCorrect = selectedIdx === correctIdx;
-      solBox.className = isCorrect 
-        ? "mt-3 p-3.5 rounded-lg text-xs bg-emerald-950/40 border border-emerald-500/30 text-emerald-200 space-y-2"
-        : "mt-3 p-3.5 rounded-lg text-xs bg-rose-950/40 border border-rose-500/30 text-rose-200 space-y-2";
+      const answeredCount = Object.keys(userAnswers).length;
+      document.getElementById('completion-counter').innerText = `${answeredCount}/${window.activeRCData.questions.length} Answered`;
+    }
 
-      solBox.innerHTML = `
-        <div class="font-bold flex items-center gap-2">
-          ${isCorrect ? '<i class="fa-solid fa-circle-check text-emerald-400"></i> Correct Explanation' : '<i class="fa-solid fa-circle-xmark text-rose-400"></i> Detailed Elimination Rationale'}
-        </div>
-        <p class="leading-relaxed opacity-90">${q.explanation}</p>
-      `;
-      solBox.classList.remove('hidden');
+    function submitTest() {
+      if (isSubmitted) return;
+      isSubmitted = true;
+      clearInterval(timerInterval);
+
+      const total = window.activeRCData.questions.length;
+      let correct = 0;
+      let wrong = 0;
+
+      window.activeRCData.questions.forEach((q, qIdx) => {
+        if (userAnswers[qIdx] !== undefined) {
+          if (userAnswers[qIdx] === q.answer) correct++;
+          else wrong++;
+        }
+      });
+
+      const unattempted = total - (correct + wrong);
+      const accuracy = (correct + wrong) > 0 ? Math.round((correct / (correct + wrong)) * 100) : 0;
+      const m = String(Math.floor(timerSeconds / 60)).padStart(2, '0');
+      const s = String(timerSeconds % 60).padStart(2, '0');
+      const avgTime = (correct + wrong + unattempted) > 0 ? Math.round(timerSeconds / total) : 0;
+
+      // Populate Scorecard
+      document.getElementById('res-score').innerText = `${correct} / ${total}`;
+      document.getElementById('res-accuracy').innerText = `${accuracy}%`;
+      document.getElementById('res-time').innerText = `${m}:${s}`;
+      document.getElementById('res-correct').innerText = correct;
+      document.getElementById('res-wrong').innerText = wrong;
+      document.getElementById('res-unattempted').innerText = unattempted;
+      document.getElementById('res-avg-time').innerText = `${avgTime} sec`;
+
+      document.getElementById('result-modal').classList.remove('hidden');
+    }
+
+    function reviewSolutions() {
+      closeResultModal();
+
+      // Show solutions for all questions
+      window.activeRCData.questions.forEach((q, qIdx) => {
+        const solBox = document.getElementById(`q${qIdx}-sol`);
+        const userSelected = userAnswers[qIdx];
+
+        q.options.forEach((_, oIdx) => {
+          const btn = document.getElementById(`q${qIdx}-opt${oIdx}`);
+          btn.onclick = null;
+          if (oIdx === q.answer) {
+            btn.className = "w-full text-left p-3 rounded-lg border border-emerald-500 bg-emerald-500/10 text-emerald-300 font-semibold text-xs leading-snug";
+          } else if (oIdx === userSelected) {
+            btn.className = "w-full text-left p-3 rounded-lg border border-rose-500 bg-rose-500/10 text-rose-300 text-xs leading-snug";
+          } else {
+            btn.className = "w-full text-left p-3 rounded-lg border border-slate-800 bg-slate-900/50 text-slate-500 text-xs opacity-60 leading-snug";
+          }
+        });
+
+        const isCorrect = userSelected === q.answer;
+        solBox.className = isCorrect 
+          ? "mt-3 p-3.5 rounded-lg text-xs bg-emerald-950/40 border border-emerald-500/30 text-emerald-200 space-y-2"
+          : "mt-3 p-3.5 rounded-lg text-xs bg-rose-950/40 border border-rose-500/30 text-rose-200 space-y-2";
+
+        solBox.innerHTML = `
+          <div class="font-bold flex items-center gap-2">
+            ${isCorrect ? '<i class="fa-solid fa-circle-check text-emerald-400"></i> Correct Answer' : '<i class="fa-solid fa-circle-xmark text-rose-400"></i> Detailed Step-by-Step Elimination'}
+          </div>
+          <p class="leading-relaxed opacity-90">${q.explanation}</p>
+        `;
+        solBox.classList.remove('hidden');
+      });
     }
 
     function startTimer() {
