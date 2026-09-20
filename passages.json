@@ -30,7 +30,7 @@
         { "verb": "Iron out", "def": "To resolve small problems, difficulties, or details.", "ex": "They ironed out their logical disagreements before finalizing the paper." },
         { "verb": "Pertain to", "def": "To be directly related or relevant to a specific topic.", "ex": "The second paragraph pertains to the historical precedents of economic policy." },
         { "verb": "Whittle down", "def": "To gradually reduce the size or number of options.", "ex": "Through process of elimination, she whittled down the four options to one." },
-        { "verb": "Gloss over", "def": "To treat or describe something lightly or deceptively.", "ex": "The author refuses to gloss over the catastrophic consequences of climate change." },
+        { "verb": "Gloss over", "def": "To treat or describe something lightly or deceptively.", ex: "The author refuses to gloss over the catastrophic consequences of climate change." },
         { "verb": "Root out", "def": "To find and completely eradicate or remove something bad.", "ex": "Independent audits help root out systemic biases in financial reporting." }
       ]
     },
@@ -46,7 +46,7 @@
           "D) Predictive policing models should be completely abandoned and replaced with classical rule-based expert systems in law enforcement."
         ],
         "answer": 1,
-        "explanation": "<strong>Why Option B is Correct:</strong> Paragraphs 2 and 4 directly state that algorithms encode historical biases and render prejudice invisible and immune to contestability under the guise of statistical objectivity.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Opposite Trap):</em> Paragraph 1 explicitly refutes this 'triumphalist narrative'.<br>• <em>Option C (Distortion):</em> Paragraph 5 explicitly states that 'technical patches alone are insufficient'.<br>• <em>Option D (Out of Scope):</em> Predictive policing is used merely as an illustrative example, not as a central policy recommendation."
+        "explanation": "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>The author's central thesis spans Paragraphs 1, 2, and 4. The author argues that algorithms are not neutral; they copy past human bias (Paragraph 1 & 2) and make decision-making opaque and unchallengeable (Paragraph 4).<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Opposite Trap):</strong> Incorrect. Paragraph 1 refutes this exact idea, calling it a 'triumphalist narrative' and an 'epistemological misconception'.<br>• <strong>Option B (Correct Core Answer):</strong> Correct. Accurately synthesizes Paragraph 2 ('codifies historical disparities') and Paragraph 5 ('veneer of mathematical neutrality').<br>• <strong>Option C (Distortion Trap):</strong> Incorrect. Paragraph 5 explicitly states that 'technical patches alone are insufficient'. The issue isn't coding bugs; it's using historical biased data.<br>• <strong>Option D (Out of Scope / Scope Trap):</strong> Incorrect. Predictive policing is used merely as a 1-paragraph illustrative example, not as the main thesis of the entire essay."
       },
       {
         "id": "q2",
@@ -58,7 +58,7 @@
           "D) Rely on rule-based expert logic that cannot adapt to changing urban demographics."
         ],
         "answer": 1,
-        "explanation": "<strong>Why Option B is Correct:</strong> Paragraph 2 explicitly asserts that models trained on arrest records 'predict where police were previously deployed' rather than actual crime rates.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Misattribution):</em> Non-linear representations are discussed in Paragraph 3 regarding opacity, not predictive policing.<br>• <em>Option C (Irrelevant):</em> Economic fluctuations are not mentioned as the cause of policing model failure.<br>• <em>Option D (Factually Incorrect):</em> The text specifies these models are machine learning, not classical rule-based systems."
+        "explanation": "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer directly to Paragraph 2. The author explains that algorithms reflect 'historical arrest records'—which reflect where police were sent in the past due to discriminatory practices, not where crime actually happens.<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Misattribution Trap):</strong> Incorrect. 'Non-linear representations' are discussed in Paragraph 3 in the context of the 'black box' problem, not as the primary flaw of predictive policing.<br>• <strong>Option B (Correct Direct Answer):</strong> Correct. Directly matches the text in Paragraph 2: 'they mathematically predict where police forces were historically deployed'.<br>• <strong>Option C (Out of Scope):</strong> Incorrect. Economic market fluctuations are mentioned in Paragraph 1 generally, but not as the cause of predictive policing failure.<br>• <strong>Option D (Factually Contrary):</strong> Incorrect. Predictive policing models are machine learning algorithms trained on datasets, not 'rule-based expert logic'."
       },
       {
         "id": "q3",
@@ -70,7 +70,7 @@
           "D) Generate inaccurate predictions because they ignore multi-dimensional data features."
         ],
         "answer": 1,
-        "explanation": "<strong>Why Option B is Correct:</strong> Paragraph 3 states that non-linear feature representations remain 'incomprehensible even to their chief architects', making causal chains untraceable.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Extreme Intent Trap):</em> The text does not claim engineers intentionally hide logic; opacity is an inherent technical property.<br>• <em>Option C (Irrelevant):</em> Efficiency is not the issue; transparency and interpretability are.<br>• <em>Option D (Contradictory):</em> Neural networks extract multi-dimensional features; the problem is opacity, not inaccuracy."
+        "explanation": "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer to Paragraph 3. The 'black box' problem is introduced to explain opacity: modern deep neural networks automatically extract feature representations across millions of parameters, making it impossible to trace the exact rationale behind a decision.<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Extreme Intent Trap):</strong> Incorrect. The passage does not claim developers maliciously or intentionally design systems to evade law; opacity is an inherent technical property of deep learning.<br>• <strong>Option B (Correct Analytical Answer):</strong> Correct. Directly matches Paragraph 3: 'even the lead architects... cannot trace the precise causal chain that leads to a specific prediction.'<br>• <strong>Option C (Irrelevant Distortion):</strong> Incorrect. Computational efficiency is not the issue being discussed in Paragraph 3; interpretability is.<br>• <strong>Option D (Contradictory Trap):</strong> Incorrect. Deep neural networks process multi-dimensional features well; the problem is that human beings cannot interpret how those features interacted."
       },
       {
         "id": "q4",
@@ -82,95 +82,31 @@
           "D) It increases the financial cost of litigation in civil rights law cases."
         ],
         "answer": 1,
-        "explanation": "<strong>Why Option B is Correct:</strong> Paragraph 4 asserts that jurisprudence relies on contestability, which is 'effectively obliterated' when decision logic cannot be articulated.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Irrelevant):</em> Corporate financial audits are not discussed in Paragraph 4.<br>• <em>Option C (Extreme Choice):</em> The text mentions parole as an example, not that judges are legally forced to use it.<br>• <em>Option D (Out of Scope):</em> Litigation costs are never mentioned in the passage."
-      },
-      {
-        "id": "q5",
-        "question": "Which of the following assumptions underlies the author's argument in the final paragraph?",
-        "options": [
-          "A) Technological progress is inherently incompatible with human rights and democratic governance.",
-          "B) Technical fixes like explainability audits can fully resolve societal inequities without legislative intervention.",
-          "C) Deciding to delegate ethical judgment to automated systems is itself a value choice rather than a neutral technical decision.",
-          "D) Rule-based expert systems are mathematically superior to deep neural networks in all governance contexts."
-        ],
-        "answer": 2,
-        "explanation": "<strong>Why Option C is Correct:</strong> Paragraph 5 explicitly states that 'delegating ethical and normative judgments to statistical models is itself an ideological choice.'<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Extreme Trap):</em> The author advocates for ethical reframing and legal oversight, not abandoning technology altogether.<br>• <em>Option B (Contradicts Text):</em> Paragraph 5 explicitly states technical patches alone are 'insufficient'.<br>• <em>Option D (Out of Scope):</em> The passage does not claim rule-based systems are superior in all contexts."
-      },
-      {
-        "id": "q6",
-        "question": "The tone of the author throughout the passage can best be described as:",
-        "options": [
-          "A) Cynical and dismissive of scientific technological innovation.",
-          "B) Highly critical, analytical, and ethically concerned.",
-          "C) Neutral, objective, and detached from political governance debates.",
-          "D) Enthusiastic and optimistic about future algorithmic auditing techniques."
-        ],
-        "answer": 1,
-        "explanation": "<strong>Why Option B is Correct:</strong> The author critically analyzes algorithmic bias, demonstrates ethical concern regarding democratic accountability, and offers reasoned arguments.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Extreme):</em> The author is not dismissive of science, but critical of unchecked technological delegation.<br>• <em>Option C (Incorrect Tone):</em> The author takes a clear normative stance on democratic accountability.<br>•  preliminary D (Incorrect Tone): The author explicitly warns that technical audits alone are insufficient."
-      }
-    ]
-  },
-  {
-    "id": "rc-2026-09-21",
-    "date": "2026-09-21",
-    "source": "curated",
-    "title": "The Paradox of Creative Destruction in Modern Digital Capitalism",
-    "genre": "Economics & Philosophy",
-    "difficulty": "Advanced Standard",
-    "vocab": {
-      "words": [
-        { "word": "Iconoclastic", "type": "adj", "def": "Attacking or ignoring cherished beliefs or long-held traditions.", "ex": "His iconoclastic essay challenged traditional economic market theories." },
-        { "word": "Vicissitude", "type": "noun", def: "A change of circumstances or fortune, typically one that is unwelcome.", ex: "Entrepreneurs must adapt swiftly to the unexpected vicissitudes of global markets." },
-        { "word": "Ameliorate", "type": "verb", def: "To make something bad or unsatisfactory better; to improve.", ex: "Targeted fiscal policies helped ameliorate the harsh impact of inflation." },
-        { "word": "Pusillanimous", "type": "adj", def: "Showing a lack of courage or determination; timid.", ex: "Critics condemned the regulatory board's pusillanimous response to market monopolies." },
-        { "word": "Inequity", "type": "noun", def: "Lack of fairness or justice; imbalance.", ex: "Technological disruption often deepens income inequity between skilled and unskilled workers." },
-        { "word": "Transient", "type": "adj", def: "Lasting only for a short time; impermanent.", ex: "Speculative price surges are usually transient and followed by market corrections." },
-        { "word": "Cognizant", "type": "adj", def: "Having knowledge or being aware of something.", ex: "Economists must remain cognizant of societal costs when promoting rapid industrial automation." },
-        { "word": "Dogmatic", "type": "adj", def: "Inclined to lay down principles as incontrovertibly true without evidence.", ex: "A dogmatic adherence to outdated economic models prevents genuine policy reform." },
-        { "word": "Quintessential", "type": "adj", def: "Representing the most perfect or typical example of a quality or class.", ex: "Silicon Valley startups are often viewed as the quintessential symbols of modern innovation." },
-        { "word": "Ubiquitous", "type": "adj", def: "Present, appearing, or found everywhere.", ex: "Mobile payment gateways have become ubiquitous in metropolitan urban markets." }
-      ],
-      "idioms": [
-        { "idiom": "At a crossroads", def: "At a point where an important decision must be made.", ex: "The global energy sector stands at a crossroads between fossil fuels and renewables." },
-        { "idiom": "The lion's share", def: "The largest part or majority of something.", ex: "Tech monopolies continue to capture the lion's share of digital advertising revenue." },
-        { "idiom": "In the pipeline", def: "In the process of being developed, planned, or produced.", ex: "Several groundbreaking antitrust regulations are currently in the legislative pipeline." },
-        { "idiom": "Throw cold water on", def: "To discourage or dampen enthusiasm for an idea or plan.", ex: "Rising interest rates threw cold water on speculative real estate investments." },
-        { "idiom": "Tip of the iceberg", def: "A small, visible part of a problem that is much larger.", ex: "Reported data breaches represent merely the tip of the iceberg in cybersecurity threats." }
-      ],
-      "phrasalVerbs": [
-        { "verb": "Phase out", def: "To gradually stop using or providing something.", ex: "Central banks plan to phase out paper currency in favor of digital assets." },
-        { "verb": "Bank on", def: "To rely on or place confidence in something happening.", ex: "Investors should not bank on uninterrupted economic growth without risk management." },
-        { "verb": "Scale up", def: "To increase the size, amount, or production rate of something.", ex: "The startup successfully scaled up its cloud service infrastructure." },
-        { "verb": "Bear out", def: "To confirm or support a theory or prediction with evidence.", ex: "Recent market trends bear out the analyst's forecast regarding supply chain disruptions." },
-        { "verb": "Claw back", def: "To recover money, power, or land that was previously surrendered.", ex: "Regulators attempted to claw back excessive executive bonuses after the financial crisis." }
-      ]
-    },
-    "passage": "Joseph Schumpeter’s celebrated theory of 'creative destruction' posits that dynamic capitalism inherently progresses through continuous cycles of industrial mutation, relentlessly destroying old economic structures from within while simultaneously creating innovative new paradigms. In Schumpeter’s worldview, economic growth is not an equilibrium process driven by price competition among static firms; rather, it is a turbulent gale spearheaded by visionary entrepreneurs whose technological innovations render established monopolies obsolete.\n\nHowever, in modern digital ecosystems dominated by platform monopolies, the structural mechanics of creative destruction have undergone a fundamental metamorphosis. Unlike industrial-era manufacturing firms whose dominance was constrained by physical capital and diminishing returns to scale, modern digital platform conglomerates benefit from multi-sided network effects, data network feedback loops, and zero marginal distribution costs. These unique structural advantages create unprecedented winner-take-all dynamics that insulate dominant firms from competitive disruption.\n\nWhen a novel digital technology emerges today, platform monopolies rarely succumb to competitive displacement. Instead, they leverage vast cash reserves and comprehensive user surveillance data to execute defensive acquisitions—commonly referred to as 'killer acquisitions'—thereby neutralizing potential rivals before they achieve critical network scale. Consequently, creative destruction is effectively replaced by 'creative absorption,' where market incumbents systematically buy, absorb, or suppress disruptive innovations to perpetuate their own market dominance.\n\nThis structural consolidation carries severe macroeconomic implications for productivity and wealth distribution. By stifling genuine market entry, platform monopolies reduce economy-wide innovation, depress wage growth for specialized tech workers, and concentrate economic surplus into financial capital rather than productive investment. Therefore, preserving economic dynamism in the 21st century requires a radical rethink of traditional antitrust jurisprudence—transitioning from a passive focus on immediate consumer prices to an active defense of open market contestability.",
-    "questions": [
-      {
-        "id": "q1",
-        "question": "Which of the following best summarizes the main argument of the author regarding Schumpeter's theory in modern digital markets?",
-        "options": [
-          "A) Creative destruction has accelerated rapidly in digital ecosystems, enabling small startups to displace platform monopolies with ease.",
-          "B) Digital network dynamics allow platform monopolies to transform creative destruction into 'creative absorption', neutralizing disruptive market competition.",
-          "C) Schumpeter’s economic theories were fundamentally flawed because they failed to consider manufacturing supply chains.",
-          "D) Antitrust regulators should focus exclusively on lowering consumer retail prices in tech sectors."
-        ],
-        "answer": 1,
-        "explanation": "<strong>Why Option B is Correct:</strong> Paragraph 3 explicitly explains that dominant firms use acquisitions to absorb or suppress rivals, replacing creative destruction with 'creative absorption.'<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Opposite Trap):</em> Contradicts Paragraph 2 & 3, which state monopolies are insulated from disruption.<br>• <em>Option C (Distortion):</em> The text does not say Schumpeter was flawed regarding manufacturing, but that digital markets operate under new mechanics.<br>• <em>Option D (Opposite View):</em> Paragraph 4 advocates transitioning AWAY from a passive focus on consumer prices."
-      },
-      {
-        "id": "q2",
-        "question": "According to the passage, modern digital platforms differ from industrial-era manufacturing firms primarily because digital platforms:",
-        "options": [
-          "A) Require massive physical capital investments to achieve distribution scale.",
-          "B) Benefit from multi-sided network effects, data feedback loops, and zero marginal costs.",
-          "C) Are legally prohibited from executing corporate mergers and acquisitions.",
-          "D) Experience rapid diminishing returns when expanding user bases."
-        ],
-        "answer": 1,
-        "explanation": "<strong>Why Option B is Correct:</strong> Paragraph 2 directly highlights network effects, data feedback loops, and zero marginal costs as the key differences.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Opposite):</em> Text states manufacturing relied on physical capital, not digital platforms.<br>• <em>Option C (False):</em> Paragraph 3 explicitly states they execute acquisitions frequently.<br>• <em>Option D (Opposite):</em> Manufacturing faced diminishing returns, whereas digital platforms enjoy scale advantages."
-      }
-    ]
-  }
-]
+        "explanation": "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer to Paragraph 4. Democratic jurisprudence relies on 'contestability' (the legal right of a citizen to challenge a decision). When an algorithm's decision logic cannot be articulated, contestability is destroyed.<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Irrelevant / Out of Scope):</strong> Incorrect. Financial corporate audits are never mentioned in Paragraph 4.<br>• <strong>Option B (Correct Logical Deduction):</strong> Correct. Directly aligns with Paragraph 4: 'One cannot challenge a logic that cannot be articulated... rendering systemic prejudice immune to democratic accountability.'<br>• <strong>Option C (Extreme Language Trap):</strong> Incorrect. Paragraph 3 mentions parole revocation as an example of automated decisions, but Paragraph 4 does not state judges are 'forced exclusively' to use it.<br>• 
+
+---
+
+### Step 2: Update `index.html` Smart Tutor Code
+
+In `index.html`, update the `sendDoubt()` and `extractOptionDetail()` functions in the `<script>` section so that the AI Chatbot renders these detailed analytical blocks in clean HTML cards:
+
+```javascript
+    function extractOptionDetail(qObj, optionLetter) {
+      const optionIndex = optionLetter.charCodeAt(0) - 65; // A=0, B=1, C=2, D=3
+      const optionText = qObj.options[optionIndex] || `Option ${optionLetter}`;
+      const isCorrect = optionIndex === qObj.answer;
+
+      return `
+        <div class="space-y-2">
+          <div class="p-2 rounded-lg ${isCorrect ? 'bg-emerald-950/60 border border-emerald-500/30 text-emerald-300' : 'bg-rose-950/60 border border-rose-500/30 text-rose-300'} font-bold">
+            ${isCorrect ? '✅ Correct Option Choice' : '❌ Option Breakdown (' + optionLetter + ')'}
+          </div>
+          <div class="text-slate-300 italic bg-slate-900 p-2 rounded border border-slate-800">
+            "${optionText}"
+          </div>
+          <div class="pt-1 text-slate-200 leading-relaxed space-y-2">
+            ${qObj.explanation}
+          </div>
+        </div>
+      `;
+    }
