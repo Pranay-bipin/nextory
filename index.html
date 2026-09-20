@@ -1,748 +1,426 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full bg-slate-950 text-slate-100">
+<html lang="hi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NEXTORY - Verbal Ability & Reading Comprehension</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Plus Jakarta Sans', sans-serif; }
-    .serif-text { font-family: 'Source Serif 4', Georgia, serif; }
-    .custom-scrollbar::-webkit-scrollbar { width: 6px; }
-    .custom-scrollbar::-webkit-scrollbar-track { background: rgba(15, 23, 42, 0.6); }
-    .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(99, 102, 241, 0.4); border-radius: 4px; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPMAT & CAT Daily Verbal & RC Portal</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #0f172a;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --accent: #f59e0b;
+            --success: #10b981;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding-bottom: 50px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: #94a3b8;
+            font-size: 0.95rem;
+        }
+
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            background: #ffffff;
+            padding: 10px;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .tab-btn {
+            padding: 10px 18px;
+            border: none;
+            background: none;
+            font-weight: 600;
+            color: var(--text-muted);
+            cursor: pointer;
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+
+        .tab-btn.active {
+            background: var(--primary);
+            color: white;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid var(--border);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .card h2 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: var(--primary-dark);
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 8px;
+        }
+
+        .vocab-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 12px;
+            margin-bottom: 15px;
+        }
+
+        .vocab-item {
+            background: #f1f5f9;
+            padding: 12px;
+            border-radius: 6px;
+            border-left: 4px solid var(--primary);
+        }
+
+        .vocab-item strong {
+            color: var(--text);
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .vocab-type {
+            font-size: 0.75rem;
+            color: var(--primary);
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .passage-text {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: #334155;
+            white-space: pre-line;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .question-box {
+            background: #fafafa;
+            border: 1px solid var(--border);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .question-box p {
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .option-btn {
+            display: block;
+            width: 100%;
+            text-align: left;
+            padding: 10px 14px;
+            margin-bottom: 8px;
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .option-btn:hover {
+            background: #f1f5f9;
+        }
+
+        .explanation {
+            display: none;
+            margin-top: 10px;
+            padding: 12px;
+            background: #eff6ff;
+            border-radius: 6px;
+            border-left: 4px solid var(--primary);
+            font-size: 0.9rem;
+        }
+
+        .rc-list-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .rc-list-item:hover {
+            border-color: var(--primary);
+            box-shadow: 0 2px 8px rgba(37,99,235,0.1);
+        }
+
+        .badge {
+            font-size: 0.75rem;
+            padding: 4px 8px;
+            border-radius: 4px;
+            background: #e2e8f0;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .badge-live {
+            background: #dcfce7;
+            color: #15803d;
+        }
+    </style>
 </head>
-<body class="min-h-screen flex flex-col bg-slate-950 text-slate-200 antialiased selection:bg-indigo-500 selection:text-white relative">
+<body>
 
-  <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur-md sticky top-0 z-40 shrink-0">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-2">
-      <div class="flex items-center gap-3">
-        <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-500 flex items-center justify-center font-extrabold text-white text-lg shadow-lg shadow-indigo-500/20">NX</div>
-        <div>
-          <span class="font-extrabold text-xl tracking-tight bg-gradient-to-r from-white via-slate-200 to-indigo-300 bg-clip-text text-transparent">NEXTORY</span>
-          <span class="hidden sm:inline-block ml-2 text-xs font-semibold px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">Daily Verbal Booster</span>
-        </div>
-      </div>
+    <header>
+        <h1>IPMAT & CAT Verbal Prep</h1>
+        <p>Daily Free RC, Vocabulary & Practice Inventory</p>
+    </header>
 
-      <nav class="flex items-center gap-1.5 sm:gap-2 bg-slate-800/80 p-1 rounded-xl border border-slate-700/60 text-xs font-bold">
-        <button id="nav-vocab" onclick="switchTab('vocab')" class="px-3 py-1.5 rounded-lg transition bg-indigo-600 text-white shadow-sm flex items-center gap-1.5">
-          <i class="fa-solid fa-book-open"></i> <span class="hidden md:inline">Daily</span> Vocab
-        </button>
-        <button id="nav-rc" onclick="switchTab('rc')" class="px-3 py-1.5 rounded-lg transition text-slate-400 hover:text-white flex items-center gap-1.5">
-          <i class="fa-solid fa-align-left"></i> Reading <span class="hidden md:inline">Practice</span>
-        </button>
-        <button id="nav-saved" onclick="switchTab('saved')" class="px-3 py-1.5 rounded-lg transition text-slate-400 hover:text-white flex items-center gap-1.5 relative">
-          <i class="fa-solid fa-bookmark text-amber-400"></i> Saved <span class="hidden sm:inline">Items</span>
-          <span id="saved-badge" class="bg-amber-500 text-slate-950 font-black text-[10px] px-1.5 py-0.2 rounded-full min-w-[18px] text-center">0</span>
-        </button>
-      </nav>
-
-      <div class="flex items-center gap-3">
-        <button onclick="toggleArchiveModal()" class="bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold px-3 py-1.5 rounded-lg border border-slate-700 transition flex items-center gap-1.5">
-          <i class="fa-solid fa-folder-open text-amber-400"></i> <span class="hidden sm:inline">Past RCs</span>
-        </button>
-        <div class="hidden md:flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1.5 rounded-lg">
-          <span>🔥</span> <span>1 Day Streak</span>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <main id="tab-vocab" class="max-w-7xl mx-auto px-4 sm:px-6 py-8 w-full space-y-10">
-    <div class="bg-gradient-to-r from-indigo-950 via-slate-900 to-slate-950 border border-indigo-900/40 rounded-2xl p-6 sm:p-8 relative overflow-hidden shadow-2xl">
-      <div class="relative z-10 space-y-3 max-w-2xl">
-        <span id="active-date-badge" class="bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">Today's Verbal Booster</span>
-        <h1 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Master High-Frequency Vocabulary, Idioms & Phrasal Verbs</h1>
-        <p class="text-sm text-slate-300 leading-relaxed">Click the star icon on any card to bookmark words for future revision in your personal Saved Revision Hub.</p>
-        <button onclick="switchTab('rc')" class="mt-2 inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs px-5 py-2.5 rounded-xl shadow-lg transition">
-          Proceed to Daily RC Test <i class="fa-solid fa-arrow-right"></i>
-        </button>
-      </div>
+    <div class="nav-tabs">
+        <button class="tab-btn active" onclick="switchTab('daily')">🔥 Today's Task</button>
+        <button class="tab-btn" onclick="switchTab('inventory')">📚 Practice Inventory (10 RCs)</button>
+        <button class="tab-btn" onclick="switchTab('archive')">🗂️ Past RCs Archive</button>
     </div>
 
-    <!-- Top 10 Vocabulary Words -->
-    <section class="space-y-4">
-      <div class="flex justify-between items-center border-b border-slate-800 pb-3">
-        <h2 class="text-lg font-bold text-white flex items-center gap-2"><i class="fa-solid fa-brain text-indigo-400"></i> Top 10 Daily Vocabulary Words</h2>
-        <span class="text-xs text-indigo-400 font-semibold bg-indigo-500/10 px-2.5 py-1 rounded-md border border-indigo-500/20">10 / 10 Active</span>
-      </div>
-      <div id="vocab-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
-    </section>
-
-    <!-- Idioms & Phrasal Verbs -->
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-      <section class="space-y-4">
-        <div class="border-b border-slate-800 pb-3">
-          <h2 class="text-md font-bold text-white flex items-center gap-2"><i class="fa-solid fa-comments text-amber-400"></i> Today's Top 5 Idioms & Phrases</h2>
+    <div class="container">
+        <!-- 1. TODAY'S DAILY TASK TAB -->
+        <div id="tab-daily" class="tab-content active">
+            <div id="daily-content">Loading today's task...</div>
         </div>
-        <div id="idioms-grid" class="space-y-3"></div>
-      </section>
 
-      <section class="space-y-4">
-        <div class="border-b border-slate-800 pb-3">
-          <h2 class="text-md font-bold text-white flex items-center gap-2"><i class="fa-solid fa-bolt text-emerald-400"></i> Today's Top 5 Phrasal Verbs</h2>
+        <!-- 2. PRACTICE INVENTORY TAB -->
+        <div id="tab-inventory" class="tab-content">
+            <div class="card">
+                <h2>Standalone Practice Inventory</h2>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">In 10 RCs ko aap kisi bhi time practice aur test kar sakte hain:</p>
+                <div id="inventory-list">Loading inventory...</div>
+            </div>
+            <div id="inventory-view" style="display: none;"></div>
         </div>
-        <div id="phrasal-grid" class="space-y-3"></div>
-      </section>
-    </div>
-  </main>
 
-  <main id="tab-rc" class="hidden max-w-7xl mx-auto px-4 sm:px-6 py-4 w-full flex-grow flex flex-col lg:flex-row gap-6 h-[calc(100vh-5rem)] overflow-hidden">
-    
-    <!-- Left Pane: Passage Viewer -->
-    <section class="lg:w-7/12 flex flex-col bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl h-full">
-      <div class="p-4 bg-slate-900/90 border-b border-slate-800 flex flex-wrap items-center justify-between gap-3 shrink-0">
-        <div class="flex items-center gap-2">
-          <span id="rc-genre" class="bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-xs font-bold px-2.5 py-1 rounded-md">Sociology & Epistemology</span>
-          <span id="rc-difficulty" class="bg-rose-500/10 text-rose-400 border border-rose-500/20 text-xs font-bold px-2.5 py-1 rounded-md">Advanced Standard</span>
+        <!-- 3. PAST ARCHIVE TAB -->
+        <div id="tab-archive" class="tab-content">
+            <div class="card">
+                <h2>Past RCs Archive</h2>
+                <p style="color: var(--text-muted); margin-bottom: 15px;">Pichle saare dinon ke RCs yahan saved hain:</p>
+                <div id="archive-list">Loading archive...</div>
+            </div>
+            <div id="archive-view" style="display: none;"></div>
         </div>
-        <div class="flex items-center gap-3">
-          <span class="text-xs text-slate-300 font-mono bg-slate-800 px-2.5 py-1 rounded border border-slate-700">⏱️ <span id="timer">00:00</span></span>
-          <div class="flex items-center gap-1">
-            <button onclick="adjustFontSize(-1)" class="w-7 h-7 rounded bg-slate-800 text-xs font-bold border border-slate-700">A-</button>
-            <button onclick="adjustFontSize(1)" class="w-7 h-7 rounded bg-slate-800 text-xs font-bold border border-slate-700">A+</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="px-6 pt-5 pb-3 shrink-0">
-        <h1 id="rc-title" class="text-xl sm:text-2xl font-bold text-slate-100 tracking-tight leading-snug">The Epistemological Dilemma of Algorithmic Governance</h1>
-        <p class="text-xs text-slate-400 mt-1 flex items-center gap-4">
-          <span><i class="fa-regular fa-file-word text-indigo-400 mr-1"></i> Word Count: <strong id="word-count" class="text-slate-200">1000+ words</strong></span>
-          <span><i class="fa-solid fa-list-check text-indigo-400 mr-1"></i> Questions: <strong class="text-slate-200">6 Questions</strong></span>
-        </p>
-      </div>
-
-      <div id="rc-passage" class="flex-grow p-6 overflow-y-auto custom-scrollbar serif-text text-slate-300 leading-relaxed space-y-4 text-base border-t border-slate-800/50">
-        <p class="animate-pulse text-slate-500">Loading passage content...</p>
-      </div>
-    </section>
-
-    <!-- Right Pane: Question Panel -->
-    <section class="lg:w-5/12 flex flex-col bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl h-full">
-      <div class="p-4 bg-slate-900 border-b border-slate-800 space-y-3 shrink-0">
-        <div class="flex justify-between items-center">
-          <h2 class="font-bold text-slate-200 text-xs flex items-center gap-2"><i class="fa-solid fa-pen-to-square text-indigo-400"></i> Question Palette</h2>
-          <span id="completion-counter" class="text-xs bg-indigo-500/10 text-indigo-400 font-semibold px-2.5 py-1 rounded border border-indigo-500/20">0/6 Answered</span>
-        </div>
-        <div id="palette-grid" class="grid grid-cols-6 gap-2"></div>
-      </div>
-
-      <div id="question-card" class="flex-grow p-5 overflow-y-auto custom-scrollbar space-y-5"></div>
-
-      <div class="p-4 bg-slate-900/90 border-t border-slate-800 flex items-center justify-between gap-3 shrink-0">
-        <button id="prev-btn" onclick="navQuestion(-1)" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold rounded-xl border border-slate-700 transition flex items-center gap-1.5"><i class="fa-solid fa-chevron-left"></i> Previous</button>
-        <button id="next-btn" onclick="navQuestion(1)" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold rounded-xl border border-slate-700 transition flex items-center gap-1.5">Next <i class="fa-solid fa-chevron-right"></i></button>
-        <button id="submit-btn" onclick="submitTest()" class="px-5 py-2 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white text-xs font-extrabold rounded-xl shadow-lg shadow-indigo-600/30 transition flex items-center gap-1.5"><i class="fa-solid fa-paper-plane"></i> Submit Test</button>
-      </div>
-    </section>
-  </main>
-
-  <main id="tab-saved" class="hidden max-w-7xl mx-auto px-4 sm:px-6 py-8 w-full space-y-8">
-    <div class="bg-gradient-to-r from-amber-950/60 via-slate-900 to-slate-950 border border-amber-900/30 rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 shadow-2xl">
-      <div class="space-y-1">
-        <span class="bg-amber-500/10 text-amber-400 border border-amber-500/20 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider"><i class="fa-solid fa-bookmark mr-1"></i> Revision Hub</span>
-        <h1 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Your Saved Vocabulary & Phrases</h1>
-        <p class="text-xs text-slate-300">Revise bookmarked words, listen to pronunciations, and export your personal study list anytime.</p>
-      </div>
-
-      <div class="flex items-center gap-2">
-        <button onclick="exportSavedWords()" class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-bold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5">
-          <i class="fa-solid fa-copy text-indigo-400"></i> Copy List
-        </button>
-        <button onclick="clearAllSaved()" class="bg-rose-950/60 hover:bg-rose-900/80 text-rose-300 border border-rose-800/60 text-xs font-bold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5">
-          <i class="fa-solid fa-trash-can"></i> Clear All
-        </button>
-      </div>
     </div>
 
-    <!-- Category Filters -->
-    <div id="saved-content-area" class="space-y-8"></div>
-  </main>
+    <script>
+        let globalData = [];
 
-  <!-- SCORECARD MODAL -->
-  <div id="result-modal" class="fixed inset-0 bg-slate-950/85 backdrop-blur-md hidden z-50 flex items-center justify-center p-4">
-    <div class="bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl max-w-lg w-full overflow-hidden">
-      <div class="p-6 bg-gradient-to-r from-indigo-950 via-slate-900 to-slate-900 border-b border-slate-800 text-center relative">
-        <button onclick="closeResultModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white font-bold text-xl">&times;</button>
-        <span class="bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Test Completed</span>
-        <h2 class="text-2xl font-black text-white mt-2">Performance Scorecard</h2>
-      </div>
-      <div class="p-6 space-y-6">
-        <div class="grid grid-cols-3 gap-3 text-center">
-          <div class="p-3.5 rounded-xl bg-slate-800/60 border border-slate-700/60"><p class="text-[11px] text-slate-400 font-medium">Final Score</p><p id="res-score" class="text-2xl font-black text-indigo-400 mt-0.5">0 / 6</p></div>
-          <div class="p-3.5 rounded-xl bg-slate-800/60 border border-slate-700/60"><p class="text-[11px] text-slate-400 font-medium">Accuracy</p><p id="res-accuracy" class="text-2xl font-black text-emerald-400 mt-0.5">0%</p></div>
-          <div class="p-3.5 rounded-xl bg-slate-800/60 border border-slate-700/60"><p class="text-[11px] text-slate-400 font-medium">Time Spent</p><p id="res-time" class="text-2xl font-black text-amber-400 mt-0.5">00:00</p></div>
-        </div>
-        <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800 text-xs space-y-2 text-slate-300">
-          <div class="flex justify-between"><span>Correct Answers:</span> <strong id="res-correct" class="text-emerald-400">0</strong></div>
-          <div class="flex justify-between"><span>Incorrect Answers:</span> <strong id="res-wrong" class="text-rose-400">0</strong></div>
-          <div class="flex justify-between"><span>Unattempted Questions:</span> <strong id="res-unattempted" class="text-slate-400">0</strong></div>
-          <div class="flex justify-between border-t border-slate-800 pt-2"><span>Average Time / Question:</span> <strong id="res-avg-time" class="text-indigo-300">0 sec</strong></div>
-        </div>
-        <button onclick="reviewSolutions()" class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs py-3 rounded-xl shadow-lg transition">Review Detailed Step-by-Step Solutions <i class="fa-solid fa-arrow-right ml-1"></i></button>
-      </div>
-    </div>
-  </div>
-
-  <!-- PAST ARCHIVES MODAL -->
-  <div id="archive-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-md hidden z-50 flex items-center justify-center p-4">
-    <div class="bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl max-w-lg w-full overflow-hidden">
-      <div class="p-4 border-b border-slate-800 flex justify-between items-center bg-slate-800/50">
-        <h3 class="font-bold text-slate-100 flex items-center gap-2"><i class="fa-solid fa-clock-rotate-left text-amber-400"></i> Past Archives</h3>
-        <button onclick="toggleArchiveModal()" class="text-slate-400 hover:text-white font-bold text-xl">&times;</button>
-      </div>
-      <div id="archive-list" class="p-4 max-h-[60vh] overflow-y-auto custom-scrollbar space-y-3"></div>
-    </div>
-  </div>
-
-  <script>
-    let currentFontSize = 16;
-    let timerSeconds = 0;
-    let timerInterval = null;
-    let currentQIndex = 0;
-    let userAnswers = {};
-    let isSubmitted = false;
-
-    // LOCAL STORAGE STATE MANAGEMENT FOR SAVED ITEMS
-    let savedItems = JSON.parse(localStorage.getItem('nextory_saved_items')) || [];
-
-    function saveToLocalStorage() {
-      localStorage.setItem('nextory_saved_items', JSON.stringify(savedItems));
-      updateSavedBadge();
-    }
-
-    function updateSavedBadge() {
-      const badge = document.getElementById('saved-badge');
-      if (badge) badge.innerText = savedItems.length;
-    }
-
-    function isItemSaved(title) {
-      return savedItems.some(i => i.title.toLowerCase() === title.toLowerCase());
-    }
-
-    function toggleSaveItem(title, category, type, def, ex) {
-      const index = savedItems.findIndex(i => i.title.toLowerCase() === title.toLowerCase());
-      if (index > -1) {
-        savedItems.splice(index, 1);
-      } else {
-        savedItems.push({ title, category, type, def, ex, dateSaved: new Date().toLocaleDateString() });
-      }
-      saveToLocalStorage();
-      renderVocabSection(window.activeVocabData);
-      renderSavedTab();
-    }
-
-    const defaultData = {
-      id: "rc-2026-09-20",
-      date: "2026-09-20",
-      title: "The Epistemological Dilemma of Algorithmic Governance",
-      genre: "Sociology & Epistemology",
-      difficulty: "Advanced Standard",
-      vocab: {
-        words: [
-          { word: "Perspicacious", type: "adj", def: "Having a ready insight into and understanding of things; mentally perceptive.", ex: "Her perspicacious analysis of the text revealed subtle tone shifts." },
-          { word: "Equanimity", type: "noun", def: "Mental calmness and composure, especially in difficult situations.", ex: "He maintained absolute equanimity throughout the strenuous verbal section." },
-          { word: "Obfuscate", type: "verb", def: "To deliberately make something unclear, obscure, or unintelligible.", ex: "The passage uses dense academic jargon to obfuscate the core thesis." },
-          { word: "Sycophant", type: "noun", def: "A person who acts obsequiously toward someone to gain advantage.", ex: "The author criticizes sycophants who flatter corporate leaders unconditionally." },
-          { word: "Recalcitrant", type: "adj", def: "Having an obstinately uncooperative attitude toward authority.", ex: "The recalcitrant committee refused to adopt the proposed structural reforms." },
-          { word: "Ineffable", type: "adj", def: "Too great or extreme to be expressed or described in words.", ex: "The poem attempts to capture the ineffable complexity of human consciousness." },
-          { word: "Fastidious", type: "adj", def: "Very attentive to and concerned about accuracy and detail.", ex: "A fastidious reader immediately notices subtle logical flaws in arguments." },
-          { word: "Truculent", type: "adj", def: "Eager or quick to argue or fight; aggressively defiant.", ex: "His truculent tone alienated reviewers during the peer review process." },
-          { word: "Pervasive", type: "adj", def: "Spreading widely throughout an area or a group of people.", ex: "Commercialization has a pervasive influence on contemporary art choices." },
-          { word: "Esoteric", type: "adj", def: "Intended for or likely to be understood by only a small group.", ex: "The essay focuses on an esoteric branch of 19th-century political philosophy." }
-        ],
-        idioms: [
-          { idiom: "Burn the midnight oil", def: "To work or study late into the night.", ex: "She burned the midnight oil preparing for her verbal reasoning test." },
-          { idiom: "Read between the lines", def: "To understand a subtle or implicit meaning not directly stated.", ex: "To answer inference questions correctly, you must read between the lines." },
-          { idiom: "Take with a grain of salt", def: "To view a statement with skepticism or caution.", ex: "Critical readers take unverified statistical claims with a grain of salt." },
-          { idiom: "Steal someone's thunder", def: "To take credit for someone else's ideas or accomplishments.", ex: "The rival researcher stole his thunder by publishing the discovery first." },
-          { idiom: "Bite the bullet", def: "To face a difficult situation with courage and get it over with.", ex: "He bit the bullet and spent three hours analyzing complex reading passages." }
-        ],
-        phrasalVerbs: [
-          { verb: "Iron out", def: "To resolve small problems, difficulties, or details.", ex: "They ironed out their logical disagreements before finalizing the paper." },
-          { verb: "Pertain to", def: "To be directly related or relevant to a specific topic.", ex: "The second paragraph pertains to the historical precedents of economic policy." },
-          { verb: "Whittle down", def: "To gradually reduce the size or number of options.", ex: "Through process of elimination, she whittled down the four options to one." },
-          { verb: "Gloss over", def: "To treat or describe something lightly or deceptively.", ex: "The author refuses to gloss over the catastrophic consequences of climate change." },
-          { verb: "Root out", def: "To find and completely eradicate or remove something bad.", ex: "Independent audits help root out systemic biases in financial reporting." }
-        ]
-      },
-      passage: "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents of digital transformation champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding the ontological nature of software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in historically disenfranchised neighborhoods. The model's statistical 'objectivity' merely cloaks systemic racial and class prejudice in the prestige of mathematical authority.\n\nFurthermore, the opacity of modern deep learning architecture—commonly termed the 'black box' problem—compounds this ethical dilemma. Unlike classical rule-based expert systems governed by explicit, human-readable logic, modern deep neural networks automatically extract non-linear feature representations across millions of parameters. Consequently, even the lead architects of these systems cannot trace the precise causal chain that leads to a specific prediction. When an automated system denies a mortgage, rejects a job application, or recommends parole revocation, the subject is confronted with a decision that is fundamentally uninterpretable. Tracing the rationale behind the outcome becomes an exercise in futility.\n\nThis epistemic opacity poses a direct threat to democratic governance. In classical jurisprudence, authority is legitimized through the principle of contestability: individuals subjected to adverse state or corporate actions retain the right to demand a reasoned justification and challenge the underlying premises of the decision. When decisions are delegated to opaque algorithms, the principle of contestability is effectively obliterated. One cannot challenge a logic that cannot be articulated. Automating high-stakes social decisions does not eliminate human bias; it merely mechanizes it, rendering systemic prejudice invisible, automated, and immune to democratic accountability.\n\nTo remediate this structural crisis, computer scientists and policy theorists advocate for 'algorithmic explainability' and continuous post-deployment auditing. However, technical patches alone are insufficient. We must fundamentally reframe our ethical framework regarding technology. Society must recognize that delegating ethical and normative judgments to statistical models is itself an ideological choice—one that prioritizes computational efficiency over human dignity and justice. Until we establish robust legal frameworks that mandate transparency and human oversight, computational governance will remain a sophisticated mechanism for perpetuating injustice under the veneer of mathematical neutrality.",
-      questions: [
-        {
-          id: "q1",
-          question: "Which of the following best captures the primary thesis of the author regarding algorithmic governance?",
-          options: [
-            "A) Machine learning algorithms are inherently superior to human decision-making due to their capacity to process multi-dimensional historical datasets without emotional bias.",
-            "B) Delegating high-stakes decisions to algorithms mechanizes historical prejudice while shielding systemic bias behind a false veneer of mathematical neutrality.",
-            "C) The primary danger of artificial intelligence lies in technical coding flaws that can be fully rectified through rigorous post-deployment auditing.",
-            "D) Predictive policing models should be completely abandoned and replaced with classical rule-based expert systems in law enforcement."
-          ],
-          answer: 1,
-          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>The author's central thesis spans Paragraphs 1, 2, and 4. The author argues that algorithms are not neutral; they copy past human bias (Paragraph 1 & 2) and make decision-making opaque and unchallengeable (Paragraph 4).<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Opposite Trap):</strong> Incorrect. Paragraph 1 refutes this exact idea, calling it a 'triumphalist narrative'.<br>• <strong>Option B (Correct Core Answer):</strong> Correct. Accurately synthesizes Paragraph 2 ('codifies historical disparities') and Paragraph 5 ('veneer of mathematical neutrality').<br>• <strong>Option C (Distortion Trap):</strong> Incorrect. Paragraph 5 explicitly states that 'technical patches alone are insufficient'.<br>• <strong>Option D (Out of Scope Trap):</strong> Incorrect. Predictive policing is used merely as a 1-paragraph illustrative example, not as the main thesis."
-        },
-        {
-          id: "q2",
-          question: "According to the passage, predictive policing algorithms fail to provide objective crime forecasts primarily because they:",
-          options: [
-            "A) Depend on deep learning neural networks that suffer from non-linear computational regressions.",
-            "B) Are trained on historical arrest data that reflects past deployment patterns rather than actual crime occurrences.",
-            "C) Fail to account for economic market fluctuations in disenfranchised neighborhoods.",
-            "D) Rely on rule-based expert logic that cannot adapt to changing urban demographics."
-          ],
-          answer: 1,
-          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer directly to Paragraph 2. The author explains that algorithms reflect 'historical arrest records'—which reflect where police were sent in the past due to discriminatory practices, not where crime actually happens.<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Misattribution Trap):</strong> Incorrect. 'Non-linear representations' are discussed in Paragraph 3 in the context of the 'black box' problem, not as the primary flaw of predictive policing.<br>• <strong>Option B (Correct Direct Answer):</strong> Correct. Directly matches the text in Paragraph 2: 'they mathematically predict where police forces were historically deployed'.<br>• <strong>Option C (Out of Scope):</strong> Incorrect. Economic market fluctuations are mentioned in Paragraph 1 generally, but not as the cause of predictive policing failure.<br>• <strong>Option D (Factually Contrary):</strong> Incorrect. Predictive policing models are machine learning algorithms trained on datasets, not 'rule-based expert logic'."
-        },
-        {
-          id: "q3",
-          question: "The author discusses the 'black box' problem in Paragraph 3 to emphasize that modern neural networks:",
-          options: [
-            "A) Are intentionally designed by computer engineers to evade legal and regulatory scrutiny.",
-            "B) Derive logic from complex parameter interactions that make causal reasoning untraceable even to their creators.",
-            "C) Process historical datasets with far less computational efficiency than rule-based systems.",
-            "D) Generate inaccurate predictions because they ignore multi-dimensional data features."
-          ],
-          answer: 1,
-          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer to Paragraph 3. The 'black box' problem is introduced to explain opacity: modern deep neural networks automatically extract feature representations across millions of parameters, making it impossible to trace the exact rationale behind a decision.<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Extreme Intent Trap):</strong> Incorrect. The passage does not claim developers maliciously design systems to evade law.<br>• <strong>Option B (Correct Analytical Answer):</strong> Correct. Directly matches Paragraph 3: 'even the lead architects... cannot trace the precise causal chain that leads to a specific prediction.'<br>• <strong>Option C (Irrelevant Distortion):</strong> Incorrect. Computational efficiency is not the issue being discussed in Paragraph 3; interpretability is.<br>• <strong>Option D (Contradictory Trap):</strong> Incorrect. Deep neural networks process multi-dimensional features well; the problem is that human beings cannot interpret how those features interacted."
-        },
-        {
-          id: "q4",
-          question: "Based on Paragraph 4, why does algorithmic decision-making pose a severe threat to democratic jurisprudence?",
-          options: [
-            "A) It eliminates the legal requirement for corporate institutions to conduct financial audits.",
-            "B) It deprives individuals of the fundamental right to contest adverse decisions by obscuring the underlying logic.",
-            "C) It forces judges to rely exclusively on automated parole recommendation software.",
-            "D) It increases the financial cost of litigation in civil rights law cases."
-          ],
-          answer: 1,
-          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer to Paragraph 4. Democratic jurisprudence relies on 'contestability' (the legal right of a citizen to challenge a decision). When an algorithm's decision logic cannot be articulated, contestability is destroyed.<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Irrelevant / Out of Scope):</strong> Incorrect. Financial corporate audits are never mentioned in Paragraph 4.<br>• <strong>Option B (Correct Logical Deduction):</strong> Correct. Directly aligns with Paragraph 4: 'One cannot challenge a logic that cannot be articulated... rendering systemic prejudice immune to democratic accountability.'<br>• <strong>Option C (Extreme Language Trap):</strong> Incorrect. Paragraph 3 mentions parole revocation as an example, but Paragraph 4 does not state judges are 'forced exclusively' to use it.<br>• <strong>Option D (Out of Scope):</strong> Incorrect. Financial litigation costs are never mentioned in the passage."
-        },
-        {
-          id: "q5",
-          question: "Which of the following assumptions underlies the author's argument in the final paragraph?",
-          options: [
-            "A) Technological progress is inherently incompatible with human rights and democratic governance.",
-            "B) Technical fixes like explainability audits can fully resolve societal inequities without legislative intervention.",
-            "C) Deciding to delegate ethical judgment to automated systems is itself a value choice rather than a neutral technical decision.",
-            "D) Rule-based expert systems are mathematically superior to deep neural networks in all governance contexts."
-          ],
-          answer: 2,
-          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer to Paragraph 5. The author states that technology is not neutral; choosing to hand decisions over to software is itself an ideological choice.<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Extreme Trap):</strong> Incorrect. The author advocates for ethical reframing and legal oversight, not abandoning technology altogether.<br>• <strong>Option B (Contradicts Text):</strong> Incorrect. Paragraph 5 explicitly states technical patches alone are 'insufficient'.<br>• <strong>Option C (Correct Underlying Assumption):</strong> Correct. Paragraph 5 explicitly states: 'delegating ethical and normative judgments to statistical models is itself an ideological choice.'<br>• <strong>Option D (Out of Scope):</strong> Incorrect. The passage does not claim rule-based systems are superior in all contexts."
-        },
-        {
-          id: "q6",
-          question: "The tone of the author throughout the passage can best be described as:",
-          options: [
-            "A) Cynical and dismissive of scientific technological innovation.",
-            "B) Highly critical, analytical, and ethically concerned.",
-            "C) Neutral, objective, and detached from political governance debates.",
-            "D) Enthusiastic and optimistic about future algorithmic auditing techniques."
-          ],
-          answer: 1,
-          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>The author systematically evaluates algorithmic bias, points out deep societal flaws, and demands human oversight and ethical frameworks.<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Extreme Negative Trap):</strong> Incorrect. The author is not dismissive of science, but critical of unchecked technological delegation.<br>• <strong>Option B (Correct Tone Choice):</strong> Correct. Captures both the critical evaluation of bias and the ethical concern for democratic rights.<br>• <strong>Option C (Incorrect Neutrality):</strong> Incorrect. The author takes a clear normative stance on democratic accountability.<br>• <strong>Option D (Incorrect Tone):</strong> Incorrect. The author explicitly warns that technical audits alone are insufficient."
+        async function loadData() {
+            try {
+                const res = await fetch('passages.json');
+                globalData = await res.json();
+                renderDailyTask();
+                renderInventoryList();
+                renderArchiveList();
+            } catch (err) {
+                console.error(err);
+                document.getElementById('daily-content').innerText = "Data load nahi ho paaya. Please JSON file check karein.";
+            }
         }
-      ]
-    };
 
-    function switchTab(tab) {
-      document.getElementById('tab-vocab').classList.add('hidden');
-      document.getElementById('tab-rc').classList.add('hidden');
-      document.getElementById('tab-saved').classList.add('hidden');
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
 
-      document.getElementById('nav-vocab').className = "px-3 py-1.5 rounded-lg transition text-slate-400 hover:text-white flex items-center gap-1.5";
-      document.getElementById('nav-rc').className = "px-3 py-1.5 rounded-lg transition text-slate-400 hover:text-white flex items-center gap-1.5";
-      document.getElementById('nav-saved').className = "px-3 py-1.5 rounded-lg transition text-slate-400 hover:text-white flex items-center gap-1.5 relative";
-
-      if (tab === 'vocab') {
-        document.getElementById('tab-vocab').classList.remove('hidden');
-        document.getElementById('nav-vocab').className = "px-3 py-1.5 rounded-lg transition bg-indigo-600 text-white shadow-sm flex items-center gap-1.5";
-      } else if (tab === 'rc') {
-        document.getElementById('tab-rc').classList.remove('hidden');
-        document.getElementById('nav-rc').className = "px-3 py-1.5 rounded-lg transition bg-indigo-600 text-white shadow-sm flex items-center gap-1.5";
-      } else if (tab === 'saved') {
-        renderSavedTab();
-        document.getElementById('tab-saved').classList.remove('hidden');
-        document.getElementById('nav-saved').className = "px-3 py-1.5 rounded-lg transition bg-indigo-600 text-white shadow-sm flex items-center gap-1.5 relative";
-      }
-    }
-
-    function renderVocabSection(vData) {
-      window.activeVocabData = vData || defaultData.vocab;
-      const data = window.activeVocabData;
-
-      document.getElementById('vocab-grid').innerHTML = data.words.map((v, i) => {
-        const saved = isItemSaved(v.word);
-        return `
-          <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 space-y-2 hover:border-indigo-500/40 transition relative group">
-            <div class="flex justify-between items-center">
-              <span class="text-xs text-indigo-400 font-bold">#${i + 1} ${v.word} <span class="text-[10px] text-slate-500 italic">(${v.type})</span></span>
-              <div class="flex items-center gap-2">
-                <button onclick="speak('${v.word}')" title="Pronounce word" class="text-slate-400 hover:text-indigo-400 text-xs transition"><i class="fa-solid fa-volume-high"></i></button>
-                <button onclick="toggleSaveItem('${v.word}', 'Vocab', '${v.type}', '${v.def.replace(/'/g, "\\'")}', '${v.ex.replace(/'/g, "\\'")}')" title="Save for revision" class="text-xs transition ${saved ? 'text-amber-400' : 'text-slate-500 hover:text-amber-400'}">
-                  <i class="${saved ? 'fa-solid' : 'fa-regular'} fa-star"></i>
-                </button>
-              </div>
-            </div>
-            <p class="text-xs text-slate-300 font-medium">${v.def}</p>
-            <p class="text-[11px] text-slate-400 italic bg-slate-950/60 p-2 rounded border border-slate-800/80">"${v.ex}"</p>
-          </div>
-        `;
-      }).join('');
-
-      document.getElementById('idioms-grid').innerHTML = data.idioms.map(i => {
-        const saved = isItemSaved(i.idiom);
-        return `
-          <div class="p-3.5 rounded-xl bg-slate-900 border border-slate-800 space-y-1 relative">
-            <div class="flex justify-between items-start">
-              <p class="text-xs font-bold text-amber-400"><i class="fa-solid fa-quote-left mr-1.5 opacity-60"></i> ${i.idiom}</p>
-              <button onclick="toggleSaveItem('${i.idiom}', 'Idiom', 'Phrase', '${i.def.replace(/'/g, "\\'")}', '${i.ex.replace(/'/g, "\\'")}')" title="Save for revision" class="text-xs transition ${saved ? 'text-amber-400' : 'text-slate-500 hover:text-amber-400'}">
-                <i class="${saved ? 'fa-solid' : 'fa-regular'} fa-star"></i>
-              </button>
-            </div>
-            <p class="text-xs text-slate-300">${i.def}</p>
-            <p class="text-[11px] text-slate-500 italic">Example: "${i.ex}"</p>
-          </div>
-        `;
-      }).join('');
-
-      document.getElementById('phrasal-grid').innerHTML = data.phrasalVerbs.map(p => {
-        const saved = isItemSaved(p.verb);
-        return `
-          <div class="p-3.5 rounded-xl bg-slate-900 border border-slate-800 space-y-1 relative">
-            <div class="flex justify-between items-start">
-              <p class="text-xs font-bold text-emerald-400"><i class="fa-solid fa-bolt mr-1.5 opacity-60"></i> ${p.verb}</p>
-              <button onclick="toggleSaveItem('${p.verb}', 'Phrasal Verb', 'Verb', '${p.def.replace(/'/g, "\\'")}', '${p.ex.replace(/'/g, "\\'")}')" title="Save for revision" class="text-xs transition ${saved ? 'text-amber-400' : 'text-slate-500 hover:text-amber-400'}">
-                <i class="${saved ? 'fa-solid' : 'fa-regular'} fa-star"></i>
-              </button>
-            </div>
-            <p class="text-xs text-slate-300">${p.def}</p>
-            <p class="text-[11px] text-slate-500 italic">Example: "${p.ex}"</p>
-          </div>
-        `;
-      }).join('');
-
-      updateSavedBadge();
-    }
-
-    function renderSavedTab() {
-      const container = document.getElementById('saved-content-area');
-      if (!savedItems || savedItems.length === 0) {
-        container.innerHTML = `
-          <div class="text-center py-16 bg-slate-900/50 rounded-2xl border border-slate-800 space-y-3">
-            <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center mx-auto text-amber-400 text-xl"><i class="fa-solid fa-bookmark"></i></div>
-            <h3 class="text-base font-bold text-slate-200">No Saved Items Yet</h3>
-            <p class="text-xs text-slate-400 max-w-sm mx-auto">Click the star icon (<i class="fa-regular fa-star text-amber-400"></i>) on any word, idiom, or phrasal verb in the Daily Vocab section to save it for revision here.</p>
-            <button onclick="switchTab('vocab')" class="mt-2 inline-flex items-center gap-1.5 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs px-4 py-2 rounded-xl transition">Explore Daily Vocab</button>
-          </div>
-        `;
-        return;
-      }
-
-      const vocabs = savedItems.filter(i => i.category === 'Vocab');
-      const idioms = savedItems.filter(i => i.category === 'Idiom');
-      const verbs = savedItems.filter(i => i.category === 'Phrasal Verb');
-
-      container.innerHTML = `
-        ${vocabs.length > 0 ? `
-          <section class="space-y-3">
-            <h3 class="text-sm font-bold text-indigo-400 uppercase tracking-wider flex items-center gap-2"><i class="fa-solid fa-brain"></i> Saved Vocabulary (${vocabs.length})</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              ${vocabs.map(item => createSavedCardHTML(item)).join('')}
-            </div>
-          </section>
-        ` : ''}
-
-        ${idioms.length > 0 ? `
-          <section class="space-y-3 pt-4">
-            <h3 class="text-sm font-bold text-amber-400 uppercase tracking-wider flex items-center gap-2"><i class="fa-solid fa-comments"></i> Saved Idioms (${idioms.length})</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              ${idioms.map(item => createSavedCardHTML(item)).join('')}
-            </div>
-          </section>
-        ` : ''}
-
-        ${verbs.length > 0 ? `
-          <section class="space-y-3 pt-4">
-            <h3 class="text-sm font-bold text-emerald-400 uppercase tracking-wider flex items-center gap-2"><i class="fa-solid fa-bolt"></i> Saved Phrasal Verbs (${verbs.length})</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              ${verbs.map(item => createSavedCardHTML(item)).join('')}
-            </div>
-          </section>
-        ` : ''}
-      `;
-    }
-
-    function createSavedCardHTML(item) {
-      return `
-        <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 space-y-2 relative group hover:border-indigo-500/40 transition">
-          <div class="flex justify-between items-center">
-            <span class="text-xs font-bold text-white flex items-center gap-2">
-              ${item.title} <span class="text-[10px] text-slate-500 italic">(${item.type || 'Word'})</span>
-            </span>
-            <div class="flex items-center gap-2">
-              <button onclick="speak('${item.title}')" title="Listen" class="text-slate-400 hover:text-indigo-400 text-xs"><i class="fa-solid fa-volume-high"></i></button>
-              <button onclick="toggleSaveItem('${item.title}')" title="Remove from saved" class="text-rose-400 hover:text-rose-300 text-xs"><i class="fa-solid fa-trash"></i></button>
-            </div>
-          </div>
-          <p class="text-xs text-slate-300 font-medium">${item.def}</p>
-          <p class="text-[11px] text-slate-400 italic bg-slate-950/60 p-2 rounded border border-slate-800/80">"${item.ex}"</p>
-        </div>
-      `;
-    }
-
-    function clearAllSaved() {
-      if (confirm("Are you sure you want to clear all saved revision items?")) {
-        savedItems = [];
-        saveToLocalStorage();
-        renderSavedTab();
-        renderVocabSection(window.activeVocabData);
-      }
-    }
-
-    function exportSavedWords() {
-      if (!savedItems || savedItems.length === 0) {
-        alert("No saved items to export!");
-        return;
-      }
-      const text = savedItems.map((i, idx) => `${idx + 1}. ${i.title} (${i.category}): ${i.def}\n   Example: "${i.ex}"`).join('\n\n');
-      
-      const textarea = document.createElement('textarea');
-      textarea.value = text;
-      document.body.appendChild(textarea);
-      textarea.select();
-      document.execCommand('copy');
-      document.body.removeChild(textarea);
-
-      alert("Saved revision list copied to clipboard!");
-    }
-
-    function speak(text) {
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = 'en-US';
-      window.speechSynthesis.speak(u);
-    }
-
-    function adjustFontSize(delta) {
-      currentFontSize = Math.max(14, Math.min(22, currentFontSize + delta));
-      document.getElementById('rc-passage').style.fontSize = `${currentFontSize}px`;
-    }
-
-    function toggleArchiveModal() {
-      document.getElementById('archive-modal').classList.toggle('hidden');
-    }
-
-    function closeResultModal() {
-      document.getElementById('result-modal').classList.add('hidden');
-    }
-
-    async function loadContent() {
-      updateSavedBadge();
-      renderVocabSection(defaultData.vocab);
-      renderRC(defaultData);
-
-      try {
-        const res = await fetch('./passages.json');
-        if (res.ok) {
-          const list = await res.json();
-          renderArchiveList(list);
-          const today = new Date().toISOString().slice(0, 10);
-          const activeItem = list.find(item => item.date === today) || list[list.length - 1];
-          if (activeItem) {
-            renderVocabSection(activeItem.vocab || defaultData.vocab);
-            renderRC(activeItem);
-            document.getElementById('active-date-badge').innerText = `Daily Verbal Booster • ${activeItem.date}`;
-          }
+            event.target.classList.add('active');
+            document.getElementById('tab-' + tabName).classList.add('active');
         }
-      } catch (e) {
-        console.warn("Using built-in passage data for GitHub Pages.", e);
-      }
-    }
 
-    function renderRC(rc) {
-      window.activeRCData = rc;
-      userAnswers = {};
-      isSubmitted = false;
-      currentQIndex = 0;
+        // --- 1. DAILY TASK RENDER ---
+        function renderDailyTask() {
+            const todayStr = new Date().toISOString().split('T')[0];
+            let todayData = globalData.find(item => item.isDaily && item.date === todayStr);
 
-      document.getElementById('rc-title').innerText = rc.title;
-      document.getElementById('rc-genre').innerText = rc.genre;
-      document.getElementById('rc-difficulty').innerText = rc.difficulty || 'Advanced Standard';
+            // Fallback agar exact date na mile toh first daily RC dikhayega
+            if (!todayData) {
+                todayData = globalData.find(item => item.isDaily) || globalData[0];
+            }
 
-      const words = rc.passage.split(/\s+/).length;
-      document.getElementById('word-count').innerText = `${words} words`;
-
-      const paragraphs = rc.passage.split('\n\n');
-      document.getElementById('rc-passage').innerHTML = paragraphs
-        .map(p => `<p class="mb-4 leading-relaxed">${p}</p>`)
-        .join('');
-
-      renderPalette();
-      renderActiveQuestion();
-      startTimer();
-    }
-
-    function renderPalette() {
-      const palette = document.getElementById('palette-grid');
-      const questions = window.activeRCData.questions;
-
-      palette.innerHTML = questions.map((q, idx) => {
-        const isAnswered = userAnswers[idx] !== undefined;
-        const isActive = idx === currentQIndex;
-
-        let btnClass = "py-1.5 text-xs font-bold rounded-lg border transition text-center ";
-        if (isActive) btnClass += "border-indigo-500 bg-indigo-600 text-white shadow-md";
-        else if (isAnswered) btnClass += "border-indigo-500/50 bg-indigo-500/20 text-indigo-300";
-        else btnClass += "border-slate-700 bg-slate-800 text-slate-400 hover:border-slate-600";
-
-        return `<button onclick="goToQuestion(${idx})" class="${btnClass}">Q${idx + 1}</button>`;
-      }).join('');
-
-      const answeredCount = Object.keys(userAnswers).length;
-      document.getElementById('completion-counter').innerText = `${answeredCount}/${questions.length} Answered`;
-    }
-
-    function renderActiveQuestion() {
-      const q = window.activeRCData.questions[currentQIndex];
-      const container = document.getElementById('question-card');
-      const selectedOption = userAnswers[currentQIndex];
-
-      let optionsHTML = '';
-      q.options.forEach((opt, oIndex) => {
-        let optStyle = "w-full text-left p-3.5 rounded-xl border transition text-xs font-medium leading-snug ";
-        if (isSubmitted) {
-          if (oIndex === q.answer) optStyle += "border-emerald-500 bg-emerald-500/10 text-emerald-300 font-bold";
-          else if (oIndex === selectedOption) optStyle += "border-rose-500 bg-rose-500/10 text-rose-300";
-          else optStyle += "border-slate-800 bg-slate-900/50 text-slate-500 opacity-60";
-        } else {
-          if (oIndex === selectedOption) optStyle += "border-2 border-indigo-500 bg-indigo-500/20 text-indigo-200 font-bold";
-          else optStyle += "border-slate-700 bg-slate-800/80 hover:border-indigo-500/50 hover:bg-indigo-500/5 text-slate-200";
+            const container = document.getElementById('daily-content');
+            container.innerHTML = renderRCCompleteCard(todayData, "Today's Free RC & Vocab");
         }
-        optionsHTML += `<button onclick="selectOption(${oIndex})" class="${optStyle}">${opt}</button>`;
-      });
 
-      let solutionHTML = '';
-      if (isSubmitted) {
-        const isCorrect = selectedOption === q.answer;
-        solutionHTML = `
-          <div class="mt-4 p-4 rounded-xl text-xs space-y-2 border ${isCorrect ? 'bg-emerald-950/40 border-emerald-500/30 text-emerald-200' : 'bg-rose-950/40 border-rose-500/30 text-rose-200'}">
-            <div class="font-bold flex items-center gap-2">${isCorrect ? '<i class="fa-solid fa-circle-check text-emerald-400"></i> Correct Answer' : '<i class="fa-solid fa-circle-xmark text-rose-400"></i> Detailed Step-by-Step Elimination'}</div>
-            <div class="leading-relaxed opacity-90 space-y-2">${q.explanation}</div>
-          </div>
-        `;
-      }
+        // --- 2. INVENTORY RENDER ---
+        function renderInventoryList() {
+            const inventoryItems = globalData.filter(item => item.isInventory);
+            const listContainer = document.getElementById('inventory-list');
 
-      container.innerHTML = `
-        <div class="space-y-4">
-          <div class="flex items-start gap-2">
-            <span class="bg-indigo-500/10 text-indigo-400 font-bold text-xs px-2.5 py-1 rounded border border-indigo-500/20">Q${currentQIndex + 1}</span>
-            <p class="text-xs font-semibold text-slate-100 leading-relaxed pt-0.5">${q.question}</p>
-          </div>
-          <div class="space-y-2.5 pt-1">${optionsHTML}</div>
-          ${solutionHTML}
-        </div>
-      `;
+            if (inventoryItems.length === 0) {
+                listContainer.innerHTML = "<p>Koi inventory RC mil nahi saka.</p>";
+                return;
+            }
 
-      document.getElementById('prev-btn').disabled = currentQIndex === 0;
-      document.getElementById('prev-btn').style.opacity = currentQIndex === 0 ? "0.5" : "1";
-      document.getElementById('next-btn').disabled = currentQIndex === window.activeRCData.questions.length - 1;
-      document.getElementById('next-btn').style.opacity = currentQIndex === window.activeRCData.questions.length - 1 ? "0.5" : "1";
-    }
-
-    function selectOption(oIndex) {
-      if (isSubmitted) return;
-      userAnswers[currentQIndex] = oIndex;
-      renderPalette();
-      renderActiveQuestion();
-    }
-
-    function goToQuestion(idx) {
-      currentQIndex = idx;
-      renderPalette();
-      renderActiveQuestion();
-    }
-
-    function navQuestion(delta) {
-      const newIdx = currentQIndex + delta;
-      if (newIdx >= 0 && newIdx < window.activeRCData.questions.length) goToQuestion(newIdx);
-    }
-
-    function submitTest() {
-      if (isSubmitted) return;
-      isSubmitted = true;
-      clearInterval(timerInterval);
-
-      const total = window.activeRCData.questions.length;
-      let correct = 0, wrong = 0;
-
-      window.activeRCData.questions.forEach((q, qIdx) => {
-        if (userAnswers[qIdx] !== undefined) {
-          if (userAnswers[qIdx] === q.answer) correct++;
-          else wrong++;
+            listContainer.innerHTML = inventoryItems.map((item, idx) => `
+                <div class="rc-list-item" onclick="viewInventoryRC('${item.id}')">
+                    <div>
+                        <strong>RC #${idx + 1}: ${item.title}</strong>
+                        <div style="font-size: 0.85rem; color: var(--text-muted);">${item.genre} | ${item.difficulty}</div>
+                    </div>
+                    <span class="badge">Practice</span>
+                </div>
+            `).join('');
         }
-      });
 
-      const unattempted = total - (correct + wrong);
-      const accuracy = (correct + wrong) > 0 ? Math.round((correct / (correct + wrong)) * 100) : 0;
-      const m = String(Math.floor(timerSeconds / 60)).padStart(2, '0');
-      const s = String(timerSeconds % 60).padStart(2, '0');
-      const avgTime = total > 0 ? Math.round(timerSeconds / total) : 0;
+        function viewInventoryRC(id) {
+            const item = globalData.find(i => i.id === id);
+            const viewContainer = document.getElementById('inventory-view');
+            viewContainer.style.display = 'block';
+            viewContainer.innerHTML = `
+                <button onclick="document.getElementById('inventory-view').style.display='none'" style="margin-bottom: 15px; padding: 6px 12px; cursor: pointer;">← Back to List</button>
+                ${renderRCCompleteCard(item, item.title)}
+            `;
+            viewContainer.scrollIntoView({ behavior: 'smooth' });
+        }
 
-      document.getElementById('res-score').innerText = `${correct} / ${total}`;
-      document.getElementById('res-accuracy').innerText = `${accuracy}%`;
-      document.getElementById('res-time').innerText = `${m}:${s}`;
-      document.getElementById('res-correct').innerText = correct;
-      document.getElementById('res-wrong').innerText = wrong;
-      document.getElementById('res-unattempted').innerText = unattempted;
-      document.getElementById('res-avg-time').innerText = `${avgTime} sec`;
+        // --- 3. ARCHIVE RENDER ---
+        function renderArchiveList() {
+            const todayStr = new Date().toISOString().split('T')[0];
+            const archiveItems = globalData.filter(item => item.isDaily && item.date <= todayStr);
+            const listContainer = document.getElementById('archive-list');
 
-      document.getElementById('result-modal').classList.remove('hidden');
-    }
+            if (archiveItems.length === 0) {
+                listContainer.innerHTML = "<p>Abhi tak koi past RC archive mein nahi hai.</p>";
+                return;
+            }
 
-    function reviewSolutions() {
-      closeResultModal();
-      goToQuestion(0);
-    }
+            listContainer.innerHTML = archiveItems.map(item => `
+                <div class="rc-list-item" onclick="viewArchiveRC('${item.id}')">
+                    <div>
+                        <strong>[${item.date}] ${item.title}</strong>
+                        <div style="font-size: 0.85rem; color: var(--text-muted);">${item.genre}</div>
+                    </div>
+                    <span class="badge badge-live">Saved</span>
+                </div>
+            `).join('');
+        }
 
-    function startTimer() {
-      clearInterval(timerInterval);
-      timerSeconds = 0;
-      timerInterval = setInterval(() => {
-        timerSeconds++;
-        const m = String(Math.floor(timerSeconds / 60)).padStart(2, '0');
-        const s = String(timerSeconds % 60).padStart(2, '0');
-        document.getElementById('timer').innerText = `${m}:${s}`;
-      }, 1000);
-    }
+        function viewArchiveRC(id) {
+            const item = globalData.find(i => i.id === id);
+            const viewContainer = document.getElementById('archive-view');
+            viewContainer.style.display = 'block';
+            viewContainer.innerHTML = `
+                <button onclick="document.getElementById('archive-view').style.display='none'" style="margin-bottom: 15px; padding: 6px 12px; cursor: pointer;">← Back to Archive List</button>
+                ${renderRCCompleteCard(item, item.title)}
+            `;
+            viewContainer.scrollIntoView({ behavior: 'smooth' });
+        }
 
-    function renderArchiveList(passages) {
-      const list = document.getElementById('archive-list');
-      list.innerHTML = '';
-      passages.forEach(p => {
-        const item = document.createElement('div');
-        item.className = "p-3 rounded-xl bg-slate-800/80 border border-slate-700/80 hover:border-indigo-500/50 cursor-pointer flex justify-between items-center transition";
-        item.onclick = () => {
-          renderVocabSection(p.vocab || defaultData.vocab);
-          renderRC(p);
-          toggleArchiveModal();
-          switchTab('rc');
-        };
-        item.innerHTML = `
-          <div>
-            <h4 class="font-bold text-xs text-slate-200">${p.title}</h4>
-            <span class="text-[10px] text-indigo-400">${p.genre}</span>
-          </div>
-          <span class="text-[10px] bg-slate-700 text-slate-300 font-semibold px-2 py-0.5 rounded">${p.date}</span>
-        `;
-        list.appendChild(item);
-      });
-    }
+        // --- HELPER TO RENDER FULL RC CARD ---
+        function renderRCCompleteCard(data, headerTitle) {
+            let vocabHtml = '';
+            if (data.vocab && data.vocab.words) {
+                vocabHtml = `
+                    <div class="card">
+                        <h2>📚 Daily Advanced Vocabulary</h2>
+                        <div class="vocab-grid">
+                            ${data.vocab.words.map(w => `
+                                <div class="vocab-item">
+                                    <strong>${w.word} <span class="vocab-type">(${w.type})</span></strong>
+                                    <div style="font-size: 0.85rem; margin-top:2px;">${w.def}</div>
+                                    <div style="font-size: 0.8rem; color: var(--text-muted); italic; margin-top:4px;">"${w.ex}"</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            }
 
-    document.addEventListener('DOMContentLoaded', loadContent);
-  </script>
+            const questionsHtml = data.questions.map((q, idx) => `
+                <div class="question-box">
+                    <p>Q${idx + 1}. ${q.question}</p>
+                    ${q.options.map((opt, optIdx) => `
+                        <button class="option-btn" onclick="checkAns(this, ${optIdx}, ${q.answer}, '${data.id}-q${idx}')">${opt}</button>
+                    `).join('')}
+                    <div id="${data.id}-q${idx}" class="explanation">${q.explanation}</div>
+                </div>
+            `).join('');
+
+            return `
+                ${vocabHtml}
+                <div class="card">
+                    <h2>📖 ${headerTitle}</h2>
+                    <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 10px;">
+                        <strong>Genre:</strong> ${data.genre} | <strong>Level:</strong> ${data.difficulty}
+                    </div>
+                    <div class="passage-text">${data.passage}</div>
+                    
+                    <h3 style="margin-bottom: 15px; color: var(--primary-dark);">Questions & Detailed Explanations</h3>
+                    ${questionsHtml}
+                </div>
+            `;
+        }
+
+        function checkAns(btn, selected, correct, expId) {
+            const parent = btn.parentElement;
+            parent.querySelectorAll('.option-btn').forEach(b => b.style.background = 'white');
+
+            if (selected === correct) {
+                btn.style.background = '#dcfce7';
+                btn.style.borderColor = '#16a34a';
+            } else {
+                btn.style.background = '#fee2e2';
+                btn.style.borderColor = '#dc2626';
+            }
+
+            document.getElementById(expId).style.display = 'block';
+        }
+
+        loadData();
+    </script>
 </body>
 </html>
