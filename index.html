@@ -91,7 +91,9 @@
   </main>
 
   <!-- TAB 2: STANDARDIZED TEST ENGINE -->
-  <main id="tab-rc" class="hidden max-w-7xl mx-auto px-4 sm:px-6 py-4 w-full flex-grow flex flex-col lg:flex-row gap-6 h-[calc(100vh-5rem)] overflow-hidden">
+  <main id="tab-rc" class="hidden max-w-7xl mx-auto px-4 sm:px-6 py-4 w-full flex-grow flex flex-col lg:flex-row gap-6 h-[calc(100vh-5rem)] overflow-hidden relative">
+    
+    <!-- Left Pane: Passage Viewer -->
     <section class="lg:w-7/12 flex flex-col bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl h-full">
       <div class="p-4 bg-slate-900/90 border-b border-slate-800 flex flex-wrap items-center justify-between gap-3 shrink-0">
         <div class="flex items-center gap-2">
@@ -120,6 +122,7 @@
       </div>
     </section>
 
+    <!-- Right Pane: Question Panel -->
     <section class="lg:w-5/12 flex flex-col bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl h-full">
       <div class="p-4 bg-slate-900 border-b border-slate-800 space-y-3 shrink-0">
         <div class="flex justify-between items-center">
@@ -137,6 +140,43 @@
         <button id="submit-btn" onclick="submitTest()" class="px-5 py-2 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white text-xs font-extrabold rounded-xl shadow-lg shadow-indigo-600/30 transition flex items-center gap-1.5"><i class="fa-solid fa-paper-plane"></i> Submit Test</button>
       </div>
     </section>
+
+    <!-- FLOATING SMART AI TUTOR DRAWER (HIDDEN UNTIL SUBMITTED) -->
+    <div id="ai-drawer" class="hidden fixed bottom-4 right-4 z-50 flex-col items-end">
+      <button onclick="toggleAiDrawer()" class="bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white font-bold text-xs px-4 py-3 rounded-full shadow-2xl flex items-center gap-2 transition transform hover:scale-105 border border-indigo-400/30">
+        <i class="fa-solid fa-robot text-base"></i> <span>Ask AI VARC Tutor</span>
+      </button>
+
+      <div id="ai-chat-box" class="hidden mt-3 w-80 sm:w-96 bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl flex flex-col h-[480px] overflow-hidden">
+        <div class="p-3.5 bg-slate-800/80 border-b border-slate-700/80 flex justify-between items-center">
+          <div class="flex items-center gap-2">
+            <div class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></div>
+            <span class="text-xs font-bold text-white flex items-center gap-1.5"><i class="fa-solid fa-brain text-indigo-400"></i> NEXTORY Smart Tutor</span>
+          </div>
+          <button onclick="toggleAiDrawer()" class="text-slate-400 hover:text-white font-bold text-sm">&times;</button>
+        </div>
+
+        <div class="p-2.5 bg-slate-950/60 border-b border-slate-800 flex gap-1.5 overflow-x-auto custom-scrollbar shrink-0 text-[11px]">
+          <button onclick="sendQuickDoubt('Why Option A fail?')" class="bg-slate-800 hover:bg-slate-700 text-indigo-300 border border-slate-700 px-2.5 py-1 rounded-lg shrink-0 font-medium">❓ Why Option A fail?</button>
+          <button onclick="sendQuickDoubt('Why Option B fail?')" class="bg-slate-800 hover:bg-slate-700 text-indigo-300 border border-slate-700 px-2.5 py-1 rounded-lg shrink-0 font-medium">❓ Why Option B fail?</button>
+          <button onclick="sendQuickDoubt('Why Option C fail?')" class="bg-slate-800 hover:bg-slate-700 text-indigo-300 border border-slate-700 px-2.5 py-1 rounded-lg shrink-0 font-medium">❓ Why Option C fail?</button>
+          <button onclick="sendQuickDoubt('Why Option D fail?')" class="bg-slate-800 hover:bg-slate-700 text-indigo-300 border border-slate-700 px-2.5 py-1 rounded-lg shrink-0 font-medium">❓ Why Option D fail?</button>
+          <button onclick="sendQuickDoubt('Tone & Main Idea')" class="bg-slate-800 hover:bg-slate-700 text-amber-300 border border-slate-700 px-2.5 py-1 rounded-lg shrink-0 font-medium">🎭 Tone & Main Idea</button>
+        </div>
+
+        <div id="ai-messages" class="flex-grow p-4 overflow-y-auto custom-scrollbar space-y-3 text-xs">
+          <div class="p-3 bg-indigo-950/40 border border-indigo-500/20 rounded-xl text-indigo-200 leading-relaxed">
+            👋 <strong>Great job completing the test!</strong><br>I am your VARC Analytical Tutor. Ask me why any specific option fails, or click any quick question above for instant elimination analysis!
+          </div>
+        </div>
+
+        <div class="p-3 bg-slate-950 border-t border-slate-800 flex gap-2 shrink-0">
+          <input id="ai-input" type="text" placeholder="Ask doubt (e.g. why C is wrong)..." onkeydown="if(event.key==='Enter') sendDoubt()" class="flex-grow bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-indigo-500">
+          <button onclick="sendDoubt()" class="bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs px-3.5 py-2 rounded-xl transition"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+      </div>
+    </div>
+
   </main>
 
   <!-- SCORECARD MODAL -->
@@ -183,7 +223,6 @@
     let userAnswers = {};
     let isSubmitted = false;
 
-    // Direct Built-in Backup Data to ensure instant load on GitHub Pages
     const defaultData = {
       id: "rc-2026-09-20",
       date: "2026-09-20",
@@ -230,7 +269,7 @@
             "D) Predictive policing models should be completely abandoned and replaced with classical rule-based expert systems in law enforcement."
           ],
           answer: 1,
-          explanation: "<strong>Why Option B is Correct:</strong> Paragraphs 2 and 4 directly state that algorithms encode historical biases and render prejudice invisible and immune to contestability under the guise of statistical objectivity.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Opposite Trap):</em> Paragraph 1 explicitly refutes this 'triumphalist narrative'.<br>• <em>Option C (Distortion):</em> Paragraph 5 explicitly states that 'technical patches alone are insufficient'.<br>• <em>Option D (Out of Scope):</em> Predictive policing is used merely as an illustrative example, not as a central policy recommendation."
+          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>The author's central thesis spans Paragraphs 1, 2, and 4. The author argues that algorithms are not neutral; they copy past human bias (Paragraph 1 & 2) and make decision-making opaque and unchallengeable (Paragraph 4).<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Opposite Trap):</strong> Incorrect. Paragraph 1 refutes this exact idea, calling it a 'triumphalist narrative' and an 'epistemological misconception'.<br>• <strong>Option B (Correct Core Answer):</strong> Correct. Accurately synthesizes Paragraph 2 ('codifies historical disparities') and Paragraph 5 ('veneer of mathematical neutrality').<br>• <strong>Option C (Distortion Trap):</strong> Incorrect. Paragraph 5 explicitly states that 'technical patches alone are insufficient'. The issue isn't coding bugs; it's using historical biased data.<br>• <strong>Option D (Out of Scope Trap):</strong> Incorrect. Predictive policing is used merely as a 1-paragraph illustrative example, not as the main thesis of the entire essay."
         },
         {
           id: "q2",
@@ -242,7 +281,7 @@
             "D) Rely on rule-based expert logic that cannot adapt to changing urban demographics."
           ],
           answer: 1,
-          explanation: "<strong>Why Option B is Correct:</strong> Paragraph 2 explicitly asserts that models trained on arrest records 'predict where police were previously deployed' rather than actual crime rates.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Misattribution):</em> Non-linear representations are discussed in Paragraph 3 regarding opacity, not predictive policing.<br>• <em>Option C (Irrelevant):</em> Economic fluctuations are not mentioned as the cause of policing model failure.<br>• <em>Option D (Factually Incorrect):</em> The text specifies these models are machine learning, not classical rule-based systems."
+          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer directly to Paragraph 2. The author explains that algorithms reflect 'historical arrest records'—which reflect where police were sent in the past due to discriminatory practices, not where crime actually happens.<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Misattribution Trap):</strong> Incorrect. 'Non-linear representations' are discussed in Paragraph 3 in the context of the 'black box' problem, not as the primary flaw of predictive policing.<br>• <strong>Option B (Correct Direct Answer):</strong> Correct. Directly matches the text in Paragraph 2: 'they mathematically predict where police forces were historically deployed'.<br>• <strong>Option C (Out of Scope):</strong> Incorrect. Economic market fluctuations are mentioned in Paragraph 1 generally, but not as the cause of predictive policing failure.<br>• <strong>Option D (Factually Contrary):</strong> Incorrect. Predictive policing models are machine learning algorithms trained on datasets, not 'rule-based expert logic'."
         },
         {
           id: "q3",
@@ -254,7 +293,7 @@
             "D) Generate inaccurate predictions because they ignore multi-dimensional data features."
           ],
           answer: 1,
-          explanation: "<strong>Why Option B is Correct:</strong> Paragraph 3 states that non-linear feature representations remain 'incomprehensible even to their chief architects', making causal chains untraceable.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Extreme Intent Trap):</em> The text does not claim engineers intentionally hide logic; opacity is an inherent technical property.<br>• <em>Option C (Irrelevant):</em> Efficiency is not the issue; transparency and interpretability are.<br>• <em>Option D (Contradictory):</em> Neural networks extract multi-dimensional features; the problem is opacity, not inaccuracy."
+          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer to Paragraph 3. The 'black box' problem is introduced to explain opacity: modern deep neural networks automatically extract feature representations across millions of parameters, making it impossible to trace the exact rationale behind a decision.<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Extreme Intent Trap):</strong> Incorrect. The passage does not claim developers maliciously or intentionally design systems to evade law; opacity is an inherent technical property of deep learning.<br>• <strong>Option B (Correct Analytical Answer):</strong> Correct. Directly matches Paragraph 3: 'even the lead architects... cannot trace the precise causal chain that leads to a specific prediction.'<br>• <strong>Option C (Irrelevant Distortion):</strong> Incorrect. Computational efficiency is not the issue being discussed in Paragraph 3; interpretability is.<br>• <strong>Option D (Contradictory Trap):</strong> Incorrect. Deep neural networks process multi-dimensional features well; the problem is that human beings cannot interpret how those features interacted."
         },
         {
           id: "q4",
@@ -266,7 +305,7 @@
             "D) It increases the financial cost of litigation in civil rights law cases."
           ],
           answer: 1,
-          explanation: "<strong>Why Option B is Correct:</strong> Paragraph 4 asserts that jurisprudence relies on contestability, which is 'effectively obliterated' when decision logic cannot be articulated.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Irrelevant):</em> Corporate financial audits are not discussed in Paragraph 4.<br>• <em>Option C (Extreme Choice):</em> The text mentions parole as an example, not that judges are legally forced to use it.<br>• <em>Option D (Out of Scope):</em> Litigation costs are never mentioned in the passage."
+          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer to Paragraph 4. Democratic jurisprudence relies on 'contestability' (the legal right of a citizen to challenge a decision). When an algorithm's decision logic cannot be articulated, contestability is destroyed.<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Irrelevant / Out of Scope):</strong> Incorrect. Financial corporate audits are never mentioned in Paragraph 4.<br>• <strong>Option B (Correct Logical Deduction):</strong> Correct. Directly aligns with Paragraph 4: 'One cannot challenge a logic that cannot be articulated... rendering systemic prejudice immune to democratic accountability.'<br>• <strong>Option C (Extreme Language Trap):</strong> Incorrect. Paragraph 3 mentions parole revocation as an example of automated decisions, but Paragraph 4 does not state judges are 'forced exclusively' to use it.<br>• <strong>Option D (Out of Scope):</strong> Incorrect. Financial litigation costs are never mentioned in the passage."
         },
         {
           id: "q5",
@@ -278,7 +317,7 @@
             "D) Rule-based expert systems are mathematically superior to deep neural networks in all governance contexts."
           ],
           answer: 2,
-          explanation: "<strong>Why Option C is Correct:</strong> Paragraph 5 explicitly states that 'delegating ethical and normative judgments to statistical models is itself an ideological choice.'<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Extreme Trap):</em> The author advocates for ethical reframing and legal oversight, not abandoning technology altogether.<br>• <em>Option B (Contradicts Text):</em> Paragraph 5 explicitly states technical patches alone are 'insufficient'.<br>• <em>Option D (Out of Scope):</em> The passage does not claim rule-based systems are superior in all contexts."
+          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer to Paragraph 5. The author states that technology is not neutral; choosing to hand decisions over to software is itself an ideological choice.<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Extreme Trap):</strong> Incorrect. The author advocates for ethical reframing and legal oversight, not abandoning technology altogether.<br>• <strong>Option B (Contradicts Text):</strong> Incorrect. Paragraph 5 explicitly states technical patches alone are 'insufficient'.<br>• <strong>Option C (Correct Underlying Assumption):</strong> Correct. Paragraph 5 explicitly states: 'delegating ethical and normative judgments to statistical models is itself an ideological choice.'<br>• <strong>Option D (Out of Scope):</strong> Incorrect. The passage does not claim rule-based systems are superior in all contexts."
         },
         {
           id: "q6",
@@ -290,7 +329,7 @@
             "D) Enthusiastic and optimistic about future algorithmic auditing techniques."
           ],
           answer: 1,
-          explanation: "<strong>Why Option B is Correct:</strong> The author critically analyzes algorithmic bias, demonstrates ethical concern regarding democratic accountability, and offers reasoned arguments.<br><br><strong>Elimination Breakdown:</strong><br>• <em>Option A (Extreme):</em> The author is not dismissive of science, but critical of unchecked technological delegation.<br>• <em>Option C (Incorrect Tone):</em> The author takes a clear normative stance on democratic accountability.<br>• <em>Option D (Incorrect Tone):</em> The author explicitly warns that technical audits alone are insufficient."
+          explanation: "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>The author systematically evaluates algorithmic bias, points out deep societal flaws, and demands human oversight and ethical frameworks.<br><br><strong>📌 Option Elimination Analysis:</strong><br>• <strong>Option A (Extreme Negative Trap):</strong> Incorrect. The author is not dismissive of science, but critical of unchecked technological delegation.<br>• <strong>Option B (Correct Tone Choice):</strong> Correct. Captures both the critical evaluation of bias and the ethical concern for democratic rights.<br>• <strong>Option C (Incorrect Neutrality):</strong> Incorrect. The author takes a clear normative stance on democratic accountability.<br>• <strong>Option D (Incorrect Tone):</strong> Incorrect. The author explicitly warns that technical audits alone are insufficient."
         }
       ]
     };
@@ -359,11 +398,9 @@
     }
 
     async function loadContent() {
-      // Step 1: Render default built-in data immediately
       renderVocabSection(defaultData.vocab);
       renderRC(defaultData);
 
-      // Step 2: Smart relative path fetch for GitHub Pages & Netlify
       try {
         const res = await fetch('./passages.json');
         if (res.ok) {
@@ -387,6 +424,11 @@
       userAnswers = {};
       isSubmitted = false;
       currentQIndex = 0;
+
+      // Hide AI drawer during test taking
+      document.getElementById('ai-drawer').classList.add('hidden');
+      document.getElementById('ai-drawer').classList.remove('flex');
+      document.getElementById('ai-chat-box').classList.add('hidden');
 
       document.getElementById('rc-title').innerText = rc.title;
       document.getElementById('rc-genre').innerText = rc.genre;
@@ -450,7 +492,7 @@
         solutionHTML = `
           <div class="mt-4 p-4 rounded-xl text-xs space-y-2 border ${isCorrect ? 'bg-emerald-950/40 border-emerald-500/30 text-emerald-200' : 'bg-rose-950/40 border-rose-500/30 text-rose-200'}">
             <div class="font-bold flex items-center gap-2">${isCorrect ? '<i class="fa-solid fa-circle-check text-emerald-400"></i> Correct Answer' : '<i class="fa-solid fa-circle-xmark text-rose-400"></i> Detailed Step-by-Step Elimination'}</div>
-            <p class="leading-relaxed opacity-90">${q.explanation}</p>
+            <div class="leading-relaxed opacity-90 space-y-2">${q.explanation}</div>
           </div>
         `;
       }
@@ -520,6 +562,11 @@
       document.getElementById('res-avg-time').innerText = `${avgTime} sec`;
 
       document.getElementById('result-modal').classList.remove('hidden');
+
+      // UNLOCK AND SHOW AI CHATBOT DRAWER AFTER TEST SUBMISSION
+      const drawer = document.getElementById('ai-drawer');
+      drawer.classList.remove('hidden');
+      drawer.classList.add('flex');
     }
 
     function reviewSolutions() {
@@ -559,6 +606,79 @@
         `;
         list.appendChild(item);
       });
+    }
+
+    // --- SMART LOCAL DYNAMIC AI TUTOR ENGINE ---
+    function toggleAiDrawer() {
+      document.getElementById('ai-chat-box').classList.toggle('hidden');
+    }
+
+    function sendQuickDoubt(text) {
+      document.getElementById('ai-input').value = text;
+      sendDoubt();
+    }
+
+    function sendDoubt() {
+      const input = document.getElementById('ai-input');
+      const query = input.value.trim();
+      if (!query) return;
+
+      const chatBox = document.getElementById('ai-messages');
+
+      // Append user message
+      const userMsg = document.createElement('div');
+      userMsg.className = "p-2.5 bg-indigo-600 text-white rounded-xl text-xs ml-6 self-end leading-relaxed font-medium";
+      userMsg.innerText = query;
+      chatBox.appendChild(userMsg);
+      input.value = '';
+
+      // Instant Smart Response Generator
+      setTimeout(() => {
+        const activeQ = window.activeRCData.questions[currentQIndex];
+        const botMsg = document.createElement('div');
+        botMsg.className = "p-3 bg-slate-800 border border-slate-700 rounded-xl text-xs space-y-2 text-slate-200 leading-relaxed";
+
+        const lowerQuery = query.toLowerCase();
+        let replyHTML = '';
+
+        if (lowerQuery.includes('option a')) {
+          replyHTML = extractOptionDetail(activeQ, 'A');
+        } else if (lowerQuery.includes('option b')) {
+          replyHTML = extractOptionDetail(activeQ, 'B');
+        } else if (lowerQuery.includes('option c')) {
+          replyHTML = extractOptionDetail(activeQ, 'C');
+        } else if (lowerQuery.includes('option d')) {
+          replyHTML = extractOptionDetail(activeQ, 'D');
+        } else if (lowerQuery.includes('tone') || lowerQuery.includes('main idea')) {
+          replyHTML = `<strong>🎭 Passage Genre & Tone:</strong><br>• <strong>Genre:</strong> ${window.activeRCData.genre}<br>• <strong>Core Thesis:</strong> ${activeQ.explanation}`;
+        } else {
+          replyHTML = `<strong>💡 VARC Elimination Breakdown for Q${currentQIndex + 1}:</strong><br>${activeQ.explanation}`;
+        }
+
+        botMsg.innerHTML = replyHTML;
+        chatBox.appendChild(botMsg);
+        chatBox.scrollTop = chatBox.scrollHeight;
+      }, 100);
+    }
+
+    function extractOptionDetail(qObj, optionLetter) {
+      const optionIndex = optionLetter.charCodeAt(0) - 65; // A=0, B=1, C=2, D=3
+      const optionText = qObj.options[optionIndex] || `Option ${optionLetter}`;
+      const isCorrect = optionIndex === qObj.answer;
+
+      return `
+        <div class="space-y-2">
+          <div class="p-2 rounded-lg ${isCorrect ? 'bg-emerald-950/60 border border-emerald-500/30 text-emerald-300' : 'bg-rose-950/60 border border-rose-500/30 text-rose-300'} font-bold">
+            ${isCorrect ? '✅ Correct Option Choice' : '❌ Option Analysis (' + optionLetter + ')'}
+          </div>
+          <div class="text-slate-300 italic bg-slate-900 p-2 rounded border border-slate-800">
+            "${optionText}"
+          </div>
+          <div class="pt-1 text-slate-200 leading-relaxed space-y-2">
+            ${qObj.explanation}
+          </div>
+        </div>
+      `;
     }
 
     document.addEventListener('DOMContentLoaded', loadContent);
