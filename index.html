@@ -19,7 +19,7 @@
 </head>
 <body class="min-h-screen flex flex-col bg-slate-950 text-slate-200 antialiased selection:bg-indigo-500 selection:text-white">
 
-  <!-- Top Navigation Bar -->
+  <!-- Navbar -->
   <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur-md sticky top-0 z-40 shrink-0">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
       <div class="flex items-center gap-3">
@@ -54,7 +54,7 @@
   <main id="tab-vocab" class="max-w-7xl mx-auto px-4 sm:px-6 py-8 w-full space-y-10">
     <div class="bg-gradient-to-r from-indigo-950 via-slate-900 to-slate-950 border border-indigo-900/40 rounded-2xl p-6 sm:p-8 relative overflow-hidden shadow-2xl">
       <div class="relative z-10 space-y-3 max-w-2xl">
-        <span class="bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">Today's Verbal Booster</span>
+        <span id="active-date-badge" class="bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">Today's Verbal Booster</span>
         <h1 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Master High-Frequency Vocabulary, Idioms & Phrasal Verbs</h1>
         <p class="text-sm text-slate-300 leading-relaxed">Strengthen your verbal reasoning and comprehension foundation before diving into today's Reading Practice test.</p>
         <button onclick="switchTab('rc')" class="mt-2 inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs px-5 py-2.5 rounded-xl shadow-lg transition">
@@ -69,7 +69,9 @@
         <h2 class="text-lg font-bold text-white flex items-center gap-2"><i class="fa-solid fa-brain text-indigo-400"></i> Top 10 Daily Vocabulary Words</h2>
         <span class="text-xs text-indigo-400 font-semibold bg-indigo-500/10 px-2.5 py-1 rounded-md border border-indigo-500/20">10 / 10 Active</span>
       </div>
-      <div id="vocab-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+      <div id="vocab-grid" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <p class="text-xs text-slate-500 animate-pulse">Loading daily vocabulary...</p>
+      </div>
     </section>
 
     <!-- Idioms & Phrasal Verbs Split Grid -->
@@ -78,22 +80,24 @@
         <div class="border-b border-slate-800 pb-3">
           <h2 class="text-md font-bold text-white flex items-center gap-2"><i class="fa-solid fa-comments text-amber-400"></i> Today's Top 5 Idioms & Phrases</h2>
         </div>
-        <div id="idioms-grid" class="space-y-3"></div>
+        <div id="idioms-grid" class="space-y-3">
+          <p class="text-xs text-slate-500 animate-pulse">Loading daily idioms...</p>
+        </div>
       </section>
 
       <section class="space-y-4">
         <div class="border-b border-slate-800 pb-3">
           <h2 class="text-md font-bold text-white flex items-center gap-2"><i class="fa-solid fa-bolt text-emerald-400"></i> Today's Top 5 Phrasal Verbs</h2>
         </div>
-        <div id="phrasal-grid" class="space-y-3"></div>
+        <div id="phrasal-grid" class="space-y-3">
+          <p class="text-xs text-slate-500 animate-pulse">Loading daily phrasal verbs...</p>
+        </div>
       </section>
     </div>
   </main>
 
-  <!-- TAB 2: STANDARDIZED TEST ENGINE (STICKY DUAL PANE) -->
+  <!-- TAB 2: STANDARDIZED TEST ENGINE -->
   <main id="tab-rc" class="hidden max-w-7xl mx-auto px-4 sm:px-6 py-4 w-full flex-grow flex flex-col lg:flex-row gap-6 h-[calc(100vh-5rem)] overflow-hidden">
-    
-    <!-- Left Pane: Sticky Passage Viewer (Always Visible) -->
     <section class="lg:w-7/12 flex flex-col bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl h-full">
       <div class="p-4 bg-slate-900/90 border-b border-slate-800 flex flex-wrap items-center justify-between gap-3 shrink-0">
         <div class="flex items-center gap-2">
@@ -103,113 +107,74 @@
         <div class="flex items-center gap-3">
           <span class="text-xs text-slate-300 font-mono bg-slate-800 px-2.5 py-1 rounded border border-slate-700">⏱️ <span id="timer">00:00</span></span>
           <div class="flex items-center gap-1">
-            <button onclick="adjustFontSize(-1)" class="w-7 h-7 rounded bg-slate-800 text-xs font-bold border border-slate-700 hover:bg-slate-700">A-</button>
-            <button onclick="adjustFontSize(1)" class="w-7 h-7 rounded bg-slate-800 text-xs font-bold border border-slate-700 hover:bg-slate-700">A+</button>
+            <button onclick="adjustFontSize(-1)" class="w-7 h-7 rounded bg-slate-800 text-xs font-bold border border-slate-700">A-</button>
+            <button onclick="adjustFontSize(1)" class="w-7 h-7 rounded bg-slate-800 text-xs font-bold border border-slate-700">A+</button>
           </div>
         </div>
       </div>
 
       <div class="px-6 pt-5 pb-3 shrink-0">
-        <h1 id="rc-title" class="text-xl sm:text-2xl font-bold text-slate-100 tracking-tight leading-snug">The Philosophical Imperative of Algorithmic Accountability</h1>
+        <h1 id="rc-title" class="text-xl sm:text-2xl font-bold text-slate-100 tracking-tight leading-snug">Loading Passage...</h1>
         <p class="text-xs text-slate-400 mt-1 flex items-center gap-4">
           <span><i class="fa-regular fa-file-word text-indigo-400 mr-1"></i> Word Count: <strong id="word-count" class="text-slate-200">1000+ words</strong></span>
           <span><i class="fa-solid fa-list-check text-indigo-400 mr-1"></i> Questions: <strong class="text-slate-200">6 Questions</strong></span>
         </p>
       </div>
 
-      <!-- Passage Text (Independent Smooth Scroll) -->
       <div id="rc-passage" class="flex-grow p-6 overflow-y-auto custom-scrollbar serif-text text-slate-300 leading-relaxed space-y-4 text-base border-t border-slate-800/50">
         <p class="animate-pulse text-slate-500">Loading passage content...</p>
       </div>
     </section>
 
-    <!-- Right Pane: Test Panel & Question Navigation (5 Cols) -->
     <section class="lg:w-5/12 flex flex-col bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl h-full">
-      
-      <!-- Panel Header & Question Palette -->
       <div class="p-4 bg-slate-900 border-b border-slate-800 space-y-3 shrink-0">
         <div class="flex justify-between items-center">
-          <h2 class="font-bold text-slate-200 text-xs flex items-center gap-2">
-            <i class="fa-solid fa-pen-to-square text-indigo-400"></i> Question Palette
-          </h2>
+          <h2 class="font-bold text-slate-200 text-xs flex items-center gap-2"><i class="fa-solid fa-pen-to-square text-indigo-400"></i> Question Palette</h2>
           <span id="completion-counter" class="text-xs bg-indigo-500/10 text-indigo-400 font-semibold px-2.5 py-1 rounded border border-indigo-500/20">0/6 Answered</span>
         </div>
-
-        <!-- Q1 - Q6 Buttons Grid -->
-        <div id="palette-grid" class="grid grid-cols-6 gap-2">
-          <!-- Injected via JS -->
-        </div>
+        <div id="palette-grid" class="grid grid-cols-6 gap-2"></div>
       </div>
 
-      <!-- Active Question Container (Independent Scroll) -->
-      <div id="question-card" class="flex-grow p-5 overflow-y-auto custom-scrollbar space-y-5">
-        <!-- Injected via JS -->
-      </div>
+      <div id="question-card" class="flex-grow p-5 overflow-y-auto custom-scrollbar space-y-5"></div>
 
-      <!-- Bottom Navigation Footer -->
       <div class="p-4 bg-slate-900/90 border-t border-slate-800 flex items-center justify-between gap-3 shrink-0">
-        <button id="prev-btn" onclick="navQuestion(-1)" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold rounded-xl border border-slate-700 transition flex items-center gap-1.5">
-          <i class="fa-solid fa-chevron-left"></i> Previous
-        </button>
-
-        <button id="next-btn" onclick="navQuestion(1)" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold rounded-xl border border-slate-700 transition flex items-center gap-1.5">
-          Next <i class="fa-solid fa-chevron-right"></i>
-        </button>
-
-        <button id="submit-btn" onclick="submitTest()" class="px-5 py-2 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white text-xs font-extrabold rounded-xl shadow-lg shadow-indigo-600/30 transition flex items-center gap-1.5">
-          <i class="fa-solid fa-paper-plane"></i> Submit Test
-        </button>
+        <button id="prev-btn" onclick="navQuestion(-1)" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold rounded-xl border border-slate-700 transition flex items-center gap-1.5"><i class="fa-solid fa-chevron-left"></i> Previous</button>
+        <button id="next-btn" onclick="navQuestion(1)" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold rounded-xl border border-slate-700 transition flex items-center gap-1.5">Next <i class="fa-solid fa-chevron-right"></i></button>
+        <button id="submit-btn" onclick="submitTest()" class="px-5 py-2 bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white text-xs font-extrabold rounded-xl shadow-lg shadow-indigo-600/30 transition flex items-center gap-1.5"><i class="fa-solid fa-paper-plane"></i> Submit Test</button>
       </div>
-
     </section>
-
   </main>
 
-  <!-- PERFORMANCE SCORECARD MODAL -->
+  <!-- SCORECARD MODAL -->
   <div id="result-modal" class="fixed inset-0 bg-slate-950/85 backdrop-blur-md hidden z-50 flex items-center justify-center p-4">
     <div class="bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl max-w-lg w-full overflow-hidden">
       <div class="p-6 bg-gradient-to-r from-indigo-950 via-slate-900 to-slate-900 border-b border-slate-800 text-center relative">
         <button onclick="closeResultModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white font-bold text-xl">&times;</button>
         <span class="bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Test Completed</span>
         <h2 class="text-2xl font-black text-white mt-2">Performance Scorecard</h2>
-        <p class="text-xs text-slate-400 mt-1">Here is your detailed breakdown for today's Reading Practice.</p>
       </div>
-
       <div class="p-6 space-y-6">
         <div class="grid grid-cols-3 gap-3 text-center">
-          <div class="p-3.5 rounded-xl bg-slate-800/60 border border-slate-700/60">
-            <p class="text-[11px] text-slate-400 font-medium">Final Score</p>
-            <p id="res-score" class="text-2xl font-black text-indigo-400 mt-0.5">0 / 6</p>
-          </div>
-          <div class="p-3.5 rounded-xl bg-slate-800/60 border border-slate-700/60">
-            <p class="text-[11px] text-slate-400 font-medium">Accuracy</p>
-            <p id="res-accuracy" class="text-2xl font-black text-emerald-400 mt-0.5">0%</p>
-          </div>
-          <div class="p-3.5 rounded-xl bg-slate-800/60 border border-slate-700/60">
-            <p class="text-[11px] text-slate-400 font-medium">Time Spent</p>
-            <p id="res-time" class="text-2xl font-black text-amber-400 mt-0.5">00:00</p>
-          </div>
+          <div class="p-3.5 rounded-xl bg-slate-800/60 border border-slate-700/60"><p class="text-[11px] text-slate-400 font-medium">Final Score</p><p id="res-score" class="text-2xl font-black text-indigo-400 mt-0.5">0 / 6</p></div>
+          <div class="p-3.5 rounded-xl bg-slate-800/60 border border-slate-700/60"><p class="text-[11px] text-slate-400 font-medium">Accuracy</p><p id="res-accuracy" class="text-2xl font-black text-emerald-400 mt-0.5">0%</p></div>
+          <div class="p-3.5 rounded-xl bg-slate-800/60 border border-slate-700/60"><p class="text-[11px] text-slate-400 font-medium">Time Spent</p><p id="res-time" class="text-2xl font-black text-amber-400 mt-0.5">00:00</p></div>
         </div>
-
         <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800 text-xs space-y-2 text-slate-300">
           <div class="flex justify-between"><span>Correct Answers:</span> <strong id="res-correct" class="text-emerald-400">0</strong></div>
           <div class="flex justify-between"><span>Incorrect Answers:</span> <strong id="res-wrong" class="text-rose-400">0</strong></div>
           <div class="flex justify-between"><span>Unattempted Questions:</span> <strong id="res-unattempted" class="text-slate-400">0</strong></div>
           <div class="flex justify-between border-t border-slate-800 pt-2"><span>Average Time / Question:</span> <strong id="res-avg-time" class="text-indigo-300">0 sec</strong></div>
         </div>
-
-        <button onclick="reviewSolutions()" class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs py-3 rounded-xl shadow-lg transition">
-          Review Detailed Step-by-Step Solutions <i class="fa-solid fa-arrow-right ml-1"></i>
-        </button>
+        <button onclick="reviewSolutions()" class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs py-3 rounded-xl shadow-lg transition">Review Detailed Step-by-Step Solutions <i class="fa-solid fa-arrow-right ml-1"></i></button>
       </div>
     </div>
   </div>
 
-  <!-- Past RCs Modal -->
+  <!-- PAST ARCHIVES MODAL -->
   <div id="archive-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-md hidden z-50 flex items-center justify-center p-4">
     <div class="bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl max-w-lg w-full overflow-hidden">
       <div class="p-4 border-b border-slate-800 flex justify-between items-center bg-slate-800/50">
-        <h3 class="font-bold text-slate-100 flex items-center gap-2"><i class="fa-solid fa-clock-rotate-left text-amber-400"></i> Past Passage Archives</h3>
+        <h3 class="font-bold text-slate-100 flex items-center gap-2"><i class="fa-solid fa-clock-rotate-left text-amber-400"></i> Past Archives</h3>
         <button onclick="toggleArchiveModal()" class="text-slate-400 hover:text-white font-bold text-xl">&times;</button>
       </div>
       <div id="archive-list" class="p-4 max-h-[60vh] overflow-y-auto custom-scrollbar space-y-3"></div>
@@ -223,35 +188,6 @@
     let currentQIndex = 0;
     let userAnswers = {};
     let isSubmitted = false;
-
-    const vocabList = [
-      { word: "Perspicacious", type: "adj", def: "Having a ready insight into and understanding of things; mentally perceptive.", ex: "Her perspicacious analysis of the text revealed subtle tone shifts." },
-      { word: "Equanimity", type: "noun", def: "Mental calmness and composure, especially in difficult situations.", ex: "He maintained absolute equanimity throughout the strenuous verbal section." },
-      { word: "Obfuscate", type: "verb", def: "To deliberately make something unclear, obscure, or unintelligible.", ex: "The passage uses dense academic jargon to obfuscate the core thesis." },
-      { word: "Sycophant", type: "noun", def: "A person who acts obsequiously toward someone to gain advantage.", ex: "The author criticizes sycophants who flatter corporate leaders unconditionally." },
-      { word: "Recalcitrant", type: "adj", def: "Having an obstinately uncooperative attitude toward authority.", ex: "The recalcitrant committee refused to adopt the proposed structural reforms." },
-      { word: "Ineffable", type: "adj", def: "Too great or extreme to be expressed or described in words.", ex: "The poem attempts to capture the ineffable complexity of human consciousness." },
-      { word: "Fastidious", type: "adj", def: "Very attentive to and concerned about accuracy and detail.", ex: "A fastidious reader immediately notices subtle logical flaws in arguments." },
-      { word: "Truculent", type: "adj", def: "Eager or quick to argue or fight; aggressively defiant.", ex: "His truculent tone alienated reviewers during the peer review process." },
-      { word: "Pervasive", type: "adj", def: "Spreading widely throughout an area or a group of people.", ex: "Commercialization has a pervasive influence on contemporary art choices." },
-      { word: "Esoteric", type: "adj", def: "Intended for or likely to be understood by only a small group.", ex: "The essay focuses on an esoteric branch of 19th-century political philosophy." }
-    ];
-
-    const idiomsList = [
-      { idiom: "Burn the midnight oil", def: "To work or study late into the night.", ex: "She burned the midnight oil preparing for her verbal reasoning test." },
-      { idiom: "Read between the lines", def: "To understand a subtle or implicit meaning not directly stated.", ex: "To answer inference questions correctly, you must read between the lines." },
-      { idiom: "Take with a grain of salt", def: "To view a statement with skepticism or caution.", ex: "Critical readers take unverified statistical claims with a grain of salt." },
-      { idiom: "Steal someone's thunder", def: "To take credit for someone else's ideas or accomplishments.", ex: "The rival researcher stole his thunder by publishing the discovery first." },
-      { idiom: "Bite the bullet", def: "To face a difficult situation with courage and get it over with.", ex: "He bit the bullet and spent three hours analyzing complex reading passages." }
-    ];
-
-    const phrasalList = [
-      { verb: "Iron out", def: "To resolve small problems, difficulties, or details.", ex: "They ironed out their logical disagreements before finalizing the paper." },
-      { verb: "Pertain to", def: "To be directly related or relevant to a specific topic.", ex: "The second paragraph pertains to the historical precedents of economic policy." },
-      { verb: "Whittle down", def: "To gradually reduce the size or number of options.", ex: "Through process of elimination, she whittled down the four options to one." },
-      { verb: "Gloss over", def: "To treat or describe something lightly or deceptively.", ex: "The author refuses to gloss over the catastrophic consequences of climate change." },
-      { verb: "Root out", def: "To find and completely eradicate or remove something bad.", ex: "Independent audits help root out systemic biases in financial reporting." }
-    ];
 
     function switchTab(tab) {
       if (tab === 'vocab') {
@@ -267,8 +203,9 @@
       }
     }
 
-    function renderVocabSection() {
-      document.getElementById('vocab-grid').innerHTML = vocabList.map((v, i) => `
+    function renderVocabSection(vData) {
+      if (!vData) return;
+      document.getElementById('vocab-grid').innerHTML = vData.words.map((v, i) => `
         <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 space-y-2 hover:border-indigo-500/40 transition">
           <div class="flex justify-between items-center">
             <span class="text-xs text-indigo-400 font-bold">#${i + 1} ${v.word} <span class="text-[10px] text-slate-500 italic">(${v.type})</span></span>
@@ -279,7 +216,7 @@
         </div>
       `).join('');
 
-      document.getElementById('idioms-grid').innerHTML = idiomsList.map(i => `
+      document.getElementById('idioms-grid').innerHTML = vData.idioms.map(i => `
         <div class="p-3.5 rounded-xl bg-slate-900 border border-slate-800 space-y-1">
           <p class="text-xs font-bold text-amber-400"><i class="fa-solid fa-quote-left mr-1.5 opacity-60"></i> ${i.idiom}</p>
           <p class="text-xs text-slate-300">${i.def}</p>
@@ -287,7 +224,7 @@
         </div>
       `).join('');
 
-      document.getElementById('phrasal-grid').innerHTML = phrasalList.map(p => `
+      document.getElementById('phrasal-grid').innerHTML = vData.phrasalVerbs.map(p => `
         <div class="p-3.5 rounded-xl bg-slate-900 border border-slate-800 space-y-1">
           <p class="text-xs font-bold text-emerald-400"><i class="fa-solid fa-bolt mr-1.5 opacity-60"></i> ${p.verb}</p>
           <p class="text-xs text-slate-300">${p.def}</p>
@@ -315,16 +252,22 @@
       document.getElementById('result-modal').classList.add('hidden');
     }
 
-    async function fetchDailyRC() {
+    async function loadContent() {
+      const today = new Date().toISOString().slice(0, 10);
       try {
         const res = await fetch('/passages.json');
         if (res.ok) {
           const list = await res.json();
           renderArchiveList(list);
-          if (list && list.length > 0) return list[list.length - 1];
+          const activeItem = list.find(item => item.date === today) || list[list.length - 1];
+          if (activeItem) {
+            if (activeItem.vocab) renderVocabSection(activeItem.vocab);
+            renderRC(activeItem);
+            document.getElementById('active-date-badge').innerText = `Daily Verbal Booster • ${activeItem.date}`;
+          }
         }
       } catch (e) {
-        console.warn("Using passages.json fallback...", e);
+        console.error("Error loading passages.json", e);
       }
     }
 
@@ -360,13 +303,9 @@
         const isActive = idx === currentQIndex;
 
         let btnClass = "py-1.5 text-xs font-bold rounded-lg border transition text-center ";
-        if (isActive) {
-          btnClass += "border-indigo-500 bg-indigo-600 text-white shadow-md";
-        } else if (isAnswered) {
-          btnClass += "border-indigo-500/50 bg-indigo-500/20 text-indigo-300";
-        } else {
-          btnClass += "border-slate-700 bg-slate-800 text-slate-400 hover:border-slate-600";
-        }
+        if (isActive) btnClass += "border-indigo-500 bg-indigo-600 text-white shadow-md";
+        else if (isAnswered) btnClass += "border-indigo-500/50 bg-indigo-500/20 text-indigo-300";
+        else btnClass += "border-slate-700 bg-slate-800 text-slate-400 hover:border-slate-600";
 
         return `<button onclick="goToQuestion(${idx})" class="${btnClass}">Q${idx + 1}</button>`;
       }).join('');
@@ -383,28 +322,15 @@
       let optionsHTML = '';
       q.options.forEach((opt, oIndex) => {
         let optStyle = "w-full text-left p-3.5 rounded-xl border transition text-xs font-medium leading-snug ";
-        
         if (isSubmitted) {
-          if (oIndex === q.answer) {
-            optStyle += "border-emerald-500 bg-emerald-500/10 text-emerald-300 font-bold";
-          } else if (oIndex === selectedOption) {
-            optStyle += "border-rose-500 bg-rose-500/10 text-rose-300";
-          } else {
-            optStyle += "border-slate-800 bg-slate-900/50 text-slate-500 opacity-60";
-          }
+          if (oIndex === q.answer) optStyle += "border-emerald-500 bg-emerald-500/10 text-emerald-300 font-bold";
+          else if (oIndex === selectedOption) optStyle += "border-rose-500 bg-rose-500/10 text-rose-300";
+          else optStyle += "border-slate-800 bg-slate-900/50 text-slate-500 opacity-60";
         } else {
-          if (oIndex === selectedOption) {
-            optStyle += "border-2 border-indigo-500 bg-indigo-500/20 text-indigo-200 font-bold";
-          } else {
-            optStyle += "border-slate-700 bg-slate-800/80 hover:border-indigo-500/50 hover:bg-indigo-500/5 text-slate-200";
-          }
+          if (oIndex === selectedOption) optStyle += "border-2 border-indigo-500 bg-indigo-500/20 text-indigo-200 font-bold";
+          else optStyle += "border-slate-700 bg-slate-800/80 hover:border-indigo-500/50 hover:bg-indigo-500/5 text-slate-200";
         }
-
-        optionsHTML += `
-          <button onclick="selectOption(${oIndex})" class="${optStyle}">
-            ${opt}
-          </button>
-        `;
+        optionsHTML += `<button onclick="selectOption(${oIndex})" class="${optStyle}">${opt}</button>`;
       });
 
       let solutionHTML = '';
@@ -412,9 +338,7 @@
         const isCorrect = selectedOption === q.answer;
         solutionHTML = `
           <div class="mt-4 p-4 rounded-xl text-xs space-y-2 border ${isCorrect ? 'bg-emerald-950/40 border-emerald-500/30 text-emerald-200' : 'bg-rose-950/40 border-rose-500/30 text-rose-200'}">
-            <div class="font-bold flex items-center gap-2">
-              ${isCorrect ? '<i class="fa-solid fa-circle-check text-emerald-400"></i> Correct Answer' : '<i class="fa-solid fa-circle-xmark text-rose-400"></i> Detailed Step-by-Step Elimination'}
-            </div>
+            <div class="font-bold flex items-center gap-2">${isCorrect ? '<i class="fa-solid fa-circle-check text-emerald-400"></i> Correct Answer' : '<i class="fa-solid fa-circle-xmark text-rose-400"></i> Detailed Step-by-Step Elimination'}</div>
             <p class="leading-relaxed opacity-90">${q.explanation}</p>
           </div>
         `;
@@ -431,13 +355,10 @@
         </div>
       `;
 
-      // Update Nav Buttons State
       document.getElementById('prev-btn').disabled = currentQIndex === 0;
       document.getElementById('prev-btn').style.opacity = currentQIndex === 0 ? "0.5" : "1";
-
-      const totalQ = window.activeRCData.questions.length;
-      document.getElementById('next-btn').disabled = currentQIndex === totalQ - 1;
-      document.getElementById('next-btn').style.opacity = currentQIndex === totalQ - 1 ? "0.5" : "1";
+      document.getElementById('next-btn').disabled = currentQIndex === window.activeRCData.questions.length - 1;
+      document.getElementById('next-btn').style.opacity = currentQIndex === window.activeRCData.questions.length - 1 ? "0.5" : "1";
     }
 
     function selectOption(oIndex) {
@@ -455,9 +376,7 @@
 
     function navQuestion(delta) {
       const newIdx = currentQIndex + delta;
-      if (newIdx >= 0 && newIdx < window.activeRCData.questions.length) {
-        goToQuestion(newIdx);
-      }
+      if (newIdx >= 0 && newIdx < window.activeRCData.questions.length) goToQuestion(newIdx);
     }
 
     function submitTest() {
@@ -466,8 +385,7 @@
       clearInterval(timerInterval);
 
       const total = window.activeRCData.questions.length;
-      let correct = 0;
-      let wrong = 0;
+      let correct = 0, wrong = 0;
 
       window.activeRCData.questions.forEach((q, qIdx) => {
         if (userAnswers[qIdx] !== undefined) {
@@ -516,6 +434,7 @@
         const item = document.createElement('div');
         item.className = "p-3 rounded-xl bg-slate-800/80 border border-slate-700/80 hover:border-indigo-500/50 cursor-pointer flex justify-between items-center transition";
         item.onclick = () => {
+          if (p.vocab) renderVocabSection(p.vocab);
           renderRC(p);
           toggleArchiveModal();
           switchTab('rc');
@@ -531,11 +450,7 @@
       });
     }
 
-    document.addEventListener('DOMContentLoaded', async () => {
-      renderVocabSection();
-      const rc = await fetchDailyRC();
-      if (rc) renderRC(rc);
-    });
+    document.addEventListener('DOMContentLoaded', loadContent);
   </script>
 </body>
 </html>
