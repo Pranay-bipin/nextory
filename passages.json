@@ -1,0 +1,83 @@
+[
+  {
+    "id": "rc-2026-09-18",
+    "date": "2026-09-18",
+    "source": "curated",
+    "title": "The Paradox of Moral Relativism",
+    "genre": "Philosophy",
+    "difficulty": "CAT Level",
+    "passage": "Moral relativism asserts that objective moral truths do not exist; rather, morality is contingent upon cultural, societal, or individual perspectives. Proponents argue that this framework fosters tolerance in a pluralistic world. However, critics point out a fundamental paradox: if all moral frameworks are equally valid, then relativistic philosophy cannot consistently condemn extreme atrocities committed by other societies without asserting a universal standard of justice.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best captures the central criticism of moral relativism presented in the passage?",
+        "options": [
+          "A) It fails to promote cultural tolerance in modern societies.",
+          "B) It undermines its own premise when attempting to condemn moral atrocities universally.",
+          "C) It relies too heavily on historical legal definitions of justice.",
+          "D) It assumes that all human beings share identical moral values."
+        ],
+        "answer": 1,
+        "explanation": "Option B is correct. The text explicitly highlights a paradox: moral relativism claims no universal standards exist, yet condemning atrocities requires asserting a universal standard."
+      }
+    ]
+  },
+  {
+    "id": "rc-2026-09-19",
+    "date": "2026-09-19",
+    "source": "curated",
+    "title": "Behavioral Nudges in Public Policy",
+    "genre": "Economics",
+    "difficulty": "IPMAT Level",
+    "passage": "Behavioral economics suggests that humans do not always make rational decisions due to cognitive biases. 'Nudge theory' uses subtle interventions to guide choices without restricting individual freedom. For instance, making organ donation an opt-out choice rather than opt-in drastically increases consent rates. Critics, however, question whether paternalistic nudging by governments infringes upon individual autonomy.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the primary objective of 'Nudge Theory' as described in the passage?",
+        "options": [
+          "A) To legally mandate rational financial decisions.",
+          "B) To alter choice environments subtly without removing personal freedom.",
+          "C) To eliminate all cognitive biases in decision-making.",
+          "D) To enforce government regulations on organ donation."
+        ],
+        "answer": 1,
+        "explanation": "Option B is correct. Paragraph 1 defines nudging as using subtle interventions to guide choices without restricting individual freedom."
+      }
+    ]
+  },
+  {
+    "id": "rc-2026-09-20",
+    "date": "2026-09-20",
+    "source": "curated",
+    "title": "The Fallacy of Algorithmic Neutrality",
+    "genre": "Sociology & Tech",
+    "difficulty": "CAT Level",
+    "passage": "Algorithms are frequently framed as impartial arbiters of human activity, free from the visceral biases that pollute human judgment. However, this view misinterprets what an algorithm is: a mathematical encoding of historical data. Because history itself is shaped by structural inequities, training models on past datasets inevitably codifies and amplifies those same disparities under the guise of statistical objectivity.\n\nFurthermore, the opacity of modern machine learning models—often referred to as the 'black box' problem—compounds this issue. When an algorithm makes a high-stakes decision, such as approving a loan or assessing recidivism risk, it is nearly impossible to trace the exact chain of logic that led to that outcome. Thus, reliance on these systems does not eliminate bias; it merely renders it invisible and immune to democratic accountability.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "options": [
+          "A) Machine learning models are inherently superior to human decision-making due to speed.",
+          "B) Algorithmic objectivity is an illusion because algorithms encode and obscure historical biases.",
+          "C) AI systems should be completely banned from financial and legal institutions.",
+          "D) Historical data is too mathematically complex to be used in modern algorithms."
+        ],
+        "answer": 1,
+        "explanation": "Option B is correct. Paragraph 1 explains that algorithms inherit historical biases from data, and Paragraph 2 highlights how the 'black box' nature obscures these biases."
+      },
+      {
+        "id": "q2",
+        "question": "According to the passage, the 'black box' problem is dangerous primarily because it:",
+        "options": [
+          "A) Prevents algorithms from processing large datasets efficiently.",
+          "B) Leads to mathematical errors in simple financial calculations.",
+          "C) Makes algorithmic decisions opaque and immune to accountability.",
+          "D) Forces developers to rely on outdated coding techniques."
+        ],
+        "answer": 2,
+        "explanation": "Option C is correct. The text explicitly states that the black box problem renders logic impossible to trace, making decisions 'invisible and immune to democratic accountability'."
+      }
+    ]
+  }
+]
