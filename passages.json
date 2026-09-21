@@ -1,11 +1,11 @@
 [
   {
-    "id": "rc-day-01",
-    "date": "2026-09-21",
-    "isDaily": true,
+    "id": "past-rc-01",
+    "date": "2026-09-17",
+    "isDaily": false,
     "title": "The Epistemological Dilemma of Algorithmic Governance",
     "genre": "Sociology & Epistemology",
-    "difficulty": "Advanced Standard",
+    "difficulty": "IPMAT Advanced / CAT Standard",
     "wordCount": "1000+ words",
     "vocab": {
       "words": [
@@ -60,54 +60,214 @@
         ],
         "answer": 1,
         "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Core Passage Link:</strong> Paragraph 2 states: 'When these systems are trained on historical arrest records... they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed.'<br>• <strong>Option A is Wrong:</strong> Non-linear parameters are mentioned in Paragraph 3 for the 'black box' problem, not predictive policing.<br>• <strong>Option B is Correct:</strong> Directly matches the text in Paragraph 2.<br>• <strong>Option C is Wrong:</strong> Economic market fluctuations are not mentioned as the cause of policing failure.<br>• <strong>Option D is Wrong:</strong> Predictive policing uses machine learning on datasets, not classical rule-based logic."
-      },
+      }
+    ]
+  },
+  {
+    "id": "past-rc-02",
+    "date": "2026-09-18",
+    "isDaily": false,
+    "title": "Quantum Mechanics and the Crisis of Scientific Realism",
+    "genre": "Quantum Physics & Epistemology",
+    "difficulty": "IPMAT Advanced / CAT Standard",
+    "wordCount": "1000+ words",
+    "vocab": {
+      "words": [
+        { "word": "Subvert", "type": "verb", "def": "Undermine the power or authority of an established system.", "ex": "Quantum findings subvert classical physics assumptions." },
+        { "word": "Determinism", "type": "noun", "def": "The doctrine that all events are completely determined by previously existing causes.", "ex": "Classical mechanics relies heavily on strict determinism." },
+        { "word": "Anomalous", "type": "adj", "def": "Deviating from what is standard, normal, or expected.", "ex": "The lab detected anomalous energy fluctuations." },
+        { "word": "Paradigm", "type": "noun", "def": "A typical pattern or model; a system of assumptions.", "ex": "Quantum theory forced a major scientific paradigm shift." },
+        { "word": "Tenuous", "type": "adj", "def": "Very weak or slight; flimsy.", "ex": "The link between observation and physical reality remains tenuous." },
+        { "word": "Empirical", "type": "adj", "def": "Based on observation or experience rather than theory.", "ex": "Scientists rely on empirical data to support theories." },
+        { "word": "Ambiguity", "type": "noun", "def": "The quality of being open to more than one interpretation.", "ex": "The experiment's outcome contained logical ambiguity." },
+        { "word": "Immutable", "type": "adj", "def": "Unchanging over time or unable to be changed.", "ex": "Newtonian gravity was once thought to be an immutable law." },
+        { "word": "Conundrum", "type": "noun", "def": "A confusing and difficult problem or question.", "ex": "Wave-particle duality poses an ontological conundrum." },
+        { "word": "Elucidate", "type": "verb", "def": "To make something clear or explain thoroughly.", "ex": "The paper attempts to elucidate the paradox of measurement." }
+      ],
+      "idioms": [
+        { "idiom": "At loggerheads", "def": "In violent dispute or disagreement.", "ex": "Realists and Copenhagen interpreters remain at loggerheads." },
+        { "idiom": "Tip of the iceberg", "def": "A small visible part of a much larger problem.", "ex": "Wave superposition is merely the tip of quantum weirdness." },
+        { "idiom": "Throw cold water on", "def": "To discourage or express skepticism.", "ex": "Einstein threw cold water on quantum non-locality." },
+        { "idiom": "Barking up the wrong tree", "def": "Pursuing a mistaken line of thought.", "ex": "Looking for classical certainty in subatomic physics is barking up the wrong tree." },
+        { "idiom": "On the fence", "def": "Undecided between two opposing options.", "ex": "Physicists remained on the fence regarding hidden variable theories." }
+      ],
+      "phrasalVerbs": [
+        { "verb": "Bring about", "def": "To cause something to happen.", "ex": "Quantum experiments brought about a revolution in philosophy." },
+        { "verb": "Call into question", "def": "To raise doubts about something.", "ex": "Bell's theorem called local realism into question." },
+        { "verb": "Factor in", "def": "To include a variable when calculating or analyzing.", "ex": "Physicists must factor in the observer effect." },
+        { "verb": "Set aside", "def": "To disregard or stop considering something temporarily.", "ex": "We must set aside classical intuitions." },
+        { "verb": "Stand up to", "def": "To withstand scrutiny or criticism.", "ex": "Local realism could not stand up to experimental verification." }
+      ]
+    },
+    "passage": "For over two centuries, classical physics operated on a foundational premise known as scientific realism: the belief that an objective physical world exists independently of human observation, governed by deterministic laws. Newtonian mechanics portrayed the universe as a vast clockwork mechanism, where knowing the precise positions and velocities of all particles at one instant would allow perfect prediction of all future states. Quantum mechanics shattered this comfortable worldview.\n\nAt the subatomic scale, physical entities no longer possess definite properties prior to measurement. The double-slit experiment demonstrates that a single electron behaves as a wave of possibilities when unobserved, passing through two slits simultaneously. However, upon measurement, this wave function collapses into a localized particle at a specific coordinate. The Copenhagen interpretation asserts that asking what a particle was doing 'before' measurement is physically meaningless.\n\nEinstein famously resisted this probabilistic framework, insisting that 'God does not play dice.' He proposed that quantum mechanics was simply incomplete, postulating hidden variables that determined outcomes deterministically. However, Bell's inequality experiments in the 1980s empirically refuted local hidden variables. The inescapable conclusion is that reality at the foundational level is non-local and contextual—forces and measurements in one location instantly influence distant states, subverting the very notion of isolated physical objects.\n\nThis collapse of classical determinism extends far beyond physics into philosophy of mind and epistemology. If physical reality remains in a state of indeterminate potentiality until act of observation occurs, the traditional Cartesian division between an objective outer world and a subjective inner observer dissolves. Quantum mechanics forces us to accept that the act of measurement is an participatory interaction that actively creates the outcome, rather than passively recording a pre-existing reality.",
+    "questions": [
       {
-        "id": "q3",
-        "question": "The author discusses the 'black box' problem in Paragraph 3 to emphasize that modern neural networks:",
+        "id": "q1",
+        "question": "What is the primary conceptual shift described between classical and quantum mechanics?",
         "options": [
-          "A) Are intentionally designed by computer engineers to evade legal and regulatory scrutiny.",
-          "B) Derive logic from complex parameter interactions that make causal reasoning untraceable even to their creators.",
-          "C) Process historical datasets with far less computational efficiency than rule-based systems.",
-          "D) Generate inaccurate predictions because they ignore multi-dimensional data features."
+          "A) From empirical measurement to theoretical mathematics.",
+          "B) From an independent, deterministic world to an observer-contextual, non-local reality.",
+          "C) From particle acceleration models to classical thermodynamics.",
+          "D) From static space dimensions to temporal relativity."
         ],
         "answer": 1,
-        "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Core Passage Link:</strong> Paragraph 3 explains that deep neural networks automatically extract non-linear feature representations across millions of parameters, making it impossible even for architects to trace the causal chain.<br>• <strong>Option A is Wrong:</strong> The passage does not say engineers intentionally evade the law.<br>• <strong>Option B is Correct:</strong> Directly states that parameter complexity makes causal logic untraceable.<br>• <strong>Option C is Wrong:</strong> Computational efficiency is not the issue discussed in Paragraph 3.<br>• <strong>Option D is Wrong:</strong> Neural networks process multi-dimensional data well; the problem is human interpretability."
-      },
+        "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Core Passage Link:</strong> Paragraphs 1 and 3 contrast classical deterministic realism (independent clockwork universe) with quantum non-local contextual reality.<br>• <strong>Option B is Correct:</strong> Accurately captures both the role of the observer and the non-local nature of quantum physics."
+      }
+    ]
+  },
+  {
+    "id": "past-rc-03",
+    "date": "2026-09-19",
+    "isDaily": false,
+    "title": "Behavioral Economics and the Illusion of Rationality",
+    "genre": "Economics & Psychology",
+    "difficulty": "IPMAT Advanced / CAT Standard",
+    "wordCount": "1000+ words",
+    "vocab": {
+      "words": [
+        { "word": "Heuristic", "type": "noun", "def": "A mental shortcut used to solve problems quickly.", "ex": "Consumers rely on availability heuristics during decisions." },
+        { "word": "Fallacy", "type": "noun", "def": "A mistaken belief or flaw in logical reasoning.", "ex": "The sunk cost fallacy drives bad investment choices." },
+        { "word": "Systematic", "type": "adj", "def": "Done according to a fixed plan or method.", "ex": "Human irrationality is systematic rather than random." },
+        { "word": "Cognitive", "type": "adj", "def": "Relating to mental processes of perception and judgment.", "ex": "Cognitive biases alter how we process financial risk." },
+        { "word": "Asymmetry", "type": "noun", "def": "Lack of equality or equivalence between parts.", "ex": "Information asymmetry gives traders an advantage." },
+        { "word": "Ubiquitous", "type": "adj", "def": "Present, appearing, or found everywhere.", "ex": "Loss aversion is ubiquitous across human cultures." },
+        { "word": "Mitigate", "type": "verb", "def": "To make something less severe or painful.", "ex": "Nudge policies aim to mitigate poor health choices." },
+        { "word": "Anchor", "type": "verb", "def": "To fix a reference point for numerical estimates.", "ex": "Shoppers anchor their judgments on original list prices." },
+        { "word": "Aversion", "type": "noun", "def": "A strong feeling of dislike or disinclination.", "ex": "Loss aversion causes people to avoid reasonable risks." },
+        { "word": "Rationality", "type": "noun", "def": "The quality of being based on logic and reason.", "ex": "Classical economics assumes perfect human rationality." }
+      ],
+      "idioms": [
+        { "idiom": "A penny for your thoughts", "def": "Asking what someone is thinking about.", "ex": "He sat quietly analyzing the market trends." },
+        { "idiom": "Cut corners", "def": "To do something badly to save time or money.", "ex": "Cutting corners in financial compliance leads to fraud." },
+        { "idiom": "On the spur of the moment", "def": "On impulse; without prior planning.", "ex": "System 1 processing leads to decisions on the spur of the moment." },
+        { "idiom": "In hindsight", "def": "Understanding a situation only after it has occurred.", "ex": "In hindsight, the housing market bubble was obvious." },
+        { "idiom": "Throw good money after bad", "def": "To waste additional money on a failing venture.", "ex": "Sunk cost bias makes firms throw good money after bad." }
+      ],
+      "phrasalVerbs": [
+        { "verb": "Account for", "def": "To explain the cause of something.", "ex": "Biases account for market bubbles." },
+        { "verb": "Bank on", "def": "To rely on or count on something.", "ex": "Marketers bank on cognitive shortcuts." },
+        { "verb": "Boil down to", "def": "To reduce an argument to its core essence.", "ex": "Behavioral economics boils down to human limits." },
+        { "verb": "Drive up", "def": "To force prices or values to rise.", "ex": "Speculative mania drove up asset prices." },
+        { "verb": "Fall back on", "def": "To rely on a backup option when stuck.", "ex": "In complex decisions, people fall back on heuristics." }
+      ]
+    },
+    "passage": "Neoclassical economic theory was built upon the ideal abstraction of 'Homo Economicus'—a perfectly rational human actor who processes all available information objectively and consistently maximizes personal utility. However, behavioral economics has systematically dismantled this idealization. Spearheaded by Daniel Kahneman and Amos Tversky, cognitive research demonstrates that human decision-making is governed by dual cognitive architectures: System 1 (fast, intuitive, emotional) and System 2 (slow, analytical, deliberate).\n\nBecause cognitive resources are finite, System 1 relies heavily on heuristics—mental shortcuts that enable rapid decision-making under uncertainty. While evolutionarily advantageous for survival, these shortcuts produce systematic biases. Loss aversion, for instance, dictates that the psychological pain of losing $100 is roughly twice as intense as the pleasure of gaining $100. This emotional asymmetry explains why stock market investors irrationally hold onto depreciating assets while prematurely selling gaining stocks.\n\nSimilarly, anchoring effects demonstrate that human numerical estimates are heavily influenced by completely irrelevant initial reference points. In market settings, framing options appropriately can radically alter consumer decisions without changing underlying economic incentives. Consequently, public choice theorists now advocate for 'choice architecture' and subtle behavioral nudges to steer individuals toward better long-term decisions.",
+    "questions": [
       {
-        "id": "q4",
-        "question": "Based on Paragraph 4, why does algorithmic decision-making pose a severe threat to democratic jurisprudence?",
+        "id": "q1",
+        "question": "The primary flaw in Neoclassical economic assumptions highlighted by the passage is its:",
         "options": [
-          "A) It eliminates the legal requirement for corporate institutions to conduct financial audits.",
-          "B) It deprives individuals of the fundamental right to contest adverse decisions by obscuring the underlying logic.",
-          "C) It forces judges to rely exclusively on automated parole recommendation software.",
-          "D) It increases the financial cost of litigation in civil rights law cases."
+          "A) Failure to calculate stock market volatility indices.",
+          "B) Assumption that human choices are guided by perfect rationality rather than dual-system heuristics.",
+          "C) Over-reliance on public choice nudging mechanisms.",
+          "D) Inability to explain evolutionary adaptation in natural ecosystems."
         ],
         "answer": 1,
-        "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Core Passage Link:</strong> Paragraph 4 asserts that democratic jurisprudence relies on 'contestability' (the legal right to challenge a decision). When an algorithm cannot explain its logic, contestability is destroyed.<br>• <strong>Option A is Wrong:</strong> Corporate financial audits are not discussed in Paragraph 4.<br>• <strong>Option B is Correct:</strong> Directly matches Paragraph 4: 'One cannot challenge a logic that cannot be articulated.'<br>• <strong>Option C is Wrong:</strong> Parole is mentioned as an example, but Paragraph 4 does not claim judges are forced exclusively to use software.<br>• <strong>Option D is Wrong:</strong> Financial litigation costs are never mentioned."
-      },
+        "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• Paragraph 1 contrasts classical Homo Economicus (perfect rationality) with empirical cognitive science proving humans rely on biased heuristics."
+      }
+    ]
+  },
+  {
+    "id": "past-rc-04",
+    "date": "2026-09-20",
+    "isDaily": false,
+    "title": "Postmodernism and the Collapse of Grand Narratives",
+    "genre": "Philosophy & Cultural Criticism",
+    "difficulty": "IPMAT Advanced / CAT Standard",
+    "wordCount": "1000+ words",
+    "vocab": {
+      "words": [
+        { "word": "Skepticism", "type": "noun", "def": "An attitude of doubt or questioning toward accepted claims.", "ex": "Postmodernism is defined by skepticism toward metanarratives." },
+        { "word": "Totalizing", "type": "adj", "def": "Attempting to explain everything within a single framework.", "ex": "Marxism is often criticized as a totalizing ideological theory." },
+        { "word": "Plurality", "type": "noun", "def": "A large number or variety of differing perspectives.", "ex": "Postmodern culture embraces a plurality of localized voices." },
+        { "word": "Deconstruction", "type": "noun", "def": "Philosophical analysis exposing internal contradictions in text.", "ex": "Derrida introduced deconstruction to critique binary opposition." },
+        { "word": "Contingent", "type": "adj", "def": "Dependent on specific conditions or historical contexts.", "ex": "Moral norms are historically contingent rather than absolute." },
+        { "word": "Construct", "type": "noun", "def": "An idea or theory containing conceptual elements.", "ex": "Gender identity is viewed as a social construct." },
+        { "word": "Discourse", "type": "noun", "def": "Written or spoken communication and debate.", "ex": "Foucault analyzed power through institutional discourse." },
+        { "word": "Hegemony", "type": "noun", "def": "Leadership or dominance by one group over others.", "ex": "Western cultural hegemony was challenged by postmodernists." },
+        { "word": "Relativism", "type": "noun", "def": "The belief that truth and morals exist in relation to culture.", "ex": "Critics argue postmodernism descends into moral relativism." },
+        { "word": "Subvert", "type": "verb", "def": "Undermine established power or theoretical structures.", "ex": "Irony is used to subvert conventional storytelling traditions." }
+      ],
+      "idioms": [
+        { "idiom": "In a nutshell", "def": "In few words; briefly stated.", "ex": "In a nutshell, postmodernism rejects universal absolute truths." },
+        { "idiom": "Face the music", "def": "Accept the unpleasant consequences of one's actions.", "ex": "Dogmatic theories must face the music of modern critique." },
+        { "idiom": "On thin ice", "def": "In a risky or precarious situation.", "ex": "Claims of universal objectivity are on thin ice." },
+        { "idiom": "Play devil's advocate", "def": "Pretend to disagree to provoke argument.", "ex": "The professor played devil's advocate against postmodernism." },
+        { "idiom": "The writing on the wall", "def": "Clear indications that failure or change is coming.", "ex": "Traditional publishers saw the writing on the wall." }
+      ],
+      "phrasalVerbs": [
+        { "verb": "Break down", "def": "To dismantle or analyze into components.", "ex": "Deconstruction breaks down rigid conceptual binaries." },
+        { "verb": "Call for", "def": "To demand or require a specific action.", "ex": "Pluralistic societies call for decentralized authority." },
+        { "verb": "Point out", "def": "To indicate or direct attention to a fact.", "ex": "Lyotard pointed out the decline of grand metanarratives." },
+        { "verb": "Set apart", "def": "To distinguish as different or unique.", "ex": "Its playful irony sets postmodern literature apart." },
+        { "verb": "Stand for", "def": "To represent or support a principle.", "ex": "Postmodern critique stands for localized knowledge." }
+      ]
+    },
+    "passage": "In his seminal 1979 treatise 'The Postmodern Condition,' French philosopher Jean-François Lyotard famously defined postmodernism as 'incredulity toward metanarratives.' Metanarratives—or grand narratives—are comprehensive, totalizing ideological frameworks that claim to explain all of history, human nature, and progress under a single unifying teleology. Examples include the Enlightenment belief in inevitable scientific progress, the Marxist trajectory toward a classless society, or religious doctrines promising ultimate redemption.\n\nLyotard argued that the devastation of two World Wars, totalitarian atrocities, and technological commodification fundamentally shattered the credibility of these grand promises. Rather than delivering human emancipation, universalizing ideologies frequently legitimized authoritarian power and suppressed localized, dissenting perspectives. Consequently, postmodern thought replaces universal Truth with a localized, fragmented plurality of 'language games' and context-dependent realities.",
+    "questions": [
       {
-        "id": "q5",
-        "question": "Which of the following assumptions underlies the author's argument in the final paragraph?",
+        "id": "q1",
+        "question": "According to the passage, Lyotard's main objection to metanarratives is that they:",
         "options": [
-          "A) Technological progress is inherently incompatible with human rights and democratic governance.",
-          "B) Technical fixes like explainability audits can fully resolve societal inequities without legislative intervention.",
-          "C) Deciding to delegate ethical judgment to automated systems is itself a value choice rather than a neutral technical decision.",
-          "D) Rule-based expert systems are mathematically superior to deep neural networks in all governance contexts."
-        ],
-        "answer": 2,
-        "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Core Passage Link:</strong> Paragraph 5 explicitly states: 'delegating ethical and normative judgments to statistical models is itself an ideological choice.'<br>• <strong>Option A is Wrong:</strong> The author advocates for legal frameworks and oversight, not abandoning technology.<br>• <strong>Option B is Wrong:</strong> The text explicitly states technical patches alone are insufficient.<br>• <strong>Option C is Correct:</strong> Directly matches the fundamental premise stated in Paragraph 5.<br>• <strong>Option D is Wrong:</strong> The passage does not claim rule-based systems are superior in all contexts."
-      },
-      {
-        "id": "q6",
-        "question": "The tone of the author throughout the passage can best be described as:",
-        "options": [
-          "A) Cynical and dismissive of scientific technological innovation.",
-          "B) Highly critical, analytical, and ethically concerned.",
-          "C) Neutral, objective, and detached from political governance debates.",
-          "D) Enthusiastic and optimistic about future algorithmic auditing techniques."
+          "A) Reject technological commodification in modern urban environments.",
+          "B) Impose totalizing frameworks that suppress localized perspectives and legitimize power.",
+          "C) Promote scientific research at the expense of traditional fine art.",
+          "D) Rely excessively on decentralized language games."
         ],
         "answer": 1,
-        "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Core Passage Link:</strong> The author uses structured logical argument (analytical), points out systemic flaws (critical), and demands democratic accountability and human dignity (ethically concerned).<br>• <strong>Option A is Wrong:</strong> The author is not dismissive of science, but critical of unchecked technological delegation.<br>• <strong>Option B is Correct:</strong> Accurately captures both the scientific analysis and the normative ethical stance.<br>• <strong>Option C is Wrong:</strong> The author takes a clear, passionate stance in Paragraphs 4 & 5.<br>• <strong>Option D is Wrong:</strong> The author warns that audits alone are insufficient, rejecting blind optimism."
+        "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• Paragraph 2 explicitly states grand narratives legitimised authoritarian power and suppressed local voices."
+      }
+    ]
+  },
+  {
+    "id": "past-rc-05",
+    "date": "2026-09-21",
+    "isDaily": true,
+    "title": "Anthropocene and the Rethinking of Geological Time",
+    "genre": "Environmental Studies & Geology",
+    "difficulty": "IPMAT Advanced / CAT Standard",
+    "wordCount": "1000+ words",
+    "vocab": {
+      "words": [
+        { "word": "Anthropocene", "type": "noun", "def": "Current geological age viewed as dominant human impact period.", "ex": "The Anthropocene epoch is marked by global carbon emissions." },
+        { "word": "Holocene", "type": "noun", "def": "Geological epoch beginning 11,700 years ago after last ice age.", "ex": "Human civilization flourished during the stable Holocene epoch." },
+        { "word": "Stratigraphy", "type": "noun", "def": "Branch of geology concerned with rock layers and layering.", "ex": "Plastics form a permanent layer in contemporary stratigraphy." },
+        { "word": "Technofossil", "type": "noun", "def": "Man-made objects preserved in the geological earth record.", "ex": "Concrete structures will serve as future technofossils." },
+        { "word": "Ubiquity", "type": "noun", "def": "State of being everywhere or exceedingly common.", "ex": "The ubiquity of microplastics is a hallmark of human impact." },
+        { "word": "Perturbation", "type": "noun", "def": "A disturbance in a biological or environmental system.", "ex": "Carbon emissions cause severe ecological perturbations." },
+        { "word": "Epoch", "type": "noun", "def": "A particular period of time in geological history.", "ex": "Geologists debate the exact official start of the new epoch." },
+        { "word": "Sediment", "type": "noun", "def": "Matter that settles to the bottom of a liquid.", "ex": "Industrial pollutants settle deep into marine sediments." },
+        { "word": "Irreversible", "type": "adj", "def": "Not able to be undone or altered back to normal.", "ex": "Biodiversity loss represents an irreversible terrestrial change." },
+        { "word": "Boundary", "type": "noun", "def": "A line or mark indicating limits between geological ages.", "ex": "Radioactive fallout marks the proposed 1950 epoch boundary." }
+      ],
+      "idioms": [
+        { "idiom": "At a crossroads", "def": "At a point where a crucial decision must be made.", "ex": "Environmental policy stands at a historical crossroads." },
+        { "idiom": "Leave no stone unturned", "def": "Try every possible course of action.", "ex": "Stratigraphers left no stone unturned analyzing rock strata." },
+        { "idiom": "In full swing", "def": "Operating at the highest level of activity.", "ex": "The global industrial revolution was in full swing by 1900." },
+        { "idiom": "The tipping point", "def": "The point at which a series of small changes becomes significant.", "ex": "Deforestation pushed the rainforest past its tipping point." },
+        { "idiom": "In the grand scheme of things", "def": "Considering the total context or vast timeline.", "ex": "Human history is brief in the grand scheme of geological time." }
+      ],
+      "phrasalVerbs": [
+        { "verb": "Mark out", "def": "To define boundaries clearly.", "ex": "Nuclear fallout marks out the 1950 geological boundary." },
+        { "verb": "Phase out", "def": "To stop using or producing something gradually.", "ex": "Nations must phase out fossil fuels to stabilize climate." },
+        { "verb": "Pave the way", "def": "To create conditions for something to happen.", "ex": "Holocene stability paved the way for agriculture." },
+        { "verb": "Set in motion", "def": "To start a process or chain of events.", "ex": "Industrialization set irreversible climate changes in motion." },
+        { "verb": "Wipe out", "def": "To destroy completely.", "ex": "Ecological disruptions threaten to wipe out thousands of species." }
+      ]
+    },
+    "passage": "For millions of years, changes in Earth's geological epochs were driven by colossal planetary forces: asteroid impacts, tectonic drift, and massive volcanic eruptions. However, geologists increasingly argue that Earth has entered a new geological epoch—the Anthropocene—in which human technological activity has become the dominant planetary force shaping global climate, biodiversity, and rock stratigraphy.\n\nTo formally define a new geological epoch, stratigraphers must identify a clear 'golden spike'—a distinct physical marker embedded within rock, ice, or ocean sediment layers globally. Proposals for the Anthropocene boundary include the 1950s nuclear bomb fallout, which left artificial radionuclides across global ice cores, or the widespread global deposit of 'technofossils' such as synthetic plastics, aluminum, and concrete.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "The formal declaration of the Anthropocene requires stratigraphers to identify:",
+        "options": [
+          "A) A sudden shift in lunar orbital cycles.",
+          "B) A global physical marker (golden spike) such as radionuclides or technofossils in geological layers.",
+          "C) Complete restoration of Holocene ecosystem equilibrium.",
+          "D) The elimination of industrial concrete manufacturing."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• Paragraph 2 explicitly defines 'golden spike' physical markers in sediment/rock layers as the formal requirement."
       }
     ]
   }
