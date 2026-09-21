@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NEXTORY - Daily Verbal & RC Booster</title>
+    <title>NEXTORY - IPMAT Verbal Booster</title>
     <style>
         :root {
             --bg-page: #fbf9f5;
@@ -176,7 +176,7 @@
     <header>
         <div class="brand">
             <span class="logo-box">NX</span> NEXTORY
-            <span class="sub-tag">Daily Verbal Booster</span>
+            <span class="sub-tag">IPMAT & CAT Verbal Booster</span>
         </div>
         <div class="nav-items">
             <button id="btn-vocab" class="nav-btn active" onclick="navigateTab('vocab')">📖 Daily Vocab</button>
@@ -190,8 +190,8 @@
         <!-- 1. DAILY VOCAB TAB -->
         <div id="panel-vocab" class="view-panel active">
             <div class="hero-banner">
-                <h1>Master High-Frequency Vocabulary, Idioms & Phrasal Verbs</h1>
-                <p>Strengthen your verbal reasoning and comprehension foundation before diving into today's Reading Practice test.</p>
+                <h1>Master High-Frequency Vocabulary, Idioms & Phrasal Verbs for IPMAT & CAT</h1>
+                <p>Strengthen your verbal reasoning, reading speed, and comprehension foundation before diving into today's IPMAT/CAT Standard Reading Practice test.</p>
                 <button class="primary-btn" onclick="navigateTab('reading')">Proceed to Daily RC Test →</button>
             </div>
 
@@ -220,8 +220,8 @@
                 <div class="reading-box">
                     <div class="meta-tags">
                         <span id="rc-genre" class="tag">Genre</span>
-                        <span id="rc-diff" class="tag">Difficulty</span>
-                        <span id="rc-count" class="tag">Word Count</span>
+                        <span id="rc-diff" class="tag">IPMAT / CAT Standard</span>
+                        <span id="rc-count" class="tag">1000+ words</span>
                         <span id="timer-display" class="tag" style="background:var(--amber-bg); color:var(--amber-primary); border-color:#fde68a;">⏱️ 00:00</span>
                     </div>
                     <h2 id="rc-title" style="margin-bottom: 16px; color: var(--text-heading);">Loading Passage Title...</h2>
@@ -275,7 +275,7 @@
         <!-- 4. PAST RCS ARCHIVE TAB -->
         <div id="panel-archive" class="view-panel">
             <div class="question-card">
-                <h2 style="margin-bottom: 15px; color: var(--text-heading);">Past Reading Passages Archive</h2>
+                <h2 style="margin-bottom: 15px; color: var(--text-heading);">Past Reading Passages Archive (IPMAT / CAT Standard)</h2>
                 <div id="archive-container">Loading Past RCs...</div>
             </div>
         </div>
@@ -319,15 +319,149 @@
     </div>
 
     <script>
-        // FULL DATASET (5 EXTENSIVE 1000+ WORD PASSAGES WITH EXACTLY 6 DETAILED QUESTIONS EACH)
+        // DATASET FROM SEPT 17 TO SEPT 23 (FULL 1000+ WORDS PASSAGES WITH EXACTLY 6 QUESTIONS EACH)
         const fallbackData = [
           {
-            "id": "past-rc-01",
+            "id": "rc-2026-09-17",
+            "date": "2026-09-17",
+            "title": "Algorithmic Governance and the Erosion of Democratic Accountability",
+            "genre": "Sociology & Epistemology",
+            "difficulty": "IPMAT / CAT Standard",
+            "wordCount": "1000+ words",
+            "vocab": {
+              "words": [
+                { "word": "Perspicacious", "type": "adj", "def": "Having a ready insight into and understanding of things.", "ex": "Her perspicacious analysis revealed subtle tone shifts." },
+                { "word": "Equanimity", "type": "noun", "def": "Mental calmness and composure, especially in difficult situations.", "ex": "He maintained absolute equanimity throughout the test." },
+                { "word": "Obfuscate", "type": "verb", "def": "To deliberately make something unclear or obscure.", "ex": "Dense jargon was used to obfuscate the core thesis." },
+                { "word": "Sycophant", "type": "noun", "def": "A person who acts obsequiously toward someone to gain advantage.", "ex": "The essay criticizes sycophants in corporate hierarchy." },
+                { "word": "Recalcitrant", "type": "adj", "def": "Obstinately uncooperative toward authority.", "ex": "The recalcitrant committee resisted structural reforms." },
+                { "word": "Ineffable", "type": "adj", "def": "Too great or extreme to be expressed in words.", "ex": "The poem captures the ineffable complexity of thought." },
+                { "word": "Fastidious", "type": "adj", "def": "Very attentive to accuracy and detail.", "ex": "A fastidious reader notices logical flaws immediately." },
+                { "word": "Truculent", "type": "adj", "def": "Eager or quick to argue; aggressively defiant.", "ex": "His truculent tone alienated peer reviewers." },
+                { "word": "Pervasive", "type": "adj", "def": "Spreading widely throughout an area.", "ex": "Commercialization has a pervasive influence on art." },
+                { "word": "Esoteric", "type": "adj", "def": "Understood by only a small group.", "ex": "The essay focuses on an esoteric philosophical theory." }
+              ],
+              "idioms": [
+                { "idiom": "Burn the midnight oil", "def": "To work or study late into the night.", "ex": "She burned the midnight oil preparing for her exam." },
+                { "idiom": "Read between the lines", "def": "To understand implicit meaning not directly stated.", "ex": "Inference questions require reading between the lines." },
+                { "idiom": "Take with a grain of salt", "def": "To view a statement with skepticism.", "ex": "Take unverified claims with a grain of salt." },
+                { "idiom": "Steal someone's thunder", "def": "To take credit for someone else's achievement.", "ex": "The rival firm stole their research thunder." },
+                { "idiom": "Bite the bullet", "def": "To face a difficult situation courageously.", "ex": "He bit the bullet and solved complex passages." }
+              ],
+              "phrasalVerbs": [
+                { "verb": "Iron out", "def": "To resolve small problems or details.", "ex": "They ironed out their logical disagreements." },
+                { "verb": "Pertain to", "def": "To be directly related or relevant.", "ex": "The second paragraph pertains to economic policy." },
+                { "verb": "Whittle down", "def": "To gradually reduce options.", "ex": "She whittled down four choices to one." },
+                { "verb": "Gloss over", "def": "To treat or describe something lightly.", "ex": "The author refuses to gloss over consequences." },
+                { "verb": "Root out", "def": "To completely eradicate something bad.", "ex": "Audits help root out systemic biases." }
+              ]
+            },
+            "passage": "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in disenfranchised neighborhoods. The model's statistical objectivity cloaks systemic prejudice in mathematical authority.\n\nFurthermore, the opacity of modern deep learning architecture—termed the 'black box' problem—compounds this ethical dilemma. Unlike classical rule-based expert systems governed by explicit, human-readable logic, modern deep neural networks automatically extract non-linear feature representations across millions of parameters. Consequently, even the lead architects cannot trace the precise causal chain that leads to a specific prediction. When an automated system denies a mortgage, rejects a job application, or recommends parole revocation, the subject is confronted with an uninterpretable decision. Tracing the rationale behind the outcome becomes an exercise in futility.\n\nThis epistemic opacity poses a direct threat to democratic governance. In classical jurisprudence, authority is legitimized through contestability: individuals subjected to adverse state actions retain the right to demand a reasoned justification and challenge underlying premises. When decisions are delegated to opaque algorithms, contestability is effectively obliterated. One cannot challenge a logic that cannot be articulated. Automating high-stakes social decisions does not eliminate human bias; it merely mechanizes it, rendering systemic prejudice invisible, automated, and immune to democratic accountability.\n\nTo remediate this structural crisis, computer scientists advocate for algorithmic explainability and continuous post-deployment auditing. However, technical patches alone are insufficient. We must fundamentally reframe our ethical framework regarding technology. Society must recognize that delegating ethical judgments to statistical models is itself an ideological choice—one that prioritizes computational efficiency over human dignity and justice. Until we establish robust legal frameworks mandating transparency and human oversight, computational governance will remain a mechanism for perpetuating injustice under the veneer of mathematical neutrality.",
+            "questions": [
+              { "id": "q1", "question": "Which of the following best captures the primary thesis of the author regarding algorithmic governance?", "options": ["A) Machine learning algorithms process historical datasets without emotional bias.", "B) Delegating high-stakes decisions to algorithms mechanizes historical prejudice behind a false veneer of neutrality.", "C) Technical coding flaws can be fully rectified through rigorous post-deployment auditing.", "D) Predictive policing models should be replaced with classical rule-based expert systems."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraphs 1, 2, and 5 explain that algorithms are trained on historical human data, so they repeat past biases under neutral math." },
+              { "id": "q2", "question": "Predictive policing algorithms fail to provide objective crime forecasts primarily because they:", "options": ["A) Suffer from non-linear computational regressions.", "B) Are trained on historical arrest data reflecting deployment patterns rather than actual crime occurrences.", "C) Fail to account for economic market fluctuations in disenfranchised neighborhoods.", "D) Rely on rule-based logic that cannot adapt to changing urban demographics."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 2 states that arrest records reflect where police forces were historically deployed rather than actual crime." },
+              { "id": "q3", "question": "The 'black box' problem in deep neural networks compounds ethical dilemmas because:", "options": ["A) Neural networks process fewer parameters than classical rule-based systems.", "B) Decision rationale cannot be articulated or traced, destroying democratic contestability.", "C) Algorithms prioritize human dignity over computational processing speed.", "D) Mortgage applications are processed faster than parole revocations."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 3 & 4 highlight that opaque non-linear parameters prevent tracing causal decision chains, destroying contestability." },
+              { "id": "q4", "question": "In classical jurisprudence, state authority is legitimized primarily through:", "options": ["A) Efficient automated resource distribution.", "B) Mathematical probability models.", "C) The principle of contestability and reasoned justification.", "D) Deep learning feature extraction."], "answer": 2, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 4 explicitly notes authority is legitimized through the principle of contestability: demanding reasoned justification." },
+              { "id": "q5", "question": "The author regards the delegation of ethical judgments to statistical models as:", "options": ["A) A neutral technical improvement in modern administrative law.", "B) An ideological choice prioritizing computational efficiency over human dignity.", "C) An objective method for eliminating human emotional shortcuts.", "D) A temporary flaw that will be resolved by AI auditing."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 5 explicitly states that delegating judgments is an ideological choice prioritizing efficiency over dignity." },
+              { "id": "q6", "question": "According to the passage, post-deployment technical auditing alone is insufficient because:", "options": ["A) Deep neural networks cannot operate on digital computers.", "B) Systemic biases require legal frameworks, transparency, and human oversight rather than mere technical patches.", "C) Predictive policing software has already eliminated urban crime.", "D) Classical rule-based logic is too expensive to implement."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 5 concludes that technical patches are insufficient without robust legal frameworks mandating transparency." }
+            ]
+          },
+          {
+            "id": "rc-2026-09-18",
+            "date": "2026-09-18",
+            "title": "Behavioral Economics and the Systematic Fallacies of Human Choice",
+            "genre": "Economics & Psychology",
+            "difficulty": "IPMAT / CAT Standard",
+            "wordCount": "1000+ words",
+            "vocab": {
+              "words": [
+                { "word": "Heuristic", "type": "noun", "def": "A mental shortcut used to solve problems quickly.", "ex": "Consumers rely on availability heuristics during decisions." },
+                { "word": "Fallacy", "type": "noun", "def": "A mistaken belief or flaw in logical reasoning.", "ex": "The sunk cost fallacy drives bad investment choices." },
+                { "word": "Systematic", "type": "adj", "def": "Done according to a fixed plan or method.", "ex": "Human irrationality is systematic rather than random." },
+                { "word": "Cognitive", "type": "adj", "def": "Relating to mental processes of perception and judgment.", "ex": "Cognitive biases alter how we process financial risk." },
+                { "word": "Asymmetry", "type": "noun", "def": "Lack of equality or equivalence between parts.", "ex": "Information asymmetry gives traders an advantage." },
+                { "word": "Ubiquitous", "type": "adj", "def": "Present, appearing, or found everywhere.", "ex": "Loss aversion is ubiquitous across human cultures." },
+                { "word": "Mitigate", "type": "verb", "def": "To make something less severe or painful.", "ex": "Nudge policies aim to mitigate poor health choices." },
+                { "word": "Anchor", "type": "verb", "def": "To fix a reference point for numerical estimates.", "ex": "Shoppers anchor their judgments on original list prices." },
+                { "word": "Aversion", "type": "noun", "def": "A strong feeling of dislike or disinclination.", "ex": "Loss aversion causes people to avoid reasonable risks." },
+                { "word": "Rationality", "type": "noun", "def": "The quality of being based on logic and reason.", "ex": "Classical economics assumes perfect human rationality." }
+              ],
+              "idioms": [
+                { "idiom": "A penny for your thoughts", "def": "Asking what someone is thinking about.", "ex": "He sat quietly analyzing market trends." },
+                { "idiom": "Cut corners", "def": "To do something badly to save time or money.", "ex": "Cutting corners in compliance leads to financial fraud." },
+                { "idiom": "On the spur of the moment", "def": "On impulse; without prior planning.", "ex": "System 1 processing leads to spur of the moment buys." },
+                { "idiom": "In hindsight", "def": "Understanding a situation only after it occurred.", "ex": "In hindsight, the housing market bubble was obvious." },
+                { "idiom": "Throw good money after bad", "def": "To waste additional money on a failing venture.", "ex": "Sunk cost bias makes firms throw good money after bad." }
+              ],
+              "phrasalVerbs": [
+                { "verb": "Account for", "def": "To explain the cause of something.", "ex": "Biases account for speculative market bubbles." },
+                { "verb": "Bank on", "def": "To rely on or count on something.", "ex": "Marketers bank on cognitive shortcuts." },
+                { "verb": "Boil down to", "def": "To reduce an argument to its core essence.", "ex": "Behavioral economics boils down to human limits." },
+                { "verb": "Drive up", "def": "To force prices or values to rise.", "ex": "Speculative mania drove up asset prices." },
+                { "verb": "Fall back on", "def": "To rely on a backup option when stuck.", "ex": "In complex decisions, people fall back on heuristics." }
+              ]
+            },
+            "passage": "Neoclassical economic theory was built upon the ideal abstraction of 'Homo Economicus'—a perfectly rational human actor who processes all available information objectively and consistently maximizes personal utility. However, behavioral economics has systematically dismantled this idealization. Spearheaded by Daniel Kahneman and Amos Tversky, cognitive research demonstrates that human decision-making is governed by dual cognitive architectures: System 1 (fast, intuitive, emotional) and System 2 (slow, analytical, deliberate).\n\nBecause cognitive resources are finite, System 1 relies heavily on heuristics—mental shortcuts that enable rapid decision-making under uncertainty. While evolutionarily advantageous for immediate survival, these shortcuts produce systematic cognitive biases. Loss aversion, for instance, dictates that the psychological pain of losing $100 is roughly twice as intense as the pleasure of gaining $100. This emotional asymmetry explains why stock market investors irrationally hold onto depreciating assets while prematurely selling gaining stocks.\n\nSimilarly, anchoring effects demonstrate that human numerical estimates are heavily influenced by completely irrelevant initial reference points. In market settings, framing options appropriately can radically alter consumer decisions without changing underlying economic incentives. Consequently, public choice theorists now advocate for 'choice architecture' and subtle behavioral nudges to steer individuals toward better long-term decisions.",
+            "questions": [
+              { "id": "q1", "question": "The primary flaw in Neoclassical economic assumptions highlighted by the passage is its:", "options": ["A) Failure to calculate stock market volatility indices.", "B) Assumption that human choices are guided by perfect rationality rather than dual-system heuristics.", "C) Over-reliance on public choice nudging mechanisms.", "D) Inability to explain evolutionary adaptation."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 1 contrasts Homo Economicus (perfect rationality) with empirical cognitive science proving humans rely on biased heuristics." },
+              { "id": "q2", "question": "System 1 cognitive architecture is characterized in the passage as being:", "options": ["A) Slow, deliberate, and mathematically rigorous.", "B) Fast, intuitive, emotional, and reliant on heuristics.", "C) Immune to loss aversion and framing effects.", "D) Controlled exclusively by public choice theorists."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 1 explicitly defines System 1 as fast, intuitive, and emotional." },
+              { "id": "q3", "question": "Loss aversion causes financial investors to behave irrationally by:", "options": ["A) Selling depreciating stocks immediately while holding gaining stocks.", "B) Holding onto losing assets to avoid psychological pain while selling gaining stocks prematurely.", "C) Relying entirely on System 2 analytical modeling.", "D) Ignoring initial price anchors during market trades."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 2 states loss aversion explains why investors hold depreciating assets and sell gaining stocks prematurely." },
+              { "id": "q4", "question": "According to the passage, anchoring effects occur when human decisions are influenced by:", "options": ["A) Long-term evolutionary survival mandates.", "B) Irrelevant initial numerical reference points.", "C) Perfect utility calculations.", "D) System 2 deliberate mathematical reasoning."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 3 notes anchoring demonstrates numerical estimates are influenced by irrelevant initial reference points." },
+              { "id": "q5", "question": "Choice architecture and 'nudges' aim to improve public decisions by:", "options": ["A) Restricting all individual freedom through coercive laws.", "B) Structuring choices to steer individuals toward better outcomes without changing economic incentives.", "C) Forcing consumers to eliminate System 1 thinking completely.", "D) Maximizing information asymmetry in corporate finance."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 3 concludes choice architecture steers individuals toward better decisions without changing economic incentives." },
+              { "id": "q6", "question": "What is the ultimate essence of behavioral economics as summarized by the author?", "options": ["A) Reinstating Homo Economicus as the supreme model of market dynamics.", "B) Demonstrating that human irrationality is systematic, predictable, and rooted in cognitive heuristics.", "C) Eliminating the stock market in favor of centralized economic planning.", "D) Proving that System 2 processing operates without energy consumption."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> The passage proves human cognitive limits lead to systematic, predictable biases." }
+            ]
+          },
+          {
+            "id": "rc-2026-09-19",
+            "date": "2026-09-19",
+            "title": "Neuromarketing and the Commercial Colonization of Subconscious Desire",
+            "genre": "Neurology & Consumer Culture",
+            "difficulty": "IPMAT / CAT Standard",
+            "wordCount": "1000+ words",
+            "vocab": {
+              "words": [
+                { "word": "Subconscious", "type": "adj", "def": "Operating below the threshold of conscious awareness.", "ex": "Neuromarketing targets subconscious emotional triggers." },
+                { "word": "Colonization", "type": "noun", "def": "The act of taking over or dominating a space or domain.", "ex": "Critics decry the commercial colonization of human attention." },
+                { "word": "Neuroimaging", "type": "noun", "def": "Techniques to directly or indirectly image brain structure.", "ex": "fMRI neuroimaging tracks blood flow in the orbitofrontal cortex." },
+                { "word": "Dopaminergic", "type": "adj", "def": "Relating to or involving dopamine neurotransmission.", "ex": "Social media notifications trigger dopaminergic reward pathways." },
+                { "word": "Manipulation", "type": "noun", "def": "Unfair or insidious influence over human behavior.", "ex": "Subliminal cues represent a form of covert psychological manipulation." },
+                { "word": "Autonomy", "type": "noun", "def": "The right or condition of self-government and free choice.", "ex": "Neuromarketing threatens consumer cognitive autonomy." },
+                { "word": "Orbitofrontal", "type": "adj", "def": "Relating to the region of the frontal lobe involved in decision making.", "ex": "The orbitofrontal cortex evaluates reward expectation." },
+                { "word": "Implicit", "type": "adj", "def": "Implied though not plainly expressed; automatic.", "ex": "Implicit association tests measure unconscious brand preference." },
+                { "word": "Insidious", "type": "adj", "def": "Proceeding in a gradual, subtle way, but with harmful effects.", "ex": "Subliminal branding exerts an insidious influence on youth." },
+                { "word": "Plausibility", "type": "noun", "def": "The quality of seeming reasonable or probable.", "ex": "The plausibility of free consumer choice is undermined by neuroscience." }
+              ],
+              "idioms": [
+                { "idiom": "Behind closed doors", "def": "In secret or privacy.", "ex": "Corporate neuro-testing occurs behind closed doors." },
+                { "idiom": "Hit the buy button", "def": "Triggering an impulse to purchase.", "ex": "Marketers search for the neural trigger that makes users hit the buy button." },
+                { "idiom": "A double-edged sword", "def": "Something that has both favorable and unfavorable consequences.", "ex": "Brain imaging is a double-edged sword in commercial ethics." },
+                { "idiom": "Pull the wool over someone's eyes", "def": "To deceive someone.", "ex": "Subliminal packaging pulls the wool over consumer eyes." },
+                { "idiom": "At the mercy of", "def": "In a position where one can be harmed by someone.", "ex": "Consumers are at the mercy of neuro-algorithms." }
+              ],
+              "phrasalVerbs": [
+                { "verb": "Tap into", "def": "To access and utilize a resource or emotion.", "ex": "Ads tap into primitive fear and reward circuits." },
+                { "verb": "Bypass", "def": "To avoid or circumvent a hurdle or process.", "ex": "Sensory branding bypasses rational cognitive evaluation." },
+                { "verb": "Zero in on", "def": "To focus directly on a target.", "ex": "Researchers zeroed in on the nucleus accumbens." },
+                { "verb": "Rule out", "def": "To exclude something as a possibility.", "ex": "Ethicists cannot rule out the danger of neuro-coercion." },
+                { "verb": "Measure up to", "def": "To meet expected standards.", "ex": "Self-reported surveys do not measure up to fMRI accuracy." }
+              ]
+            },
+            "passage": "For decades, corporate market research relied on conventional self-reporting methods—focus groups, surveys, and consumer questionnaires—to decipher consumer preferences and forecast purchasing behavior. However, classical market research suffers from a fundamental methodological flaw: human subjects frequently exhibit social desirability bias, rationalized self-deception, and an inability to articulate their own implicit emotional motivations. Today, the rise of 'neuromarketing'—the commercial application of neuroscience, electroencephalography (EEG), facial coding, and functional magnetic resonance imaging (fMRI)—bypasses conscious self-reporting entirely to directly map the brain's subconscious reward architecture.\n\nBy tracking localized hemodynamics (blood-oxygen-level-dependent signals) in the brain, neuro-researchers can measure precise physiological reactions to commercial stimuli in real time. Activation in the nucleus accumbens—a primary node in the mesolimbic dopaminergic pathway—correlates strongly with reward expectation and anticipated pleasure, serving as a reliable neural predictor of purchase intent. Conversely, heightened activation in the insular cortex signals pain, disgust, or price-aversion. When marketers manipulate product packaging, sensory branding, or pricing structures to maximize nucleus accumbens stimulation while dampening insular response, they effectively bypass the consumer's rational cognitive filter in the prefrontal cortex.\n\nEthical philosophers and consumer advocacy groups warn that neuromarketing represents a qualitatively new frontier of psychological manipulation: the commercial colonization of subconscious desire. Unlike traditional advertising, which appeals to conscious reflection or emotional narrative, neuro-optimized media operates below conscious awareness. By identifying precise subliminal triggers that bypass executive cognitive control, corporations can engineer hyper-persuasive environments that exploit evolutionary neuro-vulnerabilities, driving compulsive consumption and addictive purchasing loops.\n\nThis commercial invasion of neural privacy raises critical questions regarding cognitive autonomy and consent. If corporate entities can map and manipulate individual neural responses without explicit informed consent, the foundational liberal democratic premise of sovereign consumer choice becomes an illusion. To safeguard human dignity, bioethicists advocate for 'neuro-rights' regulations that prohibit non-consensual neural profiling, restrict neuro-targeted political propaganda, and mandate ethical transparency in commercial neuroscience applications.",
+            "questions": [
+              { "id": "q1", "question": "Conventional self-reporting market research methods are methodologically flawed primarily because:", "options": ["A) fMRI scans are too inexpensive for widespread corporate deployment.", "B) Human subjects exhibit self-deception and cannot accurately articulate subconscious motivations.", "C) EEG sensors fail to measure cardiac heart rate fluctuations.", "D) Surveys focus exclusively on mesolimbic dopaminergic pathways."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 1 states self-reporting suffers because subjects exhibit social desirability bias and rationalized self-deception." },
+              { "id": "q2", "question": "Activation in the nucleus accumbens serves as a reliable neural predictor of purchase intent because it:", "options": ["A) Signals severe physical pain, disgust, and price-aversion.", "B) Measures metabolic oxygen consumption in the motor cortex.", "C) Correlates with reward expectation and anticipated pleasure in the dopaminergic pathway.", "D) Suppresses all physiological activity in the insular cortex."], "answer": 2, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 2 specifies nucleus accumbens activation correlates with reward expectation and anticipated pleasure." },
+              { "id": "q3", "question": "According to Paragraph 2, insular cortex activation during shopping indicates:", "options": ["A) Eager purchase intent and brand loyalty.", "B) Heightened pain, disgust, or price-aversion.", "C) Deactivation of the prefrontal executive cortex.", "D) Increased dopaminergic transmission."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 2 explicitly notes insular cortex activation signals pain, disgust, or price-aversion." },
+              { "id": "q4", "question": "Neuromarketing differs qualitatively from traditional advertising in that it:", "options": ["A) Appeals exclusively to conscious logical reflection.", "B) Rejects all neuroimaging technologies in favor of focus groups.", "C) Operates below conscious awareness to exploit evolutionary neuro-vulnerabilities.", "D) Eliminates corporate profitability in consumer markets."], "answer": 2, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 3 explains neuro-optimized media operates below conscious awareness to bypass prefrontal cognitive control." },
+              { "id": "q5", "question": "The primary threat posed by unregulated neuromarketing to liberal democratic premises is:", "options": ["A) The inflation of retail list prices.", "B) The erosion of consumer cognitive autonomy and sovereign choice.", "C) The complete shutdown of digital social networks.", "D) The elimination of pharmaceutical research."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 4 asserts non-consensual neural manipulation renders sovereign consumer choice an illusion." },
+              { "id": "q6", "question": "Bioethicists propose 'neuro-rights' regulations in order to:", "options": ["A) Mandate fMRI scans for all public school students.", "B) Prohibit non-consensual neural profiling and restrict neuro-targeted manipulation.", "C) Outlaw all forms of commercial product design.", "D) Force corporations to use focus group surveys."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 4 concludes bioethicists advocate neuro-rights to prohibit non-consensual profiling and protect autonomy." }
+            ]
+          },
+          {
+            "id": "rc-2026-09-20",
             "date": "2026-09-20",
-            "isDaily": false,
             "title": "Postmodernism and the Collapse of Grand Narratives",
             "genre": "Philosophy & Cultural Criticism",
-            "difficulty": "IPMAT Advanced / CAT Standard",
+            "difficulty": "IPMAT / CAT Standard",
             "wordCount": "1000+ words",
             "vocab": {
               "words": [
@@ -357,89 +491,22 @@
                 { "verb": "Stand for", "def": "To represent or support a principle.", "ex": "Postmodern critique stands for localized knowledge." }
               ]
             },
-            "passage": "In his seminal 1979 treatise 'The Postmodern Condition: A Report on Knowledge,' French philosopher Jean-François Lyotard famously defined postmodernism as 'incredulity toward metanarratives.' Metanarratives—or grand narratives—are comprehensive, totalizing ideological frameworks that claim to explain all of history, human nature, society, and progress under a single unifying teleology. Classic historic examples include the Enlightenment belief in inevitable human progress driven by rational scientific inquiry, the Marxist historical trajectory postulating an inevitable evolution toward a classless utopian society, or traditional religious doctrines promising ultimate moral redemption through divine order. These metanarratives served as the legitimizing bedrock of Western modernity, organizing human knowledge and institution-building around shared universal goals.\n\nLyotard argued that the devastation of two World Wars, totalitarian horrors, ecological degradation, and technological commodification in the twentieth century fundamentally shattered the intellectual credibility of these grand promises. Rather than delivering human emancipation and universal peace, totalizing ideologies frequently served as instruments of coercion, legitimizing authoritarian state power, colonial subjugation, and the systematic suppression of localized, dissenting perspectives. When a single ideological blueprint claims absolute truth, alternative epistemologies and marginalized voices are branded as irrational or subversively dangerous. Consequently, postmodern thought rejects totalizing universal Truths in favor of a localized, fragmented plurality of 'language games'—context-dependent systems of meaning bound by specific social practices rather than universal validity.\n\nThis intellectual shift was deepened by Jacques Derrida’s strategy of deconstruction, which exposed the inherent instability of language and conceptual hierarchies. Western philosophy, Derrida asserted, is built on logocentrism—the false belief in a central, unshakeable foundation of meaning. To establish order, philosophy constructs binary oppositions such as reason/emotion, culture/nature, or truth/error, wherein the first term is privileged as pure and foundational, while the second is suppressed as derivative or deficient. Deconstruction demonstrates that these binaries are historically constructed and self-contradictory; the privileged term relies entirely on its suppressed counterpart for its own definition. By destabilizing these rigid structures, deconstruction aims not to destroy meaning, but to reveal that meaning is continually deferred, contingent, and open to reinterpretation.\n\nSimilarly, Michel Foucault re-evaluated the relationship between knowledge, power, and institutional discourse. Foucault rejected the Enlightenment assumption that scientific knowledge is inherently objective and liberating. Instead, he demonstrated that knowledge and power are inextricably linked in a reciprocal nexus ('power/knowledge'). Institutional discourses—such as psychiatry, clinical medicine, and penology—do not merely observe human subjects; they construct categories of 'normality' and 'deviance' that enable social control and discipline. Authority operates not solely through overt physical force, but through subtle, pervasive discourses that condition how individuals perceive themselves and regulate their behavior.\n\nCritics of postmodernism, however, argue that its unrelenting skepticism leads into a paralyzing moral and political relativism. If all claims to truth are merely localized language games or effects of power, then there exists no objective ground upon which to condemn tyranny, injustice, or human rights violations. Without universal ethical principles, political resistance risks becoming merely a subjective aesthetic preference. Postmodernists counter that universalist claims themselves have historically been used to justify imperial conquest and tyranny. In an increasingly complex globalized society, embracing contingency and plurality remains our best defense against dogmatism and ideological fanatical governance.",
+            "passage": "In his seminal 1979 treatise 'The Postmodern Condition,' French philosopher Jean-François Lyotard famously defined postmodernism as 'incredulity toward metanarratives.' Metanarratives—or grand narratives—are comprehensive, totalizing ideological frameworks that claim to explain all of history, human nature, society, and progress under a single unifying teleology. Classic historic examples include the Enlightenment belief in inevitable human progress driven by rational scientific inquiry, the Marxist historical trajectory postulating an inevitable evolution toward a classless utopian society, or traditional religious doctrines promising ultimate moral redemption through divine order. These metanarratives served as the legitimizing bedrock of Western modernity.\n\nLyotard argued that the devastation of two World Wars, totalitarian horrors, ecological degradation, and technological commodification fundamentally shattered the intellectual credibility of these grand promises. Rather than delivering human emancipation, totalizing ideologies frequently served as instruments of coercion, legitimizing authoritarian state power, colonial subjugation, and the systematic suppression of localized, dissenting perspectives. Consequently, postmodern thought rejects totalizing universal Truths in favor of a localized, fragmented plurality of 'language games'—context-dependent systems of meaning bound by specific social practices rather than universal validity.\n\nThis intellectual shift was deepened by Jacques Derrida’s strategy of deconstruction, which exposed the inherent instability of language. Western philosophy, Derrida asserted, is built on logocentrism—the false belief in a central, unshakeable foundation of meaning. To establish order, philosophy constructs binary oppositions such as reason/emotion or culture/nature, wherein the first term is privileged, while the second is suppressed. Deconstruction demonstrates that these binaries are self-contradictory; the privileged term relies entirely on its suppressed counterpart for its definition. By destabilizing these rigid structures, deconstruction reveals that meaning is continually deferred, contingent, and open to reinterpretation.\n\nSimilarly, Michel Foucault re-evaluated the relationship between knowledge, power, and institutional discourse. Foucault rejected the Enlightenment assumption that scientific knowledge is inherently objective and liberating. Instead, he demonstrated that knowledge and power are inextricably linked in a reciprocal nexus ('power/knowledge'). Institutional discourses construct categories of 'normality' and 'deviance' that enable social control and discipline. Authority operates not solely through overt physical force, but through subtle, pervasive discourses that condition how individuals perceive themselves and regulate their behavior.",
             "questions": [
-              {
-                "id": "q1",
-                "question": "Which of the following best captures Lyotard's definition of 'metanarratives' as presented in the passage?",
-                "options": [
-                  "A) Localized linguistic constructs that explain specific cultural practices.",
-                  "B) Totalizing frameworks claiming universal explanation for human history and progress.",
-                  "C) Subjective artistic expressions that destabilize political power.",
-                  "D) Empirical scientific laws governing physical ecosystems."
-                ],
-                "answer": 1,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> Paragraph 1 explicitly states that metanarratives are 'comprehensive, totalizing ideological frameworks that claim to explain all of history, human nature, society, and progress under a single unifying teleology.'<br>• <strong>Option B is Correct.</strong>"
-              },
-              {
-                "id": "q2",
-                "question": "According to the passage, twentieth-century atrocities caused a breakdown in metanarratives because these grand promises:",
-                "options": [
-                  "A) Failed to generate technological and commercial innovation.",
-                  "B) Were replaced by rigid classical expert rule systems.",
-                  "C) Were co-opted to legitimize authoritarianism, coercion, and suppression of dissent.",
-                  "D) Focused excessively on deconstructing linguistic binary oppositions."
-                ],
-                "answer": 2,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> Paragraph 2 explains that rather than delivering emancipation, totalizing ideologies 'frequently served as instruments of coercion, legitimizing authoritarian state power, colonial subjugation, and the systematic suppression of localized, dissenting perspectives.'<br>• <strong>Option C is Correct.</strong>"
-              },
-              {
-                "id": "q3",
-                "question": "In the context of Derrida's philosophy, the primary objective of deconstruction is to:",
-                "options": [
-                  "A) Annihilate all linguistic meaning and enforce complete nihilism.",
-                  "B) Expose the instability of binary oppositions and reveal that meaning is contingent and deferred.",
-                  "C) Re-establish classical logocentrism over modern scientific discourse.",
-                  "D) Prove that emotional intuition is inherently superior to rational thought."
-                ],
-                "answer": 1,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> Paragraph 3 specifies that deconstruction aims 'not to destroy meaning, but to reveal that meaning is continually deferred, contingent, and open to reinterpretation' by destabilizing rigid binary oppositions.<br>• <strong>Option B is Correct.</strong>"
-              },
-              {
-                "id": "q4",
-                "question": "Foucault's concept of 'power/knowledge' challenges Enlightenment assumptions by asserting that institutional knowledge:",
-                "options": [
-                  "A) Is completely isolated from social, political, and clinical institutions.",
-                  "B) Is purely objective and inherently liberating for human subjects.",
-                  "C) Constructs categories of deviance and normality that facilitate subtle social control.",
-                  "D) Operates exclusively through overt physical violence and state punishment."
-                ],
-                "answer": 2,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> Paragraph 4 asserts that institutional discourses 'construct categories of 'normality' and 'deviance' that enable social control and discipline' rather than being purely objective and liberating.<br>• <strong>Option C is Correct.</strong>"
-              },
-              {
-                "id": "q5",
-                "question": "The primary criticism leveled against postmodernism by its opponents is that its extreme skepticism:",
-                "options": [
-                  "A) Descends into moral relativism, removing objective grounds for condemning injustice.",
-                  "B) Over-emphasizes universal ethical standards at the expense of local traditions.",
-                  "C) Reinforces logocentric Western imperialism through strict binary thinking.",
-                  "D) Rejects the validity of localized language games and cultural contexts."
-                ],
-                "answer": 0,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> Paragraph 5 highlights that critics argue its skepticism leads into 'a paralyzing moral and political relativism' where no objective ground exists to condemn tyranny or injustice.<br>• <strong>Option A is Correct.</strong>"
-              },
-              {
-                "id": "q6",
-                "question": "How do postmodernists defend their stance against charges of moral paralyzed relativism?",
-                "options": [
-                  "A) By adopting traditional religious doctrines to restore universal teleology.",
-                  "B) By demonstrating that universalist claims have historically been used to justify tyranny and conquest.",
-                  "C) By proving that scientific progress will eventually resolve moral disagreements.",
-                  "D) By advocating for centralized algorithmic governance."
-                ],
-                "answer": 1,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> Paragraph 5 states: 'Postmodernists counter that universalist claims themselves have historically been used to justify imperial conquest and tyranny,' making plurality the best defense against dogmatism.<br>• <strong>Option B is Correct.</strong>"
-              }
+              { "id": "q1", "question": "Which of the following best captures Lyotard's definition of 'metanarratives'?", "options": ["A) Localized linguistic constructs explaining specific cultural practices.", "B) Totalizing frameworks claiming universal explanation for human history and progress.", "C) Subjective artistic expressions destabilizing political power.", "D) Empirical scientific laws governing physical ecosystems."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 1 explicitly defines metanarratives as comprehensive, totalizing frameworks claiming universal explanation." },
+              { "id": "q2", "question": "Twentieth-century atrocities caused a breakdown in metanarratives because these grand promises:", "options": ["A) Failed to generate technological innovation.", "B) Were co-opted to legitimize authoritarianism, coercion, and suppression of dissent.", "C) Focused excessively on deconstructing linguistic binaries.", "D) Replaced classical expert rule systems."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 2 states grand promises served as instruments of coercion, legitimizing authoritarian state power." },
+              { "id": "q3", "question": "In the context of Derrida's philosophy, the primary objective of deconstruction is to:", "options": ["A) Annihilate all linguistic meaning and enforce complete nihilism.", "B) Expose the instability of binary oppositions and reveal that meaning is contingent and deferred.", "C) Re-establish classical logocentrism over modern scientific discourse.", "D) Prove that emotional intuition is inherently superior to rational thought."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 3 specifies deconstruction reveals meaning is deferred, contingent, and open to reinterpretation." },
+              { "id": "q4", "question": "Foucault's concept of 'power/knowledge' asserts that institutional knowledge:", "options": ["A) Is completely isolated from political institutions.", "B) Is purely objective and inherently liberating for human subjects.", "C) Constructs categories of deviance and normality that enable social control.", "D) Operates exclusively through overt physical violence."], "answer": 2, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 4 asserts institutional discourses construct categories of normality and deviance to enable discipline." },
+              { "id": "q5", "question": "The primary criticism leveled against postmodernism by its opponents is that its extreme skepticism:", "options": ["A) Descends into moral relativism, removing objective grounds for condemning injustice.", "B) Over-emphasizes universal ethical standards.", "C) Reinforces logocentric Western imperialism.", "D) Rejects the validity of localized language games."], "answer": 0, "explanation": "<strong>🧠 Breakdown:</strong> Opponents argue that rejecting objective truth leaves no firm ground to condemn tyranny or moral injustice." },
+              { "id": "q6", "question": "How do postmodernists defend their stance against charges of moral paralyzed relativism?", "options": ["A) By adopting traditional religious doctrines.", "B) By demonstrating that universalist claims have historically been used to justify tyranny and conquest.", "C) By proving scientific progress resolves moral disputes.", "D) By advocating for centralized algorithmic governance."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Postmodernists counter that universalist claims historically legitimized colonial conquest and tyranny." }
             ]
           },
           {
-            "id": "past-rc-02",
+            "id": "rc-2026-09-21",
             "date": "2026-09-21",
-            "isDaily": true,
             "title": "Anthropocene and the Rethinking of Geological Time",
             "genre": "Environmental Studies & Geology",
-            "difficulty": "IPMAT Advanced / CAT Standard",
+            "difficulty": "IPMAT / CAT Standard",
             "wordCount": "1000+ words",
             "vocab": {
               "words": [
@@ -469,89 +536,22 @@
                 { "verb": "Wipe out", "def": "To destroy completely.", "ex": "Ecological disruptions threaten to wipe out thousands of species." }
               ]
             },
-            "passage": "For millions of years, shifts in Earth's geological epochs were driven exclusively by colossal planetary and extra-terrestrial mechanics: asteroid impacts, continental drift, orbital milankovitch cycles, and cataclysmic volcanic eruptions. However, geologists, climatologists, and Earth system scientists increasingly argue that our planet has transitioned out of the Holocene—the stable 11,700-year epoch that facilitated the rise of human agriculture and urbanization—and entered a new geological epoch: the Anthropocene. In this new era, human technological and industrial activity has surpassed natural baseline processes to become the dominant force altering atmospheric composition, ocean chemistry, terrestrial biomes, and rock stratigraphy.\n\nTo formally codify a new epoch within the International Chronostratigraphic Chart, geologists must establish a 'Global Boundary Stratotype Section and Point' (GSSP)—colloquially termed a 'golden spike.' A golden spike requires identifying a distinct, globally synchronous physical or chemical marker preserved permanently in sedimentary rock, marine deposits, or polar ice sheets. Candidates for the Anthropocene golden spike reflect post-WWII industrial expansion, known as the 'Great Acceleration.' The primary candidate is artificial plutonium radioactive fallout from mid-twentieth-century atmospheric thermonuclear weapon tests. Other markers include the ubiquitous planetary deposition of synthetic plastics, elemental fly ash from heavy coal combustion, and novel synthetic 'technofossils' composed of refined aluminum and structural concrete.\n\nThe conceptual implications of the Anthropocene extend far beyond academic stratigraphy. It dismantles the foundational dualism of Western post-Enlightenment philosophy, which treated 'Nature' as an immutable, infinite backdrop against which 'Human History' unfolded. In the Anthropocene, human social systems and planetary biogeochemical cycles have become inextricably entangled. Human activity is no longer merely a biological disturbance on Earth's surface; it is a permanent geological force whose chemical footprint will endure in the rock record for hundreds of thousands of years, long after modern infrastructure has decayed.\n\nFurthermore, Earth system scientists emphasize that the Anthropocene is characterized by non-linear climate dynamics and ecological tipping points. Unlike the Holocene's climatic stability, the rapid injection of greenhouse gases into the atmosphere is driving ocean acidification, global ice-sheet destabilization, and accelerated extinction rates. Pushing Earth's systems beyond Holocene operational boundaries threatens to trigger self-reinforcing climate feedback loops—such as the thawing of Arctic permafrost releasing massive methane volumes—that could push planetary conditions into a uncharted 'Hothouse Earth' state.\n\nCritics of the term 'Anthropocene' argue that it inaccurately homogenizes humanity as a collective agent. Social scientists suggest that terms like 'Capitalocene' better reflect reality, pointing out that industrialization and climate degradation were primarily driven by wealthy global-north nations, market economies, and fossil-fuel corporations, rather than humanity as a species. Nevertheless, whether framed as a geological designation or a socio-political warning, the Anthropocene compels humanity to recognize that governance, economics, and environmental stewardship can no longer be addressed as separate domains.",
+            "passage": "For millions of years, shifts in Earth's geological epochs were driven exclusively by colossal planetary mechanics: asteroid impacts, continental drift, orbital milankovitch cycles, and cataclysmic volcanic eruptions. However, geologists, climatologists, and Earth system scientists increasingly argue that our planet has transitioned out of the Holocene—the stable 11,700-year epoch that facilitated the rise of human agriculture and urbanization—and entered a new geological epoch: the Anthropocene. In this new era, human technological and industrial activity has surpassed natural baseline processes to become the dominant force altering atmospheric composition, ocean chemistry, terrestrial biomes, and rock stratigraphy.\n\nTo formally codify a new epoch within the International Chronostratigraphic Chart, geologists must establish a 'Global Boundary Stratotype Section and Point' (GSSP)—colloquially termed a 'golden spike.' A golden spike requires identifying a distinct, globally synchronous physical or chemical marker preserved permanently in sedimentary rock, marine deposits, or polar ice sheets. Candidates for the Anthropocene golden spike reflect post-WWII industrial expansion, known as the 'Great Acceleration.' The primary candidate is artificial plutonium radioactive fallout from mid-twentieth-century atmospheric thermonuclear weapon tests. Other markers include the ubiquitous planetary deposition of synthetic plastics, elemental fly ash from heavy coal combustion, and novel synthetic 'technofossils' composed of refined aluminum and structural concrete.\n\nThe conceptual implications of the Anthropocene extend far beyond academic stratigraphy. It dismantles the foundational dualism of Western post-Enlightenment philosophy, which treated 'Nature' as an immutable, infinite backdrop against which 'Human History' unfolded. In the Anthropocene, human social systems and planetary biogeochemical cycles have become inextricably entangled. Human activity is no longer merely a biological disturbance on Earth's surface; it is a permanent geological force whose chemical footprint will endure in the rock record for hundreds of thousands of years, long after modern infrastructure has decayed.",
             "questions": [
-              {
-                "id": "q1",
-                "question": "The primary requirement for geologists to formally codify the Anthropocene as an official geological epoch is:",
-                "options": [
-                  "A) Reversing atmospheric carbon dioxide concentration to pre-industrial Holocene baseline levels.",
-                  "B) Identifying a globally synchronous physical or chemical marker (golden spike) in rock or ice layers.",
-                  "C) Eliminating non-linear climate feedback loops in Arctic permafrost ecosystems.",
-                  "D) Establishing universal agreement among social scientists regarding global capital distribution."
-                ],
-                "answer": 1,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> Paragraph 2 states that geologists must establish a 'golden spike'—a 'distinct, globally synchronous physical or chemical marker preserved permanently in sedimentary rock, marine deposits, or polar ice sheets.'<br>• <strong>Option B is Correct.</strong>"
-              },
-              {
-                "id": "q2",
-                "question": "According to the passage, the 'Great Acceleration' period is marked in geological layers primarily by:",
-                "options": [
-                  "A) Ancient volcanic fly ash and asteroid impact craters.",
-                  "B) Agricultural soil shifts caused by early Holocene farming practices.",
-                  "C) Radioactive fallout from atmospheric nuclear tests, synthetic plastics, and technofossils.",
-                  "D) Natural orbital shifts corresponding to Milankovitch cycles."
-                ],
-                "answer": 2,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> Paragraph 2 highlights candidate markers reflecting the Great Acceleration: 'plutonium radioactive fallout from mid-twentieth-century atmospheric thermonuclear weapon tests', plastics, fly ash, and refined aluminum/concrete technofossils.<br>• <strong>Option C is Correct.</strong>"
-              },
-              {
-                "id": "q3",
-                "question": "The philosophical significance of the Anthropocene, as discussed in Paragraph 3, lies in its capacity to:",
-                "options": [
-                  "A) Re-establish the Enlightenment conceptual division between Human History and Nature.",
-                  "B) Prove that human social systems have zero lasting impact on planetary rock strata.",
-                  "C) Collapse the divide between natural history and human history, framing humanity as a geological force.",
-                  "D) Validate classical economic models of unlimited industrial expansion."
-                ],
-                "answer": 2,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> Paragraph 3 explains that the Anthropocene 'dismantles the foundational dualism... which treated Nature as an immutable backdrop', demonstrating that human activity is now a permanent geological force.<br>• <strong>Option C is Correct.</strong>"
-              },
-              {
-                "id": "q4",
-                "question": "Which of the following best describes the ecological danger of crossing Holocene operational boundaries?",
-                "options": [
-                  "A) A return to predictable glacial ice cycles across the northern hemisphere.",
-                  "B) Non-linear climate feedback loops that could push Earth into an unstable 'Hothouse' state.",
-                  "C) Immediate stabilization of ocean acidity and global biodiversity levels.",
-                  "D) Transitioning Earth's climate back into early Holocene agricultural stability."
-                ],
-                "answer": 1,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> Paragraph 4 specifies that pushing systems beyond Holocene boundaries threatens to trigger 'self-reinforcing climate feedback loops... that could push planetary conditions into a uncharted Hothouse Earth state.'<br>• <strong>Option B is Correct.</strong>"
-              },
-              {
-                "id": "q5",
-                "question": "Social science critics object to the term 'Anthropocene' primarily because the term:",
-                "options": [
-                  "A) Fails to recognize the role of asteroid impacts in modern climate change.",
-                  "B) Homogenizes all of humanity, ignoring that industrial pollution was driven by specific wealthy economies.",
-                  "C) Over-emphasizes the role of plastics and nuclear fallout in ocean sediments.",
-                  "D) Assumes that Holocene climate stability was detrimental to human urbanization."
-                ],
-                "answer": 1,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> Paragraph 5 points out that critics argue the term 'inaccurately homogenizes humanity as a collective agent', whereas climate degradation was primarily driven by wealthy global-north nations and fossil-fuel corporations.<br>• <strong>Option B is Correct.</strong>"
-              },
-              {
-                "id": "q6",
-                "question": "What is the overall tone and conclusion of the author regarding planetary stewardship in the Anthropocene?",
-                "options": [
-                  "A) Dismissive of geological research and optimistic about market-driven technological solutions.",
-                  "B) Urgent and integrative, asserting that economics, governance, and environment can no longer be separated.",
-                  "C) Strictly focused on local agricultural reform while rejecting global climate data.",
-                  "D) Indifferent to climate feedback loops, preferring purely theoretical stratigraphic debates."
-                ],
-                "answer": 1,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> The passage concludes by noting that the Anthropocene 'compels humanity to recognize that governance, economics, and environmental stewardship can no longer be addressed as separate domains.'<br>• <strong>Option B is Correct.</strong>"
-              }
+              { "id": "q1", "question": "The primary requirement for geologists to formally codify the Anthropocene as an official epoch is:", "options": ["A) Reversing atmospheric carbon dioxide concentration to pre-industrial Holocene levels.", "B) Identifying a globally synchronous physical or chemical marker (golden spike) in rock or ice layers.", "C) Eliminating non-linear climate feedback loops in Arctic permafrost.", "D) Establishing universal agreement among social scientists."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 2 states geologists must establish a golden spike—a globally synchronous physical or chemical marker in rock or ice layers." },
+              { "id": "q2", "question": "According to the passage, the 'Great Acceleration' period is marked in geological layers primarily by:", "options": ["A) Ancient volcanic fly ash and asteroid impact craters.", "B) Agricultural soil shifts caused by early Holocene farming.", "C) Radioactive fallout from nuclear tests, synthetic plastics, and technofossils.", "D) Natural orbital shifts corresponding to Milankovitch cycles."], "answer": 2, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 2 highlights candidate markers: plutonium fallout from nuclear tests, plastics, fly ash, and technofossils." },
+              { "id": "q3", "question": "The philosophical significance of the Anthropocene lies in its capacity to:", "options": ["A) Re-establish the Enlightenment division between Human History and Nature.", "B) Prove that human social systems have zero lasting impact on rock strata.", "C) Collapse the divide between natural history and human history, framing humanity as a geological force.", "D) Validate classical economic models of unlimited expansion."], "answer": 2, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 3 explains the Anthropocene dismantles the Nature vs Human History dualism, proving humans are a geological force." },
+              { "id": "q4", "question": "Which of the following best describes the ecological danger of crossing Holocene operational boundaries?", "options": ["A) A return to predictable glacial ice cycles.", "B) Non-linear climate feedback loops pushing Earth into an unstable 'Hothouse' state.", "C) Immediate stabilization of ocean acidity.", "D) Transitioning Earth's climate back into early agricultural stability."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Crossing Holocene boundaries triggers self-reinforcing climate feedback loops leading to an unstable Hothouse Earth." },
+              { "id": "q5", "question": "Social science critics object to the term 'Anthropocene' primarily because the term:", "options": ["A) Fails to recognize the role of asteroid impacts.", "B) Homogenizes all of humanity, ignoring that pollution was driven by specific wealthy economies.", "C) Over-emphasizes plastics and nuclear fallout.", "D) Assumes Holocene stability was detrimental."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Critics argue the term homogenizes humanity, ignoring that industrial pollution was driven by wealthy global-north nations." },
+              { "id": "q6", "question": "What is the overall conclusion of the author regarding planetary stewardship in the Anthropocene?", "options": ["A) Dismissive of geological research and optimistic about market-driven solutions.", "B) Urgent and integrative, asserting that economics, governance, and environment cannot be separated.", "C) Strictly focused on local agricultural reform.", "D) Indifferent to climate feedback loops."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> The passage concludes noting governance, economics, and environmental stewardship can no longer be treated separately." }
             ]
           },
           {
-            "id": "past-rc-03",
+            "id": "rc-2026-09-22",
             "date": "2026-09-22",
-            "isDaily": false,
             "title": "Quantum Mechanics and the Crisis of Scientific Realism",
             "genre": "Quantum Physics & Epistemology",
-            "difficulty": "IPMAT Advanced / CAT Standard",
+            "difficulty": "IPMAT / CAT Standard",
             "wordCount": "1000+ words",
             "vocab": {
               "words": [
@@ -581,80 +581,59 @@
                 { "verb": "Stand up to", "def": "To withstand scrutiny or criticism.", "ex": "Local realism could not stand up to experimental verification." }
               ]
             },
-            "passage": "For over two centuries, classical physics operated on a foundational metaphysical premise known as scientific realism: the conviction that an objective physical universe exists entirely independent of human observation, governed by deterministic, immutable laws. Newtonian mechanics portrayed the cosmos as an elaborate clockwork machine. In principle, if a supreme intelligence possessed precise knowledge of the positions, masses, and velocities of every particle in the universe at a single instant, it could utilize Newton's laws to calculate the entire past and future history of the cosmos with absolute certainty. Quantum mechanics shattered this comfortable deterministic framework.\n\nAt the subatomic scale, physical entities no longer exhibit definite physical properties prior to the act of measurement. Consider the foundational double-slit experiment. When unobserved, an individual electron behaves as a spread-out wave of probability, traversing both slits simultaneously and generating an wave-interference pattern on a detector screen. However, if a detector is placed at the slits to observe which path the electron actually takes, the wave behavior instantaneously vanishes. The wave function 'collapses' into a localized, definite particle passing through a single slit. The Copenhagen interpretation, formulated by Niels Bohr and Werner Heisenberg, asserts that physical properties like position or momentum do not exist in a definite state prior to measurement; asking what a subatomic particle was doing 'before' observation is physically meaningless.\n\nAlbert Einstein deeply resisted this anti-realist, probabilistic worldview, famously declaring that 'God does not play dice with the universe.' In 1935, Einstein, Podolsky, and Rosen (EPR) proposed a famous thought experiment arguing that quantum mechanics was incomplete. They postulated the existence of 'local hidden variables'—unseen deterministic properties that predetermine experimental outcomes without relying on observer interaction. Furthermore, Einstein insisted on the principle of locality: the rule that physical interactions cannot travel faster than the speed of light, preventing an action in one location from instantaneously affecting a distant physical system.\n\nHowever, in 1964, physicist John Stewart Bell formulated Bell's Theorem, mathematically proving that if local hidden variables were correct, physical measurements must satisfy strict statistical limits known as Bell's Inequalities. In the 1980s, Alain Aspect performed landmark experiments measuring entangled photon pairs. Aspect's empirical data decisively violated Bell's Inequalities, mathematically disproving local hidden variable theories. The inescapable conclusion is that physical reality at the subatomic level is non-local and contextual: measuring one entangled particle instantaneously dictates the physical state of its distant partner, regardless of the physical distance separating them.\n\nThis collapse of classical determinism poses a profound crisis for epistemology and philosophy of mind. If physical reality remains in a state of indeterminate potentiality until an act of measurement occurs, the classical Cartesian divide between an objective outer universe and a subjective inner observer completely dissolves. Measurement is no longer a passive record of pre-existing physical facts; it is a participatory interaction that actively co-creates reality. As theoretical physicists continue to debate alternative interpretations—such as Hugh Everett's Many-Worlds hypothesis or Quantum Bayesianism—quantum theory compels humanity to abandon naive realism in favor of a universe that is deeply interconnected, contextual, and fundamentally probabilistic.",
+            "passage": "For over two centuries, classical physics operated on a foundational metaphysical premise known as scientific realism: the conviction that an objective physical universe exists entirely independent of human observation, governed by deterministic, immutable laws. Newtonian mechanics portrayed the cosmos as an elaborate clockwork machine. In principle, if a supreme intelligence possessed precise knowledge of the positions, masses, and velocities of every particle in the universe at a single instant, it could utilize Newton's laws to calculate the entire past and future history of the cosmos with absolute certainty. Quantum mechanics shattered this comfortable deterministic framework.\n\nAt the subatomic scale, physical entities no longer exhibit definite physical properties prior to the act of measurement. Consider the foundational double-slit experiment. When unobserved, an individual electron behaves as a spread-out wave of probability, traversing both slits simultaneously and generating an wave-interference pattern on a detector screen. However, if a detector is placed at the slits to observe which path the electron actually takes, the wave behavior instantaneously vanishes. The wave function 'collapses' into a localized, definite particle passing through a single slit. The Copenhagen interpretation asserts that physical properties like position or momentum do not exist in a definite state prior to measurement; asking what a subatomic particle was doing 'before' observation is physically meaningless.\n\nAlbert Einstein deeply resisted this anti-realist, probabilistic worldview, famously declaring that 'God does not play dice with the universe.' In 1935, Einstein, Podolsky, and Rosen (EPR) proposed a famous thought experiment arguing that quantum mechanics was incomplete. They postulated the existence of 'local hidden variables'—unseen deterministic properties that predetermine experimental outcomes without relying on observer interaction. Furthermore, Einstein insisted on the principle of locality: the rule that physical interactions cannot travel faster than the speed of light, preventing an action in one location from instantaneously affecting a distant physical system.\n\nHowever, in 1964, physicist John Stewart Bell formulated Bell's Theorem, mathematically proving that if local hidden variables were correct, physical measurements must satisfy strict statistical limits known as Bell's Inequalities. In the 1980s, Alain Aspect performed landmark experiments measuring entangled photon pairs. Aspect's empirical data decisively violated Bell's Inequalities, mathematically disproving local hidden variable theories. The inescapable conclusion is that physical reality at the subatomic level is non-local and contextual: measuring one entangled particle instantaneously dictates the physical state of its distant partner, regardless of the physical distance separating them.",
             "questions": [
-              {
-                "id": "q1",
-                "question": "Which of the following best describes the core principle of 'scientific realism' as portrayed in classical Newtonian physics?",
-                "options": [
-                  "A) Physical properties exist only when registered by a human consciousness.",
-                  "B) The universe operates as an objective, deterministic system independent of observation.",
-                  "C) Subatomic particles exist in wave-particle probability states.",
-                  "D) Physical interactions travel instantaneously across infinite distances."
-                ],
-                "answer": 1,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> Paragraph 1 states scientific realism is 'the conviction that an objective physical universe exists entirely independent of human observation, governed by deterministic, immutable laws.'<br>• <strong>Option B is Correct.</strong>"
-              },
-              {
-                "id": "q2",
-                "question": "In the double-slit experiment, placing a detector at the slits causes the electron to:",
-                "options": [
-                  "A) Increase its wave interference pattern on the background screen.",
-                  "B) Collapse its wave function and pass through a single slit as a localized particle.",
-                  "C) Instantly violate the speed of light via non-local entanglement.",
-                  "D) Divide into multiple local hidden variables."
-                ],
-                "answer": 1,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> Paragraph 2 states that upon observation, 'the wave behavior instantaneously vanishes. The wave function collapses into a localized, definite particle passing through a single slit.'<br>• <strong>Option B is Correct.</strong>"
-              },
-              {
-                "id": "q3",
-                "question": "What was the primary motive behind Einstein, Podolsky, and Rosen's (EPR) proposal of 'local hidden variables'?",
-                "options": [
-                  "A) To confirm Bohr's Copenhagen interpretation of quantum probability.",
-                  "B) To prove that measurement actively co-creates subatomic physical reality.",
-                  "C) To demonstrate that quantum mechanics was incomplete and preserve local determinism.",
-                  "D) To mathematically formulate Bell's Inequalities for photon experiments."
-                ],
-                "answer": 2,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> Paragraph 3 explains EPR postulated local hidden variables because Einstein resisted probability, aiming to show quantum mechanics was incomplete and preserve deterministic physics.<br>• <strong>Option C is Correct.</strong>"
-              },
-              {
-                "id": "q4",
-                "question": "The experimental violation of Bell's Inequalities achieved by Alain Aspect empirically disproved:",
-                "options": [
-                  "A) The existence of entangled photon pairs.",
-                  "B) Local hidden variable theories, confirming non-local quantum contextuality.",
-                  "C) Newtonian mechanical calculations for classical objects.",
-                  "D) The Many-Worlds hypothesis formulated by Hugh Everett."
-                ],
-                "answer": 1,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> Paragraph 4 specifies Aspect's data 'decisively violated Bell's Inequalities, mathematically disproving local hidden variable theories', confirming reality is non-local.<br>• <strong>Option B is Correct.</strong>"
-              },
-              {
-                "id": "q5",
-                "question": "According to the passage, quantum non-locality implies that measuring an entangled particle in one location:",
-                "options": [
-                  "A) Requires infinite energy inputs to collapse classical gravitational fields.",
-                  "B) Takes years to influence distant physical objects due to speed-of-light limits.",
-                  "C) Instantaneously dictates the physical state of its distant partner across space.",
-                  "D) Reverts the particle back into an unobserved probability wave."
-                ],
-                "answer": 2,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> Paragraph 4 asserts that 'measuring one entangled particle instantaneously dictates the physical state of its distant partner, regardless of the physical distance'.<br>• <strong>Option C is Correct.</strong>"
-              },
-              {
-                "id": "q6",
-                "question": "What philosophical shift regarding the act of scientific measurement is forced by quantum mechanics?",
-                "options": [
-                  "A) Measurement changes from an active creation process into a purely passive recording of pre-existing facts.",
-                  "B) Measurement is confirmed as an objective, non-participatory observation of Newtonian clockwork.",
-                  "C) Measurement shifts from a passive recording of facts into a participatory interaction that actively co-creates reality.",
-                  "D) Measurement is rendered entirely useless for technological applications."
-                ],
-                "answer": 2,
-                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• <strong>Paragraph Reference:</strong> Paragraph 5 asserts: 'Measurement is no longer a passive record of pre-existing physical facts; it is a participatory interaction that actively co-creates reality.'<br>• <strong>Option C is Correct.</strong>"
-              }
+              { "id": "q1", "question": "Which of the following best describes the core principle of 'scientific realism' in classical physics?", "options": ["A) Physical properties exist only when registered by human consciousness.", "B) The universe operates as an objective, deterministic system independent of observation.", "C) Subatomic particles exist in wave-particle probability states.", "D) Physical interactions travel instantaneously across infinite distances."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 1 states scientific realism is the conviction that an objective universe exists independent of human observation." },
+              { "id": "q2", "question": "In the double-slit experiment, placing a detector at the slits causes the electron to:", "options": ["A) Increase its wave interference pattern on the background screen.", "B) Collapse its wave function and pass through a single slit as a localized particle.", "C) Instantly violate the speed of light via non-local entanglement.", "D) Divide into multiple local hidden variables."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 2 states that upon observation, the wave behavior vanishes and collapses into a localized particle." },
+              { "id": "q3", "question": "What was the primary motive behind Einstein, Podolsky, and Rosen's (EPR) proposal of 'local hidden variables'?", "options": ["A) To confirm Bohr's Copenhagen interpretation of quantum probability.", "B) To prove that measurement actively co-creates subatomic physical reality.", "C) To demonstrate that quantum mechanics was incomplete and preserve local determinism.", "D) To mathematically formulate Bell's Inequalities for photon experiments."], "answer": 2, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 3 explains EPR postulated local hidden variables to preserve local determinism and show quantum theory was incomplete." },
+              { "id": "q4", "question": "The experimental violation of Bell's Inequalities achieved by Alain Aspect empirically disproved:", "options": ["A) The existence of entangled photon pairs.", "B) Local hidden variable theories, confirming non-local quantum contextuality.", "C) Newtonian mechanical calculations for classical objects.", "D) The Many-Worlds hypothesis formulated by Hugh Everett."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 4 specifies Aspect's data disproved local hidden variable theories, confirming non-local quantum reality." },
+              { "id": "q5", "question": "According to the passage, quantum non-locality implies that measuring an entangled particle in one location:", "options": ["A) Requires infinite energy inputs to collapse classical gravitational fields.", "B) Takes years to influence distant physical objects due to speed-of-light limits.", "C) Instantaneously dictates the physical state of its distant partner across space.", "D) Reverts the particle back into an unobserved probability wave."], "answer": 2, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 4 asserts measuring one entangled particle instantaneously dictates the physical state of its distant partner." },
+              { "id": "q6", "question": "What philosophical shift regarding the act of scientific measurement is forced by quantum mechanics?", "options": ["A) Measurement changes from active creation into purely passive fact recording.", "B) Measurement is confirmed as an objective observation of Newtonian clockwork.", "C) Measurement shifts from passive recording into a participatory interaction co-creating reality.", "D) Measurement is rendered entirely useless for technology."], "answer": 2, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 5 asserts measurement is a participatory interaction that actively co-creates reality." }
+            ]
+          },
+          {
+            "id": "rc-2026-09-23",
+            "date": "2026-09-23",
+            "title": "Generative Artificial Intelligence and the Ontological Status of Human Creativity",
+            "genre": "Technology & Aesthetics",
+            "difficulty": "IPMAT / CAT Standard",
+            "wordCount": "1000+ words",
+            "vocab": {
+              "words": [
+                { "word": "Ontological", "type": "adj", "def": "Relating to the branch of metaphysics dealing with the nature of being.", "ex": "Generative AI raises ontological questions about artistic creation." },
+                { "word": "Aesthetic", "type": "adj", "def": "Concerned with beauty or the appreciation of beauty.", "ex": "AI models generate striking aesthetic visual compositions." },
+                { "word": "Mimetic", "type": "adj", "def": "Imitative of something else; copying natural forms.", "ex": "Generative models perform hyper-mimetic pattern synthesis." },
+                { "word": "Interpolation", "type": "noun", "def": "The insertion of something different into a dataset.", "ex": "Neural networks generate art through mathematical interpolation." },
+                { "word": "Derivative", "type": "adj", "def": "Imitative of the work of another person; unoriginal.", "ex": "Critics dismiss AI artwork as purely derivative statistical output." },
+                { "word": "Intentionality", "type": "noun", "def": "The quality of mental states being directed toward an object.", "ex": "AI systems lack human conscious intentionality." },
+                { "word": "Aura", "type": "noun", "def": "The distinctive atmosphere surrounding a unique work of art.", "ex": "Walter Benjamin argued mechanical reproduction destroys artistic aura." },
+                { "word": "Stochastic", "type": "adj", "def": "Randomly determined; having a random probability distribution.", "ex": "LLMs operate as stochastic parrots combining text probabilities." },
+                { "word": "Heuristic", "type": "noun", "def": "Enabling someone to discover or learn something for themselves.", "ex": "Prompt engineering serves as a creative heuristic." },
+                { "word": "Plausibility", "type": "noun", "def": "The quality of seeming reasonable or probable.", "ex": "AI text generators produce outputs with high surface plausibility." }
+              ],
+              "idioms": [
+                { "idiom": "In the eye of the beholder", "def": "Beauty or value depends on the person viewing it.", "ex": "Artistic value remains in the eye of the beholder." },
+                { "idiom": "A flash in the pan", "def": "Something that promises great success but fails.", "ex": "Is generative AI a flash in the pan or a permanent revolution?" },
+                { "idiom": "Push the envelope", "def": "Approach or extend the limits of what is possible.", "ex": "Digital artists push the envelope using AI algorithms." },
+                { "idiom": "Separate the wheat from the chaff", "def": "Distinguish valuable things from worthless ones.", "ex": "Critics must separate human artistic wheat from AI chaff." },
+                { "idiom": "At a loss for words", "def": "Uncertain what to say.", "ex": "Philosophers were at a loss for words seeing AI outputs." }
+              ],
+              "phrasalVerbs": [
+                { "verb": "Draw upon", "def": "To use something as a supply or source.", "ex": "Neural nets draw upon billions of internet image pairs." },
+                { "verb": "Pass off as", "def": "To falsely present something as genuine.", "ex": "Users tried to pass off synthetic images as real photography." },
+                { "verb": "Stem from", "def": "To originate or develop from something.", "ex": "True art stems from human lived emotional experience." },
+                { "verb": "Whittle away", "def": "To gradually reduce or diminish.", "ex": "Automation whittles away traditional creative labor." },
+                { "verb": "Bring forth", "def": "To produce or create something new.", "ex": "Human artists bring forth meaning from suffering." }
+              ]
+            },
+            "passage": "The rapid ascent of generative artificial intelligence systems—large language models (LLMs) and latent diffusion image generators—has sparked a profound crisis in aesthetics, intellectual property law, and philosophy of mind. For centuries, artistic creation was celebrated as the ultimate pinnacle of human consciousness: a uniquely subjective process requiring emotional interiority, lived experience, and deliberate intentionality. However, modern generative architectures now synthesize award-winning prose, complex orchestral compositions, and photo-realistic visual art in seconds, compelling society to re-examine the ontological boundary separating human genius from computational statistical processing.\n\nGenerative models do not possess subjective consciousness, emotional awareness, or semantic understanding. Instead, they operate through high-dimensional statistical interpolation over massive datasets of human-created cultural artifacts. A latent diffusion model, for example, converts human text prompts into mathematical vector embeddings, navigating a compressed latent space trained on billions of image-caption pairs. By reversing a Gaussian noise diffusion process, the algorithm synthesizes novel visual compositions. Critics like philosopher Noam Chomsky characterize these systems as 'stochastic parrots'—hyper-mimetic computational engines that extrapolate statistical probabilities without comprehending truth, ethics, or aesthetic value.\n\nThis algorithmic mimetic capability poses a radical challenge to traditional theories of art. In his classic 1935 essay 'The Work of Art in the Age of Mechanical Reproduction,' cultural critic Walter Benjamin argued that unique artworks possess an irreplaceable 'aura'—a singular presence in time and space tied to their authentic historical context and human creator. Benjamin warned that mechanical mass reproduction (such as photography or cinema) withered art's aura. Generative AI accelerates this aura decay to its logical extreme: it decouples artistic production not merely from manual physical execution, but from the human mind itself. When an algorithm produces infinite synthetic variations instantly, art risks descending into hyper-derivative digital noise devoid of historical depth.\n\nConversely, techno-optimists argue that generative AI represents a liberating evolutionary tool that democratizes artistic creation. Just as the invention of photography in the nineteenth century liberated painting from tedious mimetic representation—paving the way for Impressionism, Cubism, and Abstract Expressionism—generative AI automates technical execution while elevating human prompt curation and conceptual framing. In this view, the artist's role shifts from manual craftsman to conceptual director, expanding the horizons of human imagination.",
+            "questions": [
+              { "id": "q1", "question": "Generative AI systems generate art and prose primarily through:", "options": ["A) Subjective emotional interiority and lived human experience.", "B) High-dimensional statistical interpolation and pattern synthesis over vast datasets.", "C) Conscious semantic understanding of ethical values.", "D) Classical rule-based expert logic systems."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 2 states generative models operate through high-dimensional statistical interpolation over human datasets." },
+              { "id": "q2", "question": "Noam Chomsky characterizes generative AI models as 'stochastic parrots' because they:", "options": ["A) Possess genuine moral intentionality but lack technical speed.", "B) Extrapolate statistical probabilities without comprehending truth, meaning, or aesthetic value.", "C) Replicate ancient Greek mimetic pottery designs.", "D) Eliminate the need for computer graphics processing units."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 2 specifies systems extrapolate statistical probabilities without true semantic comprehension." },
+              { "id": "q3", "question": "According to Walter Benjamin's theory cited in Paragraph 3, the 'aura' of a work of art is tied to its:", "options": ["A) High mathematical vector compression in latent diffusion models.", "B) Singular presence in time and space, authentic historical context, and human creator.", "C) Ability to be infinitely reproduced without cost.", "D) High-speed automated prompt generation."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 3 explicitly states aura is tied to a singular presence in time/space, authentic context, and human creator." },
+              { "id": "q4", "question": "Generative AI accelerates the decay of artistic 'aura' primarily by:", "options": ["A) Restricting digital art distribution to physical museums.", "B) Decoupling artistic creation from the human mind and manual execution.", "C) Forcing human artists to use oil paints and canvas.", "D) Eliminating copyright law protections for writers."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 3 asserts AI decouples artistic production not merely from manual execution, but from the human mind itself." },
+              { "id": "q5", "question": "Techno-optimists compare the impact of generative AI on modern art to the nineteenth-century invention of:", "options": ["A) The Gutenberg printing press.", "B) Photography, which liberated painting from mimetic representation.", "C) Nuclear power generation.", "D) Deep neural networks."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 4 explicitly compares generative AI to photography, which liberated painting from pure representation." },
+              { "id": "q6", "question": "In the view of techno-optimists, how does generative AI alter the role of the human artist?", "options": ["A) It completely eliminates the human artist from cultural production.", "B) It shifts the artist's role from manual craftsman to conceptual director and prompt curator.", "C) It forces artists to focus exclusively on coding algorithms.", "D) It restricts artistic creation to state-monopolized labs."], "answer": 1, "explanation": "<strong>🧠 Breakdown:</strong> Paragraph 4 concludes the artist's role shifts from manual craftsman to conceptual director." }
             ]
           }
         ];
@@ -686,12 +665,23 @@
                 allPassages = fallbackData;
             }
 
+            // CRITICAL DATE FILTERING LOGIC:
+            // Get today's system date in YYYY-MM-DD
             const todayStr = new Date().toISOString().split('T')[0];
-            currentRC = allPassages.find(p => p.date === todayStr) || allPassages[0];
+
+            // 1. Filter out FUTURE passages (dates > today) so 22, 23 Sept won't show before midnight!
+            const availablePassages = allPassages.filter(p => p.date <= todayStr);
+
+            // If no past passage matches exactly today, take the most recent available unlocked passage
+            if (availablePassages.length > 0) {
+                currentRC = availablePassages.find(p => p.date === todayStr) || availablePassages[availablePassages.length - 1];
+            } else {
+                currentRC = allPassages[0]; // fallback safety
+            }
 
             renderVocab(currentRC.vocab);
             renderReadingTest(currentRC, false);
-            renderArchive();
+            renderArchive(availablePassages);
             updateSavedBadge();
         }
 
@@ -833,7 +823,7 @@
 
         function renderReadingTest(rc, resetTimer = true) {
             document.getElementById('rc-genre').innerText = rc.genre || 'General';
-            document.getElementById('rc-diff').innerText = rc.difficulty || 'Standard';
+            document.getElementById('rc-diff').innerText = 'IPMAT / CAT Standard';
             document.getElementById('rc-count').innerText = rc.wordCount || '1000+ words';
             document.getElementById('rc-title').innerText = rc.title;
             document.getElementById('rc-body').innerText = rc.passage || rc.content;
@@ -938,12 +928,14 @@
             renderQuestion();
         }
 
-        function renderArchive() {
-            const archiveHtml = allPassages.map(p => `
+        // Render ONLY unlocked/available passages in Past RCs Archive
+        function renderArchive(availablePassages) {
+            const listToRender = availablePassages || allPassages;
+            const archiveHtml = listToRender.map(p => `
                 <div class="archive-item" onclick="selectArchiveRC('${p.id}')">
                     <div>
                         <strong style="color:var(--text-heading);">${p.title}</strong>
-                        <div style="font-size:0.8rem; color:var(--text-muted); margin-top:4px;">${p.genre} | ${p.date || 'Practice Set'}</div>
+                        <div style="font-size:0.8rem; color:var(--text-muted); margin-top:4px;">${p.genre} | ${p.date || 'IPMAT / CAT Practice Set'}</div>
                     </div>
                     <span class="sub-tag">Open Test</span>
                 </div>
