@@ -1,52 +1,114 @@
 [
   {
-    "id": "daily-rc-day-01",
+    "id": "rc-day-01",
     "date": "2026-09-21",
     "isDaily": true,
-    "title": "Anthropocene Geology and Planetary Systems",
-    "genre": "Geology & Environmental History",
-    "difficulty": "IPMAT Advanced / CAT Standard",
+    "title": "The Epistemological Dilemma of Algorithmic Governance",
+    "genre": "Sociology & Epistemology",
+    "difficulty": "Advanced Standard",
+    "wordCount": "1000+ words",
     "vocab": {
       "words": [
-        { "word": "Anthropocene", "type": "noun", "def": "Geological age dominated by human impact.", "ex": "The Anthropocene is marked by plastic strata." },
-        { "word": "Stratigraphy", "type": "noun", "def": "Study of rock layers and layering.", "ex": "Stratigraphy provides timelines of Earth history." },
-        { "word": "Epoch", "type": "noun", "def": "A distinct period of time in geological history.", "ex": "The Holocene epoch lasted 11,700 years." },
-        { "word": "Anthropogenic", "type": "adj", "def": "Originating from human activity.", "ex": "Anthropogenic carbon drives warming." },
-        { "word": "Technofossil", "type": "noun", "def": "Manufactured human object preserved in rock.", "ex": "Plastics act as permanent technofossils." },
-        { "word": "Sedimentation", "type": "noun", "def": "Process of settling as sediment.", "ex": "Dams block natural river sedimentation." },
-        { "word": "Immutable", "type": "adj", "def": "Unchanging over time.", "ex": "Geological time scales are not immutable." },
-        { "word": "Cataclysmic", "type": "adj", "def": "Relating to violent natural events.", "ex": "Asteroids caused cataclysmic extinctions." },
-        { "word": "Biogeochemical", "type": "adj", "def": "Cycling of chemical elements through Earth systems.", "ex": "Fertilizers disrupt nitrogen cycles." },
-        { "word": "Sovereignty", "type": "noun", "def": "Supreme power or control.", "ex": "Humanity claims sovereignty over nature." }
+        { "word": "Perspicacious", "type": "adj", "def": "Having a ready insight into and understanding of things; mentally perceptive.", "ex": "Her perspicacious analysis of the text revealed subtle tone shifts." },
+        { "word": "Equanimity", "type": "noun", "def": "Mental calmness and composure, especially in difficult situations.", "ex": "He maintained absolute equanimity throughout the strenuous verbal section." },
+        { "word": "Obfuscate", "type": "verb", "def": "To deliberately make something unclear, obscure, or unintelligible.", "ex": "The passage uses dense academic jargon to obfuscate the core thesis." },
+        { "word": "Sycophant", "type": "noun", "def": "A person who acts obsequiously toward someone to gain advantage.", "ex": "The author criticizes sycophants who flatter corporate leaders unconditionally." },
+        { "word": "Recalcitrant", "type": "adj", "def": "Having an obstinately uncooperative attitude toward authority.", "ex": "The recalcitrant committee refused to adopt the proposed structural reforms." },
+        { "word": "Ineffable", "type": "adj", "def": "Too great or extreme to be expressed or described in words.", "ex": "The poem attempts to capture the ineffable complexity of human consciousness." },
+        { "word": "Fastidious", "type": "adj", "def": "Very attentive to and concerned about accuracy and detail.", "ex": "A fastidious reader immediately notices subtle logical flaws in arguments." },
+        { "word": "Truculent", "type": "adj", "def": "Eager or quick to argue or fight; aggressively defiant.", "ex": "His truculent tone alienated reviewers during the peer review process." },
+        { "word": "Pervasive", "type": "adj", "def": "Spreading widely throughout an area or a group of people.", "ex": "Commercialization has a pervasive influence on contemporary art choices." },
+        { "word": "Esoteric", "type": "adj", "def": "Intended for or likely to be understood by only a small group.", "ex": "The essay focuses on an esoteric branch of 19th-century political philosophy." }
       ],
       "idioms": [
-        { "idiom": "Tip of the iceberg", "def": "A small visible part of a larger problem.", "ex": "Surface plastics are just the tip of the iceberg." },
-        { "idiom": "Sands of time", "def": "Passage of time.", "ex": "Human history is brief in the sands of time." },
-        { "idiom": "Cross the Rubicon", "def": "Take an irreversible decisive step.", "ex": "Emitting 400ppm carbon crossed the Rubicon." },
-        { "idiom": "A drop in the ocean", "def": "A tiny insignificant amount.", "ex": "Individual recycling is a drop in the ocean." },
-        { "idiom": "In the pipeline", "def": "In process of development.", "ex": "New climate laws are in the pipeline." }
+        { "idiom": "Burn the midnight oil", "def": "To work or study late into the night.", "ex": "She burned the midnight oil preparing for her verbal reasoning test." },
+        { "idiom": "Read between the lines", "def": "To understand a subtle or implicit meaning not directly stated.", "ex": "To answer inference questions correctly, you must read between the lines." },
+        { "idiom": "Take with a grain of salt", "def": "To view a statement with skepticism or caution.", "ex": "Critical readers take unverified statistical claims with a grain of salt." },
+        { "idiom": "Steal someone's thunder", "def": "To take credit for someone else's ideas or accomplishments.", "ex": "The rival researcher stole his thunder by publishing the discovery first." },
+        { "idiom": "Bite the bullet", "def": "To face a difficult situation with courage and get it over with.", "ex": "He bit the bullet and spent three hours analyzing complex reading passages." }
       ],
       "phrasalVerbs": [
-        { "verb": "Phase out", "def": "Gradually discontinue.", "ex": "Coal plants must be phased out." },
-        { "verb": "Bring about", "def": "Cause to happen.", "ex": "Industrial activity brought about warming." },
-        { "verb": "Set in motion", "def": "Initiate a process.", "ex": "Deforestation set in motion soil erosion." },
-        { "verb": "Pertain to", "def": "Be relevant or related to.", "ex": "The golden spike pertains to nuclear fallout." },
-        { "verb": "Wipe out", "def": "Destroy completely.", "ex": "Acidification threatens to wipe out reefs." }
+        { "verb": "Iron out", "def": "To resolve small problems, difficulties, or details.", "ex": "They ironed out their logical disagreements before finalizing the paper." },
+        { "verb": "Pertain to", "def": "To be directly related or relevant to a specific topic.", "ex": "The second paragraph pertains to the historical precedents of economic policy." },
+        { "verb": "Whittle down", "def": "To gradually reduce the size or number of options.", "ex": "Through process of elimination, she whittled down the four options to one." },
+        { "verb": "Gloss over", "def": "To treat or describe something lightly or deceptively.", "ex": "The author refuses to gloss over the catastrophic consequences of climate change." },
+        { "verb": "Root out", "def": "To find and completely eradicate or remove something bad.", "ex": "Independent audits help root out systemic biases in financial reporting." }
       ]
     },
-    "passage": "For over two centuries, geologists classified Earth's history into distinct chronological epochs based on stratigraphy—the systematic study of rock layers, rock strata, and fossilized organic remains...",
+    "content": "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents of digital transformation champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding the ontological nature of software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in historically disenfranchised neighborhoods. The model's statistical 'objectivity' merely cloaks systemic racial and class prejudice in the prestige of mathematical authority.\n\nFurthermore, the opacity of modern deep learning architecture—commonly termed the 'black box' problem—compounds this ethical dilemma. Unlike classical rule-based expert systems governed by explicit, human-readable logic, modern deep neural networks automatically extract non-linear feature representations across millions of parameters. Consequently, even the lead architects of these systems cannot trace the precise causal chain that leads to a specific prediction. When an automated system denies a mortgage, rejects a job application, or recommends parole revocation, the subject is confronted with a decision that is fundamentally uninterpretable. Tracing the rationale behind the outcome becomes an exercise in futility.\n\nThis epistemic opacity poses a direct threat to democratic governance. In classical jurisprudence, authority is legitimized through the principle of contestability: individuals subjected to adverse state or corporate actions retain the right to demand a reasoned justification and challenge the underlying premises of the decision. When decisions are delegated to opaque algorithms, the principle of contestability is effectively obliterated. One cannot challenge a logic that cannot be articulated. Automating high-stakes social decisions does not eliminate human bias; it merely mechanizes it, rendering systemic prejudice invisible, automated, and immune to democratic accountability.\n\nTo remediate this structural crisis, computer scientists and policy theorists advocate for 'algorithmic explainability' and continuous post-deployment auditing. However, technical patches alone are insufficient. We must fundamentally reframe our ethical framework regarding technology. Society must recognize that delegating ethical and normative judgments to statistical models is itself an ideological choice—one that prioritizes computational efficiency over human dignity and justice. Until we establish robust legal frameworks that mandate transparency and human oversight, computational governance will remain a sophisticated mechanism for perpetuating injustice under the veneer of mathematical neutrality.",
+    "passage": "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents of digital transformation champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding the ontological nature of software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in historically disenfranchised neighborhoods. The model's statistical 'objectivity' merely cloaks systemic racial and class prejudice in the prestige of mathematical authority.\n\nFurthermore, the opacity of modern deep learning architecture—commonly termed the 'black box' problem—compounds this ethical dilemma. Unlike classical rule-based expert systems governed by explicit, human-readable logic, modern deep neural networks automatically extract non-linear feature representations across millions of parameters. Consequently, even the lead architects of these systems cannot trace the precise causal chain that leads to a specific prediction. When an automated system denies a mortgage, rejects a job application, or recommends parole revocation, the subject is confronted with a decision that is fundamentally uninterpretable. Tracing the rationale behind the outcome becomes an exercise in futility.\n\nThis epistemic opacity poses a direct threat to democratic governance. In classical jurisprudence, authority is legitimized through the principle of contestability: individuals subjected to adverse state or corporate actions retain the right to demand a reasoned justification and challenge the underlying premises of the decision. When decisions are delegated to opaque algorithms, the principle of contestability is effectively obliterated. One cannot challenge a logic that cannot be articulated. Automating high-stakes social decisions does not eliminate human bias; it merely mechanizes it, rendering systemic prejudice invisible, automated, and immune to democratic accountability.\n\nTo remediate this structural crisis, computer scientists and policy theorists advocate for 'algorithmic explainability' and continuous post-deployment auditing. However, technical patches alone are insufficient. We must fundamentally reframe our ethical framework regarding technology. Society must recognize that delegating ethical and normative judgments to statistical models is itself an ideological choice—one that prioritizes computational efficiency over human dignity and justice. Until we establish robust legal frameworks that mandate transparency and human oversight, computational governance will remain a sophisticated mechanism for perpetuating injustice under the veneer of mathematical neutrality.",
     "questions": [
       {
         "id": "q1",
-        "question": "Which statement best summarizes the main thesis of the passage?",
+        "question": "Which of the following best captures the primary thesis of the author regarding algorithmic governance?",
         "options": [
-          "A) Traditional geological time scales are flawed because they ignore modern satellite data.",
-          "B) Human industrial activity has altered planetary systems so fundamentally that it justifies formalizing the Anthropocene epoch.",
-          "C) Nuclear detonations are the sole cause of ocean acidification.",
-          "D) Stratigraphers have proven human activity leaves no lasting physical trace."
+          "A) Machine learning algorithms are inherently superior to human decision-making due to their capacity to process multi-dimensional historical datasets without emotional bias.",
+          "B) Delegating high-stakes decisions to algorithms mechanizes historical prejudice while shielding systemic bias behind a false veneer of mathematical neutrality.",
+          "C) The primary danger of artificial intelligence lies in technical coding flaws that can be fully rectified through rigorous post-deployment auditing.",
+          "D) Predictive policing models should be completely abandoned and replaced with classical rule-based expert systems in law enforcement."
         ],
         "answer": 1,
-        "explanation": "<strong>🧠 Logical Framework:</strong> Captures the core premise that human activity justifies a new geological epoch."
+        "explanation": "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>The author's central thesis spans Paragraphs 1, 2, and 4. The author argues that algorithms are not neutral; they copy past human bias and make decision-making opaque and unchallengeable."
+      },
+      {
+        "id": "q2",
+        "question": "According to the passage, predictive policing algorithms fail to provide objective crime forecasts primarily because they:",
+        "options": [
+          "A) Depend on deep learning neural networks that suffer from non-linear computational regressions.",
+          "B) Are trained on historical arrest data that reflects past deployment patterns rather than actual crime occurrences.",
+          "C) Fail to account for economic market fluctuations in disenfranchised neighborhoods.",
+          "D) Rely on rule-based expert logic that cannot adapt to changing urban demographics."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer directly to Paragraph 2. The author explains that algorithms reflect 'historical arrest records'—which reflect where police were sent in the past due to discriminatory practices, not where crime actually happens."
+      },
+      {
+        "id": "q3",
+        "question": "The author discusses the 'black box' problem in Paragraph 3 to emphasize that modern neural networks:",
+        "options": [
+          "A) Are intentionally designed by computer engineers to evade legal and regulatory scrutiny.",
+          "B) Derive logic from complex parameter interactions that make causal reasoning untraceable even to their creators.",
+          "C) Process historical datasets with far less computational efficiency than rule-based systems.",
+          "D) Generate inaccurate predictions because they ignore multi-dimensional data features."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer to Paragraph 3. The 'black box' problem is introduced to explain opacity: modern deep neural networks automatically extract feature representations across millions of parameters."
+      },
+      {
+        "id": "q4",
+        "question": "Based on Paragraph 4, why does algorithmic decision-making pose a severe threat to democratic jurisprudence?",
+        "options": [
+          "A) It eliminates the legal requirement for corporate institutions to conduct financial audits.",
+          "B) It deprives individuals of the fundamental right to contest adverse decisions by obscuring the underlying logic.",
+          "C) It forces judges to rely exclusively on automated parole recommendation software.",
+          "D) It increases the financial cost of litigation in civil rights law cases."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer to Paragraph 4. Democratic jurisprudence relies on 'contestability' (the legal right of a citizen to challenge a decision). When an algorithm's decision logic cannot be articulated, contestability is destroyed."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following assumptions underlies the author's argument in the final paragraph?",
+        "options": [
+          "A) Technological progress is inherently incompatible with human rights and democratic governance.",
+          "B) Technical fixes like explainability audits can fully resolve societal inequities without legislative intervention.",
+          "C) Deciding to delegate ethical judgment to automated systems is itself a value choice rather than a neutral technical decision.",
+          "D) Rule-based expert systems are mathematically superior to deep neural networks in all governance contexts."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>Refer to Paragraph 5. The author states that technology is not neutral; choosing to hand decisions over to software is itself an ideological choice."
+      },
+      {
+        "id": "q6",
+        "question": "The tone of the author throughout the passage can best be described as:",
+        "options": [
+          "A) Cynical and dismissive of scientific technological innovation.",
+          "B) Highly critical, analytical, and ethically concerned.",
+          "C) Neutral, objective, and detached from political governance debates.",
+          "D) Enthusiastic and optimistic about future algorithmic auditing techniques."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Logical Framework & Core Passage Connection:</strong><br>The author systematically evaluates algorithmic bias, points out deep societal flaws, and demands human oversight and ethical frameworks."
       }
     ]
   }
