@@ -1,898 +1,635 @@
-        --text-heading: #2c2520;        /* Deep Warm Espresso */
-        --text-body: #4a4038;           /* Muted Charcoal / Warm Slate */
-        --text-muted: #82756a;          /* Soft Earth Muted */
-        
-        /* Uplifting Accent Colors */
-        --amber-primary: #d97706;       /* Warm Energetic Amber */
-        --amber-hover: #b45309;         /* Rich Amber Hover */
-        --amber-bg: #fffbeeb3;          /* Soft Sunlit Amber Tint */
-        
-        --sage-primary: #15803d;        /* Serene Sage Green (Focus & Growth) */
-        --sage-bg: #f0fdf4;             /* Calming Mint/Sage Tint */
-        
-        --terracotta-accent: #c2410c;   /* Soft Warm Terracotta */
-        --terracotta-bg: #fff7ed;       /* Rose Warm Tint */
-        
-        --status-correct: #16a34a;       /* Positive Success Green */
-        --status-wrong: #dc2626;         /* Crimson Error */
-        --shadow-subtle: 0 4px 20px -2px rgba(180, 140, 100, 0.08);
-    }
-
-    * { 
-        margin: 0; 
-        padding: 0; 
-        box-sizing: border-box; 
-        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif; 
-    }
-
-    body { 
-        background-color: var(--bg-page); 
-        color: var(--text-body); 
-        min-height: 100vh; 
-        letter-spacing: -0.01em;
-        line-height: 1.6;
-    }
-
-    /* HEADER & NAVIGATION */
-    header {
-        background: #ffffff;
-        border-bottom: 1px solid var(--border-light);
-        padding: 14px 28px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: sticky;
-        top: 0;
-        z-index: 100;
-        box-shadow: 0 2px 10px rgba(180, 140, 100, 0.04);
-    }
-
-    .brand { 
-        display: flex; 
-        align-items: center; 
-        gap: 10px; 
-        font-weight: 800; 
-        font-size: 1.1rem; 
-        color: var(--text-heading);
-        letter-spacing: 0.02em;
-    }
-
-    .logo-box { 
-        background: linear-gradient(135deg, var(--amber-primary), #f59e0b); 
-        color: #ffffff; 
-        padding: 3px 8px; 
-        border-radius: 6px; 
-        font-size: 0.85rem; 
-        font-weight: 800; 
-        box-shadow: 0 2px 6px rgba(217, 119, 6, 0.25);
-    }
-
-    .sub-tag { 
-        background: var(--amber-bg); 
-        color: var(--amber-primary); 
-        font-size: 0.75rem; 
-        padding: 3px 10px; 
-        border-radius: 20px; 
-        border: 1px solid #fde68a; 
-        font-weight: 600;
-    }
-
-    .nav-items { display: flex; gap: 8px; }
-
-    .nav-btn {
-        background: transparent;
-        border: 1px solid transparent;
-        color: var(--text-muted);
-        padding: 8px 16px;
-        border-radius: 8px;
-        cursor: pointer;
-        font-weight: 600;
-        font-size: 0.88rem;
-        transition: all 0.2s ease;
-    }
-
-    .nav-btn:hover { 
-        color: var(--text-heading); 
-        background: var(--bg-subtle); 
-    }
-
-    .nav-btn.active { 
-        background: var(--text-heading); 
-        color: #ffffff; 
-        box-shadow: 0 2px 8px rgba(44, 37, 32, 0.15);
-    }
-
-    /* CONTAINER & PANELS */
-    .container { max-width: 1220px; margin: 30px auto; padding: 0 20px; }
-
-    .view-panel { display: none; }
-    .view-panel.active { display: block; }
-
-    /* UPLIFTING HERO BANNER */
-    .hero-banner {
-        background: linear-gradient(135deg, #fef3c7 0%, #ffedd5 50%, #fef2f2 100%);
-        border: 1px solid #fde68a;
-        border-radius: 16px;
-        padding: 32px;
-        margin-bottom: 30px;
-        box-shadow: var(--shadow-subtle);
-        position: relative;
-        overflow: hidden;
-    }
-
-    .hero-banner h1 { 
-        font-size: 1.6rem; 
-        font-weight: 800;
-        margin-bottom: 8px; 
-        color: var(--text-heading);
-        letter-spacing: -0.02em;
-    }
-
-    .hero-banner p { 
-        color: var(--text-body); 
-        font-size: 0.96rem; 
-        margin-bottom: 20px; 
-        max-width: 800px;
-    }
-
-    .primary-btn {
-        background: var(--amber-primary);
-        color: #ffffff;
-        border: none;
-        padding: 11px 22px;
-        border-radius: 8px;
-        font-weight: 700;
-        font-size: 0.88rem;
-        cursor: pointer;
-        transition: all 0.2s ease;
-        box-shadow: 0 3px 12px rgba(217, 119, 6, 0.25);
-    }
-
-    .primary-btn:hover { 
-        background: var(--amber-hover); 
-        transform: translateY(-1px);
-    }
-
-    /* SECTION HEADERS & GRID */
-    .section-header { 
-        font-size: 0.9rem; 
-        font-weight: 800; 
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        color: var(--text-muted);
-        margin: 28px 0 14px; 
-        display: flex; 
-        justify-content: space-between; 
-        align-items: center; 
-    }
-
-    .vocab-grid { 
-        display: grid; 
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
-        gap: 16px; 
-    }
-
-    .vocab-card { 
-        background: var(--bg-card); 
-        border: 1px solid var(--border-light); 
-        border-radius: 12px; 
-        padding: 18px; 
-        position: relative;
-        transition: all 0.2s ease;
-        box-shadow: var(--shadow-subtle);
-    }
-
-    .vocab-card:hover { 
-        border-color: var(--border-hover); 
-        transform: translateY(-2px);
-        box-shadow: 0 8px 24px -4px rgba(180, 140, 100, 0.12);
-    }
-
-    .word-title { 
-        color: var(--text-heading); 
-        font-weight: 800; 
-        font-size: 1.05rem; 
-    }
-
-    .word-type { 
-        font-size: 0.72rem; 
-        color: var(--terracotta-accent); 
-        text-transform: uppercase; 
-        margin-left: 6px; 
-        letter-spacing: 0.04em;
-        font-weight: 700;
-        background: var(--terracotta-bg);
-        padding: 2px 6px;
-        border-radius: 4px;
-    }
-
-    .word-def { 
-        font-size: 0.9rem; 
-        color: var(--text-body); 
-        margin: 10px 0 8px; 
-        line-height: 1.5;
-    }
-
-    .word-ex { 
-        font-size: 0.84rem; 
-        color: var(--text-muted); 
-        font-style: italic; 
-    }
-
-    .save-btn {
-        position: absolute;
-        top: 14px;
-        right: 14px;
-        background: var(--bg-subtle);
-        border: 1px solid var(--border-light);
-        color: var(--text-body);
-        padding: 4px 10px;
-        border-radius: 6px;
-        font-size: 0.74rem;
-        font-weight: 700;
-        cursor: pointer;
-        transition: all 0.2s ease;
-    }
-
-    .save-btn:hover { 
-        background: var(--amber-bg); 
-        border-color: var(--amber-primary);
-        color: var(--amber-primary); 
-    }
-
-    .save-btn.saved { 
-        background: var(--sage-bg); 
-        border-color: var(--sage-primary); 
-        color: var(--sage-primary); 
-    }
-
-    .split-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 10px; }
-    @media (max-width: 850px) { .split-layout { grid-template-columns: 1fr; } }
-
-    /* READING PRACTICE ENVIRONMENT */
-    .test-split { display: grid; grid-template-columns: 1.25fr 0.75fr; gap: 20px; }
-    @media (max-width: 900px) { .test-split { grid-template-columns: 1fr; } }
-
-    .reading-box, .question-card {
-        background: var(--bg-card);
-        border: 1px solid var(--border-light);
-        border-radius: 14px;
-        padding: 28px;
-        box-shadow: var(--shadow-subtle);
-    }
-
-    .reading-box { max-height: 80vh; overflow-y: auto; }
-
-    .meta-tags { display: flex; gap: 8px; margin-bottom: 18px; flex-wrap: wrap; }
-    .tag { 
-        background: var(--bg-subtle); 
-        color: var(--text-body); 
-        font-size: 0.74rem; 
-        padding: 4px 10px; 
-        border-radius: 6px; 
-        border: 1px solid var(--border-light); 
-        font-weight: 700;
-    }
-
-    .passage-body { 
-        font-size: 1.02rem; 
-        line-height: 1.9; 
-        color: #3b332c; 
-        white-space: pre-line; 
-        text-align: justify; 
-    }
-
-    .opt-btn {
-        display: block; 
-        width: 100%; 
-        text-align: left;
-        background: var(--bg-subtle); 
-        border: 1px solid var(--border-light); 
-        color: var(--text-heading);
-        padding: 14px 16px; 
-        border-radius: 10px; 
-        margin-top: 10px; 
-        cursor: pointer;
-        font-size: 0.92rem; 
-        transition: all 0.2s ease;
-        font-weight: 500;
-    }
-
-    .opt-btn:hover { 
-        border-color: var(--amber-primary); 
-        background: #fef7ed;
-    }
-
-    .opt-btn.selected { 
-        border-color: var(--amber-primary) !important; 
-        background: var(--amber-bg) !important; 
-        color: var(--amber-hover) !important;
-        font-weight: 700;
-    }
-
-    .opt-btn.correct { 
-        background: #f0fdf4 !important; 
-        border-color: var(--status-correct) !important; 
-        color: var(--status-correct) !important; 
-        font-weight: 700;
-    }
-
-    .opt-btn.wrong { 
-        background: #fef2f2 !important; 
-        border-color: var(--status-wrong) !important; 
-        color: var(--status-wrong) !important; 
-        font-weight: 700;
-    }
-
-    .explanation-box {
-        display: none; 
-        margin-top: 18px; 
-        padding: 16px; 
-        background: #fefce8;
-        border-left: 4px solid var(--amber-primary); 
-        border-radius: 8px; 
-        font-size: 0.9rem; 
-        line-height: 1.7; 
-        color: #713f12;
-        box-shadow: 0 2px 8px rgba(217, 119, 6, 0.08);
-    }
-
-    .submit-btn {
-        width: 100%; 
-        background: var(--amber-primary); 
-        color: #ffffff; 
-        border: none;
-        padding: 13px; 
-        border-radius: 10px; 
-        font-weight: 800; 
-        font-size: 0.95rem;
-        cursor: pointer;
-        margin-top: 20px; 
-        transition: all 0.2s ease;
-        box-shadow: 0 4px 14px rgba(217, 119, 6, 0.25);
-    }
-
-    .submit-btn:hover { 
-        background: var(--amber-hover); 
-        transform: translateY(-1px);
-    }
-
-    /* MODAL PERFORMANCE DASHBOARD */
-    .modal-overlay {
-        display: none; 
-        position: fixed; 
-        top: 0; 
-        left: 0; 
-        width: 100%; 
-        height: 100%;
-        background: rgba(44, 37, 32, 0.4); 
-        backdrop-filter: blur(6px);
-        z-index: 1000; 
-        justify-content: center; 
-        align-items: center;
-    }
-
-    .modal-overlay.active { display: flex; }
-
-    .dashboard-card {
-        background: #ffffff; 
-        border: 1px solid var(--border-light);
-        width: 90%; 
-        max-width: 580px; 
-        border-radius: 18px; 
-        padding: 32px; 
-        text-align: center;
-        box-shadow: 0 20px 40px -10px rgba(44, 37, 32, 0.15);
-    }
-
-    .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 22px 0; }
-
-    .stat-box { 
-        background: var(--bg-subtle); 
-        padding: 16px; 
-        border-radius: 10px; 
-        border: 1px solid var(--border-light); 
-    }
-
-    .stat-val { 
-        font-size: 1.4rem; 
-        font-weight: 800; 
-        color: var(--text-heading); 
-    }
-
-    .stat-lbl { 
-        font-size: 0.72rem; 
-        color: var(--text-muted); 
-        text-transform: uppercase; 
-        margin-top: 4px; 
-        font-weight: 700; 
-        letter-spacing: 0.04em;
-    }
-
-    .archive-item {
-        background: var(--bg-card); 
-        border: 1px solid var(--border-light); 
-        padding: 16px 20px;
-        border-radius: 10px; 
-        margin-bottom: 12px; 
-        display: flex; 
-        justify-content: space-between;
-        align-items: center; 
-        cursor: pointer; 
-        transition: all 0.2s ease;
-    }
-
-    .archive-item:hover { 
-        border-color: var(--border-hover); 
-        transform: translateX(4px);
-        box-shadow: var(--shadow-subtle);
-    }
-</style>
-
-
-<header>
-    <div class="brand">
-        <span class="logo-box">NX</span> NEXTORY
-        <span class="sub-tag">Verbal Suite</span>
-    </div>
-    <div class="nav-items">
-        <button id="btn-vocab" class="nav-btn active" onclick="handleNavigation('vocab')">Daily Vocab</button>
-        <button id="btn-reading" class="nav-btn" onclick="handleNavigation('reading')">Reading Practice</button>
-        <button id="btn-saved" class="nav-btn" onclick="handleNavigation('saved')">Saved Hub (<span id="saved-count">0</span>)</button>
-        <button id="btn-archive" class="nav-btn" onclick="handleNavigation('archive')">Past RCs</button>
-    </div>
-</header>
-
-<div class="container">
-    <!-- 1. DAILY VOCAB TAB -->
-    <div id="panel-vocab" class="view-panel active">
-        <div class="hero-banner">
-            <h1>High-Frequency Vocabulary, Idioms & Phrasal Verbs</h1>
-            <p>Build powerful verbal aptitude, contextual comprehension, and exam stamina in a warm, distraction-free environment.</p>
-            <button class="primary-btn" onclick="startTest()">Proceed to Reading Test →</button>
-        </div>
-
-        <div class="section-header">
-            <span>Top 10 Vocabulary Words</span>
-            <span style="font-size: 0.8rem; color: var(--amber-primary);">10/10 Active</span>
-        </div>
-        <div id="words-grid" class="vocab-grid">Loading Words...</div>
-
-        <div class="split-layout">
-            <div>
-                <div class="section-header">Top 5 Idioms</div>
-                <div id="idioms-list">Loading Idioms...</div>
-            </div>
-            <div>
-                <div class="section-header">Top 5 Phrasal Verbs</div>
-                <div id="verbs-list">Loading Phrasal Verbs...</div>
-            </div>
-        </div>
-    </div>
-
-    <!-- 2. READING PRACTICE TAB -->
-    <div id="panel-reading" class="view-panel">
-        <div class="test-split">
-            <!-- Left: Passage -->
-            <div class="reading-box">
-                <div class="meta-tags">
-                    <span id="rc-genre" class="tag">Genre</span>
-                    <span id="rc-diff" class="tag">Difficulty</span>
-                    <span id="rc-count" class="tag">Word Count</span>
-                    <span id="timer-display" class="tag" style="color:var(--amber-primary); background:var(--amber-bg); border-color:#fde68a;">⏱️ 00:00</span>
-                </div>
-                <h2 id="rc-title" style="margin-bottom: 16px; color: var(--text-heading); font-size: 1.35rem;">Loading Passage Title...</h2>
-                <div id="rc-body" class="passage-body">Loading passage content...</div>
-            </div>
-
-            <!-- Right: Question Palette -->
-            <div>
-                <div class="question-card">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-                        <h3 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">Question Palette</h3>
-                        <span id="q-progress" class="tag">Q 1 of 6</span>
-                    </div>
-                    <div id="q-text" style="font-weight: 700; margin-bottom: 16px; font-size:0.96rem; color:var(--text-heading);">Loading question...</div>
-                    <div id="q-options"></div>
-                    <div id="q-explanation" class="explanation-box"></div>
-                    
-                    <div style="display: flex; justify-content: space-between; margin-top: 20px;">
-                        <button id="prev-btn" class="nav-btn" onclick="navQuestion(-1)">← Previous</button>
-                        <button id="next-btn" class="nav-btn" onclick="navQuestion(1)">Next →</button>
-                    </div>
-                    <button id="submit-test-btn" class="submit-btn" onclick="submitTest()">Submit Test</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- 3. SAVED HUB TAB -->
-    <div id="panel-saved" class="view-panel">
-        <div class="question-card">
-            <h2 style="margin-bottom: 4px; color: var(--text-heading); font-size: 1.3rem;">Saved Vocab Hub</h2>
-            <p style="color:var(--text-muted); margin-bottom: 24px; font-size: 0.9rem;">Categorized collection of your bookmarked words, idioms, and phrasal verbs.</p>
-            
-            <div class="section-header" style="border-bottom: 1px solid var(--border-light); padding-bottom: 8px;">
-                Vocabulary Words (<span id="saved-words-count">0</span>)
-            </div>
-            <div id="saved-words-grid" class="vocab-grid" style="margin-bottom: 28px;">No saved words.</div>
-
-            <div class="section-header" style="border-bottom: 1px solid var(--border-light); padding-bottom: 8px;">
-                Idioms & Phrases (<span id="saved-idioms-count">0</span>)
-            </div>
-            <div id="saved-idioms-grid" class="vocab-grid" style="margin-bottom: 28px;">No saved idioms.</div>
-
-            <div class="section-header" style="border-bottom: 1px solid var(--border-light); padding-bottom: 8px;">
-                Phrasal Verbs (<span id="saved-verbs-count">0</span>)
-            </div>
-            <div id="saved-verbs-grid" class="vocab-grid">No saved phrasal verbs.</div>
-        </div>
-    </div>
-
-    <!-- 4. PAST RCS ARCHIVE TAB -->
-    <div id="panel-archive" class="view-panel">
-        <div class="question-card">
-            <h2 style="margin-bottom: 18px; font-size: 1.3rem; color:var(--text-heading);">Past Passages Archive</h2>
-            <div id="archive-container">Loading Past RCs...</div>
-        </div>
-    </div>
-</div>
-
-<!-- MODAL PERFORMANCE DASHBOARD -->
-<div id="dashboard-modal" class="modal-overlay">
-    <div class="dashboard-card">
-        <h2 style="color:var(--text-heading); font-size:1.35rem;">Test Performance Summary</h2>
-        <p style="color:var(--text-muted); font-size:0.88rem; margin-top:4px;">Comprehension accuracy and timing analytics.</p>
-        
-        <div class="stats-grid">
-            <div class="stat-box">
-                <div id="stat-accuracy" class="stat-val" style="color:var(--sage-primary)">0%</div>
-                <div class="stat-lbl">Accuracy</div>
-            </div>
-            <div class="stat-box">
-                <div id="stat-speed" class="stat-val">0 WPM</div>
-                <div class="stat-lbl">Speed</div>
-            </div>
-            <div class="stat-box">
-                <div id="stat-time" class="stat-val">0s</div>
-                <div class="stat-lbl">Time Taken</div>
-            </div>
-            <div class="stat-box">
-                <div id="stat-correct" class="stat-val" style="color:var(--sage-primary)">0</div>
-                <div class="stat-lbl">Correct</div>
-            </div>
-            <div class="stat-box">
-                <div id="stat-incorrect" class="stat-val" style="color:var(--status-wrong)">0</div>
-                <div class="stat-lbl">Incorrect</div>
-            </div>
-            <div class="stat-box">
-                <div id="stat-unattempted" class="stat-val" style="color:var(--amber-primary)">0</div>
-                <div class="stat-lbl">Unattempted</div>
-            </div>
-        </div>
-
-        <button class="primary-btn" style="width:100%" onclick="reviewAnswers()">Review Explanations</button>
-    </div>
-</div>
-
-<script>
-    let allPassages = [];
-    let currentRC = null;
-    let currentQIndex = 0;
-    let userAnswers = {};
-    let isSubmitted = false;
-    
-    let timerInterval = null;
-    let secondsElapsed = 0;
-    let isTestRunning = false;
-    let isTimerPaused = false;
-
-    let savedItems = JSON.parse(localStorage.getItem('nextory_saved')) || [];
-
-    async function loadData() {
-        try {
-            const response = await fetch('passages.json');
-            if (!response.ok) throw new Error("Network error loading passages.json");
-            
-            allPassages = await response.json();
-            const todayStr = new Date().toISOString().split('T')[0];
-            currentRC = allPassages.find(p => p.date === todayStr) || allPassages[0];
-
-            renderVocab(currentRC.vocab);
-            setupReadingTest(currentRC);
-            renderArchive();
-            updateSavedBadge();
-
-        } catch (err) {
-            console.error(err);
-            document.getElementById('rc-body').innerHTML = `<p style="color:var(--status-wrong)">Error loading data. Make sure passages.json file is present in root folder.</p>`;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXTORY - Daily Verbal & RC Booster</title>
+    <style>
+        :root {
+            --bg-page: #fbf9f5;
+            --bg-card: #ffffff;
+            --bg-subtle: #f3efe6;
+            --border-light: #e8e2d5;
+            --border-hover: #d1c7b5;
+            --text-heading: #2c2520;
+            --text-body: #4a4038;
+            --text-muted: #82756a;
+            --amber-primary: #d97706;
+            --amber-hover: #b45309;
+            --amber-bg: #fffbeeb3;
+            --sage-primary: #15803d;
+            --sage-bg: #f0fdf4;
+            --terracotta-accent: #c2410c;
+            --terracotta-bg: #fff7ed;
+            --status-correct: #16a34a;
+            --status-wrong: #dc2626;
+            --shadow-subtle: 0 4px 20px -2px rgba(180, 140, 100, 0.08);
         }
-    }
 
-    // TIMER CONTROL WITH PAUSE & RESUME
-    function startTimer() {
-        clearInterval(timerInterval);
-        isTestRunning = true;
-        isTimerPaused = false;
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif; }
+        body { background-color: var(--bg-page); color: var(--text-body); min-height: 100vh; letter-spacing: -0.01em; line-height: 1.6; }
+
+        /* HEADER & NAVIGATION */
+        header {
+            background: #ffffff;
+            border-bottom: 1px solid var(--border-light);
+            padding: 14px 28px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(180, 140, 100, 0.04);
+        }
+
+        .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.1rem; color: var(--text-heading); letter-spacing: 0.02em; }
+        .logo-box { background: linear-gradient(135deg, var(--amber-primary), #f59e0b); color: #ffffff; padding: 3px 8px; border-radius: 6px; font-size: 0.85rem; font-weight: 800; box-shadow: 0 2px 6px rgba(217, 119, 6, 0.25); }
+        .sub-tag { background: var(--amber-bg); color: var(--amber-primary); font-size: 0.75rem; padding: 3px 10px; border-radius: 20px; border: 1px solid #fde68a; font-weight: 600; }
+
+        .nav-items { display: flex; gap: 8px; }
+        .nav-btn {
+            background: transparent;
+            border: 1px solid transparent;
+            color: var(--text-muted);
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.88rem;
+            transition: all 0.2s ease;
+        }
+        .nav-btn:hover { color: var(--text-heading); background: var(--bg-subtle); }
+        .nav-btn.active { background: var(--text-heading); color: #ffffff; box-shadow: 0 2px 8px rgba(44, 37, 32, 0.15); }
+
+        /* CONTAINER & PANELS */
+        .container { max-width: 1220px; margin: 30px auto; padding: 0 20px; }
+        .view-panel { display: none; }
+        .view-panel.active { display: block; }
+
+        /* HERO BANNER */
+        .hero-banner {
+            background: linear-gradient(135deg, #fef3c7 0%, #ffedd5 50%, #fef2f2 100%);
+            border: 1px solid #fde68a;
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow-subtle);
+            position: relative;
+            overflow: hidden;
+        }
+        .hero-banner h1 { font-size: 1.6rem; font-weight: 800; margin-bottom: 8px; color: var(--text-heading); letter-spacing: -0.02em; }
+        .hero-banner p { color: var(--text-body); font-size: 0.96rem; margin-bottom: 20px; max-width: 800px; }
+        .primary-btn {
+            background: var(--amber-primary);
+            color: #ffffff;
+            border: none;
+            padding: 11px 22px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 0.88rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 3px 12px rgba(217, 119, 6, 0.25);
+        }
+        .primary-btn:hover { background: var(--amber-hover); transform: translateY(-1px); }
+
+        /* SECTION HEADERS & GRID */
+        .section-header { font-size: 0.9rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin: 28px 0 14px; display: flex; justify-content: space-between; align-items: center; }
+        .vocab-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+        .vocab-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+            padding: 18px;
+            position: relative;
+            transition: all 0.2s ease;
+            box-shadow: var(--shadow-subtle);
+        }
+        .vocab-card:hover { border-color: var(--border-hover); transform: translateY(-2px); box-shadow: 0 8px 24px -4px rgba(180, 140, 100, 0.12); }
+        .word-title { color: var(--text-heading); font-weight: 800; font-size: 1.05rem; }
+        .word-type { font-size: 0.72rem; color: var(--terracotta-accent); text-transform: uppercase; margin-left: 6px; letter-spacing: 0.04em; font-weight: 700; background: var(--terracotta-bg); padding: 2px 6px; border-radius: 4px; }
+        .word-def { font-size: 0.9rem; color: var(--text-body); margin: 10px 0 8px; line-height: 1.5; }
+        .word-ex { font-size: 0.84rem; color: var(--text-muted); font-style: italic; }
+
+        .save-btn {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            background: var(--bg-subtle);
+            border: 1px solid var(--border-light);
+            color: var(--text-body);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.74rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s case;
+        }
+        .save-btn:hover { background: var(--amber-bg); border-color: var(--amber-primary); color: var(--amber-primary); }
+        .save-btn.saved { background: var(--sage-bg); border-color: var(--sage-primary); color: var(--sage-primary); }
+
+        .split-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 10px; }
+        @media (max-width: 850px) { .split-layout { grid-template-columns: 1fr; } }
+
+        /* READING PRACTICE ENVIRONMENT */
+        .test-split { display: grid; grid-template-columns: 1.25fr 0.75fr; gap: 20px; }
+        @media (max-width: 900px) { .test-split { grid-template-columns: 1fr; } }
+
+        .reading-box, .question-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-light);
+            border-radius: 14px;
+            padding: 28px;
+            box-shadow: var(--shadow-subtle);
+        }
+        .reading-box { max-height: 80vh; overflow-y: auto; }
+        .meta-tags { display: flex; gap: 8px; margin-bottom: 18px; flex-wrap: wrap; }
+        .tag { background: var(--bg-subtle); color: var(--text-body); font-size: 0.74rem; padding: 4px 10px; border-radius: 6px; border: 1px solid var(--border-light); font-weight: 700; }
+        .passage-body { font-size: 1.02rem; line-height: 1.9; color: #3b332c; white-space: pre-line; text-align: justify; }
+
+        .opt-btn {
+            display: block; width: 100%; text-align: left;
+            background: var(--bg-subtle); border: 1px solid var(--border-light); color: var(--text-heading);
+            padding: 14px 16px; border-radius: 10px; margin-top: 10px; cursor: pointer;
+            font-size: 0.92rem; transition: all 0.2s ease; font-weight: 500;
+        }
+        .opt-btn:hover { border-color: var(--amber-primary); background: #fef7ed; }
+        .opt-btn.selected { border-color: var(--amber-primary) !important; background: var(--amber-hover) !important; color: #ffffff !important; font-weight: 700; }
+        .opt-btn.correct { background: #f0fdf4 !important; border-color: var(--status-correct) !important; color: var(--status-correct) !important; font-weight: 700; }
+        .opt-btn.wrong { background: #fef2f2 !important; border-color: var(--status-wrong) !important; color: var(--status-wrong) !important; font-weight: 700; }
+
+        .explanation-box { display: none; margin-top: 18px; padding: 16px; background: #fefce8; border-left: 4px solid var(--amber-primary); border-radius: 8px; font-size: 0.9rem; line-height: 1.7; color: #713f12; box-shadow: 0 2px 8px rgba(217, 119, 6, 0.08); }
+
+        .submit-btn { width: 100%; background: var(--amber-primary); color: #ffffff; border: none; padding: 13px; border-radius: 10px; font-weight: 800; font-size: 0.95rem; cursor: pointer; margin-top: 20px; transition: all 0.2s ease; box-shadow: 0 4px 14px rgba(217, 119, 6, 0.25); }
+        .submit-btn:hover { background: var(--amber-hover); transform: translateY(-1px); }
+
+        /* MODAL PERFORMANCE DASHBOARD */
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(44, 37, 32, 0.4); backdrop-filter: blur(6px); z-index: 1000; justify-content: center; align-items: center; }
+        .modal-overlay.active { display: flex; }
+        .dashboard-card { background: #ffffff; border: 1px solid var(--border-light); width: 90%; max-width: 580px; border-radius: 18px; padding: 32px; text-align: center; box-shadow: 0 20px 40px -10px rgba(44, 37, 32, 0.15); }
+        .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 22px 0; }
+        .stat-box { background: var(--bg-subtle); padding: 16px; border-radius: 10px; border: 1px solid var(--border-light); }
+        .stat-val { font-size: 1.4rem; font-weight: 800; color: var(--text-heading); }
+        .stat-lbl { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; margin-top: 4px; font-weight: 700; letter-spacing: 0.04em; }
+
+        .archive-item { background: var(--bg-card); border: 1px solid var(--border-light); padding: 16px 20px; border-radius: 10px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: all 0.2s ease; }
+        .archive-item:hover { border-color: var(--border-hover); transform: translateX(4px); box-shadow: var(--shadow-subtle); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="brand">
+            <span class="logo-box">NX</span> NEXTORY
+            <span class="sub-tag">Daily Verbal Booster</span>
+        </div>
+        <div class="nav-items">
+            <button id="btn-vocab" class="nav-btn active" onclick="navigateTab('vocab')">📖 Daily Vocab</button>
+            <button id="btn-reading" class="nav-btn" onclick="navigateTab('reading')">📑 Reading Practice</button>
+            <button id="btn-saved" class="nav-btn" onclick="navigateTab('saved')">🔖 Saved Hub (<span id="saved-count">0</span>)</button>
+            <button id="btn-archive" class="nav-btn" onclick="navigateTab('archive')">📂 Past RCs</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- 1. DAILY VOCAB TAB -->
+        <div id="panel-vocab" class="view-panel active">
+            <div class="hero-banner">
+                <h1>Master High-Frequency Vocabulary, Idioms & Phrasal Verbs</h1>
+                <p>Strengthen your verbal reasoning and comprehension foundation before diving into today's Reading Practice test.</p>
+                <button class="primary-btn" onclick="navigateTab('reading')">Proceed to Daily RC Test →</button>
+            </div>
+
+            <div class="section-header">
+                <span>Top 10 Daily Vocabulary Words</span>
+                <span style="font-size: 0.8rem; color: var(--amber-primary);">10/10 Active</span>
+            </div>
+            <div id="words-grid" class="vocab-grid">Loading Words...</div>
+
+            <div class="split-layout">
+                <div>
+                    <div class="section-header">Today's Top 5 Idioms</div>
+                    <div id="idioms-list">Loading Idioms...</div>
+                </div>
+                <div>
+                    <div class="section-header">Today's Top 5 Phrasal Verbs</div>
+                    <div id="verbs-list">Loading Phrasal Verbs...</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. READING PRACTICE TAB -->
+        <div id="panel-reading" class="view-panel">
+            <div class="test-split">
+                <!-- Left: Passage -->
+                <div class="reading-box">
+                    <div class="meta-tags">
+                        <span id="rc-genre" class="tag">Genre</span>
+                        <span id="rc-diff" class="tag">Difficulty</span>
+                        <span id="rc-count" class="tag">Word Count</span>
+                        <span id="timer-display" class="tag" style="background:var(--amber-bg); color:var(--amber-primary); border-color:#fde68a;">⏱️ 00:00</span>
+                    </div>
+                    <h2 id="rc-title" style="margin-bottom: 16px; color: var(--text-heading);">Loading Passage Title...</h2>
+                    <div id="rc-body" class="passage-body">Loading passage content...</div>
+                </div>
+
+                <!-- Right: Question Palette -->
+                <div>
+                    <div class="question-card">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                            <h3 style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">Question Palette</h3>
+                            <span id="q-progress" class="tag">Q 1 of 6</span>
+                        </div>
+                        <div id="q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading);">Loading question...</div>
+                        <div id="q-options"></div>
+                        <div id="q-explanation" class="explanation-box"></div>
+                        
+                        <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+                            <button id="prev-btn" class="nav-btn" onclick="navQuestion(-1)">← Previous</button>
+                            <button id="next-btn" class="nav-btn" onclick="navQuestion(1)">Next →</button>
+                        </div>
+                        <button id="submit-test-btn" class="submit-btn" onclick="submitTest()">🚀 Submit Test</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. SAVED HUB TAB -->
+        <div id="panel-saved" class="view-panel">
+            <div class="question-card">
+                <h2 style="margin-bottom: 6px; color: var(--text-heading);">🔖 Saved Vocab Hub</h2>
+                <p style="color:var(--text-muted); margin-bottom: 24px; font-size: 0.9rem;">Categorized list of your saved words, idioms, and phrasal verbs for easy revision.</p>
+                
+                <div class="section-header" style="border-bottom: 1px solid var(--border-light); padding-bottom: 8px; color: var(--amber-primary);">
+                    Saved Vocabulary Words (<span id="saved-words-count">0</span>)
+                </div>
+                <div id="saved-words-grid" class="vocab-grid" style="margin-bottom: 30px;">No saved words.</div>
+
+                <div class="section-header" style="border-bottom: 1px solid var(--border-light); padding-bottom: 8px; color: var(--terracotta-accent);">
+                    Saved Idioms & Phrases (<span id="saved-idioms-count">0</span>)
+                </div>
+                <div id="saved-idioms-grid" class="vocab-grid" style="margin-bottom: 30px;">No saved idioms.</div>
+
+                <div class="section-header" style="border-bottom: 1px solid var(--border-light); padding-bottom: 8px; color: var(--sage-primary);">
+                    Saved Phrasal Verbs (<span id="saved-verbs-count">0</span>)
+                </div>
+                <div id="saved-verbs-grid" class="vocab-grid">No saved phrasal verbs.</div>
+            </div>
+        </div>
+
+        <!-- 4. PAST RCS ARCHIVE TAB -->
+        <div id="panel-archive" class="view-panel">
+            <div class="question-card">
+                <h2 style="margin-bottom: 15px; color: var(--text-heading);">Past Reading Passages Archive</h2>
+                <div id="archive-container">Loading Past RCs...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL PERFORMANCE DASHBOARD -->
+    <div id="dashboard-modal" class="modal-overlay">
+        <div class="dashboard-card">
+            <h2 style="color:var(--text-heading); font-size:1.4rem;">📊 Test Performance Dashboard</h2>
+            <p style="color:var(--text-muted); font-size:0.88rem; margin-top:4px;">Detailed analysis of your speed and comprehension accuracy.</p>
+            
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div id="stat-accuracy" class="stat-val" style="color:var(--status-correct)">0%</div>
+                    <div class="stat-lbl">Accuracy</div>
+                </div>
+                <div class="stat-box">
+                    <div id="stat-speed" class="stat-val">0 WPM</div>
+                    <div class="stat-lbl">Reading Speed</div>
+                </div>
+                <div class="stat-box">
+                    <div id="stat-time" class="stat-val">0s</div>
+                    <div class="stat-lbl">Time Taken</div>
+                </div>
+                <div class="stat-box">
+                    <div id="stat-correct" class="stat-val" style="color:var(--status-correct)">0</div>
+                    <div class="stat-lbl">Correct</div>
+                </div>
+                <div class="stat-box">
+                    <div id="stat-incorrect" class="stat-val" style="color:var(--status-wrong)">0</div>
+                    <div class="stat-lbl">Incorrect</div>
+                </div>
+                <div class="stat-box">
+                    <div id="stat-unattempted" class="stat-val" style="color:var(--amber-primary)">0</div>
+                    <div class="stat-lbl">Unattempted</div>
+                </div>
+            </div>
+
+            <button class="primary-btn" style="width:100%" onclick="reviewAnswers()">🔍 Review Answers & Explanations</button>
+        </div>
+    </div>
+
+    <script>
+        let allPassages = [];
+        let currentRC = null;
+        let currentQIndex = 0;
+        let userAnswers = {};
+        let isSubmitted = false;
         
-        updateTimerDisplay();
-        timerInterval = setInterval(() => {
-            secondsElapsed++;
-            updateTimerDisplay();
-        }, 1000);
-    }
+        // TIMER STATE MANAGEMENT
+        let timerInterval = null;
+        let secondsElapsed = 0;
+        let isTimerActive = false;
+        let activeTab = 'vocab';
 
-    function pauseTimer() {
-        if (isTestRunning && !isSubmitted) {
+        let savedItems = JSON.parse(localStorage.getItem('nextory_saved')) || [];
+
+        async function loadData() {
+            try {
+                const response = await fetch('passages.json');
+                if (!response.ok) throw new Error("Network error loading passages.json");
+                
+                allPassages = await response.json();
+                const todayStr = new Date().toISOString().split('T')[0];
+                currentRC = allPassages.find(p => p.date === todayStr) || allPassages[0];
+
+                renderVocab(currentRC.vocab);
+                renderReadingTest(currentRC, false);
+                renderArchive();
+                updateSavedBadge();
+
+            } catch (err) {
+                console.error(err);
+                document.getElementById('rc-body').innerHTML = `<p style="color:var(--status-wrong)">Error loading data. Make sure passages.json file is present in root folder.</p>`;
+            }
+        }
+
+        function startTimer() {
+            if (isTimerActive) return;
+            isTimerActive = true;
+            timerInterval = setInterval(() => {
+                secondsElapsed++;
+                updateTimerDisplay();
+            }, 1000);
+        }
+
+        function pauseTimer() {
             clearInterval(timerInterval);
-            isTimerPaused = true;
+            isTimerActive = false;
+        }
+
+        function updateTimerDisplay() {
             const mins = Math.floor(secondsElapsed / 60).toString().padStart(2, '0');
             const secs = (secondsElapsed % 60).toString().padStart(2, '0');
-            document.getElementById('timer-display').innerText = `⏱️ ${mins}:${secs} (Paused)`;
-        }
-    }
-
-    function updateTimerDisplay() {
-        const mins = Math.floor(secondsElapsed / 60).toString().padStart(2, '0');
-        const secs = (secondsElapsed % 60).toString().padStart(2, '0');
-        document.getElementById('timer-display').innerText = `⏱️ ${mins}:${secs}`;
-    }
-
-    // NAVIGATION GUARD WITH WARNING SIGNAL
-    function handleNavigation(targetTab) {
-        const currentTab = document.querySelector('.view-panel.active').id.replace('panel-', '');
-        
-        if (currentTab === 'reading' && isTestRunning && !isSubmitted && targetTab !== 'reading') {
-            const confirmLeave = confirm("⚠️ If you leave this page, your RC test timer will be paused.\n\nClick OK to proceed.");
-            if (!confirmLeave) return;
-            
-            pauseTimer();
+            document.getElementById('timer-display').innerText = `⏱️ ${mins}:${secs}`;
         }
 
-        showTab(targetTab);
-    }
+        // TAB NAVIGATION WITH WARNING PROMPT
+        function navigateTab(targetTab) {
+            if (targetTab === activeTab) return;
 
-    function showTab(tabName) {
-        document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
-        document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+            // If navigating AWAY from Reading Practice during an active, unsubmitted test
+            if (activeTab === 'reading' && isTimerActive && !isSubmitted) {
+                const confirmLeave = confirm("If you change the page, your RC test timer will be paused. Click OK to proceed.");
+                if (!confirmLeave) return;
+                pauseTimer();
+            }
 
-        document.getElementById('panel-' + tabName).classList.add('active');
-        document.getElementById('btn-' + tabName).classList.add('active');
+            showTab(targetTab);
+        }
 
-        if (tabName === 'reading') {
-            if (isTestRunning && isTimerPaused && !isSubmitted) {
-                startTimer(); // Resume existing timer
-            } else if (!isTestRunning && !isSubmitted) {
-                startTimer(); // Fresh start
+        function showTab(tabName) {
+            activeTab = tabName;
+            document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+
+            document.getElementById('panel-' + tabName).classList.add('active');
+            document.getElementById('btn-' + tabName).classList.add('active');
+
+            if (tabName === 'reading') {
+                if (!isSubmitted) startTimer();
+            }
+
+            if (tabName === 'saved') {
+                renderSavedHub();
             }
         }
 
-        if (tabName === 'saved') {
-            renderSavedHub();
+        function toggleSave(title, def, ex, type, category) {
+            const index = savedItems.findIndex(i => i.title === title);
+            if (index > -1) {
+                savedItems.splice(index, 1);
+            } else {
+                savedItems.push({ title, def, ex, type, category });
+            }
+            localStorage.setItem('nextory_saved', JSON.stringify(savedItems));
+            updateSavedBadge();
+            renderVocab(currentRC.vocab);
+            if (activeTab === 'saved') renderSavedHub();
         }
-    }
 
-    function startTest() {
-        handleNavigation('reading');
-    }
-
-    function toggleSave(title, def, ex, type, category) {
-        const index = savedItems.findIndex(i => i.title === title);
-        if (index > -1) {
-            savedItems.splice(index, 1);
-        } else {
-            savedItems.push({ title, def, ex, type, category });
+        function isSaved(title) {
+            return savedItems.some(i => i.title === title);
         }
-        localStorage.setItem('nextory_saved', JSON.stringify(savedItems));
-        updateSavedBadge();
-        renderVocab(currentRC.vocab);
-        if (document.getElementById('panel-saved').classList.contains('active')) {
-            renderSavedHub();
+
+        function updateSavedBadge() {
+            document.getElementById('saved-count').innerText = savedItems.length;
         }
-    }
 
-    function isSaved(title) {
-        return savedItems.some(i => i.title === title);
-    }
+        function renderSavedHub() {
+            const wordsList = savedItems.filter(i => i.category === 'Word');
+            const idiomsList = savedItems.filter(i => i.category === 'Idiom');
+            const verbsList = savedItems.filter(i => i.category === 'Phrasal Verb');
 
-    function updateSavedBadge() {
-        document.getElementById('saved-count').innerText = savedItems.length;
-    }
+            document.getElementById('saved-words-count').innerText = wordsList.length;
+            document.getElementById('saved-idioms-count').innerText = idiomsList.length;
+            document.getElementById('saved-verbs-count').innerText = verbsList.length;
 
-    function renderSavedHub() {
-        const wordsList = savedItems.filter(i => i.category === 'Word');
-        const idiomsList = savedItems.filter(i => i.category === 'Idiom');
-        const verbsList = savedItems.filter(i => i.category === 'Phrasal Verb');
+            const renderCardList = (list) => {
+                if (list.length === 0) return "<p style='color:var(--text-muted); font-size:0.85rem;'>No items saved in this category.</p>";
+                return list.map(item => `
+                    <div class="vocab-card">
+                        <button class="save-btn saved" onclick="toggleSave('${item.title}', '${item.def}', '${item.ex}', '${item.type}', '${item.category}')">Remove</button>
+                        <span class="word-title">${item.title}</span> <span class="word-type">(${item.type})</span>
+                        <div class="word-def">${item.def}</div>
+                        <div class="word-ex">"${item.ex}"</div>
+                    </div>
+                `).join('');
+            };
 
-        document.getElementById('saved-words-count').innerText = wordsList.length;
-        document.getElementById('saved-idioms-count').innerText = idiomsList.length;
-        document.getElementById('saved-verbs-count').innerText = verbsList.length;
+            document.getElementById('saved-words-grid').innerHTML = renderCardList(wordsList);
+            document.getElementById('saved-idioms-grid').innerHTML = renderCardList(idiomsList);
+            document.getElementById('saved-verbs-grid').innerHTML = renderCardList(verbsList);
+        }
 
-        const renderCardList = (list) => {
-            if (list.length === 0) return "<p style='color:var(--text-muted); font-size:0.85rem;'>No items saved in this category.</p>";
-            return list.map(item => `
+        function renderVocab(vocab) {
+            if (!vocab) return;
+
+            const wordsHtml = (vocab.words || []).map(w => {
+                const saved = isSaved(w.word);
+                return `
                 <div class="vocab-card">
-                    <button class="save-btn saved" onclick="toggleSave('${item.title}', '${item.def}', '${item.ex}', '${item.type}', '${item.category}')">Remove</button>
-                    <span class="word-title">${item.title}</span> <span class="word-type">${item.type}</span>
-                    <div class="word-def">${item.def}</div>
-                    <div class="word-ex">"${item.ex}"</div>
-                </div>
-            `).join('');
-        };
+                    <button class="save-btn ${saved ? 'saved' : ''}" onclick="toggleSave('${w.word}', '${w.def}', '${w.ex}', '${w.type}', 'Word')">${saved ? '🔖 Saved' : '🔖 Save'}</button>
+                    <span class="word-title">${w.word}</span> <span class="word-type">(${w.type})</span>
+                    <div class="word-def">${w.def}</div>
+                    <div class="word-ex">"${w.ex}"</div>
+                </div>`;
+            }).join('');
+            document.getElementById('words-grid').innerHTML = wordsHtml;
 
-        document.getElementById('saved-words-grid').innerHTML = renderCardList(wordsList);
-        document.getElementById('saved-idioms-grid').innerHTML = renderCardList(idiomsList);
-        document.getElementById('saved-verbs-grid').innerHTML = renderCardList(verbsList);
-    }
+            const idiomsHtml = (vocab.idioms || []).map(i => {
+                const saved = isSaved(i.idiom);
+                return `
+                <div class="vocab-card" style="margin-bottom: 10px;">
+                    <button class="save-btn ${saved ? 'saved' : ''}" onclick="toggleSave('${i.idiom}', '${i.def}', '${i.ex}', 'Idiom', 'Idiom')">${saved ? '🔖 Saved' : '🔖 Save'}</button>
+                    <span class="word-title" style="color:var(--terracotta-accent)">${i.idiom}</span>
+                    <div class="word-def">${i.def}</div>
+                    <div class="word-ex">"${i.ex}"</div>
+                </div>`;
+            }).join('');
+            document.getElementById('idioms-list').innerHTML = idiomsHtml;
 
-    function renderVocab(vocab) {
-        if (!vocab) return;
-
-        const wordsHtml = (vocab.words || []).map(w => {
-            const saved = isSaved(w.word);
-            return `
-            <div class="vocab-card">
-                <button class="save-btn ${saved ? 'saved' : ''}" onclick="toggleSave('${w.word}', '${w.def}', '${w.ex}', '${w.type}', 'Word')">${saved ? 'Saved' : 'Save'}</button>
-                <span class="word-title">${w.word}</span> <span class="word-type">${w.type}</span>
-                <div class="word-def">${w.def}</div>
-                <div class="word-ex">"${w.ex}"</div>
-            </div>`;
-        }).join('');
-        document.getElementById('words-grid').innerHTML = wordsHtml;
-
-        const idiomsHtml = (vocab.idioms || []).map(i => {
-            const saved = isSaved(i.idiom);
-            return `
-            <div class="vocab-card" style="margin-bottom: 10px;">
-                <button class="save-btn ${saved ? 'saved' : ''}" onclick="toggleSave('${i.idiom}', '${i.def}', '${i.ex}', 'Idiom', 'Idiom')">${saved ? 'Saved' : 'Save'}</button>
-                <span class="word-title">${i.idiom}</span>
-                <div class="word-def">${i.def}</div>
-                <div class="word-ex">"${i.ex}"</div>
-            </div>`;
-        }).join('');
-        document.getElementById('idioms-list').innerHTML = idiomsHtml;
-
-        const verbsHtml = (vocab.phrasalVerbs || []).map(v => {
-            const saved = isSaved(v.verb);
-            return `
-            <div class="vocab-card" style="margin-bottom: 10px;">
-                <button class="save-btn ${saved ? 'saved' : ''}" onclick="toggleSave('${v.verb}', '${v.def}', '${v.ex}', 'Phrasal Verb', 'Phrasal Verb')">${saved ? 'Saved' : 'Save'}</button>
-                <span class="word-title">${v.verb}</span>
-                <div class="word-def">${v.def}</div>
-                <div class="word-ex">"${v.ex}"</div>
-            </div>`;
-        }).join('');
-        document.getElementById('verbs-list').innerHTML = verbsHtml;
-    }
-
-    function setupReadingTest(rc) {
-        document.getElementById('rc-genre').innerText = rc.genre || 'General';
-        document.getElementById('rc-diff').innerText = rc.difficulty || 'Standard';
-        document.getElementById('rc-count').innerText = rc.wordCount || '1000 words';
-        document.getElementById('rc-title').innerText = rc.title;
-        document.getElementById('rc-body').innerText = rc.passage || rc.content;
-
-        userAnswers = {};
-        isSubmitted = false;
-        isTestRunning = false;
-        secondsElapsed = 0;
-        currentQIndex = 0;
-        renderQuestion();
-    }
-
-    function renderQuestion() {
-        const qList = currentRC.questions || [];
-        if (qList.length === 0) return;
-
-        const q = qList[currentQIndex];
-        document.getElementById('q-progress').innerText = `Q ${currentQIndex + 1} of ${qList.length}`;
-        document.getElementById('q-text').innerText = q.question;
-        
-        const expBox = document.getElementById('q-explanation');
-        
-        if (isSubmitted) {
-            expBox.style.display = 'block';
-            expBox.innerHTML = q.explanation;
-        } else {
-            expBox.style.display = 'none';
+            const verbsHtml = (vocab.phrasalVerbs || []).map(v => {
+                const saved = isSaved(v.verb);
+                return `
+                <div class="vocab-card" style="margin-bottom: 10px;">
+                    <button class="save-btn ${saved ? 'saved' : ''}" onclick="toggleSave('${v.verb}', '${v.def}', '${v.ex}', 'Phrasal Verb', 'Phrasal Verb')">${saved ? '🔖 Saved' : '🔖 Save'}</button>
+                    <span class="word-title" style="color:var(--sage-primary)">${v.verb}</span>
+                    <div class="word-def">${v.def}</div>
+                    <div class="word-ex">"${v.ex}"</div>
+                </div>`;
+            }).join('');
+            document.getElementById('verbs-list').innerHTML = verbsHtml;
         }
 
-        const optionsHtml = q.options.map((opt, idx) => {
-            let btnClass = "opt-btn";
-            if (userAnswers[currentQIndex] === idx) btnClass += " selected";
+        function renderReadingTest(rc, resetTimer = true) {
+            document.getElementById('rc-genre').innerText = rc.genre || 'General';
+            document.getElementById('rc-diff').innerText = rc.difficulty || 'Standard';
+            document.getElementById('rc-count').innerText = rc.wordCount || '1000 words';
+            document.getElementById('rc-title').innerText = rc.title;
+            document.getElementById('rc-body').innerText = rc.passage || rc.content;
+
+            userAnswers = {};
+            isSubmitted = false;
+            currentQIndex = 0;
             
-            if (isSubmitted) {
-                if (idx === q.answer) btnClass += " correct";
-                else if (userAnswers[currentQIndex] === idx) btnClass += " wrong";
+            if (resetTimer) {
+                pauseTimer();
+                secondsElapsed = 0;
+                updateTimerDisplay();
             }
 
-            return `<button class="${btnClass}" onclick="selectOption(${idx})">${opt}</button>`;
-        }).join('');
-        
-        document.getElementById('q-options').innerHTML = optionsHtml;
-    }
-
-    function selectOption(idx) {
-        if (isSubmitted) return;
-        userAnswers[currentQIndex] = idx;
-        renderQuestion();
-    }
-
-    function navQuestion(dir) {
-        const total = (currentRC.questions || []).length;
-        const newIndex = currentQIndex + dir;
-
-        if (newIndex >= 0 && newIndex < total) {
-            currentQIndex = newIndex;
             renderQuestion();
         }
-    }
 
-    function submitTest() {
-        clearInterval(timerInterval);
-        isSubmitted = true;
-        isTestRunning = false;
+        function renderQuestion() {
+            const qList = currentRC.questions || [];
+            if (qList.length === 0) return;
 
-        const qList = currentRC.questions || [];
-        let correct = 0, incorrect = 0, unattempted = 0;
-
-        qList.forEach((q, idx) => {
-            if (userAnswers[idx] === undefined) {
-                unattempted++;
-            } else if (userAnswers[idx] === q.answer) {
-                correct++;
+            const q = qList[currentQIndex];
+            document.getElementById('q-progress').innerText = `Q ${currentQIndex + 1} of ${qList.length}`;
+            document.getElementById('q-text').innerText = q.question;
+            
+            const expBox = document.getElementById('q-explanation');
+            
+            if (isSubmitted) {
+                expBox.style.display = 'block';
+                expBox.innerHTML = q.explanation;
             } else {
-                incorrect++;
+                expBox.style.display = 'none';
             }
-        });
 
-        const attemptedTotal = correct + incorrect;
-        const accuracy = attemptedTotal > 0 ? Math.round((correct / attemptedTotal) * 100) : 0;
-        
-        const approxWordCount = 1000;
-        const mins = secondsElapsed / 60;
-        const wpm = mins > 0 ? Math.round(approxWordCount / mins) : 0;
+            const optionsHtml = q.options.map((opt, idx) => {
+                let btnClass = "opt-btn";
+                if (userAnswers[currentQIndex] === idx) btnClass += " selected";
+                
+                if (isSubmitted) {
+                    if (idx === q.answer) btnClass += " correct";
+                    else if (userAnswers[currentQIndex] === idx) btnClass += " wrong";
+                }
 
-        document.getElementById('stat-accuracy').innerText = `${accuracy}%`;
-        document.getElementById('stat-speed').innerText = `${wpm} WPM`;
-        document.getElementById('stat-time').innerText = `${secondsElapsed}s`;
-        document.getElementById('stat-correct').innerText = correct;
-        document.getElementById('stat-incorrect').innerText = incorrect;
-        document.getElementById('stat-unattempted').innerText = unattempted;
-
-        document.getElementById('dashboard-modal').classList.add('active');
-    }
-
-    function reviewAnswers() {
-        document.getElementById('dashboard-modal').classList.remove('active');
-        renderQuestion();
-    }
-
-    function renderArchive() {
-        const archiveHtml = allPassages.map(p => `
-            <div class="archive-item" onclick="selectArchiveRC('${p.id}')">
-                <div>
-                    <strong style="color:var(--text-heading); font-size:0.95rem;">${p.title}</strong>
-                    <div style="font-size:0.8rem; color:var(--text-muted); margin-top:2px;">${p.genre} | ${p.date || 'Practice Set'}</div>
-                </div>
-                <span class="sub-tag">Open Test</span>
-            </div>
-        `).join('');
-        document.getElementById('archive-container').innerHTML = archiveHtml;
-    }
-
-    function selectArchiveRC(id) {
-        if (isTestRunning && !isSubmitted) {
-            const confirmSwitch = confirm("⚠️ If you switch passages, your active timer will pause.\n\nClick OK to proceed.");
-            if (!confirmSwitch) return;
-            pauseTimer();
+                return `<button class="${btnClass}" onclick="selectOption(${idx})">${opt}</button>`;
+            }).join('');
+            
+            document.getElementById('q-options').innerHTML = optionsHtml;
         }
 
-        currentRC = allPassages.find(p => p.id === id);
-        setupReadingTest(currentRC);
-        renderVocab(currentRC.vocab);
-        showTab('reading');
-    }
+        function selectOption(idx) {
+            if (isSubmitted) return;
+            userAnswers[currentQIndex] = idx;
+            renderQuestion();
+        }
 
-    loadData();
-</script>
+        function navQuestion(dir) {
+            const total = (currentRC.questions || []).length;
+            const newIndex = currentQIndex + dir;
+
+            if (newIndex >= 0 && newIndex < total) {
+                currentQIndex = newIndex;
+                renderQuestion();
+            }
+        }
+
+        function submitTest() {
+            pauseTimer();
+            isSubmitted = true;
+
+            const qList = currentRC.questions || [];
+            let correct = 0, incorrect = 0, unattempted = 0;
+
+            qList.forEach((q, idx) => {
+                if (userAnswers[idx] === undefined) {
+                    unattempted++;
+                } else if (userAnswers[idx] === q.answer) {
+                    correct++;
+                } else {
+                    incorrect++;
+                }
+            });
+
+            const attemptedTotal = correct + incorrect;
+            const accuracy = attemptedTotal > 0 ? Math.round((correct / attemptedTotal) * 100) : 0;
+            
+            const approxWordCount = 1000;
+            const mins = secondsElapsed / 60;
+            const wpm = mins > 0 ? Math.round(approxWordCount / mins) : 0;
+
+            document.getElementById('stat-accuracy').innerText = `${accuracy}%`;
+            document.getElementById('stat-speed').innerText = `${wpm} WPM`;
+            document.getElementById('stat-time').innerText = `${secondsElapsed}s`;
+            document.getElementById('stat-correct').innerText = correct;
+            document.getElementById('stat-incorrect').innerText = incorrect;
+            document.getElementById('stat-unattempted').innerText = unattempted;
+
+            document.getElementById('dashboard-modal').classList.add('active');
+        }
+
+        function reviewAnswers() {
+            document.getElementById('dashboard-modal').classList.remove('active');
+            renderQuestion();
+        }
+
+        function renderArchive() {
+            const archiveHtml = allPassages.map(p => `
+                <div class="archive-item" onclick="selectArchiveRC('${p.id}')">
+                    <div>
+                        <strong style="color:var(--text-heading);">${p.title}</strong>
+                        <div style="font-size:0.8rem; color:var(--text-muted); margin-top:4px;">${p.genre} | ${p.date || 'Practice Set'}</div>
+                    </div>
+                    <span class="sub-tag">Open Test</span>
+                </div>
+            `).join('');
+            document.getElementById('archive-container').innerHTML = archiveHtml;
+        }
+
+        function selectArchiveRC(id) {
+            if (activeTab === 'reading' && isTimerActive && !isSubmitted) {
+                const confirmLeave = confirm("If you switch passages, your current test timer will pause. Click OK to proceed.");
+                if (!confirmLeave) return;
+            }
+
+            currentRC = allPassages.find(p => p.id === id);
+            renderReadingTest(currentRC, true);
+            renderVocab(currentRC.vocab);
+            navigateTab('reading');
+        }
+
+        loadData();
+    </script>
+</body>
+</html>
