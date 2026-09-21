@@ -256,12 +256,29 @@
             </div>
         </div>
 
-        <!-- 3. SAVED HUB TAB -->
+        <!-- 3. SAVED HUB TAB (CATEGORY-WISE BREAKDOWN) -->
         <div id="panel-saved" class="view-panel">
             <div class="question-card">
-                <h2 style="margin-bottom: 15px; color: var(--accent);">🔖 Your Saved Vocab Hub</h2>
-                <p style="color:var(--text-muted); margin-bottom: 20px; font-size: 0.9rem;">Review your bookmarked vocabulary words, idioms, and phrasal verbs anytime.</p>
-                <div id="saved-items-grid" class="vocab-grid">No items saved yet.</div>
+                <h2 style="margin-bottom: 6px; color: var(--accent);">🔖 Your Saved Vocab Hub</h2>
+                <p style="color:var(--text-muted); margin-bottom: 20px; font-size: 0.9rem;">Categorized list of your saved words, idioms, and phrasal verbs for easy revision.</p>
+                
+                <!-- Category 1: Vocabulary Words -->
+                <div class="section-header" style="color: #818cf8; border-bottom: 1px solid var(--card-border); padding-bottom: 8px;">
+                    🔷 Saved Vocabulary Words (<span id="saved-words-count">0</span>)
+                </div>
+                <div id="saved-words-grid" class="vocab-grid" style="margin-bottom: 30px;">No saved words.</div>
+
+                <!-- Category 2: Idioms -->
+                <div class="section-header" style="color: #f59e0b; border-bottom: 1px solid var(--card-border); padding-bottom: 8px;">
+                    💬 Saved Idioms & Phrases (<span id="saved-idioms-count">0</span>)
+                </div>
+                <div id="saved-idioms-grid" class="vocab-grid" style="margin-bottom: 30px;">No saved idioms.</div>
+
+                <!-- Category 3: Phrasal Verbs -->
+                <div class="section-header" style="color: #10b981; border-bottom: 1px solid var(--card-border); padding-bottom: 8px;">
+                    ⚡ Saved Phrasal Verbs (<span id="saved-verbs-count">0</span>)
+                </div>
+                <div id="saved-verbs-grid" class="vocab-grid">No saved phrasal verbs.</div>
             </div>
         </div>
 
@@ -321,7 +338,6 @@
         let timerInterval = null;
         let secondsElapsed = 0;
 
-        // LOCAL STORAGE FOR SAVED ITEMS
         let savedItems = JSON.parse(localStorage.getItem('nextory_saved')) || [];
 
         async function loadData() {
@@ -344,9 +360,11 @@
             }
         }
 
+        // TIMER RESET FUNCTIONALITY
         function startTimer() {
             clearInterval(timerInterval);
             secondsElapsed = 0;
+            document.getElementById('timer-display').innerText = `⏱️ 00:00`;
             timerInterval = setInterval(() => {
                 secondsElapsed++;
                 const mins = Math.floor(secondsElapsed / 60).toString().padStart(2, '0');
@@ -362,15 +380,21 @@
             document.getElementById('panel-' + tabName).classList.add('active');
             document.getElementById('btn-' + tabName).classList.add('active');
 
-            if (tabName === 'saved') renderSavedHub();
+            // IF MOVING TO READING TAB, RESET TIMER AND ANSWERS
+            if (tabName === 'reading') {
+                renderReadingTest(currentRC);
+            }
+
+            if (tabName === 'saved') {
+                renderSavedHub();
+            }
         }
 
         function startTest() {
             showTab('reading');
-            startTimer();
         }
 
-        // SAVE / BOOKMARK VOCABULARY FUNCTIONALITY
+        // SAVE & BOOKMARK LOGIC
         function toggleSave(title, def, ex, type, category) {
             const index = savedItems.findIndex(i => i.title === title);
             if (index > -1) {
@@ -394,28 +418,37 @@
             document.getElementById('saved-count').innerText = savedItems.length;
         }
 
+        // CATEGORY-WISE SAVED HUB RENDER
         function renderSavedHub() {
-            const grid = document.getElementById('saved-items-grid');
-            if (savedItems.length === 0) {
-                grid.innerHTML = "<p style='color:var(--text-muted)'>No bookmarked items yet. Click 🔖 Save on any word, idiom, or phrasal verb to collect them here.</p>";
-                return;
-            }
+            const wordsList = savedItems.filter(i => i.category === 'Word');
+            const idiomsList = savedItems.filter(i => i.category === 'Idiom');
+            const verbsList = savedItems.filter(i => i.category === 'Phrasal Verb');
 
-            grid.innerHTML = savedItems.map(item => `
-                <div class="vocab-card">
-                    <button class="save-btn saved" onclick="toggleSave('${item.title}', '${item.def}', '${item.ex}', '${item.type}', '${item.category}')">Remove</button>
-                    <span class="word-title">${item.title}</span> <span class="word-type">(${item.type || item.category})</span>
-                    <div class="word-def">${item.def}</div>
-                    <div class="word-ex">"${item.ex}"</div>
-                </div>
-            `).join('');
+            document.getElementById('saved-words-count').innerText = wordsList.length;
+            document.getElementById('saved-idioms-count').innerText = idiomsList.length;
+            document.getElementById('saved-verbs-count').innerText = verbsList.length;
+
+            const renderCardList = (list) => {
+                if (list.length === 0) return "<p style='color:var(--text-muted); font-size:0.85rem;'>No items saved in this category.</p>";
+                return list.map(item => `
+                    <div class="vocab-card">
+                        <button class="save-btn saved" onclick="toggleSave('${item.title}', '${item.def}', '${item.ex}', '${item.type}', '${item.category}')">Remove</button>
+                        <span class="word-title">${item.title}</span> <span class="word-type">(${item.type})</span>
+                        <div class="word-def">${item.def}</div>
+                        <div class="word-ex">"${item.ex}"</div>
+                    </div>
+                `).join('');
+            };
+
+            document.getElementById('saved-words-grid').innerHTML = renderCardList(wordsList);
+            document.getElementById('saved-idioms-grid').innerHTML = renderCardList(idiomsList);
+            document.getElementById('saved-verbs-grid').innerHTML = renderCardList(verbsList);
         }
 
         // RENDER VOCABULARY
         function renderVocab(vocab) {
             if (!vocab) return;
 
-            // Render 10 Words
             const wordsHtml = (vocab.words || []).map(w => {
                 const saved = isSaved(w.word);
                 return `
@@ -428,7 +461,6 @@
             }).join('');
             document.getElementById('words-grid').innerHTML = wordsHtml;
 
-            // Render 5 Idioms
             const idiomsHtml = (vocab.idioms || []).map(i => {
                 const saved = isSaved(i.idiom);
                 return `
@@ -441,7 +473,6 @@
             }).join('');
             document.getElementById('idioms-list').innerHTML = idiomsHtml;
 
-            // Render 5 Phrasal Verbs
             const verbsHtml = (vocab.phrasalVerbs || []).map(v => {
                 const saved = isSaved(v.verb);
                 return `
@@ -467,7 +498,7 @@
             isSubmitted = false;
             currentQIndex = 0;
             renderQuestion();
-            startTimer();
+            startTimer(); // Always restarts timer from 00:00
         }
 
         function renderQuestion() {
@@ -480,7 +511,6 @@
             
             const expBox = document.getElementById('q-explanation');
             
-            // SHOW EXPLANATION ONLY AFTER TEST SUBMIT
             if (isSubmitted) {
                 expBox.style.display = 'block';
                 expBox.innerHTML = q.explanation;
@@ -558,7 +588,6 @@
             renderQuestion();
         }
 
-        // ARCHIVE RENDER
         function renderArchive() {
             const archiveHtml = allPassages.map(p => `
                 <div class="archive-item" onclick="selectArchiveRC('${p.id}')">
