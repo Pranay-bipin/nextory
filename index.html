@@ -176,7 +176,7 @@
     <header>
         <div class="brand">
             <span class="logo-box">NX</span> NEXTORY
-            <span class="sub-tag">IPMAT & CAT Verbal Booster</span>
+            <span class="sub-tag">IPMAT Verbal Booster</span>
         </div>
         <div class="nav-items">
             <button id="btn-vocab" class="nav-btn active" onclick="navigateTab('vocab')">📖 Daily Vocab</button>
@@ -190,8 +190,8 @@
         <!-- 1. DAILY VOCAB TAB -->
         <div id="panel-vocab" class="view-panel active">
             <div class="hero-banner">
-                <h1>Master High-Frequency Vocabulary, Idioms & Phrasal Verbs for IPMAT & CAT</h1>
-                <p>Strengthen your verbal reasoning, reading speed, and comprehension foundation before diving into today's IPMAT/CAT Standard Reading Practice test.</p>
+                <h1>Master High-Frequency Vocabulary, Idioms & Phrasal Verbs for IPMAT</h1>
+                <p>Strengthen your verbal reasoning, reading speed, and comprehension foundation before diving into today's IPMAT Advanced Standard Reading Practice test.</p>
                 <button class="primary-btn" onclick="navigateTab('reading')">Proceed to Daily RC Test →</button>
             </div>
 
@@ -220,7 +220,7 @@
                 <div class="reading-box">
                     <div class="meta-tags">
                         <span id="rc-genre" class="tag">Genre</span>
-                        <span id="rc-diff" class="tag">IPMAT / CAT Standard</span>
+                        <span id="rc-diff" class="tag">IPMAT Advanced Standard</span>
                         <span id="rc-count" class="tag">1000+ words</span>
                         <span id="timer-display" class="tag" style="background:var(--amber-bg); color:var(--amber-primary); border-color:#fde68a;">⏱️ 00:00</span>
                     </div>
@@ -275,7 +275,7 @@
         <!-- 4. PAST RCS ARCHIVE TAB -->
         <div id="panel-archive" class="view-panel">
             <div class="question-card">
-                <h2 style="margin-bottom: 15px; color: var(--text-heading);">Past Reading Passages Archive (IPMAT / CAT Standard)</h2>
+                <h2 style="margin-bottom: 15px; color: var(--text-heading);">Past Reading Passages Archive (IPMAT Advanced Standard)</h2>
                 <div id="archive-container">Loading Past RCs...</div>
             </div>
         </div>
@@ -326,7 +326,7 @@
             "date": "2026-09-17",
             "title": "Algorithmic Governance and the Erosion of Democratic Accountability",
             "genre": "Sociology & Epistemology",
-            "difficulty": "IPMAT / CAT Standard",
+            "difficulty": "IPMAT Advanced Standard",
             "wordCount": "1000+ words",
             "vocab": {
               "words": [
@@ -371,7 +371,7 @@
             "date": "2026-09-18",
             "title": "Behavioral Economics and the Systematic Fallacies of Human Choice",
             "genre": "Economics & Psychology",
-            "difficulty": "IPMAT / CAT Standard",
+            "difficulty": "IPMAT Advanced Standard",
             "wordCount": "1000+ words",
             "vocab": {
               "words": [
@@ -416,7 +416,7 @@
             "date": "2026-09-19",
             "title": "Neuromarketing and the Commercial Colonization of Subconscious Desire",
             "genre": "Neurology & Consumer Culture",
-            "difficulty": "IPMAT / CAT Standard",
+            "difficulty": "IPMAT Advanced Standard",
             "wordCount": "1000+ words",
             "vocab": {
               "words": [
@@ -461,7 +461,7 @@
             "date": "2026-09-20",
             "title": "Postmodernism and the Collapse of Grand Narratives",
             "genre": "Philosophy & Cultural Criticism",
-            "difficulty": "IPMAT / CAT Standard",
+            "difficulty": "IPMAT Advanced Standard",
             "wordCount": "1000+ words",
             "vocab": {
               "words": [
@@ -506,7 +506,7 @@
             "date": "2026-09-21",
             "title": "Anthropocene and the Rethinking of Geological Time",
             "genre": "Environmental Studies & Geology",
-            "difficulty": "IPMAT / CAT Standard",
+            "difficulty": "IPMAT Advanced Standard",
             "wordCount": "1000+ words",
             "vocab": {
               "words": [
@@ -551,7 +551,7 @@
             "date": "2026-09-22",
             "title": "Quantum Mechanics and the Crisis of Scientific Realism",
             "genre": "Quantum Physics & Epistemology",
-            "difficulty": "IPMAT / CAT Standard",
+            "difficulty": "IPMAT Advanced Standard",
             "wordCount": "1000+ words",
             "vocab": {
               "words": [
@@ -596,7 +596,7 @@
             "date": "2026-09-23",
             "title": "Generative Artificial Intelligence and the Ontological Status of Human Creativity",
             "genre": "Technology & Aesthetics",
-            "difficulty": "IPMAT / CAT Standard",
+            "difficulty": "IPMAT Advanced Standard",
             "wordCount": "1000+ words",
             "vocab": {
               "words": [
@@ -666,17 +666,15 @@
             }
 
             // CRITICAL DATE FILTERING LOGIC:
-            // Get today's system date in YYYY-MM-DD
             const todayStr = new Date().toISOString().split('T')[0];
 
-            // 1. Filter out FUTURE passages (dates > today) so 22, 23 Sept won't show before midnight!
+            // Filter out FUTURE passages (dates > today) so 22, 23 Sept won't show before midnight!
             const availablePassages = allPassages.filter(p => p.date <= todayStr);
 
-            // If no past passage matches exactly today, take the most recent available unlocked passage
             if (availablePassages.length > 0) {
                 currentRC = availablePassages.find(p => p.date === todayStr) || availablePassages[availablePassages.length - 1];
             } else {
-                currentRC = allPassages[0]; // fallback safety
+                currentRC = allPassages[0];
             }
 
             renderVocab(currentRC.vocab);
@@ -823,7 +821,7 @@
 
         function renderReadingTest(rc, resetTimer = true) {
             document.getElementById('rc-genre').innerText = rc.genre || 'General';
-            document.getElementById('rc-diff').innerText = 'IPMAT / CAT Standard';
+            document.getElementById('rc-diff').innerText = 'IPMAT Advanced Standard';
             document.getElementById('rc-count').innerText = rc.wordCount || '1000+ words';
             document.getElementById('rc-title').innerText = rc.title;
             document.getElementById('rc-body').innerText = rc.passage || rc.content;
@@ -935,7 +933,7 @@
                 <div class="archive-item" onclick="selectArchiveRC('${p.id}')">
                     <div>
                         <strong style="color:var(--text-heading);">${p.title}</strong>
-                        <div style="font-size:0.8rem; color:var(--text-muted); margin-top:4px;">${p.genre} | ${p.date || 'IPMAT / CAT Practice Set'}</div>
+                        <div style="font-size:0.8rem; color:var(--text-muted); margin-top:4px;">${p.genre} | ${p.date || 'IPMAT Practice Set'}</div>
                     </div>
                     <span class="sub-tag">Open Test</span>
                 </div>
