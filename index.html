@@ -29,7 +29,6 @@
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif; }
         body { background-color: var(--bg-page); color: var(--text-body); min-height: 100vh; letter-spacing: -0.01em; line-height: 1.6; }
 
-        /* HEADER & NAVIGATION */
         header {
             background: #ffffff;
             border-bottom: 1px solid var(--border-light);
@@ -62,12 +61,10 @@
         .nav-btn:hover { color: var(--text-heading); background: var(--bg-subtle); }
         .nav-btn.active { background: var(--text-heading); color: #ffffff; box-shadow: 0 2px 8px rgba(44, 37, 32, 0.15); }
 
-        /* CONTAINER & PANELS */
         .container { max-width: 1220px; margin: 30px auto; padding: 0 20px; }
         .view-panel { display: none; }
         .view-panel.active { display: block; }
 
-        /* HERO BANNER */
         .hero-banner {
             background: linear-gradient(135deg, #fef3c7 0%, #ffedd5 50%, #fef2f2 100%);
             border: 1px solid #fde68a;
@@ -94,7 +91,6 @@
         }
         .primary-btn:hover { background: var(--amber-hover); transform: translateY(-1px); }
 
-        /* SECTION HEADERS & GRID */
         .section-header { font-size: 0.9rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin: 28px 0 14px; display: flex; justify-content: space-between; align-items: center; }
         .vocab-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
         .vocab-card {
@@ -124,7 +120,7 @@
             font-size: 0.74rem;
             font-weight: 700;
             cursor: pointer;
-            transition: all 0.2s case;
+            transition: all 0.2s ease;
         }
         .save-btn:hover { background: var(--amber-bg); border-color: var(--amber-primary); color: var(--amber-primary); }
         .save-btn.saved { background: var(--sage-bg); border-color: var(--sage-primary); color: var(--sage-primary); }
@@ -132,7 +128,6 @@
         .split-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 10px; }
         @media (max-width: 850px) { .split-layout { grid-template-columns: 1fr; } }
 
-        /* READING PRACTICE ENVIRONMENT */
         .test-split { display: grid; grid-template-columns: 1.25fr 0.75fr; gap: 20px; }
         @media (max-width: 900px) { .test-split { grid-template-columns: 1fr; } }
 
@@ -155,7 +150,7 @@
             font-size: 0.92rem; transition: all 0.2s ease; font-weight: 500;
         }
         .opt-btn:hover { border-color: var(--amber-primary); background: #fef7ed; }
-        .opt-btn.selected { border-color: var(--amber-primary) !important; background: var(--amber-hover) !important; color: #ffffff !important; font-weight: 700; }
+        .opt-btn.selected { border-color: var(--amber-primary) !important; background: var(--amber-primary) !important; color: #ffffff !important; font-weight: 700; }
         .opt-btn.correct { background: #f0fdf4 !important; border-color: var(--status-correct) !important; color: var(--status-correct) !important; font-weight: 700; }
         .opt-btn.wrong { background: #fef2f2 !important; border-color: var(--status-wrong) !important; color: var(--status-wrong) !important; font-weight: 700; }
 
@@ -164,7 +159,6 @@
         .submit-btn { width: 100%; background: var(--amber-primary); color: #ffffff; border: none; padding: 13px; border-radius: 10px; font-weight: 800; font-size: 0.95rem; cursor: pointer; margin-top: 20px; transition: all 0.2s ease; box-shadow: 0 4px 14px rgba(217, 119, 6, 0.25); }
         .submit-btn:hover { background: var(--amber-hover); transform: translateY(-1px); }
 
-        /* MODAL PERFORMANCE DASHBOARD */
         .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(44, 37, 32, 0.4); backdrop-filter: blur(6px); z-index: 1000; justify-content: center; align-items: center; }
         .modal-overlay.active { display: flex; }
         .dashboard-card { background: #ffffff; border: 1px solid var(--border-light); width: 90%; max-width: 580px; border-radius: 18px; padding: 32px; text-align: center; box-shadow: 0 20px 40px -10px rgba(44, 37, 32, 0.15); }
@@ -325,13 +319,68 @@
     </div>
 
     <script>
+        // DEFAULT FALLBACK DATA (Prevents "Loading Words..." freeze if JSON fetch fails or running locally)
+        const fallbackData = [
+          {
+            "id": "past-rc-01",
+            "date": "2026-09-21",
+            "isDaily": true,
+            "title": "Anthropocene and the Rethinking of Geological Time",
+            "genre": "Environmental Studies & Geology",
+            "difficulty": "IPMAT Advanced / CAT Standard",
+            "wordCount": "1000+ words",
+            "vocab": {
+              "words": [
+                { "word": "Anthropocene", "type": "noun", "def": "Current geological age viewed as dominant human impact period.", "ex": "The Anthropocene epoch is marked by global carbon emissions." },
+                { "word": "Holocene", "type": "noun", "def": "Geological epoch beginning 11,700 years ago after last ice age.", "ex": "Human civilization flourished during the stable Holocene epoch." },
+                { "word": "Stratigraphy", "type": "noun", "def": "Branch of geology concerned with rock layers and layering.", "ex": "Plastics form a permanent layer in contemporary stratigraphy." },
+                { "word": "Technofossil", "type": "noun", "def": "Man-made objects preserved in the geological earth record.", "ex": "Concrete structures will serve as future technofossils." },
+                { "word": "Ubiquity", "type": "noun", "def": "State of being everywhere or exceedingly common.", "ex": "The ubiquity of microplastics is a hallmark of human impact." },
+                { "word": "Perspicacious", "type": "adj", "def": "Having a ready insight into and understanding of things.", "ex": "Her perspicacious analysis revealed subtle tone shifts." },
+                { "word": "Equanimity", "type": "noun", "def": "Mental calmness and composure in difficult situations.", "ex": "He maintained absolute equanimity throughout the test." },
+                { "word": "Obfuscate", "type": "verb", "def": "To deliberately make something unclear or obscure.", "ex": "Dense jargon was used to obfuscate the core thesis." },
+                { "word": "Sycophant", "type": "noun", "def": "A person who acts obsequiously toward someone to gain advantage.", "ex": "The essay criticizes sycophants in corporate hierarchy." },
+                { "word": "Fastidious", "type": "adj", "def": "Very attentive to accuracy and detail.", "ex": "A fastidious reader notices logical flaws immediately." }
+              ],
+              "idioms": [
+                { "idiom": "At a crossroads", "def": "At a point where a crucial decision must be made.", "ex": "Environmental policy stands at a historical crossroads." },
+                { "idiom": "Leave no stone unturned", "def": "Try every possible course of action.", "ex": "Stratigraphers left no stone unturned analyzing rock strata." },
+                { "idiom": "In full swing", "def": "Operating at the highest level of activity.", "ex": "The global industrial revolution was in full swing by 1900." },
+                { "idiom": "The tipping point", "def": "The point at which small changes become significant.", "ex": "Deforestation pushed the rainforest past its tipping point." },
+                { "idiom": "Burn the midnight oil", "def": "To work or study late into the night.", "ex": "She burned the midnight oil preparing for her exam." }
+              ],
+              "phrasalVerbs": [
+                { "verb": "Mark out", "def": "To define boundaries clearly.", "ex": "Nuclear fallout marks out the 1950 geological boundary." },
+                { "verb": "Phase out", "def": "To stop using or producing something gradually.", "ex": "Nations must phase out fossil fuels to stabilize climate." },
+                { "verb": "Pave the way", "def": "To create conditions for something to happen.", "ex": "Holocene stability paved the way for agriculture." },
+                { "verb": "Iron out", "def": "To resolve small problems or details.", "ex": "They ironed out their logical disagreements." },
+                { "verb": "Root out", "def": "To completely eradicate something bad.", "ex": "Audits help root out systemic biases." }
+              ]
+            },
+            "passage": "For millions of years, changes in Earth's geological epochs were driven by colossal planetary forces: asteroid impacts, tectonic drift, and massive volcanic eruptions. However, geologists increasingly argue that Earth has entered a new geological epoch—the Anthropocene—in which human technological activity has become the dominant planetary force shaping global climate, biodiversity, and rock stratigraphy.\n\nTo formally define a new geological epoch, stratigraphers must identify a clear 'golden spike'—a distinct physical marker embedded within rock, ice, or ocean sediment layers globally. Proposals for the Anthropocene boundary include the 1950s nuclear bomb fallout, which left artificial radionuclides across global ice cores, or the widespread global deposit of 'technofossils' such as synthetic plastics, aluminum, and concrete.\n\nThe concept of the Anthropocene forces a radical philosophical shift. It dismantles the long-standing Western conceptual divide between human history and natural history. Humanity can no longer view Earth as a passive background stage for human events, but must acknowledge itself as an active geological force whose environmental impacts will persist in rock strata for millions of years.",
+            "questions": [
+              {
+                "id": "q1",
+                "question": "The formal declaration of the Anthropocene requires stratigraphers to identify:",
+                "options": [
+                  "A) A sudden shift in lunar orbital cycles.",
+                  "B) A global physical marker (golden spike) such as radionuclides or technofossils in geological layers.",
+                  "C) Complete restoration of Holocene ecosystem equilibrium.",
+                  "D) The elimination of industrial concrete manufacturing."
+                ],
+                "answer": 1,
+                "explanation": "<strong>🧠 Detailed Breakdown:</strong><br>• Paragraph 2 explicitly defines 'golden spike' physical markers in sediment/rock layers as the formal requirement."
+              }
+            ]
+          }
+        ];
+
         let allPassages = [];
         let currentRC = null;
         let currentQIndex = 0;
         let userAnswers = {};
         let isSubmitted = false;
         
-        // TIMER STATE MANAGEMENT
         let timerInterval = null;
         let secondsElapsed = 0;
         let isTimerActive = false;
@@ -342,21 +391,20 @@
         async function loadData() {
             try {
                 const response = await fetch('passages.json');
-                if (!response.ok) throw new Error("Network error loading passages.json");
-                
+                if (!response.ok) throw new Error("Network response error");
                 allPassages = await response.json();
-                const todayStr = new Date().toISOString().split('T')[0];
-                currentRC = allPassages.find(p => p.date === todayStr) || allPassages[0];
-
-                renderVocab(currentRC.vocab);
-                renderReadingTest(currentRC, false);
-                renderArchive();
-                updateSavedBadge();
-
             } catch (err) {
-                console.error(err);
-                document.getElementById('rc-body').innerHTML = `<p style="color:var(--status-wrong)">Error loading data. Make sure passages.json file is present in root folder.</p>`;
+                console.warn("Using fallback dataset due to fetch limitation:", err);
+                allPassages = fallbackData;
             }
+
+            const todayStr = new Date().toISOString().split('T')[0];
+            currentRC = allPassages.find(p => p.date === todayStr) || allPassages[0];
+
+            renderVocab(currentRC.vocab);
+            renderReadingTest(currentRC, false);
+            renderArchive();
+            updateSavedBadge();
         }
 
         function startTimer() {
@@ -379,11 +427,9 @@
             document.getElementById('timer-display').innerText = `⏱️ ${mins}:${secs}`;
         }
 
-        // TAB NAVIGATION WITH WARNING PROMPT
         function navigateTab(targetTab) {
             if (targetTab === activeTab) return;
 
-            // If navigating AWAY from Reading Practice during an active, unsubmitted test
             if (activeTab === 'reading' && isTimerActive && !isSubmitted) {
                 const confirmLeave = confirm("If you change the page, your RC test timer will be paused. Click OK to proceed.");
                 if (!confirmLeave) return;
