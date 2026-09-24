@@ -9,33 +9,48 @@
       {
         "id": "q1",
         "type": "RC",
-        "question": "[PASSAGE 1]\n\nRead the following passage and answer the question:\nModern legal hermeneutics often struggles with textualism versus purposivism...",
+        "passage": "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in disenfranchised neighborhoods.",
+        "question": "Which of the following best captures the primary thesis of the passage regarding algorithmic governance?",
         "options": [
-          "A) Textualism prioritizes original intent over literal reading.",
-          "B) Purposivism ignores statutory context entirely.",
-          "C) Textualism focuses on explicit statutory words while purposivism considers overarching legislative intent.",
-          "D) Both frameworks reject constitutional judicial review."
+          "A) Machine learning algorithms process historical datasets without emotional bias.",
+          "B) Delegating high-stakes decisions to algorithms mechanizes historical prejudice behind a false veneer of neutrality.",
+          "C) Technical coding flaws can be fully rectified through rigorous post-deployment auditing.",
+          "D) Predictive policing models should be replaced with classical rule-based expert systems."
         ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> Option C accurately highlights the core difference: Textualism centers on plain word meaning, while Purposivism focuses on legislative intent."
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> Option B is correct because the passage explicitly states algorithms codify and amplify socio-historical disparities under statistical objectivity."
       },
       {
-        "id": "q16",
-        "type": "ParaJumble",
-        "question": "Rearrange the following sentences (1-4) to form a coherent paragraph:\n1. This friction creates volatile market movements.\n2. Investors often misinterpret sudden regulatory shifts.\n3. Consequently, capital allocation becomes inefficient.\n4. Unpredictable monetary policy remains a major threat to global equities.",
+        "id": "q2",
+        "type": "RC",
+        "passage": "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in disenfranchised neighborhoods.",
+        "question": "Predictive policing algorithms fail to provide objective crime forecasts primarily because they:",
         "options": [
-          "A) 4-2-1-3",
-          "B) 2-1-4-3",
-          "C) 4-1-2-3",
-          "D) 1-2-3-4"
+          "A) Suffer from non-linear computational regressions.",
+          "B) Are trained on historical arrest data reflecting deployment patterns rather than actual crime occurrences.",
+          "C) Fail to account for economic market fluctuations in disenfranchised neighborhoods.",
+          "D) Rely on rule-based logic that cannot adapt to changing urban demographics."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 specifies that arrest records reflect deployment patterns rather than actual crime rates."
+      },
+      {
+        "id": "q3",
+        "type": "ParaJumble",
+        "question": "Rearrange the following four sentences (1-4) in a logical order to form a coherent paragraph:\n\n1. This friction creates volatile market movements.\n2. Investors often misinterpret sudden regulatory shifts.\n3. Consequently, capital allocation becomes highly inefficient.\n4. Unpredictable monetary policy remains a major threat to global equities.",
+        "options": [
+          "A) 4 - 2 - 1 - 3",
+          "B) 2 - 1 - 4 - 3",
+          "C) 4 - 1 - 2 - 3",
+          "D) 1 - 2 - 3 - 4"
         ],
         "answer": 0,
-        "explanation": "<strong>Explanation:</strong> Sentence 4 introduces the main topic (monetary policy threat). Sentence 2 specifies how investors react. Sentence 1 links the friction to volatility. Sentence 3 provides the ultimate consequence."
+        "explanation": "<strong>Explanation:</strong> Sentence 4 sets the main context. Sentence 2 shows the investor reaction. Sentence 1 links the resulting friction, and Sentence 3 provides the ultimate outcome."
       },
       {
-        "id": "q21",
+        "id": "q4",
         "type": "Vocabulary",
-        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'OBQUIOUS':",
+        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'OBSEQUIOUS':",
         "options": [
           "A) Servile",
           "B) Assertive",
@@ -43,7 +58,19 @@
           "D) Acquiescent"
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> 'Obsequious' means excessively obedient or servile. 'Assertive' is its direct antonym."
+        "explanation": "<strong>Explanation:</strong> Obsequious means excessively obedient/servile. Assertive is its direct antonym."
+      },
+      {
+        "id": "q5",
+        "type": "Grammar",
+        "question": "Identify the sentence with the CORRECT grammatical structure:",
+        "options": [
+          "A) Neither the manager nor the employees was present at the meeting.",
+          "B) Neither the manager nor the employees were present at the meeting.",
+          "C) Neither the manager or the employees was present at the meeting.",
+          "D) Neither the manager nor the employees has been present at the meeting."
+        ],
+        "answer": 1, "explanation": "<strong>Explanation:</strong> When using 'neither...nor', the verb agrees with the closer subject ('employees' -> 'were')."
       }
     ]
   }
