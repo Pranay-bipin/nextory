@@ -342,7 +342,7 @@
                 </div>
                 <div class="stat-box">
                     <div id="stat-speed" class="stat-val">0 WPM</div>
-                    <div class="stat-lbl">Reading Speed</div>
+                    <div class="stat-lbl">Reading Speed / Score</div>
                 </div>
                 <div class="stat-box">
                     <div id="stat-time" class="stat-val">0s</div>
@@ -462,7 +462,7 @@
                 <div class="hero-banner" style="background: linear-gradient(135deg, #d1fae5 0%, #ecfdf5 100%); border-color: var(--green-border);">
                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px;">
                         <span class="sub-tag">LIVE TODAY ONLY</span>
-                        <span style="font-weight:700; color:var(--green-hover); font-size:0.85rem;">⏱️ 40 MINS | 45 QUESTIONS</span>
+                        <span style="font-weight:700; color:var(--green-hover); font-size:0.85rem;">⏱️ 40 MINS | ${todaySectional.totalQuestions || todaySectional.questions.length} QUESTIONS</span>
                     </div>
                     <h1>${todaySectional.title}</h1>
                     <p style="margin-bottom:20px;">Strict IPMAT Indore standard set (RCs, Para Jumbles, Verbal Reasoning, Grammar & Vocab). Test expires at midnight!</p>
@@ -494,10 +494,7 @@
 
         function renderSectionalContainerLayout() {
             const container = document.getElementById('sectional-banner-container');
-            container.innerHTML = `
-                <div id="sec-test-wrapper">
-                    <!-- Dynamic Layout injected by renderSectionalQuestion -->
-                </div>`;
+            container.innerHTML = `<div id="sec-test-wrapper"></div>`;
         }
 
         function startSectionalCountdown() {
@@ -588,7 +585,7 @@
                     <div class="test-split">
                         <div class="reading-box">
                             <span class="tag" style="margin-bottom:10px; display:inline-block;">Reading Passage</span>
-                            <div class="passage-body">${q.passage || 'Reading passage text...'}</div>
+                            <div class="passage-body">${q.passage || (currentRC ? currentRC.passage : 'Reading passage text...')}</div>
                         </div>
                         <div class="question-card">
                             ${timerHeaderHtml}
@@ -599,7 +596,7 @@
                         </div>
                     </div>`;
             } else {
-                // NORMAL SINGLE CARD FOR VOCAB / GRAMMAR / PARAJUMBLE
+                // SINGLE CARD FOR VOCAB / GRAMMAR / PARAJUMBLE
                 wrapper.innerHTML = `
                     <div class="question-card">
                         ${timerHeaderHtml}
@@ -610,7 +607,6 @@
                     </div>`;
             }
 
-            // Update timer display immediately after render
             const mins = Math.floor(sectionalSeconds / 60).toString().padStart(2, '0');
             const secs = (sectionalSeconds % 60).toString().padStart(2, '0');
             const display = document.getElementById('sec-timer-display');
