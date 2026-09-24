@@ -9,7 +9,7 @@
       {
         "id": "q1",
         "type": "RC",
-        "passage": "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in disenfranchised neighborhoods.",
+        "passage": "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in disenfranchised neighborhoods. The model's statistical objectivity cloaks systemic prejudice in mathematical authority.",
         "question": "Which of the following best captures the primary thesis of the passage regarding algorithmic governance?",
         "options": [
           "A) Machine learning algorithms process historical datasets without emotional bias.",
@@ -18,12 +18,12 @@
           "D) Predictive policing models should be replaced with classical rule-based expert systems."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Option B is correct because the passage explicitly states algorithms codify and amplify socio-historical disparities under statistical objectivity."
+        "explanation": "<strong>Explanation:</strong> Option B summarizes the core argument: algorithms codify historical human bias under statistical objectivity."
       },
       {
         "id": "q2",
         "type": "RC",
-        "passage": "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in disenfranchised neighborhoods.",
+        "passage": "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in disenfranchised neighborhoods. The model's statistical objectivity cloaks systemic prejudice in mathematical authority.",
         "question": "Predictive policing algorithms fail to provide objective crime forecasts primarily because they:",
         "options": [
           "A) Suffer from non-linear computational regressions.",
@@ -32,45 +32,267 @@
           "D) Rely on rule-based logic that cannot adapt to changing urban demographics."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 2 specifies that arrest records reflect deployment patterns rather than actual crime rates."
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 states arrest records reflect discriminatory policing deployment rather than true crime rates."
       },
       {
         "id": "q3",
-        "type": "ParaJumble",
-        "question": "Rearrange the following four sentences (1-4) in a logical order to form a coherent paragraph:\n\n1. This friction creates volatile market movements.\n2. Investors often misinterpret sudden regulatory shifts.\n3. Consequently, capital allocation becomes highly inefficient.\n4. Unpredictable monetary policy remains a major threat to global equities.",
+        "type": "RC",
+        "passage": "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in disenfranchised neighborhoods. The model's statistical objectivity cloaks systemic prejudice in mathematical authority.",
+        "question": "The term 'self-fulfilling feedback loop' in the context of predictive policing refers to:",
         "options": [
-          "A) 4 - 2 - 1 - 3",
-          "B) 2 - 1 - 4 - 3",
-          "C) 4 - 1 - 2 - 3",
-          "D) 1 - 2 - 3 - 4"
+          "A) Criminals altering their behavior to evade algorithmic tracking.",
+          "B) Police returning repeatedly to over-policed areas because biased data prompts further deployment.",
+          "C) Software updates automatically correcting historical biases over time.",
+          "D) Citizens reporting more crimes through digital governance portals."
         ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> Sentence 4 sets the main context. Sentence 2 shows the investor reaction. Sentence 1 links the resulting friction, and Sentence 3 provides the ultimate outcome."
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> The feedback loop occurs because deploying police based on arrest records leads to more arrests in those same areas, perpetuating biased data."
       },
       {
         "id": "q4",
-        "type": "Vocabulary",
-        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'OBSEQUIOUS':",
+        "type": "RC",
+        "passage": "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in disenfranchised neighborhoods. The model's statistical objectivity cloaks systemic prejudice in mathematical authority.",
+        "question": "The tone of the author in evaluating the narrative of proponents of algorithmic governance can best be described as:",
         "options": [
-          "A) Servile",
-          "B) Assertive",
-          "C) Sycophantic",
-          "D) Acquiescent"
+          "A) Laudatory and unreservedly optimistic.",
+          "B) Skeptical, analytical, and critical.",
+          "C) Indifferent and purely descriptive.",
+          "D) Apologetic and highly defensive."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Obsequious means excessively obedient/servile. Assertive is its direct antonym."
+        "explanation": "<strong>Explanation:</strong> The author uses critical terms like 'deceptive guise', 'triumphalist narrative', and 'epistemological misconception'."
       },
       {
         "id": "q5",
-        "type": "Grammar",
-        "question": "Identify the sentence with the CORRECT grammatical structure:",
+        "type": "RC",
+        "passage": "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in disenfranchised neighborhoods. The model's statistical objectivity cloaks systemic prejudice in mathematical authority.",
+        "question": "Which of the following interventions would the author most likely support to mitigate algorithmic bias?",
         "options": [
-          "A) Neither the manager nor the employees was present at the meeting.",
-          "B) Neither the manager nor the employees were present at the meeting.",
-          "C) Neither the manager or the employees was present at the meeting.",
-          "D) Neither the manager nor the employees has been present at the meeting."
+          "A) Increasing the processing speed of neural network parameters.",
+          "B) Eliminating human oversight in sentencing and policing.",
+          "C) Subjecting historical training data and underlying socio-institutional assumptions to rigorous legal and ethical auditing.",
+          "D) Mandating that algorithms use larger unvetted historical datasets."
         ],
-        "answer": 1, "explanation": "<strong>Explanation:</strong> When using 'neither...nor', the verb agrees with the closer subject ('employees' -> 'were')."
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> Since the problem stems from biased historical data and assumptions, auditing those datasets directly addresses the author's core critique."
+      },
+      {
+        "id": "q6",
+        "type": "RC",
+        "passage": "Neoclassical economic theory was built upon the ideal abstraction of 'Homo Economicus'—a perfectly rational human actor who processes all available information objectively and consistently maximizes personal utility. However, behavioral economics has systematically dismantled this idealization. Spearheaded by Daniel Kahneman and Amos Tversky, cognitive research demonstrates that human decision-making is governed by dual cognitive architectures: System 1 (fast, intuitive, emotional) and System 2 (slow, analytical, deliberate).\n\nBecause cognitive resources are finite, System 1 relies heavily on heuristics—mental shortcuts that enable rapid decision-making under uncertainty. While evolutionarily advantageous for immediate survival, these shortcuts produce systematic cognitive biases. Loss aversion, for instance, dictates that the psychological pain of losing $100 is roughly twice as intense as the pleasure of gaining $100. This emotional asymmetry explains why stock market investors irrationally hold onto depreciating assets while prematurely selling gaining stocks.\n\nSimilarly, anchoring effects demonstrate that human numerical estimates are heavily influenced by completely irrelevant initial reference points. In market settings, framing options appropriately can radically alter consumer decisions without changing underlying economic incentives. Consequently, public choice theorists now advocate for 'choice architecture' and subtle behavioral nudges to steer individuals toward better long-term decisions.",
+        "question": "The primary flaw in Neoclassical economic assumptions highlighted by the passage is its:",
+        "options": [
+          "A) Failure to calculate stock market volatility indices.",
+          "B) Assumption that human choices are guided by perfect rationality rather than dual-system heuristics.",
+          "C) Over-reliance on public choice nudging mechanisms.",
+          "D) Inability to explain evolutionary adaptation."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> Paragraph 1 explicitly notes behavioral economics dismantled the idealization of perfectly rational 'Homo Economicus'."
+      },
+      {
+        "id": "q7",
+        "type": "RC",
+        "passage": "Neoclassical economic theory was built upon the ideal abstraction of 'Homo Economicus'—a perfectly rational human actor who processes all available information objectively and consistently maximizes personal utility. However, behavioral economics has systematically dismantled this idealization. Spearheaded by Daniel Kahneman and Amos Tversky, cognitive research demonstrates that human decision-making is governed by dual cognitive architectures: System 1 (fast, intuitive, emotional) and System 2 (slow, analytical, deliberate).\n\nBecause cognitive resources are finite, System 1 relies heavily on heuristics—mental shortcuts that enable rapid decision-making under uncertainty. While evolutionarily advantageous for immediate survival, these shortcuts produce systematic cognitive biases. Loss aversion, for instance, dictates that the psychological pain of losing $100 is roughly twice as intense as the pleasure of gaining $100. This emotional asymmetry explains why stock market investors irrationally hold onto depreciating assets while prematurely selling gaining stocks.\n\nSimilarly, anchoring effects demonstrate that human numerical estimates are heavily influenced by completely irrelevant initial reference points. In market settings, framing options appropriately can radically alter consumer decisions without changing underlying economic incentives. Consequently, public choice theorists now advocate for 'choice architecture' and subtle behavioral nudges to steer individuals toward better long-term decisions.",
+        "question": "System 1 cognitive architecture is characterized in the passage as being:", "options": ["A) Slow, deliberate, and mathematically rigorous.", "B) Fast, intuitive, emotional, and reliant on heuristics.", "C) Immune to loss aversion and framing effects.", "D) Controlled exclusively by public choice theorists."], "answer": 1, "explanation": "<strong>Explanation:</strong> Paragraph 1 defines System 1 explicitly as fast, intuitive, and emotional."
+      },
+      {
+        "id": "q8",
+        "type": "RC",
+        "passage": "Neoclassical economic theory was built upon the ideal abstraction of 'Homo Economicus'—a perfectly rational human actor who processes all available information objectively and consistently maximizes personal utility. However, behavioral economics has systematically dismantled this idealization. Spearheaded by Daniel Kahneman and Amos Tversky, cognitive research demonstrates that human decision-making is governed by dual cognitive architectures: System 1 (fast, intuitive, emotional) and System 2 (slow, analytical, deliberate).\n\nBecause cognitive resources are finite, System 1 relies heavily on heuristics—mental shortcuts that enable rapid decision-making under uncertainty. While evolutionarily advantageous for immediate survival, these shortcuts produce systematic cognitive biases. Loss aversion, for instance, dictates that the psychological pain of losing $100 is roughly twice as intense as the pleasure of gaining $100. This emotional asymmetry explains why stock market investors irrationally hold onto depreciating assets while prematurely selling gaining stocks.\n\nSimilarly, anchoring effects demonstrate that human numerical estimates are heavily influenced by completely irrelevant initial reference points. In market settings, framing options appropriately can radically alter consumer decisions without changing underlying economic incentives. Consequently, public choice theorists now advocate for 'choice architecture' and subtle behavioral nudges to steer individuals toward better long-term decisions.",
+        "question": "Loss aversion causes financial investors to behave irrationally by:", "options": ["A) Selling depreciating stocks immediately while holding gaining stocks.", "B) Holding onto losing assets to avoid psychological pain while selling gaining stocks prematurely.", "C) Relying entirely on System 2 analytical modeling.", "D) Ignoring initial price anchors during market trades."], "answer": 1, "explanation": "<strong>Explanation:</strong> Paragraph 2 states loss aversion causes investors to hold depreciating assets to avoid realizing loss pain."
+      },
+      {
+        "id": "q9",
+        "type": "RC",
+        "passage": "Neoclassical economic theory was built upon the ideal abstraction of 'Homo Economicus'—a perfectly rational human actor who processes all available information objectively and consistently maximizes personal utility. However, behavioral economics has systematically dismantled this idealization. Spearheaded by Daniel Kahneman and Amos Tversky, cognitive research demonstrates that human decision-making is governed by dual cognitive architectures: System 1 (fast, intuitive, emotional) and System 2 (slow, analytical, deliberate).\n\nBecause cognitive resources are finite, System 1 relies heavily on heuristics—mental shortcuts that enable rapid decision-making under uncertainty. While evolutionarily advantageous for immediate survival, these shortcuts produce systematic cognitive biases. Loss aversion, for instance, dictates that the psychological pain of losing $100 is roughly twice as intense as the pleasure of gaining $100. This emotional asymmetry explains why stock market investors irrationally hold onto depreciating assets while prematurely selling gaining stocks.\n\nSimilarly, anchoring effects demonstrate that human numerical estimates are heavily influenced by completely irrelevant initial reference points. In market settings, framing options appropriately can radically alter consumer decisions without changing underlying economic incentives. Consequently, public choice theorists now advocate for 'choice architecture' and subtle behavioral nudges to steer individuals toward better long-term decisions.",
+        "question": "According to the passage, anchoring effects occur when human decisions are influenced by:", "options": ["A) Long-term evolutionary survival mandates.", "B) Irrelevant initial numerical reference points.", "C) Perfect utility calculations.", "D) System 2 deliberate mathematical reasoning."], "answer": 1, "explanation": "<strong>Explanation:</strong> Paragraph 3 notes anchoring involves numerical estimates being influenced by initial reference points."
+      },
+      {
+        "id": "q10",
+        "type": "RC",
+        "passage": "Neoclassical economic theory was built upon the ideal abstraction of 'Homo Economicus'—a perfectly rational human actor who processes all available information objectively and consistently maximizes personal utility. However, behavioral economics has systematically dismantled this idealization. Spearheaded by Daniel Kahneman and Amos Tversky, cognitive research demonstrates that human decision-making is governed by dual cognitive architectures: System 1 (fast, intuitive, emotional) and System 2 (slow, analytical, deliberate).\n\nBecause cognitive resources are finite, System 1 relies heavily on heuristics—mental shortcuts that enable rapid decision-making under uncertainty. While evolutionarily advantageous for immediate survival, these shortcuts produce systematic cognitive biases. Loss aversion, for instance, dictates that the psychological pain of losing $100 is roughly twice as intense as the pleasure of gaining $100. This emotional asymmetry explains why stock market investors irrationally hold onto depreciating assets while prematurely selling gaining stocks.\n\nSimilarly, anchoring effects demonstrate that human numerical estimates are heavily influenced by completely irrelevant initial reference points. In market settings, framing options appropriately can radically alter consumer decisions without changing underlying economic incentives. Consequently, public choice theorists now advocate for 'choice architecture' and subtle behavioral nudges to steer individuals toward better long-term decisions.",
+        "question": "Choice architecture and 'nudges' aim to improve public decisions by:", "options": ["A) Restricting all individual freedom through coercive laws.", "B) Structuring choices to steer individuals toward better outcomes without changing economic incentives.", "C) Forcing consumers to eliminate System 1 thinking completely.", "D) Maximizing information asymmetry in corporate finance."], "answer": 1, "explanation": "<strong>Explanation:</strong> Paragraph 3 concludes choice architecture nudges steer individuals toward better decisions without changing economic incentives."
+      },
+      {
+        "id": "q11",
+        "type": "RC",
+        "passage": "For over two centuries, classical physics operated on a foundational metaphysical premise known as scientific realism: the conviction that an objective physical universe exists entirely independent of human observation, governed by deterministic, immutable laws. Newtonian mechanics portrayed the cosmos as an elaborate clockwork machine. In principle, if a supreme intelligence possessed precise knowledge of the positions, masses, and velocities of every particle in the universe at a single instant, it could utilize Newton's laws to calculate the entire past and future history of the cosmos with absolute certainty. Quantum mechanics shattered this comfortable deterministic framework.\n\nAt the subatomic scale, physical entities no longer exhibit definite physical properties prior to the act of measurement. Consider the foundational double-slit experiment. When unobserved, an individual electron behaves as a spread-out wave of probability, traversing both slits simultaneously and generating a wave-interference pattern on a detector screen. However, if a detector is placed at the slits to observe which path the electron actually takes, the wave behavior instantaneously vanishes. The wave function 'collapses' into a localized, definite particle passing through a single slit.",
+        "question": "Which of the following best describes the core principle of 'scientific realism' in classical physics?",
+        "options": ["A) Physical properties exist only when registered by human consciousness.", "B) The universe operates as an objective, deterministic system independent of observation.", "C) Subatomic particles exist in wave-particle probability states.", "D) Physical interactions travel instantaneously across infinite distances."], "answer": 1, "explanation": "<strong>Explanation:</strong> Paragraph 1 states scientific realism assumes an objective universe exists independent of human observation."
+      },
+      {
+        "id": "q12",
+        "type": "RC",
+        "passage": "For over two centuries, classical physics operated on a foundational metaphysical premise known as scientific realism: the conviction that an objective physical universe exists entirely independent of human observation, governed by deterministic, immutable laws. Newtonian mechanics portrayed the cosmos as an elaborate clockwork machine. In principle, if a supreme intelligence possessed precise knowledge of the positions, masses, and velocities of every particle in the universe at a single instant, it could utilize Newton's laws to calculate the entire past and future history of the cosmos with absolute certainty. Quantum mechanics shattered this comfortable deterministic framework.\n\nAt the subatomic scale, physical entities no longer exhibit definite physical properties prior to the act of measurement. Consider the foundational double-slit experiment. When unobserved, an individual electron behaves as a spread-out wave of probability, traversing both slits simultaneously and generating a wave-interference pattern on a detector screen. However, if a detector is placed at the slits to observe which path the electron actually takes, the wave behavior instantaneously vanishes. The wave function 'collapses' into a localized, definite particle passing through a single slit.",
+        "question": "In the double-slit experiment, placing a detector at the slits causes the electron to:",
+        "options": ["A) Increase its wave interference pattern on the background screen.", "B) Collapse its wave function and pass through a single slit as a localized particle.", "C) Instantly violate the speed of light via non-local entanglement.", "D) Divide into multiple local hidden variables."], "answer": 1, "explanation": "<strong>Explanation:</strong> Paragraph 2 specifies that detecting the electron collapses the wave function into a localized particle."
+      },
+      {
+        "id": "q13",
+        "type": "RC",
+        "passage": "For over two centuries, classical physics operated on a foundational metaphysical premise known as scientific realism: the conviction that an objective physical universe exists entirely independent of human observation, governed by deterministic, immutable laws. Newtonian mechanics portrayed the cosmos as an elaborate clockwork machine. In principle, if a supreme intelligence possessed precise knowledge of the positions, masses, and velocities of every particle in the universe at a single instant, it could utilize Newton's laws to calculate the entire past and future history of the cosmos with absolute certainty. Quantum mechanics shattered this comfortable deterministic framework.\n\nAt the subatomic scale, physical entities no longer exhibit definite physical properties prior to the act of measurement. Consider the foundational double-slit experiment. When unobserved, an individual electron behaves as a spread-out wave of probability, traversing both slits simultaneously and generating a wave-interference pattern on a detector screen. However, if a detector is placed at the slits to observe which path the electron actually takes, the wave behavior instantaneously vanishes. The wave function 'collapses' into a localized, definite particle passing through a single slit.",
+        "question": "The concept of the universe as an 'elaborate clockwork machine' implies that:",
+        "options": ["A) All natural processes are probabilistic and unpredictable.", "B) The future state of physical systems can be calculated if current positions and velocities are known.", "C) Subatomic particles lack position and momentum prior to measurement.", "D) Gravity operates independently of mass."], "answer": 1, "explanation": "<strong>Explanation:</strong> Paragraph 1 explicitly links the clockwork cosmos to deterministic calculation of past and future history."
+      },
+      {
+        "id": "q14",
+        "type": "RC",
+        "passage": "For over two centuries, classical physics operated on a foundational metaphysical premise known as scientific realism: the conviction that an objective physical universe exists entirely independent of human observation, governed by deterministic, immutable laws. Newtonian mechanics portrayed the cosmos as an elaborate clockwork machine. In principle, if a supreme intelligence possessed precise knowledge of the positions, masses, and velocities of every particle in the universe at a single instant, it could utilize Newton's laws to calculate the entire past and future history of the cosmos with absolute certainty. Quantum mechanics shattered this comfortable deterministic framework.\n\nAt the subatomic scale, physical entities no longer exhibit definite physical properties prior to the act of measurement. Consider the foundational double-slit experiment. When unobserved, an individual electron behaves as a spread-out wave of probability, traversing both slits simultaneously and generating a wave-interference pattern on a detector screen. However, if a detector is placed at the slits to observe which path the electron actually takes, the wave behavior instantaneously vanishes. The wave function 'collapses' into a localized, definite particle passing through a single slit.",
+        "question": "Quantum measurement fundamentally challenges classical physics because:",
+        "options": ["A) Measurement requires infinitely large mechanical detectors.", "B) Physical reality appears dependent on or altered by the act of observation.", "C) Particles move faster than the speed of light during collision.", "D) Electrons lose all physical mass when passing through slits."], "answer": 1, "explanation": "<strong>Explanation:</strong> Paragraph 2 demonstrates that observation changes electron behavior from a wave of probability to a particle."
+      },
+      {
+        "id": "q15",
+        "type": "RC",
+        "passage": "For over two centuries, classical physics operated on a foundational metaphysical premise known as scientific realism: the conviction that an objective physical universe exists entirely independent of human observation, governed by deterministic, immutable laws. Newtonian mechanics portrayed the cosmos as an elaborate clockwork machine. In principle, if a supreme intelligence possessed precise knowledge of the positions, masses, and velocities of every particle in the universe at a single instant, it could utilize Newton's laws to calculate the entire past and future history of the cosmos with absolute certainty. Quantum mechanics shattered this comfortable deterministic framework.\n\nAt the subatomic scale, physical entities no longer exhibit definite physical properties prior to the act of measurement. Consider the foundational double-slit experiment. When unobserved, an individual electron behaves as a spread-out wave of probability, traversing both slits simultaneously and generating a wave-interference pattern on a detector screen. However, if a detector is placed at the slits to observe which path the electron actually takes, the wave behavior instantaneously vanishes. The wave function 'collapses' into a localized, definite particle passing through a single slit.",
+        "question": "Prior to measurement in the double-slit experiment, unobserved electrons exist as:",
+        "options": ["A) Definite Newtonian point-mass particles.", "B) Spread-out waves of probability traversing both slits.", "C) Static non-moving charges.", "D) Non-existent mathematical abstractions."], "answer": 1, "explanation": "<strong>Explanation:</strong> Paragraph 2 states unobserved electrons behave as spread-out waves of probability."
+      },
+      {
+        "id": "q16",
+        "type": "ParaJumble",
+        "question": "Rearrange the following four sentences (1-4) in a logical order to form a coherent paragraph:\n\n1. This friction creates volatile market movements.\n2. Investors often misinterpret sudden regulatory shifts.\n3. Consequently, capital allocation becomes highly inefficient.\n4. Unpredictable monetary policy remains a major threat to global equities.",
+        "options": ["A) 4 - 2 - 1 - 3", "B) 2 - 1 - 4 - 3", "C) 4 - 1 - 2 - 3", "D) 1 - 2 - 3 - 4"],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> 4 introduces the topic, 2 explains investor reaction, 1 specifies the resulting market volatility, and 3 gives the final result."
+      },
+      {
+        "id": "q17",
+        "type": "ParaJumble",
+        "question": "Rearrange the following four sentences (1-4) in a logical order to form a coherent paragraph:\n\n1. Over time, these small evolutionary adaptations aggregate into new species.\n2. Natural selection acts as the primary mechanism driving biological diversity.\n3. Organisms possessing favorable traits are more likely to survive and reproduce.\n4. Inherited variation provides the raw material upon which environmental pressures act.",
+        "options": ["A) 2 - 4 - 3 - 1", "B) 4 - 2 - 1 - 3", "C) 2 - 3 - 4 - 1", "D) 3 - 4 - 2 - 1"],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> 2 establishes natural selection, 4 introduces variation, 3 details survival advantage, and 1 completes the timeline of speciation."
+      },
+      {
+        "id": "q18",
+        "type": "ParaJumble",
+        "question": "Rearrange the following four sentences (1-4) in a logical order to form a coherent paragraph:\n\n1. Modern urban planning must therefore balance density with ecological resilience.\n2. Rapid urbanization has intensified urban heat island effects across cities.\n3. Concrete surfaces absorb thermal radiation, preventing natural night cooling.\n4. This microclimatic warming elevates municipal energy demands for refrigeration.",
+        "options": ["A) 2 - 3 - 4 - 1", "B) 3 - 2 - 4 - 1", "C) 2 - 4 - 3 - 1", "D) 4 - 3 - 2 - 1"],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> 2 presents the problem (urbanization heat), 3 explains the mechanism (concrete absorption), 4 shows consequence (energy demand), 1 concludes with policy solution."
+      },
+      {
+        "id": "q19",
+        "type": "ParaJumble",
+        "question": "Rearrange the following four sentences (1-4) in a logical order to form a coherent paragraph:\n\n1. Central banks must carefully calibrate interest rate hikes to curb inflationary pressures.\n2. However, overly aggressive tightening risks triggering a severe economic recession.\n3. Global supply chain disruptions have driven up consumer goods prices worldwide.\n4. Policymakers are thus caught between price instability and economic stagnation.",
+        "options": ["A) 3 - 1 - 2 - 4", "B) 1 - 2 - 3 - 4", "C) 3 - 4 - 1 - 2", "D) 2 - 1 - 4 - 3"],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> 3 states root cause (supply chain inflation), 1 shows bank response, 2 adds the risk involved, 4 summarizes the dilemma."
+      },
+      {
+        "id": "q20",
+        "type": "ParaJumble",
+        "question": "Rearrange the following four sentences (1-4) in a logical order to form a coherent paragraph:\n\n1. Artificial intelligence algorithms require vast datasets to achieve high predictive accuracy.\n2. This requirement creates an inherent tension with user data privacy regulations.\n3. Corporations must implement privacy-preserving techniques like federated learning.\n4. Without strict safeguards, personal data risk unconsented exploitation.",
+        "options": ["A) 1 - 2 - 4 - 3", "B) 2 - 1 - 3 - 4", "C) 1 - 4 - 2 - 3", "D) 4 - 1 - 2 - 3"],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> 1 states data need, 2 introduces privacy tension, 4 elaborates on exploitation risk, 3 offers technical remedy."
+      },
+      {
+        "id": "q21",
+        "type": "ParaSummary",
+        "question": "Select the option that best summarizes the paragraph:\n\n'The rise of digital streaming platforms has decentralized entertainment distribution, allowing independent filmmakers to bypass traditional studio gatekeepers. However, content overload on these platforms makes discoverability extremely difficult without massive algorithmic marketing budgets, leaving smaller films stranded in obscurity.'",
+        "options": [
+          "A) Streaming platforms have completely eliminated studio monopolies in cinema.",
+          "B) While streaming offers filmmakers direct distribution, algorithmic saturation creates new discoverability barriers.",
+          "C) Independent filmmakers no longer require marketing budgets due to viral social media trends.",
+          "D) Traditional cinema studios are purchasing digital streaming platforms to maintain control."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> Option B captures both sides of the paragraph: the benefit of direct distribution and the drawback of algorithmic discoverability."
+      },
+      {
+        "id": "q22",
+        "type": "ParaSummary",
+        "question": "Select the option that best summarizes the paragraph:\n\n'Quantum computing leverages qubits capable of superposition, enabling simultaneous processing of complex calculations that classical supercomputers would take millennia to compute. Yet, maintaining qubit coherence requires near absolute-zero temperatures, posing immense engineering hurdles for practical commercial deployment.'",
+        "options": [
+          "A) Quantum computers will replace all personal laptops within the decade.",
+          "B) Superposition makes quantum computing exponentially faster, but extreme cooling requirements hinder commercial scalability.",
+          "C) Classical supercomputers remain faster than quantum processors under room temperature conditions.",
+          "D) Qubit coherence can easily be sustained using room-temperature silicon chips."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> Option B summarizes both the computational power of qubits and the major cooling obstacle."
+      },
+      {
+        "id": "q23",
+        "type": "ParaSummary",
+        "question": "Select the option that best summarizes the paragraph:\n\n'Antibiotic overprescription in animal agriculture accelerates the natural selection of resistant bacterial strains. As these multidrug-resistant pathogens jump to human populations through food supply chains, medical treatments for routine infections become increasingly ineffective, threatening public health systems worldwide.'",
+        "options": [
+          "A) Agricultural antibiotic overuse breeds resistant bacteria that threaten human medicine effectiveness globally.",
+          "B) Routine infections are no longer treatable by modern hospital surgical teams.",
+          "C) Animal farming should be banned to prevent bacterial pathogen transmission.",
+          "D) Modern antibiotics are ineffective because they are manufactured with low quality."
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> Option A concisely links agricultural overuse to resistant strains and human healthcare threat."
+      },
+      {
+        "id": "q24", "type": "ParaCompletion", "question": "Complete the paragraph logically:\n\n'The concept of circular economics challenges the traditional linear 'take-make-waste' industrial model. Instead of treating products as disposable end-points, circular design prioritizes material recycling, modular repairability, and extended lifecycle usability. Consequently, ________.'", "options": ["A) manufacturing costs will inevitably quadruple for consumer electronics.", "B) industrial systems can significantly reduce resource depletion and landfill waste.", "C) consumers are forced to replace goods more frequently.", "D) fossil fuel extraction becomes the primary driver of GDP growth."], "answer": 1, "explanation": "<strong>Explanation:</strong> Option B logically follows the benefits of recycling and lifecycle extension."
+      },
+      {
+        "id": "q25", "type": "ParaCompletion", "question": "Complete the paragraph logically:\n\n'In psychological literature, confirmation bias describes the human tendency to seek out and recall information that reinforces pre-existing beliefs while ignoring contradictory evidence. In digital environments, social media recommendation algorithms amplify this vulnerability by constructing personalized echo chambers. As a result, ________.'", "options": ["A) users are exposed to a balanced diversity of political viewpoints.", "B) public discourse becomes increasingly polarized and resistant to empirical facts.", "C) digital platforms eliminate social media user engagement.", "D) objective facts automatically replace emotional opinions online."], "answer": 1, "explanation": "<strong>Explanation:</strong> Option B logically concludes the effect of echo chambers amplifying confirmation bias."
+      },
+      {
+        "id": "q26", "type": "Vocabulary", "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'OBSEQUIOUS':", "options": ["A) Servile", "B) Assertive", "C) Sycophantic", "D) Acquiescent"], "answer": 1, "explanation": "<strong>Explanation:</strong> Obsequious means excessively servile/submissive. Assertive is its direct antonym."
+      },
+      {
+        "id": "q27", "type": "Vocabulary", "question": "Select the word MOST NEARLY SIMILAR in meaning to 'PERSPICACIOUS':", "options": ["A) Ignorant", "B) Discerning", "C) Obtuse", "D) Ambiguous"], "answer": 1, "explanation": "<strong>Explanation:</strong> Perspicacious means having keen insight or judgment (discerning)."
+      },
+      {
+        "id": "q28", "type": "Vocabulary", "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'ESOTERIC':", "options": ["A) Obscure", "B) Arcane", "C) Commonplace", "D) Abstruse"], "answer": 2, "explanation": "<strong>Explanation:</strong> Esoteric means understood by only a select few. Commonplace is its opposite."
+      },
+      {
+        "id": "q29", "type": "Vocabulary", "question": "Select the word MOST NEARLY SIMILAR in meaning to 'EQUANIMITY':", "options": ["A) Agitation", "B) Composure", "C) Hysteria", "D) Indecision"], "answer": 1, "explanation": "<strong>Explanation:</strong> Equanimity means mental calmness and composure."
+      },
+      {
+        "id": "q30", "type": "Vocabulary", "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'TRUCULENT':", "options": ["A) Aggressive", "B) Belligerent", "C) Amiable", "D) Pugnacious"], "answer": 2, "explanation": "<strong>Explanation:</strong> Truculent means aggressively defiant. Amiable (friendly) is its opposite."
+      },
+      {
+        "id": "q31", "type": "Vocabulary", "question": "Choose the correct word to fill in the blank:\n'The executive's ________ speech failed to address the company's severe financial crisis, offering only vague platitudes.'", "options": ["A) Incisive", "B) Vacuous", "C) Profound", "D) Cogent"], "answer": 1, "explanation": "<strong>Explanation:</strong> 'Vacuous' means lacking intelligence or substance, matching 'vague platitudes'."
+      },
+      {
+        "id": "q32", "type": "Vocabulary", "question": "Choose the correct word to fill in the blank:\n'Despite the chaotic market conditions, the portfolio manager maintained a ________ demeanor during the board meeting.'", "options": ["A) Tumultuous", "B) Phlegmatic", "C) Volatile", "D) Exasperated"], "answer": 1, "explanation": "<strong>Explanation:</strong> 'Phlegmatic' means calm, unemotional, and composed in difficult situations."
+      },
+      {
+        "id": "q33", "type": "Vocabulary", "question": "Choose the correct idiom meaning:\n'To burn the candle at both ends' means to:", "options": ["A) Conserve energy carefully during long tasks.", "B) Exhaust oneself by working late and rising early.", "C) Waste financial resources on unnecessary luxuries.", "D) Illuminate a room efficiently during power outages."], "answer": 1, "explanation": "<strong>Explanation:</strong> 'Burning the candle at both ends' means overworking oneself physically or mentally."
+      },
+      {
+        "id": "q34", "type": "Vocabulary", "question": "Select the sentence where the word 'SANCTION' is used in the sense of 'PERMIT or APPROVE':", "options": ["A) The international body imposed trade sanctions against the rogue state.", "B) The university board will sanction the creation of the new research institute.", "C) Economic sanctions caused inflation in the regional market.", "D) Violating compliance rules will result in disciplinary sanctions."], "answer": 1, "explanation": "<strong>Explanation:</strong> 'Sanction' is a auto-antonym; in sentence B it means official authorization/permission."
+      },
+      {
+        "id": "q35", "type": "Vocabulary", "question": "Choose the correct phrasal verb to fill in the blank:\n'The research team needed to ________ the complex experimental data before drawing conclusions.'", "options": ["A) Iron out", "B) Whittle down", "C) Gloss over", "D) Root out"], "answer": 0, "explanation": "<strong>Explanation:</strong> 'Iron out' means to resolve or work through complex details/problems."
+      },
+      {
+        "id": "q36", "type": "Grammar", "question": "Identify the sentence with the CORRECT grammatical structure:", "options": ["A) Neither the manager nor the employees was present at the meeting.", "B) Neither the manager nor the employees were present at the meeting.", "C) Neither the manager or the employees was present at the meeting.", "D) Neither the manager nor the employees has been present at the meeting."], "answer": 1, "explanation": "<strong>Explanation:</strong> Under 'neither...nor', the verb agrees with the closer subject ('employees' -> 'were')."
+      },
+      {
+        "id": "q37", "type": "Grammar", "question": "Spot the error in the following sentence:\n'Each of the candidates (A) / have submitted their resume (B) / before the deadline (C) / set by the committee (D).'", "options": ["A) Each of the candidates", "B) have submitted their resume", "C) before the deadline", "D) set by the committee"], "answer": 1, "explanation": "<strong>Explanation:</strong> 'Each' is singular and requires singular verb 'has submitted', not 'have submitted'."
+      },
+      {
+        "id": "q38", "type": "Grammar", "question": "Choose the grammatically correct sentence:", "options": ["A) Scarcely had he entered the room when the alarm went off.", "B) Scarcely had he entered the room than the alarm went off.", "C) Scarcely he had entered the room when the alarm went off.", "D) Scarcely had he entered the room then the alarm went off."], "answer": 0, "explanation": "<strong>Explanation:</strong> 'Scarcely' pairs correctly with 'when' (not 'than' or 'then') and requires inverted verb order ('had he')."
+      },
+      {
+        "id": "q39", "type": "Grammar", "question": "Choose the correct option to fill in the blank:\n'If the government ________ stronger fiscal measures earlier, the severe inflation rate could have been avoided.'", "options": ["A) Adopted", "B) Had adopted", "C) Would adopt", "D) Has adopted"], "answer": 1, "explanation": "<strong>Explanation:</strong> Third conditional structure requires 'If + past perfect (had adopted)... would have + past participle'."
+      },
+      {
+        "id": "q40", "type": "Grammar", "question": "Identify the grammatically INCORRECT sentence:", "options": ["A) The committee has finalized its recommendations.", "B) She is one of those managers who always demands perfection.", "C) Between you and me, the project faces severe hurdles.", "D) Hard working as he was, he could not pass the examination."], "answer": 1, "explanation": "<strong>Explanation:</strong> 'Who' refers to 'managers' (plural), so the verb should be plural 'demand', not 'demands'."
+      },
+      {
+        "id": "q41", "type": "Grammar", "question": "Choose the correct preposition to fill in the blank:\n'The company's practices are not conformable ________ industry environmental standards.'", "options": ["A) With", "B) To", "C) For", "D) At"], "answer": 1, "explanation": "<strong>Explanation:</strong> The adjective 'conformable' takes the preposition 'to'."
+      },
+      {
+        "id": "q42", "type": "Grammar", "question": "Identify the correct usage of modifier:", "options": ["A) Walking down the street, the trees looked beautiful to Mary.", "B) Walking down the street, Mary admired the beautiful trees.", "C) While walking down the street, the trees were admired by Mary.", "D) Walking down the street, beauty was seen in the trees by Mary."], "answer": 1, "explanation": "<strong>Explanation:</strong> Option B avoids the dangling modifier by placing the person doing the walking ('Mary') directly after the participle clause."
+      },
+      {
+        "id": "q43", "type": "Grammar", "question": "Select the correct active/passive transformation:\n'The auditor is reviewing the financial statements.'", "options": ["A) The financial statements were reviewed by the auditor.", "B) The financial statements are being reviewed by the auditor.", "C) The financial statements have been reviewed by the auditor.", "D) The financial statements are reviewed by the auditor."], "answer": 1, "explanation": "<strong>Explanation:</strong> Present continuous 'is reviewing' transforms to 'are being reviewed' in passive voice."
+      },
+      {
+        "id": "q44", "type": "Grammar", "question": "Spot the error in the sentence:\n'The reason why (A) / he failed the exam (B) / was because he did not (C) / study consistently (D).'", "options": ["A) The reason why", "B) he failed the exam", "C) was because he did not", "D) study consistently"], "answer": 2, "explanation": "<strong>Explanation:</strong> 'The reason why... was because' is redundant. Use 'was that' instead of 'was because'."
+      },
+      {
+        "id": "q45", "type": "Grammar", "question": "Choose the grammatically correct sentence:", "options": ["A) Neither of the two proposals are acceptable to the board.", "B) Neither of the two proposals is acceptable to the board.", "C) Neither of the two proposals were acceptable to the board.", "D) Neither of the two proposals have been acceptable to the board."], "answer": 1, "explanation": "<strong>Explanation:</strong> 'Neither' taking a singular choice between two items requires singular verb 'is'."
       }
     ]
   }
