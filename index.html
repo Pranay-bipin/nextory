@@ -441,12 +441,16 @@
                 if (!response.ok) throw new Error("Sectional JSON fetch error");
                 const sectionals = await response.json();
                 
-                const todayStr = getLocalDateString();
-                todaySectional = sectionals.find(s => s.date === todayStr);
-
-                renderSectionalBanner();
+                if (sectionals && sectionals.length > 0) {
+                    const todayStr = getLocalDateString();
+                    // AUTO FIX: Always load valid sectional even if system date differs!
+                    todaySectional = sectionals.find(s => s.date === todayStr) || sectionals[sectionals.length - 1];
+                    renderSectionalBanner();
+                } else {
+                    renderNoSectionalBanner();
+                }
             } catch (err) {
-                console.warn("Sectional data not available for today:", err);
+                console.warn("Sectional data not available:", err);
                 renderNoSectionalBanner();
             }
         }
@@ -458,14 +462,16 @@
                 return;
             }
 
+            const totalQs = todaySectional.totalQuestions || (todaySectional.questions ? todaySectional.questions.length : 45);
+
             container.innerHTML = `
                 <div class="hero-banner" style="background: linear-gradient(135deg, #d1fae5 0%, #ecfdf5 100%); border-color: var(--green-border);">
                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px;">
-                        <span class="sub-tag">LIVE TODAY ONLY</span>
-                        <span style="font-weight:700; color:var(--green-hover); font-size:0.85rem;">⏱️ 40 MINS | ${todaySectional.totalQuestions || todaySectional.questions.length} QUESTIONS</span>
+                        <span class="sub-tag">LIVE MOCK TEST</span>
+                        <span style="font-weight:700; color:var(--green-hover); font-size:0.85rem;">⏱️ ${todaySectional.durationMinutes || 40} MINS | ${totalQs} QUESTIONS</span>
                     </div>
                     <h1>${todaySectional.title}</h1>
-                    <p style="margin-bottom:20px;">Strict IPMAT Indore standard set (RCs, Para Jumbles, Verbal Reasoning, Grammar & Vocab). Test expires at midnight!</p>
+                    <p style="margin-bottom:20px;">Strict IPMAT Indore pattern (RCs, Para Jumbles, Verbal Reasoning, Grammar & Vocab).</p>
                     <button class="primary-btn" onclick="startFullSectionalTest()">🚀 Start IPMAT Indore Sectional Test</button>
                 </div>`;
         }
@@ -475,7 +481,7 @@
             container.innerHTML = `
                 <div class="question-card" style="text-align:center; padding: 40px;">
                     <h2 style="color:var(--text-heading); font-size: 1.3rem;">⚡ No Active Sectional Test Today</h2>
-                    <p style="color:var(--text-muted); margin-top:10px;">Today's IPMAT Indore VA Sectional test is not live yet or has expired. Check back tomorrow at 12:00 AM!</p>
+                    <p style="color:var(--text-muted); margin-top:10px;">Please check sectional.json file to load your IPMAT sectional mock.</p>
                 </div>`;
         }
 
