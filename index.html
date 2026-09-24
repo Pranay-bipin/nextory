@@ -146,7 +146,6 @@
         .tag { background: var(--bg-subtle); color: var(--text-body); font-size: 0.74rem; padding: 4px 10px; border-radius: 6px; border: 1px solid var(--border-light); font-weight: 700; }
         .passage-body { font-size: 1.02rem; line-height: 1.9; color: #1f3328; white-space: pre-line; text-align: justify; }
 
-        /* ALWAYS VISIBLE FLOATING TIMER STYLES */
         .timer-badge-box {
             display: flex;
             align-items: center;
@@ -164,7 +163,6 @@
             color: var(--green-hover);
             font-weight: 800;
             font-size: 0.9rem;
-            font-mono: monospace;
         }
         .timer-pause-btn {
             background: #ffffff;
@@ -269,8 +267,6 @@
                     <div class="question-card">
                         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
                             <h3 style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">Question Palette</h3>
-                            
-                            <!-- FLOATING ALWAYS VISIBLE TIMER -->
                             <div class="timer-badge-box">
                                 <span id="timer-display" class="timer-badge-text">⏱️ 00:00</span>
                                 <button id="rc-pause-btn" class="timer-pause-btn" onclick="toggleRcTimer()">Pause</button>
@@ -393,16 +389,12 @@
         let isSectionalTimerActive = false;
         let secCurrentQIndex = 0;
 
-        // BROWSER TAB SWITCH WARNING (VISIBILITY CHANGE DETECTOR)
         document.addEventListener("visibilitychange", function() {
             if (document.hidden) {
-                // User switched browser tab
                 if (activeTab === 'reading' && isTimerActive && !isSubmitted) {
                     pauseTimer();
-                    console.log("Tab switched: RC Timer Paused.");
                 } else if (activeTab === 'sectional' && isSectionalTimerActive && !isSectionalSubmitted) {
                     pauseSectionalTimer();
-                    console.log("Tab switched: Sectional Timer Paused.");
                 }
             }
         });
@@ -440,7 +432,6 @@
                 updateSavedBadge();
             }
 
-            // Load Sectional Data
             loadSectionalData();
         }
 
@@ -496,35 +487,17 @@
             isSectionalSubmitted = false;
             sectionalSeconds = (todaySectional.durationMinutes || 40) * 60;
 
-            const container = document.getElementById('sectional-banner-container');
-            container.innerHTML = `
-                <div class="question-card">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 1px solid var(--border-light); padding-bottom: 15px;">
-                        <div>
-                            <h3 style="color:var(--text-heading);">${todaySectional.title}</h3>
-                            <span id="sec-q-progress" class="tag" style="margin-top:4px; display:inline-block;">Q 1 of ${todaySectional.questions.length}</span>
-                        </div>
-                        
-                        <!-- FLOATING SECTIONAL TIMER WITH PAUSE TOGGLE -->
-                        <div class="timer-badge-box">
-                            <span id="sec-timer-display" class="timer-badge-text">⏱️ 40:00</span>
-                            <button id="sec-pause-btn" class="timer-pause-btn" onclick="toggleSectionalTimer()">Pause</button>
-                        </div>
-                    </div>
-
-                    <div id="sec-q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1.05rem; white-space: pre-line; line-height: 1.7;"></div>
-                    <div id="sec-q-options"></div>
-                    <div id="sec-q-explanation" class="explanation-box"></div>
-
-                    <div style="display: flex; justify-content: space-between; margin-top: 25px;">
-                        <button class="nav-btn" onclick="navSectionalQ(-1)">← Previous</button>
-                        <button class="nav-btn" onclick="navSectionalQ(1)">Next →</button>
-                    </div>
-                    <button class="submit-btn" onclick="submitSectionalTest()" style="margin-top: 20px;">🚀 Submit Sectional Test</button>
-                </div>`;
-
+            renderSectionalContainerLayout();
             renderSectionalQuestion();
             startSectionalCountdown();
+        }
+
+        function renderSectionalContainerLayout() {
+            const container = document.getElementById('sectional-banner-container');
+            container.innerHTML = `
+                <div id="sec-test-wrapper">
+                    <!-- Dynamic Layout injected by renderSectionalQuestion -->
+                </div>`;
         }
 
         function startSectionalCountdown() {
@@ -574,17 +547,19 @@
         function renderSectionalQuestion() {
             const qList = todaySectional.questions;
             const q = qList[secCurrentQIndex];
+            const wrapper = document.getElementById('sec-test-wrapper');
 
-            document.getElementById('sec-q-progress').innerText = `Q ${secCurrentQIndex + 1} of ${qList.length}`;
-            document.getElementById('sec-q-text').innerText = q.question;
-
-            const expBox = document.getElementById('sec-q-explanation');
-            if (isSectionalSubmitted) {
-                expBox.style.display = 'block';
-                expBox.innerHTML = q.explanation || "No detailed explanation provided.";
-            } else {
-                expBox.style.display = 'none';
-            }
+            const timerHeaderHtml = `
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 1px solid var(--border-light); padding-bottom: 15px;">
+                    <div>
+                        <h3 style="color:var(--text-heading); font-size: 1.1rem;">${todaySectional.title}</h3>
+                        <span id="sec-q-progress" class="tag" style="margin-top:4px; display:inline-block;">Q ${secCurrentQIndex + 1} of ${qList.length}</span>
+                    </div>
+                    <div class="timer-badge-box">
+                        <span id="sec-timer-display" class="timer-badge-text">⏱️ 40:00</span>
+                        <button id="sec-pause-btn" class="timer-pause-btn" onclick="toggleSectionalTimer()">${isSectionalTimerActive ? 'Pause' : 'Resume'}</button>
+                    </div>
+                </div>`;
 
             const optionsHtml = q.options.map((opt, idx) => {
                 let btnClass = "opt-btn";
@@ -598,7 +573,48 @@
                 return `<button class="${btnClass}" onclick="selectSectionalOpt(${idx})">${opt}</button>`;
             }).join('');
 
-            document.getElementById('sec-q-options').innerHTML = optionsHtml;
+            const expHtml = `<div id="sec-q-explanation" class="explanation-box" style="display:${isSectionalSubmitted ? 'block' : 'none'}">${q.explanation || ''}</div>`;
+
+            const navBtnsHtml = `
+                <div style="display: flex; justify-content: space-between; margin-top: 25px;">
+                    <button class="nav-btn" onclick="navSectionalQ(-1)">← Previous</button>
+                    <button class="nav-btn" onclick="navSectionalQ(1)">Next →</button>
+                </div>
+                <button class="submit-btn" onclick="submitSectionalTest()" style="margin-top: 20px;">🚀 Submit Sectional Test</button>`;
+
+            // IF QUESTION HAS PASSAGE / IS RC TYPE -> RENDER SPLIT SCREEN
+            if (q.passage || q.type === 'RC') {
+                wrapper.innerHTML = `
+                    <div class="test-split">
+                        <div class="reading-box">
+                            <span class="tag" style="margin-bottom:10px; display:inline-block;">Reading Passage</span>
+                            <div class="passage-body">${q.passage || 'Reading passage text...'}</div>
+                        </div>
+                        <div class="question-card">
+                            ${timerHeaderHtml}
+                            <div id="sec-q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1rem; line-height: 1.6;">${q.question}</div>
+                            <div id="sec-q-options">${optionsHtml}</div>
+                            ${expHtml}
+                            ${navBtnsHtml}
+                        </div>
+                    </div>`;
+            } else {
+                // NORMAL SINGLE CARD FOR VOCAB / GRAMMAR / PARAJUMBLE
+                wrapper.innerHTML = `
+                    <div class="question-card">
+                        ${timerHeaderHtml}
+                        <div id="sec-q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1.05rem; white-space: pre-line; line-height: 1.7;">${q.question}</div>
+                        <div id="sec-q-options">${optionsHtml}</div>
+                        ${expHtml}
+                        ${navBtnsHtml}
+                    </div>`;
+            }
+
+            // Update timer display immediately after render
+            const mins = Math.floor(sectionalSeconds / 60).toString().padStart(2, '0');
+            const secs = (sectionalSeconds % 60).toString().padStart(2, '0');
+            const display = document.getElementById('sec-timer-display');
+            if (display) display.innerText = `⏱️ ${mins}:${secs}`;
         }
 
         function selectSectionalOpt(idx) {
@@ -692,7 +708,6 @@
         function navigateTab(targetTab) {
             if (targetTab === activeTab) return;
 
-            // Strict Warnings and Pause on Tab Switch
             if (activeTab === 'reading' && isTimerActive && !isSubmitted) {
                 const confirmLeave = confirm("⚠️ RC Test Active: Changing tabs will pause your RC timer. Do you want to proceed?");
                 if (!confirmLeave) return;
