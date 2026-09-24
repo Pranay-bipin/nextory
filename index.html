@@ -139,11 +139,45 @@
             border-radius: 14px;
             padding: 28px;
             box-shadow: var(--shadow-subtle);
+            position: relative;
         }
         .reading-box { max-height: 80vh; overflow-y: auto; }
         .meta-tags { display: flex; gap: 8px; margin-bottom: 18px; flex-wrap: wrap; }
         .tag { background: var(--bg-subtle); color: var(--text-body); font-size: 0.74rem; padding: 4px 10px; border-radius: 6px; border: 1px solid var(--border-light); font-weight: 700; }
         .passage-body { font-size: 1.02rem; line-height: 1.9; color: #1f3328; white-space: pre-line; text-align: justify; }
+
+        /* ALWAYS VISIBLE FLOATING TIMER STYLES */
+        .timer-badge-box {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--green-bg);
+            border: 1px solid var(--green-border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            position: sticky;
+            top: 80px;
+            z-index: 90;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.1);
+        }
+        .timer-badge-text {
+            color: var(--green-hover);
+            font-weight: 800;
+            font-size: 0.9rem;
+            font-mono: monospace;
+        }
+        .timer-pause-btn {
+            background: #ffffff;
+            border: 1px solid var(--green-border);
+            color: var(--green-hover);
+            font-size: 0.7rem;
+            font-weight: 800;
+            padding: 2px 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+        .timer-pause-btn:hover { background: var(--green-hover); color: #ffffff; }
 
         .opt-btn {
             display: block; width: 100%; text-align: left;
@@ -183,6 +217,7 @@
         <div class="nav-items">
             <button id="btn-vocab" class="nav-btn active" onclick="navigateTab('vocab')">📖 Daily Vocab</button>
             <button id="btn-reading" class="nav-btn" onclick="navigateTab('reading')">📑 Reading Practice</button>
+            <button id="btn-sectional" class="nav-btn" onclick="navigateTab('sectional')">⚡ Sectionals</button>
             <button id="btn-saved" class="nav-btn" onclick="navigateTab('saved')">🔖 Saved Hub (<span id="saved-count">0</span>)</button>
             <button id="btn-archive" class="nav-btn" onclick="navigateTab('archive')">📂 Past RCs</button>
         </div>
@@ -234,11 +269,15 @@
                     <div class="question-card">
                         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
                             <h3 style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">Question Palette</h3>
-                            <div style="display:flex; gap:8px; align-items:center;">
-                                <span id="q-progress" class="tag">Q 1 of 6</span>
-                                <span id="timer-display" class="tag" style="background:var(--green-bg); color:var(--green-hover); border-color:var(--green-border);">⏱️ 00:00</span>
+                            
+                            <!-- FLOATING ALWAYS VISIBLE TIMER -->
+                            <div class="timer-badge-box">
+                                <span id="timer-display" class="timer-badge-text">⏱️ 00:00</span>
+                                <button id="rc-pause-btn" class="timer-pause-btn" onclick="toggleRcTimer()">Pause</button>
                             </div>
                         </div>
+
+                        <span id="q-progress" class="tag" style="margin-bottom:12px; display:inline-block;">Q 1 of 6</span>
                         <div id="q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading);">Loading question...</div>
                         <div id="q-options"></div>
                         <div id="q-explanation" class="explanation-box"></div>
@@ -253,7 +292,16 @@
             </div>
         </div>
 
-        <!-- 3. SAVED HUB TAB -->
+        <!-- 3. SECTIONALS TAB -->
+        <div id="panel-sectional" class="view-panel">
+            <div id="sectional-banner-container">
+                <div class="question-card" style="text-align:center; padding: 40px;">
+                    <h3 style="color:var(--text-heading);">Checking for today's IPMAT Indore Sectional Test...</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. SAVED HUB TAB -->
         <div id="panel-saved" class="view-panel">
             <div class="question-card">
                 <h2 style="margin-bottom: 6px; color: var(--text-heading);">🔖 Saved Vocab Hub</h2>
@@ -276,7 +324,7 @@
             </div>
         </div>
 
-        <!-- 4. PAST RCS ARCHIVE TAB -->
+        <!-- 5. PAST RCS ARCHIVE TAB -->
         <div id="panel-archive" class="view-panel">
             <div class="question-card">
                 <h2 style="margin-bottom: 15px; color: var(--text-heading);">Past Reading Passages Archive (IPMAT Advanced Standard)</h2>
@@ -336,6 +384,29 @@
 
         let savedItems = JSON.parse(localStorage.getItem('nextory_saved')) || [];
 
+        // Sectional State Variables
+        let todaySectional = null;
+        let sectionalUserAnswers = {};
+        let sectionalSeconds = 2400; // 40 Mins Countdown
+        let sectionalTimerInterval = null;
+        let isSectionalSubmitted = false;
+        let isSectionalTimerActive = false;
+        let secCurrentQIndex = 0;
+
+        // BROWSER TAB SWITCH WARNING (VISIBILITY CHANGE DETECTOR)
+        document.addEventListener("visibilitychange", function() {
+            if (document.hidden) {
+                // User switched browser tab
+                if (activeTab === 'reading' && isTimerActive && !isSubmitted) {
+                    pauseTimer();
+                    console.log("Tab switched: RC Timer Paused.");
+                } else if (activeTab === 'sectional' && isSectionalTimerActive && !isSectionalSubmitted) {
+                    pauseSectionalTimer();
+                    console.log("Tab switched: Sectional Timer Paused.");
+                }
+            }
+        });
+
         function getLocalDateString() {
             const now = new Date();
             const year = now.getFullYear();
@@ -353,26 +424,236 @@
                 console.error("Could not fetch passages.json", err);
             }
 
-            if (!allPassages || allPassages.length === 0) return;
+            if (allPassages && allPassages.length > 0) {
+                const todayStr = getLocalDateString();
+                const availablePassages = allPassages.filter(p => p.date <= todayStr);
 
-            const todayStr = getLocalDateString();
-            const availablePassages = allPassages.filter(p => p.date <= todayStr);
+                if (availablePassages.length > 0) {
+                    currentRC = availablePassages.find(p => p.date === todayStr) || availablePassages[availablePassages.length - 1];
+                } else {
+                    currentRC = allPassages[0];
+                }
 
-            if (availablePassages.length > 0) {
-                currentRC = availablePassages.find(p => p.date === todayStr) || availablePassages[availablePassages.length - 1];
-            } else {
-                currentRC = allPassages[0];
+                renderVocab(currentRC.vocab);
+                renderReadingTest(currentRC, false);
+                renderArchive(availablePassages);
+                updateSavedBadge();
             }
 
-            renderVocab(currentRC.vocab);
-            renderReadingTest(currentRC, false);
-            renderArchive(availablePassages);
-            updateSavedBadge();
+            // Load Sectional Data
+            loadSectionalData();
+        }
+
+        async function loadSectionalData() {
+            try {
+                const response = await fetch('sectional.json');
+                if (!response.ok) throw new Error("Sectional JSON fetch error");
+                const sectionals = await response.json();
+                
+                const todayStr = getLocalDateString();
+                todaySectional = sectionals.find(s => s.date === todayStr);
+
+                renderSectionalBanner();
+            } catch (err) {
+                console.warn("Sectional data not available for today:", err);
+                renderNoSectionalBanner();
+            }
+        }
+
+        function renderSectionalBanner() {
+            const container = document.getElementById('sectional-banner-container');
+            if (!todaySectional) {
+                renderNoSectionalBanner();
+                return;
+            }
+
+            container.innerHTML = `
+                <div class="hero-banner" style="background: linear-gradient(135deg, #d1fae5 0%, #ecfdf5 100%); border-color: var(--green-border);">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px;">
+                        <span class="sub-tag">LIVE TODAY ONLY</span>
+                        <span style="font-weight:700; color:var(--green-hover); font-size:0.85rem;">⏱️ 40 MINS | 45 QUESTIONS</span>
+                    </div>
+                    <h1>${todaySectional.title}</h1>
+                    <p style="margin-bottom:20px;">Strict IPMAT Indore standard set (RCs, Para Jumbles, Verbal Reasoning, Grammar & Vocab). Test expires at midnight!</p>
+                    <button class="primary-btn" onclick="startFullSectionalTest()">🚀 Start IPMAT Indore Sectional Test</button>
+                </div>`;
+        }
+
+        function renderNoSectionalBanner() {
+            const container = document.getElementById('sectional-banner-container');
+            container.innerHTML = `
+                <div class="question-card" style="text-align:center; padding: 40px;">
+                    <h2 style="color:var(--text-heading); font-size: 1.3rem;">⚡ No Active Sectional Test Today</h2>
+                    <p style="color:var(--text-muted); margin-top:10px;">Today's IPMAT Indore VA Sectional test is not live yet or has expired. Check back tomorrow at 12:00 AM!</p>
+                </div>`;
+        }
+
+        function startFullSectionalTest() {
+            if (!todaySectional || !todaySectional.questions) return;
+
+            secCurrentQIndex = 0;
+            sectionalUserAnswers = {};
+            isSectionalSubmitted = false;
+            sectionalSeconds = (todaySectional.durationMinutes || 40) * 60;
+
+            const container = document.getElementById('sectional-banner-container');
+            container.innerHTML = `
+                <div class="question-card">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 1px solid var(--border-light); padding-bottom: 15px;">
+                        <div>
+                            <h3 style="color:var(--text-heading);">${todaySectional.title}</h3>
+                            <span id="sec-q-progress" class="tag" style="margin-top:4px; display:inline-block;">Q 1 of ${todaySectional.questions.length}</span>
+                        </div>
+                        
+                        <!-- FLOATING SECTIONAL TIMER WITH PAUSE TOGGLE -->
+                        <div class="timer-badge-box">
+                            <span id="sec-timer-display" class="timer-badge-text">⏱️ 40:00</span>
+                            <button id="sec-pause-btn" class="timer-pause-btn" onclick="toggleSectionalTimer()">Pause</button>
+                        </div>
+                    </div>
+
+                    <div id="sec-q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1.05rem; white-space: pre-line; line-height: 1.7;"></div>
+                    <div id="sec-q-options"></div>
+                    <div id="sec-q-explanation" class="explanation-box"></div>
+
+                    <div style="display: flex; justify-content: space-between; margin-top: 25px;">
+                        <button class="nav-btn" onclick="navSectionalQ(-1)">← Previous</button>
+                        <button class="nav-btn" onclick="navSectionalQ(1)">Next →</button>
+                    </div>
+                    <button class="submit-btn" onclick="submitSectionalTest()" style="margin-top: 20px;">🚀 Submit Sectional Test</button>
+                </div>`;
+
+            renderSectionalQuestion();
+            startSectionalCountdown();
+        }
+
+        function startSectionalCountdown() {
+            clearInterval(sectionalTimerInterval);
+            isSectionalTimerActive = true;
+            updateSecPauseBtnUI();
+
+            sectionalTimerInterval = setInterval(() => {
+                sectionalSeconds--;
+                const mins = Math.floor(sectionalSeconds / 60).toString().padStart(2, '0');
+                const secs = (sectionalSeconds % 60).toString().padStart(2, '0');
+                
+                const display = document.getElementById('sec-timer-display');
+                if (display) display.innerText = `⏱️ ${mins}:${secs}`;
+
+                if (sectionalSeconds <= 0) {
+                    clearInterval(sectionalTimerInterval);
+                    isSectionalTimerActive = false;
+                    alert("⏰ Time's UP! Your IPMAT Indore VA Sectional test is auto-submitting now.");
+                    submitSectionalTest();
+                }
+            }, 1000);
+        }
+
+        function pauseSectionalTimer() {
+            clearInterval(sectionalTimerInterval);
+            isSectionalTimerActive = false;
+            updateSecPauseBtnUI();
+        }
+
+        function toggleSectionalTimer() {
+            if (isSectionalSubmitted) return;
+            if (isSectionalTimerActive) {
+                pauseSectionalTimer();
+            } else {
+                startSectionalCountdown();
+            }
+        }
+
+        function updateSecPauseBtnUI() {
+            const btn = document.getElementById('sec-pause-btn');
+            if (btn) {
+                btn.innerText = isSectionalTimerActive ? "Pause" : "Resume";
+            }
+        }
+
+        function renderSectionalQuestion() {
+            const qList = todaySectional.questions;
+            const q = qList[secCurrentQIndex];
+
+            document.getElementById('sec-q-progress').innerText = `Q ${secCurrentQIndex + 1} of ${qList.length}`;
+            document.getElementById('sec-q-text').innerText = q.question;
+
+            const expBox = document.getElementById('sec-q-explanation');
+            if (isSectionalSubmitted) {
+                expBox.style.display = 'block';
+                expBox.innerHTML = q.explanation || "No detailed explanation provided.";
+            } else {
+                expBox.style.display = 'none';
+            }
+
+            const optionsHtml = q.options.map((opt, idx) => {
+                let btnClass = "opt-btn";
+                if (sectionalUserAnswers[secCurrentQIndex] === idx) btnClass += " selected";
+
+                if (isSectionalSubmitted) {
+                    if (idx === q.answer) btnClass += " correct";
+                    else if (sectionalUserAnswers[secCurrentQIndex] === idx) btnClass += " wrong";
+                }
+
+                return `<button class="${btnClass}" onclick="selectSectionalOpt(${idx})">${opt}</button>`;
+            }).join('');
+
+            document.getElementById('sec-q-options').innerHTML = optionsHtml;
+        }
+
+        function selectSectionalOpt(idx) {
+            if (isSectionalSubmitted) return;
+            sectionalUserAnswers[secCurrentQIndex] = idx;
+            renderSectionalQuestion();
+        }
+
+        function navSectionalQ(dir) {
+            const total = todaySectional.questions.length;
+            const newIndex = secCurrentQIndex + dir;
+
+            if (newIndex >= 0 && newIndex < total) {
+                secCurrentQIndex = newIndex;
+                renderSectionalQuestion();
+            }
+        }
+
+        function submitSectionalTest() {
+            pauseSectionalTimer();
+            isSectionalSubmitted = true;
+
+            const qList = todaySectional.questions;
+            let correct = 0, incorrect = 0, unattempted = 0;
+
+            qList.forEach((q, idx) => {
+                if (sectionalUserAnswers[idx] === undefined) {
+                    unattempted++;
+                } else if (sectionalUserAnswers[idx] === q.answer) {
+                    correct++;
+                } else {
+                    incorrect++;
+                }
+            });
+
+            const score = (correct * 4) - (incorrect * 1);
+            const totalMarks = qList.length * 4;
+            const accuracy = (correct + incorrect) > 0 ? Math.round((correct / (correct + incorrect)) * 100) : 0;
+
+            document.getElementById('stat-accuracy').innerText = `${accuracy}%`;
+            document.getElementById('stat-speed').innerText = `${score} / ${totalMarks} Marks`;
+            document.getElementById('stat-time').innerText = `${2400 - sectionalSeconds}s`;
+            document.getElementById('stat-correct').innerText = correct;
+            document.getElementById('stat-incorrect').innerText = incorrect;
+            document.getElementById('stat-unattempted').innerText = unattempted;
+
+            document.getElementById('dashboard-modal').classList.add('active');
+            renderSectionalQuestion();
         }
 
         function startTimer() {
             if (isTimerActive) return;
             isTimerActive = true;
+            updateRcPauseBtnUI();
+
             timerInterval = setInterval(() => {
                 secondsElapsed++;
                 updateTimerDisplay();
@@ -382,21 +663,46 @@
         function pauseTimer() {
             clearInterval(timerInterval);
             isTimerActive = false;
+            updateRcPauseBtnUI();
+        }
+
+        function toggleRcTimer() {
+            if (isSubmitted) return;
+            if (isTimerActive) {
+                pauseTimer();
+            } else {
+                startTimer();
+            }
+        }
+
+        function updateRcPauseBtnUI() {
+            const btn = document.getElementById('rc-pause-btn');
+            if (btn) {
+                btn.innerText = isTimerActive ? "Pause" : "Resume";
+            }
         }
 
         function updateTimerDisplay() {
             const mins = Math.floor(secondsElapsed / 60).toString().padStart(2, '0');
             const secs = (secondsElapsed % 60).toString().padStart(2, '0');
-            document.getElementById('timer-display').innerText = `⏱️ ${mins}:${secs}`;
+            const display = document.getElementById('timer-display');
+            if (display) display.innerText = `⏱️ ${mins}:${secs}`;
         }
 
         function navigateTab(targetTab) {
             if (targetTab === activeTab) return;
 
+            // Strict Warnings and Pause on Tab Switch
             if (activeTab === 'reading' && isTimerActive && !isSubmitted) {
-                const confirmLeave = confirm("If you change the page, your RC test timer will be paused. Click OK to proceed.");
+                const confirmLeave = confirm("⚠️ RC Test Active: Changing tabs will pause your RC timer. Do you want to proceed?");
                 if (!confirmLeave) return;
                 pauseTimer();
+            }
+
+            if (activeTab === 'sectional' && isSectionalTimerActive && !isSectionalSubmitted) {
+                const confirmLeave = confirm("⚠️ IPMAT Sectional Mock Active: Changing tabs will pause your Sectional timer. Do you want to proceed?");
+                if (!confirmLeave) return;
+                pauseSectionalTimer();
             }
 
             showTab(targetTab);
@@ -629,7 +935,7 @@
 
         function selectArchiveRC(id) {
             if (activeTab === 'reading' && isTimerActive && !isSubmitted) {
-                const confirmLeave = confirm("If you switch passages, your current test timer will pause. Click OK to proceed.");
+                const confirmLeave = confirm("⚠️ RC Test Active: Switching passages will pause your RC timer. Click OK to proceed.");
                 if (!confirmLeave) return;
             }
 
