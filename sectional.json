@@ -1,608 +1,609 @@
 [
   {
-    "id": "sec-2026-09-24",
-    "date": "2026-09-24",
-    "title": "IPMAT Indore VA Full Sectional Mock - Set 01",
+    "id": "sec-2026-09-27",
+    "date": "2026-09-27",
+    "title": "IPMAT Indore VA Full Sectional Mock - Set 02 (Advanced Level)",
     "durationMinutes": 40,
     "totalQuestions": 45,
     "questions": [
       {
         "id": "q1",
         "type": "RC",
-        "passage": "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in disenfranchised neighborhoods. The model's statistical objectivity cloaks systemic prejudice in mathematical authority.",
-        "question": "Which of the following best captures the primary thesis of the passage regarding algorithmic governance?",
+        "passage": "The philosophy of language in the mid-twentieth century underwent a quiet paradigm shift, transitioning from the logical atomism of early Wittgenstein and Bertrand Russell to the pragmatic, ordinary-language philosophy popularized by the later Wittgenstein in 'Philosophical Investigations'. Early analytic philosophy treated language as a formal, mirror-like structure whose primary function was to represent facts about the world through precise logical propositions. Under this picture theory of meaning, statements that could not be empirically verified or reduced to logical tautologies—such as ethical claims, metaphysical speculations, or aesthetic judgments—were dismissed as strictly cognitive nonsense.\n\nHowever, later Wittgenstein famously dismantled his own earlier formalism, proposing instead that words do not derive their meaning from fixed abstract referents, but rather from their practical application within distinct human activities, which he termed 'language-games'. Meaning is use. Just as a piece in a game of chess is defined not by its material composition or isolated physical properties, but by its relational rules of movement on the board, so too are linguistic terms constituted by the implicit rules of the social practices in which they operate. Consequently, philosophical problems often arise not from genuine mysteries about reality, but from 'language on holiday'—misusing concepts outside the specific language-games in which they naturally function.",
+        "question": "The primary thesis of the 'picture theory of meaning' as described in the passage is that:",
         "options": [
-          "A) Machine learning algorithms process historical datasets without emotional bias.",
-          "B) Delegating high-stakes decisions to algorithms mechanizes historical prejudice behind a false veneer of neutrality.",
-          "C) Technical coding flaws can be fully rectified through rigorous post-deployment auditing.",
-          "D) Predictive policing models should be replaced with classical rule-based expert systems."
+          "A) The meaning of a word is derived exclusively from its social context within a language-game.",
+          "B) Language functions primarily as a formal logical mirror representing empirical facts about the world.",
+          "C) Ethical claims and aesthetic judgments carry higher cognitive truth than logical tautologies.",
+          "D) Philosophical paradoxes are caused by language being used outside its natural social practice."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Option B summarizes the core argument: algorithms codify historical human bias under statistical objectivity."
+        "explanation": "<strong>Explanation:</strong> Paragraph 1 explicitly states the picture theory treated language as a mirror-like structure representing facts through precise logical propositions."
       },
       {
         "id": "q2",
         "type": "RC",
-        "passage": "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in disenfranchised neighborhoods. The model's statistical objectivity cloaks systemic prejudice in mathematical authority.",
-        "question": "Predictive policing algorithms fail to provide objective crime forecasts primarily because they:",
+        "passage": "The philosophy of language in the mid-twentieth century underwent a quiet paradigm shift, transitioning from the logical atomism of early Wittgenstein and Bertrand Russell to the pragmatic, ordinary-language philosophy popularized by the later Wittgenstein in 'Philosophical Investigations'. Early analytic philosophy treated language as a formal, mirror-like structure whose primary function was to represent facts about the world through precise logical propositions. Under this picture theory of meaning, statements that could not be empirically verified or reduced to logical tautologies—such as ethical claims, metaphysical speculations, or aesthetic judgments—were dismissed as strictly cognitive nonsense.\n\nHowever, later Wittgenstein famously dismantled his own earlier formalism, proposing instead that words do not derive their meaning from fixed abstract referents, but rather from their practical application within distinct human activities, which he termed 'language-games'. Meaning is use. Just as a piece in a game of chess is defined not by its material composition or isolated physical properties, but by its relational rules of movement on the board, so too are linguistic terms constituted by the implicit rules of the social practices in which they operate. Consequently, philosophical problems often arise not from genuine mysteries about reality, but from 'language on holiday'—misusing concepts outside the specific language-games in which they naturally function.",
+        "question": "According to the later Wittgensteinian view, 'language on holiday' leads to philosophical confusion because:",
         "options": [
-          "A) Suffer from non-linear computational regressions.",
-          "B) Are trained on historical arrest data reflecting deployment patterns rather than actual crime occurrences.",
-          "C) Fail to account for economic market fluctuations in disenfranchised neighborhoods.",
-          "D) Rely on rule-based logic that cannot adapt to changing urban demographics."
+          "A) Scholars fail to translate ordinary words into formal symbolic logic.",
+          "B) Linguistic expressions are removed from the specific social rules and practices that give them meaning.",
+          "C) Words are restricted to empirical observations rather than metaphysical speculation.",
+          "D) Chess pieces are used as metaphors for physical properties."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 2 states arrest records reflect discriminatory policing deployment rather than true crime rates."
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 states that 'language on holiday' means misusing concepts outside the specific language-games in which they naturally function."
       },
       {
         "id": "q3",
         "type": "RC",
-        "passage": "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in disenfranchised neighborhoods. The model's statistical objectivity cloaks systemic prejudice in mathematical authority.",
-        "question": "The term 'self-fulfilling feedback loop' in the context of predictive policing refers to:",
+        "passage": "The philosophy of language in the mid-twentieth century underwent a quiet paradigm shift, transitioning from the logical atomism of early Wittgenstein and Bertrand Russell to the pragmatic, ordinary-language philosophy popularized by the later Wittgenstein in 'Philosophical Investigations'. Early analytic philosophy treated language as a formal, mirror-like structure whose primary function was to represent facts about the world through precise logical propositions. Under this picture theory of meaning, statements that could not be empirically verified or reduced to logical tautologies—such as ethical claims, metaphysical speculations, or aesthetic judgments—were dismissed as strictly cognitive nonsense.\n\nHowever, later Wittgenstein famously dismantled his own earlier formalism, proposing instead that words do not derive their meaning from fixed abstract referents, but rather from their practical application within distinct human activities, which he termed 'language-games'. Meaning is use. Just as a piece in a game of chess is defined not by its material composition or isolated physical properties, but by its relational rules of movement on the board, so too are linguistic terms constituted by the implicit rules of the social practices in which they operate. Consequently, philosophical problems often arise not from genuine mysteries about reality, but from 'language on holiday'—misusing concepts outside the specific language-games in which they naturally function.",
+        "question": "The chess piece analogy in the second paragraph is used to demonstrate that:",
         "options": [
-          "A) Criminals altering their behavior to evade algorithmic tracking.",
-          "B) Police returning repeatedly to over-policed areas because biased data prompts further deployment.",
-          "C) Software updates automatically correcting historical biases over time.",
-          "D) Citizens reporting more crimes through digital governance portals."
+          "A) Formal games are superior to ordinary human speech.",
+          "B) A word's meaning depends on its rules of operation within a social system, not an intrinsic isolated property.",
+          "C) Language is inherently rigid and incapable of evolutionary adaptation.",
+          "D) Philosophical analysis should follow strict mathematical game theory."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> The feedback loop occurs because deploying police based on arrest records leads to more arrests in those same areas, perpetuating biased data."
+        "explanation": "<strong>Explanation:</strong> The analogy shows that just as chess pieces are defined by relational rules on the board, words are defined by social practices."
       },
       {
         "id": "q4",
         "type": "RC",
-        "passage": "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in disenfranchised neighborhoods. The model's statistical objectivity cloaks systemic prejudice in mathematical authority.",
-        "question": "The tone of the author in evaluating the narrative of proponents of algorithmic governance can best be described as:",
+        "passage": "The philosophy of language in the mid-twentieth century underwent a quiet paradigm shift, transitioning from the logical atomism of early Wittgenstein and Bertrand Russell to the pragmatic, ordinary-language philosophy popularized by the later Wittgenstein in 'Philosophical Investigations'. Early analytic philosophy treated language as a formal, mirror-like structure whose primary function was to represent facts about the world through precise logical propositions. Under this picture theory of meaning, statements that could not be empirically verified or reduced to logical tautologies—such as ethical claims, metaphysical speculations, or aesthetic judgments—were dismissed as strictly cognitive nonsense.\n\nHowever, later Wittgenstein famously dismantled his own earlier formalism, proposing instead that words do not derive their meaning from fixed abstract referents, but rather from their practical application within distinct human activities, which he termed 'language-games'. Meaning is use. Just as a piece in a game of chess is defined not by its material composition or isolated physical properties, but by its relational rules of movement on the board, so too are linguistic terms constituted by the implicit rules of the social practices in which they operate. Consequently, philosophical problems often arise not from genuine mysteries about reality, but from 'language on holiday'—misusing concepts outside the specific language-games in which they naturally function.",
+        "question": "Under the early analytic framework, ethical and aesthetic statements were classified as 'cognitive nonsense' because they:",
         "options": [
-          "A) Laudatory and unreservedly optimistic.",
-          "B) Skeptical, analytical, and critical.",
-          "C) Indifferent and purely descriptive.",
-          "D) Apologetic and highly defensive."
+          "A) Lacked emotional resonance in everyday speech.",
+          "B) Could not be empirically verified or reduced to logical tautologies.",
+          "C) Violated the relational rules of chess analogies.",
+          "D) Were generated by ordinary-language philosophy."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> The author uses critical terms like 'deceptive guise', 'triumphalist narrative', and 'epistemological misconception'."
+        "explanation": "<strong>Explanation:</strong> Paragraph 1 directly states that statements that could not be empirically verified or reduced to logical tautologies were dismissed as cognitive nonsense."
       },
       {
         "id": "q5",
         "type": "RC",
-        "passage": "In contemporary technological discourse, computational systems are frequently framed as impartial arbiters of complex human activities, purportedly insulated from the visceral emotional biases, ideological doctrines, and cognitive shortcuts that pollute human decision-making. Proponents champion algorithmic governance as an objective, data-driven panacea capable of rationalizing resource distribution, sentencing criminal defendants, and managing economic markets. However, this triumphalist narrative relies on a profound epistemological misconception regarding software systems: an algorithm is not a neutral mathematical oracle, but a static, codified representation of historical training data.\n\nBecause historical datasets are intrinsically shaped by structural inequities, institutional blind spots, and systemic marginalization, training predictive machine learning models on past human behavior inevitably codifies and amplifies those same socio-historical disparities under the deceptive guise of statistical objectivity. Consider predictive policing software designed to optimize law enforcement resource allocation. When these systems are trained on historical arrest records—data that reflects decades of discriminatory policing practices rather than true criminal activity—they do not predict actual future crime rates. Instead, they mathematically predict where police forces were historically deployed, generating a self-fulfilling feedback loop of hyper-surveillance in disenfranchised neighborhoods. The model's statistical objectivity cloaks systemic prejudice in mathematical authority.",
-        "question": "Which of the following interventions would the author most likely support to mitigate algorithmic bias?",
+        "passage": "The philosophy of language in the mid-twentieth century underwent a quiet paradigm shift, transitioning from the logical atomism of early Wittgenstein and Bertrand Russell to the pragmatic, ordinary-language philosophy popularized by the later Wittgenstein in 'Philosophical Investigations'. Early analytic philosophy treated language as a formal, mirror-like structure whose primary function was to represent facts about the world through precise logical propositions. Under this picture theory of meaning, statements that could not be empirically verified or reduced to logical tautologies—such as ethical claims, metaphysical speculations, or aesthetic judgments—were dismissed as strictly cognitive nonsense.\n\nHowever, later Wittgenstein famously dismantled his own earlier formalism, proposing instead that words do not derive their meaning from fixed abstract referents, but rather from their practical application within distinct human activities, which he termed 'language-games'. Meaning is use. Just as a piece in a game of chess is defined not by its material composition or isolated physical properties, but by its relational rules of movement on the board, so too are linguistic terms constituted by the implicit rules of the social practices in which they operate. Consequently, philosophical problems often arise not from genuine mysteries about reality, but from 'language on holiday'—misusing concepts outside the specific language-games in which they naturally function.",
+        "question": "The transition described in the passage can best be summarized as a shift from:",
         "options": [
-          "A) Increasing the processing speed of neural network parameters.",
-          "B) Eliminating human oversight in sentencing and policing.",
-          "C) Subjecting historical training data and underlying socio-institutional assumptions to rigorous legal and ethical auditing.",
-          "D) Mandating that algorithms use larger unvetted historical datasets."
+          "A) Pragmatic ordinary language to rigid formal symbolism.",
+          "B) Abstract logical representationalism to contextual pragmatic functionalism.",
+          "C) Empirical observation to unverified metaphysical speculation.",
+          "D) Linguistic atomism to psychological behavioral modeling."
         ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> Since the problem stems from biased historical data and assumptions, auditing those datasets directly addresses the author's core critique."
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> The shift went from language representing facts logically (representationalism) to language deriving meaning from practical use in context (pragmatic functionalism)."
       },
       {
         "id": "q6",
         "type": "RC",
-        "passage": "Neoclassical economic theory was built upon the ideal abstraction of 'Homo Economicus'—a perfectly rational human actor who processes all available information objectively and consistently maximizes personal utility. However, behavioral economics has systematically dismantled this idealization. Spearheaded by Daniel Kahneman and Amos Tversky, cognitive research demonstrates that human decision-making is governed by dual cognitive architectures: System 1 (fast, intuitive, emotional) and System 2 (slow, analytical, deliberate).\n\nBecause cognitive resources are finite, System 1 relies heavily on heuristics—mental shortcuts that enable rapid decision-making under uncertainty. While evolutionarily advantageous for immediate survival, these shortcuts produce systematic cognitive biases. Loss aversion, for instance, dictates that the psychological pain of losing $100 is roughly twice as intense as the pleasure of gaining $100. This emotional asymmetry explains why stock market investors irrationally hold onto depreciating assets while prematurely selling gaining stocks.\n\nSimilarly, anchoring effects demonstrate that human numerical estimates are heavily influenced by completely irrelevant initial reference points. In market settings, framing options appropriately can radically alter consumer decisions without changing underlying economic incentives. Consequently, public choice theorists now advocate for 'choice architecture' and subtle behavioral nudges to steer individuals toward better long-term decisions.",
-        "question": "The primary flaw in Neoclassical economic assumptions highlighted by the passage is its:",
+        "passage": "Central banking theory historically operated under the premise that monetary policy affects the real economy through a direct, predictable mechanism known as the interest rate channel. By altering benchmark policy rates, central banks influence commercial borrowing costs, modulating investment, consumption, and ultimately price inflation. However, the prolonged post-2008 era of near-zero interest rates and subsequent quantitative easing (QE) revealed the limitations of this classical paradigm, highlighting the supreme importance of the 'financial risk-taking channel'.\n\nWhen central banks compress yields on safe assets like sovereign bonds for extended periods, institutional investors searching for yield are forced to reallocate capital into progressively riskier assets—such as corporate high-yield debt, emerging market equities, and speculative real estate. This portfolio rebalancing inflates asset prices and depresses credit spreads, creating an illusion of widespread financial stability. However, this stability is fragile. When inflationary shocks compel central banks to rapidly tighten monetary policy, the sudden elevation of discount rates triggers abrupt asset repricing, liquidity evaporation, and potential systemic contagion across interconnected financial institutions.",
+        "question": "The 'financial risk-taking channel' operates primarily by:",
         "options": [
-          "A) Failure to calculate stock market volatility indices.",
-          "B) Assumption that human choices are guided by perfect rationality rather than dual-system heuristics.",
-          "C) Over-reliance on public choice nudging mechanisms.",
-          "D) Inability to explain evolutionary adaptation."
+          "A) Encouraging commercial banks to hold excess reserves at central banks.",
+          "B) Forcing yield-seeking investors into riskier asset classes due to compressed safe asset yields.",
+          "C) Reducing price inflation through direct commodity tax adjustments.",
+          "D) Eliminating financial leverage in sovereign debt markets."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 1 explicitly notes behavioral economics dismantled the idealization of perfectly rational 'Homo Economicus'."
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 states that compressing yields on safe assets forces institutional investors to reallocate capital into riskier assets."
       },
       {
         "id": "q7",
         "type": "RC",
-        "passage": "Neoclassical economic theory was built upon the ideal abstraction of 'Homo Economicus'—a perfectly rational human actor who processes all available information objectively and consistently maximizes personal utility. However, behavioral economics has systematically dismantled this idealization. Spearheaded by Daniel Kahneman and Amos Tversky, cognitive research demonstrates that human decision-making is governed by dual cognitive architectures: System 1 (fast, intuitive, emotional) and System 2 (slow, analytical, deliberate).\n\nBecause cognitive resources are finite, System 1 relies heavily on heuristics—mental shortcuts that enable rapid decision-making under uncertainty. While evolutionarily advantageous for immediate survival, these shortcuts produce systematic cognitive biases. Loss aversion, for instance, dictates that the psychological pain of losing $100 is roughly twice as intense as the pleasure of gaining $100. This emotional asymmetry explains why stock market investors irrationally hold onto depreciating assets while prematurely selling gaining stocks.\n\nSimilarly, anchoring effects demonstrate that human numerical estimates are heavily influenced by completely irrelevant initial reference points. In market settings, framing options appropriately can radically alter consumer decisions without changing underlying economic incentives. Consequently, public choice theorists now advocate for 'choice architecture' and subtle behavioral nudges to steer individuals toward better long-term decisions.",
-        "question": "System 1 cognitive architecture is characterized in the passage as being:",
+        "passage": "Central banking theory historically operated under the premise that monetary policy affects the real economy through a direct, predictable mechanism known as the interest rate channel. By altering benchmark policy rates, central banks influence commercial borrowing costs, modulating investment, consumption, and ultimately price inflation. However, the prolonged post-2008 era of near-zero interest rates and subsequent quantitative easing (QE) revealed the limitations of this classical paradigm, highlighting the supreme importance of the 'financial risk-taking channel'.\n\nWhen central banks compress yields on safe assets like sovereign bonds for extended periods, institutional investors searching for yield are forced to reallocate capital into progressively riskier assets—such as corporate high-yield debt, emerging market equities, and speculative real estate. This portfolio rebalancing inflates asset prices and depresses credit spreads, creating an illusion of widespread financial stability. However, this stability is fragile. When inflationary shocks compel central banks to rapidly tighten monetary policy, the sudden elevation of discount rates triggers abrupt asset repricing, liquidity evaporation, and potential systemic contagion across interconnected financial institutions.",
+        "question": "Why does the author characterize the financial stability created by prolonged QE as 'an illusion'?",
         "options": [
-          "A) Slow, deliberate, and mathematically rigorous.",
-          "B) Fast, intuitive, emotional, and reliant on heuristics.",
-          "C) Immune to loss aversion and framing effects.",
-          "D) Controlled exclusively by public choice theorists."
+          "A) Sovereign bonds permanently lose their underlying principal value.",
+          "B) Inflated asset prices and narrow credit spreads mask underlying vulnerabilities that shatter during sudden policy tightening.",
+          "C) Central banks stop reporting monetary inflation metrics.",
+          "D) Commercial banks refuse to lend to sovereign governments during low-rate environments."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 1 defines System 1 explicitly as fast, intuitive, and emotional."
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 explains that portfolio rebalancing inflates asset prices and depresses spreads, creating fragility that evaporates when central banks tighten rates."
       },
       {
         "id": "q8",
         "type": "RC",
-        "passage": "Neoclassical economic theory was built upon the ideal abstraction of 'Homo Economicus'—a perfectly rational human actor who processes all available information objectively and consistently maximizes personal utility. However, behavioral economics has systematically dismantled this idealization. Spearheaded by Daniel Kahneman and Amos Tversky, cognitive research demonstrates that human decision-making is governed by dual cognitive architectures: System 1 (fast, intuitive, emotional) and System 2 (slow, analytical, deliberate).\n\nBecause cognitive resources are finite, System 1 relies heavily on heuristics—mental shortcuts that enable rapid decision-making under uncertainty. While evolutionarily advantageous for immediate survival, these shortcuts produce systematic cognitive biases. Loss aversion, for instance, dictates that the psychological pain of losing $100 is roughly twice as intense as the pleasure of gaining $100. This emotional asymmetry explains why stock market investors irrationally hold onto depreciating assets while prematurely selling gaining stocks.\n\nSimilarly, anchoring effects demonstrate that human numerical estimates are heavily influenced by completely irrelevant initial reference points. In market settings, framing options appropriately can radically alter consumer decisions without changing underlying economic incentives. Consequently, public choice theorists now advocate for 'choice architecture' and subtle behavioral nudges to steer individuals toward better long-term decisions.",
-        "question": "Loss aversion causes financial investors to behave irrationally by:",
+        "passage": "Central banking theory historically operated under the premise that monetary policy affects the real economy through a direct, predictable mechanism known as the interest rate channel. By altering benchmark policy rates, central banks influence commercial borrowing costs, modulating investment, consumption, and ultimately price inflation. However, the prolonged post-2008 era of near-zero interest rates and subsequent quantitative easing (QE) revealed the limitations of this classical paradigm, highlighting the supreme importance of the 'financial risk-taking channel'.\n\nWhen central banks compress yields on safe assets like sovereign bonds for extended periods, institutional investors searching for yield are forced to reallocate capital into progressively riskier assets—such as corporate high-yield debt, emerging market equities, and speculative real estate. This portfolio rebalancing inflates asset prices and depresses credit spreads, creating an illusion of widespread financial stability. However, this stability is fragile. When inflationary shocks compel central banks to rapidly tighten monetary policy, the sudden elevation of discount rates triggers abrupt asset repricing, liquidity evaporation, and potential systemic contagion across interconnected financial institutions.",
+        "question": "According to the passage, a sudden increase in benchmark discount rates during inflationary shocks leads to:",
         "options": [
-          "A) Selling depreciating stocks immediately while holding gaining stocks.",
-          "B) Holding onto losing assets to avoid psychological pain while selling gaining stocks prematurely.",
-          "C) Relying entirely on System 2 analytical modeling.",
-          "D) Ignoring initial price anchors during market trades."
+          "A) Immediate expansion of quantitative easing programs.",
+          "B) Asset repricing, liquidity drying up, and potential financial contagion.",
+          "C) Decreased interest rates on corporate high-yield bonds.",
+          "D) Stabilization of emerging market currency rates."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 2 states loss aversion causes investors to hold depreciating assets to avoid realizing loss pain."
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 concludes that rapid tightening elevates discount rates, triggering asset repricing, liquidity evaporation, and systemic contagion."
       },
       {
         "id": "q9",
         "type": "RC",
-        "passage": "Neoclassical economic theory was built upon the ideal abstraction of 'Homo Economicus'—a perfectly rational human actor who processes all available information objectively and consistently maximizes personal utility. However, behavioral economics has systematically dismantled this idealization. Spearheaded by Daniel Kahneman and Amos Tversky, cognitive research demonstrates that human decision-making is governed by dual cognitive architectures: System 1 (fast, intuitive, emotional) and System 2 (slow, analytical, deliberate).\n\nBecause cognitive resources are finite, System 1 relies heavily on heuristics—mental shortcuts that enable rapid decision-making under uncertainty. While evolutionarily advantageous for immediate survival, these shortcuts produce systematic cognitive biases. Loss aversion, for instance, dictates that the psychological pain of losing $100 is roughly twice as intense as the pleasure of gaining $100. This emotional asymmetry explains why stock market investors irrationally hold onto depreciating assets while prematurely selling gaining stocks.\n\nSimilarly, anchoring effects demonstrate that human numerical estimates are heavily influenced by completely irrelevant initial reference points. In market settings, framing options appropriately can radically alter consumer decisions without changing underlying economic incentives. Consequently, public choice theorists now advocate for 'choice architecture' and subtle behavioral nudges to steer individuals toward better long-term decisions.",
-        "question": "According to the passage, anchoring effects occur when human decisions are influenced by:",
+        "passage": "Central banking theory historically operated under the premise that monetary policy affects the real economy through a direct, predictable mechanism known as the interest rate channel. By altering benchmark policy rates, central banks influence commercial borrowing costs, modulating investment, consumption, and ultimately price inflation. However, the prolonged post-2008 era of near-zero interest rates and subsequent quantitative easing (QE) revealed the limitations of this classical paradigm, highlighting the supreme importance of the 'financial risk-taking channel'.\n\nWhen central banks compress yields on safe assets like sovereign bonds for extended periods, institutional investors searching for yield are forced to reallocate capital into progressively riskier assets—such as corporate high-yield debt, emerging market equities, and speculative real estate. This portfolio rebalancing inflates asset prices and depresses credit spreads, creating an illusion of widespread financial stability. However, this stability is fragile. When inflationary shocks compel central banks to rapidly tighten monetary policy, the sudden elevation of discount rates triggers abrupt asset repricing, liquidity evaporation, and potential systemic contagion across interconnected financial institutions.",
+        "question": "The term 'credit spreads' in the context of the second paragraph refers to:",
         "options": [
-          "A) Long-term evolutionary survival mandates.",
-          "B) Irrelevant initial numerical reference points.",
-          "C) Perfect utility calculations.",
-          "D) System 2 deliberate mathematical reasoning."
+          "A) The physical distance between commercial bank branches.",
+          "B) The yield difference between risky corporate bonds and safe benchmark sovereign bonds.",
+          "C) The total credit card limit allocated to retail consumers.",
+          "D) The tax margin levied on central bank reserve deposits."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 3 notes anchoring involves numerical estimates being influenced by initial reference points."
+        "explanation": "<strong>Explanation:</strong> In finance, credit spreads reflect the risk premium/yield gap between high-risk corporate debt and risk-free sovereign bonds."
       },
       {
         "id": "q10",
         "type": "RC",
-        "passage": "Neoclassical economic theory was built upon the ideal abstraction of 'Homo Economicus'—a perfectly rational human actor who processes all available information objectively and consistently maximizes personal utility. However, behavioral economics has systematically dismantled this idealization. Spearheaded by Daniel Kahneman and Amos Tversky, cognitive research demonstrates that human decision-making is governed by dual cognitive architectures: System 1 (fast, intuitive, emotional) and System 2 (slow, analytical, deliberate).\n\nBecause cognitive resources are finite, System 1 relies heavily on heuristics—mental shortcuts that enable rapid decision-making under uncertainty. While evolutionarily advantageous for immediate survival, these shortcuts produce systematic cognitive biases. Loss aversion, for instance, dictates that the psychological pain of losing $100 is roughly twice as intense as the pleasure of gaining $100. This emotional asymmetry explains why stock market investors irrationally hold onto depreciating assets while prematurely selling gaining stocks.\n\nSimilarly, anchoring effects demonstrate that human numerical estimates are heavily influenced by completely irrelevant initial reference points. In market settings, framing options appropriately can radically alter consumer decisions without changing underlying economic incentives. Consequently, public choice theorists now advocate for 'choice architecture' and subtle behavioral nudges to steer individuals toward better long-term decisions.",
-        "question": "Choice architecture and 'nudges' aim to improve public decisions by:",
+        "passage": "Central banking theory historically operated under the premise that monetary policy affects the real economy through a direct, predictable mechanism known as the interest rate channel. By altering benchmark policy rates, central banks influence commercial borrowing costs, modulating investment, consumption, and ultimately price inflation. However, the prolonged post-2008 era of near-zero interest rates and subsequent quantitative easing (QE) revealed the limitations of this classical paradigm, highlighting the supreme importance of the 'financial risk-taking channel'.\n\nWhen central banks compress yields on safe assets like sovereign bonds for extended periods, institutional investors searching for yield are forced to reallocate capital into progressively riskier assets—such as corporate high-yield debt, emerging market equities, and speculative real estate. This portfolio rebalancing inflates asset prices and depresses credit spreads, creating an illusion of widespread financial stability. However, this stability is fragile. When inflationary shocks compel central banks to rapidly tighten monetary policy, the sudden elevation of discount rates triggers abrupt asset repricing, liquidity evaporation, and potential systemic contagion across interconnected financial institutions.",
+        "question": "Which of the following best summarizes the author's overall stance on classical central banking theory?",
         "options": [
-          "A) Restricting all individual freedom through coercive laws.",
-          "B) Structuring choices to steer individuals toward better outcomes without changing economic incentives.",
-          "C) Forcing consumers to eliminate System 1 thinking completely.",
-          "D) Maximizing information asymmetry in corporate finance."
+          "A) It remains flawless in predicting stock market movements.",
+          "B) It oversimplifies transmission mechanisms by neglecting how prolonged low interest rates encourage dangerous systemic risk-taking.",
+          "C) It advocate for the total abolition of interest rate adjustments.",
+          "D) It accurately accounts for liquidity evaporation during periods of quantitative easing."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 3 concludes choice architecture nudges steer individuals toward better decisions without changing economic incentives."
+        "explanation": "<strong>Explanation:</strong> The author states that classical theory revealed its limits because it overlooked the financial risk-taking channel."
       },
       {
         "id": "q11",
         "type": "RC",
-        "passage": "For over two centuries, classical physics operated on a foundational metaphysical premise known as scientific realism: the conviction that an objective physical universe exists entirely independent of human observation, governed by deterministic, immutable laws. Newtonian mechanics portrayed the cosmos as an elaborate clockwork machine. In principle, if a supreme intelligence possessed precise knowledge of the positions, masses, and velocities of every particle in the universe at a single instant, it could utilize Newton's laws to calculate the entire past and future history of the cosmos with absolute certainty. Quantum mechanics shattered this comfortable deterministic framework.\n\nAt the subatomic scale, physical entities no longer exhibit definite physical properties prior to the act of measurement. Consider the foundational double-slit experiment. When unobserved, an individual electron behaves as a spread-out wave of probability, traversing both slits simultaneously and generating a wave-interference pattern on a detector screen. However, if a detector is placed at the slits to observe which path the electron actually takes, the wave behavior instantaneously vanishes. The wave function 'collapses' into a localized, definite particle passing through a single slit.",
-        "question": "Which of the following best describes the core principle of 'scientific realism' in classical physics?",
+        "passage": "The human genome contains roughly three billion base pairs, yet less than two percent directly encodes functional protein structures. For decades, molecular biology dismissed the remaining ninety-eight percent as 'junk DNA'—evolutionary residue consisting of non-functional repetitive sequences, pseudogenes, and deactivated retrotransposons. This genocentric view assumed that phenotypic complexity was strictly a function of total protein-coding gene count. However, the completion of the ENCODE project and advances in transcriptomics shattered this simplistic paradigm, revealing that the non-coding genome is densely populated with crucial regulatory elements.\n\nNon-coding DNA produces thousands of non-coding RNA molecules (ncRNAs), including microRNAs and long non-coding RNAs (lncRNAs), which act as master regulators of gene expression. These regulatory networks modulate chromatin structure, direct histone modifications, and dictate precise spatiotemporal gene transcription during embryonic development. Consequently, species complexity is driven not by the raw number of protein-coding genes—humans share a surprisingly similar gene count with the simple nematode Caenorhabditis elegans—but by the sophisticated regulatory architecture governed by non-coding genomic regions.",
+        "question": "The historical designation 'junk DNA' arose primarily from the assumption that:",
         "options": [
-          "A) Physical properties exist only when registered by human consciousness.",
-          "B) The universe operates as an objective, deterministic system independent of observation.",
-          "C) Subatomic particles exist in wave-particle probability states.",
-          "D) Physical interactions travel instantaneously across infinite distances."
+          "A) Non-coding sequences were toxic to cellular mitochondria.",
+          "B) Only sequences directly encoding functional protein structures possessed biological utility.",
+          "C) Nematode genomes contained more base pairs than human genomes.",
+          "D) Non-coding RNA molecules prevented histone modifications."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 1 states scientific realism assumes an objective universe exists independent of human observation."
+        "explanation": "<strong>Explanation:</strong> Paragraph 1 explains that because less than 2% encodes proteins, the rest was assumed non-functional ('junk')."
       },
       {
         "id": "q12",
         "type": "RC",
-        "passage": "For over two centuries, classical physics operated on a foundational metaphysical premise known as scientific realism: the conviction that an objective physical universe exists entirely independent of human observation, governed by deterministic, immutable laws. Newtonian mechanics portrayed the cosmos as an elaborate clockwork machine. In principle, if a supreme intelligence possessed precise knowledge of the positions, masses, and velocities of every particle in the universe at a single instant, it could utilize Newton's laws to calculate the entire past and future history of the cosmos with absolute certainty. Quantum mechanics shattered this comfortable deterministic framework.\n\nAt the subatomic scale, physical entities no longer exhibit definite physical properties prior to the act of measurement. Consider the foundational double-slit experiment. When unobserved, an individual electron behaves as a spread-out wave of probability, traversing both slits simultaneously and generating a wave-interference pattern on a detector screen. However, if a detector is placed at the slits to observe which path the electron actually takes, the wave behavior instantaneously vanishes. The wave function 'collapses' into a localized, definite particle passing through a single slit.",
-        "question": "In the double-slit experiment, placing a detector at the slits causes the electron to:",
+        "passage": "The human genome contains roughly three billion base pairs, yet less than two percent directly encodes functional protein structures. For decades, molecular biology dismissed the remaining ninety-eight percent as 'junk DNA'—evolutionary residue consisting of non-functional repetitive sequences, pseudogenes, and deactivated retrotransposons. This genocentric view assumed that phenotypic complexity was strictly a function of total protein-coding gene count. However, the completion of the ENCODE project and advances in transcriptomics shattered this simplistic paradigm, revealing that the non-coding genome is densely populated with crucial regulatory elements.\n\nNon-coding DNA produces thousands of non-coding RNA molecules (ncRNAs), including microRNAs and long non-coding RNAs (lncRNAs), which act as master regulators of gene expression. These regulatory networks modulate chromatin structure, direct histone modifications, and dictate precise spatiotemporal gene transcription during embryonic development. Consequently, species complexity is driven not by the raw number of protein-coding genes—humans share a surprisingly similar gene count with the simple nematode Caenorhabditis elegans—but by the sophisticated regulatory architecture governed by non-coding genomic regions.",
+        "question": "Why does the author mention the nematode 'Caenorhabditis elegans' in the second paragraph?",
         "options": [
-          "A) Increase its wave interference pattern on the background screen.",
-          "B) Collapse its wave function and pass through a single slit as a localized particle.",
-          "C) Instantly violate the speed of light via non-local entanglement.",
-          "D) Divide into multiple local hidden variables."
+          "A) To prove that nematodes possess more complex non-coding RNA than humans.",
+          "B) To demonstrate that total protein-coding gene count does not determine phenotypic complexity.",
+          "C) To illustrate how retrotransposons deactivate gene transcription.",
+          "D) To argue that humans evolved directly from ancient soil nematodes."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 2 specifies that detecting the electron collapses the wave function into a localized particle."
+        "explanation": "<strong>Explanation:</strong> Humans and C. elegans have similar gene counts, showing that gene count alone does not explain human complexity."
       },
       {
         "id": "q13",
         "type": "RC",
-        "passage": "For over two centuries, classical physics operated on a foundational metaphysical premise known as scientific realism: the conviction that an objective physical universe exists entirely independent of human observation, governed by deterministic, immutable laws. Newtonian mechanics portrayed the cosmos as an elaborate clockwork machine. In principle, if a supreme intelligence possessed precise knowledge of the positions, masses, and velocities of every particle in the universe at a single instant, it could utilize Newton's laws to calculate the entire past and future history of the cosmos with absolute certainty. Quantum mechanics shattered this comfortable deterministic framework.\n\nAt the subatomic scale, physical entities no longer exhibit definite physical properties prior to the act of measurement. Consider the foundational double-slit experiment. When unobserved, an individual electron behaves as a spread-out wave of probability, traversing both slits simultaneously and generating a wave-interference pattern on a detector screen. However, if a detector is placed at the slits to observe which path the electron actually takes, the wave behavior instantaneously vanishes. The wave function 'collapses' into a localized, definite particle passing through a single slit.",
-        "question": "The concept of the universe as an 'elaborate clockwork machine' implies that:",
+        "passage": "The human genome contains roughly three billion base pairs, yet less than two percent directly encodes functional protein structures. For decades, molecular biology dismissed the remaining ninety-eight percent as 'junk DNA'—evolutionary residue consisting of non-functional repetitive sequences, pseudogenes, and deactivated retrotransposons. This genocentric view assumed that phenotypic complexity was strictly a function of total protein-coding gene count. However, the completion of the ENCODE project and advances in transcriptomics shattered this simplistic paradigm, revealing that the non-coding genome is densely populated with crucial regulatory elements.\n\nNon-coding DNA produces thousands of non-coding RNA molecules (ncRNAs), including microRNAs and long non-coding RNAs (lncRNAs), which act as master regulators of gene expression. These regulatory networks modulate chromatin structure, direct histone modifications, and dictate precise spatiotemporal gene transcription during embryonic development. Consequently, species complexity is driven not by the raw number of protein-coding genes—humans share a surprisingly similar gene count with the simple nematode Caenorhabditis elegans—but by the sophisticated regulatory architecture governed by non-coding genomic regions.",
+        "question": "According to paragraph 2, non-coding RNA molecules (ncRNAs) influence cellular development by:",
         "options": [
-          "A) All natural processes are probabilistic and unpredictable.",
-          "B) The future state of physical systems can be calculated if current positions and velocities are known.",
-          "C) Subatomic particles lack position and momentum prior to measurement.",
-          "D) Gravity operates independently of mass."
+          "A) Converting retrotransposons back into active viruses.",
+          "B) Modulating chromatin structure, histone modifications, and transcription timing.",
+          "C) Eliminating the necessity of protein synthesis.",
+          "D) Increasing the total number of base pairs in the genome."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 1 explicitly links the clockwork cosmos to deterministic calculation of past and future history."
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 states ncRNAs modulate chromatin structure, direct histone modifications, and dictate spatiotemporal transcription."
       },
       {
         "id": "q14",
         "type": "RC",
-        "passage": "For over two centuries, classical physics operated on a foundational metaphysical premise known as scientific realism: the conviction that an objective physical universe exists entirely independent of human observation, governed by deterministic, immutable laws. Newtonian mechanics portrayed the cosmos as an elaborate clockwork machine. In principle, if a supreme intelligence possessed precise knowledge of the positions, masses, and velocities of every particle in the universe at a single instant, it could utilize Newton's laws to calculate the entire past and future history of the cosmos with absolute certainty. Quantum mechanics shattered this comfortable deterministic framework.\n\nAt the subatomic scale, physical entities no longer exhibit definite physical properties prior to the act of measurement. Consider the foundational double-slit experiment. When unobserved, an individual electron behaves as a spread-out wave of probability, traversing both slits simultaneously and generating a wave-interference pattern on a detector screen. However, if a detector is placed at the slits to observe which path the electron actually takes, the wave behavior instantaneously vanishes. The wave function 'collapses' into a localized, definite particle passing through a single slit.",
-        "question": "Quantum measurement fundamentally challenges classical physics because:",
+        "passage": "The human genome contains roughly three billion base pairs, yet less than two percent directly encodes functional protein structures. For decades, molecular biology dismissed the remaining ninety-eight percent as 'junk DNA'—evolutionary residue consisting of non-functional repetitive sequences, pseudogenes, and deactivated retrotransposons. This genocentric view assumed that phenotypic complexity was strictly a function of total protein-coding gene count. However, the completion of the ENCODE project and advances in transcriptomics shattered this simplistic paradigm, revealing that the non-coding genome is densely populated with crucial regulatory elements.\n\nNon-coding DNA produces thousands of non-coding RNA molecules (ncRNAs), including microRNAs and long non-coding RNAs (lncRNAs), which act as master regulators of gene expression. These regulatory networks modulate chromatin structure, direct histone modifications, and dictate precise spatiotemporal gene transcription during embryonic development. Consequently, species complexity is driven not by the raw number of protein-coding genes—humans share a surprisingly similar gene count with the simple nematode Caenorhabditis elegans—but by the sophisticated regulatory architecture governed by non-coding genomic regions.",
+        "question": "The word 'phenotypic' in the passage refers to:",
         "options": [
-          "A) Measurement requires infinitely large mechanical detectors.",
-          "B) Physical reality appears dependent on or altered by the act of observation.",
-          "C) Particles move faster than the speed of light during collision.",
-          "D) Electrons lose all physical mass when passing through slits."
+          "A) The underlying subatomic electrical charge of cell membranes.",
+          "B) The observable physical or biochemical characteristics of an organism.",
+          "C) The total number of non-coding pseudogenes in a chromosome.",
+          "D) The speed of cellular protein degradation."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 2 demonstrates that observation changes electron behavior from a wave of probability to a particle."
+        "explanation": "<strong>Explanation:</strong> In genetics, phenotype refers to the observable physical and structural traits of an organism."
       },
       {
         "id": "q15",
         "type": "RC",
-        "passage": "For over two centuries, classical physics operated on a foundational metaphysical premise known as scientific realism: the conviction that an objective physical universe exists entirely independent of human observation, governed by deterministic, immutable laws. Newtonian mechanics portrayed the cosmos as an elaborate clockwork machine. In principle, if a supreme intelligence possessed precise knowledge of the positions, masses, and velocities of every particle in the universe at a single instant, it could utilize Newton's laws to calculate the entire past and future history of the cosmos with absolute certainty. Quantum mechanics shattered this comfortable deterministic framework.\n\nAt the subatomic scale, physical entities no longer exhibit definite physical properties prior to the act of measurement. Consider the foundational double-slit experiment. When unobserved, an individual electron behaves as a spread-out wave of probability, traversing both slits simultaneously and generating a wave-interference pattern on a detector screen. However, if a detector is placed at the slits to observe which path the electron actually takes, the wave behavior instantaneously vanishes. The wave function 'collapses' into a localized, definite particle passing through a single slit.",
-        "question": "Prior to measurement in the double-slit experiment, unobserved electrons exist as:",
+        "passage": "The human genome contains roughly three billion base pairs, yet less than two percent directly encodes functional protein structures. For decades, molecular biology dismissed the remaining ninety-eight percent as 'junk DNA'—evolutionary residue consisting of non-functional repetitive sequences, pseudogenes, and deactivated retrotransposons. This genocentric view assumed that phenotypic complexity was strictly a function of total protein-coding gene count. However, the completion of the ENCODE project and advances in transcriptomics shattered this simplistic paradigm, revealing that the non-coding genome is densely populated with crucial regulatory elements.\n\nNon-coding DNA produces thousands of non-coding RNA molecules (ncRNAs), including microRNAs and long non-coding RNAs (lncRNAs), which act as master regulators of gene expression. These regulatory networks modulate chromatin structure, direct histone modifications, and dictate precise spatiotemporal gene transcription during embryonic development. Consequently, species complexity is driven not by the raw number of protein-coding genes—humans share a surprisingly similar gene count with the simple nematode Caenorhabditis elegans—but by the sophisticated regulatory architecture governed by non-coding genomic regions.",
+        "question": "Which finding most directly undermined the classical 'genocentric' view of biology?",
         "options": [
-          "A) Definite Newtonian point-mass particles.",
-          "B) Spread-out waves of probability traversing both slits.",
-          "C) Static non-moving charges.",
-          "D) Non-existent mathematical abstractions."
+          "A) The discovery that 98% of the human genome consists of non-functional waste.",
+          "B) The discovery that non-coding regions actively produce functional regulatory RNA networks.",
+          "C) The realization that nematode cells lack histone proteins.",
+          "D) The proof that protein synthesis occurs without DNA transcription."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 2 states unobserved electrons behave as spread-out waves of probability."
+        "explanation": "<strong>Explanation:</strong> The discovery of functional non-coding regulatory elements directly dismantled the genocentric view that only protein-coding genes mattered."
       },
       {
         "id": "q16",
         "type": "ParaJumble",
-        "question": "Rearrange the following four sentences (1-4) in a logical order to form a coherent paragraph:\n\n1. This friction creates volatile market movements.\n2. Investors often misinterpret sudden regulatory shifts.\n3. Consequently, capital allocation becomes highly inefficient.\n4. Unpredictable monetary policy remains a major threat to global equities.",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence:\n\n1. This psychological resistance stems from a fear of losing status and autonomy.\n2. Consequently, leaders must address emotional concerns alongside structural changes.\n3. Organizational transformations frequently founder despite meticulous financial planning.\n4. Employees perceive top-down restructurings as existential threats to their routine.",
         "options": [
-          "A) 4 - 2 - 1 - 3",
-          "B) 2 - 1 - 4 - 3",
-          "C) 4 - 1 - 2 - 3",
-          "D) 1 - 2 - 3 - 4"
+          "A) 3 - 4 - 1 - 2",
+          "B) 4 - 1 - 3 - 2",
+          "C) 3 - 1 - 4 - 2",
+          "D) 1 - 4 - 2 - 3"
         ],
         "answer": 0,
-        "explanation": "<strong>Explanation:</strong> 4 introduces the topic, 2 explains investor reaction, 1 specifies the resulting market volatility, and 3 gives the final result."
+        "explanation": "<strong>Explanation:</strong> 3 introduces the premise (failed transformations), 4 elaborates employee perceptions, 1 explains the root cause (fear of status loss), and 2 provides the logical leadership conclusion."
       },
       {
         "id": "q17",
         "type": "ParaJumble",
-        "question": "Rearrange the following four sentences (1-4) in a logical order to form a coherent paragraph:\n\n1. Over time, these small evolutionary adaptations aggregate into new species.\n2. Natural selection acts as the primary mechanism driving biological diversity.\n3. Organisms possessing favorable traits are more likely to survive and reproduce.\n4. Inherited variation provides the raw material upon which environmental pressures act.",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence:\n\n1. Without rigorous empirical testing, these plausible narratives risk becoming dogma.\n2. Evolutionary psychology frequently constructs adaptive explanations for modern human behaviors.\n3. Critics argue that many such hypotheses constitute unprovable 'just-so' stories.\n4. For instance, preferences for specific landscapes are attributed to ancestral savanna survival.",
         "options": [
           "A) 2 - 4 - 3 - 1",
-          "B) 4 - 2 - 1 - 3",
-          "C) 2 - 3 - 4 - 1",
-          "D) 3 - 4 - 2 - 1"
+          "B) 3 - 1 - 2 - 4",
+          "C) 2 - 3 - 1 - 4",
+          "D) 4 - 2 - 3 - 1"
         ],
         "answer": 0,
-        "explanation": "<strong>Explanation:</strong> 2 establishes natural selection, 4 introduces variation, 3 details survival advantage, and 1 completes the timeline of speciation."
+        "explanation": "<strong>Explanation:</strong> 2 introduces evolutionary psychology, 4 gives a specific example (savanna preference), 3 introduces critical pushback ('just-so' stories), and 1 concludes with the risk of untested dogma."
       },
       {
         "id": "q18",
         "type": "ParaJumble",
-        "question": "Rearrange the following four sentences (1-4) in a logical order to form a coherent paragraph:\n\n1. Modern urban planning must therefore balance density with ecological resilience.\n2. Rapid urbanization has intensified urban heat island effects across cities.\n3. Concrete surfaces absorb thermal radiation, preventing natural night cooling.\n4. This microclimatic warming elevates municipal energy demands for refrigeration.",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence:\n\n1. Over-reliance on synthetic fertilizers leads to soil acidification and micro-nutrient depletion.\n2. Modern agricultural productivity relies heavily on nitrogen-based industrial inputs.\n3. Restoring biological soil health is therefore vital for long-term food security.\n4. This degradation eventually reduces crop yields despite increasing chemical applications.",
         "options": [
-          "A) 2 - 3 - 4 - 1",
-          "B) 3 - 2 - 4 - 1",
-          "C) 2 - 4 - 3 - 1",
-          "D) 4 - 3 - 2 - 1"
+          "A) 2 - 1 - 4 - 3",
+          "B) 1 - 4 - 2 - 3",
+          "C) 2 - 4 - 1 - 3",
+          "D) 4 - 1 - 3 - 2"
         ],
         "answer": 0,
-        "explanation": "<strong>Explanation:</strong> 2 presents the problem (urbanization heat), 3 explains the mechanism (concrete absorption), 4 shows consequence (energy demand), 1 concludes with policy solution."
+        "explanation": "<strong>Explanation:</strong> 2 introduces nitrogen input reliance, 1 shows the immediate impact (acidification), 4 shows the compounding effect (yield drop), and 3 concludes with the soil restoration requirement."
       },
       {
         "id": "q19",
         "type": "ParaJumble",
-        "question": "Rearrange the following four sentences (1-4) in a logical order to form a coherent paragraph:\n\n1. Central banks must carefully calibrate interest rate hikes to curb inflationary pressures.\n2. However, overly aggressive tightening risks triggering a severe economic recession.\n3. Global supply chain disruptions have driven up consumer goods prices worldwide.\n4. Policymakers are thus caught between price instability and economic stagnation.",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence:\n\n1. These specialized algorithms identify microscopic anomalies invisible to human eyes.\n2. Medical imaging diagnostic accuracy has improved dramatically due to deep learning models.\n3. Radiologists can thus detect malignant tumors at significantly earlier stages.\n4. Consequently, patient survival rates improve when AI assists preliminary scans.",
         "options": [
-          "A) 3 - 1 - 2 - 4",
-          "B) 1 - 2 - 3 - 4",
-          "C) 3 - 4 - 1 - 2",
-          "D) 2 - 1 - 4 - 3"
+          "A) 2 - 1 - 3 - 4",
+          "B) 1 - 2 - 4 - 3",
+          "C) 2 - 3 - 1 - 4",
+          "D) 3 - 1 - 2 - 4"
         ],
         "answer": 0,
-        "explanation": "<strong>Explanation:</strong> 3 states root cause (supply chain inflation), 1 shows bank response, 2 adds the risk involved, 4 summarizes the dilemma."
+        "explanation": "<strong>Explanation:</strong> 2 states overall improvement, 1 explains the algorithmic mechanism, 3 shows radiologist benefit, and 4 gives final patient outcome."
       },
       {
         "id": "q20",
         "type": "ParaJumble",
-        "question": "Rearrange the following four sentences (1-4) in a logical order to form a coherent paragraph:\n\n1. Artificial intelligence algorithms require vast datasets to achieve high predictive accuracy.\n2. This requirement creates an inherent tension with user data privacy regulations.\n3. Corporations must implement privacy-preserving techniques like federated learning.\n4. Without strict safeguards, personal data risk unconsented exploitation.",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence:\n\n1. Prolonged economic sanctions often fail to force authoritarian regimes into compliance.\n2. Instead, ruling elites consolidate power by monopolizing restricted import markets.\n3. The broader civilian population bears the economic brunt of inflation and scarcity.\n4. Far from weakening dictatorships, sanctions inadvertently impoverish ordinary citizens.",
         "options": [
-          "A) 1 - 2 - 4 - 3",
-          "B) 2 - 1 - 3 - 4",
-          "C) 1 - 4 - 2 - 3",
-          "D) 4 - 1 - 2 - 3"
+          "A) 1 - 2 - 3 - 4",
+          "B) 2 - 1 - 4 - 3",
+          "C) 1 - 3 - 2 - 4",
+          "D) 3 - 2 - 1 - 4"
         ],
         "answer": 0,
-        "explanation": "<strong>Explanation:</strong> 1 states data need, 2 introduces privacy tension, 4 elaborates on exploitation risk, 3 offers technical remedy."
+        "explanation": "<strong>Explanation:</strong> 1 states failure of sanctions, 2 explains elite market monopoly, 3 details civilian suffering, and 4 synthesizes the paradox."
       },
       {
         "id": "q21",
         "type": "ParaSummary",
-        "question": "Select the option that best summarizes the paragraph:\n\n'The rise of digital streaming platforms has decentralized entertainment distribution, allowing independent filmmakers to bypass traditional studio gatekeepers. However, content overload on these platforms makes discoverability extremely difficult without massive algorithmic marketing budgets, leaving smaller films stranded in obscurity.'",
+        "question": "Select the option that best summarizes the paragraph:\n\n'The widespread adoption of generative AI tools in creative industries has sparked intense debates over intellectual property. Generative models are trained on billions of copyrighted artworks without explicit consent or compensation to human artists. While tech firms argue that model training constitutes legal 'fair use' analogous to human learning, artist syndicates maintain that commercial AI outputs undermine the economic viability of human creative labor.'",
         "options": [
-          "A) Streaming platforms have completely eliminated studio monopolies in cinema.",
-          "B) While streaming offers filmmakers direct distribution, algorithmic saturation creates new discoverability barriers.",
-          "C) Independent filmmakers no longer require marketing budgets due to viral social media trends.",
-          "D) Traditional cinema studios are purchasing digital streaming platforms to maintain control."
+          "A) Generative AI models are illegal because they violate traditional human artistic rights.",
+          "B) The tension between AI model training on copyrighted art and human creators centers on fair use claims versus economic disruption of creative labor.",
+          "C) Artist syndicates have successfully sued tech firms to halt generative AI development.",
+          "D) Tech companies intend to replace all commercial human artists with AI tools."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Option B captures both sides of the paragraph: the benefit of direct distribution and the drawback of algorithmic discoverability."
+        "explanation": "<strong>Explanation:</strong> Option B objectively captures both opposing viewpoints (fair use argument vs. creative labor disruption)."
       },
       {
         "id": "q22",
         "type": "ParaSummary",
-        "question": "Select the option that best summarizes the paragraph:\n\n'Quantum computing leverages qubits capable of superposition, enabling simultaneous processing of complex calculations that classical supercomputers would take millennia to compute. Yet, maintaining qubit coherence requires near absolute-zero temperatures, posing immense engineering hurdles for practical commercial deployment.'",
+        "question": "Select the option that best summarizes the paragraph:\n\n'Metabolic flexibility—the biological capacity to alternate between burning carbohydrates and lipids based on nutrient availability—is a hallmark of cardiovascular health. Modern diets high in refined sugars cause chronic hyperinsulinemia, locking the body into carbohydrate oxidation and inhibiting fat burning. Over time, this metabolic rigidity leads to insulin resistance, visceral obesity, and metabolic syndrome.'",
         "options": [
-          "A) Quantum computers will replace all personal laptops within the decade.",
-          "B) Superposition makes quantum computing exponentially faster, but extreme cooling requirements hinder commercial scalability.",
-          "C) Classical supercomputers remain faster than quantum processors under room temperature conditions.",
-          "D) Qubit coherence can easily be sustained using room-temperature silicon chips."
+          "A) Refined sugars should be banned to prevent visceral obesity in modern adults.",
+          "B) Diets high in refined sugar impair metabolic flexibility by causing insulin resistance and restricting fat oxidation.",
+          "C) Lipids are superior energy sources compared to carbohydrates for cardiovascular health.",
+          "D) Metabolic syndrome is an untreatable genetic disorder of carbohydrate oxidation."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Option B summarizes both the computational power of qubits and the major cooling obstacle."
+        "explanation": "<strong>Explanation:</strong> Option B captures the cause (sugar diets), mechanism (impaired flexibility/fat oxidation restriction), and metabolic result."
       },
       {
         "id": "q23",
         "type": "ParaSummary",
-        "question": "Select the option that best summarizes the paragraph:\n\n'Antibiotic overprescription in animal agriculture accelerates the natural selection of resistant bacterial strains. As these multidrug-resistant pathogens jump to human populations through food supply chains, medical treatments for routine infections become increasingly ineffective, threatening public health systems worldwide.'",
+        "question": "Select the option that best summarizes the paragraph:\n\n'Eschatological myths in ancient civilizations served a vital socio-psychological function. By framing cosmic destruction and renewal as inevitable natural cycles governed by divine order, ancient societies rationalized existential anxieties regarding natural disasters, plague, and war, reinforcing social cohesion during crises.'",
         "options": [
-          "A) Agricultural antibiotic overuse breeds resistant bacteria that threaten human medicine effectiveness globally.",
-          "B) Routine infections are no longer treatable by modern hospital surgical teams.",
-          "C) Animal farming should be banned to prevent bacterial pathogen transmission.",
-          "D) Modern antibiotics are ineffective because they are manufactured with low quality."
+          "A) Ancient societies lacked scientific understanding of natural plague cycles.",
+          "B) Eschatological myths alleviated existential panic and fostered social cohesion by framing crises as divine cycles of rebirth.",
+          "C) Divine order was invented by ancient rulers to exploit peasant labor during wars.",
+          "D) Cosmic destruction myths prevented ancient civilizations from developing technological defenses."
         ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> Option A concisely links agricultural overuse to resistant strains and human healthcare threat."
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> Option B correctly summarizes the psychological purpose (rationalizing anxiety) and social outcome (cohesion)."
       },
       {
         "id": "q24",
         "type": "ParaCompletion",
-        "question": "Complete the paragraph logically:\n\n'The concept of circular economics challenges the traditional linear 'take-make-waste' industrial model. Instead of treating products as disposable end-points, circular design prioritizes material recycling, modular repairability, and extended lifecycle usability. Consequently, ________.'",
+        "question": "Complete the paragraph logically:\n\n'Smart grid infrastructure uses IoT sensors and automated load-balancing algorithms to manage electricity distribution dynamically. By predicting peak demand periods and integrating intermittent renewable sources like solar and wind, smart grids reduce energy waste. Consequently, ________.'",
         "options": [
-          "A) manufacturing costs will inevitably quadruple for consumer electronics.",
-          "B) industrial systems can significantly reduce resource depletion and landfill waste.",
-          "C) consumers are forced to replace goods more frequently.",
-          "D) fossil fuel extraction becomes the primary driver of GDP growth."
+          "A) fossil fuel power plants must immediately double their generation capacity.",
+          "B) municipal power systems achieve greater energy efficiency and grid stability.",
+          "C) consumer electricity prices will skyrocket during off-peak hours.",
+          "D) renewable energy sources become obsolete in modern urban centers."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Option B logically follows the benefits of recycling and lifecycle extension."
+        "explanation": "<strong>Explanation:</strong> Option B logically follows the benefits of reducing energy waste and balancing loads."
       },
       {
         "id": "q25",
         "type": "ParaCompletion",
-        "question": "Complete the paragraph logically:\n\n'In psychological literature, confirmation bias describes the human tendency to seek out and recall information that reinforces pre-existing beliefs while ignoring contradictory evidence. In digital environments, social media recommendation algorithms amplify this vulnerability by constructing personalized echo chambers. As a result, ________.'",
+        "question": "Complete the paragraph logically:\n\n'In political science, the 'overton window' represents the spectrum of ideas tolerated in public discourse. When political agitators push extreme ideas at the fringes, they shift the boundaries of acceptable policy. As a result, ________.'",
         "options": [
-          "A) users are exposed to a balanced diversity of political viewpoints.",
-          "B) public discourse becomes increasingly polarized and resistant to empirical facts.",
-          "C) digital platforms eliminate social media user engagement.",
-          "D) objective facts automatically replace emotional opinions online."
+          "A) political discourse becomes permanently limited to moderate compromise.",
+          "B) policies previously considered radical become viewed as mainstream options.",
+          "C) public elections are automatically invalidated by constitutional courts.",
+          "D) voters reject all ideological proposals from political candidates."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Option B logically concludes the effect of echo chambers amplifying confirmation bias."
+        "explanation": "<strong>Explanation:</strong> Option B accurately defines the consequence of shifting the Overton window."
       },
       {
         "id": "q26",
         "type": "Vocabulary",
-        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'OBSEQUIOUS':",
+        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'PERFIDIOUS':",
         "options": [
-          "A) Servile",
-          "B) Assertive",
-          "C) Sycophantic",
-          "D) Acquiescent"
+          "A) Treacherous",
+          "B) Disloyal",
+          "C) Steadfast",
+          "D) Deceitful"
         ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Obsequious means excessively servile/submissive. Assertive is its direct antonym."
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> Perfidious means untrustworthy or deceitful. Steadfast (loyal/constant) is its direct antonym."
       },
       {
         "id": "q27",
         "type": "Vocabulary",
-        "question": "Select the word MOST NEARLY SIMILAR in meaning to 'PERSPICACIOUS':",
+        "question": "Select the word MOST NEARLY SIMILAR in meaning to 'PUSILLANIMOUS':",
         "options": [
-          "A) Ignorant",
-          "B) Discerning",
-          "C) Obtuse",
-          "D) Ambiguous"
+          "A) Courageous",
+          "B) Timid",
+          "C) Magnanimous",
+          "D) Audacious"
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Perspicacious means having keen insight or judgment (discerning)."
+        "explanation": "<strong>Explanation:</strong> Pusillanimous means lacking courage or determination (timid/cowardly)."
       },
       {
         "id": "q28",
         "type": "Vocabulary",
-        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'ESOTERIC':",
+        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'ALACRITY':",
         "options": [
-          "A) Obscure",
-          "B) Arcane",
-          "C) Commonplace",
-          "D) Abstruse"
+          "A) Eagerness",
+          "B) Promptness",
+          "C) Lethargy",
+          "D) Zeal"
         ],
         "answer": 2,
-        "explanation": "<strong>Explanation:</strong> Esoteric means understood by only a select few. Commonplace is its opposite."
+        "explanation": "<strong>Explanation:</strong> Alacrity means brisk and cheerful readiness. Lethargy is its antonym."
       },
       {
         "id": "q29",
         "type": "Vocabulary",
-        "question": "Select the word MOST NEARLY SIMILAR in meaning to 'EQUANIMITY':",
+        "question": "Select the word MOST NEARLY SIMILAR in meaning to 'INTRANSIGENT':",
         "options": [
-          "A) Agitation",
-          "B) Composure",
-          "C) Hysteria",
-          "D) Indecision"
+          "A) Flexible",
+          "B) Obstinate",
+          "C) Compliant",
+          "D) Irresolute"
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Equanimity means mental calmness and composure."
+        "explanation": "<strong>Explanation:</strong> Intransigent means refusing to compromise or change one's views (stubborn/obstinate)."
       },
       {
         "id": "q30",
         "type": "Vocabulary",
-        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'TRUCULENT':",
+        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'PERNICIOUS':",
         "options": [
-          "A) Aggressive",
-          "B) Belligerent",
-          "C) Amiable",
-          "D) Pugnacious"
+          "A) Harmful",
+          "B) Beneficial",
+          "C) Insidious",
+          "D) Malevolent"
         ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> Truculent means aggressively defiant. Amiable (friendly) is its opposite."
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> Pernicious means having a subtle, highly harmful effect. Beneficial is its opposite."
       },
       {
         "id": "q31",
         "type": "Vocabulary",
-        "question": "Choose the correct word to fill in the blank:\n'The executive's ________ speech failed to address the company's severe financial crisis, offering only vague platitudes.'",
+        "question": "Choose the correct word to fill in the blank:\n'The judge praised the witness for her ________ account of the events, which provided absolute clarity to the trial.'",
         "options": [
-          "A) Incisive",
-          "B) Vacuous",
-          "C) Profound",
-          "D) Cogent"
+          "A) Lucent",
+          "B) Luminous",
+          "C) Perspicuous",
+          "D) Opaque"
         ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> 'Vacuous' means lacking intelligence or substance, matching 'vague platitudes'."
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> 'Perspicuous' means clearly expressed and easily understood (applied to statements/accounts)."
       },
       {
         "id": "q32",
-        "type": "Vocabulary", "question": "Choose the correct word to fill in the blank:\n'Despite the chaotic market conditions, the portfolio manager maintained a ________ demeanor during the board meeting.'",
+        "type": "Vocabulary",
+        "question": "Choose the correct word to fill in the blank:\n'The diplomat's ________ remarks managed to soothe both opposing factions without committing to any binding terms.'",
         "options": [
-          "A) Tumultuous",
-          "B) Phlegmatic",
-          "C) Volatile",
-          "D) Exasperated"
+          "A) Inflammatory",
+          "B) Conciliatory",
+          "C) Belligerent",
+          "D) Dogmatic"
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> 'Phlegmatic' means calm, unemotional, and composed in difficult situations."
+        "explanation": "<strong>Explanation:</strong> 'Conciliatory' means intended or likely to placate or pacify."
       },
       {
         "id": "q33",
         "type": "Vocabulary",
-        "question": "Choose the correct idiom meaning:\n'To burn the candle at both ends' means to:",
+        "question": "Choose the correct idiom meaning:\n'To steal someone's thunder' means to:",
         "options": [
-          "A) Conserve energy carefully during long tasks.",
-          "B) Exhaust oneself by working late and rising early.",
-          "C) Waste financial resources on unnecessary luxuries.",
-          "D) Illuminate a room efficiently during power outages."
+          "A) Rob someone of physical assets during a storm.",
+          "B) Preempt someone's ideas or achievements to gain praise for oneself.",
+          "C) Cause severe disturbance in a corporate meeting.",
+          "D) Assist someone secretly without taking credit."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> 'Burning the candle at both ends' means overworking oneself physically or mentally."
+        "explanation": "<strong>Explanation:</strong> 'To steal someone's thunder' means to take credit for or preempt another person's ideas or accomplishments."
       },
       {
         "id": "q34",
         "type": "Vocabulary",
-        "question": "Select the sentence where the word 'SANCTION' is used in the sense of 'PERMIT or APPROVE':",
+        "question": "Select the sentence where the word 'FASTIDIOUS' is used correctly:",
         "options": [
-          "A) The international body imposed trade sanctions against the rogue state.",
-          "B) The university board will sanction the creation of the new research institute.",
-          "C) Economic sanctions caused inflation in the regional market.",
-          "D) Violating compliance rules will result in disciplinary sanctions."
+          "A) The fastidious runner finished the marathon in record time.",
+          "B) She was fastidious about maintaining absolute cleanliness in the surgical suite.",
+          "C) The fastidious rainstorm caused severe flooding across the valley.",
+          "D) He made a fastidious choice to ignore all financial advice."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> 'Sanction' is a auto-antonym; in sentence B it means official authorization/permission."
+        "explanation": "<strong>Explanation:</strong> 'Fastidious' means very attentive to and concerned about accuracy and detail."
       },
       {
         "id": "q35",
         "type": "Vocabulary",
-        "question": "Choose the correct phrasal verb to fill in the blank:\n'The research team needed to ________ the complex experimental data before drawing conclusions.'",
-        "options": [
-          "A) Iron out",
-          "B) Whittle down",
-          "C) Gloss over",
-          "D) Root out"
+        "question": "Choose the correct phrasal verb to fill in the blank:\n'The company had to ________ its expansion plans after interest rates rose sharply.'", "options": [
+          "A) Scale back",
+          "B) Branch out",
+          "C) Press ahead",
+          "D) Pass off"
         ],
         "answer": 0,
-        "explanation": "<strong>Explanation:</strong> 'Iron out' means to resolve or work through complex details/problems."
+        "explanation": "<strong>Explanation:</strong> 'Scale back' means to reduce the size, amount, or extent of something."
       },
       {
         "id": "q36",
         "type": "Grammar",
         "question": "Identify the sentence with the CORRECT grammatical structure:",
         "options": [
-          "A) Neither the manager nor the employees was present at the meeting.",
-          "B) Neither the manager nor the employees were present at the meeting.",
-          "C) Neither the manager or the employees was present at the meeting.",
-          "D) Neither the manager nor the employees has been present at the meeting."
+          "A) Neither the CEO nor the board members was willing to sign the agreement.",
+          "B) Neither the CEO nor the board members were willing to sign the agreement.",
+          "C) Neither the CEO or the board members was willing to sign the agreement.",
+          "D) Neither the CEO nor the board members has been willing to sign the agreement."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Under 'neither...nor', the verb agrees with the closer subject ('employees' -> 'were')."
+        "explanation": "<strong>Explanation:</strong> Under 'neither...nor', the verb agrees with the plural subject closer to it ('board members' -> 'were')."
       },
       {
         "id": "q37",
         "type": "Grammar",
-        "question": "Spot the error in the following sentence:\n'Each of the candidates (A) / have submitted their resume (B) / before the deadline (C) / set by the committee (D).'",
+        "question": "Spot the error in the following sentence:\n'Not only the director (A) / but also the lead actors (B) / was honored at (C) / the international film festival (D).'",
         "options": [
-          "A) Each of the candidates",
-          "B) have submitted their resume",
-          "C) before the deadline",
-          "D) set by the committee"
+          "A) Not only the director",
+          "B) but also the lead actors",
+          "C) was honored at",
+          "D) the international film festival"
         ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> 'Each' is singular and requires singular verb 'has submitted', not 'have submitted'."
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> Subject closest to verb is plural ('lead actors'), requiring plural verb 'were honored'."
       },
       {
         "id": "q38",
         "type": "Grammar",
-        "question": "Choose the grammatically correct sentence:", "options": [
-          "A) Scarcely had he entered the room when the alarm went off.",
-          "B) Scarcely had he entered the room than the alarm went off.",
-          "C) Scarcely he had entered the room when the alarm went off.",
-          "D) Scarcely had he entered the room then the alarm went off."
+        "question": "Choose the grammatically correct sentence:",
+        "options": [
+          "A) No sooner had the bell rung when the students exited the auditorium.",
+          "B) No sooner had the bell rung than the students exited the auditorium.",
+          "C) No sooner the bell had rung than the students exited the auditorium.",
+          "D) No sooner had the bell rung then the students exited the auditorium."
         ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> 'Scarcely' pairs correctly with 'when' (not 'than' or 'then') and requires inverted verb order ('had he')."
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> 'No sooner' takes 'than' (not 'when' or 'then') and requires subject-verb inversion ('had the bell rung')."
       },
       {
         "id": "q39",
         "type": "Grammar",
-        "question": "Choose the correct option to fill in the blank:\n'If the government ________ stronger fiscal measures earlier, the severe inflation rate could have been avoided.'",
+        "question": "Choose the correct option to fill in the blank:\n'Had the research team verified the data earlier, the critical calculation error ________.'",
         "options": [
-          "A) Adopted",
-          "B) Had adopted",
-          "C) Would adopt",
-          "D) Has adopted"
+          "A) Would be prevented",
+          "B) Would have been prevented",
+          "C) Will have been prevented",
+          "D) Was prevented"
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Third conditional structure requires 'If + past perfect (had adopted)... would have + past participle'."
+        "explanation": "<strong>Explanation:</strong> Inverted third conditional requires 'Had + past participle... would have been + past participle'."
       },
       {
         "id": "q40",
         "type": "Grammar",
         "question": "Identify the grammatically INCORRECT sentence:",
         "options": [
-          "A) The committee has finalized its recommendations.",
-          "B) She is one of those managers who always demands perfection.",
-          "C) Between you and me, the project faces severe hurdles.",
-          "D) Hard working as he was, he could not pass the examination."
+          "A) One of the main reasons for his success is his discipline.",
+          "B) He is one of those researchers who has published in Nature.",
+          "C) Neither of the options seems feasible at this point.",
+          "D) The news regarding the market recovery was encouraging."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> 'Who' refers to 'managers' (plural), so the verb should be plural 'demand', not 'demands'."
+        "explanation": "<strong>Explanation:</strong> Relative pronoun 'who' refers to plural noun 'researchers', requiring plural verb 'have published'."
       },
       {
         "id": "q41",
         "type": "Grammar",
-        "question": "Choose the correct preposition to fill in the blank:\n'The company's practices are not conformable ________ industry environmental standards.'",
+        "question": "Choose the correct preposition to fill in the blank:\n'The new regulations are not compatible ________ our existing software architecture.'",
         "options": [
-          "A) With",
-          "B) To",
+          "A) To",
+          "B) With",
           "C) For",
           "D) At"
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> The adjective 'conformable' takes the preposition 'to'."
+        "explanation": "<strong>Explanation:</strong> The adjective 'compatible' pairs with the preposition 'with'."
       },
       {
         "id": "q42",
         "type": "Grammar",
-        "question": "Identify the correct usage of modifier:",
+        "question": "Identify the sentence with CORRECT modifier placement:",
         "options": [
-          "A) Walking down the street, the trees looked beautiful to Mary.",
-          "B) Walking down the street, Mary admired the beautiful trees.",
-          "C) While walking down the street, the trees were admired by Mary.",
-          "D) Walking down the street, beauty was seen in the trees by Mary."
+          "A) Having finished the exam, the room was exited by the students.",
+          "B) Having finished the exam, the students exited the room.",
+          "C) While finishing the exam, the clock struck noon for the students.",
+          "D) Having finished the exam, a sigh of relief was breathed by the students."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Option B avoids the dangling modifier by placing the person doing the walking ('Mary') directly after the participle clause."
+        "explanation": "<strong>Explanation:</strong> Option B correctly places the subject ('the students') who finished the exam immediately after the introductory participial phrase."
       },
       {
         "id": "q43",
         "type": "Grammar",
-        "question": "Select the correct active/passive transformation:\n'The auditor is reviewing the financial statements.'",
+        "question": "Select the correct active/passive transformation:\n'The central bank is increasing interest rates to curb inflation.'",
         "options": [
-          "A) The financial statements were reviewed by the auditor.",
-          "B) The financial statements are being reviewed by the auditor.",
-          "C) The financial statements have been reviewed by the auditor.",
-          "D) The financial statements are reviewed by the auditor."
+          "A) Interest rates were increased by the central bank to curb inflation.",
+          "B) Interest rates are being increased by the central bank to curb inflation.",
+          "C) Interest rates have been increased by the central bank to curb inflation.",
+          "D) Interest rates are increased by the central bank to curb inflation."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Present continuous 'is reviewing' transforms to 'are being reviewed' in passive voice."
+        "explanation": "<strong>Explanation:</strong> Present continuous 'is increasing' transforms into 'are being increased' in passive voice."
       },
       {
         "id": "q44",
         "type": "Grammar",
-        "question": "Spot the error in the sentence:\n'The reason why (A) / he failed the exam (B) / was because he did not (C) / study consistently (D).'",
+        "question": "Spot the error in the sentence:\n'Although he worked hard (A) / but he could not (B) / clear the cut-off (C) / for the interview (D).'",
         "options": [
-          "A) The reason why",
-          "B) he failed the exam",
-          "C) was because he did not",
-          "D) study consistently"
+          "A) Although he worked hard",
+          "B) but he could not",
+          "C) clear the cut-off",
+          "D) for the interview"
         ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> 'The reason why... was because' is redundant. Use 'was that' instead of 'was because'."
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> 'Although' and 'but' cannot be used together in the same sentence; remove 'but'."
       },
       {
         "id": "q45",
         "type": "Grammar",
         "question": "Choose the grammatically correct sentence:",
         "options": [
-          "A) Neither of the two proposals are acceptable to the board.",
-          "B) Neither of the two proposals is acceptable to the board.",
-          "C) Neither of the two proposals were acceptable to the board.",
-          "D) Neither of the two proposals have been acceptable to the board."
+          "A) Either of the two candidates are qualified for the position.",
+          "B) Either of the two candidates is qualified for the position.",
+          "C) Either of the two candidates were qualified for the position.",
+          "D) Either of the two candidates have been qualified for the position."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> 'Neither' taking a singular choice between two items requires singular verb 'is'."
+        "explanation": "<strong>Explanation:</strong> 'Either' selecting between two singular choices requires singular verb 'is'."
       }
     ]
   }
