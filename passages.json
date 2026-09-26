@@ -441,10 +441,54 @@
         "answer": 1,
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 2 states technocrats reify human experiences into rigid proxies."
       },
-      { "id": "q3", "question": "Which of the following best describes the 'self-reinforcing feedback loop' discussed in Paragraph 3?", "options": ["A) Model failure leads technocrats to expand data collection and control, which perpetuates the system's underlying brittleness.", "B) Public resistance forces technocrats to abandon quantitative modeling in favor of localized town-hall meetings.", "C) Continuous algorithmic auditing reduces epistemic hubris among administrative planners.", "D) Open-system variables naturally correct closed-system computational errors over time."], "answer": 0, "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Paragraph 3 explains that model failure triggers more surveillance and control." },
-      { "id": "q4", "question": "It can be inferred from the passage that the author views democracy fundamentally as:", "options": ["A) An administrative mechanism optimized for maximum statistical utility and economic growth.", "B) A moral imperative based on collective citizen deliberation that cannot be outsourced to expert calculation.", "C) A transient political system that must adapt to high-dimensional predictive governance.", "D) An epistemological framework designed to eliminate expert opinion from policy making."], "answer": 1, "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 4 asserts democracy is a commitment to collective moral deliberation." },
-      { "id": "q5", "question": "The tone of the author throughout the passage can be best characterized as:", "options": ["A) Ambivalent and detached.", "B) Moderately optimistic and praising.", "C) Critical, urgent, and polemical.", "D) Cynical and fatalistic."], "answer": 2, "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> Uses strong critical language ('epistemic hubris', 'specious claim')." },
-      { "id": "q6", "question": "Which of the following scenarios, if true, would most directly challenge the author's primary critique of scientism?", "options": ["A) A government algorithm successfully predicts urban traffic congestion patterns using GPS data.", "B) An AI policy model resolves a deeply contested ethical debate over healthcare resource allocation with universal democratic approval.", "C) A statistical economic projection fails to account for a sudden global pandemic.", "D) Citizens vote in a national referendum to ban algorithmic surveillance in criminal sentencing."], "answer": 1, "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author claims algorithms cannot resolve ethical debates with democratic approval. If one did, it undermines the core argument." }
+      { 
+        "id": "q3", 
+        "question": "Which of the following best describes the 'self-reinforcing feedback loop' discussed in Paragraph 3?", 
+        "options": [
+          "A) Model failure leads technocrats to expand data collection and control, which perpetuates the system's underlying brittleness.", 
+          "B) Public resistance forces technocrats to abandon quantitative modeling in favor of localized town-hall meetings.", 
+          "C) Continuous algorithmic auditing reduces epistemic hubris among administrative planners.", 
+          "D) Open-system variables naturally correct closed-system computational errors over time."
+        ], 
+        "answer": 0, 
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Paragraph 3 explains that model failure triggers more surveillance and control." 
+      },
+      { 
+        "id": "q4", 
+        "question": "It can be inferred from the passage that the author views democracy fundamentally as:", 
+        "options": [
+          "A) An administrative mechanism optimized for maximum statistical utility and economic growth.", 
+          "B) A moral imperative based on collective citizen deliberation that cannot be outsourced to expert calculation.", 
+          "C) A transient political system that must adapt to high-dimensional predictive governance.", 
+          "D) An epistemological framework designed to eliminate expert opinion from policy making."
+        ], 
+        "answer": 1, 
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 4 asserts democracy is a commitment to collective moral deliberation." 
+      },
+      { 
+        "id": "q5", 
+        "question": "The tone of the author throughout the passage can be best characterized as:", 
+        "options": [
+          "A) Ambivalent and detached.", 
+          "B) Moderately optimistic and praising.", 
+          "C) Critical, urgent, and polemical.", 
+          "D) Cynical and fatalistic."
+        ], 
+        "answer": 2, 
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> Uses strong critical language ('epistemic hubris', 'specious claim')." 
+      },
+      { 
+        "id": "q6", 
+        "question": "Which of the following scenarios, if true, would most directly challenge the author's primary critique of scientism?", 
+        "options": [
+          "A) A government algorithm successfully predicts urban traffic congestion patterns using GPS data.", 
+          "B) An AI policy model resolves a deeply contested ethical debate over healthcare resource allocation with universal democratic approval.", 
+          "C) A statistical economic projection fails to account for a sudden global pandemic.", 
+          "D) Citizens vote in a national referendum to ban algorithmic surveillance in criminal sentencing."
+        ], 
+        "answer": 1, 
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author claims algorithms cannot resolve ethical debates with democratic approval. If one did, it undermines the core argument." 
+      }
     ]
   },
   {
@@ -452,21 +496,37 @@
     "date": "2026-09-25",
     "title": "The Quantum Observer Dilemma & Subjective Reality",
     "genre": "Philosophy of Physics",
+    "difficulty": "IPMAT Extreme Standard",
     "wordCount": "1120 words",
-    "passage": "For over two centuries, Western scientific orthodoxy rested upon the edifice of Cartesian dualism and Newtonian determinism—the resolute belief that an objective physical reality persists completely independent of the conscious mind observing it. Newtonian mechanics conceptualized the cosmos as a colossal, predictable clockwork apparatus where every cause yielded an inevitable effect. However, the advent of quantum mechanics shattered this comfortable ontological foundation. At the subatomic threshold, physical entities refuse to exhibit definitive spatial or momentum properties prior to the empirical act of measurement.\n\nThe iconic double-slit experiment crystallizes this paradox. Unobserved subatomic particles behave as diffuse wave functions of probability, navigating multiple spatial trajectories simultaneously. Yet, the moment an observational apparatus interacts with the system, the wave function instantly collapses into a localized physical particle. This phenomenon forces a profound philosophical crisis: is observation merely an passive measurement tool, or does consciousness play an active, constitutive role in bringing physical reality into existence? Strict scientific realists argue that measurement apparatuses simply induce decoherence through thermal interaction, whereas subjective idealists contend that physical properties remain indeterminate until actualized by conscious perception.",
     "vocab": {
       "words": [
         { "word": "Ontological", "type": "adj", "def": "Relating to the philosophical study of the nature of being or existence.", "ex": "Quantum physics fundamentally altered our ontological understanding of matter." },
         { "word": "Indeterminate", "type": "adj", "def": "Not exactly known, established, or defined; vague.", "ex": "Before measurement, the subatomic particle remains in an indeterminate state." },
-        { "word": "Decoherence", "type": "noun", "def": "The loss of quantum coherence where a system interacts with its environment.", "ex": "Environmental decoherence prevents large objects from demonstrating wave behavior." }
+        { "word": "Decoherence", "type": "noun", "def": "The loss of quantum coherence where a system interacts with its environment.", "ex": "Environmental decoherence prevents large objects from demonstrating wave behavior." },
+        { "word": "Superposition", "type": "noun", "def": "The principle that quantum systems exist in multiple potential states at once.", "ex": "Superposition collapses upon environmental observation." },
+        { "word": "Epiphenomenon", "type": "noun", "def": "A secondary phenomenon accompanying a primary one.", "ex": "Is physical reality an epiphenomenon of underlying quantum information?" },
+        { "word": "Solicitism", "type": "noun", "def": "The view that self-existence is the only known reality.", "ex": "Subjective idealism verges on solipsism if carried to extremes." },
+        { "word": "Non-locality", "type": "noun", "def": "Direct instantaneous influence between distant physical entities.", "ex": "Quantum non-locality violates classical spatial locality." },
+        { "word": "Posit", "type": "verb", "def": "To assume as a fact or principle as the basis of argument.", "ex": "Realists posit an objective world independent of measurement." },
+        { "word": "Heisenberg", "type": "noun", "def": "Refers to the uncertainty principle bounding measurement precision.", "ex": "Heisenberg's limit prevents simultaneous precise measurement." },
+        { "word": "Paradigm", "type": "noun", "def": "A foundational world model governing scientific inquiry.", "ex": "Quantum superposition forced a paradigm shift away from Newton." }
       ],
       "idioms": [
-        { "idiom": "In the pipeline", "def": "In the process of being planned, developed, or produced.", "ex": "New quantum encryption protocols are currently in the pipeline." }
+        { "idiom": "In the pipeline", "def": "In the process of being planned, developed, or produced.", "ex": "New quantum encryption protocols are currently in the pipeline." },
+        { "idiom": "God does not play dice", "def": "Expression reflecting belief in deterministic order over randomness.", "ex": "Einstein insisted God does not play dice with physical reality." },
+        { "idiom": "Tip of the iceberg", "def": "A small visible part of a much larger hidden problem.", "ex": "Wave function collapse is merely the tip of quantum weirdness." },
+        { "idiom": "At loggerheads", "def": "In sharp, unresolved disagreement.", "ex": "Bohr and Einstein were at loggerheads over physical determinism." },
+        { "idiom": "Split hair", "def": "Make overly fine distinctions.", "ex": "Debating observer definitions is not splitting hair; it is essential." }
       ],
       "phrasalVerbs": [
-        { "verb": "Bring about", "def": "To cause something to happen or come into existence.", "ex": "The observation brought about the collapse of the particle's wave function." }
+        { "verb": "Bring about", "def": "To cause something to happen or come into existence.", "ex": "The observation brought about the collapse of the particle's wave function." },
+        { "verb": "Factor in", "def": "Include a specific variable in an analysis.", "ex": "Physicists must factor in instrument thermal noise." },
+        { "verb": "Call for", "def": "Demand or necessitate a specific approach.", "ex": "Quantum anomalies call for new epistemological frameworks." },
+        { "verb": "Rule out", "def": "Exclude something as a logical possibility.", "ex": "Aspect's experiment ruled out local hidden variables." },
+        { "verb": "Stem from", "def": "Originate from a specific cause.", "ex": "The measurement paradox stems from wave-particle duality." }
       ]
     },
+    "passage": "For over two centuries, Western scientific orthodoxy rested upon the edifice of Cartesian dualism and Newtonian determinism—the resolute belief that an objective physical reality persists completely independent of the conscious mind observing it. Newtonian mechanics conceptualized the cosmos as a colossal, predictable clockwork apparatus where every cause yielded an inevitable effect. However, the advent of quantum mechanics shattered this comfortable ontological foundation. At the subatomic threshold, physical entities refuse to exhibit definitive spatial or momentum properties prior to the empirical act of measurement.\n\nThe iconic double-slit experiment crystallizes this paradox. Unobserved subatomic particles behave as diffuse wave functions of probability, navigating multiple spatial trajectories simultaneously. Yet, the moment an observational apparatus interacts with the system, the wave function instantly collapses into a localized physical particle. This phenomenon forces a profound philosophical crisis: is observation merely a passive measurement tool, or does consciousness play an active, constitutive role in bringing physical reality into existence? Strict scientific realists argue that measurement apparatuses simply induce decoherence through thermal interaction, whereas subjective idealists contend that physical properties remain indeterminate until actualized by conscious perception.\n\nFurthermore, the Copenhagen interpretation formulated by Niels Bohr asserts that physical reality is inherently relational and contextual. In Bohr's framework, subatomic particles possess no intrinsic, pre-existing attributes outside the specific experimental arrangement used to measure them. Asking what an electron was doing 'between' measurements is not merely unanswerable; it is physically meaningless. This radical anti-realism implies that classical concepts of space, time, and objecthood are not fundamental properties of the universe, but rather human cognitive constructs projected onto quantum probability fields to render them intelligible.",
     "questions": [
       {
         "id": "q1",
@@ -478,7 +538,7 @@
           "D) Why classical dualism remains superior to quantum mechanics."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 2 contrasts scientific realists (environmental decoherence) with subjective idealists (conscious observation)."
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 2 contrasts scientific realists (environmental decoherence) with subjective idealists (conscious observation)."
       },
       {
         "id": "q2",
@@ -490,7 +550,51 @@
           "D) Conscious thought directly dictates subatomic mass values."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> The passage explicitly notes scientific realists argue that physical instruments induce decoherence through thermal interaction."
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The passage explicitly notes scientific realists argue that physical instruments induce decoherence through thermal interaction."
+      },
+      {
+        "id": "q3", "question": "According to Niels Bohr's Copenhagen interpretation discussed in Paragraph 3, asking about an electron's path prior to measurement is:",
+        "options": [
+          "A) A vital step in formulating Newtonian gravitational equations.",
+          "B) Physically meaningless because subatomic attributes do not exist independently of the measurement arrangement.",
+          "C) Resolvable through higher-precision optical detection instruments.",
+          "D) Proof that subatomic particles obey classical Cartesian dualism."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 3 states asking about states before measurement is physically meaningless as attributes are relational."
+      },
+      {
+        "id": "q4", "question": "Which of the following best characterizes the phrase 'relational and contextual' in Paragraph 3?",
+        "options": [
+          "A) Subatomic properties are absolute and determined at the moment of the Big Bang.",
+          "B) Physical reality exists only in relation to specific experimental setups and observational contexts.",
+          "C) Quantum particles behave consistently across all classical macroscopic environments.",
+          "D) Human consciousness is completely disconnected from quantum field interactions."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Bohr's framework posits properties depend on the contextual observational setup."
+      },
+      {
+        "id": "q5", "question": "The author's tone toward Newtonian determinism can best be described as:",
+        "options": [
+          "A) Unreservedly defensive and nostalgic.",
+          "B) Analytical, recognizing it as an overthrown classical paradigm at subatomic scales.",
+          "C) Dismissive of its historical contribution to macro-physics.",
+          "D) Highly emotional and hostile."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author objectively outlines Newtonian mechanics as a comfortable but shattered classical paradigm."
+      },
+      {
+        "id": "q6", "question": "If subjective idealists are correct, which of the following logical outcomes must hold true?",
+        "options": [
+          "A) An unobserved quantum system in deep space remains in a state of indefinite wave probability until perceived by a conscious observer.",
+          "B) Subatomic particles collapse automatically through interaction with inanimate cosmic dust.",
+          "C) Cartesian dualism flawlessly explains subatomic electron momentum.",
+          "D) Newtonian clockwork equations can predict wave function collapse without probability matrices."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Subjective idealists claim reality remains indeterminate until conscious perception actualizes it."
       }
     ]
   },
@@ -499,21 +603,37 @@
     "date": "2026-09-26",
     "title": "Neoclassical Utility vs. Behavioral Irrationality",
     "genre": "Behavioral Economics",
+    "difficulty": "IPMAT Extreme Standard",
     "wordCount": "1080 words",
-    "passage": "Classical economic models operate on the baseline construct of 'Homo Economicus'—a hypothetically ideal human actor who calculates risks flawlessly, evaluates options dispassionately, and consistently maximizes personal utility. However, decades of empirical research in cognitive psychology have systematically demolished this idealization. Human decision-making under uncertainty is bounded by finite cognitive bandwidth and governed by dual heuristic processing networks: System 1 (rapid, emotional, instinctive) and System 2 (deliberate, analytical, slow).\n\nBecause cognitive processing consumes significant biological metabolic resources, the human brain default-routes most complex daily choices through System 1 shortcuts. While these evolutionary shortcuts served primitive hominids well when evading apex predators, they generate systemic cognitive distortions in modern financial markets. Loss aversion demonstrates that the psychological agony of forfeiting $500 is roughly twice as potent as the pleasure of gaining an equivalent sum. This asymmetry causes institutional traders to irrationally hold plummeting stocks to avoid realizing psychological pain, while prematurely liquidating winning assets. Furthermore, anchoring effects reveal that irrelevant initial numbers heavily bias subsequent valuations, enabling market manipulators to exploit human irrationality.",
     "vocab": {
       "words": [
         { "word": "Bounded", "type": "adj", "def": "Restricted or limited within certain boundaries.", "ex": "Human rationality is bounded by cognitive constraints and limited time." },
         { "word": "Liquidate", "type": "verb", "def": "To convert assets into cash or settle a debt.", "ex": "Panicked investors liquidated their portfolios during the sudden market dip." },
-        { "word": "Apex", "type": "noun", "def": "The highest point or top of something.", "ex": "Early humans had to develop rapid reflexes to escape apex predators." }
+        { "word": "Apex", "type": "noun", "def": "The highest point or top of something.", "ex": "Early humans had to develop rapid reflexes to escape apex predators." },
+        { "word": "Heuristic", "type": "noun", "def": "A mental shortcut enabling rapid cognitive evaluation under uncertainty.", "ex": "System 1 relies heavily on heuristics." },
+        { "word": "Asymmetry", "type": "noun", "def": "Disproportion or lack of equality between two values.", "ex": "Loss aversion demonstrates psychological asymmetry." },
+        { "word": "Anchoring", "type": "noun", "def": "Disproportionate cognitive reliance on an initial numerical reference.", "ex": "Anchoring skews financial valuations." },
+        { "word": "Nudge", "type": "noun", "def": "A subtle choice architecture intervention guiding decisions without coercion.", "ex": "Default opt-in organ donation is a classic behavioral nudge." },
+        { "word": "Dispassionately", "type": "adv", "def": "Free from emotion or personal bias.", "ex": "Homo Economicus evaluates financial options dispassionately." },
+        { "word": "Utility", "type": "noun", "def": "Total satisfaction or value derived from consuming a good or outcome.", "ex": "Neoclassical theory assumes humans maximize net utility." },
+        { "word": "Monopolize", "type": "verb", "def": "Dominate or exclude competition in a given space.", "ex": "System 1 shortcuts monopolize rapid daily choices." }
       ],
       "idioms": [
-        { "idiom": "Throw good money after bad", "def": "To waste additional money on something that has already failed.", "ex": "Holding onto falling stocks due to loss aversion is like throwing good money after bad." }
+        { "idiom": "Throw good money after bad", "def": "To waste additional money on something that has already failed.", "ex": "Holding onto falling stocks due to loss aversion is like throwing good money after bad." },
+        { "idiom": "Bite off more than you can chew", "def": "Take on a commitment beyond one's capacity.", "ex": "Traders bite off more than they can chew by over-leveraging positions." },
+        { "idiom": "Penny wise, pound foolish", "def": "Frugal in small matters but wasteful in large ones.", "ex": "Behavioral biases cause consumers to be penny wise and pound foolish." },
+        { "idiom": "On the fence", "def": "Undecided or neutral.", "ex": "Hesitant investors remained on the fence during market volatility." },
+        { "idiom": "A drop in the bucket", "def": "A tiny, insignificant fraction of a required total.", "ex": "Individual savings are a drop in the bucket compared to institutional capital." }
       ],
       "phrasalVerbs": [
-        { "verb": "Fritter away", "def": "To waste time, money, or effort on trivial things.", "ex": "Irrational retail investors often fritter away capital on speculative assets." }
+        { "verb": "Fritter away", "def": "To waste time, money, or effort on trivial things.", "ex": "Irrational retail investors often fritter away capital on speculative assets." },
+        { "verb": "Bank on", "def": "Count or rely heavily on an outcome.", "ex": "Retail investors bank on past gains continuing indefinitely." },
+        { "verb": "Rule out", "def": "Exclude from logical consideration.", "ex": "Behavioral models rule out perfect human rationality." },
+        { "verb": "Drive up", "def": "Force prices or metrics to rise rapidly.", "ex": "Panic buying drove up commodity prices." },
+        { "verb": "Fall back on", "def": "Rely on an alternative when primary options fail.", "ex": "Under extreme stress, humans fall back on instinctive heuristics." }
       ]
     },
+    "passage": "Classical economic models operate on the baseline construct of 'Homo Economicus'—a hypothetically ideal human actor who calculates risks flawlessly, evaluates options dispassionately, and consistently maximizes personal utility. However, decades of empirical research in cognitive psychology have systematically demolished this idealization. Human decision-making under uncertainty is bounded by finite cognitive bandwidth and governed by dual heuristic processing networks: System 1 (rapid, emotional, instinctive) and System 2 (deliberate, analytical, slow).\n\nBecause cognitive processing consumes significant biological metabolic resources, the human brain default-routes most complex daily choices through System 1 shortcuts. While these evolutionary shortcuts served primitive hominids well when evading apex predators, they generate systemic cognitive distortions in modern financial markets. Loss aversion demonstrates that the psychological agony of forfeiting $500 is roughly twice as potent as the pleasure of gaining an equivalent sum. This emotional asymmetry explains why stock market investors irrationally hold onto depreciating assets while prematurely selling gaining stocks. Furthermore, anchoring effects reveal that irrelevant initial numbers heavily bias subsequent valuations, enabling market manipulators to exploit human irrationality.",
     "questions": [
       {
         "id": "q1",
@@ -526,6 +646,60 @@
         ],
         "answer": 1,
         "explanation": "<strong>Explanation:</strong> Paragraph 2 explicitly attributes holding plummeting stocks to loss aversion asymmetry."
+      },
+      {
+        "id": "q2", "question": "The primary objective of 'System 1' processing from an evolutionary perspective was to:",
+        "options": [
+          "A) Calculate interest rate derivatives in corporate banking.",
+          "B) Conserve metabolic energy and enable rapid survival decisions under threat.",
+          "C) Eliminate anchoring effects in retail market settings.",
+          "D) Maximize dispassionate utility calculations across long time horizons."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 2 states System 1 conserves metabolic resources and served primitive hominids when evading predators."
+      },
+      {
+        "id": "q3", "question": "An investor who sells a stock immediately after a 5% gain but holds a stock that has lost 40% of its value is demonstrating:",
+        "options": [
+          "A) Perfect System 2 economic utility maximization.",
+          "B) Loss aversion driven by System 1 emotional asymmetry.",
+          "C) Complete immunity to cognitive anchoring.",
+          "D) Neoclassical rationality advocated by public choice theorists."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The passage explicitly cites prematurely selling winners and holding losers as the classic manifestation of loss aversion."
+      },
+      {
+        "id": "q4", "question": "The term 'bounded rationality' as used in Paragraph 1 implies that human decision-making is:",
+        "options": [
+          "A) Completely random and lacking any logical structure.",
+          "B) Constrained by finite cognitive bandwidth and limited processing resources.",
+          "C) Superior to computer algorithms in calculating risk probabilities.",
+          "D) Governed entirely by external government choice architecture."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 1 states human decision-making is 'bounded by finite cognitive bandwidth'."
+      },
+      {
+        "id": "q5", "question": "How do anchoring effects enable 'market manipulators' to exploit retail buyers?", "options": [
+          "A) By forcing buyers to utilize System 2 analytical thinking.",
+          "B) By presenting inflated initial reference prices to make discounted prices appear bargain-worthy.",
+          "C) By eliminating the metabolic cost of brain processing.",
+          "D) By forcing commercial banks to lower safe sovereign bond yields."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Anchoring relies on irrelevant initial numbers biasing valuations, allowing price manipulation."
+      },
+      {
+        "id": "q6", "question": "The overall passage implies that central economic policy should be designed with the realization that:",
+        "options": [
+          "A) Humans can easily be trained to act as flawless Homo Economicus actors.",
+          "B) Human decision-making is systematically flawed, requiring nudges and choice architecture to optimize public outcomes.",
+          "C) System 1 thinking should be completely outlawed in institutional financial exchanges.",
+          "D) Market pricing always reflects objective, dispassionate asset value."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The passage concludes that because human choices suffer systematic biases, choice architecture and nudges are necessary."
       }
     ]
   },
@@ -534,21 +708,37 @@
     "date": "2026-09-27",
     "title": "The Paradox of Anthropocene Climate Governance",
     "genre": "Environmental Economics & Policy",
+    "difficulty": "IPMAT Extreme Standard",
     "wordCount": "1250 words",
-    "passage": "The designation of our current geological epoch as the 'Anthropocene' acknowledges an unprecedented reality: human industrial activity has superseded natural planetary forces as the dominant driver of global ecological transformation. Yet, global environmental policy remains trapped in a profound institutional paralysis. International climate negotiations consistently collapse under the weight of the 'Tragedy of the Commons'—a collective action dilemma where sovereign nation-states operate out of self-interested national sovereignty, continuing fossil fuel expansion while expecting neighboring states to unilaterally absorb environmental abatement costs.\n\nTechnocratic optimists champion carbon pricing mechanisms, cap-and-trade markets, and geoengineering as market-conforming solutions. However, critics argue these market-based instruments suffer from a fundamental category error. Treating greenhouse gas emissions as a mere market externality that can be internalized via financial taxation fails to confront the systemic imperative of compound economic growth inherent to global capital. Moreover, technological promises such as Direct Air Capture (DAC) induce a moral hazard effect: by promising hypothetical future carbon removal technologies, policymakers justify delaying immediate fossil fuel phaseouts, thereby compounding catastrophic long-term climate tail-risks.",
     "vocab": {
       "words": [
         { "word": "Anthropocene", "type": "noun", "def": "The current geological age, viewed as the period during which human activity has been the dominant influence on climate.", "ex": "Global warming marks our entry into the Anthropocene epoch." },
         { "word": "Abatement", "type": "noun", "def": "The reduction, diminution, or elimination of something (like pollution).", "ex": "Industrial carbon abatement requires massive capital investment." },
-        { "word": "Imperative", "type": "noun", "def": "An essential or urgent duty, demand, or requirement.", "ex": "Economic growth remains an imperative for developing nations." }
+        { "word": "Imperative", "type": "noun", "def": "An essential or urgent duty, demand, or requirement.", "ex": "Economic growth remains an imperative for developing nations." },
+        { "word": "Externality", "type": "noun", "def": "A side effect or consequence of an industrial activity affecting third parties without reflected cost.", "ex": "Carbon emissions are treated as a market externality." },
+        { "word": "Paralysis", "type": "noun", "def": "State of helpless inactivity or inability to act.", "ex": "Climate negotiations remain trapped in institutional paralysis." },
+        { "word": "Sovereignty", "type": "noun", "def": "Supreme power or authority of a self-governing nation state.", "ex": "Sovereign interest frequently obstructs international treaties." },
+        { "word": "Tail-risk", "type": "noun", "def": "Low-probability, high-consequence catastrophic events.", "ex": "Unchecked emissions amplify long-term climate tail-risks." },
+        { "word": "Internalize", "type": "verb", "def": "Incorporate costs or externalities into pricing structures.", "ex": "Carbon taxes attempt to internalize pollution costs." },
+        { "word": "Unilaterally", "type": "adv", "def": "Action performed by one party without agreement from others.", "ex": "No single country can unilaterally resolve global warming." },
+        { "word": "Technocratic", "type": "adj", "def": "Relating to technical experts managing political or economic systems.", "ex": "Technocratic proposals prioritize market instruments over systemic reform." }
       ],
       "idioms": [
-        { "idiom": "Kick the can down the road", "def": "To defer or delay dealing with a difficult situation.", "ex": "Relying on future technology allows politicians to kick the climate can down the road." }
+        { "idiom": "Kick the can down the road", "def": "To defer or delay dealing with a difficult situation.", "ex": "Relying on future technology allows politicians to kick the climate can down the road." },
+        { "idiom": "Tragedy of the Commons", "def": "Economic problem where individual self-interest depletes a shared finite resource.", "ex": "Overfishing is a classic example of the Tragedy of the Commons." },
+        { "idiom": "At a crossroads", "def": "A critical juncture requiring momentous choice.", "ex": "Global energy policy stands at a historic crossroads." },
+        { "idiom": "A double-edged sword", "def": "A solution carrying severe negative side effects.", "ex": "Geoengineering is a double-edged sword that could alter monsoon cycles." },
+        { "idiom": "The tip of the iceberg", "def": "Small visible fraction of a massive latent threat.", "ex": "Current sea level rise is merely the tip of the climate iceberg." }
       ],
       "phrasalVerbs": [
-        { "verb": "Phase out", "def": "To gradually stop using, providing, or producing something.", "ex": "Developing nations must rapidly phase out coal power generation." }
+        { "verb": "Phase out", "def": "To gradually stop using, providing, or producing something.", "ex": "Developing nations must rapidly phase out coal power generation." },
+        { "verb": "Confront with", "def": "Force someone to face an unpleasant truth or reality.", "ex": "Climate disasters confront policymakers with immediate costs." },
+        { "verb": "Pave the way", "def": "Create favorable conditions for progress.", "ex": "Renewable subsidies pave the way for green industrial transitions." },
+        { "verb": "Account for", "def": "Provide explanation or take into consideration.", "ex": "Market pricing fails to account for irreversible ecosystem damage." },
+        { "verb": "Call for", "def": "Publicly demand or require specific action.", "ex": "Scientists call for immediate structural cuts in fossil fuel extraction." }
       ]
     },
+    "passage": "The designation of our current geological epoch as the 'Anthropocene' acknowledges an unprecedented reality: human industrial activity has superseded natural planetary forces as the dominant driver of global ecological transformation. Yet, global environmental policy remains trapped in a profound institutional paralysis. International climate negotiations consistently collapse under the weight of the 'Tragedy of the Commons'—a collective action dilemma where sovereign nation-states operate out of self-interested national sovereignty, continuing fossil fuel expansion while expecting neighboring states to unilaterally absorb environmental abatement costs.\n\nTechnocratic optimists champion carbon pricing mechanisms, cap-and-trade markets, and geoengineering as market-conforming solutions. However, critics argue these market-based instruments suffer from a fundamental category error. Treating greenhouse gas emissions as a mere market externality that can be internalized via financial taxation fails to confront the systemic imperative of compound economic growth inherent to global capital. Moreover, technological promises such as Direct Air Capture (DAC) induce a moral hazard effect: by promising hypothetical future carbon removal technologies, policymakers justify delaying immediate fossil fuel phaseouts, thereby compounding catastrophic long-term climate tail-risks.",
     "questions": [
       {
         "id": "q1",
@@ -573,6 +763,40 @@
         ],
         "answer": 1,
         "explanation": "<strong>Explanation:</strong> Paragraph 2 criticizes treating emissions as a market externality without addressing structural economic growth."
+      },
+      { "id": "q3", "question": "The 'Tragedy of the Commons' in international climate negotiations manifests as:", "options": [
+          "A) Universal nation-state agreement on rapid decarbonization timelines.",
+          "B) Sovereign states expanding fossil fuel usage for self-interest while expecting others to pay abatement costs.",
+          "C) Private corporations funding global direct air capture facilities without state subsidies.",
+          "D) Small island nations forcing global carbon taxation on industrial powers."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 1 explicitly defines the Tragedy of the Commons as nation-states continuing fossil fuel expansion while expecting neighboring states to absorb costs."
+      },
+      { "id": "q4", "question": "According to the passage, treating greenhouse emissions as a 'market externality' represents a category error because:", "options": [
+          "A) Emissions cannot be detected by atmospheric satellite sensors.",
+          "B) It ignores the core structural requirement of continuous compound growth built into global capitalism.",
+          "C) Financial taxation has been proven to eliminate all corporate profits.",
+          "D) Sovereign states refuse to participate in cap-and-trade carbon markets."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 2 states that internalizing externalities via taxes fails to confront the systemic imperative of compound economic growth."
+      },
+      { "id": "q5", "question": "The tone of the author regarding technocratic market-conforming solutions can best be described as:", "options": [
+          "A) Enthusiastic and fully supportive.",
+          "B) Skeptical and critical of their fundamental structural limitations.", "C) Completely indifferent and objective.", "D) Apologetic and highly defensive."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author uses terms like 'fundamental category error' and 'moral hazard effect' to criticize technocratic optimism."
+      },
+      { "id": "q6", "question": "What is the primary danger of delaying immediate fossil fuel phaseouts in favor of technological promises?", "options": [
+          "A) Reduced corporate investment in renewable energy research.",
+          "B) Compounding catastrophic long-term climate tail-risks.",
+          "C) Immediate bankruptcy of sovereign state treasuries.",
+          "D) Over-regulation of cap-and-trade financial markets."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The passage concludes that delaying phaseouts compounds 'catastrophic long-term climate tail-risks'."
       }
     ]
   }
