@@ -60,10 +60,54 @@
         "answer": 1,
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 2 states arrest records reflect discriminatory policing deployment rather than true crime.<br><br>• <strong>Why Option A, C, D are Wrong:</strong> Technical distractors or false premises."
       },
-      { "id": "q3", "question": "The 'black box' problem in deep neural networks compounds ethical dilemmas because:", "options": ["A) Neural networks process fewer parameters than classical rule-based systems.", "B) Decision rationale cannot be articulated or traced, destroying democratic contestability.", "C) Algorithms prioritize human dignity over computational processing speed.", "D) Mortgage applications are processed faster than parole revocations."], "answer": 1, "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraphs 3 and 4 connect opacity to the impossibility of tracing rationale." },
-      { "id": "q4", "question": "In classical jurisprudence, state authority is legitimized primarily through:", "options": ["A) Efficient automated resource distribution.", "B) Mathematical probability models.", "C) The principle of contestability and reasoned justification.", "D) Deep learning feature extraction."], "answer": 2, "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> Paragraph 4 explicitly notes authority is legitimized through contestability." },
-      { "id": "q5", "question": "The author regards the delegation of ethical judgments to statistical models as:", "options": ["A) A neutral technical improvement in modern administrative law.", "B) An ideological choice prioritizing computational efficiency over human dignity.", "C) An objective method for eliminating human emotional shortcuts.", "D) A temporary flaw that will be resolved by AI auditing."], "answer": 1, "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 5 explicitly labels it an ideological choice." },
-      { "id": "q6", "question": "According to the passage, post-deployment technical auditing alone is insufficient because:", "options": ["A) Deep neural networks cannot operate on digital computers.", "B) Systemic biases require legal frameworks, transparency, and human oversight rather than mere technical patches.", "C) Predictive policing software has already eliminated urban crime.", "D) Classical rule-based logic is too expensive to implement."], "answer": 1, "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 5 emphasizes legal frameworks and human oversight over simple patches." }
+      {
+        "id": "q3",
+        "question": "The 'black box' problem in deep neural networks compounds ethical dilemmas because:",
+        "options": [
+          "A) Neural networks process fewer parameters than classical rule-based systems.",
+          "B) Decision rationale cannot be articulated or traced, destroying democratic contestability.",
+          "C) Algorithms prioritize human dignity over computational processing speed.",
+          "D) Mortgage applications are processed faster than parole revocations."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraphs 3 and 4 connect opacity to the impossibility of tracing rationale."
+      },
+      {
+        "id": "q4",
+        "question": "In classical jurisprudence, state authority is legitimized primarily through:",
+        "options": [
+          "A) Efficient automated resource distribution.",
+          "B) Mathematical probability models.",
+          "C) The principle of contestability and reasoned justification.",
+          "D) Deep learning feature extraction."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> Paragraph 4 explicitly notes authority is legitimized through contestability."
+      },
+      {
+        "id": "q5",
+        "question": "The author regards the delegation of ethical judgments to statistical models as:",
+        "options": [
+          "A) A neutral technical improvement in modern administrative law.",
+          "B) An ideological choice prioritizing computational efficiency over human dignity.",
+          "C) An objective method for eliminating human emotional shortcuts.",
+          "D) A temporary flaw that will be resolved by AI auditing."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 5 explicitly labels it an ideological choice."
+      },
+      {
+        "id": "q6",
+        "question": "According to the passage, post-deployment technical auditing alone is insufficient because:",
+        "options": [
+          "A) Deep neural networks cannot operate on digital computers.",
+          "B) Systemic biases require legal frameworks, transparency, and human oversight rather than mere technical patches.",
+          "C) Predictive policing software has already eliminated urban crime.",
+          "D) Classical rule-based logic is too expensive to implement."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 5 emphasizes legal frameworks and human oversight over simple patches."
+      }
     ]
   },
   {
@@ -401,6 +445,135 @@
       { "id": "q4", "question": "It can be inferred from the passage that the author views democracy fundamentally as:", "options": ["A) An administrative mechanism optimized for maximum statistical utility and economic growth.", "B) A moral imperative based on collective citizen deliberation that cannot be outsourced to expert calculation.", "C) A transient political system that must adapt to high-dimensional predictive governance.", "D) An epistemological framework designed to eliminate expert opinion from policy making."], "answer": 1, "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 4 asserts democracy is a commitment to collective moral deliberation." },
       { "id": "q5", "question": "The tone of the author throughout the passage can be best characterized as:", "options": ["A) Ambivalent and detached.", "B) Moderately optimistic and praising.", "C) Critical, urgent, and polemical.", "D) Cynical and fatalistic."], "answer": 2, "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> Uses strong critical language ('epistemic hubris', 'specious claim')." },
       { "id": "q6", "question": "Which of the following scenarios, if true, would most directly challenge the author's primary critique of scientism?", "options": ["A) A government algorithm successfully predicts urban traffic congestion patterns using GPS data.", "B) An AI policy model resolves a deeply contested ethical debate over healthcare resource allocation with universal democratic approval.", "C) A statistical economic projection fails to account for a sudden global pandemic.", "D) Citizens vote in a national referendum to ban algorithmic surveillance in criminal sentencing."], "answer": 1, "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author claims algorithms cannot resolve ethical debates with democratic approval. If one did, it undermines the core argument." }
+    ]
+  },
+  {
+    "id": "rc-2026-09-25",
+    "date": "2026-09-25",
+    "title": "The Quantum Observer Dilemma & Subjective Reality",
+    "genre": "Philosophy of Physics",
+    "wordCount": "1120 words",
+    "passage": "For over two centuries, Western scientific orthodoxy rested upon the edifice of Cartesian dualism and Newtonian determinism—the resolute belief that an objective physical reality persists completely independent of the conscious mind observing it. Newtonian mechanics conceptualized the cosmos as a colossal, predictable clockwork apparatus where every cause yielded an inevitable effect. However, the advent of quantum mechanics shattered this comfortable ontological foundation. At the subatomic threshold, physical entities refuse to exhibit definitive spatial or momentum properties prior to the empirical act of measurement.\n\nThe iconic double-slit experiment crystallizes this paradox. Unobserved subatomic particles behave as diffuse wave functions of probability, navigating multiple spatial trajectories simultaneously. Yet, the moment an observational apparatus interacts with the system, the wave function instantly collapses into a localized physical particle. This phenomenon forces a profound philosophical crisis: is observation merely an passive measurement tool, or does consciousness play an active, constitutive role in bringing physical reality into existence? Strict scientific realists argue that measurement apparatuses simply induce decoherence through thermal interaction, whereas subjective idealists contend that physical properties remain indeterminate until actualized by conscious perception.",
+    "vocab": {
+      "words": [
+        { "word": "Ontological", "type": "adj", "def": "Relating to the philosophical study of the nature of being or existence.", "ex": "Quantum physics fundamentally altered our ontological understanding of matter." },
+        { "word": "Indeterminate", "type": "adj", "def": "Not exactly known, established, or defined; vague.", "ex": "Before measurement, the subatomic particle remains in an indeterminate state." },
+        { "word": "Decoherence", "type": "noun", "def": "The loss of quantum coherence where a system interacts with its environment.", "ex": "Environmental decoherence prevents large objects from demonstrating wave behavior." }
+      ],
+      "idioms": [
+        { "idiom": "In the pipeline", "def": "In the process of being planned, developed, or produced.", "ex": "New quantum encryption protocols are currently in the pipeline." }
+      ],
+      "phrasalVerbs": [
+        { "verb": "Bring about", "def": "To cause something to happen or come into existence.", "ex": "The observation brought about the collapse of the particle's wave function." }
+      ]
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "question": "The primary tension presented in the second paragraph centers around:",
+        "options": [
+          "A) Whether Newtonian clockwork physics can be applied to astronomical bodies.",
+          "B) Whether wave function collapse is caused by physical environmental decoherence or conscious observation.",
+          "C) The computational limits of subatomic particle detection apparatuses.",
+          "D) Why classical dualism remains superior to quantum mechanics."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 contrasts scientific realists (environmental decoherence) with subjective idealists (conscious observation)."
+      },
+      {
+        "id": "q2",
+        "question": "It can be inferred from the passage that a 'scientific realist' would most strongly AGREE with which statement?",
+        "options": [
+          "A) Physical objects exist only when human beings consciously perceive them.",
+          "B) Wave functions collapse due to thermodynamic interactions with physical instruments, independent of human awareness.",
+          "C) Newtonian mechanics accurately describes subatomic interactions.",
+          "D) Conscious thought directly dictates subatomic mass values."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> The passage explicitly notes scientific realists argue that physical instruments induce decoherence through thermal interaction."
+      }
+    ]
+  },
+  {
+    "id": "rc-2026-09-26",
+    "date": "2026-09-26",
+    "title": "Neoclassical Utility vs. Behavioral Irrationality",
+    "genre": "Behavioral Economics",
+    "wordCount": "1080 words",
+    "passage": "Classical economic models operate on the baseline construct of 'Homo Economicus'—a hypothetically ideal human actor who calculates risks flawlessly, evaluates options dispassionately, and consistently maximizes personal utility. However, decades of empirical research in cognitive psychology have systematically demolished this idealization. Human decision-making under uncertainty is bounded by finite cognitive bandwidth and governed by dual heuristic processing networks: System 1 (rapid, emotional, instinctive) and System 2 (deliberate, analytical, slow).\n\nBecause cognitive processing consumes significant biological metabolic resources, the human brain default-routes most complex daily choices through System 1 shortcuts. While these evolutionary shortcuts served primitive hominids well when evading apex predators, they generate systemic cognitive distortions in modern financial markets. Loss aversion demonstrates that the psychological agony of forfeiting $500 is roughly twice as potent as the pleasure of gaining an equivalent sum. This asymmetry causes institutional traders to irrationally hold plummeting stocks to avoid realizing psychological pain, while prematurely liquidating winning assets. Furthermore, anchoring effects reveal that irrelevant initial numbers heavily bias subsequent valuations, enabling market manipulators to exploit human irrationality.",
+    "vocab": {
+      "words": [
+        { "word": "Bounded", "type": "adj", "def": "Restricted or limited within certain boundaries.", "ex": "Human rationality is bounded by cognitive constraints and limited time." },
+        { "word": "Liquidate", "type": "verb", "def": "To convert assets into cash or settle a debt.", "ex": "Panicked investors liquidated their portfolios during the sudden market dip." },
+        { "word": "Apex", "type": "noun", "def": "The highest point or top of something.", "ex": "Early humans had to develop rapid reflexes to escape apex predators." }
+      ],
+      "idioms": [
+        { "idiom": "Throw good money after bad", "def": "To waste additional money on something that has already failed.", "ex": "Holding onto falling stocks due to loss aversion is like throwing good money after bad." }
+      ],
+      "phrasalVerbs": [
+        { "verb": "Fritter away", "def": "To waste time, money, or effort on trivial things.", "ex": "Irrational retail investors often fritter away capital on speculative assets." }
+      ]
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "question": "According to the passage, financial traders act irrationally during market drops primarily because:",
+        "options": [
+          "A) They rely exclusively on System 2 mathematical modeling.",
+          "B) Loss aversion makes the psychological pain of realizing a loss more intense than equivalent gains.",
+          "C) They lack real-time market data during trading hours.",
+          "D) Apex evolutionary predators instinctually trigger capital withdrawal."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 explicitly attributes holding plummeting stocks to loss aversion asymmetry."
+      }
+    ]
+  },
+  {
+    "id": "rc-2026-09-27",
+    "date": "2026-09-27",
+    "title": "The Paradox of Anthropocene Climate Governance",
+    "genre": "Environmental Economics & Policy",
+    "wordCount": "1250 words",
+    "passage": "The designation of our current geological epoch as the 'Anthropocene' acknowledges an unprecedented reality: human industrial activity has superseded natural planetary forces as the dominant driver of global ecological transformation. Yet, global environmental policy remains trapped in a profound institutional paralysis. International climate negotiations consistently collapse under the weight of the 'Tragedy of the Commons'—a collective action dilemma where sovereign nation-states operate out of self-interested national sovereignty, continuing fossil fuel expansion while expecting neighboring states to unilaterally absorb environmental abatement costs.\n\nTechnocratic optimists champion carbon pricing mechanisms, cap-and-trade markets, and geoengineering as market-conforming solutions. However, critics argue these market-based instruments suffer from a fundamental category error. Treating greenhouse gas emissions as a mere market externality that can be internalized via financial taxation fails to confront the systemic imperative of compound economic growth inherent to global capital. Moreover, technological promises such as Direct Air Capture (DAC) induce a moral hazard effect: by promising hypothetical future carbon removal technologies, policymakers justify delaying immediate fossil fuel phaseouts, thereby compounding catastrophic long-term climate tail-risks.",
+    "vocab": {
+      "words": [
+        { "word": "Anthropocene", "type": "noun", "def": "The current geological age, viewed as the period during which human activity has been the dominant influence on climate.", "ex": "Global warming marks our entry into the Anthropocene epoch." },
+        { "word": "Abatement", "type": "noun", "def": "The reduction, diminution, or elimination of something (like pollution).", "ex": "Industrial carbon abatement requires massive capital investment." },
+        { "word": "Imperative", "type": "noun", "def": "An essential or urgent duty, demand, or requirement.", "ex": "Economic growth remains an imperative for developing nations." }
+      ],
+      "idioms": [
+        { "idiom": "Kick the can down the road", "def": "To defer or delay dealing with a difficult situation.", "ex": "Relying on future technology allows politicians to kick the climate can down the road." }
+      ],
+      "phrasalVerbs": [
+        { "verb": "Phase out", "def": "To gradually stop using, providing, or producing something.", "ex": "Developing nations must rapidly phase out coal power generation." }
+      ]
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "question": "The 'moral hazard effect' described in the passage regarding Direct Air Capture (DAC) refers to:",
+        "options": [
+          "A) DAC technology consuming more energy than it captures.",
+          "B) The promise of future carbon removal encouraging policymakers to delay immediate emission reductions.",
+          "C) Carbon taxation bankrupting developing industrial nations.",
+          "D) Private corporations monopolizing public air capture patents."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 states promising future removal justifies delaying immediate fossil fuel phaseouts (moral hazard)."
+      },
+      {
+        "id": "q2",
+        "question": "The author implies that market-based climate solutions (like cap-and-trade) are flawed because they:",
+        "options": [
+          "A) Are too complex for international regulatory bodies to implement.",
+          "B) Treat pollution as a minor market externality rather than addressing the structural growth imperative of modern capital.",
+          "C) Require complete surrender of national military sovereignty.",
+          "D) Exclusively benefit geoengineering corporations."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 criticizes treating emissions as a market externality without addressing structural economic growth."
+      }
     ]
   }
 ]
