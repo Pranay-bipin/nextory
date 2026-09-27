@@ -1,609 +1,583 @@
 [
   {
-    "id": "sec-2026-09-27",
-    "date": "2026-09-27",
-    "title": "IPMAT Indore VA Full Sectional Mock - Set 02 (Advanced Level)",
+    "id": "sec-2026-09-28",
+    "date": "2026-09-28",
+    "title": "IPMAT Indore VA Full Sectional Mock - Set 03 (Advanced Level)",
     "durationMinutes": 40,
     "totalQuestions": 45,
     "questions": [
       {
         "id": "q1",
         "type": "RC",
-        "passage": "The philosophy of language in the mid-twentieth century underwent a quiet paradigm shift, transitioning from the logical atomism of early Wittgenstein and Bertrand Russell to the pragmatic, ordinary-language philosophy popularized by the later Wittgenstein in 'Philosophical Investigations'. Early analytic philosophy treated language as a formal, mirror-like structure whose primary function was to represent facts about the world through precise logical propositions. Under this picture theory of meaning, statements that could not be empirically verified or reduced to logical tautologies—such as ethical claims, metaphysical speculations, or aesthetic judgments—were dismissed as strictly cognitive nonsense.\n\nHowever, later Wittgenstein famously dismantled his own earlier formalism, proposing instead that words do not derive their meaning from fixed abstract referents, but rather from their practical application within distinct human activities, which he termed 'language-games'. Meaning is use. Just as a piece in a game of chess is defined not by its material composition or isolated physical properties, but by its relational rules of movement on the board, so too are linguistic terms constituted by the implicit rules of the social practices in which they operate. Consequently, philosophical problems often arise not from genuine mysteries about reality, but from 'language on holiday'—misusing concepts outside the specific language-games in which they naturally function.",
-        "question": "The primary thesis of the 'picture theory of meaning' as described in the passage is that:",
+        "passage": "The demarcation problem—distinguishing genuine science from pseudoscience—preoccupied philosophers of science throughout the twentieth century, most notably Karl Popper, who proposed falsifiability as the definitive criterion. According to Popper, a theory earns scientific status not by the number of confirming instances it accumulates, but by its willingness to specify, in advance, observations that would refute it. Astrology and psychoanalysis, Popper argued, are pseudoscientific precisely because their proponents can retroactively accommodate any outcome, rendering the theories unfalsifiable and therefore empirically vacuous.\n\nThomas Kuhn's subsequent critique complicated this tidy picture considerably. Kuhn observed that working scientists rarely abandon a theory merely because an anomalous observation contradicts it; instead, they frequently preserve the core theory by introducing auxiliary hypotheses, a practice Popper himself had condemned as unscientific 'immunizing' but which Kuhn showed was ubiquitous even in exemplary episodes of normal science. Kuhn's concept of the paradigm suggested that scientific communities operate within shared frameworks of assumption so pervasive that falsifying evidence is often initially dismissed as mere anomaly rather than refutation, and only accumulates into a full paradigm shift once alternative frameworks offer a more compelling reinterpretation of the same data.",
+        "question": "According to Popper's falsifiability criterion, a theory qualifies as scientific primarily because it:",
         "options": [
-          "A) The meaning of a word is derived exclusively from its social context within a language-game.",
-          "B) Language functions primarily as a formal logical mirror representing empirical facts about the world.",
-          "C) Ethical claims and aesthetic judgments carry higher cognitive truth than logical tautologies.",
-          "D) Philosophical paradoxes are caused by language being used outside its natural social practice."
+          "A) Accumulates a large number of confirming empirical observations over time.",
+          "B) Specifies in advance the observations that would prove it false.",
+          "C) Is universally accepted by the majority of practicing scientists.",
+          "D) Cannot be restated using auxiliary hypotheses under any circumstance."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 1 explicitly states the picture theory treated language as a mirror-like structure representing facts through precise logical propositions."
+        "explanation": "<strong>Explanation:</strong> Paragraph 1 states scientific status comes from specifying in advance what observations would refute the theory, not from accumulating confirmations."
       },
       {
         "id": "q2",
         "type": "RC",
-        "passage": "The philosophy of language in the mid-twentieth century underwent a quiet paradigm shift, transitioning from the logical atomism of early Wittgenstein and Bertrand Russell to the pragmatic, ordinary-language philosophy popularized by the later Wittgenstein in 'Philosophical Investigations'. Early analytic philosophy treated language as a formal, mirror-like structure whose primary function was to represent facts about the world through precise logical propositions. Under this picture theory of meaning, statements that could not be empirically verified or reduced to logical tautologies—such as ethical claims, metaphysical speculations, or aesthetic judgments—were dismissed as strictly cognitive nonsense.\n\nHowever, later Wittgenstein famously dismantled his own earlier formalism, proposing instead that words do not derive their meaning from fixed abstract referents, but rather from their practical application within distinct human activities, which he termed 'language-games'. Meaning is use. Just as a piece in a game of chess is defined not by its material composition or isolated physical properties, but by its relational rules of movement on the board, so too are linguistic terms constituted by the implicit rules of the social practices in which they operate. Consequently, philosophical problems often arise not from genuine mysteries about reality, but from 'language on holiday'—misusing concepts outside the specific language-games in which they naturally function.",
-        "question": "According to the later Wittgensteinian view, 'language on holiday' leads to philosophical confusion because:",
+        "passage": "The demarcation problem—distinguishing genuine science from pseudoscience—preoccupied philosophers of science throughout the twentieth century, most notably Karl Popper, who proposed falsifiability as the definitive criterion. According to Popper, a theory earns scientific status not by the number of confirming instances it accumulates, but by its willingness to specify, in advance, observations that would refute it. Astrology and psychoanalysis, Popper argued, are pseudoscientific precisely because their proponents can retroactively accommodate any outcome, rendering the theories unfalsifiable and therefore empirically vacuous.\n\nThomas Kuhn's subsequent critique complicated this tidy picture considerably. Kuhn observed that working scientists rarely abandon a theory merely because an anomalous observation contradicts it; instead, they frequently preserve the core theory by introducing auxiliary hypotheses, a practice Popper himself had condemned as unscientific 'immunizing' but which Kuhn showed was ubiquitous even in exemplary episodes of normal science. Kuhn's concept of the paradigm suggested that scientific communities operate within shared frameworks of assumption so pervasive that falsifying evidence is often initially dismissed as mere anomaly rather than refutation, and only accumulates into a full paradigm shift once alternative frameworks offer a more compelling reinterpretation of the same data.",
+        "question": "Kuhn's observation about auxiliary hypotheses complicates Popper's framework because it shows that:",
         "options": [
-          "A) Scholars fail to translate ordinary words into formal symbolic logic.",
-          "B) Linguistic expressions are removed from the specific social rules and practices that give them meaning.",
-          "C) Words are restricted to empirical observations rather than metaphysical speculation.",
-          "D) Chess pieces are used as metaphors for physical properties."
+          "A) Scientists always immediately discard a theory the moment contradictory evidence appears.",
+          "B) A practice Popper labeled unscientific is in fact routine even in respected normal science.",
+          "C) Astrology and psychoanalysis are more scientific than physics or chemistry.",
+          "D) Paradigms are abandoned as soon as a single anomaly is observed."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 2 states that 'language on holiday' means misusing concepts outside the specific language-games in which they naturally function."
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 states that 'immunizing' via auxiliary hypotheses, which Popper condemned, was shown by Kuhn to be ubiquitous even in exemplary normal science."
       },
       {
         "id": "q3",
         "type": "RC",
-        "passage": "The philosophy of language in the mid-twentieth century underwent a quiet paradigm shift, transitioning from the logical atomism of early Wittgenstein and Bertrand Russell to the pragmatic, ordinary-language philosophy popularized by the later Wittgenstein in 'Philosophical Investigations'. Early analytic philosophy treated language as a formal, mirror-like structure whose primary function was to represent facts about the world through precise logical propositions. Under this picture theory of meaning, statements that could not be empirically verified or reduced to logical tautologies—such as ethical claims, metaphysical speculations, or aesthetic judgments—were dismissed as strictly cognitive nonsense.\n\nHowever, later Wittgenstein famously dismantled his own earlier formalism, proposing instead that words do not derive their meaning from fixed abstract referents, but rather from their practical application within distinct human activities, which he termed 'language-games'. Meaning is use. Just as a piece in a game of chess is defined not by its material composition or isolated physical properties, but by its relational rules of movement on the board, so too are linguistic terms constituted by the implicit rules of the social practices in which they operate. Consequently, philosophical problems often arise not from genuine mysteries about reality, but from 'language on holiday'—misusing concepts outside the specific language-games in which they naturally function.",
-        "question": "The chess piece analogy in the second paragraph is used to demonstrate that:",
+        "passage": "The demarcation problem—distinguishing genuine science from pseudoscience—preoccupied philosophers of science throughout the twentieth century, most notably Karl Popper, who proposed falsifiability as the definitive criterion. According to Popper, a theory earns scientific status not by the number of confirming instances it accumulates, but by its willingness to specify, in advance, observations that would refute it. Astrology and psychoanalysis, Popper argued, are pseudoscientific precisely because their proponents can retroactively accommodate any outcome, rendering the theories unfalsifiable and therefore empirically vacuous.\n\nThomas Kuhn's subsequent critique complicated this tidy picture considerably. Kuhn observed that working scientists rarely abandon a theory merely because an anomalous observation contradicts it; instead, they frequently preserve the core theory by introducing auxiliary hypotheses, a practice Popper himself had condemned as unscientific 'immunizing' but which Kuhn showed was ubiquitous even in exemplary episodes of normal science. Kuhn's concept of the paradigm suggested that scientific communities operate within shared frameworks of assumption so pervasive that falsifying evidence is often initially dismissed as mere anomaly rather than refutation, and only accumulates into a full paradigm shift once alternative frameworks offer a more compelling reinterpretation of the same data.",
+        "question": "The term 'immunizing', as used in the passage, refers to the practice of:",
         "options": [
-          "A) Formal games are superior to ordinary human speech.",
-          "B) A word's meaning depends on its rules of operation within a social system, not an intrinsic isolated property.",
-          "C) Language is inherently rigid and incapable of evolutionary adaptation.",
-          "D) Philosophical analysis should follow strict mathematical game theory."
+          "A) Vaccinating research subjects before conducting a controlled experiment.",
+          "B) Protecting a core theory from refutation by adding supplementary hypotheses.",
+          "C) Rejecting all confirming evidence in favor of anomalous data.",
+          "D) Formally proving a theory true beyond any possible doubt."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> The analogy shows that just as chess pieces are defined by relational rules on the board, words are defined by social practices."
+        "explanation": "<strong>Explanation:</strong> The passage defines 'immunizing' as preserving a core theory by introducing auxiliary hypotheses in response to anomalies."
       },
       {
         "id": "q4",
         "type": "RC",
-        "passage": "The philosophy of language in the mid-twentieth century underwent a quiet paradigm shift, transitioning from the logical atomism of early Wittgenstein and Bertrand Russell to the pragmatic, ordinary-language philosophy popularized by the later Wittgenstein in 'Philosophical Investigations'. Early analytic philosophy treated language as a formal, mirror-like structure whose primary function was to represent facts about the world through precise logical propositions. Under this picture theory of meaning, statements that could not be empirically verified or reduced to logical tautologies—such as ethical claims, metaphysical speculations, or aesthetic judgments—were dismissed as strictly cognitive nonsense.\n\nHowever, later Wittgenstein famously dismantled his own earlier formalism, proposing instead that words do not derive their meaning from fixed abstract referents, but rather from their practical application within distinct human activities, which he termed 'language-games'. Meaning is use. Just as a piece in a game of chess is defined not by its material composition or isolated physical properties, but by its relational rules of movement on the board, so too are linguistic terms constituted by the implicit rules of the social practices in which they operate. Consequently, philosophical problems often arise not from genuine mysteries about reality, but from 'language on holiday'—misusing concepts outside the specific language-games in which they naturally function.",
-        "question": "Under the early analytic framework, ethical and aesthetic statements were classified as 'cognitive nonsense' because they:",
+        "passage": "The demarcation problem—distinguishing genuine science from pseudoscience—preoccupied philosophers of science throughout the twentieth century, most notably Karl Popper, who proposed falsifiability as the definitive criterion. According to Popper, a theory earns scientific status not by the number of confirming instances it accumulates, but by its willingness to specify, in advance, observations that would refute it. Astrology and psychoanalysis, Popper argued, are pseudoscientific precisely because their proponents can retroactively accommodate any outcome, rendering the theories unfalsifiable and therefore empirically vacuous.\n\nThomas Kuhn's subsequent critique complicated this tidy picture considerably. Kuhn observed that working scientists rarely abandon a theory merely because an anomalous observation contradicts it; instead, they frequently preserve the core theory by introducing auxiliary hypotheses, a practice Popper himself had condemned as unscientific 'immunizing' but which Kuhn showed was ubiquitous even in exemplary episodes of normal science. Kuhn's concept of the paradigm suggested that scientific communities operate within shared frameworks of assumption so pervasive that falsifying evidence is often initially dismissed as mere anomaly rather than refutation, and only accumulates into a full paradigm shift once alternative frameworks offer a more compelling reinterpretation of the same data.",
+        "question": "The author most likely mentions astrology and psychoanalysis in order to:",
         "options": [
-          "A) Lacked emotional resonance in everyday speech.",
-          "B) Could not be empirically verified or reduced to logical tautologies.",
-          "C) Violated the relational rules of chess analogies.",
-          "D) Were generated by ordinary-language philosophy."
+          "A) Illustrate theories that Popper considered unfalsifiable and hence pseudoscientific.",
+          "B) Provide examples of disciplines Kuhn regarded as paradigm shifts.",
+          "C) Argue that all psychological theories are inherently pseudoscientific.",
+          "D) Demonstrate fields where auxiliary hypotheses are entirely absent."
         ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 1 directly states that statements that could not be empirically verified or reduced to logical tautologies were dismissed as cognitive nonsense."
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> Paragraph 1 uses astrology and psychoanalysis as Popper's examples of pseudoscience due to their unfalsifiable, retroactively accommodating nature."
       },
       {
         "id": "q5",
         "type": "RC",
-        "passage": "The philosophy of language in the mid-twentieth century underwent a quiet paradigm shift, transitioning from the logical atomism of early Wittgenstein and Bertrand Russell to the pragmatic, ordinary-language philosophy popularized by the later Wittgenstein in 'Philosophical Investigations'. Early analytic philosophy treated language as a formal, mirror-like structure whose primary function was to represent facts about the world through precise logical propositions. Under this picture theory of meaning, statements that could not be empirically verified or reduced to logical tautologies—such as ethical claims, metaphysical speculations, or aesthetic judgments—were dismissed as strictly cognitive nonsense.\n\nHowever, later Wittgenstein famously dismantled his own earlier formalism, proposing instead that words do not derive their meaning from fixed abstract referents, but rather from their practical application within distinct human activities, which he termed 'language-games'. Meaning is use. Just as a piece in a game of chess is defined not by its material composition or isolated physical properties, but by its relational rules of movement on the board, so too are linguistic terms constituted by the implicit rules of the social practices in which they operate. Consequently, philosophical problems often arise not from genuine mysteries about reality, but from 'language on holiday'—misusing concepts outside the specific language-games in which they naturally function.",
-        "question": "The transition described in the passage can best be summarized as a shift from:",
+        "passage": "The demarcation problem—distinguishing genuine science from pseudoscience—preoccupied philosophers of science throughout the twentieth century, most notably Karl Popper, who proposed falsifiability as the definitive criterion. According to Popper, a theory earns scientific status not by the number of confirming instances it accumulates, but by its willingness to specify, in advance, observations that would refute it. Astrology and psychoanalysis, Popper argued, are pseudoscientific precisely because their proponents can retroactively accommodate any outcome, rendering the theories unfalsifiable and therefore empirically vacuous.\n\nThomas Kuhn's subsequent critique complicated this tidy picture considerably. Kuhn observed that working scientists rarely abandon a theory merely because an anomalous observation contradicts it; instead, they frequently preserve the core theory by introducing auxiliary hypotheses, a practice Popper himself had condemned as unscientific 'immunizing' but which Kuhn showed was ubiquitous even in exemplary episodes of normal science. Kuhn's concept of the paradigm suggested that scientific communities operate within shared frameworks of assumption so pervasive that falsifying evidence is often initially dismissed as mere anomaly rather than refutation, and only accumulates into a full paradigm shift once alternative frameworks offer a more compelling reinterpretation of the same data.",
+        "question": "According to Kuhn, as described in the passage, a full paradigm shift occurs only when:",
         "options": [
-          "A) Pragmatic ordinary language to rigid formal symbolism.",
-          "B) Abstract logical representationalism to contextual pragmatic functionalism.",
-          "C) Empirical observation to unverified metaphysical speculation.",
-          "D) Linguistic atomism to psychological behavioral modeling."
+          "A) A single anomalous observation is first recorded by any scientist.",
+          "B) An alternative framework offers a more persuasive reinterpretation of the same data.",
+          "C) Popper's falsifiability criterion is formally abandoned by the scientific community.",
+          "D) Auxiliary hypotheses successfully explain away every anomaly encountered."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> The shift went from language representing facts logically (representationalism) to language deriving meaning from practical use in context (pragmatic functionalism)."
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 states paradigm shifts occur once an alternative framework offers a more compelling reinterpretation of the same data, not from a single anomaly."
       },
       {
         "id": "q6",
         "type": "RC",
-        "passage": "Central banking theory historically operated under the premise that monetary policy affects the real economy through a direct, predictable mechanism known as the interest rate channel. By altering benchmark policy rates, central banks influence commercial borrowing costs, modulating investment, consumption, and ultimately price inflation. However, the prolonged post-2008 era of near-zero interest rates and subsequent quantitative easing (QE) revealed the limitations of this classical paradigm, highlighting the supreme importance of the 'financial risk-taking channel'.\n\nWhen central banks compress yields on safe assets like sovereign bonds for extended periods, institutional investors searching for yield are forced to reallocate capital into progressively riskier assets—such as corporate high-yield debt, emerging market equities, and speculative real estate. This portfolio rebalancing inflates asset prices and depresses credit spreads, creating an illusion of widespread financial stability. However, this stability is fragile. When inflationary shocks compel central banks to rapidly tighten monetary policy, the sudden elevation of discount rates triggers abrupt asset repricing, liquidity evaporation, and potential systemic contagion across interconnected financial institutions.",
-        "question": "The 'financial risk-taking channel' operates primarily by:",
+        "passage": "The demarcation problem—distinguishing genuine science from pseudoscience—preoccupied philosophers of science throughout the twentieth century, most notably Karl Popper, who proposed falsifiability as the definitive criterion. According to Popper, a theory earns scientific status not by the number of confirming instances it accumulates, but by its willingness to specify, in advance, observations that would refute it. Astrology and psychoanalysis, Popper argued, are pseudoscientific precisely because their proponents can retroactively accommodate any outcome, rendering the theories unfalsifiable and therefore empirically vacuous.\n\nThomas Kuhn's subsequent critique complicated this tidy picture considerably. Kuhn observed that working scientists rarely abandon a theory merely because an anomalous observation contradicts it; instead, they frequently preserve the core theory by introducing auxiliary hypotheses, a practice Popper himself had condemned as unscientific 'immunizing' but which Kuhn showed was ubiquitous even in exemplary episodes of normal science. Kuhn's concept of the paradigm suggested that scientific communities operate within shared frameworks of assumption so pervasive that falsifying evidence is often initially dismissed as mere anomaly rather than refutation, and only accumulates into a full paradigm shift once alternative frameworks offer a more compelling reinterpretation of the same data.",
+        "question": "The word 'vacuous', as used to describe unfalsifiable theories in the first paragraph, most nearly means:",
         "options": [
-          "A) Encouraging commercial banks to hold excess reserves at central banks.",
-          "B) Forcing yield-seeking investors into riskier asset classes due to compressed safe asset yields.",
-          "C) Reducing price inflation through direct commodity tax adjustments.",
-          "D) Eliminating financial leverage in sovereign debt markets."
+          "A) Rich in verifiable empirical content.",
+          "B) Devoid of genuine, testable content.",
+          "C) Widely accepted by the scientific mainstream.",
+          "D) Composed entirely of mathematical formulae."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 2 states that compressing yields on safe assets forces institutional investors to reallocate capital into riskier assets."
+        "explanation": "<strong>Explanation:</strong> 'Empirically vacuous' describes theories emptied of testable content because they can accommodate any outcome, hence 'devoid of genuine, testable content'."
       },
       {
         "id": "q7",
         "type": "RC",
-        "passage": "Central banking theory historically operated under the premise that monetary policy affects the real economy through a direct, predictable mechanism known as the interest rate channel. By altering benchmark policy rates, central banks influence commercial borrowing costs, modulating investment, consumption, and ultimately price inflation. However, the prolonged post-2008 era of near-zero interest rates and subsequent quantitative easing (QE) revealed the limitations of this classical paradigm, highlighting the supreme importance of the 'financial risk-taking channel'.\n\nWhen central banks compress yields on safe assets like sovereign bonds for extended periods, institutional investors searching for yield are forced to reallocate capital into progressively riskier assets—such as corporate high-yield debt, emerging market equities, and speculative real estate. This portfolio rebalancing inflates asset prices and depresses credit spreads, creating an illusion of widespread financial stability. However, this stability is fragile. When inflationary shocks compel central banks to rapidly tighten monetary policy, the sudden elevation of discount rates triggers abrupt asset repricing, liquidity evaporation, and potential systemic contagion across interconnected financial institutions.",
-        "question": "Why does the author characterize the financial stability created by prolonged QE as 'an illusion'?",
+        "passage": "Insurance markets have long grappled with a structural paradox: the very act of insuring against risk can perversely amplify the risk being insured against, a phenomenon economists term moral hazard. Once an agent is shielded from the full consequences of an adverse outcome, the incentive to exercise costly precaution diminishes correspondingly, since the insurer—not the insured—absorbs the marginal cost of any resulting loss. This is distinct from adverse selection, wherein the mere availability of a contract disproportionately attracts those already predisposed to high risk, causing the insurer's risk pool to skew unfavorably even before any behavioral change occurs.\n\nThe principal-agent problem generalizes this dynamic beyond insurance to any relationship in which one party (the principal) delegates decision-making authority to another (the agent) whose interests are imperfectly aligned with the principal's own. Corporate shareholders, for instance, cannot perfectly monitor managerial effort, creating latitude for executives to pursue empire-building acquisitions or lavish perquisites that inflate their own prestige at the expense of shareholder value. Contractual mechanisms such as performance-linked compensation attempt to realign incentives, yet they introduce their own distortions, since managers may then optimize for easily measurable short-term metrics at the expense of harder-to-quantify long-term investments.",
+        "question": "Moral hazard, as defined in the passage, arises because:",
         "options": [
-          "A) Sovereign bonds permanently lose their underlying principal value.",
-          "B) Inflated asset prices and narrow credit spreads mask underlying vulnerabilities that shatter during sudden policy tightening.",
-          "C) Central banks stop reporting monetary inflation metrics.",
-          "D) Commercial banks refuse to lend to sovereign governments during low-rate environments."
+          "A) High-risk individuals are disproportionately drawn to purchasing insurance contracts.",
+          "B) Shielding an agent from the full cost of a loss reduces their incentive to take precautions.",
+          "C) Insurers deliberately misprice policies to attract low-risk customers exclusively.",
+          "D) Shareholders actively encourage executives to pursue empire-building acquisitions."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 2 explains that portfolio rebalancing inflates asset prices and depresses spreads, creating fragility that evaporates when central banks tighten rates."
+        "explanation": "<strong>Explanation:</strong> Paragraph 1 explains moral hazard as reduced precaution once the insurer, not the insured, bears the marginal cost of loss."
       },
       {
         "id": "q8",
         "type": "RC",
-        "passage": "Central banking theory historically operated under the premise that monetary policy affects the real economy through a direct, predictable mechanism known as the interest rate channel. By altering benchmark policy rates, central banks influence commercial borrowing costs, modulating investment, consumption, and ultimately price inflation. However, the prolonged post-2008 era of near-zero interest rates and subsequent quantitative easing (QE) revealed the limitations of this classical paradigm, highlighting the supreme importance of the 'financial risk-taking channel'.\n\nWhen central banks compress yields on safe assets like sovereign bonds for extended periods, institutional investors searching for yield are forced to reallocate capital into progressively riskier assets—such as corporate high-yield debt, emerging market equities, and speculative real estate. This portfolio rebalancing inflates asset prices and depresses credit spreads, creating an illusion of widespread financial stability. However, this stability is fragile. When inflationary shocks compel central banks to rapidly tighten monetary policy, the sudden elevation of discount rates triggers abrupt asset repricing, liquidity evaporation, and potential systemic contagion across interconnected financial institutions.",
-        "question": "According to the passage, a sudden increase in benchmark discount rates during inflationary shocks leads to:",
+        "passage": "Insurance markets have long grappled with a structural paradox: the very act of insuring against risk can perversely amplify the risk being insured against, a phenomenon economists term moral hazard. Once an agent is shielded from the full consequences of an adverse outcome, the incentive to exercise costly precaution diminishes correspondingly, since the insurer—not the insured—absorbs the marginal cost of any resulting loss. This is distinct from adverse selection, wherein the mere availability of a contract disproportionately attracts those already predisposed to high risk, causing the insurer's risk pool to skew unfavorably even before any behavioral change occurs.\n\nThe principal-agent problem generalizes this dynamic beyond insurance to any relationship in which one party (the principal) delegates decision-making authority to another (the agent) whose interests are imperfectly aligned with the principal's own. Corporate shareholders, for instance, cannot perfectly monitor managerial effort, creating latitude for executives to pursue empire-building acquisitions or lavish perquisites that inflate their own prestige at the expense of shareholder value. Contractual mechanisms such as performance-linked compensation attempt to realign incentives, yet they introduce their own distortions, since managers may then optimize for easily measurable short-term metrics at the expense of harder-to-quantify long-term investments.",
+        "question": "The key distinction between moral hazard and adverse selection, per the passage, is that:",
         "options": [
-          "A) Immediate expansion of quantitative easing programs.",
-          "B) Asset repricing, liquidity drying up, and potential financial contagion.",
-          "C) Decreased interest rates on corporate high-yield bonds.",
-          "D) Stabilization of emerging market currency rates."
+          "A) Adverse selection occurs after a contract is signed, while moral hazard occurs before.",
+          "B) Adverse selection skews the risk pool at the outset, while moral hazard changes behavior after coverage begins.",
+          "C) Moral hazard applies only to corporate governance, never to insurance.",
+          "D) Adverse selection eliminates the need for performance-linked compensation entirely."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 2 concludes that rapid tightening elevates discount rates, triggering asset repricing, liquidity evaporation, and systemic contagion."
+        "explanation": "<strong>Explanation:</strong> Paragraph 1 distinguishes adverse selection as pre-existing risk-pool skew from moral hazard's post-contract behavioral change."
       },
       {
         "id": "q9",
         "type": "RC",
-        "passage": "Central banking theory historically operated under the premise that monetary policy affects the real economy through a direct, predictable mechanism known as the interest rate channel. By altering benchmark policy rates, central banks influence commercial borrowing costs, modulating investment, consumption, and ultimately price inflation. However, the prolonged post-2008 era of near-zero interest rates and subsequent quantitative easing (QE) revealed the limitations of this classical paradigm, highlighting the supreme importance of the 'financial risk-taking channel'.\n\nWhen central banks compress yields on safe assets like sovereign bonds for extended periods, institutional investors searching for yield are forced to reallocate capital into progressively riskier assets—such as corporate high-yield debt, emerging market equities, and speculative real estate. This portfolio rebalancing inflates asset prices and depresses credit spreads, creating an illusion of widespread financial stability. However, this stability is fragile. When inflationary shocks compel central banks to rapidly tighten monetary policy, the sudden elevation of discount rates triggers abrupt asset repricing, liquidity evaporation, and potential systemic contagion across interconnected financial institutions.",
-        "question": "The term 'credit spreads' in the context of the second paragraph refers to:",
+        "passage": "Insurance markets have long grappled with a structural paradox: the very act of insuring against risk can perversely amplify the risk being insured against, a phenomenon economists term moral hazard. Once an agent is shielded from the full consequences of an adverse outcome, the incentive to exercise costly precaution diminishes correspondingly, since the insurer—not the insured—absorbs the marginal cost of any resulting loss. This is distinct from adverse selection, wherein the mere availability of a contract disproportionately attracts those already predisposed to high risk, causing the insurer's risk pool to skew unfavorably even before any behavioral change occurs.\n\nThe principal-agent problem generalizes this dynamic beyond insurance to any relationship in which one party (the principal) delegates decision-making authority to another (the agent) whose interests are imperfectly aligned with the principal's own. Corporate shareholders, for instance, cannot perfectly monitor managerial effort, creating latitude for executives to pursue empire-building acquisitions or lavish perquisites that inflate their own prestige at the expense of shareholder value. Contractual mechanisms such as performance-linked compensation attempt to realign incentives, yet they introduce their own distortions, since managers may then optimize for easily measurable short-term metrics at the expense of harder-to-quantify long-term investments.",
+        "question": "The shareholder-executive example in the second paragraph is used to illustrate that:",
         "options": [
-          "A) The physical distance between commercial bank branches.",
-          "B) The yield difference between risky corporate bonds and safe benchmark sovereign bonds.",
-          "C) The total credit card limit allocated to retail consumers.",
-          "D) The tax margin levied on central bank reserve deposits."
+          "A) Shareholders always possess perfect information about managerial decisions.",
+          "B) Imperfect monitoring creates room for agents to act against the principal's interests.",
+          "C) Executives are legally barred from pursuing corporate acquisitions.",
+          "D) Performance-linked pay eliminates every form of managerial distortion."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> In finance, credit spreads reflect the risk premium/yield gap between high-risk corporate debt and risk-free sovereign bonds."
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 uses the shareholder-executive relationship to show how imperfect monitoring allows agents' interests to diverge from the principal's."
       },
       {
         "id": "q10",
         "type": "RC",
-        "passage": "Central banking theory historically operated under the premise that monetary policy affects the real economy through a direct, predictable mechanism known as the interest rate channel. By altering benchmark policy rates, central banks influence commercial borrowing costs, modulating investment, consumption, and ultimately price inflation. However, the prolonged post-2008 era of near-zero interest rates and subsequent quantitative easing (QE) revealed the limitations of this classical paradigm, highlighting the supreme importance of the 'financial risk-taking channel'.\n\nWhen central banks compress yields on safe assets like sovereign bonds for extended periods, institutional investors searching for yield are forced to reallocate capital into progressively riskier assets—such as corporate high-yield debt, emerging market equities, and speculative real estate. This portfolio rebalancing inflates asset prices and depresses credit spreads, creating an illusion of widespread financial stability. However, this stability is fragile. When inflationary shocks compel central banks to rapidly tighten monetary policy, the sudden elevation of discount rates triggers abrupt asset repricing, liquidity evaporation, and potential systemic contagion across interconnected financial institutions.",
-        "question": "Which of the following best summarizes the author's overall stance on classical central banking theory?",
+        "passage": "Insurance markets have long grappled with a structural paradox: the very act of insuring against risk can perversely amplify the risk being insured against, a phenomenon economists term moral hazard. Once an agent is shielded from the full consequences of an adverse outcome, the incentive to exercise costly precaution diminishes correspondingly, since the insurer—not the insured—absorbs the marginal cost of any resulting loss. This is distinct from adverse selection, wherein the mere availability of a contract disproportionately attracts those already predisposed to high risk, causing the insurer's risk pool to skew unfavorably even before any behavioral change occurs.\n\nThe principal-agent problem generalizes this dynamic beyond insurance to any relationship in which one party (the principal) delegates decision-making authority to another (the agent) whose interests are imperfectly aligned with the principal's own. Corporate shareholders, for instance, cannot perfectly monitor managerial effort, creating latitude for executives to pursue empire-building acquisitions or lavish perquisites that inflate their own prestige at the expense of shareholder value. Contractual mechanisms such as performance-linked compensation attempt to realign incentives, yet they introduce their own distortions, since managers may then optimize for easily measurable short-term metrics at the expense of harder-to-quantify long-term investments.",
+        "question": "According to the passage, a key drawback of performance-linked compensation is that it:",
         "options": [
-          "A) It remains flawless in predicting stock market movements.",
-          "B) It oversimplifies transmission mechanisms by neglecting how prolonged low interest rates encourage dangerous systemic risk-taking.",
-          "C) It advocate for the total abolition of interest rate adjustments.",
-          "D) It accurately accounts for liquidity evaporation during periods of quantitative easing."
+          "A) Completely eliminates the principal-agent problem in corporate settings.",
+          "B) May cause managers to prioritize measurable short-term metrics over long-term value.",
+          "C) Is illegal under most corporate governance frameworks worldwide.",
+          "D) Reduces shareholder returns in every documented instance."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> The author states that classical theory revealed its limits because it overlooked the financial risk-taking channel."
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 states that such compensation may lead managers to optimize for measurable short-term metrics over harder-to-quantify long-term investments."
       },
       {
         "id": "q11",
         "type": "RC",
-        "passage": "The human genome contains roughly three billion base pairs, yet less than two percent directly encodes functional protein structures. For decades, molecular biology dismissed the remaining ninety-eight percent as 'junk DNA'—evolutionary residue consisting of non-functional repetitive sequences, pseudogenes, and deactivated retrotransposons. This genocentric view assumed that phenotypic complexity was strictly a function of total protein-coding gene count. However, the completion of the ENCODE project and advances in transcriptomics shattered this simplistic paradigm, revealing that the non-coding genome is densely populated with crucial regulatory elements.\n\nNon-coding DNA produces thousands of non-coding RNA molecules (ncRNAs), including microRNAs and long non-coding RNAs (lncRNAs), which act as master regulators of gene expression. These regulatory networks modulate chromatin structure, direct histone modifications, and dictate precise spatiotemporal gene transcription during embryonic development. Consequently, species complexity is driven not by the raw number of protein-coding genes—humans share a surprisingly similar gene count with the simple nematode Caenorhabditis elegans—but by the sophisticated regulatory architecture governed by non-coding genomic regions.",
-        "question": "The historical designation 'junk DNA' arose primarily from the assumption that:",
+        "passage": "Insurance markets have long grappled with a structural paradox: the very act of insuring against risk can perversely amplify the risk being insured against, a phenomenon economists term moral hazard. Once an agent is shielded from the full consequences of an adverse outcome, the incentive to exercise costly precaution diminishes correspondingly, since the insurer—not the insured—absorbs the marginal cost of any resulting loss. This is distinct from adverse selection, wherein the mere availability of a contract disproportionately attracts those already predisposed to high risk, causing the insurer's risk pool to skew unfavorably even before any behavioral change occurs.\n\nThe principal-agent problem generalizes this dynamic beyond insurance to any relationship in which one party (the principal) delegates decision-making authority to another (the agent) whose interests are imperfectly aligned with the principal's own. Corporate shareholders, for instance, cannot perfectly monitor managerial effort, creating latitude for executives to pursue empire-building acquisitions or lavish perquisites that inflate their own prestige at the expense of shareholder value. Contractual mechanisms such as performance-linked compensation attempt to realign incentives, yet they introduce their own distortions, since managers may then optimize for easily measurable short-term metrics at the expense of harder-to-quantify long-term investments.",
+        "question": "The author's overall tone toward mechanisms designed to realign principal-agent incentives is best described as:",
         "options": [
-          "A) Non-coding sequences were toxic to cellular mitochondria.",
-          "B) Only sequences directly encoding functional protein structures possessed biological utility.",
-          "C) Nematode genomes contained more base pairs than human genomes.",
-          "D) Non-coding RNA molecules prevented histone modifications."
+          "A) Wholly dismissive, viewing all such mechanisms as pointless.",
+          "B) Cautiously qualified, acknowledging their intent while noting the distortions they introduce.",
+          "C) Uncritically enthusiastic about performance-linked compensation as a complete solution.",
+          "D) Indifferent, since the passage takes no position on their effectiveness."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 1 explains that because less than 2% encodes proteins, the rest was assumed non-functional ('junk')."
+        "explanation": "<strong>Explanation:</strong> The passage acknowledges such mechanisms 'attempt to realign incentives' but notes they 'introduce their own distortions', reflecting a cautiously qualified tone."
       },
       {
         "id": "q12",
         "type": "RC",
-        "passage": "The human genome contains roughly three billion base pairs, yet less than two percent directly encodes functional protein structures. For decades, molecular biology dismissed the remaining ninety-eight percent as 'junk DNA'—evolutionary residue consisting of non-functional repetitive sequences, pseudogenes, and deactivated retrotransposons. This genocentric view assumed that phenotypic complexity was strictly a function of total protein-coding gene count. However, the completion of the ENCODE project and advances in transcriptomics shattered this simplistic paradigm, revealing that the non-coding genome is densely populated with crucial regulatory elements.\n\nNon-coding DNA produces thousands of non-coding RNA molecules (ncRNAs), including microRNAs and long non-coding RNAs (lncRNAs), which act as master regulators of gene expression. These regulatory networks modulate chromatin structure, direct histone modifications, and dictate precise spatiotemporal gene transcription during embryonic development. Consequently, species complexity is driven not by the raw number of protein-coding genes—humans share a surprisingly similar gene count with the simple nematode Caenorhabditis elegans—but by the sophisticated regulatory architecture governed by non-coding genomic regions.",
-        "question": "Why does the author mention the nematode 'Caenorhabditis elegans' in the second paragraph?",
+        "passage": "Insurance markets have long grappled with a structural paradox: the very act of insuring against risk can perversely amplify the risk being insured against, a phenomenon economists term moral hazard. Once an agent is shielded from the full consequences of an adverse outcome, the incentive to exercise costly precaution diminishes correspondingly, since the insurer—not the insured—absorbs the marginal cost of any resulting loss. This is distinct from adverse selection, wherein the mere availability of a contract disproportionately attracts those already predisposed to high risk, causing the insurer's risk pool to skew unfavorably even before any behavioral change occurs.\n\nThe principal-agent problem generalizes this dynamic beyond insurance to any relationship in which one party (the principal) delegates decision-making authority to another (the agent) whose interests are imperfectly aligned with the principal's own. Corporate shareholders, for instance, cannot perfectly monitor managerial effort, creating latitude for executives to pursue empire-building acquisitions or lavish perquisites that inflate their own prestige at the expense of shareholder value. Contractual mechanisms such as performance-linked compensation attempt to realign incentives, yet they introduce their own distortions, since managers may then optimize for easily measurable short-term metrics at the expense of harder-to-quantify long-term investments.",
+        "question": "It can be inferred from the passage that if shareholders possessed perfect monitoring capabilities over executives:",
         "options": [
-          "A) To prove that nematodes possess more complex non-coding RNA than humans.",
-          "B) To demonstrate that total protein-coding gene count does not determine phenotypic complexity.",
-          "C) To illustrate how retrotransposons deactivate gene transcription.",
-          "D) To argue that humans evolved directly from ancient soil nematodes."
+          "A) Moral hazard in insurance markets would instantly cease to exist.",
+          "B) The latitude for managers to pursue empire-building acquisitions at shareholder expense would be minimized.",
+          "C) Performance-linked compensation would become legally mandatory for all public firms.",
+          "D) Executives would be forced to focus exclusively on short-term stock metrics."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Humans and C. elegans have similar gene counts, showing that gene count alone does not explain human complexity."
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 notes that because shareholders 'cannot perfectly monitor managerial effort', creating latitude for empire-building, perfect monitoring would minimize this divergence."
       },
       {
         "id": "q13",
         "type": "RC",
-        "passage": "The human genome contains roughly three billion base pairs, yet less than two percent directly encodes functional protein structures. For decades, molecular biology dismissed the remaining ninety-eight percent as 'junk DNA'—evolutionary residue consisting of non-functional repetitive sequences, pseudogenes, and deactivated retrotransposons. This genocentric view assumed that phenotypic complexity was strictly a function of total protein-coding gene count. However, the completion of the ENCODE project and advances in transcriptomics shattered this simplistic paradigm, revealing that the non-coding genome is densely populated with crucial regulatory elements.\n\nNon-coding DNA produces thousands of non-coding RNA molecules (ncRNAs), including microRNAs and long non-coding RNAs (lncRNAs), which act as master regulators of gene expression. These regulatory networks modulate chromatin structure, direct histone modifications, and dictate precise spatiotemporal gene transcription during embryonic development. Consequently, species complexity is driven not by the raw number of protein-coding genes—humans share a surprisingly similar gene count with the simple nematode Caenorhabditis elegans—but by the sophisticated regulatory architecture governed by non-coding genomic regions.",
-        "question": "According to paragraph 2, non-coding RNA molecules (ncRNAs) influence cellular development by:",
+        "passage": "Classical Mendelian genetics posited a strict, unidirectional flow of hereditary information: DNA sequence determines phenotype, and environmentally induced changes in an organism during its lifetime cannot be transmitted to offspring—a principle epitomized by August Weismann's doctrine of the separation between germline and soma. Epigenetics has substantially complicated this once-settled orthodoxy by demonstrating that chemical modifications to DNA and its associated histone proteins, such as methylation and acetylation, can alter gene expression without changing the underlying nucleotide sequence, and that certain of these modifications can, in specific circumstances, persist across generations.\n\nStudies on famine-exposed populations have shown that grandchildren of individuals who experienced severe nutritional deprivation exhibit altered metabolic profiles, suggesting that epigenetic marks acquired in response to environmental stress may be transmitted transgenerationally, a phenomenon that superficially resembles the long-discredited Lamarckian inheritance of acquired characteristics. Critics caution against overinterpreting this resemblance, however, noting that most epigenetic marks are in fact erased and reset during gamete formation, and that the mechanisms enabling the rare marks that do escape this resetting remain incompletely understood, leaving the evolutionary significance of transgenerational epigenetic inheritance a matter of active dispute rather than settled consensus.",
+        "question": "Weismann's doctrine, as described in the passage, holds that:",
         "options": [
-          "A) Converting retrotransposons back into active viruses.",
-          "B) Modulating chromatin structure, histone modifications, and transcription timing.",
-          "C) Eliminating the necessity of protein synthesis.",
-          "D) Increasing the total number of base pairs in the genome."
+          "A) Changes acquired by an organism during its life cannot be passed on to its offspring.",
+          "B) Histone acetylation directly alters the underlying DNA nucleotide sequence.",
+          "C) Germline and soma are functionally identical tissues in most organisms.",
+          "D) Famine exposure permanently alters an organism's DNA sequence."
         ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 2 states ncRNAs modulate chromatin structure, direct histone modifications, and dictate spatiotemporal transcription."
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> Paragraph 1 states Weismann's doctrine separates germline and soma such that lifetime environmental changes cannot be transmitted to offspring."
       },
       {
         "id": "q14",
         "type": "RC",
-        "passage": "The human genome contains roughly three billion base pairs, yet less than two percent directly encodes functional protein structures. For decades, molecular biology dismissed the remaining ninety-eight percent as 'junk DNA'—evolutionary residue consisting of non-functional repetitive sequences, pseudogenes, and deactivated retrotransposons. This genocentric view assumed that phenotypic complexity was strictly a function of total protein-coding gene count. However, the completion of the ENCODE project and advances in transcriptomics shattered this simplistic paradigm, revealing that the non-coding genome is densely populated with crucial regulatory elements.\n\nNon-coding DNA produces thousands of non-coding RNA molecules (ncRNAs), including microRNAs and long non-coding RNAs (lncRNAs), which act as master regulators of gene expression. These regulatory networks modulate chromatin structure, direct histone modifications, and dictate precise spatiotemporal gene transcription during embryonic development. Consequently, species complexity is driven not by the raw number of protein-coding genes—humans share a surprisingly similar gene count with the simple nematode Caenorhabditis elegans—but by the sophisticated regulatory architecture governed by non-coding genomic regions.",
-        "question": "The word 'phenotypic' in the passage refers to:",
+        "passage": "Classical Mendelian genetics posited a strict, unidirectional flow of hereditary information: DNA sequence determines phenotype, and environmentally induced changes in an organism during its lifetime cannot be transmitted to offspring—a principle epitomized by August Weismann's doctrine of the separation between germline and soma. Epigenetics has substantially complicated this once-settled orthodoxy by demonstrating that chemical modifications to DNA and its associated histone proteins, such as methylation and acetylation, can alter gene expression without changing the underlying nucleotide sequence, and that certain of these modifications can, in specific circumstances, persist across generations.\n\nStudies on famine-exposed populations have shown that grandchildren of individuals who experienced severe nutritional deprivation exhibit altered metabolic profiles, suggesting that epigenetic marks acquired in response to environmental stress may be transmitted transgenerationally, a phenomenon that superficially resembles the long-discredited Lamarckian inheritance of acquired characteristics. Critics caution against overinterpreting this resemblance, however, noting that most epigenetic marks are in fact erased and reset during gamete formation, and that the mechanisms enabling the rare marks that do escape this resetting remain incompletely understood, leaving the evolutionary significance of transgenerational epigenetic inheritance a matter of active dispute rather than settled consensus.",
+        "question": "Epigenetic modifications such as methylation and acetylation primarily affect:",
         "options": [
-          "A) The underlying subatomic electrical charge of cell membranes.",
-          "B) The observable physical or biochemical characteristics of an organism.",
-          "C) The total number of non-coding pseudogenes in a chromosome.",
-          "D) The speed of cellular protein degradation."
+          "A) Gene expression, without altering the underlying nucleotide sequence.",
+          "B) The nucleotide sequence itself, permanently rewriting the genetic code.",
+          "C) Only somatic cells, with no possibility of transmission across generations.",
+          "D) The rate at which Mendelian inheritance patterns are followed."
         ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> In genetics, phenotype refers to the observable physical and structural traits of an organism."
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> Paragraph 1 states these modifications alter gene expression without changing the underlying nucleotide sequence."
       },
       {
         "id": "q15",
         "type": "RC",
-        "passage": "The human genome contains roughly three billion base pairs, yet less than two percent directly encodes functional protein structures. For decades, molecular biology dismissed the remaining ninety-eight percent as 'junk DNA'—evolutionary residue consisting of non-functional repetitive sequences, pseudogenes, and deactivated retrotransposons. This genocentric view assumed that phenotypic complexity was strictly a function of total protein-coding gene count. However, the completion of the ENCODE project and advances in transcriptomics shattered this simplistic paradigm, revealing that the non-coding genome is densely populated with crucial regulatory elements.\n\nNon-coding DNA produces thousands of non-coding RNA molecules (ncRNAs), including microRNAs and long non-coding RNAs (lncRNAs), which act as master regulators of gene expression. These regulatory networks modulate chromatin structure, direct histone modifications, and dictate precise spatiotemporal gene transcription during embryonic development. Consequently, species complexity is driven not by the raw number of protein-coding genes—humans share a surprisingly similar gene count with the simple nematode Caenorhabditis elegans—but by the sophisticated regulatory architecture governed by non-coding genomic regions.",
-        "question": "Which finding most directly undermined the classical 'genocentric' view of biology?",
+        "passage": "Classical Mendelian genetics posited a strict, unidirectional flow of hereditary information: DNA sequence determines phenotype, and environmentally induced changes in an organism during its lifetime cannot be transmitted to offspring—a principle epitomized by August Weismann's doctrine of the separation between germline and soma. Epigenetics has substantially complicated this once-settled orthodoxy by demonstrating that chemical modifications to DNA and its associated histone proteins, such as methylation and acetylation, can alter gene expression without changing the underlying nucleotide sequence, and that certain of these modifications can, in specific circumstances, persist across generations.\n\nStudies on famine-exposed populations have shown that grandchildren of individuals who experienced severe nutritional deprivation exhibit altered metabolic profiles, suggesting that epigenetic marks acquired in response to environmental stress may be transmitted transgenerationally, a phenomenon that superficially resembles the long-discredited Lamarckian inheritance of acquired characteristics. Critics caution against overinterpreting this resemblance, however, noting that most epigenetic marks are in fact erased and reset during gamete formation, and that the mechanisms enabling the rare marks that do escape this resetting remain incompletely understood, leaving the evolutionary significance of transgenerational epigenetic inheritance a matter of active dispute rather than settled consensus.",
+        "question": "The famine-exposed population studies are cited primarily to suggest that:",
         "options": [
-          "A) The discovery that 98% of the human genome consists of non-functional waste.",
-          "B) The discovery that non-coding regions actively produce functional regulatory RNA networks.",
-          "C) The realization that nematode cells lack histone proteins.",
-          "D) The proof that protein synthesis occurs without DNA transcription."
+          "A) Nutritional deprivation permanently rewrites the DNA sequence of descendants.",
+          "B) Epigenetic marks acquired under environmental stress may be passed across generations.",
+          "C) Grandchildren of famine survivors are immune to all metabolic disorders.",
+          "D) Lamarckian inheritance has been fully validated by modern genetics."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> The discovery of functional non-coding regulatory elements directly dismantled the genocentric view that only protein-coding genes mattered."
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 states these studies suggest epigenetic marks acquired under stress may be transmitted transgenerationally."
       },
       {
         "id": "q16",
-        "type": "ParaJumble",
-        "question": "Rearrange the four sentences (1-4) into a logical sequence:\n\n1. This psychological resistance stems from a fear of losing status and autonomy.\n2. Consequently, leaders must address emotional concerns alongside structural changes.\n3. Organizational transformations frequently founder despite meticulous financial planning.\n4. Employees perceive top-down restructurings as existential threats to their routine.",
+        "type": "RC",
+        "passage": "Classical Mendelian genetics posited a strict, unidirectional flow of hereditary information: DNA sequence determines phenotype, and environmentally induced changes in an organism during its lifetime cannot be transmitted to offspring—a principle epitomized by August Weismann's doctrine of the separation between germline and soma. Epigenetics has substantially complicated this once-settled orthodoxy by demonstrating that chemical modifications to DNA and its associated histone proteins, such as methylation and acetylation, can alter gene expression without changing the underlying nucleotide sequence, and that certain of these modifications can, in specific circumstances, persist across generations.\n\nStudies on famine-exposed populations have shown that grandchildren of individuals who experienced severe nutritional deprivation exhibit altered metabolic profiles, suggesting that epigenetic marks acquired in response to environmental stress may be transmitted transgenerationally, a phenomenon that superficially resembles the long-discredited Lamarckian inheritance of acquired characteristics. Critics caution against overinterpreting this resemblance, however, noting that most epigenetic marks are in fact erased and reset during gamete formation, and that the mechanisms enabling the rare marks that do escape this resetting remain incompletely understood, leaving the evolutionary significance of transgenerational epigenetic inheritance a matter of active dispute rather than settled consensus.",
+        "question": "Critics caution against equating transgenerational epigenetic inheritance with Lamarckism mainly because:",
         "options": [
-          "A) 3 - 4 - 1 - 2",
-          "B) 4 - 1 - 3 - 2",
-          "C) 3 - 1 - 4 - 2",
-          "D) 1 - 4 - 2 - 3"
+          "A) Lamarckism has never been discredited within mainstream biology.",
+          "B) Most epigenetic marks are erased during gamete formation, and the escape mechanism is poorly understood.",
+          "C) Epigenetic marks always affect the underlying DNA sequence directly.",
+          "D) Famine studies have been entirely retracted from the scientific literature."
         ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> 3 introduces the premise (failed transformations), 4 elaborates employee perceptions, 1 explains the root cause (fear of status loss), and 2 provides the logical leadership conclusion."
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 notes most marks are erased and reset during gamete formation, and the mechanisms permitting rare exceptions remain incompletely understood."
       },
       {
         "id": "q17",
-        "type": "ParaJumble",
-        "question": "Rearrange the four sentences (1-4) into a logical sequence:\n\n1. Without rigorous empirical testing, these plausible narratives risk becoming dogma.\n2. Evolutionary psychology frequently constructs adaptive explanations for modern human behaviors.\n3. Critics argue that many such hypotheses constitute unprovable 'just-so' stories.\n4. For instance, preferences for specific landscapes are attributed to ancestral savanna survival.",
+        "type": "RC",
+        "passage": "Classical Mendelian genetics posited a strict, unidirectional flow of hereditary information: DNA sequence determines phenotype, and environmentally induced changes in an organism during its lifetime cannot be transmitted to offspring—a principle epitomized by August Weismann's doctrine of the separation between germline and soma. Epigenetics has substantially complicated this once-settled orthodoxy by demonstrating that chemical modifications to DNA and its associated histone proteins, such as methylation and acetylation, can alter gene expression without changing the underlying nucleotide sequence, and that certain of these modifications can, in specific circumstances, persist across generations.\n\nStudies on famine-exposed populations have shown that grandchildren of individuals who experienced severe nutritional deprivation exhibit altered metabolic profiles, suggesting that epigenetic marks acquired in response to environmental stress may be transmitted transgenerationally, a phenomenon that superficially resembles the long-discredited Lamarckian inheritance of acquired characteristics. Critics caution against overinterpreting this resemblance, however, noting that most epigenetic marks are in fact erased and reset during gamete formation, and that the mechanisms enabling the rare marks that do escape this resetting remain incompletely understood, leaving the evolutionary significance of transgenerational epigenetic inheritance a matter of active dispute rather than settled consensus.",
+        "question": "The author's overall stance on the evolutionary significance of transgenerational epigenetic inheritance is that it is:",
         "options": [
-          "A) 2 - 4 - 3 - 1",
-          "B) 3 - 1 - 2 - 4",
-          "C) 2 - 3 - 1 - 4",
-          "D) 4 - 2 - 3 - 1"
+          "A) Definitively proven and universally accepted among evolutionary biologists.",
+          "B) Still an unresolved question actively debated rather than settled.",
+          "C) Entirely disproven by the famine population studies mentioned.",
+          "D) Irrelevant to modern evolutionary theory and no longer studied."
         ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> 2 introduces evolutionary psychology, 4 gives a specific example (savanna preference), 3 introduces critical pushback ('just-so' stories), and 1 concludes with the risk of untested dogma."
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> The passage explicitly concludes this remains 'a matter of active dispute rather than settled consensus'."
       },
       {
         "id": "q18",
-        "type": "ParaJumble",
-        "question": "Rearrange the four sentences (1-4) into a logical sequence:\n\n1. Over-reliance on synthetic fertilizers leads to soil acidification and micro-nutrient depletion.\n2. Modern agricultural productivity relies heavily on nitrogen-based industrial inputs.\n3. Restoring biological soil health is therefore vital for long-term food security.\n4. This degradation eventually reduces crop yields despite increasing chemical applications.",
+        "type": "RC",
+        "passage": "Classical Mendelian genetics posited a strict, unidirectional flow of hereditary information: DNA sequence determines phenotype, and environmentally induced changes in an organism during its lifetime cannot be transmitted to offspring—a principle epitomized by August Weismann's doctrine of the separation between germline and soma. Epigenetics has substantially complicated this once-settled orthodoxy by demonstrating that chemical modifications to DNA and its associated histone proteins, such as methylation and acetylation, can alter gene expression without changing the underlying nucleotide sequence, and that certain of these modifications can, in specific circumstances, persist across generations.\n\nStudies on famine-exposed populations have shown that grandchildren of individuals who experienced severe nutritional deprivation exhibit altered metabolic profiles, suggesting that epigenetic marks acquired in response to environmental stress may be transmitted transgenerationally, a phenomenon that superficially resembles the long-discredited Lamarckian inheritance of acquired characteristics. Critics caution against overinterpreting this resemblance, however, noting that most epigenetic marks are in fact erased and reset during gamete formation, and that the mechanisms enabling the rare marks that do escape this resetting remain incompletely understood, leaving the evolutionary significance of transgenerational epigenetic inheritance a matter of active dispute rather than settled consensus.",
+        "question": "The word 'orthodoxy' in the first paragraph refers to:",
         "options": [
-          "A) 2 - 1 - 4 - 3",
-          "B) 1 - 4 - 2 - 3",
-          "C) 2 - 4 - 1 - 3",
-          "D) 4 - 1 - 3 - 2"
+          "A) Religious dogmas surrounding human origin.",
+          "B) The widely accepted traditional scientific belief regarding Mendelian unidirectional inheritance.",
+          "C) The practice of resetting histone marks during meiosis.",
+          "D) Lamarck's original theory of physical trait development."
         ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> 2 introduces nitrogen input reliance, 1 shows the immediate impact (acidification), 4 shows the compounding effect (yield drop), and 3 concludes with the soil restoration requirement."
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> Paragraph 1 refers to 'once-settled orthodoxy' describing the classical Mendelian view of unidirectional gene flow."
       },
       {
         "id": "q19",
-        "type": "ParaJumble",
-        "question": "Rearrange the four sentences (1-4) into a logical sequence:\n\n1. These specialized algorithms identify microscopic anomalies invisible to human eyes.\n2. Medical imaging diagnostic accuracy has improved dramatically due to deep learning models.\n3. Radiologists can thus detect malignant tumors at significantly earlier stages.\n4. Consequently, patient survival rates improve when AI assists preliminary scans.",
-        "options": [
-          "A) 2 - 1 - 3 - 4",
-          "B) 1 - 2 - 4 - 3",
-          "C) 2 - 3 - 1 - 4",
-          "D) 3 - 1 - 2 - 4"
-        ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> 2 states overall improvement, 1 explains the algorithmic mechanism, 3 shows radiologist benefit, and 4 gives final patient outcome."
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. This bias persists even when individuals are explicitly warned about it in advance.\n2. Confirmation bias inclines people to seek information that corroborates prior beliefs.\n3. Consequently, polarized groups rarely converge even when exposed to identical evidence.\n4. They simultaneously discount or scrutinize disconfirming evidence far more rigorously.",
+        "answer": "2413",
+        "explanation": "<strong>Explanation:</strong> 2 introduces confirmation bias, 4 elaborates discounting disconfirming evidence, 1 adds persistence despite warnings, and 3 gives the polarization consequence."
       },
       {
         "id": "q20",
-        "type": "ParaJumble",
-        "question": "Rearrange the four sentences (1-4) into a logical sequence:\n\n1. Prolonged economic sanctions often fail to force authoritarian regimes into compliance.\n2. Instead, ruling elites consolidate power by monopolizing restricted import markets.\n3. The broader civilian population bears the economic brunt of inflation and scarcity.\n4. Far from weakening dictatorships, sanctions inadvertently impoverish ordinary citizens.",
-        "options": [
-          "A) 1 - 2 - 3 - 4",
-          "B) 2 - 1 - 4 - 3",
-          "C) 1 - 3 - 2 - 4",
-          "D) 3 - 2 - 1 - 4"
-        ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> 1 states failure of sanctions, 2 explains elite market monopoly, 3 details civilian suffering, and 4 synthesizes the paradox."
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. This asymmetry of information can precipitate a complete market collapse.\n2. Akerlof's 'market for lemons' illustrates how information asymmetry degrades market quality.\n3. Sellers know the true quality of used cars while buyers cannot distinguish good from bad.\n4. Buyers, anticipating this, rationally offer only average prices, driving quality sellers out.",
+        "answer": "2341",
+        "explanation": "<strong>Explanation:</strong> 2 introduces the lemons model, 3 explains the information gap, 4 shows buyers' rational response, and 1 concludes with potential market collapse."
       },
       {
         "id": "q21",
-        "type": "ParaSummary",
-        "question": "Select the option that best summarizes the paragraph:\n\n'The widespread adoption of generative AI tools in creative industries has sparked intense debates over intellectual property. Generative models are trained on billions of copyrighted artworks without explicit consent or compensation to human artists. While tech firms argue that model training constitutes legal 'fair use' analogous to human learning, artist syndicates maintain that commercial AI outputs undermine the economic viability of human creative labor.'",
-        "options": [
-          "A) Generative AI models are illegal because they violate traditional human artistic rights.",
-          "B) The tension between AI model training on copyrighted art and human creators centers on fair use claims versus economic disruption of creative labor.",
-          "C) Artist syndicates have successfully sued tech firms to halt generative AI development.",
-          "D) Tech companies intend to replace all commercial human artists with AI tools."
-        ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Option B objectively captures both opposing viewpoints (fair use argument vs. creative labor disruption)."
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Yet dissenting scholars argue correlation with rainfall patterns better explains the pattern.\n2. Some historians attribute the collapse of the Bronze Age civilizations to invading 'Sea Peoples'.\n3. Prolonged drought, they contend, triggered crop failures, famine, and cascading state collapse.\n4. The Sea Peoples, on this alternative account, were themselves refugees fleeing that very drought.",
+        "answer": "2134",
+        "explanation": "<strong>Explanation:</strong> 2 introduces the Sea Peoples theory, 1 introduces the dissenting drought theory, 3 elaborates the drought mechanism, and 4 reframes the Sea Peoples as drought refugees."
       },
       {
         "id": "q22",
-        "type": "ParaSummary",
-        "question": "Select the option that best summarizes the paragraph:\n\n'Metabolic flexibility—the biological capacity to alternate between burning carbohydrates and lipids based on nutrient availability—is a hallmark of cardiovascular health. Modern diets high in refined sugars cause chronic hyperinsulinemia, locking the body into carbohydrate oxidation and inhibiting fat burning. Over time, this metabolic rigidity leads to insulin resistance, visceral obesity, and metabolic syndrome.'",
-        "options": [
-          "A) Refined sugars should be banned to prevent visceral obesity in modern adults.",
-          "B) Diets high in refined sugar impair metabolic flexibility by causing insulin resistance and restricting fat oxidation.",
-          "C) Lipids are superior energy sources compared to carbohydrates for cardiovascular health.",
-          "D) Metabolic syndrome is an untreatable genetic disorder of carbohydrate oxidation."
-        ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Option B captures the cause (sugar diets), mechanism (impaired flexibility/fat oxidation restriction), and metabolic result."
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Algorithmic trading has consequently been blamed for exacerbating sudden market crashes.\n2. High-frequency trading firms exploit microsecond latency differences to capture fleeting arbitrage.\n3. This has led regulators to consider circuit breakers and minimum resting-time rules.\n4. Such rapid, automated responses can trigger cascading sell-offs within milliseconds.",
+        "answer": "2413",
+        "explanation": "<strong>Explanation:</strong> 2 introduces high-frequency trading, 4 explains cascading sell-offs, 1 states the resulting blame for crashes, and 3 gives the regulatory response."
       },
       {
         "id": "q23",
-        "type": "ParaSummary",
-        "question": "Select the option that best summarizes the paragraph:\n\n'Eschatological myths in ancient civilizations served a vital socio-psychological function. By framing cosmic destruction and renewal as inevitable natural cycles governed by divine order, ancient societies rationalized existential anxieties regarding natural disasters, plague, and war, reinforcing social cohesion during crises.'",
-        "options": [
-          "A) Ancient societies lacked scientific understanding of natural plague cycles.",
-          "B) Eschatological myths alleviated existential panic and fostered social cohesion by framing crises as divine cycles of rebirth.",
-          "C) Divine order was invented by ancient rulers to exploit peasant labor during wars.",
-          "D) Cosmic destruction myths prevented ancient civilizations from developing technological defenses."
-        ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Option B correctly summarizes the psychological purpose (rationalizing anxiety) and social outcome (cohesion)."
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. This deficit framing has increasingly been challenged by proponents of neurodiversity.\n2. Autism was historically conceptualized within medicine purely as a deficit to be corrected.\n3. Neurodiversity advocates instead frame autistic cognition as a natural variation, not a disorder.\n4. Consequently, clinical and educational practice has slowly begun emphasizing accommodation over cure.",
+        "answer": "2134",
+        "explanation": "<strong>Explanation:</strong> 2 states the historical deficit view, 1 notes the challenge to it, 3 explains the neurodiversity reframing, and 4 gives the resulting practical shift."
       },
       {
         "id": "q24",
-        "type": "ParaCompletion",
-        "question": "Complete the paragraph logically:\n\n'Smart grid infrastructure uses IoT sensors and automated load-balancing algorithms to manage electricity distribution dynamically. By predicting peak demand periods and integrating intermittent renewable sources like solar and wind, smart grids reduce energy waste. Consequently, ________.'",
+        "type": "ParaSummary",
+        "question": "Select the option that best summarizes the paragraph:\n\n'Nudge theory, popularized by Thaler and Sunstein, contends that subtle alterations to the choice architecture surrounding a decision—such as changing default enrollment options in retirement plans—can substantially influence behavior without restricting any option or altering economic incentives. Critics counter that nudges exploit cognitive biases in ways that are difficult to distinguish from manipulation, raising questions about the legitimacy of governments deploying such techniques even for ostensibly beneficial ends.'",
         "options": [
-          "A) fossil fuel power plants must immediately double their generation capacity.",
-          "B) municipal power systems achieve greater energy efficiency and grid stability.",
-          "C) consumer electricity prices will skyrocket during off-peak hours.",
-          "D) renewable energy sources become obsolete in modern urban centers."
+          "A) Nudge theory proves that governments should eliminate all consumer choice to improve welfare.",
+          "B) Altering choice architecture, such as defaults, can shift behavior without restricting options, though critics question whether this crosses into manipulation.",
+          "C) Thaler and Sunstein demonstrated that economic incentives are irrelevant to human decision-making.",
+          "D) Retirement plan enrollment has been legally mandated in most nudge-based policy reforms."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Option B logically follows the benefits of reducing energy waste and balancing loads."
+        "explanation": "<strong>Explanation:</strong> Option B captures both the mechanism (default changes shifting behavior without restricting choice) and the critical pushback about manipulation."
       },
       {
         "id": "q25",
-        "type": "ParaCompletion",
-        "question": "Complete the paragraph logically:\n\n'In political science, the 'overton window' represents the spectrum of ideas tolerated in public discourse. When political agitators push extreme ideas at the fringes, they shift the boundaries of acceptable policy. As a result, ________.'",
+        "type": "ParaSummary",
+        "question": "Select the option that best summarizes the paragraph:\n\n'The placebo effect demonstrates that expectation alone can produce measurable physiological changes, from reduced pain perception to altered immune markers, even when the administered treatment is pharmacologically inert. Paradoxically, recent studies suggest that placebos can retain some efficacy even when patients are explicitly informed they are receiving an inert substance, a phenomenon termed open-label placebo, complicating the assumption that deception is a necessary precondition for the effect.'",
         "options": [
-          "A) political discourse becomes permanently limited to moderate compromise.",
-          "B) policies previously considered radical become viewed as mainstream options.",
-          "C) public elections are automatically invalidated by constitutional courts.",
-          "D) voters reject all ideological proposals from political candidates."
+          "A) Placebos are pharmacologically active compounds disguised as inert substances.",
+          "B) Expectation-driven physiological change can occur even without deception, as shown by open-label placebo research, challenging assumptions about how placebos work.",
+          "C) Patients who are informed about receiving a placebo experience no measurable benefit whatsoever.",
+          "D) The placebo effect only operates on subjective pain reports, never on immune function."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Option B accurately defines the consequence of shifting the Overton window."
+        "explanation": "<strong>Explanation:</strong> Option B correctly captures both the expectation-driven mechanism and the open-label finding that deception is not strictly necessary."
       },
       {
         "id": "q26",
-        "type": "Vocabulary",
-        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'PERFIDIOUS':",
+        "type": "ParaSummary",
+        "question": "Select the option that best summarizes the paragraph:\n\n'Two-sided markets, such as ride-hailing platforms, derive value not from the platform's own output but from facilitating exchange between two distinct user groups whose value to each other increases with participation—a dynamic known as a network effect. This creates a formidable chicken-and-egg problem for new entrants: drivers will not join a platform lacking riders, and riders will not join one lacking drivers, often requiring substantial early subsidization to bootstrap participation on both sides simultaneously.'",
         "options": [
-          "A) Treacherous",
-          "B) Disloyal",
-          "C) Steadfast",
-          "D) Deceitful"
+          "A) Two-sided platforms succeed primarily because of superior proprietary technology rather than user base size.",
+          "B) Network effects in two-sided markets make early growth mutually dependent across both user groups, forcing new entrants to subsidize adoption to overcome the resulting chicken-and-egg problem.",
+          "C) Ride-hailing platforms generate value exclusively through algorithmic pricing optimization.",
+          "D) Chicken-and-egg problems in two-sided markets are typically resolved through government regulation."
         ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> Perfidious means untrustworthy or deceitful. Steadfast (loyal/constant) is its direct antonym."
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> Option B captures the network effect dynamic and the resulting need for subsidization to bootstrap both sides of the market."
       },
       {
         "id": "q27",
-        "type": "Vocabulary",
-        "question": "Select the word MOST NEARLY SIMILAR in meaning to 'PUSILLANIMOUS':",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\n'Carbon pricing mechanisms, whether implemented as a direct tax or a cap-and-trade system, aim to internalize the negative externality of greenhouse gas emissions by attaching an explicit cost to carbon output. Economic theory predicts that once emitters must bear this cost, ________.'",
         "options": [
-          "A) Courageous",
-          "B) Timid",
-          "C) Magnanimous",
-          "D) Audacious"
+          "A) government revenue from all forms of taxation will decline uniformly.",
+          "B) firms will have a market incentive to reduce emissions or invest in cleaner alternatives.",
+          "C) global temperatures will immediately stabilize regardless of policy design.",
+          "D) emissions will rise since firms will pass all costs directly to consumers."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Pusillanimous means lacking courage or determination (timid/cowardly)."
+        "explanation": "<strong>Explanation:</strong> Internalizing the externality creates a market incentive for emitters to reduce emissions or invest in cleaner alternatives, following standard economic theory."
       },
       {
         "id": "q28",
-        "type": "Vocabulary",
-        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'ALACRITY':",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\n'The strong version of the Sapir-Whorf hypothesis holds that language does not merely describe thought but fundamentally constrains and determines it, such that speakers of structurally different languages would be incapable of comprehending certain concepts absent in their native tongue. Contemporary linguists have largely rejected this strong determinist claim in favor of a weaker formulation, arguing instead that ________.'",
         "options": [
-          "A) Eagerness",
-          "B) Promptness",
-          "C) Lethargy",
-          "D) Zeal"
+          "A) language has no measurable influence on cognition or perception whatsoever.",
+          "B) language may subtly influence habitual patterns of attention and categorization without rendering other concepts wholly unthinkable.",
+          "C) all human languages are structurally identical at a deep grammatical level.",
+          "D) only bilingual speakers are capable of abstract reasoning."
         ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> Alacrity means brisk and cheerful readiness. Lethargy is its antonym."
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> The weaker formulation of linguistic relativity holds that language subtly influences cognitive habits without making other concepts entirely unthinkable."
       },
       {
         "id": "q29",
         "type": "Vocabulary",
-        "question": "Select the word MOST NEARLY SIMILAR in meaning to 'INTRANSIGENT':",
+        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'OBSEQUIOUS':",
         "options": [
-          "A) Flexible",
-          "B) Obstinate",
-          "C) Compliant",
-          "D) Irresolute"
+          "A) Servile",
+          "B) Sycophantic",
+          "C) Defiant",
+          "D) Fawning"
         ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Intransigent means refusing to compromise or change one's views (stubborn/obstinate)."
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> Obsequious means excessively obedient or attentive in a servile way. Defiant, meaning boldly resistant, is its antonym."
       },
       {
         "id": "q30",
         "type": "Vocabulary",
-        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'PERNICIOUS':",
+        "question": "Select the word MOST NEARLY SIMILAR in meaning to 'RECONDITE':",
         "options": [
-          "A) Harmful",
-          "B) Beneficial",
-          "C) Insidious",
-          "D) Malevolent"
+          "A) Lucid",
+          "B) Abstruse",
+          "C) Mundane",
+          "D) Garrulous"
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Pernicious means having a subtle, highly harmful effect. Beneficial is its opposite."
+        "explanation": "<strong>Explanation:</strong> Recondite means difficult to understand or obscure; abstruse carries the same meaning."
       },
       {
         "id": "q31",
         "type": "Vocabulary",
-        "question": "Choose the correct word to fill in the blank:\n'The judge praised the witness for her ________ account of the events, which provided absolute clarity to the trial.'",
+        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'PROFLIGATE':",
         "options": [
-          "A) Lucent",
-          "B) Luminous",
-          "C) Perspicuous",
-          "D) Opaque"
+          "A) Wasteful",
+          "B) Extravagant",
+          "C) Frugal",
+          "D) Dissolute"
         ],
         "answer": 2,
-        "explanation": "<strong>Explanation:</strong> 'Perspicuous' means clearly expressed and easily understood (applied to statements/accounts)."
+        "explanation": "<strong>Explanation:</strong> Profligate means recklessly wasteful or extravagant. Frugal, meaning economical and sparing, is its antonym."
       },
       {
         "id": "q32",
         "type": "Vocabulary",
-        "question": "Choose the correct word to fill in the blank:\n'The diplomat's ________ remarks managed to soothe both opposing factions without committing to any binding terms.'",
+        "question": "Select the word MOST NEARLY SIMILAR in meaning to 'MENDACIOUS':",
         "options": [
-          "A) Inflammatory",
-          "B) Conciliatory",
-          "C) Belligerent",
-          "D) Dogmatic"
+          "A) Truthful",
+          "B) Untruthful",
+          "C) Verbose",
+          "D) Reticent"
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> 'Conciliatory' means intended or likely to placate or pacify."
+        "explanation": "<strong>Explanation:</strong> Mendacious means given to lying or untruthfulness."
       },
       {
         "id": "q33",
         "type": "Vocabulary",
-        "question": "Choose the correct idiom meaning:\n'To steal someone's thunder' means to:",
+        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'SALUBRIOUS':",
         "options": [
-          "A) Rob someone of physical assets during a storm.",
-          "B) Preempt someone's ideas or achievements to gain praise for oneself.",
-          "C) Cause severe disturbance in a corporate meeting.",
-          "D) Assist someone secretly without taking credit."
+          "A) Wholesome",
+          "B) Beneficial",
+          "C) Noxious",
+          "D) Invigorating"
         ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> 'To steal someone's thunder' means to take credit for or preempt another person's ideas or accomplishments."
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> Salubrious means favorable to health or well-being. Noxious, meaning harmful, is its antonym."
       },
       {
         "id": "q34",
         "type": "Vocabulary",
-        "question": "Select the sentence where the word 'FASTIDIOUS' is used correctly:",
+        "question": "Choose the correct word to fill in the blank:\n'The professor's ________ lecturing style, dense with obscure references, left most undergraduates thoroughly baffled.'",
         "options": [
-          "A) The fastidious runner finished the marathon in record time.",
-          "B) She was fastidious about maintaining absolute cleanliness in the surgical suite.",
-          "C) The fastidious rainstorm caused severe flooding across the valley.",
-          "D) He made a fastidious choice to ignore all financial advice."
+          "A) Perspicuous",
+          "B) Recondite",
+          "C) Loquacious",
+          "D) Affable"
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> 'Fastidious' means very attentive to and concerned about accuracy and detail."
+        "explanation": "<strong>Explanation:</strong> 'Recondite' means obscure or hard to understand, fitting a style that baffles students."
       },
       {
         "id": "q35",
         "type": "Vocabulary",
-        "question": "Choose the correct phrasal verb to fill in the blank:\n'The company had to ________ its expansion plans after interest rates rose sharply.'", "options": [
-          "A) Scale back",
-          "B) Branch out",
-          "C) Press ahead",
-          "D) Pass off"
+        "question": "Choose the correct word to fill in the blank:\n'Despite overwhelming evidence against his position, the senator remained ________, refusing to alter a single clause of his proposal.'",
+        "options": [
+          "A) Amenable",
+          "B) Intransigent",
+          "C) Vacillating",
+          "D) Malleable"
         ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> 'Scale back' means to reduce the size, amount, or extent of something."
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> 'Intransigent' means refusing to compromise, matching the senator's refusal to change his proposal."
       },
       {
         "id": "q36",
-        "type": "Grammar",
-        "question": "Identify the sentence with the CORRECT grammatical structure:",
+        "type": "Vocabulary",
+        "question": "Choose the correct idiom meaning:\n'To throw down the gauntlet' means to:",
         "options": [
-          "A) Neither the CEO nor the board members was willing to sign the agreement.",
-          "B) Neither the CEO nor the board members were willing to sign the agreement.",
-          "C) Neither the CEO or the board members was willing to sign the agreement.",
-          "D) Neither the CEO nor the board members has been willing to sign the agreement."
+          "A) Surrender unconditionally in a dispute.",
+          "B) Issue a formal challenge to someone.",
+          "C) Retreat quietly from a confrontation.",
+          "D) Apologize sincerely for a past wrong."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Under 'neither...nor', the verb agrees with the plural subject closer to it ('board members' -> 'were')."
+        "explanation": "<strong>Explanation:</strong> 'To throw down the gauntlet' means to issue a formal challenge."
       },
       {
         "id": "q37",
-        "type": "Grammar",
-        "question": "Spot the error in the following sentence:\n'Not only the director (A) / but also the lead actors (B) / was honored at (C) / the international film festival (D).'",
+        "type": "Vocabulary",
+        "question": "Select the sentence where the word 'ASSIDUOUS' is used correctly:",
         "options": [
-          "A) Not only the director",
-          "B) but also the lead actors",
-          "C) was honored at",
-          "D) the international film festival"
+          "A) The assiduous storm battered the coastline for three days.",
+          "B) Her assiduous attention to every clinical trial detail earned the researcher's trust.",
+          "C) He gave an assiduous shrug and walked away without explanation.",
+          "D) The assiduous river flooded the valley unexpectedly."
         ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> Subject closest to verb is plural ('lead actors'), requiring plural verb 'were honored'."
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> 'Assiduous' means showing great care and perseverance, correctly describing careful attention to detail."
       },
       {
         "id": "q38",
         "type": "Grammar",
-        "question": "Choose the grammatically correct sentence:",
+        "question": "Choose the correct option to fill in the blank:\n'Each of the proposals, along with their respective budget projections, ________ been submitted for review.'",
         "options": [
-          "A) No sooner had the bell rung when the students exited the auditorium.",
-          "B) No sooner had the bell rung than the students exited the auditorium.",
-          "C) No sooner the bell had rung than the students exited the auditorium.",
-          "D) No sooner had the bell rung then the students exited the auditorium."
+          "A) have",
+          "B) has",
+          "C) were",
+          "D) are"
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> 'No sooner' takes 'than' (not 'when' or 'then') and requires subject-verb inversion ('had the bell rung')."
+        "explanation": "<strong>Explanation:</strong> 'Each' takes a singular verb regardless of the intervening phrase, so 'has' is correct."
       },
       {
         "id": "q39",
         "type": "Grammar",
-        "question": "Choose the correct option to fill in the blank:\n'Had the research team verified the data earlier, the critical calculation error ________.'",
+        "question": "Spot the error in the following sentence:\n'The committee (A) / have decided (B) / to postpone its (C) / annual general meeting (D).'",
         "options": [
-          "A) Would be prevented",
-          "B) Would have been prevented",
-          "C) Will have been prevented",
-          "D) Was prevented"
+          "A) The committee",
+          "B) have decided",
+          "C) to postpone its",
+          "D) annual general meeting"
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Inverted third conditional requires 'Had + past participle... would have been + past participle'."
+        "explanation": "<strong>Explanation:</strong> 'Committee' is treated as a singular collective noun here (consistent with 'its'), so it should be 'has decided'."
       },
       {
         "id": "q40",
         "type": "Grammar",
-        "question": "Identify the grammatically INCORRECT sentence:",
+        "question": "Choose the grammatically correct sentence:",
         "options": [
-          "A) One of the main reasons for his success is his discipline.",
-          "B) He is one of those researchers who has published in Nature.",
-          "C) Neither of the options seems feasible at this point.",
-          "D) The news regarding the market recovery was encouraging."
+          "A) Scarcely had the results been announced than the stock price plummeted.",
+          "B) Scarcely had the results been announced when the stock price plummeted.",
+          "C) Scarcely the results had been announced when the stock price plummeted.",
+          "D) Scarcely had the results announced when the stock price plummeted."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Relative pronoun 'who' refers to plural noun 'researchers', requiring plural verb 'have published'."
+        "explanation": "<strong>Explanation:</strong> 'Scarcely' pairs with 'when' (not 'than') and requires subject-verb inversion: 'had the results been announced'."
       },
       {
         "id": "q41",
         "type": "Grammar",
-        "question": "Choose the correct preposition to fill in the blank:\n'The new regulations are not compatible ________ our existing software architecture.'",
+        "question": "Choose the correct option to fill in the blank:\n'Were the central bank to raise rates further, inflation ________ moderate within two quarters.'",
         "options": [
-          "A) To",
-          "B) With",
-          "C) For",
-          "D) At"
+          "A) will",
+          "B) would",
+          "C) had",
+          "D) has"
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> The adjective 'compatible' pairs with the preposition 'with'."
+        "explanation": "<strong>Explanation:</strong> The inverted conditional 'Were the central bank to raise' requires 'would' in the main clause."
       },
       {
         "id": "q42",
         "type": "Grammar",
-        "question": "Identify the sentence with CORRECT modifier placement:",
+        "question": "Identify the grammatically INCORRECT sentence:",
         "options": [
-          "A) Having finished the exam, the room was exited by the students.",
-          "B) Having finished the exam, the students exited the room.",
-          "C) While finishing the exam, the clock struck noon for the students.",
-          "D) Having finished the exam, a sigh of relief was breathed by the students."
+          "A) Each of the candidates has submitted their application on time.",
+          "B) Neither of the two proposals was found to be feasible.",
+          "C) The data, though preliminary, suggest a strong correlation.",
+          "D) A number of employees was absent due to the strike."
         ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Option B correctly places the subject ('the students') who finished the exam immediately after the introductory participial phrase."
+        "answer": 3,
+        "explanation": "<strong>Explanation:</strong> 'A number of' takes a plural verb ('were'), so 'was absent' is incorrect; it should be 'were absent'."
       },
       {
         "id": "q43",
         "type": "Grammar",
-        "question": "Select the correct active/passive transformation:\n'The central bank is increasing interest rates to curb inflation.'",
+        "question": "Choose the correct preposition to fill in the blank:\n'The findings of the study are largely consistent ________ earlier research on the topic.'",
         "options": [
-          "A) Interest rates were increased by the central bank to curb inflation.",
-          "B) Interest rates are being increased by the central bank to curb inflation.",
-          "C) Interest rates have been increased by the central bank to curb inflation.",
-          "D) Interest rates are increased by the central bank to curb inflation."
+          "A) to",
+          "B) with",
+          "C) for",
+          "D) at"
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Present continuous 'is increasing' transforms into 'are being increased' in passive voice."
+        "explanation": "<strong>Explanation:</strong> 'Consistent' correctly pairs with the preposition 'with'."
       },
       {
         "id": "q44",
         "type": "Grammar",
-        "question": "Spot the error in the sentence:\n'Although he worked hard (A) / but he could not (B) / clear the cut-off (C) / for the interview (D).'",
+        "question": "Identify the sentence with CORRECT modifier placement:",
         "options": [
-          "A) Although he worked hard",
-          "B) but he could not",
-          "C) clear the cut-off",
-          "D) for the interview"
+          "A) Having reviewed the contract thoroughly, several errors were found by the lawyer.",
+          "B) Having reviewed the contract thoroughly, the lawyer found several errors.",
+          "C) The lawyer, the contract having reviewed thoroughly, found several errors.",
+          "D) Several errors, having reviewed the contract thoroughly, were found by the lawyer."
         ],
         "answer": 1,
-        "explanation": "<strong>Explanation:</strong> 'Although' and 'but' cannot be used together in the same sentence; remove 'but'."
+        "explanation": "<strong>Explanation:</strong> Option B correctly places 'the lawyer', the one who reviewed the contract, immediately after the introductory participial phrase."
       },
       {
         "id": "q45",
         "type": "Grammar",
-        "question": "Choose the grammatically correct sentence:",
+        "question": "Spot the error in the sentence:\n'Hardly he had entered the room (A) / when the lights (B) / suddenly went out (C) / without warning (D).'",
         "options": [
-          "A) Either of the two candidates are qualified for the position.",
-          "B) Either of the two candidates is qualified for the position.",
-          "C) Either of the two candidates were qualified for the position.",
-          "D) Either of the two candidates have been qualified for the position."
+          "A) Hardly he had entered the room",
+          "B) when the lights",
+          "C) suddenly went out",
+          "D) without warning"
         ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> 'Either' selecting between two singular choices requires singular verb 'is'."
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> 'Hardly' requires subject-verb inversion: it should read 'Hardly had he entered the room'."
       }
     ]
   }
