@@ -218,6 +218,61 @@
             color: var(--status-wrong);
         }
 
+        /* 🚀 QUESTION PALETTE GRID STYLES */
+        .q-palette-container {
+            margin-top: 20px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border-light);
+        }
+        .q-palette-title {
+            font-size: 0.78rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .q-palette-grid {
+            display: grid;
+            grid-template-columns: repeat(9, 1fr);
+            gap: 6px;
+            max-height: 180px;
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+        .q-grid-btn {
+            aspect-ratio: 1;
+            border-radius: 6px;
+            border: 1px solid var(--border-light);
+            background: var(--bg-subtle);
+            color: var(--text-body);
+            font-size: 0.76rem;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.15s ease;
+        }
+        .q-grid-btn:hover {
+            border-color: var(--green-primary);
+            background: var(--green-bg);
+            color: var(--green-hover);
+        }
+        .q-grid-btn.active-q {
+            border-color: var(--green-hover) !important;
+            box-shadow: 0 0 0 2px var(--green-hover);
+            font-weight: 800;
+        }
+        .q-grid-btn.attempted {
+            background: var(--green-hover) !important;
+            color: #ffffff !important;
+            border-color: var(--green-hover) !important;
+        }
+
         .explanation-box { display: none; margin-top: 18px; padding: 18px; background: var(--green-bg); border-left: 4px solid var(--green-hover); border-radius: 8px; font-size: 0.9rem; line-height: 1.7; color: #064e3b; box-shadow: 0 2px 8px rgba(16, 185, 129, 0.08); }
 
         .submit-btn { width: 100%; background: var(--green-hover); color: #ffffff; border: none; padding: 13px; border-radius: 10px; font-weight: 800; font-size: 0.95rem; cursor: pointer; margin-top: 20px; transition: all 0.2s ease; box-shadow: 0 4px 14px rgba(4, 120, 87, 0.25); }
@@ -593,7 +648,7 @@
                     </div>
                 </div>`;
 
-            // CHECK IF QUESTION IS TITA (Type In The Answer)
+            // CHECK IF QUESTION IS TITA
             const isTITA = q.type && q.type.toUpperCase().includes("TITA") || !q.options;
 
             let inputOptionsHtml = "";
@@ -633,6 +688,31 @@
                 }).join('');
             }
 
+            // 🚀 RENDER QUESTION PALETTE GRID (1 to 45)
+            let attemptedCount = 0;
+            const gridBtnsHtml = qList.map((item, idx) => {
+                const ans = sectionalUserAnswers[idx];
+                const isAttempted = ans !== undefined && ans !== "";
+                if (isAttempted) attemptedCount++;
+
+                let btnClass = "q-grid-btn";
+                if (idx === secCurrentQIndex) btnClass += " active-q";
+                if (isAttempted) btnClass += " attempted";
+
+                return `<button class="${btnClass}" onclick="jumpToSectionalQ(${idx})">${idx + 1}</button>`;
+            }).join('');
+
+            const paletteGridHtml = `
+                <div class="q-palette-container">
+                    <div class="q-palette-title">
+                        <span>Question Palette Grid</span>
+                        <span style="color:var(--green-hover); font-weight:800;">${attemptedCount}/${qList.length} Attempted</span>
+                    </div>
+                    <div class="q-palette-grid">
+                        ${gridBtnsHtml}
+                    </div>
+                </div>`;
+
             const expHtml = `<div id="sec-q-explanation" class="explanation-box" style="display:${isSectionalSubmitted ? 'block' : 'none'}">${q.explanation || ''}</div>`;
 
             const navBtnsHtml = `
@@ -654,6 +734,7 @@
                             ${timerHeaderHtml}
                             <div id="sec-q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1rem; line-height: 1.6;">${q.question}</div>
                             <div id="sec-q-options">${inputOptionsHtml}</div>
+                            ${paletteGridHtml}
                             ${expHtml}
                             ${navBtnsHtml}
                         </div>
@@ -665,6 +746,7 @@
                         ${timerHeaderHtml}
                         <div id="sec-q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1.05rem; white-space: pre-line; line-height: 1.7;">${q.question}</div>
                         <div id="sec-q-options">${inputOptionsHtml}</div>
+                        ${paletteGridHtml}
                         ${expHtml}
                         ${navBtnsHtml}
                     </div>`;
@@ -679,12 +761,28 @@
         function handleTITAInput(val) {
             if (isSectionalSubmitted) return;
             sectionalUserAnswers[secCurrentQIndex] = val.trim();
+            // Refresh palette button active status on input
+            const gridBtns = document.querySelectorAll('.q-grid-btn');
+            if (gridBtns[secCurrentQIndex]) {
+                if (val.trim() !== "") {
+                    gridBtns[secCurrentQIndex].classList.add('attempted');
+                } else {
+                    gridBtns[secCurrentQIndex].classList.remove('attempted');
+                }
+            }
         }
 
         function selectSectionalOpt(idx) {
             if (isSectionalSubmitted) return;
             sectionalUserAnswers[secCurrentQIndex] = idx;
             renderSectionalQuestion();
+        }
+
+        function jumpToSectionalQ(index) {
+            if (index >= 0 && index < todaySectional.questions.length) {
+                secCurrentQIndex = index;
+                renderSectionalQuestion();
+            }
         }
 
         function navSectionalQ(dir) {
@@ -711,14 +809,12 @@
                 if (userAns === undefined || userAns === "") {
                     unattempted++;
                 } else if (isTITA) {
-                    // STRING MATCH FOR TITA
                     if (String(userAns).trim() === String(q.answer).trim()) {
                         correct++;
                     } else {
                         incorrect++;
                     }
                 } else {
-                    // INDEX MATCH FOR MCQ
                     if (userAns === q.answer) {
                         correct++;
                     } else {
