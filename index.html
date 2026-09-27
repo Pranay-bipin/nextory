@@ -188,6 +188,36 @@
         .opt-btn.correct { background: #f0fdf4 !important; border-color: var(--status-correct) !important; color: var(--status-correct) !important; font-weight: 700; }
         .opt-btn.wrong { background: #fef2f2 !important; border-color: var(--status-wrong) !important; color: var(--status-wrong) !important; font-weight: 700; }
 
+        /* TITA INPUT UI STYLES */
+        .tita-input-box {
+            width: 100%;
+            padding: 14px 18px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            color: var(--text-heading);
+            background: #ffffff;
+            border: 2px solid var(--border-light);
+            border-radius: 10px;
+            margin-top: 12px;
+            outline: none;
+            transition: all 0.2s ease;
+        }
+        .tita-input-box:focus {
+            border-color: var(--green-hover);
+            box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15);
+        }
+        .tita-input-box.correct-input {
+            border-color: var(--status-correct);
+            background: #f0fdf4;
+            color: var(--status-correct);
+        }
+        .tita-input-box.wrong-input {
+            border-color: var(--status-wrong);
+            background: #fef2f2;
+            color: var(--status-wrong);
+        }
+
         .explanation-box { display: none; margin-top: 18px; padding: 18px; background: var(--green-bg); border-left: 4px solid var(--green-hover); border-radius: 8px; font-size: 0.9rem; line-height: 1.7; color: #064e3b; box-shadow: 0 2px 8px rgba(16, 185, 129, 0.08); }
 
         .submit-btn { width: 100%; background: var(--green-hover); color: #ffffff; border: none; padding: 13px; border-radius: 10px; font-weight: 800; font-size: 0.95rem; cursor: pointer; margin-top: 20px; transition: all 0.2s ease; box-shadow: 0 4px 14px rgba(4, 120, 87, 0.25); }
@@ -443,7 +473,6 @@
                 
                 if (sectionals && sectionals.length > 0) {
                     const todayStr = getLocalDateString();
-                    // AUTO FIX: Always load valid sectional even if system date differs!
                     todaySectional = sectionals.find(s => s.date === todayStr) || sectionals[sectionals.length - 1];
                     renderSectionalBanner();
                 } else {
@@ -564,17 +593,45 @@
                     </div>
                 </div>`;
 
-            const optionsHtml = q.options.map((opt, idx) => {
-                let btnClass = "opt-btn";
-                if (sectionalUserAnswers[secCurrentQIndex] === idx) btnClass += " selected";
+            // CHECK IF QUESTION IS TITA (Type In The Answer)
+            const isTITA = q.type && q.type.toUpperCase().includes("TITA") || !q.options;
+
+            let inputOptionsHtml = "";
+
+            if (isTITA) {
+                const currentVal = sectionalUserAnswers[secCurrentQIndex] || "";
+                let inputClass = "tita-input-box";
 
                 if (isSectionalSubmitted) {
-                    if (idx === q.answer) btnClass += " correct";
-                    else if (sectionalUserAnswers[secCurrentQIndex] === idx) btnClass += " wrong";
+                    const cleanUserAns = String(currentVal).trim();
+                    const cleanCorrectAns = String(q.answer).trim();
+                    if (cleanUserAns === cleanCorrectAns) {
+                        inputClass += " correct-input";
+                    } else {
+                        inputClass += " wrong-input";
+                    }
                 }
 
-                return `<button class="${btnClass}" onclick="selectSectionalOpt(${idx})">${opt}</button>`;
-            }).join('');
+                inputOptionsHtml = `
+                    <div style="margin-top: 15px;">
+                        <label style="font-weight: 700; font-size: 0.88rem; color: var(--text-muted); display: block; margin-bottom: 6px;">Type Your Answer Below (e.g. 2413):</label>
+                        <input type="text" class="${inputClass}" id="tita-field-${secCurrentQIndex}" value="${currentVal}" placeholder="Type answer here..." ${isSectionalSubmitted ? 'disabled' : ''} oninput="handleTITAInput(this.value)">
+                        ${isSectionalSubmitted ? `<div style="margin-top: 8px; font-weight: 800; color: var(--status-correct);">Correct Answer: ${q.answer}</div>` : ''}
+                    </div>`;
+            } else {
+                // REGULAR MCQ RENDER
+                inputOptionsHtml = q.options.map((opt, idx) => {
+                    let btnClass = "opt-btn";
+                    if (sectionalUserAnswers[secCurrentQIndex] === idx) btnClass += " selected";
+
+                    if (isSectionalSubmitted) {
+                        if (idx === q.answer) btnClass += " correct";
+                        else if (sectionalUserAnswers[secCurrentQIndex] === idx) btnClass += " wrong";
+                    }
+
+                    return `<button class="${btnClass}" onclick="selectSectionalOpt(${idx})">${opt}</button>`;
+                }).join('');
+            }
 
             const expHtml = `<div id="sec-q-explanation" class="explanation-box" style="display:${isSectionalSubmitted ? 'block' : 'none'}">${q.explanation || ''}</div>`;
 
@@ -596,7 +653,7 @@
                         <div class="question-card">
                             ${timerHeaderHtml}
                             <div id="sec-q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1rem; line-height: 1.6;">${q.question}</div>
-                            <div id="sec-q-options">${optionsHtml}</div>
+                            <div id="sec-q-options">${inputOptionsHtml}</div>
                             ${expHtml}
                             ${navBtnsHtml}
                         </div>
@@ -607,7 +664,7 @@
                     <div class="question-card">
                         ${timerHeaderHtml}
                         <div id="sec-q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1.05rem; white-space: pre-line; line-height: 1.7;">${q.question}</div>
-                        <div id="sec-q-options">${optionsHtml}</div>
+                        <div id="sec-q-options">${inputOptionsHtml}</div>
                         ${expHtml}
                         ${navBtnsHtml}
                     </div>`;
@@ -617,6 +674,11 @@
             const secs = (sectionalSeconds % 60).toString().padStart(2, '0');
             const display = document.getElementById('sec-timer-display');
             if (display) display.innerText = `⏱️ ${mins}:${secs}`;
+        }
+
+        function handleTITAInput(val) {
+            if (isSectionalSubmitted) return;
+            sectionalUserAnswers[secCurrentQIndex] = val.trim();
         }
 
         function selectSectionalOpt(idx) {
@@ -643,12 +705,25 @@
             let correct = 0, incorrect = 0, unattempted = 0;
 
             qList.forEach((q, idx) => {
-                if (sectionalUserAnswers[idx] === undefined) {
+                const userAns = sectionalUserAnswers[idx];
+                const isTITA = q.type && q.type.toUpperCase().includes("TITA") || !q.options;
+
+                if (userAns === undefined || userAns === "") {
                     unattempted++;
-                } else if (sectionalUserAnswers[idx] === q.answer) {
-                    correct++;
+                } else if (isTITA) {
+                    // STRING MATCH FOR TITA
+                    if (String(userAns).trim() === String(q.answer).trim()) {
+                        correct++;
+                    } else {
+                        incorrect++;
+                    }
                 } else {
-                    incorrect++;
+                    // INDEX MATCH FOR MCQ
+                    if (userAns === q.answer) {
+                        correct++;
+                    } else {
+                        incorrect++;
+                    }
                 }
             });
 
