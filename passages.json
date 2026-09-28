@@ -2410,5 +2410,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The astronomical-waste argument depends on the claim that present action can meaningfully change whether the vast future civilization comes into existence at all; if extinction were near-certain regardless of intervention, the entire expected-value calculation underlying the argument would collapse, since the 'forgone civilizations' would not actually be at stake.<br><br>• <strong>Why Option A is Wrong:</strong> This strengthens the case for near-term welfare spending but does not address or undermine the future-oriented probability logic of the astronomical-waste argument itself.<br>• <strong>Why Option C is Wrong:</strong> Increased funding is a described consequence of the doctrine's popularity, not a fact that logically weakens its core premise.<br>• <strong>Why Option D is Wrong:</strong> A revised star count is an irrelevant numerical detail that does not touch the argument's structural dependence on humanity's ability to influence extinction risk."
       }
     ]
+  },
+  {
+    "id": "rc-2026-09-29",
+    "date": "2026-09-29",
+    "title": "Export Controls, Frontier AI, and the Politics of Technological Sovereignty",
+    "genre": "Technology Policy & International Political Economy",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1046 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "Pernicious",
+          "type": "adj",
+          "def": "Having a harmful effect, especially in a gradual or subtle way.",
+          "ex": "The pernicious effects of misinformation spread quietly through the electorate."
+        },
+        {
+          "word": "Ostensible",
+          "type": "adj",
+          "def": "Apparent or stated, but not necessarily true or real.",
+          "ex": "The ostensible aim of the policy was security; its real effect was protection of domestic firms."
+        },
+        {
+          "word": "Nascent",
+          "type": "adj",
+          "def": "Just coming into existence and beginning to display signs of future potential.",
+          "ex": "Nascent domestic chip industries received heavy state subsidies."
+        },
+        {
+          "word": "Countervailing",
+          "type": "adj",
+          "def": "Offsetting or balancing something by exerting an opposite force or effect.",
+          "ex": "Countervailing pressure from exporters softened the proposed ban."
+        },
+        {
+          "word": "Fungible",
+          "type": "adj",
+          "def": "Able to be replaced by another identical item; mutually interchangeable.",
+          "ex": "Wheat is fungible; a frontier AI model is not."
+        },
+        {
+          "word": "Prescient",
+          "type": "adj",
+          "def": "Having or showing knowledge of events before they take place.",
+          "ex": "Her prescient warning about supply-chain dependence proved correct."
+        },
+        {
+          "word": "Attenuate",
+          "type": "verb",
+          "def": "To reduce the force, effect or value of something.",
+          "ex": "Diversifying suppliers helps attenuate geopolitical risk."
+        },
+        {
+          "word": "Salutary",
+          "type": "adj",
+          "def": "Beneficial, especially in producing good effects even if unpleasant.",
+          "ex": "The crisis was a salutary reminder of hidden dependencies."
+        },
+        {
+          "word": "Intractable",
+          "type": "adj",
+          "def": "Hard to control, manage or solve.",
+          "ex": "The dispute over subsidies remained intractable after three rounds of talks."
+        },
+        {
+          "word": "Equivocate",
+          "type": "verb",
+          "def": "To use ambiguous language so as to conceal the truth or avoid committing oneself.",
+          "ex": "The minister continued to equivocate on whether the controls would be extended."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "A fly in the ointment",
+          "def": "A minor drawback that spoils something otherwise good.",
+          "ex": "The only fly in the ointment was the uncertainty over licensing."
+        },
+        {
+          "idiom": "Hoist with one's own petard",
+          "def": "Harmed by the very device or plan one intended to use against others.",
+          "ex": "The state was hoist with its own petard when its restrictions pushed rivals to build alternatives."
+        },
+        {
+          "idiom": "Walk a tightrope",
+          "def": "To be in a situation requiring very careful balance between opposing demands.",
+          "ex": "Regulators must walk a tightrope between security and innovation."
+        },
+        {
+          "idiom": "Pull the rug out from under (someone)",
+          "def": "To suddenly withdraw support or aid, leaving a person in a vulnerable position.",
+          "ex": "The sudden suspension pulled the rug out from under customers who relied on the service."
+        },
+        {
+          "idiom": "Cross the Rubicon",
+          "def": "To take an irrevocable step that commits one to a course of action.",
+          "ex": "By nationalising the supplier, the government had crossed the Rubicon."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Bear out",
+          "def": "To confirm or support the truth of a claim.",
+          "ex": "Subsequent events bore out the critics' warning."
+        },
+        {
+          "verb": "Crack down on",
+          "def": "To take severe measures against illegal or undesirable behaviour.",
+          "ex": "Regulators cracked down on unlicensed exports."
+        },
+        {
+          "verb": "Water down",
+          "def": "To make something weaker or less forceful by modifying it.",
+          "ex": "Industry lobbying watered down the original proposal."
+        },
+        {
+          "verb": "Pan out",
+          "def": "To develop or turn out in a particular way.",
+          "ex": "The strategy did not pan out as planners had hoped."
+        },
+        {
+          "verb": "Hold out",
+          "def": "To continue to resist or to endure despite pressure.",
+          "ex": "The firm held out against pressure to relocate its data centres."
+        }
+      ]
+    },
+    "passage": "Export controls have historically been instruments for regulating things that can be counted, crated and inspected: centrifuges, machine tools, munitions. The Cold War regime coordinated through COCOM, and its successors such as the Wassenaar Arrangement, rested on a quiet premise, namely that the strategic value of a controlled technology resides in the artefact, so that interdicting its physical movement across a border is tantamount to interdicting the capability itself. Frontier artificial intelligence strains this premise almost to breaking point. A trained model is, physically, nothing more than a very large file of numerical weights, which can be copied at negligible cost and transmitted anywhere a network reaches. Yet its creation depends on inputs that are scarce, expensive and conspicuous: advanced semiconductors fabricated by a handful of firms, enormous quantities of electricity, and a small pool of specialist engineers. Control is therefore possible, but only at particular chokepoints, and policymakers have had to decide which of these to seize: the hardware on which models are trained, the weights that embody them, or the access through which they are used.\n\nSince 2022, the United States has concentrated principally on the first chokepoint, restricting the sale of the most advanced chips and of the machinery used to make them. The rationale is one of denial and delay: if a rival cannot obtain the hardware, it cannot train comparable systems, or can do so only more slowly and at greater cost. Critics advance two objections. The first is that controls create precisely the incentive they are meant to remove: a state denied imports has every reason to subsidise domestic substitutes and to seek algorithmic efficiencies that economise on scarce hardware, so that restriction may hasten the self-reliance it seeks to prevent. The second is leakage, since chips diverted through third countries can undercut the whole design. Defenders reply that the objective was never permanent exclusion, and that in a competition where lead times matter, a delay of even a few months is itself a strategic gain.\n\nThe second chokepoint, the model weights, poses different difficulties. Unlike a chip, weights can be stolen, leaked or approximated through distillation, whereby a weaker model is trained on the outputs of a stronger one. A regime that guards the file but leaves the outputs freely queryable therefore controls less than it appears to; a regime that restricts queries, on the other hand, sacrifices the commercial openness on which the developers' revenues depend. The design problem is thus not simply how tightly to control but where, because every tightening at one point shifts pressure to another.\n\nMore recently, the locus of control has drifted up the stack, from hardware towards access. When, in June 2026, access to a pair of frontier models was suspended for under three weeks to comply with American export-control rules, and then restored once the controls were lifted, the episode illustrated something novel. A shipped machine, once delivered, cannot be recalled; a service can be withdrawn overnight from customers in dozens of jurisdictions, and reinstated just as quickly. Control over access is therefore continuous rather than one-off, and reversible rather than final. That reversibility makes it a more flexible instrument, but it also means that every customer's dependence is conditional on the policy of a third state. The restoration of service, far from dissolving the concern, arguably confirmed it: what had been demonstrated was not that the risk was small, but that it could be switched on and off at someone else's discretion.\n\nTwo rival prescriptions have emerged. The first, often described as sovereigntist, urges states to build domestic models and compute capacity and to treat them as infrastructure akin to a power grid. The difficulty is that the economics of frontier training favour concentration; a dozen national champions, each sub-scale and each dependent on imported chips, may deliver a sovereignty that is ostensible rather than real. The second, the interdependence view, holds that entanglement restrains weaponisation, much as commercial ties are said to have restrained great-power conflict. Yet this reasoning has a hidden condition. Mutual dependence deters only when each side stands to lose comparably from a rupture; where one party is the supplier and the other merely a customer, interdependence is a euphemism for exposure, and the party that can afford to withdraw is the one least deterred.\n\nA further complication concerns the firms that operate the systems. Private developers are in effect the executors of public policy: they bear the commercial cost of compliance in lost revenue and eroded customer trust, but exercise no vote over the decisions that impose it. Foreign buyers, for their part, may respond by pricing in a regulatory risk premium, and some will conclude that a dependable but inferior local model is preferable to a superior one that might vanish. The perverse result is that measures which achieve a narrow security objective may lower the global market share of the very firms whose revenues finance the research on which security itself depends. Whether that constitutes a cost depends on how one ranks security against commercial leadership, and the two are not obviously separable. Nor is the problem purely commercial: governments and hospitals that embed foreign-hosted models in critical workflows acquire, without ever intending to, a supply-chain vulnerability of the kind that energy importers once discovered during oil embargoes.\n\nUnderlying the entire debate is an ambiguity in the word \"control\". It can mean denying a capability, delaying it, or retaining leverage over those who rely on it, and these aims call for different instruments and can work against one another. Denial encourages substitution; leverage requires that others depend on you, which requires that you not deny them; and the benefit of delay can never be observed directly, because it is measured against a counterfactual that does not occur. A policy that claims to secure all three simultaneously is likely to achieve none of them well. That the same instrument is defended in the language of security by some and attacked in the language of commerce by others suggests not confusion but a genuine plurality of goals, each legitimate, which no single instrument can fully serve. To ask whether export controls \"work\" is thus to ask an under-specified question. The more revealing enquiry is which objective is being scored, over what horizon, and by whom.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "The author's description of the traditional export-control regime as resting on a \"quiet premise\" implies which of the following?",
+        "options": [
+          "A) Controls were originally designed for goods whose inspection was easy, and therefore they cannot be applied to any technology that is produced digitally.",
+          "B) The regime assumed that adversaries lacked the industrial base to build controlled items, an assumption that frontier AI has now falsified for all states.",
+          "C) The regime's tools were calibrated to controlled items whose value resides in discrete, traceable objects rather than replicable knowledge.",
+          "D) Cold War policymakers deliberately ignored the role of knowledge and labour in weapons production because knowledge could not be regulated at all."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> Paragraph 1 says the regime assumed a technology's strategic value 'resides in the artefact', so that stopping its physical movement equals stopping the capability. A model is a copyable file, which is why the premise is 'strained'. The option captures exactly this artefact-versus-knowledge contrast without adding claims.<br><br>• <strong>Why Option A is Wrong:</strong> Overgeneralises. The author says control is still 'possible, but only at particular chokepoints', so digital technology is not beyond control; 'cannot… any' is an unsupported absolute.<br>• <strong>Why Option B is Wrong:</strong> Imports an assumption about adversaries' industrial capacity that the passage never attributes to the regime, and 'falsified for all states' is an extreme the author never claims.<br>• <strong>Why Option D is Wrong:</strong> The passage says the premise was artefact-centred, not that policymakers 'deliberately ignored' knowledge; 'could not be regulated at all' again is an absolute the author does not assert.<br><br><strong>💡 Approach:</strong> Inference questions reward the option that follows with the fewest extra assumptions. Reject words like 'any', 'all', 'at all' and 'deliberately' unless the passage is equally strong."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following, if true, would most seriously weaken the critics' contention (paragraph 2) that hardware controls hasten the self-reliance they aim to prevent?",
+        "options": [
+          "A) Targeted states' domestic chip programmes were already expanding at a pace that the introduction of controls left essentially unchanged.",
+          "B) Firms in the targeted states have obtained restricted chips through intermediaries in third countries in quantities large enough to sustain training.",
+          "C) Algorithmic efficiency gains in targeted states have allowed comparable performance to be reached using a smaller quantity of less advanced hardware than before.",
+          "D) Defenders of the controls maintain that even short delays confer a strategic advantage in a race where lead times matter a great deal for outcomes."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The critics' claim is causal: controls lead to faster substitution. If domestic programmes were growing at the same pace with or without controls, then the controls did not cause any acceleration, so the causal link is cut.<br><br>• <strong>Why Option B is Wrong:</strong> This supports the separate 'leakage' objection. It says nothing about whether controls speed up substitution, so it leaves the causal claim standing.<br>• <strong>Why Option C is Wrong:</strong> Efficiency gains are exactly the kind of substitute the critics say controls provoke. This fits, and therefore strengthens, their contention.<br>• <strong>Why Option D is Wrong:</strong> This is the defenders' rebuttal about objectives (delay as gain). It does not test whether controls accelerate self-reliance, so it is irrelevant to the causal claim.<br><br><strong>💡 Approach:</strong> For 'weaken' questions, identify the causal chain (controls → substitution) and look for evidence of no change, an alternative cause, or reverse causation. Options that address a different objection are traps."
+      },
+      {
+        "id": "q3",
+        "question": "The author contrasts a shipped machine with a service that can be withdrawn overnight primarily in order to argue that:",
+        "options": [
+          "A) services are inherently less secure than hardware, which explains why governments preferred to control chips rather than models until 2026 arrived.",
+          "B) the suspended firms' customers had acted imprudently in integrating foreign-hosted models into their workflows without securing contractual protection.",
+          "C) withdrawing a service is legally simpler than recalling a machine, and this legal asymmetry was the chief cause of the June episode itself.",
+          "D) control over access yields leverage that is continuous and reversible, unlike the one-off transfer of an artefact."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 4 states that control over access is 'continuous rather than one-off, and reversible rather than final', making it a flexible instrument while making every customer's dependence conditional. The contrast is used to establish this feature of leverage.<br><br>• <strong>Why Option A is Wrong:</strong> The passage never compares the security of services and hardware, and the claim about governments' past preferences is invented.<br>• <strong>Why Option B is Wrong:</strong> The author's point is structural, not a criticism of customers; contractual protection is never mentioned.<br>• <strong>Why Option C is Wrong:</strong> Legal simplicity is not discussed. The June episode arose from compliance with export-control rules, not from a legal asymmetry between machines and services.<br><br><strong>💡 Approach:</strong> When an author draws a contrast, ask what property the contrast isolates. Here it isolates reversibility and continuity, not security, blame or law."
+      },
+      {
+        "id": "q4",
+        "question": "Which of the following best explains why, on the author's account, the June 2026 episode weakens the 'interdependence' argument?",
+        "options": [
+          "A) The episode proved that suppliers will invariably withdraw services whenever a rival state's policy shifts, whatever the cost to their own customers.",
+          "B) Mutual dependence deters weaponisation only where it is roughly symmetric, and the episode revealed a one-sided dependence.",
+          "C) Because access was restored within weeks, the episode showed that interdependence has no lasting effect on how controlling states choose to behave.",
+          "D) Dependence on foreign-hosted models is only a temporary problem that disappears once national champions have been built with imported chips."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 5 (the interdependence view) argues that deterrence works 'only when each side stands to lose comparably'. In supplier–customer relations the party able to withdraw is the least deterred, so the episode exposed asymmetric dependence.<br><br>• <strong>Why Option A is Wrong:</strong> 'Invariably' and 'whatever the cost' are absolutes. The author claims only that the supplier is the party least deterred, not that withdrawal is certain.<br>• <strong>Why Option C is Wrong:</strong> The author argues the restoration arguably confirmed the concern; she does not say interdependence 'has no lasting effect'.<br>• <strong>Why Option D is Wrong:</strong> This is the sovereigntist claim, and the author rejects it: national champions dependent on imported chips deliver only 'ostensible' sovereignty.<br><br><strong>💡 Approach:</strong> 'Best explains' questions want the mechanism the author gives, here symmetry of dependence. Distractors usually swap in a different paragraph's argument."
+      },
+      {
+        "id": "q5",
+        "question": "The argument that controls could lower the market share of the controlling state's firms even as a security goal is achieved assumes that:",
+        "options": [
+          "A) the controlling state's firms would be unable to serve foreign markets through regionalised deployments or contractual force majeure provisions.",
+          "B) security and commercial leadership are goals that cannot be pursued by the same state at the same time under any conditions.",
+          "C) foreign buyers are willing to trade some quality for predictability of supply.",
+          "D) local alternatives are already of equal quality to the models supplied by the controlling state's firms in every relevant market."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> Paragraph 6 says some buyers will judge a 'dependable but inferior' local model preferable to a superior one that might vanish. The argument works only if buyers are prepared to accept lower quality in exchange for reliability. Negate it (buyers always insist on top quality) and the market-share loss disappears.<br><br>• <strong>Why Option A is Wrong:</strong> Too strong. The argument needs foreign buyers to feel uncertain, not that the firms are unable to respond; the passage does not mention regional deployments.<br>• <strong>Why Option B is Wrong:</strong> The author says the two goals 'are not obviously separable'; 'cannot… under any conditions' is an absolute the argument does not need.<br>• <strong>Why Option D is Wrong:</strong> Contradicts the passage, which calls the local model 'inferior'. The argument relies on a quality gap, not equality.<br><br><strong>💡 Approach:</strong> For 'assumes' questions use the negation test: negate the option and see if the argument collapses. If it does, the option is a necessary assumption."
+      },
+      {
+        "id": "q6",
+        "question": "The tension the author identifies between 'denial' and 'leverage' is most closely paralleled by which of the following?",
+        "options": [
+          "A) A supplier cuts off a customer who depends on it, prompting the customer to develop its own source and ending the supplier's hold.",
+          "B) A homeowner installs a lock to prevent theft, and thereby makes it harder for legitimate guests to enter the house late at night.",
+          "C) A regulator fines a firm for a breach and then reduces the fine on appeal, thereby weakening the deterrent effect of later fines on other firms.",
+          "D) A retailer raises prices to increase profit per unit and consequently sells fewer units, leaving total revenue essentially unchanged overall."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Paragraph 7 says leverage requires that others depend on you, while denial encourages substitution. The supplier example maps exactly: the act of denial produces an alternative source and destroys the dependence that gave the supplier leverage.<br><br>• <strong>Why Option B is Wrong:</strong> A simple trade-off between security and convenience. The lock does not destroy the homeowner's own source of power, so the self-undermining logic is missing.<br>• <strong>Why Option C is Wrong:</strong> This is about credibility and consistency of enforcement, not about an action that creates substitutes for the actor's own leverage.<br>• <strong>Why Option D is Wrong:</strong> An ordinary price–quantity trade-off. It involves no dependence being dissolved by the actor's own move.<br><br><strong>💡 Approach:</strong> Analogy questions: extract the abstract structure first (an action that removes the very condition that made it powerful), then match. Surface similarity (rules, trade-offs) is the trap."
+      }
+    ]
   }
 ]
