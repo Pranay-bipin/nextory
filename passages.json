@@ -2611,5 +2611,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Paragraph 7 says leverage requires that others depend on you, while denial encourages substitution. The supplier example maps exactly: the act of denial produces an alternative source and destroys the dependence that gave the supplier leverage.<br><br>• <strong>Why Option B is Wrong:</strong> A simple trade-off between security and convenience. The lock does not destroy the homeowner's own source of power, so the self-undermining logic is missing.<br>• <strong>Why Option C is Wrong:</strong> This is about credibility and consistency of enforcement, not about an action that creates substitutes for the actor's own leverage.<br>• <strong>Why Option D is Wrong:</strong> An ordinary price–quantity trade-off. It involves no dependence being dissolved by the actor's own move.<br><br><strong>💡 Approach:</strong> Analogy questions: extract the abstract structure first (an action that removes the very condition that made it powerful), then match. Surface similarity (rules, trade-offs) is the trap."
       }
     ]
+  },
+  {
+    "id": "rc-2026-09-30",
+    "date": "2026-09-30",
+    "title": "Direct Cash Transfers, Public Provision, and the Politics of Welfare Design",
+    "genre": "Public Policy & Development Economics",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "967 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "Deleterious",
+          "type": "adj",
+          "def": "Causing harm or damage, often gradually or unexpectedly.",
+          "ex": "The deleterious effects of unchecked inflation fell hardest on fixed-income households."
+        },
+        {
+          "word": "Parsimonious",
+          "type": "adj",
+          "def": "Extremely unwilling to spend money or use resources; stingy.",
+          "ex": "The finance ministry took a parsimonious view of new welfare schemes."
+        },
+        {
+          "word": "Cogent",
+          "type": "adj",
+          "def": "Clear, logical and convincing.",
+          "ex": "Her cogent argument persuaded even the sceptics on the panel."
+        },
+        {
+          "word": "Palliative",
+          "type": "adj",
+          "def": "Relieving symptoms or problems without addressing the underlying cause.",
+          "ex": "Cash handouts were criticised as a palliative rather than a cure for rural distress."
+        },
+        {
+          "word": "Exacerbate",
+          "type": "verb",
+          "def": "To make a problem, situation or feeling worse.",
+          "ex": "Delays in payment only exacerbated the hardship of the poorest households."
+        },
+        {
+          "word": "Ephemeral",
+          "type": "adj",
+          "def": "Lasting for a very short time.",
+          "ex": "The electoral gains from the scheme proved ephemeral."
+        },
+        {
+          "word": "Surreptitious",
+          "type": "adj",
+          "def": "Kept secret, especially because it would not be approved of.",
+          "ex": "The surreptitious diversion of grain deprived thousands of their entitlement."
+        },
+        {
+          "word": "Magnanimous",
+          "type": "adj",
+          "def": "Generous or forgiving, especially towards a rival or someone less powerful.",
+          "ex": "The winning candidate was magnanimous in victory and praised her opponent."
+        },
+        {
+          "word": "Ambivalent",
+          "type": "adj",
+          "def": "Having mixed or contradictory feelings about something or someone.",
+          "ex": "Economists remain ambivalent about universal basic income."
+        },
+        {
+          "word": "Vindicate",
+          "type": "verb",
+          "def": "To clear of blame or suspicion; to show to be right or justified.",
+          "ex": "The audit vindicated the officials accused of mismanaging the fund."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "Pass the buck",
+          "def": "To shift responsibility for something to someone else.",
+          "ex": "Each department tried to pass the buck when the payments failed."
+        },
+        {
+          "idiom": "Turn a blind eye",
+          "def": "To deliberately ignore something one knows is wrong.",
+          "ex": "Officials who turned a blind eye to diversion made the leakage worse."
+        },
+        {
+          "idiom": "A blessing in disguise",
+          "def": "Something that seems bad at first but proves beneficial later.",
+          "ex": "The delayed rollout was a blessing in disguise, as it exposed flaws in the database."
+        },
+        {
+          "idiom": "Beat around the bush",
+          "def": "To avoid coming to the main point by talking about irrelevant things.",
+          "ex": "Stop beating around the bush and tell us whether the subsidy will continue."
+        },
+        {
+          "idiom": "Add fuel to the fire",
+          "def": "To make a bad situation worse.",
+          "ex": "The minister’s remarks only added fuel to the fire of public anger."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Do away with",
+          "def": "To abolish or get rid of something.",
+          "ex": "The government decided to do away with the outdated subsidy."
+        },
+        {
+          "verb": "Opt for",
+          "def": "To choose one option from among several.",
+          "ex": "Many states opted for direct transfers instead of commodity distribution."
+        },
+        {
+          "verb": "Give rise to",
+          "def": "To cause something to happen or exist.",
+          "ex": "Delays in verification gave rise to widespread complaints."
+        },
+        {
+          "verb": "Bail out",
+          "def": "To rescue a person or organisation from financial difficulty.",
+          "ex": "The state was forced to bail out the failing cooperative."
+        },
+        {
+          "verb": "Fend off",
+          "def": "To defend oneself against an attack or awkward question.",
+          "ex": "The minister struggled to fend off criticism of the scheme."
+        }
+      ]
+    },
+    "passage": "The rise of cash transfers as an instrument of welfare is among the quieter revolutions of contemporary public policy. For much of the twentieth century, states that sought to help the poor preferred to provide goods: subsidised grain, fuel, fertiliser, housing. The reasoning was paternalist but not unreasonable. A household handed money might spend it on something other than food, and a state that wished to secure nutrition could best do so by distributing food. Cash transfers overturn this logic by trusting recipients to know their own needs, and they exploit a technological change, the spread of biometric identification, bank accounts and mobile payments, that has lowered the cost of moving money to individuals. In India, the combination of identity numbers, bank accounts and mobile phones, sometimes called the JAM trinity, has allowed subsidies once channelled through intermediaries to be paid directly into accounts, and in recent years a number of state governments have gone further, introducing unconditional monthly transfers to women that are defended as both welfare and empowerment.\n\nAdvocates of the shift advance three arguments. The first concerns leakage: in-kind systems lose commodities to diversion and pilferage, so that a rupee spent on grain does not deliver a rupee of grain, whereas money is traceable and passes through fewer hands. The second concerns choice: households differ in their needs, and a family with a sick child may rationally value medicine above a fifth kilogram of wheat. The third concerns market effects: cash spent locally supports small traders, whereas commodity distribution can displace them. Against the paternalist fear that recipients will squander transfers on temptation goods, advocates point to the balance of evidence from randomised trials in several countries, which suggests that such spending rarely rises.\n\nSceptics reply that the evidence is more equivocal than advocates imply. A fixed sum of money erodes with inflation, whereas a commodity entitlement delivers a physical quantity whatever the price, so that in a period of food-price spikes the cash recipient bears the price risk while the in-kind recipient is insured against it. Cash also presumes that functioning markets lie within reach; in remote areas with thin markets and few shops, money may not convert into the goods it was meant to buy. Finally, the value of a transfer depends on who controls it within the household, which explains the recent tilt towards women. That tilt rests on an empirical claim, that women on average spend more on children’s welfare, which holds on average but not universally, and policy built on an average inevitably misdescribes some households.\n\nCash transfers also have a political economy distinct from their economics. A subsidy embedded in an institution, such as a public distribution system, is hard to withdraw because it is tied to warehouses, transport and workers; a cash transfer is a line in a budget, which can be raised in an election year and quietly eroded in a lean one. Its visibility, money arriving with a message on a phone, makes it a potent electoral instrument, since the beneficiary can attribute the benefit directly to the government of the day. Critics conclude that cash transfers convert welfare into patronage by design. Defenders answer that the same visibility improves accountability: a beneficiary who receives less than was promised knows it at once, whereas the recipient of adulterated grain often cannot tell.\n\nA more structural concern is that cash and public provision are not substitutes at all, because they draw on the same fiscal envelope. A state that commits a growing share of its budget to recurring transfers has less to spend on schools, clinics, roads and sanitation, goods whose benefits are collective and which markets do not readily supply. A woman with a transfer can buy medicines but cannot buy a functioning primary health centre; a household can purchase tuition but not a school system. The question, on this view, is not cash versus kind but cash versus capital: whether recurring transfers displace investment whose returns accrue over decades. Defenders object that the dichotomy is false, since transfers may be financed by removing inefficient subsidies rather than by cutting investment. Sceptics respond that in practice the ratchet turns one way, because a transfer, once announced, is politically irreversible, while a deferred investment is invisible until the day it is missed.\n\nIncreasingly, therefore, the debate has moved from whether to transfer cash to how a transfer should be designed. Targeting reduces cost but raises exclusion errors, in which deserving households are left out, sometimes through a mismatch of records rather than any real ineligibility. Conditionality, such as requiring children to attend school, can improve outcomes but demands administrative capacity and may penalise the poorest, who find conditions hardest to meet. Indexation protects real value but enlarges the fiscal commitment. Each choice trades one virtue for another; there is no configuration that is simultaneously cheap, inclusive and inflation-proof, and the claim that one exists is usually a sign that its costs have been moved out of sight.\n\nWhat is at stake, then, is less a technical choice than a view of the state. To advocate cash is to claim that the state’s comparative advantage lies in finance and payments rather than in running supply chains; to defend provision is to claim that the state’s distinctive function is to supply what neither markets nor households can. Both are claims about the limits of state capacity, and they diverge because they locate those limits differently: advocates of cash tend to assume that the state is better at paying than at delivering, sceptics that it is better at building than at sustaining fiscal restraint. Evidence can narrow the disagreement but is unlikely to end it, since capacity itself varies across regions and across time, and what is true of one administration in one decade may not hold for another.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following can most reasonably be inferred from the author’s account (paragraph 1) of why states historically preferred to distribute goods rather than money?",
+        "options": [
+          "A) States chose goods mainly because they lacked the technology to identify recipients, a constraint which has now disappeared entirely from the welfare landscape.",
+          "B) Distributing goods was a way of steering how assistance would be used, a control that cash transfers give up.",
+          "C) Early planners believed that recipients would always misuse money, a belief that randomised trials have since conclusively disproved in every setting studied.",
+          "D) Governments favoured goods because distributing food is cheaper per rupee delivered than transferring money into bank accounts held by individual households."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 1 calls the earlier logic ‘paternalist but not unreasonable’: a household might spend money on something other than food, so a state wanting nutrition distributed food. Goods were thus a means of steering use, which cash relinquishes by ‘trusting recipients to know their own needs’.<br><br>• <strong>Why Option A is Wrong:</strong> Technology is mentioned only as what made cash feasible, not as the main reason for the older preference; ‘mainly’ and ‘disappeared entirely’ overstate the passage.<br>• <strong>Why Option C is Wrong:</strong> ‘Always’ and ‘conclusively disproved in every setting’ are absolutes. The passage says trials suggest such spending ‘rarely rises’, which is far weaker.<br>• <strong>Why Option D is Wrong:</strong> Cost per rupee is never compared in the passage; in fact paragraph 2 argues that in-kind systems leak, which points the other way.<br><br><strong>💡 Approach:</strong> Inference answers must follow from the text with minimal extension. Discard options that turn a tendency (‘rarely’, ‘not unreasonable’) into a certainty (‘always’, ‘conclusively’)."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following, if true, would most weaken the sceptics’ objection (paragraph 3) that cash recipients bear the risk of rising food prices?",
+        "options": [
+          "A) Food prices are more volatile in remote regions than in urban centres, and most recipients of cash transfers are concentrated in remote regions of the country.",
+          "B) Recipients of in-kind grain frequently sell part of their entitlement in local markets in order to meet other needs that cannot be met with grain alone.",
+          "C) Randomised trials in several countries show that recipients rarely spend transfers on temptation goods such as alcohol and tobacco, even when the sums are large.",
+          "D) Transfer amounts are revised at short intervals in line with a price index that closely tracks what poor households buy."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The objection assumes a fixed sum that erodes with inflation. If amounts are revised often against an index that tracks the household basket, real value is largely preserved and the price risk shifts away from the recipient. Paragraph 6 confirms that indexation ‘protects real value’.<br><br>• <strong>Why Option A is Wrong:</strong> This would strengthen, not weaken, the objection: more price volatility where recipients live increases the risk they bear.<br>• <strong>Why Option B is Wrong:</strong> This concerns how in-kind entitlements are used, not who bears price risk; it leaves the sceptics’ point about inflation untouched.<br>• <strong>Why Option C is Wrong:</strong> This is the advocates’ reply to the paternalist fear about temptation goods. It addresses a different question, not price risk.<br><br><strong>💡 Approach:</strong> For ‘weaken’, locate the hidden condition in the objection (here: the sum is fixed) and pick the option that removes that condition. Options on adjacent topics are traps."
+      },
+      {
+        "id": "q3",
+        "question": "The author’s discussion of the ‘visibility’ of cash transfers (paragraph 4) suggests that visibility:",
+        "options": [
+          "A) cuts both ways: it aids credit-claiming by governments and, equally, makes any shortfall in delivery hard to conceal.",
+          "B) is a purely political feature that has no bearing on the accountability of the officials who administer the scheme on the ground.",
+          "C) explains why cash transfers are cheaper to administer than institutions such as the public distribution system and its network of warehouses.",
+          "D) leads beneficiaries to credit the government of the day even when the benefit is in fact delivered by local officials acting independently."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Critics see visibility as an electoral instrument (beneficiaries attribute the benefit to the government of the day); defenders see it as accountability (a beneficiary who receives less than promised ‘knows it at once’). The author presents both, so visibility cuts both ways.<br><br>• <strong>Why Option B is Wrong:</strong> Contradicts the defenders’ argument in the same paragraph, which ties visibility directly to accountability.<br>• <strong>Why Option C is Wrong:</strong> Administrative cost is not discussed in paragraph 4; the comparison with the distribution system is about ease of withdrawal, not cost.<br>• <strong>Why Option D is Wrong:</strong> Attribution to the government of the day is stated, but the extra claim about local officials acting independently is not in the passage.<br><br><strong>💡 Approach:</strong> When the author reports two sides, the best answer usually preserves both. Extra qualifiers that the passage never mentions are the typical distractor."
+      },
+      {
+        "id": "q4",
+        "question": "The author’s example of a woman who ‘can buy medicines but cannot buy a functioning primary health centre’ is intended to illustrate that:",
+        "options": [
+          "A) cash transfers are ineffective at improving the health outcomes of the households that receive them, whatever the circumstances of those households.",
+          "B) women are less able than men to convert transfers into durable goods because of their limited access to markets in remote areas.",
+          "C) some benefits are collective and cannot be purchased by individuals, so transfers cannot fully substitute for public investment.",
+          "D) public health spending has in fact been reduced in every state that introduced unconditional transfers to women in recent years."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> Paragraph 5 introduces the example to show that some goods, such as schools and clinics, have collective benefits that markets do not readily supply. Individual purchasing power cannot replace them, which is why the author frames the issue as ‘cash versus capital’.<br><br>• <strong>Why Option A is Wrong:</strong> ‘Ineffective… whatever the circumstances’ is an absolute; the example concedes that the woman can buy medicines.<br>• <strong>Why Option B is Wrong:</strong> The example is about the type of good (collective versus individual), not about gender differences in market access.<br>• <strong>Why Option D is Wrong:</strong> The author raises displacement as a concern and a possibility, not as an established empirical fact ‘in every state’.<br><br><strong>💡 Approach:</strong> Ask what the example is an instance of. Here it instantiates the category ‘collective goods’, not a claim about women, health outcomes or budget facts."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following best describes the relationship between the sceptics’ ‘ratchet’ claim and the defenders’ reply in paragraph 5?",
+        "options": [
+          "A) The defenders show that displacement of investment is not logically inevitable, while the sceptics argue that political dynamics make it likely in practice.",
+          "B) The defenders deny that transfers and investment draw on the same fiscal envelope, and the sceptics accept this but insist that the envelope itself is shrinking.",
+          "C) The sceptics concede that transfers can be financed by removing inefficient subsidies but maintain that no government has ever actually attempted such a removal.",
+          "D) Both sides agree that transfers displace investment and differ only over whether such displacement is desirable given the political benefits of visible welfare."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The defenders’ point is that transfers ‘may be financed by removing inefficient subsidies’, so displacement need not happen. The sceptics answer that ‘in practice the ratchet turns one way’ because announced transfers are politically irreversible. It is a possibility-versus-likelihood disagreement.<br><br>• <strong>Why Option B is Wrong:</strong> The defenders do not deny the shared envelope; they argue over how it is financed, and nothing is said about a shrinking envelope.<br>• <strong>Why Option C is Wrong:</strong> ‘No government has ever attempted’ is an extreme claim the sceptics do not make; they claim irreversibility once announced.<br>• <strong>Why Option D is Wrong:</strong> The defenders explicitly dispute displacement (‘the dichotomy is false’), so the two sides do not agree that it occurs.<br><br><strong>💡 Approach:</strong> Debate-structure questions: state each side’s claim in one line, then test the option against both. Options that invent a concession or an agreement are usually wrong."
+      },
+      {
+        "id": "q6",
+        "question": "The author’s final paragraph implies that empirical evidence is unlikely to settle the cash-versus-provision debate mainly because:",
+        "options": [
+          "A) existing empirical studies of cash transfers are too few in number to support any conclusion about their effects on recipients at all.",
+          "B) advocates and sceptics use different definitions of welfare, so their empirical claims cannot be compared even in principle by any neutral observer.",
+          "C) evidence from one administration is irrelevant to every other, since welfare programmes are never comparable across states or across different periods.",
+          "D) the disputants differ over state capacity, which itself varies across regions and time, so findings may not carry over."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 7 says both camps make claims about the limits of state capacity and locate those limits differently, and that capacity ‘varies across regions and across time’. Evidence gathered in one context may therefore fail to generalise, so the disagreement can be narrowed but not ended.<br><br>• <strong>Why Option A is Wrong:</strong> The passage refers to the balance of evidence from trials in several countries, so paucity of studies is not the author’s reason.<br>• <strong>Why Option B is Wrong:</strong> Definitions of welfare are never discussed; the disagreement is about capacity, not meaning.<br>• <strong>Why Option C is Wrong:</strong> ‘Irrelevant’ and ‘never comparable’ are absolutes. The author says only that what holds in one setting ‘may not hold’ in another.<br><br><strong>💡 Approach:</strong> ‘Implies… mainly because’ questions test whether you can find the author’s stated reason. Watch for absolutes (‘irrelevant’, ‘never’) that exaggerate a modest ‘may not hold’."
+      }
+    ]
   }
 ]
