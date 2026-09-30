@@ -2812,5 +2812,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 7 says both camps make claims about the limits of state capacity and locate those limits differently, and that capacity ‘varies across regions and across time’. Evidence gathered in one context may therefore fail to generalise, so the disagreement can be narrowed but not ended.<br><br>• <strong>Why Option A is Wrong:</strong> The passage refers to the balance of evidence from trials in several countries, so paucity of studies is not the author’s reason.<br>• <strong>Why Option B is Wrong:</strong> Definitions of welfare are never discussed; the disagreement is about capacity, not meaning.<br>• <strong>Why Option C is Wrong:</strong> ‘Irrelevant’ and ‘never comparable’ are absolutes. The author says only that what holds in one setting ‘may not hold’ in another.<br><br><strong>💡 Approach:</strong> ‘Implies… mainly because’ questions test whether you can find the author’s stated reason. Watch for absolutes (‘irrelevant’, ‘never’) that exaggerate a modest ‘may not hold’."
       }
     ]
+  },
+  {
+    "id": "rc-2026-10-01",
+    "date": "2026-10-01",
+    "title": "Synthetic Media, the Liar’s Dividend, and the Economics of Trust",
+    "genre": "Technology, Law & Epistemology",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1035 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "Corroborate",
+          "type": "verb",
+          "def": "To confirm or give support to a statement, theory or finding.",
+          "ex": "A second witness corroborated the account of the first."
+        },
+        {
+          "word": "Nebulous",
+          "type": "adj",
+          "def": "Unclear, vague or ill-defined.",
+          "ex": "The minister’s nebulous promises gave journalists little to report."
+        },
+        {
+          "word": "Obviate",
+          "type": "verb",
+          "def": "To remove a need or difficulty, making something unnecessary.",
+          "ex": "Encryption at capture would obviate the need for later verification."
+        },
+        {
+          "word": "Expedient",
+          "type": "adj",
+          "def": "Convenient and practical, although possibly improper or immoral.",
+          "ex": "Denying the recording was expedient, but it damaged his credibility."
+        },
+        {
+          "word": "Trenchant",
+          "type": "adj",
+          "def": "Vigorous and incisive in expression or style.",
+          "ex": "Her trenchant critique exposed the flaws in the proposal."
+        },
+        {
+          "word": "Anodyne",
+          "type": "adj",
+          "def": "Not likely to cause offence or disagreement; deliberately bland.",
+          "ex": "The statement was so anodyne that it told readers nothing."
+        },
+        {
+          "word": "Sophistry",
+          "type": "noun",
+          "def": "The use of clever but false arguments, especially to deceive.",
+          "ex": "His defence was pure sophistry, dressed up as logic."
+        },
+        {
+          "word": "Credulous",
+          "type": "adj",
+          "def": "Having or showing too great a readiness to believe things.",
+          "ex": "Credulous readers shared the forged letter without checking it."
+        },
+        {
+          "word": "Tacit",
+          "type": "adj",
+          "def": "Understood or implied without being stated.",
+          "ex": "There was a tacit agreement not to raise the subject."
+        },
+        {
+          "word": "Disparate",
+          "type": "adj",
+          "def": "Essentially different in kind; not allowing comparison.",
+          "ex": "The committee brought together disparate groups with conflicting interests."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "Cry wolf",
+          "def": "To raise a false alarm so often that real warnings are ignored.",
+          "ex": "After so many false alerts, officials were accused of crying wolf."
+        },
+        {
+          "idiom": "Take (something) at face value",
+          "def": "To accept something as it appears, without questioning it.",
+          "ex": "Do not take the claim at face value; check the source."
+        },
+        {
+          "idiom": "Play into someone’s hands",
+          "def": "To act in a way that gives an advantage to one’s opponent.",
+          "ex": "By overreacting, the regulator played into the firm’s hands."
+        },
+        {
+          "idiom": "Put the cart before the horse",
+          "def": "To do things in the wrong order.",
+          "ex": "Announcing the penalty before the investigation was putting the cart before the horse."
+        },
+        {
+          "idiom": "Clutch at straws",
+          "def": "To try desperate measures when in a hopeless situation.",
+          "ex": "With the evidence against him, his denial looked like clutching at straws."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Weed out",
+          "def": "To remove something undesirable from a group.",
+          "ex": "The platform tried to weed out fake accounts."
+        },
+        {
+          "verb": "Call out",
+          "def": "To publicly criticise or challenge someone for wrongdoing.",
+          "ex": "Journalists called out the minister for misleading claims."
+        },
+        {
+          "verb": "Play down",
+          "def": "To make something seem less important than it is.",
+          "ex": "The company played down the scale of the data breach."
+        },
+        {
+          "verb": "Seize on",
+          "def": "To take eager advantage of something, often a mistake.",
+          "ex": "Opponents seized on the error to discredit the report."
+        },
+        {
+          "verb": "Fall for",
+          "def": "To be tricked into believing something false.",
+          "ex": "Thousands fell for the forged message."
+        }
+      ]
+    },
+    "passage": "For more than a century, photographs and sound recordings have enjoyed a special standing as evidence. A court will admit a photograph more readily than a description of the same scene, and a recorded confession carries a weight that a recollection of one does not. This standing has never rested on the impossibility of forgery: darkroom retouching, staged tableaux and spliced tape were all familiar by the early twentieth century. It rested instead on the cost of forgery. Faking a convincing image required skill, time and equipment, and the result usually left traces that an expert could find. Trust was therefore a rational default, because deception was expensive and the expected number of forgeries was small. The authority of a medium, on this account, is an economic fact as much as a technical one, and it can vanish when the economics change. Generative artificial intelligence has changed them abruptly. A convincing clone of a voice, or a video of a person saying words they never said, can now be produced in minutes by someone with no specialist training and almost no money.\n\nThe obvious fear is deception: a fabricated clip of a candidate released on the eve of an election, a cloned voice instructing an employee to transfer funds. These dangers are real, and frauds using cloned voices have already been reported. Yet research on misinformation suggests that the relationship between the realism of a fake and its persuasive effect is weaker than intuition suggests. The most widely shared falsehoods have often been “cheap fakes”: authentic footage relabelled with a false caption, or a genuine clip slowed down or cropped. Such material requires no technical sophistication, and its reach depends less on how convincing it is than on whether it tells audiences what they are already inclined to believe and on whether platforms circulate it. If so, the binding constraints on harm are demand and distribution rather than production, and cheapening production further may matter less than alarmed commentary assumes.\n\nA quieter danger follows from the very awareness that such commentary has spread. The legal scholars Robert Chesney and Danielle Citron have named it the liar’s dividend: once the public knows that recordings can be fabricated, anyone caught on a genuine recording gains a new defence, namely that it is a fake. The defence does not require that any deepfake exist, nor that the claim be plausible; it requires only that the audience consider fabrication possible and be unable to check. The harm therefore resides in a belief about what is possible, not in any artefact. This has an uncomfortable implication for the remedy most often proposed, public education. Campaigns that teach people that anything might be fake risk producing not sharper scepticism but indiscriminate doubt, and indiscriminate doubt is exactly the condition in which the liar’s dividend pays best. Teaching people to doubt is not the same as teaching them to doubt well.\n\nTechnical responses fall into two families. Detection tools try to recognise the statistical fingerprints of generated content. They face an arms race, since a detector trained on one generation of generators tends to fail against the next, and their errors are costly in both directions: a missed fake deceives, but a genuine recording wrongly flagged hands the liar a fresh exhibit. Provenance schemes take the opposite approach. Rather than asking whether a file is fake, they ask whether it can be shown to be authentic, by cryptographically signing images at the moment of capture and recording each later edit, as industry coalitions developing “content credentials” propose. The attraction is that verification replaces guesswork. The weakness is that such schemes are voluntary and partial. Much genuine footage, including archival material, recordings on basic phones and screenshots, will lack credentials, and metadata is often stripped as files pass through platforms. The absence of a credential, therefore, proves nothing, and a system that can certify some truths cannot by itself refute any falsehood.\n\nThe distributional consequences deserve more attention than they have received. Institutions with resources, such as news agencies, governments and large companies, can adopt provenance practices, train staff to use them and defend their records in court. The citizen who films an incident of police violence, or a village that records an illegal clearing of forest, typically cannot. Such witnesses have historically relied on the credibility of the medium itself, since a video needs no institutional backing to carry force. If credentialed footage becomes the norm, footage without credentials may be treated as suspect, and those with least institutional power would lose the evidentiary standing on which they most depend. A safeguard designed to protect truth could thus end up protecting the powerful, who are best placed to certify their own version of events and to cast doubt on everyone else’s.\n\nRegulation faces its own difficulties. Mandatory labelling of synthetic content is easy to state but hard to enforce across borders against anonymous publishers, and a false clip can circle the globe before a court has convened. Laws against election deepfakes can be invoked to suppress satire and legitimate criticism by branding it fabricated. Labelling also has a subtle perverse effect, documented in experiments on fact-checking: when only some false content is flagged, unflagged content is often presumed to be authentic, an “implied truth effect”. A regime that labels what it can detect may thereby lend credibility to whatever it fails to detect, which will, by construction, be the most sophisticated fakes.\n\nIt would be wrong to conclude that nothing can any longer be believed. Synthetic media does not so much create falsehood, which has always been abundant, as alter the price of evidence: what was once cheap to trust has become expensive to verify. Societies have met similar shifts before. The printing press, which multiplied forged documents as readily as genuine ones, eventually produced citation practices, editors, archives and courts of record, institutions whose function was to vouch. The likely trajectory is that belief will migrate from the recording itself to the institutions that stand behind it. Whether those institutions turn out to be plural and accountable, or concentrated and opaque, is the question that matters. Technology determines the cost of forgery; politics will determine who bears the cost of verification.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "The author’s explanation (paragraph 1) of why photographs and recordings long carried special evidentiary authority implies that:",
+        "options": [
+          "A) early photographs were accepted as evidence only because nobody in the period knew that images could be retouched or staged by others",
+          "B) courts preferred photographs to testimony because recorded images are in principle immune to manipulation by even skilled practitioners",
+          "C) the authority of recordings was always an illusion, since trust in any medium is misplaced whenever forgery is technically feasible",
+          "D) a medium’s evidentiary standing depends on how costly and traceable forgery is, not on forgery being impossible"
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 1 says the standing ‘has never rested on the impossibility of forgery’ but on its cost: faking required skill and left traces, so trust was a rational default. The option restates this without adding claims.<br><br>• <strong>Why Option A is Wrong:</strong> Contradicts the passage, which says darkroom retouching and staged tableaux were ‘familiar’ by the early twentieth century; the authority did not depend on ignorance.<br>• <strong>Why Option B is Wrong:</strong> Reverses the passage: forgery was possible, only expensive. ‘Immune’ is an absolute the author rejects in the first sentences that follow the claim about courts.<br>• <strong>Why Option C is Wrong:</strong> ‘Always an illusion’ and ‘misplaced whenever forgery is feasible’ are far stronger than the author’s view that trust was a rational default given the economics of forgery.<br><br><strong>💡 Approach:</strong> Look for the option that keeps the author’s hedged, economic framing (‘cost’, ‘default’). Distractors convert it into claims about ignorance, immunity or illusion."
+      },
+      {
+        "id": "q2",
+        "question": "The author’s discussion of “cheap fakes” most directly supports which of the following conclusions?",
+        "options": [
+          "A) The harm done by fabricated content is limited more by audience demand and distribution than by technical realism.",
+          "B) Sophisticated deepfakes are harmless because audiences reliably detect them, whereas simple edits are more often mistaken for authentic material.",
+          "C) Platforms rather than producers bear sole responsibility for the spread of falsehoods, since production costs no longer matter at all for outcomes.",
+          "D) Relabelled authentic footage is more dangerous than any synthetic content could ever be, because it is impossible to refute by technical means."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Paragraph 2 says reach depends ‘less on how convincing it is than on whether it tells audiences what they are already inclined to believe and whether platforms circulate it’, so ‘the binding constraints on harm are demand and distribution rather than production’.<br><br>• <strong>Why Option B is Wrong:</strong> The passage never says audiences detect sophisticated fakes; it says realism matters less than demand, not that deepfakes are harmless.<br>• <strong>Why Option C is Wrong:</strong> ‘Sole responsibility’ and ‘no longer matter at all’ are absolutes; the author says production may matter ‘less’, not nothing.<br>• <strong>Why Option D is Wrong:</strong> ‘More dangerous than any synthetic content could ever be’ and ‘impossible to refute’ are unsupported extremes.<br><br><strong>💡 Approach:</strong> ‘Most directly supports’ wants the conclusion the evidence actually licenses, which is comparative (‘less… than’), not absolute."
+      },
+      {
+        "id": "q3",
+        "question": "Which of the following, if true, would most weaken the claim that the liar’s dividend arises from public awareness of synthetic media?",
+        "options": [
+          "A) Surveys show that awareness of deepfakes is highest among younger people, who are also the most frequent users of social media platforms.",
+          "B) Public figures caught on genuine tape dismissed it as fabricated just as successfully before synthetic media were widely known.",
+          "C) Several public figures who claimed that genuine recordings were fabricated were later proved wrong in court and suffered heavy reputational damage.",
+          "D) Detection tools are more accurate at identifying synthetic audio than synthetic video, and this gap has widened in recent years."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The claim is causal: awareness of synthetic media produces the dividend. If the same defence worked equally well before such awareness existed, awareness cannot be what produces it. This is a ‘no change / alternative cause’ weakener.<br><br>• <strong>Why Option A is Wrong:</strong> A demographic fact about who is aware says nothing about whether awareness causes the dividend.<br>• <strong>Why Option C is Wrong:</strong> This concerns how well the defence fares once tried, not what makes it available; the causal link stays intact.<br>• <strong>Why Option D is Wrong:</strong> Relative detection accuracy is a separate issue (paragraph 4) and does not bear on the belief-based mechanism in paragraph 3.<br><br><strong>💡 Approach:</strong> To weaken a causal claim, find evidence that the effect occurs without the supposed cause. Options that discuss outcomes of the defence or unrelated statistics are traps."
+      },
+      {
+        "id": "q4",
+        "question": "The author cites the “implied truth effect” in the discussion of regulation in order to suggest that:",
+        "options": [
+          "A) labelling is futile because audiences ignore warnings attached to content, whether the content is genuine or fabricated by others",
+          "B) the most sophisticated fakes are those that platforms label most prominently, since labelling draws extra attention to them",
+          "C) a regime that labels only some synthetic content may raise the credibility of the content it leaves unlabelled",
+          "D) mandatory labelling should be replaced by outright bans on synthetic content, which do not produce any perverse effects of this kind"
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> Paragraph 6: when only some false content is flagged, unflagged content is presumed authentic, so a regime that labels what it can detect lends credibility to what it fails to detect. The option captures this perverse effect precisely.<br><br>• <strong>Why Option A is Wrong:</strong> The effect is not that warnings are ignored; it is that the absence of a warning is read as a sign of authenticity.<br>• <strong>Why Option B is Wrong:</strong> The passage says the undetected fakes, not the labelled ones, are the most sophisticated, which reverses this option.<br>• <strong>Why Option D is Wrong:</strong> The author does not recommend bans; indeed the paragraph notes that laws against deepfakes can be used to suppress satire.<br><br><strong>💡 Approach:</strong> Identify the mechanism the author attaches to the term, then reject options that reverse it or smuggle in a policy recommendation the author never makes."
+      },
+      {
+        "id": "q5",
+        "question": "The argument that provenance schemes could disadvantage citizen witnesses assumes that:",
+        "options": [
+          "A) citizen footage is more likely to be fabricated than footage produced by news agencies and other well-resourced institutions in general",
+          "B) institutions would deliberately refuse to certify material submitted by members of the public who have no formal standing or affiliation",
+          "C) platforms strip metadata from uploaded files in order to prevent citizens from proving that their recordings are authentic in disputes",
+          "D) footage lacking credentials would be treated with greater suspicion once credentialed footage becomes the norm"
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 5 says that if credentialed footage becomes the norm, uncredentialed footage ‘may be treated as suspect’, so the powerless lose standing. Negate the option (uncredentialed footage is treated no differently) and the disadvantage disappears, so it is a necessary assumption.<br><br>• <strong>Why Option A is Wrong:</strong> The argument does not need citizen footage to be more likely fake; the problem is how it is perceived, not how it was produced.<br>• <strong>Why Option B is Wrong:</strong> Deliberate refusal is not mentioned; the disadvantage arises from lack of resources and adoption, not from institutional hostility.<br>• <strong>Why Option C is Wrong:</strong> Paragraph 4 says metadata is ‘often stripped’ as files pass through platforms, but with no suggestion of motive; intention is not needed for the argument.<br><br><strong>💡 Approach:</strong> Use the negation test: if the negated option leaves the conclusion standing, it is not a necessary assumption."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following best captures the author’s concluding view?",
+        "options": [
+          "A) Belief will likely migrate from recordings to vouching institutions, so the character of those institutions becomes decisive.",
+          "B) Synthetic media has made all evidence worthless, and societies must learn to live without any reliable way of settling factual disputes.",
+          "C) Technical safeguards such as provenance and detection will eventually restore the old trust in recordings, making institutional vouching unnecessary.",
+          "D) Synthetic media creates falsehood on a scale previously unknown, which is why regulation of publishers is now the only adequate response."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Paragraph 7: synthetic media alters the price of evidence rather than creating falsehood, belief will migrate to the institutions that stand behind recordings, and what matters is whether they are plural and accountable or concentrated and opaque.<br><br>• <strong>Why Option B is Wrong:</strong> The author opens the paragraph by rejecting the conclusion that nothing can be believed.<br>• <strong>Why Option C is Wrong:</strong> The author doubts that technical fixes can do this alone (paragraphs 4 and 5) and expects institutions, not recordings, to carry trust.<br>• <strong>Why Option D is Wrong:</strong> The author says falsehood has always been abundant and does not name regulation as the only response; paragraph 6 lists its weaknesses.<br><br><strong>💡 Approach:</strong> Conclusion questions: match the author’s last move. Extreme pessimism, technical optimism and single-remedy answers are the usual distractors."
+      }
+    ]
   }
 ]
