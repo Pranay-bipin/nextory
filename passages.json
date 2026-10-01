@@ -3013,5 +3013,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Paragraph 7: synthetic media alters the price of evidence rather than creating falsehood, belief will migrate to the institutions that stand behind recordings, and what matters is whether they are plural and accountable or concentrated and opaque.<br><br>• <strong>Why Option B is Wrong:</strong> The author opens the paragraph by rejecting the conclusion that nothing can be believed.<br>• <strong>Why Option C is Wrong:</strong> The author doubts that technical fixes can do this alone (paragraphs 4 and 5) and expects institutions, not recordings, to carry trust.<br>• <strong>Why Option D is Wrong:</strong> The author says falsehood has always been abundant and does not name regulation as the only response; paragraph 6 lists its weaknesses.<br><br><strong>💡 Approach:</strong> Conclusion questions: match the author’s last move. Extreme pessimism, technical optimism and single-remedy answers are the usual distractors."
       }
     ]
+  },
+  {
+    "id": "rc-2026-10-02",
+    "date": "2026-10-02",
+    "title": "Platform Labour, Algorithmic Control, and the Problem of the Missing Employer",
+    "genre": "Labour Economics & Technology Policy",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1047 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "Imperious",
+          "type": "adj",
+          "def": "Assuming power or authority without justification; arrogant and domineering.",
+          "ex": "The manager’s imperious tone discouraged any dissent."
+        },
+        {
+          "word": "Quixotic",
+          "type": "adj",
+          "def": "Exceedingly idealistic; unrealistic and impractical.",
+          "ex": "Their quixotic plan to reform the whole system overnight failed."
+        },
+        {
+          "word": "Antipathy",
+          "type": "noun",
+          "def": "A deep-seated feeling of dislike or aversion.",
+          "ex": "He felt a strong antipathy towards bureaucratic delay."
+        },
+        {
+          "word": "Aplomb",
+          "type": "noun",
+          "def": "Self-confidence or assurance, especially in a demanding situation.",
+          "ex": "She handled the hostile questions with remarkable aplomb."
+        },
+        {
+          "word": "Austere",
+          "type": "adj",
+          "def": "Severe or strict in manner; plain and without luxury.",
+          "ex": "The government adopted an austere budget after the crisis."
+        },
+        {
+          "word": "Prodigal",
+          "type": "adj",
+          "def": "Spending resources freely and recklessly; wastefully extravagant.",
+          "ex": "The prodigal use of public funds drew sharp criticism."
+        },
+        {
+          "word": "Fickle",
+          "type": "adj",
+          "def": "Changing frequently, especially in loyalty or affection.",
+          "ex": "Fickle voters abandoned the party within a year."
+        },
+        {
+          "word": "Jaundiced",
+          "type": "adj",
+          "def": "Affected by bitterness, resentment or cynicism.",
+          "ex": "He took a jaundiced view of every official promise."
+        },
+        {
+          "word": "Sedulous",
+          "type": "adj",
+          "def": "Showing dedication and diligence; persevering.",
+          "ex": "Sedulous research uncovered the missing records."
+        },
+        {
+          "word": "Venal",
+          "type": "adj",
+          "def": "Showing or motivated by susceptibility to bribery; corrupt.",
+          "ex": "A venal official approved the contract in return for gifts."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "A level playing field",
+          "def": "A situation in which everyone has a fair and equal chance.",
+          "ex": "Small firms demanded a level playing field against global platforms."
+        },
+        {
+          "idiom": "Tip the scales",
+          "def": "To change the balance decisively in favour of one side.",
+          "ex": "The new evidence tipped the scales in favour of reform."
+        },
+        {
+          "idiom": "Between a rock and a hard place",
+          "def": "Faced with two equally unpleasant choices.",
+          "ex": "The firm was between a rock and a hard place: raise prices or lose customers."
+        },
+        {
+          "idiom": "Raise the bar",
+          "def": "To set a higher standard.",
+          "ex": "The new regulation raised the bar for transparency."
+        },
+        {
+          "idiom": "Hit the nail on the head",
+          "def": "To describe exactly what is causing a situation or problem.",
+          "ex": "Her analysis hit the nail on the head."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Lay off",
+          "def": "To dismiss workers, usually because there is no work for them.",
+          "ex": "The company laid off a fifth of its workforce."
+        },
+        {
+          "verb": "Opt out",
+          "def": "To choose not to participate in something.",
+          "ex": "Workers were allowed to opt out of the scheme."
+        },
+        {
+          "verb": "Hand over",
+          "def": "To give control or possession of something to another.",
+          "ex": "The founder handed over the firm to her successor."
+        },
+        {
+          "verb": "Single out",
+          "def": "To choose one person or thing from a group for special attention.",
+          "ex": "The report singled out the company for criticism."
+        },
+        {
+          "verb": "Draw up",
+          "def": "To prepare a document, plan or list.",
+          "ex": "Lawyers drew up a new contract for the workers."
+        }
+      ]
+    },
+    "passage": "Employment law rests on a binary that was designed for a different economy. A person is either an employee, who works under another’s direction and is entitled to minimum wages, social security and protection from arbitrary dismissal, or an independent contractor, who runs a business of her own, sets her own terms and bears her own risks. The logic of the divide is intelligible: protections are extended to those who are subordinate, on the assumption that an independent business can look after itself. Digital platforms that connect riders with passengers and couriers with restaurants have unsettled this logic. They describe themselves as marketplaces, and describe those who work through them as independent partners who decide when, where and whether to work, free of the supervision that defines the employee. Workers, regulators and courts in many countries have disputed this description, and in India, as elsewhere, labour legislation has begun to recognise “gig” and “platform” workers as categories distinct from both employee and contractor.\n\nThe disagreement turns on what counts as control. Courts have traditionally asked whether the putative employer directs how the work is done: sets hours, issues instructions, supervises output. A platform issues few instructions in this sense. Yet it exercises influence by other means. Algorithms allocate jobs, and the rules of allocation are opaque; customer ratings feed into a score that determines who receives work; bonuses for completing a streak of deliveries, and prices that rise in places where drivers are scarce, steer workers towards the times and places the platform prefers; and an account can be deactivated, often without a hearing, if its score falls. A worker is free to log off, but doing so may lower her position in the queue for work. Scholars describe this as control without commands: a structure of incentives and penalties so designed that the worker, while formally choosing, is in practice guided. On this view the independence on which the platforms insist is real in form and thin in substance.\n\nPlatforms respond that the flexibility is itself the product that workers value. Surveys of drivers and couriers frequently report that people choose such work precisely because it lets them fit hours around study, family or another job, and that they would not trade it for fixed shifts. Reclassifying workers as employees, firms argue, would force them to schedule and ration hours, to reduce the number of people they engage and to raise prices, leaving many of today’s workers with no work at all. The empirical evidence from jurisdictions that have moved in this direction is mixed, with some studies finding job losses and others little change. It would be a mistake to treat either the surveys or the warnings as decisive: stated preferences for flexibility are measured under existing arrangements, in which the alternative to the platform’s terms may be unemployment, and predictions of job losses come from the party with an interest in the outcome.\n\nSeveral jurisdictions have therefore sought a middle path that avoids the classification question. One approach creates an intermediate status, entitling workers to some protections, such as a floor on earnings or accident insurance, without the full bundle of employment rights. Another imposes a levy on platforms’ turnover, to be paid into a fund that finances benefits for workers regardless of how they are classified. The attraction of both is that they sidestep an argument which courts in different countries have resolved differently. The risk is that a compromise intended as a floor becomes a ceiling: a lower tier of protection, once legitimised, may become the permanent settlement for a growing share of the workforce, and a levy that is passed on in lower pay or higher prices may leave workers no better off.\n\nA deeper difficulty is that the figure of the employer does not map neatly onto platform work. Many workers use several platforms at once, switching to whichever offers the best rates, a practice called multi-homing. No single platform then bears the cost of a worker’s livelihood, and duties attached to a single employer, such as providing a pension or notice of dismissal, fit awkwardly with a worker who is, at any moment, serving several firms. Policy discussion has accordingly shifted from the identity of the employer to the portability of protection: benefits attached to the person rather than the job. Yet portability does not resolve the problem of information. Workers cannot see how an algorithm allocates work or why a score fell, and a legal right to an explanation may mean little if the logic is too complex to explain, or if firms resist disclosure as protection of trade secrets.\n\nCollective bargaining raises a further paradox. Competition law in many countries treats independent contractors who negotiate together as cartels fixing prices, so the status that the platforms favour can itself prevent workers from bargaining jointly, while the status that would permit bargaining is the one the platforms resist. Workers have improvised: strikes take the form of coordinated log-offs, and information about unfair rates circulates in messaging groups. Such organisation is fragile, however, because the workforce is dispersed, has no common workplace and experiences high turnover. Some jurisdictions have carved exceptions to competition law for platform workers, and the experiment is worth watching; but exceptions are easier to grant than to make effective, since bargaining requires a counterparty that accepts it.\n\nThe public debate is usually framed as a contest between flexibility and security, as if workers must choose one. The framing is misleading. Flexibility over hours and security of income are not opposites: a worker can be free to choose when to log in and still be protected against an injury or a month with few orders. The more illuminating question is who bears the risks that the work entails: fluctuations in demand, the cost of vehicle, fuel and insurance, and the loss of income from illness. Platforms have in practice shifted these risks to workers while retaining the powers that a manager would exercise through the code. The law has met a version of this problem before, whenever responsibility has been allowed to drift away from control. What is new is only that control now arrives as software rather than as a supervisor, and the law must decide whether to look through the form to the function.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "The phrase “control without commands” (paragraph 2) suggests that:",
+        "options": [
+          "A) platforms issue no instructions at all, which is why courts applying the traditional control test have consistently treated workers as independent",
+          "B) influence resembling an employer’s can operate through incentives and design even where no explicit instruction is issued",
+          "C) workers who log off lose their accounts immediately, since deactivation is the only sanction available to a platform against disobedient workers",
+          "D) algorithms are legally equivalent to supervisors, so that every platform using ratings and bonuses is automatically an employer in the eyes of the law"
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 2 lists allocation algorithms, ratings, streak bonuses, surge prices and deactivation, and calls this ‘a structure of incentives and penalties’ in which the worker, ‘while formally choosing, is in practice guided’. That is influence without explicit orders.<br><br>• <strong>Why Option A is Wrong:</strong> The passage says courts and regulators in many countries have disputed the platforms’ description (paragraph 1); ‘consistently treated workers as independent’ is false, and ‘no instructions at all’ overstates ‘few instructions’.<br>• <strong>Why Option C is Wrong:</strong> Paragraph 2 says logging off ‘may lower her position in the queue’, and deactivation follows if the score falls; there is no immediate loss of the account, and it is not the ‘only’ sanction.<br>• <strong>Why Option D is Wrong:</strong> The author says that ‘on this view’ independence is thin in substance; the passage never claims that algorithms are legally supervisors or that the status follows automatically.<br><br><strong>💡 Approach:</strong> Match the phrase to the mechanism the author actually lists. Distractors turn a descriptive claim about influence into a legal conclusion or an extreme factual claim."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following, if true, would most weaken the platforms’ claim (paragraph 3) that treating workers as employees would destroy flexibility?",
+        "options": [
+          "A) Surveys of existing drivers show that a large majority value being able to choose their hours and would dislike fixed shifts assigned by managers.",
+          "B) Platforms in jurisdictions that reclassified workers raised prices to consumers, and demand for deliveries fell sharply in the following year afterwards.",
+          "C) In several places where riders became employees, firms kept offering self-selected shifts and average weekly hours stayed unchanged.",
+          "D) Workers who use several platforms at once earn more per hour than workers who depend on a single platform for all of their income."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The platforms’ claim is predictive: reclassification would force scheduling and rationing of hours. Evidence that, after reclassification, workers still chose their own shifts and hours did not fall directly contradicts the prediction.<br><br>• <strong>Why Option A is Wrong:</strong> This supports the platforms: it shows workers value flexibility. The author also notes such preferences are measured under existing arrangements, so it does not test the prediction.<br>• <strong>Why Option B is Wrong:</strong> Higher prices and falling demand support the platforms’ warning of job losses rather than weaken it.<br>• <strong>Why Option D is Wrong:</strong> Earnings of multi-homing workers are unrelated to whether reclassification would remove flexibility.<br><br><strong>💡 Approach:</strong> To weaken a prediction, find a real case in which the supposed cause occurred and the predicted effect did not. Options that merely restate worker preferences or add side facts do not do this."
+      },
+      {
+        "id": "q3",
+        "question": "The author’s observation (paragraph 4) that a levy-based approach “sidesteps” the classification question implies that:",
+        "options": [
+          "A) benefits can be funded without settling whether platforms are employers, at the cost of possibly entrenching a lower tier of protection",
+          "B) courts have now agreed on how platform workers should be classified, so the levy approach is no longer needed in most jurisdictions of the world",
+          "C) a levy will always leave workers better off than employee status, since the fund is paid by platforms and not by consumers or by the workers",
+          "D) intermediate status and a levy are mutually exclusive, because each depends on a different answer to the question of how workers are classified"
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Paragraph 4 says both approaches avoid the classification argument, but ‘the risk is that a compromise intended as a floor becomes a ceiling’: a lower tier of protection may become permanent. The option states both the benefit and the risk.<br><br>• <strong>Why Option B is Wrong:</strong> Paragraph 4 says courts in different countries have ‘resolved [the argument] differently’, which is why middle paths are sought.<br>• <strong>Why Option C is Wrong:</strong> The author warns that a levy ‘passed on in lower pay or higher prices may leave workers no better off’; ‘always better off’ is the opposite.<br>• <strong>Why Option D is Wrong:</strong> The passage presents the two as alternative ways of avoiding classification, and neither depends on a particular classification.<br><br><strong>💡 Approach:</strong> ‘Implies’ questions need both halves of the author’s point; here the benefit (sidestepping) and the risk (floor becomes ceiling). Options that drop the risk or invent agreement are wrong."
+      },
+      {
+        "id": "q4",
+        "question": "The author raises multi-homing (paragraph 5) in order to show that:",
+        "options": [
+          "A) workers who use several platforms are not really workers at all, since they cannot be said to depend on any single platform for income",
+          "B) multi-homing proves that workers prefer flexibility to security, which supports the platforms’ case against reclassification of their workers",
+          "C) platforms compete vigorously for workers, which is why algorithmic control cannot in practice be exercised against any individual worker",
+          "D) no single platform bears the full cost of a worker’s livelihood, so duties tied to one employer fit poorly"
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 5: when workers serve several platforms, no one platform bears the cost of their livelihood and duties such as pensions or notice ‘fit awkwardly’, so policy shifts to portability of protection.<br><br>• <strong>Why Option A is Wrong:</strong> The passage still treats these people as workers, serving several firms; it says nothing that denies their status.<br>• <strong>Why Option B is Wrong:</strong> Multi-homing is described as switching to the best rates, not as evidence of a preference for flexibility over security, and the author does not use it for the platforms’ case.<br>• <strong>Why Option C is Wrong:</strong> Nothing in paragraph 5 says competition prevents algorithmic control; the paragraph’s concern is the identity of the employer and information about algorithms.<br><br><strong>💡 Approach:</strong> Ask what problem the example creates for the employer concept. The answer is the dispersal of responsibility across several firms."
+      },
+      {
+        "id": "q5",
+        "question": "The reference to competition law in the discussion of collective bargaining serves chiefly to show that:",
+        "options": [
+          "A) competition law was designed to protect platform workers, and its enforcement has been the main reason for the success of their organisation",
+          "B) the independent-contractor label platforms favour can itself obstruct workers from bargaining jointly",
+          "C) workers who coordinate log-offs are always acting illegally under competition law, whatever their status or the jurisdiction concerned in the dispute",
+          "D) exceptions to competition law for platform workers have been shown to guarantee effective bargaining in every jurisdiction that has adopted them"
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 6: competition law in many countries treats contractors who negotiate together as cartels, ‘so the status that the platforms favour can itself prevent workers from bargaining jointly’.<br><br>• <strong>Why Option A is Wrong:</strong> The paragraph presents competition law as an obstacle, not a protection, and says organisation is ‘fragile’.<br>• <strong>Why Option C is Wrong:</strong> The passage says ‘in many countries’, not ‘always’, and says nothing about the legality of coordinated log-offs.<br>• <strong>Why Option D is Wrong:</strong> The author says exceptions ‘are easier to grant than to make effective’, which contradicts a guarantee.<br><br><strong>💡 Approach:</strong> Identify the role the detail plays in the paragraph’s paradox: the status platforms favour blocks bargaining. Absolutes (‘always’, ‘every’, ‘guarantee’) mark distractors."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following best describes the author’s resolution of the “flexibility versus security” debate?",
+        "options": [
+          "A) Flexibility is an illusion created by platforms, and workers would be better off if all platform work were converted into fixed-hour employment",
+          "B) Security must take priority over flexibility, since workers who value flexibility have been shown to misjudge their own long-term interests",
+          "C) The two are not true opposites; the question that matters is who bears the risks and costs of the work",
+          "D) The debate cannot be resolved without further evidence, and so the author declines to say whether platform workers should be protected at all"
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> Paragraph 7 says the framing is ‘misleading’: a worker can choose hours and still be protected, and the ‘more illuminating question is who bears the risks’. The author adds that the law must look through the form to the function.<br><br>• <strong>Why Option A is Wrong:</strong> The author does not say flexibility is an illusion, and does not advocate fixed hours; she says flexibility and security can coexist.<br>• <strong>Why Option B is Wrong:</strong> The passage does not claim workers misjudge their interests and never ranks security above flexibility.<br>• <strong>Why Option D is Wrong:</strong> The author takes a position: risks have been shifted to workers and the law should look to function; she does not decline to say.<br><br><strong>💡 Approach:</strong> For ‘best describes’ questions, find the author’s own reframing. Distractors replace it with one side of the debate or with a refusal to conclude."
+      }
+    ]
   }
 ]
