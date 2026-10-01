@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NEXTORY - IPMAT Verbal Booster</title>
+    <title>NEXTORY - IPMAT Prep Portal</title>
     <style>
         :root {
             --bg-page: #f4f7f5;
@@ -48,7 +48,7 @@
         .logo-box { background: linear-gradient(135deg, var(--green-primary), #059669); color: #ffffff; padding: 3px 8px; border-radius: 6px; font-size: 0.85rem; font-weight: 800; box-shadow: 0 2px 6px rgba(16, 185, 129, 0.25); }
         .sub-tag { background: var(--green-bg); color: var(--green-hover); font-size: 0.75rem; padding: 3px 10px; border-radius: 20px; border: 1px solid var(--green-border); font-weight: 600; }
 
-        .nav-items { display: flex; gap: 8px; }
+        .nav-items { display: flex; gap: 8px; flex-wrap: wrap; }
         .nav-btn {
             background: transparent;
             border: 1px solid transparent;
@@ -217,7 +217,6 @@
             color: var(--status-wrong);
         }
 
-        /* 🚀 FIXED COMPACT QUESTION PALETTE GRID STYLES */
         .q-palette-container {
             margin-top: 18px;
             padding-top: 14px;
@@ -297,11 +296,12 @@
     <header>
         <div class="brand">
             <span class="logo-box">NX</span> NEXTORY
-            <span class="sub-tag">IPMAT Verbal Booster</span>
+            <span class="sub-tag">IPMAT Prep Portal</span>
         </div>
         <div class="nav-items">
             <button id="btn-vocab" class="nav-btn active" onclick="navigateTab('vocab')">📖 Daily Vocab</button>
             <button id="btn-reading" class="nav-btn" onclick="navigateTab('reading')">📑 Reading Practice</button>
+            <button id="btn-dilr" class="nav-btn" onclick="navigateTab('dilr')">📊 Daily DI/LR</button>
             <button id="btn-sectional" class="nav-btn" onclick="navigateTab('sectional')">⚡ Sectionals</button>
             <button id="btn-saved" class="nav-btn" onclick="navigateTab('saved')">🔖 Saved Hub (<span id="saved-count">0</span>)</button>
             <button id="btn-archive" class="nav-btn" onclick="navigateTab('archive')">📂 Past RCs</button>
@@ -375,7 +375,16 @@
             </div>
         </div>
 
-        <!-- 3. SECTIONALS TAB -->
+        <!-- 3. DAILY DI/LR TAB -->
+        <div id="panel-dilr" class="view-panel">
+            <div id="dilr-container">
+                <div class="question-card" style="text-align:center; padding: 40px;">
+                    <h3 style="color:var(--text-heading);">Loading today's IPMAT DI/LR Set...</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. SECTIONALS TAB -->
         <div id="panel-sectional" class="view-panel">
             <div id="sectional-banner-container">
                 <div class="question-card" style="text-align:center; padding: 40px;">
@@ -384,7 +393,7 @@
             </div>
         </div>
 
-        <!-- 4. SAVED HUB TAB -->
+        <!-- 5. SAVED HUB TAB -->
         <div id="panel-saved" class="view-panel">
             <div class="question-card">
                 <h2 style="margin-bottom: 6px; color: var(--text-heading);">🔖 Saved Vocab Hub</h2>
@@ -407,7 +416,7 @@
             </div>
         </div>
 
-        <!-- 5. PAST RCS ARCHIVE TAB -->
+        <!-- 6. PAST RCS ARCHIVE TAB -->
         <div id="panel-archive" class="view-panel">
             <div class="question-card">
                 <h2 style="margin-bottom: 15px; color: var(--text-heading);">Past Reading Passages Archive (IPMAT Advanced Standard)</h2>
@@ -476,10 +485,22 @@
         let isSectionalTimerActive = false;
         let secCurrentQIndex = 0;
 
+        // DI/LR State Variables
+        let allDILRSets = [];
+        let currentDILR = null;
+        let dilrQIndex = 0;
+        let dilrUserAnswers = {};
+        let isDILRSubmitted = false;
+        let dilrTimerInterval = null;
+        let dilrSecondsElapsed = 0;
+        let isDILRTimerActive = false;
+
         document.addEventListener("visibilitychange", function() {
             if (document.hidden) {
                 if (activeTab === 'reading' && isTimerActive && !isSubmitted) {
                     pauseTimer();
+                } else if (activeTab === 'dilr' && isDILRTimerActive && !isDILRSubmitted) {
+                    pauseDILRTimer();
                 } else if (activeTab === 'sectional' && isSectionalTimerActive && !isSectionalSubmitted) {
                     pauseSectionalTimer();
                 }
@@ -520,6 +541,7 @@
             }
 
             loadSectionalData();
+            loadDILRData();
         }
 
         async function loadSectionalData() {
@@ -539,6 +561,245 @@
                 console.warn("Sectional data not available:", err);
                 renderNoSectionalBanner();
             }
+        }
+
+        async function loadDILRData() {
+            try {
+                const response = await fetch('dilr.json');
+                if (!response.ok) throw new Error("dilr.json fetch error");
+                allDILRSets = await response.json();
+
+                if (allDILRSets && allDILRSets.length > 0) {
+                    const todayStr = getLocalDateString();
+                    currentDILR = allDILRSets.find(s => s.date === todayStr) || allDILRSets[allDILRSets.length - 1];
+                    renderDILRSet();
+                } else {
+                    renderNoDILRBanner();
+                }
+            } catch (err) {
+                console.warn("DI/LR data not available:", err);
+                renderNoDILRBanner();
+            }
+        }
+
+        function renderNoDILRBanner() {
+            const container = document.getElementById('dilr-container');
+            container.innerHTML = `
+                <div class="question-card" style="text-align:center; padding: 40px;">
+                    <h2 style="color:var(--text-heading); font-size: 1.3rem;">📊 No Active DI/LR Set Today</h2>
+                    <p style="color:var(--text-muted); margin-top:10px;">Please upload your <code>dilr.json</code> file to GitHub to load your daily IPMAT DI/LR set.</p>
+                </div>`;
+        }
+
+        function renderDILRSet() {
+            const container = document.getElementById('dilr-container');
+            if (!currentDILR || !currentDILR.questions) {
+                renderNoDILRBanner();
+                return;
+            }
+
+            const qList = currentDILR.questions;
+            const q = qList[dilrQIndex];
+
+            const mins = Math.floor(dilrSecondsElapsed / 60).toString().padStart(2, '0');
+            const secs = (dilrSecondsElapsed % 60).toString().padStart(2, '0');
+
+            const timerHeaderHtml = `
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                    <h3 style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">Question Palette</h3>
+                    <div class="timer-badge-box">
+                        <span id="dilr-timer-display" class="timer-badge-text">⏱️ ${mins}:${secs}</span>
+                        <button id="dilr-pause-btn" class="timer-pause-btn" onclick="toggleDILRTimer()">${isDILRTimerActive ? 'Pause' : 'Resume'}</button>
+                    </div>
+                </div>`;
+
+            const isTITA = q.type && q.type.toUpperCase().includes("TITA") || !q.options;
+            let optionsHtml = "";
+
+            if (isTITA) {
+                const currentVal = dilrUserAnswers[dilrQIndex] || "";
+                let inputClass = "tita-input-box";
+                if (isDILRSubmitted) {
+                    const cleanUserAns = String(currentVal).trim();
+                    const cleanCorrectAns = String(q.answer).trim();
+                    inputClass += (cleanUserAns === cleanCorrectAns) ? " correct-input" : " wrong-input";
+                }
+
+                optionsHtml = `
+                    <div style="margin-top: 15px;">
+                        <label style="font-weight: 700; font-size: 0.88rem; color: var(--text-muted); display: block; margin-bottom: 6px;">Type Your Answer Below:</label>
+                        <input type="text" class="${inputClass}" value="${currentVal}" placeholder="Type answer here..." ${isDILRSubmitted ? 'disabled' : ''} oninput="handleDILRTITAInput(this.value)">
+                        ${isDILRSubmitted ? `<div style="margin-top: 8px; font-weight: 800; color: var(--status-correct);">Correct Answer: ${q.answer}</div>` : ''}
+                    </div>`;
+            } else {
+                optionsHtml = q.options.map((opt, idx) => {
+                    let btnClass = "opt-btn";
+                    if (dilrUserAnswers[dilrQIndex] === idx) btnClass += " selected";
+                    if (isDILRSubmitted) {
+                        if (idx === q.answer) btnClass += " correct";
+                        else if (dilrUserAnswers[dilrQIndex] === idx) btnClass += " wrong";
+                    }
+                    return `<button class="${btnClass}" onclick="selectDILROption(${idx})">${opt}</button>`;
+                }).join('');
+            }
+
+            let attemptedCount = 0;
+            const gridBtnsHtml = qList.map((item, idx) => {
+                const ans = dilrUserAnswers[idx];
+                const isAttempted = ans !== undefined && ans !== "";
+                if (isAttempted) attemptedCount++;
+
+                let btnClass = "q-grid-btn";
+                if (idx === dilrQIndex) btnClass += " active-q";
+                if (isAttempted) btnClass += " attempted";
+
+                return `<button class="${btnClass}" onclick="jumpToDILRQ(${idx})">${idx + 1}</button>`;
+            }).join('');
+
+            container.innerHTML = `
+                <div class="test-split">
+                    <div class="reading-box">
+                        <div class="meta-tags">
+                            <span class="tag">${currentDILR.category || 'DI/LR'}</span>
+                            <span class="tag">IPMAT Level</span>
+                            <span class="tag">${currentDILR.date || 'Daily Set'}</span>
+                        </div>
+                        <h2 style="margin-bottom: 16px; color: var(--text-heading);">${currentDILR.title}</h2>
+                        <div class="passage-body">${currentDILR.setContext || currentDILR.passage || ''}</div>
+                    </div>
+                    <div>
+                        <div class="question-card">
+                            ${timerHeaderHtml}
+                            <div style="display:flex; justify-space-between; align-items:center; margin-bottom:12px;">
+                                <span class="tag">Q ${dilrQIndex + 1} of ${qList.length}</span>
+                                <span style="font-weight:700; font-size:0.82rem; color:var(--text-muted);">${attemptedCount}/${qList.length} Attempted</span>
+                            </div>
+                            <div style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1rem; line-height: 1.6;">${q.question}</div>
+                            <div>${optionsHtml}</div>
+                            
+                            <div class="q-palette-container">
+                                <div class="q-palette-title">Question Palette Grid</div>
+                                <div class="q-palette-grid">${gridBtnsHtml}</div>
+                            </div>
+
+                            <div class="explanation-box" style="display:${isDILRSubmitted ? 'block' : 'none'}">${q.explanation || ''}</div>
+
+                            <div style="display: flex; justify-content: space-between; margin-top: 25px;">
+                                <button class="nav-btn" onclick="navDILRQ(-1)">← Previous</button>
+                                <button class="nav-btn" onclick="navDILRQ(1)">Next →</button>
+                            </div>
+                            <button class="submit-btn" onclick="submitDILRSet()" style="margin-top: 20px;">🚀 Submit DI/LR Set</button>
+                        </div>
+                    </div>
+                </div>`;
+        }
+
+        function startDILRTimer() {
+            if (isDILRTimerActive) return;
+            isDILRTimerActive = true;
+            updateDILRPauseBtnUI();
+
+            dilrTimerInterval = setInterval(() => {
+                dilrSecondsElapsed++;
+                updateDILRTimerDisplay();
+            }, 1000);
+        }
+
+        function pauseDILRTimer() {
+            clearInterval(dilrTimerInterval);
+            isDILRTimerActive = false;
+            updateDILRPauseBtnUI();
+        }
+
+        function toggleDILRTimer() {
+            if (isDILRSubmitted) return;
+            if (isDILRTimerActive) {
+                pauseDILRTimer();
+            } else {
+                startDILRTimer();
+            }
+        }
+
+        function updateDILRPauseBtnUI() {
+            const btn = document.getElementById('dilr-pause-btn');
+            if (btn) {
+                btn.innerText = isDILRTimerActive ? "Pause" : "Resume";
+            }
+        }
+
+        function updateDILRTimerDisplay() {
+            const mins = Math.floor(dilrSecondsElapsed / 60).toString().padStart(2, '0');
+            const secs = (dilrSecondsElapsed % 60).toString().padStart(2, '0');
+            const display = document.getElementById('dilr-timer-display');
+            if (display) display.innerText = `⏱️️ ${mins}:${secs}`;
+        }
+
+        function selectDILROption(idx) {
+            if (isDILRSubmitted) return;
+            dilrUserAnswers[dilrQIndex] = idx;
+            renderDILRSet();
+        }
+
+        function handleDILRTITAInput(val) {
+            if (isDILRSubmitted) return;
+            dilrUserAnswers[dilrQIndex] = val.trim();
+        }
+
+        function jumpToDILRQ(idx) {
+            dilrQIndex = idx;
+            renderDILRSet();
+        }
+
+        function navDILRQ(dir) {
+            const total = currentDILR.questions.length;
+            const newIdx = dilrQIndex + dir;
+            if (newIdx >= 0 && newIdx < total) {
+                dilrQIndex = newIdx;
+                renderDILRSet();
+            }
+        }
+
+        function submitDILRSet() {
+            pauseDILRTimer();
+            isDILRSubmitted = true;
+
+            const qList = currentDILR.questions || [];
+            let correct = 0, incorrect = 0, unattempted = 0;
+
+            qList.forEach((q, idx) => {
+                const userAns = dilrUserAnswers[idx];
+                const isTITA = q.type && q.type.toUpperCase().includes("TITA") || !q.options;
+
+                if (userAns === undefined || userAns === "") {
+                    unattempted++;
+                } else if (isTITA) {
+                    if (String(userAns).trim() === String(q.answer).trim()) {
+                        correct++;
+                    } else {
+                        incorrect++;
+                    }
+                } else {
+                    if (userAns === q.answer) {
+                        correct++;
+                    } else {
+                        incorrect++;
+                    }
+                }
+            });
+
+            const score = (correct * 4) - (incorrect * 1);
+            const totalMarks = qList.length * 4;
+            const accuracy = (correct + incorrect) > 0 ? Math.round((correct / (correct + incorrect)) * 100) : 0;
+
+            document.getElementById('stat-accuracy').innerText = `${accuracy}%`;
+            document.getElementById('stat-speed').innerText = `${score} / ${totalMarks} Marks`;
+            document.getElementById('stat-time').innerText = `${dilrSecondsElapsed}s`;
+            document.getElementById('stat-correct').innerText = correct;
+            document.getElementById('stat-incorrect').innerText = incorrect;
+            document.getElementById('stat-unattempted').innerText = unattempted;
+
+            document.getElementById('dashboard-modal').classList.add('active');
+            renderDILRSet();
         }
 
         function renderSectionalBanner() {
@@ -650,9 +911,7 @@
                     </div>
                 </div>`;
 
-            // CHECK IF QUESTION IS TITA
             const isTITA = q.type && q.type.toUpperCase().includes("TITA") || !q.options;
-
             let inputOptionsHtml = "";
 
             if (isTITA) {
@@ -676,7 +935,6 @@
                         ${isSectionalSubmitted ? `<div style="margin-top: 8px; font-weight: 800; color: var(--status-correct);">Correct Answer: ${q.answer}</div>` : ''}
                     </div>`;
             } else {
-                // REGULAR MCQ RENDER
                 inputOptionsHtml = q.options.map((opt, idx) => {
                     let btnClass = "opt-btn";
                     if (sectionalUserAnswers[secCurrentQIndex] === idx) btnClass += " selected";
@@ -690,7 +948,6 @@
                 }).join('');
             }
 
-            // 🚀 RENDER COMPACT PALETTE GRID
             let attemptedCount = 0;
             const gridBtnsHtml = qList.map((item, idx) => {
                 const ans = sectionalUserAnswers[idx];
@@ -724,7 +981,6 @@
                 </div>
                 <button class="submit-btn" onclick="submitSectionalTest()" style="margin-top: 20px;">🚀 Submit Sectional Test</button>`;
 
-            // IF QUESTION HAS PASSAGE / IS RC TYPE -> RENDER SPLIT SCREEN
             if (q.passage || q.type === 'RC') {
                 wrapper.innerHTML = `
                     <div class="test-split">
@@ -742,7 +998,6 @@
                         </div>
                     </div>`;
             } else {
-                // SINGLE CARD FOR VOCAB / GRAMMAR / PARAJUMBLE
                 wrapper.innerHTML = `
                     <div class="question-card">
                         ${timerHeaderHtml}
@@ -888,6 +1143,12 @@
                 pauseTimer();
             }
 
+            if (activeTab === 'dilr' && isDILRTimerActive && !isDILRSubmitted) {
+                const confirmLeave = confirm("⚠️ DI/LR Practice Active: Changing tabs will pause your DI/LR timer. Do you want to proceed?");
+                if (!confirmLeave) return;
+                pauseDILRTimer();
+            }
+
             if (activeTab === 'sectional' && isSectionalTimerActive && !isSectionalSubmitted) {
                 const confirmLeave = confirm("⚠️ IPMAT Sectional Mock Active: Changing tabs will pause your Sectional timer. Do you want to proceed?");
                 if (!confirmLeave) return;
@@ -907,6 +1168,10 @@
 
             if (tabName === 'reading') {
                 if (!isSubmitted) startTimer();
+            }
+
+            if (tabName === 'dilr') {
+                if (!isDILRSubmitted && currentDILR) startDILRTimer();
             }
 
             if (tabName === 'saved') {
@@ -1105,7 +1370,8 @@
 
         function reviewAnswers() {
             document.getElementById('dashboard-modal').classList.remove('active');
-            renderQuestion();
+            if (activeTab === 'dilr') renderDILRSet();
+            else renderQuestion();
         }
 
         function renderArchive(availablePassages) {
