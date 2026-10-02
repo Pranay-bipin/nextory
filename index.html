@@ -494,6 +494,7 @@
         let dilrTimerInterval = null;
         let dilrSecondsElapsed = 0;
         let isDILRTimerActive = false;
+        let isDILRComingSoon = false;
 
         document.addEventListener("visibilitychange", function() {
             if (document.hidden) {
@@ -567,9 +568,19 @@
             try {
                 const response = await fetch('dilr.json');
                 if (!response.ok) throw new Error("dilr.json fetch error");
-                allDILRSets = await response.json();
+                const data = await response.json();
+
+                // Check for Coming Soon status format
+                if (Array.isArray(data) && data.length > 0 && data[0].status === "coming_soon") {
+                    isDILRComingSoon = true;
+                    renderComingSoonDILR(data[0]);
+                    return;
+                }
+
+                allDILRSets = data;
 
                 if (allDILRSets && allDILRSets.length > 0) {
+                    isDILRComingSoon = false;
                     const todayStr = getLocalDateString();
                     currentDILR = allDILRSets.find(s => s.date === todayStr) || allDILRSets[allDILRSets.length - 1];
                     renderDILRSet();
@@ -580,6 +591,25 @@
                 console.warn("DI/LR data not available:", err);
                 renderNoDILRBanner();
             }
+        }
+
+        function renderComingSoonDILR(info) {
+            const container = document.getElementById('dilr-container');
+            container.innerHTML = `
+                <div class="question-card" style="text-align: center; padding: 60px 24px; max-width: 680px; margin: 40px auto; border: 1px solid var(--green-border);">
+                    <div style="width: 70px; height: 70px; background: var(--green-bg); color: var(--green-hover); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-size: 32px; border: 1px solid var(--green-border);">
+                        📊
+                    </div>
+                    <h2 style="font-size: 1.8rem; font-weight: 800; color: var(--text-heading); margin-bottom: 12px;">
+                        ${info.title || 'Daily DI / LR Section'} <span style="color: var(--green-primary);">(${info.badge || 'Coming Soon'})</span>
+                    </h2>
+                    <p style="color: var(--text-body); font-size: 1rem; margin-bottom: 24px; line-height: 1.6;">
+                        ${info.message || 'We are crafting high-level Data Interpretation & Logical Reasoning sets to elevate your IPMAT prep.'}
+                    </p>
+                    <div style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 18px; border-radius: 20px; background: var(--green-bg); border: 1px solid var(--green-border); color: var(--green-hover); font-size: 0.88rem; font-weight: 700;">
+                        <span>⏳ ${info.subMessage || 'Content under final curation'}</span>
+                    </div>
+                </div>`;
         }
 
         function renderNoDILRBanner() {
@@ -593,6 +623,8 @@
 
         function renderDILRSet() {
             const container = document.getElementById('dilr-container');
+            if (isDILRComingSoon) return;
+
             if (!currentDILR || !currentDILR.questions) {
                 renderNoDILRBanner();
                 return;
@@ -695,7 +727,7 @@
         }
 
         function startDILRTimer() {
-            if (isDILRTimerActive) return;
+            if (isDILRTimerActive || isDILRComingSoon) return;
             isDILRTimerActive = true;
             updateDILRPauseBtnUI();
 
@@ -712,7 +744,7 @@
         }
 
         function toggleDILRTimer() {
-            if (isDILRSubmitted) return;
+            if (isDILRSubmitted || isDILRComingSoon) return;
             if (isDILRTimerActive) {
                 pauseDILRTimer();
             } else {
@@ -731,7 +763,7 @@
             const mins = Math.floor(dilrSecondsElapsed / 60).toString().padStart(2, '0');
             const secs = (dilrSecondsElapsed % 60).toString().padStart(2, '0');
             const display = document.getElementById('dilr-timer-display');
-            if (display) display.innerText = `⏱️️ ${mins}:${secs}`;
+            if (display) display.innerText = `⏱ ${mins}:${secs}`;
         }
 
         function selectDILROption(idx) {
@@ -1143,7 +1175,7 @@
                 pauseTimer();
             }
 
-            if (activeTab === 'dilr' && isDILRTimerActive && !isDILRSubmitted) {
+            if (activeTab === 'dilr' && isDILRTimerActive && !isDILRSubmitted && !isDILRComingSoon) {
                 const confirmLeave = confirm("⚠️ DI/LR Practice Active: Changing tabs will pause your DI/LR timer. Do you want to proceed?");
                 if (!confirmLeave) return;
                 pauseDILRTimer();
@@ -1171,7 +1203,7 @@
             }
 
             if (tabName === 'dilr') {
-                if (!isDILRSubmitted && currentDILR) startDILRTimer();
+                if (!isDILRSubmitted && currentDILR && !isDILRComingSoon) startDILRTimer();
             }
 
             if (tabName === 'saved') {
