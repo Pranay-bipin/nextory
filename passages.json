@@ -3415,6 +3415,208 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The last lines of paragraph 6 say that communities choosing not to exhibit returned objects 'disturbs a premise that both sides tend to share, namely that a cultural object exists to be seen.'<br><br>• <strong>Why Option A is Wrong:</strong> Museums use the access argument, but the passage says claimants value the presence of the original, so both sides do not share this premise.<br>• <strong>Why Option B is Wrong:</strong> The author argues that return can itself be problematic (paragraph 4), and does not attribute this premise to both sides.<br>• <strong>Why Option D is Wrong:</strong> Indefinite preservation is not discussed as a shared premise; the passage even mentions objects meant to decay.<br><br><strong>💡 Approach:</strong> 'Shared premise' questions need a claim both camps accept without arguing. Check each option against what each camp actually says in the passage."
       }
     ]
+  },
+[
+  {
+    "id": "rc-2026-10-04",
+    "date": "2026-10-04",
+    "title": "The Rate Dilemma: Supply Shocks, Expectations and the Credibility of Central Banks",
+    "genre": "Monetary Policy & Indian Economy (Current Affairs)",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1043 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "Exacerbate",
+          "type": "verb",
+          "def": "To make a problem, situation or feeling worse.",
+          "ex": "A weaker rupee can exacerbate the inflationary effect of dearer oil."
+        },
+        {
+          "word": "Tenuous",
+          "type": "adj",
+          "def": "Very weak or slight; lacking a firm basis.",
+          "ex": "The link between one month’s data and a lasting trend is tenuous."
+        },
+        {
+          "word": "Sanguine",
+          "type": "adj",
+          "def": "Optimistic, especially in a difficult situation.",
+          "ex": "Economists were sanguine that inflation would fall back on its own."
+        },
+        {
+          "word": "Vacillate",
+          "type": "verb",
+          "def": "To keep changing one’s mind or alternating between opinions.",
+          "ex": "A committee that vacillates between hike and hold loses credibility."
+        },
+        {
+          "word": "Recalcitrant",
+          "type": "adj",
+          "def": "Stubbornly resistant to authority or control.",
+          "ex": "Recalcitrant food prices defied every forecast of a quick decline."
+        },
+        {
+          "word": "Mitigate",
+          "type": "verb",
+          "def": "To make something less severe, serious or painful.",
+          "ex": "Reserves can mitigate, though not remove, pressure on the currency."
+        },
+        {
+          "word": "Disparate",
+          "type": "adj",
+          "def": "Essentially different and not able to be compared.",
+          "ex": "Disparate signals from growth and inflation data complicated the decision."
+        },
+        {
+          "word": "Ambivalent",
+          "type": "adj",
+          "def": "Having mixed or contradictory feelings about something.",
+          "ex": "The Governor was ambivalent about tightening so early."
+        },
+        {
+          "word": "Capricious",
+          "type": "adj",
+          "def": "Given to sudden and unaccountable changes of mood or behaviour.",
+          "ex": "Capricious capital flows make a currency hard to defend."
+        },
+        {
+          "word": "Pragmatic",
+          "type": "adj",
+          "def": "Dealing with things sensibly and realistically rather than by fixed theory.",
+          "ex": "A pragmatic central bank adapts its rules to the shock in front of it."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "Bite the bullet",
+          "def": "To face an unpleasant but necessary action with courage.",
+          "ex": "The committee may have to bite the bullet and raise rates."
+        },
+        {
+          "idiom": "Kick the can down the road",
+          "def": "To postpone a difficult decision instead of resolving it.",
+          "ex": "Waiting until December may simply kick the can down the road."
+        },
+        {
+          "idiom": "Err on the side of caution",
+          "def": "To choose the safer course when unsure.",
+          "ex": "The bank chose to err on the side of caution and left rates unchanged."
+        },
+        {
+          "idiom": "Tip the scales",
+          "def": "To decide a close balance in favour of one side.",
+          "ex": "A weaker rupee could tip the scales towards a hike."
+        },
+        {
+          "idiom": "Behind the curve",
+          "def": "Slow to respond to a developing situation or trend.",
+          "ex": "Critics warned that the central bank was falling behind the curve on inflation."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Rein in",
+          "def": "To control or limit something, such as spending or inflation.",
+          "ex": "Higher rates are meant to rein in demand."
+        },
+        {
+          "verb": "Factor in",
+          "def": "To include something as a consideration in a calculation.",
+          "ex": "Analysts must factor in the lag with which policy works."
+        },
+        {
+          "verb": "Spill over",
+          "def": "To spread from one area into another.",
+          "ex": "Higher oil prices spill over into transport and food costs."
+        },
+        {
+          "verb": "Hold off",
+          "def": "To delay doing something.",
+          "ex": "The committee decided to hold off until more data arrived."
+        },
+        {
+          "verb": "Roll back",
+          "def": "To reverse or undo a measure or policy.",
+          "ex": "The bank may have to roll back its tightening if the shock fades."
+        }
+      ]
+    },
+    "passage": "When the six members of the Reserve Bank of India’s Monetary Policy Committee sit down from 5 to 7 October, they will do so with the repo rate at 5.25 per cent, where it has stood through four consecutive reviews since a cumulative cut of 125 basis points in 2025, when consumer inflation fell to a record low. A Business Standard poll found most economists expecting a 25 basis point increase, which would be the first since February 2023; others counsel waiting until December. Whatever the committee decides, and the announcement is due on 7 October, the interesting feature of the episode is how little the visible facts settle. Energy prices are higher, the rupee is under pressure and several large central banks have tightened. None of these, taken singly, compels a rise in India’s policy rate. The difficulty lies in the logic that connects them.\n\nOrthodoxy treats an oil-price rise as a supply shock and advises central banks to look through it. The reasoning is mechanical. A dearer barrel lifts the price level once, and it lowers real incomes by transferring them to exporters. Raising interest rates cannot make oil cheaper; it can only depress demand, so that the economy suffers the income loss from the shock and the output loss from the policy. If the shock is temporary, prices will fall back unaided, and the tightening will have been a self-inflicted wound whose effects arrive, with a lag, after the problem has gone. The prescription is therefore conditional on two things: that the shock is transitory, and that the public’s expectations of future inflation remain anchored, so that no one builds the higher prices into wage demands and contracts.\n\nIt is the second condition that makes India’s case harder than the textbook one. Households do not form expectations from index numbers they seldom read but from the prices they meet most often: vegetables, cooking fuel, petrol. Because food and fuel have historically carried a heavy weight in the consumer basket, and are also the items a household notices weekly, a shock concentrated in them is more likely to leak into expectations than the same shock in an economy where the typical budget is dominated by services. The very feature that makes the shock “supply-side” in the economist’s taxonomy, that it originates outside the demand for goods, is thus not what determines whether it becomes a lasting problem. What determines that is where in the household’s experience it lands.\n\nThe exchange rate supplies a second, separate argument. India imports most of its oil, so a higher price widens the import bill, pressures the current account and weakens the rupee, and a weaker rupee raises the rupee price of everything imported, oil included. A shock that began abroad is thereby partly domesticated. Here a rise in the policy rate may be defended on grounds that have little to do with oil: by widening the gap between domestic and foreign returns, particularly when the American, British and Japanese central banks have themselves tightened, it makes holding rupee assets more attractive. The argument holds, however, only to the extent that capital responds to differentials, and only if the central bank wishes the rate to bear a burden that foreign-exchange reserves could carry for a time. Using reserves postpones the adjustment rather than ending it; using rates brings it forward at the cost of domestic growth.\n\nAgainst this must be set the speed with which a rise would travel. Since most new floating-rate loans are now linked to external benchmarks, a change in the repo rate reaches borrowers within a quarter or so, whereas deposit rates adjust more slowly and unevenly. Tightening therefore transmits quickly to those who owe money, and slowly to those who save it, and squeezes bank margins in the interval. The point is not that the cost forbids a hike but that it is front-loaded, while the benefit, lower inflation, is back-loaded and uncertain. A committee choosing between them is trading a certain, early and visible cost for a diffuse and delayed gain, which is why it so often defers.\n\nDeferral is not necessarily inaction. A central bank can hold the rate and tilt its language, replacing a neutral stance with a hawkish bias, in the hope that talk will do part of the work of tightening at no cost to borrowers. This is cheap only if believed. Guidance moves expectations when the institution’s record gives it credibility, and India’s framework, with a four per cent target and a tolerance band of two to six, provides a record to draw on. But a bank that is seen to have waited, and then raises rates in a hurry, appears to be behind the curve, and one that raises rates on a shock that fades must later reverse, spending credibility in both directions. The losses from the two errors are not symmetrical, and which is larger depends on a quantity nobody can observe in advance: how far expectations would drift if left alone.\n\nThat economists expect a rise is not, in itself, an argument for one. Forecasters polled before a decision are, to a considerable degree, forecasting one another and the foreign central banks whose moves are already public. The poll shows what the market has priced in, which matters, since a surprise carries its own costs; it does not show what the data warrant. The committee’s vote, in which a tie is resolved by the Governor’s casting vote, may be more informative than the headline, because a split reveals how uncertain the diagnosis is.\n\nThe dilemma is therefore less a contest between hawkish and dovish temperaments than a problem of diagnosis. Is the present rise in prices a one-time shift in relative prices, or the start of a broader drift in the price level? The evidence that would settle this, on core inflation, wage settlements and household expectations, arrives only after the decision must be taken. The committee is consequently choosing not between a right answer and a wrong one but between two ways of being wrong, and the sensible test of its decision is not whether the outcome proves favourable but whether it was the choice the committee would least regret across the range of futures that were plausible at the time.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following situations would, on the author’s reasoning, make the “look-through” prescription least safe to follow?",
+        "options": [
+          "A) A shock that originates entirely abroad, lifts the price level once, and falls on goods that households buy only rarely or never at all",
+          "B) A temporary shock raises the price of items households buy weekly and watch closely, so it shapes what they expect next",
+          "C) An oil-price rise in an economy whose households spend mainly on services and whose central bank has a credible target and a wide tolerance band",
+          "D) A fall in demand large enough that firms cut prices, so that any inflationary effect of the shock is cancelled before it shows up in the indices"
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 3 says the prescription fails not because a shock is ‘supply-side’ but because of where it lands in the household’s experience. A shock in prices that are noticed weekly (food, fuel) leaks into expectations, so the anchoring condition is violated even if the shock is temporary.<br><br>• <strong>Why Option A is Wrong:</strong> This describes a shock the public barely notices, which is exactly the case where expectations stay anchored and looking through is safe.<br>• <strong>Why Option C is Wrong:</strong> Services-dominated budgets and a credible framework both support anchored expectations (paras 3 and 6), so this is the safest case, not the least safe.<br>• <strong>Why Option D is Wrong:</strong> Here the shock is neutralised by falling demand, so no lasting price pressure remains and tightening would be unnecessary, which is the opposite of unsafe.<br><br><strong>💡 Approach:</strong> Convert the prescription into its two conditions (transitory, anchored) and ask which scenario breaks one of them. Distractors satisfy both conditions or remove the shock altogether."
+      },
+      {
+        "id": "q2",
+        "question": "The suggestion that a rise in the policy rate could be defended on exchange-rate grounds, even if inflation is supply-driven, depends on the assumption that",
+        "options": [
+          "A) foreign-exchange reserves are too small to defend the rupee for any period, however brief the pressure on the currency may turn out to be",
+          "B) depreciation is the only channel through which a rise in oil prices can reach consumer prices in an oil-importing economy such as India’s own",
+          "C) the American, British and Japanese central banks will reverse their own tightening as soon as India raises its repo rate by a quarter point",
+          "D) a wider interest-rate gap draws enough capital towards the rupee to ease the pressure on it"
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 4: the case works ‘only to the extent that capital responds to differentials’. Negate the option (capital ignores the gap) and the exchange-rate defence of a hike collapses, which makes it the necessary assumption.<br><br>• <strong>Why Option A is Wrong:</strong> The passage says reserves ‘could carry’ the burden ‘for a time’, so the author assumes reserves are usable; this option contradicts the text.<br>• <strong>Why Option B is Wrong:</strong> ‘Only channel’ is an absolute. The passage identifies the exchange rate as a second, separate argument, not the sole route from oil to prices (para 3 gives another).<br>• <strong>Why Option C is Wrong:</strong> An invented claim. Foreign tightening is cited as part of the differential, and nothing suggests it would be reversed by India’s decision.<br><br><strong>💡 Approach:</strong> For ‘depends on’ questions use the negation test and discard options that contradict the text or use absolutes (‘any period’, ‘only channel’)."
+      },
+      {
+        "id": "q3",
+        "question": "Which of the following, if true, would most weaken the case for substituting hawkish guidance for an actual rate rise?",
+        "options": [
+          "A) Surveys show that household expectations track fuel and vegetable prices and barely respond to central bank statements.",
+          "B) Banks that link floating-rate loans to external benchmarks have passed earlier changes in the repo rate on to borrowers within a single quarter.",
+          "C) The four per cent target and tolerance band have been met in most of the years since the framework was adopted, according to the central bank’s own record.",
+          "D) Several economists polled before the meeting expect the committee to wait until December before it decides whether a rise in the rate is justified."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Paragraph 6: guidance is cheap only if believed and works through expectations. If household expectations ignore statements and follow prices, talk cannot do ‘part of the work of tightening’, so the substitution fails.<br><br>• <strong>Why Option B is Wrong:</strong> This concerns how fast a hike reaches borrowers (para 5). It does not test whether guidance can move expectations, so it is irrelevant.<br>• <strong>Why Option C is Wrong:</strong> A good record would strengthen the credibility on which guidance depends, so this supports the case rather than weakening it.<br>• <strong>Why Option D is Wrong:</strong> A view about timing among forecasters says nothing about whether guidance is effective; it is a distraction from the mechanism.<br><br><strong>💡 Approach:</strong> Identify the mechanism being attacked (statements move expectations). A weakener cuts that link; options about transmission, record or timing address other parts of the passage."
+      },
+      {
+        "id": "q4",
+        "question": "In the passage’s argument, the observation about how quickly a rate rise would reach borrowers and savers serves chiefly to",
+        "options": [
+          "A) show that a hike would be unjustified, since the harm to borrowers would certainly exceed any gain from lower inflation later on",
+          "B) establish that banks, rather than the central bank, decide how far a change in the policy rate is passed on to the wider economy",
+          "C) explain why the costs of tightening come early and visibly while its benefits come late",
+          "D) argue that deposit rates should be linked to external benchmarks, so that savers are treated in the same manner as borrowers are"
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> Paragraph 5 ends by saying the cost is ‘front-loaded’ while the benefit is ‘back-loaded and uncertain’, which is why a committee ‘so often defers’. The transmission detail exists to support that timing asymmetry.<br><br>• <strong>Why Option A is Wrong:</strong> The author states ‘the point is not that the cost forbids a hike’; ‘certainly exceed’ turns a trade-off into a verdict.<br>• <strong>Why Option B is Wrong:</strong> The passage mentions banks only as the channel and as bearers of squeezed margins; it never discusses who decides pass-through.<br>• <strong>Why Option D is Wrong:</strong> A policy proposal on deposit rates appears nowhere in the passage.<br><br><strong>💡 Approach:</strong> Role questions ask why a detail is there. Read the sentence that follows it: here the author immediately names the front-loaded versus back-loaded contrast."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following best captures the author’s attitude towards the economists’ poll?",
+        "options": [
+          "A) It is worthless, because economists who answer polls have no better information about inflation than the members of the committee",
+          "B) It records what is priced in, which matters, but is weak evidence of what the data warrant",
+          "C) It is decisive, since a surprise to the market carries costs that outweigh any benefit from a decision the poll did not anticipate",
+          "D) It is misleading mainly because foreign central banks, whose moves it follows, tend to raise rates earlier than domestic conditions justify"
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 7 grants that the poll shows what the market has priced in, which matters because surprises have costs, yet it ‘does not show what the data warrant’ and forecasters partly forecast one another. The author is balanced, not dismissive.<br><br>• <strong>Why Option A is Wrong:</strong> ‘Worthless’ is too strong; the author concedes the poll’s informational value about pricing, and the passage never compares economists’ information with the committee’s.<br>• <strong>Why Option C is Wrong:</strong> ‘Decisive’ overstates: surprise costs are conceded but the author says the poll is not in itself an argument for a rise.<br>• <strong>Why Option D is Wrong:</strong> The author says forecasters follow foreign central banks, not that foreign banks move too early; the stated problem is herding, not mistimed foreign policy.<br><br><strong>💡 Approach:</strong> Attitude questions: avoid the extreme poles (‘worthless’, ‘decisive’) when the author concedes a point and then qualifies it."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following best states the conclusion towards which the passage builds?",
+        "options": [
+          "A) The committee should raise the rate, because the cost of letting expectations drift exceeds the cost of an unneeded hike in every circumstance",
+          "B) The committee should hold the rate and rely on guidance, because data on core inflation, wages and expectations will confirm the diagnosis in time",
+          "C) Differences of opinion on the committee reflect hawkish and dovish temperaments, and the Governor’s casting vote should settle every such division",
+          "D) The decision is a choice between two possible errors and should be judged by ex-ante regret, not by outcome."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 8: the committee chooses ‘between two ways of being wrong’ and the test is the choice it would least regret across the plausible futures, ‘not whether the outcome proves favourable’.<br><br>• <strong>Why Option A is Wrong:</strong> ‘In every circumstance’ is an absolute; para 6 says which error is larger depends on an unobservable quantity.<br>• <strong>Why Option B is Wrong:</strong> Para 8 says the settling evidence arrives only after the decision must be taken, so the data cannot confirm the diagnosis in time.<br>• <strong>Why Option C is Wrong:</strong> The author says the dilemma is ‘less a contest between temperaments’ than a problem of diagnosis, and treats the casting vote only as a tie-break (para 7).<br><br><strong>💡 Approach:</strong> For conclusion questions, pick the option that matches the last paragraph’s final move and reject recommendations the author never makes."
+      }
+    ]
   }
 ]
 
