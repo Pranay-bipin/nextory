@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEXTORY - IPMAT Prep Portal</title>
-    <!-- Chart.js CDN for Visual Performance Analysis -->
+    <!-- Chart.js CDN for Advanced Visual Performance Graphs -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         :root {
@@ -17,6 +17,7 @@
             --text-body: #2d4538;
             --text-muted: #5e7a6b;
             
+            /* GREEN THEME VARIABLES */
             --green-primary: #10b981;
             --green-hover: #047857;
             --green-bg: #ecfdf5;
@@ -223,7 +224,7 @@
 
         .q-palette-container { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border-light); }
         .q-palette-title { font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; }
-        .q-palette-grid { display: flex; flex-wrap: wrap; gap: 6px; max-height: 140px; overflow-y: auto; padding-right: 4px; }
+        .q-palette-grid { display: flex; flex-wrap: wrap; gap: 6px; max-height: 180px; overflow-y: auto; padding-right: 4px; }
         .q-grid-btn {
             width: 32px; height: 32px; min-width: 32px; min-height: 32px; border-radius: 6px;
             border: 1px solid var(--border-light); background: var(--bg-subtle); color: var(--text-body);
@@ -238,18 +239,22 @@
         .submit-btn { width: 100%; background: var(--green-hover); color: #ffffff; border: none; padding: 13px; border-radius: 10px; font-weight: 800; font-size: 0.95rem; cursor: pointer; margin-top: 20px; transition: all 0.2s ease; box-shadow: 0 4px 14px rgba(4, 120, 87, 0.25); }
         .submit-btn:hover { background: #065f46; transform: translateY(-1px); }
 
-        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 41, 30, 0.5); backdrop-filter: blur(8px); z-index: 1000; justify-content: center; align-items: center; overflow-y: auto; padding: 20px; }
-        .modal-overlay.active { display: flex; }
+        /* MODAL OVERLAYS */
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 41, 30, 0.6); backdrop-filter: blur(8px); z-index: 2000; justify-content: center; align-items: center; overflow-y: auto; padding: 20px; }
+        .modal-overlay.active { display: flex !important; }
 
+        /* CONFIRMATION POPUP */
         .confirm-box { background: #ffffff; border-radius: 18px; border: 1px solid var(--border-light); padding: 32px; max-width: 440px; width: 100%; text-align: center; box-shadow: 0 25px 50px -12px rgba(15, 41, 30, 0.25); }
         .confirm-icon { width: 60px; height: 60px; background: #fef3c7; color: #d97706; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; margin: 0 auto 16px; border: 1px solid #fde68a; }
 
-        .dashboard-card { background: #ffffff; border: 1px solid var(--border-light); width: 100%; max-width: 820px; border-radius: 20px; padding: 32px; text-align: left; box-shadow: 0 25px 50px -12px rgba(15, 41, 30, 0.2); margin: auto; max-height: 90vh; overflow-y: auto; }
+        /* ADVANCED DASHBOARD CARD */
+        .dashboard-card { background: #ffffff; border: 1px solid var(--border-light); width: 100%; max-width: 840px; border-radius: 20px; padding: 32px; text-align: left; box-shadow: 0 25px 50px -12px rgba(15, 41, 30, 0.25); margin: auto; max-height: 90vh; overflow-y: auto; }
         .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 12px; margin: 20px 0; }
         .stat-box { background: var(--bg-subtle); padding: 14px; border-radius: 12px; border: 1px solid var(--border-light); text-align: center; }
         .stat-val { font-size: 1.3rem; font-weight: 800; color: var(--text-heading); }
         .stat-lbl { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; margin-top: 4px; font-weight: 700; letter-spacing: 0.04em; }
 
+        /* ANALYSIS SECTIONS */
         .dashboard-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 24px 0; }
         @media (max-width: 700px) { .dashboard-layout { grid-template-columns: 1fr; } }
 
@@ -287,6 +292,7 @@
     </header>
 
     <div class="container">
+        <!-- 1. DAILY VOCAB TAB -->
         <div id="panel-vocab" class="view-panel active">
             <div class="hero-banner">
                 <h1>Master High-Frequency Vocabulary, Idioms & Phrasal Verbs for IPMAT</h1>
@@ -312,6 +318,7 @@
             </div>
         </div>
 
+        <!-- 2. READING PRACTICE TAB -->
         <div id="panel-reading" class="view-panel">
             <div class="test-split">
                 <!-- Left: Passage -->
@@ -351,6 +358,7 @@
             </div>
         </div>
 
+        <!-- 3. DAILY DI/LR TAB -->
         <div id="panel-dilr" class="view-panel">
             <div id="dilr-container">
                 <div class="question-card" style="text-align:center; padding: 40px;">
@@ -359,6 +367,7 @@
             </div>
         </div>
 
+        <!-- 4. SECTIONALS TAB -->
         <div id="panel-sectional" class="view-panel">
             <div id="sectional-banner-container">
                 <div class="question-card" style="text-align:center; padding: 40px;">
@@ -367,6 +376,7 @@
             </div>
         </div>
 
+        <!-- 5. SAVED HUB TAB -->
         <div id="panel-saved" class="view-panel">
             <div class="question-card">
                 <h2 style="margin-bottom: 6px; color: var(--text-heading);">🔖 Saved Vocab Hub</h2>
@@ -389,6 +399,7 @@
             </div>
         </div>
 
+        <!-- 6. PAST RCS ARCHIVE TAB -->
         <div id="panel-archive" class="view-panel">
             <div class="question-card">
                 <h2 style="margin-bottom: 15px; color: var(--text-heading);">Past Reading Passages Archive (IPMAT Advanced Standard)</h2>
@@ -397,6 +408,7 @@
         </div>
     </div>
 
+    <!-- SUBMISSION CONFIRMATION MODAL -->
     <div id="confirm-modal" class="modal-overlay">
         <div class="confirm-box">
             <div class="confirm-icon">⚠️</div>
@@ -409,9 +421,10 @@
         </div>
     </div>
 
+    <!-- ADVANCED PERFORMANCE ANALYSIS DASHBOARD -->
     <div id="dashboard-modal" class="modal-overlay">
         <div class="dashboard-card">
-            <div style="display:flex; justify-space-between; align-items:flex-start; margin-bottom: 10px;">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom: 10px;">
                 <div>
                     <h2 style="color:var(--text-heading); font-size:1.5rem; font-weight:800;">📊 Performance & Diagnostic Analysis</h2>
                     <p style="color:var(--text-muted); font-size:0.88rem;">Comprehensive breakdown of accuracy, time metrics, and topic strengths.</p>
@@ -419,6 +432,7 @@
                 <span class="sub-tag" id="dash-test-title">IPMAT Sectional</span>
             </div>
 
+            <!-- Top Core Metrics Grid -->
             <div class="stats-grid">
                 <div class="stat-box">
                     <div id="stat-accuracy" class="stat-val" style="color:var(--status-correct)">0%</div>
@@ -446,7 +460,9 @@
                 </div>
             </div>
 
+            <!-- Dashboard Split Layout: Chart + Topic Breakdown -->
             <div class="dashboard-layout">
+                <!-- Visual Doughnut Graph -->
                 <div class="chart-container">
                     <h4 style="font-size:0.82rem; font-weight:800; text-transform:uppercase; color:var(--text-muted); margin-bottom:12px;">Attempts Visual Breakdown</h4>
                     <div style="width:180px; height:180px;">
@@ -454,9 +470,12 @@
                     </div>
                 </div>
 
+                <!-- Topic Weakness & Strength Segregation -->
                 <div class="topic-breakdown-box">
                     <h4 style="font-size:0.82rem; font-weight:800; text-transform:uppercase; color:var(--text-muted); margin-bottom:14px;">Topic Diagnostic Breakdown</h4>
-                    <div id="topic-rows-container"></div>
+                    <div id="topic-rows-container">
+                        <!-- Dynamic Injection -->
+                    </div>
                 </div>
             </div>
 
@@ -465,125 +484,6 @@
     </div>
 
     <script>
-        const DEFAULT_PASSAGES = [
-            {
-                "id": "rc-2026-10-05",
-                "date": "2026-10-05",
-                "title": "The Decarbonization Dilemma: Grid-Scale Storage, DISCOM Solvency, and the Political Economy of Power",
-                "genre": "Environmental Economics & Public Policy",
-                "wordCount": "1024 words",
-                "passage": "In the first week of October 2026, the Union Cabinet’s approval of the ₹1,86,405 crore Green Energy Corridor Phase-III (GEC-III) scheme marked a pivotal structural transition in India’s energy architecture. Designed to evacuate over 100 gigawatts (GW) of renewable capacity across eight resource-rich states, GEC-III is not merely an expansion of high-voltage transmission lines; it represents a paradigm shift toward grid-scale Battery Energy Storage Systems (BESS) and synchronized intra-state wheeling mechanisms. While macroeconomic commentators have overwhelmingly lauded the commitment to reaching 500 GW of non-fossil capacity well before the 2070 Net-Zero benchmark, energy economists and utility regulators harbor a far more cautious perspective. Beneath the optimistic press releases lies a delicate structural friction: the fundamental tension between rapid decarbonization targets and the operational solvency of state-level electricity distribution companies (DISCOMs).\n\nFor decades, the Achilles' heel of India’s power sector has not been generation capacity, but the chronic financial hemorrhage within DISCOMs. Burdened by legacy cross-subsidy structures—wherein commercial and industrial tariffs artificially underwrite agricultural and domestic consumption—DISCOMs continuously face severe liquidity shortfalls. The introduction of massive, intermittent solar and wind feeds under GEC-III exacerbates this vulnerability. Because solar generation peaks during off-peak midday hours, grid operators are frequently forced to curtail renewable intake or sell excess electrons at negative or near-zero spot prices on the Indian Energy Exchange. Conversely, during evening peak demand periods, when solar inputs collapse entirely, DISCOMs are obligated to fire up expensive, under-utilized open-cycle thermal plants or purchase exorbitant peak-hour power. Without dynamic time-of-day tariff reform and robust storage buffering, the influx of cheap green power paradoxically inflates the average cost of supply for state utilities.\n\nGEC-III attempts to bypass this structural trap by mandating co-located BESS infrastructure and providing a 35% Central Financial Assistance (CFA) for intra-state transmission lines. The policy logic assumes that capital cost subsidies will reduce wheeling charges, allowing DISCOMs to absorb green power without spiking consumer tariffs. However, this assumption relies on an unverified macroeconomic premise: that capital expenditure subsidies in transmission can compensate for operational inefficiency in distribution. In reality, transmission wheeling costs represent less than 12% of a DISCOM’s overall power purchase cost structure. Even if state transmission utilities achieve zero-cost infrastructure through central grants, the overarching expense of long-term Power Purchase Agreements (PPAs) tied to legacy coal plants remains fixed under mandatory 'take-or-pay' contractual clauses. Until these legacy two-part tariff contracts expire, DISCOMs are trapped in a financial vice, paying fixed capacity charges for idling thermal stations while simultaneously financing new renewable corridors.\n\nThe geopolitical dimension of GEC-III further complicates its domestic implementation. The technical feasibility of grid-scale BESS relies almost exclusively on Lithium Iron Phosphate (LFP) and sodium-ion chemistry. Despite industrial incentive schemes like the Production Linked Incentive (PLI) for Advanced Chemistry Cells, India's domestic battery supply chain remains heavily dependent on imported critical minerals, specifically refined lithium, cobalt, and synthetic graphite processed in East Asia. A sudden supply-chain bottleneck or geopolitical flare-up in maritime choke points would not only escalate the capital outlay for GEC-III storage facilities, but also expose the national grid to foreign supply shocks. Thus, in attempting to solve domestic energy security through rapid renewable integration, policy architects may unintentionally swap a fossil-fuel import reliance for a critical-mineral supply-chain vulnerability.\n\nFurthermore, the legal architecture governing intra-state energy wheeling under GEC-III introduces novel regulatory friction between the Centre and state governments. Electricity is a concurrent subject under the Indian Constitution, yet GEC-III conditions central assistance on strict compliance with Central Electricity Regulatory Commission (CERC) grid-code standards and the unbundling of state electricity boards. Sovereign states governed by regional opposition parties argue that rigid central mandates erode state-level regulatory autonomy, particularly regarding local tariff setting and free power allowances for rural farmers. If state regulators refuse to pass through dynamic time-of-day tariffs to end-consumers, the financial burden of storage degradation and grid balancing will fall squarely back on state treasuries, triggering a fresh cycle of municipal bailouts and sovereign debt accumulation.\n\nTechnocratic enthusiasts argue that artificial intelligence and automated demand-response algorithms will seamlessly iron out these friction points by predicting weather-driven generation fluctuations down to the second. Yet, technological optimism cannot substitute for institutional reform. An algorithm can optimize electron routing across a high-voltage corridor, but it cannot restructure a bankrupt state utility, renegotiate a binding thirty-year thermal PPA, or enforce bill collection in politically sensitive rural feeder zones. The ultimate success of GEC-III will not be measured by the total circuit-kilometers of transmission lines constructed or the total megawatt-hours of lithium batteries deployed along the desert corridors of Rajasthan and Gujarat. Instead, it will be determined by whether Indian policymakers possess the political courage to dismantle the distorted political economy of electricity pricing that has crippled the power sector for half a century. Without deep structural reform at the DISCOM level, GEC-III risks becoming an extraordinarily sophisticated, trillion-rupee green elephant—an elite engineering marvel built upon a crumbling financial foundation.",
-                "vocab": {
-                    "words": [
-                        { "word": "Solvency", "type": "noun", "def": "The ability of a company or organization to pay its debts and financial obligations.", "ex": "The government launched a bailout package to ensure the financial solvency of state DISCOMs." },
-                        { "word": "Exacerbate", "type": "verb", "def": "To make a problem, situation, or negative feeling worse.", "ex": "Adding unmanaged renewable power to the grid can exacerbate the existing financial losses of utilities." },
-                        { "word": "Premise", "type": "noun", "def": "An underlying assumption or statement that forms the basis for a theory or line of reasoning.", "ex": "The policy was built on the flawed premise that subsidizing capital costs would cure operational inefficiency." },
-                        { "word": "Impervious", "type": "adjective", "def": "Not allowing entrance or passage; incapable of being affected or influenced.", "ex": "Legacy power distribution companies remain impervious to market competition without legal reform." },
-                        { "word": "Obfuscate", "type": "verb", "def": "To intentionally make something unclear, obscure, or confusing.", "ex": "Complex multi-tier tariff structures often obfuscate the actual cost of power generation." },
-                        { "word": "Friction", "type": "noun", "def": "Conflict or disagreement between groups, organizations, or legal bodies.", "ex": "Enforcing central energy guidelines caused constitutional friction between federal and state authorities." },
-                        { "word": "Paradoxically", "type": "adverb", "def": "In a way that seems absurd or contradictory, but may actually be true.", "ex": "Paradoxically, introducing free solar power increased the average cost of electricity supply for utilities." },
-                        { "word": "Bypass", "type": "verb", "def": "To avoid or circumvent a rule, obstacle, or complicated system.", "ex": "The central scheme tried to bypass state-level bureaucratic delays by offering direct financial assistance." },
-                        { "word": "Autonomy", "type": "noun", "def": "The right or condition of self-government and independent decision-making.", "ex": "State regulators argued that central grid policies infringed upon their regional tariff autonomy." },
-                        { "word": "Dismantle", "type": "verb", "def": "To take apart, break down, or gradually abolish a system or structure.", "ex": "Policymakers must dismantle the legacy subsidy models to restore profitability to the power sector." }
-                    ],
-                    "idioms": [
-                        { "idiom": "Achilles' heel", "def": "A weak point or vulnerability in an otherwise strong situation.", "ex": "Inadequate power distribution infrastructure remains the Achilles' heel of India's green growth." },
-                        { "idiom": "White elephant", "def": "A possession or project that is extremely expensive to maintain but yields little practical value.", "ex": "Without consumer reform, the new transmission corridor risks turning into a massive green white elephant." },
-                        { "idiom": "Caught in a vice", "def": "Trapped in a difficult situation squeezed between two opposing forces.", "ex": "DISCOMs are caught in a vice, paying fixed thermal charges while financing new solar corridors." },
-                        { "idiom": "Iron out", "def": "To resolve small problems, difficulties, or disagreements through discussion or technology.", "ex": "Engineers hope automated AI software will iron out supply fluctuations in the solar grid." },
-                        { "idiom": "A double-edged sword", "def": "Something that offers benefits but also brings serious potential drawbacks.", "ex": "Rapid solar expansion is a double-edged sword, cutting carbon emissions while worsening DISCOM losses." }
-                    ],
-                    "phrasalVerbs": [
-                        { "verb": "Fire up", "def": "To start up an engine, generator, or industrial plant.", "ex": "Grid operators had to fire up expensive coal plants during peak evening demand hours." },
-                        { "verb": "Pass through", "def": "To transfer costs, taxes, or charges directly to the end customer.", "ex": "State regulators refused to pass through battery degradation expenses to residential users." },
-                        { "verb": "Phased out", "def": "Gradually stopped or discontinued over time.", "ex": "Legacy coal power purchase agreements must be phased out to make space for clean energy." },
-                        { "verb": "Fall back on", "def": "To rely on something or someone as a secondary reserve when primary options fail.", "ex": "When power revenues declined, state utilities had to fall back on government bailouts." },
-                        { "verb": "Unbundle from", "def": "To separate a large corporate or public entity into smaller independent functional units.", "ex": "Central guidelines require state electricity boards to unbundle generation from distribution." }
-                    ]
-                },
-                "questions": [
-                    {
-                        "id": "q1",
-                        "type": "RC",
-                        "question": "Which of the following best expresses the author's primary central argument in the passage?",
-                        "options": [
-                            "A) GEC-III will fail completely because foreign supply-chain risks for lithium and cobalt make renewable energy infrastructure financially unviable compared to legacy coal generation.",
-                            "B) Without fundamental reforms in DISCOM pricing structures and legacy contracts, GEC-III’s green infrastructure upgrades cannot overcome the power sector's financial instability.",
-                            "C) The implementation of GEC-III represents an unconstitutional expansion of central government power that unfairly strips sovereign state regulators of their authority over agricultural tariffs and rural electricity distribution.",
-                            "D) Although the Green Energy Corridor Phase-III scheme introduces high-voltage transmission lines, co-located battery storage systems, and advanced AI demand-response algorithms to evacuate green power across eight resource-rich states, its overall macroeconomic impact will be limited because state-level DISCOMs prefer long-term thermal contracts over renewable PPAs."
-                        ],
-                        "answer": 1,
-                        "explanation": "<strong>Explanation & Analysis:</strong><br>• <strong>Why Option D (Longest Option) is INCORRECT:</strong> Option D misrepresents the passage. The text explicitly states that DISCOMs are trapped in legacy thermal contracts due to mandatory 'take-or-pay' clauses, not because they 'prefer' thermal contracts.<br>• <strong>Why Option B is CORRECT:</strong> Option B accurately summarizes the primary argument: infrastructure additions (GEC-III) are insufficient unless fundamental DISCOM pricing distortions and legacy contract vices are addressed.<br>• <strong>Option A & C:</strong> Focus too narrowly on isolated points."
-                    },
-                    {
-                        "id": "q2",
-                        "type": "RC",
-                        "question": "Based on Paragraphs 2 and 3, why does the introduction of cheap solar power under GEC-III paradoxically increase the average cost of power supply for DISCOMs?",
-                        "options": [
-                            "A) Solar power generation drops during evening demand peaks, forcing DISCOMs to buy expensive peak power while remaining contractually bound to pay fixed capacity charges for idling thermal plants.",
-                            "B) Solar panels degrade faster under high-voltage intra-state transmission corridors, forcing state utilities to spend more on battery replacement than they save on fuel consumption.",
-                            "C) The Central Financial Assistance subsidy of 35% covers only intra-state lines, leaving DISCOMs fully responsible for paying the remaining 65% out of municipal tax revenues.",
-                            "D) Because solar power generated during peak off-peak hours must be transmitted across long distance high-voltage lines that require constant algorithmic grid balancing by third-party software engineers, the operational maintenance fees charged by private transmission operators outweigh the cost savings achieved through lower generation costs."
-                        ],
-                        "answer": 0,
-                        "explanation": "<strong>Explanation & Analysis:</strong><br>• <strong>Why Option D (Longest Option) is INCORRECT:</strong> Option D introduces completely fabricated information ('operational maintenance fees charged by private transmission operators...').<br>• <strong>Why Option A is CORRECT:</strong> Midday solar leads to zero spot prices, while evening demand forces DISCOMs to buy expensive peak power while paying fixed capacity charges for idling coal plants."
-                    },
-                    {
-                        "id": "q3",
-                        "type": "RC",
-                        "question": "It can be inferred from the author's discussion of the 'take-or-pay' clauses in Paragraph 3 that:",
-                        "options": [
-                            "A) Thermal power plant operators will voluntarily cancel legacy PPAs once central battery storage facilities come online.",
-                            "B) Capital subsidies on transmission infrastructure fail to address the bulk of a DISCOM’s fixed financial liabilities.",
-                            "C) DISCOMs can eliminate financial losses simply by refusing to purchase power from idling thermal stations.",
-                            "D) Modernizing intra-state transmission lines through GEC-III grants will automatically reduce the fixed capacity charges that state distribution companies are required to pay under older thirty-year thermal power purchase agreements."
-                        ],
-                        "answer": 1,
-                        "explanation": "<strong>Explanation & Analysis:</strong><br>• <strong>Why Option D (Longest Option) is INCORRECT:</strong> Option D contradicts the passage which states fixed capacity charges remain locked regardless of central grants.<br>• <strong>Why Option B is CORRECT:</strong> Transmission accounts for <12% of costs. Thus, subsidizing transmission ignores fixed capacity charges under legacy thermal PPAs."
-                    },
-                    {
-                        "id": "q4",
-                        "type": "RC",
-                        "question": "The author mentions the 'critical-mineral supply-chain vulnerability' in Paragraph 4 primarily to highlight that:",
-                        "options": [
-                            "A) India should abandon battery storage technologies in favor of domestic coal-fired thermal expansion.",
-                            "B) Decarbonizing the energy grid through battery storage replaces foreign fossil fuel dependency with critical mineral import dependency.",
-                            "C) Advanced Chemistry Cell PLI schemes have successfully eliminated India's reliance on foreign battery manufacturers.",
-                            "D) Relying on Lithium Iron Phosphate and sodium-ion batteries for grid-scale energy storage is technically inferior to traditional mechanical flywheel storage systems because critical minerals cannot withstand the high desert temperatures encountered across solar parks in Rajasthan and Gujarat."
-                        ],
-                        "answer": 1,
-                        "explanation": "<strong>Explanation & Analysis:</strong><br>• <strong>Why Option D (Longest Option) is INCORRECT:</strong> Option D invents external concepts ('mechanical flywheel storage', 'desert temperatures').<br>• <strong>Why Option B is CORRECT:</strong> Directly captures the author's warning of swapping fossil-fuel import reliance for critical-mineral vulnerability."
-                    },
-                    {
-                        "id": "q5",
-                        "type": "RC",
-                        "question": "Which of the following, if true, would most weaken the author's skepticism regarding the success of GEC-III?",
-                        "options": [
-                            "A) The central government passes binding legislation allowing DISCOMs to legally terminate legacy thermal PPAs without financial penalty upon adopting green energy tariffs.",
-                            "B) Artificial intelligence models improve solar generation forecasting accuracy by 15% across Northern India.",
-                            "C) High-voltage intra-state transmission lines reduce line-loss energy dissipation by 4% during summer months.",
-                            "D) Global supply prices for lithium carbonate stabilize following the discovery of new domestic mineral reserves in South America, thereby enabling private battery developers to construct grid-scale BESS facilities at a lower initial capital expenditure per megawatt-hour."
-                        ],
-                        "answer": 0,
-                        "explanation": "<strong>Explanation & Analysis:</strong><br>• <strong>Why Option D (Longest Option) is INCORRECT:</strong> Cheaper battery Capex does not solve the PPA problem or DISCOM pricing distortions.<br>• <strong>Why Option A is CORRECT:</strong> Terminating legacy PPAs removes the main financial barrier identified by the author, directly weakening their skepticism."
-                    },
-                    {
-                        "id": "q6",
-                        "type": "RC",
-                        "question": "What is the tone and attitude of the author towards 'technocratic enthusiasts' described in the final paragraph?",
-                        "options": [
-                            "A) Fully endorsement of their automated AI vision for solving grid instability.",
-                            "B) Mildly critical of their reliance on engineering and algorithmic solutions while ignoring institutional political-economy issues.",
-                            "C) Dismissive of their technical capability to route electrons accurately across high-voltage transmission lines.",
-                            "D) Highly appreciative of their efforts to integrate artificial intelligence and predictive algorithms into the national grid while recognizing that minor legal adjustments will be required to ensure total state compliance."
-                        ],
-                        "answer": 1,
-                        "explanation": "<strong>Explanation & Analysis:</strong><br>• <strong>Why Option D (Longest Option) is INCORRECT:</strong> Option D claims the author is 'highly appreciative' and expects 'minor legal adjustments', whereas the author calls for deep structural overhauls.<br>• <strong>Why Option B is CORRECT:</strong> The author acknowledges technical capabilities but criticizes the belief that tech alone can fix institutional bankruptcy."
-                    }
-                ]
-            }
-        ];
-
         let allPassages = [];
         let currentRC = null;
         let currentQIndex = 0;
@@ -597,16 +497,16 @@
 
         let savedItems = JSON.parse(localStorage.getItem('nextory_saved')) || [];
 
-        // Sectional State
+        // Sectional State Variables
         let todaySectional = null;
         let sectionalUserAnswers = {};
-        let sectionalSeconds = 2400;
+        let sectionalSeconds = 2400; // 40 Mins Countdown
         let sectionalTimerInterval = null;
         let isSectionalSubmitted = false;
         let isSectionalTimerActive = false;
         let secCurrentQIndex = 0;
 
-        // DI/LR State
+        // DI/LR State Variables
         let allDILRSets = [];
         let currentDILR = null;
         let dilrQIndex = 0;
@@ -616,15 +516,21 @@
         let dilrSecondsElapsed = 0;
         let isDILRTimerActive = false;
         let isDILRComingSoon = false;
+        let dilrComingSoonInfo = null;
 
+        // Submission state tracker
         let pendingSubmissionType = null;
         let accuracyChartInstance = null;
 
         document.addEventListener("visibilitychange", function() {
             if (document.hidden) {
-                if (activeTab === 'reading' && isTimerActive && !isSubmitted) pauseTimer();
-                else if (activeTab === 'dilr' && isDILRTimerActive && !isDILRSubmitted) pauseDILRTimer();
-                else if (activeTab === 'sectional' && isSectionalTimerActive && !isSectionalSubmitted) pauseSectionalTimer();
+                if (activeTab === 'reading' && isTimerActive && !isSubmitted) {
+                    pauseTimer();
+                } else if (activeTab === 'dilr' && isDILRTimerActive && !isDILRSubmitted) {
+                    pauseDILRTimer();
+                } else if (activeTab === 'sectional' && isSectionalTimerActive && !isSectionalSubmitted) {
+                    pauseSectionalTimer();
+                }
             }
         });
 
@@ -642,18 +548,22 @@
                 if (!response.ok) throw new Error("Network response error");
                 allPassages = await response.json();
             } catch (err) {
-                console.warn("Could not fetch passages.json, using embedded fallback:", err);
-                allPassages = DEFAULT_PASSAGES;
+                console.error("Could not fetch passages.json", err);
             }
 
             if (allPassages && allPassages.length > 0) {
                 const todayStr = getLocalDateString();
                 const availablePassages = allPassages.filter(p => p.date <= todayStr);
-                currentRC = availablePassages.find(p => p.date === todayStr) || availablePassages[availablePassages.length - 1] || allPassages[0];
+
+                if (availablePassages.length > 0) {
+                    currentRC = availablePassages.find(p => p.date === todayStr) || availablePassages[availablePassages.length - 1];
+                } else {
+                    currentRC = allPassages[allPassages.length - 1];
+                }
 
                 renderVocab(currentRC.vocab);
                 renderReadingTest(currentRC, false);
-                renderArchive(availablePassages.length ? availablePassages : allPassages);
+                renderArchive(availablePassages.length > 0 ? availablePassages : allPassages);
                 updateSavedBadge();
             }
 
@@ -666,7 +576,11 @@
                 const response = await fetch('sectional.json');
                 if (!response.ok) throw new Error("Sectional JSON fetch error");
                 let sectionals = await response.json();
-                if (!Array.isArray(sectionals)) sectionals = [sectionals];
+                
+                // Ensure sectionals is formatted as an array
+                if (!Array.isArray(sectionals)) {
+                    sectionals = [sectionals];
+                }
 
                 if (sectionals && sectionals.length > 0) {
                     const todayStr = getLocalDateString();
@@ -676,7 +590,7 @@
                     renderNoSectionalBanner();
                 }
             } catch (err) {
-                console.warn("Sectional data fetch failed:", err);
+                console.warn("Sectional data error/fallback:", err);
                 renderNoSectionalBanner();
             }
         }
@@ -685,11 +599,13 @@
             try {
                 const response = await fetch('dilr.json');
                 if (!response.ok) throw new Error("dilr.json fetch error");
-                let data = await response.json();
-                let item = Array.isArray(data) ? data[0] : data;
+                const data = await response.json();
+
+                const item = Array.isArray(data) ? data[0] : data;
 
                 if (item && item.status === "coming_soon") {
                     isDILRComingSoon = true;
+                    dilrComingSoonInfo = item;
                     renderComingSoonDILR(item);
                     return;
                 }
@@ -705,6 +621,7 @@
                     renderComingSoonDILR();
                 }
             } catch (err) {
+                console.warn("DI/LR data fallback to coming soon:", err);
                 isDILRComingSoon = true;
                 renderComingSoonDILR();
             }
@@ -713,16 +630,23 @@
         function renderComingSoonDILR(info) {
             const container = document.getElementById('dilr-container');
             if (!container) return;
-            const title = info?.title || 'Daily DI / LR Section';
-            const badge = info?.badge || 'Coming Soon';
-            const message = info?.message || 'We are currently curating high-level Data Interpretation & Logical Reasoning sets tailored for IPMAT.';
-            const subMessage = info?.subMessage || 'Content under final review and will be live shortly!';
+
+            const title = (info && info.title) ? info.title : 'Daily DI / LR Section';
+            const badge = (info && info.badge) ? info.badge : 'Coming Soon';
+            const message = (info && info.message) ? info.message : 'We are currently curating high-level Data Interpretation & Logical Reasoning sets tailored for IPMAT.';
+            const subMessage = (info && info.subMessage) ? info.subMessage : 'Content under final review and will be live shortly!';
 
             container.innerHTML = `
                 <div class="question-card" style="text-align: center; padding: 60px 24px; max-width: 680px; margin: 40px auto; border: 1px solid var(--green-border);">
-                    <div style="width: 70px; height: 70px; background: var(--green-bg); color: var(--green-hover); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-size: 32px; border: 1px solid var(--green-border);">📊</div>
-                    <h2 style="font-size: 1.8rem; font-weight: 800; color: var(--text-heading); margin-bottom: 12px;">${title} <span style="color: var(--green-primary);">(${badge})</span></h2>
-                    <p style="color: var(--text-body); font-size: 1rem; margin-bottom: 24px; line-height: 1.6;">${message}</p>
+                    <div style="width: 70px; height: 70px; background: var(--green-bg); color: var(--green-hover); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-size: 32px; border: 1px solid var(--green-border);">
+                        📊
+                    </div>
+                    <h2 style="font-size: 1.8rem; font-weight: 800; color: var(--text-heading); margin-bottom: 12px;">
+                        ${title} <span style="color: var(--green-primary);">(${badge})</span>
+                    </h2>
+                    <p style="color: var(--text-body); font-size: 1rem; margin-bottom: 24px; line-height: 1.6;">
+                        ${message}
+                    </p>
                     <div style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 18px; border-radius: 20px; background: var(--green-bg); border: 1px solid var(--green-border); color: var(--green-hover); font-size: 0.88rem; font-weight: 700;">
                         <span>⏳ ${subMessage}</span>
                     </div>
@@ -730,24 +654,44 @@
         }
 
         function renderDILRSet() {
-            if (isDILRComingSoon) { renderComingSoonDILR(); return; }
+            if (isDILRComingSoon) {
+                renderComingSoonDILR(dilrComingSoonInfo);
+                return;
+            }
+
             const container = document.getElementById('dilr-container');
-            if (!currentDILR || !currentDILR.questions) { renderComingSoonDILR(); return; }
+            if (!currentDILR || !currentDILR.questions) {
+                renderComingSoonDILR(dilrComingSoonInfo);
+                return;
+            }
 
             const qList = currentDILR.questions;
             const q = qList[dilrQIndex];
+
             const mins = Math.floor(dilrSecondsElapsed / 60).toString().padStart(2, '0');
             const secs = (dilrSecondsElapsed % 60).toString().padStart(2, '0');
 
-            const isTITA = (q.type && q.type.toUpperCase().includes("TITA")) || !q.options;
+            const timerHeaderHtml = `
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                    <h3 style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">Question Palette</h3>
+                    <div class="timer-badge-box">
+                        <span id="dilr-timer-display" class="timer-badge-text">⏱️ ${mins}:${secs}</span>
+                        <button id="dilr-pause-btn" class="timer-pause-btn" onclick="toggleDILRTimer()">${isDILRTimerActive ? 'Pause' : 'Resume'}</button>
+                    </div>
+                </div>`;
+
+            const isTITA = q.type && q.type.toUpperCase().includes("TITA") || !q.options;
             let optionsHtml = "";
 
             if (isTITA) {
                 const currentVal = dilrUserAnswers[dilrQIndex] || "";
                 let inputClass = "tita-input-box";
                 if (isDILRSubmitted) {
-                    inputClass += (String(currentVal).trim() === String(q.answer).trim()) ? " correct-input" : " wrong-input";
+                    const cleanUserAns = String(currentVal).trim();
+                    const cleanCorrectAns = String(q.answer).trim();
+                    inputClass += (cleanUserAns === cleanCorrectAns) ? " correct-input" : " wrong-input";
                 }
+
                 optionsHtml = `
                     <div style="margin-top: 15px;">
                         <label style="font-weight: 700; font-size: 0.88rem; color: var(--text-muted); display: block; margin-bottom: 6px;">Type Your Answer Below:</label>
@@ -766,13 +710,16 @@
                 }).join('');
             }
 
-            let attemptedCount = Object.keys(dilrUserAnswers).filter(k => dilrUserAnswers[k] !== undefined && dilrUserAnswers[k] !== "").length;
+            let attemptedCount = 0;
             const gridBtnsHtml = qList.map((item, idx) => {
                 const ans = dilrUserAnswers[idx];
                 const isAttempted = ans !== undefined && ans !== "";
+                if (isAttempted) attemptedCount++;
+
                 let btnClass = "q-grid-btn";
                 if (idx === dilrQIndex) btnClass += " active-q";
                 if (isAttempted) btnClass += " attempted";
+
                 return `<button class="${btnClass}" onclick="jumpToDILRQ(${idx})">${idx + 1}</button>`;
             }).join('');
 
@@ -789,18 +736,12 @@
                     </div>
                     <div>
                         <div class="question-card">
-                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-                                <h3 style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">Question Palette</h3>
-                                <div class="timer-badge-box">
-                                    <span id="dilr-timer-display" class="timer-badge-text">⏱️ ${mins}:${secs}</span>
-                                    <button id="dilr-pause-btn" class="timer-pause-btn" onclick="toggleDILRTimer()">${isDILRTimerActive ? 'Pause' : 'Resume'}</button>
-                                </div>
-                            </div>
-                            <div style="display:flex; justify-space-between; align-items:center; margin-bottom:12px;">
+                            ${timerHeaderHtml}
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
                                 <span class="tag">Q ${dilrQIndex + 1} of ${qList.length}</span>
                                 <span style="font-weight:700; font-size:0.82rem; color:var(--text-muted);">${attemptedCount}/${qList.length} Attempted</span>
                             </div>
-                            <div style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1rem;">${q.question}</div>
+                            <div style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1rem; line-height: 1.6;">${q.question}</div>
                             <div>${optionsHtml}</div>
                             
                             <div class="q-palette-container">
@@ -824,7 +765,11 @@
             if (isDILRTimerActive || isDILRComingSoon) return;
             isDILRTimerActive = true;
             updateDILRPauseBtnUI();
-            dilrTimerInterval = setInterval(() => { dilrSecondsElapsed++; updateDILRTimerDisplay(); }, 1000);
+
+            dilrTimerInterval = setInterval(() => {
+                dilrSecondsElapsed++;
+                updateDILRTimerDisplay();
+            }, 1000);
         }
 
         function pauseDILRTimer() {
@@ -848,17 +793,35 @@
             const mins = Math.floor(dilrSecondsElapsed / 60).toString().padStart(2, '0');
             const secs = (dilrSecondsElapsed % 60).toString().padStart(2, '0');
             const display = document.getElementById('dilr-timer-display');
-            if (display) display.innerText = `⏱️ ${mins}:${secs}`;
+            if (display) display.innerText = `⏱ ${mins}:${secs}`;
         }
 
-        function selectDILROption(idx) { if (!isDILRSubmitted) { dilrUserAnswers[dilrQIndex] = idx; renderDILRSet(); } }
-        function handleDILRTITAInput(val) { if (!isDILRSubmitted) dilrUserAnswers[dilrQIndex] = val.trim(); }
-        function jumpToDILRQ(idx) { dilrQIndex = idx; renderDILRSet(); }
-        function navDILRQ(dir) {
-            const total = (currentDILR?.questions || []).length;
-            const newIdx = dilrQIndex + dir;
-            if (newIdx >= 0 && newIdx < total) { dilrQIndex = newIdx; renderDILRSet(); }
+        function selectDILROption(idx) {
+            if (isDILRSubmitted) return;
+            dilrUserAnswers[dilrQIndex] = idx;
+            renderDILRSet();
         }
+
+        function handleDILRTITAInput(val) {
+            if (isDILRSubmitted) return;
+            dilrUserAnswers[dilrQIndex] = val.trim();
+        }
+
+        function jumpToDILRQ(idx) {
+            dilrQIndex = idx;
+            renderDILRSet();
+        }
+
+        function navDILRQ(dir) {
+            const total = currentDILR.questions.length;
+            const newIdx = dilrQIndex + dir;
+            if (newIdx >= 0 && newIdx < total) {
+                dilrQIndex = newIdx;
+                renderDILRSet();
+            }
+        }
+
+        /* --- SUBMISSION POPUP & ANALYSIS ENGINE --- */
 
         function confirmSubmission(type) {
             pendingSubmissionType = type;
@@ -877,146 +840,15 @@
             else if (pendingSubmissionType === 'sectional') submitSectionalTest();
         }
 
-        function generateAdvancedDashboard(title, qList, userAnswersMap, timeTakenSeconds, isSectional = false) {
-            let correct = 0, incorrect = 0, unattempted = 0;
-
-            const topics = {
-                'RC': { name: 'Comprehension', total: 0, correct: 0 },
-                'Vocab': { name: 'Vocabulary & Words', total: 0, correct: 0 },
-                'Grammar': { name: 'Grammar & Usage', total: 0, correct: 0 },
-                'Logic': { name: 'ParaJumbles & Logic', total: 0, correct: 0 }
-            };
-
-            qList.forEach((q, idx) => {
-                const userAns = userAnswersMap[idx];
-                const isTITA = (q.type && q.type.toUpperCase().includes("TITA")) || !q.options;
-                
-                let catKey = 'RC';
-                const qTypeUpper = (q.type || '').toUpperCase();
-                if (qTypeUpper.includes('RC')) catKey = 'RC';
-                else if (qTypeUpper.includes('VOCAB') || qTypeUpper.includes('HOMOPHONE')) catKey = 'Vocab';
-                else if (qTypeUpper.includes('GRAMMAR')) catKey = 'Grammar';
-                else catKey = 'Logic';
-
-                topics[catKey].total++;
-
-                if (userAns === undefined || userAns === "") {
-                    unattempted++;
-                } else if (isTITA) {
-                    if (String(userAns).trim().toLowerCase() === String(q.answer).trim().toLowerCase()) {
-                        correct++;
-                        topics[catKey].correct++;
-                    } else {
-                        incorrect++;
-                    }
-                } else {
-                    if (Number(userAns) === Number(q.answer)) {
-                        correct++;
-                        topics[catKey].correct++;
-                    } else {
-                        incorrect++;
-                    }
-                }
-            });
-
-            const totalMarks = qList.length * 4;
-            const score = (correct * 4) - (incorrect * 1);
-            const accuracy = (correct + incorrect) > 0 ? Math.round((correct / (correct + incorrect)) * 100) : 0;
-
-            document.getElementById('dash-test-title').innerText = title;
-            document.getElementById('stat-accuracy').innerText = `${accuracy}%`;
-            document.getElementById('stat-speed').innerText = isSectional ? `${score}/${totalMarks}` : `${score} Marks`;
-            document.getElementById('stat-time').innerText = `${timeTakenSeconds}s`;
-            document.getElementById('stat-correct').innerText = correct;
-            document.getElementById('stat-incorrect').innerText = incorrect;
-            document.getElementById('stat-unattempted').innerText = unattempted;
-
-            let topicRowsHtml = "";
-            Object.keys(topics).forEach(key => {
-                const item = topics[key];
-                if (item.total > 0) {
-                    const pct = Math.round((item.correct / item.total) * 100) || 0;
-                    let badgeClass = "badge-strong";
-                    let badgeText = "🔥 Strong";
-
-                    if (pct < 50) { badgeClass = "badge-weak"; badgeText = "⚡ Weak Zone"; }
-                    else if (pct < 75) { badgeClass = "badge-average"; badgeText = "⚠️ Average"; }
-
-                    topicRowsHtml += `
-                        <div class="topic-row">
-                            <div class="topic-header">
-                                <span>${item.name} (${item.correct}/${item.total})</span>
-                                <span class="${badgeClass}">${badgeText} (${pct}%)</span>
-                            </div>
-                            <div class="progress-bar-bg">
-                                <div class="progress-bar-fill" style="width: ${pct}%; background: ${pct < 50 ? '#dc2626' : (pct < 75 ? '#d97706' : '#16a34a')};"></div>
-                            </div>
-                        </div>`;
-                }
-            });
-            document.getElementById('topic-rows-container').innerHTML = topicRowsHtml || "<p style='color:var(--text-muted); font-size:0.85rem;'>General Topic Analysis Complete</p>";
-
-            renderDoughnutChart(correct, incorrect, unattempted);
-            document.getElementById('dashboard-modal').classList.add('active');
-        }
-
-        function renderDoughnutChart(correct, incorrect, unattempted) {
-            const ctx = document.getElementById('accuracyChart').getContext('2d');
-            if (accuracyChartInstance) accuracyChartInstance.destroy();
-
-            accuracyChartInstance = new Chart(ctx, {
-                type: 'doughnut',
-                data: {
-                    labels: ['Correct', 'Incorrect', 'Unattempted'],
-                    datasets: [{
-                        data: [correct, incorrect, unattempted],
-                        backgroundColor: ['#16a34a', '#dc2626', '#10b98122'],
-                        borderColor: ['#ffffff', '#ffffff', '#ffffff'],
-                        borderWidth: 2
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: { legend: { display: false } },
-                    cutout: '70%'
-                }
-            });
-        }
-
-        function submitSectionalTest() {
-            pauseSectionalTimer();
-            isSectionalSubmitted = true;
-            generateAdvancedDashboard(todaySectional?.title || "IPMAT Sectional", todaySectional?.questions || [], sectionalUserAnswers, 2400 - sectionalSeconds, true);
-            renderSectionalQuestion();
-        }
-
-        function submitDILRSet() {
-            pauseDILRTimer();
-            isDILRSubmitted = true;
-            generateAdvancedDashboard(currentDILR?.title || "Daily DI/LR Set", currentDILR?.questions || [], dilrUserAnswers, dilrSecondsElapsed, false);
-            renderDILRSet();
-        }
-
-        function submitTest() {
-            pauseTimer();
-            isSubmitted = true;
-            generateAdvancedDashboard(currentRC?.title || "Daily Reading Passage", currentRC?.questions || [], userAnswers, secondsElapsed, false);
-            renderQuestion();
-        }
-
-        function reviewAnswers() {
-            document.getElementById('dashboard-modal').classList.remove('active');
-            if (activeTab === 'dilr') renderDILRSet();
-            else if (activeTab === 'sectional') renderSectionalQuestion();
-            else renderQuestion();
-        }
-
         function renderSectionalBanner() {
             const container = document.getElementById('sectional-banner-container');
-            if (!todaySectional) { renderNoSectionalBanner(); return; }
+            if (!todaySectional) {
+                renderNoSectionalBanner();
+                return;
+            }
 
-            const totalQs = todaySectional.totalQuestions || (todaySectional.questions ? todaySectional.questions.length : 45);
+            const totalQs = todaySectional.questions ? todaySectional.questions.length : (todaySectional.totalQuestions || 45);
+
             container.innerHTML = `
                 <div class="hero-banner" style="background: linear-gradient(135deg, #d1fae5 0%, #ecfdf5 100%); border-color: var(--green-border);">
                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px;">
@@ -1040,6 +872,7 @@
 
         function startFullSectionalTest() {
             if (!todaySectional || !todaySectional.questions) return;
+
             secCurrentQIndex = 0;
             sectionalUserAnswers = {};
             isSectionalSubmitted = false;
@@ -1051,7 +884,8 @@
         }
 
         function renderSectionalContainerLayout() {
-            document.getElementById('sectional-banner-container').innerHTML = `<div id="sec-test-wrapper"></div>`;
+            const container = document.getElementById('sectional-banner-container');
+            container.innerHTML = `<div id="sec-test-wrapper"></div>`;
         }
 
         function startSectionalCountdown() {
@@ -1110,18 +944,22 @@
                     </div>
                 </div>`;
 
-            const isTITA = (q.type && q.type.toUpperCase().includes("TITA")) || !q.options;
+            const isTITA = q.type && q.type.toUpperCase().includes("TITA") || !q.options;
             let inputOptionsHtml = "";
 
             if (isTITA) {
                 const currentVal = sectionalUserAnswers[secCurrentQIndex] || "";
                 let inputClass = "tita-input-box";
+
                 if (isSectionalSubmitted) {
-                    inputClass += (String(currentVal).trim() === String(q.answer).trim()) ? " correct-input" : " wrong-input";
+                    const cleanUserAns = String(currentVal).trim();
+                    const cleanCorrectAns = String(q.answer).trim();
+                    inputClass += (cleanUserAns === cleanCorrectAns) ? " correct-input" : " wrong-input";
                 }
+
                 inputOptionsHtml = `
                     <div style="margin-top: 15px;">
-                        <label style="font-weight: 700; font-size: 0.88rem; color: var(--text-muted); display: block; margin-bottom: 6px;">Type Your Answer Below:</label>
+                        <label style="font-weight: 700; font-size: 0.88rem; color: var(--text-muted); display: block; margin-bottom: 6px;">Type Your Answer Below (e.g. 2413):</label>
                         <input type="text" class="${inputClass}" id="tita-field-${secCurrentQIndex}" value="${currentVal}" placeholder="Type answer here..." ${isSectionalSubmitted ? 'disabled' : ''} oninput="handleTITAInput(this.value)">
                         ${isSectionalSubmitted ? `<div style="margin-top: 8px; font-weight: 800; color: var(--status-correct);">Correct Answer: ${q.answer}</div>` : ''}
                     </div>`;
@@ -1129,28 +967,33 @@
                 inputOptionsHtml = q.options.map((opt, idx) => {
                     let btnClass = "opt-btn";
                     if (sectionalUserAnswers[secCurrentQIndex] === idx) btnClass += " selected";
+
                     if (isSectionalSubmitted) {
                         if (idx === q.answer) btnClass += " correct";
                         else if (sectionalUserAnswers[secCurrentQIndex] === idx) btnClass += " wrong";
                     }
+
                     return `<button class="${btnClass}" onclick="selectSectionalOpt(${idx})">${opt}</button>`;
                 }).join('');
             }
 
-            let attemptedCount = Object.keys(sectionalUserAnswers).filter(k => sectionalUserAnswers[k] !== undefined && sectionalUserAnswers[k] !== "").length;
+            let attemptedCount = 0;
             const gridBtnsHtml = qList.map((item, idx) => {
                 const ans = sectionalUserAnswers[idx];
                 const isAttempted = ans !== undefined && ans !== "";
+                if (isAttempted) attemptedCount++;
+
                 let btnClass = "q-grid-btn";
                 if (idx === secCurrentQIndex) btnClass += " active-q";
                 if (isAttempted) btnClass += " attempted";
+
                 return `<button class="${btnClass}" onclick="jumpToSectionalQ(${idx})">${idx + 1}</button>`;
             }).join('');
 
             const paletteGridHtml = `
                 <div class="q-palette-container">
                     <div class="q-palette-title">
-                        <span>Question Palette Grid</span>
+                        <span>Question Palette Grid (${qList.length} Questions)</span>
                         <span style="color:var(--green-hover); font-weight:800;">${attemptedCount}/${qList.length} Attempted</span>
                     </div>
                     <div class="q-palette-grid">${gridBtnsHtml}</div>
@@ -1202,6 +1045,11 @@
         function handleTITAInput(val) {
             if (isSectionalSubmitted) return;
             sectionalUserAnswers[secCurrentQIndex] = val.trim();
+            const gridBtns = document.querySelectorAll('.q-grid-btn');
+            if (gridBtns[secCurrentQIndex]) {
+                if (val.trim() !== "") gridBtns[secCurrentQIndex].classList.add('attempted');
+                else gridBtns[secCurrentQIndex].classList.remove('attempted');
+            }
         }
 
         function selectSectionalOpt(idx) {
@@ -1226,11 +1074,164 @@
             }
         }
 
+        /* --- DASHBOARD GENERATION ENGINE WITH CHART & CATEGORY SEGREGATION --- */
+
+        function generateAdvancedDashboard(title, qList, userAnswersMap, timeTakenSeconds, isSectional = false) {
+            let correct = 0, incorrect = 0, unattempted = 0;
+
+            const topics = {
+                'RC': { name: 'Reading Comprehension', total: 0, correct: 0 },
+                'Vocab': { name: 'Vocabulary & Idioms', total: 0, correct: 0 },
+                'Grammar': { name: 'Grammar & Sentence Correctness', total: 0, correct: 0 },
+                'Logic': { name: 'ParaJumbles & Verbal Logic', total: 0, correct: 0 }
+            };
+
+            qList.forEach((q, idx) => {
+                const userAns = userAnswersMap[idx];
+                const isTITA = (q.type && q.type.toUpperCase().includes("TITA")) || !q.options;
+                
+                let catKey = 'RC';
+                const qTypeUpper = (q.type || '').toUpperCase();
+                if (qTypeUpper.includes('RC')) catKey = 'RC';
+                else if (qTypeUpper.includes('VOCAB') || qTypeUpper.includes('HOMOPHONE')) catKey = 'Vocab';
+                else if (qTypeUpper.includes('GRAMMAR')) catKey = 'Grammar';
+                else catKey = 'Logic';
+
+                topics[catKey].total++;
+
+                if (userAns === undefined || userAns === "") {
+                    unattempted++;
+                } else if (isTITA) {
+                    if (String(userAns).trim() === String(q.answer).trim()) {
+                        correct++;
+                        topics[catKey].correct++;
+                    } else {
+                        incorrect++;
+                    }
+                } else {
+                    if (userAns === q.answer) {
+                        correct++;
+                        topics[catKey].correct++;
+                    } else {
+                        incorrect++;
+                    }
+                }
+            });
+
+            const totalMarks = qList.length * 4;
+            const score = (correct * 4) - (incorrect * 1);
+            const accuracy = (correct + incorrect) > 0 ? Math.round((correct / (correct + incorrect)) * 100) : 0;
+
+            document.getElementById('dash-test-title').innerText = title;
+            document.getElementById('stat-accuracy').innerText = `${accuracy}%`;
+            document.getElementById('stat-speed').innerText = `${score}/${totalMarks}`;
+            document.getElementById('stat-time').innerText = `${timeTakenSeconds}s`;
+            document.getElementById('stat-correct').innerText = correct;
+            document.getElementById('stat-incorrect').innerText = incorrect;
+            document.getElementById('stat-unattempted').innerText = unattempted;
+
+            let topicRowsHtml = "";
+            Object.keys(topics).forEach(key => {
+                const item = topics[key];
+                if (item.total > 0) {
+                    const pct = Math.round((item.correct / item.total) * 100) || 0;
+                    let badgeClass = "badge-strong";
+                    let badgeText = "🔥 Strong";
+
+                    if (pct < 50) { badgeClass = "badge-weak"; badgeText = "⚡ Weak Zone"; }
+                    else if (pct < 75) { badgeClass = "badge-average"; badgeText = "⚠️ Average"; }
+
+                    topicRowsHtml += `
+                        <div class="topic-row">
+                            <div class="topic-header">
+                                <span>${item.name} (${item.correct}/${item.total})</span>
+                                <span class="${badgeClass}">${badgeText} (${pct}%)</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" style="width: ${pct}%; background: ${pct < 50 ? '#dc2626' : (pct < 75 ? '#d97706' : '#16a34a')};"></div>
+                            </div>
+                        </div>`;
+                }
+            });
+            document.getElementById('topic-rows-container').innerHTML = topicRowsHtml;
+
+            // Trigger Dashboard Modal
+            const dashModal = document.getElementById('dashboard-modal');
+            dashModal.classList.add('active');
+
+            // Render Chart safely
+            setTimeout(() => {
+                renderDoughnutChart(correct, incorrect, unattempted);
+            }, 50);
+        }
+
+        function renderDoughnutChart(correct, incorrect, unattempted) {
+            const canvasEl = document.getElementById('accuracyChart');
+            if (!canvasEl) return;
+            const ctx = canvasEl.getContext('2d');
+            
+            if (accuracyChartInstance) {
+                accuracyChartInstance.destroy();
+            }
+
+            accuracyChartInstance = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Correct', 'Incorrect', 'Unattempted'],
+                    datasets: [{
+                        data: [correct, incorrect, unattempted],
+                        backgroundColor: ['#16a34a', '#dc2626', '#10b98133'],
+                        borderColor: ['#ffffff', '#ffffff', '#ffffff'],
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    cutout: '70%'
+                }
+            });
+        }
+
+        function submitSectionalTest() {
+            pauseSectionalTimer();
+            isSectionalSubmitted = true;
+            generateAdvancedDashboard(todaySectional.title || "IPMAT Sectional", todaySectional.questions, sectionalUserAnswers, (todaySectional.durationMinutes * 60) - sectionalSeconds, true);
+            renderSectionalQuestion();
+        }
+
+        function submitDILRSet() {
+            pauseDILRTimer();
+            isDILRSubmitted = true;
+            generateAdvancedDashboard(currentDILR.title || "Daily DI/LR Set", currentDILR.questions, dilrUserAnswers, dilrSecondsElapsed, false);
+            renderDILRSet();
+        }
+
+        function submitTest() {
+            pauseTimer();
+            isSubmitted = true;
+            generateAdvancedDashboard(currentRC.title || "Daily Reading Passage", currentRC.questions, userAnswers, secondsElapsed, false);
+            renderQuestion();
+        }
+
+        function reviewAnswers() {
+            document.getElementById('dashboard-modal').classList.remove('active');
+            if (activeTab === 'dilr') renderDILRSet();
+            else if (activeTab === 'sectional') renderSectionalQuestion();
+            else renderQuestion();
+        }
+
+        /* --- TIMER & NAVIGATION FUNCTIONS --- */
+
         function startTimer() {
             if (isTimerActive) return;
             isTimerActive = true;
             updateRcPauseBtnUI();
-            timerInterval = setInterval(() => { secondsElapsed++; updateTimerDisplay(); }, 1000);
+            timerInterval = setInterval(() => {
+                secondsElapsed++;
+                updateTimerDisplay();
+            }, 1000);
         }
 
         function pauseTimer() {
@@ -1260,9 +1261,23 @@
         function navigateTab(targetTab) {
             if (targetTab === activeTab) return;
 
-            if (activeTab === 'reading' && isTimerActive && !isSubmitted) pauseTimer();
-            if (activeTab === 'dilr' && isDILRTimerActive && !isDILRSubmitted && !isDILRComingSoon) pauseDILRTimer();
-            if (activeTab === 'sectional' && isSectionalTimerActive && !isSectionalSubmitted) pauseSectionalTimer();
+            if (activeTab === 'reading' && isTimerActive && !isSubmitted) {
+                const confirmLeave = confirm("⚠️ RC Test Active: Changing tabs will pause your RC timer. Do you want to proceed?");
+                if (!confirmLeave) return;
+                pauseTimer();
+            }
+
+            if (activeTab === 'dilr' && isDILRTimerActive && !isDILRSubmitted && !isDILRComingSoon) {
+                const confirmLeave = confirm("⚠️ DI/LR Practice Active: Changing tabs will pause your DI/LR timer. Do you want to proceed?");
+                if (!confirmLeave) return;
+                pauseDILRTimer();
+            }
+
+            if (activeTab === 'sectional' && isSectionalTimerActive && !isSectionalSubmitted) {
+                const confirmLeave = confirm("⚠️ IPMAT Sectional Mock Active: Changing tabs will pause your Sectional timer. Do you want to proceed?");
+                if (!confirmLeave) return;
+                pauseSectionalTimer();
+            }
 
             showTab(targetTab);
         }
@@ -1275,11 +1290,15 @@
             document.getElementById('panel-' + tabName).classList.add('active');
             document.getElementById('btn-' + tabName).classList.add('active');
 
-            if (tabName === 'reading' && !isSubmitted) startTimer();
+            if (tabName === 'reading') {
+                if (!isSubmitted) startTimer();
+            }
+
             if (tabName === 'dilr') {
-                if (isDILRComingSoon) renderComingSoonDILR();
+                if (isDILRComingSoon) renderComingSoonDILR(dilrComingSoonInfo);
                 else if (!isDILRSubmitted && currentDILR) startDILRTimer();
             }
+
             if (tabName === 'saved') renderSavedHub();
         }
 
@@ -1289,12 +1308,15 @@
             else savedItems.push({ title, def, ex, type, category });
             localStorage.setItem('nextory_saved', JSON.stringify(savedItems));
             updateSavedBadge();
-            renderVocab(currentRC?.vocab);
+            if (currentRC) renderVocab(currentRC.vocab);
             if (activeTab === 'saved') renderSavedHub();
         }
 
         function isSaved(title) { return savedItems.some(i => i.title === title); }
-        function updateSavedBadge() { document.getElementById('saved-count').innerText = savedItems.length; }
+
+        function updateSavedBadge() {
+            document.getElementById('saved-count').innerText = savedItems.length;
+        }
 
         function renderSavedHub() {
             const wordsList = savedItems.filter(i => i.category === 'Word');
@@ -1383,7 +1405,7 @@
         }
 
         function renderQuestion() {
-            const qList = currentRC?.questions || [];
+            const qList = currentRC.questions || [];
             if (qList.length === 0) return;
 
             const q = qList[currentQIndex];
@@ -1391,6 +1413,7 @@
             document.getElementById('q-text').innerText = q.question;
             
             const expBox = document.getElementById('q-explanation');
+            
             if (isSubmitted) {
                 expBox.style.display = 'block';
                 expBox.innerHTML = q.explanation || q.rationale || '';
@@ -1420,7 +1443,7 @@
         }
 
         function navQuestion(dir) {
-            const total = (currentRC?.questions || []).length;
+            const total = (currentRC.questions || []).length;
             const newIndex = currentQIndex + dir;
 
             if (newIndex >= 0 && newIndex < total) {
@@ -1444,13 +1467,18 @@
         }
 
         function selectArchiveRC(id) {
+            if (activeTab === 'reading' && isTimerActive && !isSubmitted) {
+                const confirmLeave = confirm("⚠️ RC Test Active: Switching passages will pause your RC timer. Click OK to proceed.");
+                if (!confirmLeave) return;
+            }
+
             currentRC = allPassages.find(p => p.id === id);
             renderReadingTest(currentRC, true);
             renderVocab(currentRC.vocab);
             navigateTab('reading');
         }
 
-        window.addEventListener('DOMContentLoaded', loadData);
+        loadData();
     </script>
 </body>
 </html>
