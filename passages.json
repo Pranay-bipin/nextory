@@ -3616,6 +3616,212 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 8: the committee chooses ‘between two ways of being wrong’ and the test is the choice it would least regret across the plausible futures, ‘not whether the outcome proves favourable’.<br><br>• <strong>Why Option A is Wrong:</strong> ‘In every circumstance’ is an absolute; para 6 says which error is larger depends on an unobservable quantity.<br>• <strong>Why Option B is Wrong:</strong> Para 8 says the settling evidence arrives only after the decision must be taken, so the data cannot confirm the diagnosis in time.<br>• <strong>Why Option C is Wrong:</strong> The author says the dilemma is ‘less a contest between temperaments’ than a problem of diagnosis, and treats the casting vote only as a tie-break (para 7).<br><br><strong>💡 Approach:</strong> For conclusion questions, pick the option that matches the last paragraph’s final move and reject recommendations the author never makes."
       }
     ]
+  },
+  {
+    "id": "rc-2026-10-05",
+    "date": "2026-10-05",
+    "title": "The Decarbonization Dilemma: Grid-Scale Storage, DISCOM Solvency, and the Political Economy of Power",
+    "genre": "Environmental Economics & Public Policy",
+    "wordCount": "1024 words",
+    "passage": "In the first week of October 2026, the Union Cabinet’s approval of the ₹1,86,405 crore Green Energy Corridor Phase-III (GEC-III) scheme marked a pivotal structural transition in India’s energy architecture. Designed to evacuate over 100 gigawatts (GW) of renewable capacity across eight resource-rich states, GEC-III is not merely an expansion of high-voltage transmission lines; it represents a paradigm shift toward grid-scale Battery Energy Storage Systems (BESS) and synchronized intra-state wheeling mechanisms. While macroeconomic commentators have overwhelmingly lauded the commitment to reaching 500 GW of non-fossil capacity well before the 2070 Net-Zero benchmark, energy economists and utility regulators harbor a far more cautious perspective. Beneath the optimistic press releases lies a delicate structural friction: the fundamental tension between rapid decarbonization targets and the operational solvency of state-level electricity distribution companies (DISCOMs).\n\nFor decades, the Achilles' heel of India’s power sector has not been generation capacity, but the chronic financial hemorrhage within DISCOMs. Burdened by legacy cross-subsidy structures—wherein commercial and industrial tariffs artificially underwrite agricultural and domestic consumption—DISCOMs continuously face severe liquidity shortfalls. The introduction of massive, intermittent solar and wind feeds under GEC-III exacerbates this vulnerability. Because solar generation peaks during off-peak midday hours, grid operators are frequently forced to curtail renewable intake or sell excess electrons at negative or near-zero spot prices on the Indian Energy Exchange. Conversely, during evening peak demand periods, when solar inputs collapse entirely, DISCOMs are obligated to fire up expensive, under-utilized open-cycle thermal plants or purchase exorbitant peak-hour power. Without dynamic time-of-day tariff reform and robust storage buffering, the influx of cheap green power paradoxically inflates the average cost of supply for state utilities.\n\nGEC-III attempts to bypass this structural trap by mandating co-located BESS infrastructure and providing a 35% Central Financial Assistance (CFA) for intra-state transmission lines. The policy logic assumes that capital cost subsidies will reduce wheeling charges, allowing DISCOMs to absorb green power without spiking consumer tariffs. However, this assumption relies on an unverified macroeconomic premise: that capital expenditure subsidies in transmission can compensate for operational inefficiency in distribution. In reality, transmission wheeling costs represent less than 12% of a DISCOM’s overall power purchase cost structure. Even if state transmission utilities achieve zero-cost infrastructure through central grants, the overarching expense of long-term Power Purchase Agreements (PPAs) tied to legacy coal plants remains fixed under mandatory 'take-or-pay' contractual clauses. Until these legacy two-part tariff contracts expire, DISCOMs are trapped in a financial vice, paying fixed capacity charges for idling thermal stations while simultaneously financing new renewable corridors.\n\nThe geopolitical dimension of GEC-III further complicates its domestic implementation. The technical feasibility of grid-scale BESS relies almost exclusively on Lithium Iron Phosphate (LFP) and sodium-ion chemistry. Despite industrial incentive schemes like the Production Linked Incentive (PLI) for Advanced Chemistry Cells, India's domestic battery supply chain remains heavily dependent on imported critical minerals, specifically refined lithium, cobalt, and synthetic graphite processed in East Asia. A sudden supply-chain bottleneck or geopolitical flare-up in maritime choke points would not only escalate the capital outlay for GEC-III storage facilities, but also expose the national grid to foreign supply shocks. Thus, in attempting to solve domestic energy security through rapid renewable integration, policy architects may unintentionally swap a fossil-fuel import reliance for a critical-mineral supply-chain vulnerability.\n\nFurthermore, the legal architecture governing intra-state energy wheeling under GEC-III introduces novel regulatory friction between the Centre and state governments. Electricity is a concurrent subject under the Indian Constitution, yet GEC-III conditions central assistance on strict compliance with Central Electricity Regulatory Commission (CERC) grid-code standards and the unbundling of state electricity boards. Sovereign states governed by regional opposition parties argue that rigid central mandates erode state-level regulatory autonomy, particularly regarding local tariff setting and free power allowances for rural farmers. If state regulators refuse to pass through dynamic time-of-day tariffs to end-consumers, the financial burden of storage degradation and grid balancing will fall squarely back on state treasuries, triggering a fresh cycle of municipal bailouts and sovereign debt accumulation.\n\nTechnocratic enthusiasts argue that artificial intelligence and automated demand-response algorithms will seamlessly iron out these friction points by predicting weather-driven generation fluctuations down to the second. Yet, technological optimism cannot substitute for institutional reform. An algorithm can optimize electron routing across a high-voltage corridor, but it cannot restructure a bankrupt state utility, renegotiate a binding thirty-year thermal PPA, or enforce bill collection in politically sensitive rural feeder zones. The ultimate success of GEC-III will not be measured by the total circuit-kilometers of transmission lines constructed or the total megawatt-hours of lithium batteries deployed along the desert corridors of Rajasthan and Gujarat. Instead, it will be determined by whether Indian policymakers possess the political courage to dismantle the distorted political economy of electricity pricing that has crippled the power sector for half a century. Without deep structural reform at the DISCOM level, GEC-III risks becoming an extraordinarily sophisticated, trillion-rupee green elephant—an elite engineering marvel built upon a crumbling financial foundation.",
+    "vocab": {
+      "words": [
+        {
+          "word": "Solvency",
+          "type": "noun",
+          "def": "The ability of a company or organization to pay its debts and financial obligations.",
+          "ex": "The government launched a bailout package to ensure the financial solvency of state DISCOMs."
+        },
+        {
+          "word": "Exacerbate",
+          "type": "verb",
+          "def": "To make a problem, situation, or negative feeling worse.",
+          "ex": "Adding unmanaged renewable power to the grid can exacerbate the existing financial losses of utilities."
+        },
+        {
+          "word": "Premise",
+          "type": "noun",
+          "def": "An underlying assumption or statement that forms the basis for a theory or line of reasoning.",
+          "ex": "The policy was built on the flawed premise that subsidizing capital costs would cure operational inefficiency."
+        },
+        {
+          "word": "Impervious",
+          "type": "adjective",
+          "def": "Not allowing entrance or passage; incapable of being affected or influenced.",
+          "ex": "Legacy power distribution companies remain impervious to market competition without legal reform."
+        },
+        {
+          "word": "Obfuscate",
+          "type": "verb",
+          "def": "To intentionally make something unclear, obscure, or confusing.",
+          "ex": "Complex multi-tier tariff structures often obfuscate the actual cost of power generation."
+        },
+        {
+          "word": "Friction",
+          "type": "noun",
+          "def": "Conflict or disagreement between groups, organizations, or legal bodies.",
+          "ex": "Enforcing central energy guidelines caused constitutional friction between federal and state authorities."
+        },
+        {
+          "word": "Paradoxically",
+          "type": "adverb",
+          "def": "In a way that seems absurd or contradictory, but may actually be true.",
+          "ex": "Paradoxically, introducing free solar power increased the average cost of electricity supply for utilities."
+        },
+        {
+          "word": "Bypass",
+          "type": "verb",
+          "def": "To avoid or circumvent a rule, obstacle, or complicated system.",
+          "ex": "The central scheme tried to bypass state-level bureaucratic delays by offering direct financial assistance."
+        },
+        {
+          "word": "Autonomy",
+          "type": "noun",
+          "def": "The right or condition of self-government and independent decision-making.",
+          "ex": "State regulators argued that central grid policies infringed upon their regional tariff autonomy."
+        },
+        {
+          "word": "Dismantle",
+          "type": "verb",
+          "def": "To take apart, break down, or gradually abolish a system or structure.",
+          "ex": "Policymakers must dismantle the legacy subsidy models to restore profitability to the power sector."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "Achilles' heel",
+          "def": "A weak point or vulnerability in an otherwise strong situation.",
+          "ex": "Inadequate power distribution infrastructure remains the Achilles' heel of India's green growth."
+        },
+        {
+          "idiom": "White elephant",
+          "def": "A possession or project that is extremely expensive to maintain but yields little practical value.",
+          "ex": "Without consumer reform, the new transmission corridor risks turning into a massive green white elephant."
+        },
+        {
+          "idiom": "Caught in a vice",
+          "def": "Trapped in a difficult situation squeezed between two opposing forces.",
+          "ex": "DISCOMs are caught in a vice, paying fixed thermal charges while financing new solar corridors."
+        },
+        {
+          "idiom": "Iron out",
+          "def": "To resolve small problems, difficulties, or disagreements through discussion or technology.",
+          "ex": "Engineers hope automated AI software will iron out supply fluctuations in the solar grid."
+        },
+        {
+          "idiom": "A double-edged sword",
+          "def": "Something that offers benefits but also brings serious potential drawbacks.",
+          "ex": "Rapid solar expansion is a double-edged sword, cutting carbon emissions while worsening DISCOM losses."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Fire up",
+          "def": "To start up a engine, generator, or industrial plant.",
+          "ex": "Grid operators had to fire up expensive coal plants during peak evening demand hours."
+        },
+        {
+          "verb": "Pass through",
+          "def": "To transfer costs, taxes, or charges directly to the end customer.",
+          "ex": "State regulators refused to pass through battery degradation expenses to residential users."
+        },
+        {
+          "verb": "Phased out",
+          "def": "Gradually stopped or discontinued over time.",
+          "ex": "Legacy coal power purchase agreements must be phased out to make space for clean energy."
+        },
+        {
+          "verb": "Fall back on",
+          "def": "To rely on something or someone as a secondary reserve when primary options fail.",
+          "ex": "When power revenues declined, state utilities had to fall back on government bailouts."
+        },
+        {
+          "verb": "Unbundle from",
+          "def": "To separate a large corporate or public entity into smaller independent functional units.",
+          "ex": "Central guidelines require state electricity boards to unbundle generation from distribution."
+        }
+      ]
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "type": "RC",
+        "question": "Which of the following best expresses the author's primary central argument in the passage?",
+        "options": [
+          "A) GEC-III will fail completely because foreign supply-chain risks for lithium and cobalt make renewable energy infrastructure financially unviable compared to legacy coal generation.",
+          "B) Without fundamental reforms in DISCOM pricing structures and legacy contracts, GEC-III’s green infrastructure upgrades cannot overcome the power sector's financial instability.",
+          "C) The implementation of GEC-III represents an unconstitutional expansion of central government power that unfairly strips sovereign state regulators of their authority over agricultural tariffs and rural electricity distribution.",
+          "D) Although the Green Energy Corridor Phase-III scheme introduces high-voltage transmission lines, co-located battery storage systems, and advanced AI demand-response algorithms to evacuate green power across eight resource-rich states, its overall macroeconomic impact will be limited because state-level DISCOMs prefer long-term thermal contracts over renewable PPAs."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation & Analysis:</strong><br>• <strong>Why Option D (Longest Option - 47 words) is INCORRECT:</strong> Option D misrepresents the passage. The text explicitly states that DISCOMs are trapped in legacy thermal contracts due to mandatory 'take-or-pay' clauses, not because they 'prefer' thermal contracts. It also focuses on descriptive detail rather than capturing the primary thesis.<br>• <strong>Why Option B is CORRECT:</strong> Option B accurately summarizes the primary argument: infrastructure additions (GEC-III) are insufficient unless fundamental DISCOM pricing distortions and legacy contract vices are addressed.<br>• <strong>Option A:</strong> Too extreme ('fail completely') and focuses solely on supply chains.<br>• <strong>Option C:</strong> Focuses narrowly on federal friction from Paragraph 5 rather than the main theme."
+      },
+      {
+        "id": "q2",
+        "type": "RC",
+        "question": "Based on Paragraphs 2 and 3, why does the introduction of cheap solar power under GEC-III paradoxically increase the average cost of power supply for DISCOMs?",
+        "options": [
+          "A) Solar power generation drops during evening demand peaks, forcing DISCOMs to buy expensive peak power while remaining contractually bound to pay fixed capacity charges for idling thermal plants.",
+          "B) Solar panels degrade faster under high-voltage intra-state transmission corridors, forcing state utilities to spend more on battery replacement than they save on fuel consumption.",
+          "C) The Central Financial Assistance subsidy of 35% covers only intra-state lines, leaving DISCOMs fully responsible for paying the remaining 65% out of municipal tax revenues.",
+          "D) Because solar power generated during peak off-peak hours must be transmitted across long distance high-voltage lines that require constant algorithmic grid balancing by third-party software engineers, the operational maintenance fees charged by private transmission operators outweigh the cost savings achieved through lower generation costs."
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation & Analysis:</strong><br>• <strong>Why Option D (Longest Option - 44 words) is INCORRECT:</strong> Option D introduces completely fabricated information not supported by the passage ('operational maintenance fees charged by private transmission operators outweigh savings...').<br>• <strong>Why Option A is CORRECT:</strong> Directly supported by the text. Midday solar leads to zero/negative spot prices, while evening demand forces DISCOMs to buy expensive peak power while simultaneously paying fixed capacity charges for idling coal plants under 'take-or-pay' clauses.<br>• <strong>Option B:</strong> Solar panel degradation is never mentioned in the passage.<br>• <strong>Option C:</strong> Misinterprets the 35% grant; the passage notes transmission costs are only <12% of total purchase costs."
+      },
+      {
+        "id": "q3",
+        "type": "RC",
+        "question": "It can be inferred from the author's discussion of the 'take-or-pay' clauses in Paragraph 3 that:",
+        "options": [
+          "A) Thermal power plant operators will voluntarily cancel legacy PPAs once central battery storage facilities come online.",
+          "B) Capital subsidies on transmission infrastructure fail to address the bulk of a DISCOM’s fixed financial liabilities.",
+          "C) DISCOMs can eliminate financial losses simply by refusing to purchase power from idling thermal stations.",
+          "D) Modernizing intra-state transmission lines through GEC-III grants will automatically reduce the fixed capacity charges that state distribution companies are required to pay under older thirty-year thermal power purchase agreements."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation & Analysis:</strong><br>• <strong>Why Option D (Longest Option - 31 words) is INCORRECT:</strong> Option D explicitly contradicts the passage. The text states that fixed capacity charges remain fixed regardless of central grants or transmission subsidies.<br>• <strong>Why Option B is CORRECT:</strong> Paragraph 3 notes that transmission wheeling accounts for less than 12% of power purchase costs. Thus, subsidizing transmission ignores the main financial burden: fixed capacity charges under legacy thermal PPAs.<br>• <strong>Option A:</strong> Thermal operators will enforce contracts, not voluntarily cancel them.<br>• <strong>Option C:</strong> Under 'take-or-pay' clauses, DISCOMs must pay fixed charges even if they do not take electricity."
+      },
+      {
+        "id": "q4",
+        "type": "RC",
+        "question": "The author mentions the 'critical-mineral supply-chain vulnerability' in Paragraph 4 primarily to highlight that:",
+        "options": [
+          "A) India should abandon battery storage technologies in favor of domestic coal-fired thermal expansion.",
+          "B) Decarbonizing the energy grid through battery storage replaces foreign fossil fuel dependency with critical mineral import dependency.",
+          "C) Advanced Chemistry Cell PLI schemes have successfully eliminated India's reliance on foreign battery manufacturers.",
+          "D) Relying on Lithium Iron Phosphate and sodium-ion batteries for grid-scale energy storage is technically inferior to traditional mechanical flywheel storage systems because critical minerals cannot withstand the high desert temperatures encountered across solar parks in Rajasthan and Gujarat."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation & Analysis:</strong><br>• <strong>Why Option D (Longest Option - 44 words) is INCORRECT:</strong> Option D invents external concepts ('mechanical flywheel storage', 'desert temperatures') nowhere mentioned in the passage.<br>• <strong>Why Option B is CORRECT:</strong> Directly captures the author's conclusion in Paragraph 4: policy architects risk swapping 'a fossil-fuel import reliance for a critical-mineral supply-chain vulnerability.'<br>• <strong>Option A:</strong> The author calls for institutional reform, not returning to coal.<br>• <strong>Option C:</strong> Contradicts the text, which explicitly states India remains heavily dependent on imports despite PLI schemes."
+      },
+      {
+        "id": "q5",
+        "type": "RC",
+        "question": "Which of the following, if true, would most weaken the author's skepticism regarding the success of GEC-III?",
+        "options": [
+          "A) The central government passes binding legislation allowing DISCOMs to legally terminate legacy thermal PPAs without financial penalty upon adopting green energy tariffs.",
+          "B) Artificial intelligence models improve solar generation forecasting accuracy by 15% across Northern India.",
+          "C) High-voltage intra-state transmission lines reduce line-loss energy dissipation by 4% during summer months.",
+          "D) Global supply prices for lithium carbonate stabilize following the discovery of new domestic mineral reserves in South America, thereby enabling private battery developers to construct grid-scale BESS facilities at a lower initial capital expenditure per megawatt-hour."
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation & Analysis:</strong><br>• <strong>Why Option D (Longest Option - 41 words) is INCORRECT:</strong> Option D addresses battery costs, but the author's core skepticism stems from the financial vice of legacy thermal PPAs and DISCOM pricing distortions. Cheaper battery Capex does not solve the PPA problem.<br>• <strong>Why Option A is CORRECT:</strong> The author's primary argument is that DISCOMs are trapped by legacy 'take-or-pay' thermal PPAs. If binding legislation allows DISCOMs to terminate these contracts without penalty, the primary structural barrier identified by the author is removed, severely weakening their skepticism.<br>• <strong>Option B:</strong> Paragraph 6 explicitly notes algorithms cannot fix financial or contractual issues.<br>• <strong>Option C:</strong> Transmission losses represent a minor component (<12%) of the overall problem."
+      },
+      {
+        "id": "q6",
+        "type": "RC",
+        "question": "What is the tone and attitude of the author towards 'technocratic enthusiasts' described in the final paragraph?",
+        "options": [
+          "A) Fully endorsement of their automated AI vision for solving grid instability.",
+          "B) Mildly critical of their reliance on engineering and algorithmic solutions while ignoring institutional political-economy issues.",
+          "C) Dismissive of their technical capability to route electrons accurately across high-voltage transmission lines.",
+          "D) Highly appreciative of their efforts to integrate artificial intelligence and predictive algorithms into the national grid while recognizing that minor legal adjustments will be required to ensure total state compliance."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation & Analysis:</strong><br>• <strong>Why Option D (Longest Option - 38 words) is INCORRECT:</strong> Option D falsely claims the author is 'highly appreciative' and believes 'minor legal adjustments' are enough. The author asserts that deep political courage and structural overhauls are required.<br>• <strong>Why Option B is CORRECT:</strong> The author acknowledges that algorithms can route electrons, but criticizes the technocratic belief that technology alone can fix political economy issues like utility bankruptcy and legacy PPAs.<br>• <strong>Option A:</strong> Contradicts the text ('technological optimism cannot substitute for institutional reform').<br>• <strong>Option C:</strong> Too extreme; the author explicitly grants that algorithms can optimize electron routing."
+      }
+    ]
   }
 ]
 
