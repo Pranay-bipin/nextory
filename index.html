@@ -1428,5 +1428,244 @@
 
         loadData();
     </script>
+
+    <!-- DETAILED SECTIONAL ANALYSIS (added) -->
+    <script>
+/* NEXTORY - Detailed VA Sectional Analysis */
+(function () {
+  // ---- Marking scheme (edit here) ----
+  const POS = 4, NEG_MCQ = 1, NEG_TITA = 0; // IPMAT Indore: TITA has no negative marking
+
+  const SECTIONS = {
+    RC: { n: 'Reading Comprehension', c: '#10b981', tip: 'Read one passage daily and, for every question, write why each wrong option is wrong. Practise paragraph-level summaries before answering inference questions.' },
+    PJ: { n: 'Para Jumbles', c: '#0ea5e9', tip: 'Find the opening sentence first (no pronouns or connectors), then chain by pronoun/connector links. Since TITA has no negative marking, always type an answer.' },
+    PV: { n: 'Para Summary / Completion / Odd-One-Out', c: '#8b5cf6', tip: 'Identify the single central idea and eliminate options that are too extreme or add new facts. Practise 5 short summaries a day.' },
+    VO: { n: 'Vocabulary', c: '#f59e0b', tip: 'Revise your Saved Hub daily. Learn words with a context sentence and note the opposite/similar words too, as the questions are often antonyms.' },
+    GR: { n: 'Grammar', c: '#ef4444', tip: 'Revise subject-verb agreement, parallelism, modifiers, subjunctive and fixed prepositions. Keep an error log of every mistake with its rule.' }
+  };
+  const ORDER = ['RC', 'PJ', 'PV', 'VO', 'GR'];
+
+  function secKey(q) {
+    const t = (q.type || '').toUpperCase();
+    if (t.includes('JUMBLE')) return 'PJ';
+    if (t.includes('RC')) return 'RC';
+    if (t.includes('PARA') || t.includes('ODD')) return 'PV';
+    if (t.includes('VOCAB')) return 'VO';
+    return 'GR';
+  }
+  const fmt = s => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, '0')}`;
+  const isTita = q => (q.type && q.type.toUpperCase().includes('TITA')) || !q.options;
+
+  // ---- Per-question time tracking ----
+  let qTime = {};
+  setInterval(() => {
+    try {
+      if (todaySectional && isSectionalTimerActive && !isSectionalSubmitted)
+        qTime[secCurrentQIndex] = (qTime[secCurrentQIndex] || 0) + 1;
+    } catch (e) {}
+  }, 1000);
+
+  // ---- Styles ----
+  const css = document.createElement('style');
+  css.textContent = `
+  .sa-card{background:#fff;border:1px solid var(--border-light);width:100%;max-width:1000px;border-radius:20px;padding:30px;margin:auto;max-height:92vh;overflow-y:auto;box-shadow:0 25px 50px -12px rgba(15,41,30,.25)}
+  .sa-h{font-size:.8rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted);margin:26px 0 12px}
+  .sa-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+  .sa-panel{background:#fafdfb;border:1px solid var(--border-light);border-radius:14px;padding:18px}
+  .sa-panel h4{font-size:.8rem;font-weight:800;text-transform:uppercase;color:var(--text-muted);margin-bottom:10px}
+  .sa-chart{position:relative;height:250px}
+  .sa-table{width:100%;border-collapse:collapse;font-size:.84rem}
+  .sa-table th{font-size:.7rem;text-transform:uppercase;color:var(--text-muted);text-align:left;padding:8px 6px;border-bottom:2px solid var(--border-light)}
+  .sa-table td{padding:10px 6px;border-bottom:1px solid var(--border-light);color:var(--text-heading)}
+  .sa-dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}
+  .sa-insight{display:flex;gap:12px;padding:12px 14px;border-radius:10px;margin-bottom:10px;font-size:.9rem;line-height:1.55;border:1px solid var(--border-light);background:#fff}
+  .sa-insight.bad{background:#fef2f2;border-color:#fecaca}.sa-insight.warn{background:#fffbeb;border-color:#fde68a}.sa-insight.good{background:#f0fdf4;border-color:#bbf7d0}
+  .sa-heat{display:flex;flex-wrap:wrap;gap:6px}
+  .sa-cell{width:36px;height:36px;border-radius:8px;border:none;color:#fff;font-weight:800;font-size:.76rem;cursor:pointer}
+  .sa-cell:hover{transform:scale(1.1)}
+  .sa-c{background:#16a34a}.sa-w{background:#dc2626}.sa-s{background:#cbd5d1;color:#475569}
+  .sa-plan{padding:12px 14px;border-left:4px solid var(--green-hover);background:var(--green-bg);border-radius:8px;margin-bottom:10px;font-size:.88rem;line-height:1.6;color:#064e3b}
+  #sa-reopen{display:none;position:fixed;right:20px;bottom:20px;z-index:500}
+  `;
+  document.head.appendChild(css);
+
+  const modal = document.createElement('div');
+  modal.id = 'sec-analysis-modal';
+  modal.className = 'modal-overlay';
+  document.body.appendChild(modal);
+
+  const reopen = document.createElement('button');
+  reopen.id = 'sa-reopen';
+  reopen.className = 'primary-btn';
+  reopen.textContent = '📊 View Analysis';
+  reopen.onclick = () => modal.classList.add('active');
+  document.body.appendChild(reopen);
+
+  window.__saClose = () => modal.classList.remove('active');
+  window.__saJump = i => {
+    modal.classList.remove('active');
+    secCurrentQIndex = i;
+    renderSectionalQuestion();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  // ---- Hook into existing code ----
+  const origStart = window.startFullSectionalTest;
+  window.startFullSectionalTest = function () {
+    qTime = {};
+    reopen.style.display = 'none';
+    origStart.apply(this, arguments);
+  };
+  const origDash = window.generateAdvancedDashboard;
+  window.generateAdvancedDashboard = function (title, qList, ans, timeTaken, isSectional) {
+    if (!isSectional) return origDash.apply(this, arguments);
+    showAnalysis(title, qList, ans, timeTaken);
+  };
+
+  let charts = [];
+
+  function showAnalysis(title, qList, ans, timeTaken) {
+    // ---- Evaluate ----
+    const qs = qList.map((q, i) => {
+      const a = ans[i], tita = isTita(q);
+      let st = 's';
+      if (!(a === undefined || a === '' || a === null))
+        st = (tita ? String(a).trim() === String(q.answer).trim() : parseInt(a) === parseInt(q.answer)) ? 'c' : 'w';
+      const marks = st === 'c' ? POS : st === 'w' ? -(tita ? NEG_TITA : NEG_MCQ) : 0;
+      return { i, key: secKey(q), st, marks, tita, t: qTime[i] || 0, q };
+    });
+
+    const S = {};
+    ORDER.forEach(k => S[k] = { total: 0, c: 0, w: 0, s: 0, marks: 0, max: 0, time: 0 });
+    qs.forEach(x => {
+      const s = S[x.key]; s.total++; s.max += POS; s.marks += x.marks; s.time += x.t;
+      s[x.st]++;
+    });
+    const act = ORDER.filter(k => S[k].total > 0);
+    const acc = k => S[k].total ? S[k].c / S[k].total * 100 : 0;
+    const att = k => S[k].total ? (S[k].c + S[k].w) / S[k].total * 100 : 0;
+
+    const tot = qs.reduce((a, x) => (a[x.st]++, a.m += x.marks, a), { c: 0, w: 0, s: 0, m: 0 });
+    const maxM = qs.length * POS;
+    const attempted = tot.c + tot.w;
+    const accuracy = attempted ? Math.round(tot.c / attempted * 100) : 0;
+    const lost = qs.filter(x => x.marks < 0).reduce((a, x) => a - x.marks, 0);
+    const skippedPot = tot.s * POS;
+
+    // ---- Insights ----
+    const ranked = [...act].sort((a, b) => acc(a) - acc(b));
+    const weak = ranked[0], strong = ranked[ranked.length - 1];
+    const ins = [];
+    ins.push({ c: acc(weak) < 50 ? 'bad' : 'warn', i: '🎯', t: `<b>Biggest weak spot: ${SECTIONS[weak].n}</b> — ${S[weak].c}/${S[weak].total} correct (${Math.round(acc(weak))}%), costing you ${S[weak].max - S[weak].marks} marks versus a perfect score.` });
+    if (acc(strong) >= 60 && strong !== weak) ins.push({ c: 'good', i: '💪', t: `<b>Strongest area: ${SECTIONS[strong].n}</b> at ${Math.round(acc(strong))}% accuracy. Protect this with light daily practice.` });
+    if (lost > 0) {
+      const worstNeg = [...act].sort((a, b) => S[b].w - S[a].w)[0];
+      ins.push({ c: 'warn', i: '➖', t: `<b>${lost} marks lost to negative marking.</b> Most wrong answers came from ${SECTIONS[worstNeg].n} (${S[worstNeg].w}). Eliminate at least two options before guessing.` });
+    }
+    const skipTita = qs.filter(x => x.st === 's' && x.tita).length;
+    if (skipTita) ins.push({ c: 'bad', i: '⌨️', t: `<b>You left ${skipTita} TITA question(s) blank.</b> They carry no negative marking, so always type your best attempt.` });
+    const skipMcq = tot.s - skipTita;
+    if (skipMcq >= 5) ins.push({ c: 'warn', i: '⏭️', t: `<b>${skipMcq} MCQs skipped</b> (up to ${skipMcq * POS} marks on the table). If you can remove 2 options, the guess is worth the risk.` });
+    const slow = [...qs].sort((a, b) => b.t - a.t).filter(x => x.t > 0).slice(0, 3);
+    if (slow.length) ins.push({ c: 'warn', i: '🐢', t: `<b>Biggest time sinks:</b> ${slow.map(x => `Q${x.i + 1} (${SECTIONS[x.key].n.split(' ')[0]}, ${fmt(x.t)}, ${x.st === 'c' ? 'correct' : x.st === 'w' ? 'wrong' : 'skipped'})`).join(', ')}.` });
+    const rushed = qs.filter(x => x.st === 'w' && x.key !== 'RC' && x.t > 0 && x.t < 12).length;
+    if (rushed >= 2) ins.push({ c: 'bad', i: '⚡', t: `<b>${rushed} wrong answers in under 12 seconds</b> — these look like careless errors. Re-read the stem and options once before locking in.` });
+    const rcQ = S.RC.total, rcTimeShare = timeTaken ? S.RC.time / Math.max(1, qs.reduce((a, x) => a + x.t, 0)) * 100 : 0;
+    if (rcQ && rcTimeShare > 55) ins.push({ c: 'warn', i: '⏱️', t: `<b>${Math.round(rcTimeShare)}% of your time went on RCs</b> (${Math.round(rcQ / qs.length * 100)}% of the questions). Quick verbal sections need more time than that.` });
+
+    // ---- HTML ----
+    const statBox = (v, l, col) => `<div class="stat-box"><div class="stat-val" style="color:${col || 'var(--text-heading)'}">${v}</div><div class="stat-lbl">${l}</div></div>`;
+    const rows = act.map(k => {
+      const s = S[k], a = Math.round(acc(k));
+      const b = a < 50 ? ['badge-weak', '⚡ Weak'] : a < 75 ? ['badge-average', '⚠️ Average'] : ['badge-strong', '🔥 Strong'];
+      return `<tr><td><span class="sa-dot" style="background:${SECTIONS[k].c}"></span><b>${SECTIONS[k].n}</b></td>
+        <td>${s.c}/${s.total}</td><td style="color:#dc2626">${s.w}</td><td>${s.s}</td>
+        <td><b>${s.marks}</b>/${s.max}</td><td>${a}%</td><td>${s.time ? fmt(s.time / s.total) : '-'}</td>
+        <td><span class="${b[0]}">${b[1]}</span></td></tr>`;
+    }).join('');
+
+    const plan = ranked.filter(k => acc(k) < 75).slice(0, 3)
+      .map((k, n) => `<div class="sa-plan"><b>Priority ${n + 1}: ${SECTIONS[k].n}</b> (${Math.round(acc(k))}%)<br>${SECTIONS[k].tip}</div>`).join('')
+      || `<div class="sa-plan">Great sectional! Every section is at 75%+. Focus on speed: aim to finish 3–4 minutes early and use the time to re-check.</div>`;
+
+    const heat = ORDER.filter(k => S[k].total).map(k => `
+      <div style="margin-bottom:12px"><div style="font-size:.78rem;font-weight:700;color:var(--text-muted);margin-bottom:6px">${SECTIONS[k].n}</div>
+      <div class="sa-heat">${qs.filter(x => x.key === k).map(x => `<button class="sa-cell sa-${x.st}" title="Q${x.i + 1} · ${fmt(x.t)}" onclick="__saJump(${x.i})">${x.i + 1}</button>`).join('')}</div></div>`).join('');
+
+    modal.innerHTML = `<div class="sa-card">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px">
+        <div><h2 style="color:var(--text-heading);font-size:1.5rem;font-weight:800">📊 Detailed VA Sectional Analysis</h2>
+        <p style="color:var(--text-muted);font-size:.88rem">Where you gained marks, where you lost them, and what to fix first.</p></div>
+        <span class="sub-tag">${title}</span></div>
+
+      <div class="stats-grid">
+        ${statBox(`${tot.m}/${maxM}`, 'Net Score')}
+        ${statBox(accuracy + '%', 'Accuracy', 'var(--status-correct)')}
+        ${statBox(Math.round(attempted / qs.length * 100) + '%', 'Attempt Rate')}
+        ${statBox(tot.c, 'Correct', 'var(--status-correct)')}
+        ${statBox(tot.w, 'Incorrect', 'var(--status-wrong)')}
+        ${statBox(tot.s, 'Skipped')}
+        ${statBox('-' + lost, 'Marks Lost')}
+        ${statBox(fmt(timeTaken), 'Time Used')}
+      </div>
+
+      <div class="sa-h">Key insights</div>
+      ${ins.map(x => `<div class="sa-insight ${x.c}"><span>${x.i}</span><span>${x.t}</span></div>`).join('')}
+
+      <div class="sa-h">Section-wise performance</div>
+      <div style="overflow-x:auto"><table class="sa-table"><thead><tr><th>Section</th><th>Correct</th><th>Wrong</th><th>Skipped</th><th>Marks</th><th>Accuracy</th><th>Avg time/Q</th><th>Status</th></tr></thead><tbody>${rows}</tbody></table></div>
+
+      <div class="sa-h">Visual breakdown</div>
+      <div class="sa-grid">
+        <div class="sa-panel"><h4>Skill radar — accuracy %</h4><div class="sa-chart"><canvas id="sa-radar"></canvas></div></div>
+        <div class="sa-panel"><h4>Correct / wrong / skipped by section</h4><div class="sa-chart"><canvas id="sa-stack"></canvas></div></div>
+        <div class="sa-panel"><h4>Marks earned vs marks possible</h4><div class="sa-chart"><canvas id="sa-marks"></canvas></div></div>
+        <div class="sa-panel"><h4>Time spent per question (sec)</h4><div class="sa-chart"><canvas id="sa-time"></canvas></div></div>
+      </div>
+
+      <div class="sa-h">Question map (click a number to review it)</div>
+      <div class="sa-panel">${heat}
+        <div style="font-size:.76rem;color:var(--text-muted);margin-top:8px"><span class="sa-dot" style="background:#16a34a"></span>Correct <span class="sa-dot" style="background:#dc2626;margin-left:10px"></span>Wrong <span class="sa-dot" style="background:#cbd5d1;margin-left:10px"></span>Skipped</div></div>
+
+      <div class="sa-h">Your improvement plan</div>
+      ${plan}
+      <div style="display:flex;gap:12px;margin-top:22px;flex-wrap:wrap">
+        <button class="primary-btn" style="flex:1" onclick="__saClose()">🔍 Review Solutions &amp; Explanations</button>
+      </div></div>`;
+
+    modal.classList.add('active');
+    reopen.style.display = 'inline-flex';
+
+    // ---- Charts ----
+    charts.forEach(c => c.destroy()); charts = [];
+    const labels = act.map(k => SECTIONS[k].n.split(' / ')[0].replace('Reading Comprehension', 'RC'));
+    const cols = act.map(k => SECTIONS[k].c);
+    const mk = (id, cfg) => { try { charts.push(new Chart(document.getElementById(id), cfg)); } catch (e) { console.warn(e); } };
+    const base = { responsive: true, maintainAspectRatio: false };
+
+    mk('sa-radar', { type: 'radar', data: { labels, datasets: [
+      { label: 'Accuracy %', data: act.map(acc), backgroundColor: 'rgba(16,185,129,.25)', borderColor: '#047857', pointBackgroundColor: '#047857' },
+      { label: 'Attempt %', data: act.map(att), backgroundColor: 'rgba(14,165,233,.1)', borderColor: '#0ea5e9', borderDash: [4, 4], pointRadius: 2 }] },
+      options: { ...base, scales: { r: { min: 0, max: 100, ticks: { stepSize: 25, backdropColor: 'transparent' } } }, plugins: { legend: { position: 'bottom' } } } });
+
+    mk('sa-stack', { type: 'bar', data: { labels, datasets: [
+      { label: 'Correct', data: act.map(k => S[k].c), backgroundColor: '#16a34a' },
+      { label: 'Wrong', data: act.map(k => S[k].w), backgroundColor: '#dc2626' },
+      { label: 'Skipped', data: act.map(k => S[k].s), backgroundColor: '#cbd5d1' }] },
+      options: { ...base, scales: { x: { stacked: true }, y: { stacked: true, ticks: { precision: 0 } } }, plugins: { legend: { position: 'bottom' } } } });
+
+    mk('sa-marks', { type: 'bar', data: { labels, datasets: [
+      { label: 'Possible', data: act.map(k => S[k].max), backgroundColor: '#d1e0d7' },
+      { label: 'Earned (net)', data: act.map(k => S[k].marks), backgroundColor: cols }] },
+      options: { ...base, plugins: { legend: { position: 'bottom' } } } });
+
+    mk('sa-time', { type: 'bar', data: { labels: qs.map(x => x.i + 1), datasets: [{
+      label: 'Seconds', data: qs.map(x => x.t),
+      backgroundColor: qs.map(x => x.st === 'c' ? '#16a34a' : x.st === 'w' ? '#dc2626' : '#cbd5d1') }] },
+      options: { ...base, plugins: { legend: { display: false } }, scales: { x: { ticks: { maxTicksLimit: 15 } } } } });
+  }
+})();
+
+    </script>
 </body>
 </html>
