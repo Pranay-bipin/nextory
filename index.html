@@ -809,10 +809,11 @@
         }
 
         function executeSubmission() {
+            const type = pendingSubmissionType; // capture BEFORE closeConfirmModal() resets it to null
             closeConfirmModal();
-            if (pendingSubmissionType === 'reading') submitTest();
-            else if (pendingSubmissionType === 'dilr') submitDILRSet();
-            else if (pendingSubmissionType === 'sectional') submitSectionalTest();
+            if (type === 'reading') submitTest();
+            else if (type === 'dilr') submitDILRSet();
+            else if (type === 'sectional') submitSectionalTest();
         }
 
         function renderSectionalBanner() {
