@@ -91,42 +91,147 @@
         "rationale": "The final paragraph uses the sail-to-steam transition to emphasize that historical shifts in transport technology required updating maritime rules, just as the shift to AI command requires updating governance frameworks today."
       },
       {
-        "id": "q19",
+        "id": "q7",
+        "type": "RC_Passage2",
+        "passage": "In monetary economics, the doctrine of central bank independence has long been treated as an axiomatic pillar of macrofinancial stability. Originating in the stagflationary shocks of the 1970s, the paradigm holds that insulation from short-term electoral incentives prevents politicians from exploiting the Phillips curve—artificially lowering interest rates to engineer economic booms ahead of elections at the cost of long-term hyperinflation. By delegating monetary policy to technocratic central bankers operating under strict mandates, economies achieved low, predictable inflation throughout the Great Moderation. However, the post-2008 era of unconventional monetary policy and quantitative easing (QE) has eroded the traditional boundaries separating monetary authority from fiscal policymaking, igniting a fundamental crisis of legitimacy.\n\nWhen central banks engaged in massive asset purchase programs, buying trillions of dollars in sovereign debt and corporate bonds to drive down long-term yields, they fundamentally altered wealth distribution within society. By elevating asset prices—such as equities, real estate, and financial derivatives—QE directly enriched capital-owning demographics while providing marginal income growth to wage earners reliant on real wage gains. Furthermore, by acting as the primary buyer of national debt, central banks indirectly monetized government deficits, blurring the line between independent rate-setting and fiscal funding. When central banks influence distributional outcomes and underwrite national balance sheets, their actions cease to be purely neutral technocratic operations and become inherently political decisions.\n\nThis structural boundary degradation has prompted intense political pushback from across the political spectrum. Populist movements argue that unelected central bankers exercise unprecedented authority over national wealth distribution without democratic accountability or parliamentary oversight. Conversely, fiscal authorities argue that aggressive interest rate hikes aimed at cooling post-pandemic inflation impose massive debt-servicing burdens on public treasuries, crowding out public investment in climate infrastructure and social welfare. Consequently, proposals to curtail central bank autonomy—ranging from legislative audit mandates to executive branch interest rate overrides—have gained political traction across several major economies.\n\nDefenders of central bank independence counter that eroding technocratic autonomy would re-anchor inflation expectations at elevated levels, destroying long-term sovereign credit standing and escalating borrowing costs. They maintain that central bank interventions during financial panics act as essential lender-of-last-resort mechanisms without which entire banking systems would collapse. Nevertheless, as central banks increasingly integrate environmental risk matrices, digital currencies, and societal inequality metrics into their operational policy targets, maintaining the fiction of narrow political neutrality becomes impossible. The future of monetary governance will likely require a newly negotiated institutional equilibrium—one that preserves operational autonomy in setting target interest rates while restoring democratic legitimacy through explicit structural coordination with elected parliaments.",
+        "question": "Which of the following best summarizes the main thesis of the passage on central bank independence?",
+        "options": [
+          "A) Quantitative easing failed to reduce long-term sovereign bond yields because central banks lacked sufficient independence from elected political leaders.",
+          "B) Unconventional monetary policies have blurred the line between monetary and fiscal policy, undermining central bank legitimacy and requiring a new institutional balance.",
+          "C) Central bank autonomy should be completely abolished to allow democratic parliaments to control interest rates and manage wealth inequality directly.",
+          "D) Inflation expectations remain unanchored because technocratic central bankers refuse to consider environmental risks in their interest rate calculations."
+        ],
+        "answer": 1,
+        "rationale": "The passage argues that unconventional monetary policy (like QE) blurred the boundaries between monetary and fiscal domains, challenging central bank neutrality and necessitating a newly negotiated institutional equilibrium."
+      },
+      {
+        "id": "q8",
+        "type": "RC_Passage2",
+        "passage": "In monetary economics, the doctrine of central bank independence has long been treated as an axiomatic pillar of macrofinancial stability. Originating in the stagflationary shocks of the 1970s, the paradigm holds that insulation from short-term electoral incentives prevents politicians from exploiting the Phillips curve—artificially lowering interest rates to engineer economic booms ahead of elections at the cost of long-term hyperinflation. By delegating monetary policy to technocratic central bankers operating under strict mandates, economies achieved low, predictable inflation throughout the Great Moderation. However, the post-2008 era of unconventional monetary policy and quantitative easing (QE) has eroded the traditional boundaries separating monetary authority from fiscal policymaking, igniting a fundamental crisis of legitimacy.\n\nWhen central banks engaged in massive asset purchase programs, buying trillions of dollars in sovereign debt and corporate bonds to drive down long-term yields, they fundamentally altered wealth distribution within society. By elevating asset prices—such as equities, real estate, and financial derivatives—QE directly enriched capital-owning demographics while providing marginal income growth to wage earners reliant on real wage gains. Furthermore, by acting as the primary buyer of national debt, central banks indirectly monetized government deficits, blurring the line between independent rate-setting and fiscal funding. When central banks influence distributional outcomes and underwrite national balance sheets, their actions cease to be purely neutral technocratic operations and become inherently political decisions.\n\nThis structural boundary degradation has prompted intense political pushback from across the political spectrum. Populist movements argue that unelected central bankers exercise unprecedented authority over national wealth distribution without democratic accountability or parliamentary oversight. Conversely, fiscal authorities argue that aggressive interest rate hikes aimed at cooling post-pandemic inflation impose massive debt-servicing burdens on public treasuries, crowding out public investment in climate infrastructure and social welfare. Consequently, proposals to curtail central bank autonomy—ranging from legislative audit mandates to executive branch interest rate overrides—have gained political traction across several major economies.\n\nDefenders of central bank independence counter that eroding technocratic autonomy would re-anchor inflation expectations at elevated levels, destroying long-term sovereign credit standing and escalating borrowing costs. They maintain that central bank interventions during financial panics act as essential lender-of-last-resort mechanisms without which entire banking systems would collapse. Nevertheless, as central banks increasingly integrate environmental risk matrices, digital currencies, and societal inequality metrics into their operational policy targets, maintaining the fiction of narrow political neutrality becomes impossible. The future of monetary governance will likely require a newly negotiated institutional equilibrium—one that preserves operational autonomy in setting target interest rates while restoring democratic legitimacy through explicit structural coordination with elected parliaments.",
+        "question": "According to paragraph 2, quantitative easing (QE) created distributional inequality because:",
+        "options": [
+          "A) it directly reduced real wages while imposing tax increases on fixed-income households.",
+          "B) asset purchases elevated financial asset prices, primarily benefiting asset-owning demographics over wage earners.",
+          "C) central banks refused to purchase sovereign government debt during economic recessions.",
+          "D) foreign institutional investors were prohibited from participating in sovereign bond markets."
+        ],
+        "answer": 1,
+        "rationale": "Paragraph 2 states that QE elevated asset prices (equities, real estate), directly enriching capital owners while providing marginal gains to wage earners."
+      },
+      {
+        "id": "q9",
+        "type": "RC_Passage2",
+        "passage": "In monetary economics, the doctrine of central bank independence has long been treated as an axiomatic pillar of macrofinancial stability. Originating in the stagflationary shocks of the 1970s, the paradigm holds that insulation from short-term electoral incentives prevents politicians from exploiting the Phillips curve—artificially lowering interest rates to engineer economic booms ahead of elections at the cost of long-term hyperinflation. By delegating monetary policy to technocratic central bankers operating under strict mandates, economies achieved low, predictable inflation throughout the Great Moderation. However, the post-2008 era of unconventional monetary policy and quantitative easing (QE) has eroded the traditional boundaries separating monetary authority from fiscal policymaking, igniting a fundamental crisis of legitimacy.\n\nWhen central banks engaged in massive asset purchase programs, buying trillions of dollars in sovereign debt and corporate bonds to drive down long-term yields, they fundamentally altered wealth distribution within society. By elevating asset prices—such as equities, real estate, and financial derivatives—QE directly enriched capital-owning demographics while providing marginal income growth to wage earners reliant on real wage gains. Furthermore, by acting as the primary buyer of national debt, central banks indirectly monetized government deficits, blurring the line between independent rate-setting and fiscal funding. When central banks influence distributional outcomes and underwrite national balance sheets, their actions cease to be purely neutral technocratic operations and become inherently political decisions.\n\nThis structural boundary degradation has prompted intense political pushback from across the political spectrum. Populist movements argue that unelected central bankers exercise unprecedented authority over national wealth distribution without democratic accountability or parliamentary oversight. Conversely, fiscal authorities argue that aggressive interest rate hikes aimed at cooling post-pandemic inflation impose massive debt-servicing burdens on public treasuries, crowding out public investment in climate infrastructure and social welfare. Consequently, proposals to curtail central bank autonomy—ranging from legislative audit mandates to executive branch interest rate overrides—have gained political traction across several major economies.\n\nDefenders of central bank independence counter that eroding technocratic autonomy would re-anchor inflation expectations at elevated levels, destroying long-term sovereign credit standing and escalating borrowing costs. They maintain that central bank interventions during financial panics act as essential lender-of-last-resort mechanisms without which entire banking systems would collapse. Nevertheless, as central banks increasingly integrate environmental risk matrices, digital currencies, and societal inequality metrics into their operational policy targets, maintaining the fiction of narrow political neutrality becomes impossible. The future of monetary governance will likely require a newly negotiated institutional equilibrium—one that preserves operational autonomy in setting target interest rates while restoring democratic legitimacy through explicit structural coordination with elected parliaments.",
+        "question": "The author implies that central banks can no longer claim 'narrow political neutrality' (paragraph 4) because:",
+        "options": [
+          "A) central bank officials are directly elected by popular vote during parliamentary cycles.",
+          "B) monetary policies now incorporate broad socio-economic goals like climate risk and wealth distribution.",
+          "C) interest rates are determined exclusively by global commercial banking consortia.",
+          "D) quantitative easing eliminated all public sovereign debt across developed economies."
+        ],
+        "answer": 1,
+        "rationale": "Paragraph 4 states that as central banks integrate environmental risks, digital currencies, and inequality metrics into policy targets, maintaining the fiction of political neutrality becomes impossible."
+      },
+      {
+        "id": "q10",
+        "type": "RC_Passage2",
+        "passage": "In monetary economics, the doctrine of central bank independence has long been treated as an axiomatic pillar of macrofinancial stability. Originating in the stagflationary shocks of the 1970s, the paradigm holds that insulation from short-term electoral incentives prevents politicians from exploiting the Phillips curve—artificially lowering interest rates to engineer economic booms ahead of elections at the cost of long-term hyperinflation. By delegating monetary policy to technocratic central bankers operating under strict mandates, economies achieved low, predictable inflation throughout the Great Moderation. However, the post-2008 era of unconventional monetary policy and quantitative easing (QE) has eroded the traditional boundaries separating monetary authority from fiscal policymaking, igniting a fundamental crisis of legitimacy.\n\nWhen central banks engaged in massive asset purchase programs, buying trillions of dollars in sovereign debt and corporate bonds to drive down long-term yields, they fundamentally altered wealth distribution within society. By elevating asset prices—such as equities, real estate, and financial derivatives—QE directly enriched capital-owning demographics while providing marginal income growth to wage earners reliant on real wage gains. Furthermore, by acting as the primary buyer of national debt, central banks indirectly monetized government deficits, blurring the line between independent rate-setting and fiscal funding. When central banks influence distributional outcomes and underwrite national balance sheets, their actions cease to be purely neutral technocratic operations and become inherently political decisions.\n\nThis structural boundary degradation has prompted intense political pushback from across the political spectrum. Populist movements argue that unelected central bankers exercise unprecedented authority over national wealth distribution without democratic accountability or parliamentary oversight. Conversely, fiscal authorities argue that aggressive interest rate hikes aimed at cooling post-pandemic inflation impose massive debt-servicing burdens on public treasuries, crowding out public investment in climate infrastructure and social welfare. Consequently, proposals to curtail central bank autonomy—ranging from legislative audit mandates to executive branch interest rate overrides—have gained political traction across several major economies.\n\nDefenders of central bank independence counter that eroding technocratic autonomy would re-anchor inflation expectations at elevated levels, destroying long-term sovereign credit standing and escalating borrowing costs. They maintain that central bank interventions during financial panics act as essential lender-of-last-resort mechanisms without which entire banking systems would collapse. Nevertheless, as central banks increasingly integrate environmental risk matrices, digital currencies, and societal inequality metrics into their operational policy targets, maintaining the fiction of narrow political neutrality becomes impossible. The future of monetary governance will likely require a newly negotiated institutional equilibrium—one that preserves operational autonomy in setting target interest rates while restoring democratic legitimacy through explicit structural coordination with elected parliaments.",
+        "question": "Which of the following phrases from the passage best illustrates the original rationale for separating central banks from political control?",
+        "options": [
+          "A) 'exploiting the Phillips curve—artificially lowering interest rates to engineer economic booms ahead of elections'",
+          "B) 'acting as the primary buyer of national debt, central banks indirectly monetized government deficits'",
+          "C) 'crowding out public investment in climate infrastructure and social welfare'",
+          "D) 'explicit structural coordination with elected parliaments'"
+        ],
+        "answer": 0,
+        "rationale": "Paragraph 1 explicitly identifies preventing politicians from exploiting the Phillips curve to engineer short-term election booms as the original rationale for independence."
+      },
+      {
+        "id": "q11",
+        "type": "RC_Passage2",
+        "passage": "In monetary economics, the doctrine of central bank independence has long been treated as an axiomatic pillar of macrofinancial stability. Originating in the stagflationary shocks of the 1970s, the paradigm holds that insulation from short-term electoral incentives prevents politicians from exploiting the Phillips curve—artificially lowering interest rates to engineer economic booms ahead of elections at the cost of long-term hyperinflation. By delegating monetary policy to technocratic central bankers operating under strict mandates, economies achieved low, predictable inflation throughout the Great Moderation. However, the post-2008 era of unconventional monetary policy and quantitative easing (QE) has eroded the traditional boundaries separating monetary authority from fiscal policymaking, igniting a fundamental crisis of legitimacy.\n\nWhen central banks engaged in massive asset purchase programs, buying trillions of dollars in sovereign debt and corporate bonds to drive down long-term yields, they fundamentally altered wealth distribution within society. By elevating asset prices—such as equities, real estate, and financial derivatives—QE directly enriched capital-owning demographics while providing marginal income growth to wage earners reliant on real wage gains. Furthermore, by acting as the primary buyer of national debt, central banks indirectly monetized government deficits, blurring the line between independent rate-setting and fiscal funding. When central banks influence distributional outcomes and underwrite national balance sheets, their actions cease to be purely neutral technocratic operations and become inherently political decisions.\n\nThis structural boundary degradation has prompted intense political pushback from across the political spectrum. Populist movements argue that unelected central bankers exercise unprecedented authority over national wealth distribution without democratic accountability or parliamentary oversight. Conversely, fiscal authorities argue that aggressive interest rate hikes aimed at cooling post-pandemic inflation impose massive debt-servicing burdens on public treasuries, crowding out public investment in climate infrastructure and social welfare. Consequently, proposals to curtail central bank autonomy—ranging from legislative audit mandates to executive branch interest rate overrides—have gained political traction across several major economies.\n\nDefenders of central bank independence counter that eroding technocratic autonomy would re-anchor inflation expectations at elevated levels, destroying long-term sovereign credit standing and escalating borrowing costs. They maintain that central bank interventions during financial panics act as essential lender-of-last-resort mechanisms without which entire banking systems would collapse. Nevertheless, as central banks increasingly integrate environmental risk matrices, digital currencies, and societal inequality metrics into their operational policy targets, maintaining the fiction of narrow political neutrality becomes impossible. The future of monetary governance will likely require a newly negotiated institutional equilibrium—one that preserves operational autonomy in setting target interest rates while restoring democratic legitimacy through explicit structural coordination with elected parliaments.",
+        "question": "Which of the following, if true, would most support defenders of central bank autonomy (paragraph 4)?",
+        "options": [
+          "A) Countries that subjected central bank interest rate decisions to parliamentary approval experienced a 400% surge in inflation and higher credit default costs.",
+          "B) Central banks that expanded asset purchases generated higher corporate dividend payouts across domestic energy sectors.",
+          "C) Unconventional monetary policies reduced sovereign debt service ratios across all OECD member nations.",
+          "D) Legislative audit mandates led to faster legislative approvals for infrastructure bond issues."
+        ],
+        "answer": 0,
+        "rationale": "Defenders claim that eroding autonomy re-anchors inflation expectations and raises borrowing costs. Empirical proof that political control caused inflation surges and higher debt costs directly strengthens their defense."
+      },
+      {
+        "id": "q12",
+        "type": "RC_Passage2",
+        "passage": "In monetary economics, the doctrine of central bank independence has long been treated as an axiomatic pillar of macrofinancial stability. Originating in the stagflationary shocks of the 1970s, the paradigm holds that insulation from short-term electoral incentives prevents politicians from exploiting the Phillips curve—artificially lowering interest rates to engineer economic booms ahead of elections at the cost of long-term hyperinflation. By delegating monetary policy to technocratic central bankers operating under strict mandates, economies achieved low, predictable inflation throughout the Great Moderation. However, the post-2008 era of unconventional monetary policy and quantitative easing (QE) has eroded the traditional boundaries separating monetary authority from fiscal policymaking, igniting a fundamental crisis of legitimacy.\n\nWhen central banks engaged in massive asset purchase programs, buying trillions of dollars in sovereign debt and corporate bonds to drive down long-term yields, they fundamentally altered wealth distribution within society. By elevating asset prices—such as equities, real estate, and financial derivatives—QE directly enriched capital-owning demographics while providing marginal income growth to wage earners reliant on real wage gains. Furthermore, by acting as the primary buyer of national debt, central banks indirectly monetized government deficits, blurring the line between independent rate-setting and fiscal funding. When central banks influence distributional outcomes and underwrite national balance sheets, their actions cease to be purely neutral technocratic operations and become inherently political decisions.\n\nThis structural boundary degradation has prompted intense political pushback from across the political spectrum. Populist movements argue that unelected central bankers exercise unprecedented authority over national wealth distribution without democratic accountability or parliamentary oversight. Conversely, fiscal authorities argue that aggressive interest rate hikes aimed at cooling post-pandemic inflation impose massive debt-servicing burdens on public treasuries, crowding out public investment in climate infrastructure and social welfare. Consequently, proposals to curtail central bank autonomy—ranging from legislative audit mandates to executive branch interest rate overrides—have gained political traction across several major economies.\n\nDefenders of central bank independence counter that eroding technocratic autonomy would re-anchor inflation expectations at elevated levels, destroying long-term sovereign credit standing and escalating borrowing costs. They maintain that central bank interventions during financial panics act as essential lender-of-last-resort mechanisms without which entire banking systems would collapse. Nevertheless, as central banks increasingly integrate environmental risk matrices, digital currencies, and societal inequality metrics into their operational policy targets, maintaining the fiction of narrow political neutrality becomes impossible. The future of monetary governance will likely require a newly negotiated institutional equilibrium—one that preserves operational autonomy in setting target interest rates while restoring democratic legitimacy through explicit structural coordination with elected parliaments.",
+        "question": "The tone of the passage toward central bank independence in the modern economic context can best be described as:",
+        "options": [
+          "A) Dogmatically enthusiastic",
+          "B) Critically analytical and nuanced",
+          "C) Dismissive and hostile",
+          "D) Indifferent and passive"
+        ],
+        "answer": 1,
+        "rationale": "The author systematically examines both the historical rationale for central bank independence and the modern conflicts caused by QE, offering a balanced, analytical perspective and calling for a nuanced equilibrium."
+      },
+      {
+        "id": "q13",
         "type": "ParaJumble_TITA",
         "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. When regulatory oversight is weak, financial institutions often misprice complex structural risks.\n2. Over time, these unpriced systemic vulnerabilities accumulate quietly across interconnected global balance sheets.\n3. A minor market shock can then trigger a widespread liquidity freeze that threatens the stability of the entire banking system.\n4. Capital markets rely on the assumption that market participants accurately price assets based on publicly available data.",
         "answer": "4123",
         "explanation": "Sentence 4 establishes the baseline rule (capital markets rely on accurate asset pricing). Sentence 1 introduces the flaw when regulation is weak (mispricing risk). Sentence 2 details the accumulation of those vulnerabilities ('these unpriced systemic vulnerabilities'). Sentence 3 concludes with the fallout ('A minor market shock can then trigger...')."
       },
       {
-        "id": "q20",
+        "id": "q14",
         "type": "ParaJumble_TITA",
         "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. This ecological footprint is further inflated by the massive energy demands of modern cooling infrastructure.\n2. Large-scale data centers now consume a growing fraction of global electricity output.\n3. Consequently, tech conglomerates are facing intense pressure to power hyperscale facilities with renewable energy.\n4. Much of this power is generated by burning fossil fuels, releasing megatons of carbon emissions annually.",
         "answer": "2413",
         "explanation": "Sentence 2 introduces data center electricity consumption. Sentence 4 elaborates on how this power is generated (fossil fuels, carbon emissions). Sentence 1 adds another layer ('This ecological footprint is further inflated by... cooling infrastructure'). Sentence 3 provides the outcome ('Consequently, tech conglomerates face intense pressure...')."
       },
       {
-        "id": "q21",
+        "id": "q15",
         "type": "ParaJumble_TITA",
         "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Without rigorous institutional checks, executive power inevitably expands at the expense of parliamentary oversight.\n2. Democratic governance rests on a delicate balance between executive authority and legislative accountability.\n3. The erosion of this balance degrades citizen trust in public institutions over successive election cycles.\n4. Opportunistic leaders exploit emergencies to issue sweeping decrees that bypass committee scrutiny.",
         "answer": "2143",
         "explanation": "Sentence 2 sets up the fundamental balance of democratic governance. Sentence 1 warns what happens when checks are absent (executive power expands). Sentence 4 explains the mechanism ('Opportunistic leaders exploit emergencies...'). Sentence 3 presents the long-term impact on citizen trust ('The erosion of this balance...')."
       },
       {
-        "id": "q22",
+        "id": "q16",
         "type": "ParaJumble_TITA",
         "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. The resulting architectural style prioritized functional utility over classical ornamentation.\n2. Industrialization transformed urban design by introducing mass-produced steel and reinforced concrete.\n3. Cities rapidly erected high-density office towers to accommodate expanding corporate bureaucracies.\n4. These new materials allowed architects to design structures of unprecedented height and structural flexibility.",
         "answer": "2413",
         "explanation": "Sentence 2 introduces industrialization and new materials (steel/concrete). Sentence 4 connects directly ('These new materials allowed architects...'). Sentence 1 describes the aesthetic output ('The resulting architectural style...'). Sentence 3 shows the practical urban application ('Cities rapidly erected high-density office towers...')."
       },
       {
-        "id": "q23",
+        "id": "q17",
         "type": "ParaJumble_TITA",
         "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Such cognitive short-cuts saved vital seconds when human ancestors confronted apex predators in the wild.\n2. Human decision-making relies heavily on heuristics, which are mental rules of thumb evolved for rapid survival.\n3. In modern financial trading, however, those same evolutionary shortcuts generate systematic irrational biases.\n4. Traders misinterpret market noise as meaningful trends, making catastrophic emotional miscalculations.",
         "answer": "2134",
         "explanation": "Sentence 2 defines heuristics and their evolutionary purpose. Sentence 1 explains why they evolved ('Such cognitive short-cuts saved vital seconds...'). Sentence 3 transitions to the modern domain ('In modern financial trading, however...'). Sentence 4 details the financial missteps."
       },
       {
-        "id": "q24",
+        "id": "q18",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Over time, repeated exposure to algorithmic recommendation feeds creates isolated echo chambers.\n2. Social media networks engineered engagement algorithms to maximize user screen retention time.\n3. Within these digital bubbles, confirmation bias reinforces extreme viewpoints while suppressing opposing facts.\n4. These algorithms promote sensationalist and polarising content that triggers strong emotional responses.",
+        "answer": "2413",
+        "explanation": "Sentence 2 sets up the social media algorithms' goal. Sentence 4 explains how the algorithms work (promoting sensational content). Sentence 1 introduces the consequence ('Over time... creates echo chambers'). Sentence 3 elaborates on the cognitive effect within those bubbles."
+      },
+      {
+        "id": "q19",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. The loss of topsoil severely reduces agricultural productivity, driving rural migration to urban slums.\n2. Unsustainable irrigation practices accelerate soil degradation and desertification in arid farming belts.\n3. Regional water management authorities must enforce conservation protocols to prevent ecological collapse.\n4. Chemical runoff simultaneously contaminates local aquifers, destroying freshwater ecosystems.",
+        "answer": "2143",
+        "explanation": "Sentence 2 states the main issue (soil degradation). Sentence 1 tracks the immediate loss (productivity drop/rural migration). Sentence 4 adds the secondary environmental impact (runoff contaminating aquifers). Sentence 3 concludes with the required administrative intervention."
+      },
+      {
+        "id": "q20",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. The rise of synthetic biology allows researchers to engineer novel genetic sequences from scratch.\n2. While these biotechnical breakthroughs promise custom vaccines, they also raise biosecurity threats.\n3. Unregulated access to gene-editing tools could enable rogue actors to synthesize lethal pathogens.\n4. Consequently, international scientific bodies are drafting strict dual-use research oversight guidelines.",
+        "answer": "1234",
+        "explanation": "Sentence 1 introduces synthetic biology. Sentence 2 presents the dual nature (promise vs biosecurity threat). Sentence 3 details the specific risk ( rogue actors synthesizing pathogens). Sentence 4 provides the resulting policy response."
+      },
+      {
+        "id": "q21",
         "type": "ParaSummary",
         "question": "Select the option that best summarizes the paragraph:\n\n'Central banks have traditionally controlled inflation by adjusting benchmark interest rates to influence borrowing costs and economic activity. However, when interest rates hit the effective lower bound near zero, conventional monetary policy loses its potency. In response, central banks turned to quantitative easing—purchasing massive volumes of government bonds to lower long-term yields directly. While quantitative easing prevented financial collapse during crises, critics argue that prolonged bond buying inflates asset bubbles, artificially depresses yields, and worsens wealth inequality by benefiting asset owners over wage earners.'",
         "options": [
@@ -139,7 +244,7 @@
         "rationale": "Option B summarizes the passage: QE was adopted when rates hit zero, succeeded in preventing collapse, but generated drawbacks (asset bubbles, depresses yields, wealth inequality)."
       },
       {
-        "id": "q25",
+        "id": "q22",
         "type": "ParaSummary",
         "question": "Select the option that best summarizes the paragraph:\n\n'In literary theory, the concept of the 'intentional fallacy' asserts that an author’s intended meaning should not be the primary standard for interpreting or evaluating a text. Proponents argue that once a literary work is published, it exists independently of its creator's mind, becoming public property open to pluralistic readings. Reconstructing an author's personal psychology or private biography reduces a rich text to a single, static authorial voice. Consequently, critics must focus on the internal evidence of the text itself—its structure, imagery, and syntax—rather than external statements made by the author.'",
         "options": [
@@ -152,7 +257,7 @@
         "rationale": "Option B captures the core thesis: the intentional fallacy argues that texts exist independently of their authors, requiring evaluation based on internal textual evidence rather than authorial intent."
       },
       {
-        "id": "q26",
+        "id": "q23",
         "type": "ParaSummary",
         "question": "Select the option that best summarizes the paragraph:\n\n'Pharmaceutical companies frequently defend high drug prices by pointing to the astronomical capital expenditures required for drug discovery and clinical trials. They argue that patent monopolies are essential to recoup research investment before generic competitors enter the market. However, health economists observe that a significant share of breakthrough basic research is publicly funded by government grants before being licensed to private firms. Furthermore, major pharmaceutical firms often allocate far more capital to marketing and share buybacks than to genuine laboratory innovation, challenging the narrative that high prices directly fund medical breakthroughs.'",
         "options": [
@@ -165,7 +270,20 @@
         "rationale": "Option C summarizes both sides: while pharma claims high prices fund high R&D costs, health economists counter that basic research is publicly funded and corporate budgets prioritize marketing over lab innovation."
       },
       {
-        "id": "q27",
+        "id": "q24",
+        "type": "ParaSummary",
+        "question": "Select the option that best summarizes the paragraph:\n\n'The rapid development of autonomous decision-making in corporate algorithms has created an accountability vacuum. When automated hiring systems exhibit systemic racial or gender biases, corporations frequently blame 'black-box' machine learning architectures. However, algorithms do not operate in a social vacuum; they reflect historical training data selected by engineers. Holding developers and executives legally liable for algorithmic discrimination is essential to ensuring ethical AI deployment.'",
+        "options": [
+          "A) Machine learning systems are inherently unbiased, so corporate executives bear no responsibility for automated outcome disparities.",
+          "B) Algorithmic bias stems from historical training data, making legal liability for developers and firms necessary to ensure ethical AI deployment.",
+          "C) Automated hiring tools should be outlawed globally because black-box neural networks cannot be trained on unbiased datasets.",
+          "D) Software engineers intentionally encode discrimination into corporate hiring subroutines to maximize operational profits."
+        ],
+        "answer": 1,
+        "rationale": "Option B captures the main points: algorithmic bias comes from historical data choices, so legal liability for developers/firms is required to ensure ethical deployment."
+      },
+      {
+        "id": "q25",
         "type": "ParaCompletion",
         "question": "Complete the paragraph logically:\n\n'In evolutionary biology, the Red Queen hypothesis posits that species must constantly adapt and evolve simply to maintain their relative fitness against co-evolving competitor species. In an ecosystem where predators continuously improve their hunting efficiency, prey species must simultaneously develop better camouflage or speed merely to survive. Thus, evolutionary adaptation does not lead to permanent competitive dominance, but rather to ________.'",
         "options": [
@@ -178,7 +296,7 @@
         "rationale": "The Red Queen hypothesis emphasizes 'running just to stay in the same place.' Option A logically completes the thought by framing adaptation as preserving survival parity rather than achieving absolute dominance."
       },
       {
-        "id": "q28",
+        "id": "q26",
         "type": "ParaCompletion",
         "question": "Complete the paragraph logically:\n\n'Subsidies are frequently implemented by governments to protect domestic industries from foreign competition and safeguard local manufacturing employment. However, when subsidies remain in place indefinitely, they insulate domestic firms from international market forces. Deprived of competitive pressure, protected companies often neglect technological modernization and operational efficiency, ultimately making ________.'",
         "options": [
@@ -191,6 +309,26 @@
         "rationale": "The paragraph details how perpetual subsidies remove competitive pressure, causing firms to neglect modernization. The logical result (Option B) is that the industry becomes perpetually dependent on state aid while producing inferior goods."
       },
       {
+        "id": "q27",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\n'Urban planners historically prioritized private automobile infrastructure, designing expansive highway networks that dissected vibrant city neighborhoods. While this approach accelerated suburban sprawl, it generated severe traffic congestion and elevated urban heat island effects. Modern sustainable urban design seeks to reverse this paradigm by ________.'",
+        "options": [
+          "A) widening multi-lane highways to accommodate higher volumes of fossil-fuel vehicles",
+          "B) reallocating road space toward pedestrian zones, cycling corridors, and mass transit networks",
+          "C) banning all public transportation systems in densely populated downtown business centers",
+          "D) constructing underground parking garages beneath protected historical monuments"
+        ],
+        "answer": 1,
+        "rationale": "To reverse the car-centric urban sprawl and environmental degradation mentioned, modern sustainable design reallocates space to pedestrians, bikes, and mass transit (Option B)."
+      },
+      {
+        "id": "q28",
+        "type": "OddOneOut_TITA",
+        "question": "Five sentences are given below. Four of them can be arranged to form a coherent paragraph. Identify the sentence that does NOT fit into the structure and type its number as the answer:\n\n1. Quantum computing utilizes qubits that can exist in superpositions of zero and one simultaneously.\n2. This capability allows quantum processors to solve complex optimization problems exponentially faster than classical supercomputers.\n3. High-efficiency solar panels rely on photovoltaic silicon wafers to absorb solar radiation.\n4. Fields like cryptography and molecular modeling stand to be transformed by this computational speedup.\n5. However, maintaining qubit stability requires extreme cryogenic cooling near absolute zero.",
+        "answer": "3",
+        "explanation": "Sentences 1, 2, 4, and 5 form a coherent paragraph about quantum computing, qubits, applications, and cryogenic challenges. Sentence 3 (photovoltaic solar panels) is completely off-topic."
+      },
+      {
         "id": "q29",
         "type": "Vocabulary",
         "question": "Select the word MOST NEARLY SIMILAR in meaning to 'TRENCHANT':",
@@ -201,7 +339,7 @@
           "D) Dilatory"
         ],
         "answer": 0,
-        "rationale": "'Trenchant' means vigor, incisive, or sharp in expression. 'Incisive' is the closest synonym. 'Ambiguous' (unclear), 'frivolous' (silly/light), and 'dilatory' (causing delay) are incorrect."
+        "rationale": "'Trenchant' means vigor, incisive, or sharp in expression. 'Incisive' is the closest synonym."
       },
       {
         "id": "q30",
@@ -214,7 +352,7 @@
           "D) Scrupulous"
         ],
         "answer": 1,
-        "rationale": "'Punctilious' means showing great attention to detail or correct behavior. 'Careless' is its direct antonym. 'Meticulous', 'fastidious', and 'scrupulous' are synonyms."
+        "rationale": "'Punctilious' means showing great attention to detail or correct behavior. 'Careless' is its direct antonym."
       },
       {
         "id": "q31",
@@ -227,7 +365,7 @@
           "D) Equivocal"
         ],
         "answer": 1,
-        "rationale": "'Intransigent' means refusing to compromise or agree. 'Uncompromising' is the exact synonym. 'Compliant' is an antonym."
+        "rationale": "'Intransigent' means refusing to compromise or agree. 'Uncompromising' is the exact synonym."
       },
       {
         "id": "q32",
@@ -240,7 +378,7 @@
           "D) Placidity"
         ],
         "answer": 0,
-        "rationale": "'Equanimity' means mental calmness and composure, especially in difficult situations. 'Agitation' is the opposite. 'Serenity', 'composure', and 'placidity' are synonyms."
+        "rationale": "'Equanimity' means mental calmness and composure. 'Agitation' is the opposite."
       },
       {
         "id": "q33",
@@ -253,7 +391,7 @@
           "D) incisive"
         ],
         "answer": 1,
-        "rationale": "'Vacuous' means lacking thought or intelligence; empty. This fits 'empty platitudes that left shareholders unimpressed.' 'Cogent' (persuasive), 'pellucid' (clear), and 'incisive' (sharp) contradict the context."
+        "rationale": "'Vacuous' means lacking thought or intelligence; empty. This fits 'empty platitudes that left shareholders unimpressed.'"
       },
       {
         "id": "q34",
@@ -266,7 +404,7 @@
           "D) taciturn; certain"
         ],
         "answer": 0,
-        "rationale": "'Glib' (superficial/facile) assurances paired with union leaders remaining 'skeptical' maintains the contrast introduced by 'Despite'."
+        "rationale": "'Glib' assurances paired with union leaders remaining 'skeptical' maintains the contrast introduced by 'Despite'."
       },
       {
         "id": "q35",
@@ -292,7 +430,7 @@
           "D) She maintained a precipitate attitude during the negotiations, calmly listening to every proposal before responding."
         ],
         "answer": 3,
-        "rationale": "'Precipitate' as an adjective means hasty, rash, or done without deliberation (as in Option C). In Option D, 'calmly listening before responding' describes a deliberate, calm attitude, which is the exact opposite of 'precipitate'."
+        "rationale": "'Precipitate' as an adjective means hasty, rash, or done without deliberation. In Option D, 'calmly listening before responding' describes a calm, deliberate attitude, which is the exact opposite."
       },
       {
         "id": "q37",
@@ -305,7 +443,7 @@
           "D) Sentences I and III only"
         ],
         "answer": 0,
-        "rationale": "'Canon' (one 'n' in the middle) refers to a general law/rule (I), a accepted body of works (II), or a member of the clergy (IV). Sentence III requires 'CANNON' (double 'n'), which refers to the heavy artillery weapon."
+        "rationale": "'Canon' (one 'n' in the middle) refers to a general rule (I), an accepted body of works (II), or a member of the clergy (IV). Sentence III requires 'CANNON' (double 'n'), which refers to the heavy artillery weapon."
       },
       {
         "id": "q38",
@@ -318,7 +456,7 @@
           "D) has been"
         ],
         "answer": 1,
-        "rationale": "When two subjects are joined by 'neither... nor', the verb agrees with the subject closer to it. 'Members' is plural, and the context is past time ('yesterday'), requiring 'were'."
+        "rationale": "When two subjects are joined by 'neither... nor', the verb agrees with the closer subject. 'Members' is plural, and the context is past time ('yesterday'), requiring 'were'."
       },
       {
         "id": "q39",
@@ -331,7 +469,7 @@
           "D) to evacuate immediately"
         ],
         "answer": 1,
-        "rationale": "'No sooner' must be followed by 'than', not 'when'. Part B should read 'started than the fire alarm' ('Hardly... when' vs 'No sooner... than')."
+        "rationale": "'No sooner' must be followed by 'than', not 'when'. Part B should read 'started than the fire alarm'."
       },
       {
         "id": "q40",
@@ -344,7 +482,7 @@
           "D) Having completed the survey, analysis was performed by the research team."
         ],
         "answer": 1,
-        "rationale": "Options A, C, and D contain dangling modifiers (suggesting the 'data', 'it', or 'analysis' completed the survey). Option B correctly places the logical subject ('the research team') immediately after the modifier."
+        "rationale": "Options A, C, and D contain dangling modifiers. Option B correctly places the logical subject ('the research team') immediately after the introductory modifier phrase."
       },
       {
         "id": "q41",
@@ -357,7 +495,7 @@
           "D) would submit"
         ],
         "answer": 1,
-        "rationale": "Verbs expressing demand, insistence, or requirement ('insisted that...') mandate the subjunctive mood, which uses the base form of the verb ('submit') without standard third-person '-s' agreement."
+        "rationale": "Verbs expressing insistence or requirement ('insisted that...') mandate the subjunctive mood, which uses the base form of the verb ('submit') without standard third-person '-s' agreement."
       },
       {
         "id": "q42",
@@ -409,7 +547,7 @@
           "D) Had I known about the traffic delay, I would have taken the metro."
         ],
         "answer": 2,
-        "rationale": "When a singular subject ('The manager') is followed by parenthetical phrases like 'together with', 'along with', or 'as well as', the verb must remain singular. Option C incorrectly uses the plural 'have reviewed' instead of 'has reviewed'."
+        "rationale": "When a singular subject ('The manager') is followed by parenthetical phrases like 'together with', the verb remains singular. Option C incorrectly uses 'have reviewed' instead of 'has reviewed'."
       }
     ]
   }
