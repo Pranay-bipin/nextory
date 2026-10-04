@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEXTORY - IPMAT Prep Portal</title>
+    <!-- Chart.js CDN for Visual Analytics -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         :root {
@@ -15,17 +16,19 @@
             --text-heading: #0f291e;
             --text-body: #2d4538;
             --text-muted: #5e7a6b;
+            
             --green-primary: #10b981;
             --green-hover: #047857;
             --green-bg: #ecfdf5;
             --green-border: #a7f3d0;
+            
             --status-correct: #16a34a;
             --status-wrong: #dc2626;
             --shadow-subtle: 0 4px 20px -2px rgba(16, 185, 129, 0.08);
         }
 
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-        body { background-color: var(--bg-page); color: var(--text-body); min-height: 100vh; line-height: 1.6; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif; }
+        body { background-color: var(--bg-page); color: var(--text-body); min-height: 100vh; letter-spacing: -0.01em; line-height: 1.6; }
 
         header {
             background: #ffffff;
@@ -37,181 +40,866 @@
             position: sticky;
             top: 0;
             z-index: 100;
+            box-shadow: 0 2px 10px rgba(16, 185, 129, 0.05);
         }
 
-        .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.1rem; color: var(--text-heading); }
-        .logo-box { background: linear-gradient(135deg, var(--green-primary), #059669); color: #ffffff; padding: 3px 8px; border-radius: 6px; font-size: 0.85rem; font-weight: 800; }
+        .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.1rem; color: var(--text-heading); letter-spacing: 0.02em; }
+        .logo-box { background: linear-gradient(135deg, var(--green-primary), #059669); color: #ffffff; padding: 3px 8px; border-radius: 6px; font-size: 0.85rem; font-weight: 800; box-shadow: 0 2px 6px rgba(16, 185, 129, 0.25); }
         .sub-tag { background: var(--green-bg); color: var(--green-hover); font-size: 0.75rem; padding: 3px 10px; border-radius: 20px; border: 1px solid var(--green-border); font-weight: 600; }
 
         .nav-items { display: flex; gap: 8px; flex-wrap: wrap; }
-        .nav-btn { background: transparent; border: 1px solid transparent; color: var(--text-muted); padding: 8px 16px; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 0.88rem; transition: all 0.2s ease; }
-        .nav-btn.active { background: var(--green-hover); color: #ffffff; }
+        .nav-btn {
+            background: transparent;
+            border: 1px solid transparent;
+            color: var(--text-muted);
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.88rem;
+            transition: all 0.2s ease;
+        }
+        .nav-btn:hover { color: var(--text-heading); background: var(--bg-subtle); }
+        .nav-btn.active { background: var(--green-hover); color: #ffffff; box-shadow: 0 2px 8px rgba(4, 120, 87, 0.2); }
 
         .container { max-width: 1220px; margin: 30px auto; padding: 0 20px; }
         .view-panel { display: none; }
         .view-panel.active { display: block; }
 
-        .hero-banner { background: linear-gradient(135deg, #d1fae5 0%, #ecfdf5 100%); border: 1px solid var(--green-border); border-radius: 16px; padding: 32px; margin-bottom: 30px; }
-        .primary-btn { background: var(--green-hover); color: #ffffff; border: none; padding: 11px 22px; border-radius: 8px; font-weight: 700; font-size: 0.88rem; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; }
-        .secondary-btn { background: #ffffff; color: var(--text-heading); border: 1px solid var(--border-light); padding: 11px 22px; border-radius: 8px; font-weight: 700; font-size: 0.88rem; cursor: pointer; }
+        .hero-banner {
+            background: linear-gradient(135deg, #d1fae5 0%, #ecfdf5 50%, #ffffff 100%);
+            border: 1px solid var(--green-border);
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 30px;
+            box-shadow: var(--shadow-subtle);
+            position: relative;
+            overflow: hidden;
+        }
+        .hero-banner h1 { font-size: 1.6rem; font-weight: 800; margin-bottom: 8px; color: var(--text-heading); letter-spacing: -0.02em; }
+        .hero-banner p { color: var(--text-body); font-size: 0.96rem; margin-bottom: 20px; max-width: 800px; }
+        
+        .primary-btn {
+            background: var(--green-hover);
+            color: #ffffff;
+            border: none;
+            padding: 11px 22px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 0.88rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 3px 12px rgba(4, 120, 87, 0.25);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        .primary-btn:hover { background: #065f46; transform: translateY(-1px); }
+
+        .secondary-btn {
+            background: #ffffff;
+            color: var(--text-heading);
+            border: 1px solid var(--border-light);
+            padding: 11px 22px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 0.88rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .secondary-btn:hover { background: var(--bg-subtle); border-color: var(--border-hover); }
+
+        .section-header { font-size: 0.9rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin: 28px 0 14px; display: flex; justify-content: space-between; align-items: center; }
+        .vocab-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+        .vocab-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+            padding: 18px;
+            position: relative;
+            transition: all 0.2s ease;
+            box-shadow: var(--shadow-subtle);
+        }
+        .vocab-card:hover { border-color: var(--green-primary); transform: translateY(-2px); box-shadow: 0 8px 24px -4px rgba(16, 185, 129, 0.15); }
+        .word-title { color: var(--text-heading); font-weight: 800; font-size: 1.05rem; }
+        .word-type { font-size: 0.72rem; color: var(--green-hover); text-transform: uppercase; margin-left: 6px; letter-spacing: 0.04em; font-weight: 700; background: var(--green-bg); padding: 2px 6px; border-radius: 4px; border: 1px solid var(--green-border); }
+        .word-def { font-size: 0.9rem; color: var(--text-body); margin: 10px 0 8px; line-height: 1.5; }
+        .word-ex { font-size: 0.84rem; color: var(--text-muted); font-style: italic; }
+
+        .save-btn {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            background: var(--bg-subtle);
+            border: 1px solid var(--border-light);
+            color: var(--text-body);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.74rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .save-btn:hover { background: var(--green-bg); border-color: var(--green-primary); color: var(--green-hover); }
+        .save-btn.saved { background: var(--green-hover); border-color: var(--green-hover); color: #ffffff; }
+
+        .split-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 10px; }
+        @media (max-width: 850px) { .split-layout { grid-template-columns: 1fr; } }
 
         .test-split { display: grid; grid-template-columns: 1.25fr 0.75fr; gap: 20px; }
         @media (max-width: 900px) { .test-split { grid-template-columns: 1fr; } }
 
-        .reading-box, .question-card { background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 14px; padding: 28px; box-shadow: var(--shadow-subtle); position: relative; }
+        .reading-box, .question-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-light);
+            border-radius: 14px;
+            padding: 28px;
+            box-shadow: var(--shadow-subtle);
+            position: relative;
+        }
         .reading-box { max-height: 80vh; overflow-y: auto; }
         .meta-tags { display: flex; gap: 8px; margin-bottom: 18px; flex-wrap: wrap; }
         .tag { background: var(--bg-subtle); color: var(--text-body); font-size: 0.74rem; padding: 4px 10px; border-radius: 6px; border: 1px solid var(--border-light); font-weight: 700; }
         .passage-body { font-size: 1.02rem; line-height: 1.9; color: #1f3328; white-space: pre-line; text-align: justify; }
 
-        .opt-btn { display: block; width: 100%; text-align: left; background: var(--bg-subtle); border: 1px solid var(--border-light); color: var(--text-heading); padding: 14px 16px; border-radius: 10px; margin-top: 10px; cursor: pointer; font-size: 0.92rem; font-weight: 500; }
+        .timer-badge-box {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--green-bg);
+            border: 1px solid var(--green-border);
+            padding: 6px 12px;
+            border-radius: 8px;
+        }
+        .timer-badge-text { color: var(--green-hover); font-weight: 800; font-size: 0.9rem; }
+        .timer-pause-btn {
+            background: #ffffff;
+            border: 1px solid var(--green-border);
+            color: var(--green-hover);
+            font-size: 0.7rem;
+            font-weight: 800;
+            padding: 2px 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+        .timer-pause-btn:hover { background: var(--green-hover); color: #ffffff; }
+
+        .opt-btn {
+            display: block; width: 100%; text-align: left;
+            background: var(--bg-subtle); border: 1px solid var(--border-light); color: var(--text-heading);
+            padding: 14px 16px; border-radius: 10px; margin-top: 10px; cursor: pointer;
+            font-size: 0.92rem; transition: all 0.2s ease; font-weight: 500;
+        }
+        .opt-btn:hover { border-color: var(--green-primary); background: var(--green-bg); }
         .opt-btn.selected { border-color: var(--green-hover) !important; background: var(--green-hover) !important; color: #ffffff !important; font-weight: 700; }
         .opt-btn.correct { background: #f0fdf4 !important; border-color: var(--status-correct) !important; color: var(--status-correct) !important; font-weight: 700; }
         .opt-btn.wrong { background: #fef2f2 !important; border-color: var(--status-wrong) !important; color: var(--status-wrong) !important; font-weight: 700; }
 
-        .tita-input-box { width: 100%; padding: 14px 18px; font-size: 1.1rem; font-weight: 700; letter-spacing: 0.1em; color: var(--text-heading); background: #ffffff; border: 2px solid var(--border-light); border-radius: 10px; margin-top: 12px; outline: none; }
+        .tita-input-box {
+            width: 100%;
+            padding: 14px 18px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            color: var(--text-heading);
+            background: #ffffff;
+            border: 2px solid var(--border-light);
+            border-radius: 10px;
+            margin-top: 12px;
+            outline: none;
+            transition: all 0.2s ease;
+        }
+        .tita-input-box:focus { border-color: var(--green-hover); box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15); }
         .tita-input-box.correct-input { border-color: var(--status-correct); background: #f0fdf4; color: var(--status-correct); }
         .tita-input-box.wrong-input { border-color: var(--status-wrong); background: #fef2f2; color: var(--status-wrong); }
 
         .q-palette-container { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border-light); }
-        .q-palette-title { font-size: 0.78rem; font-weight: 800; text-transform: uppercase; color: var(--text-muted); margin-bottom: 10px; display: flex; justify-content: space-between; }
-        .q-palette-grid { display: flex; flex-wrap: wrap; gap: 6px; max-height: 180px; overflow-y: auto; }
-        .q-grid-btn { width: 32px; height: 32px; border-radius: 6px; border: 1px solid var(--border-light); background: var(--bg-subtle); font-size: 0.76rem; font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
+        .q-palette-title { font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; }
+        .q-palette-grid { display: flex; flex-wrap: wrap; gap: 6px; max-height: 180px; overflow-y: auto; padding-right: 4px; }
+        .q-grid-btn {
+            width: 32px; height: 32px; min-width: 32px; min-height: 32px; border-radius: 6px;
+            border: 1px solid var(--border-light); background: var(--bg-subtle); color: var(--text-body);
+            font-size: 0.76rem; font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; transition: all 0.15s ease;
+        }
+        .q-grid-btn:hover { border-color: var(--green-primary); background: var(--green-bg); color: var(--green-hover); }
         .q-grid-btn.active-q { border-color: var(--green-hover) !important; box-shadow: 0 0 0 2px var(--green-hover); font-weight: 800; }
         .q-grid-btn.attempted { background: var(--green-hover) !important; color: #ffffff !important; border-color: var(--green-hover) !important; }
 
-        .explanation-box { display: none; margin-top: 18px; padding: 18px; background: var(--green-bg); border-left: 4px solid var(--green-hover); border-radius: 8px; font-size: 0.9rem; color: #064e3b; }
-        .submit-btn { width: 100%; background: var(--green-hover); color: #ffffff; border: none; padding: 13px; border-radius: 10px; font-weight: 800; font-size: 0.95rem; cursor: pointer; margin-top: 20px; }
+        .explanation-box { display: none; margin-top: 18px; padding: 18px; background: var(--green-bg); border-left: 4px solid var(--green-hover); border-radius: 8px; font-size: 0.9rem; line-height: 1.7; color: #064e3b; box-shadow: 0 2px 8px rgba(16, 185, 129, 0.08); }
 
-        /* ANALYTICS MODAL OVERRIDE */
-        .modal-overlay { display: none; position: fixed !important; top: 0 !important; left: 0 !important; width: 100vw !important; height: 100vh !important; background: rgba(15, 41, 30, 0.8) !important; backdrop-filter: blur(8px); z-index: 999999 !important; justify-content: center; align-items: center; padding: 20px; }
+        .submit-btn { width: 100%; background: var(--green-hover); color: #ffffff; border: none; padding: 13px; border-radius: 10px; font-weight: 800; font-size: 0.95rem; cursor: pointer; margin-top: 20px; transition: all 0.2s ease; box-shadow: 0 4px 14px rgba(4, 120, 87, 0.25); }
+        .submit-btn:hover { background: #065f46; transform: translateY(-1px); }
+
+        /* HIGH-PRIORITY MODAL STYLING FOR ANALYTICS DISPLAY */
+        .modal-overlay { 
+            display: none; 
+            position: fixed !important; 
+            top: 0 !important; left: 0 !important; 
+            width: 100vw !important; height: 100vh !important; 
+            background: rgba(15, 41, 30, 0.75) !important; 
+            backdrop-filter: blur(8px); 
+            z-index: 9999 !important; 
+            justify-content: center; 
+            align-items: center; 
+            overflow-y: auto; 
+            padding: 20px; 
+        }
         .modal-overlay.active { display: flex !important; }
 
-        .dashboard-card { background: #ffffff; border: 1px solid var(--border-light); width: 100%; max-width: 840px; border-radius: 20px; padding: 32px; margin: auto; max-height: 90vh; overflow-y: auto; }
+        .confirm-box { background: #ffffff; border-radius: 18px; border: 1px solid var(--border-light); padding: 32px; max-width: 440px; width: 100%; text-align: center; box-shadow: 0 25px 50px -12px rgba(15, 41, 30, 0.25); }
+        .confirm-icon { width: 60px; height: 60px; background: #fef3c7; color: #d97706; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; margin: 0 auto 16px; border: 1px solid #fde68a; }
+
+        .dashboard-card { background: #ffffff; border: 1px solid var(--border-light); width: 100%; max-width: 840px; border-radius: 20px; padding: 32px; text-align: left; box-shadow: 0 25px 50px -12px rgba(15, 41, 30, 0.25); margin: auto; max-height: 90vh; overflow-y: auto; }
         .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 12px; margin: 20px 0; }
         .stat-box { background: var(--bg-subtle); padding: 14px; border-radius: 12px; border: 1px solid var(--border-light); text-align: center; }
         .stat-val { font-size: 1.3rem; font-weight: 800; color: var(--text-heading); }
-        .stat-lbl { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; margin-top: 4px; font-weight: 700; }
+        .stat-lbl { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; margin-top: 4px; font-weight: 700; letter-spacing: 0.04em; }
 
         .dashboard-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 24px 0; }
-        .chart-container { background: #fafdfb; border: 1px solid var(--border-light); border-radius: 14px; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 220px; }
+        @media (max-width: 700px) { .dashboard-layout { grid-template-columns: 1fr; } }
+
+        .chart-container { background: #fafdfb; border: 1px solid var(--border-light); border-radius: 14px; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; position: relative; min-height: 220px; }
         .topic-breakdown-box { background: #fafdfb; border: 1px solid var(--border-light); border-radius: 14px; padding: 20px; }
 
         .topic-row { margin-bottom: 14px; }
         .topic-header { display: flex; justify-content: space-between; font-size: 0.84rem; font-weight: 700; color: var(--text-heading); margin-bottom: 4px; }
         .progress-bar-bg { background: var(--border-light); height: 8px; border-radius: 4px; overflow: hidden; }
-        .progress-bar-fill { height: 100%; border-radius: 4px; }
+        .progress-bar-fill { height: 100%; border-radius: 4px; transition: width 0.6s ease; }
+
+        .badge-weak { background: #fef2f2; color: #dc2626; padding: 2px 8px; border-radius: 12px; font-size: 0.7rem; font-weight: 700; border: 1px solid #fecaca; }
+        .badge-average { background: #fffbe3; color: #b45309; padding: 2px 8px; border-radius: 12px; font-size: 0.7rem; font-weight: 700; border: 1px solid #fef08a; }
+        .badge-strong { background: #f0fdf4; color: #16a34a; padding: 2px 8px; border-radius: 12px; font-size: 0.7rem; font-weight: 700; border: 1px solid #bbf7d0; }
+
+        .archive-item { background: var(--bg-card); border: 1px solid var(--border-light); padding: 16px 20px; border-radius: 10px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: all 0.2s ease; }
+        .archive-item:hover { border-color: var(--green-primary); transform: translateX(4px); box-shadow: var(--shadow-subtle); }
     </style>
 </head>
 <body>
 
     <header>
-        <div class="brand"><span class="logo-box">NX</span> NEXTORY <span class="sub-tag">IPMAT Prep Portal</span></div>
+        <div class="brand">
+            <span class="logo-box">NX</span> NEXTORY
+            <span class="sub-tag">IPMAT Prep Portal</span>
+        </div>
         <div class="nav-items">
-            <button id="btn-sectional" class="nav-btn active" onclick="showTab('sectional')">⚡ Sectionals</button>
+            <button id="btn-vocab" class="nav-btn active" onclick="navigateTab('vocab')">📖 Daily Vocab</button>
+            <button id="btn-reading" class="nav-btn" onclick="navigateTab('reading')">📑 Reading Practice</button>
+            <button id="btn-dilr" class="nav-btn" onclick="navigateTab('dilr')">📊 Daily DI/LR</button>
+            <button id="btn-sectional" class="nav-btn" onclick="navigateTab('sectional')">⚡ Sectionals</button>
+            <button id="btn-saved" class="nav-btn" onclick="navigateTab('saved')">🔖 Saved Hub (<span id="saved-count">0</span>)</button>
+            <button id="btn-archive" class="nav-btn" onclick="navigateTab('archive')">📂 Past RCs</button>
         </div>
     </header>
 
     <div class="container">
-        <div id="panel-sectional" class="view-panel active">
+        <!-- 1. DAILY VOCAB TAB -->
+        <div id="panel-vocab" class="view-panel active">
+            <div class="hero-banner">
+                <h1>Master High-Frequency Vocabulary, Idioms & Phrasal Verbs for IPMAT</h1>
+                <p>Strengthen your verbal reasoning, reading speed, and comprehension foundation before diving into today's IPMAT Advanced Standard Reading Practice test.</p>
+                <button class="primary-btn" onclick="navigateTab('reading')">Proceed to Daily RC Test →</button>
+            </div>
+
+            <div class="section-header">
+                <span>Top 10 Daily Vocabulary Words</span>
+                <span style="font-size: 0.8rem; color: var(--green-hover);">10/10 Active</span>
+            </div>
+            <div id="words-grid" class="vocab-grid">Loading Words...</div>
+
+            <div class="split-layout">
+                <div>
+                    <div class="section-header">Today's Top 5 Idioms</div>
+                    <div id="idioms-list">Loading Idioms...</div>
+                </div>
+                <div>
+                    <div class="section-header">Today's Top 5 Phrasal Verbs</div>
+                    <div id="verbs-list">Loading Phrasal Verbs...</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. READING PRACTICE TAB -->
+        <div id="panel-reading" class="view-panel">
+            <div class="test-split">
+                <div class="reading-box">
+                    <div class="meta-tags">
+                        <span id="rc-genre" class="tag">Genre</span>
+                        <span id="rc-diff" class="tag">IPMAT Advanced Standard</span>
+                        <span id="rc-count" class="tag">1000+ words</span>
+                    </div>
+                    <h2 id="rc-title" style="margin-bottom: 16px; color: var(--text-heading);">Loading Passage Title...</h2>
+                    <div id="rc-body" class="passage-body">Loading passage content...</div>
+                </div>
+
+                <div>
+                    <div class="question-card">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                            <h3 style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">Question Palette</h3>
+                            <div class="timer-badge-box">
+                                <span id="timer-display" class="timer-badge-text">⏱️ 00:00</span>
+                                <button id="rc-pause-btn" class="timer-pause-btn" onclick="toggleRcTimer()">Pause</button>
+                            </div>
+                        </div>
+
+                        <span id="q-progress" class="tag" style="margin-bottom:12px; display:inline-block;">Q 1 of 6</span>
+                        <div id="q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading);">Loading question...</div>
+                        <div id="q-options"></div>
+                        <div id="q-explanation" class="explanation-box"></div>
+                        
+                        <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+                            <button id="prev-btn" class="nav-btn" onclick="navQuestion(-1)">← Previous</button>
+                            <button id="next-btn" class="nav-btn" onclick="navQuestion(1)">Next →</button>
+                        </div>
+                        <button id="submit-test-btn" class="submit-btn" onclick="confirmSubmission('reading')">🚀 Submit Test</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. DAILY DI/LR TAB -->
+        <div id="panel-dilr" class="view-panel">
+            <div id="dilr-container">
+                <div class="question-card" style="text-align:center; padding: 40px;">
+                    <h3 style="color:var(--text-heading);">Loading today's IPMAT DI/LR Set...</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. SECTIONALS TAB -->
+        <div id="panel-sectional" class="view-panel">
             <div id="sectional-banner-container">
                 <div class="question-card" style="text-align:center; padding: 40px;">
-                    <h3>Loading IPMAT Indore VA 45-Question Sectional...</h3>
+                    <h3 style="color:var(--text-heading);">Checking for today's IPMAT Indore Sectional Test...</h3>
                 </div>
+            </div>
+        </div>
+
+        <!-- 5. SAVED HUB TAB -->
+        <div id="panel-saved" class="view-panel">
+            <div class="question-card">
+                <h2 style="margin-bottom: 6px; color: var(--text-heading);">🔖 Saved Vocab Hub</h2>
+                <p style="color:var(--text-muted); margin-bottom: 24px; font-size: 0.9rem;">Categorized list of your saved words, idioms, and phrasal verbs for easy revision.</p>
+                
+                <div class="section-header" style="border-bottom: 1px solid var(--border-light); padding-bottom: 8px; color: var(--green-hover);">
+                    Saved Vocabulary Words (<span id="saved-words-count">0</span>)
+                </div>
+                <div id="saved-words-grid" class="vocab-grid" style="margin-bottom: 30px;">No saved words.</div>
+
+                <div class="section-header" style="border-bottom: 1px solid var(--border-light); padding-bottom: 8px; color: var(--green-hover);">
+                    Saved Idioms & Phrases (<span id="saved-idioms-count">0</span>)
+                </div>
+                <div id="saved-idioms-grid" class="vocab-grid" style="margin-bottom: 30px;">No saved idioms.</div>
+
+                <div class="section-header" style="border-bottom: 1px solid var(--border-light); padding-bottom: 8px; color: var(--green-hover);">
+                    Saved Phrasal Verbs (<span id="saved-verbs-count">0</span>)
+                </div>
+                <div id="saved-verbs-grid" class="vocab-grid">No saved phrasal verbs.</div>
+            </div>
+        </div>
+
+        <!-- 6. PAST RCS ARCHIVE TAB -->
+        <div id="panel-archive" class="view-panel">
+            <div class="question-card">
+                <h2 style="margin-bottom: 15px; color: var(--text-heading);">Past Reading Passages Archive (IPMAT Advanced Standard)</h2>
+                <div id="archive-container">Loading Past RCs...</div>
             </div>
         </div>
     </div>
 
-    <!-- PERFORMANCE DASHBOARD MODAL -->
+    <!-- CONFIRMATION MODAL -->
+    <div id="confirm-modal" class="modal-overlay">
+        <div class="confirm-box">
+            <div class="confirm-icon">⚠️</div>
+            <h3 style="color:var(--text-heading); font-size:1.25rem; margin-bottom:8px;">Are you sure you want to submit?</h3>
+            <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:24px;">Please review your answers. Once submitted, your timer will stop and performance insights will be generated.</p>
+            <div style="display:flex; gap:12px; justify-content:center;">
+                <button class="secondary-btn" style="flex:1;" onclick="closeConfirmModal()">Cancel</button>
+                <button class="primary-btn" style="flex:1;" onclick="executeSubmission()">Yes, Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PERFORMANCE ANALYSIS DASHBOARD MODAL -->
     <div id="dashboard-modal" class="modal-overlay">
         <div class="dashboard-card">
-            <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom: 10px;">
                 <div>
                     <h2 style="color:var(--text-heading); font-size:1.5rem; font-weight:800;">📊 Performance & Diagnostic Analysis</h2>
-                    <p style="color:var(--text-muted); font-size:0.88rem;">IPMAT Indore Sectional Report</p>
+                    <p style="color:var(--text-muted); font-size:0.88rem;">Comprehensive breakdown of accuracy, time metrics, and topic strengths.</p>
                 </div>
                 <span class="sub-tag" id="dash-test-title">IPMAT Sectional</span>
             </div>
 
             <div class="stats-grid">
-                <div class="stat-box"><div id="stat-accuracy" class="stat-val" style="color:var(--status-correct)">0%</div><div class="stat-lbl">Accuracy</div></div>
-                <div class="stat-box"><div id="stat-speed" class="stat-val">0</div><div class="stat-lbl">Score</div></div>
-                <div class="stat-box"><div id="stat-time" class="stat-val">0s</div><div class="stat-lbl">Time Spent</div></div>
-                <div class="stat-box"><div id="stat-correct" class="stat-val" style="color:var(--status-correct)">0</div><div class="stat-lbl">Correct</div></div>
-                <div class="stat-box"><div id="stat-incorrect" class="stat-val" style="color:var(--status-wrong)">0</div><div class="stat-lbl">Incorrect</div></div>
-                <div class="stat-box"><div id="stat-unattempted" class="stat-val">0</div><div class="stat-lbl">Unattempted</div></div>
+                <div class="stat-box">
+                    <div id="stat-accuracy" class="stat-val" style="color:var(--status-correct)">0%</div>
+                    <div class="stat-lbl">Accuracy Rate</div>
+                </div>
+                <div class="stat-box">
+                    <div id="stat-speed" class="stat-val">0</div>
+                    <div class="stat-lbl">Score / Speed</div>
+                </div>
+                <div class="stat-box">
+                    <div id="stat-time" class="stat-val">0s</div>
+                    <div class="stat-lbl">Time Spent</div>
+                </div>
+                <div class="stat-box">
+                    <div id="stat-correct" class="stat-val" style="color:var(--status-correct)">0</div>
+                    <div class="stat-lbl">Correct</div>
+                </div>
+                <div class="stat-box">
+                    <div id="stat-incorrect" class="stat-val" style="color:var(--status-wrong)">0</div>
+                    <div class="stat-lbl">Incorrect</div>
+                </div>
+                <div class="stat-box">
+                    <div id="stat-unattempted" class="stat-val" style="color:var(--green-hover)">0</div>
+                    <div class="stat-lbl">Unattempted</div>
+                </div>
             </div>
 
             <div class="dashboard-layout">
                 <div class="chart-container">
+                    <h4 style="font-size:0.82rem; font-weight:800; text-transform:uppercase; color:var(--text-muted); margin-bottom:12px;">Attempts Visual Breakdown</h4>
                     <div style="width:180px; height:180px;">
                         <canvas id="accuracyChart"></canvas>
                     </div>
                 </div>
+
                 <div class="topic-breakdown-box">
-                    <h4 style="font-size:0.82rem; font-weight:800; text-transform:uppercase; color:var(--text-muted); margin-bottom:14px;">Topic Breakdown</h4>
-                    <div id="topic-rows-container"></div>
+                    <h4 style="font-size:0.82rem; font-weight:800; text-transform:uppercase; color:var(--text-muted); margin-bottom:14px;">Topic Diagnostic Breakdown</h4>
+                    <div id="topic-rows-container">
+                        <!-- Dynamic Progress Bars -->
+                    </div>
                 </div>
             </div>
 
-            <button class="primary-btn" style="width:100%; justify-content:center; padding:14px;" onclick="closeDashboard()">🔍 Close & Review Test Solutions</button>
+            <button class="primary-btn" style="width:100%; padding: 14px; font-size: 1rem;" onclick="reviewAnswers()">🔍 Review Solutions & Explanations</button>
         </div>
     </div>
 
     <script>
+        let allPassages = [];
+        let currentRC = null;
+        let currentQIndex = 0;
+        let userAnswers = {};
+        let isSubmitted = false;
+        
+        let timerInterval = null;
+        let secondsElapsed = 0;
+        let isTimerActive = false;
+        let activeTab = 'vocab';
+
+        let savedItems = JSON.parse(localStorage.getItem('nextory_saved')) || [];
+
+        // Sectional State
         let todaySectional = null;
         let sectionalUserAnswers = {};
-        let sectionalSeconds = 2400;
+        let sectionalSeconds = 2400; // 40 Mins
         let sectionalTimerInterval = null;
         let isSectionalSubmitted = false;
+        let isSectionalTimerActive = false;
         let secCurrentQIndex = 0;
+
+        // DI/LR State
+        let allDILRSets = [];
+        let currentDILR = null;
+        let dilrQIndex = 0;
+        let dilrUserAnswers = {};
+        let isDILRSubmitted = false;
+        let dilrTimerInterval = null;
+        let dilrSecondsElapsed = 0;
+        let isDILRTimerActive = false;
+        let isDILRComingSoon = false;
+        let dilrComingSoonInfo = null;
+
+        let pendingSubmissionType = null;
         let accuracyChartInstance = null;
+
+        document.addEventListener("visibilitychange", function() {
+            if (document.hidden) {
+                if (activeTab === 'reading' && isTimerActive && !isSubmitted) pauseTimer();
+                else if (activeTab === 'dilr' && isDILRTimerActive && !isDILRSubmitted) pauseDILRTimer();
+                else if (activeTab === 'sectional' && isSectionalTimerActive && !isSectionalSubmitted) pauseSectionalTimer();
+            }
+        });
+
+        function getLocalDateString() {
+            const now = new Date();
+            const year = now.getFullYear();
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const day = String(now.getDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
+        }
+
+        async function loadData() {
+            try {
+                const response = await fetch('passages.json');
+                if (response.ok) allPassages = await response.json();
+            } catch (err) {
+                console.error("Could not fetch passages.json", err);
+            }
+
+            if (allPassages && allPassages.length > 0) {
+                const todayStr = getLocalDateString();
+                const availablePassages = allPassages.filter(p => p.date <= todayStr);
+                currentRC = availablePassages.find(p => p.date === todayStr) || allPassages[allPassages.length - 1];
+
+                renderVocab(currentRC.vocab);
+                renderReadingTest(currentRC, false);
+                renderArchive(availablePassages.length > 0 ? availablePassages : allPassages);
+                updateSavedBadge();
+            }
+
+            loadSectionalData();
+            loadDILRData();
+        }
 
         async function loadSectionalData() {
             try {
                 const response = await fetch('sectional.json');
+                if (!response.ok) throw new Error("Sectional JSON fetch error");
                 let sectionals = await response.json();
+                
                 if (!Array.isArray(sectionals)) sectionals = [sectionals];
-                todaySectional = sectionals[0];
-                renderSectionalBanner();
+
+                if (sectionals && sectionals.length > 0) {
+                    const todayStr = getLocalDateString();
+                    todaySectional = sectionals.find(s => s.date === todayStr) || sectionals[sectionals.length - 1];
+                    renderSectionalBanner();
+                } else {
+                    renderNoSectionalBanner();
+                }
             } catch (err) {
-                console.error("Fetch error:", err);
+                console.warn("Sectional data error/fallback:", err);
+                renderNoSectionalBanner();
             }
+        }
+
+        async function loadDILRData() {
+            try {
+                const response = await fetch('dilr.json');
+                if (!response.ok) throw new Error("dilr.json fetch error");
+                const data = await response.json();
+                const item = Array.isArray(data) ? data[0] : data;
+
+                if (item && item.status === "coming_soon") {
+                    isDILRComingSoon = true;
+                    dilrComingSoonInfo = item;
+                    renderComingSoonDILR(item);
+                    return;
+                }
+
+                if (Array.isArray(data) && data.length > 0 && data[0].questions) {
+                    allDILRSets = data;
+                    isDILRComingSoon = false;
+                    const todayStr = getLocalDateString();
+                    currentDILR = allDILRSets.find(s => s.date === todayStr) || allDILRSets[allDILRSets.length - 1];
+                    renderDILRSet();
+                } else {
+                    isDILRComingSoon = true;
+                    renderComingSoonDILR();
+                }
+            } catch (err) {
+                isDILRComingSoon = true;
+                renderComingSoonDILR();
+            }
+        }
+
+        function renderComingSoonDILR(info) {
+            const container = document.getElementById('dilr-container');
+            if (!container) return;
+
+            const title = (info && info.title) ? info.title : 'Daily DI / LR Section';
+            const badge = (info && info.badge) ? info.badge : 'Coming Soon';
+            const message = (info && info.message) ? info.message : 'We are currently curating high-level Data Interpretation & Logical Reasoning sets tailored for IPMAT.';
+            const subMessage = (info && info.subMessage) ? info.subMessage : 'Content under final review and will be live shortly!';
+
+            container.innerHTML = `
+                <div class="question-card" style="text-align: center; padding: 60px 24px; max-width: 680px; margin: 40px auto; border: 1px solid var(--green-border);">
+                    <div style="width: 70px; height: 70px; background: var(--green-bg); color: var(--green-hover); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-size: 32px; border: 1px solid var(--green-border);">
+                        📊
+                    </div>
+                    <h2 style="font-size: 1.8rem; font-weight: 800; color: var(--text-heading); margin-bottom: 12px;">
+                        ${title} <span style="color: var(--green-primary);">(${badge})</span>
+                    </h2>
+                    <p style="color: var(--text-body); font-size: 1rem; margin-bottom: 24px; line-height: 1.6;">${message}</p>
+                    <div style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 18px; border-radius: 20px; background: var(--green-bg); border: 1px solid var(--green-border); color: var(--green-hover); font-size: 0.88rem; font-weight: 700;">
+                        <span>⏳ ${subMessage}</span>
+                    </div>
+                </div>`;
+        }
+
+        function renderDILRSet() {
+            if (isDILRComingSoon) {
+                renderComingSoonDILR(dilrComingSoonInfo);
+                return;
+            }
+
+            const container = document.getElementById('dilr-container');
+            if (!currentDILR || !currentDILR.questions) {
+                renderComingSoonDILR(dilrComingSoonInfo);
+                return;
+            }
+
+            const qList = currentDILR.questions;
+            const q = qList[dilrQIndex];
+
+            const mins = Math.floor(dilrSecondsElapsed / 60).toString().padStart(2, '0');
+            const secs = (dilrSecondsElapsed % 60).toString().padStart(2, '0');
+
+            const timerHeaderHtml = `
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                    <h3 style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted);">Question Palette</h3>
+                    <div class="timer-badge-box">
+                        <span id="dilr-timer-display" class="timer-badge-text">⏱️ ${mins}:${secs}</span>
+                        <button id="dilr-pause-btn" class="timer-pause-btn" onclick="toggleDILRTimer()">${isDILRTimerActive ? 'Pause' : 'Resume'}</button>
+                    </div>
+                </div>`;
+
+            const isTITA = q.type && q.type.toUpperCase().includes("TITA") || !q.options;
+            let optionsHtml = "";
+
+            if (isTITA) {
+                const currentVal = dilrUserAnswers[dilrQIndex] || "";
+                let inputClass = "tita-input-box";
+                if (isDILRSubmitted) {
+                    const cleanUserAns = String(currentVal).trim();
+                    const cleanCorrectAns = String(q.answer).trim();
+                    inputClass += (cleanUserAns === cleanCorrectAns) ? " correct-input" : " wrong-input";
+                }
+
+                optionsHtml = `
+                    <div style="margin-top: 15px;">
+                        <label style="font-weight: 700; font-size: 0.88rem; color: var(--text-muted); display: block; margin-bottom: 6px;">Type Your Answer Below:</label>
+                        <input type="text" class="${inputClass}" value="${currentVal}" placeholder="Type answer here..." ${isDILRSubmitted ? 'disabled' : ''} oninput="handleDILRTITAInput(this.value)">
+                        ${isDILRSubmitted ? `<div style="margin-top: 8px; font-weight: 800; color: var(--status-correct);">Correct Answer: ${q.answer}</div>` : ''}
+                    </div>`;
+            } else {
+                optionsHtml = q.options.map((opt, idx) => {
+                    let btnClass = "opt-btn";
+                    if (dilrUserAnswers[dilrQIndex] === idx) btnClass += " selected";
+                    if (isDILRSubmitted) {
+                        if (idx === q.answer) btnClass += " correct";
+                        else if (dilrUserAnswers[dilrQIndex] === idx) btnClass += " wrong";
+                    }
+                    return `<button class="${btnClass}" onclick="selectDILROption(${idx})">${opt}</button>`;
+                }).join('');
+            }
+
+            let attemptedCount = 0;
+            const gridBtnsHtml = qList.map((item, idx) => {
+                const ans = dilrUserAnswers[idx];
+                const isAttempted = ans !== undefined && ans !== "";
+                if (isAttempted) attemptedCount++;
+
+                let btnClass = "q-grid-btn";
+                if (idx === dilrQIndex) btnClass += " active-q";
+                if (isAttempted) btnClass += " attempted";
+
+                return `<button class="${btnClass}" onclick="jumpToDILRQ(${idx})">${idx + 1}</button>`;
+            }).join('');
+
+            container.innerHTML = `
+                <div class="test-split">
+                    <div class="reading-box">
+                        <div class="meta-tags">
+                            <span class="tag">${currentDILR.category || 'DI/LR'}</span>
+                            <span class="tag">IPMAT Level</span>
+                            <span class="tag">${currentDILR.date || 'Daily Set'}</span>
+                        </div>
+                        <h2 style="margin-bottom: 16px; color: var(--text-heading);">${currentDILR.title}</h2>
+                        <div class="passage-body">${currentDILR.setContext || currentDILR.passage || ''}</div>
+                    </div>
+                    <div>
+                        <div class="question-card">
+                            ${timerHeaderHtml}
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+                                <span class="tag">Q ${dilrQIndex + 1} of ${qList.length}</span>
+                                <span style="font-weight:700; font-size:0.82rem; color:var(--text-muted);">${attemptedCount}/${qList.length} Attempted</span>
+                            </div>
+                            <div style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1rem; line-height: 1.6;">${q.question}</div>
+                            <div>${optionsHtml}</div>
+                            
+                            <div class="q-palette-container">
+                                <div class="q-palette-title">Question Palette Grid</div>
+                                <div class="q-palette-grid">${gridBtnsHtml}</div>
+                            </div>
+
+                            <div class="explanation-box" style="display:${isDILRSubmitted ? 'block' : 'none'}">${q.explanation || ''}</div>
+
+                            <div style="display: flex; justify-content: space-between; margin-top: 25px;">
+                                <button class="nav-btn" onclick="navDILRQ(-1)">← Previous</button>
+                                <button class="nav-btn" onclick="navDILRQ(1)">Next →</button>
+                            </div>
+                            <button class="submit-btn" onclick="confirmSubmission('dilr')" style="margin-top: 20px;">🚀 Submit DI/LR Set</button>
+                        </div>
+                    </div>
+                </div>`;
+        }
+
+        function startDILRTimer() {
+            if (isDILRTimerActive || isDILRComingSoon) return;
+            isDILRTimerActive = true;
+            updateDILRPauseBtnUI();
+            dilrTimerInterval = setInterval(() => {
+                dilrSecondsElapsed++;
+                updateDILRTimerDisplay();
+            }, 1000);
+        }
+
+        function pauseDILRTimer() {
+            clearInterval(dilrTimerInterval);
+            isDILRTimerActive = false;
+            updateDILRPauseBtnUI();
+        }
+
+        function toggleDILRTimer() {
+            if (isDILRSubmitted || isDILRComingSoon) return;
+            if (isDILRTimerActive) pauseDILRTimer();
+            else startDILRTimer();
+        }
+
+        function updateDILRPauseBtnUI() {
+            const btn = document.getElementById('dilr-pause-btn');
+            if (btn) btn.innerText = isDILRTimerActive ? "Pause" : "Resume";
+        }
+
+        function updateDILRTimerDisplay() {
+            const mins = Math.floor(dilrSecondsElapsed / 60).toString().padStart(2, '0');
+            const secs = (dilrSecondsElapsed % 60).toString().padStart(2, '0');
+            const display = document.getElementById('dilr-timer-display');
+            if (display) display.innerText = `⏱ ${mins}:${secs}`;
+        }
+
+        function selectDILROption(idx) {
+            if (isDILRSubmitted) return;
+            dilrUserAnswers[dilrQIndex] = idx;
+            renderDILRSet();
+        }
+
+        function handleDILRTITAInput(val) {
+            if (isDILRSubmitted) return;
+            dilrUserAnswers[dilrQIndex] = val.trim();
+        }
+
+        function jumpToDILRQ(idx) {
+            dilrQIndex = idx;
+            renderDILRSet();
+        }
+
+        function navDILRQ(dir) {
+            const total = currentDILR.questions.length;
+            const newIdx = dilrQIndex + dir;
+            if (newIdx >= 0 && newIdx < total) {
+                dilrQIndex = newIdx;
+                renderDILRSet();
+            }
+        }
+
+        function confirmSubmission(type) {
+            pendingSubmissionType = type;
+            document.getElementById('confirm-modal').classList.add('active');
+        }
+
+        function closeConfirmModal() {
+            pendingSubmissionType = null;
+            document.getElementById('confirm-modal').classList.remove('active');
+        }
+
+        function executeSubmission() {
+            closeConfirmModal();
+            if (pendingSubmissionType === 'reading') submitTest();
+            else if (pendingSubmissionType === 'dilr') submitDILRSet();
+            else if (pendingSubmissionType === 'sectional') submitSectionalTest();
         }
 
         function renderSectionalBanner() {
             const container = document.getElementById('sectional-banner-container');
+            if (!todaySectional) {
+                renderNoSectionalBanner();
+                return;
+            }
+
+            const totalQs = todaySectional.questions ? todaySectional.questions.length : (todaySectional.totalQuestions || 45);
+
             container.innerHTML = `
-                <div class="hero-banner">
+                <div class="hero-banner" style="background: linear-gradient(135deg, #d1fae5 0%, #ecfdf5 100%); border-color: var(--green-border);">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px;">
+                        <span class="sub-tag">LIVE MOCK TEST</span>
+                        <span style="font-weight:700; color:var(--green-hover); font-size:0.85rem;">⏱️ ${todaySectional.durationMinutes || 40} MINS | Total Questions: ${totalQs} Questions Loaded</span>
+                    </div>
                     <h1>${todaySectional.title}</h1>
-                    <p>Total Questions: <strong>${todaySectional.questions.length} Questions Loaded</strong></p>
+                    <p style="margin-bottom:20px;">Strict IPMAT Indore pattern (RCs, Para Jumbles, Verbal Reasoning, Grammar & Vocab).</p>
                     <button class="primary-btn" onclick="startFullSectionalTest()">🚀 Start Sectional Test</button>
                 </div>`;
         }
 
+        function renderNoSectionalBanner() {
+            const container = document.getElementById('sectional-banner-container');
+            container.innerHTML = `
+                <div class="question-card" style="text-align:center; padding: 40px;">
+                    <h2 style="color:var(--text-heading); font-size: 1.3rem;">⚡ No Active Sectional Test Today</h2>
+                    <p style="color:var(--text-muted); margin-top:10px;">Please check sectional.json file to load your IPMAT sectional mock.</p>
+                </div>`;
+        }
+
         function startFullSectionalTest() {
+            if (!todaySectional || !todaySectional.questions) return;
+
             secCurrentQIndex = 0;
             sectionalUserAnswers = {};
             isSectionalSubmitted = false;
             sectionalSeconds = (todaySectional.durationMinutes || 40) * 60;
+
             renderSectionalContainerLayout();
             renderSectionalQuestion();
             startSectionalCountdown();
         }
 
         function renderSectionalContainerLayout() {
-            document.getElementById('sectional-banner-container').innerHTML = `<div id="sec-test-wrapper"></div>`;
+            const container = document.getElementById('sectional-banner-container');
+            container.innerHTML = `<div id="sec-test-wrapper"></div>`;
         }
 
         function startSectionalCountdown() {
             clearInterval(sectionalTimerInterval);
+            isSectionalTimerActive = true;
+            updateSecPauseBtnUI();
+
             sectionalTimerInterval = setInterval(() => {
                 sectionalSeconds--;
                 const mins = Math.floor(sectionalSeconds / 60).toString().padStart(2, '0');
                 const secs = (sectionalSeconds % 60).toString().padStart(2, '0');
+                
                 const display = document.getElementById('sec-timer-display');
                 if (display) display.innerText = `⏱️ ${mins}:${secs}`;
+
+                if (sectionalSeconds <= 0) {
+                    clearInterval(sectionalTimerInterval);
+                    isSectionalTimerActive = false;
+                    alert("⏰ Time's UP! Your IPMAT Indore VA Sectional test is auto-submitting now.");
+                    submitSectionalTest();
+                }
             }, 1000);
+        }
+
+        function pauseSectionalTimer() {
+            clearInterval(sectionalTimerInterval);
+            isSectionalTimerActive = false;
+            updateSecPauseBtnUI();
+        }
+
+        function toggleSectionalTimer() {
+            if (isSectionalSubmitted) return;
+            if (isSectionalTimerActive) pauseSectionalTimer();
+            else startSectionalCountdown();
+        }
+
+        function updateSecPauseBtnUI() {
+            const btn = document.getElementById('sec-pause-btn');
+            if (btn) btn.innerText = isSectionalTimerActive ? "Pause" : "Resume";
         }
 
         function renderSectionalQuestion() {
@@ -219,127 +907,526 @@
             const q = qList[secCurrentQIndex];
             const wrapper = document.getElementById('sec-test-wrapper');
 
+            const timerHeaderHtml = `
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 1px solid var(--border-light); padding-bottom: 15px;">
+                    <div>
+                        <h3 style="color:var(--text-heading); font-size: 1.1rem;">${todaySectional.title}</h3>
+                        <span id="sec-q-progress" class="tag" style="margin-top:4px; display:inline-block;">Q ${secCurrentQIndex + 1} of ${qList.length}</span>
+                    </div>
+                    <div class="timer-badge-box">
+                        <span id="sec-timer-display" class="timer-badge-text">⏱️ 40:00</span>
+                        <button id="sec-pause-btn" class="timer-pause-btn" onclick="toggleSectionalTimer()">${isSectionalTimerActive ? 'Pause' : 'Resume'}</button>
+                    </div>
+                </div>`;
+
             const isTITA = (q.type && q.type.toUpperCase().includes("TITA")) || !q.options;
             let inputOptionsHtml = "";
 
             if (isTITA) {
                 const currentVal = sectionalUserAnswers[secCurrentQIndex] || "";
+                let inputClass = "tita-input-box";
+
+                if (isSectionalSubmitted) {
+                    const cleanUserAns = String(currentVal).trim();
+                    const cleanCorrectAns = String(q.answer).trim();
+                    inputClass += (cleanUserAns === cleanCorrectAns) ? " correct-input" : " wrong-input";
+                }
+
                 inputOptionsHtml = `
                     <div style="margin-top: 15px;">
-                        <input type="text" class="tita-input-box" value="${currentVal}" placeholder="Type answer..." ${isSectionalSubmitted ? 'disabled' : ''} oninput="handleTITAInput(this.value)">
+                        <label style="font-weight: 700; font-size: 0.88rem; color: var(--text-muted); display: block; margin-bottom: 6px;">Type Your Answer Below (e.g. 2413):</label>
+                        <input type="text" class="${inputClass}" id="tita-field-${secCurrentQIndex}" value="${currentVal}" placeholder="Type answer here..." ${isSectionalSubmitted ? 'disabled' : ''} oninput="handleTITAInput(this.value)">
+                        ${isSectionalSubmitted ? `<div style="margin-top: 8px; font-weight: 800; color: var(--status-correct);">Correct Answer: ${q.answer}</div>` : ''}
                     </div>`;
             } else {
                 inputOptionsHtml = q.options.map((opt, idx) => {
                     let btnClass = "opt-btn";
                     if (sectionalUserAnswers[secCurrentQIndex] === idx) btnClass += " selected";
+
                     if (isSectionalSubmitted) {
                         if (idx === q.answer) btnClass += " correct";
                         else if (sectionalUserAnswers[secCurrentQIndex] === idx) btnClass += " wrong";
                     }
+
                     return `<button class="${btnClass}" onclick="selectSectionalOpt(${idx})">${opt}</button>`;
                 }).join('');
             }
 
-            let attemptedCount = Object.keys(sectionalUserAnswers).length;
+            let attemptedCount = 0;
             const gridBtnsHtml = qList.map((item, idx) => {
+                const ans = sectionalUserAnswers[idx];
+                const isAttempted = ans !== undefined && ans !== "";
+                if (isAttempted) attemptedCount++;
+
                 let btnClass = "q-grid-btn";
                 if (idx === secCurrentQIndex) btnClass += " active-q";
-                if (sectionalUserAnswers[idx] !== undefined && sectionalUserAnswers[idx] !== "") btnClass += " attempted";
+                if (isAttempted) btnClass += " attempted";
+
                 return `<button class="${btnClass}" onclick="jumpToSectionalQ(${idx})">${idx + 1}</button>`;
             }).join('');
 
-            wrapper.innerHTML = `
-                <div class="question-card">
-                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
-                        <h3>Q ${secCurrentQIndex + 1} of ${qList.length}</h3>
-                        <span id="sec-timer-display" style="font-weight:800; color:var(--green-hover);">⏱️ 40:00</span>
+            const paletteGridHtml = `
+                <div class="q-palette-container">
+                    <div class="q-palette-title">
+                        <span>Question Palette Grid (${qList.length} Questions)</span>
+                        <span style="color:var(--green-hover); font-weight:800;">${attemptedCount}/${qList.length} Attempted</span>
                     </div>
-                    ${q.passage ? `<div class="passage-body" style="margin-bottom:15px; padding:15px; background:var(--bg-subtle); border-radius:8px;">${q.passage}</div>` : ''}
-                    <div style="font-weight:700; margin-bottom:15px;">${q.question}</div>
-                    <div>${inputOptionsHtml}</div>
-                    
-                    <div class="q-palette-container">
-                        <div class="q-palette-title">Palette Grid (${attemptedCount}/${qList.length} Answered)</div>
-                        <div class="q-palette-grid">${gridBtnsHtml}</div>
-                    </div>
-
-                    <div style="display:flex; justify-content:space-between; margin-top:20px;">
-                        <button class="secondary-btn" onclick="navSectionalQ(-1)">← Prev</button>
-                        <button class="secondary-btn" onclick="navSectionalQ(1)">Next →</button>
-                    </div>
-                    <button class="submit-btn" onclick="submitSectionalTest()">🚀 Submit Sectional Test</button>
+                    <div class="q-palette-grid">${gridBtnsHtml}</div>
                 </div>`;
+
+            const expHtml = `<div id="sec-q-explanation" class="explanation-box" style="display:${isSectionalSubmitted ? 'block' : 'none'}">${q.explanation || q.rationale || ''}</div>`;
+
+            const navBtnsHtml = `
+                <div style="display: flex; justify-content: space-between; margin-top: 25px;">
+                    <button class="nav-btn" onclick="navSectionalQ(-1)">← Previous</button>
+                    <button class="nav-btn" onclick="navSectionalQ(1)">Next →</button>
+                </div>
+                <button class="submit-btn" onclick="confirmSubmission('sectional')" style="margin-top: 20px;">🚀 Submit Sectional Test</button>`;
+
+            if (q.passage || (q.type && q.type.toUpperCase().includes('RC'))) {
+                wrapper.innerHTML = `
+                    <div class="test-split">
+                        <div class="reading-box">
+                            <span class="tag" style="margin-bottom:10px; display:inline-block;">Reading Passage</span>
+                            <div class="passage-body">${q.passage || (currentRC ? currentRC.passage : 'Reading passage text...')}</div>
+                        </div>
+                        <div class="question-card">
+                            ${timerHeaderHtml}
+                            <div id="sec-q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1rem; line-height: 1.6;">${q.question}</div>
+                            <div id="sec-q-options">${inputOptionsHtml}</div>
+                            ${paletteGridHtml}
+                            ${expHtml}
+                            ${navBtnsHtml}
+                        </div>
+                    </div>`;
+            } else {
+                wrapper.innerHTML = `
+                    <div class="question-card">
+                        ${timerHeaderHtml}
+                        <div id="sec-q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1.05rem; white-space: pre-line; line-height: 1.7;">${q.question}</div>
+                        <div id="sec-q-options">${inputOptionsHtml}</div>
+                        ${paletteGridHtml}
+                        ${expHtml}
+                        ${navBtnsHtml}
+                    </div>`;
+            }
+
+            const mins = Math.floor(sectionalSeconds / 60).toString().padStart(2, '0');
+            const secs = (sectionalSeconds % 60).toString().padStart(2, '0');
+            const display = document.getElementById('sec-timer-display');
+            if (display) display.innerText = `⏱️ ${mins}:${secs}`;
         }
 
-        function handleTITAInput(val) { sectionalUserAnswers[secCurrentQIndex] = val.trim(); }
-        function selectSectionalOpt(idx) { sectionalUserAnswers[secCurrentQIndex] = idx; renderSectionalQuestion(); }
-        function jumpToSectionalQ(idx) { secCurrentQIndex = idx; renderSectionalQuestion(); }
-        function navSectionalQ(dir) {
-            if (secCurrentQIndex + dir >= 0 && secCurrentQIndex + dir < todaySectional.questions.length) {
-                secCurrentQIndex += dir;
+        function handleTITAInput(val) {
+            if (isSectionalSubmitted) return;
+            sectionalUserAnswers[secCurrentQIndex] = val.trim();
+        }
+
+        function selectSectionalOpt(idx) {
+            if (isSectionalSubmitted) return;
+            sectionalUserAnswers[secCurrentQIndex] = idx;
+            renderSectionalQuestion();
+        }
+
+        function jumpToSectionalQ(index) {
+            if (index >= 0 && index < todaySectional.questions.length) {
+                secCurrentQIndex = index;
                 renderSectionalQuestion();
             }
         }
 
-        function submitSectionalTest() {
-            clearInterval(sectionalTimerInterval);
-            isSectionalSubmitted = true;
-            generateDashboard();
-            renderSectionalQuestion();
+        function navSectionalQ(dir) {
+            const total = todaySectional.questions.length;
+            const newIndex = secCurrentQIndex + dir;
+            if (newIndex >= 0 && newIndex < total) {
+                secCurrentQIndex = newIndex;
+                renderSectionalQuestion();
+            }
         }
 
-        function generateDashboard() {
-            const qList = todaySectional.questions;
+        function generateAdvancedDashboard(title, qList, userAnswersMap, timeTakenSeconds, isSectional = false) {
+            if (!qList || qList.length === 0) return;
+
             let correct = 0, incorrect = 0, unattempted = 0;
 
+            const topics = {
+                'RC': { name: 'Reading Comprehension', total: 0, correct: 0 },
+                'Vocab': { name: 'Vocabulary & Idioms', total: 0, correct: 0 },
+                'Grammar': { name: 'Grammar & Usage', total: 0, correct: 0 },
+                'Logic': { name: 'ParaJumbles & Verbal Logic', total: 0, correct: 0 }
+            };
+
             qList.forEach((q, idx) => {
-                const ans = sectionalUserAnswers[idx];
+                const userAns = userAnswersMap[idx];
                 const isTITA = (q.type && q.type.toUpperCase().includes("TITA")) || !q.options;
-                if (ans === undefined || ans === "") {
+                
+                let catKey = 'RC';
+                const qTypeUpper = (q.type || '').toUpperCase();
+                if (qTypeUpper.includes('RC')) catKey = 'RC';
+                else if (qTypeUpper.includes('VOCAB') || qTypeUpper.includes('HOMOPHONE')) catKey = 'Vocab';
+                else if (qTypeUpper.includes('GRAMMAR')) catKey = 'Grammar';
+                else catKey = 'Logic';
+
+                topics[catKey].total++;
+
+                if (userAns === undefined || userAns === "" || userAns === null) {
                     unattempted++;
                 } else if (isTITA) {
-                    if (String(ans).trim() === String(q.answer).trim()) correct++;
-                    else incorrect++;
+                    if (String(userAns).trim() === String(q.answer).trim()) {
+                        correct++;
+                        topics[catKey].correct++;
+                    } else {
+                        incorrect++;
+                    }
                 } else {
-                    if (parseInt(ans) === parseInt(q.answer)) correct++;
-                    else incorrect++;
+                    if (parseInt(userAns) === parseInt(q.answer)) {
+                        correct++;
+                        topics[catKey].correct++;
+                    } else {
+                        incorrect++;
+                    }
                 }
             });
 
-            document.getElementById('stat-accuracy').innerText = `${Math.round((correct / qList.length) * 100)}%`;
-            document.getElementById('stat-speed').innerText = `${(correct * 4) - (incorrect * 1)} / ${qList.length * 4}`;
+            const totalMarks = qList.length * 4;
+            const score = (correct * 4) - (incorrect * 1);
+            const accuracy = (correct + incorrect) > 0 ? Math.round((correct / (correct + incorrect)) * 100) : 0;
+
+            document.getElementById('dash-test-title').innerText = title;
+            document.getElementById('stat-accuracy').innerText = `${accuracy}%`;
+            document.getElementById('stat-speed').innerText = `${score}/${totalMarks}`;
+            document.getElementById('stat-time').innerText = `${timeTakenSeconds}s`;
             document.getElementById('stat-correct').innerText = correct;
             document.getElementById('stat-incorrect').innerText = incorrect;
             document.getElementById('stat-unattempted').innerText = unattempted;
 
-            // SHOW MODAL
-            const modal = document.getElementById('dashboard-modal');
-            modal.style.setProperty('display', 'flex', 'important');
-            modal.classList.add('active');
+            let topicRowsHtml = "";
+            Object.keys(topics).forEach(key => {
+                const item = topics[key];
+                if (item.total > 0) {
+                    const pct = Math.round((item.correct / item.total) * 100) || 0;
+                    let badgeClass = "badge-strong";
+                    let badgeText = "🔥 Strong";
 
-            // Render Chart safely
-            try {
-                const ctx = document.getElementById('accuracyChart').getContext('2d');
-                if (accuracyChartInstance) accuracyChartInstance.destroy();
-                accuracyChartInstance = new Chart(ctx, {
-                    type: 'doughnut',
-                    data: {
-                        labels: ['Correct', 'Incorrect', 'Unattempted'],
-                        datasets: [{ data: [correct, incorrect, unattempted], backgroundColor: ['#16a34a', '#dc2626', '#d1e0d7'] }]
-                    },
-                    options: { responsive: true, maintainAspectRatio: false }
-                });
-            } catch(e) { console.warn("Chart error:", e); }
+                    if (pct < 50) { badgeClass = "badge-weak"; badgeText = "⚡ Weak Zone"; }
+                    else if (pct < 75) { badgeClass = "badge-average"; badgeText = "⚠️ Average"; }
+
+                    topicRowsHtml += `
+                        <div class="topic-row">
+                            <div class="topic-header">
+                                <span>${item.name} (${item.correct}/${item.total})</span>
+                                <span class="${badgeClass}">${badgeText} (${pct}%)</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" style="width: ${pct}%; background: ${pct < 50 ? '#dc2626' : (pct < 75 ? '#d97706' : '#16a34a')};"></div>
+                            </div>
+                        </div>`;
+                }
+            });
+            document.getElementById('topic-rows-container').innerHTML = topicRowsHtml;
+
+            // FORCE DISPLAY DASHBOARD MODAL
+            const dashModal = document.getElementById('dashboard-modal');
+            dashModal.classList.add('active');
+
+            setTimeout(() => {
+                try {
+                    renderDoughnutChart(correct, incorrect, unattempted);
+                } catch (e) {
+                    console.warn("Chart render skipped:", e);
+                }
+            }, 100);
         }
 
-        function closeDashboard() {
-            const modal = document.getElementById('dashboard-modal');
-            modal.style.setProperty('display', 'none', 'important');
-            modal.classList.remove('active');
+        function renderDoughnutChart(correct, incorrect, unattempted) {
+            const canvasEl = document.getElementById('accuracyChart');
+            if (!canvasEl) return;
+            const ctx = canvasEl.getContext('2d');
+            
+            if (accuracyChartInstance) {
+                accuracyChartInstance.destroy();
+            }
+
+            accuracyChartInstance = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Correct', 'Incorrect', 'Unattempted'],
+                    datasets: [{
+                        data: [correct, incorrect, unattempted],
+                        backgroundColor: ['#16a34a', '#dc2626', '#10b98133'],
+                        borderColor: ['#ffffff', '#ffffff', '#ffffff'],
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    cutout: '70%'
+                }
+            });
         }
 
-        function showTab() {}
-        loadSectionalData();
+        function submitSectionalTest() {
+            pauseSectionalTimer();
+            isSectionalSubmitted = true;
+            const timeSpent = (todaySectional.durationMinutes * 60) - sectionalSeconds;
+            generateAdvancedDashboard(todaySectional.title || "IPMAT Sectional", todaySectional.questions, sectionalUserAnswers, timeSpent, true);
+            renderSectionalQuestion();
+        }
+
+        function submitDILRSet() {
+            pauseDILRTimer();
+            isDILRSubmitted = true;
+            generateAdvancedDashboard(currentDILR.title || "Daily DI/LR Set", currentDILR.questions, dilrUserAnswers, dilrSecondsElapsed, false);
+            renderDILRSet();
+        }
+
+        function submitTest() {
+            pauseTimer();
+            isSubmitted = true;
+            generateAdvancedDashboard(currentRC.title || "Daily Reading Passage", currentRC.questions, userAnswers, secondsElapsed, false);
+            renderQuestion();
+        }
+
+        function reviewAnswers() {
+            document.getElementById('dashboard-modal').classList.remove('active');
+            if (activeTab === 'dilr') renderDILRSet();
+            else if (activeTab === 'sectional') renderSectionalQuestion();
+            else renderQuestion();
+        }
+
+        function startTimer() {
+            if (isTimerActive) return;
+            isTimerActive = true;
+            updateRcPauseBtnUI();
+            timerInterval = setInterval(() => {
+                secondsElapsed++;
+                updateTimerDisplay();
+            }, 1000);
+        }
+
+        function pauseTimer() {
+            clearInterval(timerInterval);
+            isTimerActive = false;
+            updateRcPauseBtnUI();
+        }
+
+        function toggleRcTimer() {
+            if (isSubmitted) return;
+            if (isTimerActive) pauseTimer();
+            else startTimer();
+        }
+
+        function updateRcPauseBtnUI() {
+            const btn = document.getElementById('rc-pause-btn');
+            if (btn) btn.innerText = isTimerActive ? "Pause" : "Resume";
+        }
+
+        function updateTimerDisplay() {
+            const mins = Math.floor(secondsElapsed / 60).toString().padStart(2, '0');
+            const secs = (secondsElapsed % 60).toString().padStart(2, '0');
+            const display = document.getElementById('timer-display');
+            if (display) display.innerText = `⏱ ${mins}:${secs}`;
+        }
+
+        function navigateTab(targetTab) {
+            if (targetTab === activeTab) return;
+
+            if (activeTab === 'reading' && isTimerActive && !isSubmitted) pauseTimer();
+            if (activeTab === 'dilr' && isDILRTimerActive && !isDILRSubmitted && !isDILRComingSoon) pauseDILRTimer();
+            if (activeTab === 'sectional' && isSectionalTimerActive && !isSectionalSubmitted) pauseSectionalTimer();
+
+            showTab(targetTab);
+        }
+
+        function showTab(tabName) {
+            activeTab = tabName;
+            document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+
+            document.getElementById('panel-' + tabName).classList.add('active');
+            document.getElementById('btn-' + tabName).classList.add('active');
+
+            if (tabName === 'reading' && !isSubmitted) startTimer();
+            if (tabName === 'dilr') {
+                if (isDILRComingSoon) renderComingSoonDILR(dilrComingSoonInfo);
+                else if (!isDILRSubmitted && currentDILR) startDILRTimer();
+            }
+            if (tabName === 'saved') renderSavedHub();
+        }
+
+        function toggleSave(title, def, ex, type, category) {
+            const index = savedItems.findIndex(i => i.title === title);
+            if (index > -1) savedItems.splice(index, 1);
+            else savedItems.push({ title, def, ex, type, category });
+            localStorage.setItem('nextory_saved', JSON.stringify(savedItems));
+            updateSavedBadge();
+            if (currentRC) renderVocab(currentRC.vocab);
+            if (activeTab === 'saved') renderSavedHub();
+        }
+
+        function isSaved(title) { return savedItems.some(i => i.title === title); }
+
+        function updateSavedBadge() {
+            document.getElementById('saved-count').innerText = savedItems.length;
+        }
+
+        function renderSavedHub() {
+            const wordsList = savedItems.filter(i => i.category === 'Word');
+            const idiomsList = savedItems.filter(i => i.category === 'Idiom');
+            const verbsList = savedItems.filter(i => i.category === 'Phrasal Verb');
+
+            document.getElementById('saved-words-count').innerText = wordsList.length;
+            document.getElementById('saved-idioms-count').innerText = idiomsList.length;
+            document.getElementById('saved-verbs-count').innerText = verbsList.length;
+
+            const renderCardList = (list) => {
+                if (list.length === 0) return "<p style='color:var(--text-muted); font-size:0.85rem;'>No items saved in this category.</p>";
+                return list.map(item => `
+                    <div class="vocab-card">
+                        <button class="save-btn saved" onclick="toggleSave('${item.title}', '${item.def}', '${item.ex}', '${item.type}', '${item.category}')">Remove</button>
+                        <span class="word-title">${item.title}</span> <span class="word-type">(${item.type})</span>
+                        <div class="word-def">${item.def}</div>
+                        <div class="word-ex">"${item.ex}"</div>
+                    </div>
+                `).join('');
+            };
+
+            document.getElementById('saved-words-grid').innerHTML = renderCardList(wordsList);
+            document.getElementById('saved-idioms-grid').innerHTML = renderCardList(idiomsList);
+            document.getElementById('saved-verbs-grid').innerHTML = renderCardList(verbsList);
+        }
+
+        function renderVocab(vocab) {
+            if (!vocab) return;
+
+            const wordsHtml = (vocab.words || []).map(w => {
+                const saved = isSaved(w.word);
+                return `
+                <div class="vocab-card">
+                    <button class="save-btn ${saved ? 'saved' : ''}" onclick="toggleSave('${w.word}', '${w.def}', '${w.ex}', '${w.type}', 'Word')">${saved ? '🔖 Saved' : '🔖 Save'}</button>
+                    <span class="word-title">${w.word}</span> <span class="word-type">(${w.type})</span>
+                    <div class="word-def">${w.def}</div>
+                    <div class="word-ex">"${w.ex}"</div>
+                </div>`;
+            }).join('');
+            document.getElementById('words-grid').innerHTML = wordsHtml;
+
+            const idiomsHtml = (vocab.idioms || []).map(i => {
+                const saved = isSaved(i.idiom);
+                return `
+                <div class="vocab-card" style="margin-bottom: 10px;">
+                    <button class="save-btn ${saved ? 'saved' : ''}" onclick="toggleSave('${i.idiom}', '${i.def}', '${i.ex}', 'Idiom', 'Idiom')">${saved ? '🔖 Saved' : '🔖 Save'}</button>
+                    <span class="word-title" style="color:var(--green-hover)">${i.idiom}</span>
+                    <div class="word-def">${i.def}</div>
+                    <div class="word-ex">"${i.ex}"</div>
+                </div>`;
+            }).join('');
+            document.getElementById('idioms-list').innerHTML = idiomsHtml;
+
+            const verbsHtml = (vocab.phrasalVerbs || []).map(v => {
+                const saved = isSaved(v.verb);
+                return `
+                <div class="vocab-card" style="margin-bottom: 10px;">
+                    <button class="save-btn ${saved ? 'saved' : ''}" onclick="toggleSave('${v.verb}', '${v.def}', '${v.ex}', 'Phrasal Verb', 'Phrasal Verb')">${saved ? '🔖 Saved' : '🔖 Save'}</button>
+                    <span class="word-title" style="color:var(--green-hover)">${v.verb}</span>
+                    <div class="word-def">${v.def}</div>
+                    <div class="word-ex">"${v.ex}"</div>
+                </div>`;
+            }).join('');
+            document.getElementById('verbs-list').innerHTML = verbsHtml;
+        }
+
+        function renderReadingTest(rc, resetTimer = true) {
+            document.getElementById('rc-genre').innerText = rc.genre || 'General';
+            document.getElementById('rc-diff').innerText = 'IPMAT Advanced Standard';
+            document.getElementById('rc-count').innerText = rc.wordCount || '1000+ words';
+            document.getElementById('rc-title').innerText = rc.title;
+            document.getElementById('rc-body').innerText = rc.passage || rc.content;
+
+            userAnswers = {};
+            isSubmitted = false;
+            currentQIndex = 0;
+            
+            if (resetTimer) {
+                pauseTimer();
+                secondsElapsed = 0;
+                updateTimerDisplay();
+            }
+
+            renderQuestion();
+        }
+
+        function renderQuestion() {
+            const qList = currentRC.questions || [];
+            if (qList.length === 0) return;
+
+            const q = qList[currentQIndex];
+            document.getElementById('q-progress').innerText = `Q ${currentQIndex + 1} of ${qList.length}`;
+            document.getElementById('q-text').innerText = q.question;
+            
+            const expBox = document.getElementById('q-explanation');
+            if (isSubmitted) {
+                expBox.style.display = 'block';
+                expBox.innerHTML = q.explanation || q.rationale || '';
+            } else {
+                expBox.style.display = 'none';
+            }
+
+            const optionsHtml = q.options.map((opt, idx) => {
+                let btnClass = "opt-btn";
+                if (userAnswers[currentQIndex] === idx) btnClass += " selected";
+                
+                if (isSubmitted) {
+                    if (idx === q.answer) btnClass += " correct";
+                    else if (userAnswers[currentQIndex] === idx) btnClass += " wrong";
+                }
+
+                return `<button class="${btnClass}" onclick="selectOption(${idx})">${opt}</button>`;
+            }).join('');
+            
+            document.getElementById('q-options').innerHTML = optionsHtml;
+        }
+
+        function selectOption(idx) {
+            if (isSubmitted) return;
+            userAnswers[currentQIndex] = idx;
+            renderQuestion();
+        }
+
+        function navQuestion(dir) {
+            const total = (currentRC.questions || []).length;
+            const newIndex = currentQIndex + dir;
+
+            if (newIndex >= 0 && newIndex < total) {
+                currentQIndex = newIndex;
+                renderQuestion();
+            }
+        }
+
+        function renderArchive(availablePassages) {
+            const listToRender = availablePassages || allPassages;
+            const archiveHtml = listToRender.map(p => `
+                <div class="archive-item" onclick="selectArchiveRC('${p.id}')">
+                    <div>
+                        <strong style="color:var(--text-heading);">${p.title}</strong>
+                        <div style="font-size:0.8rem; color:var(--text-muted); margin-top:4px;">${p.genre} | ${p.date || 'IPMAT Practice Set'}</div>
+                    </div>
+                    <span class="sub-tag">Open Test</span>
+                </div>
+            `).join('');
+            document.getElementById('archive-container').innerHTML = archiveHtml;
+        }
+
+        function selectArchiveRC(id) {
+            currentRC = allPassages.find(p => p.id === id);
+            renderReadingTest(currentRC, true);
+            renderVocab(currentRC.vocab);
+            navigateTab('reading');
+        }
+
+        loadData();
     </script>
 </body>
 </html>
