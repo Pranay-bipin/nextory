@@ -1,414 +1,416 @@
-{
-"id": "sec-2026-10-05",
-"date": "2026-10-05",
-"title": "IPMAT Indore VA Full Sectional Mock - 05 Oct 2026 (Advanced Level)",
-"durationMinutes": 40,
-"totalQuestions": 45,
-"questions": [
-{
-"id": "q1",
-"type": "RC",
-"passage": "On 18 September 2026, the international maritime registry approved the commercial deployment of the world’s first fully uncrewed transoceanic container vessel, the MV Horizon Aegis, across the Pacific shipping corridor. Operating without a single human crew member aboard, the vessel relies on a distributed mesh of neural networks, satellite telemetry, and real-time lidar arrays to navigate congested choke points like the Malacca Strait. While maritime logistics conglomerates have lauded the achievement as a monumental leap in operational efficiency—citing a 30% reduction in fuel consumption and the complete elimination of crew quarters in favor of freight capacity—the vessel’s inaugural voyage has ignited a fierce debate among admiralty lawyers, sovereign states, and international marine insurers. The core of the controversy does not concern the technical capability of autonomous navigation, which has proven statistically superior to human piloting in open waters, but rather the legal friction created when algorithms collide with century-old international maritime conventions.\n\nTraditional maritime law is built upon the foundational assumption of the human master. Under the 1974 International Convention for the Safety of Life at Sea (SOLAS) and the 1972 International Regulations for Preventing Collisions at Sea (COLREGS), specific legal duties are assigned to the 'master' or 'person in command' of a vessel. For instance, Rule 2 of COLREGS imposes a duty of 'good seamanship'—a discretionary human judgment standard that balances statutory rules against unpredictable environmental perils. When an autonomous vessel encounters a rogue wave or an unflagged wooden fishing skiff undetectable by radar, who exercises 'good seamanship'? Is it the software engineer in Rotterdam who authored the collision-avoidance subroutines three years prior, the shore-based remote controller supervising thirty vessels simultaneously from an office in Singapore, or the neural net itself? Because current conventions do not recognize synthetic entities as legal subjects, assigning liability under traditional maritime tort principles becomes an exercise in legal fiction.\n\nThe regulatory dilemma is further compounded by the duty to render assistance, a cornerstone of customary international law codified in Article 98 of the United Nations Convention on the Law of the Sea (UNCLOS). Article 98 mandates that every master must proceed with all possible speed to the rescue of persons in distress at sea. Autonomous cargo ships, optimized strictly for container throughput, possess no physical accommodation, lifeboats, or human personnel capable of pulling survivors from the water. If an uncrewed vessel receives an automated distress beacon from a sinking vessel nearby, its algorithms may calculate that diverting course would delay cargo delivery while offering no physical capability to execute a rescue operation. While economic efficiency dictates continuing on course, international law treats the failure to render aid as a grave breach of maritime obligation. Amending UNCLOS, however, requires consensus among 168 signatory nations—a process notoriously fraught with geopolitical paralysis.\n\nFaced with international statutory inertia, marine insurers and protection and indemnity (P&I) clubs have begun fashioning private regulatory frameworks to manage the financial exposure. Historically, maritime insurance underwriting relied on hull inspections and human master credentials. For autonomous fleets, insurers are shifting toward algorithmic auditing, requiring developers to open their proprietary neural weights and training datasets to third-party verification. Yet, this creates a novel structural hazard: algorithmic opacity. Deep learning models operating on reinforcement learning parameters do not follow deterministic rule trees; they process environmental vectors through non-linear probability matrices. In a high-stakes collision scenario, an AI model might execute a maneuver that seems counterintuitive to human mariners but is mathematically optimal for minimizing overall vessel damage. If that maneuver results in the destruction of a smaller vessel, establishing whether the algorithm acted with 'negligence' or performed an unpredictable 'black swan' computation presents an insurmountable evidentiary hurdle in court.\n\nTwo opposing legal schools of thought have emerged to resolve this impasse. The 'functional equivalence' school argues that autonomous control systems should be treated as synthetic masters, applying existing maritime fault rules by assessing whether the software’s decisions fell within acceptable statistical bounds of human seamanship. Critics of this view point out that human seamanship incorporates ethical considerations—such as prioritizing human life over commercial property—that cannot be reliably quantified in mathematical loss functions. The alternative 'strict liability product' school advocates abandoning fault-based maritime torts altogether for uncrewed ships, treating collisions as strict product liability events borne entirely by the vessel’s manufacturer and software owners. However, shipowners argue that strict liability would cripple the commercial viability of autonomous shipping by imposing uninsurable financial liabilities on developers.\n\nUltimately, the arrival of uncrewed commercial fleets reveals that technological innovation in global trade has outpaced the institutional architecture designed to govern it. Just as the transition from sail to steam in the nineteenth century forced a total rewrite of international navigation standards, the transition from human command to algorithmic control demands a fundamental rethinking of legal personhood, duty of care, and risk allocation on the high seas. Until a unified international treaty replaces the antiquated language of SOLAS and COLREGS, autonomous vessels will continue to navigate not only physical ocean currents, but also a treacherous and uncertain sea of legal liability.",
-"question": "Which of the following best expresses the author's primary purpose in the passage?",
-"options": [
-"A) To demonstrate that autonomous container ships are inherently unsafe and should be banned from international waters until UNCLOS can be fully amended by signatory states.",
-"B) To analyze how autonomous maritime navigation conflicts with existing international legal frameworks and evaluate the challenges in allocating liability.",
-"C) To argue that strict product liability is the only viable legal framework for resolving shipowner disputes in modern autonomous maritime trade.",
-"D) To explain the mathematical algorithms and sensor arrays that enable uncrewed cargo ships to navigate congested shipping lanes like the Malacca Strait."
-],
-"answer": 1,
-"rationale": "The author outlines how autonomous vessels challenge existing treaties (SOLAS, COLREGS, UNCLOS) and analyzes the legal dilemmas surrounding duty of care and liability allocation without advocating for bans or single simplistic solutions."
-},
-{
-"id": "q2",
-"type": "RC",
-"passage": "On 18 September 2026, the international maritime registry approved the commercial deployment of the world’s first fully uncrewed transoceanic container vessel, the MV Horizon Aegis, across the Pacific shipping corridor. Operating without a single human crew member aboard, the vessel relies on a distributed mesh of neural networks, satellite telemetry, and real-time lidar arrays to navigate congested choke points like the Malacca Strait. While maritime logistics conglomerates have lauded the achievement as a monumental leap in operational efficiency—citing a 30% reduction in fuel consumption and the complete elimination of crew quarters in favor of freight capacity—the vessel’s inaugural voyage has ignited a fierce debate among admiralty lawyers, sovereign states, and international marine insurers. The core of the controversy does not concern the technical capability of autonomous navigation, which has proven statistically superior to human piloting in open waters, but rather the legal friction created when algorithms collide with century-old international maritime conventions.\n\nTraditional maritime law is built upon the foundational assumption of the human master. Under the 1974 International Convention for the Safety of Life at Sea (SOLAS) and the 1972 International Regulations for Preventing Collisions at Sea (COLREGS), specific legal duties are assigned to the 'master' or 'person in command' of a vessel. For instance, Rule 2 of COLREGS imposes a duty of 'good seamanship'—a discretionary human judgment standard that balances statutory rules against unpredictable environmental perils. When an autonomous vessel encounters a rogue wave or an unflagged wooden fishing skiff undetectable by radar, who exercises 'good seamanship'? Is it the software engineer in Rotterdam who authored the collision-avoidance subroutines three years prior, the shore-based remote controller supervising thirty vessels simultaneously from an office in Singapore, or the neural net itself? Because current conventions do not recognize synthetic entities as legal subjects, assigning liability under traditional maritime tort principles becomes an exercise in legal fiction.\n\nThe regulatory dilemma is further compounded by the duty to render assistance, a cornerstone of customary international law codified in Article 98 of the United Nations Convention on the Law of the Sea (UNCLOS). Article 98 mandates that every master must proceed with all possible speed to the rescue of persons in distress at sea. Autonomous cargo ships, optimized strictly for container throughput, possess no physical accommodation, lifeboats, or human personnel capable of pulling survivors from the water. If an uncrewed vessel receives an automated distress beacon from a sinking vessel nearby, its algorithms may calculate that diverting course would delay cargo delivery while offering no physical capability to execute a rescue operation. While economic efficiency dictates continuing on course, international law treats the failure to render aid as a grave breach of maritime obligation. Amending UNCLOS, however, requires consensus among 168 signatory nations—a process notoriously fraught with geopolitical paralysis.\n\nFaced with international statutory inertia, marine insurers and protection and indemnity (P&I) clubs have begun fashioning private regulatory frameworks to manage the financial exposure. Historically, maritime insurance underwriting relied on hull inspections and human master credentials. For autonomous fleets, insurers are shifting toward algorithmic auditing, requiring developers to open their proprietary neural weights and training datasets to third-party verification. Yet, this creates a novel structural hazard: algorithmic opacity. Deep learning models operating on reinforcement learning parameters do not follow deterministic rule trees; they process environmental vectors through non-linear probability matrices. In a high-stakes collision scenario, an AI model might execute a maneuver that seems counterintuitive to human mariners but is mathematically optimal for minimizing overall vessel damage. If that maneuver results in the destruction of a smaller vessel, establishing whether the algorithm acted with 'negligence' or performed an unpredictable 'black swan' computation presents an insurmountable evidentiary hurdle in court.\n\nTwo opposing legal schools of thought have emerged to resolve this impasse. The 'functional equivalence' school argues that autonomous control systems should be treated as synthetic masters, applying existing maritime fault rules by assessing whether the software’s decisions fell within acceptable statistical bounds of human seamanship. Critics of this view point out that human seamanship incorporates ethical considerations—such as prioritizing human life over commercial property—that cannot be reliably quantified in mathematical loss functions. The alternative 'strict liability product' school advocates abandoning fault-based maritime torts altogether for uncrewed ships, treating collisions as strict product liability events borne entirely by the vessel’s manufacturer and software owners. However, shipowners argue that strict liability would cripple the commercial viability of autonomous shipping by imposing uninsurable financial liabilities on developers.\n\nUltimately, the arrival of uncrewed commercial fleets reveals that technological innovation in global trade has outpaced the institutional architecture designed to govern it. Just as the transition from sail to steam in the nineteenth century forced a total rewrite of international navigation standards, the transition from human command to algorithmic control demands a fundamental rethinking of legal personhood, duty of care, and risk allocation on the high seas. Until a unified international treaty replaces the antiquated language of SOLAS and COLREGS, autonomous vessels will continue to navigate not only physical ocean currents, but also a treacherous and uncertain sea of legal liability.",
-"question": "The author discusses Article 98 of UNCLOS in paragraph 3 primarily to illustrate that:",
-"options": [
-"A) autonomous container vessels are mathematically prone to ignoring distress signals due to flawed collision-avoidance subroutines.",
-"B) uncrewed ships face a structural mismatch between statutory maritime duties and their physical design limitations.",
-"C) amending international treaties is an efficient mechanism for resolving technological disputes across signatory states.",
-"D) maritime insurers refuse to issue protection policies to vessels that operate without physical lifeboats."
-],
-"answer": 1,
-"rationale": "Paragraph 3 explains that Article 98 mandates rescuing distress victims, but autonomous ships are built without human accommodations or lifeboats, creating a direct conflict between statutory requirements and physical design."
-},
-{
-"id": "q3",
-"type": "RC",
-"passage": "On 18 September 2026, the international maritime registry approved the commercial deployment of the world’s first fully uncrewed transoceanic container vessel, the MV Horizon Aegis, across the Pacific shipping corridor. Operating without a single human crew member aboard, the vessel relies on a distributed mesh of neural networks, satellite telemetry, and real-time lidar arrays to navigate congested choke points like the Malacca Strait. While maritime logistics conglomerates have lauded the achievement as a monumental leap in operational efficiency—citing a 30% reduction in fuel consumption and the complete elimination of crew quarters in favor of freight capacity—the vessel’s inaugural voyage has ignited a fierce debate among admiralty lawyers, sovereign states, and international marine insurers. The core of the controversy does not concern the technical capability of autonomous navigation, which has proven statistically superior to human piloting in open waters, but rather the legal friction created when algorithms collide with century-old international maritime conventions.\n\nTraditional maritime law is built upon the foundational assumption of the human master. Under the 1974 International Convention for the Safety of Life at Sea (SOLAS) and the 1972 International Regulations for Preventing Collisions at Sea (COLREGS), specific legal duties are assigned to the 'master' or 'person in command' of a vessel. For instance, Rule 2 of COLREGS imposes a duty of 'good seamanship'—a discretionary human judgment standard that balances statutory rules against unpredictable environmental perils. When an autonomous vessel encounters a rogue wave or an unflagged wooden fishing skiff undetectable by radar, who exercises 'good seamanship'? Is it the software engineer in Rotterdam who authored the collision-avoidance subroutines three years prior, the shore-based remote controller supervising thirty vessels simultaneously from an office in Singapore, or the neural net itself? Because current conventions do not recognize synthetic entities as legal subjects, assigning liability under traditional maritime tort principles becomes an exercise in legal fiction.\n\nThe regulatory dilemma is further compounded by the duty to render assistance, a cornerstone of customary international law codified in Article 98 of the United Nations Convention on the Law of the Sea (UNCLOS). Article 98 mandates that every master must proceed with all possible speed to the rescue of persons in distress at sea. Autonomous cargo ships, optimized strictly for container throughput, possess no physical accommodation, lifeboats, or human personnel capable of pulling survivors from the water. If an uncrewed vessel receives an automated distress beacon from a sinking vessel nearby, its algorithms may calculate that diverting course would delay cargo delivery while offering no physical capability to execute a rescue operation. While economic efficiency dictates continuing on course, international law treats the failure to render aid as a grave breach of maritime obligation. Amending UNCLOS, however, requires consensus among 168 signatory nations—a process notoriously fraught with geopolitical paralysis.\n\nFaced with international statutory inertia, marine insurers and protection and indemnity (P&I) clubs have begun fashioning private regulatory frameworks to manage the financial exposure. Historically, maritime insurance underwriting relied on hull inspections and human master credentials. For autonomous fleets, insurers are shifting toward algorithmic auditing, requiring developers to open their proprietary neural weights and training datasets to third-party verification. Yet, this creates a novel structural hazard: algorithmic opacity. Deep learning models operating on reinforcement learning parameters do not follow deterministic rule trees; they process environmental vectors through non-linear probability matrices. In a high-stakes collision scenario, an AI model might execute a maneuver that seems counterintuitive to human mariners but is mathematically optimal for minimizing overall vessel damage. If that maneuver results in the destruction of a smaller vessel, establishing whether the algorithm acted with 'negligence' or performed an unpredictable 'black swan' computation presents an insurmountable evidentiary hurdle in court.\n\nTwo opposing legal schools of thought have emerged to resolve this impasse. The 'functional equivalence' school argues that autonomous control systems should be treated as synthetic masters, applying existing maritime fault rules by assessing whether the software’s decisions fell within acceptable statistical bounds of human seamanship. Critics of this view point out that human seamanship incorporates ethical considerations—such as prioritizing human life over commercial property—that cannot be reliably quantified in mathematical loss functions. The alternative 'strict liability product' school advocates abandoning fault-based maritime torts altogether for uncrewed ships, treating collisions as strict product liability events borne entirely by the vessel’s manufacturer and software owners. However, shipowners argue that strict liability would cripple the commercial viability of autonomous shipping by imposing uninsurable financial liabilities on developers.\n\nUltimately, the arrival of uncrewed commercial fleets reveals that technological innovation in global trade has outpaced the institutional architecture designed to govern it. Just as the transition from sail to steam in the nineteenth century forced a total rewrite of international navigation standards, the transition from human command to algorithmic control demands a fundamental rethinking of legal personhood, duty of care, and risk allocation on the high seas. Until a unified international treaty replaces the antiquated language of SOLAS and COLREGS, autonomous vessels will continue to navigate not only physical ocean currents, but also a treacherous and uncertain sea of legal liability.",
-"question": "Which of the following best describes the 'algorithmic opacity' problem discussed in paragraph 4?",
-"options": [
-"A) AI developers intentionally obscure source code to prevent competitors from copying proprietary navigation subroutines.",
-"B) Non-linear neural networks make it difficult to legally establish negligence during accidents.",
-"C) Marine insurers refuse to inspect physical vessel hulls once algorithmic auditing frameworks are adopted.",
-"D) Satellite telemetry systems frequently fail in deep-ocean corridors, leaving uncrewed vessels completely unmonitored."
-],
-"answer": 1,
-"rationale": "Paragraph 4 explains that non-linear probability matrices in deep learning models make it difficult to prove whether an unexpected maneuver was negligence or an unpredictable computation in court."
-},
-{
-"id": "q4",
-"type": "RC",
-"passage": "On 18 September 2026, the international maritime registry approved the commercial deployment of the world’s first fully uncrewed transoceanic container vessel, the MV Horizon Aegis, across the Pacific shipping corridor. Operating without a single human crew member aboard, the vessel relies on a distributed mesh of neural networks, satellite telemetry, and real-time lidar arrays to navigate congested choke points like the Malacca Strait. While maritime logistics conglomerates have lauded the achievement as a monumental leap in operational efficiency—citing a 30% reduction in fuel consumption and the complete elimination of crew quarters in favor of freight capacity—the vessel’s inaugural voyage has ignited a fierce debate among admiralty lawyers, sovereign states, and international marine insurers. The core of the controversy does not concern the technical capability of autonomous navigation, which has proven statistically superior to human piloting in open waters, but rather the legal friction created when algorithms collide with century-old international maritime conventions.\n\nTraditional maritime law is built upon the foundational assumption of the human master. Under the 1974 International Convention for the Safety of Life at Sea (SOLAS) and the 1972 International Regulations for Preventing Collisions at Sea (COLREGS), specific legal duties are assigned to the 'master' or 'person in command' of a vessel. For instance, Rule 2 of COLREGS imposes a duty of 'good seamanship'—a discretionary human judgment standard that balances statutory rules against unpredictable environmental perils. When an autonomous vessel encounters a rogue wave or an unflagged wooden fishing skiff undetectable by radar, who exercises 'good seamanship'? Is it the software engineer in Rotterdam who authored the collision-avoidance subroutines three years prior, the shore-based remote controller supervising thirty vessels simultaneously from an office in Singapore, or the neural net itself? Because current conventions do not recognize synthetic entities as legal subjects, assigning liability under traditional maritime tort principles becomes an exercise in legal fiction.\n\nThe regulatory dilemma is further compounded by the duty to render assistance, a cornerstone of customary international law codified in Article 98 of the United Nations Convention on the Law of the Sea (UNCLOS). Article 98 mandates that every master must proceed with all possible speed to the rescue of persons in distress at sea. Autonomous cargo ships, optimized strictly for container throughput, possess no physical accommodation, lifeboats, or human personnel capable of pulling survivors from the water. If an uncrewed vessel receives an automated distress beacon from a sinking vessel nearby, its algorithms may calculate that diverting course would delay cargo delivery while offering no physical capability to execute a rescue operation. While economic efficiency dictates continuing on course, international law treats the failure to render aid as a grave breach of maritime obligation. Amending UNCLOS, however, requires consensus among 168 signatory nations—a process notoriously fraught with geopolitical paralysis.\n\nFaced with international statutory inertia, marine insurers and protection and indemnity (P&I) clubs have begun fashioning private regulatory frameworks to manage the financial exposure. Historically, maritime insurance underwriting relied on hull inspections and human master credentials. For autonomous fleets, insurers are shifting toward algorithmic auditing, requiring developers to open their proprietary neural weights and training datasets to third-party verification. Yet, this creates a novel structural hazard: algorithmic opacity. Deep learning models operating on reinforcement learning parameters do not follow deterministic rule trees; they process environmental vectors through non-linear probability matrices. In a high-stakes collision scenario, an AI model might execute a maneuver that seems counterintuitive to human mariners but is mathematically optimal for minimizing overall vessel damage. If that maneuver results in the destruction of a smaller vessel, establishing whether the algorithm acted with 'negligence' or performed an unpredictable 'black swan' computation presents an insurmountable evidentiary hurdle in court.\n\nTwo opposing legal schools of thought have emerged to resolve this impasse. The 'functional equivalence' school argues that autonomous control systems should be treated as synthetic masters, applying existing maritime fault rules by assessing whether the software’s decisions fell within acceptable statistical bounds of human seamanship. Critics of this view point out that human seamanship incorporates ethical considerations—such as prioritizing human life over commercial property—that cannot be reliably quantified in mathematical loss functions. The alternative 'strict liability product' school advocates abandoning fault-based maritime torts altogether for uncrewed ships, treating collisions as strict product liability events borne entirely by the vessel’s manufacturer and software owners. However, shipowners argue that strict liability would cripple the commercial viability of autonomous shipping by imposing uninsurable financial liabilities on developers.\n\nUltimately, the arrival of uncrewed commercial fleets reveals that technological innovation in global trade has outpaced the institutional architecture designed to govern it. Just as the transition from sail to steam in the nineteenth century forced a total rewrite of international navigation standards, the transition from human command to algorithmic control demands a fundamental rethinking of legal personhood, duty of care, and risk allocation on the high seas. Until a unified international treaty replaces the antiquated language of SOLAS and COLREGS, autonomous vessels will continue to navigate not only physical ocean currents, but also a treacherous and uncertain sea of legal liability.",
-"question": "According to critics of the 'functional equivalence' school of thought, treating software as a synthetic master is flawed because:",
-"options": [
-"A) autonomous subroutines process satellite telemetry faster than remote controllers in Singapore.",
-"B) mathematical loss functions cannot capture ethical priorities like placing human life above property.",
-"C) strict product liability already covers all maritime accidents under existing customary international law.",
-"D) developers refuse to disclose proprietary neural weights to international rating agencies."
-],
-"answer": 1,
-"rationale": "Paragraph 5 explicitly states that critics object because seamanship includes ethical considerations—like prioritizing life over property—which cannot be quantified in mathematical loss functions."
-},
-{
-"id": "q5",
-"type": "RC",
-"passage": "On 18 September 2026, the international maritime registry approved the commercial deployment of the world’s first fully uncrewed transoceanic container vessel, the MV Horizon Aegis, across the Pacific shipping corridor. Operating without a single human crew member aboard, the vessel relies on a distributed mesh of neural networks, satellite telemetry, and real-time lidar arrays to navigate congested choke points like the Malacca Strait. While maritime logistics conglomerates have lauded the achievement as a monumental leap in operational efficiency—citing a 30% reduction in fuel consumption and the complete elimination of crew quarters in favor of freight capacity—the vessel’s inaugural voyage has ignited a fierce debate among admiralty lawyers, sovereign states, and international marine insurers. The core of the controversy does not concern the technical capability of autonomous navigation, which has proven statistically superior to human piloting in open waters, but rather the legal friction created when algorithms collide with century-old international maritime conventions.\n\nTraditional maritime law is built upon the foundational assumption of the human master. Under the 1974 International Convention for the Safety of Life at Sea (SOLAS) and the 1972 International Regulations for Preventing Collisions at Sea (COLREGS), specific legal duties are assigned to the 'master' or 'person in command' of a vessel. For instance, Rule 2 of COLREGS imposes a duty of 'good seamanship'—a discretionary human judgment standard that balances statutory rules against unpredictable environmental perils. When an autonomous vessel encounters a rogue wave or an unflagged wooden fishing skiff undetectable by radar, who exercises 'good seamanship'? Is it the software engineer in Rotterdam who authored the collision-avoidance subroutines three years prior, the shore-based remote controller supervising thirty vessels simultaneously from an office in Singapore, or the neural net itself? Because current conventions do not recognize synthetic entities as legal subjects, assigning liability under traditional maritime tort principles becomes an exercise in legal fiction.\n\nThe regulatory dilemma is further compounded by the duty to render assistance, a cornerstone of customary international law codified in Article 98 of the United Nations Convention on the Law of the Sea (UNCLOS). Article 98 mandates that every master must proceed with all possible speed to the rescue of persons in distress at sea. Autonomous cargo ships, optimized strictly for container throughput, possess no physical accommodation, lifeboats, or human personnel capable of pulling survivors from the water. If an uncrewed vessel receives an automated distress beacon from a sinking vessel nearby, its algorithms may calculate that diverting course would delay cargo delivery while offering no physical capability to execute a rescue operation. While economic efficiency dictates continuing on course, international law treats the failure to render aid as a grave breach of maritime obligation. Amending UNCLOS, however, requires consensus among 168 signatory nations—a process notoriously fraught with geopolitical paralysis.\n\nFaced with international statutory inertia, marine insurers and protection and indemnity (P&I) clubs have begun fashioning private regulatory frameworks to manage the financial exposure. Historically, maritime insurance underwriting relied on hull inspections and human master credentials. For autonomous fleets, insurers are shifting toward algorithmic auditing, requiring developers to open their proprietary neural weights and training datasets to third-party verification. Yet, this creates a novel structural hazard: algorithmic opacity. Deep learning models operating on reinforcement learning parameters do not follow deterministic rule trees; they process environmental vectors through non-linear probability matrices. In a high-stakes collision scenario, an AI model might execute a maneuver that seems counterintuitive to human mariners but is mathematically optimal for minimizing overall vessel damage. If that maneuver results in the destruction of a smaller vessel, establishing whether the algorithm acted with 'negligence' or performed an unpredictable 'black swan' computation presents an insurmountable evidentiary hurdle in court.\n\nTwo opposing legal schools of thought have emerged to resolve this impasse. The 'functional equivalence' school argues that autonomous control systems should be treated as synthetic masters, applying existing maritime fault rules by assessing whether the software’s decisions fell within acceptable statistical bounds of human seamanship. Critics of this view point out that human seamanship incorporates ethical considerations—such as prioritizing human life over commercial property—that cannot be reliably quantified in mathematical loss functions. The alternative 'strict liability product' school advocates abandoning fault-based maritime torts altogether for uncrewed ships, treating collisions as strict product liability events borne entirely by the vessel’s manufacturer and software owners. However, shipowners argue that strict liability would cripple the commercial viability of autonomous shipping by imposing uninsurable financial liabilities on developers.\n\nUltimately, the arrival of uncrewed commercial fleets reveals that technological innovation in global trade has outpaced the institutional architecture designed to govern it. Just as the transition from sail to steam in the nineteenth century forced a total rewrite of international navigation standards, the transition from human command to algorithmic control demands a fundamental rethinking of legal personhood, duty of care, and risk allocation on the high seas. Until a unified international treaty replaces the antiquated language of SOLAS and COLREGS, autonomous vessels will continue to navigate not only physical ocean currents, but also a treacherous and uncertain sea of legal liability.",
-"question": "Which of the following, if true, would most weaken the shipowners' objection to the 'strict liability product' framework (paragraph 5)?",
-"options": [
-"A) International underwriters develop specialized re-insurance pools that cap developer exposure while spreading product liability risks across global shipping consortia.",
-"B) Autonomous vessels experience 50% fewer navigational system reboots during transoceanic crossings than crewed vessels.",
-"C) Sovereign states pass legislation requiring uncrewed ships to maintain human remote pilots in coastal harbors.",
-"D) Deep learning navigation models double their operational efficiency when trained on larger oceanographic datasets."
-],
-"answer": 0,
-"rationale": "Shipowners object to strict liability claiming it creates 'uninsurable financial liabilities.' If underwriters develop specialized re-insurance pools that cap exposure and spread risk, those liabilities become insurable, directly weakening the objection."
-},
-{
-"id": "q6",
-"type": "RC",
-"passage": "On 18 September 2026, the international maritime registry approved the commercial deployment of the world’s first fully uncrewed transoceanic container vessel, the MV Horizon Aegis, across the Pacific shipping corridor. Operating without a single human crew member aboard, the vessel relies on a distributed mesh of neural networks, satellite telemetry, and real-time lidar arrays to navigate congested choke points like the Malacca Strait. While maritime logistics conglomerates have lauded the achievement as a monumental leap in operational efficiency—citing a 30% reduction in fuel consumption and the complete elimination of crew quarters in favor of freight capacity—the vessel’s inaugural voyage has ignited a fierce debate among admiralty lawyers, sovereign states, and international marine insurers. The core of the controversy does not concern the technical capability of autonomous navigation, which has proven statistically superior to human piloting in open waters, but rather the legal friction created when algorithms collide with century-old international maritime conventions.\n\nTraditional maritime law is built upon the foundational assumption of the human master. Under the 1974 International Convention for the Safety of Life at Sea (SOLAS) and the 1972 International Regulations for Preventing Collisions at Sea (COLREGS), specific legal duties are assigned to the 'master' or 'person in command' of a vessel. For instance, Rule 2 of COLREGS imposes a duty of 'good seamanship'—a discretionary human judgment standard that balances statutory rules against unpredictable environmental perils. When an autonomous vessel encounters a rogue wave or an unflagged wooden fishing skiff undetectable by radar, who exercises 'good seamanship'? Is it the software engineer in Rotterdam who authored the collision-avoidance subroutines three years prior, the shore-based remote controller supervising thirty vessels simultaneously from an office in Singapore, or the neural net itself? Because current conventions do not recognize synthetic entities as legal subjects, assigning liability under traditional maritime tort principles becomes an exercise in legal fiction.\n\nThe regulatory dilemma is further compounded by the duty to render assistance, a cornerstone of customary international law codified in Article 98 of the United Nations Convention on the Law of the Sea (UNCLOS). Article 98 mandates that every master must proceed with all possible speed to the rescue of persons in distress at sea. Autonomous cargo ships, optimized strictly for container throughput, possess no physical accommodation, lifeboats, or human personnel capable of pulling survivors from the water. If an uncrewed vessel receives an automated distress beacon from a sinking vessel nearby, its algorithms may calculate that diverting course would delay cargo delivery while offering no physical capability to execute a rescue operation. While economic efficiency dictates continuing on course, international law treats the failure to render aid as a grave breach of maritime obligation. Amending UNCLOS, however, requires consensus among 168 signatory nations—a process notoriously fraught with geopolitical paralysis.\n\nFaced with international statutory inertia, marine insurers and protection and indemnity (P&I) clubs have begun fashioning private regulatory frameworks to manage the financial exposure. Historically, maritime insurance underwriting relied on hull inspections and human master credentials. For autonomous fleets, insurers are shifting toward algorithmic auditing, requiring developers to open their proprietary neural weights and training datasets to third-party verification. Yet, this creates a novel structural hazard: algorithmic opacity. Deep learning models operating on reinforcement learning parameters do not follow deterministic rule trees; they process environmental vectors through non-linear probability matrices. In a high-stakes collision scenario, an AI model might execute a maneuver that seems counterintuitive to human mariners but is mathematically optimal for minimizing overall vessel damage. If that maneuver results in the destruction of a smaller vessel, establishing whether the algorithm acted with 'negligence' or performed an unpredictable 'black swan' computation presents an insurmountable evidentiary hurdle in court.\n\nTwo opposing legal schools of thought have emerged to resolve this impasse. The 'functional equivalence' school argues that autonomous control systems should be treated as synthetic masters, applying existing maritime fault rules by assessing whether the software’s decisions fell within acceptable statistical bounds of human seamanship. Critics of this view point out that human seamanship incorporates ethical considerations—such as prioritizing human life over commercial property—that cannot be reliably quantified in mathematical loss functions. The alternative 'strict liability product' school advocates abandoning fault-based maritime torts altogether for uncrewed ships, treating collisions as strict product liability events borne entirely by the vessel’s manufacturer and software owners. However, shipowners argue that strict liability would cripple the commercial viability of autonomous shipping by imposing uninsurable financial liabilities on developers.\n\nUltimately, the arrival of uncrewed commercial fleets reveals that technological innovation in global trade has outpaced the institutional architecture designed to govern it. Just as the transition from sail to steam in the nineteenth century forced a total rewrite of international navigation standards, the transition from human command to algorithmic control demands a fundamental rethinking of legal personhood, duty of care, and risk allocation on the high seas. Until a unified international treaty replaces the antiquated language of SOLAS and COLREGS, autonomous vessels will continue to navigate not only physical ocean currents, but also a treacherous and uncertain sea of legal liability.",
-"question": "The author draws an analogy to the nineteenth-century transition from sail to steam in the final paragraph primarily to:",
-"options": [
-"A) show that technological shifts routinely require complete overhauls of international governance standards.",
-"B) argue that steam-powered ships suffered higher collision rates than modern autonomous container vessels.",
-"C) suggest that coal supply chains faced regulatory paralysis similar to modern satellite telecommunication arrays.",
-"D) prove that international treaties can be enacted swiftly when economic incentives align across maritime nations."
-],
-"answer": 0,
-"rationale": "The final paragraph uses the sail-to-steam transition to emphasize that historical shifts in transport technology required updating maritime rules, just as the shift to AI command requires updating governance frameworks today."
-},
-{
-"id": "q19",
-"type": "ParaJumble_TITA",
-"question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. When regulatory oversight is weak, financial institutions often misprice complex structural risks.\n2. Over time, these unpriced systemic vulnerabilities accumulate quietly across interconnected global balance sheets.\n3. A minor market shock can then trigger a widespread liquidity freeze that threatens the stability of the entire banking system.\n4. Capital markets rely on the assumption that market participants accurately price assets based on publicly available data.",
-"answer": "4123",
-"explanation": "Sentence 4 establishes the baseline rule (capital markets rely on accurate asset pricing). Sentence 1 introduces the flaw when regulation is weak (mispricing risk). Sentence 2 details the accumulation of those vulnerabilities ('these unpriced systemic vulnerabilities'). Sentence 3 concludes with the fallout ('A minor market shock can then trigger...')."
-},
-{
-"id": "q20",
-"type": "ParaJumble_TITA",
-"question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. This ecological footprint is further inflated by the massive energy demands of modern cooling infrastructure.\n2. Large-scale data centers now consume a growing fraction of global electricity output.\n3. Consequently, tech conglomerates are facing intense pressure to power hyperscale facilities with renewable energy.\n4. Much of this power is generated by burning fossil fuels, releasing megatons of carbon emissions annually.",
-"answer": "2413",
-"explanation": "Sentence 2 introduces data center electricity consumption. Sentence 4 elaborates on how this power is generated (fossil fuels, carbon emissions). Sentence 1 adds another layer ('This ecological footprint is further inflated by... cooling infrastructure'). Sentence 3 provides the outcome ('Consequently, tech conglomerates face intense pressure...')."
-},
-{
-"id": "q21",
-"type": "ParaJumble_TITA",
-"question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Without rigorous institutional checks, executive power inevitably expands at the expense of parliamentary oversight.\n2. Democratic governance rests on a delicate balance between executive authority and legislative accountability.\n3. The erosion of this balance degrades citizen trust in public institutions over successive election cycles.\n4. Opportunistic leaders exploit emergencies to issue sweeping decrees that bypass committee scrutiny.",
-"answer": "2143",
-"explanation": "Sentence 2 sets up the fundamental balance of democratic governance. Sentence 1 warns what happens when checks are absent (executive power expands). Sentence 4 explains the mechanism ('Opportunistic leaders exploit emergencies...'). Sentence 3 presents the long-term impact on citizen trust ('The erosion of this balance...')."
-},
-{
-"id": "q22",
-"type": "ParaJumble_TITA",
-"question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. The resulting architectural style prioritized functional utility over classical ornamentation.\n2. Industrialization transformed urban design by introducing mass-produced steel and reinforced concrete.\n3. Cities rapidly erected high-density office towers to accommodate expanding corporate bureaucracies.\n4. These new materials allowed architects to design structures of unprecedented height and structural flexibility.",
-"answer": "2413",
-"explanation": "Sentence 2 introduces industrialization and new materials (steel/concrete). Sentence 4 connects directly ('These new materials allowed architects...'). Sentence 1 describes the aesthetic output ('The resulting architectural style...'). Sentence 3 shows the practical urban application ('Cities rapidly erected high-density office towers...')."
-},
-{
-"id": "q23",
-"type": "ParaJumble_TITA",
-"question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Such cognitive short-cuts saved vital seconds when human ancestors confronted apex predators in the wild.\n2. Human decision-making relies heavily on heuristics, which are mental rules of thumb evolved for rapid survival.\n3. In modern financial trading, however, those same evolutionary shortcuts generate systematic irrational biases.\n4. Traders misinterpret market noise as meaningful trends, making catastrophic emotional miscalculations.",
-"answer": "2134",
-"explanation": "Sentence 2 defines heuristics and their evolutionary purpose. Sentence 1 explains why they evolved ('Such cognitive short-cuts saved vital seconds...'). Sentence 3 transitions to the modern domain ('In modern financial trading, however...'). Sentence 4 details the financial missteps."
-},
-{
-"id": "q24",
-"type": "ParaSummary",
-"question": "Select the option that best summarizes the paragraph:\n\n'Central banks have traditionally controlled inflation by adjusting benchmark interest rates to influence borrowing costs and economic activity. However, when interest rates hit the effective lower bound near zero, conventional monetary policy loses its potency. In response, central banks turned to quantitative easing—purchasing massive volumes of government bonds to lower long-term yields directly. While quantitative easing prevented financial collapse during crises, critics argue that prolonged bond buying inflates asset bubbles, artificially depresses yields, and worsens wealth inequality by benefiting asset owners over wage earners.'",
-"options": [
-"A) Central banks should permanently abandon conventional interest rate adjustments in favor of continuous quantitative easing programs.",
-"B) Quantitative easing replaces conventional interest rate policies when rates hit zero, preventing collapse but raising concerns over asset bubbles and inequality.",
-"C) Bond purchases by central banks guarantee that wage earners receive higher real incomes during periods of severe economic crisis.",
-"D) Quantitative easing failed to lower long-term interest rates because central banks purchased insufficient quantities of government debt."
-],
-"answer": 1,
-"rationale": "Option B summarizes the passage: QE was adopted when rates hit zero, succeeded in preventing collapse, but generated drawbacks (asset bubbles, depresses yields, wealth inequality)."
-},
-{
-"id": "q25",
-"type": "ParaSummary",
-"question": "Select the option that best summarizes the paragraph:\n\n'In literary theory, the concept of the 'intentional fallacy' asserts that an author’s intended meaning should not be the primary standard for interpreting or evaluating a text. Proponents argue that once a literary work is published, it exists independently of its creator's mind, becoming public property open to pluralistic readings. Reconstructing an author's personal psychology or private biography reduces a rich text to a single, static authorial voice. Consequently, critics must focus on the internal evidence of the text itself—its structure, imagery, and syntax—rather than external statements made by the author.'",
-"options": [
-"A) Authors are the sole authority on the true meaning of their published literature, so critical interpretation must align with authorial commentary.",
-"B) The intentional fallacy posits that literary texts must be analyzed through internal textual evidence rather than authorial intent or biography.",
-"C) Literary works lose their artistic value whenever readers attempt to analyze syntax and structural imagery without studying historical contexts.",
-"D) Literary critics should prioritize authorial biographies over structural analysis to understand complex historical allegories."
-],
-"answer": 1,
-"rationale": "Option B captures the core thesis: the intentional fallacy argues that texts exist independently of their authors, requiring evaluation based on internal textual evidence rather than authorial intent."
-},
-{
-"id": "q26",
-"type": "ParaSummary",
-"question": "Select the option that best summarizes the paragraph:\n\n'Pharmaceutical companies frequently defend high drug prices by pointing to the astronomical capital expenditures required for drug discovery and clinical trials. They argue that patent monopolies are essential to recoup research investment before generic competitors enter the market. However, health economists observe that a significant share of breakthrough basic research is publicly funded by government grants before being licensed to private firms. Furthermore, major pharmaceutical firms often allocate far more capital to marketing and share buybacks than to genuine laboratory innovation, challenging the narrative that high prices directly fund medical breakthroughs.'",
-"options": [
-"A) High drug prices are fully justified because private pharmaceutical firms bear all research costs without government subsidies.",
-"B) Health economists advocate for the complete abolition of pharmaceutical patents to ensure generic drugs enter markets immediately.",
-"C) Pharmaceutical pricing justifications are challenged by public funding of basic research and corporate spending on marketing over innovation.",
-"D) Government grants cover clinical trial expenses, allowing private firms to lower retail prices for life-saving therapies."
-],
-"answer": 2,
-"rationale": "Option C summarizes both sides: while pharma claims high prices fund high R&D costs, health economists counter that basic research is publicly funded and corporate budgets prioritize marketing over lab innovation."
-},
-{
-"id": "q27",
-"type": "ParaCompletion",
-"question": "Complete the paragraph logically:\n\n'In evolutionary biology, the Red Queen hypothesis posits that species must constantly adapt and evolve simply to maintain their relative fitness against co-evolving competitor species. In an ecosystem where predators continuously improve their hunting efficiency, prey species must simultaneously develop better camouflage or speed merely to survive. Thus, evolutionary adaptation does not lead to permanent competitive dominance, but rather to ________.'",
-"options": [
-"A) a state of continuous adaptation just to preserve existing survival parity",
-"B) the complete eradication of predator species across fragile marine ecosystems",
-"C) an absolute end to genetic mutations in terrestrial plant species over time",
-"D) guaranteed evolutionary immunity against novel viral pathogens"
-],
-"answer": 0,
-"rationale": "The Red Queen hypothesis emphasizes 'running just to stay in the same place.' Option A logically completes the thought by framing adaptation as preserving survival parity rather than achieving absolute dominance."
-},
-{
-"id": "q28",
-"type": "ParaCompletion",
-"question": "Complete the paragraph logically:\n\n'Subsidies are frequently implemented by governments to protect domestic industries from foreign competition and safeguard local manufacturing employment. However, when subsidies remain in place indefinitely, they insulate domestic firms from international market forces. Deprived of competitive pressure, protected companies often neglect technological modernization and operational efficiency, ultimately making ________.'",
-"options": [
-"A) domestic products globally competitive without requiring additional tariff protections",
-"B) the industry dependent on ongoing state support while producing inferior goods",
-"C) foreign competitors eager to relocate their primary manufacturing operations locally",
-"D) government treasuries accumulate massive tax surpluses from exported goods"
-],
-"answer": 1,
-"rationale": "The paragraph details how perpetual subsidies remove competitive pressure, causing firms to neglect modernization. The logical result (Option B) is that the industry becomes perpetually dependent on state aid while producing inferior goods."
-},
-{
-"id": "q29",
-"type": "Vocabulary",
-"question": "Select the word MOST NEARLY SIMILAR in meaning to 'TRENCHANT':",
-"options": [
-"A) Incisive",
-"B) Ambiguous",
-"C) Frivolous",
-"D) Dilatory"
-],
-"answer": 0,
-"rationale": "'Trenchant' means vigor, incisive, or sharp in expression. 'Incisive' is the closest synonym. 'Ambiguous' (unclear), 'frivolous' (silly/light), and 'dilatory' (causing delay) are incorrect."
-},
-{
-"id": "q30",
-"type": "Vocabulary",
-"question": "Select the word MOST NEARLY OPPOSITE in meaning to 'PUNCTILIOUS':",
-"options": [
-"A) Meticulous",
-"B) Careless",
-"C) Fastidious",
-"D) Scrupulous"
-],
-"answer": 1,
-"rationale": "'Punctilious' means showing great attention to detail or correct behavior. 'Careless' is its direct antonym. 'Meticulous', 'fastidious', and 'scrupulous' are synonyms."
-},
-{
-"id": "q31",
-"type": "Vocabulary",
-"question": "Select the word MOST NEARLY SIMILAR in meaning to 'INTRANSIGENT':",
-"options": [
-"A) Compliant",
-"B) Uncompromising",
-"C) Ephemeral",
-"D) Equivocal"
-],
-"answer": 1,
-"rationale": "'Intransigent' means refusing to compromise or agree. 'Uncompromising' is the exact synonym. 'Compliant' is an antonym."
-},
-{
-"id": "q32",
-"type": "Vocabulary",
-"question": "Select the word MOST NEARLY OPPOSITE in meaning to 'EQUANIMITY':",
-"options": [
-"A) Agitation",
-"B) Serenity",
-"C) Composure",
-"D) Placidity"
-],
-"answer": 0,
-"rationale": "'Equanimity' means mental calmness and composure, especially in difficult situations. 'Agitation' is the opposite. 'Serenity', 'composure', and 'placidity' are synonyms."
-},
-{
-"id": "q33",
-"type": "Vocabulary",
-"question": "Choose the correct word to fill in the blank:\n'The executive's ________ speech avoided addressing the financial deficit, relying instead on empty platitudes that left shareholders thoroughly unimpressed.'",
-"options": [
-"A) cogent",
-"B) vacuous",
-"C) pellucid",
-"D) incisive"
-],
-"answer": 1,
-"rationale": "'Vacuous' means lacking thought or intelligence; empty. This fits 'empty platitudes that left shareholders unimpressed.' 'Cogent' (persuasive), 'pellucid' (clear), and 'incisive' (sharp) contradict the context."
-},
-{
-"id": "q34",
-"type": "Vocabulary",
-"question": "Choose the pair that best fills the blanks:\n'Despite the spokesperson's ________ assurances that the merger would not lead to job losses, union leaders remained ________ about the company's long-term intentions.'",
-"options": [
-"A) glib; skeptical",
-"B) hesitant; confident",
-"C) hostile; reassured",
-"D) taciturn; certain"
-],
-"answer": 0,
-"rationale": "'Glib' (superficial/facile) assurances paired with union leaders remaining 'skeptical' maintains the contrast introduced by 'Despite'."
-},
-{
-"id": "q35",
-"type": "Vocabulary",
-"question": "Select the option that correctly explains the meaning of the idiom 'To burn the candle at both ends':",
-"options": [
-"A) To manage financial resources with extreme thrift and frugality",
-"B) To exhaust one's energy by working late into the night and early in the morning",
-"C) To destroy legal evidence before an official investigation begins",
-"D) To pursue two mutually exclusive career goals simultaneously"
-],
-"answer": 1,
-"rationale": "'To burn the candle at both ends' means to overwork oneself by rising early and staying up late, exhausting physical or mental energy."
-},
-{
-"id": "q36",
-"type": "Vocabulary",
-"question": "HIGH-DIFFICULTY HOMOPHONE / MULTIPLE USAGE\nSelect the sentence in which the word 'PRECIPITATE' is used INCORRECTLY:",
-"options": [
-"A) The sudden resignation of the prime minister threatened to precipitate a severe constitutional crisis.",
-"B) After adding the reagent to the solution, a white crystalline precipitate formed at the bottom of the beaker.",
-"C) The committee decided to make a precipitate decision without consulting any industry experts or reviewing the audit.",
-"D) She maintained a precipitate attitude during the negotiations, calmly listening to every proposal before responding."
-],
-"answer": 3,
-"rationale": "'Precipitate' as an adjective means hasty, rash, or done without deliberation (as in Option C). In Option D, 'calmly listening before responding' describes a deliberate, calm attitude, which is the exact opposite of 'precipitate'."
-},
-{
-"id": "q37",
-"type": "Vocabulary",
-"question": "HIGH-DIFFICULTY HOMOPHONE / MULTIPLE USAGE\nRead the four sentences below using the word 'CANON'. Identify the option where 'CANON' is used CORRECTLY in all instances:\n\nI. The board reviewed the strict corporate canon governing ethical investment.\nII. The professor assigned works from the classical literary canon.\nIII. Soldiers fired the heavy artillery canon at the fort walls during the siege.\nIV. The cathedral canon delivered a sermon on Sunday morning.",
-"options": [
-"A) Sentences I, II, and IV only",
-"B) Sentences I, II, and III only",
-"C) Sentences II, III, and IV only",
-"D) Sentences I and III only"
-],
-"answer": 0,
-"rationale": "'Canon' (one 'n' in the middle) refers to a general law/rule (I), a accepted body of works (II), or a member of the clergy (IV). Sentence III requires 'CANNON' (double 'n'), which refers to the heavy artillery weapon."
-},
-{
-"id": "q38",
-"type": "Grammar",
-"question": "Choose the correct option to fill in the blank:\n'Neither the CEO nor the members of the board ________ present at yesterday's emergency shareholder meeting.'",
-"options": [
-"A) was",
-"B) were",
-"C) is",
-"D) has been"
-],
-"answer": 1,
-"rationale": "When two subjects are joined by 'neither... nor', the verb agrees with the subject closer to it. 'Members' is plural, and the context is past time ('yesterday'), requiring 'were'."
-},
-{
-"id": "q39",
-"type": "Grammar",
-"question": "Spot the error in the sentence:\n'No sooner had the conference (A) / started when the fire alarm (B) / sounded, forcing everyone (C) / to evacuate immediately (D).'",
-"options": [
-"A) No sooner had the conference",
-"B) started when the fire alarm",
-"C) sounded, forcing everyone",
-"D) to evacuate immediately"
-],
-"answer": 1,
-"rationale": "'No sooner' must be followed by 'than', not 'when'. Part B should read 'started than the fire alarm' ('Hardly... when' vs 'No sooner... than')."
-},
-{
-"id": "q40",
-"type": "Grammar",
-"question": "Choose the grammatically CORRECT sentence:",
-"options": [
-"A) Having completed the survey, the data was analyzed by the research team.",
-"B) Having completed the survey, the research team analyzed the data.",
-"C) Having completed the survey, it was analyzed by the team.",
-"D) Having completed the survey, analysis was performed by the research team."
-],
-"answer": 1,
-"rationale": "Options A, C, and D contain dangling modifiers (suggesting the 'data', 'it', or 'analysis' completed the survey). Option B correctly places the logical subject ('the research team') immediately after the modifier."
-},
-{
-"id": "q41",
-"type": "Grammar",
-"question": "Choose the correct option to fill in the blank:\n'The committee insisted that the treasurer ________ a detailed financial report before Friday.'",
-"options": [
-"A) submits",
-"B) submit",
-"C) submitted",
-"D) would submit"
-],
-"answer": 1,
-"rationale": "Verbs expressing demand, insistence, or requirement ('insisted that...') mandate the subjunctive mood, which uses the base form of the verb ('submit') without standard third-person '-s' agreement."
-},
-{
-"id": "q42",
-"type": "Grammar",
-"question": "Choose the grammatically CORRECT sentence:",
-"options": [
-"A) He is one of those senior analysts who has consistently predicted market turns.",
-"B) He is one of those senior analysts who have consistently predicted market turns.",
-"C) He is a senior analyst who have consistently predicted market turns.",
-"D) He is one of those senior analyst who have consistently predicted market turns."
-],
-"answer": 1,
-"rationale": "In the construction 'one of those [plural noun] who [verb]', the relative pronoun 'who' refers to the plural noun ('analysts'), requiring the plural verb 'have'."
-},
-{
-"id": "q43",
-"type": "Grammar",
-"question": "Spot the error in the sentence:\n'Between you and I (A) / the new tax policy (B) / will severely impact (C) / small business owners (D).'",
-"options": [
-"A) Between you and I",
-"B) the new tax policy",
-"C) will severely impact",
-"D) small business owners"
-],
-"answer": 0,
-"rationale": "'Between' is a preposition, which requires objective case pronouns. It should be 'Between you and me', not 'Between you and I'."
-},
-{
-"id": "q44",
-"type": "Grammar",
-"question": "Choose the correct preposition to fill in the blank:\n'The new corporate policy is not compatible ________ our existing contractual commitments.'",
-"options": [
-"A) to",
-"B) with",
-"C) for",
-"D) against"
-],
-"answer": 1,
-"rationale": "The adjective 'compatible' takes the fixed preposition 'with'."
-},
-{
-"id": "q45",
-"type": "Grammar",
-"question": "Identify the grammatically INCORRECT sentence:",
-"options": [
-"A) Scarcely had the train left the platform when the announcement was made.",
-"B) Neither of the two candidates who interviewed yesterday is qualified for the position.",
-"C) The manager together with his assistants have reviewed the proposed budget.",
-"D) Had I known about the traffic delay, I would have taken the metro."
-],
-"answer": 2,
-"rationale": "When a singular subject ('The manager') is followed by parenthetical phrases like 'together with', 'along with', or 'as well as', the verb must remain singular. Option C incorrectly uses the plural 'have reviewed' instead of 'has reviewed'."
-}
+[
+  {
+    "id": "sec-2026-10-05",
+    "date": "2026-10-05",
+    "title": "IPMAT Indore VA Full Sectional Mock - 05 Oct 2026 (Advanced Level)",
+    "durationMinutes": 40,
+    "totalQuestions": 45,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "RC",
+        "passage": "On 18 September 2026, the international maritime registry approved the commercial deployment of the world’s first fully uncrewed transoceanic container vessel, the MV Horizon Aegis, across the Pacific shipping corridor. Operating without a single human crew member aboard, the vessel relies on a distributed mesh of neural networks, satellite telemetry, and real-time lidar arrays to navigate congested choke points like the Malacca Strait. While maritime logistics conglomerates have lauded the achievement as a monumental leap in operational efficiency—citing a 30% reduction in fuel consumption and the complete elimination of crew quarters in favor of freight capacity—the vessel’s inaugural voyage has ignited a fierce debate among admiralty lawyers, sovereign states, and international marine insurers. The core of the controversy does not concern the technical capability of autonomous navigation, which has proven statistically superior to human piloting in open waters, but rather the legal friction created when algorithms collide with century-old international maritime conventions.\n\nTraditional maritime law is built upon the foundational assumption of the human master. Under the 1974 International Convention for the Safety of Life at Sea (SOLAS) and the 1972 International Regulations for Preventing Collisions at Sea (COLREGS), specific legal duties are assigned to the 'master' or 'person in command' of a vessel. For instance, Rule 2 of COLREGS imposes a duty of 'good seamanship'—a discretionary human judgment standard that balances statutory rules against unpredictable environmental perils. When an autonomous vessel encounters a rogue wave or an unflagged wooden fishing skiff undetectable by radar, who exercises 'good seamanship'? Is it the software engineer in Rotterdam who authored the collision-avoidance subroutines three years prior, the shore-based remote controller supervising thirty vessels simultaneously from an office in Singapore, or the neural net itself? Because current conventions do not recognize synthetic entities as legal subjects, assigning liability under traditional maritime tort principles becomes an exercise in legal fiction.\n\nThe regulatory dilemma is further compounded by the duty to render assistance, a cornerstone of customary international law codified in Article 98 of the United Nations Convention on the Law of the Sea (UNCLOS). Article 98 mandates that every master must proceed with all possible speed to the rescue of persons in distress at sea. Autonomous cargo ships, optimized strictly for container throughput, possess no physical accommodation, lifeboats, or human personnel capable of pulling survivors from the water. If an uncrewed vessel receives an automated distress beacon from a sinking vessel nearby, its algorithms may calculate that diverting course would delay cargo delivery while offering no physical capability to execute a rescue operation. While economic efficiency dictates continuing on course, international law treats the failure to render aid as a grave breach of maritime obligation. Amending UNCLOS, however, requires consensus among 168 signatory nations—a process notoriously fraught with geopolitical paralysis.\n\nFaced with international statutory inertia, marine insurers and protection and indemnity (P&I) clubs have begun fashioning private regulatory frameworks to manage the financial exposure. Historically, maritime insurance underwriting relied on hull inspections and human master credentials. For autonomous fleets, insurers are shifting toward algorithmic auditing, requiring developers to open their proprietary neural weights and training datasets to third-party verification. Yet, this creates a novel structural hazard: algorithmic opacity. Deep learning models operating on reinforcement learning parameters do not follow deterministic rule trees; they process environmental vectors through non-linear probability matrices. In a high-stakes collision scenario, an AI model might execute a maneuver that seems counterintuitive to human mariners but is mathematically optimal for minimizing overall vessel damage. If that maneuver results in the destruction of a smaller vessel, establishing whether the algorithm acted with 'negligence' or performed an unpredictable 'black swan' computation presents an insurmountable evidentiary hurdle in court.\n\nTwo opposing legal schools of thought have emerged to resolve this impasse. The 'functional equivalence' school argues that autonomous control systems should be treated as synthetic masters, applying existing maritime fault rules by assessing whether the software’s decisions fell within acceptable statistical bounds of human seamanship. Critics of this view point out that human seamanship incorporates ethical considerations—such as prioritizing human life over commercial property—that cannot be reliably quantified in mathematical loss functions. The alternative 'strict liability product' school advocates abandoning fault-based maritime torts altogether for uncrewed ships, treating collisions as strict product liability events borne entirely by the vessel’s manufacturer and software owners. However, shipowners argue that strict liability would cripple the commercial viability of autonomous shipping by imposing uninsurable financial liabilities on developers.\n\nUltimately, the arrival of uncrewed commercial fleets reveals that technological innovation in global trade has outpaced the institutional architecture designed to govern it. Just as the transition from sail to steam in the nineteenth century forced a total rewrite of international navigation standards, the transition from human command to algorithmic control demands a fundamental rethinking of legal personhood, duty of care, and risk allocation on the high seas. Until a unified international treaty replaces the antiquated language of SOLAS and COLREGS, autonomous vessels will continue to navigate not only physical ocean currents, but also a treacherous and uncertain sea of legal liability.",
+        "question": "Which of the following best expresses the author's primary purpose in the passage?",
+        "options": [
+          "A) To demonstrate that autonomous container ships are inherently unsafe and should be banned from international waters until UNCLOS can be fully amended by signatory states.",
+          "B) To analyze how autonomous maritime navigation conflicts with existing international legal frameworks and evaluate the challenges in allocating liability.",
+          "C) To argue that strict product liability is the only viable legal framework for resolving shipowner disputes in modern autonomous maritime trade.",
+          "D) To explain the mathematical algorithms and sensor arrays that enable uncrewed cargo ships to navigate congested shipping lanes like the Malacca Strait."
+        ],
+        "answer": 1,
+        "rationale": "The author outlines how autonomous vessels challenge existing treaties (SOLAS, COLREGS, UNCLOS) and analyzes the legal dilemmas surrounding duty of care and liability allocation without advocating for bans or single simplistic solutions."
+      },
+      {
+        "id": "q2",
+        "type": "RC",
+        "passage": "On 18 September 2026, the international maritime registry approved the commercial deployment of the world’s first fully uncrewed transoceanic container vessel, the MV Horizon Aegis, across the Pacific shipping corridor. Operating without a single human crew member aboard, the vessel relies on a distributed mesh of neural networks, satellite telemetry, and real-time lidar arrays to navigate congested choke points like the Malacca Strait. While maritime logistics conglomerates have lauded the achievement as a monumental leap in operational efficiency—citing a 30% reduction in fuel consumption and the complete elimination of crew quarters in favor of freight capacity—the vessel’s inaugural voyage has ignited a fierce debate among admiralty lawyers, sovereign states, and international marine insurers. The core of the controversy does not concern the technical capability of autonomous navigation, which has proven statistically superior to human piloting in open waters, but rather the legal friction created when algorithms collide with century-old international maritime conventions.\n\nTraditional maritime law is built upon the foundational assumption of the human master. Under the 1974 International Convention for the Safety of Life at Sea (SOLAS) and the 1972 International Regulations for Preventing Collisions at Sea (COLREGS), specific legal duties are assigned to the 'master' or 'person in command' of a vessel. For instance, Rule 2 of COLREGS imposes a duty of 'good seamanship'—a discretionary human judgment standard that balances statutory rules against unpredictable environmental perils. When an autonomous vessel encounters a rogue wave or an unflagged wooden fishing skiff undetectable by radar, who exercises 'good seamanship'? Is it the software engineer in Rotterdam who authored the collision-avoidance subroutines three years prior, the shore-based remote controller supervising thirty vessels simultaneously from an office in Singapore, or the neural net itself? Because current conventions do not recognize synthetic entities as legal subjects, assigning liability under traditional maritime tort principles becomes an exercise in legal fiction.\n\nThe regulatory dilemma is further compounded by the duty to render assistance, a cornerstone of customary international law codified in Article 98 of the United Nations Convention on the Law of the Sea (UNCLOS). Article 98 mandates that every master must proceed with all possible speed to the rescue of persons in distress at sea. Autonomous cargo ships, optimized strictly for container throughput, possess no physical accommodation, lifeboats, or human personnel capable of pulling survivors from the water. If an uncrewed vessel receives an automated distress beacon from a sinking vessel nearby, its algorithms may calculate that diverting course would delay cargo delivery while offering no physical capability to execute a rescue operation. While economic efficiency dictates continuing on course, international law treats the failure to render aid as a grave breach of maritime obligation. Amending UNCLOS, however, requires consensus among 168 signatory nations—a process notoriously fraught with geopolitical paralysis.\n\nFaced with international statutory inertia, marine insurers and protection and indemnity (P&I) clubs have begun fashioning private regulatory frameworks to manage the financial exposure. Historically, maritime insurance underwriting relied on hull inspections and human master credentials. For autonomous fleets, insurers are shifting toward algorithmic auditing, requiring developers to open their proprietary neural weights and training datasets to third-party verification. Yet, this creates a novel structural hazard: algorithmic opacity. Deep learning models operating on reinforcement learning parameters do not follow deterministic rule trees; they process environmental vectors through non-linear probability matrices. In a high-stakes collision scenario, an AI model might execute a maneuver that seems counterintuitive to human mariners but is mathematically optimal for minimizing overall vessel damage. If that maneuver results in the destruction of a smaller vessel, establishing whether the algorithm acted with 'negligence' or performed an unpredictable 'black swan' computation presents an insurmountable evidentiary hurdle in court.\n\nTwo opposing legal schools of thought have emerged to resolve this impasse. The 'functional equivalence' school argues that autonomous control systems should be treated as synthetic masters, applying existing maritime fault rules by assessing whether the software’s decisions fell within acceptable statistical bounds of human seamanship. Critics of this view point out that human seamanship incorporates ethical considerations—such as prioritizing human life over commercial property—that cannot be reliably quantified in mathematical loss functions. The alternative 'strict liability product' school advocates abandoning fault-based maritime torts altogether for uncrewed ships, treating collisions as strict product liability events borne entirely by the vessel’s manufacturer and software owners. However, shipowners argue that strict liability would cripple the commercial viability of autonomous shipping by imposing uninsurable financial liabilities on developers.\n\nUltimately, the arrival of uncrewed commercial fleets reveals that technological innovation in global trade has outpaced the institutional architecture designed to govern it. Just as the transition from sail to steam in the nineteenth century forced a total rewrite of international navigation standards, the transition from human command to algorithmic control demands a fundamental rethinking of legal personhood, duty of care, and risk allocation on the high seas. Until a unified international treaty replaces the antiquated language of SOLAS and COLREGS, autonomous vessels will continue to navigate not only physical ocean currents, but also a treacherous and uncertain sea of legal liability.",
+        "question": "The author discusses Article 98 of UNCLOS in paragraph 3 primarily to illustrate that:",
+        "options": [
+          "A) autonomous container vessels are mathematically prone to ignoring distress signals due to flawed collision-avoidance subroutines.",
+          "B) uncrewed ships face a structural mismatch between statutory maritime duties and their physical design limitations.",
+          "C) amending international treaties is an efficient mechanism for resolving technological disputes across signatory states.",
+          "D) maritime insurers refuse to issue protection policies to vessels that operate without physical lifeboats."
+        ],
+        "answer": 1,
+        "rationale": "Paragraph 3 explains that Article 98 mandates rescuing distress victims, but autonomous ships are built without human accommodations or lifeboats, creating a direct conflict between statutory requirements and physical design."
+      },
+      {
+        "id": "q3",
+        "type": "RC",
+        "passage": "On 18 September 2026, the international maritime registry approved the commercial deployment of the world’s first fully uncrewed transoceanic container vessel, the MV Horizon Aegis, across the Pacific shipping corridor. Operating without a single human crew member aboard, the vessel relies on a distributed mesh of neural networks, satellite telemetry, and real-time lidar arrays to navigate congested choke points like the Malacca Strait. While maritime logistics conglomerates have lauded the achievement as a monumental leap in operational efficiency—citing a 30% reduction in fuel consumption and the complete elimination of crew quarters in favor of freight capacity—the vessel’s inaugural voyage has ignited a fierce debate among admiralty lawyers, sovereign states, and international marine insurers. The core of the controversy does not concern the technical capability of autonomous navigation, which has proven statistically superior to human piloting in open waters, but rather the legal friction created when algorithms collide with century-old international maritime conventions.\n\nTraditional maritime law is built upon the foundational assumption of the human master. Under the 1974 International Convention for the Safety of Life at Sea (SOLAS) and the 1972 International Regulations for Preventing Collisions at Sea (COLREGS), specific legal duties are assigned to the 'master' or 'person in command' of a vessel. For instance, Rule 2 of COLREGS imposes a duty of 'good seamanship'—a discretionary human judgment standard that balances statutory rules against unpredictable environmental perils. When an autonomous vessel encounters a rogue wave or an unflagged wooden fishing skiff undetectable by radar, who exercises 'good seamanship'? Is it the software engineer in Rotterdam who authored the collision-avoidance subroutines three years prior, the shore-based remote controller supervising thirty vessels simultaneously from an office in Singapore, or the neural net itself? Because current conventions do not recognize synthetic entities as legal subjects, assigning liability under traditional maritime tort principles becomes an exercise in legal fiction.\n\nThe regulatory dilemma is further compounded by the duty to render assistance, a cornerstone of customary international law codified in Article 98 of the United Nations Convention on the Law of the Sea (UNCLOS). Article 98 mandates that every master must proceed with all possible speed to the rescue of persons in distress at sea. Autonomous cargo ships, optimized strictly for container throughput, possess no physical accommodation, lifeboats, or human personnel capable of pulling survivors from the water. If an uncrewed vessel receives an automated distress beacon from a sinking vessel nearby, its algorithms may calculate that diverting course would delay cargo delivery while offering no physical capability to execute a rescue operation. While economic efficiency dictates continuing on course, international law treats the failure to render aid as a grave breach of maritime obligation. Amending UNCLOS, however, requires consensus among 168 signatory nations—a process notoriously fraught with geopolitical paralysis.\n\nFaced with international statutory inertia, marine insurers and protection and indemnity (P&I) clubs have begun fashioning private regulatory frameworks to manage the financial exposure. Historically, maritime insurance underwriting relied on hull inspections and human master credentials. For autonomous fleets, insurers are shifting toward algorithmic auditing, requiring developers to open their proprietary neural weights and training datasets to third-party verification. Yet, this creates a novel structural hazard: algorithmic opacity. Deep learning models operating on reinforcement learning parameters do not follow deterministic rule trees; they process environmental vectors through non-linear probability matrices. In a high-stakes collision scenario, an AI model might execute a maneuver that seems counterintuitive to human mariners but is mathematically optimal for minimizing overall vessel damage. If that maneuver results in the destruction of a smaller vessel, establishing whether the algorithm acted with 'negligence' or performed an unpredictable 'black swan' computation presents an insurmountable evidentiary hurdle in court.\n\nTwo opposing legal schools of thought have emerged to resolve this impasse. The 'functional equivalence' school argues that autonomous control systems should be treated as synthetic masters, applying existing maritime fault rules by assessing whether the software’s decisions fell within acceptable statistical bounds of human seamanship. Critics of this view point out that human seamanship incorporates ethical considerations—such as prioritizing human life over commercial property—that cannot be reliably quantified in mathematical loss functions. The alternative 'strict liability product' school advocates abandoning fault-based maritime torts altogether for uncrewed ships, treating collisions as strict product liability events borne entirely by the vessel’s manufacturer and software owners. However, shipowners argue that strict liability would cripple the commercial viability of autonomous shipping by imposing uninsurable financial liabilities on developers.\n\nUltimately, the arrival of uncrewed commercial fleets reveals that technological innovation in global trade has outpaced the institutional architecture designed to govern it. Just as the transition from sail to steam in the nineteenth century forced a total rewrite of international navigation standards, the transition from human command to algorithmic control demands a fundamental rethinking of legal personhood, duty of care, and risk allocation on the high seas. Until a unified international treaty replaces the antiquated language of SOLAS and COLREGS, autonomous vessels will continue to navigate not only physical ocean currents, but also a treacherous and uncertain sea of legal liability.",
+        "question": "Which of the following best describes the 'algorithmic opacity' problem discussed in paragraph 4?",
+        "options": [
+          "A) AI developers intentionally obscure source code to prevent competitors from copying proprietary navigation subroutines.",
+          "B) Non-linear neural networks make it difficult to legally establish negligence during accidents.",
+          "C) Marine insurers refuse to inspect physical vessel hulls once algorithmic auditing frameworks are adopted.",
+          "D) Satellite telemetry systems frequently fail in deep-ocean corridors, leaving uncrewed vessels completely unmonitored."
+        ],
+        "answer": 1,
+        "rationale": "Paragraph 4 explains that non-linear probability matrices in deep learning models make it difficult to prove whether an unexpected maneuver was negligence or an unpredictable computation in court."
+      },
+      {
+        "id": "q4",
+        "type": "RC",
+        "passage": "On 18 September 2026, the international maritime registry approved the commercial deployment of the world’s first fully uncrewed transoceanic container vessel, the MV Horizon Aegis, across the Pacific shipping corridor. Operating without a single human crew member aboard, the vessel relies on a distributed mesh of neural networks, satellite telemetry, and real-time lidar arrays to navigate congested choke points like the Malacca Strait. While maritime logistics conglomerates have lauded the achievement as a monumental leap in operational efficiency—citing a 30% reduction in fuel consumption and the complete elimination of crew quarters in favor of freight capacity—the vessel’s inaugural voyage has ignited a fierce debate among admiralty lawyers, sovereign states, and international marine insurers. The core of the controversy does not concern the technical capability of autonomous navigation, which has proven statistically superior to human piloting in open waters, but rather the legal friction created when algorithms collide with century-old international maritime conventions.\n\nTraditional maritime law is built upon the foundational assumption of the human master. Under the 1974 International Convention for the Safety of Life at Sea (SOLAS) and the 1972 International Regulations for Preventing Collisions at Sea (COLREGS), specific legal duties are assigned to the 'master' or 'person in command' of a vessel. For instance, Rule 2 of COLREGS imposes a duty of 'good seamanship'—a discretionary human judgment standard that balances statutory rules against unpredictable environmental perils. When an autonomous vessel encounters a rogue wave or an unflagged wooden fishing skiff undetectable by radar, who exercises 'good seamanship'? Is it the software engineer in Rotterdam who authored the collision-avoidance subroutines three years prior, the shore-based remote controller supervising thirty vessels simultaneously from an office in Singapore, or the neural net itself? Because current conventions do not recognize synthetic entities as legal subjects, assigning liability under traditional maritime tort principles becomes an exercise in legal fiction.\n\nThe regulatory dilemma is further compounded by the duty to render assistance, a cornerstone of customary international law codified in Article 98 of the United Nations Convention on the Law of the Sea (UNCLOS). Article 98 mandates that every master must proceed with all possible speed to the rescue of persons in distress at sea. Autonomous cargo ships, optimized strictly for container throughput, possess no physical accommodation, lifeboats, or human personnel capable of pulling survivors from the water. If an uncrewed vessel receives an automated distress beacon from a sinking vessel nearby, its algorithms may calculate that diverting course would delay cargo delivery while offering no physical capability to execute a rescue operation. While economic efficiency dictates continuing on course, international law treats the failure to render aid as a grave breach of maritime obligation. Amending UNCLOS, however, requires consensus among 168 signatory nations—a process notoriously fraught with geopolitical paralysis.\n\nFaced with international statutory inertia, marine insurers and protection and indemnity (P&I) clubs have begun fashioning private regulatory frameworks to manage the financial exposure. Historically, maritime insurance underwriting relied on hull inspections and human master credentials. For autonomous fleets, insurers are shifting toward algorithmic auditing, requiring developers to open their proprietary neural weights and training datasets to third-party verification. Yet, this creates a novel structural hazard: algorithmic opacity. Deep learning models operating on reinforcement learning parameters do not follow deterministic rule trees; they process environmental vectors through non-linear probability matrices. In a high-stakes collision scenario, an AI model might execute a maneuver that seems counterintuitive to human mariners but is mathematically optimal for minimizing overall vessel damage. If that maneuver results in the destruction of a smaller vessel, establishing whether the algorithm acted with 'negligence' or performed an unpredictable 'black swan' computation presents an insurmountable evidentiary hurdle in court.\n\nTwo opposing legal schools of thought have emerged to resolve this impasse. The 'functional equivalence' school argues that autonomous control systems should be treated as synthetic masters, applying existing maritime fault rules by assessing whether the software’s decisions fell within acceptable statistical bounds of human seamanship. Critics of this view point out that human seamanship incorporates ethical considerations—such as prioritizing human life over commercial property—that cannot be reliably quantified in mathematical loss functions. The alternative 'strict liability product' school advocates abandoning fault-based maritime torts altogether for uncrewed ships, treating collisions as strict product liability events borne entirely by the vessel’s manufacturer and software owners. However, shipowners argue that strict liability would cripple the commercial viability of autonomous shipping by imposing uninsurable financial liabilities on developers.\n\nUltimately, the arrival of uncrewed commercial fleets reveals that technological innovation in global trade has outpaced the institutional architecture designed to govern it. Just as the transition from sail to steam in the nineteenth century forced a total rewrite of international navigation standards, the transition from human command to algorithmic control demands a fundamental rethinking of legal personhood, duty of care, and risk allocation on the high seas. Until a unified international treaty replaces the antiquated language of SOLAS and COLREGS, autonomous vessels will continue to navigate not only physical ocean currents, but also a treacherous and uncertain sea of legal liability.",
+        "question": "According to critics of the 'functional equivalence' school of thought, treating software as a synthetic master is flawed because:",
+        "options": [
+          "A) autonomous subroutines process satellite telemetry faster than remote controllers in Singapore.",
+          "B) mathematical loss functions cannot capture ethical priorities like placing human life above property.",
+          "C) strict product liability already covers all maritime accidents under existing customary international law.",
+          "D) developers refuse to disclose proprietary neural weights to international rating agencies."
+        ],
+        "answer": 1,
+        "rationale": "Paragraph 5 explicitly states that critics object because seamanship includes ethical considerations—like prioritizing life over property—which cannot be quantified in mathematical loss functions."
+      },
+      {
+        "id": "q5",
+        "type": "RC",
+        "passage": "On 18 September 2026, the international maritime registry approved the commercial deployment of the world’s first fully uncrewed transoceanic container vessel, the MV Horizon Aegis, across the Pacific shipping corridor. Operating without a single human crew member aboard, the vessel relies on a distributed mesh of neural networks, satellite telemetry, and real-time lidar arrays to navigate congested choke points like the Malacca Strait. While maritime logistics conglomerates have lauded the achievement as a monumental leap in operational efficiency—citing a 30% reduction in fuel consumption and the complete elimination of crew quarters in favor of freight capacity—the vessel’s inaugural voyage has ignited a fierce debate among admiralty lawyers, sovereign states, and international marine insurers. The core of the controversy does not concern the technical capability of autonomous navigation, which has proven statistically superior to human piloting in open waters, but rather the legal friction created when algorithms collide with century-old international maritime conventions.\n\nTraditional maritime law is built upon the foundational assumption of the human master. Under the 1974 International Convention for the Safety of Life at Sea (SOLAS) and the 1972 International Regulations for Preventing Collisions at Sea (COLREGS), specific legal duties are assigned to the 'master' or 'person in command' of a vessel. For instance, Rule 2 of COLREGS imposes a duty of 'good seamanship'—a discretionary human judgment standard that balances statutory rules against unpredictable environmental perils. When an autonomous vessel encounters a rogue wave or an unflagged wooden fishing skiff undetectable by radar, who exercises 'good seamanship'? Is it the software engineer in Rotterdam who authored the collision-avoidance subroutines three years prior, the shore-based remote controller supervising thirty vessels simultaneously from an office in Singapore, or the neural net itself? Because current conventions do not recognize synthetic entities as legal subjects, assigning liability under traditional maritime tort principles becomes an exercise in legal fiction.\n\nThe regulatory dilemma is further compounded by the duty to render assistance, a cornerstone of customary international law codified in Article 98 of the United Nations Convention on the Law of the Sea (UNCLOS). Article 98 mandates that every master must proceed with all possible speed to the rescue of persons in distress at sea. Autonomous cargo ships, optimized strictly for container throughput, possess no physical accommodation, lifeboats, or human personnel capable of pulling survivors from the water. If an uncrewed vessel receives an automated distress beacon from a sinking vessel nearby, its algorithms may calculate that diverting course would delay cargo delivery while offering no physical capability to execute a rescue operation. While economic efficiency dictates continuing on course, international law treats the failure to render aid as a grave breach of maritime obligation. Amending UNCLOS, however, requires consensus among 168 signatory nations—a process notoriously fraught with geopolitical paralysis.\n\nFaced with international statutory inertia, marine insurers and protection and indemnity (P&I) clubs have begun fashioning private regulatory frameworks to manage the financial exposure. Historically, maritime insurance underwriting relied on hull inspections and human master credentials. For autonomous fleets, insurers are shifting toward algorithmic auditing, requiring developers to open their proprietary neural weights and training datasets to third-party verification. Yet, this creates a novel structural hazard: algorithmic opacity. Deep learning models operating on reinforcement learning parameters do not follow deterministic rule trees; they process environmental vectors through non-linear probability matrices. In a high-stakes collision scenario, an AI model might execute a maneuver that seems counterintuitive to human mariners but is mathematically optimal for minimizing overall vessel damage. If that maneuver results in the destruction of a smaller vessel, establishing whether the algorithm acted with 'negligence' or performed an unpredictable 'black swan' computation presents an insurmountable evidentiary hurdle in court.\n\nTwo opposing legal schools of thought have emerged to resolve this impasse. The 'functional equivalence' school argues that autonomous control systems should be treated as synthetic masters, applying existing maritime fault rules by assessing whether the software’s decisions fell within acceptable statistical bounds of human seamanship. Critics of this view point out that human seamanship incorporates ethical considerations—such as prioritizing human life over commercial property—that cannot be reliably quantified in mathematical loss functions. The alternative 'strict liability product' school advocates abandoning fault-based maritime torts altogether for uncrewed ships, treating collisions as strict product liability events borne entirely by the vessel’s manufacturer and software owners. However, shipowners argue that strict liability would cripple the commercial viability of autonomous shipping by imposing uninsurable financial liabilities on developers.\n\nUltimately, the arrival of uncrewed commercial fleets reveals that technological innovation in global trade has outpaced the institutional architecture designed to govern it. Just as the transition from sail to steam in the nineteenth century forced a total rewrite of international navigation standards, the transition from human command to algorithmic control demands a fundamental rethinking of legal personhood, duty of care, and risk allocation on the high seas. Until a unified international treaty replaces the antiquated language of SOLAS and COLREGS, autonomous vessels will continue to navigate not only physical ocean currents, but also a treacherous and uncertain sea of legal liability.",
+        "question": "Which of the following, if true, would most weaken the shipowners' objection to the 'strict liability product' framework (paragraph 5)?",
+        "options": [
+          "A) International underwriters develop specialized re-insurance pools that cap developer exposure while spreading product liability risks across global shipping consortia.",
+          "B) Autonomous vessels experience 50% fewer navigational system reboots during transoceanic crossings than crewed vessels.",
+          "C) Sovereign states pass legislation requiring uncrewed ships to maintain human remote pilots in coastal harbors.",
+          "D) Deep learning navigation models double their operational efficiency when trained on larger oceanographic datasets."
+        ],
+        "answer": 0,
+        "rationale": "Shipowners object to strict liability claiming it creates 'uninsurable financial liabilities.' If underwriters develop specialized re-insurance pools that cap exposure and spread risk, those liabilities become insurable, directly weakening the objection."
+      },
+      {
+        "id": "q6",
+        "type": "RC",
+        "passage": "On 18 September 2026, the international maritime registry approved the commercial deployment of the world’s first fully uncrewed transoceanic container vessel, the MV Horizon Aegis, across the Pacific shipping corridor. Operating without a single human crew member aboard, the vessel relies on a distributed mesh of neural networks, satellite telemetry, and real-time lidar arrays to navigate congested choke points like the Malacca Strait. While maritime logistics conglomerates have lauded the achievement as a monumental leap in operational efficiency—citing a 30% reduction in fuel consumption and the complete elimination of crew quarters in favor of freight capacity—the vessel’s inaugural voyage has ignited a fierce debate among admiralty lawyers, sovereign states, and international marine insurers. The core of the controversy does not concern the technical capability of autonomous navigation, which has proven statistically superior to human piloting in open waters, but rather the legal friction created when algorithms collide with century-old international maritime conventions.\n\nTraditional maritime law is built upon the foundational assumption of the human master. Under the 1974 International Convention for the Safety of Life at Sea (SOLAS) and the 1972 International Regulations for Preventing Collisions at Sea (COLREGS), specific legal duties are assigned to the 'master' or 'person in command' of a vessel. For instance, Rule 2 of COLREGS imposes a duty of 'good seamanship'—a discretionary human judgment standard that balances statutory rules against unpredictable environmental perils. When an autonomous vessel encounters a rogue wave or an unflagged wooden fishing skiff undetectable by radar, who exercises 'good seamanship'? Is it the software engineer in Rotterdam who authored the collision-avoidance subroutines three years prior, the shore-based remote controller supervising thirty vessels simultaneously from an office in Singapore, or the neural net itself? Because current conventions do not recognize synthetic entities as legal subjects, assigning liability under traditional maritime tort principles becomes an exercise in legal fiction.\n\nThe regulatory dilemma is further compounded by the duty to render assistance, a cornerstone of customary international law codified in Article 98 of the United Nations Convention on the Law of the Sea (UNCLOS). Article 98 mandates that every master must proceed with all possible speed to the rescue of persons in distress at sea. Autonomous cargo ships, optimized strictly for container throughput, possess no physical accommodation, lifeboats, or human personnel capable of pulling survivors from the water. If an uncrewed vessel receives an automated distress beacon from a sinking vessel nearby, its algorithms may calculate that diverting course would delay cargo delivery while offering no physical capability to execute a rescue operation. While economic efficiency dictates continuing on course, international law treats the failure to render aid as a grave breach of maritime obligation. Amending UNCLOS, however, requires consensus among 168 signatory nations—a process notoriously fraught with geopolitical paralysis.\n\nFaced with international statutory inertia, marine insurers and protection and indemnity (P&I) clubs have begun fashioning private regulatory frameworks to manage the financial exposure. Historically, maritime insurance underwriting relied on hull inspections and human master credentials. For autonomous fleets, insurers are shifting toward algorithmic auditing, requiring developers to open their proprietary neural weights and training datasets to third-party verification. Yet, this creates a novel structural hazard: algorithmic opacity. Deep learning models operating on reinforcement learning parameters do not follow deterministic rule trees; they process environmental vectors through non-linear probability matrices. In a high-stakes collision scenario, an AI model might execute a maneuver that seems counterintuitive to human mariners but is mathematically optimal for minimizing overall vessel damage. If that maneuver results in the destruction of a smaller vessel, establishing whether the algorithm acted with 'negligence' or performed an unpredictable 'black swan' computation presents an insurmountable evidentiary hurdle in court.\n\nTwo opposing legal schools of thought have emerged to resolve this impasse. The 'functional equivalence' school argues that autonomous control systems should be treated as synthetic masters, applying existing maritime fault rules by assessing whether the software’s decisions fell within acceptable statistical bounds of human seamanship. Critics of this view point out that human seamanship incorporates ethical considerations—such as prioritizing human life over commercial property—that cannot be reliably quantified in mathematical loss functions. The alternative 'strict liability product' school advocates abandoning fault-based maritime torts altogether for uncrewed ships, treating collisions as strict product liability events borne entirely by the vessel’s manufacturer and software owners. However, shipowners argue that strict liability would cripple the commercial viability of autonomous shipping by imposing uninsurable financial liabilities on developers.\n\nUltimately, the arrival of uncrewed commercial fleets reveals that technological innovation in global trade has outpaced the institutional architecture designed to govern it. Just as the transition from sail to steam in the nineteenth century forced a total rewrite of international navigation standards, the transition from human command to algorithmic control demands a fundamental rethinking of legal personhood, duty of care, and risk allocation on the high seas. Until a unified international treaty replaces the antiquated language of SOLAS and COLREGS, autonomous vessels will continue to navigate not only physical ocean currents, but also a treacherous and uncertain sea of legal liability.",
+        "question": "The author draws an analogy to the nineteenth-century transition from sail to steam in the final paragraph primarily to:",
+        "options": [
+          "A) show that technological shifts routinely require complete overhauls of international governance standards.",
+          "B) argue that steam-powered ships suffered higher collision rates than modern autonomous container vessels.",
+          "C) suggest that coal supply chains faced regulatory paralysis similar to modern satellite telecommunication arrays.",
+          "D) prove that international treaties can be enacted swiftly when economic incentives align across maritime nations."
+        ],
+        "answer": 0,
+        "rationale": "The final paragraph uses the sail-to-steam transition to emphasize that historical shifts in transport technology required updating maritime rules, just as the shift to AI command requires updating governance frameworks today."
+      },
+      {
+        "id": "q19",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. When regulatory oversight is weak, financial institutions often misprice complex structural risks.\n2. Over time, these unpriced systemic vulnerabilities accumulate quietly across interconnected global balance sheets.\n3. A minor market shock can then trigger a widespread liquidity freeze that threatens the stability of the entire banking system.\n4. Capital markets rely on the assumption that market participants accurately price assets based on publicly available data.",
+        "answer": "4123",
+        "explanation": "Sentence 4 establishes the baseline rule (capital markets rely on accurate asset pricing). Sentence 1 introduces the flaw when regulation is weak (mispricing risk). Sentence 2 details the accumulation of those vulnerabilities ('these unpriced systemic vulnerabilities'). Sentence 3 concludes with the fallout ('A minor market shock can then trigger...')."
+      },
+      {
+        "id": "q20",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. This ecological footprint is further inflated by the massive energy demands of modern cooling infrastructure.\n2. Large-scale data centers now consume a growing fraction of global electricity output.\n3. Consequently, tech conglomerates are facing intense pressure to power hyperscale facilities with renewable energy.\n4. Much of this power is generated by burning fossil fuels, releasing megatons of carbon emissions annually.",
+        "answer": "2413",
+        "explanation": "Sentence 2 introduces data center electricity consumption. Sentence 4 elaborates on how this power is generated (fossil fuels, carbon emissions). Sentence 1 adds another layer ('This ecological footprint is further inflated by... cooling infrastructure'). Sentence 3 provides the outcome ('Consequently, tech conglomerates face intense pressure...')."
+      },
+      {
+        "id": "q21",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Without rigorous institutional checks, executive power inevitably expands at the expense of parliamentary oversight.\n2. Democratic governance rests on a delicate balance between executive authority and legislative accountability.\n3. The erosion of this balance degrades citizen trust in public institutions over successive election cycles.\n4. Opportunistic leaders exploit emergencies to issue sweeping decrees that bypass committee scrutiny.",
+        "answer": "2143",
+        "explanation": "Sentence 2 sets up the fundamental balance of democratic governance. Sentence 1 warns what happens when checks are absent (executive power expands). Sentence 4 explains the mechanism ('Opportunistic leaders exploit emergencies...'). Sentence 3 presents the long-term impact on citizen trust ('The erosion of this balance...')."
+      },
+      {
+        "id": "q22",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. The resulting architectural style prioritized functional utility over classical ornamentation.\n2. Industrialization transformed urban design by introducing mass-produced steel and reinforced concrete.\n3. Cities rapidly erected high-density office towers to accommodate expanding corporate bureaucracies.\n4. These new materials allowed architects to design structures of unprecedented height and structural flexibility.",
+        "answer": "2413",
+        "explanation": "Sentence 2 introduces industrialization and new materials (steel/concrete). Sentence 4 connects directly ('These new materials allowed architects...'). Sentence 1 describes the aesthetic output ('The resulting architectural style...'). Sentence 3 shows the practical urban application ('Cities rapidly erected high-density office towers...')."
+      },
+      {
+        "id": "q23",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Such cognitive short-cuts saved vital seconds when human ancestors confronted apex predators in the wild.\n2. Human decision-making relies heavily on heuristics, which are mental rules of thumb evolved for rapid survival.\n3. In modern financial trading, however, those same evolutionary shortcuts generate systematic irrational biases.\n4. Traders misinterpret market noise as meaningful trends, making catastrophic emotional miscalculations.",
+        "answer": "2134",
+        "explanation": "Sentence 2 defines heuristics and their evolutionary purpose. Sentence 1 explains why they evolved ('Such cognitive short-cuts saved vital seconds...'). Sentence 3 transitions to the modern domain ('In modern financial trading, however...'). Sentence 4 details the financial missteps."
+      },
+      {
+        "id": "q24",
+        "type": "ParaSummary",
+        "question": "Select the option that best summarizes the paragraph:\n\n'Central banks have traditionally controlled inflation by adjusting benchmark interest rates to influence borrowing costs and economic activity. However, when interest rates hit the effective lower bound near zero, conventional monetary policy loses its potency. In response, central banks turned to quantitative easing—purchasing massive volumes of government bonds to lower long-term yields directly. While quantitative easing prevented financial collapse during crises, critics argue that prolonged bond buying inflates asset bubbles, artificially depresses yields, and worsens wealth inequality by benefiting asset owners over wage earners.'",
+        "options": [
+          "A) Central banks should permanently abandon conventional interest rate adjustments in favor of continuous quantitative easing programs.",
+          "B) Quantitative easing replaces conventional interest rate policies when rates hit zero, preventing collapse but raising concerns over asset bubbles and inequality.",
+          "C) Bond purchases by central banks guarantee that wage earners receive higher real incomes during periods of severe economic crisis.",
+          "D) Quantitative easing failed to lower long-term interest rates because central banks purchased insufficient quantities of government debt."
+        ],
+        "answer": 1,
+        "rationale": "Option B summarizes the passage: QE was adopted when rates hit zero, succeeded in preventing collapse, but generated drawbacks (asset bubbles, depresses yields, wealth inequality)."
+      },
+      {
+        "id": "q25",
+        "type": "ParaSummary",
+        "question": "Select the option that best summarizes the paragraph:\n\n'In literary theory, the concept of the 'intentional fallacy' asserts that an author’s intended meaning should not be the primary standard for interpreting or evaluating a text. Proponents argue that once a literary work is published, it exists independently of its creator's mind, becoming public property open to pluralistic readings. Reconstructing an author's personal psychology or private biography reduces a rich text to a single, static authorial voice. Consequently, critics must focus on the internal evidence of the text itself—its structure, imagery, and syntax—rather than external statements made by the author.'",
+        "options": [
+          "A) Authors are the sole authority on the true meaning of their published literature, so critical interpretation must align with authorial commentary.",
+          "B) The intentional fallacy posits that literary texts must be analyzed through internal textual evidence rather than authorial intent or biography.",
+          "C) Literary works lose their artistic value whenever readers attempt to analyze syntax and structural imagery without studying historical contexts.",
+          "D) Literary critics should prioritize authorial biographies over structural analysis to understand complex historical allegories."
+        ],
+        "answer": 1,
+        "rationale": "Option B captures the core thesis: the intentional fallacy argues that texts exist independently of their authors, requiring evaluation based on internal textual evidence rather than authorial intent."
+      },
+      {
+        "id": "q26",
+        "type": "ParaSummary",
+        "question": "Select the option that best summarizes the paragraph:\n\n'Pharmaceutical companies frequently defend high drug prices by pointing to the astronomical capital expenditures required for drug discovery and clinical trials. They argue that patent monopolies are essential to recoup research investment before generic competitors enter the market. However, health economists observe that a significant share of breakthrough basic research is publicly funded by government grants before being licensed to private firms. Furthermore, major pharmaceutical firms often allocate far more capital to marketing and share buybacks than to genuine laboratory innovation, challenging the narrative that high prices directly fund medical breakthroughs.'",
+        "options": [
+          "A) High drug prices are fully justified because private pharmaceutical firms bear all research costs without government subsidies.",
+          "B) Health economists advocate for the complete abolition of pharmaceutical patents to ensure generic drugs enter markets immediately.",
+          "C) Pharmaceutical pricing justifications are challenged by public funding of basic research and corporate spending on marketing over innovation.",
+          "D) Government grants cover clinical trial expenses, allowing private firms to lower retail prices for life-saving therapies."
+        ],
+        "answer": 2,
+        "rationale": "Option C summarizes both sides: while pharma claims high prices fund high R&D costs, health economists counter that basic research is publicly funded and corporate budgets prioritize marketing over lab innovation."
+      },
+      {
+        "id": "q27",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\n'In evolutionary biology, the Red Queen hypothesis posits that species must constantly adapt and evolve simply to maintain their relative fitness against co-evolving competitor species. In an ecosystem where predators continuously improve their hunting efficiency, prey species must simultaneously develop better camouflage or speed merely to survive. Thus, evolutionary adaptation does not lead to permanent competitive dominance, but rather to ________.'",
+        "options": [
+          "A) a state of continuous adaptation just to preserve existing survival parity",
+          "B) the complete eradication of predator species across fragile marine ecosystems",
+          "C) an absolute end to genetic mutations in terrestrial plant species over time",
+          "D) guaranteed evolutionary immunity against novel viral pathogens"
+        ],
+        "answer": 0,
+        "rationale": "The Red Queen hypothesis emphasizes 'running just to stay in the same place.' Option A logically completes the thought by framing adaptation as preserving survival parity rather than achieving absolute dominance."
+      },
+      {
+        "id": "q28",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\n'Subsidies are frequently implemented by governments to protect domestic industries from foreign competition and safeguard local manufacturing employment. However, when subsidies remain in place indefinitely, they insulate domestic firms from international market forces. Deprived of competitive pressure, protected companies often neglect technological modernization and operational efficiency, ultimately making ________.'",
+        "options": [
+          "A) domestic products globally competitive without requiring additional tariff protections",
+          "B) the industry dependent on ongoing state support while producing inferior goods",
+          "C) foreign competitors eager to relocate their primary manufacturing operations locally",
+          "D) government treasuries accumulate massive tax surpluses from exported goods"
+        ],
+        "answer": 1,
+        "rationale": "The paragraph details how perpetual subsidies remove competitive pressure, causing firms to neglect modernization. The logical result (Option B) is that the industry becomes perpetually dependent on state aid while producing inferior goods."
+      },
+      {
+        "id": "q29",
+        "type": "Vocabulary",
+        "question": "Select the word MOST NEARLY SIMILAR in meaning to 'TRENCHANT':",
+        "options": [
+          "A) Incisive",
+          "B) Ambiguous",
+          "C) Frivolous",
+          "D) Dilatory"
+        ],
+        "answer": 0,
+        "rationale": "'Trenchant' means vigor, incisive, or sharp in expression. 'Incisive' is the closest synonym. 'Ambiguous' (unclear), 'frivolous' (silly/light), and 'dilatory' (causing delay) are incorrect."
+      },
+      {
+        "id": "q30",
+        "type": "Vocabulary",
+        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'PUNCTILIOUS':",
+        "options": [
+          "A) Meticulous",
+          "B) Careless",
+          "C) Fastidious",
+          "D) Scrupulous"
+        ],
+        "answer": 1,
+        "rationale": "'Punctilious' means showing great attention to detail or correct behavior. 'Careless' is its direct antonym. 'Meticulous', 'fastidious', and 'scrupulous' are synonyms."
+      },
+      {
+        "id": "q31",
+        "type": "Vocabulary",
+        "question": "Select the word MOST NEARLY SIMILAR in meaning to 'INTRANSIGENT':",
+        "options": [
+          "A) Compliant",
+          "B) Uncompromising",
+          "C) Ephemeral",
+          "D) Equivocal"
+        ],
+        "answer": 1,
+        "rationale": "'Intransigent' means refusing to compromise or agree. 'Uncompromising' is the exact synonym. 'Compliant' is an antonym."
+      },
+      {
+        "id": "q32",
+        "type": "Vocabulary",
+        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'EQUANIMITY':",
+        "options": [
+          "A) Agitation",
+          "B) Serenity",
+          "C) Composure",
+          "D) Placidity"
+        ],
+        "answer": 0,
+        "rationale": "'Equanimity' means mental calmness and composure, especially in difficult situations. 'Agitation' is the opposite. 'Serenity', 'composure', and 'placidity' are synonyms."
+      },
+      {
+        "id": "q33",
+        "type": "Vocabulary",
+        "question": "Choose the correct word to fill in the blank:\n'The executive's ________ speech avoided addressing the financial deficit, relying instead on empty platitudes that left shareholders thoroughly unimpressed.'",
+        "options": [
+          "A) cogent",
+          "B) vacuous",
+          "C) pellucid",
+          "D) incisive"
+        ],
+        "answer": 1,
+        "rationale": "'Vacuous' means lacking thought or intelligence; empty. This fits 'empty platitudes that left shareholders unimpressed.' 'Cogent' (persuasive), 'pellucid' (clear), and 'incisive' (sharp) contradict the context."
+      },
+      {
+        "id": "q34",
+        "type": "Vocabulary",
+        "question": "Choose the pair that best fills the blanks:\n'Despite the spokesperson's ________ assurances that the merger would not lead to job losses, union leaders remained ________ about the company's long-term intentions.'",
+        "options": [
+          "A) glib; skeptical",
+          "B) hesitant; confident",
+          "C) hostile; reassured",
+          "D) taciturn; certain"
+        ],
+        "answer": 0,
+        "rationale": "'Glib' (superficial/facile) assurances paired with union leaders remaining 'skeptical' maintains the contrast introduced by 'Despite'."
+      },
+      {
+        "id": "q35",
+        "type": "Vocabulary",
+        "question": "Select the option that correctly explains the meaning of the idiom 'To burn the candle at both ends':",
+        "options": [
+          "A) To manage financial resources with extreme thrift and frugality",
+          "B) To exhaust one's energy by working late into the night and early in the morning",
+          "C) To destroy legal evidence before an official investigation begins",
+          "D) To pursue two mutually exclusive career goals simultaneously"
+        ],
+        "answer": 1,
+        "rationale": "'To burn the candle at both ends' means to overwork oneself by rising early and staying up late, exhausting physical or mental energy."
+      },
+      {
+        "id": "q36",
+        "type": "Vocabulary",
+        "question": "HIGH-DIFFICULTY HOMOPHONE / MULTIPLE USAGE\nSelect the sentence in which the word 'PRECIPITATE' is used INCORRECTLY:",
+        "options": [
+          "A) The sudden resignation of the prime minister threatened to precipitate a severe constitutional crisis.",
+          "B) After adding the reagent to the solution, a white crystalline precipitate formed at the bottom of the beaker.",
+          "C) The committee decided to make a precipitate decision without consulting any industry experts or reviewing the audit.",
+          "D) She maintained a precipitate attitude during the negotiations, calmly listening to every proposal before responding."
+        ],
+        "answer": 3,
+        "rationale": "'Precipitate' as an adjective means hasty, rash, or done without deliberation (as in Option C). In Option D, 'calmly listening before responding' describes a deliberate, calm attitude, which is the exact opposite of 'precipitate'."
+      },
+      {
+        "id": "q37",
+        "type": "Vocabulary",
+        "question": "HIGH-DIFFICULTY HOMOPHONE / MULTIPLE USAGE\nRead the four sentences below using the word 'CANON'. Identify the option where 'CANON' is used CORRECTLY in all instances:\n\nI. The board reviewed the strict corporate canon governing ethical investment.\nII. The professor assigned works from the classical literary canon.\nIII. Soldiers fired the heavy artillery canon at the fort walls during the siege.\nIV. The cathedral canon delivered a sermon on Sunday morning.",
+        "options": [
+          "A) Sentences I, II, and IV only",
+          "B) Sentences I, II, and III only",
+          "C) Sentences II, III, and IV only",
+          "D) Sentences I and III only"
+        ],
+        "answer": 0,
+        "rationale": "'Canon' (one 'n' in the middle) refers to a general law/rule (I), a accepted body of works (II), or a member of the clergy (IV). Sentence III requires 'CANNON' (double 'n'), which refers to the heavy artillery weapon."
+      },
+      {
+        "id": "q38",
+        "type": "Grammar",
+        "question": "Choose the correct option to fill in the blank:\n'Neither the CEO nor the members of the board ________ present at yesterday's emergency shareholder meeting.'",
+        "options": [
+          "A) was",
+          "B) were",
+          "C) is",
+          "D) has been"
+        ],
+        "answer": 1,
+        "rationale": "When two subjects are joined by 'neither... nor', the verb agrees with the subject closer to it. 'Members' is plural, and the context is past time ('yesterday'), requiring 'were'."
+      },
+      {
+        "id": "q39",
+        "type": "Grammar",
+        "question": "Spot the error in the sentence:\n'No sooner had the conference (A) / started when the fire alarm (B) / sounded, forcing everyone (C) / to evacuate immediately (D).'",
+        "options": [
+          "A) No sooner had the conference",
+          "B) started when the fire alarm",
+          "C) sounded, forcing everyone",
+          "D) to evacuate immediately"
+        ],
+        "answer": 1,
+        "rationale": "'No sooner' must be followed by 'than', not 'when'. Part B should read 'started than the fire alarm' ('Hardly... when' vs 'No sooner... than')."
+      },
+      {
+        "id": "q40",
+        "type": "Grammar",
+        "question": "Choose the grammatically CORRECT sentence:",
+        "options": [
+          "A) Having completed the survey, the data was analyzed by the research team.",
+          "B) Having completed the survey, the research team analyzed the data.",
+          "C) Having completed the survey, it was analyzed by the team.",
+          "D) Having completed the survey, analysis was performed by the research team."
+        ],
+        "answer": 1,
+        "rationale": "Options A, C, and D contain dangling modifiers (suggesting the 'data', 'it', or 'analysis' completed the survey). Option B correctly places the logical subject ('the research team') immediately after the modifier."
+      },
+      {
+        "id": "q41",
+        "type": "Grammar",
+        "question": "Choose the correct option to fill in the blank:\n'The committee insisted that the treasurer ________ a detailed financial report before Friday.'",
+        "options": [
+          "A) submits",
+          "B) submit",
+          "C) submitted",
+          "D) would submit"
+        ],
+        "answer": 1,
+        "rationale": "Verbs expressing demand, insistence, or requirement ('insisted that...') mandate the subjunctive mood, which uses the base form of the verb ('submit') without standard third-person '-s' agreement."
+      },
+      {
+        "id": "q42",
+        "type": "Grammar",
+        "question": "Choose the grammatically CORRECT sentence:",
+        "options": [
+          "A) He is one of those senior analysts who has consistently predicted market turns.",
+          "B) He is one of those senior analysts who have consistently predicted market turns.",
+          "C) He is a senior analyst who have consistently predicted market turns.",
+          "D) He is one of those senior analyst who have consistently predicted market turns."
+        ],
+        "answer": 1,
+        "rationale": "In the construction 'one of those [plural noun] who [verb]', the relative pronoun 'who' refers to the plural noun ('analysts'), requiring the plural verb 'have'."
+      },
+      {
+        "id": "q43",
+        "type": "Grammar",
+        "question": "Spot the error in the sentence:\n'Between you and I (A) / the new tax policy (B) / will severely impact (C) / small business owners (D).'",
+        "options": [
+          "A) Between you and I",
+          "B) the new tax policy",
+          "C) will severely impact",
+          "D) small business owners"
+        ],
+        "answer": 0,
+        "rationale": "'Between' is a preposition, which requires objective case pronouns. It should be 'Between you and me', not 'Between you and I'."
+      },
+      {
+        "id": "q44",
+        "type": "Grammar",
+        "question": "Choose the correct preposition to fill in the blank:\n'The new corporate policy is not compatible ________ our existing contractual commitments.'",
+        "options": [
+          "A) to",
+          "B) with",
+          "C) for",
+          "D) against"
+        ],
+        "answer": 1,
+        "rationale": "The adjective 'compatible' takes the fixed preposition 'with'."
+      },
+      {
+        "id": "q45",
+        "type": "Grammar",
+        "question": "Identify the grammatically INCORRECT sentence:",
+        "options": [
+          "A) Scarcely had the train left the platform when the announcement was made.",
+          "B) Neither of the two candidates who interviewed yesterday is qualified for the position.",
+          "C) The manager together with his assistants have reviewed the proposed budget.",
+          "D) Had I known about the traffic delay, I would have taken the metro."
+        ],
+        "answer": 2,
+        "rationale": "When a singular subject ('The manager') is followed by parenthetical phrases like 'together with', 'along with', or 'as well as', the verb must remain singular. Option C incorrectly uses the plural 'have reviewed' instead of 'has reviewed'."
+      }
+    ]
+  }
 ]
-}
