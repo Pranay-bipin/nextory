@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEXTORY - IPMAT Prep Portal</title>
+    <!-- Chart.js CDN for Advanced Visual Performance Graphs -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         :root {
             --bg-page: #f4f7f5;
@@ -79,6 +81,7 @@
         }
         .hero-banner h1 { font-size: 1.6rem; font-weight: 800; margin-bottom: 8px; color: var(--text-heading); letter-spacing: -0.02em; }
         .hero-banner p { color: var(--text-body); font-size: 0.96rem; margin-bottom: 20px; max-width: 800px; }
+        
         .primary-btn {
             background: var(--green-hover);
             color: #ffffff;
@@ -90,8 +93,25 @@
             cursor: pointer;
             transition: all 0.2s ease;
             box-shadow: 0 3px 12px rgba(4, 120, 87, 0.25);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
         }
         .primary-btn:hover { background: #065f46; transform: translateY(-1px); }
+
+        .secondary-btn {
+            background: #ffffff;
+            color: var(--text-heading);
+            border: 1px solid var(--border-light);
+            padding: 11px 22px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 0.88rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .secondary-btn:hover { background: var(--bg-subtle); border-color: var(--border-hover); }
 
         .section-header { font-size: 0.9rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin: 28px 0 14px; display: flex; justify-content: space-between; align-items: center; }
         .vocab-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
@@ -159,11 +179,7 @@
             z-index: 90;
             box-shadow: 0 4px 12px rgba(16, 185, 129, 0.1);
         }
-        .timer-badge-text {
-            color: var(--green-hover);
-            font-weight: 800;
-            font-size: 0.9rem;
-        }
+        .timer-badge-text { color: var(--green-hover); font-weight: 800; font-size: 0.9rem; }
         .timer-pause-btn {
             background: #ffffff;
             border: 1px solid var(--green-border);
@@ -202,90 +218,57 @@
             outline: none;
             transition: all 0.2s ease;
         }
-        .tita-input-box:focus {
-            border-color: var(--green-hover);
-            box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15);
-        }
-        .tita-input-box.correct-input {
-            border-color: var(--status-correct);
-            background: #f0fdf4;
-            color: var(--status-correct);
-        }
-        .tita-input-box.wrong-input {
-            border-color: var(--status-wrong);
-            background: #fef2f2;
-            color: var(--status-wrong);
-        }
+        .tita-input-box:focus { border-color: var(--green-hover); box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15); }
+        .tita-input-box.correct-input { border-color: var(--status-correct); background: #f0fdf4; color: var(--status-correct); }
+        .tita-input-box.wrong-input { border-color: var(--status-wrong); background: #fef2f2; color: var(--status-wrong); }
 
-        .q-palette-container {
-            margin-top: 18px;
-            padding-top: 14px;
-            border-top: 1px solid var(--border-light);
-        }
-        .q-palette-title {
-            font-size: 0.78rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            color: var(--text-muted);
-            margin-bottom: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .q-palette-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-            max-height: 140px;
-            overflow-y: auto;
-            padding-right: 4px;
-        }
+        .q-palette-container { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border-light); }
+        .q-palette-title { font-size: 0.78rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; }
+        .q-palette-grid { display: flex; flex-wrap: wrap; gap: 6px; max-height: 140px; overflow-y: auto; padding-right: 4px; }
         .q-grid-btn {
-            width: 32px;
-            height: 32px;
-            min-width: 32px;
-            min-height: 32px;
-            border-radius: 6px;
-            border: 1px solid var(--border-light);
-            background: var(--bg-subtle);
-            color: var(--text-body);
-            font-size: 0.76rem;
-            font-weight: 700;
-            cursor: pointer;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.15s ease;
+            width: 32px; height: 32px; min-width: 32px; min-height: 32px; border-radius: 6px;
+            border: 1px solid var(--border-light); background: var(--bg-subtle); color: var(--text-body);
+            font-size: 0.76rem; font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; transition: all 0.15s ease;
         }
-        .q-grid-btn:hover {
-            border-color: var(--green-primary);
-            background: var(--green-bg);
-            color: var(--green-hover);
-        }
-        .q-grid-btn.active-q {
-            border-color: var(--green-hover) !important;
-            box-shadow: 0 0 0 2px var(--green-hover);
-            font-weight: 800;
-        }
-        .q-grid-btn.attempted {
-            background: var(--green-hover) !important;
-            color: #ffffff !important;
-            border-color: var(--green-hover) !important;
-        }
+        .q-grid-btn:hover { border-color: var(--green-primary); background: var(--green-bg); color: var(--green-hover); }
+        .q-grid-btn.active-q { border-color: var(--green-hover) !important; box-shadow: 0 0 0 2px var(--green-hover); font-weight: 800; }
+        .q-grid-btn.attempted { background: var(--green-hover) !important; color: #ffffff !important; border-color: var(--green-hover) !important; }
 
         .explanation-box { display: none; margin-top: 18px; padding: 18px; background: var(--green-bg); border-left: 4px solid var(--green-hover); border-radius: 8px; font-size: 0.9rem; line-height: 1.7; color: #064e3b; box-shadow: 0 2px 8px rgba(16, 185, 129, 0.08); }
 
         .submit-btn { width: 100%; background: var(--green-hover); color: #ffffff; border: none; padding: 13px; border-radius: 10px; font-weight: 800; font-size: 0.95rem; cursor: pointer; margin-top: 20px; transition: all 0.2s ease; box-shadow: 0 4px 14px rgba(4, 120, 87, 0.25); }
         .submit-btn:hover { background: #065f46; transform: translateY(-1px); }
 
-        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 41, 30, 0.4); backdrop-filter: blur(6px); z-index: 1000; justify-content: center; align-items: center; }
+        /* MODAL OVERLAYS */
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 41, 30, 0.5); backdrop-filter: blur(8px); z-index: 1000; justify-content: center; align-items: center; overflow-y: auto; padding: 20px; }
         .modal-overlay.active { display: flex; }
-        .dashboard-card { background: #ffffff; border: 1px solid var(--border-light); width: 90%; max-width: 580px; border-radius: 18px; padding: 32px; text-align: center; box-shadow: 0 20px 40px -10px rgba(15, 41, 30, 0.15); }
-        .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 22px 0; }
-        .stat-box { background: var(--bg-subtle); padding: 16px; border-radius: 10px; border: 1px solid var(--border-light); }
-        .stat-val { font-size: 1.4rem; font-weight: 800; color: var(--text-heading); }
-        .stat-lbl { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; margin-top: 4px; font-weight: 700; letter-spacing: 0.04em; }
+
+        /* CONFIRMATION POPUP */
+        .confirm-box { background: #ffffff; border-radius: 18px; border: 1px solid var(--border-light); padding: 32px; max-width: 440px; width: 100%; text-align: center; box-shadow: 0 25px 50px -12px rgba(15, 41, 30, 0.25); }
+        .confirm-icon { width: 60px; height: 60px; background: #fef3c7; color: #d97706; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; margin: 0 auto 16px; border: 1px solid #fde68a; }
+
+        /* ADVANCED DASHBOARD CARD */
+        .dashboard-card { background: #ffffff; border: 1px solid var(--border-light); width: 100%; max-width: 820px; border-radius: 20px; padding: 32px; text-align: left; box-shadow: 0 25px 50px -12px rgba(15, 41, 30, 0.2); margin: auto; max-height: 90vh; overflow-y: auto; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 12px; margin: 20px 0; }
+        .stat-box { background: var(--bg-subtle); padding: 14px; border-radius: 12px; border: 1px solid var(--border-light); text-align: center; }
+        .stat-val { font-size: 1.3rem; font-weight: 800; color: var(--text-heading); }
+        .stat-lbl { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; margin-top: 4px; font-weight: 700; letter-spacing: 0.04em; }
+
+        /* ANALYSIS SECTIONS */
+        .dashboard-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 24px 0; }
+        @media (max-width: 700px) { .dashboard-layout { grid-template-columns: 1fr; } }
+
+        .chart-container { background: #fafdfb; border: 1px solid var(--border-light); border-radius: 14px; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; position: relative; }
+        .topic-breakdown-box { background: #fafdfb; border: 1px solid var(--border-light); border-radius: 14px; padding: 20px; }
+
+        .topic-row { margin-bottom: 14px; }
+        .topic-header { display: flex; justify-content: space-between; font-size: 0.84rem; font-weight: 700; color: var(--text-heading); margin-bottom: 4px; }
+        .progress-bar-bg { background: var(--border-light); height: 8px; border-radius: 4px; overflow: hidden; }
+        .progress-bar-fill { height: 100%; border-radius: 4px; transition: width 0.6s ease; }
+
+        .badge-weak { background: #fef2f2; color: #dc2626; padding: 2px 8px; border-radius: 12px; font-size: 0.7rem; font-weight: 700; border: 1px solid #fecaca; }
+        .badge-average { background: #fffbe3; color: #b45309; padding: 2px 8px; border-radius: 12px; font-size: 0.7rem; font-weight: 700; border: 1px solid #fef08a; }
+        .badge-strong { background: #f0fdf4; color: #16a34a; padding: 2px 8px; border-radius: 12px; font-size: 0.7rem; font-weight: 700; border: 1px solid #bbf7d0; }
 
         .archive-item { background: var(--bg-card); border: 1px solid var(--border-light); padding: 16px 20px; border-radius: 10px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: all 0.2s ease; }
         .archive-item:hover { border-color: var(--green-primary); transform: translateX(4px); box-shadow: var(--shadow-subtle); }
@@ -369,7 +352,7 @@
                             <button id="prev-btn" class="nav-btn" onclick="navQuestion(-1)">← Previous</button>
                             <button id="next-btn" class="nav-btn" onclick="navQuestion(1)">Next →</button>
                         </div>
-                        <button id="submit-test-btn" class="submit-btn" onclick="submitTest()">🚀 Submit Test</button>
+                        <button id="submit-test-btn" class="submit-btn" onclick="confirmSubmission('reading')">🚀 Submit Test</button>
                     </div>
                 </div>
             </div>
@@ -425,24 +408,43 @@
         </div>
     </div>
 
-    <!-- MODAL PERFORMANCE DASHBOARD -->
+    <!-- SUBMISSION CONFIRMATION MODAL -->
+    <div id="confirm-modal" class="modal-overlay">
+        <div class="confirm-box">
+            <div class="confirm-icon">⚠️</div>
+            <h3 style="color:var(--text-heading); font-size:1.25rem; margin-bottom:8px;">Are you sure you want to submit?</h3>
+            <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:24px;">Please review your answers. Once submitted, your timer will stop and performance insights will be generated.</p>
+            <div style="display:flex; gap:12px; justify-content:center;">
+                <button class="secondary-btn" style="flex:1;" onclick="closeConfirmModal()">Cancel</button>
+                <button class="primary-btn" style="flex:1;" onclick="executeSubmission()">Yes, Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ADVANCED PERFORMANCE ANALYSIS DASHBOARD -->
     <div id="dashboard-modal" class="modal-overlay">
         <div class="dashboard-card">
-            <h2 style="color:var(--text-heading); font-size:1.4rem;">📊 Test Performance Dashboard</h2>
-            <p style="color:var(--text-muted); font-size:0.88rem; margin-top:4px;">Detailed analysis of your speed and comprehension accuracy.</p>
-            
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom: 10px;">
+                <div>
+                    <h2 style="color:var(--text-heading); font-size:1.5rem; font-weight:800;">📊 Performance & Diagnostic Analysis</h2>
+                    <p style="color:var(--text-muted); font-size:0.88rem;">Comprehensive breakdown of accuracy, time metrics, and topic strengths.</p>
+                </div>
+                <span class="sub-tag" id="dash-test-title">IPMAT Sectional</span>
+            </div>
+
+            <!-- Top Core Metrics Grid -->
             <div class="stats-grid">
                 <div class="stat-box">
                     <div id="stat-accuracy" class="stat-val" style="color:var(--status-correct)">0%</div>
-                    <div class="stat-lbl">Accuracy</div>
+                    <div class="stat-lbl">Accuracy Rate</div>
                 </div>
                 <div class="stat-box">
-                    <div id="stat-speed" class="stat-val">0 WPM</div>
-                    <div class="stat-lbl">Reading Speed / Score</div>
+                    <div id="stat-speed" class="stat-val">0</div>
+                    <div class="stat-lbl">Score / Speed</div>
                 </div>
                 <div class="stat-box">
                     <div id="stat-time" class="stat-val">0s</div>
-                    <div class="stat-lbl">Time Taken</div>
+                    <div class="stat-lbl">Time Spent</div>
                 </div>
                 <div class="stat-box">
                     <div id="stat-correct" class="stat-val" style="color:var(--status-correct)">0</div>
@@ -458,7 +460,26 @@
                 </div>
             </div>
 
-            <button class="primary-btn" style="width:100%" onclick="reviewAnswers()">🔍 Review Answers & Explanations</button>
+            <!-- Dashboard Split Layout: Chart + Topic Breakdown -->
+            <div class="dashboard-layout">
+                <!-- Visual Doughnut Graph -->
+                <div class="chart-container">
+                    <h4 style="font-size:0.82rem; font-weight:800; text-transform:uppercase; color:var(--text-muted); margin-bottom:12px;">Attempts Visual Breakdown</h4>
+                    <div style="width:180px; height:180px;">
+                        <canvas id="accuracyChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Topic Weakness & Strength Segregation -->
+                <div class="topic-breakdown-box">
+                    <h4 style="font-size:0.82rem; font-weight:800; text-transform:uppercase; color:var(--text-muted); margin-bottom:14px;">Topic Diagnostic Breakdown</h4>
+                    <div id="topic-rows-container">
+                        <!-- Dynamic Injection -->
+                    </div>
+                </div>
+            </div>
+
+            <button class="primary-btn" style="width:100%; padding: 14px; font-size: 1rem;" onclick="reviewAnswers()">🔍 Review Solutions & Explanations</button>
         </div>
     </div>
 
@@ -495,6 +516,11 @@
         let dilrSecondsElapsed = 0;
         let isDILRTimerActive = false;
         let isDILRComingSoon = false;
+        let dilrComingSoonInfo = null;
+
+        // Submission state tracker
+        let pendingSubmissionType = null;
+        let accuracyChartInstance = null;
 
         document.addEventListener("visibilitychange", function() {
             if (document.hidden) {
@@ -570,63 +596,67 @@
                 if (!response.ok) throw new Error("dilr.json fetch error");
                 const data = await response.json();
 
-                // Check for Coming Soon status format
-                if (Array.isArray(data) && data.length > 0 && data[0].status === "coming_soon") {
+                const item = Array.isArray(data) ? data[0] : data;
+
+                if (item && item.status === "coming_soon") {
                     isDILRComingSoon = true;
-                    renderComingSoonDILR(data[0]);
+                    dilrComingSoonInfo = item;
+                    renderComingSoonDILR(item);
                     return;
                 }
 
-                allDILRSets = data;
-
-                if (allDILRSets && allDILRSets.length > 0) {
+                if (Array.isArray(data) && data.length > 0 && data[0].questions) {
+                    allDILRSets = data;
                     isDILRComingSoon = false;
                     const todayStr = getLocalDateString();
                     currentDILR = allDILRSets.find(s => s.date === todayStr) || allDILRSets[allDILRSets.length - 1];
                     renderDILRSet();
                 } else {
-                    renderNoDILRBanner();
+                    isDILRComingSoon = true;
+                    renderComingSoonDILR();
                 }
             } catch (err) {
-                console.warn("DI/LR data not available:", err);
-                renderNoDILRBanner();
+                console.warn("DI/LR data fallback to coming soon:", err);
+                isDILRComingSoon = true;
+                renderComingSoonDILR();
             }
         }
 
         function renderComingSoonDILR(info) {
             const container = document.getElementById('dilr-container');
+            if (!container) return;
+
+            const title = (info && info.title) ? info.title : 'Daily DI / LR Section';
+            const badge = (info && info.badge) ? info.badge : 'Coming Soon';
+            const message = (info && info.message) ? info.message : 'We are currently curating high-level Data Interpretation & Logical Reasoning sets tailored for IPMAT.';
+            const subMessage = (info && info.subMessage) ? info.subMessage : 'Content under final review and will be live shortly!';
+
             container.innerHTML = `
                 <div class="question-card" style="text-align: center; padding: 60px 24px; max-width: 680px; margin: 40px auto; border: 1px solid var(--green-border);">
                     <div style="width: 70px; height: 70px; background: var(--green-bg); color: var(--green-hover); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-size: 32px; border: 1px solid var(--green-border);">
                         📊
                     </div>
                     <h2 style="font-size: 1.8rem; font-weight: 800; color: var(--text-heading); margin-bottom: 12px;">
-                        ${info.title || 'Daily DI / LR Section'} <span style="color: var(--green-primary);">(${info.badge || 'Coming Soon'})</span>
+                        ${title} <span style="color: var(--green-primary);">(${badge})</span>
                     </h2>
                     <p style="color: var(--text-body); font-size: 1rem; margin-bottom: 24px; line-height: 1.6;">
-                        ${info.message || 'We are crafting high-level Data Interpretation & Logical Reasoning sets to elevate your IPMAT prep.'}
+                        ${message}
                     </p>
                     <div style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 18px; border-radius: 20px; background: var(--green-bg); border: 1px solid var(--green-border); color: var(--green-hover); font-size: 0.88rem; font-weight: 700;">
-                        <span>⏳ ${info.subMessage || 'Content under final curation'}</span>
+                        <span>⏳ ${subMessage}</span>
                     </div>
                 </div>`;
         }
 
-        function renderNoDILRBanner() {
-            const container = document.getElementById('dilr-container');
-            container.innerHTML = `
-                <div class="question-card" style="text-align:center; padding: 40px;">
-                    <h2 style="color:var(--text-heading); font-size: 1.3rem;">📊 No Active DI/LR Set Today</h2>
-                    <p style="color:var(--text-muted); margin-top:10px;">Please upload your <code>dilr.json</code> file to GitHub to load your daily IPMAT DI/LR set.</p>
-                </div>`;
-        }
-
         function renderDILRSet() {
-            const container = document.getElementById('dilr-container');
-            if (isDILRComingSoon) return;
+            if (isDILRComingSoon) {
+                renderComingSoonDILR(dilrComingSoonInfo);
+                return;
+            }
 
+            const container = document.getElementById('dilr-container');
             if (!currentDILR || !currentDILR.questions) {
-                renderNoDILRBanner();
+                renderComingSoonDILR(dilrComingSoonInfo);
                 return;
             }
 
@@ -702,7 +732,7 @@
                     <div>
                         <div class="question-card">
                             ${timerHeaderHtml}
-                            <div style="display:flex; justify-space-between; align-items:center; margin-bottom:12px;">
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
                                 <span class="tag">Q ${dilrQIndex + 1} of ${qList.length}</span>
                                 <span style="font-weight:700; font-size:0.82rem; color:var(--text-muted);">${attemptedCount}/${qList.length} Attempted</span>
                             </div>
@@ -720,7 +750,7 @@
                                 <button class="nav-btn" onclick="navDILRQ(-1)">← Previous</button>
                                 <button class="nav-btn" onclick="navDILRQ(1)">Next →</button>
                             </div>
-                            <button class="submit-btn" onclick="submitDILRSet()" style="margin-top: 20px;">🚀 Submit DI/LR Set</button>
+                            <button class="submit-btn" onclick="confirmSubmission('dilr')" style="margin-top: 20px;">🚀 Submit DI/LR Set</button>
                         </div>
                     </div>
                 </div>`;
@@ -745,18 +775,13 @@
 
         function toggleDILRTimer() {
             if (isDILRSubmitted || isDILRComingSoon) return;
-            if (isDILRTimerActive) {
-                pauseDILRTimer();
-            } else {
-                startDILRTimer();
-            }
+            if (isDILRTimerActive) pauseDILRTimer();
+            else startDILRTimer();
         }
 
         function updateDILRPauseBtnUI() {
             const btn = document.getElementById('dilr-pause-btn');
-            if (btn) {
-                btn.innerText = isDILRTimerActive ? "Pause" : "Resume";
-            }
+            if (btn) btn.innerText = isDILRTimerActive ? "Pause" : "Resume";
         }
 
         function updateDILRTimerDisplay() {
@@ -791,47 +816,23 @@
             }
         }
 
-        function submitDILRSet() {
-            pauseDILRTimer();
-            isDILRSubmitted = true;
+        /* --- SUBMISSION POPUP & ANALYSIS ENGINE --- */
 
-            const qList = currentDILR.questions || [];
-            let correct = 0, incorrect = 0, unattempted = 0;
+        function confirmSubmission(type) {
+            pendingSubmissionType = type;
+            document.getElementById('confirm-modal').classList.add('active');
+        }
 
-            qList.forEach((q, idx) => {
-                const userAns = dilrUserAnswers[idx];
-                const isTITA = q.type && q.type.toUpperCase().includes("TITA") || !q.options;
+        function closeConfirmModal() {
+            pendingSubmissionType = null;
+            document.getElementById('confirm-modal').classList.remove('active');
+        }
 
-                if (userAns === undefined || userAns === "") {
-                    unattempted++;
-                } else if (isTITA) {
-                    if (String(userAns).trim() === String(q.answer).trim()) {
-                        correct++;
-                    } else {
-                        incorrect++;
-                    }
-                } else {
-                    if (userAns === q.answer) {
-                        correct++;
-                    } else {
-                        incorrect++;
-                    }
-                }
-            });
-
-            const score = (correct * 4) - (incorrect * 1);
-            const totalMarks = qList.length * 4;
-            const accuracy = (correct + incorrect) > 0 ? Math.round((correct / (correct + incorrect)) * 100) : 0;
-
-            document.getElementById('stat-accuracy').innerText = `${accuracy}%`;
-            document.getElementById('stat-speed').innerText = `${score} / ${totalMarks} Marks`;
-            document.getElementById('stat-time').innerText = `${dilrSecondsElapsed}s`;
-            document.getElementById('stat-correct').innerText = correct;
-            document.getElementById('stat-incorrect').innerText = incorrect;
-            document.getElementById('stat-unattempted').innerText = unattempted;
-
-            document.getElementById('dashboard-modal').classList.add('active');
-            renderDILRSet();
+        function executeSubmission() {
+            closeConfirmModal();
+            if (pendingSubmissionType === 'reading') submitTest();
+            else if (pendingSubmissionType === 'dilr') submitDILRSet();
+            else if (pendingSubmissionType === 'sectional') submitSectionalTest();
         }
 
         function renderSectionalBanner() {
@@ -845,7 +846,7 @@
 
             container.innerHTML = `
                 <div class="hero-banner" style="background: linear-gradient(135deg, #d1fae5 0%, #ecfdf5 100%); border-color: var(--green-border);">
-                    <div style="display:flex; justify-space-between; align-items:center; margin-bottom: 12px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px;">
                         <span class="sub-tag">LIVE MOCK TEST</span>
                         <span style="font-weight:700; color:var(--green-hover); font-size:0.85rem;">⏱️ ${todaySectional.durationMinutes || 40} MINS | ${totalQs} QUESTIONS</span>
                     </div>
@@ -912,18 +913,13 @@
 
         function toggleSectionalTimer() {
             if (isSectionalSubmitted) return;
-            if (isSectionalTimerActive) {
-                pauseSectionalTimer();
-            } else {
-                startSectionalCountdown();
-            }
+            if (isSectionalTimerActive) pauseSectionalTimer();
+            else startSectionalCountdown();
         }
 
         function updateSecPauseBtnUI() {
             const btn = document.getElementById('sec-pause-btn');
-            if (btn) {
-                btn.innerText = isSectionalTimerActive ? "Pause" : "Resume";
-            }
+            if (btn) btn.innerText = isSectionalTimerActive ? "Pause" : "Resume";
         }
 
         function renderSectionalQuestion() {
@@ -953,11 +949,7 @@
                 if (isSectionalSubmitted) {
                     const cleanUserAns = String(currentVal).trim();
                     const cleanCorrectAns = String(q.answer).trim();
-                    if (cleanUserAns === cleanCorrectAns) {
-                        inputClass += " correct-input";
-                    } else {
-                        inputClass += " wrong-input";
-                    }
+                    inputClass += (cleanUserAns === cleanCorrectAns) ? " correct-input" : " wrong-input";
                 }
 
                 inputOptionsHtml = `
@@ -999,9 +991,7 @@
                         <span>Question Palette Grid</span>
                         <span style="color:var(--green-hover); font-weight:800;">${attemptedCount}/${qList.length} Attempted</span>
                     </div>
-                    <div class="q-palette-grid">
-                        ${gridBtnsHtml}
-                    </div>
+                    <div class="q-palette-grid">${gridBtnsHtml}</div>
                 </div>`;
 
             const expHtml = `<div id="sec-q-explanation" class="explanation-box" style="display:${isSectionalSubmitted ? 'block' : 'none'}">${q.explanation || ''}</div>`;
@@ -1011,7 +1001,7 @@
                     <button class="nav-btn" onclick="navSectionalQ(-1)">← Previous</button>
                     <button class="nav-btn" onclick="navSectionalQ(1)">Next →</button>
                 </div>
-                <button class="submit-btn" onclick="submitSectionalTest()" style="margin-top: 20px;">🚀 Submit Sectional Test</button>`;
+                <button class="submit-btn" onclick="confirmSubmission('sectional')" style="margin-top: 20px;">🚀 Submit Sectional Test</button>`;
 
             if (q.passage || q.type === 'RC') {
                 wrapper.innerHTML = `
@@ -1052,11 +1042,8 @@
             sectionalUserAnswers[secCurrentQIndex] = val.trim();
             const gridBtns = document.querySelectorAll('.q-grid-btn');
             if (gridBtns[secCurrentQIndex]) {
-                if (val.trim() !== "") {
-                    gridBtns[secCurrentQIndex].classList.add('attempted');
-                } else {
-                    gridBtns[secCurrentQIndex].classList.remove('attempted');
-                }
+                if (val.trim() !== "") gridBtns[secCurrentQIndex].classList.add('attempted');
+                else gridBtns[secCurrentQIndex].classList.remove('attempted');
             }
         }
 
@@ -1076,61 +1063,160 @@
         function navSectionalQ(dir) {
             const total = todaySectional.questions.length;
             const newIndex = secCurrentQIndex + dir;
-
             if (newIndex >= 0 && newIndex < total) {
                 secCurrentQIndex = newIndex;
                 renderSectionalQuestion();
             }
         }
 
-        function submitSectionalTest() {
-            pauseSectionalTimer();
-            isSectionalSubmitted = true;
+        /* --- DASHBOARD GENERATION ENGINE WITH CHART & CATEGORY SEGREGATION --- */
 
-            const qList = todaySectional.questions;
+        function generateAdvancedDashboard(title, qList, userAnswersMap, timeTakenSeconds, isSectional = false) {
             let correct = 0, incorrect = 0, unattempted = 0;
 
+            // Topic Categories Data Store
+            const topics = {
+                'RC': { name: 'Comprehension', total: 0, correct: 0 },
+                'Vocab': { name: 'Vocabulary & Words', total: 0, correct: 0 },
+                'Grammar': { name: 'Grammar & Usage', total: 0, correct: 0 },
+                'Logic': { name: 'ParaJumbles & Logic', total: 0, correct: 0 }
+            };
+
             qList.forEach((q, idx) => {
-                const userAns = sectionalUserAnswers[idx];
+                const userAns = userAnswersMap[idx];
                 const isTITA = q.type && q.type.toUpperCase().includes("TITA") || !q.options;
+                
+                // Categorize Question Topic
+                let catKey = 'RC';
+                const qTypeUpper = (q.type || '').toUpperCase();
+                if (qTypeUpper.includes('RC')) catKey = 'RC';
+                else if (qTypeUpper.includes('VOCAB') || qTypeUpper.includes('HOMOPHONE')) catKey = 'Vocab';
+                else if (qTypeUpper.includes('GRAMMAR')) catKey = 'Grammar';
+                else catKey = 'Logic';
+
+                topics[catKey].total++;
 
                 if (userAns === undefined || userAns === "") {
                     unattempted++;
                 } else if (isTITA) {
                     if (String(userAns).trim() === String(q.answer).trim()) {
                         correct++;
+                        topics[catKey].correct++;
                     } else {
                         incorrect++;
                     }
                 } else {
                     if (userAns === q.answer) {
                         correct++;
+                        topics[catKey].correct++;
                     } else {
                         incorrect++;
                     }
                 }
             });
 
-            const score = (correct * 4) - (incorrect * 1);
             const totalMarks = qList.length * 4;
+            const score = (correct * 4) - (incorrect * 1);
             const accuracy = (correct + incorrect) > 0 ? Math.round((correct / (correct + incorrect)) * 100) : 0;
 
+            document.getElementById('dash-test-title').innerText = title;
             document.getElementById('stat-accuracy').innerText = `${accuracy}%`;
-            document.getElementById('stat-speed').innerText = `${score} / ${totalMarks} Marks`;
-            document.getElementById('stat-time').innerText = `${2400 - sectionalSeconds}s`;
+            document.getElementById('stat-speed').innerText = isSectional ? `${score}/${totalMarks}` : `${score} Marks`;
+            document.getElementById('stat-time').innerText = `${timeTakenSeconds}s`;
             document.getElementById('stat-correct').innerText = correct;
             document.getElementById('stat-incorrect').innerText = incorrect;
             document.getElementById('stat-unattempted').innerText = unattempted;
 
+            // Render Dynamic Topic Diagnostics
+            let topicRowsHtml = "";
+            Object.keys(topics).forEach(key => {
+                const item = topics[key];
+                if (item.total > 0) {
+                    const pct = Math.round((item.correct / item.total) * 100) || 0;
+                    let badgeClass = "badge-strong";
+                    let badgeText = "🔥 Strong";
+
+                    if (pct < 50) { badgeClass = "badge-weak"; badgeText = "⚡ Weak Zone"; }
+                    else if (pct < 75) { badgeClass = "badge-average"; badgeText = "⚠️ Average"; }
+
+                    topicRowsHtml += `
+                        <div class="topic-row">
+                            <div class="topic-header">
+                                <span>${item.name} (${item.correct}/${item.total})</span>
+                                <span class="${badgeClass}">${badgeText} (${pct}%)</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" style="width: ${pct}%; background: ${pct < 50 ? '#dc2626' : (pct < 75 ? '#d97706' : '#16a34a')};"></div>
+                            </div>
+                        </div>`;
+                }
+            });
+            document.getElementById('topic-rows-container').innerHTML = topicRowsHtml;
+
+            // Render Chart.js Graph
+            renderDoughnutChart(correct, incorrect, unattempted);
+
             document.getElementById('dashboard-modal').classList.add('active');
+        }
+
+        function renderDoughnutChart(correct, incorrect, unattempted) {
+            const ctx = document.getElementById('accuracyChart').getContext('2d');
+            if (accuracyChartInstance) accuracyChartInstance.destroy();
+
+            accuracyChartInstance = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Correct', 'Incorrect', 'Unattempted'],
+                    datasets: [{
+                        data: [correct, incorrect, unattempted],
+                        backgroundColor: ['#16a34a', '#dc2626', '#10b98122'],
+                        borderColor: ['#ffffff', '#ffffff', '#ffffff'],
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    cutout: '70%'
+                }
+            });
+        }
+
+        function submitSectionalTest() {
+            pauseSectionalTimer();
+            isSectionalSubmitted = true;
+            generateAdvancedDashboard(todaySectional.title || "IPMAT Sectional", todaySectional.questions, sectionalUserAnswers, 2400 - sectionalSeconds, true);
             renderSectionalQuestion();
         }
+
+        function submitDILRSet() {
+            pauseDILRTimer();
+            isDILRSubmitted = true;
+            generateAdvancedDashboard(currentDILR.title || "Daily DI/LR Set", currentDILR.questions, dilrUserAnswers, dilrSecondsElapsed, false);
+            renderDILRSet();
+        }
+
+        function submitTest() {
+            pauseTimer();
+            isSubmitted = true;
+            generateAdvancedDashboard(currentRC.title || "Daily Reading Passage", currentRC.questions, userAnswers, secondsElapsed, false);
+            renderQuestion();
+        }
+
+        function reviewAnswers() {
+            document.getElementById('dashboard-modal').classList.remove('active');
+            if (activeTab === 'dilr') renderDILRSet();
+            else if (activeTab === 'sectional') renderSectionalQuestion();
+            else renderQuestion();
+        }
+
+        /* --- TIMER & NAVIGATION FUNCTIONS --- */
 
         function startTimer() {
             if (isTimerActive) return;
             isTimerActive = true;
             updateRcPauseBtnUI();
-
             timerInterval = setInterval(() => {
                 secondsElapsed++;
                 updateTimerDisplay();
@@ -1145,18 +1231,13 @@
 
         function toggleRcTimer() {
             if (isSubmitted) return;
-            if (isTimerActive) {
-                pauseTimer();
-            } else {
-                startTimer();
-            }
+            if (isTimerActive) pauseTimer();
+            else startTimer();
         }
 
         function updateRcPauseBtnUI() {
             const btn = document.getElementById('rc-pause-btn');
-            if (btn) {
-                btn.innerText = isTimerActive ? "Pause" : "Resume";
-            }
+            if (btn) btn.innerText = isTimerActive ? "Pause" : "Resume";
         }
 
         function updateTimerDisplay() {
@@ -1203,30 +1284,24 @@
             }
 
             if (tabName === 'dilr') {
-                if (!isDILRSubmitted && currentDILR && !isDILRComingSoon) startDILRTimer();
+                if (isDILRComingSoon) renderComingSoonDILR(dilrComingSoonInfo);
+                else if (!isDILRSubmitted && currentDILR) startDILRTimer();
             }
 
-            if (tabName === 'saved') {
-                renderSavedHub();
-            }
+            if (tabName === 'saved') renderSavedHub();
         }
 
         function toggleSave(title, def, ex, type, category) {
             const index = savedItems.findIndex(i => i.title === title);
-            if (index > -1) {
-                savedItems.splice(index, 1);
-            } else {
-                savedItems.push({ title, def, ex, type, category });
-            }
+            if (index > -1) savedItems.splice(index, 1);
+            else savedItems.push({ title, def, ex, type, category });
             localStorage.setItem('nextory_saved', JSON.stringify(savedItems));
             updateSavedBadge();
             renderVocab(currentRC.vocab);
             if (activeTab === 'saved') renderSavedHub();
         }
 
-        function isSaved(title) {
-            return savedItems.some(i => i.title === title);
-        }
+        function isSaved(title) { return savedItems.some(i => i.title === title); }
 
         function updateSavedBadge() {
             document.getElementById('saved-count').innerText = savedItems.length;
@@ -1364,46 +1439,6 @@
                 currentQIndex = newIndex;
                 renderQuestion();
             }
-        }
-
-        function submitTest() {
-            pauseTimer();
-            isSubmitted = true;
-
-            const qList = currentRC.questions || [];
-            let correct = 0, incorrect = 0, unattempted = 0;
-
-            qList.forEach((q, idx) => {
-                if (userAnswers[idx] === undefined) {
-                    unattempted++;
-                } else if (userAnswers[idx] === q.answer) {
-                    correct++;
-                } else {
-                    incorrect++;
-                }
-            });
-
-            const attemptedTotal = correct + incorrect;
-            const accuracy = attemptedTotal > 0 ? Math.round((correct / attemptedTotal) * 100) : 0;
-            
-            const approxWordCount = 1000;
-            const mins = secondsElapsed / 60;
-            const wpm = mins > 0 ? Math.round(approxWordCount / mins) : 0;
-
-            document.getElementById('stat-accuracy').innerText = `${accuracy}%`;
-            document.getElementById('stat-speed').innerText = `${wpm} WPM`;
-            document.getElementById('stat-time').innerText = `${secondsElapsed}s`;
-            document.getElementById('stat-correct').innerText = correct;
-            document.getElementById('stat-incorrect').innerText = incorrect;
-            document.getElementById('stat-unattempted').innerText = unattempted;
-
-            document.getElementById('dashboard-modal').classList.add('active');
-        }
-
-        function reviewAnswers() {
-            document.getElementById('dashboard-modal').classList.remove('active');
-            if (activeTab === 'dilr') renderDILRSet();
-            else renderQuestion();
         }
 
         function renderArchive(availablePassages) {
