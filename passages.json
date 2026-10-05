@@ -3824,214 +3824,215 @@
     ]
   },
   {
-  "id": "rc-2026-10-06",
-  "date": "2026-10-06",
-  "title": "The Epistemic Architecture of Algorithmic Governance in Global Supply Chains",
-  "genre": "Economics & Technology",
-  "wordCount": "1025 words",
-  "passage": "In the contemporary architecture of transnational commerce, global supply chains have evolved from mechanical logistical pipelines into cognitive neural ecosystems. Driven by predictive analytics and autonomous multi-agent systems, modern trade networks optimize inventory flows, forecast disruptions, and reroute maritime freight in real-time without human intervention. Yet, this digital transformation has generated a profound structural paradox: as logistical efficiency scales exponentially, the epistemic transparency of the underlying economic decisions diminishes inversely. When a decentralized procurement algorithm unilaterally cancels a raw material contract across three continents based on non-linear volatility matrices, the corporate executives nominally in charge are reduced to passive observers of proprietary automated outputs.\n\nThis delegation of economic agency to opaque computational models challenges foundational principles of corporate governance and liability. Traditional legal frameworks assume human intentionality—a culpable mind or negligent oversight—as the prerequisite for assigning commercial liability. When a proprietary optimization subroutine executes a flash liquidation of warehouse assets during an unpredicted localized labor strike, isolating the locus of fault becomes an intricate exercise in forensic software auditing. Is the liability borne by the software engineer who wrote the heuristic code three years prior, the local logistics manager who failed to override the automated warning, or the machine-learning model itself, which synthesized thousands of unstructured historical variables into an uninterpretable decision pathway? Because existing corporate tort laws do not recognize autonomous software as legal agents, firms increasingly resort to algorithmic obfuscation to shield themselves from regulatory penalties.\n\nThe friction between algorithmic autonomy and institutional accountability is further intensified by the phenomenon of data monocultures. Modern supply chain networks rely heavily on standardized cloud infrastructure and centralized machine learning models provided by a handful of oligopolistic technology conglomerates. When thousands of independent manufacturing enterprises calibrate their inventory thresholds using identical predictive algorithms, the entire global market begins to exhibit synchronized behavioral patterns. During systemic shocks—such as sudden geopolitical trade embargoes or climate-induced port closures—these synchronized networks fail to self-correct through decentralized market friction. Instead, they execute identical automated withdrawal strategies simultaneously, transforming localized supply bottlenecks into systemic, multi-sector liquidity cascades that defy traditional macroeconomic stabilization tools.\n\nFurthermore, the ideological narrative surrounding digital supply chain optimization often obscures distributional inequities beneath a veneer of mathematical neutrality. Proponents argue that algorithmic markets eliminate human bias, optimize resource allocation, and minimize carbon footprints through rigorous mathematical precision. However, optimization functions are inherently normative value judgments translated into quantitative code. An algorithm optimized strictly for cost minimization and delivery speed will systematically deprioritize labor safety standards in developing manufacturing hubs, subcontracting environmental externalities to vulnerable communities while maximizing short-term shareholder returns. The mathematical abstraction of human labor into passive data vectors sanitizes the human cost of globalized production, wrapping structural exploitation in an impenetrable cloak of computational inevitability.\n\nCritics of hyper-optimized logistical networks advocate for the introduction of mandatory 'algorithmic friction'—deliberate regulatory interventions designed to reintroduce human oversight, operational redundancy, and institutional deliberation into automated trade pathways. They argue that economic resilience is fundamentally incompatible with radical efficiency. Just as biological ecosystems require redundant species diversity to survive viral pathogens, robust commercial networks require structural inefficiencies and human discretion to absorb black swan disruptions without catastrophic collapse. Opponents of this approach, however, contend that imposing bureaucratic friction on digital logistics would cripple competitive advantage in fast-moving global markets, sentencing economies to sluggish output and inflated consumer costs.\n\nUltimately, the digital reconfiguration of global commerce reveals that technological acceleration outpaces the normative evolution of institutional governance. As autonomous algorithms assume control over the vital circulation of global capital and material goods, society faces an urgent imperative: to redesign the legal and ethical parameters of digital architectures before automated efficiency permanently erodes human autonomy. Until institutional frameworks evolve to pierce the veil of algorithmic opacity, global supply chains will continue to operate not as democratic instruments of shared prosperity, but as opaque, self-referential technocracies governing international trade from behind closed code repositories.",
-  "questions": [
-    {
-      "id": "q1",
-      "type": "Inference",
-      "question": "Which of the following can be most logically inferred regarding corporate executives and autonomous procurement algorithms based on the passage?",
-      "options": [
-        "A) Executives retain absolute legal control over procurement contracts because they write the baseline rule sets executed by deep learning models.",
-        "B) The increasing reliance on autonomous computational models transforms human oversight into a superficial formality, detaching corporate leadership from actual economic decision-making processes.",
-        "C) Corporate leaders intentionally deploy opaque algorithms to completely eliminate accountability and bypass international trade laws during labor strikes.",
-        "D) Executives successfully utilize traditional corporate governance frameworks to accurately assign tort liability directly to the machine-learning models whenever supply chains experience localized disruptions."
+    "id": "rc-2026-10-06",
+    "date": "2026-10-06",
+    "title": "The Epistemic Architecture of Algorithmic Governance in Global Supply Chains",
+    "genre": "Economics & Technology",
+    "wordCount": "1025 words",
+    "passage": "In the contemporary architecture of transnational commerce, global supply chains have evolved from mechanical logistical pipelines into cognitive neural ecosystems. Driven by predictive analytics and autonomous multi-agent systems, modern trade networks optimize inventory flows, forecast disruptions, and reroute maritime freight in real-time without human intervention. Yet, this digital transformation has generated a profound structural paradox: as logistical efficiency scales exponentially, the epistemic transparency of the underlying economic decisions diminishes inversely. When a decentralized procurement algorithm unilaterally cancels a raw material contract across three continents based on non-linear volatility matrices, the corporate executives nominally in charge are reduced to passive observers of proprietary automated outputs.\n\nThis delegation of economic agency to opaque computational models challenges foundational principles of corporate governance and liability. Traditional legal frameworks assume human intentionality—a culpable mind or negligent oversight—as the prerequisite for assigning commercial liability. When a proprietary optimization subroutine executes a flash liquidation of warehouse assets during an unpredicted localized labor strike, isolating the locus of fault becomes an intricate exercise in forensic software auditing. Is the liability borne by the software engineer who wrote the heuristic code three years prior, the local logistics manager who failed to override the automated warning, or the machine-learning model itself, which synthesized thousands of unstructured historical variables into an uninterpretable decision pathway? Because existing corporate tort laws do not recognize autonomous software as legal agents, firms increasingly resort to algorithmic obfuscation to shield themselves from regulatory penalties.\n\nThe friction between algorithmic autonomy and institutional accountability is further intensified by the phenomenon of data monocultures. Modern supply chain networks rely heavily on standardized cloud infrastructure and centralized machine learning models provided by a handful of oligopolistic technology conglomerates. When thousands of independent manufacturing enterprises calibrate their inventory thresholds using identical predictive algorithms, the entire global market begins to exhibit synchronized behavioral patterns. During systemic shocks—such as sudden geopolitical trade embargoes or climate-induced port closures—these synchronized networks fail to self-correct through decentralized market friction. Instead, they execute identical automated withdrawal strategies simultaneously, transforming localized supply bottlenecks into systemic, multi-sector liquidity cascades that defy traditional macroeconomic stabilization tools.\n\nFurthermore, the ideological narrative surrounding digital supply chain optimization often obscures distributional inequities beneath a veneer of mathematical neutrality. Proponents argue that algorithmic markets eliminate human bias, optimize resource allocation, and minimize carbon footprints through rigorous mathematical precision. However, optimization functions are inherently normative value judgments translated into quantitative code. An algorithm optimized strictly for cost minimization and delivery speed will systematically deprioritize labor safety standards in developing manufacturing hubs, subcontracting environmental externalities to vulnerable communities while maximizing short-term shareholder returns. The mathematical abstraction of human labor into passive data vectors sanitizes the human cost of globalized production, wrapping structural exploitation in an impenetrable cloak of computational inevitability.\n\nCritics of hyper-optimized logistical networks advocate for the introduction of mandatory 'algorithmic friction'—deliberate regulatory interventions designed to reintroduce human oversight, operational redundancy, and institutional deliberation into automated trade pathways. They argue that economic resilience is fundamentally incompatible with radical efficiency. Just as biological ecosystems require redundant species diversity to survive viral pathogens, robust commercial networks require structural inefficiencies and human discretion to absorb black swan disruptions without catastrophic collapse. Opponents of this approach, however, contend that imposing bureaucratic friction on digital logistics would cripple competitive advantage in fast-moving global markets, sentencing economies to sluggish output and inflated consumer costs.\n\nUltimately, the digital reconfiguration of global commerce reveals that technological acceleration outpaces the normative evolution of institutional governance. As autonomous algorithms assume control over the vital circulation of global capital and material goods, society faces an urgent imperative: to redesign the legal and ethical parameters of digital architectures before automated efficiency permanently erodes human autonomy. Until institutional frameworks evolve to pierce the veil of algorithmic opacity, global supply chains will continue to operate not as democratic instruments of shared prosperity, but as opaque, self-referential technocracies governing international trade from behind closed code repositories.",
+    "questions": [
+      {
+        "id": "q1",
+        "type": "Inference",
+        "question": "Which of the following can be most logically inferred regarding corporate executives and autonomous procurement algorithms based on the passage?",
+        "options": [
+          "A) Executives retain absolute legal control over procurement contracts because they write the baseline rule sets executed by deep learning models.",
+          "B) The increasing reliance on autonomous computational models transforms human oversight into a superficial formality, detaching corporate leadership from actual economic decision-making processes.",
+          "C) Corporate leaders intentionally deploy opaque algorithms to completely eliminate accountability and bypass international trade laws during labor strikes.",
+          "D) Executives successfully utilize traditional corporate governance frameworks to accurately assign tort liability directly to the machine-learning models whenever supply chains experience localized disruptions."
+        ],
+        "answer": 1,
+        "explanation": "The correct inference is B, as the passage notes that corporate executives are reduced to 'passive observers of proprietary automated outputs' when algorithms make decentralized decisions. Option D is incorrect because the passage explicitly states assigning fault is an intricate challenge and laws do not recognize AI as agents. Option A contradicts the text stating executives are passive observers. Option C introduces intent ('intentionally deploy... to completely eliminate') not supported by the text.",
+        "longest_option_index": 3
+      },
+      {
+        "id": "q2",
+        "type": "Analytical",
+        "question": "The author discusses 'data monocultures' in paragraph 3 primarily to explain how:",
+        "options": [
+          "A) centralized technology oligopolies eliminate all geopolitical trade embargoes through advanced cloud infrastructure.",
+          "B) standardized predictive algorithms create synchronized behavioral vulnerabilities that turn localized bottlenecks into systemic economic cascades.",
+          "C) independent manufacturing enterprises successfully self-correct during systemic market shocks without requiring algorithmic oversight.",
+          "D) decentralized market friction naturally resolves localized supply chain disruptions before they reach international shipping networks."
+        ],
+        "answer": 1,
+        "explanation": "Option B is correct because paragraph 3 highlights that standardized algorithms cause synchronized behaviors that transform localized bottlenecks into systemic liquidity cascades. Option A and C directly contradict the text. Option D is incorrect as the text states networks fail to self-correct during shocks.",
+        "longest_option_index": 0
+      },
+      {
+        "id": "q3",
+        "type": "Inference",
+        "question": "Which of the following best characterizes the author's perspective regarding the claim that algorithmic markets are characterized by 'mathematical neutrality'?",
+        "options": [
+          "A) The author views mathematical neutrality as an objective standard that successfully eliminates human bias from global supply chains.",
+          "B) The author considers mathematical neutrality to be a misleading ideological facade that disguises underlying normative value judgments and structural labor exploitation.",
+          "C) The author argues that mathematical neutrality is an unachievable technical ideal that will eventually be solved by advanced cloud oligopolies.",
+          "D) The author believes that mathematical neutrality directly guarantees safe labor standards and environmental protection in developing manufacturing sectors."
+        ],
+        "answer": 1,
+        "explanation": "Option B captures the author's argument in paragraph 4 that optimization functions are normative value judgments wrapped in computational inevitability, masking exploitation. Options A, C, and D misrepresent the passage's critical view.",
+        "longest_option_index": 3
+      },
+      {
+        "id": "q4",
+        "type": "Analytical",
+        "question": "The biological analogy introduced in paragraph 5 ('Just as biological ecosystems require redundant species diversity...') serves to support which of the following assertions?",
+        "options": [
+          "A) Commercial networks require deliberate inefficiencies and human discretion to survive unexpected systemic shocks without failing catastrophically.",
+          "B) Radical commercial efficiency is the sole biological mechanism capable of preventing global economic collapse during black swan events.",
+          "C) Viral pathogens in international shipping corridors can be eradicated exclusively through automated multi-agent inventory pipelines.",
+          "D) Ecosystem degradation in developing nations is caused by a lack of species diversity in cloud computing infrastructure."
+        ],
+        "answer": 0,
+        "explanation": "Option A accurately reflects the analogy used to argue that economic resilience requires structural inefficiencies and human discretion (redundancy) just like ecosystems need species diversity. The other options are absurd distortions.",
+        "longest_option_index": 1
+      },
+      {
+        "id": "q5",
+        "type": "Inference",
+        "question": "Based on the text, what is the primary objection raised by opponents of 'algorithmic friction'?",
+        "options": [
+          "A) Regulatory interventions would eliminate all corporate tax liabilities across developing manufacturing nations.",
+          "B) Bureaucratic friction would severely impair competitive advantage, resulting in sluggish economic output and higher consumer costs.",
+          "C) Imposing human oversight would completely prevent black swan disruptions and eliminate trade embargoes permanently.",
+          "D) Artificial intelligence models would spontaneously achieve legal personhood and demand independent representation."
+        ],
+        "answer": 1,
+        "explanation": "Option B directly matches the final sentence of paragraph 5, which states opponents argue friction would cripple competitive advantage, sentencing economies to sluggish output and inflated costs. The other options are unsupported fabrications.",
+        "longest_option_index": 1
+      },
+      {
+        "id": "q6",
+        "type": "Inference",
+        "question": "Which of the following conclusions can be drawn regarding the current relationship between technological innovation in supply chains and institutional legal frameworks?",
+        "options": [
+          "A) Institutional legal frameworks have successfully evolved in tandem with technological innovations, perfectly establishing corporate liability for autonomous software.",
+          "B) Technological innovation has far outpaced institutional governance, leaving commercial networks operating under opaque technocracies devoid of democratic oversight.",
+          "C) International trade treaties have completely eliminated algorithmic opacity by forcing tech conglomerates to open their source code repositories.",
+          "D) Global supply chains have transitioned away from digital automation and returned entirely to mechanical logistical pipelines."
+        ],
+        "answer": 1,
+        "explanation": "Option B is correct, summarizing the recurring theme that technological acceleration outpaces institutional governance and creates opaque technocracies. Options A, C, and D directly contradict the passage's conclusion.",
+        "longest_option_index": 2
+      }
+    ],
+    "vocab": {
+      "words": [
+        {
+          "word": "Epistemic",
+          "type": "Adjective",
+          "def": "Relating to knowledge or the conditions for acquiring it.",
+          "ex": "The scientific community debated the epistemic validity of data generated by opaque machine-learning models."
+        },
+        {
+          "word": "Transnational",
+          "type": "Adjective",
+          "def": "Extending across national boundaries; involving multiple nations.",
+          "ex": "Transnational corporations coordinate manufacturing operations across diverse regulatory jurisdictions."
+        },
+        {
+          "word": "Heuristic",
+          "type": "Noun",
+          "def": "A practical problem-solving method or rule of thumb used to produce quick solutions.",
+          "ex": "The software relied on a complex heuristic to estimate shipping delays during severe weather."
+        },
+        {
+          "word": "Obfuscation",
+          "type": "Noun",
+          "def": "The action of making something obscure, unclear, or unintelligible.",
+          "ex": "Corporate legal teams used deliberate obfuscation to hide software faults from regulatory inspectors."
+        },
+        {
+          "word": "Oligopolistic",
+          "type": "Adjective",
+          "def": "Controlled by a small number of large firms or powerful market players.",
+          "ex": "The cloud computing market is dominated by an oligopolistic group of technology giants."
+        },
+        {
+          "word": "Normative",
+          "type": "Adjective",
+          "def": "Establishing, relating to, or deriving from a standard or norm, often implying value judgments.",
+          "ex": "Economic models often disguise normative policy choices as objective mathematical facts."
+        },
+        {
+          "word": "Externalities",
+          "type": "Noun",
+          "def": "Side effects or consequences of an industrial or commercial activity affecting other parties.",
+          "ex": "The factory dumped chemical waste into local rivers, externalizing environmental costs onto residents."
+        },
+        {
+          "word": "Redundancy",
+          "type": "Noun",
+          "def": "The inclusion of extra components or backup systems to function if failure occurs.",
+          "ex": "Building operational redundancy into power grids prevents total blackouts during storms."
+        },
+        {
+          "word": "Technocracy",
+          "type": "Noun",
+          "def": "A government or social system controlled by technical experts and automated systems.",
+          "ex": "Critics fear that automated governance will turn modern democracies into cold technocracies."
+        },
+        {
+          "word": "Autonomous",
+          "type": "Adjective",
+          "def": "Having the freedom to act independently without external control.",
+          "ex": "Autonomous container ships navigate open ocean corridors without human crew members."
+        }
       ],
-      "answer": 1,
-      "explanation": "The correct inference is B, as the passage notes that corporate executives are reduced to 'passive observers of proprietary automated outputs' when algorithms make decentralized decisions. Option D is incorrect because the passage explicitly states assigning fault is an intricate challenge and laws do not recognize AI as agents. Option A contradicts the text stating executives are passive observers. Option C introduces intent ('intentionally deploy... to completely eliminate') not supported by the text.",
-      "longest_option_index": 3
-    },
-    {
-      "id": "q2",
-      "type": "Analytical",
-      "question": "The author discusses 'data monocultures' in paragraph 3 primarily to explain how:",
-      "options": [
-        "A) centralized technology oligopolies eliminate all geopolitical trade embargoes through advanced cloud infrastructure.",
-        "B) standardized predictive algorithms create synchronized behavioral vulnerabilities that turn localized bottlenecks into systemic economic cascades.",
-        "C) independent manufacturing enterprises successfully self-correct during systemic market shocks without requiring algorithmic oversight.",
-        "D) decentralized market friction naturally resolves localized supply chain disruptions before they reach international shipping networks."
+      "idioms": [
+        {
+          "idiom": "To pierce the veil",
+          "def": "To look past superficial appearances or legal structures to reveal the true underlying reality.",
+          "ex": "Lawyers fought to pierce the corporate veil and hold executives personally responsible for fraud."
+        },
+        {
+          "idiom": "A black swan event",
+          "def": "An unpredictable, rare event that carries massive, catastrophic consequences.",
+          "ex": "The sudden collapse of global shipping lanes acted as a black swan event for retail inventories."
+        },
+        {
+          "idiom": "To tip the scales",
+          "def": "To decisively alter the balance of power or outcome in a situation.",
+          "ex": "The sudden introduction of artificial intelligence regulations tipped the scales in favor of labor unions."
+        },
+        {
+          "idiom": "To weather the storm",
+          "def": "To survive a difficult period or crisis successfully.",
+          "ex": "Small businesses struggled to weather the storm caused by sudden supply chain shortages."
+        },
+        {
+          "idiom": "At cross-purposes",
+          "def": "Misunderstanding each other's aims or working towards conflicting goals.",
+          "ex": "The finance department and the engineering team worked at cross-purposes regarding software budgets."
+        }
       ],
-      "answer": 1,
-      "explanation": "Option B is correct because paragraph 3 highlights that standardized algorithms cause synchronized behaviors that transform localized bottlenecks into systemic liquidity cascades. Option A and C directly contradict the text. Option D is incorrect as the text states networks fail to self-correct during shocks.",
-      "longest_option_index": 0
-    },
-    {
-      "id": "q3",
-      "type": "Inference",
-      "question": "Which of the following best characterizes the author's perspective regarding the claim that algorithmic markets are characterized by 'mathematical neutrality'?",
-      "options": [
-        "A) The author views mathematical neutrality as an objective standard that successfully eliminates human bias from global supply chains.",
-        "B) The author considers mathematical neutrality to be a misleading ideological facade that disguises underlying normative value judgments and structural labor exploitation.",
-        "C) The author argues that mathematical neutrality is an unachievable technical ideal that will eventually be solved by advanced cloud oligopolies.",
-        "D) The author believes that mathematical neutrality directly guarantees safe labor standards and environmental protection in developing manufacturing sectors."
-      ],
-      "answer": 1,
-      "explanation": "Option B captures the author's argument in paragraph 4 that optimization functions are normative value judgments wrapped in computational inevitability, masking exploitation. Options A, C, and D misrepresent the passage's critical view.",
-      "longest_option_index": 3
-    },
-    {
-      "id": "q4",
-      "type": "Analytical",
-      "question": "The biological analogy introduced in paragraph 5 ('Just as biological ecosystems require redundant species diversity...') serves to support which of the following assertions?",
-      "options": [
-        "A) Commercial networks require deliberate inefficiencies and human discretion to survive unexpected systemic shocks without failing catastrophically.",
-        "B) Radical commercial efficiency is the sole biological mechanism capable of preventing global economic collapse during black swan events.",
-        "C) Viral pathogens in international shipping corridors can be eradicated exclusively through automated multi-agent inventory pipelines.",
-        "D) Ecosystem degradation in developing nations is caused by a lack of species diversity in cloud computing infrastructure."
-      ],
-      "answer": 0,
-      "explanation": "Option A accurately reflects the analogy used to argue that economic resilience requires structural inefficiencies and human discretion (redundancy) just like ecosystems need species diversity. The other options are absurd distortions.",
-      "longest_option_index": 1
-    },
-    {
-      "id": "q5",
-      "type": "Inference",
-      "question": "Based on the text, what is the primary objection raised by opponents of 'algorithmic friction'?",
-      "options": [
-        "A) Regulatory interventions would eliminate all corporate tax liabilities across developing manufacturing nations.",
-        "B) Bureaucratic friction would severely impair competitive advantage, resulting in sluggish economic output and higher consumer costs.",
-        "C) Imposing human oversight would completely prevent black swan disruptions and eliminate trade embargoes permanently.",
-        "D) Artificial intelligence models would spontaneously achieve legal personhood and demand independent representation."
-      ],
-      "answer": 1,
-      "explanation": "Option B directly matches the final sentence of paragraph 5, which states opponents argue friction would cripple competitive advantage, sentencing economies to sluggish output and inflated costs. The other options are unsupported fabrications.",
-      "longest_option_index": 1
-    },
-    {
-      "id": "q6",
-      "type": "Inference",
-      "question": "Which of the following conclusions can be drawn regarding the current relationship between technological innovation in supply chains and institutional legal frameworks?",
-      "options": [
-        "A) Institutional legal frameworks have successfully evolved in tandem with technological innovations, perfectly establishing corporate liability for autonomous software.",
-        "B) Technological innovation has far outpaced institutional governance, leaving commercial networks operating under opaque technocracies devoid of democratic oversight.",
-        "C) International trade treaties have completely eliminated algorithmic opacity by forcing tech conglomerates to open their source code repositories.",
-        "D) Global supply chains have transitioned away from digital automation and returned entirely to mechanical logistical pipelines."
-      ],
-      "answer": 1,
-      "explanation": "Option B is correct, summarizing the recurring theme that technological acceleration outpaces institutional governance and creates opaque technocracies. Options A, C, and D directly contradict the passage's conclusion.",
-      "longest_option_index": 2
+      "phrasalVerbs": [
+        {
+          "verb": "To phase out",
+          "def": "To withdraw or discontinue something gradually in stages.",
+          "ex": "The manufacturer decided to phase out legacy software systems over the next two years."
+        },
+        {
+          "verb": "To factor in",
+          "def": "To include a specific element or variable when calculating or planning something.",
+          "ex": "Engineers failed to factor in severe weather volatility when designing the automated shipping route."
+        },
+        {
+          "verb": "To scale back",
+          "def": "To reduce the size, scope, or intensity of an operation or project.",
+          "ex": "Due to rising cloud hosting costs, the startup had to scale back its data collection plans."
+        },
+        {
+          "verb": "To pin down",
+          "def": "To discover or establish the exact details or cause of something precisely.",
+          "ex": "Auditors struggled to pin down the exact software subroutine responsible for the inventory error."
+        },
+        {
+          "verb": "To bring about",
+          "def": "To cause something to happen or result in a significant change.",
+          "ex": "The introduction of machine learning algorithms brought about massive efficiency gains in logistics."
+        }
+      ]
     }
-  ],
-  "vocab": {
-    "words": [
-      {
-        "word": "Epistemic",
-        "type": "Adjective",
-        "def": "Relating to knowledge or the conditions for acquiring it.",
-        "ex": "The scientific community debated the epistemic validity of data generated by opaque machine-learning models."
-      },
-      {
-        "word": "Transnational",
-        "type": "Adjective",
-        "def": "Extending across national boundaries; involving multiple nations.",
-        "ex": "Transnational corporations coordinate manufacturing operations across diverse regulatory jurisdictions."
-      },
-      {
-        "word": "Heuristic",
-        "type": "Noun",
-        "def": "A practical problem-solving method or rule of thumb used to produce quick solutions.",
-        "ex": "The software relied on a complex heuristic to estimate shipping delays during severe weather."
-      },
-      {
-        "word": "Obfuscation",
-        "type": "Noun",
-        "def": "The action of making something obscure, unclear, or unintelligible.",
-        "ex": "Corporate legal teams used deliberate obfuscation to hide software faults from regulatory inspectors."
-      },
-      {
-        "word": "Oligopolistic",
-        "type": "Adjective",
-        "def": "Controlled by a small number of large firms or powerful market players.",
-        "ex": "The cloud computing market is dominated by an oligopolistic group of technology giants."
-      },
-      {
-        "word": "Normative",
-        "type": "Adjective",
-        "def": "Establishing, relating to, or deriving from a standard or norm, often implying value judgments.",
-        "ex": "Economic models often disguise normative policy choices as objective mathematical facts."
-      },
-      {
-        "word": "Externalities",
-        "type": "Noun",
-        "def": "Side effects or consequences of an industrial or commercial activity affecting other parties.",
-        "ex": "The factory dumped chemical waste into local rivers, externalizing environmental costs onto residents."
-      },
-      {
-        "word": "Redundancy",
-        "type": "Noun",
-        "def": "The inclusion of extra components or backup systems to function if failure occurs.",
-        "ex": "Building operational redundancy into power grids prevents total blackouts during storms."
-      },
-      {
-        "word": "Technocracy",
-        "type": "Noun",
-        "def": "A government or social system controlled by technical experts and automated systems.",
-        "ex": "Critics fear that automated governance will turn modern democracies into cold technocracies."
-      },
-      {
-        "word": "Autonomous",
-        "type": "Adjective",
-        "def": "Having the freedom to act independently without external control.",
-        "ex": "Autonomous container ships navigate open ocean corridors without human crew members."
-      }
-    ],
-    "idioms": [
-      {
-        "idiom": "To pierce the veil",
-        "def": "To look past superficial appearances or legal structures to reveal the true underlying reality.",
-        "ex": "Lawyers fought to pierce the corporate veil and hold executives personally responsible for fraud."
-      },
-      {
-        "idiom": "A black swan event",
-        "def": "An unpredictable, rare event that carries massive, catastrophic consequences.",
-        "ex": "The sudden collapse of global shipping lanes acted as a black swan event for retail inventories."
-      },
-      {
-        "idiom": "To tip the scales",
-        "def": "To decisively alter the balance of power or outcome in a situation.",
-        "ex": "The sudden introduction of artificial intelligence regulations tipped the scales in favor of labor unions."
-      },
-      {
-        "idiom": "To weather the storm",
-        "def": "To survive a difficult period or crisis successfully.",
-        "ex": "Small businesses struggled to weather the storm caused by sudden supply chain shortages."
-      },
-      {
-        "idiom": "At cross-purposes",
-        "def": "Misunderstanding each other's aims or working towards conflicting goals.",
-        "ex": "The finance department and the engineering team worked at cross-purposes regarding software budgets."
-      }
-    ],
-    "phrasalVerbs": [
-      {
-        "verb": "To phase out",
-        "def": "To withdraw or discontinue something gradually in stages.",
-        "ex": "The manufacturer decided to phase out legacy software systems over the next two years."
-      },
-      {
-        "verb": "To factor in",
-        "def": "To include a specific element or variable when calculating or planning something.",
-        "ex": "Engineers failed to factor in severe weather volatility when designing the automated shipping route."
-      },
-      {
-        "verb": "To scale back",
-        "def": "To reduce the size, scope, or intensity of an operation or project.",
-        "ex": "Due to rising cloud hosting costs, the startup had to scale back its data collection plans."
-      },
-      {
-        "verb": "To pin down",
-        "def": "To discover or establish the exact details or cause of something precisely.",
-        "ex": "Auditors struggled to pin down the exact software subroutine responsible for the inventory error."
-      },
-      {
-        "verb": "To bring about",
-        "def": "To cause something to happen or result in a significant change.",
-        "ex": "The introduction of machine learning algorithms brought about massive efficiency gains in logistics."
-      }
-    ]
   }
-}
+]
