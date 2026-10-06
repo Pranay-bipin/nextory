@@ -4033,6 +4033,206 @@
           "ex": "The introduction of machine learning algorithms brought about massive efficiency gains in logistics."
         }
       ]
-    }
+    },
+  {
+    "id": "rc-2026-10-07",
+    "date": "2026-10-07",
+    "title": "The Arithmetic of Recognition: What a Nobel Prize Rewards and What It Leaves Out",
+    "genre": "Science, Society & Current Affairs (Nobel Week 2026)",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1021 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "Esoteric",
+          "type": "adj",
+          "def": "Intended for or understood by only a small group with specialised knowledge.",
+          "ex": "The prize was awarded for an esoteric result few outsiders could follow."
+        },
+        {
+          "word": "Anachronistic",
+          "type": "adj",
+          "def": "Belonging to a period other than the one in which it exists; out of date.",
+          "ex": "A rule of three laureates may seem anachronistic in the age of mega-collaborations."
+        },
+        {
+          "word": "Meticulous",
+          "type": "adj",
+          "def": "Showing great attention to detail; very careful and precise.",
+          "ex": "Meticulous record-keeping allowed the experiment to be replicated."
+        },
+        {
+          "word": "Venerate",
+          "type": "verb",
+          "def": "To regard with great respect and reverence.",
+          "ex": "Students venerate laureates as heroes of science."
+        },
+        {
+          "word": "Ostracise",
+          "type": "verb",
+          "def": "To exclude someone from a society or group.",
+          "ex": "Dissenting researchers were ostracised by the establishment."
+        },
+        {
+          "word": "Eclectic",
+          "type": "adj",
+          "def": "Drawing ideas or style from a wide range of sources.",
+          "ex": "The committee’s eclectic shortlist ranged from genetics to quantum optics."
+        },
+        {
+          "word": "Laudable",
+          "type": "adj",
+          "def": "Deserving praise and commendation.",
+          "ex": "The aim of rewarding discovery is laudable even if the method is flawed."
+        },
+        {
+          "word": "Vindicate",
+          "type": "verb",
+          "def": "To clear of blame or show to be right in the light of later evidence.",
+          "ex": "The experiment finally vindicated the theorist’s decades-old proposal."
+        },
+        {
+          "word": "Eminent",
+          "type": "adj",
+          "def": "Famous and respected within a particular sphere or profession.",
+          "ex": "An eminent physicist chaired the nominating panel."
+        },
+        {
+          "word": "Ubiquitous",
+          "type": "adj",
+          "def": "Present, appearing or found everywhere.",
+          "ex": "Mobile phones are ubiquitous, yet their underlying science is rarely credited."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "Steal the limelight",
+          "def": "To attract attention away from others.",
+          "ex": "The youngest laureate stole the limelight at the ceremony."
+        },
+        {
+          "idiom": "Stand the test of time",
+          "def": "To remain valid, valued or effective for a long period.",
+          "ex": "Only a few discoveries stand the test of time."
+        },
+        {
+          "idiom": "A feather in one’s cap",
+          "def": "An achievement to be proud of.",
+          "ex": "The prize is a feather in the university’s cap."
+        },
+        {
+          "idiom": "Pay lip service to",
+          "def": "To express support for something without acting on it.",
+          "ex": "Many institutions pay lip service to collaborative credit."
+        },
+        {
+          "idiom": "Cut both ways",
+          "def": "To have both good and bad effects.",
+          "ex": "Fame cuts both ways: it brings funding and also scrutiny."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Single out",
+          "def": "To choose one person or thing from a group for special attention.",
+          "ex": "The committee singled out three of the hundreds of contributors."
+        },
+        {
+          "verb": "Pass over",
+          "def": "To ignore or fail to select someone, especially for promotion or honour.",
+          "ex": "Several deserving researchers were passed over for the prize."
+        },
+        {
+          "verb": "Lay claim to",
+          "def": "To assert that one has a right to or owns something.",
+          "ex": "Three countries laid claim to the laureate as their own."
+        },
+        {
+          "verb": "Build on",
+          "def": "To use existing work as a base for further development.",
+          "ex": "Her result built on decades of earlier experiments."
+        },
+        {
+          "verb": "Account for",
+          "def": "To explain or make up a particular proportion of something.",
+          "ex": "Chance accounts for part of who is remembered."
+        }
+      ]
+    },
+    "passage": "Between 5 and 12 October the Nobel committees announce this year’s laureates, in a week that has become a ritual of the scientific calendar. The cash award has been raised to 12 million Swedish crowns per prize, from 11 million last year, a sum that is trivial beside the research budgets of the laboratories it honours and yet, by common consent, the least important part of the award. What the money buys is attention. A Nobel turns a specialist into a public figure, a subfield into a headline and, in the cases that matter to a university or a country, a statistic in an informal league table of national scientific achievement. It is worth asking what, precisely, this apparatus measures, since the answer is less obvious than the ceremony suggests.\n\nBegin with arithmetic. The statutes cap any prize at three laureates and, outside peace, reserve it for individuals rather than teams or institutions. These limits were sensible when discoveries were made by a lone experimenter at a bench. They sit awkwardly with a science that now routinely involves collaborations of hundreds or thousands of authors, as in particle physics or genome sequencing. The committee must therefore compress a distributed achievement into three names, and every compression involves a judgement about what counts as the decisive contribution: the idea, the experiment, the instrument, or the leadership that made the work possible. The history of the prizes contains well-known cases of names left off: Lise Meitner, whose part in the discovery of nuclear fission went unrecognised when her collaborator Otto Hahn received the 1944 chemistry prize, and Jocelyn Bell Burnell, whose observation of pulsars preceded the 1974 physics prize awarded to her supervisor and a colleague. Such omissions are usually presented as injustices, and sometimes they are. But the structural point is wider: a rule that fixes the number of winners in advance makes the omission of someone certain whenever the contributors outnumber the places.\n\nThe second feature is delay. The prize rewards work whose significance has been established by time, which is why it typically honours discoveries made decades earlier. Peter Higgs proposed his mechanism in 1964 and was recognised in 2013, after experiments had confirmed it; the modification of messenger RNA that underlies the vaccines of the pandemic years was reported in the mid-2000s and honoured in 2023, once it had been tested on a global scale. The delay has a defensible rationale, that a committee should not reward errors, and an awkward consequence: the prize is a lagging indicator. It tells us what a community came to believe about the past, not what is most promising now, and it can serve as a guide to the present only for those who forget that the frontier is, by definition, the part that has not yet been validated.\n\nThird, prizes act on the system they observe. The sociologist Robert Merton described a “Matthew effect” in science, whereby eminent researchers receive disproportionate credit for work done jointly with lesser-known colleagues, and credit begets resources, which beget further credit. A Nobel is the limiting case of the process. Laureates attract students, funding and invitations; their fields attract talent; and those fields appear in retrospect to have been where the important work was done. Part of that appearance is real and part is manufactured, since attention is a cause as well as an effect of progress. Nor are the categories neutral. There are prizes for physics, chemistry and medicine but none for mathematics or geology, and the economics prize, established by Sweden’s central bank in 1968 and not by Alfred Nobel’s will, is not strictly a Nobel at all. The 2024 physics prize for work on artificial neural networks showed the categories stretching to accommodate a field that had grown up largely outside them. Disciplines that fit the existing labels are visible to the public; those that do not tend to be less so.\n\nDefenders reply that these criticisms confuse a prize with a ranking. No one claims the laureates are the only deserving candidates; the prize identifies discoveries of exceptional consequence, and does so with a care few honours match, relying on nominations from invited experts and years of deliberation, with the committee’s records sealed for fifty years. The attention it generates is a public good: it draws students to science and persuades legislatures to fund it. The incentive argument is subtler. If scientists work for recognition as well as for truth, the prospect of a few conspicuous prizes may encourage risk-taking in a system that otherwise rewards the safe and the publishable. The difficulty is that it may equally encourage the opposite: a concentration of effort on fields thought to be prize-worthy, and neglect of the slow, collective and unglamorous work, such as the maintenance of datasets and instruments, on which glamorous discoveries rely.\n\nThe record also contains a reminder that the committees’ judgement is not infallible. The 1949 medicine prize to Egas Moniz for the lobotomy is now regarded as one of the prize’s great embarrassments. Its lesson is not that prizes should be abandoned but that the endorsement they carry is the endorsement of a particular moment, given by a small group on the evidence then available. When a prize is read as the final verdict of science, the error lies with the reader and not with the institution.\n\nThe most defensible way to read a Nobel announcement, then, is as evidence about the state of consensus in a community, with the biases built into it by its rules: a delay, a numerical limit, a set of categories drawn up in the 1890s and an electorate of invited insiders. Read that way it is informative, though no more authoritative than any other lagging indicator. Read as a measure of the best science done, it conceals as much as it discloses: the collaborators who were not counted, the fields that had no category, and the discoveries that still await the verdict of time. The attention it commands is real. What it should command, in a sensible reader, is not deference but a second question: whom does this prize not name, and why?",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "The author’s mention of Meitner and Bell Burnell is used chiefly to suggest that",
+        "options": [
+          "A) Nobel committees have consistently undervalued the work of women and junior researchers, and this bias is the main flaw of the process",
+          "B) the lone experimenter of earlier times has disappeared from modern science, so that no discovery now can be credited to any single person",
+          "C) a numerical cap makes someone’s omission certain whenever contributors outnumber the places",
+          "D) the omissions were corrected in later years, when the committees acknowledged their mistakes and awarded the missing researchers separate prizes"
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> Paragraph 2 says such omissions are ‘usually presented as injustices, and sometimes they are’, but the ‘structural point is wider’: fixing the number of winners guarantees omission when contributors exceed places. The examples illustrate a structural consequence, not a pattern of prejudice.<br><br>• <strong>Why Option A is Wrong:</strong> ‘Consistently’ and ‘main flaw’ attribute a motive the author deliberately sets aside in favour of a structural point; the passage names no pattern by gender or seniority.<br>• <strong>Why Option B is Wrong:</strong> Overstated: the author says collaborations are now common, not that no discovery can be credited to one person.<br>• <strong>Why Option D is Wrong:</strong> The passage says nothing about later correction or separate prizes; this invents a happy ending.<br><br><strong>💡 Approach:</strong> When an author cites examples, find the sentence that begins ‘But’; it carries the real point. Here, the structural claim is stated in the final sentence of the paragraph."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following, if true, would most weaken the claim that a Nobel Prize is a “lagging indicator”?",
+        "options": [
+          "A) Most recent prizes were awarded within a few years of the cited work.",
+          "B) Many laureates were already among the most cited scientists in their fields at the time the prize was announced to them in October.",
+          "C) Several prizes have been given for work whose conclusions were later revised in the light of evidence that emerged long afterwards.",
+          "D) The committees consult a wide range of invited experts and keep their records sealed for fifty years after each decision has been made."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Paragraph 3 rests the claim on a long gap between discovery and award. If most prizes follow the work within a few years, the gap, and so the description of the prize as lagging, is undermined.<br><br>• <strong>Why Option B is Wrong:</strong> High citations before the award show the laureates were already prominent; they do not say how long after the discovery the prize came.<br>• <strong>Why Option C is Wrong:</strong> Later revision bears on whether committees err (para 6), not on how long they wait.<br>• <strong>Why Option D is Wrong:</strong> Consultation and sealed records concern the process, not the timing.<br><br><strong>💡 Approach:</strong> Isolate what the claim depends on (the time gap). A weakener attacks that dependence; options about quality of work or process leave it untouched."
+      },
+      {
+        "id": "q3",
+        "question": "The statement that attention is “a cause as well as an effect of progress” is best illustrated by which of the following?",
+        "options": [
+          "A) A field wins prizes because its results are demonstrably more important than those of the fields that have never been given a category.",
+          "B) A committee honours a discovery only after experiments have confirmed it, so that the prize follows and records an established success.",
+          "C) A researcher who is already eminent receives credit for a joint paper that is disproportionate to the part played by junior authors.",
+          "D) A field that wins a prize attracts funding and recruits, and so yields results that later seem to justify the prize."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 4: laureates attract students and funding, their fields attract talent, and those fields appear in retrospect to have been where the work was done. Attention (the prize) feeds back into the progress it seems merely to reward, which is the two-way relation described.<br><br>• <strong>Why Option A is Wrong:</strong> This makes attention purely an effect of prior importance; the causal arrow runs only one way.<br>• <strong>Why Option B is Wrong:</strong> Also one-way: the prize follows success (para 3), with no feedback into the progress.<br>• <strong>Why Option C is Wrong:</strong> This is the Matthew effect of credit within a project, not attention feeding back into a field’s later progress.<br><br><strong>💡 Approach:</strong> For ‘best illustrates’ questions, extract the abstract structure (a loop in which effect becomes cause) and reject examples with a one-way arrow."
+      },
+      {
+        "id": "q4",
+        "question": "The author’s treatment of the incentive argument implies that",
+        "options": [
+          "A) conspicuous prizes inevitably reduce risk-taking, since scientists will always prefer safe work that is certain to be published",
+          "B) the same prospect of prizes could encourage risk-taking and also distort effort towards fashionable fields",
+          "C) recognition is a poor motive for scientists, who ought to work only for truth and who are corrupted by the hope of any prize",
+          "D) the maintenance of datasets and instruments deserves its own Nobel category, so that collective work can be honoured as individuals are"
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 5 calls the argument ‘subtler’: prizes may encourage risk-taking, but ‘equally’ may concentrate effort on prize-worthy fields and neglect unglamorous work. The implication is a double-edged effect.<br><br>• <strong>Why Option A is Wrong:</strong> ‘Inevitably’ and ‘always’ are absolutes; the author grants that prizes may encourage risk-taking.<br>• <strong>Why Option C is Wrong:</strong> The author accepts that scientists work for recognition ‘as well as for truth’ and does not moralise about it.<br>• <strong>Why Option D is Wrong:</strong> No such proposal is made; the passage only notes the neglect of such work.<br><br><strong>💡 Approach:</strong> ‘Implies’ questions favour balanced, two-sided options when the author uses words such as ‘subtler’ and ‘equally’."
+      },
+      {
+        "id": "q5",
+        "question": "Each of the following is presented as limiting what a Nobel announcement can tell us EXCEPT",
+        "options": [
+          "A) the cap of three names for each prize, which forces a choice about which contribution was the decisive one among many",
+          "B) the delay between a discovery and its award, which makes the prize a record of what a community came to believe earlier",
+          "C) the fixed set of categories, which leaves some disciplines without a prize and so makes them less visible to the public",
+          "D) the sealing of committee records for fifty years, which shields the process from scrutiny"
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Sealed records appear in paragraph 5 as part of the care the defenders cite in the prize’s favour, not as a limitation the author criticises. The other three are limits discussed in paragraphs 2, 3 and 4.<br><br>• <strong>Why Option A is Wrong:</strong> Limitation discussed in paragraph 2 (the rule of three).<br>• <strong>Why Option B is Wrong:</strong> Limitation discussed in paragraph 3 (delay, the ‘lagging indicator’).<br>• <strong>Why Option C is Wrong:</strong> Limitation discussed in paragraph 4 (categories and visibility).<br><br><strong>💡 Approach:</strong> In EXCEPT questions, match each option to a paragraph; the odd one out will be used for a different purpose (here, the defenders’ case)."
+      },
+      {
+        "id": "q6",
+        "question": "The author’s closing question, “whom does this prize not name, and why?”, is best read as",
+        "options": [
+          "A) an accusation that the committees deliberately exclude deserving scientists in order to protect the reputation of the prize and its sponsors",
+          "B) a prompt to treat a prize as evidence with built-in biases rather than as a final verdict",
+          "C) a call for the abolition of the prizes, since the omissions that the author has described cannot be corrected by any reform of the rules",
+          "D) an admission that the author cannot decide whether prizes help or harm science, and so leaves the whole matter to the judgement of readers"
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The last paragraph asks for ‘not deference but a second question’ and reads announcements as evidence about consensus with biases ‘built into it by its rules’. The closing question invites that critical reading.<br><br>• <strong>Why Option A is Wrong:</strong> The author attributes omissions to structure (rules), not to deliberate exclusion or reputation-protection.<br>• <strong>Why Option C is Wrong:</strong> Para 6 says the lesson is ‘not that prizes should be abandoned’; this contradicts it.<br>• <strong>Why Option D is Wrong:</strong> The author does reach a view (prizes are informative but limited); the question sharpens that view and is not a confession of indecision.<br><br><strong>💡 Approach:</strong> Tie closing rhetorical questions to the author’s stated thesis. Reject options that radicalise (accusation, abolition) or retreat (indecision)."
+      }
+    ]
   }
 ]
