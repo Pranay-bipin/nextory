@@ -4429,5 +4429,199 @@
         "explanation": "<b>Correct answer: Option A</b><br>The final paragraph says the mechanism is a hybrid whose character is decided by how it is administered, and that the text is the same in both cases while discretion differs. The correct option restates this.<br><br><b>Option B is wrong.</b> The author raises the emissions test (trade diversion) as an open empirical question but never says it is the primary yardstick, nor that competitiveness is secondary.<br><b>Option C is wrong.</b> The author does mention exemptions and administrative burden, but calls the issue broader than procedure; the conclusion is about discretion, not a procedural repair list.<br><b>Option D is wrong.</b> The conclusion says the text is the same in both cases and that the difference lies in discretion afterwards. Revising the text is not what the author says matters."
       }
     ]
+  },
+  {
+    "id": "rc-2026-10-09",
+    "date": "2026-10-09",
+    "title": "The Doorway and the House: India's Social Security Code and the Gig Worker",
+    "genre": "Economy & Current Affairs",
+    "wordCount": "805 words",
+    "passage": "When India's labour codes came into force in late 2025, the Code on Social Security did something earlier statutes had avoided: it gave gig and platform workers a name. Delivery riders, ride-hailing drivers and freelance task-performers were defined as distinct categories, and the companies that connect them to customers were designated aggregators, who may be required to contribute a share of their turnover to a fund from which welfare schemes are financed. The recognition is real, and it has been widely welcomed. But recognition is a statement about vocabulary, and the harder question concerns what the vocabulary obliges anyone to do.\n\nThe architecture chosen is revealing. Rather than declare these workers employees, entitled to the provident fund and insurance that accompany a payroll, the Code constructs a separate, scheme-based track. Benefits flow from schemes that governments may notify, financed partly by aggregator contributions that are capped at a fraction of what platforms pay out to workers. To receive anything, a worker must register. The design thus treats the gig worker as neither an employee nor an independent contractor in the old sense, but as a third kind of creature for whom protection is available by application rather than by right. Supporters see pragmatism: classifying millions of workers as employees overnight would have been administratively impossible and, platforms argue, commercially ruinous. Critics see a ceiling disguised as a floor.\n\nUnderlying the disagreement is an old question in a new form: who is the worker's employer when an algorithm assigns the job, sets the price and can deactivate the account? Platforms maintain that they supply a marketplace, that workers choose when to log in and which orders to accept, and that autonomy is the very feature workers value. Yet autonomy of this kind is partly illusory when the payment for each task is set by software and acceptance rates affect future allocation. A worker who is free to decline orders is not free in the sense that matters if declining carries a penalty that the worker cannot see. The law's silence on this point is conspicuous; the Code asks who contributes, not who controls.\n\nConsider next the matter of portability. Many workers do not serve a single platform; they move between several in a day, following whichever offers the better rate. Contributions that are calculated as a share of each platform's turnover or payouts, and administered through registration, assume that each worker can be attributed to a platform, or at least that earnings can be aggregated across them. If a worker's income is fragmented, the benefit attributable to any one platform's contribution may be too thin to be meaningful, while the data needed to stitch the fragments together raises questions of privacy and verification that the framework has only begun to address. Portability, in other words, is not an optional refinement; it is the condition on which a scheme financed platform by platform can serve workers who do not live platform by platform.\n\nThen there is the matter of incidence. Aggregators will not necessarily absorb new contributions; they may pass them on to customers through higher prices, or to workers through lower payments per task. Which of these occurs depends less on legislative intent than on market structure. Where competition between platforms is intense and customers are sensitive to price, platforms have little room to raise what they charge, and the burden may drift towards the party with the weakest bargaining position: the worker. Where a few firms dominate, they may absorb the cost or pass it on at will. A levy designed to protect workers could therefore, in the wrong market, be partly paid by them. This is not an argument against the levy; it is an argument that the levy's effect cannot be read off its text.\n\nMeanwhile, several states have enacted their own regimes, including fees linked to each transaction. This layering offers experiments from which lessons can be drawn, but it also invites a patchwork in which a platform operating nationally confronts different obligations in each jurisdiction, and in which a worker who crosses a state border may cross out of protection as well. Federal systems tolerate such variety because it can produce better ideas; whether it can also produce coherent protection for a mobile workforce is another matter entirely.\n\nThe sober assessment is that the Code has moved the debate from whether gig workers deserve protection to how protection is to be delivered, which is genuine progress and not the same as success. Its worth will be determined by details still being written: who registers, how benefits are funded and distributed, whether the cost lands where the law intends, and whether any provision addresses the algorithm that sits between the worker and the work. A framework that answers the first question while postponing the rest has built the doorway, not the house.",
+    "vocab": {
+      "words": [
+        {
+          "word": "Ostensible",
+          "type": "adjective",
+          "def": "Appearing or stated to be true, but not necessarily so.",
+          "ex": "The ostensible reason for the meeting was budgeting, but the real aim was a merger."
+        },
+        {
+          "word": "Tenuous",
+          "type": "adjective",
+          "def": "Very weak, slight or thin; lacking a firm basis.",
+          "ex": "The link between the two events is tenuous at best."
+        },
+        {
+          "word": "Salient",
+          "type": "adjective",
+          "def": "Most noticeable or important.",
+          "ex": "She summarised the salient points of the report in two minutes."
+        },
+        {
+          "word": "Sanguine",
+          "type": "adjective",
+          "def": "Optimistic, especially in a difficult situation.",
+          "ex": "Investors remained sanguine despite the sharp fall in sales."
+        },
+        {
+          "word": "Nebulous",
+          "type": "adjective",
+          "def": "Unclear, vague or ill-defined.",
+          "ex": "The policy goals were so nebulous that no one could measure success."
+        },
+        {
+          "word": "Culpable",
+          "type": "adjective",
+          "def": "Deserving blame for a fault or wrong.",
+          "ex": "The inquiry found the manager culpable for ignoring the safety warnings."
+        },
+        {
+          "word": "Tacit",
+          "type": "adjective",
+          "def": "Understood or implied without being stated openly.",
+          "ex": "There was a tacit agreement among members not to discuss the issue."
+        },
+        {
+          "word": "Ephemeral",
+          "type": "adjective",
+          "def": "Lasting for a very short time.",
+          "ex": "Fame on social media is often ephemeral."
+        },
+        {
+          "word": "Egregious",
+          "type": "adjective",
+          "def": "Outstandingly bad; shocking.",
+          "ex": "The audit revealed an egregious breach of accounting rules."
+        },
+        {
+          "word": "Ameliorate",
+          "type": "verb",
+          "def": "To make a bad situation better or more tolerable.",
+          "ex": "New subsidies were introduced to ameliorate the hardship of farmers."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "Move the goalposts",
+          "def": "To change the rules or targets of something while it is in progress, usually unfairly.",
+          "ex": "Just as we met the target, the manager moved the goalposts again."
+        },
+        {
+          "idiom": "A double-edged sword",
+          "def": "Something that has both good and bad consequences.",
+          "ex": "Automation is a double-edged sword: it raises output but also cuts jobs."
+        },
+        {
+          "idiom": "Read between the lines",
+          "def": "To understand a hidden or implied meaning that is not stated directly.",
+          "ex": "If you read between the lines, the letter is really a polite warning."
+        },
+        {
+          "idiom": "On thin ice",
+          "def": "In a risky or precarious situation.",
+          "ex": "After two missed deadlines, the contractor was on thin ice."
+        },
+        {
+          "idiom": "Hit the nail on the head",
+          "def": "To describe exactly what is causing a situation or problem.",
+          "ex": "You hit the nail on the head when you blamed poor communication."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Rule out",
+          "def": "To exclude something as a possibility.",
+          "ex": "The doctors ruled out an infection after the tests came back clear."
+        },
+        {
+          "verb": "Fall through",
+          "def": "To fail to happen or be completed.",
+          "ex": "The deal fell through at the last minute because of a funding gap."
+        },
+        {
+          "verb": "Account for",
+          "def": "To explain or make up a particular proportion of something.",
+          "ex": "Exports account for nearly a third of the total output of the country."
+        },
+        {
+          "verb": "Draw on",
+          "def": "To use something such as experience or resources for a purpose.",
+          "ex": "The author draws on years of fieldwork to support her argument."
+        },
+        {
+          "verb": "Pass on",
+          "def": "To transfer something, such as a cost or message, to another person.",
+          "ex": "Retailers often pass on higher costs to their customers."
+        }
+      ]
+    },
+    "questions": [
+      {
+        "question": "The phrase \"a ceiling disguised as a floor\" in the second paragraph most plausibly implies that critics believe the scheme-based track",
+        "options": [
+          "A) delivers benefits that fall below those already available to workers in the wider informal sector of the economy.",
+          "B) may become the most protection gig workers ever receive, even though it is presented as a minimum.",
+          "C) was drafted by the platforms themselves, and merely given legal form by a government that adopted their proposals.",
+          "D) promises employee status to every worker who registers, but only after a long and uncertain period of waiting."
+        ],
+        "answer": 1,
+        "explanation": "<b>Correct answer: Option B</b><br>A floor is a minimum that can be built upon; a ceiling is a maximum. Critics fear that a scheme offered by application, capped in funding and separate from employee benefits will become the limit of what gig workers get, while being presented as a basic minimum.<br><br><b>Option A is wrong.</b> The passage makes no comparison with informal-sector benefits. Unsupported.<br><b>Option C is wrong.</b> The author attributes no role to platforms in drafting the Code. This is an unsupported claim.<br><b>Option D is wrong.</b> The Code does not offer employee status at all; it deliberately creates a separate track. The option contradicts the paragraph."
+      },
+      {
+        "question": "Which of the following best captures the author's objection to the platforms' defence of worker autonomy?",
+        "options": [
+          "A) Workers who prize autonomy are mistaken about their own interests, since regular employment is always the better arrangement for them.",
+          "B) Algorithmic allocation of tasks is incompatible with any claim that platforms are merely marketplaces connecting independent parties.",
+          "C) Platforms deliberately mislead workers about the earnings they can expect from each task in order to keep them logged in.",
+          "D) Freedom to decline work is hollow if declining carries consequences that the worker cannot observe."
+        ],
+        "answer": 3,
+        "explanation": "<b>Correct answer: Option D</b><br>The author argues autonomy is partly illusory because acceptance rates affect future allocation and the penalty for declining is invisible to the worker. So the freedom to decline exists in form but not in substance.<br><br><b>Option A is wrong.</b> Too extreme. The author never says workers misjudge their interests or that employment is always better.<br><b>Option B is wrong.</b> Too strong. The author questions how real the autonomy is but does not say the marketplace claim is impossible.<br><b>Option C is wrong.</b> The passage mentions invisible penalties, not deliberate deception about earnings. Unsupported."
+      },
+      {
+        "question": "Which of the following, if true, would most weaken the author's argument in the fourth paragraph that platform-by-platform contributions suit a mobile workforce poorly?",
+        "options": [
+          "A) Platforms with larger turnovers contribute more in absolute terms than smaller platforms, even where the rate of contribution is identical.",
+          "B) Workers who switch between several platforms report higher average hourly earnings than workers who remain with a single platform.",
+          "C) A central registry pools each worker's earnings across platforms and credits every contribution to a single account.",
+          "D) The algorithms that set surge prices on most platforms are not disclosed to the workers who depend on them for income."
+        ],
+        "answer": 2,
+        "explanation": "<b>Correct answer: Option C</b><br>The author's worry is that fragmented income leaves each platform's contribution too thin to matter. If contributions are pooled in a single account per worker, the fragmentation problem largely disappears, which directly weakens the argument.<br><br><b>Option A is wrong.</b> Larger platforms paying more in absolute terms says nothing about whether one worker's benefits are fragmented across platforms.<br><b>Option B is wrong.</b> Higher earnings for platform-switchers do not bear on whether contributions can be consolidated; this is irrelevant to portability.<br><b>Option D is wrong.</b> Non-disclosure of surge algorithms relates to the third paragraph's concern with control, not to the fragmentation of contributions."
+      },
+      {
+        "question": "Which of the following can be inferred from the discussion of incidence in the fifth paragraph?",
+        "options": [
+          "A) Identical contribution rates can leave workers worse off in some markets than in others, depending on how competitive the market is.",
+          "B) Platforms in concentrated markets will necessarily absorb the whole cost of the levy rather than pass any part of it on to customers.",
+          "C) The levy ought to be abandoned, because in practice it is likely to be paid for by the very workers it was meant to protect.",
+          "D) Customers in markets where price sensitivity is high are the party most exposed to the burden of the levy once it takes effect."
+        ],
+        "answer": 0,
+        "explanation": "<b>Correct answer: Option A</b><br>The paragraph says incidence depends on market structure: where competition and price sensitivity are high, the burden can drift to workers; where a few firms dominate, they may absorb or pass on the cost at will. The same levy therefore has different effects in different markets.<br><br><b>Option B is wrong.</b> Too strong. The author says dominant firms may absorb the cost or pass it on at will, not that they necessarily absorb it all.<br><b>Option C is wrong.</b> The author expressly says this is not an argument against the levy, only that its effect cannot be read off its text.<br><b>Option D is wrong.</b> Reversed. High price sensitivity limits platforms' ability to raise prices, which pushes the burden away from customers and towards workers."
+      },
+      {
+        "question": "The author's attitude towards the state-level regimes discussed in the sixth paragraph is best described as",
+        "options": [
+          "A) firm disapproval, since they duplicate obligations and place unreasonable burdens on any platform that operates across the country.",
+          "B) qualified approval: it values the experimentation they allow but doubts that it yields coherent protection.",
+          "C) indifference, since the paragraph treats the effects as a matter for platforms to resolve rather than something affecting workers.",
+          "D) enthusiastic endorsement, since the paragraph holds that federal systems generate better ideas than centralised systems ever can."
+        ],
+        "answer": 1,
+        "explanation": "<b>Correct answer: Option B</b><br>The author grants that layering offers experiments from which lessons can be drawn, then raises the risk of a patchwork and says whether it produces coherent protection is another matter entirely. That is approval with reservations.<br><br><b>Option A is wrong.</b> The author notes the patchwork risk but also credits the benefits of experimentation, so disapproval is too strong.<br><b>Option C is wrong.</b> The paragraph explicitly concerns workers who may cross out of protection, so it cannot be called indifferent to them.<br><b>Option D is wrong.</b> The author says variety can produce better ideas but never claims that federal systems are better than centralised ones; the doubt about coherence rules out enthusiasm."
+      },
+      {
+        "question": "The metaphor \"built the doorway, not the house\" in the final paragraph suggests that the author believes the Code",
+        "options": [
+          "A) is symbolically important but legally ineffective, since it creates no enforceable obligations on any aggregator.",
+          "B) will be overtaken by state legislation that supplies the substantive benefits which the central framework lacks.",
+          "C) creates a precondition for real protection without yet supplying the substance that would make it meaningful.",
+          "D) has taken a first step that the author expects aggregators to resist strongly in the courts over the coming years."
+        ],
+        "answer": 2,
+        "explanation": "<b>Correct answer: Option C</b><br>A doorway is an entry point, not a dwelling. The author says the Code answers whether gig workers deserve protection while postponing who registers, how benefits are funded and whether costs land fairly. It has opened the way but not yet delivered the protection.<br><br><b>Option A is wrong.</b> The Code does create obligations, since aggregators may be required to contribute; the author calls the progress genuine.<br><b>Option B is wrong.</b> The author does not predict that state laws will supply the missing substance; the missing details are those of the central framework.<br><b>Option D is wrong.</b> Litigation by aggregators is never mentioned. The prediction is unsupported."
+      }
+    ]
   }
 ]
