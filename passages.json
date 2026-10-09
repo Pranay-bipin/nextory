@@ -4623,5 +4623,206 @@
         "explanation": "<b>Correct answer: Option C</b><br>A doorway is an entry point, not a dwelling. The author says the Code answers whether gig workers deserve protection while postponing who registers, how benefits are funded and whether costs land fairly. It has opened the way but not yet delivered the protection.<br><br><b>Option A is wrong.</b> The Code does create obligations, since aggregators may be required to contribute; the author calls the progress genuine.<br><b>Option B is wrong.</b> The author does not predict that state laws will supply the missing substance; the missing details are those of the central framework.<br><b>Option D is wrong.</b> Litigation by aggregators is never mentioned. The prediction is unsupported."
       }
     ]
+  },
+  {
+    "id": "rc-2026-10-10",
+    "date": "2026-10-10",
+    "title": "Linguistic Relativity, Untranslatability, and the Limits of Thought",
+    "genre": "Linguistics & Philosophy of Mind",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1046 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "Conflate",
+          "type": "verb",
+          "def": "To combine two or more distinct things into one, causing confusion.",
+          "ex": "Critics conflate correlation with causation."
+        },
+        {
+          "word": "Anecdotal",
+          "type": "adj",
+          "def": "Based on personal accounts rather than systematic evidence.",
+          "ex": "The claim rests on anecdotal reports, not data."
+        },
+        {
+          "word": "Ineffable",
+          "type": "adj",
+          "def": "Too great or intense to be expressed in words.",
+          "ex": "She felt an ineffable calm after the exam."
+        },
+        {
+          "word": "Vernacular",
+          "type": "noun",
+          "def": "The ordinary language spoken by the people of a particular region.",
+          "ex": "The poet wrote in the vernacular, not in Latin."
+        },
+        {
+          "word": "Idiosyncratic",
+          "type": "adj",
+          "def": "Peculiar to one person or group; individual and unusual.",
+          "ex": "His idiosyncratic spelling puzzled the editors."
+        },
+        {
+          "word": "Tacit",
+          "type": "adj",
+          "def": "Understood or implied without being stated.",
+          "ex": "There was a tacit agreement not to discuss the loss."
+        },
+        {
+          "word": "Nascent",
+          "type": "adj",
+          "def": "Just coming into existence and beginning to display potential.",
+          "ex": "The nascent field attracted few funders."
+        },
+        {
+          "word": "Equivocal",
+          "type": "adj",
+          "def": "Open to more than one interpretation; deliberately ambiguous.",
+          "ex": "The study's results were equivocal."
+        },
+        {
+          "word": "Cogent",
+          "type": "adj",
+          "def": "Clear, logical and convincing.",
+          "ex": "She presented a cogent case for reform."
+        },
+        {
+          "word": "Reductive",
+          "type": "adj",
+          "def": "Presenting a subject in a simplified form, often to a misleading degree.",
+          "ex": "A reductive account ignores the complexity of the issue."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "Lost in translation",
+          "def": "Meaning or nuance that disappears when something is rendered in another language or form.",
+          "ex": "The joke was lost in translation."
+        },
+        {
+          "idiom": "The tip of the iceberg",
+          "def": "A small visible part of a much larger problem.",
+          "ex": "The first complaints were the tip of the iceberg."
+        },
+        {
+          "idiom": "Split hairs",
+          "def": "To make overly fine distinctions that have little practical importance.",
+          "ex": "Let us not split hairs over the wording."
+        },
+        {
+          "idiom": "Chicken-and-egg problem",
+          "def": "A situation in which it is unclear which of two things caused the other.",
+          "ex": "Whether culture shapes language or the reverse is a chicken-and-egg problem."
+        },
+        {
+          "idiom": "Beat around the bush",
+          "def": "To avoid coming to the main point.",
+          "ex": "Stop beating around the bush and answer."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Bring about",
+          "def": "To cause something to happen.",
+          "ex": "Reform brought about a sharp fall in prices."
+        },
+        {
+          "verb": "Carry out",
+          "def": "To perform or complete a task or experiment.",
+          "ex": "Researchers carried out the study over two years."
+        },
+        {
+          "verb": "Account for",
+          "def": "To explain or make up a particular proportion.",
+          "ex": "Culture alone cannot account for the difference."
+        },
+        {
+          "verb": "Boil down to",
+          "def": "To be reduced to a basic essential point.",
+          "ex": "The debate boils down to a question of method."
+        },
+        {
+          "verb": "Rule out",
+          "def": "To exclude something as a possibility.",
+          "ex": "The data rule out the strong claim."
+        }
+      ]
+    },
+    "passage": "The idea that the language a person speaks shapes the thoughts that person can think has had a long and uneven career. In its strongest form, associated with the linguists Edward Sapir and Benjamin Lee Whorf, it holds that grammar and vocabulary set the boundaries of cognition: speakers of a language that lacks a word or grammatical category for a concept cannot grasp it, or grasp it only dimly. This claim, known as linguistic determinism, has been abandoned by most researchers, partly because it is hard to square with translation itself. If a concept were unthinkable without a word for it, no description of that concept in another language could make it intelligible, yet such descriptions routinely do. The weaker thesis, linguistic relativity, which says that language influences habitual attention and memory without fixing what is thinkable, has nonetheless enjoyed a revival in recent decades, supported by experiment rather than anecdote.\n\nThe experimental case is modest but suggestive. Speakers of Russian, which has separate basic terms for lighter and darker blues, tell apart shades that straddle the boundary slightly faster than English speakers, who have a single term. Speakers of some Aboriginal Australian languages, which describe location by compass direction instead of left and right, keep track of orientation in unfamiliar surroundings and even indoors, and arrange cards depicting a sequence from east to west whichever way they face. Such results are real, but they invite two readings. On one, language restructures perception. On the other, speakers practise a skill their communities value, and the vocabulary is a symptom of that practice rather than its cause. The experiments alone cannot separate the readings, because a community's language and its way of life vary together.\n\nA subtler difficulty concerns what the experiments actually show. The differences appear chiefly in speed, in tasks demanding fine discrimination or memory, and they shrink or vanish when participants must repeat a meaningless string of digits while performing the task, which occupies their verbal resources. This suggests that language acts as a tool consulted during a task rather than a lens fixed over perception, and a tool can be put down. The distinction matters for the grander claims drawn from the research, since an effect that disappears when verbal resources are busy cannot be the permanent reshaping of the mind that popular accounts announce. Advocates reply that habitual tools change their users; a pianist's hands differ from a typist's. The effect on thought may be real without being deep, but where habit ends and structure begins is itself unclear.\n\nTranslation enters the debate from the opposite direction. The claim that certain words are untranslatable, such as the Portuguese saudade or the German Schadenfreude, is repeated so often that it has acquired the status of common knowledge. But it conflates the absence of a single word with the absence of a concept. English has no single word for Schadenfreude, yet English speakers need little persuading that pleasure at another's misfortune exists, and a phrase of five words conveys it. What translation loses is seldom the concept; it is the connotation, rhythm and register that the word carries in its home language. That loss is real, but it is cultural rather than cognitive. The ease of paraphrase can nevertheless be overstated: a concept that needs a sentence each time it is mentioned will be mentioned less, and perhaps thought about less. This returns us, by another route, to relativity of the weak sort, in which language shapes not what can be thought but what is convenient to think.\n\nThere is a further twist in the way the debate has been conducted. Researchers have mostly studied differences between languages in domains where differences can be measured, such as colour, space, number and grammatical gender, and these are domains where the physical world supplies a common standard against which responses can be tested. Where a language might shape thought about matters lacking an external standard, such as morality, kinship or the self, there is no neutral yardstick, and the absence of evidence of influence is not evidence of its absence. The research programme thus finds effects where they can be measured and falls silent where they might matter most. This is an instance of a familiar pattern, in which a field's methods determine its findings by determining what it is able to see.\n\nStudies of grammatical gender illustrate the problem. German speakers, for whom the word for bridge is feminine, are reported to describe bridges as elegant or slender, while Spanish speakers, for whom it is masculine, choose words such as strong or sturdy. But these results come largely from tasks in which participants used the language in question, so the effect may reflect only the activation of gendered associations at the moment of speaking, not any lasting difference in how bridges are seen. When similar tasks are run with participants verbally occupied, the pattern weakens. Whether the finding counts as evidence for relativity therefore depends on whether thinking at the moment of speech counts as thinking at all. Some scholars answer that it does, arguing that every language obliges its speakers to attend to particular features of the world whenever they speak, such as time, gender or the source of one's knowledge, and that this constant obligation, though confined to speech, is a real form of influence.\n\nThe most defensible conclusion may be that the question as usually posed, whether language shapes thought, yes or no, is badly formed. Language is not a single thing acting on a single mind. It supplies categories that are cheap to use, directs attention at moments of speech, and records the accumulated practices of a community, and it can do each of these without limiting anyone's capacity to think otherwise. The strong claim is false, the weak claim is true but unremarkable, and what remains interesting lies in between: which habits of attention are induced by which grammatical obligations, how durable they are, and whether they matter outside the laboratory. The danger is twofold. The moral appeal of the strong claim, which flatters the diversity of human cultures by making them mutually unintelligible, tempts writers to keep it, while the modest evidence for the weak claim tempts sceptics to dismiss it altogether. Both errors misdescribe what has been found.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following findings would most seriously challenge the 'tool' interpretation of the colour-discrimination results described in paragraph 3?",
+        "options": [
+          "A) The faster discrimination across the colour boundary persists undiminished even while participants are repeating a string of digits throughout the whole task.",
+          "B) The faster discrimination appears only in tasks where participants are asked to name the shades aloud before they respond, and nowhere else in the experiment.",
+          "C) The faster discrimination is larger in tasks that require participants to hold the shades in memory for several seconds than in tasks requiring immediate comparison.",
+          "D) Speakers who learn the language later in life show the same faster discrimination as speakers who acquired it in early childhood, according to follow-up studies."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The 'tool' reading says language is consulted during the task, so occupying verbal resources should erase the effect (as paragraph 3 reports). If the effect survives verbal interference, language is not being consulted as a removable tool, and the interpretation is damaged.<br><br>• <strong>Why Option B is Wrong:</strong> Appearing only when participants name the shades aloud is exactly what the tool reading predicts, since naming means consulting language. It supports rather than challenges the reading.<br><br>• <strong>Why Option C is Wrong:</strong> A larger effect in memory tasks is consistent with a tool used during the task (the passage says differences appear in tasks demanding fine discrimination or memory); it does not separate the two readings.<br><br>• <strong>Why Option D is Wrong:</strong> Equal effects for late and early learners say nothing about whether the effect depends on verbal resources during the task, so the tool reading is untouched.<br><br><strong>💡 Approach:</strong> To weaken an interpretation, find its distinctive prediction (effect vanishes under verbal interference) and look for the finding that violates it. Options that merely fit or are neutral are traps."
+      },
+      {
+        "id": "q2",
+        "question": "In paragraph 4, the sentence beginning 'The ease of paraphrase can nevertheless be overstated' serves chiefly to:",
+        "options": [
+          "A) retract the claim that translation loses connotation and register rather than concepts, so that untranslatable words are admitted to be real after all",
+          "B) show that translators are prone to errors that would be avoided if they gave up paraphrase in favour of single-word equivalents in all circumstances",
+          "C) prove that English speakers think less often about pleasure at another's misfortune because their language has no single word for it",
+          "D) concede that being able to paraphrase a concept does not rule out a weak influence of language on what it is convenient to think about"
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The author has just argued that concepts survive translation. The 'nevertheless' sentence concedes a limit: a concept needing a whole sentence is mentioned, and perhaps thought of, less often, which is the weak form of relativity (what is convenient to think), not an inability to think.<br><br>• <strong>Why Option A is Wrong:</strong> The author does not retract the claim; paragraph 4 still says the loss is 'cultural rather than cognitive' and that the concept itself is seldom lost.<br><br>• <strong>Why Option B is Wrong:</strong> Nothing in the paragraph criticises translators or recommends single-word equivalents; this introduces an unrelated claim.<br><br>• <strong>Why Option C is Wrong:</strong> 'Prove' is far too strong: the author says 'perhaps thought about less', a possibility, and the English example was used earlier to show English speakers do grasp the idea.<br><br><strong>💡 Approach:</strong> Function-of-a-sentence questions: read the sentence before it and the sentence after it. The word 'nevertheless' signals a concession, not a reversal of the author's main point."
+      },
+      {
+        "id": "q3",
+        "question": "The author states that 'the absence of evidence of influence is not evidence of its absence' (paragraph 5) in order to argue that:",
+        "options": [
+          "A) language must be shaping thought about morality, kinship and the self, because researchers have not been able to demonstrate otherwise",
+          "B) the physical world supplies no common standard, which is why experiments on colour, space and number should be disregarded altogether",
+          "C) the lack of measured effects in domains such as morality reflects a limit of method, not a finding that language has no influence there",
+          "D) researchers have deliberately avoided domains where language might have the largest effects in order to protect their favoured conclusions"
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The author says that where there is no external yardstick, no measured influence cannot be read as no influence. The silence of the research programme there reflects what its methods can see.<br><br>• <strong>Why Option A is Wrong:</strong> This turns the author's point into its opposite: it treats absence of evidence as evidence of presence. The author only denies that absence of evidence shows absence.<br><br>• <strong>Why Option B is Wrong:</strong> The author says the physical world supplies a standard in those domains, which makes them measurable; nothing suggests disregarding such experiments.<br><br>• <strong>Why Option D is Wrong:</strong> The passage attributes the pattern to methods determining what a field can see, not to deliberate avoidance or motives.<br><br><strong>💡 Approach:</strong> Distinguish 'cannot conclude absence' from 'conclude presence'. Distractors either flip the logic or add a motive the author never alleges."
+      },
+      {
+        "id": "q4",
+        "question": "The author's remark that 'a field's methods determine its findings by determining what it is able to see' is most closely paralleled by which of the following?",
+        "options": [
+          "A) A detective who suspects the nearest neighbour because that neighbour has the weakest alibi of everyone living on the street",
+          "B) A search party that combs only the lit meadow because the dark forest is hard to search, then reports that the missing child is not nearby",
+          "C) A cartographer who leaves unsurveyed regions blank and labels them 'unknown' on the published map so that readers are not misled",
+          "D) A chemist who repeats an experiment ten times, obtains the same result each time, and publishes it with the full procedure attached for others"
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The search party's method (search only where it is easy to look) determines its finding (child not nearby), and the silence about the forest is mistaken for absence. This mirrors a field that finds effects only where they can be measured and treats silence elsewhere as a finding.<br><br>• <strong>Why Option A is Wrong:</strong> The detective reasons from a weak alibi, which is a (perhaps poor) clue about guilt; no limitation of method is mistaken for a finding.<br><br>• <strong>Why Option C is Wrong:</strong> The cartographer is careful: unsurveyed regions are explicitly marked unknown. This is the opposite of confusing a limit of method with a finding.<br><br>• <strong>Why Option D is Wrong:</strong> Replication under the same procedure is a sound practice and involves no blindness caused by the method.<br><br><strong>💡 Approach:</strong> For parallel-reasoning questions, state the abstract structure first: 'method limits what is seen, and the limit is mistaken for a result'. Then reject options with only surface similarity (searching, mapping, experiments)."
+      },
+      {
+        "id": "q5",
+        "question": "All of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) Speakers of a language with more colour terms outperform speakers of other languages in every colour-discrimination task, whatever else they are doing.",
+          "B) The experimental findings on compass-direction languages can be explained without assuming that language restructures perception, since cultural practice may drive both.",
+          "C) Even if grammatical obligations influence thinking only at the moment of speaking, some scholars would still count this as a genuine form of linguistic influence.",
+          "D) The popularity of the strong claim owes something to its flattering picture of cultural diversity, according to the author, not simply to the strength of evidence."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The passage says differences shrink or vanish when participants are verbally occupied (paragraph 3) and are mainly differences in speed, so 'every task, whatever else they are doing' contradicts it. This is the statement that cannot be inferred.<br><br>• <strong>Why Option B is Wrong:</strong> Paragraph 2 gives exactly this alternative reading: practice of a valued skill may cause both the vocabulary and the behaviour.<br><br>• <strong>Why Option C is Wrong:</strong> Paragraph 6 reports that some scholars argue the constant obligation to attend to certain features, though confined to speech, is a real form of influence.<br><br>• <strong>Why Option D is Wrong:</strong> Paragraph 7 says the strong claim's moral appeal, flattering cultural diversity, tempts writers to keep it.<br><br><strong>💡 Approach:</strong> In EXCEPT questions three options are supported and one is not. Check each against a specific paragraph; the odd one out is usually an absolute ('every', 'whatever') that the text qualifies."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following best summarises the author's overall position?",
+        "options": [
+          "A) Linguistic determinism has been refuted by experiment, and relativity, which has replaced it, shows that language deeply and permanently restructures thought in each speaker",
+          "B) Research on language and thought is so limited by its methods and so open to rival explanations that it has taught us nothing and should be set aside",
+          "C) Translation shows that concepts cross languages freely, so that language has no influence on thought and experimental claims to the contrary are mistaken",
+          "D) The strong claim is false and the weak claim modest; the productive question concerns which specific habits of attention language induces and how durable they are"
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 7 states that the strong claim is false, the weak claim true but unremarkable, and what remains interesting are the specific habits induced by grammatical obligations and their durability and significance.<br><br>• <strong>Why Option A is Wrong:</strong> Determinism is rejected partly on grounds of translation, not 'refuted by experiment', and the author denies that the effects are deep or permanent (the 'tool' argument).<br><br>• <strong>Why Option B is Wrong:</strong> The author calls the evidence modest but real, and concludes that the weak claim is true and that sceptics who dismiss it altogether commit an error.<br><br>• <strong>Why Option C is Wrong:</strong> The author says the loss in translation is cultural and allows that language may still influence what is convenient to think; 'no influence' is the sceptics' error the author warns against.<br><br><strong>💡 Approach:</strong> Summary questions: the correct option reflects both halves of the author's balanced conclusion. Options that go to either extreme (deep and permanent, or nothing at all) are typical traps."
+      }
+    ]
   }
 ]
