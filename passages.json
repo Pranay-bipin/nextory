@@ -4824,5 +4824,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 7 states that the strong claim is false, the weak claim true but unremarkable, and what remains interesting are the specific habits induced by grammatical obligations and their durability and significance.<br><br>• <strong>Why Option A is Wrong:</strong> Determinism is rejected partly on grounds of translation, not 'refuted by experiment', and the author denies that the effects are deep or permanent (the 'tool' argument).<br><br>• <strong>Why Option B is Wrong:</strong> The author calls the evidence modest but real, and concludes that the weak claim is true and that sceptics who dismiss it altogether commit an error.<br><br>• <strong>Why Option C is Wrong:</strong> The author says the loss in translation is cultural and allows that language may still influence what is convenient to think; 'no influence' is the sceptics' error the author warns against.<br><br><strong>💡 Approach:</strong> Summary questions: the correct option reflects both halves of the author's balanced conclusion. Options that go to either extreme (deep and permanent, or nothing at all) are typical traps."
       }
     ]
+  },
+  {
+    "id": "rc-2026-10-12",
+    "date": "2026-10-12",
+    "title": "Eyewitness Memory, Confidence, and the Courtroom Problem of Certainty",
+    "genre": "Psychology & Law",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1013 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "Credulity",
+          "type": "noun",
+          "def": "A tendency to believe things too readily.",
+          "ex": "The scam relied on the credulity of its victims."
+        },
+        {
+          "word": "Reconstructive",
+          "type": "adj",
+          "def": "Rebuilding something from parts or fragments rather than reproducing it exactly.",
+          "ex": "Memory is reconstructive, not a recording."
+        },
+        {
+          "word": "Peripheral",
+          "type": "adj",
+          "def": "Of secondary importance; on the edge of the main focus.",
+          "ex": "He ignored the peripheral details of the case."
+        },
+        {
+          "word": "Contaminate",
+          "type": "verb",
+          "def": "To make impure or unreliable by adding something unwanted.",
+          "ex": "Leading questions can contaminate a witness’s account."
+        },
+        {
+          "word": "Exonerate",
+          "type": "verb",
+          "def": "To clear someone of blame or a criminal charge.",
+          "ex": "New evidence exonerated the accused."
+        },
+        {
+          "word": "Fallibility",
+          "type": "noun",
+          "def": "The tendency to make mistakes or be wrong.",
+          "ex": "The fallibility of memory is well documented."
+        },
+        {
+          "word": "Inflate",
+          "type": "verb",
+          "def": "To increase something beyond its true or proper size.",
+          "ex": "Praise can inflate a person’s confidence."
+        },
+        {
+          "word": "Discriminate",
+          "type": "verb",
+          "def": "To recognise a distinction between things.",
+          "ex": "Witnesses must discriminate between similar faces."
+        },
+        {
+          "word": "Scepticism",
+          "type": "noun",
+          "def": "A doubting attitude towards claims presented as true.",
+          "ex": "His scepticism led him to demand proof."
+        },
+        {
+          "word": "Salient",
+          "type": "adj",
+          "def": "Most noticeable or important.",
+          "ex": "The most salient feature of the plan was its cost."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "Beyond a shadow of a doubt",
+          "def": "With complete certainty.",
+          "ex": "The prosecution claimed guilt beyond a shadow of a doubt."
+        },
+        {
+          "idiom": "Take with a pinch of salt",
+          "def": "To treat a claim with some scepticism.",
+          "ex": "Take the witness’s confidence with a pinch of salt."
+        },
+        {
+          "idiom": "Cut both ways",
+          "def": "To have both good and bad effects.",
+          "ex": "Stricter procedures can cut both ways."
+        },
+        {
+          "idiom": "Tip the scales",
+          "def": "To change a balance of opinion or outcome decisively.",
+          "ex": "One confident witness can tip the scales."
+        },
+        {
+          "idiom": "Hindsight is twenty-twenty",
+          "def": "Past events are easier to understand once they are known.",
+          "ex": "Hindsight is twenty-twenty, but the warning signs were there."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Weigh up",
+          "def": "To consider the merits of something carefully.",
+          "ex": "Jurors must weigh up all the evidence."
+        },
+        {
+          "verb": "Single out",
+          "def": "To choose one person or thing from a group.",
+          "ex": "The witness singled out the man in the second row."
+        },
+        {
+          "verb": "Come across as",
+          "def": "To give a particular impression.",
+          "ex": "Confident witnesses come across as reliable."
+        },
+        {
+          "verb": "Back up",
+          "def": "To support or confirm something.",
+          "ex": "DNA evidence backed up his alibi."
+        },
+        {
+          "verb": "Turn out",
+          "def": "To prove to be the case in the end.",
+          "ex": "The identification turned out to be mistaken."
+        }
+      ]
+    },
+    "passage": "Few forms of evidence move a jury as powerfully as a witness who points at the defendant and says, “That is the man.” Courts have relied on such testimony for centuries, on the intuition that memory works like a recording: events are stored and, with sufficient effort, replayed. Psychological research over the past half-century has undermined this picture. Remembering is reconstructive: the mind stores fragments and rebuilds an episode at recall, filling gaps with expectation, inference and information acquired afterwards. A reconstruction can be vivid, detailed and confidently held while being wrong in ways the rememberer cannot detect, which is precisely what makes it dangerous in a courtroom. The danger is compounded by the fact that the witness is usually sincere: a liar can be cross-examined, but a sincere witness who is mistaken has no reason to doubt himself, and the court has little to go on except his manner.\n\nThe best-known demonstrations concern suggestion. In classic experiments, participants who watched film of a traffic accident gave higher speed estimates when asked how fast the cars were going when they “smashed” into each other than when the verb was “hit”, and a week later were more likely to report having seen broken glass that was not in the film. This “misinformation effect” shows that post-event information can be absorbed into memory, so that a later question becomes part of the remembered event. The legal implications are plain: every interview, every photograph shown and every conversation with other witnesses may contaminate the evidence before it reaches the courtroom. Yet the reach of these findings is easy to overstate. Many of the experiments involve peripheral details, such as a piece of glass or a street sign, rather than central ones such as a face, and contamination appears weakest for what a witness attended to most closely.\n\nThe most contested question is the relationship between confidence and accuracy. For decades, reviews concluded that a witness’s confidence in an identification is a poor guide to its accuracy, and jurors, who find confident witnesses more persuasive, were accused of being systematically misled. More recent work qualifies this. When an identification is made at the first attempt, from a fair lineup, by a witness not yet contaminated by suggestion, high confidence is a strong indicator of accuracy. The difficulty is that these conditions are seldom met by the time a case is heard. At trial, confidence has often been inflated by feedback, repeated questioning and the simple act of having committed to a choice, while accuracy, of course, has not changed. Confidence is thus a good signal when first recorded under clean conditions and a poor one when displayed in court; the same word describes two different measurements.\n\nProcedural reform has been the main practical response. Double-blind lineups, in which the officer administering the lineup does not know which person is the suspect, remove the unintentional cues that can steer a witness. Fillers who match the witness’s description, clear warnings that the culprit may not be present, and immediate recording of the witness’s confidence are cheap changes that most researchers endorse. Other reforms are less settled. Whether suspects should be shown simultaneously or one at a time was long debated: sequential presentation appeared to reduce false identifications, but later analyses suggested that it also reduces correct ones, so the apparent gain in caution may be a shift in willingness to choose rather than an improvement in discrimination. A reform that merely makes witnesses more reluctant to identify anyone will reduce mistaken convictions only by also reducing correct ones, and whether that trade is desirable is a question of values, not of psychology.\n\nCritics raise a different objection to the whole project: laboratory findings, obtained from students watching staged events with nothing at stake, cannot be transferred to real witnesses who are frightened, motivated and questioned about events of real consequence. The objection has force, since stress and the presence of a weapon, which draws attention away from the face, are hard to reproduce ethically. But its direction is not obvious. Some real-world evidence, notably the many convictions later overturned by DNA analysis in which a mistaken identification played a part and which have prompted many legal systems to revisit their procedures, suggests that errors in the field can be at least as serious as errors in the laboratory. One cannot, however, treat these exonerations as a representative sample: they are cases in which biological evidence happened to survive, and they reveal that identifications can be wrong, not how often they typically are.\n\nA further complication lies in what the law asks of the research. Courts must decide whether this identification, by this witness, is reliable, whereas psychology speaks in probabilities about classes of witnesses under classes of conditions. Expert testimony on memory is meant to bridge the gap, but it can only describe what tends to happen; it cannot say what happened here. Some judges therefore exclude it as unhelpful, reasoning that jurors need no instruction in the fallibility of memory. The research suggests the reverse: jurors’ intuitions about memory are often inaccurate, and in particular they tend to believe that confidence and accuracy track each other closely, when the relation depends on conditions they cannot see. Yet an expert who explains this risks swinging the jury from excessive credulity to excessive scepticism, which is a distortion of its own.\n\nThe deepest lesson may concern the structure of the problem. Memory evidence differs from a fingerprint in that the witness is both the instrument and the reporter: the same mind that records the event also decides how sure to be, and the certainty it reports is shaped by everything that happens afterwards. Legal systems cannot dispense with witnesses, since many crimes leave no other trace. The realistic goal is therefore not to abolish testimony but to treat it as evidence whose weight depends on how it was collected, and to preserve the earliest, cleanest record of it. A procedure that does so makes honest witnesses more useful; one that does not makes them more dangerous, however sincere they are.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following, if true, would most weaken the author’s claim that confidence displayed at trial is a poor guide to accuracy?",
+        "options": [
+          "A) Jurors who hear confident witnesses are more likely to convict than jurors who hear hesitant witnesses, even when other evidence in the two cases is identical.",
+          "B) Witnesses who are given positive feedback after identifying a suspect report higher confidence at trial than witnesses who receive no feedback after the lineup.",
+          "C) Where a first identification was made under clean conditions, confidence at trial is almost always the same as the confidence first recorded.",
+          "D) Confidence at trial is higher for witnesses who were questioned repeatedly before the hearing than for witnesses who were questioned only once beforehand."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The author’s reasoning is that trial confidence is inflated by feedback and repeated questioning while accuracy does not change. If trial confidence in fact matches the confidence first recorded under clean conditions, it carries the same information as that reliable early signal, so the claim is undermined.<br><br>• <strong>Why Option A is Wrong:</strong> This concerns how jurors respond to confidence, not whether confidence tracks accuracy, so it neither weakens nor strengthens the claim.<br><br>• <strong>Why Option B is Wrong:</strong> This supports the author: feedback inflates confidence without improving accuracy.<br><br>• <strong>Why Option D is Wrong:</strong> This too supports the author, since repeated questioning is named as a source of inflated confidence.<br><br><strong>💡 Approach:</strong> To weaken, attack the mechanism the author gives (inflation between the first identification and trial). Options that repeat or fit the mechanism are strengtheners, and juror behaviour is irrelevant to the accuracy question."
+      },
+      {
+        "id": "q2",
+        "question": "The author notes that sequential lineups may reduce correct identifications as well as false ones (paragraph 4) in order to:",
+        "options": [
+          "A) prove that sequential lineups should be abandoned in favour of simultaneous lineups in every jurisdiction that currently permits them to be used",
+          "B) show that an apparent gain in caution may be a mere shift in willingness to choose, so that choosing between reforms is a matter of values",
+          "C) argue that psychology has no useful contribution to make to the design of police procedures concerning the identification of suspects at all",
+          "D) suggest that double-blind administration, unlike sequential presentation, should be regarded as an unsettled reform among researchers"
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author says the apparent gain may be a shift in willingness to choose rather than better discrimination, and that whether the trade between mistaken and correct identifications is desirable is a question of values, not of psychology.<br><br>• <strong>Why Option A is Wrong:</strong> The author never recommends abandoning sequential lineups; the point is about interpreting their effect.<br><br>• <strong>Why Option C is Wrong:</strong> The author credits psychology with several uncontroversial reforms (double-blind lineups, fillers, warnings); the claim is only that one trade-off is evaluative.<br><br>• <strong>Why Option D is Wrong:</strong> Double-blind administration is listed among the reforms most researchers endorse, so it is not unsettled; the option inverts the paragraph.<br><br><strong>💡 Approach:</strong> Purpose questions: find the point the author draws immediately after the fact. Here it is the last sentence of the paragraph."
+      },
+      {
+        "id": "q3",
+        "question": "The author cautions against treating DNA exonerations as a representative sample. Which of the following conclusions is therefore best supported?",
+        "options": [
+          "A) Mistaken identifications are rare in real cases, since most convictions that rest on them are never overturned by any later analysis",
+          "B) Laboratory findings about misidentification should be set aside in favour of the evidence from real cases in which biological material survived",
+          "C) Errors in the field are likely to be less serious than errors in the laboratory, since the exonerations involve only a small number of cases",
+          "D) The exonerations show that identifications can be wrong in real cases, but they do not indicate how often identifications are wrong in general"
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The author says the exonerations come from cases in which biological evidence happened to survive, and that they reveal that identifications can be wrong, not how often they typically are.<br><br>• <strong>Why Option A is Wrong:</strong> Unexamined convictions may include many errors; absence of overturning is not evidence of accuracy. The author draws no such conclusion.<br><br>• <strong>Why Option B is Wrong:</strong> The author uses the exonerations to question the critics’ objection, not to discard laboratory research; the paragraph defends the research’s relevance.<br><br>• <strong>Why Option C is Wrong:</strong> The author says errors in the field can be at least as serious as in the laboratory; the small number of cases is not claimed to show less serious errors.<br><br><strong>💡 Approach:</strong> A non-representative sample supports existence claims ('can happen') but not frequency claims ('how often'). Look for the option that respects that limit."
+      },
+      {
+        "id": "q4",
+        "question": "The author’s point that a reform which merely makes witnesses more reluctant to identify anyone reduces mistaken convictions only by also reducing correct ones is most closely paralleled by:",
+        "options": [
+          "A) A smoke alarm made less sensitive so that it stops sounding for burnt toast, but which now also fails in some real fires",
+          "B) A teacher who marks all examinations twice and awards the average, which reduces the effect of any single careless marker in the school",
+          "C) A bank that checks the identity of every customer in person, which prevents fraud and also reassures honest customers",
+          "D) A pharmacist who discontinues a medicine because a cheaper and equally effective drug has become available on the market"
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Lowering the willingness to respond cuts false alarms and misses together: it trades errors of one kind for errors of another, which is the structure of the lineup point.<br><br>• <strong>Why Option B is Wrong:</strong> Double marking reduces random error without trading one error for another.<br><br>• <strong>Why Option C is Wrong:</strong> Checking identity reduces fraud without any compensating loss of correct outcomes; it is a pure gain.<br><br>• <strong>Why Option D is Wrong:</strong> Replacing a medicine with an equal and cheaper one involves no trade-off between two kinds of error.<br><br><strong>💡 Approach:</strong> Extract the structure first: a shift in threshold that lowers one error and raises another. Then reject options where both outcomes improve or there is no error trade-off."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following can be inferred about the misinformation effect from the passage?",
+        "options": [
+          "A) It proves that eyewitnesses cannot be trusted about any detail of an event after they have been questioned about it by officials",
+          "B) It is confined to laboratory settings, because real witnesses are too frightened and too motivated to be influenced by later questions",
+          "C) Its practical importance depends in part on whether the details affected are peripheral to what the witness attended to",
+          "D) It has been shown to be weakest for suspects’ faces, since faces are always attended to more closely than anything else"
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The author says many experiments involve peripheral details and that contamination appears weakest for what the witness attended to most closely, so how far the effect matters depends on the kind of detail.<br><br>• <strong>Why Option A is Wrong:</strong> 'Proves', 'cannot be trusted about any detail' overstate; the author warns the findings are easy to overstate.<br><br>• <strong>Why Option B is Wrong:</strong> The objection about laboratory settings is raised by critics, and the author doubts its direction rather than endorsing it.<br><br>• <strong>Why Option D is Wrong:</strong> The passage says contamination is weakest for what was attended to most closely and mentions faces as a central detail, but 'always attended to more closely than anything else' and 'shown to be weakest for faces' go beyond the text.<br><br><strong>💡 Approach:</strong> Prefer the option that carries the same qualification the passage does ('in part', 'depends'). Absolutes ('proves', 'always', 'any') are usually the trap."
+      },
+      {
+        "id": "q6",
+        "question": "The author would most likely agree that expert testimony on memory:",
+        "options": [
+          "A) should be excluded because jurors already understand that memory is fallible and need no instruction from specialists in psychology",
+          "B) is justified by mistaken juror intuitions but must be given carefully, lest credulity be replaced by an equally distorting scepticism",
+          "C) can tell the court whether a particular witness’s identification in the case at hand is accurate, because it is based on scientific research",
+          "D) is unnecessary once reforms such as double-blind lineups have been adopted, since these remove the causes of misidentification"
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 6 says jurors’ intuitions are often inaccurate (supporting such testimony) but that an expert risks swinging the jury from credulity to scepticism, a distortion of its own.<br><br>• <strong>Why Option A is Wrong:</strong> This is the reasoning of the judges mentioned, which the author says the research contradicts.<br><br>• <strong>Why Option C is Wrong:</strong> The author says expert testimony can only describe what tends to happen and cannot say what happened here.<br><br>• <strong>Why Option D is Wrong:</strong> Reforms improve the collection of evidence but do not remove juror misconceptions; the author nowhere says they make expert testimony unnecessary.<br><br><strong>💡 Approach:</strong> When the author reports a view and then says 'the research suggests the reverse', the reported view is a distractor. The correct option contains both the support and the caveat."
+      }
+    ]
   }
 ]
