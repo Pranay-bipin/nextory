@@ -5025,5 +5025,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 6 says jurors’ intuitions are often inaccurate (supporting such testimony) but that an expert risks swinging the jury from credulity to scepticism, a distortion of its own.<br><br>• <strong>Why Option A is Wrong:</strong> This is the reasoning of the judges mentioned, which the author says the research contradicts.<br><br>• <strong>Why Option C is Wrong:</strong> The author says expert testimony can only describe what tends to happen and cannot say what happened here.<br><br>• <strong>Why Option D is Wrong:</strong> Reforms improve the collection of evidence but do not remove juror misconceptions; the author nowhere says they make expert testimony unnecessary.<br><br><strong>💡 Approach:</strong> When the author reports a view and then says 'the research suggests the reverse', the reported view is a distractor. The correct option contains both the support and the caveat."
       }
     ]
+  },
+  {
+    "id": "rc-2026-10-13",
+    "date": "2026-10-13",
+    "title": "Density, Preservation, and the Politics of Who Gets to Live in the City",
+    "genre": "Urban Economics & Public Policy",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1000 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "Agglomeration",
+          "type": "noun",
+          "def": "A clustering together of many things or activities in one place.",
+          "ex": "Agglomeration of firms raised wages in the city."
+        },
+        {
+          "word": "Spillover",
+          "type": "noun",
+          "def": "An indirect effect that benefits others beyond those directly involved.",
+          "ex": "Knowledge spillovers help neighbouring firms."
+        },
+        {
+          "word": "Incumbent",
+          "type": "noun",
+          "def": "A person currently holding a position or right.",
+          "ex": "Incumbents often resist new entrants."
+        },
+        {
+          "word": "Counterfactual",
+          "type": "noun",
+          "def": "A statement of what would have happened had circumstances been different.",
+          "ex": "The counterfactual is unobservable."
+        },
+        {
+          "word": "Diffuse",
+          "type": "adj",
+          "def": "Spread over a wide area or among many people; not concentrated.",
+          "ex": "The benefits are diffuse and hard to notice."
+        },
+        {
+          "word": "Fabric",
+          "type": "noun",
+          "def": "The underlying structure or character of something.",
+          "ex": "The social fabric of the district changed."
+        },
+        {
+          "word": "Squalor",
+          "type": "noun",
+          "def": "A state of being dirty and unpleasant from neglect or poverty.",
+          "ex": "Reformers condemned the squalor of the slums."
+        },
+        {
+          "word": "Benign",
+          "type": "adj",
+          "def": "Gentle or harmless in effect.",
+          "ex": "The effect of the policy was benign."
+        },
+        {
+          "word": "Ruinous",
+          "type": "adj",
+          "def": "Disastrous or causing destruction.",
+          "ex": "The ruinous cost of the project bankrupted the firm."
+        },
+        {
+          "word": "Asymmetry",
+          "type": "noun",
+          "def": "A lack of equality or equivalence between two parts or sides.",
+          "ex": "There is an asymmetry between losers and winners."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "Out of sight, out of mind",
+          "def": "Things not seen are soon forgotten.",
+          "ex": "Prevented harms are out of sight, out of mind."
+        },
+        {
+          "idiom": "Not in my backyard",
+          "def": "Opposition to a development near one's own home, though accepting it elsewhere.",
+          "ex": "The project met a not-in-my-backyard response."
+        },
+        {
+          "idiom": "Cut both ways",
+          "def": "To have both positive and negative effects.",
+          "ex": "Density cuts both ways."
+        },
+        {
+          "idiom": "Pull the rug from under",
+          "def": "To suddenly withdraw support from someone.",
+          "ex": "The ruling pulled the rug from under the builders."
+        },
+        {
+          "idiom": "A blind spot",
+          "def": "An area in which one is unable to see or understand something.",
+          "ex": "Every theory has a blind spot."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Crowd out",
+          "def": "To exclude or displace by taking up space or resources.",
+          "ex": "High rents crowd out poorer residents."
+        },
+        {
+          "verb": "Priced out",
+          "def": "To be unable to afford something because its price has risen.",
+          "ex": "Many families were priced out of the district."
+        },
+        {
+          "verb": "Tear down",
+          "def": "To demolish a building.",
+          "ex": "The council tore down the old towers."
+        },
+        {
+          "verb": "Hold back",
+          "def": "To restrain or prevent from progressing.",
+          "ex": "Zoning rules held back new building."
+        },
+        {
+          "verb": "Weigh against",
+          "def": "To count as a reason not to do something.",
+          "ex": "The costs weigh against the proposal."
+        }
+      ]
+    },
+    "passage": "Cities exist because people and firms gain from proximity. Economists call these gains agglomeration economies and trace them to three sources: shared inputs, such as ports and specialised suppliers, which are cheaper to maintain for many firms than for a few; a deep labour market, in which workers and employers find better matches; and knowledge spillovers, in which ideas pass between people who meet. These forces help explain why wages in large cities exceed those in small ones even after adjusting for differences in workers’ skills, and why the premium has persisted despite the falling cost of transporting goods and, more recently, of transmitting information. If communications technology were a perfect substitute for proximity, cities would have emptied. They did not, which suggests that some of what proximity provides cannot be sent through a wire.\n\nThe benefits, however, come with costs, and the costs are often borne by people other than those who enjoy the benefits. Density raises land prices; congestion slows movement; and crowded places transmit disease more readily, a fact that earlier centuries of epidemics made plain and that recent experience restored to public attention. Whether a given city is too dense or too sparse is therefore not a question with a single answer. Economists describe the optimum as the point at which the marginal benefit of one more resident equals the marginal cost, but neither marginal quantity is observed directly, and both change as technology and tastes change. A level of density that was ruinous in a city of coal fires and horse-drawn traffic may be benign in one of electric trains.\n\nPlanning in the twentieth century treated these costs as the central problem. Modernist planners, impressed by the squalor of industrial slums, proposed to separate functions, with housing here, work there and recreation elsewhere, and to reduce density through towers set in open space and roads built for cars. Their critics, most famously the writer Jane Jacobs, argued that this treated a city as a machine to be designed rather than an organism that grows. Lively streets, she said, depend on mixed uses, short blocks, buildings of different ages and enough people to keep the pavement in use at all hours; the very features that planners regarded as disorder produced the informal surveillance that made streets safe and the diversity that made them interesting. The argument was empirical as much as aesthetic, and history gave it considerable support: many of the large projects that embodied the modernist ideal deteriorated, and some were demolished within decades.\n\nYet the Jacobs view, in its popular form, has a blind spot of its own. It tends to treat the existing fabric of a lively neighbourhood as something to be preserved, and preservation has a price. When a desirable district restricts new construction, whether through height limits, minimum lot sizes or lengthy approval procedures, the demand to live there does not disappear; it expresses itself in higher rents, and those who can pay them displace those who cannot. The neighbourhood is preserved in form while being transformed in population. Defenders of tight controls reply that unrestricted building would destroy the very qualities that made the place attractive, and that existing residents have legitimate claims to the neighbourhood they helped create. Both points have weight. But the first quietly assumes that new construction must resemble the worst of the past, and the second treats the interests of incumbents as decisive without asking about the interests of those who are not yet residents and therefore have no vote.\n\nThis last observation points to the political structure of the problem. The costs of new housing are concentrated and visible: construction noise, shadows, more traffic on a particular street. The benefits are diffuse and mostly invisible: slightly lower rents across a whole metropolitan area, enjoyed by people who cannot know that they have benefited. Where decisions on land use are made at the most local level, the concentrated losers are better organised than the diffuse winners, and the result is predictable. Some economists therefore favour moving authority upward, to regional or national governments, which weigh benefits that local bodies ignore. Others reply that this solves the political problem at the price of a knowledge problem: local residents know things about their streets that distant authorities do not, and a rule applied everywhere may suit nowhere.\n\nEmpirical evidence on the effect of new supply is mixed and often misread. Studies of new buildings have found that adding market-rate housing in a neighbourhood tends to reduce rents in nearby older buildings relative to comparable areas where nothing was built, which is consistent with simple supply and demand. But a finding that rents are lower than they would otherwise have been is a counterfactual claim, and counterfactuals are hard to see: a resident watching rents rise in a district where building has begun may reasonably conclude that building caused the rise, when it may only have been slower than the demand that prompted it. This asymmetry between what is seen and what is not seen gives each side in the debate material for its case. Those who oppose building point to the rent increases they can see; those who favour it point to the increases that did not occur, which no one can see.\n\nThe better conclusion is that density is neither a virtue nor a vice, but a variable whose value depends on what accompanies it. Dense districts with good transport, a mix of uses and adequate public services can be both productive and pleasant; dense districts without them are crowded and unhealthy. Equally, low density protects some people at the expense of others, a fact its defenders often leave unstated. A city that treats all change as a threat will in time become a museum, admired by visitors and unaffordable to workers; one that treats all change as progress will forget what made it worth living in. Policy should be judged by whom it asks to bear costs and whom it allows to share the gains.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following, if true, would most weaken the inference in paragraph 1 that some of what proximity provides cannot be sent through a wire?",
+        "options": [
+          "A) The wage premium in large cities is larger for workers in occupations that require frequent face-to-face meetings with clients than for other workers.",
+          "B) Surveys of firms show that managers in large cities rate chance meetings with workers from other firms as a major source of new ideas.",
+          "C) Ports and specialised suppliers remain concentrated in large cities because the equipment they use is too costly to be duplicated in many places.",
+          "D) Most firms remain in large cities only because leases and relocation costs make leaving expensive, and many are moving out as their leases expire."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The inference is that cities did not empty because proximity offers something transmission cannot. If firms stay only because exit is costly and are leaving as soon as costs lapse, their persistence no longer shows that proximity provides something irreplaceable, so the inference is weakened.<br><br>• <strong>Why Option A is Wrong:</strong> A larger premium for face-to-face occupations supports the idea that some benefits need presence.<br><br>• <strong>Why Option B is Wrong:</strong> Chance meetings as a source of ideas is the knowledge-spillover channel, which supports the inference.<br><br>• <strong>Why Option C is Wrong:</strong> This explains concentration through a shared-input channel that does not depend on communications at all; it neither supports nor undermines the claim about what cannot be sent through a wire.<br><br><strong>💡 Approach:</strong> To weaken an inference, offer an alternative explanation for the observed fact. Here the fact is that cities did not empty; the alternative is that firms are merely locked in."
+      },
+      {
+        "id": "q2",
+        "question": "The author observes that ‘neither marginal quantity is observed directly’ (paragraph 2) in order to suggest that:",
+        "options": [
+          "A) the economists’ notion of an optimum density is meaningless and should be replaced by rules based on the preferences of planners",
+          "B) cities should aim for the lowest feasible density, since the costs of crowding are known to exceed the benefits of proximity",
+          "C) the best level of density cannot be read off from a simple formula and is likely to differ across places and times",
+          "D) technology has made the marginal costs of density negligible, so that cities no longer need to consider the question of limits"
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> Because neither the marginal benefit nor marginal cost is observed directly, and both change with technology and tastes, the optimum is hard to determine and varies, as the coal-and-horses versus electric-trains example illustrates.<br><br>• <strong>Why Option A is Wrong:</strong> The author uses the optimum concept and does not call it meaningless; the difficulty is measuring it.<br><br>• <strong>Why Option B is Wrong:</strong> The paragraph says the answer is not single and that density can be benign; it does not say costs are known to exceed benefits.<br><br>• <strong>Why Option D is Wrong:</strong> The author says costs remain and can differ with technology; they are not said to be negligible.<br><br><strong>💡 Approach:</strong> Match the claim to the specific difficulty mentioned: unobservable and changing quantities mean no fixed answer. Extreme options (always minimise, always ignore) are typical traps."
+      },
+      {
+        "id": "q3",
+        "question": "Which of the following best describes the author’s attitude to the view associated with Jane Jacobs?",
+        "options": [
+          "A) Respectful of its empirical force, but critical of a popular version that neglects the costs of preserving a neighbourhood as it is",
+          "B) Enthusiastic in endorsing it, since the author holds that the preservation of existing neighbourhoods serves the interests of all residents",
+          "C) Dismissive of it as a purely aesthetic preference that was disproved by the experience of the large modernist housing projects",
+          "D) Neutral, since the author reports the view and the objections to it without suggesting that either side has made a valid point"
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Paragraph 3 says the argument was empirical and received considerable support from history; paragraph 4 says its popular form has a blind spot, since preservation has a price in higher rents and displacement.<br><br>• <strong>Why Option B is Wrong:</strong> The author argues that preservation can displace poorer residents, so it does not serve all residents.<br><br>• <strong>Why Option C is Wrong:</strong> The author says the argument was empirical as much as aesthetic, and that history supported it; the modernist projects, not the Jacobs view, are said to have deteriorated.<br><br>• <strong>Why Option D is Wrong:</strong> The author states that the view has a blind spot and that both sides in the next debate have weight, so the attitude is not neutral.<br><br><strong>💡 Approach:</strong> Attitude questions: find both the praise and the criticism. The correct option is usually the balanced one that matches each."
+      },
+      {
+        "id": "q4",
+        "question": "The author’s criticism of the defenders’ second reply (that existing residents have legitimate claims) is that it:",
+        "options": [
+          "A) denies that residents have any claim to the neighbourhood they helped to create, and so misrepresents their interests",
+          "B) treats incumbents’ interests as decisive while ignoring prospective residents, who have no vote in the matter",
+          "C) assumes that unrestricted building would necessarily destroy the character of the neighbourhood in which it takes place",
+          "D) overlooks that approval procedures for new construction are often lengthy and add to the cost of every new unit built"
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author says the second point 'treats the interests of incumbents as decisive without asking about the interests of those who are not yet residents and therefore have no vote'.<br><br>• <strong>Why Option A is Wrong:</strong> The author concedes both points have weight and does not deny residents’ claims.<br><br>• <strong>Why Option C is Wrong:</strong> This is the first reply (unrestricted building would destroy qualities), which the author criticises for a different assumption.<br><br>• <strong>Why Option D is Wrong:</strong> The cost of approval procedures is mentioned in the paragraph, but not as a criticism of the second reply.<br><br><strong>💡 Approach:</strong> The author criticises the first and second replies differently. Keep track of which sentence belongs to which point."
+      },
+      {
+        "id": "q5",
+        "question": "The author’s point about ‘what is seen and what is not seen’ in the debate over rents is most closely paralleled by:",
+        "options": [
+          "A) A coach who selects the fastest runners for a relay team and then claims all the credit for the team’s win in the national final",
+          "B) A student who studies only the topics that appear on the syllabus and omits all others, and therefore passes the examination",
+          "C) A shopkeeper who discounts every item in the shop in the belief that a sale will bring in more customers than any other measure could in the town",
+          "D) A vaccination programme whose critics cite its visible side effects while the illnesses it prevented, which no one sees, go uncounted"
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Visible side effects are noticed while prevented illnesses are not, just as visible rent rises are noticed while the rises that did not occur are invisible. Each side has material for its case because one outcome is seen and the counterfactual is not.<br><br>• <strong>Why Option A is Wrong:</strong> This concerns selection and credit, not the invisibility of a counterfactual.<br><br>• <strong>Why Option B is Wrong:</strong> This concerns narrow preparation leading to success, with no hidden counterfactual.<br><br>• <strong>Why Option C is Wrong:</strong> This concerns a bet on a marketing strategy; nothing is seen versus unseen.<br><br><strong>💡 Approach:</strong> Extract the structure: visible harm versus invisible avoided harm. Reject options that share only a topic (teams, exams, sales)."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following can be inferred from the passage?",
+        "options": [
+          "A) Concentrated local opposition to housing may prevail even where the wider gains from new building exceed the local costs.",
+          "B) Moving land-use authority to regional governments would solve the political and the knowledge problems at the same time.",
+          "C) Adding new market-rate housing always reduces rents in nearby buildings, so that rises observed after construction must be a mistake.",
+          "D) High-density districts are unhealthy in all circumstances because crowded places transmit disease more readily than other places do."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Paragraph 5 says costs are concentrated and visible, benefits diffuse and invisible, and concentrated losers are better organised, so local decisions predictably favour the losers.<br><br>• <strong>Why Option B is Wrong:</strong> The passage says moving authority upward solves the political problem 'at the price of a knowledge problem', so it does not solve both.<br><br>• <strong>Why Option C is Wrong:</strong> 'Always' is too strong: the evidence is described as mixed, and rent rises may be real but smaller than they would otherwise have been.<br><br>• <strong>Why Option D is Wrong:</strong> Paragraph 7 says dense districts with good transport and services can be productive and pleasant, so 'unhealthy in all circumstances' contradicts it.<br><br><strong>💡 Approach:</strong> Inference questions reward the option that follows closely from a stated mechanism. Absolutes ('always', 'all circumstances', 'both at the same time') are warning signs."
+      }
+    ]
   }
 ]
