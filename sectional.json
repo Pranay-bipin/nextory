@@ -1,272 +1,202 @@
 [
   {
-    "id": "sec-2026-10-13",
-    "date": "2026-10-13",
-    "title": "IPMAT Indore VA Full Sectional Mock - Set 13 (Advanced Level)",
-    "durationMinutes": 45,
-    "totalQuestions": 20,
+    "id": "rc-2026-10-14",
+    "date": "2026-10-14",
+    "title": "Great Men, Structures, and the Discipline of Counterfactual History",
+    "genre": "Historiography & Social Science",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "997 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "Counterfactual",
+          "type": "adj",
+          "def": "Relating to what would have happened had circumstances been different.",
+          "ex": "A counterfactual argument asks what if the battle had been lost."
+        },
+        {
+          "word": "Unfalsifiable",
+          "type": "adj",
+          "def": "Incapable of being proved false by any possible evidence.",
+          "ex": "An unfalsifiable theory explains everything and therefore nothing."
+        },
+        {
+          "word": "Contingent",
+          "type": "adj",
+          "def": "Dependent on circumstances; not inevitable.",
+          "ex": "The outcome was contingent on a single decision."
+        },
+        {
+          "word": "Determinism",
+          "type": "noun",
+          "def": "The view that events are fixed by prior causes.",
+          "ex": "Structural determinism leaves little room for individual choice."
+        },
+        {
+          "word": "Hubris",
+          "type": "noun",
+          "def": "Excessive pride or self-confidence.",
+          "ex": "The general's hubris led to defeat."
+        },
+        {
+          "word": "Chronicle",
+          "type": "noun",
+          "def": "A factual written account of events in order of time.",
+          "ex": "The royal chronicle recorded every campaign."
+        },
+        {
+          "word": "Discretion",
+          "type": "noun",
+          "def": "The freedom to decide what should be done in a situation.",
+          "ex": "Officials have wide discretion in autocracies."
+        },
+        {
+          "word": "Inevitable",
+          "type": "adj",
+          "def": "Certain to happen; unavoidable.",
+          "ex": "Defeat seemed inevitable by winter."
+        },
+        {
+          "word": "Refutation",
+          "type": "noun",
+          "def": "The act of proving a claim wrong.",
+          "ex": "The theory withstood every refutation."
+        },
+        {
+          "word": "Humility",
+          "type": "noun",
+          "def": "A modest view of one's own importance or knowledge.",
+          "ex": "Good historians approach evidence with humility."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "The tide of history",
+          "def": "The broad forces that carry events along.",
+          "ex": "No ruler could stem the tide of history."
+        },
+        {
+          "idiom": "Turn the tables",
+          "def": "To reverse a situation so that one gains the advantage.",
+          "ex": "The reform turned the tables on the old elite."
+        },
+        {
+          "idiom": "A watershed moment",
+          "def": "A turning point after which things change.",
+          "ex": "The revolution was a watershed moment."
+        },
+        {
+          "idiom": "Pay lip service",
+          "def": "To express support in words without acting on it.",
+          "ex": "Leaders paid lip service to reform."
+        },
+        {
+          "idiom": "Hold sway",
+          "def": "To have influence or control.",
+          "ex": "Structural theories held sway for decades."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Bring about",
+          "def": "To cause something to happen.",
+          "ex": "Leaders can bring about change in a crisis."
+        },
+        {
+          "verb": "Play down",
+          "def": "To make something seem less important.",
+          "ex": "The memoir played down his own role."
+        },
+        {
+          "verb": "Stem from",
+          "def": "To originate from something.",
+          "ex": "The conflict stemmed from a succession dispute."
+        },
+        {
+          "verb": "Fall back on",
+          "def": "To rely on something when other options fail.",
+          "ex": "Historians fall back on counterfactuals."
+        },
+        {
+          "verb": "Carry over",
+          "def": "To transfer something to a different context.",
+          "ex": "Results from modern states may not carry over to earlier centuries."
+        }
+      ]
+    },
+    "passage": "Few questions in historical writing are as old, or as stubborn, as whether history is made by individuals or by forces. Thomas Carlyle held that the history of the world is the biography of great men. Tolstoy, in War and Peace, ridiculed the idea, arguing that Napoleon was carried by events rather than directing them, and that a leader who believes himself in command resembles a child holding the reins inside a carriage and imagining that he is driving it. Marxist and later structural historians sided with Tolstoy, and for much of the twentieth century the profession treated the great man as an embarrassment, a relic of the royal chronicle, in which the deeds of kings stood in for the experience of everyone else. In recent years, however, individuals have returned to serious scholarship, not as heroes but as variables: people whose presence or absence, it is argued, made a measurable difference, and whose influence can be estimated with the same statistical tools that are applied to economies and elections.\n\nThe question can be made sharper by asking what would have happened otherwise. Every claim that an individual mattered is a counterfactual claim: had Lenin not reached Petrograd in April 1917, or had a particular bullet missed a particular leader, events would have differed in some specified way. Historians have long distrusted counterfactuals as parlour games, but they cannot avoid them, since any statement of cause implies a comparison with a world in which the cause is absent. The real issue is not whether to reason counterfactually but how disciplined the reasoning is. A counterfactual is credible, on one influential account, when it requires changing very little, a minimal rewrite of the past, and when the world it describes is one that contemporaries thought possible. The more that must be altered to reach the imagined outcome, the less the exercise tells us.\n\nSocial scientists have tried to test the role of individuals with natural experiments. One strategy exploits chance: it examines leaders who died in accidents or from natural causes while in office, whose successors were therefore not selected for any trait connected to the country’s circumstances. A study of such cases found that the sudden replacement of a leader had measurable effects on economic growth in autocracies, but little in democracies, which suggests that individual discretion matters where institutions do not constrain it. The finding is elegant, but it carries limits. It measures the average effect of a leader across many cases, and so says little about any particular one; it covers a certain kind of event, accidental death, and a certain kind of outcome, growth rates; and it cannot distinguish a leader who changed a country from one who merely changed its statistics. Nor is it obvious that a result obtained for modern states can be carried back to earlier centuries, when the machinery of government was thinner and a ruler’s personal choices counted for more or, possibly, for less.\n\nDefenders of structural explanation reply that leaders are themselves products of structures. A revolutionary movement needs revolutionaries; had Lenin not existed, the argument goes, someone similar would have emerged to fill the position, because the conditions that created a demand for such a figure would also have supplied one. This line has force where conditions are strongly determining, but it risks becoming unfalsifiable. If every individual’s absence is answered by the claim that a substitute would have appeared, no evidence could ever show that a person mattered; the argument has been protected from refutation by being made too general. Moreover, even if a substitute appeared, the substitute would not have been the same person, and the differences between them, in timing, temperament and decisions, may be exactly what shaped events. A replaceable position does not imply a replaceable person.\n\nAnother distinction helps. Individuals can matter in at least three ways: by determining which of several possible outcomes occurs, by changing the timing of an outcome that was coming anyway, or by shaping the manner in which the outcome is reached. Debate often proceeds as though only the first counts, so that a leader who merely hastened or delayed what would have happened is dismissed as unimportant. But timing and manner are not trivial. A war that ends a year earlier, or a reform achieved by negotiation rather than bloodshed, differs profoundly in human terms, even if the long-run destination is the same. A historian who ignores such differences in the name of structural inevitability confuses what is statistically predictable with what is humanly negligible.\n\nA further difficulty is that the evidence is itself shaped by the beliefs under test. Memoirs, speeches and official histories are written by people with an interest in presenting their decisions as decisive or, when events went badly, as forced upon them by circumstance. Leaders claim credit for outcomes they merely witnessed and disown outcomes they caused. A historian who relies on such sources inherits their bias; one who discounts them discards the best evidence of what was considered and decided. There is no neutral position from which the documents can be read, and the choice between the great-man view and the structural view often precedes, rather than follows, the reading of the evidence.\n\nWhat emerges is less a contest with a winner than a division of labour. Structures set the range of what is possible and make some outcomes far more likely than others; individuals operate within that range, and matter most where the range is wide: at moments of crisis, when institutions are weak or contested, and when a decision must be made once and cannot be reversed. This is a more modest thesis than either Carlyle’s or Tolstoy’s, and it has an unwelcome consequence for both camps. If individuals matter unevenly, then no general answer to the question is possible, and every claim about a person’s importance must be argued case by case, with the discipline that the counterfactual method demands and the humility that the evidence requires.",
     "questions": [
       {
         "id": "q1",
-        "type": "RC",
-        "passage": "Ask what gives a banknote its value and the first answers are unsatisfying. It is not made of anything useful: a five-hundred-rupee note is a slip of treated paper that nobody could eat, wear or burn to advantage. It is, in the formula inscribed on Indian notes, a promise, though one whose fulfilment consists of nothing but another promise of the same kind. That people accept such a thing in exchange for their labour and goods suggests that money is less an object than a relationship, and that the interesting question is not what money is made of but what holds the relationship together.\n\nThe textbook account, which descends from Adam Smith and was refined by the Austrian economist Carl Menger in 1892, holds that money arose from barter. In a world of direct swaps, a person with a surplus of grain must find someone who both has what she wants and wants her grain, a double coincidence that is rarely satisfied. Traders therefore began to accept goods not for their own use but because others would accept them in turn, and the most widely accepted goods, such as salt, cattle or metals, hardened into money. The attraction of the account is that it requires no government: money emerges spontaneously from the self-interest of traders. Its weakness is that there is little evidence for it. Anthropologists who have looked for economies based on barter, among them Caroline Humphrey, report that they have not found one; where small communities exchange without money, they do so through credit, gift and obligation.\n\nA rival tradition, associated with Georg Friedrich Knapp's State Theory of Money of 1905, locates the origin of money in authority. A state that wishes to collect taxes, supply an army or build a temple must decide in what it will accept payment, and by declaring that taxes are payable in a particular token it creates a demand for the token among everyone who owes tax. This explains a fact that the barter story cannot: why coins and notes of negligible intrinsic worth circulate at all. Its own weakness is that it cannot explain why money has so often arisen, and survived, where no strong state existed, or why states have so often failed to sustain the value of their own currencies.\n\nA third observation points to convention. On the Micronesian island of Yap, according to a widely repeated account, the most valuable form of wealth was the huge limestone disc, some taller than a man, quarried far away and too heavy to move. Ownership passed by common agreement without the stones changing place, and the story goes that one lay at the bottom of the sea after a canoe accident and was still treated as the property of its owner. Whatever its accuracy in detail, the story illustrates what economists call a coordination equilibrium: each person accepts the stone because everyone else does, and everyone else does because each accepts it. The value of such a thing lies wholly in shared expectation, which is why it is both robust and fragile: robust, because no individual can profitably defect from a convention that everyone else observes, and fragile, because a shift in expectations can destroy it, there being nothing else to support it.\n\nThe fragility is not hypothetical. In Germany in 1923 prices rose so fast that workers rushed to spend their wages within hours of receiving them, and the currency was abandoned for stable substitutes such as foreign money and goods. A currency's value depends on expectations about its future value, and these in turn depend on beliefs about how much of it will be issued. A government that prints to cover its deficits may find that the belief which sustained the money, and which it cannot buy back, has collapsed.\n\nIf money rests on expectations, the practical question is how to make them stable. The answer most countries have reached is institutional: central banks, charged with maintaining the currency's value and, in many cases, protected from direct political instruction, so that the promise to restrain issuance does not depend on the mood of the government. A government that can print at will is tempted to do so, and knowing this, the public discounts its promises; an independent bank, by tying the government's hands, can make its promises believable, and so achieve low inflation more cheaply than a government that must keep proving its resolve. The arrangement is a device for borrowing credibility, not a guarantee of it: it works only so long as the public believes that independence will be respected when it is tested.\n\nCryptocurrencies, which began with Bitcoin in 2009, are best understood as an experiment in whether credibility can be supplied by code instead of institutions. Their designers fix the supply in advance, so that no authority can inflate it, and record ownership on a public ledger that no single party controls. It does not answer the question of why anyone should accept the tokens at a stable value, and a record in which prices have swung by half within weeks suggests that scarcity alone does not create a convention. A fixed supply protects a currency against inflation, but a medium of exchange must also hold its value long enough to be used as one, and that depends on the very expectations that the designers hoped to engineer away.\n\nNone of the three accounts is wrong; each isolates a prop on which money stands. Usefulness as a medium explains why some things make better money than others; authority explains how money can be created by decree; convention explains why it persists. What they share is the recognition that money's value is, in the end, a belief held in common, and that beliefs of this kind are sustained by institutions, habits and the memory of past promises kept. A society that forgets this will treat its money as a thing rather than a trust, and will not notice what it has been spending until it is gone.",
-        "question": "Which of the following best captures the central argument of the passage?",
+        "question": "Which of the following counterfactual claims would the author’s criteria in paragraph 2 rate as the most credible?",
         "options": [
-          "A) Money arose from barter, was later taken over by states for the purpose of collecting taxes, and is now being replaced by cryptocurrencies that no state controls.",
-          "B) Central banks should be made independent of governments, because a government that can print money will always do so whatever the public may expect of it.",
-          "C) Money's value rests on a shared belief supported by usefulness, authority and convention, and so depends on institutions that keep the belief credible.",
-          "D) The theories of money proposed by Menger, Knapp and the economists who studied Yap are all mistaken, because money has no value except in the minds of individuals."
+          "A) Had Napoleon been born a century earlier, Europe would have enjoyed an unbroken peace until the beginning of the twentieth century.",
+          "B) Had the bullet missed a leader by a few centimetres, he would have gone on to announce the policy that his advisers had drafted.",
+          "C) Had the Roman Empire adopted steam engines in the first century, industrial society would have arrived a thousand years before it did.",
+          "D) Had the whole population of a country spoken a single language, its government would never have faced separatist movements of any kind."
         ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> The last paragraph says that none of the three accounts is wrong, that each isolates a prop, and that money's value is a belief held in common sustained by institutions. B misstates the argument as a sequence; C gives only one practical conclusion, with 'always'; D says the theories are 'all mistaken', contradicting 'none of the three accounts is wrong'."
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author’s test is a minimal rewrite of the past leading to an outcome contemporaries thought possible. A near miss by a few centimetres is a tiny change, and announcing a drafted policy was a live possibility at the time.<br><br>• <strong>Why Option A is Wrong:</strong> Changing Napoleon’s birth by a century rewrites a great deal, and the further claim of unbroken peace requires more alterations still.<br><br>• <strong>Why Option C is Wrong:</strong> Steam engines in Rome require enormous changes in knowledge and materials, and contemporaries did not consider them possible.<br><br>• <strong>Why Option D is Wrong:</strong> A uniform language alters the whole structure of a society, and the claim ‘never … of any kind’ stretches the consequences far beyond the change.<br><br><strong>💡 Approach:</strong> Translate the criteria into a checklist (how small is the change; was the outcome thinkable then) and score each option. The smaller and more local the change, the more credible the counterfactual."
       },
       {
         "id": "q2",
-        "type": "RC",
-        "passage": "Ask what gives a banknote its value and the first answers are unsatisfying. It is not made of anything useful: a five-hundred-rupee note is a slip of treated paper that nobody could eat, wear or burn to advantage. It is, in the formula inscribed on Indian notes, a promise, though one whose fulfilment consists of nothing but another promise of the same kind. That people accept such a thing in exchange for their labour and goods suggests that money is less an object than a relationship, and that the interesting question is not what money is made of but what holds the relationship together.\n\nThe textbook account, which descends from Adam Smith and was refined by the Austrian economist Carl Menger in 1892, holds that money arose from barter. In a world of direct swaps, a person with a surplus of grain must find someone who both has what she wants and wants her grain, a double coincidence that is rarely satisfied. Traders therefore began to accept goods not for their own use but because others would accept them in turn, and the most widely accepted goods, such as salt, cattle or metals, hardened into money. The attraction of the account is that it requires no government: money emerges spontaneously from the self-interest of traders. Its weakness is that there is little evidence for it. Anthropologists who have looked for economies based on barter, among them Caroline Humphrey, report that they have not found one; where small communities exchange without money, they do so through credit, gift and obligation.\n\nA rival tradition, associated with Georg Friedrich Knapp's State Theory of Money of 1905, locates the origin of money in authority. A state that wishes to collect taxes, supply an army or build a temple must decide in what it will accept payment, and by declaring that taxes are payable in a particular token it creates a demand for the token among everyone who owes tax. This explains a fact that the barter story cannot: why coins and notes of negligible intrinsic worth circulate at all. Its own weakness is that it cannot explain why money has so often arisen, and survived, where no strong state existed, or why states have so often failed to sustain the value of their own currencies.\n\nA third observation points to convention. On the Micronesian island of Yap, according to a widely repeated account, the most valuable form of wealth was the huge limestone disc, some taller than a man, quarried far away and too heavy to move. Ownership passed by common agreement without the stones changing place, and the story goes that one lay at the bottom of the sea after a canoe accident and was still treated as the property of its owner. Whatever its accuracy in detail, the story illustrates what economists call a coordination equilibrium: each person accepts the stone because everyone else does, and everyone else does because each accepts it. The value of such a thing lies wholly in shared expectation, which is why it is both robust and fragile: robust, because no individual can profitably defect from a convention that everyone else observes, and fragile, because a shift in expectations can destroy it, there being nothing else to support it.\n\nThe fragility is not hypothetical. In Germany in 1923 prices rose so fast that workers rushed to spend their wages within hours of receiving them, and the currency was abandoned for stable substitutes such as foreign money and goods. A currency's value depends on expectations about its future value, and these in turn depend on beliefs about how much of it will be issued. A government that prints to cover its deficits may find that the belief which sustained the money, and which it cannot buy back, has collapsed.\n\nIf money rests on expectations, the practical question is how to make them stable. The answer most countries have reached is institutional: central banks, charged with maintaining the currency's value and, in many cases, protected from direct political instruction, so that the promise to restrain issuance does not depend on the mood of the government. A government that can print at will is tempted to do so, and knowing this, the public discounts its promises; an independent bank, by tying the government's hands, can make its promises believable, and so achieve low inflation more cheaply than a government that must keep proving its resolve. The arrangement is a device for borrowing credibility, not a guarantee of it: it works only so long as the public believes that independence will be respected when it is tested.\n\nCryptocurrencies, which began with Bitcoin in 2009, are best understood as an experiment in whether credibility can be supplied by code instead of institutions. Their designers fix the supply in advance, so that no authority can inflate it, and record ownership on a public ledger that no single party controls. It does not answer the question of why anyone should accept the tokens at a stable value, and a record in which prices have swung by half within weeks suggests that scarcity alone does not create a convention. A fixed supply protects a currency against inflation, but a medium of exchange must also hold its value long enough to be used as one, and that depends on the very expectations that the designers hoped to engineer away.\n\nNone of the three accounts is wrong; each isolates a prop on which money stands. Usefulness as a medium explains why some things make better money than others; authority explains how money can be created by decree; convention explains why it persists. What they share is the recognition that money's value is, in the end, a belief held in common, and that beliefs of this kind are sustained by institutions, habits and the memory of past promises kept. A society that forgets this will treat its money as a thing rather than a trust, and will not notice what it has been spending until it is gone.",
-        "question": "The author mentions the anthropologists' failure to find barter economies in order to",
+        "question": "The author notes that the study of accidental leader deaths measures ‘the average effect of a leader across many cases’ in order to point out that it:",
         "options": [
-          "A) undermine the evidence for the account of money's origins that descends from Smith and Menger.",
-          "B) prove that money was invented by states in order to collect taxes from their subjects and to pay armies.",
-          "C) suggest that small communities have never used any form of exchange of goods or services among their members.",
-          "D) show that money is unnecessary in societies where the exchange of goods takes place through credit and obligation."
+          "A) says little about whether any particular leader, such as Lenin, was decisive in the events associated with his name",
+          "B) proves that individual discretion has no effect on economic growth in democracies in which institutions are strong",
+          "C) is unreliable, since leaders who die in accidents cannot be considered to be typical of leaders in general",
+          "D) overlooks the evidence from autocracies, in which the sudden replacement of a leader is rarely accompanied by any visible change"
         ],
         "answer": 0,
-        "explanation": "<strong>Explanation:</strong> The author says the barter account has 'little evidence for it', citing Humphrey. B overreaches (the state theory has its own weakness); C is false, since such communities do exchange, through credit and gift; D says money is 'unnecessary', which the passage does not claim."
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The sentence says the average across cases 'says little about any particular one'. An average effect cannot tell us whether a given individual was decisive.<br><br>• <strong>Why Option B is Wrong:</strong> The study found little effect in democracies, but the author never says this proves anything; and this is not the point of the average-effect remark.<br><br>• <strong>Why Option C is Wrong:</strong> The author presents the chance of the death as the study’s strength (successors not selected for the country’s circumstances), not as a source of unreliability.<br><br>• <strong>Why Option D is Wrong:</strong> The study found measurable effects in autocracies, so the option reverses the finding.<br><br><strong>💡 Approach:</strong> Purpose questions: the answer is the limitation the author states right after the phrase ('says little about any particular one')."
       },
       {
         "id": "q3",
-        "type": "RC",
-        "passage": "Ask what gives a banknote its value and the first answers are unsatisfying. It is not made of anything useful: a five-hundred-rupee note is a slip of treated paper that nobody could eat, wear or burn to advantage. It is, in the formula inscribed on Indian notes, a promise, though one whose fulfilment consists of nothing but another promise of the same kind. That people accept such a thing in exchange for their labour and goods suggests that money is less an object than a relationship, and that the interesting question is not what money is made of but what holds the relationship together.\n\nThe textbook account, which descends from Adam Smith and was refined by the Austrian economist Carl Menger in 1892, holds that money arose from barter. In a world of direct swaps, a person with a surplus of grain must find someone who both has what she wants and wants her grain, a double coincidence that is rarely satisfied. Traders therefore began to accept goods not for their own use but because others would accept them in turn, and the most widely accepted goods, such as salt, cattle or metals, hardened into money. The attraction of the account is that it requires no government: money emerges spontaneously from the self-interest of traders. Its weakness is that there is little evidence for it. Anthropologists who have looked for economies based on barter, among them Caroline Humphrey, report that they have not found one; where small communities exchange without money, they do so through credit, gift and obligation.\n\nA rival tradition, associated with Georg Friedrich Knapp's State Theory of Money of 1905, locates the origin of money in authority. A state that wishes to collect taxes, supply an army or build a temple must decide in what it will accept payment, and by declaring that taxes are payable in a particular token it creates a demand for the token among everyone who owes tax. This explains a fact that the barter story cannot: why coins and notes of negligible intrinsic worth circulate at all. Its own weakness is that it cannot explain why money has so often arisen, and survived, where no strong state existed, or why states have so often failed to sustain the value of their own currencies.\n\nA third observation points to convention. On the Micronesian island of Yap, according to a widely repeated account, the most valuable form of wealth was the huge limestone disc, some taller than a man, quarried far away and too heavy to move. Ownership passed by common agreement without the stones changing place, and the story goes that one lay at the bottom of the sea after a canoe accident and was still treated as the property of its owner. Whatever its accuracy in detail, the story illustrates what economists call a coordination equilibrium: each person accepts the stone because everyone else does, and everyone else does because each accepts it. The value of such a thing lies wholly in shared expectation, which is why it is both robust and fragile: robust, because no individual can profitably defect from a convention that everyone else observes, and fragile, because a shift in expectations can destroy it, there being nothing else to support it.\n\nThe fragility is not hypothetical. In Germany in 1923 prices rose so fast that workers rushed to spend their wages within hours of receiving them, and the currency was abandoned for stable substitutes such as foreign money and goods. A currency's value depends on expectations about its future value, and these in turn depend on beliefs about how much of it will be issued. A government that prints to cover its deficits may find that the belief which sustained the money, and which it cannot buy back, has collapsed.\n\nIf money rests on expectations, the practical question is how to make them stable. The answer most countries have reached is institutional: central banks, charged with maintaining the currency's value and, in many cases, protected from direct political instruction, so that the promise to restrain issuance does not depend on the mood of the government. A government that can print at will is tempted to do so, and knowing this, the public discounts its promises; an independent bank, by tying the government's hands, can make its promises believable, and so achieve low inflation more cheaply than a government that must keep proving its resolve. The arrangement is a device for borrowing credibility, not a guarantee of it: it works only so long as the public believes that independence will be respected when it is tested.\n\nCryptocurrencies, which began with Bitcoin in 2009, are best understood as an experiment in whether credibility can be supplied by code instead of institutions. Their designers fix the supply in advance, so that no authority can inflate it, and record ownership on a public ledger that no single party controls. It does not answer the question of why anyone should accept the tokens at a stable value, and a record in which prices have swung by half within weeks suggests that scarcity alone does not create a convention. A fixed supply protects a currency against inflation, but a medium of exchange must also hold its value long enough to be used as one, and that depends on the very expectations that the designers hoped to engineer away.\n\nNone of the three accounts is wrong; each isolates a prop on which money stands. Usefulness as a medium explains why some things make better money than others; authority explains how money can be created by decree; convention explains why it persists. What they share is the recognition that money's value is, in the end, a belief held in common, and that beliefs of this kind are sustained by institutions, habits and the memory of past promises kept. A society that forgets this will treat its money as a thing rather than a trust, and will not notice what it has been spending until it is gone.",
-        "question": "The author uses the account of the Yap stones to illustrate that",
+        "question": "The author’s objection that the ‘substitute’ argument risks becoming unfalsifiable rests on the idea that:",
         "options": [
-          "A) stone money was a more reliable store of value than any form of paper money issued by a government.",
-          "B) ownership of heavy objects can be transferred only when the objects themselves change hands.",
-          "C) the account of Yap is accurate in every detail and is confirmed by the records of anthropologists.",
-          "D) a form of money can rest wholly on shared expectation, which makes it both robust and fragile."
+          "A) conditions that create a demand for a leader cannot also supply one, since demand and supply are determined separately",
+          "B) revolutionary movements are always led by the person who is best suited to the circumstances of the time",
+          "C) historians are unable to determine whether a given leader was in fact replaced by someone with similar views",
+          "D) if every absence is met with a claim that a replacement would have appeared, no evidence could count against it"
         ],
         "answer": 3,
-        "explanation": "<strong>Explanation:</strong> The author says the story illustrates a coordination equilibrium whose value 'lies wholly in shared expectation' and is 'both robust and fragile'. B is not claimed; C contradicts the story (ownership moved without the stones moving); D contradicts 'whatever its accuracy in detail'."
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The author says that if every individual’s absence is answered by a substitute claim, no evidence could show that a person mattered, so the argument is protected from refutation.<br><br>• <strong>Why Option A is Wrong:</strong> The author does not discuss separate determination of demand and supply; the supply claim is the structuralists’, which the author criticises on other grounds.<br><br>• <strong>Why Option B is Wrong:</strong> The passage never says leaders are always the best suited; it says a substitute would not be the same person.<br><br>• <strong>Why Option C is Wrong:</strong> Whether a replacement shared views is not the issue; the issue is that the claim can absorb any outcome.<br><br><strong>💡 Approach:</strong> Unfalsifiable means no evidence could count against a claim. Pick the option that states this property, not one that merely says the claim is doubtful."
       },
       {
         "id": "q4",
-        "type": "RC",
-        "passage": "Ask what gives a banknote its value and the first answers are unsatisfying. It is not made of anything useful: a five-hundred-rupee note is a slip of treated paper that nobody could eat, wear or burn to advantage. It is, in the formula inscribed on Indian notes, a promise, though one whose fulfilment consists of nothing but another promise of the same kind. That people accept such a thing in exchange for their labour and goods suggests that money is less an object than a relationship, and that the interesting question is not what money is made of but what holds the relationship together.\n\nThe textbook account, which descends from Adam Smith and was refined by the Austrian economist Carl Menger in 1892, holds that money arose from barter. In a world of direct swaps, a person with a surplus of grain must find someone who both has what she wants and wants her grain, a double coincidence that is rarely satisfied. Traders therefore began to accept goods not for their own use but because others would accept them in turn, and the most widely accepted goods, such as salt, cattle or metals, hardened into money. The attraction of the account is that it requires no government: money emerges spontaneously from the self-interest of traders. Its weakness is that there is little evidence for it. Anthropologists who have looked for economies based on barter, among them Caroline Humphrey, report that they have not found one; where small communities exchange without money, they do so through credit, gift and obligation.\n\nA rival tradition, associated with Georg Friedrich Knapp's State Theory of Money of 1905, locates the origin of money in authority. A state that wishes to collect taxes, supply an army or build a temple must decide in what it will accept payment, and by declaring that taxes are payable in a particular token it creates a demand for the token among everyone who owes tax. This explains a fact that the barter story cannot: why coins and notes of negligible intrinsic worth circulate at all. Its own weakness is that it cannot explain why money has so often arisen, and survived, where no strong state existed, or why states have so often failed to sustain the value of their own currencies.\n\nA third observation points to convention. On the Micronesian island of Yap, according to a widely repeated account, the most valuable form of wealth was the huge limestone disc, some taller than a man, quarried far away and too heavy to move. Ownership passed by common agreement without the stones changing place, and the story goes that one lay at the bottom of the sea after a canoe accident and was still treated as the property of its owner. Whatever its accuracy in detail, the story illustrates what economists call a coordination equilibrium: each person accepts the stone because everyone else does, and everyone else does because each accepts it. The value of such a thing lies wholly in shared expectation, which is why it is both robust and fragile: robust, because no individual can profitably defect from a convention that everyone else observes, and fragile, because a shift in expectations can destroy it, there being nothing else to support it.\n\nThe fragility is not hypothetical. In Germany in 1923 prices rose so fast that workers rushed to spend their wages within hours of receiving them, and the currency was abandoned for stable substitutes such as foreign money and goods. A currency's value depends on expectations about its future value, and these in turn depend on beliefs about how much of it will be issued. A government that prints to cover its deficits may find that the belief which sustained the money, and which it cannot buy back, has collapsed.\n\nIf money rests on expectations, the practical question is how to make them stable. The answer most countries have reached is institutional: central banks, charged with maintaining the currency's value and, in many cases, protected from direct political instruction, so that the promise to restrain issuance does not depend on the mood of the government. A government that can print at will is tempted to do so, and knowing this, the public discounts its promises; an independent bank, by tying the government's hands, can make its promises believable, and so achieve low inflation more cheaply than a government that must keep proving its resolve. The arrangement is a device for borrowing credibility, not a guarantee of it: it works only so long as the public believes that independence will be respected when it is tested.\n\nCryptocurrencies, which began with Bitcoin in 2009, are best understood as an experiment in whether credibility can be supplied by code instead of institutions. Their designers fix the supply in advance, so that no authority can inflate it, and record ownership on a public ledger that no single party controls. It does not answer the question of why anyone should accept the tokens at a stable value, and a record in which prices have swung by half within weeks suggests that scarcity alone does not create a convention. A fixed supply protects a currency against inflation, but a medium of exchange must also hold its value long enough to be used as one, and that depends on the very expectations that the designers hoped to engineer away.\n\nNone of the three accounts is wrong; each isolates a prop on which money stands. Usefulness as a medium explains why some things make better money than others; authority explains how money can be created by decree; convention explains why it persists. What they share is the recognition that money's value is, in the end, a belief held in common, and that beliefs of this kind are sustained by institutions, habits and the memory of past promises kept. A society that forgets this will treat its money as a thing rather than a trust, and will not notice what it has been spending until it is gone.",
-        "question": "Each of the following is mentioned in the passage as a weakness of one of the accounts of money EXCEPT",
+        "question": "Which of the following is the clearest example of an individual mattering by shaping ‘the manner in which the outcome is reached’ (paragraph 5)?",
         "options": [
-          "A) it cannot explain why coins and notes of negligible worth circulate at all",
-          "B) it cannot explain why some societies have preferred coins to notes",
-          "C) it has found little evidence of any economy operating by pure barter",
-          "D) it cannot explain why money has arisen where no strong state existed"
+          "A) A president who signs a trade agreement a year before it would have been signed by his successor in any case",
+          "B) A general whose decision to attack decides which of two rival states will dominate the region for a century",
+          "C) A premier whose government achieves an inevitable transfer of power by negotiation and not by civil war",
+          "D) A scientist whose discovery would have been made at the same time and in the same way by any of her colleagues"
         ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> B is a weakness of the barter story (paragraph 3), C is reported against the barter account (paragraph 2), and D is a weakness of the state theory (paragraph 3). The preference for coins over notes is never discussed."
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The outcome (transfer of power) was coming anyway; what the individual changed was how it was reached, by negotiation rather than violence. This is the author’s own example of a reform achieved without bloodshed.<br><br>• <strong>Why Option A is Wrong:</strong> This changes the timing of an outcome that was coming anyway, which is the second category.<br><br>• <strong>Why Option B is Wrong:</strong> This determines which outcome occurs, which is the first category.<br><br>• <strong>Why Option D is Wrong:</strong> The discovery is identical in time and manner whoever makes it, so the individual makes no difference in any of the three ways.<br><br><strong>💡 Approach:</strong> Sort the options into the three categories (which outcome, when, how). Only one option keeps the outcome and timing fixed while changing the means."
       },
       {
         "id": "q5",
-        "type": "RC",
-        "passage": "Ask what gives a banknote its value and the first answers are unsatisfying. It is not made of anything useful: a five-hundred-rupee note is a slip of treated paper that nobody could eat, wear or burn to advantage. It is, in the formula inscribed on Indian notes, a promise, though one whose fulfilment consists of nothing but another promise of the same kind. That people accept such a thing in exchange for their labour and goods suggests that money is less an object than a relationship, and that the interesting question is not what money is made of but what holds the relationship together.\n\nThe textbook account, which descends from Adam Smith and was refined by the Austrian economist Carl Menger in 1892, holds that money arose from barter. In a world of direct swaps, a person with a surplus of grain must find someone who both has what she wants and wants her grain, a double coincidence that is rarely satisfied. Traders therefore began to accept goods not for their own use but because others would accept them in turn, and the most widely accepted goods, such as salt, cattle or metals, hardened into money. The attraction of the account is that it requires no government: money emerges spontaneously from the self-interest of traders. Its weakness is that there is little evidence for it. Anthropologists who have looked for economies based on barter, among them Caroline Humphrey, report that they have not found one; where small communities exchange without money, they do so through credit, gift and obligation.\n\nA rival tradition, associated with Georg Friedrich Knapp's State Theory of Money of 1905, locates the origin of money in authority. A state that wishes to collect taxes, supply an army or build a temple must decide in what it will accept payment, and by declaring that taxes are payable in a particular token it creates a demand for the token among everyone who owes tax. This explains a fact that the barter story cannot: why coins and notes of negligible intrinsic worth circulate at all. Its own weakness is that it cannot explain why money has so often arisen, and survived, where no strong state existed, or why states have so often failed to sustain the value of their own currencies.\n\nA third observation points to convention. On the Micronesian island of Yap, according to a widely repeated account, the most valuable form of wealth was the huge limestone disc, some taller than a man, quarried far away and too heavy to move. Ownership passed by common agreement without the stones changing place, and the story goes that one lay at the bottom of the sea after a canoe accident and was still treated as the property of its owner. Whatever its accuracy in detail, the story illustrates what economists call a coordination equilibrium: each person accepts the stone because everyone else does, and everyone else does because each accepts it. The value of such a thing lies wholly in shared expectation, which is why it is both robust and fragile: robust, because no individual can profitably defect from a convention that everyone else observes, and fragile, because a shift in expectations can destroy it, there being nothing else to support it.\n\nThe fragility is not hypothetical. In Germany in 1923 prices rose so fast that workers rushed to spend their wages within hours of receiving them, and the currency was abandoned for stable substitutes such as foreign money and goods. A currency's value depends on expectations about its future value, and these in turn depend on beliefs about how much of it will be issued. A government that prints to cover its deficits may find that the belief which sustained the money, and which it cannot buy back, has collapsed.\n\nIf money rests on expectations, the practical question is how to make them stable. The answer most countries have reached is institutional: central banks, charged with maintaining the currency's value and, in many cases, protected from direct political instruction, so that the promise to restrain issuance does not depend on the mood of the government. A government that can print at will is tempted to do so, and knowing this, the public discounts its promises; an independent bank, by tying the government's hands, can make its promises believable, and so achieve low inflation more cheaply than a government that must keep proving its resolve. The arrangement is a device for borrowing credibility, not a guarantee of it: it works only so long as the public believes that independence will be respected when it is tested.\n\nCryptocurrencies, which began with Bitcoin in 2009, are best understood as an experiment in whether credibility can be supplied by code instead of institutions. Their designers fix the supply in advance, so that no authority can inflate it, and record ownership on a public ledger that no single party controls. It does not answer the question of why anyone should accept the tokens at a stable value, and a record in which prices have swung by half within weeks suggests that scarcity alone does not create a convention. A fixed supply protects a currency against inflation, but a medium of exchange must also hold its value long enough to be used as one, and that depends on the very expectations that the designers hoped to engineer away.\n\nNone of the three accounts is wrong; each isolates a prop on which money stands. Usefulness as a medium explains why some things make better money than others; authority explains how money can be created by decree; convention explains why it persists. What they share is the recognition that money's value is, in the end, a belief held in common, and that beliefs of this kind are sustained by institutions, habits and the memory of past promises kept. A society that forgets this will treat its money as a thing rather than a trust, and will not notice what it has been spending until it is gone.",
-        "question": "Which of the following, if true, would most weaken the claim that independent central banks achieve low inflation more cheaply?",
+        "question": "Which of the following, if true, would most weaken the author’s claim in paragraph 6 that the choice of view ‘often precedes’ the reading of the evidence?",
         "options": [
-          "A) Countries whose governments could instruct their central banks achieved equally low inflation at the same cost in lost output.",
-          "B) Independent central banks are generally run by economists who have never been elected by the public whose money they manage.",
-          "C) Several governments with independent central banks have nevertheless run large budget deficits for many consecutive years.",
-          "D) Belief in the independence of the central bank is, according to surveys, considerably stronger in rich countries than in poor ones."
+          "A) Historians who were shown the same documents before they had formed any view usually converged on the same view, whatever their training.",
+          "B) Memoirs and official histories are often written long after the events they describe, and by people who had an interest in the outcome.",
+          "C) Historians trained in the structural tradition tend to give greater weight to economic documents than do historians trained in other traditions.",
+          "D) Leaders have in many cases claimed credit for outcomes that were in fact produced by their subordinates and advisers rather than by themselves."
         ],
         "answer": 0,
-        "explanation": "<strong>Explanation:</strong> The claim is a comparison of cost: independence achieves low inflation more cheaply than a government that must prove its resolve. If non-independent banks achieved the same result at the same cost, the advantage disappears. B, C and D do not compare costs."
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> If historians with no prior view converge on the same reading whatever their training, then the evidence, not a prior commitment, is driving the conclusion, which directly undercuts the claim.<br><br>• <strong>Why Option B is Wrong:</strong> This supports the author’s point about the bias of sources and says nothing about the order of view and reading.<br><br>• <strong>Why Option C is Wrong:</strong> Different weighting by tradition fits the claim that prior commitments shape how evidence is read, so it strengthens the claim.<br><br>• <strong>Why Option D is Wrong:</strong> This repeats the author’s point about leaders claiming credit and is consistent with it.<br><br><strong>💡 Approach:</strong> Weaken by attacking the causal order the author asserts (view first, evidence second). The only option that shows evidence producing the view is the one that works."
       },
       {
         "id": "q6",
-        "type": "RC",
-        "passage": "Ask what gives a banknote its value and the first answers are unsatisfying. It is not made of anything useful: a five-hundred-rupee note is a slip of treated paper that nobody could eat, wear or burn to advantage. It is, in the formula inscribed on Indian notes, a promise, though one whose fulfilment consists of nothing but another promise of the same kind. That people accept such a thing in exchange for their labour and goods suggests that money is less an object than a relationship, and that the interesting question is not what money is made of but what holds the relationship together.\n\nThe textbook account, which descends from Adam Smith and was refined by the Austrian economist Carl Menger in 1892, holds that money arose from barter. In a world of direct swaps, a person with a surplus of grain must find someone who both has what she wants and wants her grain, a double coincidence that is rarely satisfied. Traders therefore began to accept goods not for their own use but because others would accept them in turn, and the most widely accepted goods, such as salt, cattle or metals, hardened into money. The attraction of the account is that it requires no government: money emerges spontaneously from the self-interest of traders. Its weakness is that there is little evidence for it. Anthropologists who have looked for economies based on barter, among them Caroline Humphrey, report that they have not found one; where small communities exchange without money, they do so through credit, gift and obligation.\n\nA rival tradition, associated with Georg Friedrich Knapp's State Theory of Money of 1905, locates the origin of money in authority. A state that wishes to collect taxes, supply an army or build a temple must decide in what it will accept payment, and by declaring that taxes are payable in a particular token it creates a demand for the token among everyone who owes tax. This explains a fact that the barter story cannot: why coins and notes of negligible intrinsic worth circulate at all. Its own weakness is that it cannot explain why money has so often arisen, and survived, where no strong state existed, or why states have so often failed to sustain the value of their own currencies.\n\nA third observation points to convention. On the Micronesian island of Yap, according to a widely repeated account, the most valuable form of wealth was the huge limestone disc, some taller than a man, quarried far away and too heavy to move. Ownership passed by common agreement without the stones changing place, and the story goes that one lay at the bottom of the sea after a canoe accident and was still treated as the property of its owner. Whatever its accuracy in detail, the story illustrates what economists call a coordination equilibrium: each person accepts the stone because everyone else does, and everyone else does because each accepts it. The value of such a thing lies wholly in shared expectation, which is why it is both robust and fragile: robust, because no individual can profitably defect from a convention that everyone else observes, and fragile, because a shift in expectations can destroy it, there being nothing else to support it.\n\nThe fragility is not hypothetical. In Germany in 1923 prices rose so fast that workers rushed to spend their wages within hours of receiving them, and the currency was abandoned for stable substitutes such as foreign money and goods. A currency's value depends on expectations about its future value, and these in turn depend on beliefs about how much of it will be issued. A government that prints to cover its deficits may find that the belief which sustained the money, and which it cannot buy back, has collapsed.\n\nIf money rests on expectations, the practical question is how to make them stable. The answer most countries have reached is institutional: central banks, charged with maintaining the currency's value and, in many cases, protected from direct political instruction, so that the promise to restrain issuance does not depend on the mood of the government. A government that can print at will is tempted to do so, and knowing this, the public discounts its promises; an independent bank, by tying the government's hands, can make its promises believable, and so achieve low inflation more cheaply than a government that must keep proving its resolve. The arrangement is a device for borrowing credibility, not a guarantee of it: it works only so long as the public believes that independence will be respected when it is tested.\n\nCryptocurrencies, which began with Bitcoin in 2009, are best understood as an experiment in whether credibility can be supplied by code instead of institutions. Their designers fix the supply in advance, so that no authority can inflate it, and record ownership on a public ledger that no single party controls. It does not answer the question of why anyone should accept the tokens at a stable value, and a record in which prices have swung by half within weeks suggests that scarcity alone does not create a convention. A fixed supply protects a currency against inflation, but a medium of exchange must also hold its value long enough to be used as one, and that depends on the very expectations that the designers hoped to engineer away.\n\nNone of the three accounts is wrong; each isolates a prop on which money stands. Usefulness as a medium explains why some things make better money than others; authority explains how money can be created by decree; convention explains why it persists. What they share is the recognition that money's value is, in the end, a belief held in common, and that beliefs of this kind are sustained by institutions, habits and the memory of past promises kept. A society that forgets this will treat its money as a thing rather than a trust, and will not notice what it has been spending until it is gone.",
-        "question": "The author's treatment of cryptocurrencies suggests that",
+        "question": "Which of the following best captures the author’s conclusion?",
         "options": [
-          "A) cryptocurrencies are certain to fail, because no government has issued them or stands behind them.",
-          "B) fixing the supply of a currency in advance is the main cause of its instability in price over time.",
-          "C) protection against inflation is not enough to make a currency work as a stable medium of exchange.",
-          "D) ledgers controlled by no single party cannot record ownership reliably, and so cannot support a currency."
-        ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> The author says a fixed supply 'protects a currency against inflation' but that a medium of exchange must also hold its value, which depends on expectations. B says 'certain to fail', which goes beyond the passage; C and D invent causes."
-      },
-      {
-        "id": "q7",
-        "type": "Vocabulary",
-        "question": "Choose the option that best completes the sentence:\n\nThe diplomat's speech was deliberately ________, designed to reassure both camps without offending either.",
-        "options": [
-          "A) incendiary",
-          "B) anodyne",
-          "C) peremptory",
-          "D) strident"
-        ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> 'Anodyne' means inoffensive and bland. The other three describe provocative or domineering speech."
-      },
-      {
-        "id": "q8",
-        "type": "Vocabulary",
-        "question": "Choose the option that best completes the sentence:\n\nThe author's later novels, ________ and overlong, lacked the discipline that had made her first book so compelling.",
-        "options": [
-          "A) taut",
-          "B) incisive",
-          "C) laconic",
-          "D) diffuse"
+          "A) Structural forces determine history so completely that the role of any individual can be dismissed as a matter of timing alone",
+          "B) Great individuals are the true makers of history, and structural historians have ignored the evidence of the most important crises",
+          "C) The role of individuals in history cannot be studied at all, since all the evidence has been shaped by the beliefs under test",
+          "D) The importance of individuals varies with circumstances, so each claim about a person must be argued case by case"
         ],
         "answer": 3,
-        "explanation": "<strong>Explanation:</strong> 'Diffuse' means spread out and wordy. 'Taut', 'incisive' and 'laconic' all describe tightness or brevity, the opposite of 'overlong'."
-      },
-      {
-        "id": "q9",
-        "type": "Vocabulary",
-        "question": "Choose the option that best completes the sentence:\n\nThe defence argued that the evidence was merely circumstantial, since ________.",
-        "options": [
-          "A) it showed that the accused was near the scene but not that he had committed the act",
-          "B) it consisted entirely of statements made in court by witnesses who had seen the crime take place",
-          "C) it had been collected by the police in the days immediately following the discovery of the crime",
-          "D) the accused had confessed in the presence of his lawyer and several members of the police force"
-        ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> Circumstantial evidence points to a conclusion by inference without directly proving it. Only the first option describes that. B and D describe direct evidence; C is about timing."
-      },
-      {
-        "id": "q10",
-        "type": "Vocabulary",
-        "question": "Choose the option that best fills the blanks:\n\nShe was a ________ reader who did not merely ________ an author's claims but ________ them against the evidence.",
-        "options": [
-          "A) credulous; accept; weighed",
-          "B) critical; accept; ignored",
-          "C) critical; accept; weighed",
-          "D) lazy; accept; checked"
-        ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> A 'critical' reader does not merely 'accept' claims but 'weighed' them against evidence. 'Credulous' contradicts 'not merely accept'; 'ignored' contradicts 'against the evidence'; 'lazy' contradicts the effort of checking."
-      },
-      {
-        "id": "q11",
-        "type": "Vocabulary",
-        "question": "Choose the option that best fills the blanks:\n\nThe treaty, ________ in its wording, allowed each party to ________ it as it pleased, and so ________ rather than resolved the dispute.",
-        "options": [
-          "A) meticulous; construe; prolonged",
-          "B) ambiguous; construe; prolonged",
-          "C) ambiguous; construe; settled",
-          "D) ambiguous; violate; prolonged"
-        ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Ambiguous wording lets each side 'construe' (interpret) the treaty its own way, which prolongs the dispute. 'Meticulous' (precise) wording would not allow this; 'settled rather than resolved' is incoherent; 'violate it as it pleased' does not follow from the wording."
-      },
-      {
-        "id": "q12",
-        "type": "Grammar",
-        "question": "Choose the best replacement for the portion in square brackets:\n\nOf the two proposals, the second is [the most persuasive].",
-        "options": [
-          "A) the most persuasive one",
-          "B) very much persuasive",
-          "C) the persuasivest",
-          "D) the more persuasive"
-        ],
-        "answer": 3,
-        "explanation": "<strong>Explanation:</strong> When two things are compared, the comparative ('more') is used, not the superlative ('most'). 'Persuasivest' is not standard English."
-      },
-      {
-        "id": "q13",
-        "type": "Grammar",
-        "question": "Choose the best replacement for the portion in square brackets:\n\nTo qualify for the scholarship, [a minimum of 75 per cent is required] in the final examination.",
-        "options": [
-          "A) candidates must score at least 75 per cent",
-          "B) a score of at least 75 per cent is needed from candidates",
-          "C) the minimum required is 75 per cent by the candidate",
-          "D) it is required that a candidate scores minimum 75 per cent"
-        ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> 'To qualify' needs a subject who qualifies, so 'candidates' must follow the comma. In the other options the subject is 'a score', 'the minimum' or 'it', so the opening phrase dangles."
-      },
-      {
-        "id": "q14",
-        "type": "ParaCompletion",
-        "question": "Complete the paragraph logically:\n\n'Most people say they want to save more, and most do not. ________ A person who plans in the abstract values the distant future highly, but when the moment to act arrives the present looms large; the same person who resolves in January to save will, in March, find the purchase in front of her irresistible. Preferences, in other words, are not stable across time.'",
-        "options": [
-          "A) People who do not save are simply ignorant of how much money they will need in their later years.",
-          "B) Saving is irrational, since money spent today is always worth more than money received in the future.",
-          "C) The gap is not a failure of knowledge but a conflict between what we want now and what we want for later.",
-          "D) Governments should forbid savings schemes, since those who sign up for them invariably regret it afterwards."
-        ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> The following sentences describe a conflict between present and future wants. B blames ignorance, which the paragraph does not suggest; C and D introduce unrelated claims."
-      },
-      {
-        "id": "q15",
-        "type": "ParaCompletion",
-        "question": "Complete the paragraph logically:\n\n'Engineers often learn more from failures than from successes. ________ The collapse of the Tacoma Narrows Bridge in 1940 revealed an effect of wind-induced oscillation that designers had not considered, and later bridges were built with it in mind. A structure that has never failed has shown only that it has not yet met the load that will break it.'",
-        "options": [
-          "A) Engineers therefore deliberately design structures to fail, in order to gather data for the benefit of later builders.",
-          "B) A failure exposes a limit, whereas a success merely leaves the location of the limit unknown.",
-          "C) Success teaches nothing, and engineers should therefore pay no attention to structures that have stood for many years.",
-          "D) Failures in engineering are caused chiefly by carelessness among workers, and are rarely related to the quality of the design."
-        ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> The example and the last sentence both show that a failure reveals a limit that success leaves hidden. B, C and D go beyond or contradict the paragraph."
-      },
-      {
-        "id": "q16",
-        "type": "Vocabulary",
-        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
-        "options": [
-          "A) Strong mathematics is a prerequisite for admission to the programme in engineering.",
-          "B) The committee's fortuitous discovery of the missing file saved weeks of work for the staff.",
-          "C) Prolonged exposure to sunlight can exacerbate the condition in people who are sensitive to it.",
-          "D) The minister refuted the allegation, though she offered no evidence to support her denial."
-        ],
-        "answer": 3,
-        "explanation": "<strong>Explanation:</strong> To 'refute' is to prove false; merely denying an allegation is not refuting it. 'Prerequisite' (required beforehand), 'fortuitous' (by chance) and 'exacerbate' (worsen) are used correctly."
-      },
-      {
-        "id": "q17",
-        "type": "Vocabulary",
-        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
-        "options": [
-          "A) The long meeting left everyone so enervated that no one could face another agenda item.",
-          "B) Witnesses vouched for the voracity of her account, which was consistent in every detail.",
-          "C) Please apprise the board of any change in the schedule as soon as it is known.",
-          "D) He spoke with such conviction that nobody doubted the sincerity of his remarks to them."
-        ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> 'Veracity' means truthfulness; 'voracity' means greed for food. 'Apprise' (inform), 'enervated' (drained of energy) and 'sincerity' are used correctly."
-      },
-      {
-        "id": "q18",
-        "type": "ParaJumble_TITA",
-        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Within two decades, the engineer Joseph Bazalgette had built a network of intercepting sewers that carried the waste downstream and away from the city.\n2. The episode, known as the Great Stink, thus achieved what years of argument had not.\n3. In the summer of 1858 the stench from the Thames, into which London's sewage flowed, became so intolerable that Parliament was driven from its riverside buildings.\n4. Until then, authorities had resisted large-scale spending on sewers, believing that disease was spread by foul air rather than by contaminated water.",
-        "answer": "3421",
-        "explanation": "<strong>Explanation:</strong> 3 opens with the event of 1858. 4 ('Until then') gives the earlier resistance to spending. 2 ('thus achieved what years of argument had not') draws the consequence, and 1 describes the building of the sewers that followed. Order: 3-4-2-1."
-      },
-      {
-        "id": "q19",
-        "type": "RC",
-        "passage": "Interviewer: Computers have been better than any human at chess for over two decades. Has that killed the game?\n\nCoach: The opposite, though not in the way people predicted. Top players now prepare with engines, so the opening phase is often memorised very deeply, sometimes twenty moves or more, and the game can be decided by who knows the engine's preferred line. That is a loss, in a way, because creativity in the opening has been replaced by recall. But there is a gain too. Engines have shown that many moves we thought were mistakes are playable, and the style of play has become more daring, not less.\n\nInterviewer: Does it make cheating a problem?\n\nCoach: It does, and that is the part that worries organisers. A single hint at the right moment can change a game, and detection relies on statistical analysis of how closely a player's moves match an engine's. The difficulty is that the best human moves are often the ones an engine would choose, so a strong honest player and a cheat can look similar over a short stretch. You need long samples, and you need to be careful about accusing anyone.",
-        "question": "According to the coach, engines have changed the opening phase of chess because",
-        "options": [
-          "A) players now memorise lines prepared with engines, so that recall has replaced some of the creativity.",
-          "B) engines have proved that most of the moves once thought to be mistakes were in fact the strongest moves.",
-          "C) top players have stopped preparing for games, since engines can always find the best line for them at the board.",
-          "D) organisers have banned the use of engines during preparation, and so players must rely on their own memory."
-        ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> He says openings are memorised deeply from engine preparation, so 'creativity... has been replaced by recall'. B overstates ('most', 'strongest'); C and D contradict or invent."
-      },
-      {
-        "id": "q20",
-        "type": "RC",
-        "passage": "Interviewer: Computers have been better than any human at chess for over two decades. Has that killed the game?\n\nCoach: The opposite, though not in the way people predicted. Top players now prepare with engines, so the opening phase is often memorised very deeply, sometimes twenty moves or more, and the game can be decided by who knows the engine's preferred line. That is a loss, in a way, because creativity in the opening has been replaced by recall. But there is a gain too. Engines have shown that many moves we thought were mistakes are playable, and the style of play has become more daring, not less.\n\nInterviewer: Does it make cheating a problem?\n\nCoach: It does, and that is the part that worries organisers. A single hint at the right moment can change a game, and detection relies on statistical analysis of how closely a player's moves match an engine's. The difficulty is that the best human moves are often the ones an engine would choose, so a strong honest player and a cheat can look similar over a short stretch. You need long samples, and you need to be careful about accusing anyone.",
-        "question": "The coach's remark that a strong honest player and a cheat can look similar implies that",
-        "options": [
-          "A) strong players who play many moves similar to an engine's should be treated as suspected cheats by organisers.",
-          "B) cheating cannot be detected by statistical methods, and so organisers must rely on watching the players directly.",
-          "C) honest players never choose the same moves as an engine, and so any such match is proof that a player has cheated.",
-          "D) short samples of moves are weak evidence of cheating, so accusations require long samples and care."
-        ],
-        "answer": 3,
-        "explanation": "<strong>Explanation:</strong> The coach says the best human moves are often engine moves, so short stretches are inconclusive; 'you need long samples' and care in accusing. B, C and D contradict this."
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 7 says individuals matter most where the range of possibilities is wide, and that since they matter unevenly no general answer is possible; each claim must be argued case by case.<br><br>• <strong>Why Option A is Wrong:</strong> The author explicitly rejects dismissing timing and manner as negligible, and calls the structuralist position as immodest as Carlyle’s.<br><br>• <strong>Why Option B is Wrong:</strong> The author calls the thesis more modest than Carlyle’s and denies that structure can be ignored.<br><br>• <strong>Why Option C is Wrong:</strong> The author says the evidence is biased and not neutral, but still demands case-by-case argument with discipline; study is difficult, not impossible.<br><br><strong>💡 Approach:</strong> Conclusion questions: the answer should include the author’s qualified middle position. Extremes in either direction are traps."
       }
     ]
   }
