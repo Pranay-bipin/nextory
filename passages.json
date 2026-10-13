@@ -5226,5 +5226,207 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Paragraph 5 says costs are concentrated and visible, benefits diffuse and invisible, and concentrated losers are better organised, so local decisions predictably favour the losers.<br><br>• <strong>Why Option B is Wrong:</strong> The passage says moving authority upward solves the political problem 'at the price of a knowledge problem', so it does not solve both.<br><br>• <strong>Why Option C is Wrong:</strong> 'Always' is too strong: the evidence is described as mixed, and rent rises may be real but smaller than they would otherwise have been.<br><br>• <strong>Why Option D is Wrong:</strong> Paragraph 7 says dense districts with good transport and services can be productive and pleasant, so 'unhealthy in all circumstances' contradicts it.<br><br><strong>💡 Approach:</strong> Inference questions reward the option that follows closely from a stated mechanism. Absolutes ('always', 'all circumstances', 'both at the same time') are warning signs."
       }
     ]
+  },
+  {
+    "id": "rc-2026-10-14",
+    "date": "2026-10-14",
+    "title": "Great Men, Structures, and the Discipline of Counterfactual History",
+    "genre": "Historiography & Social Science",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "997 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "Counterfactual",
+          "type": "adj",
+          "def": "Relating to what would have happened had circumstances been different.",
+          "ex": "A counterfactual argument asks what if the battle had been lost."
+        },
+        {
+          "word": "Unfalsifiable",
+          "type": "adj",
+          "def": "Incapable of being proved false by any possible evidence.",
+          "ex": "An unfalsifiable theory explains everything and therefore nothing."
+        },
+        {
+          "word": "Contingent",
+          "type": "adj",
+          "def": "Dependent on circumstances; not inevitable.",
+          "ex": "The outcome was contingent on a single decision."
+        },
+        {
+          "word": "Determinism",
+          "type": "noun",
+          "def": "The view that events are fixed by prior causes.",
+          "ex": "Structural determinism leaves little room for individual choice."
+        },
+        {
+          "word": "Hubris",
+          "type": "noun",
+          "def": "Excessive pride or self-confidence.",
+          "ex": "The general's hubris led to defeat."
+        },
+        {
+          "word": "Chronicle",
+          "type": "noun",
+          "def": "A factual written account of events in order of time.",
+          "ex": "The royal chronicle recorded every campaign."
+        },
+        {
+          "word": "Discretion",
+          "type": "noun",
+          "def": "The freedom to decide what should be done in a situation.",
+          "ex": "Officials have wide discretion in autocracies."
+        },
+        {
+          "word": "Inevitable",
+          "type": "adj",
+          "def": "Certain to happen; unavoidable.",
+          "ex": "Defeat seemed inevitable by winter."
+        },
+        {
+          "word": "Refutation",
+          "type": "noun",
+          "def": "The act of proving a claim wrong.",
+          "ex": "The theory withstood every refutation."
+        },
+        {
+          "word": "Humility",
+          "type": "noun",
+          "def": "A modest view of one's own importance or knowledge.",
+          "ex": "Good historians approach evidence with humility."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "The tide of history",
+          "def": "The broad forces that carry events along.",
+          "ex": "No ruler could stem the tide of history."
+        },
+        {
+          "idiom": "Turn the tables",
+          "def": "To reverse a situation so that one gains the advantage.",
+          "ex": "The reform turned the tables on the old elite."
+        },
+        {
+          "idiom": "A watershed moment",
+          "def": "A turning point after which things change.",
+          "ex": "The revolution was a watershed moment."
+        },
+        {
+          "idiom": "Pay lip service",
+          "def": "To express support in words without acting on it.",
+          "ex": "Leaders paid lip service to reform."
+        },
+        {
+          "idiom": "Hold sway",
+          "def": "To have influence or control.",
+          "ex": "Structural theories held sway for decades."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Bring about",
+          "def": "To cause something to happen.",
+          "ex": "Leaders can bring about change in a crisis."
+        },
+        {
+          "verb": "Play down",
+          "def": "To make something seem less important.",
+          "ex": "The memoir played down his own role."
+        },
+        {
+          "verb": "Stem from",
+          "def": "To originate from something.",
+          "ex": "The conflict stemmed from a succession dispute."
+        },
+        {
+          "verb": "Fall back on",
+          "def": "To rely on something when other options fail.",
+          "ex": "Historians fall back on counterfactuals."
+        },
+        {
+          "verb": "Carry over",
+          "def": "To transfer something to a different context.",
+          "ex": "Results from modern states may not carry over to earlier centuries."
+        }
+      ]
+    },
+    "passage": "Few questions in historical writing are as old, or as stubborn, as whether history is made by individuals or by forces. Thomas Carlyle held that the history of the world is the biography of great men. Tolstoy, in War and Peace, ridiculed the idea, arguing that Napoleon was carried by events rather than directing them, and that a leader who believes himself in command resembles a child holding the reins inside a carriage and imagining that he is driving it. Marxist and later structural historians sided with Tolstoy, and for much of the twentieth century the profession treated the great man as an embarrassment, a relic of the royal chronicle, in which the deeds of kings stood in for the experience of everyone else. In recent years, however, individuals have returned to serious scholarship, not as heroes but as variables: people whose presence or absence, it is argued, made a measurable difference, and whose influence can be estimated with the same statistical tools that are applied to economies and elections.\n\nThe question can be made sharper by asking what would have happened otherwise. Every claim that an individual mattered is a counterfactual claim: had Lenin not reached Petrograd in April 1917, or had a particular bullet missed a particular leader, events would have differed in some specified way. Historians have long distrusted counterfactuals as parlour games, but they cannot avoid them, since any statement of cause implies a comparison with a world in which the cause is absent. The real issue is not whether to reason counterfactually but how disciplined the reasoning is. A counterfactual is credible, on one influential account, when it requires changing very little, a minimal rewrite of the past, and when the world it describes is one that contemporaries thought possible. The more that must be altered to reach the imagined outcome, the less the exercise tells us.\n\nSocial scientists have tried to test the role of individuals with natural experiments. One strategy exploits chance: it examines leaders who died in accidents or from natural causes while in office, whose successors were therefore not selected for any trait connected to the country’s circumstances. A study of such cases found that the sudden replacement of a leader had measurable effects on economic growth in autocracies, but little in democracies, which suggests that individual discretion matters where institutions do not constrain it. The finding is elegant, but it carries limits. It measures the average effect of a leader across many cases, and so says little about any particular one; it covers a certain kind of event, accidental death, and a certain kind of outcome, growth rates; and it cannot distinguish a leader who changed a country from one who merely changed its statistics. Nor is it obvious that a result obtained for modern states can be carried back to earlier centuries, when the machinery of government was thinner and a ruler’s personal choices counted for more or, possibly, for less.\n\nDefenders of structural explanation reply that leaders are themselves products of structures. A revolutionary movement needs revolutionaries; had Lenin not existed, the argument goes, someone similar would have emerged to fill the position, because the conditions that created a demand for such a figure would also have supplied one. This line has force where conditions are strongly determining, but it risks becoming unfalsifiable. If every individual’s absence is answered by the claim that a substitute would have appeared, no evidence could ever show that a person mattered; the argument has been protected from refutation by being made too general. Moreover, even if a substitute appeared, the substitute would not have been the same person, and the differences between them, in timing, temperament and decisions, may be exactly what shaped events. A replaceable position does not imply a replaceable person.\n\nAnother distinction helps. Individuals can matter in at least three ways: by determining which of several possible outcomes occurs, by changing the timing of an outcome that was coming anyway, or by shaping the manner in which the outcome is reached. Debate often proceeds as though only the first counts, so that a leader who merely hastened or delayed what would have happened is dismissed as unimportant. But timing and manner are not trivial. A war that ends a year earlier, or a reform achieved by negotiation rather than bloodshed, differs profoundly in human terms, even if the long-run destination is the same. A historian who ignores such differences in the name of structural inevitability confuses what is statistically predictable with what is humanly negligible.\n\nA further difficulty is that the evidence is itself shaped by the beliefs under test. Memoirs, speeches and official histories are written by people with an interest in presenting their decisions as decisive or, when events went badly, as forced upon them by circumstance. Leaders claim credit for outcomes they merely witnessed and disown outcomes they caused. A historian who relies on such sources inherits their bias; one who discounts them discards the best evidence of what was considered and decided. There is no neutral position from which the documents can be read, and the choice between the great-man view and the structural view often precedes, rather than follows, the reading of the evidence.\n\nWhat emerges is less a contest with a winner than a division of labour. Structures set the range of what is possible and make some outcomes far more likely than others; individuals operate within that range, and matter most where the range is wide: at moments of crisis, when institutions are weak or contested, and when a decision must be made once and cannot be reversed. This is a more modest thesis than either Carlyle’s or Tolstoy’s, and it has an unwelcome consequence for both camps. If individuals matter unevenly, then no general answer to the question is possible, and every claim about a person’s importance must be argued case by case, with the discipline that the counterfactual method demands and the humility that the evidence requires.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following counterfactual claims would the author’s criteria in paragraph 2 rate as the most credible?",
+        "options": [
+          "A) Had Napoleon been born a century earlier, Europe would have enjoyed an unbroken peace until the beginning of the twentieth century.",
+          "B) Had the bullet missed a leader by a few centimetres, he would have gone on to announce the policy that his advisers had drafted.",
+          "C) Had the Roman Empire adopted steam engines in the first century, industrial society would have arrived a thousand years before it did.",
+          "D) Had the whole population of a country spoken a single language, its government would never have faced separatist movements of any kind."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author’s test is a minimal rewrite of the past leading to an outcome contemporaries thought possible. A near miss by a few centimetres is a tiny change, and announcing a drafted policy was a live possibility at the time.<br><br>• <strong>Why Option A is Wrong:</strong> Changing Napoleon’s birth by a century rewrites a great deal, and the further claim of unbroken peace requires more alterations still.<br><br>• <strong>Why Option C is Wrong:</strong> Steam engines in Rome require enormous changes in knowledge and materials, and contemporaries did not consider them possible.<br><br>• <strong>Why Option D is Wrong:</strong> A uniform language alters the whole structure of a society, and the claim ‘never … of any kind’ stretches the consequences far beyond the change.<br><br><strong>💡 Approach:</strong> Translate the criteria into a checklist (how small is the change; was the outcome thinkable then) and score each option. The smaller and more local the change, the more credible the counterfactual."
+      },
+      {
+        "id": "q2",
+        "question": "The author notes that the study of accidental leader deaths measures ‘the average effect of a leader across many cases’ in order to point out that it:",
+        "options": [
+          "A) says little about whether any particular leader, such as Lenin, was decisive in the events associated with his name",
+          "B) proves that individual discretion has no effect on economic growth in democracies in which institutions are strong",
+          "C) is unreliable, since leaders who die in accidents cannot be considered to be typical of leaders in general",
+          "D) overlooks the evidence from autocracies, in which the sudden replacement of a leader is rarely accompanied by any visible change"
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The sentence says the average across cases 'says little about any particular one'. An average effect cannot tell us whether a given individual was decisive.<br><br>• <strong>Why Option B is Wrong:</strong> The study found little effect in democracies, but the author never says this proves anything; and this is not the point of the average-effect remark.<br><br>• <strong>Why Option C is Wrong:</strong> The author presents the chance of the death as the study’s strength (successors not selected for the country’s circumstances), not as a source of unreliability.<br><br>• <strong>Why Option D is Wrong:</strong> The study found measurable effects in autocracies, so the option reverses the finding.<br><br><strong>💡 Approach:</strong> Purpose questions: the answer is the limitation the author states right after the phrase ('says little about any particular one')."
+      },
+      {
+        "id": "q3",
+        "question": "The author’s objection that the ‘substitute’ argument risks becoming unfalsifiable rests on the idea that:",
+        "options": [
+          "A) conditions that create a demand for a leader cannot also supply one, since demand and supply are determined separately",
+          "B) revolutionary movements are always led by the person who is best suited to the circumstances of the time",
+          "C) historians are unable to determine whether a given leader was in fact replaced by someone with similar views",
+          "D) if every absence is met with a claim that a replacement would have appeared, no evidence could count against it"
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The author says that if every individual’s absence is answered by a substitute claim, no evidence could show that a person mattered, so the argument is protected from refutation.<br><br>• <strong>Why Option A is Wrong:</strong> The author does not discuss separate determination of demand and supply; the supply claim is the structuralists’, which the author criticises on other grounds.<br><br>• <strong>Why Option B is Wrong:</strong> The passage never says leaders are always the best suited; it says a substitute would not be the same person.<br><br>• <strong>Why Option C is Wrong:</strong> Whether a replacement shared views is not the issue; the issue is that the claim can absorb any outcome.<br><br><strong>💡 Approach:</strong> Unfalsifiable means no evidence could count against a claim. Pick the option that states this property, not one that merely says the claim is doubtful."
+      },
+      {
+        "id": "q4",
+        "question": "Which of the following is the clearest example of an individual mattering by shaping ‘the manner in which the outcome is reached’ (paragraph 5)?",
+        "options": [
+          "A) A president who signs a trade agreement a year before it would have been signed by his successor in any case",
+          "B) A general whose decision to attack decides which of two rival states will dominate the region for a century",
+          "C) A premier whose government achieves an inevitable transfer of power by negotiation and not by civil war",
+          "D) A scientist whose discovery would have been made at the same time and in the same way by any of her colleagues"
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The outcome (transfer of power) was coming anyway; what the individual changed was how it was reached, by negotiation rather than violence. This is the author’s own example of a reform achieved without bloodshed.<br><br>• <strong>Why Option A is Wrong:</strong> This changes the timing of an outcome that was coming anyway, which is the second category.<br><br>• <strong>Why Option B is Wrong:</strong> This determines which outcome occurs, which is the first category.<br><br>• <strong>Why Option D is Wrong:</strong> The discovery is identical in time and manner whoever makes it, so the individual makes no difference in any of the three ways.<br><br><strong>💡 Approach:</strong> Sort the options into the three categories (which outcome, when, how). Only one option keeps the outcome and timing fixed while changing the means."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following, if true, would most weaken the author’s claim in paragraph 6 that the choice of view ‘often precedes’ the reading of the evidence?",
+        "options": [
+          "A) Historians who were shown the same documents before they had formed any view usually converged on the same view, whatever their training.",
+          "B) Memoirs and official histories are often written long after the events they describe, and by people who had an interest in the outcome.",
+          "C) Historians trained in the structural tradition tend to give greater weight to economic documents than do historians trained in other traditions.",
+          "D) Leaders have in many cases claimed credit for outcomes that were in fact produced by their subordinates and advisers rather than by themselves."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> If historians with no prior view converge on the same reading whatever their training, then the evidence, not a prior commitment, is driving the conclusion, which directly undercuts the claim.<br><br>• <strong>Why Option B is Wrong:</strong> This supports the author’s point about the bias of sources and says nothing about the order of view and reading.<br><br>• <strong>Why Option C is Wrong:</strong> Different weighting by tradition fits the claim that prior commitments shape how evidence is read, so it strengthens the claim.<br><br>• <strong>Why Option D is Wrong:</strong> This repeats the author’s point about leaders claiming credit and is consistent with it.<br><br><strong>💡 Approach:</strong> Weaken by attacking the causal order the author asserts (view first, evidence second). The only option that shows evidence producing the view is the one that works."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following best captures the author’s conclusion?",
+        "options": [
+          "A) Structural forces determine history so completely that the role of any individual can be dismissed as a matter of timing alone",
+          "B) Great individuals are the true makers of history, and structural historians have ignored the evidence of the most important crises",
+          "C) The role of individuals in history cannot be studied at all, since all the evidence has been shaped by the beliefs under test",
+          "D) The importance of individuals varies with circumstances, so each claim about a person must be argued case by case"
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 7 says individuals matter most where the range of possibilities is wide, and that since they matter unevenly no general answer is possible; each claim must be argued case by case.<br><br>• <strong>Why Option A is Wrong:</strong> The author explicitly rejects dismissing timing and manner as negligible, and calls the structuralist position as immodest as Carlyle’s.<br><br>• <strong>Why Option B is Wrong:</strong> The author calls the thesis more modest than Carlyle’s and denies that structure can be ignored.<br><br>• <strong>Why Option C is Wrong:</strong> The author says the evidence is biased and not neutral, but still demands case-by-case argument with discipline; study is difficult, not impossible.<br><br><strong>💡 Approach:</strong> Conclusion questions: the answer should include the author’s qualified middle position. Extremes in either direction are traps."
+      }
+    ]
   }
 ]
+
