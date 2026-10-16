@@ -5427,6 +5427,207 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 7 says individuals matter most where the range of possibilities is wide, and that since they matter unevenly no general answer is possible; each claim must be argued case by case.<br><br>• <strong>Why Option A is Wrong:</strong> The author explicitly rejects dismissing timing and manner as negligible, and calls the structuralist position as immodest as Carlyle’s.<br><br>• <strong>Why Option B is Wrong:</strong> The author calls the thesis more modest than Carlyle’s and denies that structure can be ignored.<br><br>• <strong>Why Option C is Wrong:</strong> The author says the evidence is biased and not neutral, but still demands case-by-case argument with discipline; study is difficult, not impossible.<br><br><strong>💡 Approach:</strong> Conclusion questions: the answer should include the author’s qualified middle position. Extremes in either direction are traps."
       }
     ]
+  },
+  {
+    "id": "rc-2026-10-16",
+    "date": "2026-10-16",
+    "title": "Patents, Exclusivity, and the Uneasy Economics of Invention",
+    "genre": "Law & Economics",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1017 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "Non-rival",
+          "type": "adj",
+          "def": "Describing a good whose use by one person does not reduce its availability to others.",
+          "ex": "Knowledge is a non-rival good."
+        },
+        {
+          "word": "Monopoly",
+          "type": "noun",
+          "def": "Exclusive control over the supply of a product or service.",
+          "ex": "A patent grants a temporary monopoly."
+        },
+        {
+          "word": "Recoup",
+          "type": "verb",
+          "def": "To regain money that has been spent or lost.",
+          "ex": "Inventors must recoup their development costs."
+        },
+        {
+          "word": "Equivocal",
+          "type": "adj",
+          "def": "Open to more than one interpretation; ambiguous.",
+          "ex": "The evidence on patents is equivocal."
+        },
+        {
+          "word": "Cumulative",
+          "type": "adj",
+          "def": "Increasing by successive additions.",
+          "ex": "Innovation is a cumulative process."
+        },
+        {
+          "word": "Thicket",
+          "type": "noun",
+          "def": "A dense, tangled mass of things that is hard to get through.",
+          "ex": "A thicket of patents deters new entrants."
+        },
+        {
+          "word": "Heterogeneous",
+          "type": "adj",
+          "def": "Diverse in character or content.",
+          "ex": "The industries form a heterogeneous group."
+        },
+        {
+          "word": "Windfall",
+          "type": "noun",
+          "def": "An unexpected gain.",
+          "ex": "The long term gave some firms a windfall."
+        },
+        {
+          "word": "Obsolete",
+          "type": "adj",
+          "def": "No longer produced or used; out of date.",
+          "ex": "The software became obsolete within a year."
+        },
+        {
+          "word": "Invalidate",
+          "type": "verb",
+          "def": "To make something officially void or unenforceable.",
+          "ex": "The court invalidated the patent."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "A double-edged sword",
+          "def": "Something with both favourable and unfavourable consequences.",
+          "ex": "Patent protection is a double-edged sword."
+        },
+        {
+          "idiom": "Level the playing field",
+          "def": "To create fair conditions for all competitors.",
+          "ex": "Prizes could level the playing field."
+        },
+        {
+          "idiom": "Raise the bar",
+          "def": "To set a higher standard.",
+          "ex": "Stricter examination raised the bar for patents."
+        },
+        {
+          "idiom": "Stifle competition",
+          "def": "To suppress or hold back rivalry in a market.",
+          "ex": "Broad patents can stifle competition."
+        },
+        {
+          "idiom": "Ahead of the curve",
+          "def": "More advanced than others in a field.",
+          "ex": "The firm stayed ahead of the curve."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Block off",
+          "def": "To prevent access to something.",
+          "ex": "Patents can block off whole fields of research."
+        },
+        {
+          "verb": "Build on",
+          "def": "To use something existing as a base for further development.",
+          "ex": "New inventions build on earlier work."
+        },
+        {
+          "verb": "Give rise to",
+          "def": "To cause something to happen or exist.",
+          "ex": "Weak patents give rise to costly disputes."
+        },
+        {
+          "verb": "Opt for",
+          "def": "To choose something from available options.",
+          "ex": "Many firms opt for secrecy instead."
+        },
+        {
+          "verb": "Hold up",
+          "def": "To delay or obstruct progress.",
+          "ex": "Litigation held up the product launch."
+        }
+      ]
+    },
+    "passage": "A patent is a bargain. In exchange for disclosing an invention, the inventor receives a temporary legal monopoly, typically for twenty years, during which others may not make, use or sell it without permission. The justification is economic. Knowledge is what economists call a non-rival good, since one person’s use does not diminish another’s, and it is hard to keep secret once released. A competitor can copy a new drug or machine at a fraction of the cost of developing it, so without protection inventors could not recoup their outlay and too little would be invented. The patent system corrects this by creating an artificial scarcity, at the price of a monopoly’s usual costs: higher prices and reduced use during the term. The whole design therefore rests on a trade-off between rewarding invention and restricting the use of what has been invented. Neither side of the trade-off can be measured with confidence, which is why the arrangement has been defended and attacked with equal conviction for more than two centuries, and why its details are revised so often.\n\nThe trade-off has no universal optimum, because the need for protection varies across industries. Pharmaceutical firms are the standard case for strong patents: developing a drug may cost very large sums and take a decade, while the finished pill can be copied cheaply by anyone with a chemistry laboratory. In software, by contrast, products are often developed by small teams in months, are built on earlier work in cumulative steps, and become obsolete so quickly that a twenty-year monopoly may outlast the product several times over. A uniform term across such industries is thus too long for some and, arguably, too short for others. Uniformity is administratively convenient, which is its main defence, but convenience is not an argument about what encourages invention.\n\nEmpirical research on whether patents actually spur innovation yields a more equivocal picture than the textbook account. Several historical studies of countries that introduced or strengthened patent laws found little increase in invention afterwards, though some found increases in patenting itself, which is a different thing: patenting measures the filing of applications, not the creation of useful knowledge. Surveys of firms report that in many industries patents rank behind lead time, secrecy and complementary assets such as marketing and manufacturing as ways of profiting from invention; pharmaceuticals and chemicals are among the few exceptions. This does not show that patents are useless. It shows that their importance varies by sector and that aggregate figures, which blend sectors together, can hide both strong effects and none at all. The honest summary is that the textbook story is true of some inventions, false of others, and unproven for the large middle ground where the evidence is thin.\n\nPatents also shape the direction of invention, not merely its quantity. Because rewards depend on what can be sold at monopoly prices, inventors are drawn towards the diseases of people who can pay and away from those of people who cannot. A disease confined to poor countries attracts little private research, not because it is less serious but because the patent reward is small; this is a failure not of the patent system’s internal logic but of the assumption that profit tracks need. Proposed remedies include prizes, publicly funded trials and advance purchase commitments, each of which pays for results by means other than a monopoly price. The common idea is that invention can be rewarded without being priced at a markup, a point the patent system’s defenders tend to concede in principle while doubting that governments can choose which inventions deserve prizes.\n\nA related difficulty arises from cumulative innovation. New inventions typically build on earlier ones, so a strong patent on a foundational invention can give its owner a lever over successors. If many patents must be combined to make a single product, as in some electronic devices, each owner can demand a fee, and the total may exceed what any developer is willing to pay, so that useful products are never made, a problem the legal scholar Michael Heller called the tragedy of the anticommons. Firms respond by cross-licensing, pooling patents, or filing large numbers of patents defensively, none of which has anything to do with invention. Whether the resulting thicket impedes innovation or is merely a cost of doing business remains disputed, because the products that were never made leave no trace to be counted. A study can count the patents that exist, the licences that were signed and the lawsuits that were filed; it cannot count the project that a developer abandoned after reading the list of owners whose consent would be required.\n\nA further complication is the incentive to challenge. Patent offices examine applications under time pressure and grant many patents that are later narrowed or invalidated; the cost of a legal challenge, however, falls on the challenger, while the benefit of removing an invalid patent is shared by everyone who might have been charged. The result is under-investment in challenges and a surplus of weak patents that are never tested. Firms that hold doubtful patents can profit by demanding licence fees lower than the cost of litigation, so that payment is rational for the target whether or not the patent is valid. The system thus rewards not only invention but the ability to threaten, and the two are different skills.\n\nWhat follows is not that patents should be abolished, nor that they should be strengthened, but that the optimal design is specific to context. The case for strong protection is strongest where development is costly, copying is cheap and the products are not cumulative; it weakens where those conditions fail. A system that gives the same protection to every invention treats a heterogeneous reality as if it were uniform, and confers windfalls in some places while withholding incentives in others. The question to ask of any proposal, whether it extends terms, shortens them or creates new forms of reward, is therefore not whether it favours inventors or the public, but what, specifically, it changes about the cost of inventing relative to the cost of copying.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following, if true, would most weaken the economic justification for patents given in paragraph 1?",
+        "options": [
+          "A) Inventors in most industries would welcome longer patent terms because they would earn higher returns on inventions that have already been made.",
+          "B) Some inventions are made by individuals motivated by curiosity and reputation, but these are cheap to develop and seldom of much commercial value.",
+          "C) In most industries, the lead time before rivals can copy a product lets inventors recover their costs even without legal protection.",
+          "D) Competitors in most industries can copy a new product at a small fraction of the cost of developing it once it reaches the market."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The justification is that copying is cheap and quick, so without protection inventors could not recoup costs. If lead time already lets inventors recover their outlay, protection is unnecessary for most industries and the justification collapses for them.<br><br>• <strong>Why Option A is Wrong:</strong> Welcoming longer terms says nothing about whether protection is needed to induce invention.<br><br>• <strong>Why Option B is Wrong:</strong> The option concedes that such inventions are cheap and of little commercial value, so it leaves costly inventions, the ones the justification is about, still needing protection.<br><br>• <strong>Why Option D is Wrong:</strong> This restates the passage’s own premise (copying costs a fraction of development), so it strengthens the justification instead of weakening it.<br><br><strong>💡 Approach:</strong> For weaken questions, find the option that removes the problem the patent is meant to solve. Options about motivation or about what inventors prefer do not address recovery of costs."
+      },
+      {
+        "id": "q2",
+        "question": "The author says that uniformity of patent terms is ‘administratively convenient’ (paragraph 2) in order to suggest that:",
+        "options": [
+          "A) uniform terms are in practice cheaper to run than industry-specific terms and so should be preferred wherever the choice is available",
+          "B) the principal defence of uniform terms has nothing to do with the pharmaceutical and software industries described in the paragraph",
+          "C) patent offices would be unable to cope with differing terms because they are examining applications under severe time pressure",
+          "D) convenience supports uniform terms as a matter of administration but is not evidence that they encourage invention"
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The author concludes the sentence by saying convenience is not an argument about what encourages invention. So the remark concedes an administrative advantage and denies it bears on the real question.<br><br>• <strong>Why Option A is Wrong:</strong> The author does not say that uniform terms should be preferred; the point is that convenience does not justify them.<br><br>• <strong>Why Option B is Wrong:</strong> The defence is a defence of uniformity across such industries, so it does concern them; the option distorts the claim.<br><br>• <strong>Why Option C is Wrong:</strong> Time pressure in examination is mentioned in paragraph 6 for a different purpose and is not tied to the convenience of uniformity.<br><br><strong>💡 Approach:</strong> Function questions: the sentence after the remark gives the point. 'But convenience is not an argument about...' marks the concession-and-denial pattern."
+      },
+      {
+        "id": "q3",
+        "question": "The author’s distinction between ‘patenting’ and invention (paragraph 3) implies that:",
+        "options": [
+          "A) countries that strengthened patent laws saw less invention afterwards, since patents are filed mainly to block competitors",
+          "B) an increase in patent filings after a change in the law would not by itself show that more useful knowledge had been created",
+          "C) patent offices record filings inaccurately, so that official statistics cannot be used in any study of the effects of patents",
+          "D) firms in pharmaceuticals and chemicals file patents to a greater extent than those in other industries because of the strength of the law"
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author says patenting measures the filing of applications, not the creation of useful knowledge, so a rise in filings could occur without any rise in invention.<br><br>• <strong>Why Option A is Wrong:</strong> Some studies found little increase in invention; the author does not say invention fell or that patents are filed mainly to block rivals.<br><br>• <strong>Why Option C is Wrong:</strong> Nothing suggests that records are inaccurate; the point is that filings measure something other than invention.<br><br>• <strong>Why Option D is Wrong:</strong> Pharmaceuticals and chemicals are cited as exceptions in which patents rank highly as a means of profiting, but the filing rates are not compared and no cause is given.<br><br><strong>💡 Approach:</strong> An implication must follow from what is stated. Distractors add causes (blocking competitors, strength of law) the author never gives."
+      },
+      {
+        "id": "q4",
+        "question": "All of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) Patents are unnecessary in the pharmaceutical industry, since only firms with large laboratories are able to copy a new drug.",
+          "B) A patent term of twenty years may last far longer than the commercial life of a software product.",
+          "C) Rewarding invention without charging a monopoly markup is conceivable, though the prize-giver would have to choose which inventions deserve rewards.",
+          "D) In some industries firms rank lead time and secrecy above patents as ways of profiting from their inventions."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Paragraph 2 says pharmaceuticals are the standard case for strong patents because a drug costs a great deal to develop and can be copied cheaply by anyone with a chemistry laboratory. Option A contradicts this, so it cannot be inferred.<br><br>• <strong>Why Option B is Wrong:</strong> Paragraph 2 says a twenty-year monopoly may outlast a software product several times over.<br><br>• <strong>Why Option C is Wrong:</strong> Paragraph 4 describes prizes and the defenders’ doubts about governments choosing which inventions deserve them.<br><br>• <strong>Why Option D is Wrong:</strong> Paragraph 3 reports that patents rank behind lead time, secrecy and complementary assets in many industries.<br><br><strong>💡 Approach:</strong> In EXCEPT questions, three options echo the passage and one inverts it. Check which one flips a stated fact."
+      },
+      {
+        "id": "q5",
+        "question": "According to the passage, why is it difficult to settle whether patent thickets impede innovation?",
+        "options": [
+          "A) Firms do not reveal how many patents they hold, which makes it impossible to estimate how many patents are needed to make a product",
+          "B) Defensive filings by firms have so greatly increased the number of patents that the effect of any one patent cannot be separated from the rest",
+          "C) The products that were not made because of the thicket leave no trace behind, and so cannot be counted",
+          "D) Cross-licensing and pooling arrangements have been adopted so widely that thickets no longer exist in any of the industries concerned"
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The last sentence of paragraph 5 says the dispute continues 'because the products that were never made leave no trace to be counted'.<br><br>• <strong>Why Option A is Wrong:</strong> Secrecy about the number of patents is not mentioned.<br><br>• <strong>Why Option B is Wrong:</strong> Defensive filing is mentioned as a response, but it is not given as the reason the dispute cannot be settled.<br><br>• <strong>Why Option D is Wrong:</strong> The author says firms respond with pooling and cross-licensing but does not say thickets have disappeared.<br><br><strong>💡 Approach:</strong> Reason questions: locate the explicit 'because' in the paragraph. Plausible-sounding alternatives (secrecy, volume of filings) never appear as the reason."
+      },
+      {
+        "id": "q6",
+        "question": "The author’s remark that payment of a licence fee is rational for a target ‘whether or not the patent is valid’ is most closely paralleled by:",
+        "options": [
+          "A) A customer who returns a faulty appliance to the shop because the shop has promised to refund purchases within thirty days of the sale",
+          "B) A motorist who pays a disputed parking fine because contesting it would cost more than the fine, though he thinks it unjust",
+          "C) A company that pays higher taxes in order to qualify for a government contract that requires proof of compliance with the tax laws",
+          "D) A student who copies a classmate’s notes because the classmate is generally believed to be more careful than the other students in class"
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The motorist’s payment is rational because contesting costs more than paying, whatever the merits of the fine, which mirrors paying a licence fee that is less than the cost of litigation.<br><br>• <strong>Why Option A is Wrong:</strong> The customer is exercising a right under a promise; no merit-independent cost comparison is involved.<br><br>• <strong>Why Option C is Wrong:</strong> Paying taxes to qualify for a contract concerns eligibility, not avoiding the cost of a contest.<br><br>• <strong>Why Option D is Wrong:</strong> Copying notes concerns trust in quality, not paying to avoid a costlier dispute.<br><br><strong>💡 Approach:</strong> Extract the logic: paying is cheaper than contesting, so merit is irrelevant. Surface similarity (payment, rules) is the trap."
+      }
+    ]
   }
 ]
 
