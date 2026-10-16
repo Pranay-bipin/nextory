@@ -1,586 +1,911 @@
-[
-  {
-    "id": "sec-2026-10-14",
-    "date": "2026-10-14",
-    "title": "IPMAT Indore VA Full Sectional Mock - Set 14 (Advanced Level)",
-    "durationMinutes": 40,
-    "totalQuestions": 45,
-    "questions": [
-      {
-        "id": "q1",
-        "type": "RC",
-        "passage": "The number zero seems so obvious to us that it is hard to appreciate that it was ever a discovery at all. A child learns that nothing can be counted: three apples, two apples, one apple, none. Yet for most of recorded history mathematicians of great ability did without it, and when it finally arrived it did so not in a single moment but as a succession of ideas that were easily confused with one another. The usual shorthand, that zero was invented in India, is not so much false as compressed: it squeezes a process into a point, and hides the question that matters, which is what, exactly, was invented.\n\nAt least three things travel under the name. The first is zero as a placeholder: a mark showing that a position in a numeral is empty, so that 205 can be told from 25. The Babylonians, who wrote numbers in base sixty, were using a sign for this purpose, two slanted wedges, by about 300 BCE, and the Maya independently developed a shell-shaped glyph for an empty place. The second is zero as a quantity, the answer to the question \"how many are left?\" when everything has been taken away. The third, and the most demanding, is zero as a number: an object in its own right, which can be added, subtracted and multiplied, and whose properties must be stated. The Babylonians had the first of these but there is little evidence that they had the third. Their placeholder was often left out at the end of a numeral, where it would have changed the magnitude, so that a reader had to consult the context to know whether a figure meant one or sixty.\n\nThe Greeks, who were superb geometers, never adopted zero as a number, and the reasons are instructive. Their mathematics was built on magnitudes, such as lengths, areas and ratios. A number, for them, was a collection of units, and a collection of no units was not a collection. Aristotle, moreover, argued against the existence of a void, holding a vacuum to be a contradiction in terms, and this position made it harder to treat nothing as an object of study. It would be too neat to say that philosophy prevented the Greeks from discovering zero; their astronomers used a positional system borrowed from Babylon, with a symbol for the empty place. But as a number to be calculated with, zero lay beyond a mathematics that identified numbers with plurality.\n\nThe decisive step was taken in India. The Bakhshali manuscript, a collection of mathematical rules on birch bark found in 1881 in a village in what is now Pakistan, contains hundreds of zeros in the form of a dot used as a placeholder. Radiocarbon dating published in 2017 suggested that some of its leaves are far older than had been believed, perhaps from the third or fourth century CE, although the dating of the manuscript as a whole remains disputed because its leaves appear to come from different periods. The move from placeholder to number is clearest in the work of Brahmagupta, who in 628 CE stated rules for calculating with zero: a number added to zero is unchanged, a number multiplied by zero gives zero, and zero subtracted from itself gives zero. He also tried to define division by zero and failed, asserting that zero divided by zero is zero, a claim that later mathematicians rejected. The failure is as instructive as the success: it marks the point at which zero became a number about which one could be wrong.\n\nFrom India the numerals travelled to the Arab world, where in the ninth century al-Khwarizmi wrote an account of Indian calculation whose Latin translation introduced the system to Europe; his name survives in the word algorithm. Europe received it slowly. Leonardo of Pisa, known as Fibonacci, advocated it in his Liber Abaci of 1202, written for merchants, but adoption met resistance. In 1299 the city of Florence forbade the use of the Hindu-Arabic numerals in bankers' accounts. The ban is often presented as obscurantism, yet it is commonly explained by a practical fear of forgery: a 0 could be altered into a 6 or a 9 with a stroke of the pen, whereas Roman numerals were harder to tamper with. Merchants in the Italian trading cities were nonetheless quick to see the value of the new notation for commercial arithmetic, and by the fifteenth century it was taught in the abacus schools of Florence and Venice, which trained young merchants in reckoning. The episode reminds us that a technology superior for calculation is not necessarily superior for record-keeping, and that what a society adopts depends on what it fears as well as on what it needs.\n\nTold in this way, the story invites a competition for credit. Some accounts assign zero to India alone; others to Babylon, pointing to earlier placeholders. Neither is satisfactory. The Babylonian placeholder and the Mayan glyph show that the idea of marking an empty place arose independently wherever positional systems did; they do not show that anyone then conceived a number called zero. Conversely, the Indian achievement did not arise from nothing. It depended on a decimal place-value notation and on a philosophical tradition that had long reflected on emptiness, sunya, a word that came to mean zero. Whether that tradition caused the mathematics, or merely provided a hospitable climate for it, is a question the evidence cannot settle.\n\nWhat the history suggests is that zero was less an invention than a series of removals of obstacles: the obstacle of notation, which a placeholder removed; of philosophy, which required that nothing might be something; and of arithmetic, which demanded rules. Each could be overcome separately and in different places, and the combination that gives modern mathematics its power appeared only where all three coincided. To ask who invented zero is to assume that it was one thing. The conclusion is modest, but it changes what a satisfactory answer would look like.",
-        "question": "Which of the following best captures the central argument of the passage?",
-        "options": [
-          "A) Zero emerged through a series of separate conceptual steps, so asking who invented it wrongly treats it as a single thing.",
-          "B) Zero was invented in India in the seventh century by Brahmagupta, whose rules for calculation first made it a number in the full sense.",
-          "C) The Greeks failed to discover zero because Aristotle's rejection of the void forbade them from treating nothing as a number or an object.",
-          "D) Claims about the origin of zero are driven by national pride, and so no reliable account of how zero was invented can be given."
-        ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> The last paragraph says zero was 'a series of removals of obstacles' and that asking who invented it assumes it was one thing. B narrows the story to one person and date; C overstates the Greek case, which the author calls 'too neat'; D goes beyond the passage, which weighs the evidence rather than dismissing it."
+{
+  "title": "IPMAT VA Sectional – 16th Oct 2026",
+  "date": "2026-10-16",
+  "section": "Verbal Ability",
+  "total_questions": 45,
+  "duration_minutes": 45,
+  "pattern": {
+    "MCQ": 40,
+    "TITA (Parajumbles)": 5,
+    "RC_passages": 3,
+    "questions_per_RC": 6
+  },
+  "passages": {
+    "RC1": {
+      "title": "Measurement and its discontents",
+      "text": "Every measurement regime begins as an act of humility and ends as an act of governance. When a hospital first begins to track waiting times, the figure is merely a window onto its operations; once administrators tie funding to that figure, it becomes a lever, and levers invite handling. Wards learn to reclassify patients as 'admitted' the moment they cross the threshold, even if they linger in corridors for hours. The metric improves; the experience of waiting does not. The economist Charles Goodhart's observation that a measure ceases to be a good measure once it becomes a target is often quoted as though it were a lament about human dishonesty. This is too generous to the measurers and too harsh on the measured. Those who game a target are usually responding rationally to an incentive designed by someone who mistook a proxy for the thing itself. The deeper failure is conceptual: a proxy is valuable precisely because it is cheap to observe relative to the quality it stands for, and that cheapness is also what makes it cheap to counterfeit. Remedies exist, but none is free. Rotating metrics frustrate manipulation but deprive institutions of the stable benchmarks they need for learning. Pairing quantitative measures with qualitative audits restores context but reintroduces discretion, the very thing metrics were meant to discipline. Perhaps the sober conclusion is that measurement should be treated less as a mirror than as a conversation: one in which every number is provisional, and the more consequential the number, the more suspicious one ought to be of it."
+    },
+    "RC2": {
+      "title": "The tyranny of the timetable",
+      "text": "Before the railways, time in Britain was a local affair. Bristol kept its clocks about ten minutes behind London, and nobody was troubled, because nobody moved fast enough for the discrepancy to matter. The railway timetable changed this not by making people more punctual but by making lateness legible: a train either left at the printed hour or it did not, and a passenger who arrived by the town clock found the platform empty. Standardisation, in this telling, was a gift of technology to a world awaiting it. Yet historians have lately complained that such accounts smuggle in an assumption of inevitability. Many towns resisted 'railway time' for decades; Bristol's Corn Exchange famously displayed two minute hands, one for each regime, and some merchants elsewhere insisted that the sun, not the company, was the proper authority over their afternoons. What eventually secured uniformity was less the superiority of the new system than the accumulated cost of dissent. Each institution that adopted the standard (post office, court, telegraph) raised the penalty for the next that did not, until local time survived only as a sentimental affectation. The lesson is not that the railways were innocent. It is that a convention triumphs when opting out becomes expensive, whether or not opting in was ever the better choice, and that the 'obviousness' we later attach to a standard is often an artefact of its victory rather than its cause."
+    },
+    "RC3": {
+      "title": "In praise of the empty hour",
+      "text": "Boredom is generally treated as a malfunction of modern life, a vacuum that devices were invented to fill. But the psychologist's older view, that boredom is a signal rather than a state, deserves revival. A bored mind is not an idle one; it is one that has detected a mismatch between its capacities and its surroundings and is pressing for adjustment. In that sense boredom resembles hunger: unpleasant by design, and valuable because the discomfort compels action. The trouble begins when the remedy is too instant. A person who answers every flicker of restlessness with a screen never lets the signal complete its work, and so never discovers what the restlessness was pointing towards, whether a neglected ambition, a dissatisfaction with a job, or merely the need for rest. Critics might object that this romanticises tedium, since the boredom of a factory line or a waiting room is hardly generative. The objection has force, but it conflates boredom that is imposed with boredom that is endured by choice. Experiments suggest that people who are permitted to remain with an unstimulating task for a while later produce more original solutions to open-ended problems than those who were diverted. The effect is modest and not uniformly replicated, and one should resist the temptation to prescribe boredom as a tonic. Still, a culture that regards every empty interval as a problem to be solved may be quietly eliminating the conditions under which some of its best ideas arise."
+    },
+    "CA1": {
+      "title": "Conversation: 'Partners' or 'dependants'? (The Policy Hour)",
+      "text": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nMeera Kapoor (Host, The Policy Hour): Dr. Rao, platform companies call their drivers 'partners'. You prefer the word 'dependants'. Why?\n\nDr. Anil Rao (labour economist): Because partnership implies bargaining power, and these workers have almost none. A driver cannot set the fare, cannot see the destination before accepting, and can be deactivated by an algorithm without appeal. Flexibility is real, but it is flexibility to log in, not flexibility over terms.\n\nMeera Kapoor: The platforms say workers value the freedom.\n\nDr. Anil Rao: Many do, and I don't dismiss it. But surveys of freedom are usually taken from people who have other options. For someone with a car loan to service, a 'free' schedule often means working twelve hours because any single hour pays too little. The freedom is sometimes the mechanism of the squeeze.\n\nMeera Kapoor: So regulation?\n\nDr. Anil Rao: Not necessarily employment status for all. I would begin with transparency: show the worker how the fare was computed and let them contest a deactivation. You cannot negotiate what you cannot see."
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "section": "VA",
+      "category": "Sentence Completion",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The minister's assurances were so ________ that even her allies began to suspect the policy had been designed more to soothe than to solve.",
+      "options": [
+        "categorical",
+        "incendiary",
+        "peremptory",
+        "anodyne"
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "'Anodyne' means deliberately inoffensive and bland, intended to avoid controversy or upset. The clue is 'designed more to soothe than to solve': assurances meant to calm rather than commit. 'Categorical' (absolute) and 'peremptory' (imperious) suggest firmness, which would not make allies suspect a lack of substance; 'incendiary' (inflammatory) is the opposite of soothing."
+    },
+    {
+      "id": 2,
+      "section": "VA",
+      "category": "Sentence Completion",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Far from being a ________ discovery, the vaccine was the culmination of decades of patient, incremental work by hundreds of researchers.",
+      "options": [
+        "seminal",
+        "inconsequential",
+        "serendipitous",
+        "sporadic"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "'Far from being...' signals contrast with 'decades of patient, incremental work'. The opposite of planned, cumulative effort is a lucky accident, i.e. 'serendipitous'. 'Seminal' (groundbreaking) does not contrast with long effort; 'specious' (superficially plausible but false) and 'sporadic' (occasional) do not fit the logic."
+    },
+    {
+      "id": 3,
+      "section": "VA",
+      "category": "Sentence Completion",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Critics dismissed the novel as ________, its elaborate plot concealing the fact that it had nothing new to say.",
+      "options": [
+        "prosaic",
+        "indecipherable",
+        "pedantic",
+        "meretricious"
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "'Meretricious' means showily attractive but without real value, exactly what an elaborate plot hiding emptiness is. 'Prosaic' (dull, ordinary) conflicts with 'elaborate'; 'laconic' (using few words) conflicts with an elaborate plot; 'pedantic' (overly concerned with detail/rules) does not capture the idea of false glitter."
+    },
+    {
+      "id": 4,
+      "section": "VA",
+      "category": "Sentence Completion",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Many hail the new tax as a game changer, but it is hardly a ________; the fiscal deficit will persist unless spending is also brought under control.",
+      "options": [
+        "dark horse",
+        "magic bullet",
+        "sitting duck",
+        "wild goose chase"
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "A 'magic bullet' (like 'silver bullet') is a single, simple solution to a complex problem. The 'but... unless spending is controlled' structure says the tax alone will not fix the deficit. 'Dark horse' (an unexpected winner), 'sitting duck' (an easy target) and 'wild goose chase' (a futile pursuit) do not fit the meaning."
+    },
+    {
+      "id": 5,
+      "section": "VA",
+      "category": "Vocabulary",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The diplomat's ________ manner masked a ________ resolve; negotiators who mistook his courtesy for weakness soon found him ________ on every substantive point.",
+      "options": [
+        "brusque; feeble; flexible",
+        "urbane; steely; immovable",
+        "affable; vacillating; intransigent",
+        "gauche; adamant; obliging"
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "The sentence contrasts a polished, courteous exterior ('urbane') with a hard inner resolve ('steely'), so negotiators found him 'immovable'. In (B) 'brusque' contradicts 'courtesy'. In (C) 'vacillating' (wavering) contradicts 'resolve'. In (D) 'gauche' (awkward) contradicts courtesy and 'obliging' contradicts 'soon found him...' on every point."
+    },
+    {
+      "id": 6,
+      "section": "VA",
+      "category": "Vocabulary",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "A growing ________ of evidence suggests the firm's accounts were ________, yet regulators, wary of ________ allegations, have proceeded cautiously.",
+      "options": [
+        "dearth; impeccable; credible",
+        "body; falsified; unproven",
+        "paucity; embellished; malicious",
+        "plethora; audited; scrupulous"
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "A growing 'body' of evidence suggesting 'falsified' accounts explains why regulators are wary of 'unsubstantiated' allegations and so move cautiously. 'Dearth/paucity' cannot be 'growing' in a way that supports suspicion; 'impeccable' and 'audited' do not suggest wrongdoing; 'credible' and 'scrupulous' allegations would not make regulators cautious."
+    },
+    {
+      "id": 7,
+      "section": "VA",
+      "category": "Vocabulary",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Her ________ prose, free of ornament, was a deliberate ________ to the ________ style then fashionable among her contemporaries.",
+      "options": [
+        "ornate; rebuke; florid",
+        "turgid; tribute; austere",
+        "lucid; homage; ornate",
+        "spare; rebuke; florid"
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "'Free of ornament' means 'spare'. A deliberate challenge to the then-fashionable style is a 'rebuke', and that style must be the opposite of spare, i.e. 'florid'. (B) 'ornate prose' contradicts 'free of ornament'; (C) 'turgid' (bloated) contradicts it as well; (D) 'homage to an ornate style' contradicts 'deliberate' contrast."
+    },
+    {
+      "id": 8,
+      "section": "VA",
+      "category": "Vocabulary",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The scientist's reluctance to publish was not mere ________; she had learnt that premature claims, once ________, are almost impossible to ________.",
+      "options": [
+        "diffidence; retracted; amplify",
+        "caution; suppressed; revive",
+        "vanity; endorsed; verify",
+        "timidity; circulated; retract"
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "Her reluctance had a rational basis: once a premature claim is 'circulated' it can hardly be 'retracted'. 'Not mere timidity' sets up a contrast with a considered reason. (A) repeats the idea of shyness and 'amplify' makes no sense; (C) 'caution' is the very reason, so 'not mere caution' contradicts the logic; (D) 'vanity... endorsed... verify' is incoherent."
+    },
+    {
+      "id": 9,
+      "section": "VA",
+      "category": "Vocabulary",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Although the village appeared ________ to outsiders, its residents were ________ by a long-standing feud that had ________ every attempt at reconciliation.",
+      "options": [
+        "tranquil; riven; thwarted",
+        "prosperous; united; facilitated",
+        "squalid; sustained; precipitated",
+        "remote; galvanised; hastened"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "'Although' sets up a contrast between a calm appearance ('tranquil') and inner division ('riven' = split apart), with the feud 'thwarting' reconciliation. The other options either do not contrast (squalid, remote) or reverse the meaning (united, facilitated, hastened)."
+    },
+    {
+      "id": 10,
+      "section": "VA",
+      "category": "Sentence Correction",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Neither the manager nor the employees <u>was aware</u> that the policy had changed.",
+      "options": [
+        "has been aware",
+        "is aware",
+        "were aware",
+        "was being aware"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "With 'neither... nor', the verb agrees with the subject nearest to it. The nearer subject is the plural 'employees', so the verb must be plural: 'were aware'. The tense also matches 'had changed' (past). The other options are singular or change the tense unnecessarily."
+    },
+    {
+      "id": 11,
+      "section": "VA",
+      "category": "Sentence Correction",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Hardly had the speaker begun her address <u>than</u> the lights went out.",
+      "options": [
+        "then",
+        "when",
+        "while",
+        "than that"
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "'Hardly' (like 'scarcely') is paired with 'when', not 'than'. 'No sooner... than' is the parallel construction. 'Then' and 'while' do not complete the correlative pair."
+    },
+    {
+      "id": 12,
+      "section": "VA",
+      "category": "Sentence Correction",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Each of the proposals submitted by the contractors <u>were</u> rejected for failing to meet the safety norms.",
+      "options": [
+        "was",
+        "have been",
+        "are",
+        "being"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "'Each' is a singular pronoun and takes a singular verb, regardless of the plural noun 'contractors' in the intervening phrase. 'Was rejected' is the correct form and agrees with the past context."
+    },
+    {
+      "id": 13,
+      "section": "VA",
+      "category": "Sentence Correction",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The chairman's speech, <u>replete of</u> statistics but devoid of insight, left investors unimpressed.",
+      "options": [
+        "replete with",
+        "replete in",
+        "repeating with",
+        "replete on"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "'Replete' takes the preposition 'with' (replete with = abundantly filled with). 'Replete of', 'in' and 'on' are all unidiomatic; 'repeating with' changes the word and makes no sense."
+    },
+    {
+      "id": 14,
+      "section": "VA",
+      "category": "Incorrect Word",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+      "options": [
+        "The minister's remarks were widely interpreted as an oblique criticism of the central bank's recent policy.",
+        "The novelist's early work is often eclipsed by her more celebrated and commercially successful later novels.",
+        "Her meticulous planning ensured the expedition ran effusively from start to finish.",
+        "The treaty was finally ratified after many months of acrimonious debate in both houses."
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "'Effusively' means in an unrestrained, gushing manner and cannot describe how an expedition runs; the intended word is 'smoothly'. In the other sentences 'oblique' (indirect), 'eclipsed' (overshadowed) and 'acrimonious' (bitter) are all used correctly."
+    },
+    {
+      "id": 15,
+      "section": "VA",
+      "category": "Incorrect Word",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+      "options": [
+        "The defendant's alibi was so flimsy that it collapsed under cursory questioning.",
+        "The sudden downpour exacerbated the villagers' hopes of a good harvest.",
+        "The museum's collection is notable for its eclectic range, spanning Roman coins to modern posters.",
+        "The diplomat's apology, though gracious, did little to mitigate the damage already done."
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "'Exacerbate' means to make something bad worse, so it cannot apply to 'hopes'; the intended word is 'dashed' or 'dampened'. 'Cursory' (hasty), 'eclectic' (drawn from diverse sources) and 'mitigate' (lessen) are used correctly in the rest."
+    },
+    {
+      "id": 16,
+      "section": "VA",
+      "category": "Incorrect Word",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+      "options": [
+        "The company's expansion was predicated on the assumption that consumer demand would keep growing.",
+        "The brothers, once inseparable, grew inured to each other after the inheritance quarrel.",
+        "The witness's testimony was corroborated by two entirely independent sources.",
+        "She was chastened by the criticism and promptly redoubled her efforts."
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "'Inured' means accustomed to something unpleasant; it does not describe the relationship between estranged brothers. The correct word is 'estranged' or 'alienated'. 'Predicated on' (based on), 'corroborated' (confirmed) and 'chastened' (subdued by criticism) are correct."
+    },
+    {
+      "id": 17,
+      "section": "VA",
+      "category": "Paracompletion",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Across Gujarat and Rajasthan, stepwells were built not merely to store water but to be inhabited. ____________________. Their cool, shaded chambers offered travellers respite from the heat, and their carved pillars hosted festivals and gatherings. By the time colonial administrators began piping water to towns, the stepwell's social role had already outlived its practical one.",
+      "options": [
+        "They were, in effect, public squares that happened to hold water.",
+        "Most stepwells were eventually abandoned because they were expensive and difficult to maintain over time.",
+        "The colonial government was deeply impressed by the engineering sophistication of these structures.",
+        "Water scarcity in western India has since been aggravated by the spread of intensive modern agriculture."
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "The blank must bridge 'built to be inhabited' and the details that follow (shaded chambers, festivals). Only the first option generalises that social function. The others introduce abandonment, colonial admiration and agriculture, none of which is developed in the next sentences."
+    },
+    {
+      "id": 18,
+      "section": "VA",
+      "category": "Paracompletion",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Open-source software is frequently described as free, but the word hides a subtle bargain. ____________________. Companies that build products on volunteer-maintained code enjoy its benefits without bearing its upkeep, and the volunteers, often unpaid, are left to absorb the burden. The arrangement works only as long as goodwill outlasts fatigue.",
+      "options": [
+        "Many programmers contribute to open-source projects in order to build their professional reputations and networks.",
+        "Proprietary software, by contrast, is generally better documented and considerably more secure than most community tools.",
+        "Governments in several countries have begun mandating the use of open-source tools in public offices and agencies.",
+        "Its price is zero; its cost is simply borne by someone else."
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "The following sentences explain who bears the hidden cost (volunteers) while companies benefit. The correct option states the 'bargain' directly (zero price, cost transferred). The others are true-sounding but shift to motivation, security and government policy."
+    },
+    {
+      "id": 19,
+      "section": "VA",
+      "category": "Paracompletion",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The Hindi word jugaad is often rendered in English as 'frugal innovation', a phrase that flatters it. ____________________. A truck engine bolted to a cart or a phone charger fixed with tape is clever, but it is also a quiet comment on the absence of better options. To celebrate the ingenuity without asking why it was needed is to admire the patch and ignore the hole.",
+      "options": [
+        "Jugaad has attracted growing interest from management scholars in Europe and America, who study it as a model of low-cost product design.",
+        "Improvisation born of scarcity is as much a symptom of neglect as a sign of creativity.",
+        "Indian engineers are often reluctant to adopt formal design methodologies because these are seen as expensive and unnecessarily bureaucratic.",
+        "Foreign companies have frequently failed in the Indian market because of their reliance on technologies that ordinary consumers cannot afford."
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "The paragraph argues that 'frugal innovation' flatters jugaad because it hides the neglect behind it ('admire the patch and ignore the hole'). Only the correct option previews that two-sided claim. The others praise or discuss jugaad from the management, engineering or market angle, which the paragraph does not develop."
+    },
+    {
+      "id": 20,
+      "section": "VA",
+      "category": "Conversation Analysis",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Dr. Rao prefers the word 'dependants' over 'partners' because he believes that gig workers",
+      "passage_id": "CA1",
+      "options": [
+        "lack real bargaining power over the terms of work",
+        "are paid less than workers in traditional employment",
+        "are unwilling to accept flexible schedules from platforms",
+        "cannot afford to own the vehicles that they drive"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "Rao says partnership 'implies bargaining power, and these workers have almost none'; they cannot set fares, see destinations or contest deactivation. The other options (low pay relative to employees, unwillingness to accept flexibility, inability to own vehicles) are not claimed. In fact he mentions a car loan, so ownership is not the issue."
+    },
+    {
+      "id": 21,
+      "section": "VA",
+      "category": "Conversation Analysis",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "According to Dr. Rao, the flexibility offered by platforms is best described as",
+      "passage_id": "CA1",
+      "options": [
+        "a genuine benefit that outweighs any lack of bargaining power",
+        "an illusion, since drivers are forced to work fixed shifts",
+        "freedom to start work but not to shape the conditions",
+        "an advantage available only to workers who own their own cars"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "Rao says the flexibility is 'real' but is 'flexibility to log in, not flexibility over terms'. He does not call it an illusion or claim fixed shifts exist, nor does he say it outweighs the problems or is limited to car owners."
+    },
+    {
+      "id": 22,
+      "section": "VA",
+      "category": "Conversation Analysis",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Dr. Rao questions surveys showing that workers value freedom because the respondents",
+      "passage_id": "CA1",
+      "options": [
+        "are selected by the platforms themselves and therefore tend to give systematically biased answers",
+        "often have alternatives, so results may miss the financially squeezed",
+        "generally want regular employment instead of flexible work arrangements of any kind",
+        "do not understand how fares are calculated by the platform's algorithm"
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "Rao says such surveys 'are usually taken from people who have other options', whereas a worker servicing a loan may feel compelled to work long hours. He does not allege platform-chosen samples, a general preference for employment, or ignorance about fares."
+    },
+    {
+      "id": 23,
+      "section": "VA",
+      "category": "Parajumbles",
+      "difficulty": "Hard",
+      "type": "tita",
+      "marks": 4,
+      "negative_marking": 0,
+      "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
+      "options": null,
+      "sentences": {
+        "1": "This process, known as bleaching, is not immediately fatal, but a coral that stays bleached for long will starve.",
+        "2": "Corals owe their colour and most of their energy to symbiotic algae living in their tissues.",
+        "3": "Recovery is possible only if the heat subsides quickly enough for the algae to recolonise.",
+        "4": "When water temperatures rise even slightly above seasonal norms, the corals expel these algae, leaving their white skeletons visible."
       },
-      {
-        "id": "q2",
-        "type": "RC",
-        "passage": "The number zero seems so obvious to us that it is hard to appreciate that it was ever a discovery at all. A child learns that nothing can be counted: three apples, two apples, one apple, none. Yet for most of recorded history mathematicians of great ability did without it, and when it finally arrived it did so not in a single moment but as a succession of ideas that were easily confused with one another. The usual shorthand, that zero was invented in India, is not so much false as compressed: it squeezes a process into a point, and hides the question that matters, which is what, exactly, was invented.\n\nAt least three things travel under the name. The first is zero as a placeholder: a mark showing that a position in a numeral is empty, so that 205 can be told from 25. The Babylonians, who wrote numbers in base sixty, were using a sign for this purpose, two slanted wedges, by about 300 BCE, and the Maya independently developed a shell-shaped glyph for an empty place. The second is zero as a quantity, the answer to the question \"how many are left?\" when everything has been taken away. The third, and the most demanding, is zero as a number: an object in its own right, which can be added, subtracted and multiplied, and whose properties must be stated. The Babylonians had the first of these but there is little evidence that they had the third. Their placeholder was often left out at the end of a numeral, where it would have changed the magnitude, so that a reader had to consult the context to know whether a figure meant one or sixty.\n\nThe Greeks, who were superb geometers, never adopted zero as a number, and the reasons are instructive. Their mathematics was built on magnitudes, such as lengths, areas and ratios. A number, for them, was a collection of units, and a collection of no units was not a collection. Aristotle, moreover, argued against the existence of a void, holding a vacuum to be a contradiction in terms, and this position made it harder to treat nothing as an object of study. It would be too neat to say that philosophy prevented the Greeks from discovering zero; their astronomers used a positional system borrowed from Babylon, with a symbol for the empty place. But as a number to be calculated with, zero lay beyond a mathematics that identified numbers with plurality.\n\nThe decisive step was taken in India. The Bakhshali manuscript, a collection of mathematical rules on birch bark found in 1881 in a village in what is now Pakistan, contains hundreds of zeros in the form of a dot used as a placeholder. Radiocarbon dating published in 2017 suggested that some of its leaves are far older than had been believed, perhaps from the third or fourth century CE, although the dating of the manuscript as a whole remains disputed because its leaves appear to come from different periods. The move from placeholder to number is clearest in the work of Brahmagupta, who in 628 CE stated rules for calculating with zero: a number added to zero is unchanged, a number multiplied by zero gives zero, and zero subtracted from itself gives zero. He also tried to define division by zero and failed, asserting that zero divided by zero is zero, a claim that later mathematicians rejected. The failure is as instructive as the success: it marks the point at which zero became a number about which one could be wrong.\n\nFrom India the numerals travelled to the Arab world, where in the ninth century al-Khwarizmi wrote an account of Indian calculation whose Latin translation introduced the system to Europe; his name survives in the word algorithm. Europe received it slowly. Leonardo of Pisa, known as Fibonacci, advocated it in his Liber Abaci of 1202, written for merchants, but adoption met resistance. In 1299 the city of Florence forbade the use of the Hindu-Arabic numerals in bankers' accounts. The ban is often presented as obscurantism, yet it is commonly explained by a practical fear of forgery: a 0 could be altered into a 6 or a 9 with a stroke of the pen, whereas Roman numerals were harder to tamper with. Merchants in the Italian trading cities were nonetheless quick to see the value of the new notation for commercial arithmetic, and by the fifteenth century it was taught in the abacus schools of Florence and Venice, which trained young merchants in reckoning. The episode reminds us that a technology superior for calculation is not necessarily superior for record-keeping, and that what a society adopts depends on what it fears as well as on what it needs.\n\nTold in this way, the story invites a competition for credit. Some accounts assign zero to India alone; others to Babylon, pointing to earlier placeholders. Neither is satisfactory. The Babylonian placeholder and the Mayan glyph show that the idea of marking an empty place arose independently wherever positional systems did; they do not show that anyone then conceived a number called zero. Conversely, the Indian achievement did not arise from nothing. It depended on a decimal place-value notation and on a philosophical tradition that had long reflected on emptiness, sunya, a word that came to mean zero. Whether that tradition caused the mathematics, or merely provided a hospitable climate for it, is a question the evidence cannot settle.\n\nWhat the history suggests is that zero was less an invention than a series of removals of obstacles: the obstacle of notation, which a placeholder removed; of philosophy, which required that nothing might be something; and of arithmetic, which demanded rules. Each could be overcome separately and in different places, and the combination that gives modern mathematics its power appeared only where all three coincided. To ask who invented zero is to assume that it was one thing. The conclusion is modest, but it changes what a satisfactory answer would look like.",
-        "question": "The author notes that the Babylonians often omitted their placeholder at the end of a numeral in order to show that",
-        "options": [
-          "A) Babylonian mathematics was less advanced than that of the Greeks in every branch of the subject.",
-          "B) base sixty is unsuited to any use of a placeholder, whether at the end or inside a numeral.",
-          "C) they used it as a notational device and did not treat it as a number with a definite value.",
-          "D) the Maya were the first people to develop a symbol for an empty position in a numeral of any kind."
-        ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> A placeholder dropped at the end, where it changes magnitude, suggests it was a device of notation, not a number; the author says there is 'little evidence that they had the third'. B, C and D are not supported (the Babylonians did use the sign inside numerals; the Maya developed theirs independently, not first)."
+      "correct_answer": "2413",
+      "explanation": "Sentence 2 introduces corals and their algae (the topic). Sentence 4 explains what happens when water warms: the algae are expelled. Sentence 1 begins 'This process, known as bleaching', which refers back to the expulsion in 4. Sentence 3 discusses recovery, which only makes sense after bleaching has been described and its severity noted. Order: 2-4-1-3."
+    },
+    {
+      "id": 24,
+      "section": "VA",
+      "category": "Parajumbles",
+      "difficulty": "Hard",
+      "type": "tita",
+      "marks": 4,
+      "negative_marking": 0,
+      "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
+      "options": null,
+      "sentences": {
+        "1": "Yet the Indian mathematicians who first treated it as a number in its own right, rather than a mere gap, did something conceptually radical.",
+        "2": "For centuries, zero existed only as a placeholder, a way of telling 305 from 35 in Babylonian practice.",
+        "3": "Brahmagupta, in the seventh century, laid down rules for adding, subtracting and multiplying with it.",
+        "4": "Even he stumbled over division by zero, a problem that would not be settled satisfactorily for another millennium.",
+        "5": "The placeholder, in other words, had no arithmetic life of its own."
       },
-      {
-        "id": "q3",
-        "type": "RC",
-        "passage": "The number zero seems so obvious to us that it is hard to appreciate that it was ever a discovery at all. A child learns that nothing can be counted: three apples, two apples, one apple, none. Yet for most of recorded history mathematicians of great ability did without it, and when it finally arrived it did so not in a single moment but as a succession of ideas that were easily confused with one another. The usual shorthand, that zero was invented in India, is not so much false as compressed: it squeezes a process into a point, and hides the question that matters, which is what, exactly, was invented.\n\nAt least three things travel under the name. The first is zero as a placeholder: a mark showing that a position in a numeral is empty, so that 205 can be told from 25. The Babylonians, who wrote numbers in base sixty, were using a sign for this purpose, two slanted wedges, by about 300 BCE, and the Maya independently developed a shell-shaped glyph for an empty place. The second is zero as a quantity, the answer to the question \"how many are left?\" when everything has been taken away. The third, and the most demanding, is zero as a number: an object in its own right, which can be added, subtracted and multiplied, and whose properties must be stated. The Babylonians had the first of these but there is little evidence that they had the third. Their placeholder was often left out at the end of a numeral, where it would have changed the magnitude, so that a reader had to consult the context to know whether a figure meant one or sixty.\n\nThe Greeks, who were superb geometers, never adopted zero as a number, and the reasons are instructive. Their mathematics was built on magnitudes, such as lengths, areas and ratios. A number, for them, was a collection of units, and a collection of no units was not a collection. Aristotle, moreover, argued against the existence of a void, holding a vacuum to be a contradiction in terms, and this position made it harder to treat nothing as an object of study. It would be too neat to say that philosophy prevented the Greeks from discovering zero; their astronomers used a positional system borrowed from Babylon, with a symbol for the empty place. But as a number to be calculated with, zero lay beyond a mathematics that identified numbers with plurality.\n\nThe decisive step was taken in India. The Bakhshali manuscript, a collection of mathematical rules on birch bark found in 1881 in a village in what is now Pakistan, contains hundreds of zeros in the form of a dot used as a placeholder. Radiocarbon dating published in 2017 suggested that some of its leaves are far older than had been believed, perhaps from the third or fourth century CE, although the dating of the manuscript as a whole remains disputed because its leaves appear to come from different periods. The move from placeholder to number is clearest in the work of Brahmagupta, who in 628 CE stated rules for calculating with zero: a number added to zero is unchanged, a number multiplied by zero gives zero, and zero subtracted from itself gives zero. He also tried to define division by zero and failed, asserting that zero divided by zero is zero, a claim that later mathematicians rejected. The failure is as instructive as the success: it marks the point at which zero became a number about which one could be wrong.\n\nFrom India the numerals travelled to the Arab world, where in the ninth century al-Khwarizmi wrote an account of Indian calculation whose Latin translation introduced the system to Europe; his name survives in the word algorithm. Europe received it slowly. Leonardo of Pisa, known as Fibonacci, advocated it in his Liber Abaci of 1202, written for merchants, but adoption met resistance. In 1299 the city of Florence forbade the use of the Hindu-Arabic numerals in bankers' accounts. The ban is often presented as obscurantism, yet it is commonly explained by a practical fear of forgery: a 0 could be altered into a 6 or a 9 with a stroke of the pen, whereas Roman numerals were harder to tamper with. Merchants in the Italian trading cities were nonetheless quick to see the value of the new notation for commercial arithmetic, and by the fifteenth century it was taught in the abacus schools of Florence and Venice, which trained young merchants in reckoning. The episode reminds us that a technology superior for calculation is not necessarily superior for record-keeping, and that what a society adopts depends on what it fears as well as on what it needs.\n\nTold in this way, the story invites a competition for credit. Some accounts assign zero to India alone; others to Babylon, pointing to earlier placeholders. Neither is satisfactory. The Babylonian placeholder and the Mayan glyph show that the idea of marking an empty place arose independently wherever positional systems did; they do not show that anyone then conceived a number called zero. Conversely, the Indian achievement did not arise from nothing. It depended on a decimal place-value notation and on a philosophical tradition that had long reflected on emptiness, sunya, a word that came to mean zero. Whether that tradition caused the mathematics, or merely provided a hospitable climate for it, is a question the evidence cannot settle.\n\nWhat the history suggests is that zero was less an invention than a series of removals of obstacles: the obstacle of notation, which a placeholder removed; of philosophy, which required that nothing might be something; and of arithmetic, which demanded rules. Each could be overcome separately and in different places, and the combination that gives modern mathematics its power appeared only where all three coincided. To ask who invented zero is to assume that it was one thing. The conclusion is modest, but it changes what a satisfactory answer would look like.",
-        "question": "Which of the following best explains the author's view of why the Greeks lacked zero as a number?",
-        "options": [
-          "A) Aristotle's rejection of the void forbade Greek astronomers from using any symbol for an empty position.",
-          "B) Their mathematics identified number with a plurality of units, which left no room for a number meaning none.",
-          "C) Greek mathematicians were incapable of abstract reasoning about quantities and relied solely on geometrical figures.",
-          "D) They borrowed their positional system from Babylon, which had no sign for the idea of nothing in its numerals."
-        ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> The author says a number was 'a collection of units' and 'a collection of no units was not a collection'. B is contradicted (astronomers used a symbol); C and D are unsupported or contradicted (Babylon did have a sign)."
+      "correct_answer": "25134",
+      "explanation": "Sentence 2 opens with zero as a placeholder. Sentence 5 ('in other words') restates that point: the placeholder had no arithmetic life. Sentence 1 ('Yet...') introduces the contrast: Indian mathematicians treated zero as a number. Sentence 3 gives the concrete example (Brahmagupta's rules). Sentence 4 ('Even he...') follows naturally, noting his limitation. Order: 2-5-1-3-4."
+    },
+    {
+      "id": 25,
+      "section": "VA",
+      "category": "Parajumbles",
+      "difficulty": "Hard",
+      "type": "tita",
+      "marks": 4,
+      "negative_marking": 0,
+      "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
+      "options": null,
+      "sentences": {
+        "1": "The appeal is obvious: a system that screens thousands of résumés in seconds promises both speed and impartiality.",
+        "2": "A model trained to replicate past success will therefore quietly reproduce past bias, now with the veneer of objectivity.",
+        "3": "Companies increasingly deploy algorithms to filter job applicants before any human reads their applications.",
+        "4": "But such systems learn from historical hiring decisions, and those decisions carry the prejudices of the people who made them."
       },
-      {
-        "id": "q4",
-        "type": "RC",
-        "passage": "The number zero seems so obvious to us that it is hard to appreciate that it was ever a discovery at all. A child learns that nothing can be counted: three apples, two apples, one apple, none. Yet for most of recorded history mathematicians of great ability did without it, and when it finally arrived it did so not in a single moment but as a succession of ideas that were easily confused with one another. The usual shorthand, that zero was invented in India, is not so much false as compressed: it squeezes a process into a point, and hides the question that matters, which is what, exactly, was invented.\n\nAt least three things travel under the name. The first is zero as a placeholder: a mark showing that a position in a numeral is empty, so that 205 can be told from 25. The Babylonians, who wrote numbers in base sixty, were using a sign for this purpose, two slanted wedges, by about 300 BCE, and the Maya independently developed a shell-shaped glyph for an empty place. The second is zero as a quantity, the answer to the question \"how many are left?\" when everything has been taken away. The third, and the most demanding, is zero as a number: an object in its own right, which can be added, subtracted and multiplied, and whose properties must be stated. The Babylonians had the first of these but there is little evidence that they had the third. Their placeholder was often left out at the end of a numeral, where it would have changed the magnitude, so that a reader had to consult the context to know whether a figure meant one or sixty.\n\nThe Greeks, who were superb geometers, never adopted zero as a number, and the reasons are instructive. Their mathematics was built on magnitudes, such as lengths, areas and ratios. A number, for them, was a collection of units, and a collection of no units was not a collection. Aristotle, moreover, argued against the existence of a void, holding a vacuum to be a contradiction in terms, and this position made it harder to treat nothing as an object of study. It would be too neat to say that philosophy prevented the Greeks from discovering zero; their astronomers used a positional system borrowed from Babylon, with a symbol for the empty place. But as a number to be calculated with, zero lay beyond a mathematics that identified numbers with plurality.\n\nThe decisive step was taken in India. The Bakhshali manuscript, a collection of mathematical rules on birch bark found in 1881 in a village in what is now Pakistan, contains hundreds of zeros in the form of a dot used as a placeholder. Radiocarbon dating published in 2017 suggested that some of its leaves are far older than had been believed, perhaps from the third or fourth century CE, although the dating of the manuscript as a whole remains disputed because its leaves appear to come from different periods. The move from placeholder to number is clearest in the work of Brahmagupta, who in 628 CE stated rules for calculating with zero: a number added to zero is unchanged, a number multiplied by zero gives zero, and zero subtracted from itself gives zero. He also tried to define division by zero and failed, asserting that zero divided by zero is zero, a claim that later mathematicians rejected. The failure is as instructive as the success: it marks the point at which zero became a number about which one could be wrong.\n\nFrom India the numerals travelled to the Arab world, where in the ninth century al-Khwarizmi wrote an account of Indian calculation whose Latin translation introduced the system to Europe; his name survives in the word algorithm. Europe received it slowly. Leonardo of Pisa, known as Fibonacci, advocated it in his Liber Abaci of 1202, written for merchants, but adoption met resistance. In 1299 the city of Florence forbade the use of the Hindu-Arabic numerals in bankers' accounts. The ban is often presented as obscurantism, yet it is commonly explained by a practical fear of forgery: a 0 could be altered into a 6 or a 9 with a stroke of the pen, whereas Roman numerals were harder to tamper with. Merchants in the Italian trading cities were nonetheless quick to see the value of the new notation for commercial arithmetic, and by the fifteenth century it was taught in the abacus schools of Florence and Venice, which trained young merchants in reckoning. The episode reminds us that a technology superior for calculation is not necessarily superior for record-keeping, and that what a society adopts depends on what it fears as well as on what it needs.\n\nTold in this way, the story invites a competition for credit. Some accounts assign zero to India alone; others to Babylon, pointing to earlier placeholders. Neither is satisfactory. The Babylonian placeholder and the Mayan glyph show that the idea of marking an empty place arose independently wherever positional systems did; they do not show that anyone then conceived a number called zero. Conversely, the Indian achievement did not arise from nothing. It depended on a decimal place-value notation and on a philosophical tradition that had long reflected on emptiness, sunya, a word that came to mean zero. Whether that tradition caused the mathematics, or merely provided a hospitable climate for it, is a question the evidence cannot settle.\n\nWhat the history suggests is that zero was less an invention than a series of removals of obstacles: the obstacle of notation, which a placeholder removed; of philosophy, which required that nothing might be something; and of arithmetic, which demanded rules. Each could be overcome separately and in different places, and the combination that gives modern mathematics its power appeared only where all three coincided. To ask who invented zero is to assume that it was one thing. The conclusion is modest, but it changes what a satisfactory answer would look like.",
-        "question": "Each of the following is mentioned in the passage as part of the Indian contribution EXCEPT",
-        "options": [
-          "A) rules for calculating with zero stated by Brahmagupta",
-          "B) an attempt to define division by zero that later mathematicians rejected",
-          "C) a proof that division by zero is impossible",
-          "D) a dot used as a placeholder in the Bakhshali manuscript"
-        ],
-        "answer": 3,
-        "explanation": "<strong>Explanation:</strong> A, B and C appear in paragraph 4. Brahmagupta's attempt at division by zero failed; no proof of its impossibility is mentioned."
+      "correct_answer": "3142",
+      "explanation": "Sentence 3 introduces the topic (companies using algorithms). Sentence 1 ('The appeal') explains why. Sentence 4 ('But...') presents the problem: historical data carries bias. Sentence 2 ('therefore') draws the conclusion from 4. Order: 3-1-4-2."
+    },
+    {
+      "id": 26,
+      "section": "VA",
+      "category": "Parajumbles",
+      "difficulty": "Hard",
+      "type": "tita",
+      "marks": 4,
+      "negative_marking": 0,
+      "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
+      "options": null,
+      "sentences": {
+        "1": "The reality was messier, since early printed books imitated manuscripts so closely that buyers sometimes could not tell them apart.",
+        "2": "Scribes, far from vanishing, found new employment as illuminators, proofreaders and correctors for the printers.",
+        "3": "When Gutenberg's press arrived in the mid-fifteenth century, it is often said to have killed the manuscript trade overnight.",
+        "4": "Hence the revolution was one of habit before it was one of technology.",
+        "5": "Their craft was displaced only gradually, as printers realised that books need not look handwritten to sell."
       },
-      {
-        "id": "q5",
-        "type": "RC",
-        "passage": "The number zero seems so obvious to us that it is hard to appreciate that it was ever a discovery at all. A child learns that nothing can be counted: three apples, two apples, one apple, none. Yet for most of recorded history mathematicians of great ability did without it, and when it finally arrived it did so not in a single moment but as a succession of ideas that were easily confused with one another. The usual shorthand, that zero was invented in India, is not so much false as compressed: it squeezes a process into a point, and hides the question that matters, which is what, exactly, was invented.\n\nAt least three things travel under the name. The first is zero as a placeholder: a mark showing that a position in a numeral is empty, so that 205 can be told from 25. The Babylonians, who wrote numbers in base sixty, were using a sign for this purpose, two slanted wedges, by about 300 BCE, and the Maya independently developed a shell-shaped glyph for an empty place. The second is zero as a quantity, the answer to the question \"how many are left?\" when everything has been taken away. The third, and the most demanding, is zero as a number: an object in its own right, which can be added, subtracted and multiplied, and whose properties must be stated. The Babylonians had the first of these but there is little evidence that they had the third. Their placeholder was often left out at the end of a numeral, where it would have changed the magnitude, so that a reader had to consult the context to know whether a figure meant one or sixty.\n\nThe Greeks, who were superb geometers, never adopted zero as a number, and the reasons are instructive. Their mathematics was built on magnitudes, such as lengths, areas and ratios. A number, for them, was a collection of units, and a collection of no units was not a collection. Aristotle, moreover, argued against the existence of a void, holding a vacuum to be a contradiction in terms, and this position made it harder to treat nothing as an object of study. It would be too neat to say that philosophy prevented the Greeks from discovering zero; their astronomers used a positional system borrowed from Babylon, with a symbol for the empty place. But as a number to be calculated with, zero lay beyond a mathematics that identified numbers with plurality.\n\nThe decisive step was taken in India. The Bakhshali manuscript, a collection of mathematical rules on birch bark found in 1881 in a village in what is now Pakistan, contains hundreds of zeros in the form of a dot used as a placeholder. Radiocarbon dating published in 2017 suggested that some of its leaves are far older than had been believed, perhaps from the third or fourth century CE, although the dating of the manuscript as a whole remains disputed because its leaves appear to come from different periods. The move from placeholder to number is clearest in the work of Brahmagupta, who in 628 CE stated rules for calculating with zero: a number added to zero is unchanged, a number multiplied by zero gives zero, and zero subtracted from itself gives zero. He also tried to define division by zero and failed, asserting that zero divided by zero is zero, a claim that later mathematicians rejected. The failure is as instructive as the success: it marks the point at which zero became a number about which one could be wrong.\n\nFrom India the numerals travelled to the Arab world, where in the ninth century al-Khwarizmi wrote an account of Indian calculation whose Latin translation introduced the system to Europe; his name survives in the word algorithm. Europe received it slowly. Leonardo of Pisa, known as Fibonacci, advocated it in his Liber Abaci of 1202, written for merchants, but adoption met resistance. In 1299 the city of Florence forbade the use of the Hindu-Arabic numerals in bankers' accounts. The ban is often presented as obscurantism, yet it is commonly explained by a practical fear of forgery: a 0 could be altered into a 6 or a 9 with a stroke of the pen, whereas Roman numerals were harder to tamper with. Merchants in the Italian trading cities were nonetheless quick to see the value of the new notation for commercial arithmetic, and by the fifteenth century it was taught in the abacus schools of Florence and Venice, which trained young merchants in reckoning. The episode reminds us that a technology superior for calculation is not necessarily superior for record-keeping, and that what a society adopts depends on what it fears as well as on what it needs.\n\nTold in this way, the story invites a competition for credit. Some accounts assign zero to India alone; others to Babylon, pointing to earlier placeholders. Neither is satisfactory. The Babylonian placeholder and the Mayan glyph show that the idea of marking an empty place arose independently wherever positional systems did; they do not show that anyone then conceived a number called zero. Conversely, the Indian achievement did not arise from nothing. It depended on a decimal place-value notation and on a philosophical tradition that had long reflected on emptiness, sunya, a word that came to mean zero. Whether that tradition caused the mathematics, or merely provided a hospitable climate for it, is a question the evidence cannot settle.\n\nWhat the history suggests is that zero was less an invention than a series of removals of obstacles: the obstacle of notation, which a placeholder removed; of philosophy, which required that nothing might be something; and of arithmetic, which demanded rules. Each could be overcome separately and in different places, and the combination that gives modern mathematics its power appeared only where all three coincided. To ask who invented zero is to assume that it was one thing. The conclusion is modest, but it changes what a satisfactory answer would look like.",
-        "question": "Which of the following, if true, would most strengthen the explanation that fear of forgery lay behind Florence's ban of 1299?",
-        "options": [
-          "A) Florentine bankers had been among the first European purchasers of Fibonacci's Liber Abaci after its publication.",
-          "B) Roman numerals continued to be used in the city for several centuries after the ban had been lifted.",
-          "C) Contemporary documents show that altered figures in merchants' accounts were a recognised problem in the city.",
-          "D) Arab merchants used the Hindu-Arabic numerals in their accounts throughout the same period of time."
-        ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> The explanation is that the numerals were thought easy to alter. Evidence that altered figures were a known problem supports it. B, C and D do not bear on motive."
+      "correct_answer": "31254",
+      "explanation": "Sentence 3 states the popular claim. Sentence 1 ('The reality was messier') challenges it. Sentence 2 introduces scribes, giving a concrete case of continued employment. Sentence 5 ('Their craft...') refers back to the scribes and their gradual displacement. Sentence 4 ('Hence...') concludes the argument. Order: 3-1-2-5-4."
+    },
+    {
+      "id": 27,
+      "section": "VA",
+      "category": "Parajumbles",
+      "difficulty": "Medium",
+      "type": "tita",
+      "marks": 4,
+      "negative_marking": 0,
+      "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
+      "options": null,
+      "sentences": {
+        "1": "This replay appears to help consolidate fragile new memories into durable ones.",
+        "2": "Recordings of neural activity have overturned this assumption.",
+        "3": "Sleep was long regarded as a passive interval during which the brain simply rested.",
+        "4": "During deep sleep, patterns of firing that occurred during the day are replayed at accelerated speed."
       },
-      {
-        "id": "q6",
-        "type": "RC",
-        "passage": "The number zero seems so obvious to us that it is hard to appreciate that it was ever a discovery at all. A child learns that nothing can be counted: three apples, two apples, one apple, none. Yet for most of recorded history mathematicians of great ability did without it, and when it finally arrived it did so not in a single moment but as a succession of ideas that were easily confused with one another. The usual shorthand, that zero was invented in India, is not so much false as compressed: it squeezes a process into a point, and hides the question that matters, which is what, exactly, was invented.\n\nAt least three things travel under the name. The first is zero as a placeholder: a mark showing that a position in a numeral is empty, so that 205 can be told from 25. The Babylonians, who wrote numbers in base sixty, were using a sign for this purpose, two slanted wedges, by about 300 BCE, and the Maya independently developed a shell-shaped glyph for an empty place. The second is zero as a quantity, the answer to the question \"how many are left?\" when everything has been taken away. The third, and the most demanding, is zero as a number: an object in its own right, which can be added, subtracted and multiplied, and whose properties must be stated. The Babylonians had the first of these but there is little evidence that they had the third. Their placeholder was often left out at the end of a numeral, where it would have changed the magnitude, so that a reader had to consult the context to know whether a figure meant one or sixty.\n\nThe Greeks, who were superb geometers, never adopted zero as a number, and the reasons are instructive. Their mathematics was built on magnitudes, such as lengths, areas and ratios. A number, for them, was a collection of units, and a collection of no units was not a collection. Aristotle, moreover, argued against the existence of a void, holding a vacuum to be a contradiction in terms, and this position made it harder to treat nothing as an object of study. It would be too neat to say that philosophy prevented the Greeks from discovering zero; their astronomers used a positional system borrowed from Babylon, with a symbol for the empty place. But as a number to be calculated with, zero lay beyond a mathematics that identified numbers with plurality.\n\nThe decisive step was taken in India. The Bakhshali manuscript, a collection of mathematical rules on birch bark found in 1881 in a village in what is now Pakistan, contains hundreds of zeros in the form of a dot used as a placeholder. Radiocarbon dating published in 2017 suggested that some of its leaves are far older than had been believed, perhaps from the third or fourth century CE, although the dating of the manuscript as a whole remains disputed because its leaves appear to come from different periods. The move from placeholder to number is clearest in the work of Brahmagupta, who in 628 CE stated rules for calculating with zero: a number added to zero is unchanged, a number multiplied by zero gives zero, and zero subtracted from itself gives zero. He also tried to define division by zero and failed, asserting that zero divided by zero is zero, a claim that later mathematicians rejected. The failure is as instructive as the success: it marks the point at which zero became a number about which one could be wrong.\n\nFrom India the numerals travelled to the Arab world, where in the ninth century al-Khwarizmi wrote an account of Indian calculation whose Latin translation introduced the system to Europe; his name survives in the word algorithm. Europe received it slowly. Leonardo of Pisa, known as Fibonacci, advocated it in his Liber Abaci of 1202, written for merchants, but adoption met resistance. In 1299 the city of Florence forbade the use of the Hindu-Arabic numerals in bankers' accounts. The ban is often presented as obscurantism, yet it is commonly explained by a practical fear of forgery: a 0 could be altered into a 6 or a 9 with a stroke of the pen, whereas Roman numerals were harder to tamper with. Merchants in the Italian trading cities were nonetheless quick to see the value of the new notation for commercial arithmetic, and by the fifteenth century it was taught in the abacus schools of Florence and Venice, which trained young merchants in reckoning. The episode reminds us that a technology superior for calculation is not necessarily superior for record-keeping, and that what a society adopts depends on what it fears as well as on what it needs.\n\nTold in this way, the story invites a competition for credit. Some accounts assign zero to India alone; others to Babylon, pointing to earlier placeholders. Neither is satisfactory. The Babylonian placeholder and the Mayan glyph show that the idea of marking an empty place arose independently wherever positional systems did; they do not show that anyone then conceived a number called zero. Conversely, the Indian achievement did not arise from nothing. It depended on a decimal place-value notation and on a philosophical tradition that had long reflected on emptiness, sunya, a word that came to mean zero. Whether that tradition caused the mathematics, or merely provided a hospitable climate for it, is a question the evidence cannot settle.\n\nWhat the history suggests is that zero was less an invention than a series of removals of obstacles: the obstacle of notation, which a placeholder removed; of philosophy, which required that nothing might be something; and of arithmetic, which demanded rules. Each could be overcome separately and in different places, and the combination that gives modern mathematics its power appeared only where all three coincided. To ask who invented zero is to assume that it was one thing. The conclusion is modest, but it changes what a satisfactory answer would look like.",
-        "question": "The author's discussion of the dispute over credit suggests that",
-        "options": [
-          "A) the independent appearance of placeholders elsewhere does not show that a number zero was conceived there.",
-          "B) India deserves no credit for zero, since earlier placeholders had already been used in Babylon and by the Maya.",
-          "C) the philosophy of sunya caused the Indian invention of zero, as the evidence clearly shows to any careful reader.",
-          "D) disputes over priority can be settled by radiocarbon dating of surviving manuscripts, without further argument."
-        ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> The author says placeholders 'do not show that anyone then conceived a number called zero'. B reverses this; C contradicts 'the evidence cannot settle' the role of sunya; D is unsupported, since the dating itself is disputed."
-      },
-      {
-        "id": "q7",
-        "type": "RC",
-        "passage": "In 2003 two psychologists published a chart that has since appeared in countless lectures on behavioural economics. It compared the share of citizens registered as potential organ donors in several European countries, and the bars fell into two groups with almost nothing in between. In some countries, including Germany, Denmark and the United Kingdom, fewer than three in ten people were registered; in others, among them Austria, Belgium and France, almost everyone was. The difference, the authors argued, had little to do with culture or religion. It lay in the form of the law: in the first group citizens had to opt in by registering as donors, while in the second they were presumed to consent unless they opted out. The default, they concluded, was doing the work.\n\nThe explanation lies in features of human decision-making that economists once ignored. Choosing requires effort, and effort is costly, particularly when the question is unpleasant to contemplate. Many people, faced with a form asking whether they would like to donate their organs after death, defer the decision, and a decision deferred is a decision made in favour of whatever happens when nothing is done. Others read the default as a recommendation, a signal of what the authorities consider normal and right. In both cases the default has power not because anyone is fooled but because the alternative to accepting it carries a cost, however small, in time, thought and discomfort. To change the default is therefore to change behaviour without forbidding anything.\n\nThe appeal of this to policymakers is obvious. A change in the wording of a law costs nothing, whereas campaigns to persuade people to register are expensive and slow. Several countries have accordingly moved to presumed consent, and in many others the proposal has been debated. Yet the evidence that it works as hoped is surprisingly thin, and the reason exposes a flaw in the original comparison. The proposal also flatters a certain picture of reform, in which a clever change of wording achieves what exhortation and expense could not. Such pictures deserve scrutiny precisely because they are so attractive.\n\nThe chart measured registrations, not donations. A person registered as a donor is not thereby a donor: organs can be used only if death occurs in circumstances, usually in an intensive-care unit, that make removal possible, and only if the hospital is able to carry out the procedure. Intensive-care beds, surgical teams and the capacity to match organs to recipients are all links in the chain, and the chain is only as strong as its weakest. In practice the family is almost always consulted, and in many countries relatives can and do refuse even where the deceased had registered consent. Rates of actual donation per million inhabitants correlate only loosely with the legal default. Spain, which has consistently had one of the highest rates in the world, has had presumed consent in law since 1979, but its donation rate was unremarkable for a decade afterwards; it rose steeply only after 1989, when the country created a national transplant organisation and placed trained coordinators in hospitals, whose task is to identify potential donors and to approach their families with skill and sympathy. The law did not change at that point. The organisation of the system did.\n\nStudies of countries that changed their defaults tell a similar story. Some have seen donation rates rise modestly; others have seen little change, and a few have seen a fall, perhaps because the change provoked a backlash among people who felt that the state was claiming ownership of their bodies. Wales, which introduced a system of deemed consent in 2015, saw consent rates rise among eligible donors, but the effect on the number of transplants has been hard to disentangle from other reforms made at the same time. The sceptics' conclusion is not that defaults are irrelevant, but that their effect is conditional: it depends on how the default interacts with the rest of the system, including the willingness of families to agree and the capacity of hospitals to act.\n\nPolicy designers have also experimented with variants that sit between the two defaults. Under mandated choice, citizens must state a preference when they renew a driving licence or an identity card, so that no default operates at all. Under a soft opt-out, families are consulted and can override the presumption, while a hard system treats it as binding. Each variant trades the same values off differently: mandated choice respects active consent but may leave many with no recorded preference, soft systems protect families but reproduce the problem of refusals, and hard systems maximise supply at the greatest cost to public trust. No arrangement escapes the trade-off; it can only be placed.\n\nThere is also a question that the behavioural argument leaves aside: whether silence should count as consent at all. Consent in medicine is meant to be informed and active; a signature on a form is a person's own act, whereas a failure to opt out may reflect ignorance of the law or simply inertia. Defenders of presumed consent answer that no organ is removed without the question being put to relatives, and that the real choice, between a system that wastes organs and one that saves lives, is a moral one in which a modest cost to autonomy is outweighed by lives saved. Critics reply that the moral argument cannot rest on a procedural trick, and that a system which depends on people not noticing how consent is being inferred from them is hard to reconcile with the trust on which donation itself depends.\n\nThe lesson is not to abandon defaults but to be modest about them. A default is a lever, not a mechanism: it moves a system only when the parts to which it is attached are able to move. Countries that want more transplants will do better by training coordinators, building intensive-care capacity and talking to families than by relying on a change in the statute, however elegant the chart that recommends it.",
-        "question": "Which of the following best captures the central argument of the passage?",
-        "options": [
-          "A) A change of default does not guarantee more transplants, because its effect depends on the wider system of families, hospitals and coordination.",
-          "B) Presumed consent should be adopted by every country, since it has been shown to raise donation rates wherever it has been tried in practice.",
-          "C) The comparison of registration rates between countries is worthless, because the figures were compiled by psychologists and not by transplant surgeons.",
-          "D) Organ donation is a moral question that cannot be addressed by behavioural arguments, and so economists should have no part in making policy."
-        ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> The final paragraph calls a default 'a lever, not a mechanism' that moves a system only when its parts can move. B contradicts the thin evidence; C and D are not claimed (the flaw is in what was measured, and the author discusses behavioural arguments seriously)."
-      },
-      {
-        "id": "q8",
-        "type": "RC",
-        "passage": "In 2003 two psychologists published a chart that has since appeared in countless lectures on behavioural economics. It compared the share of citizens registered as potential organ donors in several European countries, and the bars fell into two groups with almost nothing in between. In some countries, including Germany, Denmark and the United Kingdom, fewer than three in ten people were registered; in others, among them Austria, Belgium and France, almost everyone was. The difference, the authors argued, had little to do with culture or religion. It lay in the form of the law: in the first group citizens had to opt in by registering as donors, while in the second they were presumed to consent unless they opted out. The default, they concluded, was doing the work.\n\nThe explanation lies in features of human decision-making that economists once ignored. Choosing requires effort, and effort is costly, particularly when the question is unpleasant to contemplate. Many people, faced with a form asking whether they would like to donate their organs after death, defer the decision, and a decision deferred is a decision made in favour of whatever happens when nothing is done. Others read the default as a recommendation, a signal of what the authorities consider normal and right. In both cases the default has power not because anyone is fooled but because the alternative to accepting it carries a cost, however small, in time, thought and discomfort. To change the default is therefore to change behaviour without forbidding anything.\n\nThe appeal of this to policymakers is obvious. A change in the wording of a law costs nothing, whereas campaigns to persuade people to register are expensive and slow. Several countries have accordingly moved to presumed consent, and in many others the proposal has been debated. Yet the evidence that it works as hoped is surprisingly thin, and the reason exposes a flaw in the original comparison. The proposal also flatters a certain picture of reform, in which a clever change of wording achieves what exhortation and expense could not. Such pictures deserve scrutiny precisely because they are so attractive.\n\nThe chart measured registrations, not donations. A person registered as a donor is not thereby a donor: organs can be used only if death occurs in circumstances, usually in an intensive-care unit, that make removal possible, and only if the hospital is able to carry out the procedure. Intensive-care beds, surgical teams and the capacity to match organs to recipients are all links in the chain, and the chain is only as strong as its weakest. In practice the family is almost always consulted, and in many countries relatives can and do refuse even where the deceased had registered consent. Rates of actual donation per million inhabitants correlate only loosely with the legal default. Spain, which has consistently had one of the highest rates in the world, has had presumed consent in law since 1979, but its donation rate was unremarkable for a decade afterwards; it rose steeply only after 1989, when the country created a national transplant organisation and placed trained coordinators in hospitals, whose task is to identify potential donors and to approach their families with skill and sympathy. The law did not change at that point. The organisation of the system did.\n\nStudies of countries that changed their defaults tell a similar story. Some have seen donation rates rise modestly; others have seen little change, and a few have seen a fall, perhaps because the change provoked a backlash among people who felt that the state was claiming ownership of their bodies. Wales, which introduced a system of deemed consent in 2015, saw consent rates rise among eligible donors, but the effect on the number of transplants has been hard to disentangle from other reforms made at the same time. The sceptics' conclusion is not that defaults are irrelevant, but that their effect is conditional: it depends on how the default interacts with the rest of the system, including the willingness of families to agree and the capacity of hospitals to act.\n\nPolicy designers have also experimented with variants that sit between the two defaults. Under mandated choice, citizens must state a preference when they renew a driving licence or an identity card, so that no default operates at all. Under a soft opt-out, families are consulted and can override the presumption, while a hard system treats it as binding. Each variant trades the same values off differently: mandated choice respects active consent but may leave many with no recorded preference, soft systems protect families but reproduce the problem of refusals, and hard systems maximise supply at the greatest cost to public trust. No arrangement escapes the trade-off; it can only be placed.\n\nThere is also a question that the behavioural argument leaves aside: whether silence should count as consent at all. Consent in medicine is meant to be informed and active; a signature on a form is a person's own act, whereas a failure to opt out may reflect ignorance of the law or simply inertia. Defenders of presumed consent answer that no organ is removed without the question being put to relatives, and that the real choice, between a system that wastes organs and one that saves lives, is a moral one in which a modest cost to autonomy is outweighed by lives saved. Critics reply that the moral argument cannot rest on a procedural trick, and that a system which depends on people not noticing how consent is being inferred from them is hard to reconcile with the trust on which donation itself depends.\n\nThe lesson is not to abandon defaults but to be modest about them. A default is a lever, not a mechanism: it moves a system only when the parts to which it is attached are able to move. Countries that want more transplants will do better by training coordinators, building intensive-care capacity and talking to families than by relying on a change in the statute, however elegant the chart that recommends it.",
-        "question": "The author criticises the 2003 comparison chiefly because it",
-        "options": [
-          "A) compared countries that differed too greatly in culture and religion for any conclusion to be drawn from them.",
-          "B) measured registrations rather than donations actually carried out.",
-          "C) ignored the effect of defaults on the choices that people make in other areas of public policy.",
-          "D) was based on figures that were later shown to have been falsified by the authors in order to support their view."
-        ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Paragraph 4 begins 'The chart measured registrations, not donations'. B reverses the authors' point about culture; C and D are not mentioned."
-      },
-      {
-        "id": "q9",
-        "type": "RC",
-        "passage": "In 2003 two psychologists published a chart that has since appeared in countless lectures on behavioural economics. It compared the share of citizens registered as potential organ donors in several European countries, and the bars fell into two groups with almost nothing in between. In some countries, including Germany, Denmark and the United Kingdom, fewer than three in ten people were registered; in others, among them Austria, Belgium and France, almost everyone was. The difference, the authors argued, had little to do with culture or religion. It lay in the form of the law: in the first group citizens had to opt in by registering as donors, while in the second they were presumed to consent unless they opted out. The default, they concluded, was doing the work.\n\nThe explanation lies in features of human decision-making that economists once ignored. Choosing requires effort, and effort is costly, particularly when the question is unpleasant to contemplate. Many people, faced with a form asking whether they would like to donate their organs after death, defer the decision, and a decision deferred is a decision made in favour of whatever happens when nothing is done. Others read the default as a recommendation, a signal of what the authorities consider normal and right. In both cases the default has power not because anyone is fooled but because the alternative to accepting it carries a cost, however small, in time, thought and discomfort. To change the default is therefore to change behaviour without forbidding anything.\n\nThe appeal of this to policymakers is obvious. A change in the wording of a law costs nothing, whereas campaigns to persuade people to register are expensive and slow. Several countries have accordingly moved to presumed consent, and in many others the proposal has been debated. Yet the evidence that it works as hoped is surprisingly thin, and the reason exposes a flaw in the original comparison. The proposal also flatters a certain picture of reform, in which a clever change of wording achieves what exhortation and expense could not. Such pictures deserve scrutiny precisely because they are so attractive.\n\nThe chart measured registrations, not donations. A person registered as a donor is not thereby a donor: organs can be used only if death occurs in circumstances, usually in an intensive-care unit, that make removal possible, and only if the hospital is able to carry out the procedure. Intensive-care beds, surgical teams and the capacity to match organs to recipients are all links in the chain, and the chain is only as strong as its weakest. In practice the family is almost always consulted, and in many countries relatives can and do refuse even where the deceased had registered consent. Rates of actual donation per million inhabitants correlate only loosely with the legal default. Spain, which has consistently had one of the highest rates in the world, has had presumed consent in law since 1979, but its donation rate was unremarkable for a decade afterwards; it rose steeply only after 1989, when the country created a national transplant organisation and placed trained coordinators in hospitals, whose task is to identify potential donors and to approach their families with skill and sympathy. The law did not change at that point. The organisation of the system did.\n\nStudies of countries that changed their defaults tell a similar story. Some have seen donation rates rise modestly; others have seen little change, and a few have seen a fall, perhaps because the change provoked a backlash among people who felt that the state was claiming ownership of their bodies. Wales, which introduced a system of deemed consent in 2015, saw consent rates rise among eligible donors, but the effect on the number of transplants has been hard to disentangle from other reforms made at the same time. The sceptics' conclusion is not that defaults are irrelevant, but that their effect is conditional: it depends on how the default interacts with the rest of the system, including the willingness of families to agree and the capacity of hospitals to act.\n\nPolicy designers have also experimented with variants that sit between the two defaults. Under mandated choice, citizens must state a preference when they renew a driving licence or an identity card, so that no default operates at all. Under a soft opt-out, families are consulted and can override the presumption, while a hard system treats it as binding. Each variant trades the same values off differently: mandated choice respects active consent but may leave many with no recorded preference, soft systems protect families but reproduce the problem of refusals, and hard systems maximise supply at the greatest cost to public trust. No arrangement escapes the trade-off; it can only be placed.\n\nThere is also a question that the behavioural argument leaves aside: whether silence should count as consent at all. Consent in medicine is meant to be informed and active; a signature on a form is a person's own act, whereas a failure to opt out may reflect ignorance of the law or simply inertia. Defenders of presumed consent answer that no organ is removed without the question being put to relatives, and that the real choice, between a system that wastes organs and one that saves lives, is a moral one in which a modest cost to autonomy is outweighed by lives saved. Critics reply that the moral argument cannot rest on a procedural trick, and that a system which depends on people not noticing how consent is being inferred from them is hard to reconcile with the trust on which donation itself depends.\n\nThe lesson is not to abandon defaults but to be modest about them. A default is a lever, not a mechanism: it moves a system only when the parts to which it is attached are able to move. Countries that want more transplants will do better by training coordinators, building intensive-care capacity and talking to families than by relying on a change in the statute, however elegant the chart that recommends it.",
-        "question": "The author's account of Spain is intended to show that",
-        "options": [
-          "A) presumed consent laws never raise donation rates, since Spain's rate was unremarkable for a decade after its law was passed.",
-          "B) trained coordinators matter more than intensive-care capacity or the willingness of families to consent in any country.",
-          "C) Spain's donation rate is among the highest in the world because its citizens are more generous than those of other countries.",
-          "D) a high donation rate can follow a reform of organisation rather than a change in the law."
-        ],
-        "answer": 3,
-        "explanation": "<strong>Explanation:</strong> The law dated from 1979 but donation rose only after 1989, when coordinators and a national organisation were introduced: 'The law did not change... The organisation of the system did.' B overstates ('never'); C ranks causes without support; D is not claimed."
-      },
-      {
-        "id": "q10",
-        "type": "RC",
-        "passage": "In 2003 two psychologists published a chart that has since appeared in countless lectures on behavioural economics. It compared the share of citizens registered as potential organ donors in several European countries, and the bars fell into two groups with almost nothing in between. In some countries, including Germany, Denmark and the United Kingdom, fewer than three in ten people were registered; in others, among them Austria, Belgium and France, almost everyone was. The difference, the authors argued, had little to do with culture or religion. It lay in the form of the law: in the first group citizens had to opt in by registering as donors, while in the second they were presumed to consent unless they opted out. The default, they concluded, was doing the work.\n\nThe explanation lies in features of human decision-making that economists once ignored. Choosing requires effort, and effort is costly, particularly when the question is unpleasant to contemplate. Many people, faced with a form asking whether they would like to donate their organs after death, defer the decision, and a decision deferred is a decision made in favour of whatever happens when nothing is done. Others read the default as a recommendation, a signal of what the authorities consider normal and right. In both cases the default has power not because anyone is fooled but because the alternative to accepting it carries a cost, however small, in time, thought and discomfort. To change the default is therefore to change behaviour without forbidding anything.\n\nThe appeal of this to policymakers is obvious. A change in the wording of a law costs nothing, whereas campaigns to persuade people to register are expensive and slow. Several countries have accordingly moved to presumed consent, and in many others the proposal has been debated. Yet the evidence that it works as hoped is surprisingly thin, and the reason exposes a flaw in the original comparison. The proposal also flatters a certain picture of reform, in which a clever change of wording achieves what exhortation and expense could not. Such pictures deserve scrutiny precisely because they are so attractive.\n\nThe chart measured registrations, not donations. A person registered as a donor is not thereby a donor: organs can be used only if death occurs in circumstances, usually in an intensive-care unit, that make removal possible, and only if the hospital is able to carry out the procedure. Intensive-care beds, surgical teams and the capacity to match organs to recipients are all links in the chain, and the chain is only as strong as its weakest. In practice the family is almost always consulted, and in many countries relatives can and do refuse even where the deceased had registered consent. Rates of actual donation per million inhabitants correlate only loosely with the legal default. Spain, which has consistently had one of the highest rates in the world, has had presumed consent in law since 1979, but its donation rate was unremarkable for a decade afterwards; it rose steeply only after 1989, when the country created a national transplant organisation and placed trained coordinators in hospitals, whose task is to identify potential donors and to approach their families with skill and sympathy. The law did not change at that point. The organisation of the system did.\n\nStudies of countries that changed their defaults tell a similar story. Some have seen donation rates rise modestly; others have seen little change, and a few have seen a fall, perhaps because the change provoked a backlash among people who felt that the state was claiming ownership of their bodies. Wales, which introduced a system of deemed consent in 2015, saw consent rates rise among eligible donors, but the effect on the number of transplants has been hard to disentangle from other reforms made at the same time. The sceptics' conclusion is not that defaults are irrelevant, but that their effect is conditional: it depends on how the default interacts with the rest of the system, including the willingness of families to agree and the capacity of hospitals to act.\n\nPolicy designers have also experimented with variants that sit between the two defaults. Under mandated choice, citizens must state a preference when they renew a driving licence or an identity card, so that no default operates at all. Under a soft opt-out, families are consulted and can override the presumption, while a hard system treats it as binding. Each variant trades the same values off differently: mandated choice respects active consent but may leave many with no recorded preference, soft systems protect families but reproduce the problem of refusals, and hard systems maximise supply at the greatest cost to public trust. No arrangement escapes the trade-off; it can only be placed.\n\nThere is also a question that the behavioural argument leaves aside: whether silence should count as consent at all. Consent in medicine is meant to be informed and active; a signature on a form is a person's own act, whereas a failure to opt out may reflect ignorance of the law or simply inertia. Defenders of presumed consent answer that no organ is removed without the question being put to relatives, and that the real choice, between a system that wastes organs and one that saves lives, is a moral one in which a modest cost to autonomy is outweighed by lives saved. Critics reply that the moral argument cannot rest on a procedural trick, and that a system which depends on people not noticing how consent is being inferred from them is hard to reconcile with the trust on which donation itself depends.\n\nThe lesson is not to abandon defaults but to be modest about them. A default is a lever, not a mechanism: it moves a system only when the parts to which it is attached are able to move. Countries that want more transplants will do better by training coordinators, building intensive-care capacity and talking to families than by relying on a change in the statute, however elegant the chart that recommends it.",
-        "question": "Each of the following is offered as a reason why defaults influence behaviour EXCEPT that",
-        "options": [
-          "A) the default is read as a recommendation from the authorities",
-          "B) departing from the default carries a cost in time, thought and discomfort",
-          "C) an unwelcome question tends to be put off",
-          "D) people are persuaded by weighing the case for the default"
-        ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> A, B and C appear in paragraph 2. The author says the default works 'not because anyone is fooled' but because opting out has a cost, not because people are persuaded by weighing its merits."
-      },
-      {
-        "id": "q11",
-        "type": "RC",
-        "passage": "In 2003 two psychologists published a chart that has since appeared in countless lectures on behavioural economics. It compared the share of citizens registered as potential organ donors in several European countries, and the bars fell into two groups with almost nothing in between. In some countries, including Germany, Denmark and the United Kingdom, fewer than three in ten people were registered; in others, among them Austria, Belgium and France, almost everyone was. The difference, the authors argued, had little to do with culture or religion. It lay in the form of the law: in the first group citizens had to opt in by registering as donors, while in the second they were presumed to consent unless they opted out. The default, they concluded, was doing the work.\n\nThe explanation lies in features of human decision-making that economists once ignored. Choosing requires effort, and effort is costly, particularly when the question is unpleasant to contemplate. Many people, faced with a form asking whether they would like to donate their organs after death, defer the decision, and a decision deferred is a decision made in favour of whatever happens when nothing is done. Others read the default as a recommendation, a signal of what the authorities consider normal and right. In both cases the default has power not because anyone is fooled but because the alternative to accepting it carries a cost, however small, in time, thought and discomfort. To change the default is therefore to change behaviour without forbidding anything.\n\nThe appeal of this to policymakers is obvious. A change in the wording of a law costs nothing, whereas campaigns to persuade people to register are expensive and slow. Several countries have accordingly moved to presumed consent, and in many others the proposal has been debated. Yet the evidence that it works as hoped is surprisingly thin, and the reason exposes a flaw in the original comparison. The proposal also flatters a certain picture of reform, in which a clever change of wording achieves what exhortation and expense could not. Such pictures deserve scrutiny precisely because they are so attractive.\n\nThe chart measured registrations, not donations. A person registered as a donor is not thereby a donor: organs can be used only if death occurs in circumstances, usually in an intensive-care unit, that make removal possible, and only if the hospital is able to carry out the procedure. Intensive-care beds, surgical teams and the capacity to match organs to recipients are all links in the chain, and the chain is only as strong as its weakest. In practice the family is almost always consulted, and in many countries relatives can and do refuse even where the deceased had registered consent. Rates of actual donation per million inhabitants correlate only loosely with the legal default. Spain, which has consistently had one of the highest rates in the world, has had presumed consent in law since 1979, but its donation rate was unremarkable for a decade afterwards; it rose steeply only after 1989, when the country created a national transplant organisation and placed trained coordinators in hospitals, whose task is to identify potential donors and to approach their families with skill and sympathy. The law did not change at that point. The organisation of the system did.\n\nStudies of countries that changed their defaults tell a similar story. Some have seen donation rates rise modestly; others have seen little change, and a few have seen a fall, perhaps because the change provoked a backlash among people who felt that the state was claiming ownership of their bodies. Wales, which introduced a system of deemed consent in 2015, saw consent rates rise among eligible donors, but the effect on the number of transplants has been hard to disentangle from other reforms made at the same time. The sceptics' conclusion is not that defaults are irrelevant, but that their effect is conditional: it depends on how the default interacts with the rest of the system, including the willingness of families to agree and the capacity of hospitals to act.\n\nPolicy designers have also experimented with variants that sit between the two defaults. Under mandated choice, citizens must state a preference when they renew a driving licence or an identity card, so that no default operates at all. Under a soft opt-out, families are consulted and can override the presumption, while a hard system treats it as binding. Each variant trades the same values off differently: mandated choice respects active consent but may leave many with no recorded preference, soft systems protect families but reproduce the problem of refusals, and hard systems maximise supply at the greatest cost to public trust. No arrangement escapes the trade-off; it can only be placed.\n\nThere is also a question that the behavioural argument leaves aside: whether silence should count as consent at all. Consent in medicine is meant to be informed and active; a signature on a form is a person's own act, whereas a failure to opt out may reflect ignorance of the law or simply inertia. Defenders of presumed consent answer that no organ is removed without the question being put to relatives, and that the real choice, between a system that wastes organs and one that saves lives, is a moral one in which a modest cost to autonomy is outweighed by lives saved. Critics reply that the moral argument cannot rest on a procedural trick, and that a system which depends on people not noticing how consent is being inferred from them is hard to reconcile with the trust on which donation itself depends.\n\nThe lesson is not to abandon defaults but to be modest about them. A default is a lever, not a mechanism: it moves a system only when the parts to which it is attached are able to move. Countries that want more transplants will do better by training coordinators, building intensive-care capacity and talking to families than by relying on a change in the statute, however elegant the chart that recommends it.",
-        "question": "Which of the following, if true, would most strengthen the claim that the effect of a default is conditional?",
-        "options": [
-          "A) Two countries adopted presumed consent together; donation rose where hospitals had trained coordinators and fell where they had none.",
-          "B) Registration rates rose in every country that adopted presumed consent, within a year of the change in the law and without any other reform.",
-          "C) Most citizens in countries with presumed consent are unaware that the law infers their consent to donation after death from their silence.",
-          "D) Donation rates in Spain have been among the highest in the world in every year since 1989, when the national organisation was created."
-        ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> A direct comparison in which the same default produces opposite results depending on hospital capacity supports the claim that the default's effect depends on the rest of the system. B undermines it; C and D do not test conditionality."
-      },
-      {
-        "id": "q12",
-        "type": "RC",
-        "passage": "In 2003 two psychologists published a chart that has since appeared in countless lectures on behavioural economics. It compared the share of citizens registered as potential organ donors in several European countries, and the bars fell into two groups with almost nothing in between. In some countries, including Germany, Denmark and the United Kingdom, fewer than three in ten people were registered; in others, among them Austria, Belgium and France, almost everyone was. The difference, the authors argued, had little to do with culture or religion. It lay in the form of the law: in the first group citizens had to opt in by registering as donors, while in the second they were presumed to consent unless they opted out. The default, they concluded, was doing the work.\n\nThe explanation lies in features of human decision-making that economists once ignored. Choosing requires effort, and effort is costly, particularly when the question is unpleasant to contemplate. Many people, faced with a form asking whether they would like to donate their organs after death, defer the decision, and a decision deferred is a decision made in favour of whatever happens when nothing is done. Others read the default as a recommendation, a signal of what the authorities consider normal and right. In both cases the default has power not because anyone is fooled but because the alternative to accepting it carries a cost, however small, in time, thought and discomfort. To change the default is therefore to change behaviour without forbidding anything.\n\nThe appeal of this to policymakers is obvious. A change in the wording of a law costs nothing, whereas campaigns to persuade people to register are expensive and slow. Several countries have accordingly moved to presumed consent, and in many others the proposal has been debated. Yet the evidence that it works as hoped is surprisingly thin, and the reason exposes a flaw in the original comparison. The proposal also flatters a certain picture of reform, in which a clever change of wording achieves what exhortation and expense could not. Such pictures deserve scrutiny precisely because they are so attractive.\n\nThe chart measured registrations, not donations. A person registered as a donor is not thereby a donor: organs can be used only if death occurs in circumstances, usually in an intensive-care unit, that make removal possible, and only if the hospital is able to carry out the procedure. Intensive-care beds, surgical teams and the capacity to match organs to recipients are all links in the chain, and the chain is only as strong as its weakest. In practice the family is almost always consulted, and in many countries relatives can and do refuse even where the deceased had registered consent. Rates of actual donation per million inhabitants correlate only loosely with the legal default. Spain, which has consistently had one of the highest rates in the world, has had presumed consent in law since 1979, but its donation rate was unremarkable for a decade afterwards; it rose steeply only after 1989, when the country created a national transplant organisation and placed trained coordinators in hospitals, whose task is to identify potential donors and to approach their families with skill and sympathy. The law did not change at that point. The organisation of the system did.\n\nStudies of countries that changed their defaults tell a similar story. Some have seen donation rates rise modestly; others have seen little change, and a few have seen a fall, perhaps because the change provoked a backlash among people who felt that the state was claiming ownership of their bodies. Wales, which introduced a system of deemed consent in 2015, saw consent rates rise among eligible donors, but the effect on the number of transplants has been hard to disentangle from other reforms made at the same time. The sceptics' conclusion is not that defaults are irrelevant, but that their effect is conditional: it depends on how the default interacts with the rest of the system, including the willingness of families to agree and the capacity of hospitals to act.\n\nPolicy designers have also experimented with variants that sit between the two defaults. Under mandated choice, citizens must state a preference when they renew a driving licence or an identity card, so that no default operates at all. Under a soft opt-out, families are consulted and can override the presumption, while a hard system treats it as binding. Each variant trades the same values off differently: mandated choice respects active consent but may leave many with no recorded preference, soft systems protect families but reproduce the problem of refusals, and hard systems maximise supply at the greatest cost to public trust. No arrangement escapes the trade-off; it can only be placed.\n\nThere is also a question that the behavioural argument leaves aside: whether silence should count as consent at all. Consent in medicine is meant to be informed and active; a signature on a form is a person's own act, whereas a failure to opt out may reflect ignorance of the law or simply inertia. Defenders of presumed consent answer that no organ is removed without the question being put to relatives, and that the real choice, between a system that wastes organs and one that saves lives, is a moral one in which a modest cost to autonomy is outweighed by lives saved. Critics reply that the moral argument cannot rest on a procedural trick, and that a system which depends on people not noticing how consent is being inferred from them is hard to reconcile with the trust on which donation itself depends.\n\nThe lesson is not to abandon defaults but to be modest about them. A default is a lever, not a mechanism: it moves a system only when the parts to which it is attached are able to move. Countries that want more transplants will do better by training coordinators, building intensive-care capacity and talking to families than by relying on a change in the statute, however elegant the chart that recommends it.",
-        "question": "The critics of presumed consent mentioned in the passage would most likely agree that",
-        "options": [
-          "A) presumed consent is morally wrong in every case, because consent in medicine must always be given in writing.",
-          "B) inferring consent from silence may undermine the trust on which donation itself depends.",
-          "C) families should be denied any role in decisions about donation, since their refusals waste organs that could save lives.",
-          "D) the defenders of presumed consent have no answer to the objection that silence cannot be consent in any circumstances."
-        ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> The critics say a system that depends on people not noticing how consent is inferred is 'hard to reconcile with the trust on which donation itself depends'. B, C and D overstate or invent positions."
-      },
-      {
-        "id": "q13",
-        "type": "RC",
-        "passage": "Interviewer: Millions of birds die each year after striking glass buildings. Is it just bad luck?\n\nEcologist: Not at all. Birds cannot perceive glass as a barrier. They see the reflection of sky or trees, or they see through to a plant on the other side, and they fly at it. At night the problem is lights: migrating birds are drawn to bright cities, circle, tire and collide. So we have two different problems, with different remedies.\n\nInterviewer: What works?\n\nEcologist: For daytime strikes, anything that makes the glass visible: patterns of dots or lines spaced closely enough, because birds will not fly through gaps they judge too small. A single hawk silhouette sticker is mostly useless, which surprises people, because a bird can fly past it to the clear glass beside it. For the night, switching off lights during migration seasons has been shown to cut collisions sharply, and it saves energy too.",
-        "question": "According to the ecologist, daytime collisions occur chiefly because",
-        "options": [
-          "A) migrating birds are attracted to bright lights, circle the buildings, become exhausted and then collide with the walls.",
-          "B) birds are unable to see the patterns of dots or lines that building owners have placed on their windows.",
-          "C) glass buildings reflect so much sunlight that birds are blinded for several seconds as they pass them.",
-          "D) birds cannot perceive glass as a barrier, mistaking reflections or the view through it for open space."
-        ],
-        "answer": 3,
-        "explanation": "<strong>Explanation:</strong> He says birds see reflections of sky or trees, or see through to a plant, and fly at it. B describes the night problem; C and D are not claimed."
-      },
-      {
-        "id": "q14",
-        "type": "RC",
-        "passage": "Interviewer: Millions of birds die each year after striking glass buildings. Is it just bad luck?\n\nEcologist: Not at all. Birds cannot perceive glass as a barrier. They see the reflection of sky or trees, or they see through to a plant on the other side, and they fly at it. At night the problem is lights: migrating birds are drawn to bright cities, circle, tire and collide. So we have two different problems, with different remedies.\n\nInterviewer: What works?\n\nEcologist: For daytime strikes, anything that makes the glass visible: patterns of dots or lines spaced closely enough, because birds will not fly through gaps they judge too small. A single hawk silhouette sticker is mostly useless, which surprises people, because a bird can fly past it to the clear glass beside it. For the night, switching off lights during migration seasons has been shown to cut collisions sharply, and it saves energy too.",
-        "question": "The ecologist's remark about the hawk silhouette sticker suggests that",
-        "options": [
-          "A) birds are frightened of predators, and so will avoid any glass that carries an image of one.",
-          "B) a deterrent works only if it makes the whole pane visible, and not merely a part of it.",
-          "C) stickers are better than patterns of dots because they cost less to produce and to install.",
-          "D) no remedy for daytime strikes has yet been shown to work in any building anywhere."
-        ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> A single sticker fails because the bird 'can fly past it to the clear glass beside it', whereas closely spaced patterns work. B contradicts his statement; C is not mentioned; D contradicts his account of what works."
-      },
-      {
-        "id": "q15",
-        "type": "ParaJumble_TITA",
-        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. With such a clock, a navigator could compare local noon with the reference time and calculate how far east or west the ship had travelled.\n2. For centuries, sailors could find their latitude by the sun, but not their longitude.\n3. In the eighteenth century, John Harrison built a marine chronometer that kept accurate time through months of rolling seas.\n4. The difficulty was that determining longitude required knowing the exact time at a fixed reference point while at sea.",
-        "answer": "2431",
-        "explanation": "<strong>Explanation:</strong> 2 states the old problem (latitude but not longitude). 4 explains the difficulty (exact reference time). 3 ('In the eighteenth century') brings Harrison's chronometer, and 1 ('With such a clock') shows how it was used. Order: 2-4-3-1."
-      },
-      {
-        "id": "q16",
-        "type": "ParaJumble_TITA",
-        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Augustin Fresnel then devised a lens of concentric glass rings that gathered the light and projected it as a narrow beam far out to sea.\n2. The result was a light that could be seen from many kilometres away using far less fuel than before.\n3. Early lighthouses burned wood or coal on open platforms, and their flames were easily obscured by wind and rain.\n4. In the late eighteenth century, the Argand lamp, with its hollow wick, produced a brighter and steadier flame.",
-        "answer": "3412",
-        "explanation": "<strong>Explanation:</strong> 3 describes the early lighthouses. 4 ('In the late eighteenth century') gives the first improvement. 1 ('then') adds Fresnel's lens, and 2 ('The result') states the outcome of the two improvements. Order: 3-4-1-2."
-      },
-      {
-        "id": "q17",
-        "type": "ParaJumble_TITA",
-        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. The fear can therefore fulfil itself, bringing down a bank that was sound when the panic started.\n2. A bank run begins when depositors fear that a bank cannot repay them.\n3. Because banks lend out most of what they take in, they cannot repay everyone at once, so each depositor's fear is justified if enough others share it.\n4. Deposit insurance was designed to break this cycle by assuring depositors that their money is safe whatever others do.",
-        "answer": "2314",
-        "explanation": "<strong>Explanation:</strong> 2 introduces the run. 3 explains why the fear can be justified. 1 ('therefore') draws the self-fulfilling conclusion, and 4 ('this cycle') presents the remedy. Order: 2-3-1-4."
-      },
-      {
-        "id": "q18",
-        "type": "ParaJumble_TITA",
-        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Within a few generations, Byzantine workshops were producing silk of their own.\n2. According to tradition, the secret escaped in the sixth century, when monks carried silkworm eggs hidden in hollow canes to Constantinople.\n3. As a result, the monopoly that had lasted for many centuries was broken, and the price of silk in the West fell.\n4. Silk was once so valuable that its method of manufacture was a closely guarded secret in China.",
-        "answer": "4213",
-        "explanation": "<strong>Explanation:</strong> 4 states the secret. 2 ('the secret escaped') tells how it escaped. 1 ('Within a few generations') gives the local development, and 3 ('As a result') draws the final consequence. Order: 4-2-1-3."
-      },
-      {
-        "id": "q19",
-        "type": "ParaSummary",
-        "question": "Select the option that best summarizes the paragraph:\n\n'Economists distinguish between the price of a good and its cost. The price is what the buyer pays; the cost includes whatever else is given up, such as time, convenience and the next-best use of the money. A free concert, therefore, is not free to the person who spends two hours queuing for it, and a cheap flight that lands at a distant airport may be dearer than an expensive one that does not. Decisions based on price alone are thus often mistaken for decisions based on cost.'",
-        "options": [
-          "A) Cost is wider than price, since it includes what is given up, so choices that look cheap may not be.",
-          "B) Free goods do not exist, and so the government should never provide concerts or other events to citizens without a charge.",
-          "C) Cheap flights are always more expensive than costly ones, because they land at airports that are far from city centres.",
-          "D) Economists regard price as irrelevant to decisions, since only the time spent in obtaining a good matters in practice."
-        ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> The paragraph distinguishes price from the wider notion of cost and warns against deciding on price alone. The others overgeneralise ('never', 'always', 'irrelevant')."
-      },
-      {
-        "id": "q20",
-        "type": "ParaSummary",
-        "question": "Select the option that best summarizes the paragraph:\n\n'Many ancient cities were built beside rivers, and it is easy to attribute this to water for drinking and farming. Rivers, however, also served as highways in an age without good roads, carrying grain, timber and stone at a fraction of the cost of carrying them overland. A city on a river could feed a large population from a wide hinterland, and its merchants could reach distant markets. Control of the river was often the foundation of a city's power.'",
-        "options": [
-          "A) Ancient cities were built beside rivers solely because the water was needed for drinking and for the irrigation of crops in the fields.",
-          "B) Roads were unknown in ancient times, and so no city that was far from a river could grow to any considerable size or influence.",
-          "C) Merchants in river cities were the most powerful class, and they alone decided where new cities were to be built in the region.",
-          "D) Cities grew beside rivers not only for water but because rivers were cheap highways for trade and supply, which gave them power."
-        ],
-        "answer": 3,
-        "explanation": "<strong>Explanation:</strong> The paragraph adds transport and trade to the usual water explanation. B contradicts 'however'; C and D overstate or invent claims."
-      },
-      {
-        "id": "q21",
-        "type": "ParaSummary",
-        "question": "Select the option that best summarizes the paragraph:\n\n'The word \"average\" suggests a typical case, but an average can describe no one at all. If a town's households have an average of 2.4 children, no household has 2.4 children. When a distribution is lopsided, the mean may be far from the experience of most people: a few very large incomes can raise a town's average income while the majority earn less. For this reason statisticians often prefer the median, the middle value, which is not distorted by extreme cases.'",
-        "options": [
-          "A) Averages are meaningless, and statisticians have therefore abandoned them in favour of the median in all of their work.",
-          "B) A town's average income is raised by its poorest households, who are the most numerous within the town.",
-          "C) An average can misrepresent a lopsided distribution, so the median is often a better guide to what is typical.",
-          "D) No household in any town can have an average number of children, and so surveys of families are unreliable."
-        ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> The paragraph says averages can mislead when data are lopsided and that the median is often preferred. B overstates ('abandoned', 'all'); C reverses the effect of very large incomes; D draws an unrelated conclusion about surveys."
-      },
-      {
-        "id": "q22",
-        "type": "ParaCompletion",
-        "question": "Complete the paragraph logically:\n\n'A colony of ants has no leader: no ant knows the plan of the nest or directs the work. ________ Each ant follows simple rules, such as turning towards a stronger trail of scent, and the colony's elaborate behaviour emerges from the interaction of thousands of such acts. The intelligence, if the word is apt, lies in the system and not in any member of it.'",
-        "options": [
-          "A) Yet the colony finds food, builds nests and defends itself with remarkable efficiency.",
-          "B) The queen, which issues commands to the workers, is therefore the cleverest member of the colony.",
-          "C) Ants are the only insects whose behaviour can be explained without reference to the individual.",
-          "D) Colonies are therefore less successful than animals that are organised under a single leader."
-        ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> The blank must set up the paradox that a leaderless colony behaves in an organised way, which the next sentences explain. B contradicts 'no leader'; C and D introduce claims the paragraph does not make."
-      },
-      {
-        "id": "q23",
-        "type": "ParaCompletion",
-        "question": "Complete the paragraph logically:\n\n'It is often assumed that more information produces better decisions. ________ A manager given a hundred pages of data may attend to the most vivid detail rather than the most relevant, and decide worse than one given a single page. When attention is scarce, the cost of information is the attention it consumes.'",
-        "options": [
-          "A) Managers should therefore avoid collecting data of any kind, since it cannot be of use to anyone.",
-          "B) Decisions are best left to those with the least information, who are least likely to be misled.",
-          "C) Information has become cheaper in recent decades, and so decisions are now better than in earlier times.",
-          "D) Beyond a point, however, additional information can degrade decisions rather than improve them."
-        ],
-        "answer": 3,
-        "explanation": "<strong>Explanation:</strong> The blank must challenge the assumption in the first sentence, as the example of the hundred pages does. B and C overgeneralise; D contradicts the argument that cheaper information does not make decisions better."
-      },
-      {
-        "id": "q24",
-        "type": "ParaCompletion",
-        "question": "Complete the paragraph logically:\n\n'Many people believe that a long queue means a good restaurant. ________ A diner who sees a crowd outside may infer that others know something she does not, and join it, which lengthens the queue and persuades the next passer-by. The queue may reflect nothing about the food.'",
-        "options": [
-          "A) Restaurants with no queue are always better than those with one, since good food does not need to be waited for.",
-          "B) The belief can be self-reinforcing, since each person's choice is a signal to the next.",
-          "C) Queues exist because restaurants deliberately limit their seating in order to raise their prices over time.",
-          "D) Diners who join queues are usually familiar with the food, and so their judgement can be trusted entirely."
-        ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> The sentences that follow describe each diner's choice becoming a signal to the next. B, C and D introduce unrelated or contradictory claims."
-      },
-      {
-        "id": "q25",
-        "type": "Vocabulary",
-        "question": "Choose the option that best completes the sentence:\n\nThe speaker's remarks, though ________ in tone, concealed a sharp criticism of the proposal.",
-        "options": [
-          "A) belligerent",
-          "B) truculent",
-          "C) vitriolic",
-          "D) genial"
-        ],
-        "answer": 3,
-        "explanation": "<strong>Explanation:</strong> 'Genial' means friendly, which contrasts with the concealed sharp criticism. The other three are themselves hostile in tone."
-      },
-      {
-        "id": "q26",
-        "type": "Vocabulary",
-        "question": "Choose the option that best completes the sentence:\n\nHaving squandered the family fortune, he lived out his days in ________ circumstances.",
-        "options": [
-          "A) opulent",
-          "B) straitened",
-          "C) affluent",
-          "D) magnificent"
-        ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> 'Straitened' means limited by poverty. 'Opulent', 'affluent' and 'magnificent' all suggest wealth and splendour."
-      },
-      {
-        "id": "q27",
-        "type": "Vocabulary",
-        "question": "Choose the option that best completes the sentence:\n\nThe proposal was criticised as a stopgap, since ________.",
-        "options": [
-          "A) it had been drawn up over several years by a committee of independent experts in the field of study",
-          "B) it set out a permanent solution to the problem and a schedule for putting it into effect in full",
-          "C) it addressed the immediate shortage without touching the cause of it",
-          "D) it was approved by every department of the government without any amendment or objection at all"
-        ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> A stopgap is a temporary measure. Only the first option describes a measure that deals with symptoms rather than causes. B, C and D describe thoroughness or permanence."
-      },
-      {
-        "id": "q28",
-        "type": "Vocabulary",
-        "question": "Choose the option that best fills the blanks:\n\nThe memoir was ________ with errors, yet its author, ________ to correction, ________ every request for a revised edition.",
-        "options": [
-          "A) riddled; impervious; declined",
-          "B) unblemished; impervious; declined",
-          "C) riddled; receptive; declined",
-          "D) riddled; impervious; solicited"
-        ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> A memoir 'riddled' with errors whose author is 'impervious' (closed) to correction would 'decline' a revised edition. 'Free' of errors contradicts 'yet'; 'receptive' and 'welcomed' contradict the author's refusal."
-      },
-      {
-        "id": "q29",
-        "type": "Vocabulary",
-        "question": "Choose the option that best fills the blanks:\n\nFar from being ________ by the setback, the team grew more ________, and its ________ surprised even its critics.",
-        "options": [
-          "A) emboldened; resolute; tenacity",
-          "B) disheartened; despondent; tenacity",
-          "C) disheartened; resolute; indifference",
-          "D) disheartened; resolute; tenacity"
-        ],
-        "answer": 3,
-        "explanation": "<strong>Explanation:</strong> 'Far from being disheartened' means the team was not discouraged, so it grew more 'resolute', and its 'tenacity' surprised critics. 'Despondent' and 'indifference' contradict this, and 'emboldened' does not fit 'far from being'."
-      },
-      {
-        "id": "q30",
-        "type": "Vocabulary",
-        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
-        "options": [
-          "A) Her imminent departure from the firm was announced to the staff on Friday afternoon.",
-          "B) The eminent collapse of the bridge forced the road to be closed.",
-          "C) The new rules will affect small firms more than large ones, according to the report.",
-          "D) The report was commended for its candid assessment of the risks to the project."
-        ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Something about to happen is 'imminent'; 'eminent' means distinguished. 'Imminent', 'affect' (influence) and 'candid' are used correctly."
-      },
-      {
-        "id": "q31",
-        "type": "Vocabulary",
-        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
-        "options": [
-          "A) The firm decided to adopt a new accounting standard from the start of the next financial year.",
-          "B) The prospective buyers inspected the house on Saturday morning before making an offer.",
-          "C) Visitors to the island must adapt the customs of its people.",
-          "D) The author's allusion to an earlier poem was lost on most of her readers at the time."
-        ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> To take up customs is to 'adopt' them; 'adapt' means to adjust (and is followed by 'to'). 'Adopt', 'prospective' (likely to be) and 'allusion' (indirect reference) are used correctly."
-      },
-      {
-        "id": "q32",
-        "type": "Vocabulary",
-        "question": "Select the word MOST NEARLY SIMILAR in meaning to 'OBDURATE':",
-        "options": [
-          "A) Acquiescent",
-          "B) Melancholy",
-          "C) Adamant",
-          "D) Gregarious"
-        ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> Obdurate means stubbornly refusing to change; 'adamant' is closest. 'Acquiescent' (compliant) is nearly the opposite."
-      },
-      {
-        "id": "q33",
-        "type": "Vocabulary",
-        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'PARSIMONIOUS':",
-        "options": [
-          "A) Frugal",
-          "B) Miserly",
-          "C) Thrifty",
-          "D) Lavish"
-        ],
-        "answer": 3,
-        "explanation": "<strong>Explanation:</strong> Parsimonious means extremely unwilling to spend; 'lavish' is the antonym. The others are synonyms."
-      },
-      {
-        "id": "q34",
-        "type": "Vocabulary",
-        "question": "Select the word MOST NEARLY SIMILAR in meaning to 'EPHEMERAL':",
-        "options": [
-          "A) Transient",
-          "B) Interminable",
-          "C) Everlasting",
-          "D) Imperishable"
-        ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> Ephemeral means lasting a very short time; 'transient' is closest. The others mean lasting."
-      },
-      {
-        "id": "q35",
-        "type": "Vocabulary",
-        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'GREGARIOUS':",
-        "options": [
-          "A) Companionable",
-          "B) Reclusive",
-          "C) Outgoing",
-          "D) Convivial"
-        ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> Gregarious means fond of company; 'reclusive' (solitary) is the antonym. The others are synonyms."
-      },
-      {
-        "id": "q36",
-        "type": "Vocabulary",
-        "question": "Choose the correct meaning of the idiom:\n'To cut corners' means to:",
-        "options": [
-          "A) make a journey by the shortest route through the city, avoiding traffic delays on the way",
-          "B) reduce the number of employees in order to save money in a business that is in difficulty",
-          "C) attend to every small detail of a task before submitting it for approval to supervisors",
-          "D) do something cheaply or quickly, sacrificing quality"
-        ],
-        "answer": 3,
-        "explanation": "<strong>Explanation:</strong> To cut corners is to save time or money by doing a job less thoroughly than it should be done."
-      },
-      {
-        "id": "q37",
-        "type": "Vocabulary",
-        "question": "Select the sentence in which 'DISCRETE' is used correctly:",
-        "options": [
-          "A) The detective made discrete enquiries among the neighbours so as not to alarm the people living nearby.",
-          "B) She was discrete about her plans, telling no one at the firm until the contract had been signed.",
-          "C) The study divided the participants into three discrete groups, with no overlap between them.",
-          "D) A discrete silence fell over the room as the speaker rose to address the members of the assembly."
-        ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> 'Discrete' means separate and distinct. 'Discreet' (careful, tactful) is the word wanted in the other sentences."
-      },
-      {
-        "id": "q38",
-        "type": "Grammar",
-        "question": "Choose the best replacement for the portion in square brackets:\n\nShe is one of those writers who [is never satisfied] with a first draft.",
-        "options": [
-          "A) has never been satisfied",
-          "B) are never satisfied",
-          "C) was never satisfied",
-          "D) being never satisfied"
-        ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> In 'one of those writers who...', 'who' refers to the plural 'writers', so the verb is plural: 'are'. The other options keep a singular verb, change the tense, or are not finite."
-      },
-      {
-        "id": "q39",
-        "type": "Grammar",
-        "question": "Choose the best replacement for the portion in square brackets:\n\nThe report criticises the firm [for failing to disclose the losses, for misleading investors, and its delay in] correcting the accounts.",
-        "options": [
-          "A) for failing to disclose the losses, for misleading investors, and delaying",
-          "B) for its failure to disclose the losses, misleading investors, and its delay in",
-          "C) for failing to disclose the losses, misleading investors, and delaying",
-          "D) for failing to disclose the losses, to mislead investors, and delaying"
-        ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> The items after 'for' must be parallel gerunds: failing, misleading, delaying. The other options mix gerunds, infinitives and noun phrases or leave 'for' unevenly repeated."
-      },
-      {
-        "id": "q40",
-        "type": "Grammar",
-        "question": "Spot the error in the following sentence:\n'The new policy has resulted in (A) / less complaints (B) / from customers than (C) / the old one did last year (D).'",
-        "options": [
-          "A) The new policy has resulted in",
-          "B) less complaints",
-          "C) from customers than",
-          "D) the old one did last year"
-        ],
-        "answer": 1,
-        "explanation": "<strong>Explanation:</strong> 'Complaints' is countable, so the word needed is 'fewer'. The rest of the sentence is correct."
-      },
-      {
-        "id": "q41",
-        "type": "Grammar",
-        "question": "Choose the grammatically correct sentence:",
-        "options": [
-          "A) Between you and me, the plan is unlikely to succeed.",
-          "B) Between you and I, the plan is unlikely to succeed at all.",
-          "C) Between you and myself, the plan is unlikely to succeed at all.",
-          "D) Between yourself and I, the plan is unlikely to succeed at all."
-        ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> After a preposition the object pronoun 'me' is used: 'between you and me'."
-      },
-      {
-        "id": "q42",
-        "type": "Grammar",
-        "question": "Choose the correct option to fill in the blank:\n'The more he practised, ________ he became.'",
-        "options": [
-          "A) more confident",
-          "B) the most confident",
-          "C) much more confident than",
-          "D) the more confident"
-        ],
-        "answer": 3,
-        "explanation": "<strong>Explanation:</strong> The 'the more..., the more...' construction requires 'the' before the second comparative."
-      },
-      {
-        "id": "q43",
-        "type": "Grammar",
-        "question": "Choose the correct preposition to fill in the blank:\n'She is allergic ________ penicillin.'",
-        "options": [
-          "A) to",
-          "B) of",
-          "C) with",
-          "D) against"
-        ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> 'Allergic' takes 'to'."
-      },
-      {
-        "id": "q44",
-        "type": "Grammar",
-        "question": "Identify the grammatically INCORRECT sentence:",
-        "options": [
-          "A) Each of the students in the class has submitted a completed assignment.",
-          "B) Mathematics is the subject that most of the first-year students find hardest.",
-          "C) The news were welcomed across the country.",
-          "D) The scissors are on the table beside the window in the front room."
-        ],
-        "answer": 2,
-        "explanation": "<strong>Explanation:</strong> 'News' is uncountable and takes a singular verb: 'was welcomed'. The other sentences are correct."
-      },
-      {
-        "id": "q45",
-        "type": "Grammar",
-        "question": "Choose the correct option to fill in the blank:\n'He insisted that she ________ the report before leaving.'",
-        "options": [
-          "A) finish",
-          "B) finishes",
-          "C) finished",
-          "D) will finish"
-        ],
-        "answer": 0,
-        "explanation": "<strong>Explanation:</strong> After verbs of insistence, recommendation or demand, the subjunctive (base form) is used: 'insisted that she finish'."
-      }
-    ]
-  }
-]
+      "correct_answer": "3241",
+      "explanation": "Sentence 3 gives the old view. Sentence 2 ('this assumption') overturns it. Sentence 4 describes what the recordings revealed: replay during deep sleep. Sentence 1 ('This replay') explains its function. Order: 3-2-4-1."
+    },
+    {
+      "id": 28,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Which of the following best captures the central argument of the passage?",
+      "passage_id": "RC1",
+      "options": [
+        "Institutions that depend on quantitative metrics are inherently dishonest and should replace numbers with human judgement wherever the stakes are significant",
+        "Linking rewards to a proxy corrupts it, so measures should be held provisionally and sceptically",
+        "Goodhart's observation, widely treated as a complaint about dishonesty, in fact applies only to hospitals and similar public bodies",
+        "Rotating metrics and qualitative audits together offer a complete solution to the problem of manipulated measurement in organisations"
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "The passage shows that once a measure becomes a target, people respond to the incentive and the proxy loses value (a design flaw, not just dishonesty), and it ends by recommending that every number be treated as provisional. (B) contradicts the author's view that dishonesty is not the main issue; (C) restricts the claim to hospitals, though they are only an example; (D) overstates: the remedies are said to be costly and none is 'free'."
+    },
+    {
+      "id": 29,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The hospital example is used primarily to show that",
+      "passage_id": "RC1",
+      "options": [
+        "a reported figure can improve while the experience it represents stays the same",
+        "administrators deliberately deceive regulators in order to secure additional funding for their wards",
+        "waiting times are an unusually unreliable metric compared with other indicators of hospital performance",
+        "patients left in corridors receive worse clinical care than those formally admitted to a ward"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "The line 'The metric improves; the experience of waiting does not' states the purpose directly. The example illustrates a general point about proxies. The passage does not claim deception for funding, special unreliability of waiting times, or differences in clinical care."
+    },
+    {
+      "id": 30,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The author's remark that Goodhart's observation is 'too generous to the measurers and too harsh on the measured' suggests that the author believes",
+      "passage_id": "RC1",
+      "options": [
+        "people who game targets should be excused because dishonesty is a natural human trait",
+        "measurers deliberately create flawed targets so that the measured can be blamed for failures",
+        "Goodhart himself intended his observation to be read as a defence of institutions rather than a criticism",
+        "those who design the incentives bear most of the responsibility for the distortion"
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "The next sentence says gamers are 'responding rationally to an incentive designed by someone who mistook a proxy for the thing itself'. Hence the fault lies with the designers (measurers), who are treated too generously by the dishonesty reading. The passage never says dishonesty is natural, that designers act deliberately, or what Goodhart intended."
+    },
+    {
+      "id": 31,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "All of the following can be inferred from the passage EXCEPT:",
+      "passage_id": "RC1",
+      "options": [
+        "Qualitative audits make quantitative metrics unnecessary in institutions",
+        "A proxy's ease of observation is both a source of its usefulness and of its vulnerability to manipulation",
+        "Rotating metrics can reduce manipulation but make long-term comparison and learning harder",
+        "Pairing numbers with qualitative review restores context at the cost of greater discretion"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "(B), (C) and (D) are directly supported: 'cheap to observe... cheap to counterfeit'; rotating metrics lose 'stable benchmarks'; qualitative audits restore context but 'reintroduce discretion'. Nothing suggests audits make metrics unnecessary; they are offered as a partner to them, so (A) is the exception."
+    },
+    {
+      "id": 32,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The tone of the concluding sentence of the passage is best described as",
+      "passage_id": "RC1",
+      "options": [
+        "bitterly cynical about the possibility of any reliable measurement",
+        "wistfully nostalgic for an era before institutions relied on numbers",
+        "enthusiastically optimistic about reforming measurement practices",
+        "measured and cautiously sceptical"
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "The author calls the conclusion 'sober' and advises suspicion of consequential numbers without rejecting measurement altogether. That is measured scepticism, not bitter cynicism, nostalgia or optimism."
+    },
+    {
+      "id": 33,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The author describes measurement as 'less a mirror than a conversation' in order to suggest that",
+      "passage_id": "RC1",
+      "options": [
+        "numbers should be questioned and revised rather than accepted as neutral reflections",
+        "institutions should publish their metrics so that the public can debate each figure openly",
+        "measurement is inherently subjective, and therefore no number can ever be considered accurate",
+        "statisticians ought to consult those being measured before choosing which indicators to report"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "A mirror passively reflects reality; a conversation involves exchange, challenge and revision. The author adds that 'every number is provisional'. The other options import ideas not in the passage: public debate, complete subjectivity, or consulting the measured."
+    },
+    {
+      "id": 34,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The primary purpose of the passage is to",
+      "passage_id": "RC2",
+      "options": [
+        "argue that railways alone made people more punctual in nineteenth-century Britain",
+        "defend local timekeeping traditions against standardisation imposed by railway companies and public institutions",
+        "question the view that standard time spread simply because it was inevitable or superior",
+        "demonstrate that every technological change is resisted by communities until the cost of resistance rises"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "After presenting the 'gift of technology' account, the author says historians complain it assumes inevitability, then argues that uniformity was secured by the rising cost of dissent. (B) is explicitly denied ('not by making people more punctual'); (C) defends something the author does not defend; (D) over-generalises from time to all technology."
+    },
+    {
+      "id": 35,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "In the passage, the phrase 'making lateness legible' most nearly means",
+      "passage_id": "RC2",
+      "options": [
+        "teaching passengers to read printed timetables with accuracy",
+        "making deviation from a schedule visible and measurable",
+        "punishing passengers who failed to arrive at the platform on time",
+        "ensuring that every station clock displayed exactly the same hour"
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "Before the railways, discrepancies did not matter because there was no fixed standard. A printed timetable made it clear whether a train was on time or not, so lateness became observable. The other options misread 'legible' as literacy, punishment or clock uniformity."
+    },
+    {
+      "id": 36,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Why does the author mention the clock at Bristol's Corn Exchange with two minute hands?",
+      "passage_id": "RC2",
+      "options": [
+        "To prove that Bristol was the last city in Britain to give up its own local time in favour of the railways' schedule",
+        "To illustrate that clockmakers resisted standardisation more fiercely than merchants did in the nineteenth century",
+        "To suggest that local time was in fact more accurate than railway time, as many residents then believed",
+        "To show the two systems coexisted for a time rather than one replacing the other at once"
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "The two hands are offered as evidence that towns 'resisted railway time for decades' and that both regimes were displayed together. The passage does not claim Bristol was the last city, compare clockmakers with merchants, or say local time was more accurate."
+    },
+    {
+      "id": 37,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Which of the following best reflects the author's view of why uniform time eventually prevailed?",
+      "passage_id": "RC2",
+      "options": [
+        "Its greater accuracy over solar time convinced even the most sceptical merchants",
+        "Parliament passed legislation that forced towns to abandon their local clocks",
+        "The telegraph made it technically impossible to keep separate local times",
+        "Each adopter made refusal costlier for the institutions yet to adopt"
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "The passage says uniformity was secured by 'the accumulated cost of dissent': each institution that adopted the standard 'raised the penalty for the next that did not'. Superior accuracy is rejected explicitly ('less the superiority of the new system'), and legislation and technical impossibility are never mentioned."
+    },
+    {
+      "id": 38,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The author's final sentence implies that the apparent 'obviousness' of a standard is",
+      "passage_id": "RC2",
+      "options": [
+        "a retrospective impression produced by its success",
+        "clear proof that the standard was objectively the best available option",
+        "a deliberate illusion fostered by those who profited from its adoption",
+        "something that fades gradually as local alternatives are forgotten"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "The author calls obviousness 'an artefact of its victory rather than its cause': we find the standard obvious because it won, not the other way round. This is a hindsight effect. The passage neither equates obviousness with quality nor suggests deliberate manipulation or fading."
+    },
+    {
+      "id": 39,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "As used in the passage, 'sentimental affectation' suggests that local time, in its last phase, was",
+      "passage_id": "RC2",
+      "options": [
+        "kept up for show and fondness, not because it served any practical purpose",
+        "practised mainly by elderly citizens who could not understand the railway timetable",
+        "defended by merchants as a matter of principle rather than for sentiment",
+        "tolerated by courts and post offices as a harmless legal alternative"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "An 'affectation' is a show put on, and 'sentimental' indicates fondness. Together they mean local time was retained for nostalgia and display after institutions had abandoned it. The other options bring in elderly citizens, principled merchants or legal tolerance, none of which is stated."
+    },
+    {
+      "id": 40,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Which of the following best states the main point of the passage?",
+      "passage_id": "RC3",
+      "options": [
+        "Boredom is a harmful malfunction of modern life that technology has fortunately learned to eliminate from daily experience",
+        "Creativity can be reliably produced by deliberately exposing people to long periods of monotonous work",
+        "Boredom works as a signal worth heeding, and instant distraction may cost us its benefits",
+        "The psychologists' older view of boredom has now been conclusively confirmed by laboratory experiments"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "The passage revives the view of boredom as a signal, argues that instant remedies prevent the signal from working, and ends by warning that eliminating empty intervals may hurt idea generation. (B) is the view the author is arguing against; (C) is rejected ('resist the temptation to prescribe boredom'); (D) overstates the evidence, which is 'modest and not uniformly replicated'."
+    },
+    {
+      "id": 41,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The comparison between boredom and hunger primarily serves to show that boredom",
+      "passage_id": "RC3",
+      "options": [
+        "can be satisfied completely by supplying the appropriate form of stimulation",
+        "arises from a physical deficiency and so cannot be controlled by the mind",
+        "is unpleasant by design, as the discomfort spurs corrective action",
+        "should be avoided whenever possible since it is a symptom of mental ill-health"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "The passage says the resemblance lies in being 'unpleasant by design, and valuable because the discomfort compels action'. The analogy is about function and motivation, not about satisfying it with stimulation, physical origin or mental ill-health."
+    },
+    {
+      "id": 42,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The author answers the objection about factory-line boredom by",
+      "passage_id": "RC3",
+      "options": [
+        "arguing that repetitive work is in fact more generative than creative work in most cases",
+        "conceding that boredom is harmful in every setting and beneficial in none whatsoever",
+        "distinguishing boredom that is imposed from boredom that is endured by choice",
+        "claiming that factory workers are far less affected by boredom than office workers are"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "The author says the objection 'has force' but 'conflates boredom that is imposed with boredom that is endured by choice'. The reply is a distinction, not a denial of the objection, and the other options attribute claims the author never makes."
+    },
+    {
+      "id": 43,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The author's attitude towards the experimental findings cited is best described as",
+      "passage_id": "RC3",
+      "options": [
+        "dismissive, since they have not been replicated in factory settings or other real workplaces",
+        "convinced that they establish boredom as a reliable cure for a lack of originality",
+        "interested but cautious about how much weight they can bear",
+        "indifferent, as the passage rests chiefly on the psychologist's older view of boredom"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "The author reports the finding but immediately notes the effect is 'modest and not uniformly replicated' and warns against prescribing boredom as a tonic. This is cautious interest. The passage does not mention factory-setting replications and does not call the findings conclusive."
+    },
+    {
+      "id": 44,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "With which of the following would the author most likely disagree?",
+      "passage_id": "RC3",
+      "options": [
+        "Instant remedies for restlessness may prevent people from understanding its cause",
+        "Boredom can carry information about a mismatch between a person and their surroundings",
+        "Prolonged boredom in monotonous work is a dependable source of creative ideas",
+        "It would be unwise to prescribe boredom as a general tonic for creativity"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "The author concedes that the boredom of a factory line or a waiting room 'is hardly generative' and warns against prescribing it as a tonic. (B), (C) and (D) restate points the author makes in the passage."
+    },
+    {
+      "id": 45,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The final sentence suggests that a culture which treats every empty interval as a problem",
+      "passage_id": "RC3",
+      "options": [
+        "has deliberately chosen efficiency over creativity as a collective priority",
+        "will inevitably produce fewer original ideas than cultures which accept boredom",
+        "is mistaken in thinking that unoccupied time can ever be put to productive use",
+        "may unintentionally be removing the conditions in which valuable ideas emerge"
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "The key words are 'may be quietly eliminating the conditions...': a hedged claim about an unintended side effect. (B) ascribes deliberate choice; (C) uses 'inevitably', which overstates the hedged claim; (D) uses 'ever', which is also too absolute since the author accepts that imposed tedium is unproductive in some settings."
+    }
+  ]
+}
