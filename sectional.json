@@ -1,911 +1,844 @@
-{
-  "title": "IPMAT VA Sectional – 16th Oct 2026",
-  "date": "2026-10-16",
-  "section": "Verbal Ability",
-  "total_questions": 45,
-  "duration_minutes": 45,
-  "pattern": {
-    "MCQ": 40,
-    "TITA (Parajumbles)": 5,
-    "RC_passages": 3,
-    "questions_per_RC": 6
-  },
-  "passages": {
-    "RC1": {
-      "title": "Measurement and its discontents",
-      "text": "Every measurement regime begins as an act of humility and ends as an act of governance. When a hospital first begins to track waiting times, the figure is merely a window onto its operations; once administrators tie funding to that figure, it becomes a lever, and levers invite handling. Wards learn to reclassify patients as 'admitted' the moment they cross the threshold, even if they linger in corridors for hours. The metric improves; the experience of waiting does not. The economist Charles Goodhart's observation that a measure ceases to be a good measure once it becomes a target is often quoted as though it were a lament about human dishonesty. This is too generous to the measurers and too harsh on the measured. Those who game a target are usually responding rationally to an incentive designed by someone who mistook a proxy for the thing itself. The deeper failure is conceptual: a proxy is valuable precisely because it is cheap to observe relative to the quality it stands for, and that cheapness is also what makes it cheap to counterfeit. Remedies exist, but none is free. Rotating metrics frustrate manipulation but deprive institutions of the stable benchmarks they need for learning. Pairing quantitative measures with qualitative audits restores context but reintroduces discretion, the very thing metrics were meant to discipline. Perhaps the sober conclusion is that measurement should be treated less as a mirror than as a conversation: one in which every number is provisional, and the more consequential the number, the more suspicious one ought to be of it."
-    },
-    "RC2": {
-      "title": "The tyranny of the timetable",
-      "text": "Before the railways, time in Britain was a local affair. Bristol kept its clocks about ten minutes behind London, and nobody was troubled, because nobody moved fast enough for the discrepancy to matter. The railway timetable changed this not by making people more punctual but by making lateness legible: a train either left at the printed hour or it did not, and a passenger who arrived by the town clock found the platform empty. Standardisation, in this telling, was a gift of technology to a world awaiting it. Yet historians have lately complained that such accounts smuggle in an assumption of inevitability. Many towns resisted 'railway time' for decades; Bristol's Corn Exchange famously displayed two minute hands, one for each regime, and some merchants elsewhere insisted that the sun, not the company, was the proper authority over their afternoons. What eventually secured uniformity was less the superiority of the new system than the accumulated cost of dissent. Each institution that adopted the standard (post office, court, telegraph) raised the penalty for the next that did not, until local time survived only as a sentimental affectation. The lesson is not that the railways were innocent. It is that a convention triumphs when opting out becomes expensive, whether or not opting in was ever the better choice, and that the 'obviousness' we later attach to a standard is often an artefact of its victory rather than its cause."
-    },
-    "RC3": {
-      "title": "In praise of the empty hour",
-      "text": "Boredom is generally treated as a malfunction of modern life, a vacuum that devices were invented to fill. But the psychologist's older view, that boredom is a signal rather than a state, deserves revival. A bored mind is not an idle one; it is one that has detected a mismatch between its capacities and its surroundings and is pressing for adjustment. In that sense boredom resembles hunger: unpleasant by design, and valuable because the discomfort compels action. The trouble begins when the remedy is too instant. A person who answers every flicker of restlessness with a screen never lets the signal complete its work, and so never discovers what the restlessness was pointing towards, whether a neglected ambition, a dissatisfaction with a job, or merely the need for rest. Critics might object that this romanticises tedium, since the boredom of a factory line or a waiting room is hardly generative. The objection has force, but it conflates boredom that is imposed with boredom that is endured by choice. Experiments suggest that people who are permitted to remain with an unstimulating task for a while later produce more original solutions to open-ended problems than those who were diverted. The effect is modest and not uniformly replicated, and one should resist the temptation to prescribe boredom as a tonic. Still, a culture that regards every empty interval as a problem to be solved may be quietly eliminating the conditions under which some of its best ideas arise."
-    },
-    "CA1": {
-      "title": "Conversation: 'Partners' or 'dependants'? (The Policy Hour)",
-      "text": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nMeera Kapoor (Host, The Policy Hour): Dr. Rao, platform companies call their drivers 'partners'. You prefer the word 'dependants'. Why?\n\nDr. Anil Rao (labour economist): Because partnership implies bargaining power, and these workers have almost none. A driver cannot set the fare, cannot see the destination before accepting, and can be deactivated by an algorithm without appeal. Flexibility is real, but it is flexibility to log in, not flexibility over terms.\n\nMeera Kapoor: The platforms say workers value the freedom.\n\nDr. Anil Rao: Many do, and I don't dismiss it. But surveys of freedom are usually taken from people who have other options. For someone with a car loan to service, a 'free' schedule often means working twelve hours because any single hour pays too little. The freedom is sometimes the mechanism of the squeeze.\n\nMeera Kapoor: So regulation?\n\nDr. Anil Rao: Not necessarily employment status for all. I would begin with transparency: show the worker how the fare was computed and let them contest a deactivation. You cannot negotiate what you cannot see."
-    }
-  },
-  "questions": [
-    {
-      "id": 1,
-      "section": "VA",
-      "category": "Sentence Completion",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "The minister's assurances were so ________ that even her allies began to suspect the policy had been designed more to soothe than to solve.",
-      "options": [
-        "categorical",
-        "incendiary",
-        "peremptory",
-        "anodyne"
-      ],
-      "correct_option": 3,
-      "correct_answer": "D",
-      "explanation": "'Anodyne' means deliberately inoffensive and bland, intended to avoid controversy or upset. The clue is 'designed more to soothe than to solve': assurances meant to calm rather than commit. 'Categorical' (absolute) and 'peremptory' (imperious) suggest firmness, which would not make allies suspect a lack of substance; 'incendiary' (inflammatory) is the opposite of soothing."
-    },
-    {
-      "id": 2,
-      "section": "VA",
-      "category": "Sentence Completion",
-      "difficulty": "Medium",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "Far from being a ________ discovery, the vaccine was the culmination of decades of patient, incremental work by hundreds of researchers.",
-      "options": [
-        "seminal",
-        "inconsequential",
-        "serendipitous",
-        "sporadic"
-      ],
-      "correct_option": 2,
-      "correct_answer": "C",
-      "explanation": "'Far from being...' signals contrast with 'decades of patient, incremental work'. The opposite of planned, cumulative effort is a lucky accident, i.e. 'serendipitous'. 'Seminal' (groundbreaking) does not contrast with long effort; 'specious' (superficially plausible but false) and 'sporadic' (occasional) do not fit the logic."
-    },
-    {
-      "id": 3,
-      "section": "VA",
-      "category": "Sentence Completion",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "Critics dismissed the novel as ________, its elaborate plot concealing the fact that it had nothing new to say.",
-      "options": [
-        "prosaic",
-        "indecipherable",
-        "pedantic",
-        "meretricious"
-      ],
-      "correct_option": 3,
-      "correct_answer": "D",
-      "explanation": "'Meretricious' means showily attractive but without real value, exactly what an elaborate plot hiding emptiness is. 'Prosaic' (dull, ordinary) conflicts with 'elaborate'; 'laconic' (using few words) conflicts with an elaborate plot; 'pedantic' (overly concerned with detail/rules) does not capture the idea of false glitter."
-    },
-    {
-      "id": 4,
-      "section": "VA",
-      "category": "Sentence Completion",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "Many hail the new tax as a game changer, but it is hardly a ________; the fiscal deficit will persist unless spending is also brought under control.",
-      "options": [
-        "dark horse",
-        "magic bullet",
-        "sitting duck",
-        "wild goose chase"
-      ],
-      "correct_option": 1,
-      "correct_answer": "B",
-      "explanation": "A 'magic bullet' (like 'silver bullet') is a single, simple solution to a complex problem. The 'but... unless spending is controlled' structure says the tax alone will not fix the deficit. 'Dark horse' (an unexpected winner), 'sitting duck' (an easy target) and 'wild goose chase' (a futile pursuit) do not fit the meaning."
-    },
-    {
-      "id": 5,
-      "section": "VA",
-      "category": "Vocabulary",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "The diplomat's ________ manner masked a ________ resolve; negotiators who mistook his courtesy for weakness soon found him ________ on every substantive point.",
-      "options": [
-        "brusque; feeble; flexible",
-        "urbane; steely; immovable",
-        "affable; vacillating; intransigent",
-        "gauche; adamant; obliging"
-      ],
-      "correct_option": 1,
-      "correct_answer": "B",
-      "explanation": "The sentence contrasts a polished, courteous exterior ('urbane') with a hard inner resolve ('steely'), so negotiators found him 'immovable'. In (B) 'brusque' contradicts 'courtesy'. In (C) 'vacillating' (wavering) contradicts 'resolve'. In (D) 'gauche' (awkward) contradicts courtesy and 'obliging' contradicts 'soon found him...' on every point."
-    },
-    {
-      "id": 6,
-      "section": "VA",
-      "category": "Vocabulary",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "A growing ________ of evidence suggests the firm's accounts were ________, yet regulators, wary of ________ allegations, have proceeded cautiously.",
-      "options": [
-        "dearth; impeccable; credible",
-        "body; falsified; unproven",
-        "paucity; embellished; malicious",
-        "plethora; audited; scrupulous"
-      ],
-      "correct_option": 1,
-      "correct_answer": "B",
-      "explanation": "A growing 'body' of evidence suggesting 'falsified' accounts explains why regulators are wary of 'unsubstantiated' allegations and so move cautiously. 'Dearth/paucity' cannot be 'growing' in a way that supports suspicion; 'impeccable' and 'audited' do not suggest wrongdoing; 'credible' and 'scrupulous' allegations would not make regulators cautious."
-    },
-    {
-      "id": 7,
-      "section": "VA",
-      "category": "Vocabulary",
-      "difficulty": "Medium",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "Her ________ prose, free of ornament, was a deliberate ________ to the ________ style then fashionable among her contemporaries.",
-      "options": [
-        "ornate; rebuke; florid",
-        "turgid; tribute; austere",
-        "lucid; homage; ornate",
-        "spare; rebuke; florid"
-      ],
-      "correct_option": 3,
-      "correct_answer": "D",
-      "explanation": "'Free of ornament' means 'spare'. A deliberate challenge to the then-fashionable style is a 'rebuke', and that style must be the opposite of spare, i.e. 'florid'. (B) 'ornate prose' contradicts 'free of ornament'; (C) 'turgid' (bloated) contradicts it as well; (D) 'homage to an ornate style' contradicts 'deliberate' contrast."
-    },
-    {
-      "id": 8,
-      "section": "VA",
-      "category": "Vocabulary",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "The scientist's reluctance to publish was not mere ________; she had learnt that premature claims, once ________, are almost impossible to ________.",
-      "options": [
-        "diffidence; retracted; amplify",
-        "caution; suppressed; revive",
-        "vanity; endorsed; verify",
-        "timidity; circulated; retract"
-      ],
-      "correct_option": 3,
-      "correct_answer": "D",
-      "explanation": "Her reluctance had a rational basis: once a premature claim is 'circulated' it can hardly be 'retracted'. 'Not mere timidity' sets up a contrast with a considered reason. (A) repeats the idea of shyness and 'amplify' makes no sense; (C) 'caution' is the very reason, so 'not mere caution' contradicts the logic; (D) 'vanity... endorsed... verify' is incoherent."
-    },
-    {
-      "id": 9,
-      "section": "VA",
-      "category": "Vocabulary",
-      "difficulty": "Medium",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "Although the village appeared ________ to outsiders, its residents were ________ by a long-standing feud that had ________ every attempt at reconciliation.",
-      "options": [
-        "tranquil; riven; thwarted",
-        "prosperous; united; facilitated",
-        "squalid; sustained; precipitated",
-        "remote; galvanised; hastened"
-      ],
-      "correct_option": 0,
-      "correct_answer": "A",
-      "explanation": "'Although' sets up a contrast between a calm appearance ('tranquil') and inner division ('riven' = split apart), with the feud 'thwarting' reconciliation. The other options either do not contrast (squalid, remote) or reverse the meaning (united, facilitated, hastened)."
-    },
-    {
-      "id": 10,
-      "section": "VA",
-      "category": "Sentence Correction",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "Neither the manager nor the employees <u>was aware</u> that the policy had changed.",
-      "options": [
-        "has been aware",
-        "is aware",
-        "were aware",
-        "was being aware"
-      ],
-      "correct_option": 2,
-      "correct_answer": "C",
-      "explanation": "With 'neither... nor', the verb agrees with the subject nearest to it. The nearer subject is the plural 'employees', so the verb must be plural: 'were aware'. The tense also matches 'had changed' (past). The other options are singular or change the tense unnecessarily."
-    },
-    {
-      "id": 11,
-      "section": "VA",
-      "category": "Sentence Correction",
-      "difficulty": "Medium",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "Hardly had the speaker begun her address <u>than</u> the lights went out.",
-      "options": [
-        "then",
-        "when",
-        "while",
-        "than that"
-      ],
-      "correct_option": 1,
-      "correct_answer": "B",
-      "explanation": "'Hardly' (like 'scarcely') is paired with 'when', not 'than'. 'No sooner... than' is the parallel construction. 'Then' and 'while' do not complete the correlative pair."
-    },
-    {
-      "id": 12,
-      "section": "VA",
-      "category": "Sentence Correction",
-      "difficulty": "Medium",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "Each of the proposals submitted by the contractors <u>were</u> rejected for failing to meet the safety norms.",
-      "options": [
-        "was",
-        "have been",
-        "are",
-        "being"
-      ],
-      "correct_option": 0,
-      "correct_answer": "A",
-      "explanation": "'Each' is a singular pronoun and takes a singular verb, regardless of the plural noun 'contractors' in the intervening phrase. 'Was rejected' is the correct form and agrees with the past context."
-    },
-    {
-      "id": 13,
-      "section": "VA",
-      "category": "Sentence Correction",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "The chairman's speech, <u>replete of</u> statistics but devoid of insight, left investors unimpressed.",
-      "options": [
-        "replete with",
-        "replete in",
-        "repeating with",
-        "replete on"
-      ],
-      "correct_option": 0,
-      "correct_answer": "A",
-      "explanation": "'Replete' takes the preposition 'with' (replete with = abundantly filled with). 'Replete of', 'in' and 'on' are all unidiomatic; 'repeating with' changes the word and makes no sense."
-    },
-    {
-      "id": 14,
-      "section": "VA",
-      "category": "Incorrect Word",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
-      "options": [
-        "The minister's remarks were widely interpreted as an oblique criticism of the central bank's recent policy.",
-        "The novelist's early work is often eclipsed by her more celebrated and commercially successful later novels.",
-        "Her meticulous planning ensured the expedition ran effusively from start to finish.",
-        "The treaty was finally ratified after many months of acrimonious debate in both houses."
-      ],
-      "correct_option": 2,
-      "correct_answer": "C",
-      "explanation": "'Effusively' means in an unrestrained, gushing manner and cannot describe how an expedition runs; the intended word is 'smoothly'. In the other sentences 'oblique' (indirect), 'eclipsed' (overshadowed) and 'acrimonious' (bitter) are all used correctly."
-    },
-    {
-      "id": 15,
-      "section": "VA",
-      "category": "Incorrect Word",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
-      "options": [
-        "The defendant's alibi was so flimsy that it collapsed under cursory questioning.",
-        "The sudden downpour exacerbated the villagers' hopes of a good harvest.",
-        "The museum's collection is notable for its eclectic range, spanning Roman coins to modern posters.",
-        "The diplomat's apology, though gracious, did little to mitigate the damage already done."
-      ],
-      "correct_option": 1,
-      "correct_answer": "B",
-      "explanation": "'Exacerbate' means to make something bad worse, so it cannot apply to 'hopes'; the intended word is 'dashed' or 'dampened'. 'Cursory' (hasty), 'eclectic' (drawn from diverse sources) and 'mitigate' (lessen) are used correctly in the rest."
-    },
-    {
-      "id": 16,
-      "section": "VA",
-      "category": "Incorrect Word",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
-      "options": [
-        "The company's expansion was predicated on the assumption that consumer demand would keep growing.",
-        "The brothers, once inseparable, grew inured to each other after the inheritance quarrel.",
-        "The witness's testimony was corroborated by two entirely independent sources.",
-        "She was chastened by the criticism and promptly redoubled her efforts."
-      ],
-      "correct_option": 1,
-      "correct_answer": "B",
-      "explanation": "'Inured' means accustomed to something unpleasant; it does not describe the relationship between estranged brothers. The correct word is 'estranged' or 'alienated'. 'Predicated on' (based on), 'corroborated' (confirmed) and 'chastened' (subdued by criticism) are correct."
-    },
-    {
-      "id": 17,
-      "section": "VA",
-      "category": "Paracompletion",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "Across Gujarat and Rajasthan, stepwells were built not merely to store water but to be inhabited. ____________________. Their cool, shaded chambers offered travellers respite from the heat, and their carved pillars hosted festivals and gatherings. By the time colonial administrators began piping water to towns, the stepwell's social role had already outlived its practical one.",
-      "options": [
-        "They were, in effect, public squares that happened to hold water.",
-        "Most stepwells were eventually abandoned because they were expensive and difficult to maintain over time.",
-        "The colonial government was deeply impressed by the engineering sophistication of these structures.",
-        "Water scarcity in western India has since been aggravated by the spread of intensive modern agriculture."
-      ],
-      "correct_option": 0,
-      "correct_answer": "A",
-      "explanation": "The blank must bridge 'built to be inhabited' and the details that follow (shaded chambers, festivals). Only the first option generalises that social function. The others introduce abandonment, colonial admiration and agriculture, none of which is developed in the next sentences."
-    },
-    {
-      "id": 18,
-      "section": "VA",
-      "category": "Paracompletion",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "Open-source software is frequently described as free, but the word hides a subtle bargain. ____________________. Companies that build products on volunteer-maintained code enjoy its benefits without bearing its upkeep, and the volunteers, often unpaid, are left to absorb the burden. The arrangement works only as long as goodwill outlasts fatigue.",
-      "options": [
-        "Many programmers contribute to open-source projects in order to build their professional reputations and networks.",
-        "Proprietary software, by contrast, is generally better documented and considerably more secure than most community tools.",
-        "Governments in several countries have begun mandating the use of open-source tools in public offices and agencies.",
-        "Its price is zero; its cost is simply borne by someone else."
-      ],
-      "correct_option": 3,
-      "correct_answer": "D",
-      "explanation": "The following sentences explain who bears the hidden cost (volunteers) while companies benefit. The correct option states the 'bargain' directly (zero price, cost transferred). The others are true-sounding but shift to motivation, security and government policy."
-    },
-    {
-      "id": 19,
-      "section": "VA",
-      "category": "Paracompletion",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "The Hindi word jugaad is often rendered in English as 'frugal innovation', a phrase that flatters it. ____________________. A truck engine bolted to a cart or a phone charger fixed with tape is clever, but it is also a quiet comment on the absence of better options. To celebrate the ingenuity without asking why it was needed is to admire the patch and ignore the hole.",
-      "options": [
-        "Jugaad has attracted growing interest from management scholars in Europe and America, who study it as a model of low-cost product design.",
-        "Improvisation born of scarcity is as much a symptom of neglect as a sign of creativity.",
-        "Indian engineers are often reluctant to adopt formal design methodologies because these are seen as expensive and unnecessarily bureaucratic.",
-        "Foreign companies have frequently failed in the Indian market because of their reliance on technologies that ordinary consumers cannot afford."
-      ],
-      "correct_option": 1,
-      "correct_answer": "B",
-      "explanation": "The paragraph argues that 'frugal innovation' flatters jugaad because it hides the neglect behind it ('admire the patch and ignore the hole'). Only the correct option previews that two-sided claim. The others praise or discuss jugaad from the management, engineering or market angle, which the paragraph does not develop."
-    },
-    {
-      "id": 20,
-      "section": "VA",
-      "category": "Conversation Analysis",
-      "difficulty": "Medium",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "Dr. Rao prefers the word 'dependants' over 'partners' because he believes that gig workers",
-      "passage_id": "CA1",
-      "options": [
-        "lack real bargaining power over the terms of work",
-        "are paid less than workers in traditional employment",
-        "are unwilling to accept flexible schedules from platforms",
-        "cannot afford to own the vehicles that they drive"
-      ],
-      "correct_option": 0,
-      "correct_answer": "A",
-      "explanation": "Rao says partnership 'implies bargaining power, and these workers have almost none'; they cannot set fares, see destinations or contest deactivation. The other options (low pay relative to employees, unwillingness to accept flexibility, inability to own vehicles) are not claimed. In fact he mentions a car loan, so ownership is not the issue."
-    },
-    {
-      "id": 21,
-      "section": "VA",
-      "category": "Conversation Analysis",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "According to Dr. Rao, the flexibility offered by platforms is best described as",
-      "passage_id": "CA1",
-      "options": [
-        "a genuine benefit that outweighs any lack of bargaining power",
-        "an illusion, since drivers are forced to work fixed shifts",
-        "freedom to start work but not to shape the conditions",
-        "an advantage available only to workers who own their own cars"
-      ],
-      "correct_option": 2,
-      "correct_answer": "C",
-      "explanation": "Rao says the flexibility is 'real' but is 'flexibility to log in, not flexibility over terms'. He does not call it an illusion or claim fixed shifts exist, nor does he say it outweighs the problems or is limited to car owners."
-    },
-    {
-      "id": 22,
-      "section": "VA",
-      "category": "Conversation Analysis",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "Dr. Rao questions surveys showing that workers value freedom because the respondents",
-      "passage_id": "CA1",
-      "options": [
-        "are selected by the platforms themselves and therefore tend to give systematically biased answers",
-        "often have alternatives, so results may miss the financially squeezed",
-        "generally want regular employment instead of flexible work arrangements of any kind",
-        "do not understand how fares are calculated by the platform's algorithm"
-      ],
-      "correct_option": 1,
-      "correct_answer": "B",
-      "explanation": "Rao says such surveys 'are usually taken from people who have other options', whereas a worker servicing a loan may feel compelled to work long hours. He does not allege platform-chosen samples, a general preference for employment, or ignorance about fares."
-    },
-    {
-      "id": 23,
-      "section": "VA",
-      "category": "Parajumbles",
-      "difficulty": "Hard",
-      "type": "tita",
-      "marks": 4,
-      "negative_marking": 0,
-      "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
-      "options": null,
-      "sentences": {
-        "1": "This process, known as bleaching, is not immediately fatal, but a coral that stays bleached for long will starve.",
-        "2": "Corals owe their colour and most of their energy to symbiotic algae living in their tissues.",
-        "3": "Recovery is possible only if the heat subsides quickly enough for the algae to recolonise.",
-        "4": "When water temperatures rise even slightly above seasonal norms, the corals expel these algae, leaving their white skeletons visible."
+[
+  {
+    "title": "IPMAT VA Sectional – 17th Oct 2026",
+    "date": "2026-10-17",
+    "section": "Verbal Ability",
+    "total_questions": 45,
+    "duration_minutes": 45,
+    "questions": [
+      {
+        "id": 1,
+        "section": "VA",
+        "category": "Sentence Completion",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "The lecture was so ________ that students who had come expecting to be challenged left with nothing more than a list of platitudes.",
+        "options": [
+          "trenchant",
+          "vapid",
+          "abstruse",
+          "incisive"
+        ],
+        "answer": 1,
+        "explanation": "'Vapid' means lacking substance or interest, which fits 'nothing more than a list of platitudes'. 'Trenchant' and 'incisive' mean sharp and penetrating, the opposite. 'Abstruse' (hard to understand) would make the lecture difficult, not shallow."
       },
-      "correct_answer": "2413",
-      "explanation": "Sentence 2 introduces corals and their algae (the topic). Sentence 4 explains what happens when water warms: the algae are expelled. Sentence 1 begins 'This process, known as bleaching', which refers back to the expulsion in 4. Sentence 3 discusses recovery, which only makes sense after bleaching has been described and its severity noted. Order: 2-4-1-3."
-    },
-    {
-      "id": 24,
-      "section": "VA",
-      "category": "Parajumbles",
-      "difficulty": "Hard",
-      "type": "tita",
-      "marks": 4,
-      "negative_marking": 0,
-      "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
-      "options": null,
-      "sentences": {
-        "1": "Yet the Indian mathematicians who first treated it as a number in its own right, rather than a mere gap, did something conceptually radical.",
-        "2": "For centuries, zero existed only as a placeholder, a way of telling 305 from 35 in Babylonian practice.",
-        "3": "Brahmagupta, in the seventh century, laid down rules for adding, subtracting and multiplying with it.",
-        "4": "Even he stumbled over division by zero, a problem that would not be settled satisfactorily for another millennium.",
-        "5": "The placeholder, in other words, had no arithmetic life of its own."
+      {
+        "id": 2,
+        "section": "VA",
+        "category": "Sentence Completion",
+        "difficulty": "Medium",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "Though the critics were ________ in their praise of the debut, the author remained wary, having seen how quickly enthusiasm could curdle into contempt.",
+        "options": [
+          "effusive",
+          "tepid",
+          "guarded",
+          "cursory"
+        ],
+        "answer": 0,
+        "explanation": "The author is wary of enthusiasm that could curdle, so the praise must have been lavish: 'effusive'. 'Tepid', 'guarded' and 'cursory' describe weak or limited praise, which would give no reason to fear a sharp turn into contempt."
       },
-      "correct_answer": "25134",
-      "explanation": "Sentence 2 opens with zero as a placeholder. Sentence 5 ('in other words') restates that point: the placeholder had no arithmetic life. Sentence 1 ('Yet...') introduces the contrast: Indian mathematicians treated zero as a number. Sentence 3 gives the concrete example (Brahmagupta's rules). Sentence 4 ('Even he...') follows naturally, noting his limitation. Order: 2-5-1-3-4."
-    },
-    {
-      "id": 25,
-      "section": "VA",
-      "category": "Parajumbles",
-      "difficulty": "Hard",
-      "type": "tita",
-      "marks": 4,
-      "negative_marking": 0,
-      "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
-      "options": null,
-      "sentences": {
-        "1": "The appeal is obvious: a system that screens thousands of résumés in seconds promises both speed and impartiality.",
-        "2": "A model trained to replicate past success will therefore quietly reproduce past bias, now with the veneer of objectivity.",
-        "3": "Companies increasingly deploy algorithms to filter job applicants before any human reads their applications.",
-        "4": "But such systems learn from historical hiring decisions, and those decisions carry the prejudices of the people who made them."
+      {
+        "id": 3,
+        "section": "VA",
+        "category": "Sentence Completion",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "The reformer's zeal was ________ by a stubborn pragmatism, so that for all his fiery speeches he never proposed a measure that could not pass.",
+        "options": [
+          "stoked",
+          "amplified",
+          "tempered",
+          "ignited"
+        ],
+        "answer": 2,
+        "explanation": "'Tempered' means moderated. The clause 'never proposed a measure that could not pass' shows pragmatism holding his zeal in check. 'Stoked', 'amplified' and 'ignited' all mean intensified, contradicting the contrast set up by 'for all his fiery speeches'."
       },
-      "correct_answer": "3142",
-      "explanation": "Sentence 3 introduces the topic (companies using algorithms). Sentence 1 ('The appeal') explains why. Sentence 4 ('But...') presents the problem: historical data carries bias. Sentence 2 ('therefore') draws the conclusion from 4. Order: 3-1-4-2."
-    },
-    {
-      "id": 26,
-      "section": "VA",
-      "category": "Parajumbles",
-      "difficulty": "Hard",
-      "type": "tita",
-      "marks": 4,
-      "negative_marking": 0,
-      "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
-      "options": null,
-      "sentences": {
-        "1": "The reality was messier, since early printed books imitated manuscripts so closely that buyers sometimes could not tell them apart.",
-        "2": "Scribes, far from vanishing, found new employment as illuminators, proofreaders and correctors for the printers.",
-        "3": "When Gutenberg's press arrived in the mid-fifteenth century, it is often said to have killed the manuscript trade overnight.",
-        "4": "Hence the revolution was one of habit before it was one of technology.",
-        "5": "Their craft was displaced only gradually, as printers realised that books need not look handwritten to sell."
+      {
+        "id": 4,
+        "section": "VA",
+        "category": "Sentence Completion",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "While the new app was praised as innovative, its poor security turned out to be its ________, and users abandoned it within weeks.",
+        "options": [
+          "golden goose",
+          "Trojan horse",
+          "Achilles' heel",
+          "lion's share"
+        ],
+        "answer": 2,
+        "explanation": "An 'Achilles' heel' is a fatal weakness in an otherwise strong entity. 'Golden goose' is a source of wealth, 'Trojan horse' is a hidden threat introduced from outside, and 'lion's share' means the largest portion; none describes a decisive weakness."
       },
-      "correct_answer": "31254",
-      "explanation": "Sentence 3 states the popular claim. Sentence 1 ('The reality was messier') challenges it. Sentence 2 introduces scribes, giving a concrete case of continued employment. Sentence 5 ('Their craft...') refers back to the scribes and their gradual displacement. Sentence 4 ('Hence...') concludes the argument. Order: 3-1-2-5-4."
-    },
-    {
-      "id": 27,
-      "section": "VA",
-      "category": "Parajumbles",
-      "difficulty": "Medium",
-      "type": "tita",
-      "marks": 4,
-      "negative_marking": 0,
-      "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
-      "options": null,
-      "sentences": {
-        "1": "This replay appears to help consolidate fragile new memories into durable ones.",
-        "2": "Recordings of neural activity have overturned this assumption.",
-        "3": "Sleep was long regarded as a passive interval during which the brain simply rested.",
-        "4": "During deep sleep, patterns of firing that occurred during the day are replayed at accelerated speed."
+      {
+        "id": 5,
+        "section": "VA",
+        "category": "Vocabulary",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "The CEO's ________ optimism contrasted sharply with the ________ mood on the shop floor, where rumours of layoffs had made workers ________.",
+        "options": [
+          "unwarranted; despondent; apprehensive",
+          "justified; buoyant; relaxed",
+          "feigned; jubilant; anxious",
+          "tepid; hopeful; assured"
+        ],
+        "answer": 0,
+        "explanation": "The contrast between management and workers requires an optimism that is 'unwarranted' against a 'despondent' mood and workers who feel 'apprehensive'. Options with buoyant/jubilant/hopeful moods contradict the rumours of layoffs, and in (A) and (D) the optimism is not contrasted at all with workers' fear."
       },
-      "correct_answer": "3241",
-      "explanation": "Sentence 3 gives the old view. Sentence 2 ('this assumption') overturns it. Sentence 4 describes what the recordings revealed: replay during deep sleep. Sentence 1 ('This replay') explains its function. Order: 3-2-4-1."
-    },
-    {
-      "id": 28,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Medium",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "Which of the following best captures the central argument of the passage?",
-      "passage_id": "RC1",
-      "options": [
-        "Institutions that depend on quantitative metrics are inherently dishonest and should replace numbers with human judgement wherever the stakes are significant",
-        "Linking rewards to a proxy corrupts it, so measures should be held provisionally and sceptically",
-        "Goodhart's observation, widely treated as a complaint about dishonesty, in fact applies only to hospitals and similar public bodies",
-        "Rotating metrics and qualitative audits together offer a complete solution to the problem of manipulated measurement in organisations"
-      ],
-      "correct_option": 1,
-      "correct_answer": "B",
-      "explanation": "The passage shows that once a measure becomes a target, people respond to the incentive and the proxy loses value (a design flaw, not just dishonesty), and it ends by recommending that every number be treated as provisional. (B) contradicts the author's view that dishonesty is not the main issue; (C) restricts the claim to hospitals, though they are only an example; (D) overstates: the remedies are said to be costly and none is 'free'."
-    },
-    {
-      "id": 29,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Medium",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "The hospital example is used primarily to show that",
-      "passage_id": "RC1",
-      "options": [
-        "a reported figure can improve while the experience it represents stays the same",
-        "administrators deliberately deceive regulators in order to secure additional funding for their wards",
-        "waiting times are an unusually unreliable metric compared with other indicators of hospital performance",
-        "patients left in corridors receive worse clinical care than those formally admitted to a ward"
-      ],
-      "correct_option": 0,
-      "correct_answer": "A",
-      "explanation": "The line 'The metric improves; the experience of waiting does not' states the purpose directly. The example illustrates a general point about proxies. The passage does not claim deception for funding, special unreliability of waiting times, or differences in clinical care."
-    },
-    {
-      "id": 30,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "The author's remark that Goodhart's observation is 'too generous to the measurers and too harsh on the measured' suggests that the author believes",
-      "passage_id": "RC1",
-      "options": [
-        "people who game targets should be excused because dishonesty is a natural human trait",
-        "measurers deliberately create flawed targets so that the measured can be blamed for failures",
-        "Goodhart himself intended his observation to be read as a defence of institutions rather than a criticism",
-        "those who design the incentives bear most of the responsibility for the distortion"
-      ],
-      "correct_option": 3,
-      "correct_answer": "D",
-      "explanation": "The next sentence says gamers are 'responding rationally to an incentive designed by someone who mistook a proxy for the thing itself'. Hence the fault lies with the designers (measurers), who are treated too generously by the dishonesty reading. The passage never says dishonesty is natural, that designers act deliberately, or what Goodhart intended."
-    },
-    {
-      "id": 31,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "All of the following can be inferred from the passage EXCEPT:",
-      "passage_id": "RC1",
-      "options": [
-        "Qualitative audits make quantitative metrics unnecessary in institutions",
-        "A proxy's ease of observation is both a source of its usefulness and of its vulnerability to manipulation",
-        "Rotating metrics can reduce manipulation but make long-term comparison and learning harder",
-        "Pairing numbers with qualitative review restores context at the cost of greater discretion"
-      ],
-      "correct_option": 0,
-      "correct_answer": "A",
-      "explanation": "(B), (C) and (D) are directly supported: 'cheap to observe... cheap to counterfeit'; rotating metrics lose 'stable benchmarks'; qualitative audits restore context but 'reintroduce discretion'. Nothing suggests audits make metrics unnecessary; they are offered as a partner to them, so (A) is the exception."
-    },
-    {
-      "id": 32,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Medium",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "The tone of the concluding sentence of the passage is best described as",
-      "passage_id": "RC1",
-      "options": [
-        "bitterly cynical about the possibility of any reliable measurement",
-        "wistfully nostalgic for an era before institutions relied on numbers",
-        "enthusiastically optimistic about reforming measurement practices",
-        "measured and cautiously sceptical"
-      ],
-      "correct_option": 3,
-      "correct_answer": "D",
-      "explanation": "The author calls the conclusion 'sober' and advises suspicion of consequential numbers without rejecting measurement altogether. That is measured scepticism, not bitter cynicism, nostalgia or optimism."
-    },
-    {
-      "id": 33,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "The author describes measurement as 'less a mirror than a conversation' in order to suggest that",
-      "passage_id": "RC1",
-      "options": [
-        "numbers should be questioned and revised rather than accepted as neutral reflections",
-        "institutions should publish their metrics so that the public can debate each figure openly",
-        "measurement is inherently subjective, and therefore no number can ever be considered accurate",
-        "statisticians ought to consult those being measured before choosing which indicators to report"
-      ],
-      "correct_option": 0,
-      "correct_answer": "A",
-      "explanation": "A mirror passively reflects reality; a conversation involves exchange, challenge and revision. The author adds that 'every number is provisional'. The other options import ideas not in the passage: public debate, complete subjectivity, or consulting the measured."
-    },
-    {
-      "id": 34,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Medium",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "The primary purpose of the passage is to",
-      "passage_id": "RC2",
-      "options": [
-        "argue that railways alone made people more punctual in nineteenth-century Britain",
-        "defend local timekeeping traditions against standardisation imposed by railway companies and public institutions",
-        "question the view that standard time spread simply because it was inevitable or superior",
-        "demonstrate that every technological change is resisted by communities until the cost of resistance rises"
-      ],
-      "correct_option": 2,
-      "correct_answer": "C",
-      "explanation": "After presenting the 'gift of technology' account, the author says historians complain it assumes inevitability, then argues that uniformity was secured by the rising cost of dissent. (B) is explicitly denied ('not by making people more punctual'); (C) defends something the author does not defend; (D) over-generalises from time to all technology."
-    },
-    {
-      "id": 35,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "In the passage, the phrase 'making lateness legible' most nearly means",
-      "passage_id": "RC2",
-      "options": [
-        "teaching passengers to read printed timetables with accuracy",
-        "making deviation from a schedule visible and measurable",
-        "punishing passengers who failed to arrive at the platform on time",
-        "ensuring that every station clock displayed exactly the same hour"
-      ],
-      "correct_option": 1,
-      "correct_answer": "B",
-      "explanation": "Before the railways, discrepancies did not matter because there was no fixed standard. A printed timetable made it clear whether a train was on time or not, so lateness became observable. The other options misread 'legible' as literacy, punishment or clock uniformity."
-    },
-    {
-      "id": 36,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Medium",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "Why does the author mention the clock at Bristol's Corn Exchange with two minute hands?",
-      "passage_id": "RC2",
-      "options": [
-        "To prove that Bristol was the last city in Britain to give up its own local time in favour of the railways' schedule",
-        "To illustrate that clockmakers resisted standardisation more fiercely than merchants did in the nineteenth century",
-        "To suggest that local time was in fact more accurate than railway time, as many residents then believed",
-        "To show the two systems coexisted for a time rather than one replacing the other at once"
-      ],
-      "correct_option": 3,
-      "correct_answer": "D",
-      "explanation": "The two hands are offered as evidence that towns 'resisted railway time for decades' and that both regimes were displayed together. The passage does not claim Bristol was the last city, compare clockmakers with merchants, or say local time was more accurate."
-    },
-    {
-      "id": 37,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "Which of the following best reflects the author's view of why uniform time eventually prevailed?",
-      "passage_id": "RC2",
-      "options": [
-        "Its greater accuracy over solar time convinced even the most sceptical merchants",
-        "Parliament passed legislation that forced towns to abandon their local clocks",
-        "The telegraph made it technically impossible to keep separate local times",
-        "Each adopter made refusal costlier for the institutions yet to adopt"
-      ],
-      "correct_option": 3,
-      "correct_answer": "D",
-      "explanation": "The passage says uniformity was secured by 'the accumulated cost of dissent': each institution that adopted the standard 'raised the penalty for the next that did not'. Superior accuracy is rejected explicitly ('less the superiority of the new system'), and legislation and technical impossibility are never mentioned."
-    },
-    {
-      "id": 38,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "The author's final sentence implies that the apparent 'obviousness' of a standard is",
-      "passage_id": "RC2",
-      "options": [
-        "a retrospective impression produced by its success",
-        "clear proof that the standard was objectively the best available option",
-        "a deliberate illusion fostered by those who profited from its adoption",
-        "something that fades gradually as local alternatives are forgotten"
-      ],
-      "correct_option": 0,
-      "correct_answer": "A",
-      "explanation": "The author calls obviousness 'an artefact of its victory rather than its cause': we find the standard obvious because it won, not the other way round. This is a hindsight effect. The passage neither equates obviousness with quality nor suggests deliberate manipulation or fading."
-    },
-    {
-      "id": 39,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Medium",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "As used in the passage, 'sentimental affectation' suggests that local time, in its last phase, was",
-      "passage_id": "RC2",
-      "options": [
-        "kept up for show and fondness, not because it served any practical purpose",
-        "practised mainly by elderly citizens who could not understand the railway timetable",
-        "defended by merchants as a matter of principle rather than for sentiment",
-        "tolerated by courts and post offices as a harmless legal alternative"
-      ],
-      "correct_option": 0,
-      "correct_answer": "A",
-      "explanation": "An 'affectation' is a show put on, and 'sentimental' indicates fondness. Together they mean local time was retained for nostalgia and display after institutions had abandoned it. The other options bring in elderly citizens, principled merchants or legal tolerance, none of which is stated."
-    },
-    {
-      "id": 40,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Medium",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "Which of the following best states the main point of the passage?",
-      "passage_id": "RC3",
-      "options": [
-        "Boredom is a harmful malfunction of modern life that technology has fortunately learned to eliminate from daily experience",
-        "Creativity can be reliably produced by deliberately exposing people to long periods of monotonous work",
-        "Boredom works as a signal worth heeding, and instant distraction may cost us its benefits",
-        "The psychologists' older view of boredom has now been conclusively confirmed by laboratory experiments"
-      ],
-      "correct_option": 2,
-      "correct_answer": "C",
-      "explanation": "The passage revives the view of boredom as a signal, argues that instant remedies prevent the signal from working, and ends by warning that eliminating empty intervals may hurt idea generation. (B) is the view the author is arguing against; (C) is rejected ('resist the temptation to prescribe boredom'); (D) overstates the evidence, which is 'modest and not uniformly replicated'."
-    },
-    {
-      "id": 41,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Medium",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "The comparison between boredom and hunger primarily serves to show that boredom",
-      "passage_id": "RC3",
-      "options": [
-        "can be satisfied completely by supplying the appropriate form of stimulation",
-        "arises from a physical deficiency and so cannot be controlled by the mind",
-        "is unpleasant by design, as the discomfort spurs corrective action",
-        "should be avoided whenever possible since it is a symptom of mental ill-health"
-      ],
-      "correct_option": 2,
-      "correct_answer": "C",
-      "explanation": "The passage says the resemblance lies in being 'unpleasant by design, and valuable because the discomfort compels action'. The analogy is about function and motivation, not about satisfying it with stimulation, physical origin or mental ill-health."
-    },
-    {
-      "id": 42,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "The author answers the objection about factory-line boredom by",
-      "passage_id": "RC3",
-      "options": [
-        "arguing that repetitive work is in fact more generative than creative work in most cases",
-        "conceding that boredom is harmful in every setting and beneficial in none whatsoever",
-        "distinguishing boredom that is imposed from boredom that is endured by choice",
-        "claiming that factory workers are far less affected by boredom than office workers are"
-      ],
-      "correct_option": 2,
-      "correct_answer": "C",
-      "explanation": "The author says the objection 'has force' but 'conflates boredom that is imposed with boredom that is endured by choice'. The reply is a distinction, not a denial of the objection, and the other options attribute claims the author never makes."
-    },
-    {
-      "id": 43,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "The author's attitude towards the experimental findings cited is best described as",
-      "passage_id": "RC3",
-      "options": [
-        "dismissive, since they have not been replicated in factory settings or other real workplaces",
-        "convinced that they establish boredom as a reliable cure for a lack of originality",
-        "interested but cautious about how much weight they can bear",
-        "indifferent, as the passage rests chiefly on the psychologist's older view of boredom"
-      ],
-      "correct_option": 2,
-      "correct_answer": "C",
-      "explanation": "The author reports the finding but immediately notes the effect is 'modest and not uniformly replicated' and warns against prescribing boredom as a tonic. This is cautious interest. The passage does not mention factory-setting replications and does not call the findings conclusive."
-    },
-    {
-      "id": 44,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "With which of the following would the author most likely disagree?",
-      "passage_id": "RC3",
-      "options": [
-        "Instant remedies for restlessness may prevent people from understanding its cause",
-        "Boredom can carry information about a mismatch between a person and their surroundings",
-        "Prolonged boredom in monotonous work is a dependable source of creative ideas",
-        "It would be unwise to prescribe boredom as a general tonic for creativity"
-      ],
-      "correct_option": 2,
-      "correct_answer": "C",
-      "explanation": "The author concedes that the boredom of a factory line or a waiting room 'is hardly generative' and warns against prescribing it as a tonic. (B), (C) and (D) restate points the author makes in the passage."
-    },
-    {
-      "id": 45,
-      "section": "VA",
-      "category": "RC",
-      "difficulty": "Hard",
-      "type": "mcq",
-      "marks": 4,
-      "negative_marking": 1,
-      "question": "The final sentence suggests that a culture which treats every empty interval as a problem",
-      "passage_id": "RC3",
-      "options": [
-        "has deliberately chosen efficiency over creativity as a collective priority",
-        "will inevitably produce fewer original ideas than cultures which accept boredom",
-        "is mistaken in thinking that unoccupied time can ever be put to productive use",
-        "may unintentionally be removing the conditions in which valuable ideas emerge"
-      ],
-      "correct_option": 3,
-      "correct_answer": "D",
-      "explanation": "The key words are 'may be quietly eliminating the conditions...': a hedged claim about an unintended side effect. (B) ascribes deliberate choice; (C) uses 'inevitably', which overstates the hedged claim; (D) uses 'ever', which is also too absolute since the author accepts that imposed tedium is unproductive in some settings."
-    }
-  ]
-}
+      {
+        "id": 6,
+        "section": "VA",
+        "category": "Vocabulary",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "Having ________ the evidence for years, the historian was ________ to find that the archive's newest document ________ her central thesis.",
+        "options": [
+          "scrutinised; delighted; undermined",
+          "neglected; relieved; refuted",
+          "catalogued; gratified; undermined",
+          "scrutinised; dismayed; undermined"
+        ],
+        "answer": 3,
+        "explanation": "Years of study ('scrutinised') followed by a document that 'undermined' her thesis would leave her 'dismayed'. Pairing 'undermined' with delight or gratitude is illogical, and (C) is inconsistent since someone who 'neglected' evidence would not be 'relieved' that it refuted her thesis."
+      },
+      {
+        "id": 7,
+        "section": "VA",
+        "category": "Vocabulary",
+        "difficulty": "Medium",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "Rather than ________ the dispute, the court's ruling merely ________ it, leaving both parties at liberty to ________ the same arguments.",
+        "options": [
+          "settle; postponed; repeat",
+          "worsen; resolved; abandon",
+          "ignore; escalated; forget",
+          "settle; ended; revive"
+        ],
+        "answer": 0,
+        "explanation": "'Rather than... merely' signals a contrast: the ruling did not 'settle' the dispute but only 'postponed' it, so the parties may 'repeat' their arguments. (D) fails because a ruling that 'ended' it would not leave room to re-argue; (B) and (C) make no sense with 'rather than'."
+      },
+      {
+        "id": 8,
+        "section": "VA",
+        "category": "Vocabulary",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "The poet's late work, once dismissed as ________, is now admired for the very ________ that earlier critics ________.",
+        "options": [
+          "lucid; clarity; deplored",
+          "obscure; simplicity; admired",
+          "trivial; depth; praised",
+          "obscure; density; deplored"
+        ],
+        "answer": 3,
+        "explanation": "'The very ________ that earlier critics ________' requires the same quality to be disliked then and admired now: work dismissed as 'obscure' is now admired for its 'density' which critics had 'deplored'. (B) and (D) have critics praising the quality, contradicting 'earlier critics' dismissal'; (A) 'lucid' work would not be dismissed for clarity."
+      },
+      {
+        "id": 9,
+        "section": "VA",
+        "category": "Vocabulary",
+        "difficulty": "Medium",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "The explorer's account was ________ with exaggeration, but later expeditions ________ its broad outline while ________ many of its details.",
+        "options": [
+          "free; contradicted; retaining",
+          "riddled; confirmed; discarding",
+          "devoid; verified; embellishing",
+          "laden; refuted; preserving"
+        ],
+        "answer": 1,
+        "explanation": "'But' sets up a contrast: the account was 'riddled' with exaggeration, yet later expeditions 'confirmed' its outline and 'discarded' many details. (B) is self-contradictory ('devoid' of exaggeration, then 'but'); (A) and (D) have later expeditions rejecting the outline, which clashes with 'while'."
+      },
+      {
+        "id": 10,
+        "section": "VA",
+        "category": "Sentence Correction",
+        "difficulty": "Medium",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "The report, along with its appendices, <u>were</u> submitted to the board on Friday.",
+        "options": [
+          "have been",
+          "are",
+          "being",
+          "was"
+        ],
+        "answer": 3,
+        "explanation": "The subject is 'The report' (singular). 'Along with its appendices' is a parenthetical phrase and does not change the number of the verb. The past tense 'was submitted' matches 'on Friday'."
+      },
+      {
+        "id": 11,
+        "section": "VA",
+        "category": "Sentence Correction",
+        "difficulty": "Medium",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "No sooner had the results been announced <u>when</u> protests broke out.",
+        "options": [
+          "then",
+          "that",
+          "as",
+          "than"
+        ],
+        "answer": 3,
+        "explanation": "'No sooner' is followed by 'than', not 'when' ('Hardly... when' is the parallel). 'Then', 'that' and 'as' do not complete the correlative."
+      },
+      {
+        "id": 12,
+        "section": "VA",
+        "category": "Sentence Correction",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "She is one of those leaders who <u>inspires</u> loyalty without demanding it.",
+        "options": [
+          "is inspiring",
+          "has inspired",
+          "inspire",
+          "inspiring"
+        ],
+        "answer": 2,
+        "explanation": "In 'one of those leaders who...', the relative pronoun 'who' refers to the plural 'leaders', not to 'one'. So the verb is plural: 'inspire'. The other options either break the structure or change the tense unnecessarily."
+      },
+      {
+        "id": 13,
+        "section": "VA",
+        "category": "Sentence Correction",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "The committee was <u>comprised of</u> eight members drawn from three universities.",
+        "options": [
+          "comprising of",
+          "composed of",
+          "comprised by",
+          "composing of"
+        ],
+        "answer": 1,
+        "explanation": "The idiomatic forms are 'composed of' or 'comprising' (without 'of'). 'Comprised of' is widely considered incorrect, while 'comprising of', 'comprised by' and 'composing of' are also non-standard."
+      },
+      {
+        "id": 14,
+        "section": "VA",
+        "category": "Incorrect Word",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "The athlete's candid admission of her doubts endeared her to the public.",
+          "The new law abrogates the ministry's right to appoint its own officials.",
+          "His prodigal savings ensured a comfortable retirement.",
+          "The prosecutor's insinuations were only thinly veiled, and the jury noticed."
+        ],
+        "answer": 2,
+        "explanation": "'Prodigal' means wastefully extravagant, so it cannot describe savings that ensure a comfortable retirement; 'prudent' or 'frugal' is intended. 'Candid' (frank), 'abrogates' (abolishes) and 'insinuations' (indirect hints) are used correctly."
+      },
+      {
+        "id": 15,
+        "section": "VA",
+        "category": "Incorrect Word",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "The manager's perfunctory inspection missed several obvious defects in the machinery.",
+          "The sculptor's ostensible reason for the delay was a shortage of marble.",
+          "The villagers were forced to forbear their land after the flood destroyed the embankment.",
+          "Her pithy remark summed up the entire debate in a single memorable line."
+        ],
+        "answer": 2,
+        "explanation": "'Forbear' means to refrain from or to be patient; it cannot mean 'abandon'. The intended word is 'forsake' or 'abandon'. 'Perfunctory' (done without care), 'ostensible' (apparent, stated) and 'pithy' (concise and forceful) are correct."
+      },
+      {
+        "id": 16,
+        "section": "VA",
+        "category": "Incorrect Word",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "The tribunal's verdict was an unequivocal rejection of the company's claims.",
+          "The shop's meagre profits were barely enough to sustain the family.",
+          "The teacher's scathing praise encouraged the class to try harder.",
+          "The mayor's laconic reply, just three words long, ended the press conference."
+        ],
+        "answer": 2,
+        "explanation": "'Scathing' means harshly critical, so it cannot qualify 'praise' (or encourage a class). 'Unequivocal' (unambiguous), 'meagre' (scanty) and 'laconic' (using very few words) are all used correctly."
+      },
+      {
+        "id": 17,
+        "section": "VA",
+        "category": "Paracompletion",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "Examinations promise fairness by asking everyone the same questions. ____________________. A student who has never seen a multiple-choice format, or who reads the language of the paper as a second language, is being measured partly on something other than what the test claims to measure. Sameness of procedure, in short, is not the same as sameness of opportunity.",
+        "options": [
+          "Many countries have therefore abolished written examinations in favour of continuous assessment in schools and colleges.",
+          "But identical questions do not guarantee that everyone meets them equally prepared.",
+          "Teachers generally prefer examinations because they are far easier and quicker to grade than projects or portfolios.",
+          "Examinations were first introduced in imperial China as a means of selecting civil servants for the state."
+        ],
+        "answer": 1,
+        "explanation": "The sentences that follow show that identical procedure can still disadvantage some students (format and language familiarity). The correct option sets up that contrast with the promise of fairness. The others deal with abolition, grading convenience and history, which the paragraph never develops."
+      },
+      {
+        "id": 18,
+        "section": "VA",
+        "category": "Paracompletion",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "A translator is often called a traitor, but the proverb flatters the original. ____________________. Every language divides experience differently, and a word with no counterpart forces the translator to choose between fidelity to sense and fidelity to sound. Those choices are not betrayals; they are the work itself.",
+        "options": [
+          "Many classic works are today available in dozens of languages thanks to the growth of modern publishing houses.",
+          "Machine translation has recently begun to rival human translators when handling ordinary everyday texts and documents.",
+          "Poetry is generally considered the hardest genre to translate because of its heavy dependence on rhyme and metre.",
+          "It assumes that a perfect version exists and that the translator has merely failed to deliver it."
+        ],
+        "answer": 3,
+        "explanation": "The proverb 'flatters the original' by assuming a flawless version is possible; the next sentences argue that choices are inevitable. Only the correct option explains why the proverb flatters the original. The other options shift to publishing, machine translation or poetry."
+      },
+      {
+        "id": 19,
+        "section": "VA",
+        "category": "Paracompletion",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "Cities that depend on a single industry enjoy remarkable prosperity while it lasts. ____________________. When the steel plant or the textile mill closes, the shops, schools and tax base that grew around it close with it, and the skills of the workforce are suddenly worth little. Diversification is dull in good years and invaluable in bad ones.",
+        "options": [
+          "Governments in many countries have offered generous tax incentives to attract large manufacturers to small towns.",
+          "Such cities usually have better public transport and schools than those whose economies are more varied in character.",
+          "Steel and textiles were the two industries that contributed most to the industrial growth of the nineteenth century.",
+          "That prosperity, however, is a loan rather than a gift, repayable when the industry declines."
+        ],
+        "answer": 3,
+        "explanation": "The paragraph moves from prosperity to the damage when the industry closes. The correct option provides the pivot ('however... repayable when the industry declines'). The others discuss incentives, public services and industrial history, none of which the following sentences continue."
+      },
+      {
+        "id": 20,
+        "section": "VA",
+        "category": "Conversation Analysis",
+        "difficulty": "Medium",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nKaran Mehta (Host, Citywise Radio): Every monsoon, the same streets go under. Is this simply a rainfall problem?\n\nDr. Sunita Iyer (urban planner): Rainfall is the trigger, not the cause. Cities used to have lakes, marshes and open soil that absorbed water. We have paved over most of them, so the rain that once soaked in now runs off all at once and overwhelms drains designed for a smaller city.\n\nKaran Mehta: So the answer is bigger drains?\n\nDr. Sunita Iyer: Only partly. Larger drains move the flood downstream and make it someone else's problem. The better approach is to slow the water down: restore wetlands, build permeable pavements, create retention ponds in parks.\n\nKaran Mehta: Those sound slower and less visible than a new drain.\n\nDr. Sunita Iyer: Precisely, and that is the political obstacle. A new drain has a ribbon-cutting. A restored marsh has results that arrive in the next monsoon, after the election cycle.",
+        "question": "According to Dr. Iyer, the main cause of urban flooding is that",
+        "options": [
+          "built-up cities have lost the soil and wetlands that once absorbed rainwater",
+          "monsoon rainfall has become far heavier in recent decades",
+          "existing drains are poorly maintained by city authorities",
+          "rivers and lakes are being drained to make way for farmland"
+        ],
+        "answer": 0,
+        "explanation": "Iyer says 'Rainfall is the trigger, not the cause'; the cause is paving over lakes, marshes and open soil so that rain 'runs off all at once'. She does not mention heavier rain, drain maintenance or farmland."
+      },
+      {
+        "id": 21,
+        "section": "VA",
+        "category": "Conversation Analysis",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nKaran Mehta (Host, Citywise Radio): Every monsoon, the same streets go under. Is this simply a rainfall problem?\n\nDr. Sunita Iyer (urban planner): Rainfall is the trigger, not the cause. Cities used to have lakes, marshes and open soil that absorbed water. We have paved over most of them, so the rain that once soaked in now runs off all at once and overwhelms drains designed for a smaller city.\n\nKaran Mehta: So the answer is bigger drains?\n\nDr. Sunita Iyer: Only partly. Larger drains move the flood downstream and make it someone else's problem. The better approach is to slow the water down: restore wetlands, build permeable pavements, create retention ponds in parks.\n\nKaran Mehta: Those sound slower and less visible than a new drain.\n\nDr. Sunita Iyer: Precisely, and that is the political obstacle. A new drain has a ribbon-cutting. A restored marsh has results that arrive in the next monsoon, after the election cycle.",
+        "question": "Dr. Iyer is only partly in favour of bigger drains because they",
+        "options": [
+          "cost too much for municipal governments to build",
+          "shift the flooding downstream instead of reducing the volume of runoff",
+          "cannot be built in areas that already have retention ponds",
+          "take too long to construct compared with permeable pavements"
+        ],
+        "answer": 1,
+        "explanation": "She says 'Larger drains move the flood downstream and make it someone else's problem.' Cost, the presence of ponds, and construction time are not discussed."
+      },
+      {
+        "id": 22,
+        "section": "VA",
+        "category": "Conversation Analysis",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nKaran Mehta (Host, Citywise Radio): Every monsoon, the same streets go under. Is this simply a rainfall problem?\n\nDr. Sunita Iyer (urban planner): Rainfall is the trigger, not the cause. Cities used to have lakes, marshes and open soil that absorbed water. We have paved over most of them, so the rain that once soaked in now runs off all at once and overwhelms drains designed for a smaller city.\n\nKaran Mehta: So the answer is bigger drains?\n\nDr. Sunita Iyer: Only partly. Larger drains move the flood downstream and make it someone else's problem. The better approach is to slow the water down: restore wetlands, build permeable pavements, create retention ponds in parks.\n\nKaran Mehta: Those sound slower and less visible than a new drain.\n\nDr. Sunita Iyer: Precisely, and that is the political obstacle. A new drain has a ribbon-cutting. A restored marsh has results that arrive in the next monsoon, after the election cycle.",
+        "question": "Dr. Iyer suggests that the political obstacle to restoring wetlands is that",
+        "options": [
+          "voters oppose projects that reduce the land available for housing",
+          "visible projects win credit quickly, whereas wetland benefits arrive after elections",
+          "wetlands are generally less effective than drains in preventing floods",
+          "restoration requires cooperation among too many government agencies"
+        ],
+        "answer": 1,
+        "explanation": "The 'ribbon-cutting' versus 'results that arrive in the next monsoon, after the election cycle' contrast explains the political incentive for visible drains. The other options (housing opposition, lower effectiveness, agency coordination) are not in the transcript, and she argues wetlands are the better approach."
+      },
+      {
+        "id": 23,
+        "section": "VA",
+        "category": "Parajumbles",
+        "difficulty": "Hard",
+        "type": "tita",
+        "marks": 4,
+        "negative_marking": 0,
+        "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
+        "sentences": {
+          "1": "Newton showed that the moon's gravity pulls the oceans toward it, producing a bulge on the near side.",
+          "2": "The resolution lies in the fact that the Earth itself is pulled toward the moon more strongly than the far-side water is, leaving that water behind.",
+          "3": "Yet this explained only half the pattern, since a second bulge appears on the far side of the Earth at the same time.",
+          "4": "For centuries, sailors knew that tides rose and fell twice a day without knowing why."
+        },
+        "answer": "4132",
+        "explanation": "Sentence 4 states the long-standing puzzle. Sentence 1 gives Newton's first explanation. Sentence 3 ('Yet this explained only half...') raises the remaining problem. Sentence 2 ('The resolution') supplies the answer. Order: 4-1-3-2."
+      },
+      {
+        "id": 24,
+        "section": "VA",
+        "category": "Parajumbles",
+        "difficulty": "Hard",
+        "type": "tita",
+        "marks": 4,
+        "negative_marking": 0,
+        "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
+        "sentences": {
+          "1": "Charles II, alarmed, tried to suppress them in 1675.",
+          "2": "In seventeenth-century London, coffeehouses were called 'penny universities', since a penny bought a cup and entry into the conversation.",
+          "3": "The episode shows how quickly a new place for talking could be seen as a threat to authority.",
+          "4": "Men of every rank mingled there, which unsettled those who believed that talk about politics belonged to the privileged.",
+          "5": "The proclamation was withdrawn within days, so strong was the public outcry."
+        },
+        "answer": "24153",
+        "explanation": "Sentence 2 introduces coffeehouses. Sentence 4 ('there') elaborates on who mixed in them and why that unsettled people. Sentence 1 ('them') describes the king's reaction. Sentence 5 reports the outcome of the proclamation. Sentence 3 ('The episode') draws the conclusion. Order: 2-4-1-5-3."
+      },
+      {
+        "id": 25,
+        "section": "VA",
+        "category": "Parajumbles",
+        "difficulty": "Hard",
+        "type": "tita",
+        "marks": 4,
+        "negative_marking": 0,
+        "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
+        "sentences": {
+          "1": "The result is that calls once audible over great distances are now masked, and some species have begun to call louder or at different pitches.",
+          "2": "Whether such adjustments are enough to preserve their social lives remains unknown.",
+          "3": "Sound travels farther and faster in water than in air, which is why whales rely on it to find mates across hundreds of kilometres.",
+          "4": "Commercial shipping has raised the ocean's background noise sharply over the past half century."
+        },
+        "answer": "3412",
+        "explanation": "Sentence 3 gives the background: whales depend on sound. Sentence 4 introduces the new factor: shipping noise. Sentence 1 ('The result') describes its effect. Sentence 2 ('such adjustments') ends on the open question. Order: 3-4-1-2."
+      },
+      {
+        "id": 26,
+        "section": "VA",
+        "category": "Parajumbles",
+        "difficulty": "Hard",
+        "type": "tita",
+        "marks": 4,
+        "negative_marking": 0,
+        "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
+        "sentences": {
+          "1": "His sentences, by his own account, became terser.",
+          "2": "Whether the same is true of today's software is a question we have only begun to ask.",
+          "3": "When the typewriter appeared, many writers feared it would mechanise thought.",
+          "4": "Such observations suggest that tools shape the content of writing, not merely its production.",
+          "5": "Nietzsche, who turned to a typing machine as his eyesight failed, noted that it seemed to change his style as well as his speed."
+        },
+        "answer": "35142",
+        "explanation": "Sentence 3 opens with the fear about typewriters. Sentence 5 gives the Nietzsche example. Sentence 1 ('His sentences') continues with the effect on his style. Sentence 4 ('Such observations') generalises. Sentence 2 ('today's software') extends the point to the present. Order: 3-5-1-4-2."
+      },
+      {
+        "id": 27,
+        "section": "VA",
+        "category": "Parajumbles",
+        "difficulty": "Medium",
+        "type": "tita",
+        "marks": 4,
+        "negative_marking": 0,
+        "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
+        "sentences": {
+          "1": "Harvesting does not kill the plant, since new shoots rise from the same root system.",
+          "2": "Timber trees, by contrast, must be felled and replanted, with decades before the next harvest.",
+          "3": "Bamboo is technically a grass, yet some species grow nearly a metre in a single day.",
+          "4": "This speed, combined with its strength, has made it attractive as a substitute for timber."
+        },
+        "answer": "3412",
+        "explanation": "Sentence 3 introduces bamboo and its growth rate. Sentence 4 ('This speed') builds on it and brings in timber. Sentence 1 explains sustainable harvesting. Sentence 2 ('Timber trees, by contrast') closes the comparison. Order: 3-4-1-2."
+      },
+      {
+        "id": 28,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Medium",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "Behavioural economists have popularised the idea of the 'nudge': a change in the way choices are presented that steers people toward better outcomes without forbidding anything. Enrolling employees in a pension scheme by default, with the freedom to opt out, is the standard illustration. Its defenders call this 'libertarian paternalism', a phrase meant to reassure both camps: nobody's options are removed, yet the architecture of choice leans in a welfare-enhancing direction. Critics respond that the reassurance is thin. Every choice must be presented somehow, so neutrality is not on offer; the real question is who selects the default and in whose interest. A government that sets the default is hardly an innocent bystander, and a firm that does so may be steering people toward its own margins rather than their welfare. There is also a subtler worry. A nudge works best when it bypasses deliberation, exploiting habit and inertia, and a policy that succeeds by circumventing reasoning sits uneasily with the ideal of citizens as reasoners. Defenders reply that people are already being nudged constantly, by supermarket layouts and app designs, and that the only choice is between nudges designed with care and nudges designed for profit. This is a fair point, but it proves less than it seems: that private actors manipulate us is an argument for restraining them, not a licence for the state to do likewise. What remains is a modest conclusion. Nudges are defensible where they are transparent, easily reversed and aligned with what people themselves would endorse on reflection, and suspect wherever they depend on being unnoticed.",
+        "question": "Which of the following best captures the author's conclusion about nudges?",
+        "options": [
+          "Nudges are acceptable only when transparent, reversible and endorsable on reflection",
+          "Governments should abandon nudging altogether because any attempt to steer behaviour violates individual liberty and choice",
+          "Nudges are harmless, since people are already influenced by countless commercial pressures in everyday life",
+          "Default options are the most effective of all policy instruments for improving employee pension savings and welfare"
+        ],
+        "answer": 0,
+        "explanation": "The last paragraph says nudges are 'defensible where they are transparent, easily reversed and aligned with what people themselves would endorse on reflection, and suspect wherever they depend on being unnoticed'. (B) is too extreme, (C) is the defenders' point that the author says proves less than it seems, and (D) is not claimed."
+      },
+      {
+        "id": 29,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Medium",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "Behavioural economists have popularised the idea of the 'nudge': a change in the way choices are presented that steers people toward better outcomes without forbidding anything. Enrolling employees in a pension scheme by default, with the freedom to opt out, is the standard illustration. Its defenders call this 'libertarian paternalism', a phrase meant to reassure both camps: nobody's options are removed, yet the architecture of choice leans in a welfare-enhancing direction. Critics respond that the reassurance is thin. Every choice must be presented somehow, so neutrality is not on offer; the real question is who selects the default and in whose interest. A government that sets the default is hardly an innocent bystander, and a firm that does so may be steering people toward its own margins rather than their welfare. There is also a subtler worry. A nudge works best when it bypasses deliberation, exploiting habit and inertia, and a policy that succeeds by circumventing reasoning sits uneasily with the ideal of citizens as reasoners. Defenders reply that people are already being nudged constantly, by supermarket layouts and app designs, and that the only choice is between nudges designed with care and nudges designed for profit. This is a fair point, but it proves less than it seems: that private actors manipulate us is an argument for restraining them, not a licence for the state to do likewise. What remains is a modest conclusion. Nudges are defensible where they are transparent, easily reversed and aligned with what people themselves would endorse on reflection, and suspect wherever they depend on being unnoticed.",
+        "question": "'Libertarian paternalism' is meant to reassure both camps because it",
+        "options": [
+          "gives citizens the final say over which defaults the government may adopt in each policy area",
+          "replaces default settings with active choices so that no individual is ever steered anywhere",
+          "leaves every option open while still steering choices toward better outcomes",
+          "allows firms rather than governments to design the choice architecture in the public interest"
+        ],
+        "answer": 2,
+        "explanation": "The passage says: 'nobody's options are removed, yet the architecture of choice leans in a welfare-enhancing direction.' Libertarians are reassured by the freedom retained; paternalists by the steering. The other options describe features never mentioned."
+      },
+      {
+        "id": 30,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "Behavioural economists have popularised the idea of the 'nudge': a change in the way choices are presented that steers people toward better outcomes without forbidding anything. Enrolling employees in a pension scheme by default, with the freedom to opt out, is the standard illustration. Its defenders call this 'libertarian paternalism', a phrase meant to reassure both camps: nobody's options are removed, yet the architecture of choice leans in a welfare-enhancing direction. Critics respond that the reassurance is thin. Every choice must be presented somehow, so neutrality is not on offer; the real question is who selects the default and in whose interest. A government that sets the default is hardly an innocent bystander, and a firm that does so may be steering people toward its own margins rather than their welfare. There is also a subtler worry. A nudge works best when it bypasses deliberation, exploiting habit and inertia, and a policy that succeeds by circumventing reasoning sits uneasily with the ideal of citizens as reasoners. Defenders reply that people are already being nudged constantly, by supermarket layouts and app designs, and that the only choice is between nudges designed with care and nudges designed for profit. This is a fair point, but it proves less than it seems: that private actors manipulate us is an argument for restraining them, not a licence for the state to do likewise. What remains is a modest conclusion. Nudges are defensible where they are transparent, easily reversed and aligned with what people themselves would endorse on reflection, and suspect wherever they depend on being unnoticed.",
+        "question": "The author's view of the defenders' reply that people are already nudged constantly is that it is",
+        "options": [
+          "partly fair, but an argument for restraining private nudgers, not for state manipulation",
+          "entirely convincing, because the state is better placed than firms to design nudges with the public good in mind",
+          "irrelevant, since commercial nudges differ in kind from the nudges used by elected public authorities",
+          "weak, as people are rarely influenced in practice by supermarket layouts or the design of apps"
+        ],
+        "answer": 0,
+        "explanation": "The author calls it 'a fair point, but it proves less than it seems', concluding that private manipulation justifies restraining private actors, 'not a licence for the state to do likewise'. (B), (C) and (D) either endorse or dismiss the reply entirely."
+      },
+      {
+        "id": 31,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "Behavioural economists have popularised the idea of the 'nudge': a change in the way choices are presented that steers people toward better outcomes without forbidding anything. Enrolling employees in a pension scheme by default, with the freedom to opt out, is the standard illustration. Its defenders call this 'libertarian paternalism', a phrase meant to reassure both camps: nobody's options are removed, yet the architecture of choice leans in a welfare-enhancing direction. Critics respond that the reassurance is thin. Every choice must be presented somehow, so neutrality is not on offer; the real question is who selects the default and in whose interest. A government that sets the default is hardly an innocent bystander, and a firm that does so may be steering people toward its own margins rather than their welfare. There is also a subtler worry. A nudge works best when it bypasses deliberation, exploiting habit and inertia, and a policy that succeeds by circumventing reasoning sits uneasily with the ideal of citizens as reasoners. Defenders reply that people are already being nudged constantly, by supermarket layouts and app designs, and that the only choice is between nudges designed with care and nudges designed for profit. This is a fair point, but it proves less than it seems: that private actors manipulate us is an argument for restraining them, not a licence for the state to do likewise. What remains is a modest conclusion. Nudges are defensible where they are transparent, easily reversed and aligned with what people themselves would endorse on reflection, and suspect wherever they depend on being unnoticed.",
+        "question": "The statement that 'neutrality is not on offer' implies that",
+        "options": [
+          "any way of presenting choices will influence what people select",
+          "governments should refrain from presenting any choices to citizens unless they are certain of the outcomes",
+          "nudges are unavoidable only in the case of pensions and other financial decisions made by employees",
+          "critics of nudging are wrong to assume that people ever deliberate before they choose between options"
+        ],
+        "answer": 0,
+        "explanation": "'Every choice must be presented somehow' means that there is no neutral way of presenting options; every format has some influence. The other options draw conclusions about government restraint, financial decisions or deliberation that do not follow."
+      },
+      {
+        "id": 32,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "Behavioural economists have popularised the idea of the 'nudge': a change in the way choices are presented that steers people toward better outcomes without forbidding anything. Enrolling employees in a pension scheme by default, with the freedom to opt out, is the standard illustration. Its defenders call this 'libertarian paternalism', a phrase meant to reassure both camps: nobody's options are removed, yet the architecture of choice leans in a welfare-enhancing direction. Critics respond that the reassurance is thin. Every choice must be presented somehow, so neutrality is not on offer; the real question is who selects the default and in whose interest. A government that sets the default is hardly an innocent bystander, and a firm that does so may be steering people toward its own margins rather than their welfare. There is also a subtler worry. A nudge works best when it bypasses deliberation, exploiting habit and inertia, and a policy that succeeds by circumventing reasoning sits uneasily with the ideal of citizens as reasoners. Defenders reply that people are already being nudged constantly, by supermarket layouts and app designs, and that the only choice is between nudges designed with care and nudges designed for profit. This is a fair point, but it proves less than it seems: that private actors manipulate us is an argument for restraining them, not a licence for the state to do likewise. What remains is a modest conclusion. Nudges are defensible where they are transparent, easily reversed and aligned with what people themselves would endorse on reflection, and suspect wherever they depend on being unnoticed.",
+        "question": "Each of the following is stated or clearly implied in the passage EXCEPT:",
+        "options": [
+          "A firm that sets a default may be serving its own margins rather than its customers' welfare",
+          "Default enrolment has been shown to lower employees' pension savings",
+          "A nudge that works by bypassing deliberation is in tension with the picture of citizens as reasoners",
+          "Private actors already steer behaviour through features such as supermarket layouts and app design"
+        ],
+        "answer": 1,
+        "explanation": "(B), (C) and (D) appear in the passage: firms may steer toward 'their own margins'; nudges that circumvent reasoning sit 'uneasily with the ideal of citizens as reasoners'; and supermarket layouts and app designs are cited. The passage presents default enrolment as an illustration of a nudge, and never says it lowers savings, so (A) is the exception."
+      },
+      {
+        "id": 33,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Medium",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "Behavioural economists have popularised the idea of the 'nudge': a change in the way choices are presented that steers people toward better outcomes without forbidding anything. Enrolling employees in a pension scheme by default, with the freedom to opt out, is the standard illustration. Its defenders call this 'libertarian paternalism', a phrase meant to reassure both camps: nobody's options are removed, yet the architecture of choice leans in a welfare-enhancing direction. Critics respond that the reassurance is thin. Every choice must be presented somehow, so neutrality is not on offer; the real question is who selects the default and in whose interest. A government that sets the default is hardly an innocent bystander, and a firm that does so may be steering people toward its own margins rather than their welfare. There is also a subtler worry. A nudge works best when it bypasses deliberation, exploiting habit and inertia, and a policy that succeeds by circumventing reasoning sits uneasily with the ideal of citizens as reasoners. Defenders reply that people are already being nudged constantly, by supermarket layouts and app designs, and that the only choice is between nudges designed with care and nudges designed for profit. This is a fair point, but it proves less than it seems: that private actors manipulate us is an argument for restraining them, not a licence for the state to do likewise. What remains is a modest conclusion. Nudges are defensible where they are transparent, easily reversed and aligned with what people themselves would endorse on reflection, and suspect wherever they depend on being unnoticed.",
+        "question": "The author's attitude to nudging is best described as",
+        "options": [
+          "qualified acceptance, with reservations about concealment",
+          "unqualified enthusiasm for the use of behavioural insights in policy-making",
+          "outright hostility towards all forms of government intervention in choice",
+          "detached neutrality, since the passage merely reports both camps without any view"
+        ],
+        "answer": 0,
+        "explanation": "The author gives conditions under which nudges are 'defensible' and flags concealment as 'suspect'. That is qualified acceptance. The author evidently takes a position ('a fair point, but it proves less than it seems'), so (D) fails; (A) and (C) are too extreme."
+      },
+      {
+        "id": 34,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Medium",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "A map is usually taken to be a reduction of the world, a smaller and tidier copy of it. The cartographer's own training suggests the opposite: a map is an argument. Because the globe cannot be flattened without distortion, every projection chooses what to keep faithful, whether area, angle or distance, and what to sacrifice. The Mercator projection, devised for navigators who needed straight lines of constant compass bearing, enlarges regions near the poles; its later adoption in school atlases made Europe loom larger than Africa and encouraged, without anyone intending it, a quiet hierarchy of importance. Nor is the problem confined to geometry. A colonial survey that marked a river as a boundary and left a pastoral people's seasonal routes unrecorded did not merely describe a territory; it prepared the ground for who would be allowed to own it. Maps, in other words, do not follow power so much as help to make it. It would be a mistake, however, to conclude that all maps are propaganda and that the search for accuracy is naive. A railway diagram that abandons geography to make connections clear is not lying; it is answering the traveller's question. The sensible lesson is to ask of any map what it was drawn to help someone do, and what that purpose led its maker to leave out.",
+        "question": "The central claim of the passage is that",
+        "options": [
+          "accurate maps are impossible to produce, so the pursuit of cartographic accuracy should be abandoned altogether by modern societies",
+          "colonial surveys were the main source of the distortion in the maps later used in schools around the world",
+          "maps embody choices and purposes, so they should be read as arguments, not neutral copies",
+          "the Mercator projection should be replaced in school atlases by projections that preserve the true size of every region"
+        ],
+        "answer": 2,
+        "explanation": "The opening says a map 'is an argument', and the passage ends by advising readers to ask 'what it was drawn to help someone do'. (B) is explicitly rejected ('a mistake to conclude... the search for accuracy is naive'); (C) and (D) take up supporting examples as if they were the main point."
+      },
+      {
+        "id": 35,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "A map is usually taken to be a reduction of the world, a smaller and tidier copy of it. The cartographer's own training suggests the opposite: a map is an argument. Because the globe cannot be flattened without distortion, every projection chooses what to keep faithful, whether area, angle or distance, and what to sacrifice. The Mercator projection, devised for navigators who needed straight lines of constant compass bearing, enlarges regions near the poles; its later adoption in school atlases made Europe loom larger than Africa and encouraged, without anyone intending it, a quiet hierarchy of importance. Nor is the problem confined to geometry. A colonial survey that marked a river as a boundary and left a pastoral people's seasonal routes unrecorded did not merely describe a territory; it prepared the ground for who would be allowed to own it. Maps, in other words, do not follow power so much as help to make it. It would be a mistake, however, to conclude that all maps are propaganda and that the search for accuracy is naive. A railway diagram that abandons geography to make connections clear is not lying; it is answering the traveller's question. The sensible lesson is to ask of any map what it was drawn to help someone do, and what that purpose led its maker to leave out.",
+        "question": "The passage mentions the Mercator projection primarily to show that",
+        "options": [
+          "a projection suited to one purpose can create unintended impressions when used for another",
+          "navigators deliberately designed the projection to exaggerate the importance of European countries over African ones",
+          "school atlases are the only context in which cartographic distortion has practical consequences for ordinary readers",
+          "straight lines of constant compass bearing are impossible to represent on any flat map of the globe"
+        ],
+        "answer": 0,
+        "explanation": "Mercator served navigators, but its later use in school atlases made Europe loom larger, 'without anyone intending it'. (B) contradicts 'without anyone intending it'; (C) overstates ('the only context'); (D) contradicts the passage, which says Mercator did provide such lines."
+      },
+      {
+        "id": 36,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "A map is usually taken to be a reduction of the world, a smaller and tidier copy of it. The cartographer's own training suggests the opposite: a map is an argument. Because the globe cannot be flattened without distortion, every projection chooses what to keep faithful, whether area, angle or distance, and what to sacrifice. The Mercator projection, devised for navigators who needed straight lines of constant compass bearing, enlarges regions near the poles; its later adoption in school atlases made Europe loom larger than Africa and encouraged, without anyone intending it, a quiet hierarchy of importance. Nor is the problem confined to geometry. A colonial survey that marked a river as a boundary and left a pastoral people's seasonal routes unrecorded did not merely describe a territory; it prepared the ground for who would be allowed to own it. Maps, in other words, do not follow power so much as help to make it. It would be a mistake, however, to conclude that all maps are propaganda and that the search for accuracy is naive. A railway diagram that abandons geography to make connections clear is not lying; it is answering the traveller's question. The sensible lesson is to ask of any map what it was drawn to help someone do, and what that purpose led its maker to leave out.",
+        "question": "The example of the colonial survey illustrates that",
+        "options": [
+          "maps can help determine who may claim land, not merely describe it",
+          "pastoral peoples have always lacked the technical knowledge needed to record their own routes on maps",
+          "rivers are inherently unreliable as boundaries because they shift in the course of the seasons",
+          "colonial officials intentionally falsified surveys in order to deprive local communities of their lands"
+        ],
+        "answer": 0,
+        "explanation": "The survey 'did not merely describe a territory; it prepared the ground for who would be allowed to own it'. The passage does not mention technical ignorance, shifting rivers or deliberate falsification."
+      },
+      {
+        "id": 37,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "A map is usually taken to be a reduction of the world, a smaller and tidier copy of it. The cartographer's own training suggests the opposite: a map is an argument. Because the globe cannot be flattened without distortion, every projection chooses what to keep faithful, whether area, angle or distance, and what to sacrifice. The Mercator projection, devised for navigators who needed straight lines of constant compass bearing, enlarges regions near the poles; its later adoption in school atlases made Europe loom larger than Africa and encouraged, without anyone intending it, a quiet hierarchy of importance. Nor is the problem confined to geometry. A colonial survey that marked a river as a boundary and left a pastoral people's seasonal routes unrecorded did not merely describe a territory; it prepared the ground for who would be allowed to own it. Maps, in other words, do not follow power so much as help to make it. It would be a mistake, however, to conclude that all maps are propaganda and that the search for accuracy is naive. A railway diagram that abandons geography to make connections clear is not lying; it is answering the traveller's question. The sensible lesson is to ask of any map what it was drawn to help someone do, and what that purpose led its maker to leave out.",
+        "question": "'Maps, in other words, do not follow power so much as help to make it' means that",
+        "options": [
+          "powerful rulers invariably commission maps that exaggerate the extent of their own territories",
+          "maps are instruments that help produce power relations instead of merely reflecting them",
+          "the accuracy of a map depends on how much power its commissioning authority possesses",
+          "cartographers are generally unaware of the political effects that their maps eventually have"
+        ],
+        "answer": 1,
+        "explanation": "'Follow' means reflect something already existing; 'help to make' means create. The statement is about maps' causal role in shaping power. It makes no claims about exaggerated territories, accuracy depending on power, or cartographers' awareness."
+      },
+      {
+        "id": 38,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Medium",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "A map is usually taken to be a reduction of the world, a smaller and tidier copy of it. The cartographer's own training suggests the opposite: a map is an argument. Because the globe cannot be flattened without distortion, every projection chooses what to keep faithful, whether area, angle or distance, and what to sacrifice. The Mercator projection, devised for navigators who needed straight lines of constant compass bearing, enlarges regions near the poles; its later adoption in school atlases made Europe loom larger than Africa and encouraged, without anyone intending it, a quiet hierarchy of importance. Nor is the problem confined to geometry. A colonial survey that marked a river as a boundary and left a pastoral people's seasonal routes unrecorded did not merely describe a territory; it prepared the ground for who would be allowed to own it. Maps, in other words, do not follow power so much as help to make it. It would be a mistake, however, to conclude that all maps are propaganda and that the search for accuracy is naive. A railway diagram that abandons geography to make connections clear is not lying; it is answering the traveller's question. The sensible lesson is to ask of any map what it was drawn to help someone do, and what that purpose led its maker to leave out.",
+        "question": "The railway diagram is mentioned in order to show that",
+        "options": [
+          "maps intended for travellers are a special category exempt from the distortions found in other kinds of maps",
+          "geographic accuracy is irrelevant to every kind of map that is meant to be used in practical settings",
+          "the railway diagram proves that propaganda cannot occur in maps designed for practical everyday use",
+          "a map departing from geography can still be honest if it serves its purpose"
+        ],
+        "answer": 3,
+        "explanation": "The diagram 'is not lying; it is answering the traveller's question', so departing from geography is not dishonest when purpose is served. The other options over-generalise (exempt category, accuracy irrelevant to all maps, propaganda impossible)."
+      },
+      {
+        "id": 39,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "A map is usually taken to be a reduction of the world, a smaller and tidier copy of it. The cartographer's own training suggests the opposite: a map is an argument. Because the globe cannot be flattened without distortion, every projection chooses what to keep faithful, whether area, angle or distance, and what to sacrifice. The Mercator projection, devised for navigators who needed straight lines of constant compass bearing, enlarges regions near the poles; its later adoption in school atlases made Europe loom larger than Africa and encouraged, without anyone intending it, a quiet hierarchy of importance. Nor is the problem confined to geometry. A colonial survey that marked a river as a boundary and left a pastoral people's seasonal routes unrecorded did not merely describe a territory; it prepared the ground for who would be allowed to own it. Maps, in other words, do not follow power so much as help to make it. It would be a mistake, however, to conclude that all maps are propaganda and that the search for accuracy is naive. A railway diagram that abandons geography to make connections clear is not lying; it is answering the traveller's question. The sensible lesson is to ask of any map what it was drawn to help someone do, and what that purpose led its maker to leave out.",
+        "question": "Which of the following would the author most likely reject?",
+        "options": [
+          "A map should be assessed in the light of the purpose it was originally drawn to serve its users",
+          "Because all projections distort, no map can be judged better than any other",
+          "Every choice about what a map includes necessarily involves something else being left out of it",
+          "A map's choices may carry consequences that were never intended by the people who made it"
+        ],
+        "answer": 1,
+        "explanation": "The author rejects the idea that the search for accuracy is naive and recommends judging maps by purpose, which implies some maps serve their purpose better than others. (B), (C) and (D) restate the author's own views."
+      },
+      {
+        "id": 40,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Medium",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "The great nineteenth-century naturalists could, with some exaggeration, claim to know a whole science. Today a physicist may never read a paper outside a sub-subfield of a few hundred people. Specialisation is usually defended as the price of progress: knowledge has grown so vast that depth is possible only by narrowing. The defence is largely correct, yet it hides a cost that is easy to overlook because it does not appear in any single paper. Problems that matter rarely respect the boundaries of departments. Antibiotic resistance is at once a problem of microbiology, economics and hospital administration, and no specialist is trained to see all three at once. The usual response is the interdisciplinary team, but teams bring their own difficulties: members must spend so much effort translating between vocabularies that little remains for original thought, and credit tends to flow to the home discipline of the most senior member. A better remedy may be less glamorous. It is to ensure that a few researchers are rewarded for being broad rather than deep: people who read widely, connect findings across fields and ask questions no specialist would think to ask. Such people will rarely produce the sharpest result in any one area. Their value lies in noticing that two areas are secretly asking the same question, something the specialists, absorbed in their own corner, are least likely to see.",
+        "question": "Which of the following best states the main point of the passage?",
+        "options": [
+          "Specialisation has been a mistake, and science should return to the nineteenth-century model of the universal naturalist",
+          "Interdisciplinary teams are the best solution to the problems created by increasing specialisation in modern science",
+          "Knowledge has grown too vast for any researcher to make a meaningful contribution outside a narrow subfield",
+          "Narrow specialisation carries a hidden cost, which rewarding some broad researchers could help offset"
+        ],
+        "answer": 3,
+        "explanation": "The author accepts the defence of specialisation as 'largely correct' but points to a hidden cost and proposes rewarding a few broad researchers. (B) overstates ('a mistake'); (C) is criticised as having drawbacks; (D) is the defenders' view, which the author qualifies."
+      },
+      {
+        "id": 41,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Medium",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "The great nineteenth-century naturalists could, with some exaggeration, claim to know a whole science. Today a physicist may never read a paper outside a sub-subfield of a few hundred people. Specialisation is usually defended as the price of progress: knowledge has grown so vast that depth is possible only by narrowing. The defence is largely correct, yet it hides a cost that is easy to overlook because it does not appear in any single paper. Problems that matter rarely respect the boundaries of departments. Antibiotic resistance is at once a problem of microbiology, economics and hospital administration, and no specialist is trained to see all three at once. The usual response is the interdisciplinary team, but teams bring their own difficulties: members must spend so much effort translating between vocabularies that little remains for original thought, and credit tends to flow to the home discipline of the most senior member. A better remedy may be less glamorous. It is to ensure that a few researchers are rewarded for being broad rather than deep: people who read widely, connect findings across fields and ask questions no specialist would think to ask. Such people will rarely produce the sharpest result in any one area. Their value lies in noticing that two areas are secretly asking the same question, something the specialists, absorbed in their own corner, are least likely to see.",
+        "question": "The author mentions antibiotic resistance in order to",
+        "options": [
+          "show that microbiology has been the most neglected science of the last several decades in medicine",
+          "argue that hospital administrators ought to be given more authority over scientific research programmes",
+          "illustrate a problem that spans several disciplines and so exceeds any specialist's training",
+          "prove that interdisciplinary teams have already succeeded in solving the most urgent medical problems"
+        ],
+        "answer": 2,
+        "explanation": "The passage says antibiotic resistance is 'at once a problem of microbiology, economics and hospital administration, and no specialist is trained to see all three'. It does not claim neglect, give administrators authority, or credit teams with success."
+      },
+      {
+        "id": 42,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "The great nineteenth-century naturalists could, with some exaggeration, claim to know a whole science. Today a physicist may never read a paper outside a sub-subfield of a few hundred people. Specialisation is usually defended as the price of progress: knowledge has grown so vast that depth is possible only by narrowing. The defence is largely correct, yet it hides a cost that is easy to overlook because it does not appear in any single paper. Problems that matter rarely respect the boundaries of departments. Antibiotic resistance is at once a problem of microbiology, economics and hospital administration, and no specialist is trained to see all three at once. The usual response is the interdisciplinary team, but teams bring their own difficulties: members must spend so much effort translating between vocabularies that little remains for original thought, and credit tends to flow to the home discipline of the most senior member. A better remedy may be less glamorous. It is to ensure that a few researchers are rewarded for being broad rather than deep: people who read widely, connect findings across fields and ask questions no specialist would think to ask. Such people will rarely produce the sharpest result in any one area. Their value lies in noticing that two areas are secretly asking the same question, something the specialists, absorbed in their own corner, are least likely to see.",
+        "question": "According to the passage, a drawback of interdisciplinary teams is that",
+        "options": [
+          "their members lack the specialist training needed to read the primary literature in related fields at all",
+          "they tend to be dominated by junior researchers who are reluctant to challenge established ideas openly",
+          "they are too expensive for universities to fund and therefore rarely assembled for important problems",
+          "translation between fields drains effort, and credit favours the senior member's field"
+        ],
+        "answer": 3,
+        "explanation": "The passage names two difficulties: effort lost translating between vocabularies, and credit flowing to 'the home discipline of the most senior member'. The other options (lack of training, junior dominance, expense) are never mentioned."
+      },
+      {
+        "id": 43,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "The great nineteenth-century naturalists could, with some exaggeration, claim to know a whole science. Today a physicist may never read a paper outside a sub-subfield of a few hundred people. Specialisation is usually defended as the price of progress: knowledge has grown so vast that depth is possible only by narrowing. The defence is largely correct, yet it hides a cost that is easy to overlook because it does not appear in any single paper. Problems that matter rarely respect the boundaries of departments. Antibiotic resistance is at once a problem of microbiology, economics and hospital administration, and no specialist is trained to see all three at once. The usual response is the interdisciplinary team, but teams bring their own difficulties: members must spend so much effort translating between vocabularies that little remains for original thought, and credit tends to flow to the home discipline of the most senior member. A better remedy may be less glamorous. It is to ensure that a few researchers are rewarded for being broad rather than deep: people who read widely, connect findings across fields and ask questions no specialist would think to ask. Such people will rarely produce the sharpest result in any one area. Their value lies in noticing that two areas are secretly asking the same question, something the specialists, absorbed in their own corner, are least likely to see.",
+        "question": "The author's view of the standard defence of specialisation is that it is",
+        "options": [
+          "mistaken, because knowledge has not in fact grown as vast as the defenders claim in their arguments",
+          "irrelevant, because progress in science depends far more on generalists than on specialists",
+          "correct in every respect, and the author raises the issue of cost only as a minor qualification",
+          "largely correct but incomplete, since it overlooks a cost not visible in single papers"
+        ],
+        "answer": 3,
+        "explanation": "'The defence is largely correct, yet it hides a cost that is easy to overlook because it does not appear in any single paper.' This is neither a rejection nor full agreement. The author argues for only 'a few' generalists, so (C) is also wrong."
+      },
+      {
+        "id": 44,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "The great nineteenth-century naturalists could, with some exaggeration, claim to know a whole science. Today a physicist may never read a paper outside a sub-subfield of a few hundred people. Specialisation is usually defended as the price of progress: knowledge has grown so vast that depth is possible only by narrowing. The defence is largely correct, yet it hides a cost that is easy to overlook because it does not appear in any single paper. Problems that matter rarely respect the boundaries of departments. Antibiotic resistance is at once a problem of microbiology, economics and hospital administration, and no specialist is trained to see all three at once. The usual response is the interdisciplinary team, but teams bring their own difficulties: members must spend so much effort translating between vocabularies that little remains for original thought, and credit tends to flow to the home discipline of the most senior member. A better remedy may be less glamorous. It is to ensure that a few researchers are rewarded for being broad rather than deep: people who read widely, connect findings across fields and ask questions no specialist would think to ask. Such people will rarely produce the sharpest result in any one area. Their value lies in noticing that two areas are secretly asking the same question, something the specialists, absorbed in their own corner, are least likely to see.",
+        "question": "The 'less glamorous' remedy the author proposes is",
+        "options": [
+          "forming larger interdisciplinary teams with more senior members to coordinate their efforts",
+          "reducing the number of departments in universities so that boundaries between fields are eliminated",
+          "rewarding some researchers for breadth instead of depth",
+          "training every specialist to translate between the vocabularies of the neighbouring fields"
+        ],
+        "answer": 2,
+        "explanation": "The remedy is 'to ensure that a few researchers are rewarded for being broad rather than deep'. Larger teams, fewer departments, and universal translation training are not proposed, and the first is the approach the author finds problematic."
+      },
+      {
+        "id": 45,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Medium",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "The great nineteenth-century naturalists could, with some exaggeration, claim to know a whole science. Today a physicist may never read a paper outside a sub-subfield of a few hundred people. Specialisation is usually defended as the price of progress: knowledge has grown so vast that depth is possible only by narrowing. The defence is largely correct, yet it hides a cost that is easy to overlook because it does not appear in any single paper. Problems that matter rarely respect the boundaries of departments. Antibiotic resistance is at once a problem of microbiology, economics and hospital administration, and no specialist is trained to see all three at once. The usual response is the interdisciplinary team, but teams bring their own difficulties: members must spend so much effort translating between vocabularies that little remains for original thought, and credit tends to flow to the home discipline of the most senior member. A better remedy may be less glamorous. It is to ensure that a few researchers are rewarded for being broad rather than deep: people who read widely, connect findings across fields and ask questions no specialist would think to ask. Such people will rarely produce the sharpest result in any one area. Their value lies in noticing that two areas are secretly asking the same question, something the specialists, absorbed in their own corner, are least likely to see.",
+        "question": "Which of the following would be the most suitable title for the passage?",
+        "options": [
+          "Why Interdisciplinary Teams Always Fail in Modern Science",
+          "The Overlooked Cost of Narrow Expertise",
+          "Nineteenth-Century Naturalists and the Decline of Scientific Method",
+          "Antibiotic Resistance: A Case Study in Hospital Administration"
+        ],
+        "answer": 1,
+        "explanation": "The passage concerns the hidden cost of specialisation and a remedy. (B) overstates ('always fail'); (C) misrepresents the naturalists, who appear only as a contrast; (D) takes a single example for the whole subject."
+      }
+    ]
+  }
+]
