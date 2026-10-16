@@ -809,7 +809,35 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "passage": "The great nineteenth-century naturalists could, with some exaggeration, claim to know a whole science. sectional.json file update ho gayi hai.\n\n### **Steps:**\n1. Apni **`sectional.json`** file ko upar diye gaye code se completely replace karke save kar lo.\n2. Browser ko refresh karo, ab **16th Oct 2026** ki date aur Parajumbles ke saare sentences bilkul theek tarike se dikhne lagenge!"
+        "passage": "The great nineteenth-century naturalists could, with some exaggeration, claim to know a whole science. Today a physicist may never read a paper outside a sub-subfield of a few hundred people. Specialisation is usually defended as the price of progress: knowledge has grown so vast that depth is possible only by narrowing. The defence is largely correct, yet it hides a cost that is easy to overlook because it does not appear in any single paper. Problems that matter rarely respect the boundaries of departments. Antibiotic resistance is at once a problem of microbiology, economics and hospital administration, and no specialist is trained to see all three at once. The usual response is the interdisciplinary team, but teams bring their own difficulties: members must spend so much effort translating between vocabularies that little remains for original thought, and credit tends to flow to the home discipline of the most senior member. A better remedy may be less glamorous. It is to ensure that a few researchers are rewarded for being broad rather than deep: people who read widely, connect findings across fields and ask questions no specialist would think to ask. Such people will rarely produce the sharpest result in any one area. Their value lies in noticing that two areas are secretly asking the same question, something the specialists, absorbed in their own corner, are least likely to see.",
+        "question": "The 'less glamorous' remedy the author proposes is",
+        "options": [
+          "forming larger interdisciplinary teams with more senior members to coordinate their efforts",
+          "reducing the number of departments in universities so that boundaries between fields are eliminated",
+          "rewarding some researchers for breadth instead of depth",
+          "training every specialist to translate between the vocabularies of the neighbouring fields"
+        ],
+        "answer": 2,
+        "explanation": "Rewarding researchers for breadth instead of depth."
+      },
+      {
+        "id": 45,
+        "section": "VA",
+        "category": "RC",
+        "difficulty": "Medium",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "The great nineteenth-century naturalists could, with some exaggeration, claim to know a whole science. Today a physicist may never read a paper outside a sub-subfield of a few hundred people. Specialisation is usually defended as the price of progress: knowledge has grown so vast that depth is possible only by narrowing. The defence is largely correct, yet it hides a cost that is easy to overlook because it does not appear in any single paper. Problems that matter rarely respect the boundaries of departments. Antibiotic resistance is at once a problem of microbiology, economics and hospital administration, and no specialist is trained to see all three at once. The usual response is the interdisciplinary team, but teams bring their own difficulties: members must spend so much effort translating between vocabularies that little remains for original thought, and credit tends to flow to the home discipline of the most senior member. A better remedy may be less glamorous. It is to ensure that a few researchers are rewarded for being broad rather than deep: people who read widely, connect findings across fields and ask questions no specialist would think to ask. Such people will rarely produce the sharpest result in any one area. Their value lies in noticing that two areas are secretly asking the same question, something the specialists, absorbed in their own corner, are least likely to see.",
+        "question": "Which of the following would be the most suitable title for the passage?",
+        "options": [
+          "Why Interdisciplinary Teams Always Fail in Modern Science",
+          "The Overlooked Cost of Narrow Expertise",
+          "Nineteenth-Century Naturalists and the Decline of Scientific Method",
+          "Antibiotic Resistance: A Case Study in Hospital Administration"
+        ],
+        "answer": 1,
+        "explanation": "The Overlooked Cost of Narrow Expertise."
       }
     ]
   }
