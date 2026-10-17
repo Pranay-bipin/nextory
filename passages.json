@@ -5628,6 +5628,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The motorist’s payment is rational because contesting costs more than paying, whatever the merits of the fine, which mirrors paying a licence fee that is less than the cost of litigation.<br><br>• <strong>Why Option A is Wrong:</strong> The customer is exercising a right under a promise; no merit-independent cost comparison is involved.<br><br>• <strong>Why Option C is Wrong:</strong> Paying taxes to qualify for a contract concerns eligibility, not avoiding the cost of a contest.<br><br>• <strong>Why Option D is Wrong:</strong> Copying notes concerns trust in quality, not paying to avoid a costlier dispute.<br><br><strong>💡 Approach:</strong> Extract the logic: paying is cheaper than contesting, so merit is irrelevant. Surface similarity (payment, rules) is the trap."
       }
     ]
+  },
+  {
+    "id": "rc-2026-10-17",
+    "date": "2026-10-17",
+    "title": "Fuel Subsidies, the Oil Shock, and the Fiscal Limits of Resilience",
+    "genre": "Current Affairs: Economics & Public Policy",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1000 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "Exacerbate",
+          "type": "verb",
+          "def": "To make a problem or bad situation worse. Syn: aggravate, compound. Ant: alleviate.",
+          "ex": "Fuel subsidies can exacerbate the fiscal deficit."
+        },
+        {
+          "word": "Palliative",
+          "type": "adj",
+          "def": "Easing a problem temporarily without removing its cause. Syn: stopgap, soothing. Ant: curative.",
+          "ex": "A price cap is a palliative, not a cure."
+        },
+        {
+          "word": "Prudent",
+          "type": "adj",
+          "def": "Acting with care and good judgement about the future. Syn: judicious, circumspect. Ant: reckless.",
+          "ex": "It is prudent to rebuild reserves in good years."
+        },
+        {
+          "word": "Precarious",
+          "type": "adj",
+          "def": "Not securely held; dangerously dependent on chance. Syn: unstable, perilous. Ant: secure.",
+          "ex": "The country's fiscal position is precarious."
+        },
+        {
+          "word": "Mitigate",
+          "type": "verb",
+          "def": "To make something less severe or harmful. Syn: lessen, temper. Ant: aggravate.",
+          "ex": "Transfers mitigate the hardship of price rises."
+        },
+        {
+          "word": "Profligate",
+          "type": "adj",
+          "def": "Recklessly extravagant, especially with money. Syn: wasteful, spendthrift. Ant: frugal.",
+          "ex": "Profligate spending left the treasury empty."
+        },
+        {
+          "word": "Insulate",
+          "type": "verb",
+          "def": "To protect something from an unwelcome influence. Syn: shield, buffer.",
+          "ex": "Subsidies insulate households from the price shock."
+        },
+        {
+          "word": "Pernicious",
+          "type": "adj",
+          "def": "Having a harmful effect, especially in a gradual or subtle way. Syn: insidious, destructive. Ant: benign.",
+          "ex": "The pernicious effect of inflation erodes savings."
+        },
+        {
+          "word": "Tenuous",
+          "type": "adj",
+          "def": "Very weak or slight; lacking a firm basis. Syn: flimsy, shaky. Ant: robust.",
+          "ex": "The link between the subsidy and growth is tenuous."
+        },
+        {
+          "word": "Regressive",
+          "type": "adj",
+          "def": "Placing a heavier relative burden on the poor than on the rich (of a tax or policy). Ant: progressive.",
+          "ex": "A uniform fuel tax is regressive."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "Bite the bullet",
+          "def": "To face a painful or unpleasant situation with courage.",
+          "ex": "The government bit the bullet and cut subsidies."
+        },
+        {
+          "idiom": "Kick the can down the road",
+          "def": "To delay dealing with a problem instead of solving it.",
+          "ex": "Extending the price cap just kicks the can down the road."
+        },
+        {
+          "idiom": "Rob Peter to pay Paul",
+          "def": "To take from one person or purpose to pay another, leaving the net position unchanged.",
+          "ex": "Borrowing to fund the subsidy is robbing Peter to pay Paul."
+        },
+        {
+          "idiom": "Tighten one's belt",
+          "def": "To reduce spending and live more frugally.",
+          "ex": "Households had to tighten their belts as prices rose."
+        },
+        {
+          "idiom": "Throw good money after bad",
+          "def": "To spend more on something that is already failing.",
+          "ex": "Adding subsidies to a failing scheme is throwing good money after bad."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Phase out",
+          "def": "To stop using or providing something gradually.",
+          "ex": "The government plans to phase out the subsidy over three years."
+        },
+        {
+          "verb": "Bail out",
+          "def": "To rescue a person or institution from financial trouble.",
+          "ex": "The IMF agreed to bail out the struggling economy."
+        },
+        {
+          "verb": "Pass on",
+          "def": "To transfer a cost or benefit to another party.",
+          "ex": "Firms passed on the higher fuel costs to consumers."
+        },
+        {
+          "verb": "Cut back on",
+          "def": "To reduce the amount of something being spent or consumed.",
+          "ex": "Households cut back on travel."
+        },
+        {
+          "verb": "Bear out",
+          "def": "To support or confirm a claim or theory.",
+          "ex": "The data bear out the IMF's warning."
+        }
+      ]
+    },
+    "passage": "In the first fortnight of October, two international institutions delivered versions of the same warning. The International Monetary Fund’s World Economic Outlook, published around its annual meetings, projected global growth of 3.1 per cent this year, down from 3.5 per cent in 2025, and described an economy that “has been resilient, but that resilience is under strain”, in the words of its chief economist, Silvana Tenreyro. A few weeks earlier, a policy brief from the United Nations Development Programme had cautioned that governments were “reaching a breaking point” in their efforts to shield vulnerable people from energy and food price rises, and that global fossil fuel subsidies, at prevailing prices, could exceed one trillion dollars this year. Both documents trace the strain to a common source: the war involving Iran and the disruption of shipping through the Strait of Hormuz, which have pushed oil to about one hundred dollars a barrel.\n\nA fuel subsidy is the most intuitive response to such a shock. When the price of petrol or cooking fuel jumps, a government can cap the retail price, cut the fuel tax, or pay suppliers the difference between the market price and the controlled one. The household sees no increase, protests are averted, and the inflation that fuel prices would otherwise feed into transport and food costs is dampened. These are real benefits, and the political logic is compelling: the cost of a price rise is felt immediately and loudly by millions, while the cost of a subsidy is diffuse, deferred and borne by taxpayers who may never connect it with fuel at all.\n\nYet economists have long regarded universal fuel subsidies as a poor instrument, for three reasons. First, they are regressive. Because richer households own more vehicles and consume more energy, a subsidy offered to everyone delivers the largest absolute benefit to those who need it least. Second, they are fiscally open-ended. A price cap commits the treasury to pay whatever the gap turns out to be, and the gap widens exactly when oil prices rise and government revenues, in many importing countries, are under strain. Third, they blunt the price signal. A price held artificially low tells consumers to keep consuming and tells investors that the returns to alternatives, such as public transport or electrification, have fallen. The subsidy meant to cushion the shock thus slows the adjustment that would reduce exposure to the next one.\n\nThe warning from the UNDP is specific to a moment in which these costs bite harder than usual. Many developing countries enter the shock with high debt, limited fiscal room and a heavy dependence on imported energy; the same war that raised oil prices has constrained shipping routes, and the weather pattern known as El Niño is expected to keep food prices high into next year. A government in this position faces a sharper trade-off than a richer one. If it holds prices down, it must find the money, which means borrowing at rising cost or cutting spending elsewhere. If it lets prices pass through, it must still find money to protect the poorest, since a rise that is tolerable for a prosperous household may be a matter of hunger for a poor one. Neither choice is free; the choice is only between different ways of paying.\n\nThe usual advice is to replace blanket subsidies with temporary and targeted cash transfers, which reach the poor directly, can be withdrawn when the shock passes and leave the price signal intact. The IMF’s recommendations, fiscal restraint to contain demand pressures and a sufficiently restrictive monetary stance to prevent second-round inflation, point in the same direction. But targeting is easier to recommend than to do. It requires reliable information about who is poor, a payments system able to reach them quickly, and an administrative capacity that many of the affected states lack. A badly targeted transfer excludes some of the vulnerable and includes some of the comfortable, and a transfer that arrives six months after the price rise has done little to prevent the hardship it was meant to relieve. Governments therefore often revert to the blunt instrument, not from ignorance of its flaws but because it is the only one that works on the day it is needed.\n\nThere is also an argument from timing. A temporary subsidy is easy to introduce and hard to remove. Once consumers have adjusted their budgets to the controlled price, its withdrawal becomes a new price shock, now attributable to a government decision rather than to events abroad, and therefore politically costly in a way the original rise was not. A subsidy announced as a bridge can harden into a permanent fixture, and the longer a shock lasts, the more likely this becomes. This helps explain why subsidy bills rise in a crisis and fall only slowly afterwards, and why reform is most feasible in the quiet years before a shock, when nobody is asking for it, and least feasible during one, when everybody is.\n\nThe IMF’s broader point is that the world has been resilient so far partly because it had buffers: reserves of oil that could be drawn down, supplies that could be redirected, and fiscal space that could be spent. These are finite. A buffer used in one crisis is not available in the next, which means that the measure of an economy’s resilience is not how well it absorbed the last shock but how much remains for the one that follows. By this standard, policies that spend buffers on price suppression, leaving the vulnerable no better protected and the treasury poorer, are expensive in a way that does not show up in the immediate figures. Judged by the protection they buy for each unit of public money, and by what they leave in reserve, transfers aimed at the poor are likely to outperform blanket subsidies; but the strongest case for them is not that they are cheaper in a single year, only that they leave a country less exposed in the next.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "According to the passage, governments often fall back on blanket fuel subsidies despite their known flaws because:",
+        "options": [
+          "A) blanket subsidies are the only instrument that works at once, while targeted transfers need information and capacity that many states lack",
+          "B) officials are unaware of the economists’ objections to universal subsidies and therefore assume that the policy is the cheapest option available to them",
+          "C) the International Monetary Fund has recommended such subsidies as the most effective means of containing inflation during a prolonged energy shock",
+          "D) targeted cash transfers are always more expensive in a single year than blanket subsidies, whatever the scale of the shock that prompts the policy"
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Paragraph 5 says governments revert to the blunt instrument 'not from ignorance of its flaws but because it is the only one that works on the day it is needed', since targeting requires information, payments systems and administrative capacity.<br><br>• <strong>Why Option B is Wrong:</strong> The author explicitly says the reversion is not from ignorance of the flaws.<br><br>• <strong>Why Option C is Wrong:</strong> The IMF is said to recommend fiscal restraint and a restrictive monetary stance, not subsidies.<br><br>• <strong>Why Option D is Wrong:</strong> The author says the case for transfers is not that they are cheaper in a single year, which is different from saying they are always more expensive; 'always' and 'whatever the scale' are not supported.<br><br><strong>💡 Approach:</strong> Look for the explicit reason clause ('not from ignorance... but because'). Options that reverse it, attribute policy to the IMF or use absolutes are traps."
+      },
+      {
+        "id": "q2",
+        "question": "The author’s remark that ‘the choice is only between different ways of paying’ (paragraph 4) suggests that:",
+        "options": [
+          "A) a government should avoid both options and wait for oil prices to fall before it commits any public money to relieve price rises",
+          "B) developing countries are in the same position as richer countries, since both face the same choices when oil prices rise sharply",
+          "C) holding prices down and letting them pass through both impose costs, which differ in who bears them and when",
+          "D) borrowing at rising cost is always preferable to cutting spending elsewhere, because debt can be repaid after the shock has passed"
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> In the paragraph, holding prices down costs money (borrowing or cuts), and letting prices pass through costs money too (protecting the poorest). The remark says both are costly and differ in how the cost is borne.<br><br>• <strong>Why Option A is Wrong:</strong> Waiting is not discussed; the author says a government faces a trade-off and must act in some way.<br><br>• <strong>Why Option B is Wrong:</strong> The author says a government in this position faces a 'sharper trade-off than a richer one', so the position is not the same.<br><br>• <strong>Why Option D is Wrong:</strong> The paragraph treats borrowing and spending cuts as two costly ways of finding the money, with no preference between them.<br><br><strong>💡 Approach:</strong> Read the remark with its two preceding 'if' sentences. The answer must capture that both branches cost something. Options with 'always' or with a preference the author never states are traps."
+      },
+      {
+        "id": "q3",
+        "question": "Which of the following, if true, would most weaken the author’s argument in paragraph 6 that temporary subsidies tend to become permanent?",
+        "options": [
+          "A) Governments that remove subsidies after a crisis usually find that consumers have by then adjusted their budgets to the controlled price.",
+          "B) The longer an energy shock lasts, the greater the number of households that depend on the subsidy to meet their basic needs.",
+          "C) Withdrawing a subsidy is more often followed by protests than the original price rise that prompted its introduction was.",
+          "D) Most countries that introduced temporary fuel subsidies in recent shocks removed them within a year of prices easing, without protests."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The argument says withdrawal becomes a politically costly new shock, so temporary subsidies harden into fixtures. If most were removed within a year without protests, the claim about permanence and political cost is directly contradicted.<br><br>• <strong>Why Option A is Wrong:</strong> This repeats the author’s own mechanism, so it strengthens the argument.<br><br>• <strong>Why Option B is Wrong:</strong> More dependent households make withdrawal harder, which again supports the claim.<br><br>• <strong>Why Option C is Wrong:</strong> This supports the author’s claim that withdrawal is politically costly in a way the original rise was not.<br><br><strong>💡 Approach:</strong> Weaken the conclusion by showing the opposite pattern in the evidence. Options that repeat the mechanism are strengtheners."
+      },
+      {
+        "id": "q4",
+        "question": "The author’s view that resilience is measured by ‘how much remains for the one that follows’ (paragraph 7) is most closely paralleled by:",
+        "options": [
+          "A) A student who judges an examination by how many questions were easy and ignores how many of them were answered correctly",
+          "B) A household that judges its finances by what remains of its savings after an emergency, not by whether the emergency was met",
+          "C) A company that judges a campaign by the number of advertisements shown and takes no account of the number of customers gained",
+          "D) A traveller who judges a journey by its speed and does not consider the effect of the route on the cost of fuel used"
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The household is judged by the reserves left for the next emergency, not by whether it survived the last one by spending its savings. That is the author’s resilience-as-what-remains standard.<br><br>• <strong>Why Option A is Wrong:</strong> This is about the wrong measure of difficulty and has no element of reserves used up.<br><br>• <strong>Why Option C is Wrong:</strong> This is about counting outputs instead of results, not about depleting buffers.<br><br>• <strong>Why Option D is Wrong:</strong> This concerns ignoring a cost of a route, not the depletion of a reserve for future shocks.<br><br><strong>💡 Approach:</strong> Extract the structure: surviving a shock by spending reserves is not the same as resilience, because reserves are finite. Find the option that has reserves, a shock and a future shock."
+      },
+      {
+        "id": "q5",
+        "question": "All of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) A temporary and targeted transfer can be withdrawn once the shock has passed without distorting the price signal that consumers face.",
+          "B) A price cap on fuel exposes the treasury to a larger bill precisely when oil prices rise and its revenues come under strain.",
+          "C) The IMF recommends that central banks keep policy restrictive enough to prevent second-round inflation effects from taking hold.",
+          "D) A fuel subsidy offered to every household delivers a larger absolute benefit to poor households than to richer households."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 3 says universal subsidies are regressive: richer households consume more energy, so the largest absolute benefit goes to those who need it least. Option D says the reverse, so it cannot be inferred.<br><br>• <strong>Why Option A is Wrong:</strong> Paragraph 5 says targeted transfers can be withdrawn when the shock passes and leave the price signal intact.<br><br>• <strong>Why Option B is Wrong:</strong> Paragraph 3 says a price cap is open-ended and the gap widens when oil prices rise and revenues are strained.<br><br>• <strong>Why Option C is Wrong:</strong> Paragraph 5 reports that the IMF recommends a sufficiently restrictive monetary stance to prevent second-round inflation.<br><br><strong>💡 Approach:</strong> EXCEPT questions: three options restate the passage; the odd one reverses it. The reversal here is in the direction of who benefits."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following best captures the author’s overall position?",
+        "options": [
+          "A) Targeted transfers are preferable to blanket subsidies, mainly because they protect reserves and cut future exposure, though they are harder to implement",
+          "B) Fuel subsidies should be abolished immediately in every country, because they are regressive and impose costs that cannot be justified by any benefit they bring to the households concerned",
+          "C) Blanket subsidies are justified in any crisis in which governments cannot identify the poor quickly enough to protect them with targeted transfers of cash",
+          "D) The IMF and UNDP disagree about the measures that governments ought to adopt in response to the energy shock, as their reports show"
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The author concludes that transfers are likely to outperform blanket subsidies because they buy more protection per unit of public money and leave more in reserve, while acknowledging the difficulty of targeting (paragraph 5).<br><br>• <strong>Why Option B is Wrong:</strong> The author recognises real benefits of subsidies (paragraph 2) and the reasons governments use them; 'abolished immediately in every country' is far beyond the text.<br><br>• <strong>Why Option C is Wrong:</strong> The author explains why governments revert to subsidies but does not say they are justified 'in any crisis' of this kind.<br><br>• <strong>Why Option D is Wrong:</strong> The passage presents the two institutions as delivering versions of the same warning and does not suggest a disagreement.<br><br><strong>💡 Approach:</strong> Summary questions: the correct option holds both the preference and the qualification. Extreme or invented-disagreement options are traps."
+      }
+    ]
   }
 ]
-
