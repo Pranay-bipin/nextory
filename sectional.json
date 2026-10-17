@@ -1,7 +1,7 @@
 [
   {
-    "title": "IPMAT VA Sectional – 16th Oct 2026",
-    "date": "2026-10-16",
+    "title": "IPMAT VA Sectional – 17th Oct 2026",
+    "date": "2026-10-17",
     "section": "Verbal Ability",
     "total_questions": 45,
     "duration_minutes": 45,
@@ -22,7 +22,7 @@
           "incisive"
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: The word 'vapid' means lacking flavor, zest, or substance; dull and flat. The context clues indicate that students left with 'nothing more than a list of platitudes' (clichés/empty remarks), which directly matches a lecture lacking intellectual substance ('vapid'). 'Trenchant' and 'incisive' mean vigorous, sharp, or keen, while 'abstruse' means difficult to understand—none of which align with leaving with empty platitudes."
+        "explanation": "'Vapid' means lacking substance or interest, which fits 'nothing more than a list of platitudes'. 'Trenchant' and 'incisive' mean sharp and penetrating, the opposite. 'Abstruse' (hard to understand) would make the lecture difficult, not shallow."
       },
       {
         "id": 2,
@@ -37,10 +37,10 @@
           "effusive",
           "tepid",
           "guarded",
-          "cursory"
+          "perfunctory"
         ],
         "answer": 0,
-        "explanation": "Detailed Solution: The author remained wary because enthusiasm could easily 'curdle into contempt', implying that the initial praise was extreme, unrestrained, or lavish. 'Effusive' means expressing feelings of gratitude, pleasure, or approval in an unrestrained or heartfelt manner. 'Tepid' means showing little enthusiasm, which contradicts the author's worry about excessive enthusiasm turning sour."
+        "explanation": "The author is wary of enthusiasm that could curdle, so the praise must have been lavish: 'effusive'. 'Tepid', 'guarded' and 'cursory' describe weak or limited praise, which would give no reason to fear a sharp turn into contempt."
       },
       {
         "id": 3,
@@ -58,7 +58,7 @@
           "ignited"
         ],
         "answer": 2,
-        "explanation": "Detailed Solution: The sentence contrasts his 'fiery speeches' (zeal) with his practical limitation that 'he never proposed a measure that could not pass'. This means his enthusiasm was restrained or moderated by reality. 'Tempered' means to act as a neutralizing or controlling element to something (moderated), making it the exact fit."
+        "explanation": "'Tempered' means moderated. The clause 'never proposed a measure that could not pass' shows pragmatism holding his zeal in check. 'Stoked', 'amplified' and 'ignited' all mean intensified, contradicting the contrast set up by 'for all his fiery speeches'."
       },
       {
         "id": 4,
@@ -71,12 +71,12 @@
         "question": "While the new app was praised as innovative, its poor security turned out to be its ________, and users abandoned it within weeks.",
         "options": [
           "golden goose",
-          "Trojan horse",
+          "bone of contention",
           "Achilles' heel",
-          "lion's share"
+          "Trojan horse"
         ],
         "answer": 2,
-        "explanation": "Detailed Solution: The context describes a fatal weakness in an otherwise strong creation that led users to abandon it. An 'Achilles' heel' refers to a weakness or vulnerable point in an otherwise strong system or person, causing ultimate failure."
+        "explanation": "An 'Achilles' heel' is a fatal weakness in an otherwise strong entity. 'Golden goose' is a source of wealth, 'Trojan horse' is a hidden threat introduced from outside, and 'lion's share' means the largest portion; none describes a decisive weakness."
       },
       {
         "id": 5,
@@ -88,13 +88,13 @@
         "negative_marking": 1,
         "question": "The CEO's ________ optimism contrasted sharply with the ________ mood on the shop floor, where rumours of layoffs had made workers ________.",
         "options": [
-          "unwarranted; despondent; apprehensive",
-          "justified; buoyant; relaxed",
+          "unwarranted; despondent; uneasy",
+          "well-founded; buoyant; unconcerned",
           "feigned; jubilant; anxious",
           "tepid; hopeful; assured"
         ],
         "answer": 0,
-        "explanation": "Detailed Solution: Rumours of layoffs naturally create a gloomy and fearful atmosphere among workers ('despondent' mood and 'apprehensive' workers). In contrast, a CEO ignoring this reality displays 'unwarranted' optimism, forming a sharp contrast."
+        "explanation": "The contrast between management and workers requires an optimism that is 'unwarranted' against a 'despondent' mood and workers who feel 'apprehensive'. Options with buoyant/jubilant/hopeful moods contradict the rumours of layoffs, and in (A) and (D) the optimism is not contrasted at all with workers' fear."
       },
       {
         "id": 6,
@@ -112,7 +112,7 @@
           "scrutinised; dismayed; undermined"
         ],
         "answer": 3,
-        "explanation": "Detailed Solution: If a historian has spent years carefully looking at evidence ('scrutinised'), finding a new document that destroys her life's work ('undermined her central thesis') would naturally cause shock and disappointment ('dismayed'). Option 3 uses 'delighted', which contradicts finding your thesis destroyed."
+        "explanation": "Years of study ('scrutinised') followed by a document that 'undermined' her thesis would leave her 'dismayed'. Pairing 'undermined' with delight or gratitude is illogical, and (C) is inconsistent since someone who 'neglected' evidence would not be 'relieved' that it refuted her thesis."
       },
       {
         "id": 7,
@@ -125,12 +125,12 @@
         "question": "Rather than ________ the dispute, the court's ruling merely ________ it, leaving both parties at liberty to ________ the same arguments.",
         "options": [
           "settle; postponed; repeat",
-          "worsen; resolved; abandon",
+          "aggravate; resolved; abandon",
           "ignore; escalated; forget",
           "settle; ended; revive"
         ],
         "answer": 0,
-        "explanation": "Detailed Solution: The contrast word 'Rather than' implies that instead of resolving or finishing the issue ('settle'), the ruling delayed it ('postponed'), which gives the parties freedom to bring up the same points again ('repeat')."
+        "explanation": "'Rather than... merely' signals a contrast: the ruling did not 'settle' the dispute but only 'postponed' it, so the parties may 'repeat' their arguments. (D) fails because a ruling that 'ended' it would not leave room to re-argue; (B) and (C) make no sense with 'rather than'."
       },
       {
         "id": 8,
@@ -148,7 +148,7 @@
           "obscure; density; deplored"
         ],
         "answer": 3,
-        "explanation": "Detailed Solution: A shift in critical appreciation usually means something previously criticized is now praised. If it was dismissed for being hard to understand ('obscure'), it is now admired for that same heavy complexity ('density') which critics earlier condemned ('deplored')."
+        "explanation": "'The very ________ that earlier critics ________' requires the same quality to be disliked then and admired now: work dismissed as 'obscure' is now admired for its 'density' which critics had 'deplored'. (B) and (D) have critics praising the quality, contradicting 'earlier critics' dismissal'; (A) 'lucid' work would not be dismissed for clarity."
       },
       {
         "id": 9,
@@ -160,13 +160,13 @@
         "negative_marking": 1,
         "question": "The explorer's account was ________ with exaggeration, but later expeditions ________ its broad outline while ________ many of its details.",
         "options": [
-          "free; contradicted; retaining",
+          "unburdened; contradicted; retaining",
           "riddled; confirmed; discarding",
           "devoid; verified; embellishing",
           "laden; refuted; preserving"
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: An account full of exaggeration ('riddled' with it) can still hold general truth; later expeditions verified the main structure ('confirmed') while throwing out false small components ('discarding')."
+        "explanation": "'But' sets up a contrast: the account was 'riddled' with exaggeration, yet later expeditions 'confirmed' its outline and 'discarded' many details. (B) is self-contradictory ('devoid' of exaggeration, then 'but'); (A) and (D) have later expeditions rejecting the outline, which clashes with 'while'."
       },
       {
         "id": 10,
@@ -184,7 +184,7 @@
           "was"
         ],
         "answer": 3,
-        "explanation": "Detailed Solution: Expressions introduced by phrases like 'along with', 'together with', or 'accompanied by' do not change the grammatical number of the subject. The subject is 'The report' (singular), so the verb must be singular: 'was'."
+        "explanation": "The subject is 'The report' (singular). 'Along with its appendices' is a parenthetical phrase and does not change the number of the verb. The past tense 'was submitted' matches 'on Friday'."
       },
       {
         "id": 11,
@@ -198,11 +198,11 @@
         "options": [
           "then",
           "that",
-          "as",
+          "whereas",
           "than"
         ],
         "answer": 3,
-        "explanation": "Detailed Solution: Correlative conjunction pairs are fixed in English grammar. The correlative partner for 'No sooner' is always 'than' (just as 'Scarcely' or 'Hardly' is followed by 'when')."
+        "explanation": "'No sooner' is followed by 'than', not 'when' ('Hardly... when' is the parallel). 'Then', 'that' and 'as' do not complete the correlative."
       },
       {
         "id": 12,
@@ -220,7 +220,7 @@
           "inspiring"
         ],
         "answer": 2,
-        "explanation": "Detailed Solution: In the structure 'one of those plural nouns who...', the relative pronoun 'who' refers back to the plural noun 'leaders', not 'one'. Therefore, the verb following 'who' must be plural: 'inspire'."
+        "explanation": "In 'one of those leaders who...', the relative pronoun 'who' refers to the plural 'leaders', not to 'one'. So the verb is plural: 'inspire'. The other options either break the structure or change the tense unnecessarily."
       },
       {
         "id": 13,
@@ -238,7 +238,7 @@
           "composing of"
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: The active verb 'comprise' means 'to include' or 'to consist of' (the whole comprises parts). It cannot take 'of' in the passive voice unless rephrased as 'is composed of' or 'consists of'. Thus, 'composed of' is grammatically accurate."
+        "explanation": "The idiomatic forms are 'composed of' or 'comprising' (without 'of'). 'Comprised of' is widely considered incorrect, while 'comprising of', 'comprised by' and 'composing of' are also non-standard."
       },
       {
         "id": 14,
@@ -256,7 +256,7 @@
           "The prosecutor's insinuations were only thinly veiled, and the jury noticed."
         ],
         "answer": 2,
-        "explanation": "Detailed Solution: 'Prodigal' means spending money or resources freely and recklessly; wastefully extravagant. It makes no sense to talk about 'prodigal savings' ensuring a secure retirement. The other words ('candid', 'abrogates', 'insinuations') are used correctly."
+        "explanation": "'Prodigal' means wastefully extravagant, so it cannot describe savings that ensure a comfortable retirement; 'prudent' or 'frugal' is intended. 'Candid' (frank), 'abrogates' (abolishes) and 'insinuations' (indirect hints) are used correctly."
       },
       {
         "id": 15,
@@ -270,11 +270,11 @@
         "options": [
           "The manager's perfunctory inspection missed several obvious defects in the machinery.",
           "The sculptor's ostensible reason for the delay was a shortage of marble.",
-          "The villagers were forced to forbear their land after the flood destroyed the embankment.",
+          "The villagers had to forbear their land after the flood breached the embankment.",
           "Her pithy remark summed up the entire debate in a single memorable line."
         ],
         "answer": 2,
-        "explanation": "Detailed Solution: 'Forbear' means to politely or patiently restrain oneself from doing something. The villagers were forced to abandon or give up their land, which requires the verb 'forsake' or 'forego', making 'forbear' incorrect."
+        "explanation": "'Forbear' means to refrain from or to be patient; it cannot mean 'abandon'. The intended word is 'forsake' or 'abandon'. 'Perfunctory' (done without care), 'ostensible' (apparent, stated) and 'pithy' (concise and forceful) are correct."
       },
       {
         "id": 16,
@@ -292,7 +292,7 @@
           "The mayor's laconic reply, just three words long, ended the press conference."
         ],
         "answer": 2,
-        "explanation": "Detailed Solution: 'Scathing' means severely critical or harsh. It is a contradiction in terms to use it with 'praise' (scathing criticism would work, but not scathing praise)."
+        "explanation": "'Scathing' means harshly critical, so it cannot qualify 'praise' (or encourage a class). 'Unequivocal' (unambiguous), 'meagre' (scanty) and 'laconic' (using very few words) are all used correctly."
       },
       {
         "id": 17,
@@ -310,7 +310,7 @@
           "Examinations were first introduced in imperial China as a means of selecting civil servants for the state."
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: The paragraph argues that identical testing conditions do not equate to actual fairness because of background disparities. Option 2 bridges this gap smoothly by stating that 'identical questions do not guarantee that everyone meets them equally prepared', which sets up the examples given in the subsequent sentences."
+        "explanation": "The sentences that follow show that identical procedure can still disadvantage some students (format and language familiarity). The correct option sets up that contrast with the promise of fairness. The others deal with abolition, grading convenience and history, which the paragraph never develops."
       },
       {
         "id": 18,
@@ -328,7 +328,7 @@
           "It assumes that a perfect version exists and that the translator has merely failed to deliver it."
         ],
         "answer": 3,
-        "explanation": "Detailed Solution: The opening line critiques the idiom calling a translator a 'traitor'. Option 3 expands on why the proverb flatters the original: 'It assumes that a perfect version exists and that the translator has merely failed to deliver it', before refuting this illusion in the lines following."
+        "explanation": "The proverb 'flatters the original' by assuming a flawless version is possible; the next sentences argue that choices are inevitable. Only the correct option explains why the proverb flatters the original. The other options shift to publishing, machine translation or poetry."
       },
       {
         "id": 19,
@@ -346,7 +346,7 @@
           "That prosperity, however, is a loan rather than a gift, repayable when the industry declines."
         ],
         "answer": 3,
-        "explanation": "Detailed Solution: The paragraph highlights the contrast between temporary boom and ultimate collapse in single-industry towns. Option 3 captures this dynamic using a brilliant metaphor: 'That prosperity, however, is a loan rather than a gift, repayable when the industry declines'."
+        "explanation": "The paragraph moves from prosperity to the damage when the industry closes. The correct option provides the pivot ('however... repayable when the industry declines'). The others discuss incentives, public services and industrial history, none of which the following sentences continue."
       },
       {
         "id": 20,
@@ -356,16 +356,16 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "passage": "Karan Mehta (Host, Citywise Radio): Every monsoon, the same streets go under. Is this simply a rainfall problem?\n\nDr. Sunita Iyer (urban planner): Rainfall is the trigger, not the cause. Cities used to have lakes, marshes and open soil that absorbed water. We have paved over most of them, so the rain that once soaked in now runs off all at once and overwhelms drains designed for a smaller city.\n\nKaran Mehta: So the answer is bigger drains?\n\nDr. Sunita Iyer: Only partly. Larger drains move the flood downstream and make it someone else's problem. The better approach is to slow the water down: restore wetlands, build permeable pavements, create retention ponds in parks.",
+        "passage": "Karan Mehta (Host, Citywise Radio): Every monsoon, the same streets go under. Is this simply a rainfall problem?\n\nDr. Sunita Iyer (urban planner): Rainfall is the trigger, not the cause. Cities used to have lakes, marshes and open soil that absorbed water. We have paved over most of them, so the rain that once soaked in now runs off all at once and overwhelms drains designed for a smaller city.\n\nKaran Mehta: So the answer is bigger drains?\n\nDr. Sunita Iyer: Only partly. Larger drains move the flood downstream and make it someone else's problem. The better approach is to slow the water down: restore wetlands, build permeable pavements, create retention ponds in parks.\n\nKaran Mehta: Those sound slower and less visible than a new drain.\n\nDr. Sunita Iyer: Precisely, and that is the political obstacle. A new drain has a ribbon-cutting. A restored marsh has results that arrive in the next monsoon, after the election cycle.",
         "question": "According to Dr. Iyer, the main cause of urban flooding is that",
         "options": [
-          "built-up cities have lost the soil and wetlands that once absorbed rainwater",
-          "monsoon rainfall has become far heavier in recent decades",
-          "existing drains are poorly maintained by city authorities",
-          "rivers and lakes are being drained to make way for farmland"
+          "cities have lost the soil and wetlands that once absorbed rainwater",
+          "monsoon rainfall has become far heavier than it was in earlier decades",
+          "existing drains are poorly maintained by the city's municipal authorities",
+          "rivers and lakes are being drained to make room for commercial farmland"
         ],
         "answer": 0,
-        "explanation": "Detailed Solution: Dr. Iyer explicitly notes that cities have 'paved over' lakes, marshes, and open soil that used to absorb water, turning natural absorption into sudden surface runoff."
+        "explanation": "Iyer says 'Rainfall is the trigger, not the cause'; the cause is paving over lakes, marshes and open soil so that rain 'runs off all at once'. She does not mention heavier rain, drain maintenance or farmland."
       },
       {
         "id": 21,
@@ -375,16 +375,16 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "passage": "Karan Mehta (Host, Citywise Radio): Every monsoon, the same streets go under. Is this simply a rainfall problem?\n\nDr. Sunita Iyer (urban planner): Rainfall is the trigger, not the cause. Cities used to have lakes, marshes and open soil that absorbed water. We have paved over most of them, so the rain that once soaked in now runs off all at once and overwhelms drains designed for a smaller city.\n\nKaran Mehta: So the answer is bigger drains?\n\nDr. Sunita Iyer: Only partly. Larger drains move the flood downstream and make it someone else's problem. The better approach is to slow the water down: restore wetlands, build permeable pavements, create retention ponds in parks.",
+        "passage": "Karan Mehta (Host, Citywise Radio): Every monsoon, the same streets go under. Is this simply a rainfall problem?\n\nDr. Sunita Iyer (urban planner): Rainfall is the trigger, not the cause. Cities used to have lakes, marshes and open soil that absorbed water. We have paved over most of them, so the rain that once soaked in now runs off all at once and overwhelms drains designed for a smaller city.\n\nKaran Mehta: So the answer is bigger drains?\n\nDr. Sunita Iyer: Only partly. Larger drains move the flood downstream and make it someone else's problem. The better approach is to slow the water down: restore wetlands, build permeable pavements, create retention ponds in parks.\n\nKaran Mehta: Those sound slower and less visible than a new drain.\n\nDr. Sunita Iyer: Precisely, and that is the political obstacle. A new drain has a ribbon-cutting. A restored marsh has results that arrive in the next monsoon, after the election cycle.",
         "question": "Dr. Iyer is only partly in favour of bigger drains because they",
         "options": [
-          "cost too much for municipal governments to build",
-          "shift the flooding downstream instead of reducing the volume of runoff",
-          "cannot be built in areas that already have retention ponds",
-          "take too long to construct compared with permeable pavements"
+          "cost too much for municipal governments to build in large numbers",
+          "shift the flooding downstream rather than reducing runoff",
+          "cannot be built in areas that already have retention ponds or wetlands",
+          "take far too long to construct compared with permeable pavements"
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: Dr. Iyer points out that larger drains merely 'move the flood downstream and make it someone else's problem' rather than resolving the core issue."
+        "explanation": "She says 'Larger drains move the flood downstream and make it someone else's problem.' Cost, the presence of ponds, and construction time are not discussed."
       },
       {
         "id": 22,
@@ -397,13 +397,13 @@
         "passage": "Karan Mehta (Host, Citywise Radio): Every monsoon, the same streets go under. Is this simply a rainfall problem?\n\nDr. Sunita Iyer (urban planner): Rainfall is the trigger, not the cause. Cities used to have lakes, marshes and open soil that absorbed water. We have paved over most of them, so the rain that once soaked in now runs off all at once and overwhelms drains designed for a smaller city.\n\nKaran Mehta: So the answer is bigger drains?\n\nDr. Sunita Iyer: Only partly. Larger drains move the flood downstream and make it someone else's problem. The better approach is to slow the water down: restore wetlands, build permeable pavements, create retention ponds in parks.\n\nKaran Mehta: Those sound slower and less visible than a new drain.\n\nDr. Sunita Iyer: Precisely, and that is the political obstacle. A new drain has a ribbon-cutting. A restored marsh has results that arrive in the next monsoon, after the election cycle.",
         "question": "Dr. Iyer suggests that the political obstacle to restoring wetlands is that",
         "options": [
-          "voters oppose projects that reduce the land available for housing",
-          "visible projects win credit quickly, whereas wetland benefits arrive after elections",
-          "wetlands are generally less effective than drains in preventing floods",
-          "restoration requires cooperation among too many government agencies"
+          "voters oppose projects that reduce the land available for new housing in the city",
+          "visible works win quick credit while wetland benefits arrive after elections",
+          "wetlands are generally less effective than drains in preventing floods during heavy rain",
+          "restoration requires cooperation among too many different government agencies"
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: The dialogue highlights that politicians prefer quick visual milestones (like ribbon-cuttings for drains) whereas wetlands yield results only after elections pass."
+        "explanation": "The 'ribbon-cutting' versus 'results that arrive in the next monsoon, after the election cycle' contrast explains the political incentive for visible drains. The other options (housing opposition, lower effectiveness, agency coordination) are not in the transcript, and she argues wetlands are the better approach."
       },
       {
         "id": 23,
@@ -415,7 +415,7 @@
         "negative_marking": 0,
         "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.\n\n1. Newton showed that the moon's gravity pulls the oceans toward it, producing a bulge on the near side.\n2. The resolution lies in the fact that the Earth itself is pulled toward the moon more strongly than the far-side water is, leaving that water behind.\n3. Yet this explained only half the pattern, since a second bulge appears on the far side of the Earth at the same time.\n4. For centuries, sailors knew that tides rose and fell twice a day without knowing why.",
         "answer": "4132",
-        "explanation": "Detailed Solution: Sentence 4 introduces the historical background of tides. Sentence 1 presents Newton's explanation of the near-side bulge. Sentence 3 introduces the discrepancy ('Yet this explained only half the pattern... far side'). Sentence 2 resolves the puzzle of the second bulge."
+        "explanation": "Sentence 4 states the long-standing puzzle. Sentence 1 gives Newton's first explanation. Sentence 3 ('Yet this explained only half...') raises the remaining problem. Sentence 2 ('The resolution') supplies the answer. Order: 4-1-3-2."
       },
       {
         "id": 24,
@@ -427,7 +427,7 @@
         "negative_marking": 0,
         "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.\n\n1. Charles II, alarmed, tried to suppress them in 1675.\n2. In seventeenth-century London, coffeehouses were called 'penny universities', since a penny bought a cup and entry into the conversation.\n3. The episode shows how quickly a new place for talking could be seen as a threat to authority.\n4. Men of every rank mingled there, which unsettled those who believed that talk about politics belonged to the privileged.\n5. The proclamation was withdrawn within days, so strong was the public outcry.",
         "answer": "24153",
-        "explanation": "Detailed Solution: Sentence 2 introduces coffeehouses. Sentence 4 explains why they unsettled authorities (mixing social ranks). Sentence 1 states Charles II's attempt to suppress them. Sentence 5 notes the public backlash, and Sentence 3 concludes with the broader lesson."
+        "explanation": "Sentence 2 introduces coffeehouses. Sentence 4 ('there') elaborates on who mixed in them and why that unsettled people. Sentence 1 ('them') describes the king's reaction. Sentence 5 reports the outcome of the proclamation. Sentence 3 ('The episode') draws the conclusion. Order: 2-4-1-5-3."
       },
       {
         "id": 25,
@@ -439,7 +439,7 @@
         "negative_marking": 0,
         "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.\n\n1. The result is that calls once audible over great distances are now masked, and some species have begun to call louder or at different pitches.\n2. Whether such adjustments are enough to preserve their social lives remains unknown.\n3. Sound travels farther and faster in water than in air, which is why whales rely on it to find mates across hundreds of kilometres.\n4. Commercial shipping has raised the ocean's background noise sharply over the past half century.",
         "answer": "3412",
-        "explanation": "Detailed Solution: Sentence 3 explains how sound works for whales in water. Sentence 4 introduces the disruption caused by commercial shipping noise. Sentence 1 describes the consequences (masked calls, behavioral adjustments), and Sentence 2 questions the long-term effectiveness."
+        "explanation": "Sentence 3 gives the background: whales depend on sound. Sentence 4 introduces the new factor: shipping noise. Sentence 1 ('The result') describes its effect. Sentence 2 ('such adjustments') ends on the open question. Order: 3-4-1-2."
       },
       {
         "id": 26,
@@ -451,7 +451,7 @@
         "negative_marking": 0,
         "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.\n\n1. His sentences, by his own account, became terser.\n2. Whether the same is true of today's software is a question we have only begun to ask.\n3. When the typewriter appeared, many writers feared it would mechanise thought.\n4. Such observations suggest that tools shape the content of writing, not merely its production.\n5. Nietzsche, who turned to a typing machine as his eyesight failed, noted that it seemed to change his style as well as his speed.",
         "answer": "35142",
-        "explanation": "Detailed Solution: Sentence 3 introduces the general historical fear regarding typewriters. Sentence 5 provides Nietzsche's specific example. Sentence 1 gives the specific effect on his writing style. Sentence 4 generalizes from this observation, and Sentence 2 extends it to modern software."
+        "explanation": "Sentence 3 opens with the fear about typewriters. Sentence 5 gives the Nietzsche example. Sentence 1 ('His sentences') continues with the effect on his style. Sentence 4 ('Such observations') generalises. Sentence 2 ('today's software') extends the point to the present. Order: 3-5-1-4-2."
       },
       {
         "id": 27,
@@ -463,7 +463,7 @@
         "negative_marking": 0,
         "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.\n\n1. Harvesting does not kill the plant, since new shoots rise from the same root system.\n2. Timber trees, by contrast, must be felled and replanted, with decades before the next harvest.\n3. Bamboo is technically a grass, yet some species grow nearly a metre in a single day.\n4. This speed, combined with its strength, has made it attractive as a substitute for timber.",
         "answer": "3412",
-        "explanation": "Detailed Solution: Sentence 3 introduces bamboo and its rapid growth rate. Sentence 4 explains how this speed and strength make it a timber alternative. Sentence 1 explains its harvesting properties, and Sentence 2 contrasts this directly with timber trees."
+        "explanation": "Sentence 3 introduces bamboo and its growth rate. Sentence 4 ('This speed') builds on it and brings in timber. Sentence 1 explains sustainable harvesting. Sentence 2 ('Timber trees, by contrast') closes the comparison. Order: 3-4-1-2."
       },
       {
         "id": 28,
@@ -482,7 +482,7 @@
           "Default options are the most effective of all policy instruments for improving employee pension savings and welfare"
         ],
         "answer": 0,
-        "explanation": "Detailed Solution: The author's final paragraph explicitly concludes that nudges are defensible only under specific conditions: when they are transparent, easily reversed, and aligned with what individuals would reflectively endorse."
+        "explanation": "The last paragraph says nudges are 'defensible where they are transparent, easily reversed and aligned with what people themselves would endorse on reflection, and suspect wherever they depend on being unnoticed'. (B) is too extreme, (C) is the defenders' point that the author says proves less than it seems, and (D) is not claimed."
       },
       {
         "id": 29,
@@ -501,7 +501,7 @@
           "allows firms rather than governments to design the choice architecture in the public interest"
         ],
         "answer": 2,
-        "explanation": "Detailed Solution: The term combines 'libertarian' (nobody's options are removed / freedom preserved) and 'paternalism' (steering choices in a welfare-enhancing direction)."
+        "explanation": "The passage says: 'nobody's options are removed, yet the architecture of choice leans in a welfare-enhancing direction.' Libertarians are reassured by the freedom retained; paternalists by the steering. The other options describe features never mentioned."
       },
       {
         "id": 30,
@@ -520,7 +520,7 @@
           "weak, as people are rarely influenced in practice by supermarket layouts or the design of apps"
         ],
         "answer": 0,
-        "explanation": "Detailed Solution: The author notes that while the defenders' point is fair, it only proves that private actors should be restrained rather than giving a free pass for state manipulation."
+        "explanation": "The author calls it 'a fair point, but it proves less than it seems', concluding that private manipulation justifies restraining private actors, 'not a licence for the state to do likewise'. (B), (C) and (D) either endorse or dismiss the reply entirely."
       },
       {
         "id": 31,
@@ -539,7 +539,7 @@
           "critics of nudging are wrong to assume that people ever deliberate before they choose between options"
         ],
         "answer": 0,
-        "explanation": "Detailed Solution: Because options must be arranged in some order or default structure, whatever layout is chosen will inherently influence selection, meaning pure neutrality is impossible."
+        "explanation": "'Every choice must be presented somehow' means that there is no neutral way of presenting options; every format has some influence. The other options draw conclusions about government restraint, financial decisions or deliberation that do not follow."
       },
       {
         "id": 32,
@@ -558,7 +558,7 @@
           "Private actors already steer behaviour through features such as supermarket layouts and app design"
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: The passage never claims that default enrolment lowers pension savings; rather, it uses pensions as an illustration of welfare-enhancing default enrolment."
+        "explanation": "(B), (C) and (D) appear in the passage: firms may steer toward 'their own margins'; nudges that circumvent reasoning sit 'uneasily with the ideal of citizens as reasoners'; and supermarket layouts and app designs are cited. The passage presents default enrolment as an illustration of a nudge, and never says it lowers savings, so (A) is the exception."
       },
       {
         "id": 33,
@@ -577,7 +577,7 @@
           "detached neutrality, since the passage merely reports both camps without any view"
         ],
         "answer": 0,
-        "explanation": "Detailed Solution: The author accepts nudges under strict conditions (transparency, reversibility) while expressing clear worries about covert manipulation and circumvention of reasoning."
+        "explanation": "The author gives conditions under which nudges are 'defensible' and flags concealment as 'suspect'. That is qualified acceptance. The author evidently takes a position ('a fair point, but it proves less than it seems'), so (D) fails; (A) and (C) are too extreme."
       },
       {
         "id": 34,
@@ -596,7 +596,7 @@
           "the Mercator projection should be replaced in school atlases by projections that preserve the true size of every region"
         ],
         "answer": 2,
-        "explanation": "Detailed Solution: The passage argues that maps are not neutral scale copies of the world but arguments reflecting specific choices, omissions, and purposes."
+        "explanation": "The opening says a map 'is an argument', and the passage ends by advising readers to ask 'what it was drawn to help someone do'. (B) is explicitly rejected ('a mistake to conclude... the search for accuracy is naive'); (C) and (D) take up supporting examples as if they were the main point."
       },
       {
         "id": 35,
@@ -615,7 +615,7 @@
           "straight lines of constant compass bearing are impossible to represent on any flat map of the globe"
         ],
         "answer": 0,
-        "explanation": "Detailed Solution: Mercator designed it for navigation, but its use in school atlases created an unintended visual hierarchy (making Europe loom larger than Africa)."
+        "explanation": "Mercator served navigators, but its later use in school atlases made Europe loom larger, 'without anyone intending it'. (B) contradicts 'without anyone intending it'; (C) overstates ('the only context'); (D) contradicts the passage, which says Mercator did provide such lines."
       },
       {
         "id": 36,
@@ -634,7 +634,7 @@
           "colonial officials intentionally falsified surveys in order to deprive local communities of their lands"
         ],
         "answer": 0,
-        "explanation": "Detailed Solution: By excluding seasonal routes and marking river borders, the survey actively dictated land ownership and legal claims rather than passively describing ground truth."
+        "explanation": "The survey 'did not merely describe a territory; it prepared the ground for who would be allowed to own it'. The passage does not mention technical ignorance, shifting rivers or deliberate falsification."
       },
       {
         "id": 37,
@@ -653,7 +653,7 @@
           "cartographers are generally unaware of the political effects that their maps eventually have"
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: Maps actively structure legal ownership and political reality (making power) rather than acting as passive mirrors of existing conditions."
+        "explanation": "'Follow' means reflect something already existing; 'help to make' means create. The statement is about maps' causal role in shaping power. It makes no claims about exaggerated territories, accuracy depending on power, or cartographers' awareness."
       },
       {
         "id": 38,
@@ -672,7 +672,7 @@
           "a map departing from geography can still be honest if it serves its purpose"
         ],
         "answer": 3,
-        "explanation": "Detailed Solution: The railway diagram abandons geographic literalism to show connections clearly, proving that omission or distortion does not equal falsehood if it successfully serves its function."
+        "explanation": "The diagram 'is not lying; it is answering the traveller's question', so departing from geography is not dishonest when purpose is served. The other options over-generalise (exempt category, accuracy irrelevant to all maps, propaganda impossible)."
       },
       {
         "id": 39,
@@ -691,7 +691,7 @@
           "A map's choices may carry consequences that were never intended by the people who made it"
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: The author explicitly values maps based on how well they answer specific user needs (like railway diagrams vs misleading school projections), so the claim that no map can be judged better than another would be rejected."
+        "explanation": "The author rejects the idea that the search for accuracy is naive and recommends judging maps by purpose, which implies some maps serve their purpose better than others. (B), (C) and (D) restate the author's own views."
       },
       {
         "id": 40,
@@ -710,7 +710,7 @@
           "Narrow specialisation carries a hidden cost, which rewarding some broad researchers could help offset"
         ],
         "answer": 3,
-        "explanation": "Detailed Solution: The passage acknowledges the necessity of specialization while highlighting its hidden cost (cross-disciplinary blindness) and proposes rewarding generalist, broad thinkers as a corrective remedy."
+        "explanation": "The author accepts the defence of specialisation as 'largely correct' but points to a hidden cost and proposes rewarding a few broad researchers. (B) overstates ('a mistake'); (C) is criticised as having drawbacks; (D) is the defenders' view, which the author qualifies."
       },
       {
         "id": 41,
@@ -729,7 +729,7 @@
           "prove that interdisciplinary teams have already succeeded in solving the most urgent medical problems"
         ],
         "answer": 2,
-        "explanation": "Detailed Solution: Antibiotic resistance is used as a prime example of real-world problems that span multiple departments (microbiology, economics, administration) which narrow specialists cannot grasp simultaneously."
+        "explanation": "The passage says antibiotic resistance is 'at once a problem of microbiology, economics and hospital administration, and no specialist is trained to see all three'. It does not claim neglect, give administrators authority, or credit teams with success."
       },
       {
         "id": 42,
@@ -748,7 +748,7 @@
           "translation between fields drains effort, and credit favours the senior member's field"
         ],
         "answer": 3,
-        "explanation": "Detailed Solution: The text explicitly lists the drawbacks of teams: members waste energy translating terminology, leaving little room for original thought, and hierarchical credit distribution flaws."
+        "explanation": "The passage names two difficulties: effort lost translating between vocabularies, and credit flowing to 'the home discipline of the most senior member'. The other options (lack of training, junior dominance, expense) are never mentioned."
       },
       {
         "id": 43,
@@ -767,7 +767,7 @@
           "largely correct but incomplete, since it overlooks a cost not visible in single papers"
         ],
         "answer": 3,
-        "explanation": "Detailed Solution: The author affirms that the defense is 'largely correct' regarding the vastness of knowledge, but adds that it is incomplete because it ignores the cross-departmental blind spots."
+        "explanation": "'The defence is largely correct, yet it hides a cost that is easy to overlook because it does not appear in any single paper.' This is neither a rejection nor full agreement. The author argues for only 'a few' generalists, so (C) is also wrong."
       },
       {
         "id": 44,
@@ -786,7 +786,7 @@
           "training every specialist to translate between the vocabularies of the neighbouring fields"
         ],
         "answer": 2,
-        "explanation": "Detailed Solution: The author directly states that the remedy is to ensure select researchers are rewarded for being broad rather than deep."
+        "explanation": "The remedy is 'to ensure that a few researchers are rewarded for being broad rather than deep'. Larger teams, fewer departments, and universal translation training are not proposed, and the first is the approach the author finds problematic."
       },
       {
         "id": 45,
@@ -805,7 +805,7 @@
           "Antibiotic Resistance: A Case Study in Hospital Administration"
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: The passage examines how narrow expertise yields specialized depth while introducing an invisible cost across silos, making 'The Overlooked Cost of Narrow Expertise' an ideal summary title."
+        "explanation": "The passage concerns the hidden cost of specialisation and a remedy. (B) overstates ('always fail'); (C) misrepresents the naturalists, who appear only as a contrast; (D) takes a single example for the whole subject."
       }
     ]
   }
