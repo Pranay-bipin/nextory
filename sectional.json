@@ -1,986 +1,505 @@
 [
-  {
-    "title": "IPMAT VA Sectional – 18th Oct 2026",
-    "date": "2026-10-18",
-    "section": "Verbal Ability",
-    "total_questions": 45,
-    "duration_minutes": 45,
-    "pattern": {
-      "MCQ": 40,
-      "TITA (Parajumbles)": 5,
-      "RC_passages": 3,
-      "questions_per_RC": 6,
-      "CA_passages": 1,
-      "questions_per_CA": 3
-    },
-    "passages": {
-      "RC1": {
-        "title": "Compute as statecraft: the geopolitics of artificial intelligence",
-        "text": "For most of the twentieth century, strategic rivalry among states was conducted over tangible commodities: oil fields, shipping lanes, enriched uranium. The twenty-first century has added a stranger asset to the list: computational capacity. The advanced semiconductors that train and run large AI models emerge from a supply chain so concentrated that a handful of firms, in a handful of jurisdictions, hold chokepoints at every stage, from the lithography machines that etch circuits to the foundries that manufacture them. It is unsurprising, then, that export controls on these chips, once an obscure instrument of trade policy, have become a central device of great-power competition, and that governments from Washington to Riyadh now speak of \"sovereign AI\" with the urgency once reserved for energy security. The case for sovereignty rests on an intuitive analogy. A country that depends wholly on foreign infrastructure for its AI systems is exposed to the policy whims of supplier states, much as an oil importer is exposed to embargoes. Proponents add a cultural argument: models trained overwhelmingly on English-language data from a few societies encode the assumptions of those societies, and nations whose languages and legal traditions are thinly represented risk receiving digital services that misread them. Building domestic data centres, national language models and public compute facilities is therefore presented as a hedge against both coercion and cultural flattening. Yet the oil analogy, though serviceable, conceals as much as it reveals. Oil is a consumable; once burned it is gone, but its possession confers a persistent advantage. Compute depreciates with startling speed, since each generation of hardware renders the previous one economically obsolete within a few years. A state that spends heavily to stockpile today's accelerators may find itself holding the strategic equivalent of last year's newspapers. Moreover, the most valuable inputs to AI capability are not merely physical. Talent, research culture and the ability to deploy models across an economy matter at least as much as raw hardware, and none of these can be purchased in a single procurement cycle. Several analysts have noted that diffusion, meaning the speed with which firms and ministries actually adopt the technology, may prove a better predictor of national benefit than frontier training capacity. Export controls illustrate the difficulty of calibrating policy in a fast-moving field. Their architects hope to slow a rival's military applications without crippling the legitimate commercial trade on which their own firms depend for revenue. But controls impose costs on those who impose them: they invite retaliation through restrictions on critical minerals, they push targeted nations to invest massively in indigenous substitutes, and they erode the market share that finances the next generation of research. Sceptics argue that a restriction meant to preserve a lead may, over a sufficiently long horizon, manufacture the very competitor it was meant to forestall. Defenders respond that the relevant horizon is not decades but years, and that delay during a period of rapid capability growth is itself a strategic good. The disagreement, in other words, is less about facts than about time preferences. Middle powers face the most delicate choices. India, for instance, possesses a vast pool of engineering talent and an admired record in digital public infrastructure, but limited domestic fabrication capacity and a modest installed base of advanced accelerators. Gulf states possess capital and cheap energy but thin research ecosystems. Neither can plausibly match the largest players across the entire stack. Their rational strategy, many argue, is selective: build capability in the layers where a comparative advantage exists, such as applications, language-specific models and regulatory frameworks, while securing access to the rest through diversified partnerships rather than pursuing autarky. Such hedging is uncomfortable, because it requires trusting suppliers whom the sovereignty narrative teaches one to distrust. There is also an environmental dimension that the rhetoric of sovereignty tends to skip. Large data centres consume electricity and water on a scale that strains local grids, and the race to host them can pit national ambitions against regional resource constraints. A nation that attains computational independence by draining its aquifers or delaying its decarbonisation has purchased security at a price its citizens may later contest. What emerges is not a case against investment but a case against slogans. Sovereignty in AI is best understood as a spectrum of dependencies, each with its own cost of mitigation, rather than a binary status that a country either attains or lacks. The policymaker's task is to decide which dependencies are tolerable, which are dangerous, and which can be converted into mutual interdependence that deters coercion by making it costly for every side."
-      },
-      "RC2": {
-        "title": "The adaptation gap: who pays when the climate has already changed?",
-        "text": "Climate diplomacy has long been organised around mitigation, the reduction of greenhouse gas emissions, because mitigation offers a clean metric and a shared global benefit: a tonne of carbon not emitted helps everyone. Adaptation, the effort to live with changes already under way, has been the neglected sibling. Its benefits are local, its outcomes are harder to measure, and its beneficiaries are disproportionately those who contributed least to the problem. Seawalls in Bangladesh, heat-resilient housing in Ahmedabad or drought-tolerant seed varieties in the Sahel yield no tradable credit and no headline-friendly global statistic. Consequently, even as extreme heat, floods and cyclones impose growing costs, money earmarked for adaptation has consistently lagged behind estimated needs by a wide margin, a shortfall that international agencies now routinely call the \"adaptation gap\". Part of the difficulty is definitional. Rich countries, under pressure to demonstrate that they have honoured their pledges, have been accused of labelling loans, export credits and even general development aid as \"climate finance\". A road upgraded with a nominal reference to flood resilience may be counted in full. Recipients argue that such accounting inflates headline totals while delivering little that is additional to what development assistance would have provided anyway. Donors reply that a sharp line between development and adaptation is artificial, since a village with a functioning clinic and irrigation is, after all, more resilient, and that insisting on purity would starve ambiguous but valuable projects. Both claims contain truth, which is precisely why the dispute has proved so durable. The form of finance matters as much as its volume. A substantial portion of adaptation support arrives as loans rather than grants. For a middle-income country already servicing heavy external debt, borrowing to repair infrastructure destroyed by a flood can deepen the very fiscal fragility that leaves it exposed to the next one. Economists describe a vicious circle: climate shocks raise borrowing costs, higher borrowing costs reduce the capacity to invest in resilience, and diminished resilience magnifies the damage of the next shock. Proposals to break the cycle include disaster clauses that pause debt repayment after a catastrophe and the expansion of concessional lending windows at multilateral banks. Critics warn, however, that such features, if poorly designed, may raise borrowing costs for countries perceived as disaster-prone, penalising precisely the vulnerable. A related controversy concerns \"loss and damage\", meaning compensation for harm that adaptation cannot avert, such as the disappearance of low-lying islands or the permanent loss of ancestral farmland. For years, wealthy nations resisted a dedicated mechanism, fearing that acknowledging liability would open an unbounded legal and financial exposure. The eventual creation of a fund, though welcomed as a symbolic breakthrough, has been followed by scepticism about its scale, which is minuscule relative to estimated annual damages. Symbolism, as vulnerable nations observe, does not rebuild a coastline. Private capital is frequently proposed as the missing piece, but the economics are awkward. Mitigation projects such as solar farms generate revenue streams that investors can price. Many adaptation projects, by contrast, generate avoided losses rather than cash: a drainage system that spares a city from flooding produces no invoice for the disaster that never occurred. Without public guarantees or novel instruments, such as resilience bonds whose returns depend on avoided damages, private investors have little reason to participate. Hence the paradox that the projects with the strongest social returns are often the least commercially attractive. Domestic action, importantly, need not wait for international generosity. Cities that have introduced heat action plans, with staggered working hours, early warning systems, cool roofs and public shelters, have shown that comparatively inexpensive measures can sharply reduce mortality. Such interventions rarely demand external funding, but they do demand administrative capacity and political will, both scarce where climate hazards compete for attention with more immediate crises. This suggests that the adaptation gap is not purely financial; it is also institutional. Money without implementation capacity is wasted, and capacity without money is frustrated. The realistic conclusion is neither despair nor complacency. Adaptation will remain under-financed relative to need for the foreseeable future, which makes prioritisation unavoidable. The task for donors and recipients alike is to direct scarce resources to where they avert the most loss per rupee or dollar spent, to be transparent about what counts as additional support, and to design instruments that do not trap the vulnerable in debt. The harder task, which no ledger can capture, is to sustain the political will to treat a problem whose victims are distant, and whose solutions are unglamorous, as a matter of common responsibility."
-      },
-      "RC3": {
-        "title": "The algorithmic foreman: gig work and the redesign of employment",
-        "text": "When ride-hailing and delivery platforms first expanded across Indian cities, their pitch to workers was liberation. No fixed hours, no boss, no commute to a factory gate: only an app, a vehicle and the freedom to log in whenever convenient. For millions with limited formal credentials, the proposition offered a faster route to income than the slow queue for salaried employment. A decade on, however, a more ambiguous picture has emerged. The platform has replaced the human supervisor but not the supervision. Instead of a manager there is an algorithm that assigns tasks, sets prices, monitors acceptance rates and, in some cases, deactivates accounts with little explanation. Scholars call this arrangement algorithmic management, and its defining feature is a peculiar asymmetry: workers are formally independent yet practically subordinate. Legal systems built around the twentieth-century factory struggle with this hybrid. Labour law traditionally divides the world into employees, who receive protections in exchange for subordination, and independent contractors, who receive neither but retain autonomy. Platform work resists the binary. Workers choose their hours but not their rates; they own their vehicles but cannot negotiate fares; they may reject jobs but risk a lower ranking when they do. Courts in different jurisdictions have reached divergent conclusions, some classifying drivers as employees, others upholding contractor status, and a few inventing intermediate categories. The lack of convergence is not mere judicial inconsistency; it reflects a genuine conceptual strain. Platforms defend the contractor model on grounds that deserve more attention than critics usually grant. Their business, they argue, depends on elastic labour supply: because demand fluctuates by the hour, an obligation to guarantee minimum hours would compel them to engage far fewer people. Surveys frequently reveal that many workers value flexibility, particularly students, women balancing domestic duties and those holding second jobs. A reclassification that eliminated such flexibility might leave many worse off, reducing access to income for those with the fewest alternatives. This argument is empirically testable, but it is not easily dismissed. Nonetheless, the flexibility defence has a blind spot. Flexibility is valuable when workers genuinely control it, yet algorithmic incentives can erode that control. Bonuses tied to peak-hour work, penalties for refusing assignments and opaque rating systems create what researchers describe as \"soft compulsion\": a worker is free to log off, but doing so risks forfeiting income that has been structured to depend on constant availability. Under such conditions, flexibility is formal rather than substantive. The distinction matters, because a worker who labours twelve hours because she wishes to differs from one who does so because the pay structure punishes anything less. India's response has been to attempt a middle path through social security legislation rather than reclassification. Recent labour reforms recognise gig and platform workers as a distinct category, enabling schemes funded partly by contributions from aggregators linked to their turnover, and several states have passed welfare laws of their own. The approach acknowledges that the debate over employee status may be less urgent than the practical question of whether a delivery rider injured on the road can reach healthcare or income support. Sceptics note, however, that implementation depends on registration and on the portability of benefits across platforms, both of which require data that platforms hold and are reluctant to share. A scheme that cannot identify its beneficiaries cannot pay them. Transparency is the other front. Workers often cannot determine why an order went to a colleague, why earnings dropped overnight or why an account was suspended. Proposals to require explanations for automated decisions, together with a human point of appeal, are gaining ground in several jurisdictions. Platforms object that disclosing the logic of their algorithms would invite manipulation and expose trade secrets. A compromise might require disclosure of the factors that influence decisions without publishing their exact weighting, though sceptics doubt that such partial transparency would mean much to a worker trying to contest an outcome. Beneath the policy detail lies a larger question about what society expects of employment. The factory era bundled income, security and identity into a single contract, and regulation was built around that bundle. Platform work unbundles it, offering income and flexibility without security, and compels societies to decide which elements of the bundle are rights and which are privileges. Whether the answer takes the form of reclassification, portable benefits or something yet unnamed, it will probably be judged by a simple test: whether those who do the work can count on something beyond the next order."
-      },
-      "CA1": {
-        "title": "Conversation: Is the digital rupee a solution in search of a problem? (Policy Dialogues)",
-        "text": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nMeera Kapoor (Economics Editor): India's UPI moves billions of transactions a month at near-zero cost to users, and the central bank has simultaneously been piloting a digital rupee. Is the state duplicating what the market already does well?\n\nProf. Arvind Rao (Monetary Economist): Not necessarily duplicating, but the rationale needs clearer articulation. UPI is a payment rail; it moves bank deposits. A central bank digital currency, or CBDC, is a direct claim on the central bank. That distinction matters in a crisis, when depositors may prefer the safest asset, and it matters for the programmability of money. But if the aim is merely cheaper retail payments, UPI has already won that race.\n\nNisha Bhatt (Fintech Founder): I would go further. A retail CBDC risks disintermediating banks. If citizens can hold digital central bank money, deposits could migrate during stress, which is exactly the instability the system is designed to prevent. Wholesale use, meaning interbank settlement, is where the case is strongest, because settlement is where friction still exists.\n\nProf. Arvind Rao: The concern is real but manageable through holding limits. The more serious question, to my mind, is privacy. Cash is anonymous; a CBDC, by design, generates a ledger the state can potentially read. Whether the safeguards are statutory or merely administrative will determine public trust.\n\nMeera Kapoor: So is the digital rupee a solution in search of a problem?\n\nNisha Bhatt: A solution whose problem is not yet visible, which may be acceptable for infrastructure. Nobody needed the highway before there were cars. But I would rather the state clarified the problem before the cars arrive."
-      }
-    },
-    "questions": [
-      {
-        "id": 1,
-        "section": "VA",
-        "category": "Sentence Completion",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "The council's ostensibly ________ resolution, hedged with exemptions and review clauses, bound its members to virtually nothing.",
-        "options": [
-          "noncommittal",
-          "categorical",
-          "tentative",
-          "equivocal"
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Describes what the resolution actually was, not how it seemed. The blank needs the apparent quality; this is the trap. (B) 'Ostensibly' signals a gap between appearance and reality. The resolution appeared absolute ('categorical') but was hedged into emptiness. (C) Again describes the real nature of the resolution; 'ostensibly' demands the opposite. (D) Same error: it matches the hedging, but the sentence needs the surface impression."
-      },
-      {
-        "id": 2,
-        "section": "VA",
-        "category": "Sentence Completion",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "The minister's reply was a study in ________: abundant in words, yet crafted so that no phrase could later be held against him.",
-        "options": [
-          "grandiloquence",
-          "sophistry",
-          "perspicuity",
-          "equivocation"
-        ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) Means pompous, lofty speech. It fits 'abundant in words' but not the purpose of avoiding accountability. (B) Means clever but fallacious reasoning. The sentence is about avoiding commitment, not about faulty argument. (C) Means clarity of expression, the opposite of what is described. (D) 'Equivocation' is deliberately ambiguous speech meant to avoid commitment, matching 'no phrase could be held against him'."
-      },
-      {
-        "id": 3,
-        "section": "VA",
-        "category": "Sentence Completion",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Critics conceded that the economist's model was elegant, but his reliance on ________ data rendered its forecasts ________ in precisely the scenarios where they were most needed.",
-        "options": [
-          "historical; brittle",
-          "contemporaneous; prescient",
-          "sparse; resilient",
-          "voluminous; infallible"
-        ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) Models built on past data tend to snap under unprecedented conditions, which are exactly when forecasts matter most. Both blanks fit. (B) Contemporaneous, prescient forecasts would be praised, not criticised; the 'but' signals a flaw. (C) Sparse data could weaken a model, but 'resilient' contradicts the criticism. (D) 'Infallible' forecasts cannot be a criticism; the tone of the sentence is negative."
-      },
-      {
-        "id": 4,
-        "section": "VA",
-        "category": "Sentence Completion",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Having been repeatedly ________ by flatterers, the monarch grew so insulated from dissent that even ________ counsel was treated as treason.",
-        "options": [
-          "chastened; sycophantic",
-          "rebuked; prudent",
-          "cosseted; candid",
-          "deceived; effusive"
-        ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) 'Chastened' means humbled, which contradicts the effect of flattery. Flattering counsel would not be punished as treason. (B) Being rebuked would not make a monarch insulated from dissent. (C) 'Cosseted' (pampered) explains why he became insulated; once pampered by flattery, honest ('candid') advice looked like treason. (D) 'Deceived' is plausible for the first blank, but 'effusive' counsel would be welcomed, not treated as treason."
-      },
-      {
-        "id": 5,
-        "section": "VA",
-        "category": "Vocabulary",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "The historian's tendentious account of the treaty negotiations was criticised by peers for selecting only those documents that supported her preferred narrative. In this context, 'tendentious' most nearly means:",
-        "options": [
-          "overly elaborate and tediously detailed in presentation",
-          "cautiously exploratory and reluctant to commit to conclusions",
-          "slanted by a partisan agenda",
-          "marked by deep sympathy for all conflicting parties involved"
-        ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) This confuses 'tendentious' with 'tedious'; a look-alike trap. (B) This confuses it with 'tentative'; another look-alike trap. (C) 'Tendentious' means promoting a particular, often controversial, point of view; the selective use of documents confirms this. (D) Selective use of evidence indicates bias, not even-handed sympathy."
-      },
-      {
-        "id": 6,
-        "section": "VA",
-        "category": "Vocabulary",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Which of the following is closest in meaning to the word 'recondite' as used in: 'Her lectures, though brilliant, dwelt on recondite corners of medieval jurisprudence that few students could follow.'",
-        "options": [
-          "esoteric",
-          "rudimentary",
-          "redundant",
-          "reclusive"
-        ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) 'Recondite' means little known and understood only by a few specialists, the same as 'esoteric'. (B) Means basic or elementary, the opposite of recondite. (C) Means unnecessary or repetitive; it does not capture obscurity. (D) Means withdrawn from society; it describes people, not subject matter, and is a sound-alike trap."
-      },
-      {
-        "id": 7,
-        "section": "VA",
-        "category": "Vocabulary",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Choose the word most nearly OPPOSITE in meaning to 'sanguine' as used in: 'Analysts remained sanguine about the quarter's prospects despite the early slowdown.'",
-        "options": [
-          "phlegmatic",
-          "unflappable",
-          "choleric",
-          "despondent"
-        ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) Means calm and unemotional. It is a different trait, not the opposite of optimism. (B) Means calm under pressure. It does not oppose optimism. (C) Means bad-tempered. It concerns temperament, not outlook on the future. (D) 'Sanguine' means optimistic and hopeful; its opposite is 'despondent' (gloomy, hopeless)."
-      },
-      {
-        "id": 8,
-        "section": "VA",
-        "category": "Vocabulary",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Which of the following best explains the expression 'Pyrrhic victory'?",
-        "options": [
-          "A victory that is later overturned by a higher authority",
-          "A win costing the victor ruinously",
-          "A success awarded by default because the rival forfeits",
-          "A narrow triumph secured through unfair or deceitful means"
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Describes a reversal on appeal, which is unrelated to the cost of winning. (B) A Pyrrhic victory is won at such devastating cost that it is almost a defeat; the name comes from King Pyrrhus of Epirus. (C) Describes a walkover, not a costly triumph. (D) Describes an unethical win; the idiom concerns cost, not morality."
-      },
-      {
-        "id": 9,
-        "section": "VA",
-        "category": "Sentence Correction",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Choose the option that is grammatically correct and logically coherent.",
-        "options": [
-          "Having been informed of the delay, the airline rescheduled the flight.",
-          "Having informed of the delay, the flight was rescheduled by the airline.",
-          "Having been informed of the delay, the flight was rescheduled by the airline.",
-          "Informed of the delay, the flight had been rescheduled by the airline."
-        ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) The modifier 'Having been informed' correctly attaches to 'the airline', the entity that received the information. (B) 'Having informed' is ungrammatical here, and the flight cannot inform anyone. (C) Dangling modifier: the flight is not the one that was informed. This is the classic trap. (D) Also a dangling modifier, with an unwarranted shift to the past perfect."
-      },
-      {
-        "id": 10,
-        "section": "VA",
-        "category": "Sentence Correction",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Choose the grammatically correct sentence.",
-        "options": [
-          "Scarcely the results had been announced when the markets began to rally.",
-          "Scarcely had the results been announced when the markets rallied.",
-          "Scarcely had the results been announced than the markets began to rally.",
-          "Scarcely had been the results announced when the markets began to rally."
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Negative adverbial at the start requires inversion; none occurs here. (B) 'Scarcely' takes inversion (had + subject + participle) and pairs with 'when'. (C) Inversion is correct but 'scarcely' pairs with 'when', not 'than' ('no sooner' takes 'than'). (D) Wrong inversion: auxiliary 'had' must be followed by the subject, then 'been announced'."
-      },
-      {
-        "id": 11,
-        "section": "VA",
-        "category": "Sentence Correction",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "The committee insisted that the chairman ________ the audited report before the annual meeting.",
-        "options": [
-          "submits",
-          "has submitted",
-          "would be submitting",
-          "submit"
-        ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) Indicative present is incorrect after 'insisted that'. (B) Present perfect does not fit the mandative construction. (C) 'Would be submitting' expresses a future-in-the-past prediction, not a demand. (D) After verbs of demand or insistence (insist, demand, recommend), the mandative subjunctive uses the base form: 'submit'."
-      },
-      {
-        "id": 12,
-        "section": "VA",
-        "category": "Incorrect Word",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "One of the sentences below contains a word used incorrectly or inappropriately. Choose that sentence.",
-        "options": [
-          "The auditor's perfunctory review, completed in under an hour, overlooked discrepancies that a thorough examination would have caught.",
-          "The treaty abrogated the earlier agreement, rendering all of its provisions void from the date of signing.",
-          "Her laconic reply, running to several rambling paragraphs, enlightened everyone.",
-          "The mediator's impartiality was never in doubt, even among those who disagreed with his final verdict."
-        ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) 'Perfunctory' (done with minimal effort) is used correctly. (B) 'Abrogated' (formally repealed) is used correctly. (C) 'Laconic' means using very few words, which contradicts 'rambling paragraphs'. The intended word is 'verbose' or 'prolix'. (D) 'Impartiality' is used correctly."
-      },
-      {
-        "id": 13,
-        "section": "VA",
-        "category": "Incorrect Word",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "One of the sentences below contains a word used incorrectly or inappropriately. Choose that sentence.",
-        "options": [
-          "The reformer's ephemeral legacy, institutions that endure to this day, transformed the country.",
-          "The prosecutor's tenacious cross-examination eventually forced the witness to contradict his earlier testimony.",
-          "The firm's parsimonious budgeting ensured that not a single rupee was spent without clear justification.",
-          "The diplomat's obsequious deference to the visiting minister earned him a reputation for fawning."
-        ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) 'Ephemeral' means short-lived, which contradicts 'institutions that endure'. The intended word is 'enduring' or 'lasting'. (B) 'Tenacious' (persistent) is used correctly. (C) 'Parsimonious' (extremely frugal) is used correctly. (D) 'Obsequious' (excessively servile) is used correctly."
-      },
-      {
-        "id": 14,
-        "section": "VA",
-        "category": "Incorrect Word",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "One of the sentences below contains a word used incorrectly or inappropriately. Choose that sentence.",
-        "options": [
-          "The senator's mendacious assurances were exposed once the confidential documents were released.",
-          "The conflicting accounts of the incident made a definitive verdict frustratingly elusive.",
-          "Years of austere living had left the monk indifferent to material comfort and public acclaim.",
-          "The inchoate plan, fully detailed and ready for execution, won swift approval."
-        ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) 'Mendacious' (lying) is used correctly. (B) 'Elusive' (hard to pin down) is used correctly. (C) 'Austere' (severely simple) is used correctly. (D) 'Inchoate' means only just begun or undeveloped, which contradicts 'fully detailed and ready for execution'."
-      },
-      {
-        "id": 15,
-        "section": "VA",
-        "category": "Paracompletion",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Public debate about artificial intelligence oscillates between utopian promise and apocalyptic dread. ____________. Neither narrative asks the humbler questions: who audits these systems, who bears the cost of their errors, and who profits when they succeed? Such questions, though less cinematic, decide how the technology actually reshapes ordinary lives.",
-        "options": [
-          "Most economists have concluded that technological change eventually raises employment in virtually every sector of the economy.",
-          "Both framings, though opposed, fix attention on the technology's destiny rather than on its governance.",
-          "The most dependable forecasts about artificial intelligence have come from software engineers rather than from regulators or ethicists.",
-          "Dread, historically, has proved a more accurate guide to technological outcomes than optimism has ever been."
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Shifts to employment, which the paragraph never discusses. (B) It links 'oscillates between promise and dread' with 'neither narrative asks' about governance, which is the bridge the paragraph needs. (C) Introduces a comparison of engineers and regulators that the next sentences do not use. (D) Makes a historical claim that is not supported or followed up."
-      },
-      {
-        "id": 16,
-        "section": "VA",
-        "category": "Paracompletion",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Markets are often portrayed as impersonal mechanisms that merely aggregate preferences. ____________. A default option on a screen, a pricing rule, or the order in which products appear shapes what people choose before any preference is expressed. To regard markets as neutral is to overlook those who design the stage.",
-        "options": [
-          "Consumers in developed economies spend an increasing share of their income on goods purchased through digital channels.",
-          "Economists have long maintained that regulation of any kind reduces the efficiency with which markets allocate resources.",
-          "Yet the architecture within which choices are presented is itself the product of human design.",
-          "Competition among sellers tends to lower prices, which in turn increases the volume of goods that households purchase."
-        ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) Talks about spending patterns; it does not connect to design or neutrality. (B) Talks about regulation, which the paragraph never raises. (C) 'Yet' reverses the 'impersonal mechanism' claim and leads into 'those who design the stage'. (D) Talks about competition and prices, not the design of choice."
-      },
-      {
-        "id": 17,
-        "section": "VA",
-        "category": "Paracompletion",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "The popular image of scientific progress is one of solitary geniuses making sudden leaps. ____________. Behind each celebrated discovery lie decades of patient measurement, failed experiments, and collaboration among people whose names rarely survive in textbooks. The leap, in other words, is usually visible only in hindsight.",
-        "options": [
-          "This image is dramatic, but it misrepresents how knowledge is actually assembled.",
-          "Funding for scientific research has grown steadily in most major economies over the last several decades of peace.",
-          "Textbooks should therefore be rewritten so that every contributing researcher is credited by name in each chapter.",
-          "Many celebrated geniuses worked alone in remote laboratories and shared their findings with no one until publication."
-        ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) It sets up the contrast that the following sentences develop: collective, incremental work versus the solitary-genius myth. (B) Funding is not discussed anywhere in the paragraph. (C) A prescriptive claim ('should be rewritten') that the paragraph does not support. (D) Supports the myth that the paragraph is refuting."
-      },
-      {
-        "id": 18,
-        "section": "VA",
-        "category": "Paragraph Summary",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Which of the following best summarises the paragraph?\n\nUrban heat is often attributed solely to rising global temperatures, but local design choices amplify it. Dark rooftops, dense concrete and sparse tree cover trap heat that would otherwise dissipate at night, producing temperatures several degrees higher in city centres than in the surrounding countryside. Because these features are products of planning rather than of climate, they can be altered by planning, and cool roofs, shade trees and reflective pavements are among the cheapest interventions available.",
-        "options": [
-          "Global warming is the sole driver of urban heat, so cities can do little beyond adapting to it.",
-          "Cool roofs and shade trees are costly interventions whose benefits remain largely theoretical.",
-          "City centres run hotter than the countryside chiefly because of dense populations and vehicular emissions.",
-          "Planning choices magnify urban heat, so cities can curb it through cheap design changes."
-        ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) Contradicts the opening sentence, which says design amplifies warming. (B) Contradicts 'among the cheapest interventions available'. (C) Introduces population and vehicles, which the paragraph never mentions. (D) Captures both claims: design amplifies heat, and design-based fixes are inexpensive."
-      },
-      {
-        "id": 19,
-        "section": "VA",
-        "category": "Odd Sentence Out",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Three of the following four sentences relate to a common theme. Choose the sentence that does not belong.",
-        "options": [
-          "Erratic monsoon onset has compelled farmers to delay sowing in several districts.",
-          "Declining groundwater tables have forced many cultivators to deepen their borewells.",
-          "The minister opened a new airport terminal last week.",
-          "Crop insurance claims have risen as unseasonal rain damages standing harvests."
-        ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) Weather-driven stress on farming. (B) Water scarcity affecting cultivators. (C) It concerns infrastructure for air travel; the other three deal with agrarian stress linked to water and weather. (D) Weather-related crop losses and insurance."
-      },
-      {
-        "id": 20,
-        "section": "VA",
-        "category": "Parajumbles",
-        "difficulty": "Hard",
-        "type": "tita",
-        "marks": 4,
-        "negative_marking": 0,
-        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer (for example, 12345).\n1. As a result, the same rate increase can cool one segment of credit within months while leaving another virtually untouched for a year.\n2. Central banks raise policy rates in the expectation that borrowing costs across the economy will follow.\n3. Policy, therefore, is only as effective as the plumbing through which it flows.\n4. In practice, the pace of this transmission depends on how loans are priced, since loans linked to external benchmarks adjust quickly while those tied to internal cost measures adjust sluggishly.\n5. This expectation, however, assumes that banks pass the change on to borrowers without delay.",
-        "sentences": [
-          "As a result, the same rate increase can cool one segment of credit within months while leaving another virtually untouched for a year.",
-          "Central banks raise policy rates in the expectation that borrowing costs across the economy will follow.",
-          "Policy, therefore, is only as effective as the plumbing through which it flows.",
-          "In practice, the pace of this transmission depends on how loans are priced, since loans linked to external benchmarks adjust quickly while those tied to internal cost measures adjust sluggishly.",
-          "This expectation, however, assumes that banks pass the change on to borrowers without delay."
-        ],
-        "options": [],
-        "answer": "25413",
-        "explanation": "Detailed Solution: Sentence 2 introduces the idea. Sentence 5 ('This expectation') challenges it. Sentence 4 explains 'this transmission' in practice. Sentence 1 ('As a result') gives the consequence. Sentence 3 ('therefore') concludes. Order: 2-5-4-1-3."
-      },
-      {
-        "id": 21,
-        "section": "VA",
-        "category": "Parajumbles",
-        "difficulty": "Hard",
-        "type": "tita",
-        "marks": 4,
-        "negative_marking": 0,
-        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer (for example, 12345).\n1. Midday generation therefore floods the grid, depressing prices and sometimes forcing producers to curtail output.\n2. Yet storage at grid scale remains expensive, and its economics depend on whether the price gap between midday and evening is wide enough to repay the investment.\n3. Ironically, the very glut that storage is meant to remedy narrows that gap as more batteries enter the market.\n4. Solar power's cheapest hours rarely coincide with the hours of greatest demand.\n5. Batteries promise to shift this surplus into the evening, when households switch on lights and appliances.",
-        "sentences": [
-          "Midday generation therefore floods the grid, depressing prices and sometimes forcing producers to curtail output.",
-          "Yet storage at grid scale remains expensive, and its economics depend on whether the price gap between midday and evening is wide enough to repay the investment.",
-          "Ironically, the very glut that storage is meant to remedy narrows that gap as more batteries enter the market.",
-          "Solar power's cheapest hours rarely coincide with the hours of greatest demand.",
-          "Batteries promise to shift this surplus into the evening, when households switch on lights and appliances."
-        ],
-        "options": [],
-        "answer": "41523",
-        "explanation": "Detailed Solution: Sentence 4 states the mismatch. Sentence 1 ('therefore') gives its effect. Sentence 5 introduces batteries as the remedy ('this surplus'). Sentence 2 ('Yet') raises the cost problem. Sentence 3 ('Ironically', 'that gap') closes with the paradox. Order: 4-1-5-2-3."
-      },
-      {
-        "id": 22,
-        "section": "VA",
-        "category": "Parajumbles",
-        "difficulty": "Hard",
-        "type": "tita",
-        "marks": 4,
-        "negative_marking": 0,
-        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer (for example, 12345).\n1. Resilience, in short, is an insurance premium that someone must eventually pay.\n2. For decades, firms treated inventory as waste and organised supply chains to hold as little of it as possible.\n3. Companies have since begun to hold buffer stocks and to diversify suppliers, a practice often described as 'just-in-case' management.\n4. The pandemic and subsequent shipping disruptions exposed the fragility of such leanness, as a single delayed component could halt an entire assembly line.\n5. This shift, however, is not costless, for redundancy raises expenses that must be recovered through higher prices or thinner margins.",
-        "sentences": [
-          "Resilience, in short, is an insurance premium that someone must eventually pay.",
-          "For decades, firms treated inventory as waste and organised supply chains to hold as little of it as possible.",
-          "Companies have since begun to hold buffer stocks and to diversify suppliers, a practice often described as 'just-in-case' management.",
-          "The pandemic and subsequent shipping disruptions exposed the fragility of such leanness, as a single delayed component could halt an entire assembly line.",
-          "This shift, however, is not costless, for redundancy raises expenses that must be recovered through higher prices or thinner margins."
-        ],
-        "options": [],
-        "answer": "24351",
-        "explanation": "Detailed Solution: Sentence 2 sets the old practice. Sentence 4 ('such leanness') shows its failure. Sentence 3 describes the response ('since'). Sentence 5 ('This shift, however') notes the cost. Sentence 1 ('in short') concludes. Order: 2-4-3-5-1."
-      },
-      {
-        "id": 23,
-        "section": "VA",
-        "category": "Parajumbles",
-        "difficulty": "Hard",
-        "type": "tita",
-        "marks": 4,
-        "negative_marking": 0,
-        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer (for example, 12345).\n1. The rise of facial recognition in public spaces has been defended as a tool for locating missing persons and deterring crime.\n2. Without clear answers to these questions, even a technically accurate system can be used to chill lawful protest.\n3. Such defences, though sincere, tend to treat the technology as a neutral instrument rather than as a system embedded in institutions.\n4. The debate, then, concerns not the accuracy of the algorithm but the accountability of those who wield it.\n5. Those institutions determine who is placed on watchlists, how long images are retained, and who may query the database.",
-        "sentences": [
-          "The rise of facial recognition in public spaces has been defended as a tool for locating missing persons and deterring crime.",
-          "Without clear answers to these questions, even a technically accurate system can be used to chill lawful protest.",
-          "Such defences, though sincere, tend to treat the technology as a neutral instrument rather than as a system embedded in institutions.",
-          "The debate, then, concerns not the accuracy of the algorithm but the accountability of those who wield it.",
-          "Those institutions determine who is placed on watchlists, how long images are retained, and who may query the database."
-        ],
-        "options": [],
-        "answer": "13524",
-        "explanation": "Detailed Solution: Sentence 1 states the defence. Sentence 3 ('Such defences') critiques it. Sentence 5 ('Those institutions') elaborates. Sentence 2 ('these questions') draws the risk. Sentence 4 ('then') concludes. Order: 1-3-5-2-4."
-      },
-      {
-        "id": 24,
-        "section": "VA",
-        "category": "Parajumbles",
-        "difficulty": "Hard",
-        "type": "tita",
-        "marks": 4,
-        "negative_marking": 0,
-        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer (for example, 12345).\n1. Early evaluations, however, found that while borrowers' businesses grew modestly, few households crossed the poverty line.\n2. The lesson is not that credit is useless, but that it works best as one component of a larger package.\n3. Microfinance was once hailed as a self-sustaining route out of poverty.\n4. The reason, researchers suggest, is that small loans rarely finance enterprises large enough to employ anyone beyond the borrower's own family.\n5. Attention has accordingly shifted from credit alone towards bundled support such as training, savings and insurance.",
-        "sentences": [
-          "Early evaluations, however, found that while borrowers' businesses grew modestly, few households crossed the poverty line.",
-          "The lesson is not that credit is useless, but that it works best as one component of a larger package.",
-          "Microfinance was once hailed as a self-sustaining route out of poverty.",
-          "The reason, researchers suggest, is that small loans rarely finance enterprises large enough to employ anyone beyond the borrower's own family.",
-          "Attention has accordingly shifted from credit alone towards bundled support such as training, savings and insurance."
-        ],
-        "options": [],
-        "answer": "31452",
-        "explanation": "Detailed Solution: Sentence 3 introduces the claim. Sentence 1 ('however') qualifies it. Sentence 4 gives the reason. Sentence 5 ('accordingly') shows the response. Sentence 2 states the lesson. Order: 3-1-4-5-2."
-      },
-      {
-        "id": 25,
-        "section": "VA",
-        "category": "Conversation Analysis",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "CA1",
-        "question": "Which of the following would both Prof. Rao and Nisha Bhatt most likely agree with?",
-        "options": [
-          "A retail CBDC should be withdrawn because it threatens the stability of the banking system.",
-          "Cheaper retail payments alone do not justify a retail CBDC in India.",
-          "Privacy safeguards are the single most important determinant of whether a CBDC succeeds.",
-          "UPI should be replaced with a CBDC because only the latter is a direct claim on the central bank."
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Only Bhatt calls for withdrawal-level caution, and even she limits her objection to retail use. Rao calls the concern manageable. (B) Rao says UPI has already won the cheap-payments race; Bhatt's emphasis on disintermediation and on wholesale settlement implies the same. (C) Only Rao raises privacy, and he calls it 'more serious' than the stability risk. Bhatt does not endorse this. (D) Neither speaker proposes replacing UPI."
-      },
-      {
-        "id": 26,
-        "section": "VA",
-        "category": "Conversation Analysis",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "CA1",
-        "question": "Nisha Bhatt's remark that 'nobody needed the highway before there were cars' suggests that she:",
-        "options": [
-          "believes the digital rupee will create demand just as highways created the automobile industry",
-          "considers the digital rupee worthless because no demand for it currently exists among users",
-          "argues that the central bank should delay the pilot until a clear public demand has emerged",
-          "accepts that infrastructure can precede demand, yet wants the rationale stated"
-        ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) She does not predict that demand will follow; she only grants that it may. (B) She does not call it worthless; she calls the lack of visible need 'acceptable for infrastructure'. (C) She asks for clarification, not for delay of the pilot. (D) She concedes the 'solution without a visible problem' charge may be acceptable for infrastructure, but asks the state to clarify the problem."
-      },
-      {
-        "id": 27,
-        "section": "VA",
-        "category": "Conversation Analysis",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "CA1",
-        "question": "Which of the following is NOT stated or implied by Prof. Rao?",
-        "options": [
-          "UPI makes wholesale CBDC settlement redundant.",
-          "UPI transfers bank deposits whereas a CBDC is a direct claim on the central bank.",
-          "Holding limits could reduce the risk of deposits migrating from banks to a CBDC.",
-          "Whether privacy safeguards are statutory could shape how far the public trusts a CBDC."
-        ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) Rao never discusses wholesale settlement; that is Bhatt's point. Rao's claim concerns retail payments only. (B) Stated in his first reply. (C) Stated in his second reply ('manageable through holding limits'). (D) Stated in his second reply, where he contrasts statutory with administrative safeguards."
-      },
-      {
-        "id": 28,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC1",
-        "question": "Which of the following best captures the central argument of the passage?",
-        "options": [
-          "Because compute depreciates so quickly, states should abandon efforts to build domestic AI capacity and rely on imports from allied suppliers.",
-          "Export controls have conclusively failed, and the restrictions should therefore be lifted before rivals develop substitutes of their own.",
-          "Sovereignty in AI is best treated as a spectrum of dependencies to be managed rather than a status to be achieved.",
-          "Middle powers such as India are better served by aligning with a single dominant supplier than by pursuing diversified partnerships."
-        ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) Over-reads the depreciation point; the author explicitly says this is 'not a case against investment'. (B) The author presents both sides on controls and does not claim they have 'conclusively failed'. (C) The final paragraph says exactly this: it is a case against slogans, not against investment. (D) Contradicts the advice of 'diversified partnerships rather than autarky'; the author never endorses a single supplier."
-      },
-      {
-        "id": 29,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC1",
-        "question": "According to the passage, why is the analogy between compute and oil imperfect?",
-        "options": [
-          "Hardware becomes obsolete within years, unlike oil, whose possession confers a durable edge.",
-          "Oil is more geographically concentrated than semiconductor fabrication, so the analogy overstates the vulnerability of importing states and understates the risk faced by exporters.",
-          "Oil can be subject to export restrictions while compute cannot, since chips are produced by private firms beyond the reach of governments.",
-          "Oil supplies are finite and will eventually be exhausted, whereas computing power can be expanded indefinitely without any physical constraints."
-        ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) Paragraph 3: compute depreciates with startling speed, whereas oil's possession confers a persistent advantage. (B) The passage says the chip supply chain is highly concentrated; it makes no comparison of concentration with oil. (C) The passage says export controls on chips exist and are central to rivalry. (D) Oil's finiteness is not mentioned, and the passage notes environmental limits on data centres, which contradicts 'no physical constraints'."
-      },
-      {
-        "id": 30,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC1",
-        "question": "Which of the following, if true, would most weaken the claim that diffusion may predict national benefit better than frontier training capacity?",
-        "options": [
-          "Several countries with rapid adoption of AI tools have also invested heavily in training their workforce in the relevant skills and methods.",
-          "Hardware for training frontier models has fallen sharply in price, making it affordable for a growing number of middle-income economies.",
-          "Firms in countries adopting AI quickly report that most productivity gains arise from reorganising workflows rather than from model improvements.",
-          "Frontier-capacity hosts have posted markedly faster productivity growth than heavy adopters of the same models."
-        ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) Adoption paired with skills is consistent with, and even supports, the diffusion argument. (B) Falling hardware prices change affordability but do not test which factor better predicts benefit. (C) Locates gains in adoption practices, which strengthens the diffusion claim. (D) Directly contradicts the claim by showing that capacity, not adoption, drives benefit."
-      },
-      {
-        "id": 31,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC1",
-        "question": "The author's remark that the export-control dispute is 'less about facts than about time preferences' implies that:",
-        "options": [
-          "neither side possesses reliable data, so the disagreement can be settled only after the controls' effects are observed over several decades.",
-          "the two sides weigh near-term delay against long-run substitution differently, even if they agree on likely outcomes.",
-          "defenders of controls are primarily concerned with preserving commercial revenue, while sceptics are primarily concerned with military applications.",
-          "sceptics believe that the controls are being implemented too slowly, while defenders believe that they are being implemented too hastily."
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) The author does not say the facts are unknowable; the dispute is about weighting, not data. (B) Defenders prize delay over a short horizon; sceptics fear substitution over a long one. Same facts, different weighting of time. (C) Reverses the groups' concerns; both sides are concerned with the strategic effect of controls. (D) Speed of implementation is never discussed."
-      },
-      {
-        "id": 32,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC1",
-        "question": "All of the following are mentioned in the passage as costs of export controls EXCEPT:",
-        "options": [
-          "retaliation through restrictions on critical minerals",
-          "heavy investment by targeted nations in indigenous substitutes",
-          "weakened global climate cooperation",
-          "loss of market share that funds the next generation of research"
-        ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) Mentioned in paragraph 4 as a way controls invite retaliation. (B) Mentioned: controls push targeted nations to build substitutes. (C) Never mentioned; the environmental dimension in the passage concerns data centres, not controls. (D) Mentioned: controls erode market share that finances research."
-      },
-      {
-        "id": 33,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC1",
-        "question": "Which course of action would the author most likely endorse for a middle power such as India?",
-        "options": [
-          "Constructing a fully indigenous chip supply chain across every layer so that foreign reliance is eliminated altogether.",
-          "Specialising in applications and language-specific models while diversifying hardware sources.",
-          "Withdrawing from AI competition until hardware prices stabilise and the technology matures sufficiently.",
-          "Entering an exclusive alliance with one dominant supplier in exchange for guaranteed access to advanced chips."
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Autarky is explicitly rejected as unrealistic for middle powers. (B) Matches paragraph 5: build in layers of comparative advantage; secure the rest via diversified partnerships. (C) The author never recommends withdrawing; the passage argues for selective participation. (D) Contradicts 'diversified partnerships'; exclusivity increases dependence."
-      },
-      {
-        "id": 34,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC2",
-        "question": "Which of the following best expresses the main point of the passage?",
-        "options": [
-          "Climate diplomacy should abandon mitigation in favour of adaptation because its benefits are more tangible to affected populations.",
-          "Closing the adaptation gap needs better-designed finance and institutional capacity, not merely larger sums.",
-          "Rich nations have deliberately misrepresented their climate pledges to avoid fulfilling obligations to vulnerable countries.",
-          "Private capital markets, if freed from regulation, would resolve the shortage of adaptation funding efficiently and quickly."
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) The passage says adaptation is neglected relative to mitigation, but never suggests abandoning mitigation. (B) Paragraphs 3, 5 and 6 show that form of finance, instruments and implementation capacity matter alongside volume. (C) Donors are said to be accused of inflating totals, but the author stresses that both sides have a point; 'deliberately' overreaches. (D) The passage cites structural reasons why private capital is reluctant; regulation is never blamed."
-      },
-      {
-        "id": 35,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC2",
-        "question": "The author's attitude toward the donor-recipient dispute over what counts as climate finance is best described as:",
-        "options": [
-          "sympathetic to recipients, who are portrayed as victims of deliberate deception by donors.",
-          "dismissive of donors, whose labelling practices are described as fraudulent accounting.",
-          "even-handed, recognising partial validity in both positions.",
-          "indifferent, treating the dispute as irrelevant to the substantive outcomes of adaptation policy."
-        ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) The author reports the accusation but does not endorse it, and credits the donor reply. (B) The author never uses language as strong as 'fraudulent'. (C) 'Both claims contain truth' signals balance. (D) The author calls the dispute 'durable' and takes it seriously, not as irrelevant."
-      },
-      {
-        "id": 36,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC2",
-        "question": "Which of the following best captures the 'vicious circle' described in the passage?",
-        "options": [
-          "Shock → higher borrowing costs → reduced resilience investment → greater damage from the next shock.",
-          "Shock → higher borrowing costs → reduced resilience investment → more frequent shocks, which raise borrowing costs further.",
-          "Reduced resilience investment → shock → emergency lending at lower cost → greater capacity to invest in resilience.",
-          "Higher borrowing costs → shock → reduced resilience investment → debt relief, which restores the capacity to invest."
-        ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) Matches the sequence in paragraph 3 exactly. (B) Subtle distortion: the passage says resilience loss magnifies damage, not the frequency of shocks. (C) Reverses causation and describes a virtuous circle. (D) Order of events is wrong and 'debt relief' is a proposed remedy, not part of the circle."
-      },
-      {
-        "id": 37,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC2",
-        "question": "Which of the following, if true, would most strengthen the author's claim that the adaptation gap is 'also institutional'?",
-        "options": [
-          "Cities that received substantial external grants for adaptation reported a sharp fall in heat-related deaths within two years.",
-          "Private investors in resilience bonds have earned returns below those of comparable solar projects over the same period.",
-          "Donor countries have progressively reduced their reliance on loans and increased grants over the previous decade or so.",
-          "Allocated adaptation grants in several countries remain largely unspent for lack of implementing agencies."
-        ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) Suggests funding works smoothly, which weakens the institutional claim. (B) Concerns returns to private investors, which is unrelated to implementation capacity. (C) Concerns the form of finance; it does not test institutional capacity. (D) Money available but unspent shows capacity, not finance, is the bottleneck."
-      },
-      {
-        "id": 38,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC2",
-        "question": "According to the passage, which of the following is NOT a reason why private capital is reluctant to fund adaptation?",
-        "options": [
-          "Benefits arrive as avoided losses, not as cash flows that investors can price.",
-          "No invoice exists for a disaster that was successfully prevented.",
-          "Legal bans on foreign investment in resilience projects.",
-          "Public guarantees or instruments that price avoided damages are largely absent."
-        ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) Paragraph 5: adaptation generates avoided losses rather than cash. (B) Paragraph 5: a drainage system produces no invoice for the disaster that never occurred. (C) Never mentioned in the passage. (D) Paragraph 5: without public guarantees or novel instruments, private investors have little reason to participate."
-      },
-      {
-        "id": 39,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC2",
-        "question": "The author mentions the loss-and-damage fund primarily to show that:",
-        "options": [
-          "wealthy nations have now fully accepted legal liability for the climate harm caused by their past emissions to others.",
-          "formal recognition of a problem can run well ahead of the resources committed to it.",
-          "symbolic gestures in climate diplomacy are generally more valuable than substantive financial commitments by donor states.",
-          "adaptation measures are unnecessary once compensation mechanisms are in place for the countries that suffer climate losses."
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) The passage says wealthy nations resisted acknowledging liability; it does not say they accepted it fully. (B) The fund is called a symbolic breakthrough, yet its scale is 'minuscule' relative to damages. (C) The author's tone is critical of symbolism ('does not rebuild a coastline'). (D) The passage says loss and damage covers harm that adaptation cannot avert; it does not make adaptation unnecessary."
-      },
-      {
-        "id": 40,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC3",
-        "question": "Which of the following best states the central argument of the passage?",
-        "options": [
-          "Platform work offers genuine flexibility, and any attempt to regulate it will inevitably reduce incomes for the workers who need them most.",
-          "Courts across the world have erred in classifying platform workers as contractors, and legislatures should mandate employee status for all of them.",
-          "Algorithmic management is an inevitable feature of digital labour, and workers should therefore learn to adapt their behaviour to its incentives.",
-          "Gig work's flexibility is partly illusory, so policy must secure protections beyond the employee-contractor binary."
-        ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) The author takes the flexibility defence seriously but does not claim regulation must lower incomes. (B) The author notes divergent rulings as a symptom of conceptual strain, not as an error that all courts must correct. (C) The passage seeks protections and transparency; it does not advise workers to simply adapt. (D) Captures the hybrid status, the 'soft compulsion' critique, and the shift towards social security and transparency."
-      },
-      {
-        "id": 41,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC3",
-        "question": "Which of the following is the best illustration of 'soft compulsion' as the passage uses the term?",
-        "options": [
-          "A driver who works long shifts because bonuses are paid only on meeting a high hours threshold.",
-          "A rider who logs off whenever her earnings dip, since the platform imposes no obligation on her to remain available.",
-          "A courier who is dismissed after a single customer complaint, without any opportunity to contest the decision.",
-          "A worker who accepts every assignment because her employer has contractually required her to do so."
-        ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) Formal freedom to log off exists, but pay is structured to punish doing so, which is exactly the definition. (B) Describes genuine, uncoerced flexibility. (C) Describes opaque deactivation (a transparency problem), not incentive-based pressure. (D) Describes hard, contractual compulsion, not soft."
-      },
-      {
-        "id": 42,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC3",
-        "question": "The author suggests that divergent judicial rulings on platform workers' status:",
-        "options": [
-          "show that some courts misread platform work.",
-          "reflect pressure exerted by platforms on judiciaries to uphold the contractor model across jurisdictions.",
-          "reveal that existing legal categories fit this hybrid arrangement poorly.",
-          "demonstrate that judges in different countries are applying contradictory labour statutes to identical facts."
-        ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) The author explicitly says it is not mere judicial inconsistency. (B) No evidence of pressure is offered. (C) The author calls it 'a genuine conceptual strain', not inconsistency. (D) The passage does not say statutes or facts are identical across countries."
-      },
-      {
-        "id": 43,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC3",
-        "question": "Which of the following, if true, would most undermine the platforms' claim that workers value the flexibility of the contractor model?",
-        "options": [
-          "Students and women balancing domestic duties form a large share of those who work on platforms for a few hours each week.",
-          "Most surveyed workers say they log in for long hours chiefly to qualify for incentives, not out of preference.",
-          "Platforms that guaranteed minimum hours in pilot programmes continued to operate profitably while employing roughly the same number of workers.",
-          "Demand for deliveries and rides fluctuates sharply by the hour in most large cities, with pronounced peaks in the evening."
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Supports the claim that flexibility is valued. (B) Suggests hours are driven by incentive structures rather than choice, so valued flexibility is questionable. (C) Undermines the platforms' claim about minimum hours and employment, not the claim that workers value flexibility. (D) Supports the platforms' argument about elastic demand."
-      },
-      {
-        "id": 44,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC3",
-        "question": "All of the following are mentioned as challenges to India's social security approach for gig workers EXCEPT:",
-        "options": [
-          "reliance on worker data that platforms control and may be reluctant to share.",
-          "the need for benefits to be portable across different platforms.",
-          "difficulty identifying beneficiaries in the absence of proper registration.",
-          "judicial invalidation of the gig-worker category."
-        ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) Mentioned: implementation relies on data that platforms hold. (B) Mentioned: portability of benefits across platforms. (C) Mentioned: registration and the inability to pay unidentified beneficiaries. (D) Not mentioned anywhere in the passage."
-      },
-      {
-        "id": 45,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC3",
-        "question": "The author's attitude toward the platforms' defence of the contractor model is best described as:",
-        "options": [
-          "outright rejection, dismissing it as a self-serving pretext for avoiding legal obligations to workers.",
-          "qualified acceptance: credible, yet incomplete without attention to control.",
-          "enthusiastic endorsement, treating flexibility as the decisive consideration in designing labour policy.",
-          "studied neutrality, presenting the argument without any assessment of its strengths or weaknesses at all."
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) The passage does not call it a pretext. (B) The author says the defence deserves 'more attention than critics usually grant' but has a 'blind spot'. (C) The author identifies a blind spot, so this is not enthusiastic. (D) The author does assess strengths and weaknesses."
-      }
-    ],
-    "daily_vocab": {
-      "words": [
-        {
-          "word": "ephemeral",
-          "meaning": "lasting for a very short time",
-          "example": "The ephemeral rally in tech stocks vanished within a week."
-        },
-        {
-          "word": "autarky",
-          "meaning": "economic self-sufficiency; a policy of avoiding imports",
-          "example": "Complete autarky is unrealistic for a modern economy."
-        },
-        {
-          "word": "calibrate",
-          "meaning": "to adjust carefully for a precise purpose",
-          "example": "The regulator must calibrate the new rules to avoid choking innovation."
-        },
-        {
-          "word": "equivocation",
-          "meaning": "deliberately ambiguous language used to avoid commitment",
-          "example": "The spokesman's equivocation fooled no one."
-        },
-        {
-          "word": "tendentious",
-          "meaning": "expressing a strong, partisan viewpoint",
-          "example": "A tendentious report ignored every contrary study."
-        },
-        {
-          "word": "recondite",
-          "meaning": "little known; understood by few",
-          "example": "The professor's recondite references lost most of the class."
-        },
-        {
-          "word": "sanguine",
-          "meaning": "optimistic, especially in difficult situations",
-          "example": "Investors stayed sanguine despite the weak data."
-        },
-        {
-          "word": "inchoate",
-          "meaning": "just begun and not fully formed",
-          "example": "His inchoate ideas needed months of refinement."
-        },
-        {
-          "word": "cosset",
-          "meaning": "to pamper or protect excessively",
-          "example": "Cosseted by her advisers, she never heard criticism."
-        },
-        {
-          "word": "laconic",
-          "meaning": "using very few words",
-          "example": "His laconic reply ended the discussion."
-        }
-      ],
-      "idioms": [
-        {
-          "idiom": "a double-edged sword",
-          "meaning": "something with both favourable and unfavourable effects",
-          "example": "Export controls are a double-edged sword."
-        },
-        {
-          "idiom": "move the goalposts",
-          "meaning": "to change the criteria mid-process so that success becomes harder",
-          "example": "Donors were accused of moving the goalposts on climate pledges."
-        },
-        {
-          "idiom": "bite the bullet",
-          "meaning": "to face an unpleasant task with courage",
-          "example": "The firm had to bite the bullet and cut costs."
-        },
-        {
-          "idiom": "a red herring",
-          "meaning": "a misleading clue that distracts from the real issue",
-          "example": "The valuation debate was a red herring."
-        },
-        {
-          "idiom": "skate on thin ice",
-          "meaning": "to take a risky course of action",
-          "example": "Ignoring compliance rules means skating on thin ice."
-        }
-      ],
-      "phrasal_verbs": [
-        {
-          "verb": "phase out",
-          "meaning": "to withdraw gradually",
-          "example": "The state will phase out the old subsidy by 2030."
-        },
-        {
-          "verb": "bring about",
-          "meaning": "to cause to happen",
-          "example": "Digital payments brought about a quiet revolution."
-        },
-        {
-          "verb": "hold up",
-          "meaning": "to delay; to remain valid under scrutiny",
-          "example": "Supply problems held up deliveries; his argument did not hold up."
-        },
-        {
-          "verb": "iron out",
-          "meaning": "to resolve minor problems",
-          "example": "Negotiators ironed out the final differences."
-        },
-        {
-          "verb": "crack down on",
-          "meaning": "to take strict action against",
-          "example": "Regulators cracked down on misleading ads."
-        }
-      ]
-    }
-  }
-] hows this one
+  {
+    "title": "IPMAT VA Sectional – 18th Oct 2026",
+    "date": "2026-10-18",
+    "section": "Verbal Ability",
+    "total_questions": 45,
+    "duration_minutes": 45,
+    "pattern": {
+      "MCQ": 40,
+      "TITA (Parajumbles)": 5,
+      "RC_passages": 3,
+      "questions_per_RC": 6,
+      "CA_passages": 1,
+      "questions_per_CA": 3
+    },
+    "questions": [
+      {
+        "id": 1,
+        "section": "VA",
+        "category": "Sentence Completion",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "The council's ostensibly ________ resolution, hedged with exemptions and review clauses, bound its members to virtually nothing.",
+        "options": [
+          "noncommittal",
+          "categorical",
+          "tentative",
+          "equivocal"
+        ],
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) Describes what the resolution actually was, not how it seemed. The blank needs the apparent quality; this is the trap. (B) 'Ostensibly' signals a gap between appearance and reality. The resolution appeared absolute ('categorical') but was hedged into emptiness. (C) Again describes the real nature of the resolution; 'ostensibly' demands the opposite. (D) Same error: it matches the hedging, but the sentence needs the surface impression."
+      },
+      {
+        "id": 2,
+        "section": "VA",
+        "category": "Sentence Completion",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "The minister's reply was a study in ________: abundant in words, yet crafted so that no phrase could later be held against him.",
+        "options": [
+          "grandiloquence",
+          "sophistry",
+          "perspicuity",
+          "equivocation"
+        ],
+        "answer": 3,
+        "explanation": "Detailed Solution: (A) Means pompous, lofty speech. It fits 'abundant in words' but not the purpose of avoiding accountability. (B) Means clever but fallacious reasoning. The sentence is about avoiding commitment, not about faulty argument. (C) Means clarity of expression, the opposite of what is described. (D) 'Equivocation' is deliberately ambiguous speech meant to avoid commitment, matching 'no phrase could be held against him'."
+      },
+      {
+        "id": 3,
+        "section": "VA",
+        "category": "Sentence Completion",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "Critics conceded that the economist's model was elegant, but his reliance on ________ data rendered its forecasts ________ in precisely the scenarios where they were most needed.",
+        "options": [
+          "historical; brittle",
+          "contemporaneous; prescient",
+          "sparse; resilient",
+          "voluminous; infallible"
+        ],
+        "answer": 0,
+        "explanation": "Detailed Solution: (A) Models built on past data tend to snap under unprecedented conditions, which are exactly when forecasts matter most. Both blanks fit. (B) Contemporaneous, prescient forecasts would be praised, not criticised; the 'but' signals a flaw. (C) Sparse data could weaken a model, but 'resilient' contradicts the criticism. (D) 'Infallible' forecasts cannot be a criticism; the tone of the sentence is negative."
+      },
+      {
+        "id": 4,
+        "section": "VA",
+        "category": "Sentence Completion",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "Having been repeatedly ________ by flatterers, the monarch grew so insulated from dissent that even ________ counsel was treated as treason.",
+        "options": [
+          "chastened; sycophantic",
+          "rebuked; prudent",
+          "cosseted; candid",
+          "deceived; effusive"
+        ],
+        "answer": 2,
+        "explanation": "Detailed Solution: (A) 'Chastened' means humbled, which contradicts the effect of flattery. Flattering counsel would not be punished as treason. (B) Being rebuked would not make a monarch insulated from dissent. (C) 'Cosseted' (pampered) explains why he became insulated; once pampered by flattery, honest ('candid') advice looked like treason. (D) 'Deceived' is plausible for the first blank, but 'effusive' counsel would be welcomed, not treated as treason."
+      },
+      {
+        "id": 5,
+        "section": "VA",
+        "category": "Vocabulary",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "The historian's tendentious account of the treaty negotiations was criticised by peers for selecting only those documents that supported her preferred narrative. In this context, 'tendentious' most nearly means:",
+        "options": [
+          "overly elaborate and tediously detailed in presentation",
+          "cautiously exploratory and reluctant to commit to conclusions",
+          "slanted by a partisan agenda",
+          "marked by deep sympathy for all conflicting parties involved"
+        ],
+        "answer": 2,
+        "explanation": "Detailed Solution: (A) This confuses 'tendentious' with 'tedious'; a look-alike trap. (B) This confuses it with 'tentative'; another look-alike trap. (C) 'Tendentious' means promoting a particular, often controversial, point of view; the selective use of documents confirms this. (D) Selective use of evidence indicates bias, not even-handed sympathy."
+      },
+      {
+        "id": 6,
+        "section": "VA",
+        "category": "Vocabulary",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "Which of the following is closest in meaning to the word 'recondite' as used in: 'Her lectures, though brilliant, dwelt on recondite corners of medieval jurisprudence that few students could follow.'",
+        "options": [
+          "esoteric",
+          "rudimentary",
+          "redundant",
+          "reclusive"
+        ],
+        "answer": 0,
+        "explanation": "Detailed Solution: (A) 'Recondite' means little known and understood only by a few specialists, the same as 'esoteric'. (B) Means basic or elementary, the opposite of recondite. (C) Means unnecessary or repetitive; it does not capture obscurity. (D) Means withdrawn from society; it describes people, not subject matter, and is a sound-alike trap."
+      },
+      {
+        "id": 7,
+        "section": "VA",
+        "category": "Vocabulary",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "Choose the word most nearly OPPOSITE in meaning to 'sanguine' as used in: 'Analysts remained sanguine about the quarter's prospects despite the early slowdown.'",
+        "options": [
+          "phlegmatic",
+          "unflappable",
+          "choleric",
+          "despondent"
+        ],
+        "answer": 3,
+        "explanation": "Detailed Solution: (A) Means calm and unemotional. It is a different trait, not the opposite of optimism. (B) Means calm under pressure. It does not oppose optimism. (C) Means bad-tempered. It concerns temperament, not outlook on the future. (D) 'Sanguine' means optimistic and hopeful; its opposite is 'despondent' (gloomy, hopeless)."
+      },
+      {
+        "id": 8,
+        "section": "VA",
+        "category": "Vocabulary",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "Which of the following best explains the expression 'Pyrrhic victory'?",
+        "options": [
+          "A victory that is later overturned by a higher authority",
+          "A win costing the victor ruinously",
+          "A success awarded by default because the rival forfeits",
+          "A narrow triumph secured through unfair or deceitful means"
+        ],
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) Describes a reversal on appeal, which is unrelated to the cost of winning. (B) A Pyrrhic victory is won at such devastating cost that it is almost a defeat; the name comes from King Pyrrhus of Epirus. (C) Describes a walkover, not a costly triumph. (D) Describes an unethical win; the idiom concerns cost, not morality."
+      },
+      {
+        "id": 9,
+        "section": "VA",
+        "category": "Sentence Correction",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "Choose the option that is grammatically correct and logically coherent.",
+        "options": [
+          "Having been informed of the delay, the airline rescheduled the flight.",
+          "Having informed of the delay, the flight was rescheduled by the airline.",
+          "Having been informed of the delay, the flight was rescheduled by the airline.",
+          "Informed of the delay, the flight had been rescheduled by the airline."
+        ],
+        "answer": 0,
+        "explanation": "Detailed Solution: (A) The modifier 'Having been informed' correctly attaches to 'the airline', the entity that received the information. (B) 'Having informed' is ungrammatical here, and the flight cannot inform anyone. (C) Dangling modifier: the flight is not the one that was informed. This is the classic trap. (D) Also a dangling modifier, with an unwarranted shift to the past perfect."
+      },
+      {
+        "id": 10,
+        "section": "VA",
+        "category": "Sentence Correction",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "Choose the grammatically correct sentence.",
+        "options": [
+          "Scarcely the results had been announced when the markets began to rally.",
+          "Scarcely had the results been announced when the markets rallied.",
+          "Scarcely had the results been announced than the markets began to rally.",
+          "Scarcely had been the results announced when the markets began to rally."
+        ],
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) Negative adverbial at the start requires inversion; none occurs here. (B) 'Scarcely' takes inversion (had + subject + participle) and pairs with 'when'. (C) Inversion is correct but 'scarcely' pairs with 'when', not 'than' ('no sooner' takes 'than'). (D) Wrong inversion: auxiliary 'had' must be followed by the subject, then 'been announced'."
+      },
+      {
+        "id": 11,
+        "section": "VA",
+        "category": "Sentence Correction",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "The committee insisted that the chairman ________ the audited report before the annual meeting.",
+        "options": [
+          "submits",
+          "has submitted",
+          "would be submitting",
+          "submit"
+        ],
+        "answer": 3,
+        "explanation": "Detailed Solution: (A) Indicative present is incorrect after 'insisted that'. (B) Present perfect does not fit the mandative construction. (C) 'Would be submitting' expresses a future-in-the-past prediction, not a demand. (D) After verbs of demand or insistence (insist, demand, recommend), the mandative subjunctive uses the base form: 'submit'."
+      },
+      {
+        "id": 12,
+        "section": "VA",
+        "category": "Incorrect Word",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "One of the sentences below contains a word used incorrectly or inappropriately. Choose that sentence.",
+        "options": [
+          "The auditor's perfunctory review, completed in under an hour, overlooked discrepancies that a thorough examination would have caught.",
+          "The treaty abrogated the earlier agreement, rendering all of its provisions void from the date of signing.",
+          "Her laconic reply, running to several rambling paragraphs, enlightened everyone.",
+          "The mediator's impartiality was never in doubt, even among those who disagreed with his final verdict."
+        ],
+        "answer": 2,
+        "explanation": "Detailed Solution: (A) 'Perfunctory' (done with minimal effort) is used correctly. (B) 'Abrogated' (formally repealed) is used correctly. (C) 'Laconic' means using very few words, which contradicts 'rambling paragraphs'. The intended word is 'verbose' or 'prolix'. (D) 'Impartiality' is used correctly."
+      },
+      {
+        "id": 13,
+        "section": "VA",
+        "category": "Incorrect Word",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "One of the sentences below contains a word used incorrectly or inappropriately. Choose that sentence.",
+        "options": [
+          "The reformer's ephemeral legacy, institutions that endure to this day, transformed the country.",
+          "The prosecutor's tenacious cross-examination eventually forced the witness to contradict his earlier testimony.",
+          "The firm's parsimonious budgeting ensured that not a single rupee was spent without clear justification.",
+          "The diplomat's obsequious deference to the visiting minister earned him a reputation for fawning."
+        ],
+        "answer": 0,
+        "explanation": "Detailed Solution: (A) 'Ephemeral' means short-lived, which contradicts 'institutions that endure'. The intended word is 'enduring' or 'lasting'. (B) 'Tenacious' (persistent) is used correctly. (C) 'Parsimonious' (extremely frugal) is used correctly. (D) 'Obsequious' (excessively servile) is used correctly."
+      },
+      {
+        "id": 14,
+        "section": "VA",
+        "category": "Incorrect Word",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "One of the sentences below contains a word used incorrectly or inappropriately. Choose that sentence.",
+        "options": [
+          "The senator's mendacious assurances were exposed once the confidential documents were released.",
+          "The conflicting accounts of the incident made a definitive verdict frustratingly elusive.",
+          "Years of austere living had left the monk indifferent to material comfort and public acclaim.",
+          "The inchoate plan, fully detailed and ready for execution, won swift approval."
+        ],
+        "answer": 3,
+        "explanation": "Detailed Solution: (A) 'Mendacious' (lying) is used correctly. (B) 'Elusive' (hard to pin down) is used correctly. (C) 'Austere' (severely simple) is used correctly. (D) 'Inchoate' means only just begun or undeveloped, which contradicts 'fully detailed and ready for execution'."
+      },
+      {
+        "id": 15,
+        "section": "VA",
+        "category": "Paracompletion",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "Public debate about artificial intelligence oscillates between utopian promise and apocalyptic dread. ____________. Neither narrative asks the humbler questions: who audits these systems, who bears the cost of their errors, and who profits when they succeed? Such questions, though less cinematic, decide how the technology actually reshapes ordinary lives.",
+        "options": [
+          "Most economists have concluded that technological change eventually raises employment in virtually every sector of the economy.",
+          "Both framings, though opposed, fix attention on the technology's destiny rather than on its governance.",
+          "The most dependable forecasts about artificial intelligence have come from software engineers rather than from regulators or ethicists.",
+          "Dread, historically, has proved a more accurate guide to technological outcomes than optimism has ever been."
+        ],
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) Shifts to employment, which the paragraph never discusses. (B) It links 'oscillates between promise and dread' with 'neither narrative asks' about governance, which is the bridge the paragraph needs. (C) Introduces a comparison of engineers and regulators that the next sentences do not use. (D) Makes a historical claim that is not supported or followed up."
+      },
+      {
+        "id": 16,
+        "section": "VA",
+        "category": "Paracompletion",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "Markets are often portrayed as impersonal mechanisms that merely aggregate preferences. ____________. A default option on a screen, a pricing rule, or the order in which products appear shapes what people choose before any preference is expressed. To regard markets as neutral is to overlook those who design the stage.",
+        "options": [
+          "Consumers in developed economies spend an increasing share of their income on goods purchased through digital channels.",
+          "Economists have long maintained that regulation of any kind reduces the efficiency with which markets allocate resources.",
+          "Yet the architecture within which choices are presented is itself the product of human design.",
+          "Competition among sellers tends to lower prices, which in turn increases the volume of goods that households purchase."
+        ],
+        "answer": 2,
+        "explanation": "Detailed Solution: (A) Talks about spending patterns; it does not connect to design or neutrality. (B) Talks about regulation, which the paragraph never raises. (C) 'Yet' reverses the 'impersonal mechanism' claim and leads into 'those who design the stage'. (D) Talks about competition and prices, not the design of choice."
+      },
+      {
+        "id": 17,
+        "section": "VA",
+        "category": "Paracompletion",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "The popular image of scientific progress is one of solitary geniuses making sudden leaps. ____________. Behind each celebrated discovery lie decades of patient measurement, failed experiments, and collaboration among people whose names rarely survive in textbooks. The leap, in other words, is usually visible only in hindsight.",
+        "options": [
+          "This image is dramatic, but it misrepresents how knowledge is actually assembled.",
+          "Funding for scientific research has grown steadily in most major economies over the last several decades of peace.",
+          "Textbooks should therefore be rewritten so that every contributing researcher is credited by name in each chapter.",
+          "Many celebrated geniuses worked alone in remote laboratories and shared their findings with no one until publication."
+        ],
+        "answer": 0,
+        "explanation": "Detailed Solution: (A) It sets up the contrast that the following sentences develop: collective, incremental work versus the solitary-genius myth. (B) Funding is not discussed anywhere in the paragraph. (C) A prescriptive claim ('should be rewritten') that the paragraph does not support. (D) Supports the myth that the paragraph is refuting."
+      },
+      {
+        "id": 18,
+        "section": "VA",
+        "category": "Paragraph Summary",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "Which of the following best summarises the paragraph?\n\nUrban heat is often attributed solely to rising global temperatures, but local design choices amplify it. Dark rooftops, dense concrete and sparse tree cover trap heat that would otherwise dissipate at night, producing temperatures several degrees higher in city centres than in the surrounding countryside. Because these features are products of planning rather than of climate, they can be altered by planning, and cool roofs, shade trees and reflective pavements are among the cheapest interventions available.",
+        "options": [
+          "Global warming is the sole driver of urban heat, so cities can do little beyond adapting to it.",
+          "Cool roofs and shade trees are costly interventions whose benefits remain largely theoretical.",
+          "City centres run hotter than the countryside chiefly because of dense populations and vehicular emissions.",
+          "Planning choices magnify urban heat, so cities can curb it through cheap design changes."
+        ],
+        "answer": 3,
+        "explanation": "Detailed Solution: (A) Contradicts the opening sentence, which says design amplifies warming. (B) Contradicts 'among the cheapest interventions available'. (C) Introduces population and vehicles, which the paragraph never mentions. (D) Captures both claims: design amplifies heat, and design-based fixes are inexpensive."
+      },
+      {
+        "id": 19,
+        "section": "VA",
+        "category": "Odd Sentence Out",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "question": "Three of the following four sentences relate to a common theme. Choose the sentence that does not belong.",
+        "options": [
+          "Erratic monsoon onset has compelled farmers to delay sowing in several districts.",
+          "Declining groundwater tables have forced many cultivators to deepen their borewells.",
+          "The minister opened a new airport terminal last week.",
+          "Crop insurance claims have risen as unseasonal rain damages standing harvests."
+        ],
+        "answer": 2,
+        "explanation": "Detailed Solution: (A) Weather-driven stress on farming. (B) Water scarcity affecting cultivators. (C) It concerns infrastructure for air travel; the other three deal with agrarian stress linked to water and weather. (D) Weather-related crop losses and insurance."
+      },
+      {
+        "id": 20,
+        "section": "VA",
+        "category": "Parajumbles",
+        "difficulty": "Hard",
+        "type": "tita",
+        "marks": 4,
+        "negative_marking": 0,
+        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n\n1. As a result, the same rate increase can cool one segment of credit within months while leaving another virtually untouched for a year.\n2. Central banks raise policy rates in the expectation that borrowing costs across the economy will follow.\n3. Policy, therefore, is only as effective as the plumbing through which it flows.\n4. In practice, the pace of this transmission depends on how loans are priced, since loans linked to external benchmarks adjust quickly while those tied to internal cost measures adjust sluggishly.\n5. This expectation, however, assumes that banks pass the change on to borrowers without delay.",
+        "answer": "25413",
+        "explanation": "Detailed Solution: Sentence 2 introduces the idea. Sentence 5 ('This expectation') challenges it. Sentence 4 explains 'this transmission' in practice. Sentence 1 ('As a result') gives the consequence. Sentence 3 ('therefore') concludes. Order: 2-5-4-1-3."
+      },
+      {
+        "id": 21,
+        "section": "VA",
+        "category": "Parajumbles",
+        "difficulty": "Hard",
+        "type": "tita",
+        "marks": 4,
+        "negative_marking": 0,
+        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n\n1. Midday generation therefore floods the grid, depressing prices and sometimes forcing producers to curtail output.\n2. Yet storage at grid scale remains expensive, and its economics depend on whether the price gap between midday and evening is wide enough to repay the investment.\n3. Ironically, the very glut that storage is meant to remedy narrows that gap as more batteries enter the market.\n4. Solar power's cheapest hours rarely coincide with the hours of greatest demand.\n5. Batteries promise to shift this surplus into the evening, when households switch on lights and appliances.",
+        "answer": "41523",
+        "explanation": "Detailed Solution: Sentence 4 states the mismatch. Sentence 1 ('therefore') gives its effect. Sentence 5 introduces batteries as the remedy ('this surplus'). Sentence 2 ('Yet') raises the cost problem. Sentence 3 ('Ironically', 'that gap') closes with the paradox. Order: 4-1-5-2-3."
+      },
+      {
+        "id": 22,
+        "section": "VA",
+        "category": "Parajumbles",
+        "difficulty": "Hard",
+        "type": "tita",
+        "marks": 4,
+        "negative_marking": 0,
+        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n\n1. Resilience, in short, is an insurance premium that someone must eventually pay.\n2. For decades, firms treated inventory as waste and organised supply chains to hold as little of it as possible.\n3. Companies have since begun to hold buffer stocks and to diversify suppliers, a practice often described as 'just-in-case' management.\n4. The pandemic and subsequent shipping disruptions exposed the fragility of such leanness, as a single delayed component could halt an entire assembly line.\n5. This shift, however, is not costless, for redundancy raises expenses that must be recovered through higher prices or thinner margins.",
+        "answer": "24351",
+        "explanation": "Detailed Solution: Sentence 2 sets the old practice. Sentence 4 ('such leanness') shows its failure. Sentence 3 describes the response ('since'). Sentence 5 ('This shift, however') notes the cost. Sentence 1 ('in short') concludes. Order: 2-4-3-5-1."
+      },
+      {
+        "id": 23,
+        "section": "VA",
+        "category": "Parajumbles",
+        "difficulty": "Hard",
+        "type": "tita",
+        "marks": 4,
+        "negative_marking": 0,
+        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n\n1. The rise of facial recognition in public spaces has been defended as a tool for locating missing persons and deterring crime.\n2. Without clear answers to these questions, even a technically accurate system can be used to chill lawful protest.\n3. Such defences, though sincere, tend to treat the technology as a neutral instrument rather than as a system embedded in institutions.\n4. The debate, then, concerns not the accuracy of the algorithm but the accountability of those who wield it.\n5. Those institutions determine who is placed on watchlists, how long images are retained, and who may query the database.",
+        "answer": "13524",
+        "explanation": "Detailed Solution: Sentence 1 states the defence. Sentence 3 ('Such defences') critiques it. Sentence 5 ('Those institutions') elaborates. Sentence 2 ('these questions') draws the risk. Sentence 4 ('then') concludes. Order: 1-3-5-2-4."
+      },
+      {
+        "id": 24,
+        "section": "VA",
+        "category": "Parajumbles",
+        "difficulty": "Hard",
+        "type": "tita",
+        "marks": 4,
+        "negative_marking": 0,
+        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n\n1. Early evaluations, however, found that while borrowers' businesses grew modestly, few households crossed the poverty line.\n2. The lesson is not that credit is useless, but that it works best as one component of a larger package.\n3. Microfinance was once hailed as a self-sustaining route out of poverty.\n4. The reason, researchers suggest, is that small loans rarely finance enterprises large enough to employ anyone beyond the borrower's own family.\n5. Attention has accordingly shifted from credit alone towards bundled support such as training, savings and insurance.",
+        "answer": "31452",
+        "explanation": "Detailed Solution: Sentence 3 introduces the claim. Sentence 1 ('however') qualifies it. Sentence 4 gives the reason. Sentence 5 ('accordingly') shows the response. Sentence 2 states the lesson. Order: 3-1-4-5-2."
+      },
+      {
+        "id": 25,
+        "section": "VA",
+        "category": "Conversation Analysis",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nMeera Kapoor (Economics Editor): India's UPI moves billions of transactions a month at near-zero cost to users, and the central bank has simultaneously been piloting a digital rupee. Is the state duplicating what the market already does well?\n\nProf. Arvind Rao (Monetary Economist): Not necessarily duplicating, but the rationale needs clearer articulation. UPI is a payment rail; it moves bank deposits. A central bank digital currency, or CBDC, is a direct claim on the central bank. That distinction matters in a crisis, when depositors may prefer the safest asset, and it matters for the programmability of money. But if the aim is merely cheaper retail payments, UPI has already won that race.\n\nNisha Bhatt (Fintech Founder): I would go further. A retail CBDC risks disintermediating banks. If citizens can hold digital central bank money, deposits could migrate during stress, which is exactly the instability the system is designed to prevent. Wholesale use, meaning interbank settlement, is where the case is strongest, because settlement is where friction still exists.\n\nProf. Arvind Rao: The concern is real but manageable through holding limits. The more serious question, to my mind, is privacy. Cash is anonymous; a CBDC, by design, generates a ledger the state can potentially read. Whether the safeguards are statutory or merely administrative will determine public trust.\n\nMeera Kapoor: So is the digital rupee a solution in search of a problem?\n\nNisha Bhatt: A solution whose problem is not yet visible, which may be acceptable for infrastructure. Nobody needed the highway before there were cars. But I would rather the state clarified the problem before the cars arrive.",
+        "question": "Which of the following would both Prof. Rao and Nisha Bhatt most likely agree with?",
+        "options": [
+          "A retail CBDC should be withdrawn because it threatens the stability of the banking system.",
+          "Cheaper retail payments alone do not justify a retail CBDC in India.",
+          "Privacy safeguards are the single most important determinant of whether a CBDC succeeds.",
+          "UPI should be replaced with a CBDC because only the latter is a direct claim on the central bank."
+        ],
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) Only Bhatt calls for withdrawal-level caution, and even she limits her objection to retail use. Rao calls the concern manageable. (B) Rao says UPI has already won the cheap-payments race; Bhatt's emphasis on disintermediation and on wholesale settlement implies the same. (C) Only Rao raises privacy, and he calls it 'more serious' than the stability risk. Bhatt does not endorse this. (D) Neither speaker proposes replacing UPI."
+      },
+      {
+        "id": 26,
+        "section": "VA",
+        "category": "Conversation Analysis",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nMeera Kapoor (Economics Editor): India's UPI moves billions of transactions a month at near-zero cost to users, and the central bank has simultaneously been piloting a digital rupee. Is the state duplicating what the market already does well?\n\nProf. Arvind Rao (Monetary Economist): Not necessarily duplicating, but the rationale needs clearer articulation. UPI is a payment rail; it moves bank deposits. A central bank digital currency, or CBDC, is a direct claim on the central bank. That distinction matters in a crisis, when depositors may prefer the safest asset, and it matters for the programmability of money. But if the aim is merely cheaper retail payments, UPI has already won that race.\n\nNisha Bhatt (Fintech Founder): I would go further. A retail CBDC risks disintermediating banks. If citizens can hold digital central bank money, deposits could migrate during stress, which is exactly the instability the system is designed to prevent. Wholesale use, meaning interbank settlement, is where the case is strongest, because settlement is where friction still exists.\n\nProf. Arvind Rao: The concern is real but manageable through holding limits. The more serious question, to my mind, is privacy. Cash is anonymous; a CBDC, by design, generates a ledger the state can potentially read. Whether the safeguards are statutory or merely administrative will determine public trust.\n\nMeera Kapoor: So is the digital rupee a solution in search of a problem?\n\nNisha Bhatt: A solution whose problem is not yet visible, which may be acceptable for infrastructure. Nobody needed the highway before there were cars. But I would rather the state clarified the problem before the cars arrive.",
+        "question": "Nisha Bhatt's remark that 'nobody needed the highway before there were cars' suggests that she:",
+        "options": [
+          "believes the digital rupee will create demand just as highways created the automobile industry",
+          "considers the digital rupee worthless because no demand for it currently exists among users",
+          "argues that the central bank should delay the pilot until a clear public demand has emerged",
+          "accepts that infrastructure can precede demand, yet wants the rationale stated"
+        ],
+        "answer": 3,
+        "explanation": "Detailed Solution: (A) She does not predict that demand will follow; she only grants that it may. (B) She does not call it worthless; she calls the lack of visible need 'acceptable for infrastructure'. (C) She asks for clarification, not for delay of the pilot. (D) She concedes the 'solution without a visible problem' charge may be acceptable for infrastructure, but asks the state to clarify the problem."
+      },
+      {
+        "id": 27,
+        "section": "VA",
+        "category": "Conversation Analysis",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nMeera Kapoor (Economics Editor): India's UPI moves billions of transactions a month at near-zero cost to users, and the central bank has simultaneously been piloting a digital rupee. Is the state duplicating what the market already does well?\n\nProf. Arvind Rao (Monetary Economist): Not necessarily duplicating, but the rationale needs clearer articulation. UPI is a payment rail; it moves bank deposits. A central bank digital currency, or CBDC, is a direct claim on the central bank. That distinction matters in a crisis, when depositors may prefer the safest asset, and it matters for the programmability of money. But if the aim is merely cheaper retail payments, UPI has already won that race.\n\nNisha Bhatt (Fintech Founder): I would go further. A retail CBDC risks disintermediating banks. If citizens can hold digital central bank money, deposits could migrate during stress, which is exactly the instability the system is designed to prevent. Wholesale use, meaning interbank settlement, is where the case is strongest, because settlement is where friction still exists.\n\nProf. Arvind Rao: The concern is real but manageable through holding limits. The more serious question, to my mind, is privacy. Cash is anonymous; a CBDC, by design, generates a ledger the state can potentially read. Whether the safeguards are statutory or merely administrative will determine public trust.\n\nMeera Kapoor: So is the digital rupee a solution in search of a problem?\n\nNisha Bhatt: A solution whose problem is not yet visible, which may be acceptable for infrastructure. Nobody needed the highway before there were cars. But I would rather the state clarified the problem before the cars arrive.",
+        "question": "Which of the following is NOT stated or implied by Prof. Rao?",
+        "options": [
+          "UPI makes wholesale CBDC settlement redundant.",
+          "UPI transfers bank deposits whereas a CBDC is a direct claim on the central bank.",
+          "Holding limits could reduce the risk of deposits migrating from banks to a CBDC.",
+          "Whether privacy safeguards are statutory could shape how far the public trusts a CBDC."
+        ],
+        "answer": 0,
+        "explanation": "Detailed Solution: (A) Rao never discusses wholesale settlement; that is Bhatt's point. Rao's claim concerns retail payments only. (B) Stated in his first reply. (C) Stated in his second reply ('manageable through holding limits'). (D) Stated in his second reply, where he contrasts statutory with administrative safeguards."
+      },
+      {
+        "id": 28,
+        "section": "VA",
+        "category": "Reading Comprehension",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "For most of the twentieth century, strategic rivalry among states was conducted over tangible commodities: oil fields, shipping lanes, enriched uranium. The twenty-first century has added a stranger asset to the list: computational capacity. The advanced semiconductors that train and run large AI models emerge from a supply chain so concentrated that a handful of firms, in a handful of jurisdictions, hold chokepoints at every stage, from the lithography machines that etch circuits to the foundries that manufacture them. It is unsurprising, then, that export controls on these chips, once an obscure instrument of trade policy, have become a central device of great-power competition, and that governments from Washington to Riyadh now speak of \"sovereign AI\" with the urgency once reserved for energy security. The case for sovereignty rests on an intuitive analogy. A country that depends wholly on foreign infrastructure for its AI systems is exposed to the policy whims of supplier states, much as an oil importer is exposed to embargoes. Proponents add a cultural argument: models trained overwhelmingly on English-language data from a few societies encode the assumptions of those societies, and nations whose languages and legal traditions are thinly represented risk receiving digital services that misread them. Building domestic data centres, national language models and public compute facilities is therefore presented as a hedge against both coercion and cultural flattening. Yet the oil analogy, though serviceable, conceals as much as it reveals. Oil is a consumable; once burned it is gone, but its possession confers a persistent advantage. Compute depreciates with startling speed, since each generation of hardware renders the previous one economically obsolete within a few years. A state that spends heavily to stockpile today's accelerators may find itself holding the strategic equivalent of last year's newspapers. Moreover, the most valuable inputs to AI capability are not merely physical. Talent, research culture and the ability to deploy models across an economy matter at least as much as raw hardware, and none of these can be purchased in a single procurement cycle. Several analysts have noted that diffusion, meaning the speed with which firms and ministries actually adopt the technology, may prove a better predictor of national benefit than frontier training capacity. Export controls illustrate the difficulty of calibrating policy in a fast-moving field. Their architects hope to slow a rival's military applications without crippling the legitimate commercial trade on which their own firms depend for revenue. But controls impose costs on those who impose them: they invite retaliation through restrictions on critical minerals, they push targeted nations to invest massively in indigenous substitutes, and they erode the market share that finances the next generation of research. Sceptics argue that a restriction meant to preserve a lead may, over a sufficiently long horizon, manufacture the very competitor it was meant to forestall. Defenders respond that the relevant horizon is not decades but years, and that delay during a period of rapid capability growth is itself a strategic good. The disagreement, in other words, is less about facts than about time preferences. Middle powers face the most delicate choices. India, for instance, possesses a vast pool of engineering talent and an admired record in digital public infrastructure, but limited domestic fabrication capacity and a modest installed base of advanced accelerators. Gulf states possess capital and cheap energy but thin research ecosystems. Neither can plausibly match the largest players across the entire stack. Their rational strategy, many argue, is selective: build capability in the layers where a comparative advantage exists, such as applications, language-specific models and regulatory frameworks, while securing access to the rest through diversified partnerships rather than pursuing autarky. Such hedging is uncomfortable, because it requires trusting suppliers whom the sovereignty narrative teaches one to distrust. There is also an environmental dimension that the rhetoric of sovereignty tends to skip. Large data centres consume electricity and water on a scale that strains local grids, and the race to host them can pit national ambitions against regional resource constraints. A nation that attains computational independence by draining its aquifers or delaying its decarbonisation has purchased security at a price its citizens may later contest. What emerges is not a case against investment but a case against slogans. Sovereignty in AI is best understood as a spectrum of dependencies, each with its own cost of mitigation, rather than a binary status that a country either attains or lacks. The policymaker's task is to decide which dependencies are tolerable, which are dangerous, and which can be converted into mutual interdependence that deters coercion by making it costly for every side.",
+        "question": "Which of the following best captures the central argument of the passage?",
+        "options": [
+          "Because compute depreciates so quickly, states should abandon efforts to build domestic AI capacity and rely on imports from allied suppliers.",
+          "Export controls have conclusively failed, and the restrictions should therefore be lifted before rivals develop substitutes of their own.",
+          "Sovereignty in AI is best treated as a spectrum of dependencies to be managed rather than a status to be achieved.",
+          "Middle powers such as India are better served by aligning with a single dominant supplier than by pursuing diversified partnerships."
+        ],
+        "answer": 2,
+        "explanation": "Detailed Solution: (A) Over-reads the depreciation point; the author explicitly says this is 'not a case against investment'. (B) The author presents both sides on controls and does not claim they have 'conclusively failed'. (C) The final paragraph says exactly this: it is a case against slogans, not against investment. (D) Contradicts the advice of 'diversified partnerships rather than autarky'; the author never endorses a single supplier."
+      },
+      {
+        "id": 29,
+        "section": "VA",
+        "category": "Reading Comprehension",
+        "difficulty": "Hard",
+        "type": "mcq",
+        "marks": 4,
+        "negative_marking": 1,
+        "passage": "For most of the twentieth century, strategic rivalry among states was conducted over tangible commodities: oil fields, shipping lanes, enriched uranium. The twenty-first century has added a stranger asset to the list: computational capacity. The advanced semiconductors that train and run large AI models emerge from a supply chain so concentrated that a handful of firms, in a handful of jurisdictions, hold chokepoints at every stage, from the lithography machines that etch circuits to the foundries that manufacture them. It is unsurprising, then, that export controls on these chips, once an obscure instrument of trade policy, have become a central device of great-power competition, and that governments from Washington to Riyadh now speak of \"sovereign AI\" with the urgency once reserved for energy security. The case for sovereignty rests on an intuitive analogy. A country that depends wholly on foreign infrastructure for its AI systems is exposed to the policy whims of supplier states, much as an oil importer is exposed to embargoes. Proponents add a cultural argument: models trained overwhelmingly on English-language data from a few societies encode the assumptions of those societies, and nations whose languages and legal traditions are thinly represented risk receiving digital services that misread them. Building domestic data centres, national language models and public compute facilities is therefore presented as a hedge against both coercion and cultural flattening. Yet the oil analogy, though serviceable, conceals as much as it reveals. Oil is a consumable; once burned it is gone, but its possession confers a persistent advantage. Compute depreciates with startling speed, since each generation of hardware renders the previous one economically obsolete within a few years. A state that spends heavily to stockpile today's accelerators may find itself holding the strategic equivalent of last year's newspapers. Moreover, the most valuable inputs to AI capability are not merely physical. Talent, research culture and the ability to deploy models across an economy matter at least as much as raw hardware, and none of these can be purchased in a single procurement cycle. Several analysts have noted that diffusion, meaning the speed with which firms and ministries actually adopt the technology, may prove a better predictor of national benefit than frontier training capacity. Export controls illustrate the difficulty of calibrating policy in a fast-moving field. Their architects hope to slow a rival's military applications without crippling the legitimate commercial trade on which their own firms depend for revenue. But controls impose costs on those who impose them: they invite retaliation through restrictions on critical minerals, they push targeted nations to invest massively in indigenous substitutes, and they erode the market share that finances the next generation of research. Sceptics argue that a restriction meant to preserve a lead may, over a sufficiently long horizon, manufacture the very competitor it was meant to forestall. Defenders respond that the relevant horizon is not decades but years, and that delay during a period of rapid capability growth is itself a strategic good. The disagreement, in other words, is less about facts than about time preferences. Middle powers face the most delicate choices. India, for instance, possesses a vast pool of engineering talent and an admired record in digital public infrastructure, but limited domestic fabrication capacity and a modest installed base of advanced accelerators. Gulf states possess capital and cheap energy but thin research ecosystems. Neither can plausibly match the largest players across the entire stack. Their rational strategy, many argue, is selective: build capability in the layers where a comparative advantage exists, such as applications, language-specific models and regulatory frameworks, while securing access to the rest through diversified partnerships rather than pursuing autarky. Such hedging is uncomfortable, because it requires trusting suppliers whom the sovereignty narrative teaches one to distrust. There is also an environmental dimension that the rhetoric of sovereignty tends to skip. Large data centres consume electricity and water on a scale that strains local grids, and the race to host them can pit national ambitions against regional resource constraints. A nation that attains computational independence by draining its aquifers or delaying its decarbonisation has purchased security at a price its citizens may later contest. What emerges is not a case against investment but a case against slogans. Sovereignty in AI is best understood as a spectrum of dependencies, each with its own cost of mitigation, rather than a binary status that a country either attains or lacks. The policymaker's task is to decide which dependencies are tolerable, which are dangerous, and which can be converted into mutual interdependence that deters coercion by making it costly for every side.",
+        "question": "According to the passage, why is the analogy between compute and oil imperfect?",
+        "options
