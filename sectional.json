@@ -1,7 +1,7 @@
 [
   {
-    "title": "IPMAT VA Sectional – 19th Oct 2026",
-    "date": "2026-10-19",
+    "title": "IPMAT VA Sectional – 20th Oct 2026",
+    "date": "2026-10-20",
     "section": "Verbal Ability",
     "total_questions": 45,
     "duration_minutes": 45,
@@ -15,20 +15,20 @@
     },
     "passages": {
       "RC1": {
-        "title": "Beyond the dollar? The politics of local-currency trade",
-        "text": "Since the Second World War, the dollar has served as the world's default currency for invoicing trade, pricing commodities, holding reserves and settling debts. Its dominance is so familiar that it has ceased to look like a policy choice at all. Yet the weaponisation of financial plumbing, through sanctions that freeze reserves, cut banks off from messaging networks or restrict access to dollar clearing, has prompted many governments to ask whether so much of their commerce should depend on a currency issued by a rival or a potential adversary. Hence the growing talk of \"de-dollarisation\": the effort to settle trade in rupees, yuan, dirhams and other local currencies. The motives are easy to understand. Dollar invoicing exposes exporters and importers to exchange-rate swings unrelated to their own economies; when the dollar strengthens, borrowers with dollar debts see their burden rise even if nothing at home has changed. Using local currencies promises to lower transaction costs, shorten settlement chains and, not incidentally, insulate trade from sanctions risk. For countries that buy large volumes of energy from partners who are themselves under sanctions, local-currency settlement can be the only practicable route. But a currency is not merely a unit of account; it is a network, and networks reward incumbency. The dollar's advantage lies less in any single feature than in the combination: deep and liquid financial markets, legal protection for investors, free convertibility, and a vast supply of safe assets in which surplus earnings can be parked. A trading partner who accepts rupees must be able to do something useful with them. If they cannot be spent on goods the issuing country exports, or invested in assets the partner trusts, they pile up as idle balances. Some recent arrangements have struggled on precisely this problem, with exporters holding large sums of a currency they could neither convert freely nor use productively. The imbalance is revealing. Bilateral trade that is roughly balanced can be settled in either currency without much friction; lopsided trade cannot. When a country imports heavily from a partner but exports little to it, settlement in the importer's currency leaves the partner holding ever larger balances that it may be unable to spend or invest, while settlement in the partner's currency forces the importer to find that currency elsewhere. The alternative is a third currency, which brings the dollar straight back in. This is why advocates of local-currency trade increasingly emphasise supporting infrastructure, such as swap lines between central banks, rupee-denominated bonds that foreign holders can buy, and interlinked payment systems, rather than simple declarations of intent. Moreover, convertibility is a double-edged commitment. Opening the capital account to foreign holders of a currency invites investment but also invites flight. Countries that have long managed their exchange rates and restricted capital movements to protect their economies from sudden stops are reluctant to abandon those protections merely to make their currency more attractive abroad. Internationalisation, in other words, demands that a state surrender some of the control that motivated the exercise in the first place. The paradox is that the autonomy sought through de-dollarisation is partly purchased by relinquishing autonomy of another kind. Central banks' reserve behaviour offers a clue. In recent years several have increased their holdings of gold, an asset that is no one's liability and cannot be frozen by any foreign authority. The shift is modest in proportion to total reserves, yet it is revealing: it suggests that prudence about sanctions exposure is shaping portfolios even where governments insist publicly that nothing is changing. Gold, however, earns no interest and is cumbersome to use in payment, so it can serve as insurance but not as a medium of trade. Sceptics of the whole project also note that dominance is self-reinforcing precisely because the alternatives are fragmented. A world of several regional currencies, each with its own settlement systems and rules, may be more resilient to coercion but is also costlier to navigate. Fragmentation raises transaction costs, complicates hedging and weakens the very network benefits that make any currency attractive. The likelier outcome, many economists believe, is gradual diversification at the margin rather than dethronement: a multipolar arrangement in which the dollar remains first among several, but no longer alone. For a country like India, the sensible approach is probably incremental. Expanding the rupee's role in trade with a few partners where flows are balanced and relations stable, building swap lines and deepening domestic bond markets, and adopting the discipline of low inflation and credible institutions are measures that carry value irrespective of geopolitics. A currency earns trust slowly and loses it quickly; declarations cannot substitute for the dull work of making it worth holding."
+        "title": "The epistemic crisis of algorithmic governance and automated adjudication",
+        "text": "For centuries, the legitimacy of institutional authority relied upon an intricate architecture of procedural justice, human fallibility, and reasoned justification. When a court handed down a verdict or a bureaucrat denied a permit, the decision was tethered to a paper trail of explicable logic, subject to appellate scrutiny and normative critique. Today, this Enlightenment compact is quietly being displaced by automated adjudication and black-box machine learning models that optimize for predictive accuracy rather than intelligibility. This shift introduces an acute epistemic crisis into public administration. When a criminal sentencing algorithm or a welfare allocation system assigns a high-risk score, it typically does so by discerning subtle correlations across thousands of disparate variables—past zip codes, non-linear browsing histories, micro-behavioral metrics—none of which individually supplies a sufficient causal rationale. Proponents of algorithmic governance argue that human decision-makers are notoriously prone to cognitive biases, fatigue, and systemic prejudice, whereas statistical models offer scalable consistency and unprecedented optimization. Yet, this technocratic defense conflates mathematical consistency with substantive justice. A system can be entirely consistent in its disparate impact while remaining fundamentally opaque to those whose lives it alters. The problem of opacity is compounded by proprietary enclosure: because these models are frequently built and licensed by private contractors, the source code, training datasets, and weight parameters are shielded behind trade secrecy and intellectual property laws. Consequently, an aggrieved citizen does not merely face an indifferent bureaucracy; they confront a proprietary oracle whose internal reasoning cannot be subpoenaed, interrogated, or falsified. Legal scholars have termed this the 'due process deficit' of the digital state. Traditional administrative law assumes a human adversary capable of offering a reasoned defense; when the adversary is a shifting vector space of probabilistic inferences, judicial review devolves into a hollow ritual of deference. Furthermore, the feedback loops inherent in predictive policing or automated credit scoring create insidious self-fulfilling prophecies. If an algorithm flags a neighborhood as high-risk based on historically skewed arrest records, police presence increases, more arrests are logged, and the model's initial prejudice is mathematically validated. To treat such algorithmic outputs as objective reality is to commit a category error, mistaking historical artifacts for natural laws. Mitigating this crisis requires more than superficial 'explainable AI' toolkits that graft post-hoc rationalizations onto uninterpretable architectures. It demands a fundamental institutional realignment—one that asserts that public power exercised over citizens must remain fundamentally intelligible, contestable, and bound to human norms of justification, even if it means sacrificing a fraction of statistical efficiency."
       },
       "RC2": {
-        "title": "Seeing is no longer believing: synthetic media and the economics of trust",
-        "text": "For well over a century, photographs, audio recordings and video footage have enjoyed a special status as evidence. A fabricated letter might be dismissed as forgery, but a recorded confession carried a different weight: it seemed to capture reality directly rather than describe it. That presumption is now eroding. Generative systems can synthesise a politician's voice, graft one person's face onto another's body, or produce a convincing \"news clip\" of an event that never took place, at a cost that has fallen from studio budgets to a few minutes on a consumer laptop. The immediate fear is deception: a fabricated recording released on the eve of an election, a forged video of a company chief announcing a fictitious merger, a cloned voice persuading a relative to transfer money. These dangers are real, and several have already materialised on a small scale. Yet scholars of misinformation caution that the larger damage may be indirect. When any recording might be false, genuine recordings lose their force too. This is the so-called \"liar's dividend\": a wrongdoer caught on tape can simply claim that the tape is synthetic, and in an environment saturated with fakes, enough of the public may be willing to believe him. The technology need not fool everyone; it needs only to supply the doubt. The harms are also unevenly distributed. Prominent figures have teams to rebut forgeries, whereas a private individual targeted by a fabricated video may have neither the resources nor the platform access to contest it. Non-consensual synthetic imagery, in particular, falls overwhelmingly on women, and the injury persists long after a fabrication is debunked, because corrections travel more slowly than the original and rarely reach the same audience. Any serious policy must therefore consider not only the aggregate effect on public discourse but also the individuals who bear its sharpest edge. Detection offers limited comfort. Tools that identify synthetic content work by spotting statistical traces left by generators, but the generators improve in response, producing an arms race in which defenders must succeed every time and attackers only once. Moreover, a detector that is 95 per cent accurate sounds impressive until it is applied to millions of items, when it produces thousands of false accusations against authentic material. A false positive is not a trivial error; it can brand a genuine whistle-blower's video as fraudulent. A more promising line of defence is provenance: instead of asking whether a file is fake, record where it came from. Cameras and editing software can attach cryptographic signatures documenting when and by whom content was captured and what alterations followed. A viewer then learns not that the image is true, but that it carries a verifiable chain of custody. The approach has obvious limits. Signatures help only if they are widely adopted, if they survive the compression and re-uploading that content undergoes on social platforms, and if audiences learn to look for them. Content without credentials is not necessarily false, yet it may come to be treated with suspicion, burdening those who lack modern equipment, including citizen journalists in poor and conflict-ridden regions. Regulation is racing to catch up. Some jurisdictions have required labelling of synthetic content, particularly in political advertising, and others have criminalised non-consensual synthetic intimate imagery. Labelling mandates, however, bind mainly those willing to obey them; a propagandist working across borders is unlikely to attach a disclosure to a forgery. Enforcement therefore falls on platforms, which are asked to remove or flag deceptive content at enormous scale and under severe time pressure, and which face the awkward task of distinguishing satire and creative work from fraud. Overzealous removal can chill legitimate expression; insufficient removal lets damage spread before correction can arrive. Perhaps the deepest adjustment is cultural rather than technical. Societies lived for millennia without photographic evidence and developed institutions to compensate: courts that tested testimony, reputations that took years to build, and trusted intermediaries whose role was to verify before publishing. The age of synthetic media may require the return of such habits. Viewers may need to ask who is vouching for a claim rather than merely how it looks, and institutions that verify may become more valuable even as those that merely distribute become less so. None of this implies that the technology is purely harmful; the same tools lower the cost of dubbing films into dozens of languages, restoring damaged footage, and giving a voice back to patients who have lost theirs. The task is to keep these benefits while ensuring that trust, which societies build slowly and lose quickly, is not the casualty."
+        "title": "The macroeconomic illusion of productivity decoupled from labor compensation",
+        "text": "For the better part of the post-war era, standard economic orthodoxy posited a virtuous and stable equilibrium between aggregate productivity growth and real worker compensation. As technological innovation, capital accumulation, and managerial efficiency expanded the productive output per hour worked, competitive labor markets would ensure that workers shared proportionately in the resulting prosperity through rising real wages. Over the past four decades, however, this historic coupling has decisively fractured across nearly all advanced industrial economies, giving rise to the structural phenomenon known as the productivity-pay decoupling. While macro-level output per worker has continued an upward trajectory—accelerated recently by software automation, global supply chain optimization, and artificial intelligence—median real wages have stagnated or grown at a negligible fraction of productivity gains. Mainstream economists offer competing explanations for this divergence, dividing roughly into technological and institutional camps. The technological school attributes the decoupling to skill-biased technical change, arguing that modern automation disproportionately substitutes for routine cognitive and manual labor while augmenting the productivity of high-skill professionals, thereby shifting the functional distribution of income away from labor toward capital and specialized talent. Conversely, the institutional school emphasizes the systematic erosion of worker bargaining power through the secular decline of union density, the fissuring of the workplace via outsourcing and subcontracting, the weakening of labor standards, and the concentration of corporate market power, or monopsony, in labor markets. This structural shift has profound ramifications for aggregate demand and financial stability. When the marginal propensity to consume is significantly higher among wage-earners than capital-holders, a sustained suppression of labor's share of income creates an inherent deficiency in domestic purchasing power. Historically, this demand deficit was papered over by the aggressive expansion of household debt, enabling working-class families to maintain consumption standards through mortgages, credit cards, and subprime lending—a dynamic that ultimately culminated in the systemic financial crisis of 2008. More fundamentally, the decoupling challenges the normative legitimacy of market capitalism. If economic growth ceases to translate into broad-based material advancement for the majority of the population, the social contract underpinning democratic market economies dissolves into cynicism and polarization. Policy remedies traditionally focused on human capital accumulation—such as expanding access to higher education—presume that wage stagnation stems from an educational deficit rather than structural power asymmetries. Yet, as the over-credentialization of the labor market demonstrates, training more workers does not generate higher-paying jobs if the underlying industrial structure rewards capital extraction over productive enterprise. Addressing the decoupling requires structural interventions that restore countervailing power to labor, reconfigure antitrust enforcement to check corporate monopsony, and rethink corporate governance to ensure that enterprise surplus is not exclusively siphoned upward through share buybacks and executive compensation packages tied to short-term stock performance."
       },
       "RC3": {
-        "title": "The geology of the green transition: minerals, markets and power",
-        "text": "The shift from fossil fuels to clean energy is often described in the language of ideas, such as technology, innovation and ambition, but it is also a story of materials. A solar panel needs silicon, silver and copper; a wind turbine needs steel, concrete and rare-earth magnets; an electric vehicle battery needs lithium, nickel, cobalt, graphite and manganese. An electric car typically requires several times the mineral input of a conventional one, and a power grid expanded to carry renewable electricity consumes vast quantities of copper and aluminium. The transition thus replaces dependence on oil and gas with dependence on mines and refineries. The critical feature of this new dependence is not simply that these minerals are scarce, since most are geologically abundant, but that their supply is concentrated. A few countries account for most of the mining of particular metals, and a different but equally small set dominates the processing that turns raw ore into usable chemicals and alloys. Processing, in fact, is where concentration is often most severe: ore mined on one continent is frequently shipped to another for refining, which is where much of the value, and leverage, resides. A state that controls refining can influence prices and availability even when it lacks the ore itself. Concentration creates vulnerability, and vulnerability invites policy. Importing countries have responded with strategies to diversify supply: signing partnerships with resource-rich nations, subsidising domestic mining and processing, and building strategic stockpiles. Producers, for their part, have grown wary of exporting raw materials only to watch others capture the value added, and several have restricted unprocessed exports to encourage domestic refining. These moves are rational from each side's perspective, but together they risk converting commodity markets into arenas of strategic competition, with prices determined less by cost than by politics. Markets themselves complicate the picture. Mineral prices are volatile because supply responds slowly to demand: opening a mine can take a decade, while demand from battery makers can double within a few years. Price spikes encourage new investment, but by the time it arrives, demand patterns may have shifted, perhaps through a change in battery chemistry that reduces reliance on a particular metal. Cobalt illustrates the dynamic. Concern over its supply, much of which is linked to difficult working conditions, pushed manufacturers to develop cobalt-light batteries, easing the pressure but also leaving mining communities that depended on the trade exposed to a sudden fall in demand. This brings in the human and environmental costs. Mining transforms landscapes, consumes water and generates waste whose management is demanding. Communities near mines often bear the burdens while the benefits accrue elsewhere. Lithium extraction from brines, for instance, can compete with farming and herding communities for scarce water in arid regions. Abandoning fossil fuels to avert climate harm while imposing fresh harm on vulnerable communities would hollow out the moral case for the transition, and projects that lack the consent of local people have repeatedly faced delays and protests, undermining the very security of supply that governments seek. Geography adds a further layer. Deposits of many minerals lie in regions with weak institutions, and revenue from extraction can entrench conflict or corruption rather than development, the pattern often called the resource curse. Governments hoping to avoid repeating this history have begun to attach conditions to licences, requiring local processing, community benefit-sharing and transparent reporting of payments. Such conditions can raise costs and deter investors, but they may prove cheaper than the instability that follows when extraction enriches a few and burdens many. Recycling and innovation offer partial relief. Recovering metals from used batteries and electronics reduces the need for fresh mining, though the volumes available will remain small until the first large wave of batteries reaches the end of its life later this decade and beyond. Design improvements can reduce material use, and new chemistries can substitute abundant elements for scarce ones. But neither recycling nor substitution can eliminate demand in the near term; they dampen its growth rather than reverse it. The realistic path therefore combines several modest measures rather than a single decisive one: diversifying suppliers, investing in processing capacity, enforcing environmental and social standards, supporting recycling, and encouraging material-efficient designs. No single instrument is sufficient, and each carries its own trade-offs. The transition's success will depend not only on engineering but also on whether the governance of mining can be made as sophisticated as the technology it feeds."
+        "title": "The spatial politics of urban gentrification and the commodification of civic memory",
+        "text": "Urban gentrification is frequently analyzed through the narrow prism of real estate economics—as a natural, inevitable consequence of demographic shifts, housing supply constraints, and changing consumer preferences among young urban professionals. Yet, such market-determinist frameworks obscure the deeper spatial politics and ideological mechanics through which urban space is systematically reorganized. Gentrification is not merely the physical upgrading of dilapidated housing stock; it is a violent process of class-mediated displacement that rewrites the social, cultural, and semiotic geography of the city. At the core of this transformation lies the commodification of urban authenticity. Neighborhoods targeted for reinvestment are almost invariably characterized by historical marginalization, racial diversity, and a dense, vernacular fabric of immigrant commerce, local workshops, and informal social networks. Real estate developers, municipal authorities, and incoming gentrifiers simultaneously stigmatize these existing communities as blighted or dangerous while cannibalizing their cultural markers—their street art, independent music scenes, ethnic eateries, and gritty aesthetic—to manufacture a marketable brand of bohemian urbanity. This dynamic sets in motion a cruel irony: the very social diversity and cultural vitality generated by marginalized populations are expropriated as capital assets to attract affluent newcomers, whose very presence subsequently drives up land values, commercial rents, and property taxes, rendering the original inhabitants economically untenable. The municipal state rarely acts as a neutral arbiter in this spatial restructuring. Through tax abatements, zoning variances, public-private partnerships, and aggressive policing of public spaces, local governments actively subsidize upscale redevelopment under the banner of urban renewal and economic revitalization. Public infrastructure investments are deliberately channeled to service high-end residential and commercial complexes, while social infrastructure—such as public housing, community clinics, public transit lines serving working-class peripheries, and open parks—is starved of resources or outright privatized. This spatial sorting produces a splintered urban landscape characterized by fortified enclaves of affluence immediately adjacent to hyper-policed zones of systemic deprivation. Furthermore, gentrification enacts a profound erasure of civic memory. As historic tenements, working-class social clubs, and vernacular commercial spaces are demolished or retrofitted into luxury condominiums, artisanal coffee shops, and concept boutiques, the collective history of the neighborhood is physically obliterated. The built environment is scrubbed clean of working-class struggle and immigrant adaptation, replaced by a sanitized, homogenized pastiche designed for aesthetic consumption. Resistance to this process has evolved beyond localized rent strikes and protest marches into a broader theoretical and political contest over the 'right to the city'—the demand that urban inhabitants reclaim collective control over the production of space, shifting the city from an instrument of capital accumulation to a collective habitat organized around human need rather than exchange value."
       },
       "CA1": {
-        "title": "Conversation: Has the common entrance test levelled the field? (Education Dialogues)",
-        "text": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nKavya Iyer (Education Correspondent): Most central universities now admit students through a single national entrance test rather than on school-board marks. Has this levelled the field, or merely changed who is tilted?\n\nDr. Suresh Menon (Education Policy Researcher): Both, in different measure. Board marks vary enormously in how generously they are awarded, so a common test removes one distortion. But it introduces another: access to coaching. A test that rewards drilling rewards those who can pay for drills.\n\nMrs. Lata Deshpande (School Principal): And it hollows out the school. Class 12 students now treat the syllabus as an obstacle between them and the entrance test. Attendance falls, and teachers lose the one lever they had, which was marks that mattered.\n\nDr. Suresh Menon: That is a cost, but it is not evidence against the test. It is evidence of having a test and a board exam that measure different things. If the two were aligned, the conflict would shrink.\n\nMrs. Lata Deshpande: Aligning them sounds neat, yet each is designed for a different purpose: one to certify a course of learning, the other to rank applicants. Merging them would damage both.\n\nKavya Iyer: So the choice is between two imperfect filters?\n\nDr. Suresh Menon: Between imperfect filters and an honest accounting of what each one filters for."
+        "title": "Conversation: Is the commercialization of scientific research compromising objective truth? (Academic Dialogues)",
+        "text": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nDr. Aruna Sen (Science Historian): Modern academic science is increasingly tethered to commercial viability, patent portfolios, and venture capital funding. Have we crossed the threshold where institutional self-interest eclipses the pursuit of objective truth?\n\nProf. Julian Vance (Biochemist): That framing is overly romantic and historically naive. Science has always relied on patronage, whether from royal courts, military treasuries, or industrial conglomerates. The modern biotech ecosystem does not compromise truth; it accelerates translation, turning abstract molecular insights into life-saving therapeutics at a speed publicly funded labs could never match.\n\nDr. Aruna Sen: Translation is vital, Julian, but speed becomes a pathology when commercial imperatives dictate what questions are asked—and suppressed. When a university laboratory depends on corporate endowments, negative clinical trials are quietly buried, methodological flaws in proprietary drug platforms go unchallenged, and replication studies are starved of funding because they lack commercial novelty.\n\nProf. Julian Vance: You are describing fringe malfeasance, not systemic corruption. Peer review, independent regulatory bodies like the FDA, and the ultimate self-correcting mechanism of scientific replication serve as robust structural safeguards against fraudulent or distorted findings.\n\nDr. Aruna Sen: Those safeguards assume that the institutions auditing the research are independent of the economic interests producing it. When review panels are populated by corporate consultants and regulatory agencies are captured by industry user-fees, the audit loop closes upon itself, transforming commercial bias into institutional consensus.\n\nProf. Julian Vance: Then your remedy is institutional paralysis. Without private capital, state-funded science stagnates in ivory towers, paralyzed by bureaucratic inertia and insulated from real-world application.\n\nDr. Aruna Sen: It is not a choice between bureaucratic stagnation and corporate enclosure. We need a firewall that decouples foundational knowledge production from market capitalization—otherwise, science ceases to be a public good and becomes merely an R&D subsidiary of venture capital."
       }
     },
     "questions": [
@@ -40,15 +40,15 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "question": "The senator's defence was ________: it reasoned in a circle, assuming the very conclusion it purported to establish.",
+        "question": "The philosopher's prose was a masterpiece of ________, deliberately obscuring weak foundational premises behind a dense fog of impenetrable jargon.",
         "options": [
-          "tautological",
-          "empirical",
-          "unimpeachable",
-          "inductive"
+          "perspicuity",
+          "obfuscation",
+          "candour",
+          "lucidity"
         ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) 'Tautological' describes reasoning that is circular, where the premise already contains the conclusion. (B) 'Empirical' means based on observed evidence; circular reasoning offers none. (C) 'Unimpeachable' means beyond criticism, which a circular argument is not. (D) 'Inductive' reasoning generalises from cases; it is not circular by definition."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) 'Perspicuity' means clarity, which contradicts obscuring premises. (B) 'Obfuscation' means the action of making something obscure, unclear, or unintelligible, matching 'deliberately obscuring weak foundational premises'. (C) 'Candour' means openness, the opposite of hiding flaws. (D) 'Lucidity' means clarity of expression."
       },
       {
         "id": 2,
@@ -58,15 +58,15 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "question": "Although the new regulation was meant to ________ small lenders, its compliance burden fell so heavily on them that it ended up ________ the very concentration it aimed to curb.",
+        "question": "Despite overwhelming empirical refutation, the dogmatic faction clung to their discredited hypothesis with ________ tenacity, dismissing every anomaly as a conspiratorial fabrication.",
         "options": [
-          "penalise; reducing",
-          "empower; dispersing",
-          "regulate; forestalling",
-          "shield; entrenching"
+          "profligate",
+          "fitful",
+          "pertinacious",
+          "tractable"
         ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) 'Penalise' contradicts 'meant to'; also 'reducing' concentration contradicts the outcome implied by 'ended up'. (B) If the rule empowered small lenders and dispersed concentration, there would be no irony; 'although' signals a failure. (C) 'Forestalling' concentration is the aim, not the unintended result. (D) The intent was to protect small lenders ('shield'), but costs on them pushed business to large players, 'entrenching' concentration."
+        "answer": 2,
+        "explanation": "Detailed Solution: (A) 'Profligate' means recklessly extravagant or wasteful. (B) 'Fitful' means active or affected spasmodically, contradicting steady tenacity. (C) 'Pertinacious' means holding tenaciously to an opinion, purpose, or design, perfectly matching the stubborn adherence despite refutation. (D) 'Tractable' means easily managed or influenced."
       },
       {
         "id": 3,
@@ -76,15 +76,15 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "question": "The mayor's ________ response to the crisis, dithering until events forced his hand, contrasted sharply with his deputy's ________ decisiveness.",
+        "question": "The diplomat's memoirs were remarkable not for what they revealed, but for their calculated ________, omitting any mention of the diplomatic blunders that precipitated the crisis.",
         "options": [
-          "impetuous; reckless",
-          "irresolute; unwavering",
-          "circumspect; precipitate",
-          "prompt; swift"
+          "reticence",
+          "loquacity",
+          "hyperbole",
+          "bombast"
         ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) 'Impetuous' is the opposite of dithering. (B) 'Irresolute' fits 'dithering'; 'unwavering' reinforces 'decisiveness' as a contrast. (C) 'Circumspect' suggests careful caution, and 'precipitate' (hasty) does not fit 'decisiveness' as praise; weaker on both blanks. (D) 'Prompt' contradicts 'dithering'."
+        "answer": 0,
+        "explanation": "Detailed Solution: (A) 'Reticence' refers to the quality of being reticent, reserved, or restrained in expression, perfectly fitting the calculated omission of blunders. (B) 'Loquacity' means talkativeness. (C) 'Hyperbole' is exaggerated statements. (D) 'Bombast' is high-sounding language with little meaning."
       },
       {
         "id": 4,
@@ -94,15 +94,15 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "question": "Having squandered the goodwill of her allies through repeated ________, the negotiator found herself isolated when ________ was most needed.",
+        "question": "Far from being an objective arbiter of historical truth, the monument was erected as a piece of political ________, designed to sanctify a brutal regime through selective myth-making.",
         "options": [
-          "magnanimity; confrontation",
-          "diligence; compromise",
-          "duplicity; solidarity",
-          "candour; consensus"
+          "iconoclasm",
+          "hagiography",
+          "invective",
+          "polemic"
         ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) 'Magnanimity' (generosity) would not squander goodwill. (B) 'Diligence' is a virtue and does not squander goodwill. (C) Repeated deceit ('duplicity') destroys goodwill, leaving her without 'solidarity' when it counted. (D) 'Candour' (honesty) would build, not destroy, goodwill."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) 'Iconoclasm' is the rejection or destruction of religious images or established beliefs. (B) 'Hagiography' originally meant the writing of the lives of saints, but is used metaphorically for writing or creating an idealized, uncritical biography or monument that sanctifies its subject. (C) 'Invective' is insulting language. (D) 'Polemic' is a strong verbal or written attack."
       },
       {
         "id": 5,
@@ -112,15 +112,15 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "question": "In the sentence 'His mercurial temperament made him a difficult colleague, since no one could predict how he would respond from one day to the next', the word 'mercurial' most nearly means:",
+        "question": "In the sentence 'The art critic dismissed the avant-garde installation as mere simulacra, devoid of any authentic emotional resonance or material substance', 'simulacra' most nearly means:",
         "options": [
-          "calm and consistent under sustained pressure from colleagues",
-          "quick to forgive those who have wronged him in the past",
-          "sharply intelligent but emotionally withdrawn from others",
-          "prone to sudden, unpredictable change"
+          "sacred artifacts possessing deep historical lineage",
+          "images or representations that substitute for the real world",
+          "meticulously calculated mathematical models of natural phenomena",
+          "spontaneous expressions of raw, unmediated human suffering"
         ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) The opposite: the sentence says nobody could predict his response. (B) Forgiveness is not mentioned or implied. (C) Intelligence and withdrawal are not implied; the sentence is about unpredictability. (D) 'Mercurial' (like the volatile planet or metal) means subject to sudden, unpredictable shifts of mood."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) Incorrect; simulacra lack authentic lineage. (B) 'Simulacra' refers to artificial representations or copies that often take the place of the real, original thing, perfectly matching the critic's dismissal of superficial imagery lacking substance. (C) Incorrect; not mathematical models. (D) Incorrect; not raw expressions."
       },
       {
         "id": 6,
@@ -130,15 +130,15 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "question": "In 'The review was fulsome in its praise, and readers distrusted it', 'fulsome' most nearly means:",
+        "question": "Which of the following is closest in meaning to the word 'pusillanimous'?",
         "options": [
-          "excessive to the point of insincerity",
-          "generous and warmly deserved in every respect",
-          "brief and carefully understated in tone",
-          "reluctant and grudging in expression"
+          "magnanimous",
+          "craven",
+          "bellicose",
+          "sagacious"
         ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) 'Fulsome' means excessive, often cloying and insincere; that is why readers distrusted it. (B) Common misreading: 'fulsome' is often mistaken for 'full' and generous. (C) Understatement would not provoke distrust here. (D) 'Grudging' contradicts 'praise'."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) 'Magnanimous' is noble and generous (near opposite). (B) 'Craven' means contemptibly lacking in courage; cowardly, which is a direct synonym for 'pusillanimous'. (C) 'Bellicose' means demonstrating aggression and willingness to fight. (D) 'Sagacious' means having keen mental discernment and good judgment."
       },
       {
         "id": 7,
@@ -148,15 +148,15 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "question": "Choose the word most nearly OPPOSITE in meaning to 'munificent'.",
+        "question": "Choose the word most nearly OPPOSITE in meaning to 'recalcitrant'.",
         "options": [
-          "benevolent",
-          "prodigal",
-          "miserly",
-          "affluent"
+          "amenable",
+          "intractable",
+          "obstinate",
+          "refractory"
         ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) 'Benevolent' is a synonym, not an opposite. (B) 'Prodigal' means wastefully extravagant: related to spending, but not the opposite of generosity. (C) 'Munificent' means very generous; 'miserly' means unwilling to give or spend. (D) 'Affluent' means wealthy; wealth is not the same as generosity."
+        "answer": 0,
+        "explanation": "Detailed Solution: (A) 'Recalcitrant' means having an obstinately uncooperative attitude toward authority or discipline; its true opposite is 'amenable' (responsive to suggestion, cooperative). (B), (C), and (D) are all synonyms of recalcitrant."
       },
       {
         "id": 8,
@@ -166,15 +166,15 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "question": "Which of the following best explains the expression 'to cross the Rubicon'?",
+        "question": "Which of the following best explains the idiom 'procrustean bed'?",
         "options": [
-          "To abandon a long-standing alliance in the face of mounting pressure",
-          "To take a step from which there is no turning back",
-          "To succeed by a narrow margin after a prolonged struggle",
-          "To cross a boundary with the intention of attacking a rival"
+          "A comfortable compromise that satisfies all conflicting parties equally",
+          "An arbitrary standard or scheme to which exact conformity is forced, regardless of individual differences",
+          "A deceptive trap disguised as an advantageous opportunity",
+          "A temporary refuge that collapses under sudden economic stress"
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: (A) Describes betrayal of an alliance, unrelated to irrevocability. (B) Caesar's crossing of the Rubicon with his army committed him irrevocably to civil war. (C) Describes a narrow win, unrelated to the idiom. (D) Close to the literal event but misses the sense of an irreversible commitment."
+        "explanation": "Detailed Solution: (A) Incorrect; it is not a compromise. (B) Derived from the Greek myth of Procrustes, who forced travelers to fit his iron bed by stretching them or chopping off their limbs, a 'procrustean bed' refers to an arbitrary standard to which conformity is ruthlessly enforced regardless of natural variations. (C) Incorrect. (D) Incorrect."
       },
       {
         "id": 9,
@@ -184,15 +184,15 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "question": "Choose the grammatically correct sentence.",
+        "question": "Choose the grammatically correct and logically coherent sentence.",
         "options": [
-          "The number of applicants have risen, but a number of them lacks the required qualifications.",
-          "The number of applicants has risen, but a number of them lacks the required qualifications.",
-          "The number of applicants has risen, but a number of them lack the required qualifications.",
-          "The number of applicants have risen, but a number of them lack the required qualifications."
+          "Exhausted by the exhaustive marathon negotiations, the breakthrough agreement was finally signed by both delegations at dawn.",
+          "Exhausted by the marathon negotiations, both delegations finally signed the breakthrough agreement at dawn.",
+          "Having exhausted by the marathon negotiations, the breakthrough agreement was signed by both delegations at dawn.",
+          "Exhausting by the marathon negotiations, both delegations finally signed the breakthrough agreement at dawn."
         ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) Both verbs are wrong: 'the number' needs 'has', and 'a number of them' needs 'lack'. (B) First verb is right, but 'a number of them' is plural and needs 'lack'. (C) 'The number' is singular (has); 'a number of' is plural (lack). (D) 'Applicants' is not the subject; 'the number' is, so it needs 'has'."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) Dangling modifier: the agreement was not exhausted. (B) Correctly places 'both delegations' immediately after the participial modifier 'Exhausted by the marathon negotiations'. (C) Ungrammatical passive participle construction ('Having exhausted'). (D) Incorrect active participle 'Exhausting'."
       },
       {
         "id": 10,
@@ -202,15 +202,15 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "question": "Choose the sentence that is correct and parallel in structure.",
+        "question": "Choose the grammatically correct sentence.",
         "options": [
-          "The proposal aims at reducing costs, improving quality and expanding access.",
-          "The proposal aims at reducing costs, improving quality, and to expand access.",
-          "The proposal aims to reduce costs, improving quality, and expanding access.",
-          "The proposal aims at reducing costs, to improve quality, and expanding access."
+          "Little did the executive realize that the clandestine audit would uncover widespread fraud, nor she expected the board to demand her immediate resignation.",
+          "Little did the executive realize that the clandestine audit would uncover widespread fraud, nor did she expect the board to demand her immediate resignation.",
+          "Little the executive realized that the clandestine audit would uncover widespread fraud, nor did she expect the board to demand her immediate resignation.",
+          "Little did the executive realize that the clandestine audit would uncover widespread fraud, neither she expected the board to demand her immediate resignation."
         ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) All three items are gerunds after 'aims at'. (B) Final item switches to an infinitive, breaking parallelism. (C) First item is an infinitive while the other two are gerunds. (D) Middle item is an infinitive in a list of gerunds."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) Missing auxiliary inversion after 'nor' ('nor did she expect'). (B) Correctly inverts both clauses ('Little did the executive realize' and 'nor did she expect'). (C) Fails to invert the first clause after the negative introductory adverb 'Little'. (D) Incorrect pairing of 'nor' variant with 'neither' structure without proper inversion."
       },
       {
         "id": 11,
@@ -220,15 +220,15 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "question": "Not only the students but also the principal ________ concerned about the new policy.",
+        "question": "It is imperative that every candidate ________ their supporting documentation before the statutory deadline expires.",
         "options": [
-          "are",
-          "is",
-          "have been",
-          "were being"
+          "submits",
+          "submitted",
+          "submit",
+          "has submitted"
         ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Would be correct if the nearer subject were plural. (B) With 'not only... but also', the verb agrees with the nearer subject ('the principal', singular). (C) Plural and tense do not match the present-tense context. (D) Plural and an unnatural progressive; no agreement with 'principal'."
+        "answer": 2,
+        "explanation": "Detailed Solution: (A) and (B) Indicative forms violate the mandative subjunctive construction. (C) After expressions of necessity or demand ('It is imperative that'), the mandative subjunctive requires the base form of the verb ('submit'), regardless of singular/plural subject pairings. (D) Present perfect violates the subjunctive rule."
       },
       {
         "id": 12,
@@ -240,13 +240,13 @@
         "negative_marking": 1,
         "question": "One of the sentences below contains a word used incorrectly or inappropriately. Choose that sentence.",
         "options": [
-          "The orator's sonorous voice carried to the very last row of the vast amphitheatre.",
-          "Her magnanimous gesture, forgiving a rival who had slandered her, surprised the whole audience.",
-          "The findings were so unequivocal that they left considerable room for doubt.",
-          "The firm's sanguine projections were vindicated when profits reached a record high."
+          "The CEO's draconian cost-cutting measures alienated the entire workforce.",
+          "The museum's eclectic collection featured everything from Renaissance paintings to contemporary video art.",
+          "The prosecutor presented incontrovertible evidence that obviated any lingering doubt regarding the defendant's guilt.",
+          "The politician's disingenuous apology mollified the angry constituents, entirely resolving the public relations crisis."
         ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) 'Sonorous' (deep and resonant) is used correctly. (B) 'Magnanimous' (generous in forgiving) is used correctly. (C) 'Unequivocal' means leaving no doubt, which contradicts 'room for doubt'. The intended word is 'equivocal' or 'ambiguous'. (D) 'Sanguine' (optimistic) is used correctly."
+        "answer": 3,
+        "explanation": "Detailed Solution: (A) 'Draconian' (excessively harsh) is used correctly. (B) 'Eclectic' (deriving ideas/style from a broad range) is used correctly. (C) 'Obviated' (remove/prevent a need or difficulty) is used correctly. (D) A 'disingenuous' (insincere) apology typically inflames or fails to mollify constituents rather than 'entirely resolving' a crisis; the mismatch makes 'disingenuous' or the outcome inappropriate."
       },
       {
         "id": 13,
@@ -258,13 +258,13 @@
         "negative_marking": 1,
         "question": "One of the sentences below contains a word used incorrectly or inappropriately. Choose that sentence.",
         "options": [
-          "His fastidious attention to detail meant that errors routinely slipped through unnoticed.",
-          "The judge's disinterested ruling, free of any personal stake, was praised by both parties.",
-          "The tycoon's ostentatious mansion, with its gilded gates, drew the envy of the neighbourhood.",
-          "The candidate's pragmatic approach favoured workable compromises over ideological purity."
+          "The labyrinthine corridors of the ancient archive confounded even the most experienced researchers.",
+          "Her intrepid exploration of the Mariana Trench earned her international acclaim among marine biologists.",
+          "The moribund company experienced a miraculous commercial renaissance following the appointment of a visionary CEO.",
+          "The prolific author published a comprehensive monograph every few decades, maintaining an astonishingly high daily output."
         ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) 'Fastidious' means meticulous, which contradicts errors slipping through. The intended word is 'cursory' or 'lax'. (B) 'Disinterested' (impartial) is used correctly. (C) 'Ostentatious' (showy) is used correctly. (D) 'Pragmatic' (practical) is used correctly."
+        "answer": 3,
+        "explanation": "Detailed Solution: (A) 'Labyrinthine' (irregular and twisting like a labyrinth) is correct. (B) 'Intrepid' (fearless) is correct. (C) 'Moribund' (at a dying/stagnant stage) matching a 'renaissance' is correct. (D) 'Prolific' means producing much fruit or many works, which contradicts publishing 'every few decades' and having low daily output; prolific implies continuous, rapid creation."
       },
       {
         "id": 14,
@@ -276,13 +276,13 @@
         "negative_marking": 1,
         "question": "One of the sentences below contains a word used incorrectly or inappropriately. Choose that sentence.",
         "options": [
-          "The sceptic's scathing review left the playwright visibly shaken by its severity.",
-          "The village's insular customs had changed little in centuries of relative isolation.",
-          "The plan's viability depended on the cooperation of several wary stakeholders.",
-          "The committee's judicious decision to ignore the evidence surprised observers."
+          "The ephemeral nature of digital trends ensures that today's viral sensation is tomorrow's forgotten footnote.",
+          "The sagacious elder provided counsel that guided the community through its most turbulent political crisis.",
+          "The disparate data points were easily reconciled into a coherent, unified theoretical framework.",
+          "The audacious heist was executed with such ineptitude that the perpetrators were apprehended before leaving the parking lot."
         ],
         "answer": 3,
-        "explanation": "Detailed Solution: (A) 'Scathing' (harshly critical) is used correctly. (B) 'Insular' (isolated, narrow) is used correctly. (C) 'Viability' (feasibility) is used correctly. (D) 'Judicious' means showing good judgement, which contradicts ignoring all evidence. The intended word is 'injudicious' or 'perverse'."
+        "explanation": "Detailed Solution: (A) 'Ephemeral' (lasting a very short time) is correct. (B) 'Sagacious' (wise) is correct. (C) 'Disparate' (essentially different in kind) is correct. (D) An 'audacious' heist implies daring and often clever execution; executing a crime with 'ineptitude' resulting in immediate capture contradicts the boldness implied by 'audacious' (or turns it into an ironic misuse where 'bungled' or 'ill-conceived' fits better)."
       },
       {
         "id": 15,
@@ -292,15 +292,15 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "question": "Attention has become the scarcest resource in the digital economy. ____________. A feed that never ends, a notification timed to the moment of greatest vulnerability, and an autoplay countdown that removes the decision to stop are all engineering choices. To call the resulting behaviour a 'lack of willpower' is to ignore who built the temptation.",
+        "question": "The democratization of information via the internet was initially hailed as an unmitigated triumph for human agency and intellectual liberation. ____________. Instead of fostering a universal agora of rational discourse, network architectures have atomized populations into mutually hostile echo chambers governed by algorithmic engagement loops that monetize outrage.",
         "options": [
-          "Most users report that they spend less time on their devices than they did five years earlier.",
-          "Governments have allocated significant funding to schools for teaching digital skills to young people everywhere.",
-          "Platforms compete for it, and many design choices are calibrated to capture it rather than serve the user.",
-          "Advertising revenue has declined in most major markets as consumers shift to subscription-based services entirely."
+          "Technological optimism, however, consistently underestimates the capacity of commercial platforms to weaponize friction.",
+          "Historical experience, however, suggests that communication technologies invariably amplify existing societal fissures rather than healing them.",
+          "Governments worldwide have rushed to enact stringent regulatory frameworks to control the flow of online misinformation.",
+          "Digital literacy programs have proven remarkably successful in teaching citizens how to evaluate online sources critically."
         ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) Contradicts the sense of rising capture; not supported. (B) Shifts to education funding, which the paragraph never mentions. (C) Sets up the 'engineering choices' that follow and the blame placed on builders. (D) Introduces an advertising claim that is irrelevant to the argument."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) Focuses on friction rather than the disappointment of liberation. (B) Directly bridges the initial utopian optimism with the cynical reality described in the subsequent sentence ('Instead of fostering a universal agora...'). (C) Shifts to government regulation, which is not discussed. (D) Contradicts the grim reality of echo chambers."
       },
       {
         "id": 16,
@@ -310,15 +310,15 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "question": "Inflation is often reported as a single number, but it is experienced as many. ____________. A household spending most of its income on food and fuel faces a rate far removed from the one the average basket suggests. Policy aimed at the headline figure can therefore miss the people it is meant to protect.",
+        "question": "Economic development is frequently measured through aggregate indicators like Gross Domestic Product, treating growth as an unqualified good. ____________. A nation can log spectacular GDP expansion while median living standards stagnate, environmental degradation accelerates, and social cohesion disintegrates beneath the weight of extreme inequality.",
         "options": [
-          "Central banks have lowered interest rates in most large economies during the last several years of slow growth.",
-          "Economists agree that moderate inflation is preferable to deflation in nearly every historical circumstance observed.",
-          "Wages in most sectors have grown faster than prices, leaving workers better off than they were a decade ago.",
-          "Price rises are unevenly spread across goods, and households weight those goods very differently."
+          "GDP accurately captures the monetary value of all finished goods and services produced within a national boundary.",
+          "Yet, GDP is fundamentally a measure of throughput and monetary exchange, not human welfare or distributive justice.",
+          "Economists have long debated the theoretical limitations of monetary metrics in developing nations.",
+          "Sustainable development requires balancing industrial expansion with ecological preservation."
         ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) About interest rates; unrelated. (B) About the desirability of inflation; unrelated to its unequal incidence. (C) A claim about wages that contradicts the paragraph's concern about unprotected households. (D) Leads into the household-level contrast in the next sentence."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) Defends GDP, which contradicts the critical tone of the following sentence. (B) Serves as the precise logical hinge explaining why aggregate growth is an inadequate measure of well-being, directly setting up the stagnation and inequality examples that follow. (C) Generic statement. (D) Prescriptive statement rather than analytical bridge."
       },
       {
         "id": 17,
@@ -328,15 +328,15 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "question": "Cities do not merely grow; they accrete. ____________. A medieval lane survives beneath a colonial boulevard, which in turn lies beneath a modern flyover, and each layer constrains what the next can become. Planners who imagine a blank slate soon find that the past has a veto.",
+        "question": "The foundational premise of classical deterrence theory is that rational actors will refrain from aggression if the anticipated costs decisively outweigh potential gains. ____________. In asymmetric conflicts involving ideological zealots, state-sponsored cyber proxies, or decentralized non-state actors, traditional levers of retaliation lose their calibrating force because these entities lack conventional territorial vulnerabilities.",
         "options": [
-          "Modern cities are growing faster than at any other time in human history, particularly in Asia and Africa.",
-          "Each generation builds on, around and often over the decisions of the ones before it.",
-          "Flyovers reduce congestion in the short term but rarely improve the long-term quality of urban life.",
-          "Colonial architecture has been carefully preserved in most cities because of its aesthetic value to visitors."
+          "This rationalist calculus, however, breaks down spectacularly when applied to modern geopolitical realities.",
+          "Military strategists have spent decades refining game-theoretic models to predict enemy retaliation thresholds.",
+          "Nuclear stockpiles during the Cold War served as an effective guarantee of mutual assured destruction.",
+          "Deterrence doctrines must be continuously updated to account for emerging technological domains."
         ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) About growth rates; the paragraph is about layering. (B) Introduces layering, which the lane–boulevard–flyover example illustrates. (C) About flyovers' effects, a minor detail in the example. (D) About preservation, which the paragraph does not address."
+        "answer": 0,
+        "explanation": "Detailed Solution: (A) Introduces the necessary qualification ('breaks down... when applied to modern geopolitical realities') that explains why the following sentence about non-state actors and asymmetric conflict invalidates classical deterrence. (B) Irrelevant detail. (C) Historical example that supports rather than critiques deterrence. (D) Prescriptive filler."
       },
       {
         "id": 18,
@@ -346,15 +346,15 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "question": "Which of the following best summarises the paragraph?\n\nScientific journals reward novelty, and a result that merely confirms an established finding is rarely published. Consequently, studies that fail to replicate seldom appear in print, while surprising findings, some of them statistical flukes, attract attention and citations. The literature thus overrepresents positive results, and a reader who surveys it may conclude that a weak effect is strong.",
+        "question": "Which of the following best summarises the paragraph?\n\nIntellectual property regimes were originally conceived as temporary monopolies granted to inventors to incentivize innovation by securing financial returns. Over time, however, aggressive lobbying by corporate conglomerates has systematically expanded the scope, duration, and stringency of copyright and patent laws well beyond their original utilitarian rationale. Rather than stimulating creative output, these hypertrophied legal enclosures now serve primarily to erect insurmountable barriers to entry for upstart competitors, suppress follow-on research, and privatize the cultural commons for rent-seeking extraction.",
         "options": [
-          "Replication studies are unreliable because they are usually conducted by less experienced researchers than the original authors.",
-          "Statistical flukes are the main reason that scientific findings are rejected by journals that value novelty above accuracy.",
-          "Readers should avoid surveying the literature because published studies are written to attract citations rather than to inform.",
-          "Journals' taste for novelty skews the published record towards positive findings, inflating apparent effects."
+          "Patent laws should be abolished entirely because they discourage inventors from sharing discoveries openly with the public.",
+          "Corporate lobbying has transformed IP laws from innovation incentives into anti-competitive rent-seeking tools that harm the public commons.",
+          "Temporary monopolies are no longer necessary in the digital age because creators can monetize their work directly online.",
+          "Original intellectual property frameworks successfully balance private financial reward with broad public access."
         ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) The paragraph says nothing about researchers' experience. (B) Reverses the causation: flukes are rewarded, not rejected. (C) Overreaches: the author warns readers about bias, not about reading at all. (D) Captures the chain: novelty reward → non-replications unpublished → inflated picture."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) The paragraph does not argue for total abolition. (B) Captures the entire arc: original intent (incentives), corporate capture (lobbying/expansion), and negative outcome (anti-competitive barriers, rent-seeking). (C) Irrelevant to digital monetization. (D) Contradicts the text's critique of hypertrophied legal enclosures."
       },
       {
         "id": 19,
@@ -366,13 +366,13 @@
         "negative_marking": 1,
         "question": "Three of the following four sentences relate to a common theme. Choose the sentence that does not belong.",
         "options": [
-          "The ministry announced revised guidelines for the construction of rural roads.",
-          "Monthly SIP inflows reached a record as retail investors steadily raised their contributions.",
-          "Equity mutual funds drew fresh inflows even as benchmark indices consolidated.",
-          "Assets managed by fund houses crossed another milestone this quarter."
+          "Algorithmic decision-making systems routinely encode historical biases hidden deep within training datasets.",
+          "Proprietary machine learning models create a due process deficit by concealing their internal logic behind trade secrecy.",
+          "The migratory patterns of monarch butterflies are regulated by complex circadian clocks linked to celestial navigation.",
+          "Automated risk-assessment scores in criminal sentencing perpetuate self-fulfilling cycles of systemic incarceration."
         ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) It concerns infrastructure policy; the others describe mutual fund flows and assets. (B) Mutual fund flows. (C) Mutual fund flows. (D) Mutual fund assets."
+        "answer": 2,
+        "explanation": "Detailed Solution: (A) Algorithmic bias and governance. (B) Algorithmic opacity and legal deficits. (C) Biological navigation of butterflies—completely unrelated to algorithmic governance and digital statecraft. (D) Algorithmic bias in sentencing."
       },
       {
         "id": 20,
@@ -382,9 +382,9 @@
         "type": "tita",
         "marks": 4,
         "negative_marking": 0,
-        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n\n1. Trees lower street temperatures, reduce energy spent on cooling and raise the value of adjoining property.\n2. Such benefits accrue to those who never pay for them, which is why private developers rarely provide green space unprompted.\n3. Parks are usually defended on aesthetic grounds, as places of beauty and rest.\n4. Public provision, therefore, is less a luxury than a correction to a market failure.\n5. Their economic role is less often acknowledged.",
-        "answer": "35142",
-        "explanation": "Detailed Solution: Sentence 3 introduces the usual defence. Sentence 5 ('Their economic role') pivots. Sentence 1 lists the economic benefits. Sentence 2 ('Such benefits') shows who captures them. Sentence 4 ('therefore') concludes. Order: 3-5-1-2-4."
+        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n1. This opacity is compounded by proprietary enclosure, shielding source codes behind trade secrecy.\n2. Automated adjudication systems optimize for statistical accuracy rather than normative intelligibility.\n3. Consequently, aggrieved citizens face proprietary oracles whose internal reasoning cannot be interrogated.\n4. When an algorithm assigns a high-risk score, it discerns non-linear correlations without offering a causal rationale.\n5. Modern public administration is undergoing an epistemic crisis driven by algorithmic governance.",
+        "answer": "52413",
+        "explanation": "Detailed Solution: Sentence 5 introduces the overarching theme (epistemic crisis in public administration). Sentence 2 explains how automated systems operate (prioritizing accuracy over intelligibility). Sentence 4 gives a concrete instance (assigning risk scores without causal rationales). Sentence 1 ('This opacity') links back to the lack of intelligibility through proprietary enclosure. Sentence 3 ('Consequently') concludes with the citizen's plight. Order: 5-2-4-1-3."
       },
       {
         "id": 21,
@@ -394,9 +394,9 @@
         "type": "tita",
         "marks": 4,
         "negative_marking": 0,
-        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n\n1. Verifying that counterfactual is difficult, since no one can observe the forest that would have been felled without the project.\n2. Carbon credits were designed to let those who can cut emissions cheaply do so on behalf of those who cannot.\n3. A market that cannot tell genuine reductions from imagined ones rewards the cheapest claims, not the best.\n4. The logic holds only if each credit represents a reduction that would not otherwise have occurred.\n5. Buyers consequently face credits of widely varying integrity, priced almost identically.",
-        "answer": "24153",
-        "explanation": "Detailed Solution: Sentence 2 states the design. Sentence 4 gives the condition. Sentence 1 ('that counterfactual') explains the verification problem. Sentence 5 ('consequently') gives the effect on buyers. Sentence 3 concludes. Order: 2-4-1-5-3."
+        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n1. Over the past four decades, however, this historic coupling has decisively fractured across advanced economies.\n2. As productivity expanded, competitive labor markets ensured workers shared proportionately in prosperity through rising wages.\n3. Standard economic orthodoxy posited a stable equilibrium between aggregate productivity and real worker compensation.\n4. This decoupling creates an inherent deficiency in domestic purchasing power.\n5. This structural divergence shifts the functional distribution of income away from labor toward capital.",
+        "answer": "32154",
+        "explanation": "Detailed Solution: Sentence 3 establishes the post-war orthodoxy. Sentence 2 elaborates on how wages coupled with productivity. Sentence 1 ('however') introduces the fracture (the decoupling). Sentence 5 explains the resulting income distribution shift. Sentence 4 traces the macroeconomic consequence (purchasing power deficiency). Order: 3-2-1-5-4."
       },
       {
         "id": 22,
@@ -406,9 +406,9 @@
         "type": "tita",
         "marks": 4,
         "negative_marking": 0,
-        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n\n1. Stability, however, can breed dependence, as local economies may come to rely on a flow that policy cannot control.\n2. Unlike investment, they flow directly into households, where they fund consumption, schooling and housing.\n3. The challenge is to convert a safety net into a springboard.\n4. Remittances now rival foreign investment as a source of external finance for several developing economies.\n5. This directness makes them remarkably stable, since migrants tend to send more home when their families face hardship.",
-        "answer": "42513",
-        "explanation": "Detailed Solution: Sentence 4 introduces remittances. Sentence 2 ('Unlike investment') contrasts. Sentence 5 ('This directness') follows. Sentence 1 ('Stability, however') adds the risk. Sentence 3 concludes. Order: 4-2-5-1-3."
+        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n1. Real estate developers and municipal authorities simultaneously stigmatize these areas while cannibalizing their cultural markers.\n2. Urban gentrification is frequently analyzed through the narrow prism of real estate economics.\n3. This dynamic sets in motion a cruel irony: original diversity is expropriated to attract affluent newcomers.\n4. Yet, such market-determinist frameworks obscure the deeper spatial politics of class-mediated displacement.\n5. Targeted neighborhoods are almost invariably characterized by historical marginalization and vibrant immigrant commerce.",
+        "answer": "24513",
+        "explanation": "Detailed Solution: Sentence 2 introduces the common economic framing of gentrification. Sentence 4 ('Yet') critiques this market-determinist view. Sentence 5 describes the actual target neighborhoods. Sentence 1 explains how authorities and developers exploit these neighborhoods. Sentence 3 ('This dynamic') concludes with the ironic outcome. Order: 2-4-5-1-3."
       },
       {
         "id": 23,
@@ -418,9 +418,9 @@
         "type": "tita",
         "marks": 4,
         "negative_marking": 0,
-        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n\n1. The yardstick, once adopted, begins to shape what it was meant merely to measure.\n2. Standardised tests promise a common yardstick in a system where schools differ widely in quality.\n3. But comparability is bought at the price of narrowness, since only what can be measured on paper enters the yardstick.\n4. Teachers consequently orient instruction towards the test, and skills that resist measurement quietly recede.\n5. Their appeal lies in comparability: a score in one city means the same as a score in another.",
-        "answer": "25341",
-        "explanation": "Detailed Solution: Sentence 2 introduces the tests. Sentence 5 ('Their appeal') explains why. Sentence 3 ('But') shows the cost. Sentence 4 ('consequently') gives the effect. Sentence 1 concludes. Order: 2-5-3-4-1."
+        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n1. When review panels are populated by corporate consultants, commercial bias masquerades as scientific consensus.\n2. Modern academic science is increasingly tethered to commercial viability and venture capital funding.\n3. This financial entanglement ensures that negative clinical trials are quietly buried and replication studies starved of support.\n4. Have we crossed the threshold where institutional self-interest eclipses the pursuit of objective truth?\n5. Critics argue that this compromises the integrity of foundational knowledge production.",
+        "answer": "24531",
+        "explanation": "Detailed Solution: Sentence 2 states the premise of commercial tethering. Sentence 4 poses the resulting rhetorical question. Sentence 5 introduces the critics' argument regarding compromised integrity. Sentence 3 details the specific impacts (buried trials, starved replications). Sentence 1 summarizes the culmination (commercial bias as consensus). Order: 2-4-5-3-1."
       },
       {
         "id": 24,
@@ -430,9 +430,9 @@
         "type": "tita",
         "marks": 4,
         "negative_marking": 0,
-        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n\n1. Overuse selects for resistant bacteria, which then spread beyond the settings where they arose.\n2. Their very success encouraged overuse, in clinics and on farms alike.\n3. The market that gave us the cure thus struggles to protect it.\n4. Antibiotics transformed medicine by making routine surgery and childbirth survivable.\n5. Developing replacement drugs is commercially unattractive, since a new antibiotic is best held in reserve and therefore sells little.",
-        "answer": "42153",
-        "explanation": "Detailed Solution: Sentence 4 introduces antibiotics. Sentence 2 ('Their very success') follows. Sentence 1 explains the consequence of overuse. Sentence 5 explains why replacements are scarce. Sentence 3 ('thus') concludes. Order: 4-2-1-5-3."
+        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n1. This feedback loop creates insidious self-fulfilling prophecies in predictive policing and credit scoring.\n2. To treat such algorithmic outputs as objective reality is to mistake historical artifacts for natural laws.\n3. If an algorithm flags a neighborhood based on skewed arrest records, police presence increases and logs more arrests.\n4. Mitigating this epistemic crisis requires asserting that public power must remain intelligible and bound to human norms.\n5. Algorithms discern patterns across historical data that inherently reflect systemic human prejudices.",
+        "answer": "51324",
+        "explanation": "Detailed Solution: Sentence 5 states that algorithms reflect historical human prejudices. Sentence 1 introduces the resulting self-fulfilling feedback loop. Sentence 3 provides the concrete policing example. Sentence 2 warns against treating these artifacts as objective reality. Sentence 4 concludes with the necessary mitigation. Order: 5-1-3-2-4."
       },
       {
         "id": 25,
@@ -443,15 +443,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "CA1",
-        "question": "On which of the following do Dr. Menon and Mrs. Deshpande disagree?",
+        "question": "On which of the following do Dr. Sen and Prof. Vance fundamentally disagree?",
         "options": [
-          "Whether coaching gives wealthier students an advantage in entrance tests",
-          "Whether the two examinations could be usefully aligned",
-          "Whether a common test removes distortions arising from uneven board marking",
-          "Whether schools suffer when students prioritise the entrance test over the syllabus"
+          "Whether scientific research has historically relied on external patronage systems",
+          "Whether private venture capital accelerates the translation of molecular insights into medical therapeutics",
+          "Whether institutional self-interest and corporate funding compromise the objectivity and integrity of scientific inquiry",
+          "Whether peer review and regulatory bodies like the FDA exist as formal administrative structures"
         ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Only Menon raises coaching; Deshpande never disputes it. (B) Menon thinks alignment would reduce the conflict; Deshpande says merging would damage both. (C) Menon says so; Deshpande does not dispute it. (D) Menon concedes this is a cost; there is no disagreement."
+        "answer": 2,
+        "explanation": "Detailed Solution: (A) Vance notes historical patronage, and Sen does not dispute historical reliance. (B) Sen concedes translation is vital and does not contest that private funding accelerates it. (C) Vance views commercialization as an accelerator with minor anomalies, whereas Sen argues it fundamentally compromises objective truth through systemic bias and buried trials. (D) Both acknowledge peer review and the FDA exist; they dispute their efficacy under commercial capture."
       },
       {
         "id": 26,
@@ -462,15 +462,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "CA1",
-        "question": "Dr. Menon's remark that the hollowing-out of schools 'is not evidence against the test' implies that, in his view:",
+        "question": "Prof. Vance's characterization of Dr. Sen's argument as promoting 'institutional paralysis' implies that he believes:",
         "options": [
-          "the decline in attendance is exaggerated by principals who oppose entrance examinations as a matter of principle",
-          "schools should be compensated by the state for losses suffered as a result of the national entrance test",
-          "board examinations should be abolished because they cannot be reconciled with the purpose of an entrance test",
-          "schools' decline stems from misaligned assessments, not common testing itself"
+          "academic researchers are universally incompetent at managing commercial patent portfolios",
+          "any attempt to decouple foundational research from private capital will result in stagnation and a failure to apply discoveries",
+          "state-funded laboratories are inherently more corrupt than corporate R&D subsidiaries",
+          "peer review is entirely infallible when shielded from government oversight"
         ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) He accepts that it is a real cost, not exaggerated. (B) He proposes no compensation. (C) He proposes alignment, not abolition. (D) He attributes the conflict to the two exams measuring different things, so aligning them would reduce it."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) Vance does not comment on incompetence. (B) Vance explicitly states that without private capital, state-funded science stagnates in ivory towers, paralyzed by bureaucratic inertia, meaning attempts to separate science from markets halt practical progress. (C) He argues state science stagnates, not that it's more corrupt. (D) He does not claim peer review is infallible."
       },
       {
         "id": 27,
@@ -481,15 +481,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "CA1",
-        "question": "Which of the following is NOT stated or implied by Mrs. Deshpande?",
+        "question": "Which of the following best captures Dr. Sen's counter-argument regarding institutional safeguards like peer review and regulatory audits?",
         "options": [
-          "Teachers' leverage has weakened because marks matter less than the entrance score.",
-          "Class 12 students regard the school syllabus as a hindrance to their preparation.",
-          "Coaching institutes should be regulated.",
-          "Board exams and entrance tests serve different purposes."
+          "They are entirely nonexistent in modern biotechnology firms.",
+          "They are redundant because corporate self-regulation is always superior to state oversight.",
+          "They become compromised when the auditors and review boards are financially captured by the commercial interests they evaluate.",
+          "They focus too heavily on basic physics while ignoring applied biochemistry."
         ],
         "answer": 2,
-        "explanation": "Detailed Solution: (A) Implied: teachers lose 'the one lever they had'. (B) Stated explicitly. (C) She never discusses regulation; coaching is mentioned only by Menon. (D) Stated explicitly: certify learning versus rank applicants."
+        "explanation": "Detailed Solution: (A) She says they exist but are co-opted. (B) She rejects corporate self-regulation. (C) Sen argues that when review panels are populated by corporate consultants and agencies captured by user-fees, the audit loop closes upon itself, transforming commercial bias into consensus. (D) Physics is not mentioned."
       },
       {
         "id": 28,
@@ -500,15 +500,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "RC1",
-        "question": "Which of the following best captures the central argument of the passage?",
+        "question": "According to the passage, why does algorithmic adjudication create what legal scholars term a 'due process deficit'?",
         "options": [
-          "Local-currency settlement will soon dethrone the dollar, since sanctions have convinced most governments that its dominance is unsustainable.",
-          "De-dollarisation should be abandoned because fragmented currencies raise transaction costs more than dollar dependence ever has done.",
-          "Reducing dollar dependence is desirable but difficult, and is likely to advance gradually through institutional groundwork.",
-          "India should immediately open its capital account fully so that the rupee can compete with the dollar as a reserve currency."
+          "Because algorithms operate much faster than human judges, denying defendants the right to legal counsel.",
+          "Because proprietary models shield their source code and weight parameters behind trade secrecy, preventing meaningful interrogation or defense.",
+          "Because federal courts have explicitly ruled that computers possess sovereign immunity from civil litigation.",
+          "Because statistical models rely exclusively on randomized trial data rather than historical case law."
         ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) The author predicts diversification rather than dethronement, so 'soon dethrone' is wrong. (B) Fragmentation is a cost the author notes, but the author does not call for abandonment. (C) Matches the final paragraph and the 'gradual diversification at the margin' view. (D) The author warns that convertibility is double-edged and recommends incremental steps."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) Speed is not cited as the cause of the due process deficit. (B) The passage explicitly states that proprietary enclosure shields source codes and weight parameters behind trade secrecy, making the internal reasoning impossible to subpoena, interrogate, or falsify. (C) Sovereign immunity is not mentioned. (D) Factually incorrect based on the text."
       },
       {
         "id": 29,
@@ -519,15 +519,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "RC1",
-        "question": "According to the passage, why have some local-currency trade arrangements struggled?",
+        "question": "The author refers to proprietary algorithms as a 'proprietary oracle' primarily to emphasize that:",
         "options": [
-          "Exporters were left holding balances they could neither convert freely nor use productively.",
-          "Importing partners refused to accept the currency for invoicing because sanctions laws prohibit any payment in non-dollar currencies.",
-          "Central banks involved withheld swap lines in order to protect their own exchange rates from any speculative pressure.",
-          "Both trading partners preferred to settle in dollars because dollar invoicing eliminates exchange-rate risk entirely for them."
+          "they are ancient spiritual relics repurposed by modern technology conglomerates for divination",
+          "they demand blind faith and deliver inscrutable decrees that cannot be challenged through rational discourse",
+          "they predict future stock market fluctuations with absolute infallibility",
+          "they are freely accessible open-source public utilities funded by taxpayer endowments"
         ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) Stated in paragraph 3 as the 'idle balances' problem. (B) Sanctions laws are not said to prohibit non-dollar payment. (C) The passage does not mention central banks withholding swap lines. (D) The passage says dollar invoicing exposes parties to exchange-rate swings, not that it eliminates risk."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) Metaphorical, not ancient relics. (B) An oracle delivers unchallengeable pronouncements from an opaque source; calling algorithms 'proprietary oracles' emphasizes that citizens face an authority whose internal reasoning is completely closed to interrogation and contestation. (C) Stock markets are not the focus. (D) Contradicts 'proprietary' enclosure."
       },
       {
         "id": 30,
@@ -538,15 +538,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "RC1",
-        "question": "Which of the following can be inferred from paragraph 4?",
+        "question": "Which of the following, if true, would most strengthen the author's critique of predictive policing algorithms?",
         "options": [
-          "Balanced bilateral trade removes the need for any supporting financial infrastructure such as swap lines or rupee-denominated bonds.",
-          "Lopsided trade can always be settled smoothly in the currency of whichever country exports more to the other.",
-          "Third-currency settlement is cheaper and more reliable than direct settlement in either partner's local currency.",
-          "Surplus partners will accumulate the importer's currency unless they can spend or invest it."
+          "Police departments that discontinued algorithmic hotspot mapping experienced a permanent cessation of all urban crime.",
+          "Independent audits revealed that algorithmic deployment systematically over-policed minority neighborhoods regardless of actual drug usage rates, generating skewed feedback loops.",
+          "Software engineers successfully increased the processing speed of neural network weight parameters by fifty percent.",
+          "Citizens expressed overwhelming emotional satisfaction with automated chatbot permit renewals."
         ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) The passage says balanced trade is settled with 'little friction', not that infrastructure is unnecessary. (B) The passage says lopsided trade cannot be settled without friction. (C) A third currency 'brings the dollar straight back in'; the passage does not call it cheaper. (D) Follows directly from the discussion of lopsided trade."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) Overstates with 'permanent cessation'. (B) Directly supports the author's argument regarding self-fulfilling feedback loops, skewed historical arrest records, and systemic prejudice validated by mathematical models. (C) Processing speed is irrelevant to equity. (D) Permit renewals do not address predictive policing."
       },
       {
         "id": 31,
@@ -557,15 +557,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "RC1",
-        "question": "The 'paradox' mentioned in paragraph 5 refers to the fact that:",
+        "question": "What is the author's stance on 'explainable AI' toolkits designed to make black-box models transparent?",
         "options": [
-          "currencies grow more valuable when governments restrict their use, yet restrictions are removed as the currency becomes more valuable.",
-          "gaining autonomy from the dollar may require surrendering some control over capital flows.",
-          "countries that avoid sanctions risk become targets of sanctions because their trade is settled outside the dollar system.",
-          "a currency attracts foreign investors only when it is not freely convertible, yet convertibility is the stated goal of policy."
+          "The author views them as the ultimate legislative solution to administrative opacity.",
+          "The author considers them superficial fixes that graft post-hoc rationalizations onto uninterpretable architectures.",
+          "The author argues they should be mandated immediately for all private corporate contracts.",
+          "The author believes they completely eliminate human cognitive bias in public administration."
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: (A) The passage makes no such claim about restrictions and value. (B) Paragraph 5 says internationalisation demands surrendering control, the thing that motivated the exercise. (C) The passage does not claim that sanctions target such countries. (D) The passage says convertibility invites investment, not that it deters it."
+        "explanation": "Detailed Solution: (A) Contradicts the text. (B) The passage explicitly states that mitigating the crisis requires more than superficial 'explainable AI' toolkits that graft post-hoc rationalizations onto uninterpretable architectures. (C) Not recommended as the ultimate fix. (D) Overstates their capability."
       },
       {
         "id": 32,
@@ -576,15 +576,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "RC1",
-        "question": "All of the following are mentioned as reasons governments are interested in de-dollarisation EXCEPT:",
+        "question": "According to the passage, why do proponents of algorithmic governance advocate for automated decision-making?",
         "options": [
-          "higher returns on reserves held abroad",
-          "exposure to exchange-rate swings unrelated to domestic conditions",
-          "lower transaction costs and shorter settlement chains",
-          "insulation of trade from the risk of sanctions"
+          "Because human decision-makers are prone to cognitive biases and fatigue, whereas statistical models offer scalable consistency.",
+          "Because machine learning models are legally required by international human rights treaties.",
+          "Because computers completely eliminate economic inequality within capitalist states.",
+          "Because private contractors offer their software services entirely free of charge to cash-strapped municipalities."
         ],
         "answer": 0,
-        "explanation": "Detailed Solution: (A) Never mentioned in the passage. (B) Mentioned in paragraph 2. (C) Mentioned in paragraph 2. (D) Mentioned in paragraph 2."
+        "explanation": "Detailed Solution: (A) Explicitly stated in paragraph 1: human decision-makers are notoriously prone to cognitive biases, fatigue, and systemic prejudice, whereas statistical models offer scalable consistency. (B), (C), and (D) Have no basis in the text."
       },
       {
         "id": 33,
@@ -595,15 +595,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "RC1",
-        "question": "The author's attitude toward de-dollarisation is best described as:",
+        "question": "Which of the following best captures the ultimate conclusion of the first passage?",
         "options": [
-          "enthusiastically optimistic that the dollar's dominance will end within a few years as alternatives mature.",
-          "dismissive of the whole project, treating it as political posturing without any possible economic benefit.",
-          "cautiously sceptical of rapid change, yet supportive of gradual, institution-based reform.",
-          "indifferent to the outcome, presenting the arguments for and against without favouring any approach at all."
+          "Society must fully automate all judicial and legislative functions to achieve absolute mathematical perfection.",
+          "Public power must remain intelligible and bound to human norms of justification, even if it entails sacrificing statistical efficiency.",
+          "All software engineering intellectual property laws must be permanently repealed worldwide.",
+          "Citizens should surrender their constitutional right to due process in exchange for faster bureaucratic service."
         ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) Contradicts 'gradual diversification' and the cautionary tone. (B) The author acknowledges real motives and benefits. (C) Reflected in the cautious tone and the incremental recommendation for India. (D) The author does recommend an incremental approach."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) Contradicts the author's thesis. (B) Perfectly reflects the final sentence: public power must remain intelligible, contestable, and bound to human norms of justification, even if it means sacrificing a fraction of statistical efficiency. (C) Too extreme/broad. (D) Contradicts the text."
       },
       {
         "id": 34,
@@ -613,16 +613,16 @@
         "type": "mcq",
         "marks": 4,
         "negative_marking": 1,
-        "passage": "RC2",
-        "question": "Which of the following best expresses the main point of the passage?",
+        "signal": "RC2",
+        "question": "According to the passage, what economic consequence stems from the sustained suppression of labor's share of income?",
         "options": [
-          "Detection tools will eventually defeat synthetic media, making regulation and changes in social habits largely unnecessary.",
-          "Synthetic media erodes trust in all evidence, and defences must combine provenance, regulation and cultural change.",
-          "Synthetic media is harmful on balance and should be banned, since its legitimate uses cannot offset the damage it causes.",
-          "Fabricated recordings are mainly a problem for politicians, since ordinary citizens are rarely targeted by voice cloning or forgery."
+          "An immediate surplus in national tax revenues that eliminates all sovereign debt.",
+          "An inherent deficiency in domestic purchasing power, historically papered over by expanding household debt.",
+          "A permanent collapse in global stock market capitalization driven by excess corporate philanthropy.",
+          "A rapid acceleration in real wages across all occupational sectors."
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: (A) The passage calls detection limited, not conclusive. (B) Summarises the problem (paras 1-2) and the layered responses (paras 4-6). (C) The passage says the technology is not purely harmful and does not call for a ban. (D) Ordinary people are cited as targets (cloned voice persuading a relative)."
+        "explanation": "Detailed Solution: (A) False. (B) Stated in paragraph 2: suppression of labor's share creates an inherent deficiency in domestic purchasing power, historically papered over by household debt (mortgages, credit cards) leading to 2008. (C) False. (D) Contradicts wage stagnation."
       },
       {
         "id": 35,
@@ -633,15 +633,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "RC2",
-        "question": "As used in the passage, the 'liar's dividend' refers to the fact that:",
+        "question": "How do institutional economists explain the productivity-pay decoupling, in contrast to the technological school?",
         "options": [
-          "firms that sell detection tools to governments and platforms profit heavily during election periods.",
-          "forgers gain a reputational benefit when their fabricated recordings are mistaken for authentic footage.",
-          "audiences benefit when synthetic content lowers the cost of dubbing and restoring footage.",
-          "genuine evidence can be dismissed as fake by those it incriminates."
+          "They attribute it to the systematic erosion of worker bargaining power, declining union density, and corporate monopsony.",
+          "They argue it is caused exclusively by excessive government expenditure on public education.",
+          "They claim it is a statistical illusion generated by faulty inflation adjustments in GDP calculations.",
+          "They maintain it is driven entirely by international trade agreements with developing nations."
         ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) Profits of detection firms are never discussed. (B) Reputational gains for forgers are not what the term describes. (C) Dubbing and restoration are benefits mentioned in the last paragraph, a different point. (D) Paragraph 2 defines it: a wrongdoer can claim the tape is synthetic."
+        "answer": 0,
+        "explanation": "Detailed Solution: (A) Paragraph 2 contrasts the technological school (skill-biased technical change) with the institutional school, which emphasizes union decline, workplace fissuring, and corporate labor monopsony. (B), (C), and (D) Are not supported by the passage."
       },
       {
         "id": 36,
@@ -652,15 +652,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "RC2",
-        "question": "Which of the following can be inferred about detection tools from the passage?",
+        "question": "What is the author's critique of conventional policy remedies that focus solely on human capital accumulation (e.g., expanding higher education)?",
         "options": [
-          "A seemingly accurate detector can still wrongly flag many authentic items at scale.",
-          "Detection tools are useless, since generators will always improve faster than any defender can possibly respond.",
-          "Accuracy figures of ninety-five per cent are routinely exaggerated by developers of detection software seeking contracts.",
-          "False positives matter less than false negatives, because authentic material is rarely subjected to detection at all."
+          "They are too expensive for municipal governments to administer.",
+          "They wrongly presume wage stagnation stems from an educational deficit rather than structural power asymmetries.",
+          "They cause immediate hyperinflation in university tuition fees worldwide.",
+          "They have successfully eliminated income inequality in all advanced industrial nations."
         ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) Follows from the 95 per cent example applied to millions of items. (B) The passage calls detection of limited comfort, not useless. (C) No claim is made about developers exaggerating accuracy. (D) The passage treats false positives as serious, not minor."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A), (C), and (D) Are not the author's primary critique. (B) The passage explicitly states that training more workers does not generate higher-paying jobs if the underlying industrial structure rewards capital extraction over productive enterprise, presuming an educational deficit where a power asymmetry exists."
       },
       {
         "id": 37,
@@ -671,15 +671,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "RC2",
-        "question": "Which of the following, if true, would most weaken provenance signatures as a defence against synthetic media?",
+        "question": "According to the passage, how did working-class families historically maintain their consumption standards despite wage stagnation?",
         "options": [
-          "Cryptographic signatures can be attached by cameras at the moment of capture without any special action by the photographer.",
-          "Several major camera manufacturers have announced that they will include signing features in their newest models.",
-          "Most viewers never check credentials, and platforms routinely strip signatures when content is shared.",
-          "Citizen journalists in conflict regions increasingly use modern devices capable of attaching provenance records to their footage."
+          "Through substantial government cash transfers funded by wealth taxes.",
+          "Through the aggressive expansion of household debt, including mortgages and credit cards.",
+          "By engaging in subsistence farming on urban community plots.",
+          "Through mandatory corporate profit-sharing agreements enacted in the 1980s."
         ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) Makes provenance easier, so it strengthens the defence. (B) Indicates growing adoption, so it strengthens the defence. (C) Undermines both adoption and survival of signatures, the passage's stated conditions for success. (D) Reduces the burden on citizen journalists, so it strengthens the defence."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A), (C), and (D) Are incorrect. (B) Explicitly stated in paragraph 2: this demand deficit was papered over by the aggressive expansion of household debt (mortgages, credit cards, subprime lending)."
       },
       {
         "id": 38,
@@ -690,15 +690,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "RC2",
-        "question": "All of the following are mentioned as difficulties with regulating synthetic media EXCEPT:",
+        "question": "Which of the following interventions does the author recommend to address the productivity-pay decoupling?",
         "options": [
-          "Labelling mandates bind mainly those willing to comply with them.",
-          "Courts lack the technical expertise to authenticate digital evidence.",
-          "Platforms must distinguish satire and creative work from fraud under time pressure.",
-          "Overzealous removal of content can chill legitimate expression."
+          "Abolishing all corporate entities and returning to a decentralized agrarian barter economy.",
+          "Restoring countervailing labor power, checking corporate monopsony through antitrust enforcement, and reforming corporate governance.",
+          "Eliminating all minimum wage laws to encourage hyper-competitive entrepreneurialism.",
+          "Imposing strict tariffs on software imports while subsidizing heavy manufacturing."
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: (A) Mentioned in paragraph 5. (B) Not mentioned in the passage. (C) Mentioned in paragraph 5. (D) Mentioned in paragraph 5."
+        "explanation": "Detailed Solution: (A), (C), and (D) Extraneous or contradictory. (B) Directly drawn from the final sentence of passage 2: structural interventions restoring countervailing power to labor, reconfiguring antitrust enforcement to check corporate monopsony, and rethinking corporate governance."
       },
       {
         "id": 39,
@@ -709,15 +709,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "RC2",
-        "question": "The author's reference to societies that lived without photographic evidence serves mainly to:",
+        "question": "What broader normative implication does the author draw from the productivity-pay decoupling?",
         "options": [
-          "argue that photographic evidence was never reliable and should not have been trusted even in the twentieth century",
-          "show that societies without recorded evidence were more honest and less prone to deception than modern ones",
-          "claim that courts and reputations are more resilient against forgery than any technological safeguard that exists today",
-          "suggest that older institutions of verification may regain importance"
+          "It proves that economic growth is entirely irrelevant to human happiness.",
+          "It challenges the normative legitimacy of market capitalism when growth fails to benefit the majority.",
+          "It demonstrates that communist planned economies are inherently superior in technological innovation.",
+          "It suggests that future economic output should be measured exclusively in carbon credits."
         ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) The author does not claim photographs were never reliable. (B) No claim of greater honesty is made. (C) The author does not rank institutions above technology. (D) Paragraph 6 argues that habits such as trusted intermediaries may need to return."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A), (C), and (D) Distortions. (B) Supported by paragraph 2: if growth ceases to translate into broad-based material advancement, the social contract underpinning democratic market economies dissolves into cynicism and polarization."
       },
       {
         "id": 40,
@@ -728,15 +728,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "RC3",
-        "question": "Which of the following best states the central argument of the passage?",
+        "question": "According to the passage, what is the 'cruel irony' inherent in the gentrification process?",
         "options": [
-          "The green transition creates new mineral dependencies whose risks call for a mix of modest measures.",
-          "Mineral scarcity will make the green transition impossible unless nations agree to halt extraction in all environmentally sensitive regions.",
-          "Recycling and substitution can end mineral dependence within a decade, making supplier diversification and standards unnecessary.",
-          "Producer nations should be prevented from restricting exports of unprocessed ore because such restrictions undermine global supply chains."
+          "That affluent newcomers eventually abandon the city for suburban enclaves due to high crime rates.",
+          "That the social diversity and cultural vitality generated by marginalized populations are expropriated as capital assets to attract the affluent, whose presence subsequently displaces them.",
+          "That real estate developers lose money on luxury condominiums because construction costs exceed market values.",
+          "That municipal governments collect less tax revenue from gentrified districts than from blighted slums."
         ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) Reflects the opening, the vulnerability argument and the closing recommendation. (B) The passage says most minerals are geologically abundant, so scarcity is not the core issue. (C) The passage says recycling and substitution only dampen demand growth. (D) The author calls producers' moves 'rational' and does not advocate preventing them."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A), (C), and (D) False. (B) Paragraph 1 of RC3 explains that social diversity and cultural vitality are cannibalized/expropriated as capital assets to attract affluent newcomers, whose presence drives up land values and displaces the original inhabitants."
       },
       {
         "id": 41,
@@ -747,15 +747,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "RC3",
-        "question": "According to the passage, why does control over processing give a state leverage?",
+        "question": "How does the municipal state typically participate in urban gentrification, according to the passage?",
         "options": [
-          "Processing requires technology that no country other than a few advanced economies is capable of acquiring or developing.",
-          "Refined minerals are scarcer geologically than raw ores, which gives their producers a natural monopoly over supply and prices.",
-          "Much of the value and control lies in refining, so refiners can sway supply even without ore.",
-          "Importers prefer to buy refined products because shipping unprocessed ore across continents is prohibitively expensive and damaging."
+          "By acting as a strictly neutral arbiter enforcing rent control ceilings uniformly across all districts.",
+          "By actively subsidizing upscale redevelopment through tax abatements, zoning variances, and public-private partnerships while starving social infrastructure.",
+          "By prohibiting private real estate developers from purchasing historic tenement housing.",
+          "By nationalizing all commercial retail spaces and converting them into cooperative agricultural markets."
         ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) The passage does not claim processing technology is unattainable. (B) The passage says most minerals are geologically abundant, not scarce. (C) Paragraph 2 says a state controlling refining can influence prices and availability even when it lacks the ore. (D) Shipping costs are not discussed as the reason."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A), (C), and (D) Contradict the text. (B) Paragraph 2 of RC3 states the municipal state rarely acts as a neutral arbiter; it actively subsidizes upscale redevelopment through tax abatements, zoning variances, and public-private partnerships while starving social infrastructure."
       },
       {
         "id": 42,
@@ -766,15 +766,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "RC3",
-        "question": "The cobalt example in the passage illustrates that:",
+        "question": "What does the author mean by the 'commodification of urban authenticity'?",
         "options": [
-          "high prices for a mineral invariably lead to a permanent increase in mining employment in the producing regions.",
-          "price pressure can spur substitution that eases supply worries while harming dependent communities.",
-          "technological substitution is impossible for minerals whose supply is concentrated in a few politically unstable countries.",
-          "concern about working conditions in mining reduces global demand for batteries and thereby slows the clean-energy transition."
+          "The strict preservation of historical monuments funded exclusively by federal heritage grants.",
+          "The packaging and selling of the gritty cultural markers, street art, and vernacular commerce of marginalized groups to brand bohemian urbanity.",
+          "The elimination of all commercial retail stores in favor of free public parks.",
+          "The legal requirement that all new buildings must mimic medieval architectural styles."
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: (A) The example shows the opposite of 'invariably'. (B) Cobalt-light batteries eased pressure but left mining communities exposed to a demand fall. (C) The example shows substitution is possible. (D) The example concerns cobalt demand, not demand for batteries overall."
+        "explanation": "Detailed Solution: (A), (C), and (D) Incorrect. (B) Paragraph 1 of RC3 describes how developers and authorities cannibalize cultural markers (street art, independent music, ethnic eateries) to manufacture a marketable brand of bohemian urbanity."
       },
       {
         "id": 43,
@@ -785,15 +785,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "RC3",
-        "question": "Which of the following, if true, would best support the claim that projects lacking local consent can undermine security of supply?",
+        "question": "How does gentrification affect the collective memory and built environment of a neighborhood?",
         "options": [
-          "Governments in several mineral-rich countries have increased their share of mining revenues by renegotiating contracts with foreign firms.",
-          "Mining companies that invested in community programmes reported higher profit margins than those that did not do so.",
-          "New refining plants have been commissioned at a faster pace than new mines in most importing countries recently.",
-          "A major lithium project was suspended for years after local communities contested water allocation."
+          "It preserves working-class history in pristine digital archives for public education.",
+          "It physically obliterates historic tenements and working-class social spaces, scrubbing the built environment clean of working-class struggle.",
+          "It restores medieval cathedrals to their original architectural specifications.",
+          "It has zero impact on physical architecture, altering only the demographic composition of residents."
         ],
-        "answer": 3,
-        "explanation": "Detailed Solution: (A) Concerns revenue sharing, not consent or supply disruption. (B) Suggests community engagement pays but does not show supply being undermined without it. (C) Concerns the pace of refining versus mining, which is unrelated to consent. (D) A direct example of consent problems causing delay and loss of supply."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A), (C), and (D) Incorrect. (B) Paragraph 3 of RC3 states that gentrification enacts a profound erasure of civic memory; historic tenements and social clubs are demolished or retrofitted, scrubbing the built environment clean of working-class struggle."
       },
       {
         "id": 44,
@@ -804,15 +804,15 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "RC3",
-        "question": "All of the following are measures the author recommends EXCEPT:",
+        "question": "What broader political demand does the author associate with resistance to gentrification?",
         "options": [
-          "imposing a global ban on exports of unprocessed ore.",
-          "investing in processing capacity at home or among partners.",
-          "enforcing environmental and social standards in mining.",
-          "encouraging designs that use materials more efficiently."
+          "The 'right to the city'—reclaiming collective control over the production of space to prioritize human need over exchange value.",
+          "The total abolition of municipal taxation and the establishment of sovereign tax havens.",
+          "The mandatory relocation of all urban residents to rural agricultural communes.",
+          "The privatization of all public transit networks and municipal water systems."
         ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) Not recommended; the passage describes export restrictions only as a producer response with risks. (B) Recommended in the last paragraph. (C) Recommended in the last paragraph. (D) Recommended in the last paragraph."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A) Explicitly stated in the final paragraph of RC3: resistance evolves into the 'right to the city'—reclaiming collective control over space production, shifting the city from capital accumulation to human need. (B), (C), and (D) Contradict the text."
       },
       {
         "id": 45,
@@ -823,122 +823,122 @@
         "marks": 4,
         "negative_marking": 1,
         "passage": "RC3",
-        "question": "The tone of the passage is best described as:",
+        "question": "What is the author's primary critique of market-determinist frameworks that analyze gentrification?",
         "options": [
-          "alarmist, warning that civilisation faces imminent collapse unless extraction is halted immediately everywhere.",
-          "triumphant, celebrating the transition as an unqualified success that is now beyond any realistic risk.",
-          "analytical and measured, wary of any single remedy.",
-          "cynical, suggesting that governments and companies have no genuine interest in solving the problems described."
+          "They focus too heavily on Marxist political economy rather than neoclassical supply-demand curves.",
+          "They obscure the deeper spatial politics, class-mediated displacement, and ideological mechanics of urban reorganization.",
+          "They rely on excessive government intervention in private real estate markets.",
+          "They claim that gentrification never actually occurs in modern industrial cities."
         ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) No language of imminent collapse. (B) The author acknowledges risks, so it is not triumphant. (C) The passage weighs trade-offs and rejects a single decisive instrument. (D) The author calls moves 'rational' and recommends workable measures; no cynicism."
+        "answer": 1,
+        "explanation": "Detailed Solution: (A), (C), and (D) Incorrect. (B) Paragraph 1 of RC3 states that market-determinist frameworks obscure the deeper spatial politics and ideological mechanics through which urban space is systematically reorganized."
       }
     ],
     "daily_vocab": {
       "words": [
         {
-          "word": "tautological",
-          "meaning": "saying the same thing twice in different words; circular in logic",
-          "example": "'The law is the law' is a tautological defence."
+          "word": "obfuscation",
+          "meaning": "the action of making something obscure, unclear, or unintelligible",
+          "example": "His speech was a masterpiece of political obfuscation."
         },
         {
-          "word": "mercurial",
-          "meaning": "subject to sudden, unpredictable changes of mood",
-          "example": "Her mercurial temper unsettled the team."
+          "word": "pertinacious",
+          "meaning": "holding tenaciously to an opinion or purpose",
+          "example": "She maintained a pertinacious defense of her unorthodox hypothesis."
         },
         {
-          "word": "fulsome",
-          "meaning": "excessive, especially in a way that seems insincere",
-          "example": "The fulsome tribute rang hollow."
+          "word": "reticence",
+          "meaning": "the quality of being reserved or restrained in expression",
+          "example": "His characteristic reticence concealed a sharp analytical mind."
         },
         {
-          "word": "munificent",
-          "meaning": "very generous",
-          "example": "A munificent donor funded the new library."
+          "word": "hagiography",
+          "meaning": "writing that idealizes or sanctifies its subject",
+          "example": "The biography read more like religious hagiography than objective history."
         },
         {
-          "word": "duplicity",
-          "meaning": "deceitfulness; double-dealing",
-          "example": "His duplicity cost him every ally."
+          "word": "simulacra",
+          "meaning": "images or representations that substitute for the real world",
+          "example": "Modern media environments are saturated with hollow simulacra."
         },
         {
-          "word": "irresolute",
-          "meaning": "hesitant; unable to make up one's mind",
-          "example": "The irresolute board delayed the decision again."
+          "word": "craven",
+          "meaning": "contemptibly lacking in courage; cowardly",
+          "example": "Their craven surrender to corporate pressure shocked the public."
         },
         {
-          "word": "precipitate",
-          "meaning": "done suddenly and without careful thought (adj.); to bring about abruptly (v.)",
-          "example": "A precipitate cut in rates unsettled markets."
+          "word": "amenable",
+          "meaning": "responsive to suggestion; cooperative",
+          "example": "Fortunately, the board was amenable to structural reform."
         },
         {
-          "word": "provenance",
-          "meaning": "the origin or chain of custody of something",
-          "example": "The painting's provenance was carefully documented."
+          "word": "procrustean",
+          "meaning": "enforcing strict conformity regardless of individual variation",
+          "example": "The school board imposed a procrustean curriculum on every district."
         },
         {
-          "word": "hegemony",
-          "meaning": "dominance of one state or group over others",
-          "example": "The dollar's hegemony is being quietly tested."
+          "word": "moribund",
+          "meaning": "at a dying, stagnant stage; lacking vitality",
+          "example": "The restructuring plan breathed new life into a moribund enterprise."
         },
         {
-          "word": "insular",
-          "meaning": "isolated; narrow in outlook",
-          "example": "The firm's insular culture resisted outside ideas."
+          "word": "prolific",
+          "meaning": "producing much fruit, writing, or many works",
+          "example": "Despite his academic administrative duties, he remained a prolific scholar."
         }
       ],
       "idioms": [
         {
-          "idiom": "cross the Rubicon",
-          "meaning": "to take an irreversible step",
-          "example": "Signing the merger deal meant crossing the Rubicon."
+          "idiom": "procrustean bed",
+          "meaning": "an arbitrary standard to which conformity is ruthlessly forced",
+          "example": "Fitting complex local economies into a procrustean bed of macroeconomic models failed."
         },
         {
-          "idiom": "the tip of the iceberg",
-          "meaning": "a small visible part of a much larger problem",
-          "example": "The audit revealed only the tip of the iceberg."
+          "idiom": "Pyrrhic victory",
+          "meaning": "a victory won at too great a cost to have been worthwhile",
+          "example": "Winning the antitrust lawsuit proved a Pyrrhic victory after legal fees bankrupted them."
         },
         {
-          "idiom": "a zero-sum game",
-          "meaning": "a situation where one side's gain equals the other's loss",
-          "example": "Critics treat trade as a zero-sum game."
+          "idiom": "sword of Damocles",
+          "meaning": "an impending and ever-present peril",
+          "example": "The threat of regulatory penalties hung over the firm like a sword of Damocles."
         },
         {
-          "idiom": "a level playing field",
-          "meaning": "a situation of fair competition",
-          "example": "Regulation aims to create a level playing field."
+          "idiom": "sea change",
+          "meaning": "a profound or notable transformation",
+          "example": "The pandemic triggered a sea change in remote work policies."
         },
         {
-          "idiom": "throw down the gauntlet",
-          "meaning": "to issue a challenge",
-          "example": "The new entrant threw down the gauntlet to incumbents."
+          "idiom": "wooden nickel",
+          "meaning": "something worthless passed off as valuable",
+          "example": "Investors quickly realized the proprietary token was a wooden nickel."
         }
       ],
       "phrasal_verbs": [
         {
-          "verb": "fall through",
-          "meaning": "to fail to happen",
-          "example": "The deal fell through at the last minute."
+          "verb": "paper over",
+          "meaning": "to conceal a flaw or problem rather than resolving it",
+          "example": "Financial deregulation merely papered over systemic structural weaknesses."
         },
         {
-          "verb": "back up",
-          "meaning": "to support; to make a copy",
-          "example": "The data backs up her claim."
+          "verb": "boil down to",
+          "meaning": "to be summarized as a single core issue",
+          "example": "Their protracted dispute boiled down to a disagreement over intellectual property."
         },
         {
-          "verb": "weigh in",
-          "meaning": "to join a discussion with an opinion",
-          "example": "Economists weighed in on the budget."
+          "verb": "fall back on",
+          "meaning": "to use as a reserve resource when primary options fail",
+          "example": "When export revenues collapsed, the state fell back on strategic foreign reserves."
         },
         {
-          "verb": "rule out",
-          "meaning": "to exclude as a possibility",
-          "example": "The minister ruled out any rate cut."
+          "verb": "phase out",
+          "meaning": "to withdraw or discontinue something gradually",
+          "example": "Regulators announced plans to phase out carbon-intensive industrial subsidies."
         },
         {
-          "verb": "step up",
-          "meaning": "to increase or intensify",
-          "example": "Regulators stepped up inspections."
+          "verb": "lock out",
+          "meaning": "to exclude someone from participation or access",
+          "example": "Proprietary licensing locks independent researchers out of critical data sets."
         }
       ]
     }
