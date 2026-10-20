@@ -1,946 +1,586 @@
 [
   {
-    "title": "IPMAT VA Sectional – 20th Oct 2026",
-    "date": "2026-10-20",
-    "section": "Verbal Ability",
-    "total_questions": 45,
-    "duration_minutes": 45,
-    "pattern": {
-      "MCQ": 40,
-      "TITA (Parajumbles)": 5,
-      "RC_passages": 3,
-      "questions_per_RC": 6,
-      "CA_passages": 1,
-      "questions_per_CA": 3
-    },
-    "passages": {
-      "RC1": {
-        "title": "The epistemic crisis of algorithmic governance and automated adjudication",
-        "text": "For centuries, the legitimacy of institutional authority relied upon an intricate architecture of procedural justice, human fallibility, and reasoned justification. When a court handed down a verdict or a bureaucrat denied a permit, the decision was tethered to a paper trail of explicable logic, subject to appellate scrutiny and normative critique. Today, this Enlightenment compact is quietly being displaced by automated adjudication and black-box machine learning models that optimize for predictive accuracy rather than intelligibility. This shift introduces an acute epistemic crisis into public administration. When a criminal sentencing algorithm or a welfare allocation system assigns a high-risk score, it typically does so by discerning subtle correlations across thousands of disparate variables—past zip codes, non-linear browsing histories, micro-behavioral metrics—none of which individually supplies a sufficient causal rationale. Proponents of algorithmic governance argue that human decision-makers are notoriously prone to cognitive biases, fatigue, and systemic prejudice, whereas statistical models offer scalable consistency and unprecedented optimization. Yet, this technocratic defense conflates mathematical consistency with substantive justice. A system can be entirely consistent in its disparate impact while remaining fundamentally opaque to those whose lives it alters. The problem of opacity is compounded by proprietary enclosure: because these models are frequently built and licensed by private contractors, the source code, training datasets, and weight parameters are shielded behind trade secrecy and intellectual property laws. Consequently, an aggrieved citizen does not merely face an indifferent bureaucracy; they confront a proprietary oracle whose internal reasoning cannot be subpoenaed, interrogated, or falsified. Legal scholars have termed this the 'due process deficit' of the digital state. Traditional administrative law assumes a human adversary capable of offering a reasoned defense; when the adversary is a shifting vector space of probabilistic inferences, judicial review devolves into a hollow ritual of deference. Furthermore, the feedback loops inherent in predictive policing or automated credit scoring create insidious self-fulfilling prophecies. If an algorithm flags a neighborhood as high-risk based on historically skewed arrest records, police presence increases, more arrests are logged, and the model's initial prejudice is mathematically validated. To treat such algorithmic outputs as objective reality is to commit a category error, mistaking historical artifacts for natural laws. Mitigating this crisis requires more than superficial 'explainable AI' toolkits that graft post-hoc rationalizations onto uninterpretable architectures. It demands a fundamental institutional realignment—one that asserts that public power exercised over citizens must remain fundamentally intelligible, contestable, and bound to human norms of justification, even if it means sacrificing a fraction of statistical efficiency."
-      },
-      "RC2": {
-        "title": "The macroeconomic illusion of productivity decoupled from labor compensation",
-        "text": "For the better part of the post-war era, standard economic orthodoxy posited a virtuous and stable equilibrium between aggregate productivity growth and real worker compensation. As technological innovation, capital accumulation, and managerial efficiency expanded the productive output per hour worked, competitive labor markets would ensure that workers shared proportionately in the resulting prosperity through rising real wages. Over the past four decades, however, this historic coupling has decisively fractured across nearly all advanced industrial economies, giving rise to the structural phenomenon known as the productivity-pay decoupling. While macro-level output per worker has continued an upward trajectory—accelerated recently by software automation, global supply chain optimization, and artificial intelligence—median real wages have stagnated or grown at a negligible fraction of productivity gains. Mainstream economists offer competing explanations for this divergence, dividing roughly into technological and institutional camps. The technological school attributes the decoupling to skill-biased technical change, arguing that modern automation disproportionately substitutes for routine cognitive and manual labor while augmenting the productivity of high-skill professionals, thereby shifting the functional distribution of income away from labor toward capital and specialized talent. Conversely, the institutional school emphasizes the systematic erosion of worker bargaining power through the secular decline of union density, the fissuring of the workplace via outsourcing and subcontracting, the weakening of labor standards, and the concentration of corporate market power, or monopsony, in labor markets. This structural shift has profound ramifications for aggregate demand and financial stability. When the marginal propensity to consume is significantly higher among wage-earners than capital-holders, a sustained suppression of labor's share of income creates an inherent deficiency in domestic purchasing power. Historically, this demand deficit was papered over by the aggressive expansion of household debt, enabling working-class families to maintain consumption standards through mortgages, credit cards, and subprime lending—a dynamic that ultimately culminated in the systemic financial crisis of 2008. More fundamentally, the decoupling challenges the normative legitimacy of market capitalism. If economic growth ceases to translate into broad-based material advancement for the majority of the population, the social contract underpinning democratic market economies dissolves into cynicism and polarization. Policy remedies traditionally focused on human capital accumulation—such as expanding access to higher education—presume that wage stagnation stems from an educational deficit rather than structural power asymmetries. Yet, as the over-credentialization of the labor market demonstrates, training more workers does not generate higher-paying jobs if the underlying industrial structure rewards capital extraction over productive enterprise. Addressing the decoupling requires structural interventions that restore countervailing power to labor, reconfigure antitrust enforcement to check corporate monopsony, and rethink corporate governance to ensure that enterprise surplus is not exclusively siphoned upward through share buybacks and executive compensation packages tied to short-term stock performance."
-      },
-      "RC3": {
-        "title": "The spatial politics of urban gentrification and the commodification of civic memory",
-        "text": "Urban gentrification is frequently analyzed through the narrow prism of real estate economics—as a natural, inevitable consequence of demographic shifts, housing supply constraints, and changing consumer preferences among young urban professionals. Yet, such market-determinist frameworks obscure the deeper spatial politics and ideological mechanics through which urban space is systematically reorganized. Gentrification is not merely the physical upgrading of dilapidated housing stock; it is a violent process of class-mediated displacement that rewrites the social, cultural, and semiotic geography of the city. At the core of this transformation lies the commodification of urban authenticity. Neighborhoods targeted for reinvestment are almost invariably characterized by historical marginalization, racial diversity, and a dense, vernacular fabric of immigrant commerce, local workshops, and informal social networks. Real estate developers, municipal authorities, and incoming gentrifiers simultaneously stigmatize these existing communities as blighted or dangerous while cannibalizing their cultural markers—their street art, independent music scenes, ethnic eateries, and gritty aesthetic—to manufacture a marketable brand of bohemian urbanity. This dynamic sets in motion a cruel irony: the very social diversity and cultural vitality generated by marginalized populations are expropriated as capital assets to attract affluent newcomers, whose very presence subsequently drives up land values, commercial rents, and property taxes, rendering the original inhabitants economically untenable. The municipal state rarely acts as a neutral arbiter in this spatial restructuring. Through tax abatements, zoning variances, public-private partnerships, and aggressive policing of public spaces, local governments actively subsidize upscale redevelopment under the banner of urban renewal and economic revitalization. Public infrastructure investments are deliberately channeled to service high-end residential and commercial complexes, while social infrastructure—such as public housing, community clinics, public transit lines serving working-class peripheries, and open parks—is starved of resources or outright privatized. This spatial sorting produces a splintered urban landscape characterized by fortified enclaves of affluence immediately adjacent to hyper-policed zones of systemic deprivation. Furthermore, gentrification enacts a profound erasure of civic memory. As historic tenements, working-class social clubs, and vernacular commercial spaces are demolished or retrofitted into luxury condominiums, artisanal coffee shops, and concept boutiques, the collective history of the neighborhood is physically obliterated. The built environment is scrubbed clean of working-class struggle and immigrant adaptation, replaced by a sanitized, homogenized pastiche designed for aesthetic consumption. Resistance to this process has evolved beyond localized rent strikes and protest marches into a broader theoretical and political contest over the 'right to the city'—the demand that urban inhabitants reclaim collective control over the production of space, shifting the city from an instrument of capital accumulation to a collective habitat organized around human need rather than exchange value."
-      },
-      "CA1": {
-        "title": "Conversation: Is the commercialization of scientific research compromising objective truth? (Academic Dialogues)",
-        "text": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nDr. Aruna Sen (Science Historian): Modern academic science is increasingly tethered to commercial viability, patent portfolios, and venture capital funding. Have we crossed the threshold where institutional self-interest eclipses the pursuit of objective truth?\n\nProf. Julian Vance (Biochemist): That framing is overly romantic and historically naive. Science has always relied on patronage, whether from royal courts, military treasuries, or industrial conglomerates. The modern biotech ecosystem does not compromise truth; it accelerates translation, turning abstract molecular insights into life-saving therapeutics at a speed publicly funded labs could never match.\n\nDr. Aruna Sen: Translation is vital, Julian, but speed becomes a pathology when commercial imperatives dictate what questions are asked—and suppressed. When a university laboratory depends on corporate endowments, negative clinical trials are quietly buried, methodological flaws in proprietary drug platforms go unchallenged, and replication studies are starved of funding because they lack commercial novelty.\n\nProf. Julian Vance: You are describing fringe malfeasance, not systemic corruption. Peer review, independent regulatory bodies like the FDA, and the ultimate self-correcting mechanism of scientific replication serve as robust structural safeguards against fraudulent or distorted findings.\n\nDr. Aruna Sen: Those safeguards assume that the institutions auditing the research are independent of the economic interests producing it. When review panels are populated by corporate consultants and regulatory agencies are captured by industry user-fees, the audit loop closes upon itself, transforming commercial bias into institutional consensus.\n\nProf. Julian Vance: Then your remedy is institutional paralysis. Without private capital, state-funded science stagnates in ivory towers, paralyzed by bureaucratic inertia and insulated from real-world application.\n\nDr. Aruna Sen: It is not a choice between bureaucratic stagnation and corporate enclosure. We need a firewall that decouples foundational knowledge production from market capitalization—otherwise, science ceases to be a public good and becomes merely an R&D subsidiary of venture capital."
-      }
-    },
+    "id": "sec-2026-10-21",
+    "date": "2026-10-21",
+    "title": "IPMAT Indore VA Full Sectional Mock - 21 October 2026 (Advanced Level)",
+    "durationMinutes": 40,
+    "totalQuestions": 45,
     "questions": [
       {
-        "id": 1,
-        "section": "VA",
-        "category": "Sentence Completion",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "The philosopher's prose was a masterpiece of ________, deliberately obscuring weak foundational premises behind a dense fog of impenetrable jargon.",
+        "id": "q1",
+        "type": "RC",
+        "passage": "We tend to hold that people deserve praise or blame only for what lies within their control. A man cannot be blamed for his height, nor credited with the fortunate accident of his birth, and a principle seems to follow: moral assessment must track the will and not the outcome. Kant gave the principle its most austere expression when he said that a good will shines like a jewel by its own light, whatever it achieves or fails to achieve. Nor can we escape by appeal to intention alone, since intentions are themselves shaped by character. Yet a moment's reflection on ordinary judgement suggests that we do not apply the principle consistently. We treat a driver who kills a child running into the road quite differently from one who, driving in exactly the same way, merely reached home, and we treat an attempted murder differently from a murder that succeeded, though the difference between them may be a gust of wind that deflected a bullet.\n\nIn 1976 Thomas Nagel and Bernard Williams, in a famous exchange, gave the name moral luck to this predicament: people are morally assessed for features of their conduct that depend on factors beyond their control. Nagel distinguished several kinds. Resultant luck concerns how things turn out. Circumstantial luck concerns the situations in which one is placed, as when a man who might have collaborated under a tyranny lives out his life in a peaceful country and escapes the test. Constitutive luck concerns the temperament with which one is born, and causal luck the extent to which one's actions are determined by antecedent circumstances. The point is that the principle that we are responsible only for what we control, when pressed, seems to dissolve nearly everything we hold people responsible for, since almost nothing, the will itself included, is wholly under control. Moral luck is a problem, in short, not about exotic cases but about the fabric of ordinary responsibility.\n\nWilliams approached the problem through the imagined case of a painter modelled on Gauguin, who abandons his family to paint in Tahiti. Whether his decision was justified, Williams argued, depends on whether he turns out to be a great painter, which he could not know when he decided. If he fails, we say he was wrong; if he succeeds, his choice is vindicated, and not merely excused. The justification is retrospective and therefore hostage to luck. Yet Williams did not conclude that the judgement is mistaken. He insisted that it reflects something true about our moral relation to our own lives: a driver who looks back on a terrible act that he did not intend feels a regret that differs in kind from the regret of a bystander, and to lose this feeling would be to lose part of what it is to be an agent. Williams called it agent-regret.\n\nDefenders of the control principle reply that the apparent role of luck is an illusion produced by confusing different judgements. We may regret an outcome and pity the person to whom it happened, they say, without blaming him: the unlucky driver deserves sympathy, not condemnation. What differs between the two drivers is how we feel, not what each deserves. The reply has force, but it carries a cost. If outcomes do not affect desert at all, then the law's gradation of penalties by result, with heavier punishment for the successful murderer than for the unsuccessful one, is unjust, and so, many would add, is the ordinary practice of holding people to account for the consequences of their negligence.\n\nA subtler response distinguishes between what a person is answerable for and what he is blameworthy for. A person who takes on a risk, such as driving, takes on a responsibility for how it turns out; if harm results, he owes an apology and compensation, whatever care he took. This is a liability that does not depend on fault, and it is familiar from law: a landowner may be liable for damage done by a wild animal he kept, though he took every precaution. The proposal preserves the control principle for blame while acknowledging that morality assigns burdens by outcome. But critics note that the distinction is unstable. If answerability involves real moral demands, such as the duty to make amends, then outcomes do matter morally, and the control principle has been given up at one level in order to be retained at another.\n\nThe debate has a practical edge. Consider how we judge historical figures, our parents, or ourselves. People who lived ordinary lives under regimes that made moral heroism very costly are praised or blamed for what they would have done in circumstances that never arose, and we usually refrain from condemning those who were never tested. This restraint is a recognition of circumstantial luck; it suggests that we already believe character to be partly a matter of fortune. But the restraint cuts both ways. If the untested are spared condemnation because they were lucky, then the heroes who were tested and passed might have failed in different circumstances, and their praise is likewise partly a matter of luck. Parents who raise children well in comfortable circumstances, and those who fail in desperate ones, are judged in much the same fashion, with little attention to the difficulty of the task.\n\nWhat survives of the control principle, then, is less a rule than an ideal, one that shapes our reactions without governing them entirely. We keep the thought that persons deserve moral credit for what is up to them, and we find it hard to say what that is, since the boundary between an agent and the circumstances that formed her is not sharp. Nagel's conclusion was that the problem is genuine: our conception of ourselves as agents is undermined when we examine it, yet we cannot abandon it. Whether this is a defect in our moral concepts or a feature of the human condition depends on whether one expects ethics to be tidy.",
+        "question": "Which of the following best captures the passage's overall position?",
         "options": [
-          "perspicuity",
-          "obfuscation",
-          "candour",
-          "lucidity"
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) 'Perspicuity' means clarity, which contradicts obscuring premises. (B) 'Obfuscation' means the action of making something obscure, unclear, or unintelligible, matching 'deliberately obscuring weak foundational premises'. (C) 'Candour' means openness, the opposite of hiding flaws. (D) 'Lucidity' means clarity of expression."
-      },
-      {
-        "id": 2,
-        "section": "VA",
-        "category": "Sentence Completion",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Despite overwhelming empirical refutation, the dogmatic faction clung to their discredited hypothesis with ________ tenacity, dismissing every anomaly as a conspiratorial fabrication.",
-        "options": [
-          "profligate",
-          "fitful",
-          "pertinacious",
-          "tractable"
-        ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) 'Profligate' means recklessly extravagant or wasteful. (B) 'Fitful' means active or affected spasmodically, contradicting steady tenacity. (C) 'Pertinacious' means holding tenaciously to an opinion, purpose, or design, perfectly matching the stubborn adherence despite refutation. (D) 'Tractable' means easily managed or influenced."
-      },
-      {
-        "id": 3,
-        "section": "VA",
-        "category": "Sentence Completion",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "The diplomat's memoirs were remarkable not for what they revealed, but for their calculated ________, omitting any mention of the diplomatic blunders that precipitated the crisis.",
-        "options": [
-          "reticence",
-          "loquacity",
-          "hyperbole",
-          "bombast"
+          "A) People are held responsible only for what they control, yet ordinary judgement departs from this, and no response fully reconciles the two.",
+          "B) Moral luck shows that the control principle is false, and that people ought to be judged entirely by the outcomes of what they do and by nothing else.",
+          "C) Williams demonstrated that agent-regret has no place in morality, because the regret of an agent is no different in kind from that of a bystander.",
+          "D) The control principle can be rescued by distinguishing blame from sympathy, and the debate over moral luck may therefore be regarded as settled."
         ],
         "answer": 0,
-        "explanation": "Detailed Solution: (A) 'Reticence' refers to the quality of being reticent, reserved, or restrained in expression, perfectly fitting the calculated omission of blunders. (B) 'Loquacity' means talkativeness. (C) 'Hyperbole' is exaggerated statements. (D) 'Bombast' is high-sounding language with little meaning."
+        "explanation": "<strong>Explanation:</strong> The passage sets out the control principle, shows ordinary judgement departing from it, and reports each response (sympathy, answerability) as incomplete. B and D resolve the debate in one direction or the other; C contradicts Williams's claim that agent-regret differs in kind from a bystander's regret."
       },
       {
-        "id": 4,
-        "section": "VA",
-        "category": "Sentence Completion",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Far from being an objective arbiter of historical truth, the monument was erected as a piece of political ________, designed to sanctify a brutal regime through selective myth-making.",
+        "id": "q2",
+        "type": "RC",
+        "passage": "We tend to hold that people deserve praise or blame only for what lies within their control. A man cannot be blamed for his height, nor credited with the fortunate accident of his birth, and a principle seems to follow: moral assessment must track the will and not the outcome. Kant gave the principle its most austere expression when he said that a good will shines like a jewel by its own light, whatever it achieves or fails to achieve. Nor can we escape by appeal to intention alone, since intentions are themselves shaped by character. Yet a moment's reflection on ordinary judgement suggests that we do not apply the principle consistently. We treat a driver who kills a child running into the road quite differently from one who, driving in exactly the same way, merely reached home, and we treat an attempted murder differently from a murder that succeeded, though the difference between them may be a gust of wind that deflected a bullet.\n\nIn 1976 Thomas Nagel and Bernard Williams, in a famous exchange, gave the name moral luck to this predicament: people are morally assessed for features of their conduct that depend on factors beyond their control. Nagel distinguished several kinds. Resultant luck concerns how things turn out. Circumstantial luck concerns the situations in which one is placed, as when a man who might have collaborated under a tyranny lives out his life in a peaceful country and escapes the test. Constitutive luck concerns the temperament with which one is born, and causal luck the extent to which one's actions are determined by antecedent circumstances. The point is that the principle that we are responsible only for what we control, when pressed, seems to dissolve nearly everything we hold people responsible for, since almost nothing, the will itself included, is wholly under control. Moral luck is a problem, in short, not about exotic cases but about the fabric of ordinary responsibility.\n\nWilliams approached the problem through the imagined case of a painter modelled on Gauguin, who abandons his family to paint in Tahiti. Whether his decision was justified, Williams argued, depends on whether he turns out to be a great painter, which he could not know when he decided. If he fails, we say he was wrong; if he succeeds, his choice is vindicated, and not merely excused. The justification is retrospective and therefore hostage to luck. Yet Williams did not conclude that the judgement is mistaken. He insisted that it reflects something true about our moral relation to our own lives: a driver who looks back on a terrible act that he did not intend feels a regret that differs in kind from the regret of a bystander, and to lose this feeling would be to lose part of what it is to be an agent. Williams called it agent-regret.\n\nDefenders of the control principle reply that the apparent role of luck is an illusion produced by confusing different judgements. We may regret an outcome and pity the person to whom it happened, they say, without blaming him: the unlucky driver deserves sympathy, not condemnation. What differs between the two drivers is how we feel, not what each deserves. The reply has force, but it carries a cost. If outcomes do not affect desert at all, then the law's gradation of penalties by result, with heavier punishment for the successful murderer than for the unsuccessful one, is unjust, and so, many would add, is the ordinary practice of holding people to account for the consequences of their negligence.\n\nA subtler response distinguishes between what a person is answerable for and what he is blameworthy for. A person who takes on a risk, such as driving, takes on a responsibility for how it turns out; if harm results, he owes an apology and compensation, whatever care he took. This is a liability that does not depend on fault, and it is familiar from law: a landowner may be liable for damage done by a wild animal he kept, though he took every precaution. The proposal preserves the control principle for blame while acknowledging that morality assigns burdens by outcome. But critics note that the distinction is unstable. If answerability involves real moral demands, such as the duty to make amends, then outcomes do matter morally, and the control principle has been given up at one level in order to be retained at another.\n\nThe debate has a practical edge. Consider how we judge historical figures, our parents, or ourselves. People who lived ordinary lives under regimes that made moral heroism very costly are praised or blamed for what they would have done in circumstances that never arose, and we usually refrain from condemning those who were never tested. This restraint is a recognition of circumstantial luck; it suggests that we already believe character to be partly a matter of fortune. But the restraint cuts both ways. If the untested are spared condemnation because they were lucky, then the heroes who were tested and passed might have failed in different circumstances, and their praise is likewise partly a matter of luck. Parents who raise children well in comfortable circumstances, and those who fail in desperate ones, are judged in much the same fashion, with little attention to the difficulty of the task.\n\nWhat survives of the control principle, then, is less a rule than an ideal, one that shapes our reactions without governing them entirely. We keep the thought that persons deserve moral credit for what is up to them, and we find it hard to say what that is, since the boundary between an agent and the circumstances that formed her is not sharp. Nagel's conclusion was that the problem is genuine: our conception of ourselves as agents is undermined when we examine it, yet we cannot abandon it. Whether this is a defect in our moral concepts or a feature of the human condition depends on whether one expects ethics to be tidy.",
+        "question": "The Gauguin example is used chiefly to illustrate",
         "options": [
-          "iconoclasm",
-          "hagiography",
-          "invective",
-          "polemic"
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) 'Iconoclasm' is the rejection or destruction of religious images or established beliefs. (B) 'Hagiography' originally meant the writing of the lives of saints, but is used metaphorically for writing or creating an idealized, uncritical biography or monument that sanctifies its subject. (C) 'Invective' is insulting language. (D) 'Polemic' is a strong verbal or written attack."
-      },
-      {
-        "id": 5,
-        "section": "VA",
-        "category": "Vocabulary",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "In the sentence 'The art critic dismissed the avant-garde installation as mere simulacra, devoid of any authentic emotional resonance or material substance', 'simulacra' most nearly means:",
-        "options": [
-          "sacred artifacts possessing deep historical lineage",
-          "images or representations that substitute for the real world",
-          "meticulously calculated mathematical models of natural phenomena",
-          "spontaneous expressions of raw, unmediated human suffering"
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Incorrect; simulacra lack authentic lineage. (B) 'Simulacra' refers to artificial representations or copies that often take the place of the real, original thing, perfectly matching the critic's dismissal of superficial imagery lacking substance. (C) Incorrect; not mathematical models. (D) Incorrect; not raw expressions."
-      },
-      {
-        "id": 6,
-        "section": "VA",
-        "category": "Vocabulary",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Which of the following is closest in meaning to the word 'pusillanimous'?",
-        "options": [
-          "magnanimous",
-          "craven",
-          "bellicose",
-          "sagacious"
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) 'Magnanimous' is noble and generous (near opposite). (B) 'Craven' means contemptibly lacking in courage; cowardly, which is a direct synonym for 'pusillanimous'. (C) 'Bellicose' means demonstrating aggression and willingness to fight. (D) 'Sagacious' means having keen mental discernment and good judgment."
-      },
-      {
-        "id": 7,
-        "section": "VA",
-        "category": "Vocabulary",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Choose the word most nearly OPPOSITE in meaning to 'recalcitrant'.",
-        "options": [
-          "amenable",
-          "intractable",
-          "obstinate",
-          "refractory"
-        ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) 'Recalcitrant' means having an obstinately uncooperative attitude toward authority or discipline; its true opposite is 'amenable' (responsive to suggestion, cooperative). (B), (C), and (D) are all synonyms of recalcitrant."
-      },
-      {
-        "id": 8,
-        "section": "VA",
-        "category": "Vocabulary",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Which of the following best explains the idiom 'procrustean bed'?",
-        "options": [
-          "A comfortable compromise that satisfies all conflicting parties equally",
-          "An arbitrary standard or scheme to which exact conformity is forced, regardless of individual differences",
-          "A deceptive trap disguised as an advantageous opportunity",
-          "A temporary refuge that collapses under sudden economic stress"
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Incorrect; it is not a compromise. (B) Derived from the Greek myth of Procrustes, who forced travelers to fit his iron bed by stretching them or chopping off their limbs, a 'procrustean bed' refers to an arbitrary standard to which conformity is ruthlessly enforced regardless of natural variations. (C) Incorrect. (D) Incorrect."
-      },
-      {
-        "id": 9,
-        "section": "VA",
-        "category": "Sentence Correction",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Choose the grammatically correct and logically coherent sentence.",
-        "options": [
-          "Exhausted by the exhaustive marathon negotiations, the breakthrough agreement was finally signed by both delegations at dawn.",
-          "Exhausted by the marathon negotiations, both delegations finally signed the breakthrough agreement at dawn.",
-          "Having exhausted by the marathon negotiations, the breakthrough agreement was signed by both delegations at dawn.",
-          "Exhausting by the marathon negotiations, both delegations finally signed the breakthrough agreement at dawn."
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Dangling modifier: the agreement was not exhausted. (B) Correctly places 'both delegations' immediately after the participial modifier 'Exhausted by the marathon negotiations'. (C) Ungrammatical passive participle construction ('Having exhausted'). (D) Incorrect active participle 'Exhausting'."
-      },
-      {
-        "id": 10,
-        "section": "VA",
-        "category": "Sentence Correction",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Choose the grammatically correct sentence.",
-        "options": [
-          "Little did the executive realize that the clandestine audit would uncover widespread fraud, nor she expected the board to demand her immediate resignation.",
-          "Little did the executive realize that the clandestine audit would uncover widespread fraud, nor did she expect the board to demand her immediate resignation.",
-          "Little the executive realized that the clandestine audit would uncover widespread fraud, nor did she expect the board to demand her immediate resignation.",
-          "Little did the executive realize that the clandestine audit would uncover widespread fraud, neither she expected the board to demand her immediate resignation."
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Missing auxiliary inversion after 'nor' ('nor did she expect'). (B) Correctly inverts both clauses ('Little did the executive realize' and 'nor did she expect'). (C) Fails to invert the first clause after the negative introductory adverb 'Little'. (D) Incorrect pairing of 'nor' variant with 'neither' structure without proper inversion."
-      },
-      {
-        "id": 11,
-        "section": "VA",
-        "category": "Sentence Correction",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "It is imperative that every candidate ________ their supporting documentation before the statutory deadline expires.",
-        "options": [
-          "submits",
-          "submitted",
-          "submit",
-          "has submitted"
-        ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) and (B) Indicative forms violate the mandative subjunctive construction. (C) After expressions of necessity or demand ('It is imperative that'), the mandative subjunctive requires the base form of the verb ('submit'), regardless of singular/plural subject pairings. (D) Present perfect violates the subjunctive rule."
-      },
-      {
-        "id": 12,
-        "section": "VA",
-        "category": "Incorrect Word",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "One of the sentences below contains a word used incorrectly or inappropriately. Choose that sentence.",
-        "options": [
-          "The CEO's draconian cost-cutting measures alienated the entire workforce.",
-          "The museum's eclectic collection featured everything from Renaissance paintings to contemporary video art.",
-          "The prosecutor presented incontrovertible evidence that obviated any lingering doubt regarding the defendant's guilt.",
-          "The politician's disingenuous apology mollified the angry constituents, entirely resolving the public relations crisis."
+          "A) constitutive luck, since Gauguin's gifts as a painter were fixed by the temperament with which he was born.",
+          "B) circumstantial luck, since Gauguin might have been placed in a regime that put his moral courage to the test.",
+          "C) the claim that artists should be exempt from the moral obligations that bind other people to their families.",
+          "D) resultant luck: a decision's justification can depend on an outcome unknown when it was made."
         ],
         "answer": 3,
-        "explanation": "Detailed Solution: (A) 'Draconian' (excessively harsh) is used correctly. (B) 'Eclectic' (deriving ideas/style from a broad range) is used correctly. (C) 'Obviated' (remove/prevent a need or difficulty) is used correctly. (D) A 'disingenuous' (insincere) apology typically inflames or fails to mollify constituents rather than 'entirely resolving' a crisis; the mismatch makes 'disingenuous' or the outcome inappropriate."
+        "explanation": "<strong>Explanation:</strong> Williams's point is that justification depends on whether Gauguin turns out to be a great painter, which he cannot know when he decides: luck in how things turn out. B and C name other kinds of luck; D is not claimed by Williams or the author."
       },
       {
-        "id": 13,
-        "section": "VA",
-        "category": "Incorrect Word",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "One of the sentences below contains a word used incorrectly or inappropriately. Choose that sentence.",
+        "id": "q3",
+        "type": "RC",
+        "passage": "We tend to hold that people deserve praise or blame only for what lies within their control. A man cannot be blamed for his height, nor credited with the fortunate accident of his birth, and a principle seems to follow: moral assessment must track the will and not the outcome. Kant gave the principle its most austere expression when he said that a good will shines like a jewel by its own light, whatever it achieves or fails to achieve. Nor can we escape by appeal to intention alone, since intentions are themselves shaped by character. Yet a moment's reflection on ordinary judgement suggests that we do not apply the principle consistently. We treat a driver who kills a child running into the road quite differently from one who, driving in exactly the same way, merely reached home, and we treat an attempted murder differently from a murder that succeeded, though the difference between them may be a gust of wind that deflected a bullet.\n\nIn 1976 Thomas Nagel and Bernard Williams, in a famous exchange, gave the name moral luck to this predicament: people are morally assessed for features of their conduct that depend on factors beyond their control. Nagel distinguished several kinds. Resultant luck concerns how things turn out. Circumstantial luck concerns the situations in which one is placed, as when a man who might have collaborated under a tyranny lives out his life in a peaceful country and escapes the test. Constitutive luck concerns the temperament with which one is born, and causal luck the extent to which one's actions are determined by antecedent circumstances. The point is that the principle that we are responsible only for what we control, when pressed, seems to dissolve nearly everything we hold people responsible for, since almost nothing, the will itself included, is wholly under control. Moral luck is a problem, in short, not about exotic cases but about the fabric of ordinary responsibility.\n\nWilliams approached the problem through the imagined case of a painter modelled on Gauguin, who abandons his family to paint in Tahiti. Whether his decision was justified, Williams argued, depends on whether he turns out to be a great painter, which he could not know when he decided. If he fails, we say he was wrong; if he succeeds, his choice is vindicated, and not merely excused. The justification is retrospective and therefore hostage to luck. Yet Williams did not conclude that the judgement is mistaken. He insisted that it reflects something true about our moral relation to our own lives: a driver who looks back on a terrible act that he did not intend feels a regret that differs in kind from the regret of a bystander, and to lose this feeling would be to lose part of what it is to be an agent. Williams called it agent-regret.\n\nDefenders of the control principle reply that the apparent role of luck is an illusion produced by confusing different judgements. We may regret an outcome and pity the person to whom it happened, they say, without blaming him: the unlucky driver deserves sympathy, not condemnation. What differs between the two drivers is how we feel, not what each deserves. The reply has force, but it carries a cost. If outcomes do not affect desert at all, then the law's gradation of penalties by result, with heavier punishment for the successful murderer than for the unsuccessful one, is unjust, and so, many would add, is the ordinary practice of holding people to account for the consequences of their negligence.\n\nA subtler response distinguishes between what a person is answerable for and what he is blameworthy for. A person who takes on a risk, such as driving, takes on a responsibility for how it turns out; if harm results, he owes an apology and compensation, whatever care he took. This is a liability that does not depend on fault, and it is familiar from law: a landowner may be liable for damage done by a wild animal he kept, though he took every precaution. The proposal preserves the control principle for blame while acknowledging that morality assigns burdens by outcome. But critics note that the distinction is unstable. If answerability involves real moral demands, such as the duty to make amends, then outcomes do matter morally, and the control principle has been given up at one level in order to be retained at another.\n\nThe debate has a practical edge. Consider how we judge historical figures, our parents, or ourselves. People who lived ordinary lives under regimes that made moral heroism very costly are praised or blamed for what they would have done in circumstances that never arose, and we usually refrain from condemning those who were never tested. This restraint is a recognition of circumstantial luck; it suggests that we already believe character to be partly a matter of fortune. But the restraint cuts both ways. If the untested are spared condemnation because they were lucky, then the heroes who were tested and passed might have failed in different circumstances, and their praise is likewise partly a matter of luck. Parents who raise children well in comfortable circumstances, and those who fail in desperate ones, are judged in much the same fashion, with little attention to the difficulty of the task.\n\nWhat survives of the control principle, then, is less a rule than an ideal, one that shapes our reactions without governing them entirely. We keep the thought that persons deserve moral credit for what is up to them, and we find it hard to say what that is, since the boundary between an agent and the circumstances that formed her is not sharp. Nagel's conclusion was that the problem is genuine: our conception of ourselves as agents is undermined when we examine it, yet we cannot abandon it. Whether this is a defect in our moral concepts or a feature of the human condition depends on whether one expects ethics to be tidy.",
+        "question": "Williams's notion of agent-regret implies that",
         "options": [
-          "The labyrinthine corridors of the ancient archive confounded even the most experienced researchers.",
-          "Her intrepid exploration of the Mariana Trench earned her international acclaim among marine biologists.",
-          "The moribund company experienced a miraculous commercial renaissance following the appointment of a visionary CEO.",
-          "The prolific author published a comprehensive monograph every few decades, maintaining an astonishingly high daily output."
+          "A) every agent is blameworthy for harm he causes, however carefully he has acted in the circumstances.",
+          "B) regret is appropriate only for outcomes that the agent could have foreseen and could have prevented.",
+          "C) an agent who unintentionally causes harm feels a regret of a different kind from a bystander's.",
+          "D) the regret felt by a driver and by a bystander at the same accident differs only in its intensity."
+        ],
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> The passage says the driver feels a regret 'that differs in kind' from the bystander's. B conflates regret with blame; C adds a foreseeability condition the passage does not state, and the driver 'did not intend' the act; D is the opposite of 'differs in kind'."
+      },
+      {
+        "id": "q4",
+        "type": "RC",
+        "passage": "We tend to hold that people deserve praise or blame only for what lies within their control. A man cannot be blamed for his height, nor credited with the fortunate accident of his birth, and a principle seems to follow: moral assessment must track the will and not the outcome. Kant gave the principle its most austere expression when he said that a good will shines like a jewel by its own light, whatever it achieves or fails to achieve. Nor can we escape by appeal to intention alone, since intentions are themselves shaped by character. Yet a moment's reflection on ordinary judgement suggests that we do not apply the principle consistently. We treat a driver who kills a child running into the road quite differently from one who, driving in exactly the same way, merely reached home, and we treat an attempted murder differently from a murder that succeeded, though the difference between them may be a gust of wind that deflected a bullet.\n\nIn 1976 Thomas Nagel and Bernard Williams, in a famous exchange, gave the name moral luck to this predicament: people are morally assessed for features of their conduct that depend on factors beyond their control. Nagel distinguished several kinds. Resultant luck concerns how things turn out. Circumstantial luck concerns the situations in which one is placed, as when a man who might have collaborated under a tyranny lives out his life in a peaceful country and escapes the test. Constitutive luck concerns the temperament with which one is born, and causal luck the extent to which one's actions are determined by antecedent circumstances. The point is that the principle that we are responsible only for what we control, when pressed, seems to dissolve nearly everything we hold people responsible for, since almost nothing, the will itself included, is wholly under control. Moral luck is a problem, in short, not about exotic cases but about the fabric of ordinary responsibility.\n\nWilliams approached the problem through the imagined case of a painter modelled on Gauguin, who abandons his family to paint in Tahiti. Whether his decision was justified, Williams argued, depends on whether he turns out to be a great painter, which he could not know when he decided. If he fails, we say he was wrong; if he succeeds, his choice is vindicated, and not merely excused. The justification is retrospective and therefore hostage to luck. Yet Williams did not conclude that the judgement is mistaken. He insisted that it reflects something true about our moral relation to our own lives: a driver who looks back on a terrible act that he did not intend feels a regret that differs in kind from the regret of a bystander, and to lose this feeling would be to lose part of what it is to be an agent. Williams called it agent-regret.\n\nDefenders of the control principle reply that the apparent role of luck is an illusion produced by confusing different judgements. We may regret an outcome and pity the person to whom it happened, they say, without blaming him: the unlucky driver deserves sympathy, not condemnation. What differs between the two drivers is how we feel, not what each deserves. The reply has force, but it carries a cost. If outcomes do not affect desert at all, then the law's gradation of penalties by result, with heavier punishment for the successful murderer than for the unsuccessful one, is unjust, and so, many would add, is the ordinary practice of holding people to account for the consequences of their negligence.\n\nA subtler response distinguishes between what a person is answerable for and what he is blameworthy for. A person who takes on a risk, such as driving, takes on a responsibility for how it turns out; if harm results, he owes an apology and compensation, whatever care he took. This is a liability that does not depend on fault, and it is familiar from law: a landowner may be liable for damage done by a wild animal he kept, though he took every precaution. The proposal preserves the control principle for blame while acknowledging that morality assigns burdens by outcome. But critics note that the distinction is unstable. If answerability involves real moral demands, such as the duty to make amends, then outcomes do matter morally, and the control principle has been given up at one level in order to be retained at another.\n\nThe debate has a practical edge. Consider how we judge historical figures, our parents, or ourselves. People who lived ordinary lives under regimes that made moral heroism very costly are praised or blamed for what they would have done in circumstances that never arose, and we usually refrain from condemning those who were never tested. This restraint is a recognition of circumstantial luck; it suggests that we already believe character to be partly a matter of fortune. But the restraint cuts both ways. If the untested are spared condemnation because they were lucky, then the heroes who were tested and passed might have failed in different circumstances, and their praise is likewise partly a matter of luck. Parents who raise children well in comfortable circumstances, and those who fail in desperate ones, are judged in much the same fashion, with little attention to the difficulty of the task.\n\nWhat survives of the control principle, then, is less a rule than an ideal, one that shapes our reactions without governing them entirely. We keep the thought that persons deserve moral credit for what is up to them, and we find it hard to say what that is, since the boundary between an agent and the circumstances that formed her is not sharp. Nagel's conclusion was that the problem is genuine: our conception of ourselves as agents is undermined when we examine it, yet we cannot abandon it. Whether this is a defect in our moral concepts or a feature of the human condition depends on whether one expects ethics to be tidy.",
+        "question": "Which of the following would most support the critics' claim that the answerability proposal is unstable?",
+        "options": [
+          "A) The duty to make amends is a genuine moral requirement, and its extent depends on the harm that the outcome caused.",
+          "B) A person who takes on a risk generally takes every precaution that the circumstances can reasonably be thought to require.",
+          "C) Landowners in most legal systems are insured against damage caused by the animals that they keep on their land.",
+          "D) Sympathy for an unlucky driver is felt more strongly than blame for a careless driver whose carelessness caused no harm."
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> The critics argue that if answerability carries real moral demands, outcomes matter morally, so the control principle is abandoned at one level. Option A supplies exactly that premise. B, C and D do not show outcomes generating moral demands."
+      },
+      {
+        "id": "q5",
+        "type": "RC",
+        "passage": "We tend to hold that people deserve praise or blame only for what lies within their control. A man cannot be blamed for his height, nor credited with the fortunate accident of his birth, and a principle seems to follow: moral assessment must track the will and not the outcome. Kant gave the principle its most austere expression when he said that a good will shines like a jewel by its own light, whatever it achieves or fails to achieve. Nor can we escape by appeal to intention alone, since intentions are themselves shaped by character. Yet a moment's reflection on ordinary judgement suggests that we do not apply the principle consistently. We treat a driver who kills a child running into the road quite differently from one who, driving in exactly the same way, merely reached home, and we treat an attempted murder differently from a murder that succeeded, though the difference between them may be a gust of wind that deflected a bullet.\n\nIn 1976 Thomas Nagel and Bernard Williams, in a famous exchange, gave the name moral luck to this predicament: people are morally assessed for features of their conduct that depend on factors beyond their control. Nagel distinguished several kinds. Resultant luck concerns how things turn out. Circumstantial luck concerns the situations in which one is placed, as when a man who might have collaborated under a tyranny lives out his life in a peaceful country and escapes the test. Constitutive luck concerns the temperament with which one is born, and causal luck the extent to which one's actions are determined by antecedent circumstances. The point is that the principle that we are responsible only for what we control, when pressed, seems to dissolve nearly everything we hold people responsible for, since almost nothing, the will itself included, is wholly under control. Moral luck is a problem, in short, not about exotic cases but about the fabric of ordinary responsibility.\n\nWilliams approached the problem through the imagined case of a painter modelled on Gauguin, who abandons his family to paint in Tahiti. Whether his decision was justified, Williams argued, depends on whether he turns out to be a great painter, which he could not know when he decided. If he fails, we say he was wrong; if he succeeds, his choice is vindicated, and not merely excused. The justification is retrospective and therefore hostage to luck. Yet Williams did not conclude that the judgement is mistaken. He insisted that it reflects something true about our moral relation to our own lives: a driver who looks back on a terrible act that he did not intend feels a regret that differs in kind from the regret of a bystander, and to lose this feeling would be to lose part of what it is to be an agent. Williams called it agent-regret.\n\nDefenders of the control principle reply that the apparent role of luck is an illusion produced by confusing different judgements. We may regret an outcome and pity the person to whom it happened, they say, without blaming him: the unlucky driver deserves sympathy, not condemnation. What differs between the two drivers is how we feel, not what each deserves. The reply has force, but it carries a cost. If outcomes do not affect desert at all, then the law's gradation of penalties by result, with heavier punishment for the successful murderer than for the unsuccessful one, is unjust, and so, many would add, is the ordinary practice of holding people to account for the consequences of their negligence.\n\nA subtler response distinguishes between what a person is answerable for and what he is blameworthy for. A person who takes on a risk, such as driving, takes on a responsibility for how it turns out; if harm results, he owes an apology and compensation, whatever care he took. This is a liability that does not depend on fault, and it is familiar from law: a landowner may be liable for damage done by a wild animal he kept, though he took every precaution. The proposal preserves the control principle for blame while acknowledging that morality assigns burdens by outcome. But critics note that the distinction is unstable. If answerability involves real moral demands, such as the duty to make amends, then outcomes do matter morally, and the control principle has been given up at one level in order to be retained at another.\n\nThe debate has a practical edge. Consider how we judge historical figures, our parents, or ourselves. People who lived ordinary lives under regimes that made moral heroism very costly are praised or blamed for what they would have done in circumstances that never arose, and we usually refrain from condemning those who were never tested. This restraint is a recognition of circumstantial luck; it suggests that we already believe character to be partly a matter of fortune. But the restraint cuts both ways. If the untested are spared condemnation because they were lucky, then the heroes who were tested and passed might have failed in different circumstances, and their praise is likewise partly a matter of luck. Parents who raise children well in comfortable circumstances, and those who fail in desperate ones, are judged in much the same fashion, with little attention to the difficulty of the task.\n\nWhat survives of the control principle, then, is less a rule than an ideal, one that shapes our reactions without governing them entirely. We keep the thought that persons deserve moral credit for what is up to them, and we find it hard to say what that is, since the boundary between an agent and the circumstances that formed her is not sharp. Nagel's conclusion was that the problem is genuine: our conception of ourselves as agents is undermined when we examine it, yet we cannot abandon it. Whether this is a defect in our moral concepts or a feature of the human condition depends on whether one expects ethics to be tidy.",
+        "question": "Each of the following is mentioned in the passage as an instance of luck or of liability EXCEPT",
+        "options": [
+          "A) a bullet that is turned aside by a gust of wind",
+          "B) a passenger killed by another driver's negligence",
+          "C) a person spared a test by living in a peaceful country",
+          "D) a landowner who is liable for damage done by an animal he kept"
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> B is in paragraph 1, C in paragraph 2 and D in paragraph 5. The passage never discusses a passenger killed by another driver's negligence."
+      },
+      {
+        "id": "q6",
+        "type": "RC",
+        "passage": "We tend to hold that people deserve praise or blame only for what lies within their control. A man cannot be blamed for his height, nor credited with the fortunate accident of his birth, and a principle seems to follow: moral assessment must track the will and not the outcome. Kant gave the principle its most austere expression when he said that a good will shines like a jewel by its own light, whatever it achieves or fails to achieve. Nor can we escape by appeal to intention alone, since intentions are themselves shaped by character. Yet a moment's reflection on ordinary judgement suggests that we do not apply the principle consistently. We treat a driver who kills a child running into the road quite differently from one who, driving in exactly the same way, merely reached home, and we treat an attempted murder differently from a murder that succeeded, though the difference between them may be a gust of wind that deflected a bullet.\n\nIn 1976 Thomas Nagel and Bernard Williams, in a famous exchange, gave the name moral luck to this predicament: people are morally assessed for features of their conduct that depend on factors beyond their control. Nagel distinguished several kinds. Resultant luck concerns how things turn out. Circumstantial luck concerns the situations in which one is placed, as when a man who might have collaborated under a tyranny lives out his life in a peaceful country and escapes the test. Constitutive luck concerns the temperament with which one is born, and causal luck the extent to which one's actions are determined by antecedent circumstances. The point is that the principle that we are responsible only for what we control, when pressed, seems to dissolve nearly everything we hold people responsible for, since almost nothing, the will itself included, is wholly under control. Moral luck is a problem, in short, not about exotic cases but about the fabric of ordinary responsibility.\n\nWilliams approached the problem through the imagined case of a painter modelled on Gauguin, who abandons his family to paint in Tahiti. Whether his decision was justified, Williams argued, depends on whether he turns out to be a great painter, which he could not know when he decided. If he fails, we say he was wrong; if he succeeds, his choice is vindicated, and not merely excused. The justification is retrospective and therefore hostage to luck. Yet Williams did not conclude that the judgement is mistaken. He insisted that it reflects something true about our moral relation to our own lives: a driver who looks back on a terrible act that he did not intend feels a regret that differs in kind from the regret of a bystander, and to lose this feeling would be to lose part of what it is to be an agent. Williams called it agent-regret.\n\nDefenders of the control principle reply that the apparent role of luck is an illusion produced by confusing different judgements. We may regret an outcome and pity the person to whom it happened, they say, without blaming him: the unlucky driver deserves sympathy, not condemnation. What differs between the two drivers is how we feel, not what each deserves. The reply has force, but it carries a cost. If outcomes do not affect desert at all, then the law's gradation of penalties by result, with heavier punishment for the successful murderer than for the unsuccessful one, is unjust, and so, many would add, is the ordinary practice of holding people to account for the consequences of their negligence.\n\nA subtler response distinguishes between what a person is answerable for and what he is blameworthy for. A person who takes on a risk, such as driving, takes on a responsibility for how it turns out; if harm results, he owes an apology and compensation, whatever care he took. This is a liability that does not depend on fault, and it is familiar from law: a landowner may be liable for damage done by a wild animal he kept, though he took every precaution. The proposal preserves the control principle for blame while acknowledging that morality assigns burdens by outcome. But critics note that the distinction is unstable. If answerability involves real moral demands, such as the duty to make amends, then outcomes do matter morally, and the control principle has been given up at one level in order to be retained at another.\n\nThe debate has a practical edge. Consider how we judge historical figures, our parents, or ourselves. People who lived ordinary lives under regimes that made moral heroism very costly are praised or blamed for what they would have done in circumstances that never arose, and we usually refrain from condemning those who were never tested. This restraint is a recognition of circumstantial luck; it suggests that we already believe character to be partly a matter of fortune. But the restraint cuts both ways. If the untested are spared condemnation because they were lucky, then the heroes who were tested and passed might have failed in different circumstances, and their praise is likewise partly a matter of luck. Parents who raise children well in comfortable circumstances, and those who fail in desperate ones, are judged in much the same fashion, with little attention to the difficulty of the task.\n\nWhat survives of the control principle, then, is less a rule than an ideal, one that shapes our reactions without governing them entirely. We keep the thought that persons deserve moral credit for what is up to them, and we find it hard to say what that is, since the boundary between an agent and the circumstances that formed her is not sharp. Nagel's conclusion was that the problem is genuine: our conception of ourselves as agents is undermined when we examine it, yet we cannot abandon it. Whether this is a defect in our moral concepts or a feature of the human condition depends on whether one expects ethics to be tidy.",
+        "question": "The author's attitude towards the control principle at the close of the passage is best described as",
+        "options": [
+          "A) dismissive: it is an error that philosophers have kept only through habit and a distaste for untidy ethics.",
+          "B) confident: it is shown to be true once blame has been carefully distinguished from sympathy and regret.",
+          "C) indifferent: whether it is kept depends on nothing more than the taste of the person who is judging.",
+          "D) unresolved: it is kept as an ideal although what lies 'up to' an agent cannot be sharply marked."
         ],
         "answer": 3,
-        "explanation": "Detailed Solution: (A) 'Labyrinthine' (irregular and twisting like a labyrinth) is correct. (B) 'Intrepid' (fearless) is correct. (C) 'Moribund' (at a dying/stagnant stage) matching a 'renaissance' is correct. (D) 'Prolific' means producing much fruit or many works, which contradicts publishing 'every few decades' and having low daily output; prolific implies continuous, rapid creation."
+        "explanation": "<strong>Explanation:</strong> The conclusion calls the principle 'less a rule than an ideal' and says the problem is 'genuine', with the boundary of the agent not sharp. B, C and D are too extreme or mischaracterise this open conclusion."
       },
       {
-        "id": 14,
-        "section": "VA",
-        "category": "Incorrect Word",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "One of the sentences below contains a word used incorrectly or inappropriately. Choose that sentence.",
+        "id": "q7",
+        "type": "RC",
+        "passage": "Do the words we speak shape the thoughts we can think? The hypothesis that they do, usually named after Edward Sapir and his student Benjamin Lee Whorf, has the peculiar history of an idea that has been repeatedly declared dead and has repeatedly returned. Whorf, a fire-prevention engineer by profession, noticed that workers treated \"empty\" gasoline drums with less care than full ones, though the empty drums, full of vapour, were more dangerous, and he inferred that the word had misled them. In its strong form, linguistic determinism, it holds that language limits thought: speakers of a language lacking a word for a concept cannot grasp it. In its weak form, linguistic relativity, it holds only that language influences habitual patterns of attention and memory. The strong form has been largely abandoned, for reasons that are easy to state; the weak form survives, and the interesting disputes concern its size.\n\nWhorf's own evidence was shakier than his reputation. His celebrated claim that the Hopi language has no words for time, and that its speakers therefore experience reality differently, was later contradicted by fieldwork showing that Hopi has ample means of referring to time. The often-repeated claim that the Inuit have an unusually large number of words for snow turns out to depend on how one counts: languages that build long words by adding suffixes can generate any number of snow terms, as English can with snowdrift or slush, and the claim has little to do with perception. These weaknesses, together with the rise in the 1960s of the idea that the structure of language is innate and shared, led most linguists to regard the hypothesis as discredited. Stripped of such claims, it looked like a slogan.\n\nThe study that seemed to deliver the final blow concerned colour. In 1969 Brent Berlin and Paul Kay compared colour terms across a number of languages and reported that the number of basic colour words varied from two to eleven, but that the order in which languages acquire them was constrained. A language with only two terms always distinguishes dark from light; if it has three, the third is red; the next are green or yellow, then blue, and so on. The pattern suggested that colour categories are anchored in the human visual system, and so that languages carve a common perceptual space in broadly similar ways. If speakers of different languages divide the spectrum in constrained ways, language could hardly be the shaper of colour perception.\n\nLater work showed that the story was incomplete. In an experiment published in 2007, researchers examined Russian, which has separate basic terms for lighter and darker blues, goluboy and siniy, where English has one. Russian speakers were faster to discriminate two shades of blue when they fell on opposite sides of the boundary between those terms than when they fell on the same side; English speakers showed no such advantage. Crucially, the effect disappeared when participants performed a verbal task, such as holding a string of digits in memory, while discriminating the colours, but not when they performed a spatial task of comparable difficulty. The pattern suggests that the boundary matters, but through the language system itself, which is engaged in the discrimination unless it is occupied elsewhere. The effect is real; it is also small, fast and fragile.\n\nEvidence of this kind has accumulated beyond colour. Speakers of Guugu Yimithirr, an Australian language that uses compass directions in place of left and right, are reported to keep track of their orientation with remarkable accuracy, even in unfamiliar surroundings, and to describe the layout of objects in cardinal terms that English speakers would find baffling. Studies of languages with grammatical gender have suggested that speakers' descriptions of objects may be coloured, however faintly, by the gender their language assigns to them. Studies of how speakers describe accidents, for example whether they name the agent of an accidental act, have also found differences in what witnesses later remember, though here again the effects are small. In such cases the claim is not that language makes some thoughts impossible but that it makes some thoughts habitual, because one cannot speak the language without attending to certain distinctions. As the linguist Roman Jakobson is usually paraphrased, languages differ essentially in what they must convey and not in what they may convey.\n\nThese findings should be handled with care, for the methodological problems are formidable. Correlations between language and cognition may arise because both reflect a culture, not because language shapes thought: a society that crosses open desert may develop both a vocabulary of compass directions and a skill at dead reckoning, and neither need cause the other. Experiments that compare two language groups also compare two populations that differ in education, habits and expectations, and a difference of a few hundredths of a second in a laboratory task may have many causes. Several celebrated results have proved difficult to replicate, and even those that survive tend to show effects that are modest and dependent on context. Small samples compound these difficulties. A sceptic may fairly say that the demonstrated influence of language on thought amounts to little.\n\nThe sceptic is right about the size of the effects and wrong about their significance. If language had no influence on thought, the hypothesis would be false; that it has some, even a modest one, shows that language is not a transparent window on a world of ready-made concepts but a practice that trains attention. What is at stake is therefore less whether language shapes thought than how, how much, and under what conditions. The question has become an empirical one, and its answers are likely to be a patchwork: strong in some domains and negligible in others, depending on how much a task draws on the language system. The practical lesson for readers of such studies is to ask of each result what, exactly, was varied, and whether the same effect would survive a change of task, population or time.",
+        "question": "Which of the following best captures the author's overall view?",
         "options": [
-          "The ephemeral nature of digital trends ensures that today's viral sensation is tomorrow's forgotten footnote.",
-          "The sagacious elder provided counsel that guided the community through its most turbulent political crisis.",
-          "The disparate data points were easily reconciled into a coherent, unified theoretical framework.",
-          "The audacious heist was executed with such ineptitude that the perpetrators were apprehended before leaving the parking lot."
+          "A) The strong form of the hypothesis has been revived by recent experiments on colour, and linguists now accept that language limits thought.",
+          "B) Evidence for the influence of language on thought is too weak to be of interest, and the hypothesis may now be set aside.",
+          "C) Language influences thought modestly and conditionally, so the question is now how and how much, rather than whether.",
+          "D) The influence of language on thought has been proved to be large in every domain that has been examined by researchers so far."
+        ],
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> The final paragraph says the sceptic is 'right about the size... wrong about their significance' and that the question is now how, how much and under what conditions. B revives the strong form, which the author says has been abandoned; C and D go to the extremes."
+      },
+      {
+        "id": "q8",
+        "type": "RC",
+        "passage": "Do the words we speak shape the thoughts we can think? The hypothesis that they do, usually named after Edward Sapir and his student Benjamin Lee Whorf, has the peculiar history of an idea that has been repeatedly declared dead and has repeatedly returned. Whorf, a fire-prevention engineer by profession, noticed that workers treated \"empty\" gasoline drums with less care than full ones, though the empty drums, full of vapour, were more dangerous, and he inferred that the word had misled them. In its strong form, linguistic determinism, it holds that language limits thought: speakers of a language lacking a word for a concept cannot grasp it. In its weak form, linguistic relativity, it holds only that language influences habitual patterns of attention and memory. The strong form has been largely abandoned, for reasons that are easy to state; the weak form survives, and the interesting disputes concern its size.\n\nWhorf's own evidence was shakier than his reputation. His celebrated claim that the Hopi language has no words for time, and that its speakers therefore experience reality differently, was later contradicted by fieldwork showing that Hopi has ample means of referring to time. The often-repeated claim that the Inuit have an unusually large number of words for snow turns out to depend on how one counts: languages that build long words by adding suffixes can generate any number of snow terms, as English can with snowdrift or slush, and the claim has little to do with perception. These weaknesses, together with the rise in the 1960s of the idea that the structure of language is innate and shared, led most linguists to regard the hypothesis as discredited. Stripped of such claims, it looked like a slogan.\n\nThe study that seemed to deliver the final blow concerned colour. In 1969 Brent Berlin and Paul Kay compared colour terms across a number of languages and reported that the number of basic colour words varied from two to eleven, but that the order in which languages acquire them was constrained. A language with only two terms always distinguishes dark from light; if it has three, the third is red; the next are green or yellow, then blue, and so on. The pattern suggested that colour categories are anchored in the human visual system, and so that languages carve a common perceptual space in broadly similar ways. If speakers of different languages divide the spectrum in constrained ways, language could hardly be the shaper of colour perception.\n\nLater work showed that the story was incomplete. In an experiment published in 2007, researchers examined Russian, which has separate basic terms for lighter and darker blues, goluboy and siniy, where English has one. Russian speakers were faster to discriminate two shades of blue when they fell on opposite sides of the boundary between those terms than when they fell on the same side; English speakers showed no such advantage. Crucially, the effect disappeared when participants performed a verbal task, such as holding a string of digits in memory, while discriminating the colours, but not when they performed a spatial task of comparable difficulty. The pattern suggests that the boundary matters, but through the language system itself, which is engaged in the discrimination unless it is occupied elsewhere. The effect is real; it is also small, fast and fragile.\n\nEvidence of this kind has accumulated beyond colour. Speakers of Guugu Yimithirr, an Australian language that uses compass directions in place of left and right, are reported to keep track of their orientation with remarkable accuracy, even in unfamiliar surroundings, and to describe the layout of objects in cardinal terms that English speakers would find baffling. Studies of languages with grammatical gender have suggested that speakers' descriptions of objects may be coloured, however faintly, by the gender their language assigns to them. Studies of how speakers describe accidents, for example whether they name the agent of an accidental act, have also found differences in what witnesses later remember, though here again the effects are small. In such cases the claim is not that language makes some thoughts impossible but that it makes some thoughts habitual, because one cannot speak the language without attending to certain distinctions. As the linguist Roman Jakobson is usually paraphrased, languages differ essentially in what they must convey and not in what they may convey.\n\nThese findings should be handled with care, for the methodological problems are formidable. Correlations between language and cognition may arise because both reflect a culture, not because language shapes thought: a society that crosses open desert may develop both a vocabulary of compass directions and a skill at dead reckoning, and neither need cause the other. Experiments that compare two language groups also compare two populations that differ in education, habits and expectations, and a difference of a few hundredths of a second in a laboratory task may have many causes. Several celebrated results have proved difficult to replicate, and even those that survive tend to show effects that are modest and dependent on context. Small samples compound these difficulties. A sceptic may fairly say that the demonstrated influence of language on thought amounts to little.\n\nThe sceptic is right about the size of the effects and wrong about their significance. If language had no influence on thought, the hypothesis would be false; that it has some, even a modest one, shows that language is not a transparent window on a world of ready-made concepts but a practice that trains attention. What is at stake is therefore less whether language shapes thought than how, how much, and under what conditions. The question has become an empirical one, and its answers are likely to be a patchwork: strong in some domains and negligible in others, depending on how much a task draws on the language system. The practical lesson for readers of such studies is to ask of each result what, exactly, was varied, and whether the same effect would survive a change of task, population or time.",
+        "question": "The author mentions Berlin and Kay's findings in order to",
+        "options": [
+          "A) prove that all languages divide the colour spectrum into precisely the same categories, whatever their number of colour terms.",
+          "B) explain why the strong hypothesis seemed refuted: colour categories appeared constrained by shared perception.",
+          "C) demonstrate that speakers of languages with few colour terms are unable to perceive the colours for which they have no word.",
+          "D) support Whorf's claim that language limits thought, since the number of colour terms differs so widely between languages."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> The pattern suggested that colour categories are anchored in the visual system, so language 'could hardly be the shaper' of colour perception. B overstates ('precisely the same'); C and D reverse the point."
+      },
+      {
+        "id": "q9",
+        "type": "RC",
+        "passage": "Do the words we speak shape the thoughts we can think? The hypothesis that they do, usually named after Edward Sapir and his student Benjamin Lee Whorf, has the peculiar history of an idea that has been repeatedly declared dead and has repeatedly returned. Whorf, a fire-prevention engineer by profession, noticed that workers treated \"empty\" gasoline drums with less care than full ones, though the empty drums, full of vapour, were more dangerous, and he inferred that the word had misled them. In its strong form, linguistic determinism, it holds that language limits thought: speakers of a language lacking a word for a concept cannot grasp it. In its weak form, linguistic relativity, it holds only that language influences habitual patterns of attention and memory. The strong form has been largely abandoned, for reasons that are easy to state; the weak form survives, and the interesting disputes concern its size.\n\nWhorf's own evidence was shakier than his reputation. His celebrated claim that the Hopi language has no words for time, and that its speakers therefore experience reality differently, was later contradicted by fieldwork showing that Hopi has ample means of referring to time. The often-repeated claim that the Inuit have an unusually large number of words for snow turns out to depend on how one counts: languages that build long words by adding suffixes can generate any number of snow terms, as English can with snowdrift or slush, and the claim has little to do with perception. These weaknesses, together with the rise in the 1960s of the idea that the structure of language is innate and shared, led most linguists to regard the hypothesis as discredited. Stripped of such claims, it looked like a slogan.\n\nThe study that seemed to deliver the final blow concerned colour. In 1969 Brent Berlin and Paul Kay compared colour terms across a number of languages and reported that the number of basic colour words varied from two to eleven, but that the order in which languages acquire them was constrained. A language with only two terms always distinguishes dark from light; if it has three, the third is red; the next are green or yellow, then blue, and so on. The pattern suggested that colour categories are anchored in the human visual system, and so that languages carve a common perceptual space in broadly similar ways. If speakers of different languages divide the spectrum in constrained ways, language could hardly be the shaper of colour perception.\n\nLater work showed that the story was incomplete. In an experiment published in 2007, researchers examined Russian, which has separate basic terms for lighter and darker blues, goluboy and siniy, where English has one. Russian speakers were faster to discriminate two shades of blue when they fell on opposite sides of the boundary between those terms than when they fell on the same side; English speakers showed no such advantage. Crucially, the effect disappeared when participants performed a verbal task, such as holding a string of digits in memory, while discriminating the colours, but not when they performed a spatial task of comparable difficulty. The pattern suggests that the boundary matters, but through the language system itself, which is engaged in the discrimination unless it is occupied elsewhere. The effect is real; it is also small, fast and fragile.\n\nEvidence of this kind has accumulated beyond colour. Speakers of Guugu Yimithirr, an Australian language that uses compass directions in place of left and right, are reported to keep track of their orientation with remarkable accuracy, even in unfamiliar surroundings, and to describe the layout of objects in cardinal terms that English speakers would find baffling. Studies of languages with grammatical gender have suggested that speakers' descriptions of objects may be coloured, however faintly, by the gender their language assigns to them. Studies of how speakers describe accidents, for example whether they name the agent of an accidental act, have also found differences in what witnesses later remember, though here again the effects are small. In such cases the claim is not that language makes some thoughts impossible but that it makes some thoughts habitual, because one cannot speak the language without attending to certain distinctions. As the linguist Roman Jakobson is usually paraphrased, languages differ essentially in what they must convey and not in what they may convey.\n\nThese findings should be handled with care, for the methodological problems are formidable. Correlations between language and cognition may arise because both reflect a culture, not because language shapes thought: a society that crosses open desert may develop both a vocabulary of compass directions and a skill at dead reckoning, and neither need cause the other. Experiments that compare two language groups also compare two populations that differ in education, habits and expectations, and a difference of a few hundredths of a second in a laboratory task may have many causes. Several celebrated results have proved difficult to replicate, and even those that survive tend to show effects that are modest and dependent on context. Small samples compound these difficulties. A sceptic may fairly say that the demonstrated influence of language on thought amounts to little.\n\nThe sceptic is right about the size of the effects and wrong about their significance. If language had no influence on thought, the hypothesis would be false; that it has some, even a modest one, shows that language is not a transparent window on a world of ready-made concepts but a practice that trains attention. What is at stake is therefore less whether language shapes thought than how, how much, and under what conditions. The question has become an empirical one, and its answers are likely to be a patchwork: strong in some domains and negligible in others, depending on how much a task draws on the language system. The practical lesson for readers of such studies is to ask of each result what, exactly, was varied, and whether the same effect would survive a change of task, population or time.",
+        "question": "The finding that the Russian advantage vanished under verbal but not spatial interference suggests that",
+        "options": [
+          "A) the effect operates through the language system, which is engaged in discrimination unless it is busy elsewhere.",
+          "B) Russian speakers cannot perceive differences between shades of blue unless they are actually speaking at the time.",
+          "C) the effect is produced entirely by visual processing, and the language system plays no part in the discrimination.",
+          "D) spatial tasks are less demanding than verbal tasks for speakers of Russian, and so interfere less with the judgement."
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> The author says the boundary matters 'through the language system itself', engaged unless occupied elsewhere. B overstates ('cannot perceive'); C contradicts the role of verbal interference; D contradicts the stipulation that the tasks were of comparable difficulty."
+      },
+      {
+        "id": "q10",
+        "type": "RC",
+        "passage": "Do the words we speak shape the thoughts we can think? The hypothesis that they do, usually named after Edward Sapir and his student Benjamin Lee Whorf, has the peculiar history of an idea that has been repeatedly declared dead and has repeatedly returned. Whorf, a fire-prevention engineer by profession, noticed that workers treated \"empty\" gasoline drums with less care than full ones, though the empty drums, full of vapour, were more dangerous, and he inferred that the word had misled them. In its strong form, linguistic determinism, it holds that language limits thought: speakers of a language lacking a word for a concept cannot grasp it. In its weak form, linguistic relativity, it holds only that language influences habitual patterns of attention and memory. The strong form has been largely abandoned, for reasons that are easy to state; the weak form survives, and the interesting disputes concern its size.\n\nWhorf's own evidence was shakier than his reputation. His celebrated claim that the Hopi language has no words for time, and that its speakers therefore experience reality differently, was later contradicted by fieldwork showing that Hopi has ample means of referring to time. The often-repeated claim that the Inuit have an unusually large number of words for snow turns out to depend on how one counts: languages that build long words by adding suffixes can generate any number of snow terms, as English can with snowdrift or slush, and the claim has little to do with perception. These weaknesses, together with the rise in the 1960s of the idea that the structure of language is innate and shared, led most linguists to regard the hypothesis as discredited. Stripped of such claims, it looked like a slogan.\n\nThe study that seemed to deliver the final blow concerned colour. In 1969 Brent Berlin and Paul Kay compared colour terms across a number of languages and reported that the number of basic colour words varied from two to eleven, but that the order in which languages acquire them was constrained. A language with only two terms always distinguishes dark from light; if it has three, the third is red; the next are green or yellow, then blue, and so on. The pattern suggested that colour categories are anchored in the human visual system, and so that languages carve a common perceptual space in broadly similar ways. If speakers of different languages divide the spectrum in constrained ways, language could hardly be the shaper of colour perception.\n\nLater work showed that the story was incomplete. In an experiment published in 2007, researchers examined Russian, which has separate basic terms for lighter and darker blues, goluboy and siniy, where English has one. Russian speakers were faster to discriminate two shades of blue when they fell on opposite sides of the boundary between those terms than when they fell on the same side; English speakers showed no such advantage. Crucially, the effect disappeared when participants performed a verbal task, such as holding a string of digits in memory, while discriminating the colours, but not when they performed a spatial task of comparable difficulty. The pattern suggests that the boundary matters, but through the language system itself, which is engaged in the discrimination unless it is occupied elsewhere. The effect is real; it is also small, fast and fragile.\n\nEvidence of this kind has accumulated beyond colour. Speakers of Guugu Yimithirr, an Australian language that uses compass directions in place of left and right, are reported to keep track of their orientation with remarkable accuracy, even in unfamiliar surroundings, and to describe the layout of objects in cardinal terms that English speakers would find baffling. Studies of languages with grammatical gender have suggested that speakers' descriptions of objects may be coloured, however faintly, by the gender their language assigns to them. Studies of how speakers describe accidents, for example whether they name the agent of an accidental act, have also found differences in what witnesses later remember, though here again the effects are small. In such cases the claim is not that language makes some thoughts impossible but that it makes some thoughts habitual, because one cannot speak the language without attending to certain distinctions. As the linguist Roman Jakobson is usually paraphrased, languages differ essentially in what they must convey and not in what they may convey.\n\nThese findings should be handled with care, for the methodological problems are formidable. Correlations between language and cognition may arise because both reflect a culture, not because language shapes thought: a society that crosses open desert may develop both a vocabulary of compass directions and a skill at dead reckoning, and neither need cause the other. Experiments that compare two language groups also compare two populations that differ in education, habits and expectations, and a difference of a few hundredths of a second in a laboratory task may have many causes. Several celebrated results have proved difficult to replicate, and even those that survive tend to show effects that are modest and dependent on context. Small samples compound these difficulties. A sceptic may fairly say that the demonstrated influence of language on thought amounts to little.\n\nThe sceptic is right about the size of the effects and wrong about their significance. If language had no influence on thought, the hypothesis would be false; that it has some, even a modest one, shows that language is not a transparent window on a world of ready-made concepts but a practice that trains attention. What is at stake is therefore less whether language shapes thought than how, how much, and under what conditions. The question has become an empirical one, and its answers are likely to be a patchwork: strong in some domains and negligible in others, depending on how much a task draws on the language system. The practical lesson for readers of such studies is to ask of each result what, exactly, was varied, and whether the same effect would survive a change of task, population or time.",
+        "question": "Which of the following, if true, would most weaken the inference that the Russian result reflects the influence of language?",
+        "options": [
+          "A) English speakers who were taught the two Russian terms in a short course showed a similar advantage when they were then tested.",
+          "B) The Russian advantage was measured at only a few hundredths of a second, which is a small effect by the standards of the field.",
+          "C) Russian has two basic terms for blue where English has only one, and Russian speakers use them readily in everyday speech.",
+          "D) Russian children who had not yet learned the two terms showed the same advantage, and it persisted under verbal interference."
         ],
         "answer": 3,
-        "explanation": "Detailed Solution: (A) 'Ephemeral' (lasting a very short time) is correct. (B) 'Sagacious' (wise) is correct. (C) 'Disparate' (essentially different in kind) is correct. (D) An 'audacious' heist implies daring and often clever execution; executing a crime with 'ineptitude' resulting in immediate capture contradicts the boldness implied by 'audacious' (or turns it into an ironic misuse where 'bungled' or 'ill-conceived' fits better)."
+        "explanation": "<strong>Explanation:</strong> If children without the terms show the same advantage even under verbal interference, the advantage cannot be due to the terms. B would strengthen the inference; C concerns size, which the author already grants; D restates the setting."
       },
       {
-        "id": 15,
-        "section": "VA",
-        "category": "Paracompletion",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "The democratization of information via the internet was initially hailed as an unmitigated triumph for human agency and intellectual liberation. ____________. Instead of fostering a universal agora of rational discourse, network architectures have atomized populations into mutually hostile echo chambers governed by algorithmic engagement loops that monetize outrage.",
+        "id": "q11",
+        "type": "RC",
+        "passage": "Do the words we speak shape the thoughts we can think? The hypothesis that they do, usually named after Edward Sapir and his student Benjamin Lee Whorf, has the peculiar history of an idea that has been repeatedly declared dead and has repeatedly returned. Whorf, a fire-prevention engineer by profession, noticed that workers treated \"empty\" gasoline drums with less care than full ones, though the empty drums, full of vapour, were more dangerous, and he inferred that the word had misled them. In its strong form, linguistic determinism, it holds that language limits thought: speakers of a language lacking a word for a concept cannot grasp it. In its weak form, linguistic relativity, it holds only that language influences habitual patterns of attention and memory. The strong form has been largely abandoned, for reasons that are easy to state; the weak form survives, and the interesting disputes concern its size.\n\nWhorf's own evidence was shakier than his reputation. His celebrated claim that the Hopi language has no words for time, and that its speakers therefore experience reality differently, was later contradicted by fieldwork showing that Hopi has ample means of referring to time. The often-repeated claim that the Inuit have an unusually large number of words for snow turns out to depend on how one counts: languages that build long words by adding suffixes can generate any number of snow terms, as English can with snowdrift or slush, and the claim has little to do with perception. These weaknesses, together with the rise in the 1960s of the idea that the structure of language is innate and shared, led most linguists to regard the hypothesis as discredited. Stripped of such claims, it looked like a slogan.\n\nThe study that seemed to deliver the final blow concerned colour. In 1969 Brent Berlin and Paul Kay compared colour terms across a number of languages and reported that the number of basic colour words varied from two to eleven, but that the order in which languages acquire them was constrained. A language with only two terms always distinguishes dark from light; if it has three, the third is red; the next are green or yellow, then blue, and so on. The pattern suggested that colour categories are anchored in the human visual system, and so that languages carve a common perceptual space in broadly similar ways. If speakers of different languages divide the spectrum in constrained ways, language could hardly be the shaper of colour perception.\n\nLater work showed that the story was incomplete. In an experiment published in 2007, researchers examined Russian, which has separate basic terms for lighter and darker blues, goluboy and siniy, where English has one. Russian speakers were faster to discriminate two shades of blue when they fell on opposite sides of the boundary between those terms than when they fell on the same side; English speakers showed no such advantage. Crucially, the effect disappeared when participants performed a verbal task, such as holding a string of digits in memory, while discriminating the colours, but not when they performed a spatial task of comparable difficulty. The pattern suggests that the boundary matters, but through the language system itself, which is engaged in the discrimination unless it is occupied elsewhere. The effect is real; it is also small, fast and fragile.\n\nEvidence of this kind has accumulated beyond colour. Speakers of Guugu Yimithirr, an Australian language that uses compass directions in place of left and right, are reported to keep track of their orientation with remarkable accuracy, even in unfamiliar surroundings, and to describe the layout of objects in cardinal terms that English speakers would find baffling. Studies of languages with grammatical gender have suggested that speakers' descriptions of objects may be coloured, however faintly, by the gender their language assigns to them. Studies of how speakers describe accidents, for example whether they name the agent of an accidental act, have also found differences in what witnesses later remember, though here again the effects are small. In such cases the claim is not that language makes some thoughts impossible but that it makes some thoughts habitual, because one cannot speak the language without attending to certain distinctions. As the linguist Roman Jakobson is usually paraphrased, languages differ essentially in what they must convey and not in what they may convey.\n\nThese findings should be handled with care, for the methodological problems are formidable. Correlations between language and cognition may arise because both reflect a culture, not because language shapes thought: a society that crosses open desert may develop both a vocabulary of compass directions and a skill at dead reckoning, and neither need cause the other. Experiments that compare two language groups also compare two populations that differ in education, habits and expectations, and a difference of a few hundredths of a second in a laboratory task may have many causes. Several celebrated results have proved difficult to replicate, and even those that survive tend to show effects that are modest and dependent on context. Small samples compound these difficulties. A sceptic may fairly say that the demonstrated influence of language on thought amounts to little.\n\nThe sceptic is right about the size of the effects and wrong about their significance. If language had no influence on thought, the hypothesis would be false; that it has some, even a modest one, shows that language is not a transparent window on a world of ready-made concepts but a practice that trains attention. What is at stake is therefore less whether language shapes thought than how, how much, and under what conditions. The question has become an empirical one, and its answers are likely to be a patchwork: strong in some domains and negligible in others, depending on how much a task draws on the language system. The practical lesson for readers of such studies is to ask of each result what, exactly, was varied, and whether the same effect would survive a change of task, population or time.",
+        "question": "The author cites compass directions and dead reckoning in order to illustrate that",
         "options": [
-          "Technological optimism, however, consistently underestimates the capacity of commercial platforms to weaponize friction.",
-          "Historical experience, however, suggests that communication technologies invariably amplify existing societal fissures rather than healing them.",
-          "Governments worldwide have rushed to enact stringent regulatory frameworks to control the flow of online misinformation.",
-          "Digital literacy programs have proven remarkably successful in teaching citizens how to evaluate online sources critically."
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Focuses on friction rather than the disappointment of liberation. (B) Directly bridges the initial utopian optimism with the cynical reality described in the subsequent sentence ('Instead of fostering a universal agora...'). (C) Shifts to government regulation, which is not discussed. (D) Contradicts the grim reality of echo chambers."
-      },
-      {
-        "id": 16,
-        "section": "VA",
-        "category": "Paracompletion",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Economic development is frequently measured through aggregate indicators like Gross Domestic Product, treating growth as an unqualified good. ____________. A nation can log spectacular GDP expansion while median living standards stagnate, environmental degradation accelerates, and social cohesion disintegrates beneath the weight of extreme inequality.",
-        "options": [
-          "GDP accurately captures the monetary value of all finished goods and services produced within a national boundary.",
-          "Yet, GDP is fundamentally a measure of throughput and monetary exchange, not human welfare or distributive justice.",
-          "Economists have long debated the theoretical limitations of monetary metrics in developing nations.",
-          "Sustainable development requires balancing industrial expansion with ecological preservation."
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Defends GDP, which contradicts the critical tone of the following sentence. (B) Serves as the precise logical hinge explaining why aggregate growth is an inadequate measure of well-being, directly setting up the stagnation and inequality examples that follow. (C) Generic statement. (D) Prescriptive statement rather than analytical bridge."
-      },
-      {
-        "id": 17,
-        "section": "VA",
-        "category": "Paracompletion",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "The foundational premise of classical deterrence theory is that rational actors will refrain from aggression if the anticipated costs decisively outweigh potential gains. ____________. In asymmetric conflicts involving ideological zealots, state-sponsored cyber proxies, or decentralized non-state actors, traditional levers of retaliation lose their calibrating force because these entities lack conventional territorial vulnerabilities.",
-        "options": [
-          "This rationalist calculus, however, breaks down spectacularly when applied to modern geopolitical realities.",
-          "Military strategists have spent decades refining game-theoretic models to predict enemy retaliation thresholds.",
-          "Nuclear stockpiles during the Cold War served as an effective guarantee of mutual assured destruction.",
-          "Deterrence doctrines must be continuously updated to account for emerging technological domains."
-        ],
-        "answer": 0,
-        "explanation": "Detailed Solution: (A) Introduces the necessary qualification ('breaks down... when applied to modern geopolitical realities') that explains why the following sentence about non-state actors and asymmetric conflict invalidates classical deterrence. (B) Irrelevant detail. (C) Historical example that supports rather than critiques deterrence. (D) Prescriptive filler."
-      },
-      {
-        "id": 18,
-        "section": "VA",
-        "category": "Paragraph Summary",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Which of the following best summarises the paragraph?\n\nIntellectual property regimes were originally conceived as temporary monopolies granted to inventors to incentivize innovation by securing financial returns. Over time, however, aggressive lobbying by corporate conglomerates has systematically expanded the scope, duration, and stringency of copyright and patent laws well beyond their original utilitarian rationale. Rather than stimulating creative output, these hypertrophied legal enclosures now serve primarily to erect insurmountable barriers to entry for upstart competitors, suppress follow-on research, and privatize the cultural commons for rent-seeking extraction.",
-        "options": [
-          "Patent laws should be abolished entirely because they discourage inventors from sharing discoveries openly with the public.",
-          "Corporate lobbying has transformed IP laws from innovation incentives into anti-competitive rent-seeking tools that harm the public commons.",
-          "Temporary monopolies are no longer necessary in the digital age because creators can monetize their work directly online.",
-          "Original intellectual property frameworks successfully balance private financial reward with broad public access."
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) The paragraph does not argue for total abolition. (B) Captures the entire arc: original intent (incentives), corporate capture (lobbying/expansion), and negative outcome (anti-competitive barriers, rent-seeking). (C) Irrelevant to digital monetization. (D) Contradicts the text's critique of hypertrophied legal enclosures."
-      },
-      {
-        "id": 19,
-        "section": "VA",
-        "category": "Odd Sentence Out",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "question": "Three of the following four sentences relate to a common theme. Choose the sentence that does not belong.",
-        "options": [
-          "Algorithmic decision-making systems routinely encode historical biases hidden deep within training datasets.",
-          "Proprietary machine learning models create a due process deficit by concealing their internal logic behind trade secrecy.",
-          "The migratory patterns of monarch butterflies are regulated by complex circadian clocks linked to celestial navigation.",
-          "Automated risk-assessment scores in criminal sentencing perpetuate self-fulfilling cycles of systemic incarceration."
+          "A) languages with compass directions are better suited than other languages to describing the layout of unfamiliar surroundings.",
+          "B) speakers of languages without compass directions are unable to find their way across a desert or other open country.",
+          "C) a correlation between a language feature and a skill may reflect a shared cultural cause, not an influence of language.",
+          "D) culture plays no part in the development of either a vocabulary of direction or a skill at navigating over long distances."
         ],
         "answer": 2,
-        "explanation": "Detailed Solution: (A) Algorithmic bias and governance. (B) Algorithmic opacity and legal deficits. (C) Biological navigation of butterflies—completely unrelated to algorithmic governance and digital statecraft. (D) Algorithmic bias in sentencing."
+        "explanation": "<strong>Explanation:</strong> The example shows that 'both reflect a culture' and 'neither need cause the other'. B, C and D reverse or overstate the point."
       },
       {
-        "id": 20,
-        "section": "VA",
-        "category": "Parajumbles",
-        "difficulty": "Hard",
-        "type": "tita",
-        "marks": 4,
-        "negative_marking": 0,
-        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n1. This opacity is compounded by proprietary enclosure, shielding source codes behind trade secrecy.\n2. Automated adjudication systems optimize for statistical accuracy rather than normative intelligibility.\n3. Consequently, aggrieved citizens face proprietary oracles whose internal reasoning cannot be interrogated.\n4. When an algorithm assigns a high-risk score, it discerns non-linear correlations without offering a causal rationale.\n5. Modern public administration is undergoing an epistemic crisis driven by algorithmic governance.",
-        "answer": "52413",
-        "explanation": "Detailed Solution: Sentence 5 introduces the overarching theme (epistemic crisis in public administration). Sentence 2 explains how automated systems operate (prioritizing accuracy over intelligibility). Sentence 4 gives a concrete instance (assigning risk scores without causal rationales). Sentence 1 ('This opacity') links back to the lack of intelligibility through proprietary enclosure. Sentence 3 ('Consequently') concludes with the citizen's plight. Order: 5-2-4-1-3."
-      },
-      {
-        "id": 21,
-        "section": "VA",
-        "category": "Parajumbles",
-        "difficulty": "Hard",
-        "type": "tita",
-        "marks": 4,
-        "negative_marking": 0,
-        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n1. Over the past four decades, however, this historic coupling has decisively fractured across advanced economies.\n2. As productivity expanded, competitive labor markets ensured workers shared proportionately in prosperity through rising wages.\n3. Standard economic orthodoxy posited a stable equilibrium between aggregate productivity and real worker compensation.\n4. This decoupling creates an inherent deficiency in domestic purchasing power.\n5. This structural divergence shifts the functional distribution of income away from labor toward capital.",
-        "answer": "32154",
-        "explanation": "Detailed Solution: Sentence 3 establishes the post-war orthodoxy. Sentence 2 elaborates on how wages coupled with productivity. Sentence 1 ('however') introduces the fracture (the decoupling). Sentence 5 explains the resulting income distribution shift. Sentence 4 traces the macroeconomic consequence (purchasing power deficiency). Order: 3-2-1-5-4."
-      },
-      {
-        "id": 22,
-        "section": "VA",
-        "category": "Parajumbles",
-        "difficulty": "Hard",
-        "type": "tita",
-        "marks": 4,
-        "negative_marking": 0,
-        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n1. Real estate developers and municipal authorities simultaneously stigmatize these areas while cannibalizing their cultural markers.\n2. Urban gentrification is frequently analyzed through the narrow prism of real estate economics.\n3. This dynamic sets in motion a cruel irony: original diversity is expropriated to attract affluent newcomers.\n4. Yet, such market-determinist frameworks obscure the deeper spatial politics of class-mediated displacement.\n5. Targeted neighborhoods are almost invariably characterized by historical marginalization and vibrant immigrant commerce.",
-        "answer": "24513",
-        "explanation": "Detailed Solution: Sentence 2 introduces the common economic framing of gentrification. Sentence 4 ('Yet') critiques this market-determinist view. Sentence 5 describes the actual target neighborhoods. Sentence 1 explains how authorities and developers exploit these neighborhoods. Sentence 3 ('This dynamic') concludes with the ironic outcome. Order: 2-4-5-1-3."
-      },
-      {
-        "id": 23,
-        "section": "VA",
-        "category": "Parajumbles",
-        "difficulty": "Hard",
-        "type": "tita",
-        "marks": 4,
-        "negative_marking": 0,
-        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n1. When review panels are populated by corporate consultants, commercial bias masquerades as scientific consensus.\n2. Modern academic science is increasingly tethered to commercial viability and venture capital funding.\n3. This financial entanglement ensures that negative clinical trials are quietly buried and replication studies starved of support.\n4. Have we crossed the threshold where institutional self-interest eclipses the pursuit of objective truth?\n5. Critics argue that this compromises the integrity of foundational knowledge production.",
-        "answer": "24531",
-        "explanation": "Detailed Solution: Sentence 2 states the premise of commercial tethering. Sentence 4 poses the resulting rhetorical question. Sentence 5 introduces the critics' argument regarding compromised integrity. Sentence 3 details the specific impacts (buried trials, starved replications). Sentence 1 summarizes the culmination (commercial bias as consensus). Order: 2-4-5-3-1."
-      },
-      {
-        "id": 24,
-        "section": "VA",
-        "category": "Parajumbles",
-        "difficulty": "Hard",
-        "type": "tita",
-        "marks": 4,
-        "negative_marking": 0,
-        "question": "The five sentences (labelled 1-5) given below, when arranged in the correct order, form a coherent paragraph. Enter the correct sequence of the numbers as your answer.\n1. This feedback loop creates insidious self-fulfilling prophecies in predictive policing and credit scoring.\n2. To treat such algorithmic outputs as objective reality is to mistake historical artifacts for natural laws.\n3. If an algorithm flags a neighborhood based on skewed arrest records, police presence increases and logs more arrests.\n4. Mitigating this epistemic crisis requires asserting that public power must remain intelligible and bound to human norms.\n5. Algorithms discern patterns across historical data that inherently reflect systemic human prejudices.",
-        "answer": "51324",
-        "explanation": "Detailed Solution: Sentence 5 states that algorithms reflect historical human prejudices. Sentence 1 introduces the resulting self-fulfilling feedback loop. Sentence 3 provides the concrete policing example. Sentence 2 warns against treating these artifacts as objective reality. Sentence 4 concludes with the necessary mitigation. Order: 5-1-3-2-4."
-      },
-      {
-        "id": 25,
-        "section": "VA",
-        "category": "Conversation Analysis",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "CA1",
-        "question": "On which of the following do Dr. Sen and Prof. Vance fundamentally disagree?",
+        "id": "q12",
+        "type": "RC",
+        "passage": "Do the words we speak shape the thoughts we can think? The hypothesis that they do, usually named after Edward Sapir and his student Benjamin Lee Whorf, has the peculiar history of an idea that has been repeatedly declared dead and has repeatedly returned. Whorf, a fire-prevention engineer by profession, noticed that workers treated \"empty\" gasoline drums with less care than full ones, though the empty drums, full of vapour, were more dangerous, and he inferred that the word had misled them. In its strong form, linguistic determinism, it holds that language limits thought: speakers of a language lacking a word for a concept cannot grasp it. In its weak form, linguistic relativity, it holds only that language influences habitual patterns of attention and memory. The strong form has been largely abandoned, for reasons that are easy to state; the weak form survives, and the interesting disputes concern its size.\n\nWhorf's own evidence was shakier than his reputation. His celebrated claim that the Hopi language has no words for time, and that its speakers therefore experience reality differently, was later contradicted by fieldwork showing that Hopi has ample means of referring to time. The often-repeated claim that the Inuit have an unusually large number of words for snow turns out to depend on how one counts: languages that build long words by adding suffixes can generate any number of snow terms, as English can with snowdrift or slush, and the claim has little to do with perception. These weaknesses, together with the rise in the 1960s of the idea that the structure of language is innate and shared, led most linguists to regard the hypothesis as discredited. Stripped of such claims, it looked like a slogan.\n\nThe study that seemed to deliver the final blow concerned colour. In 1969 Brent Berlin and Paul Kay compared colour terms across a number of languages and reported that the number of basic colour words varied from two to eleven, but that the order in which languages acquire them was constrained. A language with only two terms always distinguishes dark from light; if it has three, the third is red; the next are green or yellow, then blue, and so on. The pattern suggested that colour categories are anchored in the human visual system, and so that languages carve a common perceptual space in broadly similar ways. If speakers of different languages divide the spectrum in constrained ways, language could hardly be the shaper of colour perception.\n\nLater work showed that the story was incomplete. In an experiment published in 2007, researchers examined Russian, which has separate basic terms for lighter and darker blues, goluboy and siniy, where English has one. Russian speakers were faster to discriminate two shades of blue when they fell on opposite sides of the boundary between those terms than when they fell on the same side; English speakers showed no such advantage. Crucially, the effect disappeared when participants performed a verbal task, such as holding a string of digits in memory, while discriminating the colours, but not when they performed a spatial task of comparable difficulty. The pattern suggests that the boundary matters, but through the language system itself, which is engaged in the discrimination unless it is occupied elsewhere. The effect is real; it is also small, fast and fragile.\n\nEvidence of this kind has accumulated beyond colour. Speakers of Guugu Yimithirr, an Australian language that uses compass directions in place of left and right, are reported to keep track of their orientation with remarkable accuracy, even in unfamiliar surroundings, and to describe the layout of objects in cardinal terms that English speakers would find baffling. Studies of languages with grammatical gender have suggested that speakers' descriptions of objects may be coloured, however faintly, by the gender their language assigns to them. Studies of how speakers describe accidents, for example whether they name the agent of an accidental act, have also found differences in what witnesses later remember, though here again the effects are small. In such cases the claim is not that language makes some thoughts impossible but that it makes some thoughts habitual, because one cannot speak the language without attending to certain distinctions. As the linguist Roman Jakobson is usually paraphrased, languages differ essentially in what they must convey and not in what they may convey.\n\nThese findings should be handled with care, for the methodological problems are formidable. Correlations between language and cognition may arise because both reflect a culture, not because language shapes thought: a society that crosses open desert may develop both a vocabulary of compass directions and a skill at dead reckoning, and neither need cause the other. Experiments that compare two language groups also compare two populations that differ in education, habits and expectations, and a difference of a few hundredths of a second in a laboratory task may have many causes. Several celebrated results have proved difficult to replicate, and even those that survive tend to show effects that are modest and dependent on context. Small samples compound these difficulties. A sceptic may fairly say that the demonstrated influence of language on thought amounts to little.\n\nThe sceptic is right about the size of the effects and wrong about their significance. If language had no influence on thought, the hypothesis would be false; that it has some, even a modest one, shows that language is not a transparent window on a world of ready-made concepts but a practice that trains attention. What is at stake is therefore less whether language shapes thought than how, how much, and under what conditions. The question has become an empirical one, and its answers are likely to be a patchwork: strong in some domains and negligible in others, depending on how much a task draws on the language system. The practical lesson for readers of such studies is to ask of each result what, exactly, was varied, and whether the same effect would survive a change of task, population or time.",
+        "question": "The author's stance towards the sceptic in the last paragraph is best described as",
         "options": [
-          "Whether scientific research has historically relied on external patronage systems",
-          "Whether private venture capital accelerates the translation of molecular insights into medical therapeutics",
-          "Whether institutional self-interest and corporate funding compromise the objectivity and integrity of scientific inquiry",
-          "Whether peer review and regulatory bodies like the FDA exist as formal administrative structures"
+          "A) complete agreement: the effects are too small to matter, and the hypothesis should therefore be set aside altogether.",
+          "B) complete disagreement: the effects are large, and have been established beyond reasonable doubt by many replications.",
+          "C) indifference: whether the effects exist is of little interest to a student of language, who has more important matters.",
+          "D) partial agreement: the effects are small, but their existence shows that language is more than a transparent medium."
         ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) Vance notes historical patronage, and Sen does not dispute historical reliance. (B) Sen concedes translation is vital and does not contest that private funding accelerates it. (C) Vance views commercialization as an accelerator with minor anomalies, whereas Sen argues it fundamentally compromises objective truth through systemic bias and buried trials. (D) Both acknowledge peer review and the FDA exist; they dispute their efficacy under commercial capture."
+        "answer": 3,
+        "explanation": "<strong>Explanation:</strong> 'Right about the size... wrong about their significance' is partial agreement. B and C go to the extremes; D contradicts the claim that the question is now an empirical one worth pursuing."
       },
       {
-        "id": 26,
-        "section": "VA",
-        "category": "Conversation Analysis",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "CA1",
-        "question": "Prof. Vance's characterization of Dr. Sen's argument as promoting 'institutional paralysis' implies that he believes:",
+        "id": "q13",
+        "type": "RC",
+        "passage": "Interviewer: Why does a car lose so much value the moment it leaves the showroom, even if it has barely been driven?\n\nEconomist: Part of it is ordinary depreciation, but most of the drop is information. The seller knows whether the car is a good one; the buyer does not. A buyer who knows that some of the cars on offer are problem cars, which their owners are keen to dump, will pay a price that reflects average quality, not the best. Owners of good cars, offered that average price, decline to sell, so the cars that remain are worse than average, and the price falls further. In the extreme the market unravels. That is Akerlof's lemons problem.\n\nInterviewer: But used-car markets exist, and they function.\n\nEconomist: They do, because institutions have grown up to repair the information gap: warranties, certified pre-owned schemes, inspection reports, even the reputation of dealers who want repeat business. Notice that each of these works by making it costly for a seller of a bad car to imitate a seller of a good one. A warranty is worthless to someone who knows his car will break down, so offering one is a credible signal.",
+        "question": "According to the economist, the fall in a new car's value after it leaves the showroom is mainly explained by",
         "options": [
-          "academic researchers are universally incompetent at managing commercial patent portfolios",
-          "any attempt to decouple foundational research from private capital will result in stagnation and a failure to apply discoveries",
-          "state-funded laboratories are inherently more corrupt than corporate R&D subsidiaries",
-          "peer review is entirely infallible when shielded from government oversight"
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Vance does not comment on incompetence. (B) Vance explicitly states that without private capital, state-funded science stagnates in ivory towers, paralyzed by bureaucratic inertia, meaning attempts to separate science from markets halt practical progress. (C) He argues state science stagnates, not that it's more corrupt. (D) He does not claim peer review is infallible."
-      },
-      {
-        "id": 27,
-        "section": "VA",
-        "category": "Conversation Analysis",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "CA1",
-        "question": "Which of the following best captures Dr. Sen's counter-argument regarding institutional safeguards like peer review and regulatory audits?",
-        "options": [
-          "They are entirely nonexistent in modern biotechnology firms.",
-          "They are redundant because corporate self-regulation is always superior to state oversight.",
-          "They become compromised when the auditors and review boards are financially captured by the commercial interests they evaluate.",
-          "They focus too heavily on basic physics while ignoring applied biochemistry."
-        ],
-        "answer": 2,
-        "explanation": "Detailed Solution: (A) She says they exist but are co-opted. (B) She rejects corporate self-regulation. (C) Sen argues that when review panels are populated by corporate consultants and agencies captured by user-fees, the audit loop closes upon itself, transforming commercial bias into consensus. (D) Physics is not mentioned."
-      },
-      {
-        "id": 28,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC1",
-        "question": "According to the passage, why does algorithmic adjudication create what legal scholars term a 'due process deficit'?",
-        "options": [
-          "Because algorithms operate much faster than human judges, denying defendants the right to legal counsel.",
-          "Because proprietary models shield their source code and weight parameters behind trade secrecy, preventing meaningful interrogation or defense.",
-          "Because federal courts have explicitly ruled that computers possess sovereign immunity from civil litigation.",
-          "Because statistical models rely exclusively on randomized trial data rather than historical case law."
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Speed is not cited as the cause of the due process deficit. (B) The passage explicitly states that proprietary enclosure shields source codes and weight parameters behind trade secrecy, making the internal reasoning impossible to subpoena, interrogate, or falsify. (C) Sovereign immunity is not mentioned. (D) Factually incorrect based on the text."
-      },
-      {
-        "id": 29,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC1",
-        "question": "The author refers to proprietary algorithms as a 'proprietary oracle' primarily to emphasize that:",
-        "options": [
-          "they are ancient spiritual relics repurposed by modern technology conglomerates for divination",
-          "they demand blind faith and deliver inscrutable decrees that cannot be challenged through rational discourse",
-          "they predict future stock market fluctuations with absolute infallibility",
-          "they are freely accessible open-source public utilities funded by taxpayer endowments"
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Metaphorical, not ancient relics. (B) An oracle delivers unchallengeable pronouncements from an opaque source; calling algorithms 'proprietary oracles' emphasizes that citizens face an authority whose internal reasoning is completely closed to interrogation and contestation. (C) Stock markets are not the focus. (D) Contradicts 'proprietary' enclosure."
-      },
-      {
-        "id": 30,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC1",
-        "question": "Which of the following, if true, would most strengthen the author's critique of predictive policing algorithms?",
-        "options": [
-          "Police departments that discontinued algorithmic hotspot mapping experienced a permanent cessation of all urban crime.",
-          "Independent audits revealed that algorithmic deployment systematically over-policed minority neighborhoods regardless of actual drug usage rates, generating skewed feedback loops.",
-          "Software engineers successfully increased the processing speed of neural network weight parameters by fifty percent.",
-          "Citizens expressed overwhelming emotional satisfaction with automated chatbot permit renewals."
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Overstates with 'permanent cessation'. (B) Directly supports the author's argument regarding self-fulfilling feedback loops, skewed historical arrest records, and systemic prejudice validated by mathematical models. (C) Processing speed is irrelevant to equity. (D) Permit renewals do not address predictive policing."
-      },
-      {
-        "id": 31,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC1",
-        "question": "What is the author's stance on 'explainable AI' toolkits designed to make black-box models transparent?",
-        "options": [
-          "The author views them as the ultimate legislative solution to administrative opacity.",
-          "The author considers them superficial fixes that graft post-hoc rationalizations onto uninterpretable architectures.",
-          "The author argues they should be mandated immediately for all private corporate contracts.",
-          "The author believes they completely eliminate human cognitive bias in public administration."
-        ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Contradicts the text. (B) The passage explicitly states that mitigating the crisis requires more than superficial 'explainable AI' toolkits that graft post-hoc rationalizations onto uninterpretable architectures. (C) Not recommended as the ultimate fix. (D) Overstates their capability."
-      },
-      {
-        "id": 32,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC1",
-        "question": "According to the passage, why do proponents of algorithmic governance advocate for automated decision-making?",
-        "options": [
-          "Because human decision-makers are prone to cognitive biases and fatigue, whereas statistical models offer scalable consistency.",
-          "Because machine learning models are legally required by international human rights treaties.",
-          "Because computers completely eliminate economic inequality within capitalist states.",
-          "Because private contractors offer their software services entirely free of charge to cash-strapped municipalities."
+          "A) buyers' inability to tell good cars from bad, which lowers the price they will pay for any used car.",
+          "B) ordinary depreciation, which is greatest during the first weeks of a car's life, whatever its condition may be.",
+          "C) owners of good cars who deliberately withdraw them from the market in order to push up the prices of used cars.",
+          "D) dealers who offer warranties on bad cars and so persuade buyers to pay more than the cars are really worth."
         ],
         "answer": 0,
-        "explanation": "Detailed Solution: (A) Explicitly stated in paragraph 1: human decision-makers are notoriously prone to cognitive biases, fatigue, and systemic prejudice, whereas statistical models offer scalable consistency. (B), (C), and (D) Have no basis in the text."
+        "explanation": "<strong>Explanation:</strong> He says 'most of the drop is information': buyers cannot distinguish good from bad, so they pay for average quality. B contradicts 'most of the drop'; C reverses the cause (good owners withdraw because the price is low); D reverses the role of warranties."
       },
       {
-        "id": 33,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC1",
-        "question": "Which of the following best captures the ultimate conclusion of the first passage?",
+        "id": "q14",
+        "type": "RC",
+        "passage": "Interviewer: Why does a car lose so much value the moment it leaves the showroom, even if it has barely been driven?\n\nEconomist: Part of it is ordinary depreciation, but most of the drop is information. The seller knows whether the car is a good one; the buyer does not. A buyer who knows that some of the cars on offer are problem cars, which their owners are keen to dump, will pay a price that reflects average quality, not the best. Owners of good cars, offered that average price, decline to sell, so the cars that remain are worse than average, and the price falls further. In the extreme the market unravels. That is Akerlof's lemons problem.\n\nInterviewer: But used-car markets exist, and they function.\n\nEconomist: They do, because institutions have grown up to repair the information gap: warranties, certified pre-owned schemes, inspection reports, even the reputation of dealers who want repeat business. Notice that each of these works by making it costly for a seller of a bad car to imitate a seller of a good one. A warranty is worthless to someone who knows his car will break down, so offering one is a credible signal.",
+        "question": "The economist's remark about warranties implies that a signal is credible only if",
         "options": [
-          "Society must fully automate all judicial and legislative functions to achieve absolute mathematical perfection.",
-          "Public power must remain intelligible and bound to human norms of justification, even if it entails sacrificing statistical efficiency.",
-          "All software engineering intellectual property laws must be permanently repealed worldwide.",
-          "Citizens should surrender their constitutional right to due process in exchange for faster bureaucratic service."
+          "A) it is offered by dealers who have a long reputation for honesty in the used-car trade.",
+          "B) it would be too costly for a seller of a bad car to send it.",
+          "C) buyers are unable to tell good cars from bad cars before they have bought them.",
+          "D) it is required by law to be offered by every seller of a used car in the market."
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: (A) Contradicts the author's thesis. (B) Perfectly reflects the final sentence: public power must remain intelligible, contestable, and bound to human norms of justification, even if it means sacrificing a fraction of statistical efficiency. (C) Too extreme/broad. (D) Contradicts the text."
+        "explanation": "<strong>Explanation:</strong> A warranty is 'worthless to someone who knows his car will break down', so a bad-car seller will not offer one; that is why it is credible. B, C and D do not follow from the remark."
       },
       {
-        "id": 34,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "signal": "RC2",
-        "question": "According to the passage, what economic consequence stems from the sustained suppression of labor's share of income?",
+        "id": "q15",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Recent studies found that seawater reacts with the ash over centuries to grow crystals that seal cracks and strengthen the material.\n2. Harbours built with it two thousand years ago still stand, while modern concrete in similar settings often decays within decades.\n3. Roman engineers mixed volcanic ash with lime and seawater to make a concrete that hardened underwater.\n4. The Romans, in other words, had made a concrete that improved with exposure to the very conditions that destroy ours.",
+        "answer": "3214",
+        "explanation": "<strong>Explanation:</strong> 3 introduces the Roman mixture. 2 ('it') gives the evidence of durability. 1 ('Recent studies') explains why, and 4 ('in other words') restates the lesson. Order: 3-2-1-4."
+      },
+      {
+        "id": "q16",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. This is the winner's curse: victory itself is evidence that one's estimate was too high.\n2. Rational bidders therefore shade their bids below their own estimates, and the more bidders there are, the more they must shade.\n3. In an auction where bidders are unsure of an item's true value, the winner is usually the one who has most overestimated it.\n4. Those who ignore the effect tend to win often and profit rarely.",
+        "answer": "3124",
+        "explanation": "<strong>Explanation:</strong> 3 gives the setting. 1 ('This is the winner's curse') names the effect. 2 ('therefore') gives the rational response, and 4 describes those who ignore it. Order: 3-1-2-4."
+      },
+      {
+        "id": "q17",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Many other moons in the solar system have been locked in the same way to their planets.\n2. The Earth itself is not exempt: the Moon is slowly slowing its rotation, lengthening the day by a fraction of a millisecond each century.\n3. This is not a coincidence but the result of tidal forces, which slowed the Moon's rotation until it matched the time it takes to orbit the Earth.\n4. The Moon always shows the same face to the Earth.",
+        "answer": "4312",
+        "explanation": "<strong>Explanation:</strong> 4 states the fact. 3 ('This is not a coincidence') explains it. 1 ('in the same way') generalises to other moons, and 2 ('itself is not exempt') turns to the Earth. Order: 4-3-1-2."
+      },
+      {
+        "id": "q18",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. By that stage, most of the money has already been spent or withdrawn, and late investors recover little.\n2. So long as new money keeps arriving, the returns look real and word of them spreads.\n3. The scheme collapses when recruitment slows, because the promised payments then exceed the incoming funds.\n4. A Ponzi scheme pays early investors with money from later ones rather than from genuine profits.",
+        "answer": "4231",
+        "explanation": "<strong>Explanation:</strong> 4 defines the scheme. 2 ('So long as') describes its working phase. 3 describes the collapse, and 1 ('By that stage') describes its aftermath. Order: 4-2-3-1."
+      },
+      {
+        "id": "q19",
+        "type": "ParaSummary",
+        "question": "Select the option that best summarizes the paragraph:\n\n'The Condorcet jury theorem shows that if each member of a jury is more likely than not to judge correctly, the probability that the majority is right rises towards certainty as the jury grows. The theorem's force depends on an assumption that is easily violated: that the members' judgements are independent. If jurors are swayed by a common source of error, such as a persuasive but misleading expert, additional members add little; and if each is more likely wrong than right, the theorem works in reverse, making large majorities reliably mistaken.'",
         "options": [
-          "An immediate surplus in national tax revenues that eliminates all sovereign debt.",
-          "An inherent deficiency in domestic purchasing power, historically papered over by expanding household debt.",
-          "A permanent collapse in global stock market capitalization driven by excess corporate philanthropy.",
-          "A rapid acceleration in real wages across all occupational sectors."
+          "A) Large juries are always more accurate than small ones, since majorities become more certain as the number of jurors increases beyond a dozen.",
+          "B) The Condorcet theorem is false, because jurors are usually influenced by experts and so cannot be said to judge independently of one another.",
+          "C) Group majorities grow more reliable with size only if members beat chance and judge independently; otherwise they can be reliably wrong.",
+          "D) Jurors who are individually more likely to be wrong than right should be excluded from juries, since they make every majority unreliable."
         ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) False. (B) Stated in paragraph 2: suppression of labor's share creates an inherent deficiency in domestic purchasing power, historically papered over by household debt (mortgages, credit cards) leading to 2008. (C) False. (D) Contradicts wage stagnation."
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> The paragraph states the theorem and its two conditions (better than chance; independence) and the reversal when either fails. B drops the conditions; C says the theorem is false rather than conditional; D invents a recommendation."
       },
       {
-        "id": 35,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC2",
-        "question": "How do institutional economists explain the productivity-pay decoupling, in contrast to the technological school?",
+        "id": "q20",
+        "type": "ParaSummary",
+        "question": "Select the option that best summarizes the paragraph:\n\n'Comparative advantage explains why trade can benefit a country that is worse than its partners at producing everything. What matters is not absolute productivity but opportunity cost: a country should specialise in what it gives up least to produce. The argument assumes, however, that resources can be moved without cost from declining industries to expanding ones. When workers cannot easily retrain or relocate, the gains are real but their distribution is lopsided, and those who lose may lose permanently.'",
         "options": [
-          "They attribute it to the systematic erosion of worker bargaining power, declining union density, and corporate monopsony.",
-          "They argue it is caused exclusively by excessive government expenditure on public education.",
-          "They claim it is a statistical illusion generated by faulty inflation adjustments in GDP calculations.",
-          "They maintain it is driven entirely by international trade agreements with developing nations."
+          "A) Trade gains rest on comparative advantage, but because adjustment is costly they may bring lasting losses to particular groups.",
+          "B) Countries that are worse at producing everything should not trade at all, since they cannot gain from specialising in any single industry.",
+          "C) Comparative advantage depends on absolute productivity, and so the more productive countries gain from trade at the expense of weaker ones.",
+          "D) Workers who lose their jobs to trade always find work in expanding industries, so that no group suffers any lasting harm as a result."
         ],
         "answer": 0,
-        "explanation": "Detailed Solution: (A) Paragraph 2 contrasts the technological school (skill-biased technical change) with the institutional school, which emphasizes union decline, workplace fissuring, and corporate labor monopsony. (B), (C), and (D) Are not supported by the passage."
+        "explanation": "<strong>Explanation:</strong> The paragraph gives the principle and then the hidden assumption of costless adjustment, with uneven and possibly permanent losses. B and C contradict the first sentences; D contradicts the last."
       },
       {
-        "id": 36,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC2",
-        "question": "What is the author's critique of conventional policy remedies that focus solely on human capital accumulation (e.g., expanding higher education)?",
+        "id": "q21",
+        "type": "ParaSummary",
+        "question": "Select the option that best summarizes the paragraph:\n\n'Memorials and monuments are usually understood as acts of remembrance, but they are equally acts of forgetting. To erect a statue to one figure is to select, from a crowded past, what a community will stop to look at; the choice implies a ranking, and the ranking silences. A monument that seems to speak for the whole community often speaks for those who commissioned it. This is why disputes over statues are rarely about the person depicted: they are about who is entitled to decide what is remembered.'",
         "options": [
-          "They are too expensive for municipal governments to administer.",
-          "They wrongly presume wage stagnation stems from an educational deficit rather than structural power asymmetries.",
-          "They cause immediate hyperinflation in university tuition fees worldwide.",
-          "They have successfully eliminated income inequality in all advanced industrial nations."
+          "A) Statues should be removed from public spaces, because they inevitably misrepresent the persons whom they were erected to depict.",
+          "B) Monuments select as well as remember, so disputes over them concern who has the authority to decide what a community remembers.",
+          "C) Communities erect monuments in order to forget the past, and the people depicted in them are therefore of no importance to anyone.",
+          "D) Disputes over statues are about the personal character of the figures depicted, and not about the choices made by the community."
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: (A), (C), and (D) Are not the author's primary critique. (B) The passage explicitly states that training more workers does not generate higher-paying jobs if the underlying industrial structure rewards capital extraction over productive enterprise, presuming an educational deficit where a power asymmetry exists."
+        "explanation": "<strong>Explanation:</strong> The paragraph argues that monuments select and silence, and that disputes are about who decides. B and C overstate; D says the opposite of the last sentence."
       },
       {
-        "id": 37,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC2",
-        "question": "According to the passage, how did working-class families historically maintain their consumption standards despite wage stagnation?",
+        "id": "q22",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\n'Scientists often speak of a theory's predictive power, yet prediction alone is a poor test of understanding. ________ Ptolemaic astronomy predicted the positions of the planets with considerable accuracy for over a thousand years, and its epicycles could be adjusted to fit almost any observation. What it could not do was explain why the planets moved as they did, and it was this deficiency, rather than any failure of prediction, that eventually told against it.'",
         "options": [
-          "Through substantial government cash transfers funded by wealth taxes.",
-          "Through the aggressive expansion of household debt, including mortgages and credit cards.",
-          "By engaging in subsistence farming on urban community plots.",
-          "Through mandatory corporate profit-sharing agreements enacted in the 1980s."
+          "A) Accurate predictions are therefore worthless, and scientists should abandon the practice of testing theories against evidence.",
+          "B) Ptolemy's model was abandoned because it failed to predict the positions of the planets after the Middle Ages.",
+          "C) Theories that explain a phenomenon are always less accurate than theories that merely predict it, whatever the field.",
+          "D) A model can reproduce the data without capturing the mechanism that generates it."
         ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A), (C), and (D) Are incorrect. (B) Explicitly stated in paragraph 2: this demand deficit was papered over by the aggressive expansion of household debt (mortgages, credit cards, subprime lending)."
+        "answer": 3,
+        "explanation": "<strong>Explanation:</strong> The example shows prediction without explanation. B overgeneralises; C contradicts 'rather than any failure of prediction'; D overstates ('always')."
       },
       {
-        "id": 38,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC2",
-        "question": "Which of the following interventions does the author recommend to address the productivity-pay decoupling?",
+        "id": "q23",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\n'Newspapers have long relied on advertising, not subscriptions, for most of their revenue. ________ A paper's readers are, in effect, its product, sold to advertisers; its customers are the firms that pay. When advertising moved online to platforms that could target individuals more precisely, the economic foundation of local journalism weakened even though the number of readers had not fallen.'",
         "options": [
-          "Abolishing all corporate entities and returning to a decentralized agrarian barter economy.",
-          "Restoring countervailing labor power, checking corporate monopsony through antitrust enforcement, and reforming corporate governance.",
-          "Eliminating all minimum wage laws to encourage hyper-competitive entrepreneurialism.",
-          "Imposing strict tariffs on software imports while subsidizing heavy manufacturing."
+          "A) Readers therefore have no influence over what a newspaper publishes, since they pay nothing at all for the paper.",
+          "B) Subscriptions have always been more profitable than advertising, and papers that rely on advertising are poorly run.",
+          "C) The arrangement means that the people who read a paper are not the people who pay for it.",
+          "D) Online platforms are better at journalism than newspapers because they can target readers more precisely than papers."
         ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A), (C), and (D) Extraneous or contradictory. (B) Directly drawn from the final sentence of passage 2: structural interventions restoring countervailing power to labor, reconfiguring antitrust enforcement to check corporate monopsony, and rethinking corporate governance."
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> The next sentence says readers are the product and advertisers the customers. B overstates; C and D introduce claims that the paragraph does not make."
       },
       {
-        "id": 39,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC2",
-        "question": "What broader normative implication does the author draw from the productivity-pay decoupling?",
+        "id": "q24",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\n'Every language has words for the people to whom one is related, and anthropologists once assumed that these reflect biological facts. ________ In many societies a mother's sister is called mother, and her children brother and sister, while a father's sister's children are classed as potential marriage partners. The terms follow rules of social obligation, not degrees of genetic closeness.'",
         "options": [
-          "It proves that economic growth is entirely irrelevant to human happiness.",
-          "It challenges the normative legitimacy of market capitalism when growth fails to benefit the majority.",
-          "It demonstrates that communist planned economies are inherently superior in technological innovation.",
-          "It suggests that future economic output should be measured exclusively in carbon credits."
+          "A) Societies that call a mother's sister mother are ignorant of the biological facts of parenthood and descent.",
+          "B) Kinship terms, however, divide relatives according to social categories that need not match biology.",
+          "C) Genetic closeness has been shown to be the sole basis of the terms used for relatives in every society.",
+          "D) Anthropologists have since discovered that no society has words for relatives of any kind or description."
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: (A), (C), and (D) Distortions. (B) Supported by paragraph 2: if growth ceases to translate into broad-based material advancement, the social contract underpinning democratic market economies dissolves into cynicism and polarization."
+        "explanation": "<strong>Explanation:</strong> 'However' signals a correction to the assumption, to be illustrated by the examples that follow. B, C and D contradict or distort the paragraph."
       },
       {
-        "id": 40,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC3",
-        "question": "According to the passage, what is the 'cruel irony' inherent in the gentrification process?",
+        "id": "q25",
+        "type": "Vocabulary",
+        "question": "Choose the option that best completes the sentence:\n\nThe senator's ________ refusal to compromise, long after the votes had turned against him, was admired by his supporters as principle and condemned by his opponents as vanity.",
         "options": [
-          "That affluent newcomers eventually abandon the city for suburban enclaves due to high crime rates.",
-          "That the social diversity and cultural vitality generated by marginalized populations are expropriated as capital assets to attract the affluent, whose presence subsequently displaces them.",
-          "That real estate developers lose money on luxury condominiums because construction costs exceed market values.",
-          "That municipal governments collect less tax revenue from gentrified districts than from blighted slums."
+          "A) quixotic",
+          "B) pragmatic",
+          "C) tentative",
+          "D) capricious"
         ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A), (C), and (D) False. (B) Paragraph 1 of RC3 explains that social diversity and cultural vitality are cannibalized/expropriated as capital assets to attract affluent newcomers, whose presence drives up land values and displaces the original inhabitants."
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> 'Quixotic' means idealistic to the point of impracticality. 'Pragmatic' and 'tentative' contradict a refusal to compromise; 'capricious' (unpredictable) does not fit a consistent refusal."
       },
       {
-        "id": 41,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC3",
-        "question": "How does the municipal state typically participate in urban gentrification, according to the passage?",
+        "id": "q26",
+        "type": "Vocabulary",
+        "question": "Choose the option that best completes the sentence:\n\nHer critics found her prose ________: it dazzled with ornament but, on inspection, said very little.",
         "options": [
-          "By acting as a strictly neutral arbiter enforcing rent control ceilings uniformly across all districts.",
-          "By actively subsidizing upscale redevelopment through tax abatements, zoning variances, and public-private partnerships while starving social infrastructure.",
-          "By prohibiting private real estate developers from purchasing historic tenement housing.",
-          "By nationalizing all commercial retail spaces and converting them into cooperative agricultural markets."
+          "A) laconic",
+          "B) austere",
+          "C) lucid",
+          "D) florid"
         ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A), (C), and (D) Contradict the text. (B) Paragraph 2 of RC3 states the municipal state rarely acts as a neutral arbiter; it actively subsidizes upscale redevelopment through tax abatements, zoning variances, and public-private partnerships while starving social infrastructure."
+        "answer": 3,
+        "explanation": "<strong>Explanation:</strong> 'Florid' means elaborately ornate. 'Laconic' and 'austere' describe plain, spare prose; 'lucid' means clear."
       },
       {
-        "id": 42,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC3",
-        "question": "What does the author mean by the 'commodification of urban authenticity'?",
+        "id": "q27",
+        "type": "Vocabulary",
+        "question": "Choose the option that best completes the sentence:\n\nThe explanation was dismissed as post hoc, since ________.",
         "options": [
-          "The strict preservation of historical monuments funded exclusively by federal heritage grants.",
-          "The packaging and selling of the gritty cultural markers, street art, and vernacular commerce of marginalized groups to brand bohemian urbanity.",
-          "The elimination of all commercial retail stores in favor of free public parks.",
-          "The legal requirement that all new buildings must mimic medieval architectural styles."
+          "A) it had been proposed by an eminent scholar several years before the event whose causes it was said to explain",
+          "B) it had been tested in a series of independent trials, each of which yielded a result consistent with its claims",
+          "C) it had been put together after the event to fit what had already happened, and predicted nothing new",
+          "D) it relied on evidence collected by the author's own research team over a period of more than twenty years"
         ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A), (C), and (D) Incorrect. (B) Paragraph 1 of RC3 describes how developers and authorities cannibalize cultural markers (street art, independent music, ethnic eateries) to manufacture a marketable brand of bohemian urbanity."
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> A post hoc explanation is built after the fact to fit known outcomes. Only the first option says that. The others describe prior proposal, independent testing and long collection of evidence."
       },
       {
-        "id": 43,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC3",
-        "question": "How does gentrification affect the collective memory and built environment of a neighborhood?",
+        "id": "q28",
+        "type": "Vocabulary",
+        "question": "Choose the option that best fills the blanks:\n\nThe theory's ________ appeal masked its ________ foundations, and critics who looked beyond the ________ found little to support it.",
         "options": [
-          "It preserves working-class history in pristine digital archives for public education.",
-          "It physically obliterates historic tenements and working-class social spaces, scrubbing the built environment clean of working-class struggle.",
-          "It restores medieval cathedrals to their original architectural specifications.",
-          "It has zero impact on physical architecture, altering only the demographic composition of residents."
+          "A) profound; flimsy; veneer",
+          "B) superficial; robust; veneer",
+          "C) superficial; flimsy; substance",
+          "D) superficial; flimsy; veneer"
         ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A), (C), and (D) Incorrect. (B) Paragraph 3 of RC3 states that gentrification enacts a profound erasure of civic memory; historic tenements and social clubs are demolished or retrofitted, scrubbing the built environment clean of working-class struggle."
+        "answer": 3,
+        "explanation": "<strong>Explanation:</strong> An appeal that 'masked' weak foundations is superficial; the foundations are flimsy, and the critics looked beyond the veneer (thin surface). 'Profound' and 'robust' do not fit 'masked'; 'looked beyond the substance' is illogical."
       },
       {
-        "id": 44,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC3",
-        "question": "What broader political demand does the author associate with resistance to gentrification?",
+        "id": "q29",
+        "type": "Vocabulary",
+        "question": "Choose the option that best fills the blanks:\n\nHe was famous for his ________ wit, which could ________ an opponent in a single sentence, yet in private he was ________ and kind.",
         "options": [
-          "The 'right to the city'—reclaiming collective control over the production of space to prioritize human need over exchange value.",
-          "The total abolition of municipal taxation and the establishment of sovereign tax havens.",
-          "The mandatory relocation of all urban residents to rural agricultural communes.",
-          "The privatization of all public transit networks and municipal water systems."
+          "A) caustic; devastate; gentle",
+          "B) genial; devastate; gentle",
+          "C) caustic; flatter; gentle",
+          "D) caustic; devastate; vindictive"
         ],
-        "answer": 1,
-        "explanation": "Detailed Solution: (A) Explicitly stated in the final paragraph of RC3: resistance evolves into the 'right to the city'—reclaiming collective control over space production, shifting the city from capital accumulation to human need. (B), (C), and (D) Contradict the text."
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> Biting ('caustic') wit that could 'devastate' an opponent contrasts with a gentle private manner ('yet'). 'Genial' wit would not devastate; 'flatter' does not fit 'caustic'; 'vindictive' contradicts 'kind'."
       },
       {
-        "id": 45,
-        "section": "VA",
-        "category": "Reading Comprehension",
-        "difficulty": "Hard",
-        "type": "mcq",
-        "marks": 4,
-        "negative_marking": 1,
-        "passage": "RC3",
-        "question": "What is the author's primary critique of market-determinist frameworks that analyze gentrification?",
+        "id": "q30",
+        "type": "Vocabulary",
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
         "options": [
-          "They focus too heavily on Marxist political economy rather than neoclassical supply-demand curves.",
-          "They obscure the deeper spatial politics, class-mediated displacement, and ideological mechanics of urban reorganization.",
-          "They rely on excessive government intervention in private real estate markets.",
-          "They claim that gentrification never actually occurs in modern industrial cities."
+          "A) The treasurer's conduct was creditable, and the board commended her for it at the meeting.",
+          "B) Despite years of losses, the board remained sanguinary about the firm's prospects.",
+          "C) The faction's leader, a fractious man, split the party within a year of taking charge.",
+          "D) The account of the siege was graphic and sanguinary, and few readers could finish it."
         ],
         "answer": 1,
-        "explanation": "Detailed Solution: (A), (C), and (D) Incorrect. (B) Paragraph 1 of RC3 states that market-determinist frameworks obscure the deeper spatial politics and ideological mechanics through which urban space is systematically reorganized."
+        "explanation": "<strong>Explanation:</strong> 'Sanguine' means optimistic; 'sanguinary' means bloody, as correctly used in D. 'Creditable' (deserving praise) and 'fractious' (quarrelsome) are used correctly."
+      },
+      {
+        "id": "q31",
+        "type": "Vocabulary",
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "A) The jury was asked to appraise the damage and to award appropriate compensation.",
+          "B) She was oblivious to the stares of the crowd as she walked slowly on.",
+          "C) The lawyer will apprise the value of the estate before it is offered for sale.",
+          "D) The two events were separated by a decade, and the link between them is tenuous."
+        ],
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> To 'appraise' is to assess value; to 'apprise' is to inform. 'Appraise' in B, 'oblivious' (unaware) and 'tenuous' (slight) are used correctly."
+      },
+      {
+        "id": "q32",
+        "type": "Vocabulary",
+        "question": "Select the word MOST NEARLY SIMILAR in meaning to 'PUSILLANIMOUS':",
+        "options": [
+          "A) Craven",
+          "B) Intrepid",
+          "C) Candid",
+          "D) Pompous"
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> Pusillanimous means timid and lacking courage; 'craven' is closest. 'Intrepid' is the opposite."
+      },
+      {
+        "id": "q33",
+        "type": "Vocabulary",
+        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'PERFIDIOUS':",
+        "options": [
+          "A) Treacherous",
+          "B) Loyal",
+          "C) Devious",
+          "D) Insidious"
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> Perfidious means deceitful and disloyal; 'loyal' is the antonym. The others are near-synonyms."
+      },
+      {
+        "id": "q34",
+        "type": "Vocabulary",
+        "question": "Select the word MOST NEARLY SIMILAR in meaning to 'RECONDITE':",
+        "options": [
+          "A) Obvious",
+          "B) Frivolous",
+          "C) Notorious",
+          "D) Abstruse"
+        ],
+        "answer": 3,
+        "explanation": "<strong>Explanation:</strong> Recondite means little known and hard to understand; 'abstruse' is closest. 'Obvious' is the opposite."
+      },
+      {
+        "id": "q35",
+        "type": "Vocabulary",
+        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'SALUBRIOUS':",
+        "options": [
+          "A) Health-giving",
+          "B) Wholesome",
+          "C) Noxious",
+          "D) Invigorating"
+        ],
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> Salubrious means health-giving; 'noxious' (harmful) is the antonym. The others are near-synonyms."
+      },
+      {
+        "id": "q36",
+        "type": "Vocabulary",
+        "question": "Choose the correct meaning of the idiom:\n'To rest on one's laurels' means to:",
+        "options": [
+          "A) receive public honours in recognition of a lifetime of faithful service to an institution",
+          "B) be content with past achievements instead of seeking new ones",
+          "C) take a long holiday after the completion of a project that has been difficult and tiring",
+          "D) claim credit for the achievements of colleagues in order to advance one's own career in the firm"
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> To rest on one's laurels is to rely on past success and make no further effort."
+      },
+      {
+        "id": "q37",
+        "type": "Vocabulary",
+        "question": "Select the sentence in which 'CENSURE' is used correctly:",
+        "options": [
+          "A) The board voted to censure the director for concealing the losses.",
+          "B) The film was subject to censure, and three scenes were cut before it was released to the public.",
+          "C) The ministry will censure the magazine's contents before they are permitted to be published in the capital.",
+          "D) She was careful to censure her emails for any hint of the dispute before sending them on to the committee."
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> To 'censure' is to criticise formally. The sense of cutting or suppressing material in B, C and D belongs to 'censor'."
+      },
+      {
+        "id": "q38",
+        "type": "Grammar",
+        "question": "Choose the best replacement for the underlined portion:\n\nNot until the results were published <u>the researchers realised</u> that the sample had been biased.",
+        "options": [
+          "A) had the researchers realised",
+          "B) the researchers had realised",
+          "C) were the researchers realising",
+          "D) did the researchers realise"
+        ],
+        "answer": 3,
+        "explanation": "<strong>Explanation:</strong> A fronted negative expression ('Not until...') requires subject-auxiliary inversion in the main clause: 'did the researchers realise'."
+      },
+      {
+        "id": "q39",
+        "type": "Grammar",
+        "question": "Choose the best replacement for the underlined portion:\n\nHad she known about the delay, she <u>would leave</u> earlier.",
+        "options": [
+          "A) would be leaving",
+          "B) will have left",
+          "C) would have left",
+          "D) had left"
+        ],
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> 'Had she known' is a third conditional, which requires 'would have' plus the past participle in the main clause."
+      },
+      {
+        "id": "q40",
+        "type": "Grammar",
+        "question": "Spot the error in the following sentence:\n'The principal reason (A) / for the delay was (B) / because the funds (C) / had not been released (D).'",
+        "options": [
+          "A) The principal reason",
+          "B) for the delay was",
+          "C) because the funds",
+          "D) had not been released"
+        ],
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> After 'the reason... was', the clause should be introduced by 'that', not 'because': 'was that the funds had not been released'."
+      },
+      {
+        "id": "q41",
+        "type": "Grammar",
+        "question": "Spot the error in the following sentence:\n'Each of the participants (A) / were asked (B) / to sign a consent form (C) / before the trial began (D).'",
+        "options": [
+          "A) Each of the participants",
+          "B) were asked",
+          "C) to sign a consent form",
+          "D) before the trial began"
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> 'Each' is singular, so the verb should be 'was asked'."
+      },
+      {
+        "id": "q42",
+        "type": "Grammar",
+        "question": "Choose the grammatically correct sentence:",
+        "options": [
+          "A) Seldom I have seen such determination in so young a player of the game.",
+          "B) Seldom did I saw such determination in so young a player of the game.",
+          "C) Seldom have I seen so determination in so young player of the game.",
+          "D) Seldom have I seen such determination in so young a player."
+        ],
+        "answer": 3,
+        "explanation": "<strong>Explanation:</strong> A fronted negative adverb ('seldom') requires inversion of auxiliary and subject: 'Seldom have I seen'."
+      },
+      {
+        "id": "q43",
+        "type": "Grammar",
+        "question": "Choose the correct option to fill in the blank:\n'She would rather he ________ her the truth than hide it.'",
+        "options": [
+          "A) told",
+          "B) tell",
+          "C) tells",
+          "D) had tell"
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> After 'would rather' with a different subject, the past subjunctive form is used: 'would rather he told'."
+      },
+      {
+        "id": "q44",
+        "type": "Grammar",
+        "question": "Identify the grammatically INCORRECT sentence:",
+        "options": [
+          "A) Neither of the answers given by the candidate is correct.",
+          "B) A number of students has applied for the scholarship.",
+          "C) The number of applicants has risen sharply over the last year.",
+          "D) Everyone in the room was surprised by the announcement."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> 'A number of' takes a plural verb: 'have applied'. The other sentences agree correctly ('the number of' is singular)."
+      },
+      {
+        "id": "q45",
+        "type": "Grammar",
+        "question": "Choose the correct option to fill in the blank:\n'The success of the plan is contingent ________ the approval of the board.'",
+        "options": [
+          "A) on",
+          "B) with",
+          "C) to",
+          "D) by"
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> 'Contingent' takes 'on' (or 'upon')."
       }
-    ],
-    "daily_vocab": {
-      "words": [
-        {
-          "word": "obfuscation",
-          "meaning": "the action of making something obscure, unclear, or unintelligible",
-          "example": "His speech was a masterpiece of political obfuscation."
-        },
-        {
-          "word": "pertinacious",
-          "meaning": "holding tenaciously to an opinion or purpose",
-          "example": "She maintained a pertinacious defense of her unorthodox hypothesis."
-        },
-        {
-          "word": "reticence",
-          "meaning": "the quality of being reserved or restrained in expression",
-          "example": "His characteristic reticence concealed a sharp analytical mind."
-        },
-        {
-          "word": "hagiography",
-          "meaning": "writing that idealizes or sanctifies its subject",
-          "example": "The biography read more like religious hagiography than objective history."
-        },
-        {
-          "word": "simulacra",
-          "meaning": "images or representations that substitute for the real world",
-          "example": "Modern media environments are saturated with hollow simulacra."
-        },
-        {
-          "word": "craven",
-          "meaning": "contemptibly lacking in courage; cowardly",
-          "example": "Their craven surrender to corporate pressure shocked the public."
-        },
-        {
-          "word": "amenable",
-          "meaning": "responsive to suggestion; cooperative",
-          "example": "Fortunately, the board was amenable to structural reform."
-        },
-        {
-          "word": "procrustean",
-          "meaning": "enforcing strict conformity regardless of individual variation",
-          "example": "The school board imposed a procrustean curriculum on every district."
-        },
-        {
-          "word": "moribund",
-          "meaning": "at a dying, stagnant stage; lacking vitality",
-          "example": "The restructuring plan breathed new life into a moribund enterprise."
-        },
-        {
-          "word": "prolific",
-          "meaning": "producing much fruit, writing, or many works",
-          "example": "Despite his academic administrative duties, he remained a prolific scholar."
-        }
-      ],
-      "idioms": [
-        {
-          "idiom": "procrustean bed",
-          "meaning": "an arbitrary standard to which conformity is ruthlessly forced",
-          "example": "Fitting complex local economies into a procrustean bed of macroeconomic models failed."
-        },
-        {
-          "idiom": "Pyrrhic victory",
-          "meaning": "a victory won at too great a cost to have been worthwhile",
-          "example": "Winning the antitrust lawsuit proved a Pyrrhic victory after legal fees bankrupted them."
-        },
-        {
-          "idiom": "sword of Damocles",
-          "meaning": "an impending and ever-present peril",
-          "example": "The threat of regulatory penalties hung over the firm like a sword of Damocles."
-        },
-        {
-          "idiom": "sea change",
-          "meaning": "a profound or notable transformation",
-          "example": "The pandemic triggered a sea change in remote work policies."
-        },
-        {
-          "idiom": "wooden nickel",
-          "meaning": "something worthless passed off as valuable",
-          "example": "Investors quickly realized the proprietary token was a wooden nickel."
-        }
-      ],
-      "phrasal_verbs": [
-        {
-          "verb": "paper over",
-          "meaning": "to conceal a flaw or problem rather than resolving it",
-          "example": "Financial deregulation merely papered over systemic structural weaknesses."
-        },
-        {
-          "verb": "boil down to",
-          "meaning": "to be summarized as a single core issue",
-          "example": "Their protracted dispute boiled down to a disagreement over intellectual property."
-        },
-        {
-          "verb": "fall back on",
-          "meaning": "to use as a reserve resource when primary options fail",
-          "example": "When export revenues collapsed, the state fell back on strategic foreign reserves."
-        },
-        {
-          "verb": "phase out",
-          "meaning": "to withdraw or discontinue something gradually",
-          "example": "Regulators announced plans to phase out carbon-intensive industrial subsidies."
-        },
-        {
-          "verb": "lock out",
-          "meaning": "to exclude someone from participation or access",
-          "example": "Proprietary licensing locks independent researchers out of critical data sets."
-        }
-      ]
-    }
+    ]
   }
 ]
