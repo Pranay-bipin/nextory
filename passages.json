@@ -6849,5 +6849,206 @@
         }
       ]
     }
+  },
+  {
+    "id": "rc-2026-10-22",
+    "date": "2026-10-22",
+    "title": "The Nobel Prize in Economics and the Problem of a Foundation for Policy",
+    "genre": "Current Affairs: Economics & Philosophy of Models",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1018 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "Prescient",
+          "type": "adj",
+          "def": "Having knowledge of events before they take place; showing foresight. Syn: farsighted, visionary. Ant: shortsighted.",
+          "ex": "Her warning about inflation proved prescient."
+        },
+        {
+          "word": "Myopic",
+          "type": "adj",
+          "def": "Lacking foresight or imagination; focused on the short term. Syn: shortsighted, narrow. Ant: farsighted.",
+          "ex": "A myopic policy ignored the long-term cost."
+        },
+        {
+          "word": "Parsimonious",
+          "type": "adj",
+          "def": "Very unwilling to spend; also, using few assumptions or resources. Syn: frugal, miserly. Ant: lavish.",
+          "ex": "The model is parsimonious, with few assumptions."
+        },
+        {
+          "word": "Rudimentary",
+          "type": "adj",
+          "def": "Involving only basic principles; undeveloped. Syn: basic, primitive. Ant: sophisticated.",
+          "ex": "The early models were rudimentary."
+        },
+        {
+          "word": "Credence",
+          "type": "noun",
+          "def": "Belief in or acceptance of something as true. Syn: credit, trust. Ant: disbelief.",
+          "ex": "The data lent credence to the theory."
+        },
+        {
+          "word": "Fallible",
+          "type": "adj",
+          "def": "Capable of making mistakes or being wrong. Syn: imperfect, error-prone. Ant: infallible.",
+          "ex": "All forecasts are fallible."
+        },
+        {
+          "word": "Axiomatic",
+          "type": "adj",
+          "def": "Self-evident or unquestionable. Syn: obvious, given. Ant: dubious.",
+          "ex": "It is axiomatic that people respond to incentives."
+        },
+        {
+          "word": "Contrived",
+          "type": "adj",
+          "def": "Created artificially rather than arising naturally; forced. Syn: artificial, strained. Ant: natural.",
+          "ex": "The assumption seemed contrived."
+        },
+        {
+          "word": "Pedantic",
+          "type": "adj",
+          "def": "Excessively concerned with minor details or rules. Syn: fussy, nitpicking. Ant: broad-minded.",
+          "ex": "The critique was accurate but pedantic."
+        },
+        {
+          "word": "Stabilise",
+          "type": "verb",
+          "def": "To make or become steady and unlikely to change. Syn: steady, balance. Ant: destabilise.",
+          "ex": "Central banks try to stabilise prices."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "Read the tea leaves",
+          "def": "To try to predict the future from small and uncertain signs.",
+          "ex": "Analysts read the tea leaves of every central bank speech."
+        },
+        {
+          "idiom": "Back to the drawing board",
+          "def": "Time to start again because an attempt has failed.",
+          "ex": "After the crisis, economists went back to the drawing board."
+        },
+        {
+          "idiom": "A rule of thumb",
+          "def": "A rough and practical guide, not a precise rule.",
+          "ex": "As a rule of thumb, rates rise when inflation does."
+        },
+        {
+          "idiom": "Hit the nail on the head",
+          "def": "To describe exactly what is causing a situation or problem.",
+          "ex": "The critique hit the nail on the head."
+        },
+        {
+          "idiom": "Move the needle",
+          "def": "To make a noticeable difference to a situation.",
+          "ex": "A small rate cut will not move the needle."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Iron out",
+          "def": "To resolve minor problems or differences.",
+          "ex": "The committee ironed out the remaining disagreements."
+        },
+        {
+          "verb": "Factor in",
+          "def": "To include something as an element when calculating or deciding.",
+          "ex": "Models must factor in expectations."
+        },
+        {
+          "verb": "Bank on",
+          "def": "To rely on something happening.",
+          "ex": "Firms cannot bank on stable prices."
+        },
+        {
+          "verb": "Come up with",
+          "def": "To produce or think of an idea or plan.",
+          "ex": "Economists came up with a new framework."
+        },
+        {
+          "verb": "Play out",
+          "def": "To develop or unfold in a particular way.",
+          "ex": "It is unclear how the shock will play out."
+        }
+      ]
+    },
+    "passage": "On 12 October the Royal Swedish Academy of Sciences announced that the 2026 Nobel prize in economics would go to two Americans, Robert Hall of Stanford University and Michael Woodford of Columbia University, for work on “how monetary and fiscal policy can better stabilise disruptive economic fluctuations”. John Hassler, who chairs the prize committee, said that the laureates had provided “a stable theoretical foundation for the models that are now used by central banks and governments around the world”. Mr Woodford, who said he was elated, added that his work had not been motivated by a specific political agenda but by an effort to improve the foundations on which economic policy is discussed. The award invites a question that is larger than the biographies of its recipients: what does it mean to give policy a theoretical foundation, and how far can such a foundation be trusted?\n\nThe background is the failure of an earlier foundation. For decades after the Second World War, officials guided by Keynesian ideas believed that governments and central banks could lift output in a downturn by spending more or lowering interest rates. The models that guided them were largely statistical: they relied on observed relationships among aggregate quantities such as inflation, production and consumption, and assumed that those relationships would hold. In the 1970s, when oil shocks produced rising prices and rising unemployment together, the relationships broke down. A critique associated with Robert Lucas supplied the diagnosis. A statistical regularity observed under one policy regime may not survive a change of policy, because people alter their behaviour in response to the change, so that a model built on the regularity cannot be used to evaluate the change. The point is a general one about social science: unlike a planet, which does not read the astronomer’s forecast, an economy contains people who do.\n\nThe response, to which Hall and Woodford separately contributed, was to build models on what is called a microeconomic foundation. Instead of assuming relationships among aggregates, such models start from households and businesses making decisions, and derive the behaviour of the whole economy from the combined effect of those decisions. The aim is to anchor the model in features, such as preferences and technology, that are less likely to change when policy changes. A second insight concerned time. Households are forward-looking: they act on what they expect policy to be, not only on what it is today. It follows that the way governments and central banks communicate their intentions can shape expectations, and through them spending and prices. In this view communication is not a commentary on policy; it is part of the policy.\n\nThe importance of expectations is easiest to see in the control of inflation. If the public believes that the central bank will keep inflation near its target, firms set prices and workers seek wages accordingly, and the central bank needs to do less to keep the promise. If that belief is lost, the same outcome may demand a far larger and more painful tightening. Credibility, in other words, is an asset that lowers the cost of policy, and an institution that spends it carelessly will pay more later. A model that takes expectations seriously can give such a statement a precise form, which is the sense in which the laureates’ work is called a foundation: it organises the intuition, and sets it out so that it can be examined and disputed. An argument that is stated in a model can be tested by changing an assumption and seeing whether the conclusion survives; an argument that is stated only in words can be defended indefinitely by shifting its meaning.\n\nCritics have not been quiet. They point out that models of this family have often represented the economy as populated by a single, rational household, a simplification that leaves out the diversity of real people and, in many versions, the financial sector. Models of this kind did not anticipate the financial crisis of 2008, and many forecasters underestimated the inflation that followed the pandemic. Defenders reply that the models were never designed to predict the next quarter’s output; their purpose is to compare policies by asking what would happen under each. A model may be poor at forecasting and still be useful for that purpose, just as a map that cannot predict the weather may still tell a traveller which road is shorter. The analogy is not perfect, since a map is checked against the ground and a policy model can rarely be checked against a world in which the alternative policy was actually tried.\n\nThe reply has force, but it exposes a difficulty. A question about what would happen under an alternative policy is a counterfactual, and counterfactuals are only as reliable as the assumptions that generate them. If the assumptions hold, the model can tell us more than a statistical regularity; if they fail, it can mislead with an authority that the regularity never had. The difficulty is sharpest in a supply shock, the kind that broke the earlier models. Lowering interest rates can stimulate demand, but it cannot create oil. With energy prices near one hundred dollars a barrel amid the war involving Iran, as international institutions have recently warned, central banks face a version of the 1970s problem, and the theory that is now honoured has to prove itself against the conditions that destroyed its predecessor.\n\nA Nobel prize is a verdict on the quality of an intellectual foundation, not a guarantee of success in policy. Its achievement, on the committee’s account, is to have made assumptions explicit, so that disagreements about the economy can be conducted as disagreements about assumptions and not as clashes of authority. That is a real gain, and it is compatible with humility. Models are tools for comparing options, not instruments for foretelling events, and the economists who rely on them do best when they remember that the quality of an answer depends on the questions the model was built to ask. The prize is best read as an invitation to argue more carefully, not as a reason to argue less.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "According to the passage, the earlier Keynesian models failed in the 1970s because:",
+        "options": [
+          "A) governments had stopped using fiscal and monetary policy to influence output, so the models no longer described the policies that were in force",
+          "B) the oil shocks made the economy too small for statistical methods to be applied, and economists therefore abandoned quantitative models",
+          "C) the models had assumed that households were forward-looking, which was found to be untrue once prices and unemployment rose together",
+          "D) relationships among aggregates that the models treated as fixed shifted as policy changed and people altered their behaviour"
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 2 says the models relied on observed relationships among aggregates and assumed they would hold; in the 1970s they broke down, and the diagnosis was that regularities observed under one regime may not survive a change of policy because people adapt.<br><br>• <strong>Why Option A is Wrong:</strong> The passage does not say policy had been abandoned; the failure was in how the models described the effects of policy.<br><br>• <strong>Why Option B is Wrong:</strong> Nothing is said about economists abandoning quantitative models; the successors were still models.<br><br>• <strong>Why Option C is Wrong:</strong> The forward-looking assumption belongs to the new models, not the old ones; the old models were criticised for lacking it.<br><br><strong>💡 Approach:</strong> Find the diagnosis sentence in paragraph 2. Distractors reverse who held the forward-looking assumption or invent a collapse of method."
+      },
+      {
+        "id": "q2",
+        "question": "The author mentions Mr Woodford’s remark that his work was not motivated by a specific political agenda in order to suggest that:",
+        "options": [
+          "A) the prize committee has chosen laureates who have no connection with any political position and whose work cannot be used for political ends",
+          "B) the models are meant as a neutral framework for debating policy, although the assumptions built into them remain open to dispute",
+          "C) policymakers who have used the laureates’ models have been wrong to apply them to questions on which governments disagree",
+          "D) the laureates’ results prove that monetary policy is more effective than fiscal policy in stabilising fluctuations in the economy"
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 1 says his aim was to improve the foundations on which policy is discussed, and the closing paragraph says that making assumptions explicit allows disagreements to be conducted as disagreements about assumptions. The framework is neutral in intent but assumptions can still be disputed.<br><br>• <strong>Why Option A is Wrong:</strong> The passage does not say anything about how the committee selects laureates or that the work cannot be used for political ends.<br><br>• <strong>Why Option C is Wrong:</strong> The author does not criticise policymakers for using the models.<br><br>• <strong>Why Option D is Wrong:</strong> The passage does not compare monetary and fiscal policy in effectiveness.<br><br><strong>💡 Approach:</strong> Purpose questions: read the remark with the author’s concluding claim about explicit assumptions. Options about the committee or about a ranking of policies are unsupported."
+      },
+      {
+        "id": "q3",
+        "question": "Which of the following, if true, would most weaken the claim in paragraph 3 that communication by central banks can shape current spending and prices?",
+        "options": [
+          "A) Central banks that publish detailed statements about future policy have found that financial markets respond to those statements within hours.",
+          "B) Central banks that fail to meet the targets they have announced find that it becomes harder to persuade firms to believe their later statements.",
+          "C) Most households and small firms are unaware of central banks’ statements on future policy and do not alter their spending or prices.",
+          "D) Economists who build models with forward-looking households disagree about how long it takes expectations to adjust to a new announcement."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The claim relies on people forming expectations from what the central bank says. If most households and small firms do not know or respond, the channel through which communication affects spending and prices is largely absent.<br><br>• <strong>Why Option A is Wrong:</strong> Financial markets responding supports the claim that communication matters.<br><br>• <strong>Why Option B is Wrong:</strong> This supports the idea that credibility affects what firms believe, which is consistent with the claim.<br><br>• <strong>Why Option D is Wrong:</strong> Disagreement about speed does not deny that communication shapes spending and prices.<br><br><strong>💡 Approach:</strong> To weaken a causal claim, attack its mechanism (people hearing and acting). Options that show the mechanism working, or merely dispute timing, do not weaken it."
+      },
+      {
+        "id": "q4",
+        "question": "The author’s account of the move to microeconomic foundations (paragraphs 2 and 3) is most closely paralleled by:",
+        "options": [
+          "A) An engineer’s forecast of bridge traffic from tolls fails once drivers change routes, so she models how drivers choose routes",
+          "B) A teacher who forecasts examination results from last year’s marks, finds the forecast wrong because the paper was harder, and then sets an easier paper",
+          "C) A farmer who predicts the size of a harvest from the rainfall of past years, and who then stores grain in case the next harvest is smaller",
+          "D) A shopkeeper who sets prices from the competitor’s prices, and who then finds that customers prefer to buy goods that are on offer"
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> A relationship observed under old conditions fails when behaviour changes in response to the change; the fix is to model the underlying behaviour (drivers’ choices) from which the aggregate emerges. This mirrors moving from aggregate relationships to models of households and firms.<br><br>• <strong>Why Option B is Wrong:</strong> The forecast fails because of the paper’s difficulty, and the fix changes the exam, not the model.<br><br>• <strong>Why Option C is Wrong:</strong> The farmer’s response is insurance against uncertainty, not a model of underlying behaviour.<br><br>• <strong>Why Option D is Wrong:</strong> This concerns pricing and promotions and does not involve a regularity breaking because behaviour adapts.<br><br><strong>💡 Approach:</strong> Extract the structure: an aggregate regularity breaks because people adapt, so one models the individual decisions behind it. Reject options that lack the adaptation or the move to underlying behaviour."
+      },
+      {
+        "id": "q5",
+        "question": "All of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) Credibility lowers the cost of controlling inflation, since a public that believes in the target needs less costly action from the central bank.",
+          "B) The laureates’ models were shown to have predicted the financial crisis of 2008 and the inflation that followed the pandemic.",
+          "C) A model that is poor at forecasting next quarter’s output may still be useful for comparing the effects of different policies.",
+          "D) A fall in interest rates may stimulate demand but cannot by itself increase the supply of oil during an energy shock."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 5 says models of this kind did not anticipate the 2008 crisis and many forecasters underestimated post-pandemic inflation. Option B says the opposite.<br><br>• <strong>Why Option A is Wrong:</strong> Paragraph 4 says that if the public believes in the target the central bank needs to do less.<br><br>• <strong>Why Option C is Wrong:</strong> Paragraph 5 makes this point in the defenders’ reply.<br><br>• <strong>Why Option D is Wrong:</strong> Paragraph 6 says lowering rates can stimulate demand but cannot create oil.<br><br><strong>💡 Approach:</strong> In EXCEPT questions, the false option usually reverses a stated criticism. Check against the critics' paragraph."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following best captures the author’s conclusion?",
+        "options": [
+          "A) The prize shows that policy can now be derived from theory with confidence, and that central banks can safely rely on the models in any crisis",
+          "B) The laureates’ models have been refuted by the financial crisis and the post-pandemic inflation and should therefore be abandoned by central banks",
+          "C) The prize honours a method that makes assumptions explicit, but models remain tools for comparing options and not for foretelling events",
+          "D) The oil shocks of the 1970s showed that no model of the economy can be of use to policymakers, and the prize does not alter that"
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The last paragraph says the achievement is to make assumptions explicit so that disagreements can be conducted as disagreements about assumptions, and that models are tools for comparing options, not instruments for foretelling events.<br><br>• <strong>Why Option A is Wrong:</strong> The author warns that a Nobel is not a guarantee of success and that answers can mislead if assumptions fail.<br><br>• <strong>Why Option B is Wrong:</strong> The author gives the critics’ points and the defenders’ reply and does not call for abandonment.<br><br>• <strong>Why Option D is Wrong:</strong> The author says the earlier models failed, not that all models are useless; the new models are praised as a real gain.<br><br><strong>💡 Approach:</strong> Conclusion questions: the answer combines the praise (explicit assumptions) and the limit (not for foretelling). Extremes are traps."
+      }
+    ]
   }
 ]
