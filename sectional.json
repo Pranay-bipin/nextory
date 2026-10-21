@@ -582,5 +582,589 @@
         "explanation": "<strong>Explanation:</strong> 'Contingent' takes 'on' (or 'upon')."
       }
     ]
+  },
+  {
+    "id": "sec-2026-10-22",
+    "date": "2026-10-22",
+    "title": "IPMAT Indore VA Full Sectional Mock - 22 October 2026 (Advanced Level)",
+    "durationMinutes": 40,
+    "totalQuestions": 45,
+    "questions": [
+      {
+        "id": "q1",
+        "type": "RC",
+        "passage": "In the autumn of 1973 the University of California, Berkeley, admitted 44 per cent of its male applicants to graduate school and only 35 per cent of its female applicants. The gap was large enough to look like discrimination, and when statisticians examined the figures department by department they found something stranger: in most of the large departments, women were admitted at rates equal to or slightly higher than those of men. The explanation, once seen, was simple. Women had applied in larger numbers to departments that rejected most applicants, while men had applied in larger numbers to departments that admitted many. The aggregate figure mixed two things, the behaviour of the admitting departments and the choices of the applicants, and the mixture pointed in a direction that neither component did.\n\nThis reversal is called Simpson's paradox, and it is not confined to universities. In a study of treatments for kidney stones, one method succeeded more often than the other for small stones and also for large stones, yet appeared worse when the two groups of patients were pooled. The reason was that doctors tended to give the more invasive treatment to patients with large stones, which are harder to treat by any method, so that the apparently inferior method had been tried on harder cases. Arithmetic does not forbid such reversals; it requires them whenever the groups being compared differ in the mix of cases they contain.\n\nThe textbook moral is to disaggregate: look inside the groups before drawing conclusions from the whole. But the moral is incomplete, for it suggests that the subgroup figures are always the truer ones, and that is not so. Suppose a drug lowers blood pressure, and blood pressure in turn affects the risk of a heart attack. Comparing patients within groups of equal blood pressure would then hide the drug's benefit, since the drug works through blood pressure; the pooled figures, not the subgroup figures, would answer the question a patient wants answered. Which table to trust depends on what caused what, and the numbers do not say.\n\nThe Berkeley case illustrates the difficulty. Suppose that the departments were neutral, and that women chose harder departments because they had been discouraged, at earlier stages, from the subjects that admit more readily. Then the department-level figures show no bias at the point of admission, yet the system as a whole disadvantages women, through a cause that operates before the application is submitted. Suppose instead that women simply preferred those subjects and the system was fair. The admissions figures are the same in both stories. What differs is the causal account of why the applicants distributed themselves as they did, and no table can reveal it. A statistician who says the paradox has been resolved by looking within departments has therefore answered one question, whether the departments discriminated, and left a second, whether the university's applicants faced unequal obstacles, untouched.\n\nThis is why the paradox has attracted philosophers as much as statisticians. It exposes the fact that statistical association, however precisely measured, does not by itself determine causal conclusions, and that the choice of which variables to hold constant is a causal decision disguised as a technical one. Practitioners sometimes respond by adopting a rule, such as always adjusting for every available variable, but such rules fail: adjusting for the wrong variable can create a bias where none existed. Others insist that causal claims should rest on randomised experiments, in which the assignment of treatment is independent of the characteristics of the cases. Randomisation does remove the problem, but it is often impossible, as when the treatment is gender, or a policy introduced everywhere at once.\n\nNone of this makes data useless. It makes them dependent on assumptions that the analyst must state and defend, which is a discipline and not a defeat. A figure presented without its causal story invites readers to supply one of their own, and they usually supply the story that flatters their prior opinion. The remedy is to ask, of any comparison, what else differs between the groups, and whether that difference lies on the path through which the supposed cause is thought to operate.",
+        "question": "Which of the following best captures the central argument of the passage?",
+        "options": [
+          "A) Simpson's paradox shows that aggregate data are always misleading, and that analysts should therefore rely only on figures within subgroups of the data.",
+          "B) Statistical comparisons cannot be interpreted without causal assumptions, since whether to aggregate or disaggregate depends on what caused what.",
+          "C) The Berkeley data demonstrate that the university's departments discriminated against women, though in ways that were hidden by the averaging of rates.",
+          "D) Randomised experiments are the only legitimate source of causal knowledge, and observational data should therefore be disregarded by careful analysts."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> The passage argues that disaggregating is not always right; which table to trust 'depends on what caused what'. B contradicts the blood-pressure example; C reverses the Berkeley finding (departments showed no bias); D overstates the case for experiments, which the author calls often impossible."
+      },
+      {
+        "id": "q2",
+        "type": "RC",
+        "passage": "In the autumn of 1973 the University of California, Berkeley, admitted 44 per cent of its male applicants to graduate school and only 35 per cent of its female applicants. The gap was large enough to look like discrimination, and when statisticians examined the figures department by department they found something stranger: in most of the large departments, women were admitted at rates equal to or slightly higher than those of men. The explanation, once seen, was simple. Women had applied in larger numbers to departments that rejected most applicants, while men had applied in larger numbers to departments that admitted many. The aggregate figure mixed two things, the behaviour of the admitting departments and the choices of the applicants, and the mixture pointed in a direction that neither component did.\n\nThis reversal is called Simpson's paradox, and it is not confined to universities. In a study of treatments for kidney stones, one method succeeded more often than the other for small stones and also for large stones, yet appeared worse when the two groups of patients were pooled. The reason was that doctors tended to give the more invasive treatment to patients with large stones, which are harder to treat by any method, so that the apparently inferior method had been tried on harder cases. Arithmetic does not forbid such reversals; it requires them whenever the groups being compared differ in the mix of cases they contain.\n\nThe textbook moral is to disaggregate: look inside the groups before drawing conclusions from the whole. But the moral is incomplete, for it suggests that the subgroup figures are always the truer ones, and that is not so. Suppose a drug lowers blood pressure, and blood pressure in turn affects the risk of a heart attack. Comparing patients within groups of equal blood pressure would then hide the drug's benefit, since the drug works through blood pressure; the pooled figures, not the subgroup figures, would answer the question a patient wants answered. Which table to trust depends on what caused what, and the numbers do not say.\n\nThe Berkeley case illustrates the difficulty. Suppose that the departments were neutral, and that women chose harder departments because they had been discouraged, at earlier stages, from the subjects that admit more readily. Then the department-level figures show no bias at the point of admission, yet the system as a whole disadvantages women, through a cause that operates before the application is submitted. Suppose instead that women simply preferred those subjects and the system was fair. The admissions figures are the same in both stories. What differs is the causal account of why the applicants distributed themselves as they did, and no table can reveal it. A statistician who says the paradox has been resolved by looking within departments has therefore answered one question, whether the departments discriminated, and left a second, whether the university's applicants faced unequal obstacles, untouched.\n\nThis is why the paradox has attracted philosophers as much as statisticians. It exposes the fact that statistical association, however precisely measured, does not by itself determine causal conclusions, and that the choice of which variables to hold constant is a causal decision disguised as a technical one. Practitioners sometimes respond by adopting a rule, such as always adjusting for every available variable, but such rules fail: adjusting for the wrong variable can create a bias where none existed. Others insist that causal claims should rest on randomised experiments, in which the assignment of treatment is independent of the characteristics of the cases. Randomisation does remove the problem, but it is often impossible, as when the treatment is gender, or a policy introduced everywhere at once.\n\nNone of this makes data useless. It makes them dependent on assumptions that the analyst must state and defend, which is a discipline and not a defeat. A figure presented without its causal story invites readers to supply one of their own, and they usually supply the story that flatters their prior opinion. The remedy is to ask, of any comparison, what else differs between the groups, and whether that difference lies on the path through which the supposed cause is thought to operate.",
+        "question": "The blood-pressure example is used to show that",
+        "options": [
+          "A) pooled figures are always more reliable than figures drawn from separate subgroups of patients.",
+          "B) doctors ought to assign treatments according to blood pressure and not by random allocation.",
+          "C) holding constant a variable through which a cause operates can hide the effect of that cause.",
+          "D) blood pressure is the principal cause of heart attacks and should be controlled in every study."
+        ],
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> The drug 'works through blood pressure', so comparing patients with equal blood pressure removes its effect. B overgeneralises ('always'); C and D are not claimed."
+      },
+      {
+        "id": "q3",
+        "type": "RC",
+        "passage": "In the autumn of 1973 the University of California, Berkeley, admitted 44 per cent of its male applicants to graduate school and only 35 per cent of its female applicants. The gap was large enough to look like discrimination, and when statisticians examined the figures department by department they found something stranger: in most of the large departments, women were admitted at rates equal to or slightly higher than those of men. The explanation, once seen, was simple. Women had applied in larger numbers to departments that rejected most applicants, while men had applied in larger numbers to departments that admitted many. The aggregate figure mixed two things, the behaviour of the admitting departments and the choices of the applicants, and the mixture pointed in a direction that neither component did.\n\nThis reversal is called Simpson's paradox, and it is not confined to universities. In a study of treatments for kidney stones, one method succeeded more often than the other for small stones and also for large stones, yet appeared worse when the two groups of patients were pooled. The reason was that doctors tended to give the more invasive treatment to patients with large stones, which are harder to treat by any method, so that the apparently inferior method had been tried on harder cases. Arithmetic does not forbid such reversals; it requires them whenever the groups being compared differ in the mix of cases they contain.\n\nThe textbook moral is to disaggregate: look inside the groups before drawing conclusions from the whole. But the moral is incomplete, for it suggests that the subgroup figures are always the truer ones, and that is not so. Suppose a drug lowers blood pressure, and blood pressure in turn affects the risk of a heart attack. Comparing patients within groups of equal blood pressure would then hide the drug's benefit, since the drug works through blood pressure; the pooled figures, not the subgroup figures, would answer the question a patient wants answered. Which table to trust depends on what caused what, and the numbers do not say.\n\nThe Berkeley case illustrates the difficulty. Suppose that the departments were neutral, and that women chose harder departments because they had been discouraged, at earlier stages, from the subjects that admit more readily. Then the department-level figures show no bias at the point of admission, yet the system as a whole disadvantages women, through a cause that operates before the application is submitted. Suppose instead that women simply preferred those subjects and the system was fair. The admissions figures are the same in both stories. What differs is the causal account of why the applicants distributed themselves as they did, and no table can reveal it. A statistician who says the paradox has been resolved by looking within departments has therefore answered one question, whether the departments discriminated, and left a second, whether the university's applicants faced unequal obstacles, untouched.\n\nThis is why the paradox has attracted philosophers as much as statisticians. It exposes the fact that statistical association, however precisely measured, does not by itself determine causal conclusions, and that the choice of which variables to hold constant is a causal decision disguised as a technical one. Practitioners sometimes respond by adopting a rule, such as always adjusting for every available variable, but such rules fail: adjusting for the wrong variable can create a bias where none existed. Others insist that causal claims should rest on randomised experiments, in which the assignment of treatment is independent of the characteristics of the cases. Randomisation does remove the problem, but it is often impossible, as when the treatment is gender, or a policy introduced everywhere at once.\n\nNone of this makes data useless. It makes them dependent on assumptions that the analyst must state and defend, which is a discipline and not a defeat. A figure presented without its causal story invites readers to supply one of their own, and they usually supply the story that flatters their prior opinion. The remedy is to ask, of any comparison, what else differs between the groups, and whether that difference lies on the path through which the supposed cause is thought to operate.",
+        "question": "The author's two stories about the Berkeley figures imply that",
+        "options": [
+          "A) the departments at Berkeley were certainly neutral, and any discrimination can have arisen only at earlier stages of the applicants' education.",
+          "B) women preferred the more competitive subjects, and the admissions system of the university must therefore have been fair to them.",
+          "C) identical admissions figures can be consistent with fair and unfair systems, depending on why applicants distributed themselves as they did.",
+          "D) looking within departments can tell us nothing at all about whether women were treated fairly by the university."
+        ],
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> 'The admissions figures are the same in both stories'; what differs is the causal account of the applicants' choices. B says 'certainly', which the author does not; C asserts one of the two stories; D overstates (department figures do answer whether departments discriminated)."
+      },
+      {
+        "id": "q4",
+        "type": "RC",
+        "passage": "In the autumn of 1973 the University of California, Berkeley, admitted 44 per cent of its male applicants to graduate school and only 35 per cent of its female applicants. The gap was large enough to look like discrimination, and when statisticians examined the figures department by department they found something stranger: in most of the large departments, women were admitted at rates equal to or slightly higher than those of men. The explanation, once seen, was simple. Women had applied in larger numbers to departments that rejected most applicants, while men had applied in larger numbers to departments that admitted many. The aggregate figure mixed two things, the behaviour of the admitting departments and the choices of the applicants, and the mixture pointed in a direction that neither component did.\n\nThis reversal is called Simpson's paradox, and it is not confined to universities. In a study of treatments for kidney stones, one method succeeded more often than the other for small stones and also for large stones, yet appeared worse when the two groups of patients were pooled. The reason was that doctors tended to give the more invasive treatment to patients with large stones, which are harder to treat by any method, so that the apparently inferior method had been tried on harder cases. Arithmetic does not forbid such reversals; it requires them whenever the groups being compared differ in the mix of cases they contain.\n\nThe textbook moral is to disaggregate: look inside the groups before drawing conclusions from the whole. But the moral is incomplete, for it suggests that the subgroup figures are always the truer ones, and that is not so. Suppose a drug lowers blood pressure, and blood pressure in turn affects the risk of a heart attack. Comparing patients within groups of equal blood pressure would then hide the drug's benefit, since the drug works through blood pressure; the pooled figures, not the subgroup figures, would answer the question a patient wants answered. Which table to trust depends on what caused what, and the numbers do not say.\n\nThe Berkeley case illustrates the difficulty. Suppose that the departments were neutral, and that women chose harder departments because they had been discouraged, at earlier stages, from the subjects that admit more readily. Then the department-level figures show no bias at the point of admission, yet the system as a whole disadvantages women, through a cause that operates before the application is submitted. Suppose instead that women simply preferred those subjects and the system was fair. The admissions figures are the same in both stories. What differs is the causal account of why the applicants distributed themselves as they did, and no table can reveal it. A statistician who says the paradox has been resolved by looking within departments has therefore answered one question, whether the departments discriminated, and left a second, whether the university's applicants faced unequal obstacles, untouched.\n\nThis is why the paradox has attracted philosophers as much as statisticians. It exposes the fact that statistical association, however precisely measured, does not by itself determine causal conclusions, and that the choice of which variables to hold constant is a causal decision disguised as a technical one. Practitioners sometimes respond by adopting a rule, such as always adjusting for every available variable, but such rules fail: adjusting for the wrong variable can create a bias where none existed. Others insist that causal claims should rest on randomised experiments, in which the assignment of treatment is independent of the characteristics of the cases. Randomisation does remove the problem, but it is often impossible, as when the treatment is gender, or a policy introduced everywhere at once.\n\nNone of this makes data useless. It makes them dependent on assumptions that the analyst must state and defend, which is a discipline and not a defeat. A figure presented without its causal story invites readers to supply one of their own, and they usually supply the story that flatters their prior opinion. The remedy is to ask, of any comparison, what else differs between the groups, and whether that difference lies on the path through which the supposed cause is thought to operate.",
+        "question": "The author's claim that disaggregation leaves a second question untouched assumes that",
+        "options": [
+          "A) a fair assessment of applicants' obstacles must include stages before the application is submitted.",
+          "B) no university department has ever discriminated against applicants on the grounds of their gender in any year.",
+          "C) women applicants are, on the whole, better qualified than men applicants who apply to the same departments.",
+          "D) admission rates are the only evidence that is available on whether applicants were treated fairly by a university."
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> The second question (whether applicants 'faced unequal obstacles') only matters if fairness extends to pre-application stages. B, C and D are not required by the argument, and D is contradicted by it."
+      },
+      {
+        "id": "q5",
+        "type": "RC",
+        "passage": "In the autumn of 1973 the University of California, Berkeley, admitted 44 per cent of its male applicants to graduate school and only 35 per cent of its female applicants. The gap was large enough to look like discrimination, and when statisticians examined the figures department by department they found something stranger: in most of the large departments, women were admitted at rates equal to or slightly higher than those of men. The explanation, once seen, was simple. Women had applied in larger numbers to departments that rejected most applicants, while men had applied in larger numbers to departments that admitted many. The aggregate figure mixed two things, the behaviour of the admitting departments and the choices of the applicants, and the mixture pointed in a direction that neither component did.\n\nThis reversal is called Simpson's paradox, and it is not confined to universities. In a study of treatments for kidney stones, one method succeeded more often than the other for small stones and also for large stones, yet appeared worse when the two groups of patients were pooled. The reason was that doctors tended to give the more invasive treatment to patients with large stones, which are harder to treat by any method, so that the apparently inferior method had been tried on harder cases. Arithmetic does not forbid such reversals; it requires them whenever the groups being compared differ in the mix of cases they contain.\n\nThe textbook moral is to disaggregate: look inside the groups before drawing conclusions from the whole. But the moral is incomplete, for it suggests that the subgroup figures are always the truer ones, and that is not so. Suppose a drug lowers blood pressure, and blood pressure in turn affects the risk of a heart attack. Comparing patients within groups of equal blood pressure would then hide the drug's benefit, since the drug works through blood pressure; the pooled figures, not the subgroup figures, would answer the question a patient wants answered. Which table to trust depends on what caused what, and the numbers do not say.\n\nThe Berkeley case illustrates the difficulty. Suppose that the departments were neutral, and that women chose harder departments because they had been discouraged, at earlier stages, from the subjects that admit more readily. Then the department-level figures show no bias at the point of admission, yet the system as a whole disadvantages women, through a cause that operates before the application is submitted. Suppose instead that women simply preferred those subjects and the system was fair. The admissions figures are the same in both stories. What differs is the causal account of why the applicants distributed themselves as they did, and no table can reveal it. A statistician who says the paradox has been resolved by looking within departments has therefore answered one question, whether the departments discriminated, and left a second, whether the university's applicants faced unequal obstacles, untouched.\n\nThis is why the paradox has attracted philosophers as much as statisticians. It exposes the fact that statistical association, however precisely measured, does not by itself determine causal conclusions, and that the choice of which variables to hold constant is a causal decision disguised as a technical one. Practitioners sometimes respond by adopting a rule, such as always adjusting for every available variable, but such rules fail: adjusting for the wrong variable can create a bias where none existed. Others insist that causal claims should rest on randomised experiments, in which the assignment of treatment is independent of the characteristics of the cases. Randomisation does remove the problem, but it is often impossible, as when the treatment is gender, or a policy introduced everywhere at once.\n\nNone of this makes data useless. It makes them dependent on assumptions that the analyst must state and defend, which is a discipline and not a defeat. A figure presented without its causal story invites readers to supply one of their own, and they usually supply the story that flatters their prior opinion. The remedy is to ask, of any comparison, what else differs between the groups, and whether that difference lies on the path through which the supposed cause is thought to operate.",
+        "question": "Each of the following is offered in the passage as a way of dealing with the problem of drawing causal conclusions from data EXCEPT",
+        "options": [
+          "A) randomising the assignment of treatment",
+          "B) enlarging the sample until the two sets of figures agree",
+          "C) stating and defending the causal assumptions that are made",
+          "D) asking what else differs between the groups being compared"
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> B is in paragraph 5; C and D are in paragraph 6. Enlarging the sample is never offered, and the passage says the reversal is required by arithmetic whatever the sample."
+      },
+      {
+        "id": "q6",
+        "type": "RC",
+        "passage": "In the autumn of 1973 the University of California, Berkeley, admitted 44 per cent of its male applicants to graduate school and only 35 per cent of its female applicants. The gap was large enough to look like discrimination, and when statisticians examined the figures department by department they found something stranger: in most of the large departments, women were admitted at rates equal to or slightly higher than those of men. The explanation, once seen, was simple. Women had applied in larger numbers to departments that rejected most applicants, while men had applied in larger numbers to departments that admitted many. The aggregate figure mixed two things, the behaviour of the admitting departments and the choices of the applicants, and the mixture pointed in a direction that neither component did.\n\nThis reversal is called Simpson's paradox, and it is not confined to universities. In a study of treatments for kidney stones, one method succeeded more often than the other for small stones and also for large stones, yet appeared worse when the two groups of patients were pooled. The reason was that doctors tended to give the more invasive treatment to patients with large stones, which are harder to treat by any method, so that the apparently inferior method had been tried on harder cases. Arithmetic does not forbid such reversals; it requires them whenever the groups being compared differ in the mix of cases they contain.\n\nThe textbook moral is to disaggregate: look inside the groups before drawing conclusions from the whole. But the moral is incomplete, for it suggests that the subgroup figures are always the truer ones, and that is not so. Suppose a drug lowers blood pressure, and blood pressure in turn affects the risk of a heart attack. Comparing patients within groups of equal blood pressure would then hide the drug's benefit, since the drug works through blood pressure; the pooled figures, not the subgroup figures, would answer the question a patient wants answered. Which table to trust depends on what caused what, and the numbers do not say.\n\nThe Berkeley case illustrates the difficulty. Suppose that the departments were neutral, and that women chose harder departments because they had been discouraged, at earlier stages, from the subjects that admit more readily. Then the department-level figures show no bias at the point of admission, yet the system as a whole disadvantages women, through a cause that operates before the application is submitted. Suppose instead that women simply preferred those subjects and the system was fair. The admissions figures are the same in both stories. What differs is the causal account of why the applicants distributed themselves as they did, and no table can reveal it. A statistician who says the paradox has been resolved by looking within departments has therefore answered one question, whether the departments discriminated, and left a second, whether the university's applicants faced unequal obstacles, untouched.\n\nThis is why the paradox has attracted philosophers as much as statisticians. It exposes the fact that statistical association, however precisely measured, does not by itself determine causal conclusions, and that the choice of which variables to hold constant is a causal decision disguised as a technical one. Practitioners sometimes respond by adopting a rule, such as always adjusting for every available variable, but such rules fail: adjusting for the wrong variable can create a bias where none existed. Others insist that causal claims should rest on randomised experiments, in which the assignment of treatment is independent of the characteristics of the cases. Randomisation does remove the problem, but it is often impossible, as when the treatment is gender, or a policy introduced everywhere at once.\n\nNone of this makes data useless. It makes them dependent on assumptions that the analyst must state and defend, which is a discipline and not a defeat. A figure presented without its causal story invites readers to supply one of their own, and they usually supply the story that flatters their prior opinion. The remedy is to ask, of any comparison, what else differs between the groups, and whether that difference lies on the path through which the supposed cause is thought to operate.",
+        "question": "The author's attitude towards the rule of always adjusting for every available variable is best described as",
+        "options": [
+          "A) approving: it ensures that no hidden difference between the groups escapes the notice of the analyst.",
+          "B) neutral: it is one of several equally reliable rules from among which an analyst may choose freely.",
+          "C) indifferent: whether it is followed makes no difference to the conclusions that the analyst will reach.",
+          "D) critical: such a rule can create a bias where none existed."
+        ],
+        "answer": 3,
+        "explanation": "<strong>Explanation:</strong> The author says 'such rules fail: adjusting for the wrong variable can create a bias where none existed'. The other options mischaracterise this."
+      },
+      {
+        "id": "q7",
+        "type": "RC",
+        "passage": "Around 1200 BCE the eastern Mediterranean, which had been a web of palace states trading in tin, copper, grain, textiles and luxury goods, came apart within a few decades. The Hittite capital was abandoned. The port of Ugarit on the Syrian coast was destroyed and never rebuilt. The Mycenaean palaces of Greece were burned, and with them vanished the system of records on which their administration depended; literacy itself disappeared from Greece for centuries. Egypt survived, though shaken, and records the defeat of invaders, whom it called the Sea Peoples, by Ramesses III in about 1177 BCE. Within a generation, a world of great powers in constant diplomatic correspondence had been replaced by smaller, poorer and more isolated societies.\n\nThe search for a cause began early, and for a long time it produced single answers. The Egyptian inscriptions pointed to invaders from the sea, and for generations the Sea Peoples were blamed. Later scholars proposed an earthquake storm, a sequence of seismic shocks along the great fault lines of the region; prolonged drought, inferred from pollen and sediment records; famine; and internal revolt against the palace elites. Each had some evidence, and none sufficed. Earthquakes can destroy a city but do not explain why it was not rebuilt; drought explains hunger but not why states in wetter regions fell; and the Sea Peoples, who appear in Egyptian reliefs as migrants with families and ox-carts, look less like the cause of the collapse than a symptom of the displacement that accompanied it.\n\nThe now favoured explanation is multi-causal. On this account the late Bronze Age states were bound together by trade, tribute and marriage alliances, so tightly that each depended on the others for things it could not produce, tin above all, since bronze requires it and it came from few and distant sources. Interdependence made the system efficient while it held, but fragile when it did not: a shock that an isolated state would have absorbed spread through the network, and several shocks arriving together overwhelmed its capacity to adapt. A drought could cut harvests, famine could unsettle populations and set them moving, migrants could threaten trade routes, and the loss of trade could deprive palaces of the goods that sustained their authority. The collapse was, in this telling, a cascade.\n\nThis is persuasive, but it has a weakness that deserves attention. An explanation that allows any combination of drought, earthquakes, invasion and revolt to contribute is hard to test, since no evidence can count against it. The explanation risks becoming a way of describing what happened and not of accounting for why. The more serious test is comparative. Egypt and Assyria, both deeply involved in the same networks, survived, while others did not. A good explanation must say why, and the candidate answers, such as Egypt's concentrated agricultural wealth in the Nile valley, its centralised army and its geographical protection, are plausible but need to be shown and not assumed.\n\nAnother objection concerns the word collapse. The destruction was real, but historians increasingly stress that it was uneven, and that its apparent suddenness owes much to the nature of the evidence. A palace that kept archives leaves a dramatic record of its fall; a village that quietly adapted leaves almost nothing. Where life continued, as in parts of Cyprus and the Levantine coast, it did so in altered forms, and some of the societies that emerged, among them the Phoenician cities, benefited from the disruption, since the removal of the great powers gave them room to grow.\n\nThe episode has attracted attention beyond ancient history because it appears to warn us about modern complexity. The analogy should be handled carefully. What it suggests is not that complex systems inevitably fail, but that the features that make them productive can also carry the damage of one failure to the rest, and that resilience may lie in redundancy, in having more than one source for what is essential. Whether societies that can see such risks are willing to pay the cost of insuring against them is a question the Bronze Age leaves open, as it remains open for us.",
+        "question": "Which of the following best captures the author's view of the late Bronze Age collapse?",
+        "options": [
+          "A) The Sea Peoples destroyed the palace states of the eastern Mediterranean, as the Egyptian inscriptions record, and no further explanation is needed.",
+          "B) It was an illusion produced by the survival of palace archives, and life in the region continued largely unchanged in every other respect.",
+          "C) It is best explained as a cascade through interdependent states, though the explanation must still account for which societies survived.",
+          "D) Modern societies, being more complex than those of the Bronze Age, are certain to suffer a collapse of the same kind in due course."
+        ],
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> The author favours the multi-causal explanation but stresses that it must pass the comparative test (Egypt and Assyria). B is the discredited single-cause view; C overstates paragraph 5; D contradicts the cautious conclusion."
+      },
+      {
+        "id": "q8",
+        "type": "RC",
+        "passage": "Around 1200 BCE the eastern Mediterranean, which had been a web of palace states trading in tin, copper, grain, textiles and luxury goods, came apart within a few decades. The Hittite capital was abandoned. The port of Ugarit on the Syrian coast was destroyed and never rebuilt. The Mycenaean palaces of Greece were burned, and with them vanished the system of records on which their administration depended; literacy itself disappeared from Greece for centuries. Egypt survived, though shaken, and records the defeat of invaders, whom it called the Sea Peoples, by Ramesses III in about 1177 BCE. Within a generation, a world of great powers in constant diplomatic correspondence had been replaced by smaller, poorer and more isolated societies.\n\nThe search for a cause began early, and for a long time it produced single answers. The Egyptian inscriptions pointed to invaders from the sea, and for generations the Sea Peoples were blamed. Later scholars proposed an earthquake storm, a sequence of seismic shocks along the great fault lines of the region; prolonged drought, inferred from pollen and sediment records; famine; and internal revolt against the palace elites. Each had some evidence, and none sufficed. Earthquakes can destroy a city but do not explain why it was not rebuilt; drought explains hunger but not why states in wetter regions fell; and the Sea Peoples, who appear in Egyptian reliefs as migrants with families and ox-carts, look less like the cause of the collapse than a symptom of the displacement that accompanied it.\n\nThe now favoured explanation is multi-causal. On this account the late Bronze Age states were bound together by trade, tribute and marriage alliances, so tightly that each depended on the others for things it could not produce, tin above all, since bronze requires it and it came from few and distant sources. Interdependence made the system efficient while it held, but fragile when it did not: a shock that an isolated state would have absorbed spread through the network, and several shocks arriving together overwhelmed its capacity to adapt. A drought could cut harvests, famine could unsettle populations and set them moving, migrants could threaten trade routes, and the loss of trade could deprive palaces of the goods that sustained their authority. The collapse was, in this telling, a cascade.\n\nThis is persuasive, but it has a weakness that deserves attention. An explanation that allows any combination of drought, earthquakes, invasion and revolt to contribute is hard to test, since no evidence can count against it. The explanation risks becoming a way of describing what happened and not of accounting for why. The more serious test is comparative. Egypt and Assyria, both deeply involved in the same networks, survived, while others did not. A good explanation must say why, and the candidate answers, such as Egypt's concentrated agricultural wealth in the Nile valley, its centralised army and its geographical protection, are plausible but need to be shown and not assumed.\n\nAnother objection concerns the word collapse. The destruction was real, but historians increasingly stress that it was uneven, and that its apparent suddenness owes much to the nature of the evidence. A palace that kept archives leaves a dramatic record of its fall; a village that quietly adapted leaves almost nothing. Where life continued, as in parts of Cyprus and the Levantine coast, it did so in altered forms, and some of the societies that emerged, among them the Phoenician cities, benefited from the disruption, since the removal of the great powers gave them room to grow.\n\nThe episode has attracted attention beyond ancient history because it appears to warn us about modern complexity. The analogy should be handled carefully. What it suggests is not that complex systems inevitably fail, but that the features that make them productive can also carry the damage of one failure to the rest, and that resilience may lie in redundancy, in having more than one source for what is essential. Whether societies that can see such risks are willing to pay the cost of insuring against them is a question the Bronze Age leaves open, as it remains open for us.",
+        "question": "The author calls the Sea Peoples 'a symptom' rather than the cause of the collapse chiefly because",
+        "options": [
+          "A) the Egyptians defeated them in battle in about 1177 BCE, which shows that they were not powerful.",
+          "B) they appear in Egyptian reliefs as migrants with families and ox-carts, which suggests displacement.",
+          "C) no state other than Egypt mentions them in its surviving records, which suggests that they were few.",
+          "D) they came from regions that had not been affected by the drought that is inferred from pollen records."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> Paragraph 2 cites their depiction as migrants with families and ox-carts. B is not offered as the reason; C and D are not claimed."
+      },
+      {
+        "id": "q9",
+        "type": "RC",
+        "passage": "Around 1200 BCE the eastern Mediterranean, which had been a web of palace states trading in tin, copper, grain, textiles and luxury goods, came apart within a few decades. The Hittite capital was abandoned. The port of Ugarit on the Syrian coast was destroyed and never rebuilt. The Mycenaean palaces of Greece were burned, and with them vanished the system of records on which their administration depended; literacy itself disappeared from Greece for centuries. Egypt survived, though shaken, and records the defeat of invaders, whom it called the Sea Peoples, by Ramesses III in about 1177 BCE. Within a generation, a world of great powers in constant diplomatic correspondence had been replaced by smaller, poorer and more isolated societies.\n\nThe search for a cause began early, and for a long time it produced single answers. The Egyptian inscriptions pointed to invaders from the sea, and for generations the Sea Peoples were blamed. Later scholars proposed an earthquake storm, a sequence of seismic shocks along the great fault lines of the region; prolonged drought, inferred from pollen and sediment records; famine; and internal revolt against the palace elites. Each had some evidence, and none sufficed. Earthquakes can destroy a city but do not explain why it was not rebuilt; drought explains hunger but not why states in wetter regions fell; and the Sea Peoples, who appear in Egyptian reliefs as migrants with families and ox-carts, look less like the cause of the collapse than a symptom of the displacement that accompanied it.\n\nThe now favoured explanation is multi-causal. On this account the late Bronze Age states were bound together by trade, tribute and marriage alliances, so tightly that each depended on the others for things it could not produce, tin above all, since bronze requires it and it came from few and distant sources. Interdependence made the system efficient while it held, but fragile when it did not: a shock that an isolated state would have absorbed spread through the network, and several shocks arriving together overwhelmed its capacity to adapt. A drought could cut harvests, famine could unsettle populations and set them moving, migrants could threaten trade routes, and the loss of trade could deprive palaces of the goods that sustained their authority. The collapse was, in this telling, a cascade.\n\nThis is persuasive, but it has a weakness that deserves attention. An explanation that allows any combination of drought, earthquakes, invasion and revolt to contribute is hard to test, since no evidence can count against it. The explanation risks becoming a way of describing what happened and not of accounting for why. The more serious test is comparative. Egypt and Assyria, both deeply involved in the same networks, survived, while others did not. A good explanation must say why, and the candidate answers, such as Egypt's concentrated agricultural wealth in the Nile valley, its centralised army and its geographical protection, are plausible but need to be shown and not assumed.\n\nAnother objection concerns the word collapse. The destruction was real, but historians increasingly stress that it was uneven, and that its apparent suddenness owes much to the nature of the evidence. A palace that kept archives leaves a dramatic record of its fall; a village that quietly adapted leaves almost nothing. Where life continued, as in parts of Cyprus and the Levantine coast, it did so in altered forms, and some of the societies that emerged, among them the Phoenician cities, benefited from the disruption, since the removal of the great powers gave them room to grow.\n\nThe episode has attracted attention beyond ancient history because it appears to warn us about modern complexity. The analogy should be handled carefully. What it suggests is not that complex systems inevitably fail, but that the features that make them productive can also carry the damage of one failure to the rest, and that resilience may lie in redundancy, in having more than one source for what is essential. Whether societies that can see such risks are willing to pay the cost of insuring against them is a question the Bronze Age leaves open, as it remains open for us.",
+        "question": "Which of the following, if true, would most weaken the cascade explanation?",
+        "options": [
+          "A) States barely linked to the network fell at the same time and in the same way as closely linked ones.",
+          "B) Several states that were closely connected to the network survived the collapse and flourished for centuries afterwards.",
+          "C) The palace states obtained their tin from a small number of distant sources, which they could not easily replace.",
+          "D) Palaces kept archives but villages did not, and so villages left few written records of what happened in them."
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> The cascade claims that interdependence spread the damage. If weakly connected states fell in the same way, interdependence was not the mechanism. B is the survival puzzle the author already raises; C supports the explanation; D concerns evidence, not mechanism."
+      },
+      {
+        "id": "q10",
+        "type": "RC",
+        "passage": "Around 1200 BCE the eastern Mediterranean, which had been a web of palace states trading in tin, copper, grain, textiles and luxury goods, came apart within a few decades. The Hittite capital was abandoned. The port of Ugarit on the Syrian coast was destroyed and never rebuilt. The Mycenaean palaces of Greece were burned, and with them vanished the system of records on which their administration depended; literacy itself disappeared from Greece for centuries. Egypt survived, though shaken, and records the defeat of invaders, whom it called the Sea Peoples, by Ramesses III in about 1177 BCE. Within a generation, a world of great powers in constant diplomatic correspondence had been replaced by smaller, poorer and more isolated societies.\n\nThe search for a cause began early, and for a long time it produced single answers. The Egyptian inscriptions pointed to invaders from the sea, and for generations the Sea Peoples were blamed. Later scholars proposed an earthquake storm, a sequence of seismic shocks along the great fault lines of the region; prolonged drought, inferred from pollen and sediment records; famine; and internal revolt against the palace elites. Each had some evidence, and none sufficed. Earthquakes can destroy a city but do not explain why it was not rebuilt; drought explains hunger but not why states in wetter regions fell; and the Sea Peoples, who appear in Egyptian reliefs as migrants with families and ox-carts, look less like the cause of the collapse than a symptom of the displacement that accompanied it.\n\nThe now favoured explanation is multi-causal. On this account the late Bronze Age states were bound together by trade, tribute and marriage alliances, so tightly that each depended on the others for things it could not produce, tin above all, since bronze requires it and it came from few and distant sources. Interdependence made the system efficient while it held, but fragile when it did not: a shock that an isolated state would have absorbed spread through the network, and several shocks arriving together overwhelmed its capacity to adapt. A drought could cut harvests, famine could unsettle populations and set them moving, migrants could threaten trade routes, and the loss of trade could deprive palaces of the goods that sustained their authority. The collapse was, in this telling, a cascade.\n\nThis is persuasive, but it has a weakness that deserves attention. An explanation that allows any combination of drought, earthquakes, invasion and revolt to contribute is hard to test, since no evidence can count against it. The explanation risks becoming a way of describing what happened and not of accounting for why. The more serious test is comparative. Egypt and Assyria, both deeply involved in the same networks, survived, while others did not. A good explanation must say why, and the candidate answers, such as Egypt's concentrated agricultural wealth in the Nile valley, its centralised army and its geographical protection, are plausible but need to be shown and not assumed.\n\nAnother objection concerns the word collapse. The destruction was real, but historians increasingly stress that it was uneven, and that its apparent suddenness owes much to the nature of the evidence. A palace that kept archives leaves a dramatic record of its fall; a village that quietly adapted leaves almost nothing. Where life continued, as in parts of Cyprus and the Levantine coast, it did so in altered forms, and some of the societies that emerged, among them the Phoenician cities, benefited from the disruption, since the removal of the great powers gave them room to grow.\n\nThe episode has attracted attention beyond ancient history because it appears to warn us about modern complexity. The analogy should be handled carefully. What it suggests is not that complex systems inevitably fail, but that the features that make them productive can also carry the damage of one failure to the rest, and that resilience may lie in redundancy, in having more than one source for what is essential. Whether societies that can see such risks are willing to pay the cost of insuring against them is a question the Bronze Age leaves open, as it remains open for us.",
+        "question": "Each of the following is mentioned as a reason why single-cause explanations were found wanting EXCEPT",
+        "options": [
+          "A) earthquakes do not explain why destroyed cities were not rebuilt",
+          "B) drought does not explain why states in wetter regions fell",
+          "C) the Sea Peoples appear in the records as migrants and not as armies alone",
+          "D) famine cannot occur in societies with grain stored in palaces"
+        ],
+        "answer": 3,
+        "explanation": "<strong>Explanation:</strong> B, C and D appear in paragraph 2. Grain storage in palaces is never mentioned."
+      },
+      {
+        "id": "q11",
+        "type": "RC",
+        "passage": "Around 1200 BCE the eastern Mediterranean, which had been a web of palace states trading in tin, copper, grain, textiles and luxury goods, came apart within a few decades. The Hittite capital was abandoned. The port of Ugarit on the Syrian coast was destroyed and never rebuilt. The Mycenaean palaces of Greece were burned, and with them vanished the system of records on which their administration depended; literacy itself disappeared from Greece for centuries. Egypt survived, though shaken, and records the defeat of invaders, whom it called the Sea Peoples, by Ramesses III in about 1177 BCE. Within a generation, a world of great powers in constant diplomatic correspondence had been replaced by smaller, poorer and more isolated societies.\n\nThe search for a cause began early, and for a long time it produced single answers. The Egyptian inscriptions pointed to invaders from the sea, and for generations the Sea Peoples were blamed. Later scholars proposed an earthquake storm, a sequence of seismic shocks along the great fault lines of the region; prolonged drought, inferred from pollen and sediment records; famine; and internal revolt against the palace elites. Each had some evidence, and none sufficed. Earthquakes can destroy a city but do not explain why it was not rebuilt; drought explains hunger but not why states in wetter regions fell; and the Sea Peoples, who appear in Egyptian reliefs as migrants with families and ox-carts, look less like the cause of the collapse than a symptom of the displacement that accompanied it.\n\nThe now favoured explanation is multi-causal. On this account the late Bronze Age states were bound together by trade, tribute and marriage alliances, so tightly that each depended on the others for things it could not produce, tin above all, since bronze requires it and it came from few and distant sources. Interdependence made the system efficient while it held, but fragile when it did not: a shock that an isolated state would have absorbed spread through the network, and several shocks arriving together overwhelmed its capacity to adapt. A drought could cut harvests, famine could unsettle populations and set them moving, migrants could threaten trade routes, and the loss of trade could deprive palaces of the goods that sustained their authority. The collapse was, in this telling, a cascade.\n\nThis is persuasive, but it has a weakness that deserves attention. An explanation that allows any combination of drought, earthquakes, invasion and revolt to contribute is hard to test, since no evidence can count against it. The explanation risks becoming a way of describing what happened and not of accounting for why. The more serious test is comparative. Egypt and Assyria, both deeply involved in the same networks, survived, while others did not. A good explanation must say why, and the candidate answers, such as Egypt's concentrated agricultural wealth in the Nile valley, its centralised army and its geographical protection, are plausible but need to be shown and not assumed.\n\nAnother objection concerns the word collapse. The destruction was real, but historians increasingly stress that it was uneven, and that its apparent suddenness owes much to the nature of the evidence. A palace that kept archives leaves a dramatic record of its fall; a village that quietly adapted leaves almost nothing. Where life continued, as in parts of Cyprus and the Levantine coast, it did so in altered forms, and some of the societies that emerged, among them the Phoenician cities, benefited from the disruption, since the removal of the great powers gave them room to grow.\n\nThe episode has attracted attention beyond ancient history because it appears to warn us about modern complexity. The analogy should be handled carefully. What it suggests is not that complex systems inevitably fail, but that the features that make them productive can also carry the damage of one failure to the rest, and that resilience may lie in redundancy, in having more than one source for what is essential. Whether societies that can see such risks are willing to pay the cost of insuring against them is a question the Bronze Age leaves open, as it remains open for us.",
+        "question": "The author mentions Egypt and Assyria in order to",
+        "options": [
+          "A) show that deep involvement in the trade network did not expose a state to the risk of collapse.",
+          "B) prove that Egypt's agricultural wealth and army explain why it survived the collapse of its neighbours.",
+          "C) set a comparative test that any adequate explanation of the collapse must pass.",
+          "D) argue that the Sea Peoples were defeated mainly because of the geographical protection that Egypt enjoyed."
+        ],
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> Paragraph 4 calls the comparison 'the more serious test'. B contradicts 'deeply involved in the same networks'; C and D treat plausible candidate answers as proven, which the author says must be 'shown and not assumed'."
+      },
+      {
+        "id": "q12",
+        "type": "RC",
+        "passage": "Around 1200 BCE the eastern Mediterranean, which had been a web of palace states trading in tin, copper, grain, textiles and luxury goods, came apart within a few decades. The Hittite capital was abandoned. The port of Ugarit on the Syrian coast was destroyed and never rebuilt. The Mycenaean palaces of Greece were burned, and with them vanished the system of records on which their administration depended; literacy itself disappeared from Greece for centuries. Egypt survived, though shaken, and records the defeat of invaders, whom it called the Sea Peoples, by Ramesses III in about 1177 BCE. Within a generation, a world of great powers in constant diplomatic correspondence had been replaced by smaller, poorer and more isolated societies.\n\nThe search for a cause began early, and for a long time it produced single answers. The Egyptian inscriptions pointed to invaders from the sea, and for generations the Sea Peoples were blamed. Later scholars proposed an earthquake storm, a sequence of seismic shocks along the great fault lines of the region; prolonged drought, inferred from pollen and sediment records; famine; and internal revolt against the palace elites. Each had some evidence, and none sufficed. Earthquakes can destroy a city but do not explain why it was not rebuilt; drought explains hunger but not why states in wetter regions fell; and the Sea Peoples, who appear in Egyptian reliefs as migrants with families and ox-carts, look less like the cause of the collapse than a symptom of the displacement that accompanied it.\n\nThe now favoured explanation is multi-causal. On this account the late Bronze Age states were bound together by trade, tribute and marriage alliances, so tightly that each depended on the others for things it could not produce, tin above all, since bronze requires it and it came from few and distant sources. Interdependence made the system efficient while it held, but fragile when it did not: a shock that an isolated state would have absorbed spread through the network, and several shocks arriving together overwhelmed its capacity to adapt. A drought could cut harvests, famine could unsettle populations and set them moving, migrants could threaten trade routes, and the loss of trade could deprive palaces of the goods that sustained their authority. The collapse was, in this telling, a cascade.\n\nThis is persuasive, but it has a weakness that deserves attention. An explanation that allows any combination of drought, earthquakes, invasion and revolt to contribute is hard to test, since no evidence can count against it. The explanation risks becoming a way of describing what happened and not of accounting for why. The more serious test is comparative. Egypt and Assyria, both deeply involved in the same networks, survived, while others did not. A good explanation must say why, and the candidate answers, such as Egypt's concentrated agricultural wealth in the Nile valley, its centralised army and its geographical protection, are plausible but need to be shown and not assumed.\n\nAnother objection concerns the word collapse. The destruction was real, but historians increasingly stress that it was uneven, and that its apparent suddenness owes much to the nature of the evidence. A palace that kept archives leaves a dramatic record of its fall; a village that quietly adapted leaves almost nothing. Where life continued, as in parts of Cyprus and the Levantine coast, it did so in altered forms, and some of the societies that emerged, among them the Phoenician cities, benefited from the disruption, since the removal of the great powers gave them room to grow.\n\nThe episode has attracted attention beyond ancient history because it appears to warn us about modern complexity. The analogy should be handled carefully. What it suggests is not that complex systems inevitably fail, but that the features that make them productive can also carry the damage of one failure to the rest, and that resilience may lie in redundancy, in having more than one source for what is essential. Whether societies that can see such risks are willing to pay the cost of insuring against them is a question the Bronze Age leaves open, as it remains open for us.",
+        "question": "The author's attitude towards the analogy with modern complexity is best described as",
+        "options": [
+          "A) dismissive: the Bronze Age has nothing to teach us about the risks of interdependence in the modern world.",
+          "B) alarmed: modern societies are bound to collapse in the way that the Bronze Age states did.",
+          "C) enthusiastic: the analogy proves that redundancy is always worth the cost of providing it.",
+          "D) cautious: it offers a lesson about redundancy, but should not be pressed into a prediction of failure."
+        ],
+        "answer": 3,
+        "explanation": "<strong>Explanation:</strong> 'The analogy should be handled carefully'; the lesson is that productive features can spread damage and that redundancy may help, and the final question is left open. The other options are too extreme."
+      },
+      {
+        "id": "q13",
+        "type": "RC",
+        "passage": "Interviewer: People worry that our era will leave less trace than the Middle Ages, because digital files vanish. Is that fair?\n\nArchivist: Half fair. A parchment can sit in a cellar for five hundred years and still be read. A file can be unreadable in twenty, not because the bits decay, though they can, but because nobody can run the software that interprets them. The threat is obsolescence more than decay. But the opposite problem is as real: we are producing more records than any period in history and cannot keep or index all of them, so future historians may drown rather than starve.\n\nInterviewer: So what should be saved?\n\nArchivist: That is the uncomfortable question, because preservation is selection, and selection is judgement made on behalf of people who do not yet exist. The least bad policy is to keep original formats along with the documentation needed to interpret them, and to be generous about what counts as worth keeping, since the things later generations value are often the dull ones: price lists, parish registers, shipping manifests.",
+        "question": "According to the archivist, the main threat to digital records is",
+        "options": [
+          "A) the obsolescence of the software needed to interpret files, more than their physical decay.",
+          "B) the physical decay of storage media, which makes files unreadable within a few years of their creation.",
+          "C) the deliberate deletion of records by institutions that wish to conceal their activities from historians.",
+          "D) the shortage of historians who are trained to interpret the records produced by modern institutions."
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> He says 'the threat is obsolescence more than decay'. B contradicts this; C and D are not mentioned."
+      },
+      {
+        "id": "q14",
+        "type": "RC",
+        "passage": "Interviewer: People worry that our era will leave less trace than the Middle Ages, because digital files vanish. Is that fair?\n\nArchivist: Half fair. A parchment can sit in a cellar for five hundred years and still be read. A file can be unreadable in twenty, not because the bits decay, though they can, but because nobody can run the software that interprets them. The threat is obsolescence more than decay. But the opposite problem is as real: we are producing more records than any period in history and cannot keep or index all of them, so future historians may drown rather than starve.\n\nInterviewer: So what should be saved?\n\nArchivist: That is the uncomfortable question, because preservation is selection, and selection is judgement made on behalf of people who do not yet exist. The least bad policy is to keep original formats along with the documentation needed to interpret them, and to be generous about what counts as worth keeping, since the things later generations value are often the dull ones: price lists, parish registers, shipping manifests.",
+        "question": "The archivist's comment about price lists, parish registers and shipping manifests suggests that",
+        "options": [
+          "A) records of trade and religion are more important than the records of governments and of private individuals.",
+          "B) the records later generations value most may be those that seem unremarkable to the people who make them.",
+          "C) archives should keep only those records that historians have already shown to be useful to their research.",
+          "D) future historians will be unable to make use of any records that are not kept in their original formats."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> He says 'the things later generations value are often the dull ones', hence the case for generosity in selecting. B ranks record types without support; C reverses his argument; D overstates his advice about formats."
+      },
+      {
+        "id": "q15",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Why the pattern holds so widely, even in texts that are produced in unrelated ways, is still debated.\n2. In almost every language, a few words are used extremely often, while most words are used rarely.\n3. The linguist George Zipf observed that a word's frequency is roughly inversely proportional to its rank in a frequency table.\n4. The most common word therefore appears about twice as often as the second, three times as often as the third, and so on.",
+        "answer": "2341",
+        "explanation": "<strong>Explanation:</strong> Read the sentences in the order they build: (2) In almost every language... then (3) The linguist George Zipf... then (4) The most common word... then (1) Why the pattern holds.... Answer: 2341."
+      },
+      {
+        "id": "q16",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Gutenberg's innovation in the fifteenth century was therefore less the invention of movable type than the fitting of it to a script and a market that could use it.\n2. Yet it never displaced block printing in East Asia, where the thousands of characters in the writing system made typesetting laborious.\n3. An alphabet of a few dozen letters, by contrast, suited the technique, because a small stock of type could be reused endlessly.\n4. Movable type was used in China and Korea centuries before Gutenberg.",
+        "answer": "4231",
+        "explanation": "<strong>Explanation:</strong> Read the sentences in the order they build: (4) Movable type was used... then (2) Yet it never displaced... then (3) An alphabet of a few dozen... then (1) Gutenberg's innovation.... Answer: 4231."
+      },
+      {
+        "id": "q17",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Its benefits have since proved harder to demonstrate than its supporters assumed.\n2. Its enduring popularity, in the face of such findings, probably owes more to the pleasure of long summer evenings than to any measured gain.\n3. Daylight saving time was first adopted on a large scale during the First World War, as a means of saving fuel.\n4. Studies of its effect on energy use have found savings that are small, absent or, in some regions, negative, as the extra evening light is offset by heating and cooling.",
+        "answer": "3142",
+        "explanation": "<strong>Explanation:</strong> Read the sentences in the order they build: (3) Daylight saving time was first... then (1) Its benefits have since... then (4) Studies of its effect... then (2) Its enduring popularity.... Answer: 3142."
+      },
+      {
+        "id": "q18",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. This seems to favour the seller less than a first-price auction, in which the winner pays what he bid.\n2. Bidders have no reason to shade their offers, and the seller is spared the guesswork that first-price auctions provoke.\n3. But the rule changes how people bid: since the price does not depend on one's own bid, the best strategy is to bid one's true value.\n4. In a second-price auction, the highest bidder wins but pays the amount of the second-highest bid.",
+        "answer": "4132",
+        "explanation": "<strong>Explanation:</strong> Read the sentences in the order they build: (4) In a second-price auction... then (1) This seems to favour... then (3) But the rule changes... then (2) Bidders have no reason.... Answer: 4132."
+      },
+      {
+        "id": "q19",
+        "type": "ParaSummary",
+        "question": "Select the option that best summarizes the paragraph:\n\n'A recurring puzzle in medicine is that treatments tested in trials often fail to deliver in routine practice. Trial participants are selected for being likely to benefit and to adhere, are monitored closely, and are free of other conditions; ordinary patients are none of these. A drug's efficacy, the effect under ideal conditions, thus differs from its effectiveness, the effect in the world, and the gap between them is not a flaw in the trial but a consequence of what it was designed to isolate.'",
+        "options": [
+          "A) Clinical trials are unreliable because their participants are closely monitored, and doctors should therefore ignore the results of every trial.",
+          "B) A drug that works in a trial will work equally well in routine practice, since the trial has already established its effect beyond doubt.",
+          "C) Trials measure efficacy under ideal conditions, so results can overstate what a treatment does for ordinary patients.",
+          "D) Ordinary patients gain more from drugs than trial participants do, because trials exclude those who are the most severely ill."
+        ],
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> The paragraph distinguishes efficacy from effectiveness and says the gap follows from the trial's design. B and C contradict this; D reverses the direction of the gap."
+      },
+      {
+        "id": "q20",
+        "type": "ParaSummary",
+        "question": "Select the option that best summarizes the paragraph:\n\n'Economic historians once explained the early industrialisation of Britain by its coal and its colonies. Recent work places more weight on a less visible resource: high wages. Because labour was expensive relative to energy, British manufacturers had an unusual incentive to invent machines that saved labour and used coal, whereas elsewhere, where labour was cheap, the same machines would not have repaid their cost. On this view, the Industrial Revolution was less a matter of what Britain had than of what its prices made worth inventing.'",
+        "options": [
+          "A) Britain's industrialisation is increasingly explained by high wages relative to energy, which made labour-saving inventions profitable.",
+          "B) Britain industrialised first because it had cheap labour, which allowed its manufacturers to produce goods at lower cost than their rivals could.",
+          "C) Coal and colonies had nothing to do with British industrialisation, as economic historians have now shown to be beyond any doubt.",
+          "D) The Industrial Revolution happened in Britain because its inventors were more talented than those of other countries in the same period."
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> The paragraph shifts weight from coal and colonies to relative prices, with high wages encouraging labour-saving machines. B reverses 'expensive labour'; C overstates ('nothing to do'); D invents a claim."
+      },
+      {
+        "id": "q21",
+        "type": "ParaSummary",
+        "question": "Select the option that best summarizes the paragraph:\n\n'The ancient Greeks distinguished between two words for time. Chronos was the time of the clock and the calendar, uniform and measurable; kairos was the right or opportune moment, qualitative and unrepeatable. Modern life privileges the first, and our tools, from schedules to stopwatches, are built for it. But much that matters, such as when to speak, when to act and when to wait, is a matter of kairos, and no calendar can tell us when it has come.'",
+        "options": [
+          "A) The ancient Greeks had no clocks and so could not measure time accurately, a defect that modern tools have since remedied in full.",
+          "B) Greek separated measurable time from the opportune moment, and modern tools favour the former though much depends on the latter.",
+          "C) Kairos and chronos were equally prized by the Greeks, and modern life gives equal weight to both kinds of time in practice.",
+          "D) Calendars and schedules should be abandoned, since they prevent people from recognising the right moment in which to act."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> The paragraph contrasts chronos and kairos and notes that modern tools suit chronos while important decisions turn on kairos. The others distort or overstate this."
+      },
+      {
+        "id": "q22",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\n'It is natural to suppose that a more severe punishment deters more crime. ________ Offenders, studies suggest, are far more sensitive to the likelihood of being caught than to the length of the sentence, partly because those who commit crimes tend to discount the future heavily and partly because they expect not to be caught. Doubling the sentence for a crime that is rarely detected changes little; raising the chance of detection changes a great deal.'",
+        "options": [
+          "A) Severe punishments should therefore be abolished, since they have never been shown to reduce any form of crime.",
+          "B) Offenders who are caught are always sentenced to the maximum term, and so severity cannot be said to differ.",
+          "C) Detection rates are determined by the severity of sentences, and so the two are in effect one and the same factor.",
+          "D) The evidence, however, suggests that the certainty of punishment matters more than its severity."
+        ],
+        "answer": 3,
+        "explanation": "<strong>Explanation:</strong> The next sentences say offenders respond to the likelihood of being caught more than to severity. B, C and D contradict or distort this."
+      },
+      {
+        "id": "q23",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\n'A map is useful because it leaves things out. ________ A map that recorded every tree and every paving stone would be as big as the country and as hard to read, and would defeat its purpose of letting us find our way. The art of the cartographer lies in deciding what to omit, and every such decision reflects a view of what the map is for.'",
+        "options": [
+          "A) Maps are therefore inaccurate, and should not be trusted by travellers who wish to find their way in unfamiliar country.",
+          "B) Cartographers omit features at random, since no principle exists for deciding which details deserve to be shown on a map.",
+          "C) Its value lies in simplification, and a map fully faithful to the terrain would be worthless.",
+          "D) The best map is always the largest one, since it contains the greatest number of details about the country that it shows."
+        ],
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> The following sentences show that completeness would defeat a map's purpose. B, C and D contradict or distort the paragraph."
+      },
+      {
+        "id": "q24",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\n'Why do some pieces of music give us chills? ________ Studies of listeners who report such responses find that the effect is strongest at moments when an expectation is set up and then violated, as when a melody swerves from the note we predicted, and brain scans show activity in regions linked with reward. The pleasure appears to arise less from the notes themselves than from the interplay between prediction and surprise.'",
+        "options": [
+          "A) The reason is unknown, and no scientific study has ever produced any evidence that bears on the question.",
+          "B) One influential account locates the answer in the way music plays with our expectations.",
+          "C) Chills are caused by the volume of the music, and so quiet pieces cannot produce any such response at all.",
+          "D) Only trained musicians ever experience such responses, since they alone can predict how a melody will continue."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> The sentences that follow report the role of expectation and surprise. B contradicts 'studies'; C and D are not supported."
+      },
+      {
+        "id": "q25",
+        "type": "Vocabulary",
+        "question": "Choose the option that best completes the sentence:\n\nThe minister's reply was a model of ________: lengthy, courteous and entirely without content.",
+        "options": [
+          "A) prevarication",
+          "B) brevity",
+          "C) candour",
+          "D) forthrightness"
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> 'Prevarication' is speaking evasively. 'Brevity', 'candour' and 'forthrightness' contradict 'lengthy' and 'without content'."
+      },
+      {
+        "id": "q26",
+        "type": "Vocabulary",
+        "question": "Choose the option that best completes the sentence:\n\nThe old regime's apparent stability proved ________: it rested on fear, and vanished when the fear did.",
+        "options": [
+          "A) durable",
+          "B) resilient",
+          "C) venerable",
+          "D) illusory"
+        ],
+        "answer": 3,
+        "explanation": "<strong>Explanation:</strong> 'Illusory' means deceptive and unreal. The other options suggest real strength or long standing."
+      },
+      {
+        "id": "q27",
+        "type": "Vocabulary",
+        "question": "Choose the option that best completes the sentence:\n\nThe merger was described as a marriage of convenience, since ________.",
+        "options": [
+          "A) the two firms had worked closely together for several decades and held the same long-term strategy",
+          "B) the founders of both firms were related by marriage and had planned the merger since their childhood",
+          "C) neither firm shared the other's aims, and each stood to gain only in the short term",
+          "D) the shareholders of both firms had voted unanimously for the merger after a long period of consultation"
+        ],
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> A marriage of convenience is an arrangement made for advantage without real affinity. Only the first option fits. The others describe shared aims, family ties or consensus."
+      },
+      {
+        "id": "q28",
+        "type": "Vocabulary",
+        "question": "Choose the option that best fills the blanks:\n\nThe author's ________ prose, free of ornament, suited a subject that ________ any attempt at ________.",
+        "options": [
+          "A) ornate; resisted; adornment",
+          "B) austere; invited; adornment",
+          "C) austere; resisted; moderation",
+          "D) austere; resisted; adornment"
+        ],
+        "answer": 3,
+        "explanation": "<strong>Explanation:</strong> Austere (plain) prose suits a subject that resisted any attempt at adornment. 'Ornate' contradicts 'free of ornament'; 'invited' contradicts 'suited'; 'resisted... moderation' is illogical."
+      },
+      {
+        "id": "q29",
+        "type": "Vocabulary",
+        "question": "Choose the option that best fills the blanks:\n\nHer ________ ambition, unchecked by scruple, led her to ________ colleagues whose support she had once ________.",
+        "options": [
+          "A) ruthless; betray; courted",
+          "B) unassuming; betray; courted",
+          "C) ruthless; champion; courted",
+          "D) ruthless; betray; disdained"
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> Ruthless, unscrupulous ambition leads her to betray colleagues whose support she had courted. 'Unassuming' contradicts 'unchecked by scruple'; 'champion' reverses the sense; 'disdained' breaks the point about betraying former supporters."
+      },
+      {
+        "id": "q30",
+        "type": "Vocabulary",
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "A) The committee's report was a model of clarity, and its conclusions were widely praised by the press.",
+          "B) The firm continued to flaunt safety rules despite repeated warnings.",
+          "C) She had a principled objection to the scheme, which she explained to the board at some length.",
+          "D) The siren sounded continuously for an hour before it was finally switched off by the guard on duty."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> To disregard a rule openly is to 'flout' it; 'flaunt' means to show off. 'Clarity', 'principled' and 'continuously' are used correctly."
+      },
+      {
+        "id": "q31",
+        "type": "Vocabulary",
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "A) The government's precipitous decision to devalue the currency alarmed investors and foreign creditors alike.",
+          "B) The professor was famous for his lucid explanations of difficult ideas to students of every level.",
+          "C) The climber made a precipitous descent down the sheer face of the mountain in the failing light.",
+          "D) He dissembled when asked about the money, pretending that he knew nothing of the transfer at all."
+        ],
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> 'Precipitous' means steep, as in the first sentence; a hasty decision is 'precipitate'. 'Lucid' and 'dissembled' (concealed the truth) are used correctly."
+      },
+      {
+        "id": "q32",
+        "type": "Vocabulary",
+        "question": "Select the word MOST NEARLY SIMILAR in meaning to 'OBSEQUIOUS':",
+        "options": [
+          "A) Servile",
+          "B) Defiant",
+          "C) Taciturn",
+          "D) Capricious"
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> Obsequious means excessively eager to please; 'servile' is closest. 'Defiant' is the opposite."
+      },
+      {
+        "id": "q33",
+        "type": "Vocabulary",
+        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'ASCETIC':",
+        "options": [
+          "A) Abstemious",
+          "B) Sybaritic",
+          "C) Austere",
+          "D) Frugal"
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> An ascetic practises severe self-denial; 'sybaritic' (devoted to luxury) is the antonym. The others are synonyms."
+      },
+      {
+        "id": "q34",
+        "type": "Vocabulary",
+        "question": "Select the word MOST NEARLY SIMILAR in meaning to 'PERSPICACIOUS':",
+        "options": [
+          "A) Garrulous",
+          "B) Gullible",
+          "C) Vindictive",
+          "D) Astute"
+        ],
+        "answer": 3,
+        "explanation": "<strong>Explanation:</strong> Perspicacious means having keen insight; 'astute' is closest. 'Gullible' is nearly the opposite."
+      },
+      {
+        "id": "q35",
+        "type": "Vocabulary",
+        "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'EQUANIMITY':",
+        "options": [
+          "A) Composure",
+          "B) Serenity",
+          "C) Agitation",
+          "D) Imperturbability"
+        ],
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> Equanimity is calmness under strain; 'agitation' is the antonym. The others are synonyms."
+      },
+      {
+        "id": "q36",
+        "type": "Vocabulary",
+        "question": "Choose the correct meaning of the idiom:\n'To play devil's advocate' means to:",
+        "options": [
+          "A) behave wickedly in order to provoke those in authority and to attract public attention",
+          "B) argue against a view merely to test it",
+          "C) defend an accused person whom nobody else in the community is willing to defend",
+          "D) take the side of the person who is losing an argument in order to comfort him afterwards"
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> A devil's advocate argues the opposing case to test an idea, whether or not he believes it."
+      },
+      {
+        "id": "q37",
+        "type": "Vocabulary",
+        "question": "Select the sentence in which 'INFER' is used correctly:",
+        "options": [
+          "A) From the pattern of her replies, I infer that she has not read the report.",
+          "B) By pausing before he answered, the speaker inferred that the question was a difficult one.",
+          "C) The evidence infers that the defendant was present at the scene when the crime took place.",
+          "D) Her tone inferred a deep dissatisfaction with the proposal, though she said nothing openly."
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> To 'infer' is to draw a conclusion from evidence. In the other sentences the speaker or the evidence 'implies', which is a different word."
+      },
+      {
+        "id": "q38",
+        "type": "Grammar",
+        "question": "Choose the best replacement for the underlined portion:\n\nThe committee, <u>having reviewed the proposals, they decided</u> to defer the decision.",
+        "options": [
+          "A) having reviewed the proposals, and they decided",
+          "B) after reviewing the proposals, they having decided",
+          "C) reviewed the proposals, and having decided",
+          "D) having reviewed the proposals, decided"
+        ],
+        "answer": 3,
+        "explanation": "<strong>Explanation:</strong> The participial phrase and the verb share the subject 'the committee', so a second subject ('they') is redundant: 'having reviewed the proposals, decided'."
+      },
+      {
+        "id": "q39",
+        "type": "Grammar",
+        "question": "Choose the best replacement for the underlined portion:\n\nHe is the only one of the candidates <u>who have prepared</u> properly.",
+        "options": [
+          "A) who are prepared",
+          "B) which have prepared",
+          "C) who has prepared",
+          "D) that have been preparing"
+        ],
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> 'Who' refers to 'the only one', which is singular: 'the only one... who has prepared'."
+      },
+      {
+        "id": "q40",
+        "type": "Grammar",
+        "question": "Spot the error in the following sentence:\n'The jury (A) / has submitted its verdict (B) / and the members (C) / has dispersed (D).'",
+        "options": [
+          "A) The jury",
+          "B) has submitted its verdict",
+          "C) and the members",
+          "D) has dispersed"
+        ],
+        "answer": 3,
+        "explanation": "<strong>Explanation:</strong> The subject of the second verb is 'the members', which is plural: 'have dispersed'."
+      },
+      {
+        "id": "q41",
+        "type": "Grammar",
+        "question": "Spot the error in the following sentence:\n'Despite of (A) / the heavy rain, (B) / the match (C) / went ahead as planned (D).'",
+        "options": [
+          "A) Despite of",
+          "B) the heavy rain,",
+          "C) the match",
+          "D) went ahead as planned"
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> 'Despite' is not followed by 'of'; the correct forms are 'despite' or 'in spite of'."
+      },
+      {
+        "id": "q42",
+        "type": "Grammar",
+        "question": "Choose the grammatically correct sentence:",
+        "options": [
+          "A) If it was not for her intervention, the project will have failed.",
+          "B) Were it not for her intervention, the project would have failed.",
+          "C) Had it not for her intervention, the project would fail.",
+          "D) Were it not for her intervention, the project will have failed."
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> The inverted conditional 'Were it not for...' pairs with 'would have failed'. The other options mix tenses or form the conditional wrongly."
+      },
+      {
+        "id": "q43",
+        "type": "Grammar",
+        "question": "Choose the correct option to fill in the blank:\n'The manager, as well as his deputies, ________ responsible for the error.",
+        "options": [
+          "A) is",
+          "B) are",
+          "C) were",
+          "D) have been"
+        ],
+        "answer": 0,
+        "explanation": "<strong>Explanation:</strong> 'As well as' does not make the subject plural; the verb agrees with 'the manager': 'is'."
+      },
+      {
+        "id": "q44",
+        "type": "Grammar",
+        "question": "Identify the grammatically INCORRECT sentence:",
+        "options": [
+          "A) He suggested that she consult a specialist before the end of the week.",
+          "B) If I were you, I would apologise to the committee without any delay.",
+          "C) It is high time that we leave for the station.",
+          "D) I wish he were here to explain what happened to the members of the team."
+        ],
+        "answer": 2,
+        "explanation": "<strong>Explanation:</strong> 'It is high time' takes the past subjunctive: 'high time that we left'. The other sentences use the subjunctive correctly."
+      },
+      {
+        "id": "q45",
+        "type": "Grammar",
+        "question": "Choose the correct option to fill in the blank:\n'She has been working here ________ 2019.'",
+        "options": [
+          "A) for",
+          "B) since",
+          "C) from",
+          "D) during"
+        ],
+        "answer": 1,
+        "explanation": "<strong>Explanation:</strong> 'Since' marks a starting point in time; 'for' would need a period (for three years)."
+      }
+    ]
   }
 ]
