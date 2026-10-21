@@ -288,6 +288,7 @@
             <button id="btn-reading" class="nav-btn" onclick="navigateTab('reading')">📑 Reading Practice</button>
             <button id="btn-dilr" class="nav-btn" onclick="navigateTab('dilr')">📊 Daily DI/LR</button>
             <button id="btn-sectional" class="nav-btn" onclick="navigateTab('sectional')">⚡ Sectionals</button>
+            <button id="btn-sec-archive" class="nav-btn" onclick="navigateTab('sec-archive')">📂 Past Sectionals</button>
             <button id="btn-saved" class="nav-btn" onclick="navigateTab('saved')">🔖 Saved Hub (<span id="saved-count">0</span>)</button>
             <button id="btn-archive" class="nav-btn" onclick="navigateTab('archive')">📂 Past RCs</button>
         </div>
@@ -348,8 +349,9 @@
                         <div id="q-options"></div>
                         <div id="q-explanation" class="explanation-box"></div>
                         
-                        <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+                        <div style="display: flex; gap: 8px; margin-top: 20px;">
                             <button id="prev-btn" class="nav-btn" onclick="navQuestion(-1)">← Previous</button>
+                            <button class="secondary-btn" style="flex: 1;" onclick="clearReadingAnswer()">🧹 Clear Option</button>
                             <button id="next-btn" class="nav-btn" onclick="navQuestion(1)">Next →</button>
                         </div>
                         <button id="submit-test-btn" class="submit-btn" onclick="confirmSubmission('reading')">🚀 Submit Test</button>
@@ -373,6 +375,14 @@
                 <div class="question-card" style="text-align:center; padding: 40px;">
                     <h3 style="color:var(--text-heading);">Checking for today's IPMAT Indore Sectional Test...</h3>
                 </div>
+            </div>
+        </div>
+
+        <!-- PAST SECTIONALS ARCHIVE TAB -->
+        <div id="panel-sec-archive" class="view-panel">
+            <div class="question-card">
+                <h2 style="margin-bottom: 15px; color: var(--text-heading);">Past Sectionals Archive (IPMAT Indore Standard)</h2>
+                <div id="sec-archive-container">Loading Past Sectionals...</div>
             </div>
         </div>
 
@@ -494,6 +504,7 @@
         let savedItems = JSON.parse(localStorage.getItem('nextory_saved')) || [];
 
         // Sectional State
+        let allSectionals = [];
         let todaySectional = null;
         let sectionalUserAnswers = {};
         let sectionalSeconds = 2400; // 40 Mins
@@ -560,14 +571,18 @@
             try {
                 const response = await fetch('sectional.json');
                 if (!response.ok) throw new Error("Sectional JSON fetch error");
-                let sectionals = await response.json();
+                let data = await response.json();
                 
-                if (!Array.isArray(sectionals)) sectionals = [sectionals];
+                allSectionals = Array.isArray(data) ? data : [data];
 
-                if (sectionals && sectionals.length > 0) {
+                if (allSectionals && allSectionals.length > 0) {
                     const todayStr = getLocalDateString();
-                    todaySectional = sectionals.find(s => s.date === todayStr) || sectionals[sectionals.length - 1];
+                    const availableSectionals = allSectionals.filter(s => s.date <= todayStr);
+                    
+                    todaySectional = availableSectionals.find(s => s.date === todayStr) || allSectionals[allSectionals.length - 1];
+                    
                     renderSectionalBanner();
+                    renderSectionalArchive(availableSectionals.length > 0 ? availableSectionals : allSectionals);
                 } else {
                     renderNoSectionalBanner();
                 }
@@ -575,6 +590,36 @@
                 console.warn("Sectional data error/fallback:", err);
                 renderNoSectionalBanner();
             }
+        }
+
+        function renderSectionalArchive(sectionalsList) {
+            const container = document.getElementById('sec-archive-container');
+            if (!container) return;
+
+            container.innerHTML = sectionalsList.map(s => `
+                <div class="archive-item" onclick="selectArchiveSectional('${s.id}')">
+                    <div>
+                        <strong style="color:var(--text-heading);">${s.title}</strong>
+                        <div style="font-size:0.8rem; color:var(--text-muted); margin-top:4px;">Duration: ${s.durationMinutes || 40} Mins | Date: ${s.date || 'Practice Set'}</div>
+                    </div>
+                    <span class="sub-tag">Open Test</span>
+                </div>
+            `).join('');
+        }
+
+        function selectArchiveSectional(id) {
+            todaySectional = allSectionals.find(s => s.id === id);
+            if (!todaySectional) return;
+
+            secCurrentQIndex = 0;
+            sectionalUserAnswers = {};
+            isSectionalSubmitted = false;
+            sectionalSeconds = (todaySectional.durationMinutes || 40) * 60;
+
+            navigateTab('sectional');
+            renderSectionalContainerLayout();
+            renderSectionalQuestion();
+            startSectionalCountdown();
         }
 
         async function loadDILRData() {
@@ -775,7 +820,11 @@
 
         function selectDILROption(idx) {
             if (isDILRSubmitted) return;
-            dilrUserAnswers[dilrQIndex] = idx;
+            if (dilrUserAnswers[dilrQIndex] === idx) {
+                delete dilrUserAnswers[dilrQIndex];
+            } else {
+                dilrUserAnswers[dilrQIndex] = idx;
+            }
             renderDILRSet();
         }
 
@@ -809,7 +858,7 @@
         }
 
         function executeSubmission() {
-            const type = pendingSubmissionType; // capture BEFORE closeConfirmModal() resets it to null
+            const type = pendingSubmissionType;
             closeConfirmModal();
             if (type === 'reading') submitTest();
             else if (type === 'dilr') submitDILRSet();
@@ -978,8 +1027,9 @@
             const expHtml = `<div id="sec-q-explanation" class="explanation-box" style="display:${isSectionalSubmitted ? 'block' : 'none'}">${q.explanation || q.rationale || ''}</div>`;
 
             const navBtnsHtml = `
-                <div style="display: flex; justify-content: space-between; margin-top: 25px;">
+                <div style="display: flex; gap: 8px; margin-top: 25px;">
                     <button class="nav-btn" onclick="navSectionalQ(-1)">← Previous</button>
+                    <button class="secondary-btn" style="flex: 1;" onclick="clearSectionalAnswer()">🧹 Clear Option</button>
                     <button class="nav-btn" onclick="navSectionalQ(1)">Next →</button>
                 </div>
                 <button class="submit-btn" onclick="confirmSubmission('sectional')" style="margin-top: 20px;">🚀 Submit Sectional Test</button>`;
@@ -1023,9 +1073,30 @@
             sectionalUserAnswers[secCurrentQIndex] = val.trim();
         }
 
+        // Clear option handlers
+        function clearReadingAnswer() {
+            if (isSubmitted) return;
+            delete userAnswers[currentQIndex];
+            renderQuestion();
+        }
+
+        function clearSectionalAnswer() {
+            if (isSectionalSubmitted) return;
+            delete sectionalUserAnswers[secCurrentQIndex];
+            const titaInput = document.getElementById(`tita-field-${secCurrentQIndex}`);
+            if (titaInput) {
+                titaInput.value = "";
+            }
+            renderSectionalQuestion();
+        }
+
         function selectSectionalOpt(idx) {
             if (isSectionalSubmitted) return;
-            sectionalUserAnswers[secCurrentQIndex] = idx;
+            if (sectionalUserAnswers[secCurrentQIndex] === idx) {
+                delete sectionalUserAnswers[secCurrentQIndex];
+            } else {
+                sectionalUserAnswers[secCurrentQIndex] = idx;
+            }
             renderSectionalQuestion();
         }
 
@@ -1126,7 +1197,6 @@
             });
             document.getElementById('topic-rows-container').innerHTML = topicRowsHtml;
 
-            // FORCE DISPLAY DASHBOARD MODAL
             const dashModal = document.getElementById('dashboard-modal');
             dashModal.classList.add('active');
 
@@ -1392,7 +1462,11 @@
 
         function selectOption(idx) {
             if (isSubmitted) return;
-            userAnswers[currentQIndex] = idx;
+            if (userAnswers[currentQIndex] === idx) {
+                delete userAnswers[currentQIndex];
+            } else {
+                userAnswers[currentQIndex] = idx;
+            }
             renderQuestion();
         }
 
@@ -1430,12 +1504,10 @@
         loadData();
     </script>
 
-    <!-- DETAILED SECTIONAL ANALYSIS (added) -->
+    <!-- DETAILED SECTIONAL ANALYSIS -->
     <script>
-/* NEXTORY - Detailed VA Sectional Analysis */
 (function () {
-  // ---- Marking scheme (edit here) ----
-  const POS = 4, NEG_MCQ = 1, NEG_TITA = 0; // IPMAT Indore: TITA has no negative marking
+  const POS = 4, NEG_MCQ = 1, NEG_TITA = 0;
 
   const SECTIONS = {
     RC: { n: 'Reading Comprehension', c: '#10b981', tip: 'Read one passage daily and, for every question, write why each wrong option is wrong. Practise paragraph-level summaries before answering inference questions.' },
@@ -1457,7 +1529,6 @@
   const fmt = s => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, '0')}`;
   const isTita = q => (q.type && q.type.toUpperCase().includes('TITA')) || !q.options;
 
-  // ---- Per-question time tracking ----
   let qTime = {};
   setInterval(() => {
     try {
@@ -1466,7 +1537,6 @@
     } catch (e) {}
   }, 1000);
 
-  // ---- Styles ----
   const css = document.createElement('style');
   css.textContent = `
   .sa-card{background:#fff;border:1px solid var(--border-light);width:100%;max-width:1000px;border-radius:20px;padding:30px;margin:auto;max-height:92vh;overflow-y:auto;box-shadow:0 25px 50px -12px rgba(15,41,30,.25)}
@@ -1510,7 +1580,6 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // ---- Hook into existing code ----
   const origStart = window.startFullSectionalTest;
   window.startFullSectionalTest = function () {
     qTime = {};
@@ -1526,7 +1595,6 @@
   let charts = [];
 
   function showAnalysis(title, qList, ans, timeTaken) {
-    // ---- Evaluate ----
     const qs = qList.map((q, i) => {
       const a = ans[i], tita = isTita(q);
       let st = 's';
@@ -1551,9 +1619,7 @@
     const attempted = tot.c + tot.w;
     const accuracy = attempted ? Math.round(tot.c / attempted * 100) : 0;
     const lost = qs.filter(x => x.marks < 0).reduce((a, x) => a - x.marks, 0);
-    const skippedPot = tot.s * POS;
 
-    // ---- Insights ----
     const ranked = [...act].sort((a, b) => acc(a) - acc(b));
     const weak = ranked[0], strong = ranked[ranked.length - 1];
     const ins = [];
@@ -1574,7 +1640,6 @@
     const rcQ = S.RC.total, rcTimeShare = timeTaken ? S.RC.time / Math.max(1, qs.reduce((a, x) => a + x.t, 0)) * 100 : 0;
     if (rcQ && rcTimeShare > 55) ins.push({ c: 'warn', i: '⏱️', t: `<b>${Math.round(rcTimeShare)}% of your time went on RCs</b> (${Math.round(rcQ / qs.length * 100)}% of the questions). Quick verbal sections need more time than that.` });
 
-    // ---- HTML ----
     const statBox = (v, l, col) => `<div class="stat-box"><div class="stat-val" style="color:${col || 'var(--text-heading)'}">${v}</div><div class="stat-lbl">${l}</div></div>`;
     const rows = act.map(k => {
       const s = S[k], a = Math.round(acc(k));
@@ -1637,7 +1702,6 @@
     modal.classList.add('active');
     reopen.style.display = 'inline-flex';
 
-    // ---- Charts ----
     charts.forEach(c => c.destroy()); charts = [];
     const labels = act.map(k => SECTIONS[k].n.split(' / ')[0].replace('Reading Comprehension', 'RC'));
     const cols = act.map(k => SECTIONS[k].c);
@@ -1666,7 +1730,6 @@
       options: { ...base, plugins: { legend: { display: false } }, scales: { x: { ticks: { maxTicksLimit: 15 } } } } });
   }
 })();
-
     </script>
 </body>
 </html>
