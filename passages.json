@@ -7251,5 +7251,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The author describes a new window, notes that its claims rest on a chain of models that can be checked, and raises the tension between collective work and individual credit.<br><br>• <strong>Why Option B is Wrong:</strong> The author notes the tension but does not say the committee erred or recommend a rule change.<br><br>• <strong>Why Option C is Wrong:</strong> The author argues that observation can be careful inference and still be observation.<br><br>• <strong>Why Option D is Wrong:</strong> The passage says neutrinos may help identify the sources of cosmic rays and that new windows raise new questions; it does not claim the problem is solved.<br><br><strong>💡 Approach:</strong> Overall-view questions: the answer combines the new-window theme with both qualifications (inference and credit). Options that settle open questions or condemn are traps."
       }
     ]
+  },
+  {
+    "id": "rc-2026-10-25",
+    "date": "2026-10-25",
+    "title": "Trade’s Headline and Its Hidden Parts: The AI Boom, Concentration and the Meaning of Resilience",
+    "genre": "Current Affairs: International Economics & Technology",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1007 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "Disparity",
+          "type": "noun",
+          "def": "A great difference, especially one that is unfair. Syn: inequality, gap. Ant: parity.",
+          "ex": "The disparity between regions widened."
+        },
+        {
+          "word": "Buoyant",
+          "type": "adj",
+          "def": "Cheerful and optimistic; (of an economy or market) strong and prospering. Syn: upbeat, thriving. Ant: depressed.",
+          "ex": "Exports remained buoyant despite the war."
+        },
+        {
+          "word": "Complacent",
+          "type": "adj",
+          "def": "Showing uncritical satisfaction with oneself or one's situation. Syn: smug, self-satisfied. Ant: vigilant.",
+          "ex": "Policymakers cannot afford to be complacent."
+        },
+        {
+          "word": "Volatile",
+          "type": "adj",
+          "def": "Liable to change rapidly and unpredictably. Syn: unstable, erratic. Ant: steady.",
+          "ex": "Energy prices have been volatile."
+        },
+        {
+          "word": "Insidious",
+          "type": "adj",
+          "def": "Proceeding in a gradual, subtle way, but with harmful effects. Syn: stealthy, creeping. Ant: obvious.",
+          "ex": "The insidious spread of dependence went unnoticed."
+        },
+        {
+          "word": "Lacklustre",
+          "type": "adj",
+          "def": "Lacking in vitality, force or conviction. Syn: dull, uninspiring. Ant: vibrant.",
+          "ex": "Services trade showed lacklustre growth."
+        },
+        {
+          "word": "Aggregate",
+          "type": "noun",
+          "def": "A total formed by combining many separate items. Syn: sum, total. Ant: component.",
+          "ex": "The aggregate hides regional differences."
+        },
+        {
+          "word": "Skewed",
+          "type": "adj",
+          "def": "Distorted or biased; unevenly distributed. Syn: lopsided, biased. Ant: balanced.",
+          "ex": "The gains were heavily skewed towards a few economies."
+        },
+        {
+          "word": "Fleeting",
+          "type": "adj",
+          "def": "Lasting for a very short time. Syn: brief, transient. Ant: lasting.",
+          "ex": "The boost proved fleeting."
+        },
+        {
+          "word": "Overstate",
+          "type": "verb",
+          "def": "To exaggerate or give too much importance to something. Syn: exaggerate, inflate. Ant: understate.",
+          "ex": "The headline may overstate the breadth of the recovery."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "All one's eggs in one basket",
+          "def": "To risk everything on a single venture or source.",
+          "ex": "Relying on one sector puts all the eggs in one basket."
+        },
+        {
+          "idiom": "Ride the wave",
+          "def": "To take advantage of a trend or period of success.",
+          "ex": "Asian exporters rode the wave of AI demand."
+        },
+        {
+          "idiom": "Burst the bubble",
+          "def": "To end a period of unrealistic optimism or inflated values.",
+          "ex": "A sudden fall in orders could burst the bubble."
+        },
+        {
+          "idiom": "Tip the balance",
+          "def": "To cause one side to prevail in a close contest.",
+          "ex": "AI goods tipped the balance in the forecast."
+        },
+        {
+          "idiom": "Weather the storm",
+          "def": "To survive a period of difficulty.",
+          "ex": "Most economies weathered the storm of the energy shock."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Make up for",
+          "def": "To compensate for a loss or deficiency.",
+          "ex": "AI trade made up for the fall in energy exports."
+        },
+        {
+          "verb": "Tail off",
+          "def": "To decline gradually in amount or intensity.",
+          "ex": "Growth tailed off in the second half."
+        },
+        {
+          "verb": "Hinge on",
+          "def": "To depend entirely on something.",
+          "ex": "The outlook hinges on investment in AI."
+        },
+        {
+          "verb": "Fall behind",
+          "def": "To fail to keep up with others.",
+          "ex": "Some regions risk falling behind in the AI economy."
+        },
+        {
+          "verb": "Take off",
+          "def": "To begin to be successful or popular rapidly.",
+          "ex": "Trade in AI goods took off in the first half."
+        }
+      ]
+    },
+    "passage": "On 8 October the World Trade Organization raised its forecast for the growth in the volume of world merchandise trade in 2026 to 3.9 per cent, almost double the 1.9 per cent it had expected in March, and projected 4.1 per cent for 2027. In the same release it cut its forecast for growth in trade in services to 3.3 per cent from 4.8 per cent, and noted that forecasts of world output had been lowered. The organisation’s director-general, Ngozi Okonjo-Iweala, said that “the numbers reflect trade resilience in action”, but added that “some have felt the shock more than others, and not everyone can access emerging opportunities like AI”. The upgrade owes much to artificial intelligence. Trade in goods that enable it, such as computers, semiconductors and electronic components, rose 67 per cent in value in the first half of this year, and accounted for 47 per cent of the increase in the value of merchandise trade while making up less than 15 per cent of the total.\n\nA headline figure of this kind deserves scrutiny, because an aggregate is an average and averages conceal their parts. When a small fraction of trade supplies nearly half of its growth, the number says less about trade in general than about one sector. The same is true of the forecast’s other side. The WTO said that the boom in AI goods offset the damage from the war in the Middle East, whose effects were severe: the region’s exports fell by about 17 per cent, and in the first half of the year its crude oil exports fell by 24 per cent and its liquefied gas exports by 47 per cent, against global declines of only 6 per cent and 1 per cent. The resilience in the aggregate is therefore a net figure, the sum of a boom in some places and a collapse in others. A person with one foot in boiling water and the other in ice is, on average, comfortable.\n\nThe boom is also concentrated in a few hands. The ten largest economies in AI trade account for more than 80 per cent of it, about twice the concentration of merchandise trade as a whole. Asia contributed roughly four percentage points to the growth in merchandise trade this year, more than the whole of the world’s growth, which implies that the rest of the world, taken together, subtracted. North America contributed about half a point and Europe about a tenth, and Europe, which supplies about 35 per cent of the world’s merchandise exports, accounts for only about 10 per cent of exports of AI-enabling goods. When Ms Okonjo-Iweala says that not everyone can access the opportunity, she is describing a pattern that the arithmetic already shows.\n\nThe mirror image appears in the United States, where the trade deficit reached 105.6 billion dollars in August, the largest since early 2025, as imports hit a record on the back of crude oil, gold and semiconductors. Imports of AI-related capital goods, such as computers, chips and telecommunications equipment, have risen by well over two hundred billion dollars so far this year. A deficit can be read in two ways. On the first, a country that imports more than it exports is consuming beyond its means and borrowing from the rest of the world. On the second, it is investing heavily, importing machines that will produce future output, and financing them with foreign savings. The accounting is the same on both readings, since a deficit equals the excess of domestic investment over domestic saving, but the verdicts are opposite, and the data alone cannot decide between them. The answer depends on whether the investment pays.\n\nThat is where the question of a bubble enters, and WTO economists were careful to decline to call the AI investment one. They did warn, however, that a slowdown in such investment would slow trade. The point is not a prediction but a logic of dependence. A diversified portfolio is resilient because its parts do not move together; a portfolio in which one asset supplies most of the return is resilient only for as long as that asset performs. If the strength of world trade this year is borrowed from a single investment cycle, then the resilience that the organisation celebrates is conditional, and a measure of it should include what would happen if the cycle turned. Much of the argument therefore turns on a question that no forecast can answer in advance.\n\nTwo further cautions come from the statistics. The first concerns value and volume. World merchandise trade rose about 15 per cent in value in the first half of this year, against a forecast growth in volume of under 4 per cent for the full year, and the gap is mostly prices. The least developed countries saw their exports rise 25 per cent in value, largely because commodity demand and prices were higher, which is a gain, but of a different kind from shipping more goods. The second concerns direction. The WTO observed that decoupling between the United States and China is accelerating and is now the main driver of divergence in trade patterns, even though total trade is not necessarily falling. Trade can hold up while its map is redrawn, and those who have to live on the new map may find the aggregate small comfort.\n\nNone of this means that the forecast is wrong or the news is bad. It means that the news is incomplete. A strong aggregate can be built on a narrow base, and resilience that depends on one sector going on succeeding is better described as exposure. The test of a trading system, like that of an economy, is less how it fares when its best sector is growing than how many different things must go right for the aggregate to hold. A reader who stops at the number has learned that trade is growing; a reader who examines its composition has learned who is growing it, who is not, and what happens if the cycle turns.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "The author says that the 3.9 per cent headline ‘says less about trade in general than about one sector’ because:",
+        "options": [
+          "A) the WTO has acknowledged that its forecast of 3.9 per cent was based on estimates for AI goods alone, with no data on other categories of trade",
+          "B) trade in services has been growing much faster than trade in goods, which the headline figure for merchandise trade does not take into account",
+          "C) the headline figure is expressed in value terms, whereas the forecast for volume growth in trade is lower than 3.9 per cent",
+          "D) AI-enabling goods are under 15 per cent of merchandise trade yet supplied 47 per cent of the rise in its value in the first half"
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 1 gives the figures (under 15 per cent of trade, 47 per cent of the increase in value), and paragraph 2 draws the conclusion that when a small fraction supplies nearly half of the growth, the aggregate says more about one sector.<br><br>• <strong>Why Option A is Wrong:</strong> The WTO is not said to have based the forecast on AI goods alone.<br><br>• <strong>Why Option B is Wrong:</strong> The passage says services trade growth was cut, not that it grew faster than goods.<br><br>• <strong>Why Option C is Wrong:</strong> The 3.9 per cent figure is a volume forecast; the value-and-volume distinction is made in another paragraph for a different purpose.<br><br><strong>💡 Approach:</strong> Locate the numbers that support the author's claim (the 15 per cent and 47 per cent figures). Distractors import other facts from elsewhere in the passage."
+      },
+      {
+        "id": "q2",
+        "question": "The author’s image of a person with one foot in boiling water and the other in ice is used to show that:",
+        "options": [
+          "A) the war in the Middle East has made trade in energy more unstable than trade in any other category of goods or services",
+          "B) forecasters are unable to measure the effects of the war and the AI boom with any precision, so their estimates are of no use",
+          "C) an aggregate may look healthy because extremes in different places cancel out, so the average hides what is happening",
+          "D) world trade is so unevenly distributed that policymakers should aim to raise the lower figures before encouraging the higher ones"
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The image follows the statement that resilience in the aggregate is a net figure, the sum of a boom in some places and a collapse in others. The average is comfortable although neither foot is.<br><br>• <strong>Why Option A is Wrong:</strong> The passage compares declines in the Middle East with global declines but does not say energy is more unstable than other categories.<br><br>• <strong>Why Option B is Wrong:</strong> The author does not say that forecasts are useless; the claim is about interpreting aggregates.<br><br>• <strong>Why Option D is Wrong:</strong> No policy recommendation of this kind is made.<br><br><strong>💡 Approach:</strong> Read the sentence before the image: 'the resilience is a net figure'. The image illustrates offsetting extremes."
+      },
+      {
+        "id": "q3",
+        "question": "Which of the following, if true, would most weaken the author’s claim that the forecast upgrade says more about one sector than about trade in general?",
+        "options": [
+          "A) Asia, the region with the fastest growth in exports of AI-enabling goods, also reports the fastest growth in imports of such goods.",
+          "B) Without AI-enabling goods, merchandise trade would still have grown at about the headline rate, as other categories expanded too.",
+          "C) Economists at the WTO consider that the investment in AI is likely to continue at its present rate through the next two years.",
+          "D) The share of AI-enabling goods in world merchandise trade has been rising each year since the start of the decade, at a steady pace."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> If excluding AI goods leaves growth at about the headline rate because other categories grew strongly, the headline number would reflect trade in general, not one sector, which contradicts the claim.<br><br>• <strong>Why Option A is Wrong:</strong> Fast import and export growth in Asia says nothing about whether the aggregate depends on one sector.<br><br>• <strong>Why Option C is Wrong:</strong> A likely continuation of AI investment concerns the risk of a slowdown and does not weaken the claim about the current composition.<br><br>• <strong>Why Option D is Wrong:</strong> A steady rise in the share of AI goods is consistent with, and mildly supports, the claim.<br><br><strong>💡 Approach:</strong> To weaken a composition claim, show that the aggregate would look the same without the favoured component."
+      },
+      {
+        "id": "q4",
+        "question": "The author’s two readings of the American trade deficit (paragraph 4) are most closely paralleled by:",
+        "options": [
+          "A) A company’s rising debt, which may mean reckless spending or investment in new plant, judged by whether the investment pays",
+          "B) A student’s falling marks, which may be caused by illness or by a change of syllabus, and which are both outside the student’s control",
+          "C) A shop’s rising sales, which may be due to a festival or to the opening of a new road, and which cannot be separated by the shop’s owner at all",
+          "D) A river’s rising level, which may be due to monsoon rains or to melting snow, and which will in either case lead to flooding downstream"
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> One figure, two interpretations with opposite verdicts, and the data alone cannot decide; the answer depends on whether the investment pays. A company’s rising debt fits all three features.<br><br>• <strong>Why Option B is Wrong:</strong> Both causes are outside the student’s control and the verdicts are not opposite.<br><br>• <strong>Why Option C is Wrong:</strong> Both causes explain the rise, and there is no pair of opposite verdicts.<br><br>• <strong>Why Option D is Wrong:</strong> The two causes lead to the same outcome, flooding, so there is no opposite verdict.<br><br><strong>💡 Approach:</strong> Extract the structure: same figure, two readings, opposite verdicts, resolved only by whether the underlying investment pays. Reject options where both readings lead to the same verdict."
+      },
+      {
+        "id": "q5",
+        "question": "All of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) The Middle East suffered a decline in exports of crude oil and liquefied gas that was much larger than the corresponding declines worldwide.",
+          "B) A large gap between the growth of trade in value and the growth in volume suggests that price increases account for much of the former.",
+          "C) The upgrade of the WTO’s forecast is attributable mainly to a recovery in trade in services, whose growth outlook was raised in October.",
+          "D) The ten largest economies in AI trade account for more than 80 per cent of it, a higher concentration than that of merchandise trade as a whole."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The passage says the upgrade owes much to AI-enabling goods and that the outlook for services trade was cut to 3.3 per cent from 4.8 per cent. Option C reverses both points.<br><br>• <strong>Why Option A is Wrong:</strong> Paragraph 2 reports a 24 per cent fall in crude and 47 per cent in liquefied gas, against global falls of 6 and 1 per cent.<br><br>• <strong>Why Option B is Wrong:</strong> Paragraph 6 says the gap between value and volume growth is mostly prices.<br><br>• <strong>Why Option D is Wrong:</strong> Paragraph 3 says the ten largest economies account for more than 80 per cent, about twice the concentration of merchandise trade.<br><br><strong>💡 Approach:</strong> In EXCEPT questions, check the numbers and direction. Here the reversal concerns which sector drove the upgrade."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following best captures the author’s conclusion?",
+        "options": [
+          "A) The forecast is flawed and misleading, and the WTO should revise it to give more weight to the effects of the war in the Middle East",
+          "B) The headline is real but incomplete, because a concentrated boom offsets a regional collapse, and resilience should be judged by breadth",
+          "C) The AI boom is a bubble that will burst within two years, and the resulting fall in trade will be worse than the effects of the present war",
+          "D) World trade is healthier than forecasters have claimed, since the strength of the AI boom has more than compensated for the losses elsewhere"
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author says the news is incomplete, not wrong: a strong aggregate can rest on a narrow base, and resilience that depends on one sector is better described as exposure.<br><br>• <strong>Why Option A is Wrong:</strong> The author says the forecast is not wrong; the argument concerns interpretation.<br><br>• <strong>Why Option C is Wrong:</strong> The author says the WTO economists declined to call the investment a bubble, and the point is not a prediction.<br><br>• <strong>Why Option D is Wrong:</strong> The author argues that the aggregate overstates breadth and does not say trade is healthier than claimed.<br><br><strong>💡 Approach:</strong> Conclusion questions: the answer should be both qualified and balanced. Options that condemn the forecast or predict a collapse are traps."
+      }
+    ]
   }
 ]
