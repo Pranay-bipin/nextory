@@ -2873,5 +2873,915 @@
         "explanation": "The passage says rewilders argue landscapes were never static (A is stated), that willow recovery was patchy and owed something to weather and other predators, and that some outcomes are better regardless of baseline. It never claims preservation has failed everywhere."
       }
     ]
-  }
-]
+  },
+  {
+  "title": "IPMAT VA Sectional – 26th Oct 2026",
+  "date": "2026-10-26",
+  "section": "Verbal Ability",
+  "total_questions": 45,
+  "duration_minutes": 45,
+  "pattern": {
+    "MCQ": 40,
+    "TITA (Parajumbles)": 5,
+    "RC_passages": 3,
+    "questions_per_RC": 6
+  },
+  "passages": {
+    "RC1": {
+      "title": "Sunk costs and the lessons already learnt",
+      "text": "Few ideas in decision theory are as easy to state and as hard to practise as the rule that sunk costs should be ignored. Money already spent, time already invested and effort already expended cannot be recovered whatever one does next, so the only rational question is what each available option will yield from here. Yet people routinely throw good money after bad: the diner who finishes a disappointing meal because it has been paid for, the government that pours funds into a failing project because so much has already gone in. Psychologists attribute this to loss aversion and to the wish to avoid admitting error. The rule, however, is less innocent than it looks. Past investment is sometimes evidence about the future: a firm that has spent years building a customer base has information that a newcomer lacks, and abandoning a project may signal unreliability to partners who will deal with one again. Reputation, in other words, can make past commitments forward-looking. The sensible lesson is therefore narrower than the slogan. Costs that cannot be recovered should not themselves count as reasons to continue, but they may be clues to facts that do. The difficulty is that from the inside it is hard to tell which one is operating, and the person most eager to cite 'the lessons already learnt' is often the one with most to lose by stopping."
+    },
+    "RC2": {
+      "title": "The photograph as prompt",
+      "text": "The invention of the camera was greeted as a guarantee against forgetting: here, at last, was a means of fixing the past exactly as it had been. A century and a half later the claim looks more doubtful. Studies of people who photograph their experiences, from museum visits to meals, suggest that the act of taking the picture can weaken memory of the event itself, since attention is handed to the device in the expectation that it will remember on one's behalf. The effect is reduced when people zoom in on a detail, which implies that what matters is not the camera but the quality of engagement. A photograph also edits as it records. It selects a frame, flattens a three-dimensional scene and leaves out sound, smell and the surrounding hours; over time the image may replace the memory it was meant to support, so that what we 'remember' of a childhood holiday is partly the album's version of it. None of this makes photography an enemy of memory. A photograph can restore detail that would otherwise have vanished, and for those whose memories are fading it can be a lifeline. The better conclusion is that a photograph is a prompt, not a store: it works best when it sets recollection in motion and worst when it is allowed to stand in for it."
+    },
+    "RC3": {
+      "title": "Who owns the past?",
+      "text": "The debate over returning cultural objects held in Western museums is usually framed as a contest between two claims: the claim of the source community to what was taken from it, and the claim of the museum to be a universal institution in which the whole of human achievement can be seen together. Each deserves more respect than its opponents allow. The case for return rests on a principle that is hard to dispute when the objects were seized in war or plunder: possession acquired by force confers no legitimate title. The case for retention is weaker as a general principle but stronger in particular instances, since some objects survive only because they were removed from places where they might have been destroyed. Yet the framing hides a more interesting possibility, that the choice is not between keeping and returning. Long-term loans, shared custody and joint exhibitions allow objects to be seen by both communities, though they are often resisted, as they implicitly concede that the borrower's ownership is open to question. What the debate finally tests is whether institutions can distinguish between a legal claim, which concerns who owns something, and a moral claim, which concerns what is owed. A museum may be entitled in law to keep an object that it would be wrong in conscience to keep, and the converse, too, is possible."
+    },
+    "CA1": {
+      "title": "Conversation: Why do onion prices spike? (Market Pulse)",
+      "text": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nRohan Das (Host, Market Pulse): Onion prices double every few months. Is it hoarding?\n\nDr. Kavita Rao (agricultural economist): Hoarding exists, but it is rarely the root cause. Onions are perishable and grown in a few regions, so a poor harvest or unseasonal rain quickly cuts supply, while demand barely changes because households do not stop buying onions when they get dearer.\n\nRohan Das: So the government should step in?\n\nDr. Kavita Rao: It does, usually by banning exports. That lowers the price at home in the short run, but farmers see that the state will cap their earnings whenever prices rise, so they plant less next season. The ban produces the next shortage.\n\nRohan Das: What is the alternative?\n\nDr. Kavita Rao: Better storage and cold chains, so that surplus from good years can cover bad ones, and predictable trade rules so that farmers can plan. Neither is dramatic, which is why neither is popular."
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "section": "VA",
+      "category": "Sentence Completion",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Her ________ response to the insult, a faint smile and a change of subject, disarmed her critics more effectively than anger could have.",
+      "options": [
+        "truculent",
+        "unruffled",
+        "pugnacious",
+        "petulant"
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "'Unruffled' means calm and composed, matching 'a faint smile and a change of subject'. 'Truculent' (aggressive), 'fervid' (intense) and 'petulant' (sulky) would not disarm critics and contradict the calm response described."
+    },
+    {
+      "id": 2,
+      "section": "VA",
+      "category": "Sentence Completion",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The scientist's ________ refusal to modify her hypothesis in the face of contrary evidence eventually cost her the respect of her peers.",
+      "options": [
+        "pliant",
+        "obdurate",
+        "tentative",
+        "judicious"
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "'Obdurate' means stubbornly unyielding, which fits a refusal to change in the face of contrary evidence. 'Pliant' (flexible), 'tentative' (hesitant) and 'judicious' (sensible) describe flexibility or good sense, which would not cost her respect."
+    },
+    {
+      "id": 3,
+      "section": "VA",
+      "category": "Sentence Completion",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "A small but devoted ________ of volunteers, rather than any single benefactor, kept the library running through the lean years.",
+      "options": [
+        "cadre",
+        "throng",
+        "rabble",
+        "hierarchy"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "A 'cadre' is a small group of trained or committed people. 'Throng' and 'rabble' imply large, disorderly crowds, and 'hierarchy' is a ranked system, not a group of devoted volunteers."
+    },
+    {
+      "id": 4,
+      "section": "VA",
+      "category": "Sentence Completion",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "After years of delay, the minister finally decided to ________ and announce the scheme, whatever the opposition might say.",
+      "options": [
+        "rest on his laurels",
+        "pass the buck",
+        "take the plunge",
+        "beat around the bush"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "'Take the plunge' means to commit finally to a bold course of action. 'Rest on one's laurels' is to be complacent after success, 'pass the buck' is to shift responsibility, and 'beat around the bush' is to avoid the point; all conflict with the decisive action described."
+    },
+    {
+      "id": 5,
+      "section": "VA",
+      "category": "Vocabulary",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The author's ________ prose rewards patient readers, but the casual reader may find it ________ and give up before the ________ argument emerges.",
+      "options": [
+        "limpid; impenetrable; central",
+        "dense; effortless; hidden",
+        "dense; impenetrable; central",
+        "playful; tedious; trivial"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "Prose that rewards the patient but defeats the casual reader is 'dense' and 'impenetrable', and the reader gives up before the 'central' argument emerges. 'Limpid' (clear) prose would not be impenetrable; 'effortless' would not make readers give up; (D) contradicts the idea that patience is rewarded."
+    },
+    {
+      "id": 6,
+      "section": "VA",
+      "category": "Vocabulary",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Though the evidence was ________ at best, the prosecutor presented it with such ________ that the jury failed to notice how ________ the case really was.",
+      "options": [
+        "conclusive; hesitation; strong",
+        "circumstantial; hesitation; compelling",
+        "overwhelming; conviction; flimsy",
+        "circumstantial; conviction; slender"
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "Weak evidence ('circumstantial at best') delivered with great 'conviction' hides how 'slender' the case is. In (A) and (B), 'hesitation' would make the jury notice weakness; (C) 'overwhelming' evidence contradicts 'at best' and 'flimsy'."
+    },
+    {
+      "id": 7,
+      "section": "VA",
+      "category": "Vocabulary",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Reform has often been ________ by those who profit from the status quo, who ________ change as a threat while ________ their own privileges.",
+      "options": [
+        "blocked; denounce; safeguarding",
+        "welcomed; denounce; surrendering",
+        "blocked; welcome; safeguarding",
+        "hastened; resist; forfeiting"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "Beneficiaries of the status quo 'obstruct' reform, 'denounce' it as a threat and 'safeguard' their privileges. The other options have them welcoming or hastening change or giving up privileges, which contradicts 'profit from the status quo'."
+    },
+    {
+      "id": 8,
+      "section": "VA",
+      "category": "Vocabulary",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The monarch's ________ gesture, though costly, did little to ________ the discontent of subjects who had come to regard such generosity as ________.",
+      "options": [
+        "niggardly; assuage; customary",
+        "magnanimous; assuage; customary",
+        "magnanimous; assuage; exceptional",
+        "ostentatious; provoke; routine"
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "A costly, generous gesture is 'magnanimous'; it did little to 'assuage' (soothe) discontent because subjects saw such generosity as 'customary' (expected). 'Niggardly' means miserly, contradicting 'costly'; 'exceptional' would make the gesture matter; 'did little to provoke' is illogical in context."
+    },
+    {
+      "id": 9,
+      "section": "VA",
+      "category": "Vocabulary",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "His ________ manner, which colleagues mistook for arrogance, was in fact the ________ of a shy man who found small talk ________.",
+      "options": [
+        "aloof; reticence; excruciating",
+        "genial; warmth; delightful",
+        "supercilious; arrogance; tedious",
+        "aloof; confidence; unnatural"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "Distant behaviour mistaken for arrogance is 'aloof', and was really the 'reticence' of a shy man who found small talk 'excruciating'. 'Genial' contradicts arrogance; (C) makes the manner genuinely arrogant; (D) 'confidence' contradicts shyness."
+    },
+    {
+      "id": 10,
+      "section": "VA",
+      "category": "Sentence Correction",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Unless you <u>will submit</u> the form by Friday, your application will be rejected.",
+      "options": [
+        "submitted",
+        "will have submitted",
+        "submit",
+        "shall submit"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "In conditional clauses beginning with 'unless' or 'if', the present simple is used for future time: 'Unless you submit...'. 'Will' is not used in the conditional clause."
+    },
+    {
+      "id": 11,
+      "section": "VA",
+      "category": "Sentence Correction",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "She is <u>senior than</u> me by three years.",
+      "options": [
+        "more senior than",
+        "senior from",
+        "seniorer than",
+        "senior to"
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "'Senior', like 'junior' and 'superior', takes 'to', not 'than': 'senior to me'. The other options are ungrammatical or unidiomatic."
+    },
+    {
+      "id": 12,
+      "section": "VA",
+      "category": "Sentence Correction",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "He insisted <u>on me</u> staying for dinner.",
+      "options": [
+        "to me",
+        "on my",
+        "on I",
+        "that me"
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "Before a gerund ('staying'), the formal and correct form is the possessive: 'insisted on my staying'. The other options are non-standard."
+    },
+    {
+      "id": 13,
+      "section": "VA",
+      "category": "Sentence Correction",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The manager, <u>who's</u> decisions had repeatedly been overturned, resigned.",
+      "options": [
+        "whom",
+        "whose",
+        "who",
+        "whomever"
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "'Whose' is the possessive relative pronoun ('whose decisions'). 'Who's' is a contraction of 'who is' or 'who has', which does not fit."
+    },
+    {
+      "id": 14,
+      "section": "VA",
+      "category": "Incorrect Word",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+      "options": [
+        "The sudden frost decimated the orchard, killing nearly every tree.",
+        "The firm's fiscal prudence helped it survive the long recession.",
+        "The play's denouement left the entire audience stunned.",
+        "The detective's obtuse reasoning solved the case within hours."
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "'Obtuse' means slow to understand, so it cannot describe reasoning that solved a case within hours; 'astute' or 'incisive' is intended. 'Decimated' (destroyed a large part), 'prudence' (careful judgement) and 'denouement' (final resolution) are correct."
+    },
+    {
+      "id": 15,
+      "section": "VA",
+      "category": "Incorrect Word",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+      "options": [
+        "The two nations signed an armistice, ending the fighting after four years.",
+        "His mendacious account of events was praised for its honesty.",
+        "The tribunal's ruling set a precedent for similar cases in the future.",
+        "She was exonerated of all charges after the new evidence emerged."
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "'Mendacious' means untruthful, so it cannot be praised for honesty; 'candid' or 'truthful' is intended. 'Armistice' (truce), 'precedent' (an example guiding later decisions) and 'exonerated' (cleared of blame) are correct."
+    },
+    {
+      "id": 16,
+      "section": "VA",
+      "category": "Incorrect Word",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+      "options": [
+        "The orator's fulsome flattery embarrassed even those it was meant to praise.",
+        "Rainfall in the region is so sparse that farmers rely heavily on irrigation.",
+        "The architect's design was lauded for its austere elegance and restraint.",
+        "The company's profligate spending ensured its financial stability."
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "'Profligate' means recklessly wasteful, which cannot ensure stability; 'prudent' or 'frugal' is intended. 'Fulsome' (excessive), 'sparse' (thinly scattered) and 'austere' (plain) are correctly used."
+    },
+    {
+      "id": 17,
+      "section": "VA",
+      "category": "Paracompletion",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Cities are often described as engines of growth. ____________________. Dense settlement lets firms share suppliers, workers learn from one another and ideas pass quickly from person to person. But the same density that speeds up exchange also raises rents and strains the services on which every resident depends.",
+      "options": [
+        "Most large cities in the world have grown rapidly since the middle of the twentieth century, often without any planning.",
+        "Governments in developing countries have tried to slow migration to cities by improving conditions in rural areas.",
+        "Cities have always been centres of culture and of trade, and have attracted travellers from distant regions.",
+        "Their strength lies in proximity: people and firms close together produce more than apart."
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "The paragraph explains why density helps (shared suppliers, learning, ideas) before noting costs. The correct option states the principle that the following sentences illustrate. The others mention growth rates, migration policy and culture, which are not developed."
+    },
+    {
+      "id": 18,
+      "section": "VA",
+      "category": "Paracompletion",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "A good definition is not merely a statement of what a word means. ____________________. When a statute defines 'vehicle', it decides whether a bicycle must obey the traffic rules; when a school defines 'plagiarism', it decides who is punished. Definitions are tools for drawing lines, and lines have consequences.",
+      "options": [
+        "It often settles, in advance, which cases will count and which will not.",
+        "Dictionaries are revised every few years to include new words and meanings that have entered everyday speech.",
+        "Lawyers are trained to read statutes with great care and to look for ambiguities in the wording of every clause.",
+        "Students who copy from published sources without acknowledgement are usually punished severely by the institution."
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "The examples (vehicle, plagiarism) show definitions deciding who is covered. Only the correct option generalises that role. The others discuss dictionaries, legal training and punishment of copying, which do not frame the examples."
+    },
+    {
+      "id": 19,
+      "section": "VA",
+      "category": "Paracompletion",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Folk songs are commonly thought to be the creations of anonymous peasants. ____________________. Collectors who traced individual songs found that many began as compositions by named writers, later altered by singers until the authorship was forgotten. The 'folk' contribution lay in the changing, not the first making.",
+      "options": [
+        "Many collectors travelled to remote villages with notebooks and recording equipment to preserve the songs they heard.",
+        "Folk music has influenced several well-known composers, who borrowed its tunes for their symphonies and operas.",
+        "The popularity of folk songs has declined in recent decades as listeners have moved towards other forms of music.",
+        "The origins of such songs are often less anonymous than the label suggests."
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "The following sentences show that many 'folk' songs began as named compositions. The correct option previews that challenge to anonymity. The others deal with collecting methods, influence on composers and popularity."
+    },
+    {
+      "id": 20,
+      "section": "VA",
+      "category": "Conversation Analysis",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "According to Dr. Rao, the main reason for sharp spikes in onion prices is that",
+      "passage_id": "CA1",
+      "options": [
+        "supply drops after poor harvests while demand barely changes",
+        "traders store large quantities of onions to push prices higher",
+        "households buy more onions whenever the price begins to rise",
+        "onions are imported from a few countries that restrict their sales"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "She says hoarding 'is rarely the root cause'; onions are perishable and grown in few regions, so poor harvests cut supply while 'demand barely changes'. Rising household purchases and imports are not mentioned."
+    },
+    {
+      "id": 21,
+      "section": "VA",
+      "category": "Conversation Analysis",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Dr. Rao argues that export bans 'produce the next shortage' because they",
+      "passage_id": "CA1",
+      "options": [
+        "discourage farmers from planting as much in the next season",
+        "reduce the quantity of onions available for domestic consumption",
+        "encourage traders to hoard onions in anticipation of higher prices",
+        "cause foreign buyers to turn to other suppliers permanently"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "Farmers 'see that the state will cap their earnings whenever prices rise, so they plant less next season'. The ban lowers prices at home in the short run, so it does not reduce domestic supply directly; hoarding and foreign buyers are not discussed."
+    },
+    {
+      "id": 22,
+      "section": "VA",
+      "category": "Conversation Analysis",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Dr. Rao suggests that her preferred remedies are unpopular because they",
+      "passage_id": "CA1",
+      "options": [
+        "are too expensive for the government to finance in any year",
+        "lack drama and so win little public attention or credit",
+        "are likely to raise onion prices for households in the short run",
+        "have been tried before in other countries without much success"
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "She says: 'Neither is dramatic, which is why neither is popular.' Cost, short-term price rises and past failures are not mentioned."
+    },
+    {
+      "id": 23,
+      "section": "VA",
+      "category": "Parajumbles",
+      "difficulty": "Hard",
+      "type": "tita",
+      "marks": 4,
+      "negative_marking": 0,
+      "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
+      "options": null,
+      "sentences": {
+        "1": "The material, in effect, heals itself.",
+        "2": "Researchers have long wondered why.",
+        "3": "Analysis showed that lime fragments in the mix, once thought a sign of sloppy mixing, react with seawater to seal cracks as they form.",
+        "4": "Roman concrete has outlasted modern concrete in harbours by centuries."
+      },
+      "correct_answer": "4231",
+      "explanation": "Sentence 4 states the puzzle (Roman concrete's longevity). Sentence 2 ('Researchers have long wondered why') poses the question. Sentence 3 gives the answer. Sentence 1 ('in effect') summarises it. Order: 4-2-3-1."
+    },
+    {
+      "id": 24,
+      "section": "VA",
+      "category": "Parajumbles",
+      "difficulty": "Hard",
+      "type": "tita",
+      "marks": 4,
+      "negative_marking": 0,
+      "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
+      "options": null,
+      "sentences": {
+        "1": "Many observers took this as the end of chess as a serious pursuit.",
+        "2": "Players began to train with engines, and the standard of play rose steadily.",
+        "3": "The opposite happened.",
+        "4": "In 1997, a computer defeated the world chess champion for the first time in a match.",
+        "5": "The machine had become not a rival to be mourned but a coach to be consulted."
+      },
+      "correct_answer": "41325",
+      "explanation": "Sentence 4 gives the event. Sentence 1 states the expected reaction. Sentence 3 ('The opposite happened') reverses it. Sentence 2 explains what happened. Sentence 5 concludes. Order: 4-1-3-2-5."
+    },
+    {
+      "id": 25,
+      "section": "VA",
+      "category": "Parajumbles",
+      "difficulty": "Hard",
+      "type": "tita",
+      "marks": 4,
+      "negative_marking": 0,
+      "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
+      "options": null,
+      "sentences": {
+        "1": "Starved of new silt, deltas sink under their own weight while the sea creeps higher.",
+        "2": "Millions who farm and fish on them are therefore exposed to a danger that begins hundreds of kilometres away.",
+        "3": "Dams upstream trap much of this sediment behind their walls.",
+        "4": "River deltas are built by sediment, carried downstream and dropped where the current slows."
+      },
+      "correct_answer": "4312",
+      "explanation": "Sentence 4 explains how deltas form. Sentence 3 ('this sediment') introduces dams trapping it. Sentence 1 describes the result for deltas. Sentence 2 ('therefore') draws out the consequence for people. Order: 4-3-1-2."
+    },
+    {
+      "id": 26,
+      "section": "VA",
+      "category": "Parajumbles",
+      "difficulty": "Hard",
+      "type": "tita",
+      "marks": 4,
+      "negative_marking": 0,
+      "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
+      "options": null,
+      "sentences": {
+        "1": "Factory owners welcomed the change, since a stimulant that was warm, sweet and sober was preferable to beer.",
+        "2": "Tea reached Britain as an expensive luxury, sipped by a few aristocrats.",
+        "3": "A habit once confined to drawing rooms thus became part of the rhythm of industrial life.",
+        "4": "As the East India Company expanded its plantations in Assam, supply grew and prices fell.",
+        "5": "Within decades it had become the drink of the working class."
+      },
+      "correct_answer": "24513",
+      "explanation": "Sentence 2 introduces tea as a luxury. Sentence 4 shows supply growing and prices falling. Sentence 5 ('Within decades') shows its spread to workers. Sentence 1 ('the change') adds employers' reaction. Sentence 3 ('thus') concludes. Order: 2-4-5-1-3."
+    },
+    {
+      "id": 27,
+      "section": "VA",
+      "category": "Parajumbles",
+      "difficulty": "Medium",
+      "type": "tita",
+      "marks": 4,
+      "negative_marking": 0,
+      "question": "The sentences given below, when properly sequenced, form a coherent paragraph. Each sentence is labelled with a number. Decide on the most logical order and enter only the sequence of numbers in the space provided.",
+      "options": null,
+      "sentences": {
+        "1": "Their tangled roots slow incoming waves, which is why villages behind mangroves suffered less in the worst cyclones.",
+        "2": "Many have nonetheless been cleared for shrimp farms.",
+        "3": "Mangroves grow where few trees can, in salty, waterlogged mud at the edge of the sea.",
+        "4": "The short-term profit is often dwarfed by the cost of the protection lost."
+      },
+      "correct_answer": "3124",
+      "explanation": "Sentence 3 introduces mangroves. Sentence 1 ('Their tangled roots') explains the protection they offer. Sentence 2 ('nonetheless') notes their clearance. Sentence 4 ('The short-term profit') evaluates it. Order: 3-1-2-4."
+    },
+    {
+      "id": 28,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Which of the following best states the author's main point?",
+      "passage_id": "RC1",
+      "options": [
+        "The rule against counting sunk costs is sound but needs refining, as past costs may signal facts that matter",
+        "People should never persist with a project once they have discovered that it is not producing the results expected",
+        "Reputation is more important than money in every business decision that a firm or a government has to take",
+        "Psychologists are mistaken in attributing escalation of commitment to loss aversion and fear of admitting error"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "The author endorses the rule but calls the lesson 'narrower than the slogan': unrecoverable costs are not reasons themselves but may be clues to relevant facts. (B) contradicts this, (C) overstates, and (D) rejects an explanation the author reports without disputing."
+    },
+    {
+      "id": 29,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The examples of the diner and the government are used to show that",
+      "passage_id": "RC1",
+      "options": [
+        "governments are less rational than private individuals when they make decisions involving large sums",
+        "people tend to continue with a course of action because of what has already been spent on it",
+        "spending money on a meal always leads to disappointment on the part of the customer who orders it",
+        "failing projects should be financed because they will eventually prove beneficial to the public"
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "Both examples show people 'throw[ing] good money after bad' because of past spending. The passage does not compare governments to individuals, claim meals always disappoint, or recommend financing failing projects."
+    },
+    {
+      "id": 30,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "'Reputation, in other words, can make past commitments forward-looking' means that",
+      "passage_id": "RC1",
+      "options": [
+        "a firm that keeps its commitments is certain to increase its profits in subsequent years",
+        "commitments made in the past should be honoured even if they cause serious financial loss",
+        "abandoning a project may harm one's standing in future dealings with partners",
+        "the reputation of a firm depends entirely on the number of projects it has completed"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "The preceding sentence says abandoning a project 'may signal unreliability to partners who will deal with one again'. Thus the past commitment affects future outcomes via reputation. The other options claim certainty, an absolute duty, or complete dependence, none of which is stated."
+    },
+    {
+      "id": 31,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The author's statement that the lesson is 'narrower than the slogan' suggests that the slogan",
+      "passage_id": "RC1",
+      "options": [
+        "has no practical value for managers who have to make decisions involving large investments",
+        "was devised by psychologists who wished to explain why people fail to abandon failing projects",
+        "is an oversimplification, because past costs can sometimes be evidence about the future",
+        "is correct in every case where a firm or a government has already spent a good deal of money"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "The 'slogan' is the rule that sunk costs should be ignored. The author says the sensible lesson is narrower: unrecoverable costs are not reasons, though they may be clues. So the slogan oversimplifies. The other options attribute different claims."
+    },
+    {
+      "id": 32,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The final sentence of the passage suggests that",
+      "passage_id": "RC1",
+      "options": [
+        "people who have most to lose are the ones best able to judge whether a project should continue",
+        "those citing past lessons as a reason to continue may be biased by their stake",
+        "it is impossible for any decision-maker to distinguish a clue from a mere sunk cost",
+        "lessons that have been learnt in the past can never be a reason for continuing with a project"
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "The author says 'from the inside it is hard to tell' whether sunk costs are acting as clues or as bias, and notes that the person eager to cite lessons 'has most to lose by stopping'. This implies possible motivated reasoning. (B) reverses it; (C) is too absolute; (D) is also too absolute, since clues can be genuine."
+    },
+    {
+      "id": 33,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Each of the following is stated or implied in the passage EXCEPT:",
+      "passage_id": "RC1",
+      "options": [
+        "A firm that has built a customer base possesses information that a newcomer lacks",
+        "Sunk costs may be clues to facts that are relevant to future decisions",
+        "Abandoning a project may signal unreliability to partners who will deal with one again",
+        "Psychologists have shown loss aversion to be the sole cause of escalation"
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "(B), (C) and (D) are stated in the passage. The passage says psychologists attribute escalation to loss aversion 'and to the wish to avoid admitting error', so loss aversion is not described as the only cause."
+    },
+    {
+      "id": 34,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Which of the following best states the central idea of the passage?",
+      "passage_id": "RC2",
+      "options": [
+        "Photography should be avoided at important events because it always weakens the memories of those who take the pictures",
+        "Modern cameras have made it possible to record the past exactly as it was, without any loss or distortion",
+        "People whose memories are fading should be discouraged from relying on photographs to recall earlier years",
+        "Photographs work best as prompts to memory, and can weaken it when they replace engagement"
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "The passage concludes that 'a photograph is a prompt, not a store'. (B) is contradicted by 'None of this makes photography an enemy of memory'; (C) is rejected since the claim 'looks more doubtful'; (D) contradicts the 'lifeline' remark."
+    },
+    {
+      "id": 35,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The finding that zooming in on a detail reduces the harm implies that",
+      "passage_id": "RC2",
+      "options": [
+        "people who use smaller cameras remember events better than those who use large and costly equipment",
+        "details are always more important than the overall scene when a person wishes to remember an event",
+        "the quality of a person's engagement matters more than the device used",
+        "the harm to memory arises from the cameras being too small to capture detail"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "The passage draws the inference directly: 'what matters is not the camera but the quality of engagement'. The other options invent claims about camera size and the primacy of detail."
+    },
+    {
+      "id": 36,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The statement that 'a photograph also edits as it records' refers to the fact that photographs",
+      "passage_id": "RC2",
+      "options": [
+        "select a frame and leave out much of the experience",
+        "are frequently altered by software before they are shared with other people",
+        "are taken only of the more important moments in a person's life or holiday",
+        "show a scene differently according to the skill of the person taking them"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "The passage explains: it 'selects a frame, flattens a three-dimensional scene and leaves out sound, smell and the surrounding hours'. Software alteration, importance of moments and skill of the photographer are not mentioned."
+    },
+    {
+      "id": 37,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The author's view of the relationship between photography and memory is that photography",
+      "passage_id": "RC2",
+      "options": [
+        "is an enemy of memory because it makes people less attentive to events as they unfold",
+        "is a faithful store of the past which cannot be improved by any act of recollection",
+        "can both harm and help memory, depending on how it is used",
+        "is of value only for people whose memories have begun to fade because of age"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "The author notes harms (weaker memory, replacement of memory) and benefits (restoring detail, a lifeline) and concludes that it works best as a prompt. So the answer is balanced. The other options are one-sided."
+    },
+    {
+      "id": 38,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The phrase 'a prompt, not a store' means that a photograph",
+      "passage_id": "RC2",
+      "options": [
+        "can be used to hold more memories than a person is able to keep in the mind",
+        "is useful only when it is shown to other people who were present at the event",
+        "helps start the process of recollection rather than holding the memory itself",
+        "should be stored carefully so that its details do not fade with the passage of time"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "A prompt triggers recollection; a store would hold the memory. The author says it works best when it 'sets recollection in motion' and worst when it 'stand[s] in for it'. The other options misread the metaphor."
+    },
+    {
+      "id": 39,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "With which of the following would the author most likely agree?",
+      "passage_id": "RC2",
+      "options": [
+        "The best way to remember a holiday is to take as many photographs as possible and to arrange them in an album",
+        "Photographs invariably reproduce the experience of an event more faithfully than the memory of those who attended it",
+        "A visitor who attends closely to one exhibit may remember it better than one who photographs everything",
+        "People who photograph their meals have a better memory of what they ate than people who do not"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "The passage says attention handed to the device weakens memory, and that zooming in on a detail reduces the effect, so close engagement helps. The other options contradict the passage."
+    },
+    {
+      "id": 40,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Which of the following best describes the author's position on the debate over returning cultural objects?",
+      "passage_id": "RC3",
+      "options": [
+        "Balanced: both claims have merit, and the debate needs reframing",
+        "Strongly in favour of returning every object to the community from which it was taken",
+        "Strongly in favour of retaining objects in museums that present the whole of human achievement",
+        "Indifferent, since the passage only reports the views of those who take part in the debate"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "The author says 'each deserves more respect than its opponents allow' and then offers alternatives to the binary (loans, shared custody). The author thus takes a reasoned, balanced stance, so (A), (B) and (D) fail."
+    },
+    {
+      "id": 41,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The principle that 'possession acquired by force confers no legitimate title' supports",
+      "passage_id": "RC3",
+      "options": [
+        "the case for keeping objects that would otherwise have been destroyed in their original places",
+        "the claim of museums to be universal institutions in which human achievement is displayed",
+        "the use of long-term loans and shared custody as alternatives to return of objects",
+        "the case for returning objects that were seized in war or plunder"
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "The author says the case for return 'rests on' this principle where objects were seized in war or plunder. The other options correspond to the retention case, the museum's universal claim, and the alternatives."
+    },
+    {
+      "id": 42,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "According to the passage, the case for retention is 'stronger in particular instances' because",
+      "passage_id": "RC3",
+      "options": [
+        "museums are always better able to display objects to the world than the communities where they were made",
+        "the countries from which objects were taken have usually shown little interest in their return",
+        "some objects survive only because they were removed from places where they were at risk",
+        "objects acquired legally in the past cannot be returned without breaking the laws of the museum's country"
+      ],
+      "correct_option": 2,
+      "correct_answer": "C",
+      "explanation": "The passage says 'some objects survive only because they were removed from places where they might have been destroyed'. The other options introduce claims not made in the passage."
+    },
+    {
+      "id": 43,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Long-term loans and shared custody are often resisted because they",
+      "passage_id": "RC3",
+      "options": [
+        "are far more costly for museums than permanently keeping the objects in their own collections",
+        "prevent members of the public in the source communities from seeing the objects at all",
+        "require the museum to give up its claim to be a universal institution of any kind",
+        "implicitly concede that the borrower's ownership is open to question"
+      ],
+      "correct_option": 3,
+      "correct_answer": "D",
+      "explanation": "The author says they are resisted 'as they implicitly concede that the borrower's ownership is open to question'. Cost, public access and universal status are not given as reasons."
+    },
+    {
+      "id": 44,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Hard",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "The distinction drawn in the last sentences between legal and moral claims implies that",
+      "passage_id": "RC3",
+      "options": [
+        "legal claims are irrelevant to the debate because only moral claims can be settled by discussion",
+        "an institution may be entitled in law to something that it ought not, in conscience, to keep",
+        "moral claims should always be given priority over legal claims in every dispute about ownership",
+        "museums are unlikely to recognise any claim that is not backed by the laws of their own countries"
+      ],
+      "correct_option": 1,
+      "correct_answer": "B",
+      "explanation": "The author says 'A museum may be entitled in law to keep an object that it would be wrong in conscience to keep, and the converse, too, is possible.' (B) and (C) are absolute claims not made; (D) is unsupported."
+    },
+    {
+      "id": 45,
+      "section": "VA",
+      "category": "RC",
+      "difficulty": "Medium",
+      "type": "mcq",
+      "marks": 4,
+      "negative_marking": 1,
+      "question": "Which of the following words best describes the tone of the passage?",
+      "passage_id": "RC3",
+      "options": [
+        "even-handed and analytical",
+        "polemical and openly combative",
+        "wistful and deeply nostalgic",
+        "cynical and emotionally detached"
+      ],
+      "correct_option": 0,
+      "correct_answer": "A",
+      "explanation": "The author weighs both claims fairly ('each deserves more respect than its opponents allow') and analyses the debate's logic. It is neither combative, nostalgic, nor cynical."
+    }
+  ]
+}
