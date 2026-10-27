@@ -2874,4 +2874,577 @@
       }
     ]
   },
+  {
+  "id": "sec-2026-10-28",
+  "date": "2026-10-28",
+  "title": "IPMAT Indore VA Full Sectional Mock - 28 October 2026 (Advanced Level)",
+  "durationMinutes": 40,
+  "totalQuestions": 45,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "RC",
+      "passage": "Platform work has been defended as flexibility: workers choose when to log in, which jobs to accept and for whom to work. On this view a courier is an independent contractor, a micro-entrepreneur whose earnings reflect effort, and the law of employment, built around the factory and the office, has little to say about her. Governments that have recently moved to extend social security to gig workers have accepted part of that premise. Rather than reclassify workers as employees, they propose levies on platforms' turnover to fund pensions, insurance and accident cover that would follow the worker from one app to another.\n\nThe compromise is attractive because it avoids a binary that has troubled courts elsewhere. Reclassification would give workers the full bundle of protections, including minimum wages, notice periods and leave, but platforms warn that it would force them to cap the number of workers and to tighten shifts, shrinking the very flexibility that draws many people in. Contractor status keeps the flexibility but leaves workers carrying risks, such as vehicle damage, illness and slack demand, that they are least able to bear. A third category, portable benefits without employment, promises to detach protection from the employer, much as occupational pensions once tied it to a single firm.\n\nCritics reply that flexibility is more constrained than the pitch suggests. Algorithms allocate tasks, set prices and rate performance, and a worker who declines too many offers may find that offers thin out. Control, the classic test of employment, has not vanished but migrated into software, where it is harder to see and harder to contest. Economists add that when surplus labour is abundant, flexibility works mostly in the platform's favour, since it can pass fluctuations in demand to workers who have no alternatives. On this reading a levy alters the cost structure of platforms without altering the distribution of power.\n\nDefenders of the levy answer that power is not the only thing that matters. A worker with accident cover and an old-age pension is better off whether or not the relationship is renamed, and to insist on perfect classification before any protection is extended is to make the best the enemy of the good. They note, too, that in India the formal sector covers only a minority of workers, so the gig worker is not being denied what everyone else enjoys. The relevant comparison is with the informal labourer, who has had nothing at all.\n\nExperience elsewhere is instructive but not decisive. Some jurisdictions have created an intermediate status for platform workers, with a limited set of rights; others have left classification to the courts, which have reached conflicting verdicts on near-identical facts. Platforms have sometimes responded to adverse rulings by changing their contracts, their fee structures or their rules for logging in, so that the practical effect of a formal victory for workers can differ sharply from its promise. A design that depends on how a single legal label is applied is therefore more fragile than one that attaches protection to the work itself.\n\nThere are, however, practical obstacles. A levy on turnover is a blunt instrument: platforms with thin margins may pass it on to consumers, or to workers through lower incentives, in which case the burden falls on the very group it was meant to help. Registration systems must identify workers who may use several apps, or none for weeks at a stretch. Contributions that are small and irregular may be too meagre to build meaningful cover. And enforcement relies on data that platforms themselves control, which gives them a say in the measurement of their own liability.\n\nThe deeper question is what a protection scheme is for. If its purpose is to cushion hardship, a modest levy and a registry might suffice. If its purpose is to give workers a voice, so that matters such as account deactivation and the setting of pay can be contested, then benefits alone fall short, and the most valuable reform may be procedural: a right to an explanation when an account is blocked, and a channel of appeal. Such rights cost platforms little in money and a good deal in discretion, which may be why they are discussed less often than the money.",
+      "question": "Which of the following best captures the central argument of the passage?",
+      "options": [
+        "A) Gig platforms should be reclassified as employers, since only full employment status can shield workers from the risks that they now bear alone.",
+        "B) Levy-funded benefits help gig workers but leave the question of power untouched, which procedural rights might address more cheaply.",
+        "C) Flexibility on platforms is largely an illusion, and workers who claim to value it have been misled by the algorithms that allocate their tasks.",
+        "D) Because platforms will pass any levy on to workers and consumers, portable benefits are certain to fail as a means of protecting gig workers."
+      ],
+      "answer": 1,
+      "explanation": "<strong>Explanation:</strong> The passage weighs the levy compromise, grants its benefits, notes it leaves power unchanged, and ends by favouring procedural rights. A is the reclassification case the author only reports; B overstates the critics; D is too absolute ('certain to fail')."
+    },
+    {
+      "id": "q2",
+      "type": "RC",
+      "question": "The statement that control 'has not vanished but migrated into software' suggests that",
+      "options": [
+        "A) workers on platforms are no longer subject to any form of control and so need no legal protection at all",
+        "B) software engineers, rather than managers, now decide how much each worker should be paid for every task",
+        "C) the law of employment was never concerned with the control that firms exercise over their workers",
+        "D) a test of employment based on control may be met even where no manager gives orders"
+      ],
+      "answer": 3,
+      "explanation": "<strong>Explanation:</strong> Control is 'the classic test of employment'; if it now operates through algorithms, the test may still be satisfied. A reverses the point; C invents a claim about engineers; D contradicts 'classic test'."
+    },
+    {
+      "id": "q3",
+      "type": "RC",
+      "question": "Which of the following, if true, would most weaken the critics' claim that platform flexibility works mainly in the platforms' favour?",
+      "options": [
+        "A) Where labour is scarce, platforms compete for workers, and workers who log off at will lose no later offers.",
+        "B) Most workers surveyed say that they value the freedom to choose their own hours more than the security of a fixed monthly wage.",
+        "C) Platform profits rose sharply in the years in which the number of registered workers grew fastest in each of the larger cities.",
+        "D) Workers who decline many offers are often shown lower rates when they next log in to the app that they use for work."
+      ],
+      "answer": 0,
+      "explanation": "<strong>Explanation:</strong> The critics' claim rests on abundant labour and workers' lack of alternatives; scarce labour and no penalty for logging off directly undercut it. A states a preference, not a power relation; C supports the critics; D supports them too."
+    },
+    {
+      "id": "q4",
+      "type": "RC",
+      "question": "Each of the following is offered in the passage as a practical obstacle to a levy on turnover EXCEPT",
+      "options": [
+        "A) platforms with thin margins may pass the cost on to consumers or to workers through lower incentives",
+        "B) workers who use several apps, or none for weeks at a time, are difficult to register reliably",
+        "C) contributions that are small and irregular may be too meagre to build meaningful cover",
+        "D) courts have held that a levy on turnover cannot lawfully be imposed on platforms"
+      ],
+      "answer": 3,
+      "explanation": "<strong>Explanation:</strong> The first three appear in paragraph 5, together with data control. Nothing is said about courts ruling on the legality of a levy."
+    },
+    {
+      "id": "q5",
+      "type": "RC",
+      "question": "The author suggests that procedural rights, such as a right to an explanation, are discussed less often than money because they",
+      "options": [
+        "A) are impossible to enforce, since the data on which they depend is controlled by the platforms themselves",
+        "B) would limit platforms' discretion, which they value more than the money",
+        "C) matter less to workers than pensions and accident cover, as surveys of workers have repeatedly shown",
+        "D) have been rejected in countries that have already tried to introduce such procedures for gig workers"
+      ],
+      "answer": 1,
+      "explanation": "<strong>Explanation:</strong> The last sentence says such rights 'cost platforms little in money and a good deal in discretion'. B borrows the data-control point but not as the reason; C and D are not stated anywhere."
+    },
+    {
+      "id": "q6",
+      "type": "RC",
+      "question": "The author's primary purpose in the passage is to",
+      "options": [
+        "A) argue that gig workers should be treated as employees so that they may enjoy the full bundle of protections that employees have",
+        "B) defend platforms against the charge that their algorithms exercise control over the people who work for them every day",
+        "C) weigh a policy compromise against its critics and ask what such protection is meant to achieve",
+        "D) show that governments in developing countries cannot afford to extend social security to workers in the informal sector"
+      ],
+      "answer": 2,
+      "explanation": "<strong>Explanation:</strong> The passage presents the compromise, the critics, the defenders, the obstacles and the underlying purpose. A and B take sides the author does not; D is not discussed."
+    },
+    {
+      "id": "q7",
+      "type": "RC",
+      "passage": "Each leap in the efficiency of artificial intelligence has been greeted with the same hope: that cheaper computation will ease the demand on electricity grids. Chips now perform far more operations per unit of energy than they did a few years ago, models are being compressed, and techniques such as distillation allow small systems to imitate large ones. If the cost of a query falls tenfold, the argument runs, the energy needed for the same work falls with it.\n\nThe nineteenth-century economist William Stanley Jevons saw why the conclusion does not follow. Writing about coal, he observed that more efficient steam engines did not reduce the nation's consumption of coal; by making steam power cheaper they carried it into new uses, and total consumption rose. Whether such a rebound occurs depends on how sharply demand responds to price. If people want a fixed amount of a service, efficiency saves energy. If cheaper service invites vastly more of it, the savings can be swallowed whole or exceeded. Economists call the second outcome backfire, and the middle case, in which savings are real but smaller than the engineering estimate, partial rebound.\n\nApplied to computing, the question is empirical, and the evidence is mixed. Lighting offers a cautionary history. The move from candles to bulbs to LEDs cut the energy needed per unit of light enormously, yet the amount of light consumed per person rose almost in step, so total energy spent on lighting has fallen far less than the efficiency curve implies. Data centres, by contrast, have for years absorbed a rapidly growing workload while their electricity use rose only slowly, because virtualisation and consolidation lifted utilisation. That history is sometimes cited as proof that efficiency wins. It is better read as showing that efficiency won while the gains were cheap to capture, and low-hanging fruit does not last.\n\nAI differs from earlier workloads in a way that favours the pessimists. Demand for machine intelligence is not saturating. Each time a model becomes cheaper, firms embed it in further products, from search to coding assistants to customer service, and users issue queries that would not have been worth asking at the old price. Moreover, capability and efficiency are not independent. Developers who gain a tenfold saving frequently reinvest it in larger models or longer chains of reasoning instead of banking it, because the market rewards the better system and not the cheaper one. Efficiency is thus spent on quality as well as on quantity.\n\nOptimists reply that the rebound has limits. Electricity is not the only cost: the capital cost of chips, cooling and land, together with the time needed to connect new facilities to the grid, caps how quickly demand can be met. A queue for grid connection is a form of rationing that no efficiency gain can bypass. If power is scarce and its price rises, operators have a stronger incentive to economise, and the very constraint that alarms planners may restrain the rebound. On this reading the physical world supplies the saturation that the market does not.\n\nA further difficulty is that the data needed to settle the matter are scarce. Operators publish energy figures for whole facilities, rarely for each query or each model, and the division of a shared server's consumption among competing workloads is partly a matter of convention. Estimates of the share of electricity demand that AI will account for therefore vary severalfold with the assumptions used, and forecasts issued by firms with an interest in either alarm or reassurance deserve the same scrutiny as any other form of advocacy. Measurement is not a preliminary to the argument; it is part of it.\n\nPolicy implications follow, but not simple ones. If the rebound is strong, subsidising efficiency alone will not reduce consumption and may increase it; pricing electricity to reflect its full cost, including the emissions it entails, would work on demand directly. If the rebound is weak, efficiency standards deserve support. Since neither case can be ruled out in advance, the sound course is to measure, to publish energy use per unit of service as well as in total, and to be wary of claims that technology will solve a problem that technology has itself enlarged.",
+      "question": "Which of the following best captures the central argument of the passage?",
+      "options": [
+        "A) Artificial intelligence will inevitably overwhelm electricity grids, because every improvement in chips and models raises the energy needed per query.",
+        "B) Jevons's observations about coal show that technological progress is harmful and that efficiency should therefore be discouraged by governments everywhere.",
+        "C) Efficiency gains may not cut total energy use, since that depends on how demand responds, and for AI the rebound may be strong.",
+        "D) Data centres have shown that efficiency always outweighs growth in demand, so that fears about the energy used by artificial intelligence are exaggerated."
+      ],
+      "answer": 2,
+      "explanation": "<strong>Explanation:</strong> The passage makes the rebound depend on demand response, argues AI leans towards a strong rebound, but leaves the matter open. A, B and C are all absolute."
+    },
+    {
+      "id": "q8",
+      "type": "RC",
+      "question": "The history of lighting is used in the passage to show that",
+      "options": [
+        "A) the energy used by lighting has risen in absolute terms despite the arrival of LED bulbs in homes and in offices",
+        "B) LED bulbs have turned out to be less efficient than the claims that were made for them when they were first sold",
+        "C) people now prefer much brighter light than they did when candles were the main source of light in their homes",
+        "D) efficiency gains can be partly offset when cheaper light leads people to use more of it"
+      ],
+      "answer": 3,
+      "explanation": "<strong>Explanation:</strong> Light consumed per person rose almost in step with efficiency, so total energy fell far less than the efficiency curve implies. A overstates (energy has fallen, only less); C and D are not claimed."
+    },
+    {
+      "id": "q9",
+      "type": "RC",
+      "question": "The author cites the history of data centres in order to suggest that",
+      "options": [
+        "A) efficiency prevailed only while gains were cheap to capture, and such gains run out",
+        "B) efficiency will always defeat growing demand, as the workload of data centres has shown over a good many years",
+        "C) virtualisation and consolidation caused a rebound by lowering costs and attracting more users to the data centres",
+        "D) data centres are more efficient than other users of electricity and so should be given priority in connecting to grids"
+      ],
+      "answer": 0,
+      "explanation": "<strong>Explanation:</strong> The author says that history is 'better read' as showing efficiency won while 'low-hanging fruit' lasted. B is the view the author sets aside; C reverses the cause; D is not discussed."
+    },
+    {
+      "id": "q10",
+      "type": "RC",
+      "question": "Which of the following, if true, would most strengthen the optimists' argument that the rebound has limits?",
+      "options": [
+        "A) Chips used for AI have become cheaper per operation in every year of the past decade and in every region of the world.",
+        "B) In regions where grid connections take years, operators facing dear power have trimmed low-value uses of computing.",
+        "C) Firms that saved energy through more efficient models report that they reinvested most of the savings in larger models.",
+        "D) Users of AI services issue more queries in each month in which providers lower the price that is charged per query."
+      ],
+      "answer": 1,
+      "explanation": "<strong>Explanation:</strong> The optimists argue that physical constraints raise power prices and push operators to economise; the first option is a direct instance. B, C and D describe falling costs or rising demand, supporting the pessimists."
+    },
+    {
+      "id": "q11",
+      "type": "RC",
+      "question": "Each of the following is offered as a reason why AI favours the pessimists EXCEPT",
+      "options": [
+        "A) cheaper models are embedded by firms in further products, from search to customer service",
+        "B) users issue queries that would not have been worth asking at the old price of the service",
+        "C) developers often reinvest efficiency savings in larger models or longer chains of reasoning",
+        "D) the chips used for AI are cheaper to manufacture than those used for other workloads"
+      ],
+      "answer": 3,
+      "explanation": "<strong>Explanation:</strong> The first three are in paragraph 4. The relative cost of manufacturing AI chips is never discussed."
+    },
+    {
+      "id": "q12",
+      "type": "RC",
+      "question": "Which policy implication does the passage support?",
+      "options": [
+        "A) Governments should subsidise efficiency in every case, since efficiency always reduces the total amount of energy consumed.",
+        "B) Efficiency standards should now be abandoned, because the rebound has been shown to exceed the savings in all cases.",
+        "C) Pricing electricity to reflect its full cost would act on demand directly, which matters if the rebound is strong.",
+        "D) Energy use per unit of service need not be published, since only the total matters for the planning of power grids."
+      ],
+      "answer": 2,
+      "explanation": "<strong>Explanation:</strong> The final paragraph says that if the rebound is strong, efficiency subsidies alone may not help while full-cost pricing would. A, B and D are contradicted ('always', 'in all cases', 'need not be published')."
+    },
+    {
+      "id": "q13",
+      "type": "RC",
+      "passage": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nAnita Verma (Host, Money Matters): India's UPI payments are free for customers and, for the most part, for merchants, yet the system is plainly costly to run. Who is paying?\n\nDr. Sanjay Iyer (economist): Indirectly, the government, through subsidies to banks and payment firms, and everyone else through taxes. Zero fees drove adoption, and adoption brought network effects. But a subsidy that builds a network can become a drag once the network is built: providers have little reason to invest in dispute resolution or reliability, while the subsidy bill grows with every transaction.\n\nAnita Verma: So charge merchants?\n\nDr. Sanjay Iyer: Even a small fee could push small merchants back to cash, which would waste the investment. The alternative is to let providers earn from other services, such as credit lines and lending based on payment data. That shifts the cost, but it also changes what users are being sold. When a service is free, it is worth asking what the payer is actually buying.",
+      "question": "According to the economist, a subsidy that builds a network can become a drag because",
+      "options": [
+        "A) merchants refuse to join a network unless they are paid to do so by the government that sponsors it",
+        "B) customers lose trust in a network that has been free for a long time and has grown very large",
+        "C) providers have little reason to improve service while its cost grows with use",
+        "D) banks withdraw from the network as soon as it has gained enough users to be self-sustaining"
+      ],
+      "answer": 2,
+      "explanation": "<strong>Explanation:</strong> He says providers 'have little reason to invest in dispute resolution or reliability, while the subsidy bill grows with every transaction'. The other options are not mentioned."
+    },
+    {
+      "id": "q14",
+      "type": "RC",
+      "question": "The economist's closing remark implies that",
+      "options": [
+        "A) payment networks should never be offered to users without a fee being charged to merchants on every transaction",
+        "B) a free service may be paid for through other products whose terms the user does not see",
+        "C) users who pay nothing for a service have no right to expect any particular quality from the providers of it",
+        "D) lending based on payment data is more profitable for banks than fees on payments could ever have been"
+      ],
+      "answer": 1,
+      "explanation": "<strong>Explanation:</strong> 'It shifts the cost' and 'what the payer is actually buying' point to hidden financing. The others are not stated; he in fact warns that a fee could drive small merchants to cash."
+    },
+    {
+      "id": "q15",
+      "type": "ParaJumble_TITA",
+      "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. A border carbon adjustment is the proposed remedy.\n2. Countries with strict climate rules fear that firms will relocate to places with laxer ones, taking emissions with them.\n3. Critics counter that it may act as protectionism under a green label, and that poorer exporters will bear the cost of rules they had no hand in writing.\n4. Such a tax charges imports for the carbon emitted in making them, at the rate that domestic producers pay.",
+      "answer": "2143",
+      "explanation": "<strong>Explanation:</strong> Sentence 2 states the problem. Sentence 1 names the remedy. Sentence 4 ('Such a tax') explains it. Sentence 3 ('Critics counter') gives the objection. Order: 2-1-4-3."
+    },
+    {
+      "id": "q16",
+      "type": "ParaJumble_TITA",
+      "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Yet the effect is not a mere illusion: patients given inert pills for pain report real relief, and brain scans show matching changes.\n2. The distinction matters, because it tells doctors where an inert treatment can comfort and where it can only delay real care.\n3. The placebo effect is often dismissed as imagination.\n4. It is strongest for symptoms that depend on perception, such as pain and nausea, and weakest for conditions measured by hard markers such as tumour size.",
+      "answer": "3142",
+      "explanation": "<strong>Explanation:</strong> Sentence 3 gives the common view. Sentence 1 ('Yet') corrects it. Sentence 4 ('It') says where the effect is strong or weak. Sentence 2 ('The distinction') draws the lesson. Order: 3-1-4-2."
+    },
+    {
+      "id": "q17",
+      "type": "ParaJumble_TITA",
+      "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. National governments followed, since a standard that the railways had created for convenience was too useful to remain private.\n2. Before railways, every town kept its own local time, set by the sun at noon.\n3. Railway companies therefore adopted a single standard time along their lines.\n4. A traveller going a few hundred kilometres could pass through several different times, and timetables became unworkable.",
+      "answer": "2431",
+      "explanation": "<strong>Explanation:</strong> Sentence 2 sets the old position. Sentence 4 shows the problem. Sentence 3 ('therefore') gives the railways' response. Sentence 1 ('followed') gives the state's. Order: 2-4-3-1."
+    },
+    {
+      "id": "q18",
+      "type": "ParaJumble_TITA",
+      "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Early results, with repayment rates above ninety per cent, seemed to confirm it.\n2. Later randomised studies found, however, that the loans raised consumption and business activity only modestly, and seldom lifted households out of poverty.\n3. Microfinance began with a modest claim: that poor borrowers, given small loans without collateral, would repay them.\n4. The tool was not useless but oversold, for credit helps people manage risk and cash flow without being a cure for poverty.",
+      "answer": "3124",
+      "explanation": "<strong>Explanation:</strong> Sentence 3 states the original claim. Sentence 1 reports the early confirmation. Sentence 2 ('however') reports the later findings. Sentence 4 gives the balanced verdict. Order: 3-1-2-4."
+    },
+    {
+      "id": "q19",
+      "type": "ParaSummary",
+      "question": "Select the option that best summarizes the paragraph:\n\n'Schools judged by examination pass rates have found many ways to raise them: coaching to the test, steering weak students away from entering, and concentrating effort on those near the pass mark. The rates rise, but what they were meant to indicate, the quality of education, may not. The lesson is not that measurement is futile, but that any indicator, once tied to rewards, invites behaviour that improves the indicator more than the thing it stands for.'",
+      "options": [
+        "A) Examination pass rates are meaningless, and schools should be judged by no measure of performance of any kind whatever.",
+        "B) Indicators tied to rewards tend to be gamed, so they can improve while the underlying quality does not.",
+        "C) Weak students are deliberately excluded by schools because they lower the pass rates on which funding depends.",
+        "D) Coaching to the test is the only means by which schools can raise their pass rates in the short run."
+      ],
+      "answer": 1,
+      "explanation": "<strong>Explanation:</strong> The paragraph says rewarded indicators invite gaming but denies that measurement is futile. A contradicts the last sentence; C and D turn illustrations into claims."
+    },
+    {
+      "id": "q20",
+      "type": "ParaSummary",
+      "question": "Select the option that best summarizes the paragraph:\n\n'A falling birth rate is often described as a crisis of ageing, with fewer workers supporting more pensioners. But the ratio depends on how many of the old and the young actually work, and on how productive they are. Raising participation among women and older workers, and output per worker, can offset a shrinking workforce; migration can too. Demography sets the arithmetic, not the destiny.'",
+      "options": [
+        "A) Ageing is a crisis that no combination of policies can offset, since demography fixes the fortunes of every society.",
+        "B) Migration is the only dependable response to falling birth rates, because participation and productivity cannot be raised much.",
+        "C) The ratio of workers to pensioners is irrelevant to the fiscal burden that an ageing population places on a government.",
+        "D) Ageing societies need not decline, since participation, productivity and migration can offset a smaller workforce."
+      ],
+      "answer": 3,
+      "explanation": "<strong>Explanation:</strong> The paragraph argues demography is not destiny and lists several offsets. A contradicts it; C picks one offset and dismisses the others; D denies the premise of the first sentence."
+    },
+    {
+      "id": "q21",
+      "type": "ParaSummary",
+      "question": "Select the option that best summarizes the paragraph:\n\n'Open-source software is given away, yet firms that compete fiercely in other respects pay engineers to improve it. The shared base, such as an operating system or a web server, is something all of them need and none can differentiate on; maintaining it jointly costs each less than building a private version, and competition shifts to what is built above it. Giving away the commons can be self-interest.'",
+      "options": [
+        "A) Competitors share the costs of common infrastructure so as to compete on what is built above it.",
+        "B) Firms contribute to open-source projects out of generosity and not out of any consideration of their own commercial interest.",
+        "C) Open-source software is inferior to private versions, and firms contribute to it only because they are compelled by law.",
+        "D) Competition between firms has been abolished in the software industry by their agreement to give their products away."
+      ],
+      "answer": 0,
+      "explanation": "<strong>Explanation:</strong> The paragraph explains contributions as self-interested cost-sharing. A is denied in the last sentence; C and D are invented."
+    },
+    {
+      "id": "q22",
+      "type": "ParaCompletion",
+      "question": "Complete the paragraph logically:\n\n'Inflation is often described as a tax on savers. ________ A household that holds its wealth in cash sees it eroded year after year, while a borrower with a fixed-rate loan repays in money that buys less than when it was lent. The transfer is quiet, which is why it is rarely debated as taxes are.'",
+      "options": [
+        "A) Inflation always benefits the government at the direct expense of every household in the economy in each year.",
+        "B) Savers can avoid any loss from inflation by moving their wealth into cash, which retains its value over time.",
+        "C) The comparison is apt: it shifts value from holders of money to those who owe it.",
+        "D) Fixed-rate loans are no longer offered by banks, because lenders fear the effects of rising prices on their returns."
+      ],
+      "answer": 2,
+      "explanation": "<strong>Explanation:</strong> The sentences that follow show a transfer from holders of cash to debtors. A is too absolute; C contradicts the example of cash eroding; D is not supported."
+    },
+    {
+      "id": "q23",
+      "type": "ParaCompletion",
+      "question": "Complete the paragraph logically:\n\n'Experts are most useful where feedback is fast and clear. ________ A weather forecaster learns daily whether she was right; a forecaster of political upheavals may wait years for a verdict that is itself disputed. Confidence is therefore a reasonable guide to accuracy in the first field and a poor one in the second.'",
+      "options": [
+        "A) Forecasters of political upheavals are less intelligent than weather forecasters and so make a greater number of errors.",
+        "B) Track records sharpen judgement only when the world soon tells the expert that she was wrong.",
+        "C) Experts in every field become more accurate as they grow older, whether or not they receive any feedback on their work.",
+        "D) Weather forecasting is easier than any other kind of prediction, since the atmosphere obeys laws that are fully understood."
+      ],
+      "answer": 1,
+      "explanation": "<strong>Explanation:</strong> The example contrasts fast feedback (weather) with slow, disputed feedback (politics). B, C and D draw conclusions about intelligence, age or ease that the paragraph never makes."
+    },
+    {
+      "id": "q24",
+      "type": "ParaCompletion",
+      "question": "Complete the paragraph logically:\n\n'Adding lanes to a congested highway rarely cures congestion. ________ New road space lowers the cost of driving, which draws trips that were previously not made, until congestion returns to its former level. The remedy feeds the demand it was meant to satisfy.'",
+      "options": [
+        "A) The reason is that the supply of road space tends to create its own demand.",
+        "B) Congestion is caused chiefly by badly designed junctions, and the number of lanes on a highway has no bearing on it.",
+        "C) Drivers should be forbidden from using highways at peak hours, since only legal restrictions can reduce the volume of traffic.",
+        "D) Highways with many lanes are always more congested than highways with few, whatever the number of vehicles that use them."
+      ],
+      "answer": 0,
+      "explanation": "<strong>Explanation:</strong> The next sentences describe induced demand. B, C and D go beyond or contradict that mechanism."
+    },
+    {
+      "id": "q25",
+      "type": "Vocabulary",
+      "question": "Choose the option that best completes the sentence:\n\nThe negotiator's ________ reply, neither accepting nor refusing, left both delegations unsure of her intentions.",
+      "options": [
+        "A) peremptory",
+        "B) categorical",
+        "C) equivocal",
+        "D) vindictive"
+      ],
+      "answer": 2,
+      "explanation": "<strong>Explanation:</strong> 'Equivocal' means deliberately ambiguous. 'Peremptory' and 'categorical' are blunt and definite; 'vindictive' means vengeful."
+    },
+    {
+      "id": "q26",
+      "type": "Vocabulary",
+      "question": "Choose the option that best completes the sentence:\n\nHis ________ generosity, publicised at every opportunity, impressed few who knew how little it had cost him.",
+      "options": [
+        "A) ostentatious",
+        "B) self-effacing",
+        "C) unobtrusive",
+        "D) spontaneous"
+      ],
+      "answer": 0,
+      "explanation": "<strong>Explanation:</strong> 'Ostentatious' means showy. 'Self-effacing' and 'unobtrusive' mean the opposite; 'spontaneous' does not fit 'publicised'."
+    },
+    {
+      "id": "q27",
+      "type": "Vocabulary",
+      "question": "Choose the option that best completes the sentence:\n\nThe scheme was ________ from the start: designed to enrich its promoters, it could only collapse once new investors dried up.",
+      "options": [
+        "A) altruistic",
+        "B) predatory",
+        "C) precautionary",
+        "D) magnanimous"
+      ],
+      "answer": 1,
+      "explanation": "<strong>Explanation:</strong> 'Predatory' means exploiting others for gain. The other options suggest generosity or caution, which contradict 'designed to enrich its promoters'."
+    },
+    {
+      "id": "q28",
+      "type": "Vocabulary",
+      "question": "Choose the option that best fills the blanks:\n\nThough the minister's manner was ________, her policies were ________: she smiled warmly while she cut the subsidies on which millions relied.",
+      "options": [
+        "A) abrasive; draconian",
+        "B) affable; benign",
+        "C) abrasive; lenient",
+        "D) affable; draconian"
+      ],
+      "answer": 3,
+      "explanation": "<strong>Explanation:</strong> A warm manner contrasts ('though') with harsh policies. 'Abrasive; draconian' removes the contrast; 'benign' and 'lenient' contradict 'cut the subsidies'."
+    },
+    {
+      "id": "q29",
+      "type": "Vocabulary",
+      "question": "Choose the option that best fills the blanks:\n\nA ________ critic, she would ________ any claim until it had been ________ by independent evidence.",
+      "options": [
+        "A) credulous; accept; challenged",
+        "B) cynical; endorse; corroborated",
+        "C) wary; doubt; verified",
+        "D) wary; endorse; contradicted"
+      ],
+      "answer": 2,
+      "explanation": "<strong>Explanation:</strong> A wary critic doubts a claim until it is verified. 'Credulous' and 'endorse' contradict the caution that 'until' implies."
+    },
+    {
+      "id": "q30",
+      "type": "Vocabulary",
+      "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+      "options": [
+        "A) The committee's tenuous evidence was enough to settle the matter beyond all doubt.",
+        "B) The auditor's meticulous check of the accounts uncovered several discrepancies in them.",
+        "C) The sanction was ostensibly meant to deter, but in effect it rewarded the offender who had broken the rule.",
+        "D) Her laconic reply, a single word, closed the discussion at once, and no one pressed her further."
+      ],
+      "answer": 0,
+      "explanation": "<strong>Explanation:</strong> 'Tenuous' means slight or weak, so it cannot support a conclusion 'beyond all doubt'. 'Meticulous', 'ostensibly' and 'laconic' are used correctly."
+    },
+    {
+      "id": "q31",
+      "type": "Vocabulary",
+      "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+      "options": [
+        "A) The judge's demeanour, calm and attentive, reassured the nervous witness who was called to speak first.",
+        "B) The lawyer was reprimanded for his disinterested pursuit of his own client's advantage.",
+        "C) A palpable tension filled the room before the results of the long and difficult election were read.",
+        "D) The treaty abrogated the earlier agreement and replaced all of its terms with a new set of rules."
+      ],
+      "answer": 1,
+      "explanation": "<strong>Explanation:</strong> 'Disinterested' means impartial, which cannot describe pursuing a client's advantage ('uninterested' or 'single-minded' would also not fit). 'Demeanour', 'palpable' and 'abrogated' are correct."
+    },
+    {
+      "id": "q32",
+      "type": "Vocabulary",
+      "question": "Select the word MOST NEARLY SIMILAR in meaning to 'ANODYNE':",
+      "options": [
+        "A) Bland",
+        "B) Contentious",
+        "C) Provocative",
+        "D) Acrimonious"
+      ],
+      "answer": 0,
+      "explanation": "<strong>Explanation:</strong> Anodyne means inoffensive and unlikely to provoke; 'bland' is closest. The others are the opposite."
+    },
+    {
+      "id": "q33",
+      "type": "Vocabulary",
+      "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'EPHEMERAL':",
+      "options": [
+        "A) Fleeting",
+        "B) Perennial",
+        "C) Evanescent",
+        "D) Momentary"
+      ],
+      "answer": 1,
+      "explanation": "<strong>Explanation:</strong> Ephemeral means lasting a very short time; 'perennial' (enduring) is the antonym."
+    },
+    {
+      "id": "q34",
+      "type": "Vocabulary",
+      "question": "Select the word MOST NEARLY SIMILAR in meaning to 'CAPITULATE':",
+      "options": [
+        "A) Persevere",
+        "B) Retaliate",
+        "C) Yield",
+        "D) Contend"
+      ],
+      "answer": 2,
+      "explanation": "<strong>Explanation:</strong> To capitulate is to surrender; 'yield' is closest. The others mean to keep resisting."
+    },
+    {
+      "id": "q35",
+      "type": "Vocabulary",
+      "question": "Select the word MOST NEARLY OPPOSITE in meaning to 'PARSIMONIOUS':",
+      "options": [
+        "A) Penurious",
+        "B) Frugal",
+        "C) Stingy",
+        "D) Lavish"
+      ],
+      "answer": 3,
+      "explanation": "<strong>Explanation:</strong> Parsimonious means extremely sparing with money; 'lavish' is the antonym. The others are synonyms."
+    },
+    {
+      "id": "q36",
+      "type": "Vocabulary",
+      "question": "Choose the correct meaning of the idiom:\n'To cut the Gordian knot' means to:",
+      "options": [
+        "A) abandon a task as soon as its difficulty becomes clear to the people who are engaged upon it",
+        "B) tie together two groups whose interests have been opposed to each other for many years",
+        "C) solve a tangled problem by a bold, direct stroke",
+        "D) reveal a secret that has been kept from the general public for a very long period of time"
+      ],
+      "answer": 2,
+      "explanation": "<strong>Explanation:</strong> The phrase refers to Alexander slicing through an unsolvable knot: a decisive, unconventional solution."
+    },
+    {
+      "id": "q37",
+      "type": "Vocabulary",
+      "question": "Select the sentence in which 'ENERVATE' is used correctly:",
+      "options": [
+        "A) The coach's rousing speech enervated the players, who ran onto the field eager to begin the match.",
+        "B) The sultry afternoon enervated the team, and work slowed to a crawl.",
+        "C) The success of her first book enervated her to begin another that very week, with energy to spare.",
+        "D) A cup of strong coffee enervated him enough to finish the report before the deadline that night."
+      ],
+      "answer": 1,
+      "explanation": "<strong>Explanation:</strong> To enervate is to drain of energy. In the other sentences it is wrongly used to mean 'energise'."
+    },
+    {
+      "id": "q38",
+      "type": "Grammar",
+      "question": "Choose the best replacement for the underlined portion:\n\nHardly had the bell rung <u>than the students</u> rushed out of the hall.",
+      "options": [
+        "A) when the students",
+        "B) than did the students",
+        "C) then the students",
+        "D) that the students"
+      ],
+      "answer": 0,
+      "explanation": "<strong>Explanation:</strong> 'Hardly' is followed by 'when', not 'than'."
+    },
+    {
+      "id": "q39",
+      "type": "Grammar",
+      "question": "Choose the best replacement for the underlined portion:\n\nThe report, along with its appendices, <u>are</u> to be submitted by Monday.",
+      "options": [
+        "A) were",
+        "B) is",
+        "C) have been",
+        "D) are being"
+      ],
+      "answer": 1,
+      "explanation": "<strong>Explanation:</strong> 'Along with' does not make the subject plural; the verb agrees with 'the report'."
+    },
+    {
+      "id": "q40",
+      "type": "Grammar",
+      "question": "Spot the error in the following sentence:\n'Had I been informed (A) / earlier, I would (B) / have took (C) / the necessary steps (D).'",
+      "options": [
+        "A) Had I been informed",
+        "B) earlier, I would",
+        "C) have took",
+        "D) the necessary steps"
+      ],
+      "answer": 2,
+      "explanation": "<strong>Explanation:</strong> After 'would have' the past participle is needed: 'have taken'."
+    },
+    {
+      "id": "q41",
+      "type": "Grammar",
+      "question": "Spot the error in the following sentence:\n'Every one of the (A) / proposals submitted by (B) / the contractors were (C) / rejected by the panel (D).'",
+      "options": [
+        "A) Every one of the",
+        "B) proposals submitted by",
+        "C) rejected by the panel",
+        "D) the contractors were"
+      ],
+      "answer": 3,
+      "explanation": "<strong>Explanation:</strong> 'Every one' is singular, so the verb should be 'was'."
+    },
+    {
+      "id": "q42",
+      "type": "Grammar",
+      "question": "Choose the grammatically correct sentence:",
+      "options": [
+        "A) Not only she won the prize, but also she donated it to charity for the needy.",
+        "B) Not only did she win the prize, but she also donated it to charity.",
+        "C) Not only did she won the prize, but she also donated it to the charity for the needy.",
+        "D) Not only she did win the prize, but also donated it to charity for the needy."
+      ],
+      "answer": 1,
+      "explanation": "<strong>Explanation:</strong> A fronted 'Not only' requires inversion with the base verb: 'did she win'."
+    },
+    {
+      "id": "q43",
+      "type": "Grammar",
+      "question": "Choose the correct option to fill in the blank:\n'I wish I ________ the news earlier, when it could still have made a difference.'",
+      "options": [
+        "A) had known",
+        "B) knew",
+        "C) would know",
+        "D) have known"
+      ],
+      "answer": 0,
+      "explanation": "<strong>Explanation:</strong> A wish about the past takes the past perfect: 'had known'."
+    },
+    {
+      "id": "q44",
+      "type": "Grammar",
+      "question": "Identify the grammatically INCORRECT sentence:",
+      "options": [
+        "A) Between you and me, the plan is unlikely to work in practice.",
+        "B) The team are divided on whether to accept the offer from the board.",
+        "C) If he were to resign, the board would appoint a successor within a week.",
+        "D) I have been living in this neighbourhood since five years."
+      ],
+      "answer": 3,
+      "explanation": "<strong>Explanation:</strong> 'Since' needs a point in time; with a period, use 'for five years'. The others are correct."
+    },
+    {
+      "id": "q45",
+      "type": "Grammar",
+      "question": "Choose the correct option to fill in the blank:\n'The minister was impervious ________ criticism.'",
+      "options": [
+        "A) of",
+        "B) against",
+        "C) to",
+        "D) from"
+      ],
+      "answer": 2,
+      "explanation": "<strong>Explanation:</strong> 'Impervious' takes 'to'."
+    }
+  ]
+}
   
