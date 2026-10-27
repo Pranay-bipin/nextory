@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEXTORY - IPMAT Prep Portal</title>
-    <!-- Chart.js CDN for Visual Analytics -->
+    <!-- Chart.js CDN for Visual Analytics (page still works if this fails to load) -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         :root {
@@ -274,6 +274,8 @@
 
         .archive-item { background: var(--bg-card); border: 1px solid var(--border-light); padding: 16px 20px; border-radius: 10px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: all 0.2s ease; }
         .archive-item:hover { border-color: var(--green-primary); transform: translateX(4px); box-shadow: var(--shadow-subtle); }
+
+        .notice-box { padding: 14px 16px; border-radius: 10px; background: #fffbeb; border: 1px solid #fde68a; color: #92400e; font-size: 0.88rem; }
     </style>
 </head>
 <body>
@@ -470,7 +472,7 @@
             </div>
 
             <div class="dashboard-layout">
-                <div class="chart-container">
+                <div class="chart-container" id="accuracy-chart-box">
                     <h4 style="font-size:0.82rem; font-weight:800; text-transform:uppercase; color:var(--text-muted); margin-bottom:12px;">Attempts Visual Breakdown</h4>
                     <div style="width:180px; height:180px;">
                         <canvas id="accuracyChart"></canvas>
@@ -490,6 +492,105 @@
     </div>
 
     <script>
+        /* =====================================================
+           SHARED HELPERS (safety, answer matching, date picking)
+           ===================================================== */
+
+        // Escape plain text (vocab, titles, input values) so quotes/HTML can't break markup
+        function esc(s) {
+            return String(s === undefined || s === null ? '' : s).replace(/[&<>"']/g, c => (
+                { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+            ));
+        }
+
+        // For content fields that may legitimately contain simple HTML (<br>, <b>, tables):
+        // keep the markup, strip scripts, event handlers and javascript: URLs.
+        function sanitizeHTML(html) {
+            if (html === undefined || html === null) return '';
+            const tpl = document.createElement('template');
+            tpl.innerHTML = String(html);
+            tpl.content.querySelectorAll('script,iframe,object,embed,link,meta,base,form,style').forEach(n => n.remove());
+            tpl.content.querySelectorAll('*').forEach(el => {
+                Array.from(el.attributes).forEach(a => {
+                    const n = a.name.toLowerCase();
+                    const v = a.value.replace(/\s+/g, '').toLowerCase();
+                    const isUrlAttr = (n === 'href' || n === 'src' || n === 'xlink:href' || n === 'formaction' || n === 'action');
+                    if (n.startsWith('on') || n === 'srcdoc' || (isUrlAttr && (v.startsWith('javascript:') || v.startsWith('data:text/html')))) {
+                        el.removeAttribute(a.name);
+                    }
+                });
+            });
+            return tpl.innerHTML;
+        }
+
+        function isTitaQ(q) {
+            return (q.type && String(q.type).toUpperCase().includes('TITA')) || !q.options;
+        }
+
+        function isAttemptedAns(a) {
+            return a !== undefined && a !== null && a !== '';
+        }
+
+        // TITA: ignore spaces, commas and case ("2,413" / "24 13" / "2413 " all equal)
+        function normTita(v) {
+            return String(v === undefined || v === null ? '' : v).replace(/[\s,]/g, '').toLowerCase();
+        }
+
+        // MCQ: accept answer as 0-based index (number or "2"), letter ("A"/"(b)"), or option text
+        function mcqCorrectIndex(q) {
+            const a = q.answer;
+            if (typeof a === 'number') return a;
+            if (a === undefined || a === null) return -1;
+            const s = String(a).trim();
+            if (/^\d+$/.test(s)) return parseInt(s, 10);
+            if (q.options) {
+                const m = s.match(/^\(?([A-Za-z])\)?[\.\):]?$/);
+                if (m) {
+                    const i = m[1].toUpperCase().charCodeAt(0) - 65;
+                    if (i >= 0 && i < q.options.length) return i;
+                }
+                const strip = t => String(t).replace(/^\s*\(?[A-Za-z0-9]\)?[\.\):]\s*/, '').trim().toLowerCase();
+                const target = strip(s);
+                const i2 = q.options.findIndex(o => String(o).trim().toLowerCase() === s.toLowerCase() || strip(o) === target);
+                if (i2 > -1) return i2;
+            }
+            return -1;
+        }
+
+        function isAnswerCorrect(q, userAns) {
+            if (!isAttemptedAns(userAns)) return false;
+            if (isTitaQ(q)) return normTita(userAns) === normTita(q.answer);
+            return parseInt(userAns, 10) === mcqCorrectIndex(q);
+        }
+
+        // Pick the right item for today: exact date, else most recent past date, else the earliest upcoming one.
+        function pickForToday(list, todayStr) {
+            if (!list || list.length === 0) return null;
+            const dated = list.filter(x => x.date);
+            if (dated.length === 0) return list[list.length - 1];
+            const sorted = [...dated].sort((a, b) => a.date.localeCompare(b.date));
+            const exact = sorted.find(x => x.date === todayStr);
+            if (exact) return exact;
+            const past = sorted.filter(x => x.date <= todayStr);
+            if (past.length) return past[past.length - 1];
+            return sorted[0];
+        }
+
+        function byDateDesc(list) {
+            return [...list].sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
+        }
+
+        function getLocalDateString() {
+            const now = new Date();
+            const year = now.getFullYear();
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const day = String(now.getDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
+        }
+
+        /* =====================================================
+           STATE
+           ===================================================== */
         let allPassages = [];
         let currentRC = null;
         let currentQIndex = 0;
@@ -501,7 +602,9 @@
         let isTimerActive = false;
         let activeTab = 'vocab';
 
-        let savedItems = JSON.parse(localStorage.getItem('nextory_saved')) || [];
+        let savedItems = [];
+        try { savedItems = JSON.parse(localStorage.getItem('nextory_saved')) || []; } catch (e) { savedItems = []; }
+        let vocabRegistry = []; // lets buttons reference items by index instead of inlining text into onclick
 
         // Sectional State
         let allSectionals = [];
@@ -536,14 +639,6 @@
             }
         });
 
-        function getLocalDateString() {
-            const now = new Date();
-            const year = now.getFullYear();
-            const month = String(now.getMonth() + 1).padStart(2, '0');
-            const day = String(now.getDate()).padStart(2, '0');
-            return `${year}-${month}-${day}`;
-        }
-
         async function loadData() {
             try {
                 const response = await fetch('passages.json');
@@ -554,12 +649,12 @@
 
             if (allPassages && allPassages.length > 0) {
                 const todayStr = getLocalDateString();
-                const availablePassages = allPassages.filter(p => p.date <= todayStr);
-                currentRC = availablePassages.find(p => p.date === todayStr) || allPassages[allPassages.length - 1];
+                const available = allPassages.filter(p => !p.date || p.date <= todayStr);
+                currentRC = pickForToday(allPassages, todayStr);
 
                 renderVocab(currentRC.vocab);
                 renderReadingTest(currentRC, false);
-                renderArchive(availablePassages.length > 0 ? availablePassages : allPassages);
+                renderArchive(available.length > 0 ? byDateDesc(available) : byDateDesc(allPassages));
                 updateSavedBadge();
             }
 
@@ -577,12 +672,12 @@
 
                 if (allSectionals && allSectionals.length > 0) {
                     const todayStr = getLocalDateString();
-                    const availableSectionals = allSectionals.filter(s => s.date <= todayStr);
+                    const available = allSectionals.filter(s => !s.date || s.date <= todayStr);
                     
-                    todaySectional = availableSectionals.find(s => s.date === todayStr) || allSectionals[allSectionals.length - 1];
+                    todaySectional = pickForToday(allSectionals, todayStr);
                     
                     renderSectionalBanner();
-                    renderSectionalArchive(availableSectionals.length > 0 ? availableSectionals : allSectionals);
+                    renderSectionalArchive(available.length > 0 ? byDateDesc(available) : byDateDesc(allSectionals));
                 } else {
                     renderNoSectionalBanner();
                 }
@@ -597,29 +692,36 @@
             if (!container) return;
 
             container.innerHTML = sectionalsList.map(s => `
-                <div class="archive-item" onclick="selectArchiveSectional('${s.id}')">
+                <div class="archive-item" data-id="${esc(s.id)}" onclick="selectArchiveSectional(this.dataset.id)">
                     <div>
-                        <strong style="color:var(--text-heading);">${s.title}</strong>
-                        <div style="font-size:0.8rem; color:var(--text-muted); margin-top:4px;">Duration: ${s.durationMinutes || 40} Mins | Date: ${s.date || 'Practice Set'}</div>
+                        <strong style="color:var(--text-heading);">${esc(s.title)}</strong>
+                        <div style="font-size:0.8rem; color:var(--text-muted); margin-top:4px;">Duration: ${esc(s.durationMinutes || 40)} Mins | Date: ${esc(s.date || 'Practice Set')}</div>
                     </div>
                     <span class="sub-tag">Open Test</span>
                 </div>
             `).join('');
         }
 
-        function selectArchiveSectional(id) {
-            todaySectional = allSectionals.find(s => s.id === id);
-            if (!todaySectional) return;
-
+        // Single place that starts a fresh sectional attempt (used by both "Start" and archive)
+        function beginSectionalAttempt() {
             secCurrentQIndex = 0;
             sectionalUserAnswers = {};
             isSectionalSubmitted = false;
             sectionalSeconds = (todaySectional.durationMinutes || 40) * 60;
+            if (window.__saReset) window.__saReset(); // clears per-question timing + hides "View Analysis"
 
-            navigateTab('sectional');
             renderSectionalContainerLayout();
             renderSectionalQuestion();
             startSectionalCountdown();
+        }
+
+        function selectArchiveSectional(id) {
+            const found = allSectionals.find(s => String(s.id) === String(id));
+            if (!found || !found.questions) return;
+            todaySectional = found;
+
+            navigateTab('sectional');
+            beginSectionalAttempt();
         }
 
         async function loadDILRData() {
@@ -639,8 +741,7 @@
                 if (Array.isArray(data) && data.length > 0 && data[0].questions) {
                     allDILRSets = data;
                     isDILRComingSoon = false;
-                    const todayStr = getLocalDateString();
-                    currentDILR = allDILRSets.find(s => s.date === todayStr) || allDILRSets[allDILRSets.length - 1];
+                    currentDILR = pickForToday(allDILRSets, getLocalDateString());
                     renderDILRSet();
                 } else {
                     isDILRComingSoon = true;
@@ -667,11 +768,11 @@
                         📊
                     </div>
                     <h2 style="font-size: 1.8rem; font-weight: 800; color: var(--text-heading); margin-bottom: 12px;">
-                        ${title} <span style="color: var(--green-primary);">(${badge})</span>
+                        ${esc(title)} <span style="color: var(--green-primary);">(${esc(badge)})</span>
                     </h2>
-                    <p style="color: var(--text-body); font-size: 1rem; margin-bottom: 24px; line-height: 1.6;">${message}</p>
+                    <p style="color: var(--text-body); font-size: 1rem; margin-bottom: 24px; line-height: 1.6;">${esc(message)}</p>
                     <div style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 18px; border-radius: 20px; background: var(--green-bg); border: 1px solid var(--green-border); color: var(--green-hover); font-size: 0.88rem; font-weight: 700;">
-                        <span>⏳ ${subMessage}</span>
+                        <span>⏳ ${esc(subMessage)}</span>
                     </div>
                 </div>`;
         }
@@ -703,40 +804,38 @@
                     </div>
                 </div>`;
 
-            const isTITA = q.type && q.type.toUpperCase().includes("TITA") || !q.options;
+            const isTITA = isTitaQ(q);
             let optionsHtml = "";
 
             if (isTITA) {
                 const currentVal = dilrUserAnswers[dilrQIndex] || "";
                 let inputClass = "tita-input-box";
                 if (isDILRSubmitted) {
-                    const cleanUserAns = String(currentVal).trim();
-                    const cleanCorrectAns = String(q.answer).trim();
-                    inputClass += (cleanUserAns === cleanCorrectAns) ? " correct-input" : " wrong-input";
+                    inputClass += isAnswerCorrect(q, currentVal) ? " correct-input" : " wrong-input";
                 }
 
                 optionsHtml = `
                     <div style="margin-top: 15px;">
                         <label style="font-weight: 700; font-size: 0.88rem; color: var(--text-muted); display: block; margin-bottom: 6px;">Type Your Answer Below:</label>
-                        <input type="text" class="${inputClass}" value="${currentVal}" placeholder="Type answer here..." ${isDILRSubmitted ? 'disabled' : ''} oninput="handleDILRTITAInput(this.value)">
-                        ${isDILRSubmitted ? `<div style="margin-top: 8px; font-weight: 800; color: var(--status-correct);">Correct Answer: ${q.answer}</div>` : ''}
+                        <input type="text" class="${inputClass}" value="${esc(currentVal)}" placeholder="Type answer here..." ${isDILRSubmitted ? 'disabled' : ''} oninput="handleDILRTITAInput(this.value)">
+                        ${isDILRSubmitted ? `<div style="margin-top: 8px; font-weight: 800; color: var(--status-correct);">Correct Answer: ${esc(q.answer)}</div>` : ''}
                     </div>`;
             } else {
+                const correctIdx = mcqCorrectIndex(q);
                 optionsHtml = q.options.map((opt, idx) => {
                     let btnClass = "opt-btn";
                     if (dilrUserAnswers[dilrQIndex] === idx) btnClass += " selected";
                     if (isDILRSubmitted) {
-                        if (idx === q.answer) btnClass += " correct";
+                        if (idx === correctIdx) btnClass += " correct";
                         else if (dilrUserAnswers[dilrQIndex] === idx) btnClass += " wrong";
                     }
-                    return `<button class="${btnClass}" onclick="selectDILROption(${idx})">${opt}</button>`;
+                    return `<button class="${btnClass}" onclick="selectDILROption(${idx})">${sanitizeHTML(opt)}</button>`;
                 }).join('');
             }
 
             let attemptedCount = 0;
             const gridBtnsHtml = qList.map((item, idx) => {
-                const ans = dilrUserAnswers[idx];
-                const isAttempted = ans !== undefined && ans !== "";
+                const isAttempted = isAttemptedAns(dilrUserAnswers[idx]);
                 if (isAttempted) attemptedCount++;
 
                 let btnClass = "q-grid-btn";
@@ -750,12 +849,12 @@
                 <div class="test-split">
                     <div class="reading-box">
                         <div class="meta-tags">
-                            <span class="tag">${currentDILR.category || 'DI/LR'}</span>
+                            <span class="tag">${esc(currentDILR.category || 'DI/LR')}</span>
                             <span class="tag">IPMAT Level</span>
-                            <span class="tag">${currentDILR.date || 'Daily Set'}</span>
+                            <span class="tag">${esc(currentDILR.date || 'Daily Set')}</span>
                         </div>
-                        <h2 style="margin-bottom: 16px; color: var(--text-heading);">${currentDILR.title}</h2>
-                        <div class="passage-body">${currentDILR.setContext || currentDILR.passage || ''}</div>
+                        <h2 style="margin-bottom: 16px; color: var(--text-heading);">${esc(currentDILR.title)}</h2>
+                        <div class="passage-body">${sanitizeHTML(currentDILR.setContext || currentDILR.passage || '')}</div>
                     </div>
                     <div>
                         <div class="question-card">
@@ -764,7 +863,7 @@
                                 <span class="tag">Q ${dilrQIndex + 1} of ${qList.length}</span>
                                 <span style="font-weight:700; font-size:0.82rem; color:var(--text-muted);">${attemptedCount}/${qList.length} Attempted</span>
                             </div>
-                            <div style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1rem; line-height: 1.6;">${q.question}</div>
+                            <div style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1rem; line-height: 1.6;">${sanitizeHTML(q.question)}</div>
                             <div>${optionsHtml}</div>
                             
                             <div class="q-palette-container">
@@ -772,7 +871,7 @@
                                 <div class="q-palette-grid">${gridBtnsHtml}</div>
                             </div>
 
-                            <div class="explanation-box" style="display:${isDILRSubmitted ? 'block' : 'none'}">${q.explanation || ''}</div>
+                            <div class="explanation-box" style="display:${isDILRSubmitted ? 'block' : 'none'}">${sanitizeHTML(q.explanation || '')}</div>
 
                             <div style="display: flex; justify-content: space-between; margin-top: 25px;">
                                 <button class="nav-btn" onclick="navDILRQ(-1)">← Previous</button>
@@ -815,7 +914,7 @@
             const mins = Math.floor(dilrSecondsElapsed / 60).toString().padStart(2, '0');
             const secs = (dilrSecondsElapsed % 60).toString().padStart(2, '0');
             const display = document.getElementById('dilr-timer-display');
-            if (display) display.innerText = `⏱ ${mins}:${secs}`;
+            if (display) display.innerText = `⏱️ ${mins}:${secs}`;
         }
 
         function selectDILROption(idx) {
@@ -878,9 +977,9 @@
                 <div class="hero-banner" style="background: linear-gradient(135deg, #d1fae5 0%, #ecfdf5 100%); border-color: var(--green-border);">
                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px;">
                         <span class="sub-tag">LIVE MOCK TEST</span>
-                        <span style="font-weight:700; color:var(--green-hover); font-size:0.85rem;">⏱️ ${todaySectional.durationMinutes || 40} MINS | Total Questions: ${totalQs} Questions Loaded</span>
+                        <span style="font-weight:700; color:var(--green-hover); font-size:0.85rem;">⏱️ ${esc(todaySectional.durationMinutes || 40)} MINS | Total Questions: ${totalQs} Questions Loaded</span>
                     </div>
-                    <h1>${todaySectional.title}</h1>
+                    <h1>${esc(todaySectional.title)}</h1>
                     <p style="margin-bottom:20px;">Strict IPMAT Indore pattern (RCs, Para Jumbles, Verbal Reasoning, Grammar & Vocab).</p>
                     <button class="primary-btn" onclick="startFullSectionalTest()">🚀 Start Sectional Test</button>
                 </div>`;
@@ -897,15 +996,7 @@
 
         function startFullSectionalTest() {
             if (!todaySectional || !todaySectional.questions) return;
-
-            secCurrentQIndex = 0;
-            sectionalUserAnswers = {};
-            isSectionalSubmitted = false;
-            sectionalSeconds = (todaySectional.durationMinutes || 40) * 60;
-
-            renderSectionalContainerLayout();
-            renderSectionalQuestion();
-            startSectionalCountdown();
+            beginSectionalAttempt();
         }
 
         function renderSectionalContainerLayout() {
@@ -920,8 +1011,8 @@
 
             sectionalTimerInterval = setInterval(() => {
                 sectionalSeconds--;
-                const mins = Math.floor(sectionalSeconds / 60).toString().padStart(2, '0');
-                const secs = (sectionalSeconds % 60).toString().padStart(2, '0');
+                const mins = Math.floor(Math.max(sectionalSeconds, 0) / 60).toString().padStart(2, '0');
+                const secs = (Math.max(sectionalSeconds, 0) % 60).toString().padStart(2, '0');
                 
                 const display = document.getElementById('sec-timer-display');
                 if (display) display.innerText = `⏱️ ${mins}:${secs}`;
@@ -952,24 +1043,55 @@
             if (btn) btn.innerText = isSectionalTimerActive ? "Pause" : "Resume";
         }
 
+        // Find the passage for an RC question. NEVER falls back to the daily RC.
+        function isRCType(q) { return !!(q && q.type && String(q.type).toUpperCase().includes('RC')); }
+
+        function getSectionalPassage(q, idx) {
+            if (q.passage) return q.passage;
+
+            // Optional shared passages: sectional.passages as object {id: text} or array [{id, text|passage}]
+            const store = todaySectional && todaySectional.passages;
+            const pid = q.passageId || q.passage_id;
+            if (store && pid !== undefined) {
+                if (Array.isArray(store)) {
+                    const hit = store.find(p => String(p.id) === String(pid));
+                    if (hit) return hit.text || hit.passage || hit.content || null;
+                } else if (store[pid]) {
+                    const v = store[pid];
+                    return typeof v === 'string' ? v : (v.text || v.passage || v.content || null);
+                }
+            }
+
+            // Consecutive RC questions often share the passage printed on the first one
+            const list = todaySectional.questions;
+            for (let i = idx - 1; i >= 0; i--) {
+                if (!isRCType(list[i])) break;
+                if (list[i].passage) return list[i].passage;
+            }
+            return null;
+        }
+
         function renderSectionalQuestion() {
             const qList = todaySectional.questions;
             const q = qList[secCurrentQIndex];
             const wrapper = document.getElementById('sec-test-wrapper');
 
+            const curMins = Math.floor(Math.max(sectionalSeconds, 0) / 60).toString().padStart(2, '0');
+            const curSecs = (Math.max(sectionalSeconds, 0) % 60).toString().padStart(2, '0');
+
             const timerHeaderHtml = `
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 1px solid var(--border-light); padding-bottom: 15px;">
                     <div>
-                        <h3 style="color:var(--text-heading); font-size: 1.1rem;">${todaySectional.title}</h3>
+                        <h3 style="color:var(--text-heading); font-size: 1.1rem;">${esc(todaySectional.title)}</h3>
                         <span id="sec-q-progress" class="tag" style="margin-top:4px; display:inline-block;">Q ${secCurrentQIndex + 1} of ${qList.length}</span>
                     </div>
                     <div class="timer-badge-box">
-                        <span id="sec-timer-display" class="timer-badge-text">⏱️ 40:00</span>
+                        <span id="sec-timer-display" class="timer-badge-text">⏱️ ${curMins}:${curSecs}</span>
                         <button id="sec-pause-btn" class="timer-pause-btn" onclick="toggleSectionalTimer()">${isSectionalTimerActive ? 'Pause' : 'Resume'}</button>
                     </div>
                 </div>`;
 
-            const isTITA = (q.type && q.type.toUpperCase().includes("TITA")) || !q.options;
+            const isTITA = isTitaQ(q);
             let inputOptionsHtml = "";
 
             if (isTITA) {
@@ -977,35 +1099,33 @@
                 let inputClass = "tita-input-box";
 
                 if (isSectionalSubmitted) {
-                    const cleanUserAns = String(currentVal).trim();
-                    const cleanCorrectAns = String(q.answer).trim();
-                    inputClass += (cleanUserAns === cleanCorrectAns) ? " correct-input" : " wrong-input";
+                    inputClass += isAnswerCorrect(q, currentVal) ? " correct-input" : " wrong-input";
                 }
 
                 inputOptionsHtml = `
                     <div style="margin-top: 15px;">
                         <label style="font-weight: 700; font-size: 0.88rem; color: var(--text-muted); display: block; margin-bottom: 6px;">Type Your Answer Below (e.g. 2413):</label>
-                        <input type="text" class="${inputClass}" id="tita-field-${secCurrentQIndex}" value="${currentVal}" placeholder="Type answer here..." ${isSectionalSubmitted ? 'disabled' : ''} oninput="handleTITAInput(this.value)">
-                        ${isSectionalSubmitted ? `<div style="margin-top: 8px; font-weight: 800; color: var(--status-correct);">Correct Answer: ${q.answer}</div>` : ''}
+                        <input type="text" class="${inputClass}" id="tita-field-${secCurrentQIndex}" value="${esc(currentVal)}" placeholder="Type answer here..." ${isSectionalSubmitted ? 'disabled' : ''} oninput="handleTITAInput(this.value)">
+                        ${isSectionalSubmitted ? `<div style="margin-top: 8px; font-weight: 800; color: var(--status-correct);">Correct Answer: ${esc(q.answer)}</div>` : ''}
                     </div>`;
             } else {
+                const correctIdx = mcqCorrectIndex(q);
                 inputOptionsHtml = q.options.map((opt, idx) => {
                     let btnClass = "opt-btn";
                     if (sectionalUserAnswers[secCurrentQIndex] === idx) btnClass += " selected";
 
                     if (isSectionalSubmitted) {
-                        if (idx === q.answer) btnClass += " correct";
+                        if (idx === correctIdx) btnClass += " correct";
                         else if (sectionalUserAnswers[secCurrentQIndex] === idx) btnClass += " wrong";
                     }
 
-                    return `<button class="${btnClass}" onclick="selectSectionalOpt(${idx})">${opt}</button>`;
+                    return `<button class="${btnClass}" onclick="selectSectionalOpt(${idx})">${sanitizeHTML(opt)}</button>`;
                 }).join('');
             }
 
             let attemptedCount = 0;
             const gridBtnsHtml = qList.map((item, idx) => {
-                const ans = sectionalUserAnswers[idx];
-                const isAttempted = ans !== undefined && ans !== "";
+                const isAttempted = isAttemptedAns(sectionalUserAnswers[idx]);
                 if (isAttempted) attemptedCount++;
 
                 let btnClass = "q-grid-btn";
@@ -1024,7 +1144,7 @@
                     <div class="q-palette-grid">${gridBtnsHtml}</div>
                 </div>`;
 
-            const expHtml = `<div id="sec-q-explanation" class="explanation-box" style="display:${isSectionalSubmitted ? 'block' : 'none'}">${q.explanation || q.rationale || ''}</div>`;
+            const expHtml = `<div id="sec-q-explanation" class="explanation-box" style="display:${isSectionalSubmitted ? 'block' : 'none'}">${sanitizeHTML(q.explanation || q.rationale || '')}</div>`;
 
             const navBtnsHtml = `
                 <div style="display: flex; gap: 8px; margin-top: 25px;">
@@ -1034,16 +1154,22 @@
                 </div>
                 <button class="submit-btn" onclick="confirmSubmission('sectional')" style="margin-top: 20px;">🚀 Submit Sectional Test</button>`;
 
-            if (q.passage || (q.type && q.type.toUpperCase().includes('RC'))) {
+            const passageText = (q.passage || isRCType(q)) ? getSectionalPassage(q, secCurrentQIndex) : null;
+
+            if (q.passage || isRCType(q)) {
+                const passageHtml = passageText
+                    ? `<div class="passage-body">${sanitizeHTML(passageText)}</div>`
+                    : `<div class="notice-box">The passage for this question is missing in sectional.json. Add a <code>passage</code> field to this question (or to the first question of the passage group).</div>`;
+
                 wrapper.innerHTML = `
                     <div class="test-split">
                         <div class="reading-box">
                             <span class="tag" style="margin-bottom:10px; display:inline-block;">Reading Passage</span>
-                            <div class="passage-body">${q.passage || (currentRC ? currentRC.passage : 'Reading passage text...')}</div>
+                            ${passageHtml}
                         </div>
                         <div class="question-card">
                             ${timerHeaderHtml}
-                            <div id="sec-q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1rem; line-height: 1.6;">${q.question}</div>
+                            <div id="sec-q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1rem; line-height: 1.6;">${sanitizeHTML(q.question)}</div>
                             <div id="sec-q-options">${inputOptionsHtml}</div>
                             ${paletteGridHtml}
                             ${expHtml}
@@ -1054,18 +1180,13 @@
                 wrapper.innerHTML = `
                     <div class="question-card">
                         ${timerHeaderHtml}
-                        <div id="sec-q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1.05rem; white-space: pre-line; line-height: 1.7;">${q.question}</div>
+                        <div id="sec-q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1.05rem; white-space: pre-line; line-height: 1.7;">${sanitizeHTML(q.question)}</div>
                         <div id="sec-q-options">${inputOptionsHtml}</div>
                         ${paletteGridHtml}
                         ${expHtml}
                         ${navBtnsHtml}
                     </div>`;
             }
-
-            const mins = Math.floor(sectionalSeconds / 60).toString().padStart(2, '0');
-            const secs = (sectionalSeconds % 60).toString().padStart(2, '0');
-            const display = document.getElementById('sec-timer-display');
-            if (display) display.innerText = `⏱️ ${mins}:${secs}`;
         }
 
         function handleTITAInput(val) {
@@ -1083,10 +1204,6 @@
         function clearSectionalAnswer() {
             if (isSectionalSubmitted) return;
             delete sectionalUserAnswers[secCurrentQIndex];
-            const titaInput = document.getElementById(`tita-field-${secCurrentQIndex}`);
-            if (titaInput) {
-                titaInput.value = "";
-            }
             renderSectionalQuestion();
         }
 
@@ -1119,7 +1236,13 @@
         function generateAdvancedDashboard(title, qList, userAnswersMap, timeTakenSeconds, isSectional = false) {
             if (!qList || qList.length === 0) return;
 
-            let correct = 0, incorrect = 0, unattempted = 0;
+            // Sectionals get the detailed analysis modal (defined in the second script)
+            if (isSectional && window.showSectionalAnalysis) {
+                window.showSectionalAnalysis(title, qList, userAnswersMap, timeTakenSeconds);
+                return;
+            }
+
+            let correct = 0, incorrect = 0, incorrectMcq = 0, unattempted = 0;
 
             const topics = {
                 'RC': { name: 'Reading Comprehension', total: 0, correct: 0 },
@@ -1130,7 +1253,7 @@
 
             qList.forEach((q, idx) => {
                 const userAns = userAnswersMap[idx];
-                const isTITA = (q.type && q.type.toUpperCase().includes("TITA")) || !q.options;
+                const tita = isTitaQ(q);
                 
                 let catKey = 'RC';
                 const qTypeUpper = (q.type || '').toUpperCase();
@@ -1141,27 +1264,19 @@
 
                 topics[catKey].total++;
 
-                if (userAns === undefined || userAns === "" || userAns === null) {
+                if (!isAttemptedAns(userAns)) {
                     unattempted++;
-                } else if (isTITA) {
-                    if (String(userAns).trim() === String(q.answer).trim()) {
-                        correct++;
-                        topics[catKey].correct++;
-                    } else {
-                        incorrect++;
-                    }
+                } else if (isAnswerCorrect(q, userAns)) {
+                    correct++;
+                    topics[catKey].correct++;
                 } else {
-                    if (parseInt(userAns) === parseInt(q.answer)) {
-                        correct++;
-                        topics[catKey].correct++;
-                    } else {
-                        incorrect++;
-                    }
+                    incorrect++;
+                    if (!tita) incorrectMcq++; // TITA has no negative marking
                 }
             });
 
             const totalMarks = qList.length * 4;
-            const score = (correct * 4) - (incorrect * 1);
+            const score = (correct * 4) - incorrectMcq;
             const accuracy = (correct + incorrect) > 0 ? Math.round((correct / (correct + incorrect)) * 100) : 0;
 
             document.getElementById('dash-test-title').innerText = title;
@@ -1212,8 +1327,25 @@
         function renderDoughnutChart(correct, incorrect, unattempted) {
             const canvasEl = document.getElementById('accuracyChart');
             if (!canvasEl) return;
+
+            // Chart.js comes from a CDN: if offline, show a plain-text fallback instead of a blank box
+            if (typeof Chart === 'undefined') {
+                const box = document.getElementById('accuracy-chart-box');
+                if (box && !box.querySelector('.chart-fallback')) {
+                    canvasEl.parentElement.style.display = 'none';
+                    const note = document.createElement('div');
+                    note.className = 'chart-fallback';
+                    note.style.cssText = 'font-size:0.9rem; color:var(--text-body); text-align:center; line-height:1.8;';
+                    note.innerHTML = `Charts unavailable offline.<br><b style="color:#16a34a">Correct: ${correct}</b> · <b style="color:#dc2626">Incorrect: ${incorrect}</b> · Unattempted: ${unattempted}`;
+                    box.appendChild(note);
+                } else if (box) {
+                    const note = box.querySelector('.chart-fallback');
+                    if (note) note.innerHTML = `Charts unavailable offline.<br><b style="color:#16a34a">Correct: ${correct}</b> · <b style="color:#dc2626">Incorrect: ${incorrect}</b> · Unattempted: ${unattempted}`;
+                }
+                return;
+            }
+
             const ctx = canvasEl.getContext('2d');
-            
             if (accuracyChartInstance) {
                 accuracyChartInstance.destroy();
             }
@@ -1241,7 +1373,8 @@
         function submitSectionalTest() {
             pauseSectionalTimer();
             isSectionalSubmitted = true;
-            const timeSpent = (todaySectional.durationMinutes * 60) - sectionalSeconds;
+            const total = (todaySectional.durationMinutes || 40) * 60;
+            const timeSpent = Math.max(0, total - Math.max(sectionalSeconds, 0));
             generateAdvancedDashboard(todaySectional.title || "IPMAT Sectional", todaySectional.questions, sectionalUserAnswers, timeSpent, true);
             renderSectionalQuestion();
         }
@@ -1298,7 +1431,7 @@
             const mins = Math.floor(secondsElapsed / 60).toString().padStart(2, '0');
             const secs = (secondsElapsed % 60).toString().padStart(2, '0');
             const display = document.getElementById('timer-display');
-            if (display) display.innerText = `⏱ ${mins}:${secs}`;
+            if (display) display.innerText = `⏱️ ${mins}:${secs}`;
         }
 
         function navigateTab(targetTab) {
@@ -1327,26 +1460,42 @@
             if (tabName === 'saved') renderSavedHub();
         }
 
-        function toggleSave(title, def, ex, type, category) {
-            const index = savedItems.findIndex(i => i.title === title);
-            if (index > -1) savedItems.splice(index, 1);
-            else savedItems.push({ title, def, ex, type, category });
-            localStorage.setItem('nextory_saved', JSON.stringify(savedItems));
+        /* ---------- Saved items (index-based: no text is ever inlined into onclick) ---------- */
+        function persistSaved() {
+            try { localStorage.setItem('nextory_saved', JSON.stringify(savedItems)); } catch (e) { console.warn("Could not persist saved items", e); }
             updateSavedBadge();
+        }
+
+        function toggleSaveIdx(i) {
+            const item = vocabRegistry[i];
+            if (!item) return;
+            const index = savedItems.findIndex(s => s.title === item.title && s.category === item.category);
+            if (index > -1) savedItems.splice(index, 1);
+            else savedItems.push({ ...item });
+            persistSaved();
             if (currentRC) renderVocab(currentRC.vocab);
             if (activeTab === 'saved') renderSavedHub();
         }
 
-        function isSaved(title) { return savedItems.some(i => i.title === title); }
+        function removeSavedIdx(i) {
+            if (i < 0 || i >= savedItems.length) return;
+            savedItems.splice(i, 1);
+            persistSaved();
+            if (currentRC) renderVocab(currentRC.vocab);
+            renderSavedHub();
+        }
+
+        function isSaved(title, category) { return savedItems.some(i => i.title === title && i.category === category); }
 
         function updateSavedBadge() {
             document.getElementById('saved-count').innerText = savedItems.length;
         }
 
         function renderSavedHub() {
-            const wordsList = savedItems.filter(i => i.category === 'Word');
-            const idiomsList = savedItems.filter(i => i.category === 'Idiom');
-            const verbsList = savedItems.filter(i => i.category === 'Phrasal Verb');
+            const indexed = savedItems.map((it, i) => ({ ...it, _i: i }));
+            const wordsList = indexed.filter(i => i.category === 'Word');
+            const idiomsList = indexed.filter(i => i.category === 'Idiom');
+            const verbsList = indexed.filter(i => i.category === 'Phrasal Verb');
 
             document.getElementById('saved-words-count').innerText = wordsList.length;
             document.getElementById('saved-idioms-count').innerText = idiomsList.length;
@@ -1356,10 +1505,10 @@
                 if (list.length === 0) return "<p style='color:var(--text-muted); font-size:0.85rem;'>No items saved in this category.</p>";
                 return list.map(item => `
                     <div class="vocab-card">
-                        <button class="save-btn saved" onclick="toggleSave('${item.title}', '${item.def}', '${item.ex}', '${item.type}', '${item.category}')">Remove</button>
-                        <span class="word-title">${item.title}</span> <span class="word-type">(${item.type})</span>
-                        <div class="word-def">${item.def}</div>
-                        <div class="word-ex">"${item.ex}"</div>
+                        <button class="save-btn saved" onclick="removeSavedIdx(${item._i})">Remove</button>
+                        <span class="word-title">${esc(item.title)}</span> <span class="word-type">(${esc(item.type)})</span>
+                        <div class="word-def">${esc(item.def)}</div>
+                        <div class="word-ex">"${esc(item.ex)}"</div>
                     </div>
                 `).join('');
             };
@@ -1371,39 +1520,44 @@
 
         function renderVocab(vocab) {
             if (!vocab) return;
+            vocabRegistry = [];
+            const reg = item => vocabRegistry.push(item) - 1;
 
             const wordsHtml = (vocab.words || []).map(w => {
-                const saved = isSaved(w.word);
+                const idx = reg({ title: w.word, def: w.def, ex: w.ex, type: w.type, category: 'Word' });
+                const saved = isSaved(w.word, 'Word');
                 return `
                 <div class="vocab-card">
-                    <button class="save-btn ${saved ? 'saved' : ''}" onclick="toggleSave('${w.word}', '${w.def}', '${w.ex}', '${w.type}', 'Word')">${saved ? '🔖 Saved' : '🔖 Save'}</button>
-                    <span class="word-title">${w.word}</span> <span class="word-type">(${w.type})</span>
-                    <div class="word-def">${w.def}</div>
-                    <div class="word-ex">"${w.ex}"</div>
+                    <button class="save-btn ${saved ? 'saved' : ''}" onclick="toggleSaveIdx(${idx})">${saved ? '🔖 Saved' : '🔖 Save'}</button>
+                    <span class="word-title">${esc(w.word)}</span> <span class="word-type">(${esc(w.type)})</span>
+                    <div class="word-def">${esc(w.def)}</div>
+                    <div class="word-ex">"${esc(w.ex)}"</div>
                 </div>`;
             }).join('');
             document.getElementById('words-grid').innerHTML = wordsHtml;
 
             const idiomsHtml = (vocab.idioms || []).map(i => {
-                const saved = isSaved(i.idiom);
+                const idx = reg({ title: i.idiom, def: i.def, ex: i.ex, type: 'Idiom', category: 'Idiom' });
+                const saved = isSaved(i.idiom, 'Idiom');
                 return `
                 <div class="vocab-card" style="margin-bottom: 10px;">
-                    <button class="save-btn ${saved ? 'saved' : ''}" onclick="toggleSave('${i.idiom}', '${i.def}', '${i.ex}', 'Idiom', 'Idiom')">${saved ? '🔖 Saved' : '🔖 Save'}</button>
-                    <span class="word-title" style="color:var(--green-hover)">${i.idiom}</span>
-                    <div class="word-def">${i.def}</div>
-                    <div class="word-ex">"${i.ex}"</div>
+                    <button class="save-btn ${saved ? 'saved' : ''}" onclick="toggleSaveIdx(${idx})">${saved ? '🔖 Saved' : '🔖 Save'}</button>
+                    <span class="word-title" style="color:var(--green-hover)">${esc(i.idiom)}</span>
+                    <div class="word-def">${esc(i.def)}</div>
+                    <div class="word-ex">"${esc(i.ex)}"</div>
                 </div>`;
             }).join('');
             document.getElementById('idioms-list').innerHTML = idiomsHtml;
 
             const verbsHtml = (vocab.phrasalVerbs || []).map(v => {
-                const saved = isSaved(v.verb);
+                const idx = reg({ title: v.verb, def: v.def, ex: v.ex, type: 'Phrasal Verb', category: 'Phrasal Verb' });
+                const saved = isSaved(v.verb, 'Phrasal Verb');
                 return `
                 <div class="vocab-card" style="margin-bottom: 10px;">
-                    <button class="save-btn ${saved ? 'saved' : ''}" onclick="toggleSave('${v.verb}', '${v.def}', '${v.ex}', 'Phrasal Verb', 'Phrasal Verb')">${saved ? '🔖 Saved' : '🔖 Save'}</button>
-                    <span class="word-title" style="color:var(--green-hover)">${v.verb}</span>
-                    <div class="word-def">${v.def}</div>
-                    <div class="word-ex">"${v.ex}"</div>
+                    <button class="save-btn ${saved ? 'saved' : ''}" onclick="toggleSaveIdx(${idx})">${saved ? '🔖 Saved' : '🔖 Save'}</button>
+                    <span class="word-title" style="color:var(--green-hover)">${esc(v.verb)}</span>
+                    <div class="word-def">${esc(v.def)}</div>
+                    <div class="word-ex">"${esc(v.ex)}"</div>
                 </div>`;
             }).join('');
             document.getElementById('verbs-list').innerHTML = verbsHtml;
@@ -1440,21 +1594,22 @@
             const expBox = document.getElementById('q-explanation');
             if (isSubmitted) {
                 expBox.style.display = 'block';
-                expBox.innerHTML = q.explanation || q.rationale || '';
+                expBox.innerHTML = sanitizeHTML(q.explanation || q.rationale || '');
             } else {
                 expBox.style.display = 'none';
             }
 
+            const correctIdx = mcqCorrectIndex(q);
             const optionsHtml = q.options.map((opt, idx) => {
                 let btnClass = "opt-btn";
                 if (userAnswers[currentQIndex] === idx) btnClass += " selected";
                 
                 if (isSubmitted) {
-                    if (idx === q.answer) btnClass += " correct";
+                    if (idx === correctIdx) btnClass += " correct";
                     else if (userAnswers[currentQIndex] === idx) btnClass += " wrong";
                 }
 
-                return `<button class="${btnClass}" onclick="selectOption(${idx})">${opt}</button>`;
+                return `<button class="${btnClass}" onclick="selectOption(${idx})">${sanitizeHTML(opt)}</button>`;
             }).join('');
             
             document.getElementById('q-options').innerHTML = optionsHtml;
@@ -1483,10 +1638,10 @@
         function renderArchive(availablePassages) {
             const listToRender = availablePassages || allPassages;
             const archiveHtml = listToRender.map(p => `
-                <div class="archive-item" onclick="selectArchiveRC('${p.id}')">
+                <div class="archive-item" data-id="${esc(p.id)}" onclick="selectArchiveRC(this.dataset.id)">
                     <div>
-                        <strong style="color:var(--text-heading);">${p.title}</strong>
-                        <div style="font-size:0.8rem; color:var(--text-muted); margin-top:4px;">${p.genre} | ${p.date || 'IPMAT Practice Set'}</div>
+                        <strong style="color:var(--text-heading);">${esc(p.title)}</strong>
+                        <div style="font-size:0.8rem; color:var(--text-muted); margin-top:4px;">${esc(p.genre)} | ${esc(p.date || 'IPMAT Practice Set')}</div>
                     </div>
                     <span class="sub-tag">Open Test</span>
                 </div>
@@ -1495,7 +1650,9 @@
         }
 
         function selectArchiveRC(id) {
-            currentRC = allPassages.find(p => p.id === id);
+            const found = allPassages.find(p => String(p.id) === String(id));
+            if (!found) return;
+            currentRC = found;
             renderReadingTest(currentRC, true);
             renderVocab(currentRC.vocab);
             navigateTab('reading');
@@ -1527,8 +1684,8 @@
     return 'GR';
   }
   const fmt = s => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, '0')}`;
-  const isTita = q => (q.type && q.type.toUpperCase().includes('TITA')) || !q.options;
 
+  // Per-question time tracking (reset by beginSectionalAttempt via window.__saReset)
   let qTime = {};
   setInterval(() => {
     try {
@@ -1580,26 +1737,20 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const origStart = window.startFullSectionalTest;
-  window.startFullSectionalTest = function () {
+  // Called at the start of EVERY sectional attempt (fresh start or opened from the archive)
+  window.__saReset = function () {
     qTime = {};
+    modal.classList.remove('active');
     reopen.style.display = 'none';
-    origStart.apply(this, arguments);
-  };
-  const origDash = window.generateAdvancedDashboard;
-  window.generateAdvancedDashboard = function (title, qList, ans, timeTaken, isSectional) {
-    if (!isSectional) return origDash.apply(this, arguments);
-    showAnalysis(title, qList, ans, timeTaken);
   };
 
   let charts = [];
 
-  function showAnalysis(title, qList, ans, timeTaken) {
+  window.showSectionalAnalysis = function (title, qList, ans, timeTaken) {
     const qs = qList.map((q, i) => {
-      const a = ans[i], tita = isTita(q);
+      const a = ans[i], tita = isTitaQ(q);
       let st = 's';
-      if (!(a === undefined || a === '' || a === null))
-        st = (tita ? String(a).trim() === String(q.answer).trim() : parseInt(a) === parseInt(q.answer)) ? 'c' : 'w';
+      if (isAttemptedAns(a)) st = isAnswerCorrect(q, a) ? 'c' : 'w';
       const marks = st === 'c' ? POS : st === 'w' ? -(tita ? NEG_TITA : NEG_MCQ) : 0;
       return { i, key: secKey(q), st, marks, tita, t: qTime[i] || 0, q };
     });
@@ -1662,7 +1813,7 @@
       <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px">
         <div><h2 style="color:var(--text-heading);font-size:1.5rem;font-weight:800">📊 Detailed VA Sectional Analysis</h2>
         <p style="color:var(--text-muted);font-size:.88rem">Where you gained marks, where you lost them, and what to fix first.</p></div>
-        <span class="sub-tag">${title}</span></div>
+        <span class="sub-tag">${esc(title)}</span></div>
 
       <div class="stats-grid">
         ${statBox(`${tot.m}/${maxM}`, 'Net Score')}
@@ -1703,6 +1854,15 @@
     reopen.style.display = 'inline-flex';
 
     charts.forEach(c => c.destroy()); charts = [];
+
+    // Offline / CDN blocked: replace chart boxes with a short note instead of leaving them blank
+    if (typeof Chart === 'undefined') {
+      modal.querySelectorAll('.sa-chart').forEach(d => {
+        d.innerHTML = '<p style="font-size:.85rem;color:var(--text-muted);padding-top:20px;text-align:center">Charts are unavailable offline. The table and insights above have the same data.</p>';
+      });
+      return;
+    }
+
     const labels = act.map(k => SECTIONS[k].n.split(' / ')[0].replace('Reading Comprehension', 'RC'));
     const cols = act.map(k => SECTIONS[k].c);
     const mk = (id, cfg) => { try { charts.push(new Chart(document.getElementById(id), cfg)); } catch (e) { console.warn(e); } };
@@ -1728,7 +1888,7 @@
       label: 'Seconds', data: qs.map(x => x.t),
       backgroundColor: qs.map(x => x.st === 'c' ? '#16a34a' : x.st === 'w' ? '#dc2626' : '#cbd5d1') }] },
       options: { ...base, plugins: { legend: { display: false } }, scales: { x: { ticks: { maxTicksLimit: 15 } } } } });
-  }
+  };
 })();
     </script>
 </body>
