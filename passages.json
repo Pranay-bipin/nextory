@@ -7653,5 +7653,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The final paragraph synthesizes the central thesis: frictionless execution must not be confused with robustness, and resilience is tested when algorithmic feedback loops turn adversarial.<br><br>• <strong>Why Option A is Wrong:</strong> The author does not call for halting trials.<br><br>• <strong>Why Option B is Wrong:</strong> The author notes they offer efficiency but warns against overestimating their structural stability.<br><br>• <strong>Why Option D is Wrong:</strong> The author argues against interpreting nominal growth as structural de-dollarization.<br><br><strong>💡 Approach:</strong> Look for the synthesis of efficiency vs. structural risk in the concluding paragraph."
       }
     ]
+  },
+  {
+    "id": "rc-2026-10-28",
+    "date": "2026-10-28",
+    "title": "Brazil’s Runoff and the Logic of Losing: What Makes Defeated Candidates Accept Defeat",
+    "genre": "Current Affairs: Political Science & Democratic Theory",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1002 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "Equivocate",
+          "type": "verb",
+          "def": "To use ambiguous language so as to avoid committing oneself. Syn: hedge, prevaricate. Ant: speak plainly.",
+          "ex": "The candidate equivocated about accepting the result."
+        },
+        {
+          "word": "Partisan",
+          "type": "adj",
+          "def": "Strongly supporting one party or cause, often without balance. Syn: biased, one-sided. Ant: impartial.",
+          "ex": "The court rejected the partisan complaint."
+        },
+        {
+          "word": "Galvanise",
+          "type": "verb",
+          "def": "To shock or excite into taking action. Syn: spur, energise. Ant: dampen.",
+          "ex": "The first-round result galvanised the youth vote."
+        },
+        {
+          "word": "Magnanimous",
+          "type": "adj",
+          "def": "Generous or forgiving, especially towards a rival. Syn: generous, big-hearted. Ant: petty.",
+          "ex": "The winner was magnanimous in victory."
+        },
+        {
+          "word": "Rancour",
+          "type": "noun",
+          "def": "Bitterness or resentful ill feeling that lasts. Syn: bitterness, animosity. Ant: goodwill.",
+          "ex": "The campaign left deep rancour."
+        },
+        {
+          "word": "Truculent",
+          "type": "adj",
+          "def": "Eager or quick to argue or fight; aggressively defiant. Syn: belligerent, combative. Ant: meek.",
+          "ex": "He took a truculent tone with the court."
+        },
+        {
+          "word": "Disenfranchise",
+          "type": "verb",
+          "def": "To deprive someone of the right to vote or of other rights. Syn: exclude, deprive. Ant: empower.",
+          "ex": "Long queues could disenfranchise working voters."
+        },
+        {
+          "word": "Cohesion",
+          "type": "noun",
+          "def": "The action of holding together; unity. Syn: unity, solidarity. Ant: fragmentation.",
+          "ex": "The coalition lacked cohesion."
+        },
+        {
+          "word": "Dissent",
+          "type": "noun",
+          "def": "The holding or expression of opinions at variance with those officially held. Syn: disagreement, protest. Ant: consensus.",
+          "ex": "The court tolerated peaceful dissent."
+        },
+        {
+          "word": "Vitriolic",
+          "type": "adj",
+          "def": "Filled with bitter criticism or malice. Syn: scathing, caustic. Ant: gentle.",
+          "ex": "The campaign ended in vitriolic exchanges."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "Throw in the towel",
+          "def": "To admit defeat and give up.",
+          "ex": "He refused to throw in the towel."
+        },
+        {
+          "idiom": "Eat humble pie",
+          "def": "To admit one's mistake and apologise.",
+          "ex": "The pollsters had to eat humble pie."
+        },
+        {
+          "idiom": "Sour grapes",
+          "def": "Pretending to despise something because one cannot have it.",
+          "ex": "His complaint about the count sounded like sour grapes."
+        },
+        {
+          "idiom": "Come from behind",
+          "def": "To win after being in a losing position.",
+          "ex": "Lula came from behind to win the runoff."
+        },
+        {
+          "idiom": "Neck and neck",
+          "def": "Very close in a race or contest.",
+          "ex": "The candidates were neck and neck in the polls."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "Step down",
+          "def": "To resign from a position of power.",
+          "ex": "The prime minister stepped down after the defeat."
+        },
+        {
+          "verb": "Rally behind",
+          "def": "To unite in support of someone.",
+          "ex": "Party members rallied behind the leader."
+        },
+        {
+          "verb": "Hold off",
+          "def": "To delay or resist something.",
+          "ex": "He held off a challenge from his rival."
+        },
+        {
+          "verb": "Call for",
+          "def": "To demand or publicly request something.",
+          "ex": "The candidate called for the result to be annulled."
+        },
+        {
+          "verb": "Come round",
+          "def": "To change one's opinion, especially after persuasion.",
+          "ex": "Several allies came round to accepting the result."
+        }
+      ]
+    },
+    "passage": "On 25 October Brazil held the runoff of its presidential election, and Luiz Inácio Lula da Silva, the 80-year-old incumbent, won by about 51.8 per cent to 48.2 per cent over Flávio Bolsonaro, a margin of roughly four million votes. Three weeks earlier, in the first round, Mr Bolsonaro had led with 47.0 per cent against Lula’s 45.2 per cent, and Lula became the first candidate since 1985 to win a runoff after finishing second in the first round. Turnout rose from about 78.9 per cent to about 80.8 per cent between the rounds. Mr Bolsonaro refused to concede and called for the result to be annulled, while, according to one report, his party accepted the outcome. The episode is a compact case of an old question in democratic theory: what makes the losers of an election accept that they have lost?\n\nThe political scientist Adam Przeworski once defined democracy as a system in which parties lose elections. The definition is a reminder that the central act of democracy is not winning but losing, and that it works only if losers are willing to hand over power peacefully. Consent of this kind is not a matter of virtue alone. A loser concedes when the cost of conceding is bearable: when the defeat is not total, when the process seems fair and, above all, when there is a credible chance of winning next time. Concession is cheap for a party that expects to compete again and expensive for one that fears it will never be let back in. The institutions that make losing bearable are therefore as important as those that make voting possible. A rule of the game from which the loser can never hope to benefit invites resistance; a rule that rotates advantage among the players invites compliance.\n\nThe dispute in Brazil turned on a procedural point. On election day a justice of the Supreme Federal Tribunal, Cristiano Zanin, ordered voting extended nationwide by two hours, citing transport disruption and severe weather, and the electoral court suspended its count until the order was carried out. Both campaigns had asked for the extension. The electoral court declared Lula the winner a little before ten at night, and Mr Bolsonaro’s call for annulment rests on the extension. Two considerations weigh against it. A party that requested a remedy has difficulty in complaining that it was granted, and the extension was nationwide, so it was not aimed at a single region. Moreover, an irregularity can justify annulment only if it could have changed the result. A two-hour extension, set against a margin of about four million votes, would have to have brought out a very large and very one-sided group of additional voters.\n\nA second source of suspicion lies in the count itself. Early in the evening, with about 37 per cent of the vote counted, Mr Bolsonaro led by 50.3 per cent to 49.7 per cent, and Lula took the lead only when about 70 per cent had been counted. To someone who watched the first returns and then the last, the lead appears to have changed hands without explanation. It has an explanation that has nothing to do with manipulation: a partial count is not a random sample of the electorate but an ordered one, in which regions report at different times and favour different candidates. A lead that changes during a count is evidence about the order in which places were counted. It is not evidence about whether any ballot was altered, and a count whose early leads never changed would be a stranger sight.\n\nThe comeback itself raises a different question, about what first-round results predict. Analysts quoted in coverage attributed Lula’s recovery to a campaign that turned towards digital and grassroots organisation after a complacent start, to online mobilisation by young voters and to the entry of voters who had abstained in the first round; abstention fell from about 21 per cent to about 19 per cent. They also said that Mr Bolsonaro seemed overconfident and relied on his surname. Detailed data on how individual voters behaved are not yet available, and such accounts are best treated as hypotheses. What the result does show is that a two-round system gives the loser of the first round a chance to rebuild, so that a lead in the first round, however clear, is not an outcome but a position.\n\nWinning the presidency does not settle the question of governing. Reports suggest that Mr Bolsonaro’s Liberal Party and its allies could hold more than 280 of the 513 seats in the lower house, and a government with a narrow mandate and a hostile legislature will be able to achieve little without negotiation. The economy offers little slack: public debt exceeds 82 per cent of output, according to the World Bank, and the government forecasts growth of 2.3 per cent next year. In this sense the consent of the losing side matters twice, once when the votes are counted and again when the winner tries to govern. A president who is accepted as legitimate but cannot pass laws has won a contest and not yet a mandate.\n\nThe Brazilian case does not need to be settled by sympathy for either side. Mr Bolsonaro has a legal right to petition the courts, and a fair system will hear him. The relevant test is proportion: whether a claim identifies an irregularity that could have affected the result, and whether it is pressed through the institutions or against them. Democracies endure when the institutions are quick and transparent, when defeat is made bearable by the prospect of another contest and when leaders describe their losses as temporary and not as theft. A system in which the loser may petition but is expected, in the end, to accept is not a weak system. It is one in which uncertainty has been made safe enough to live with, and its health is measured less by how rarely it is challenged than by how reliably challenges end in acceptance.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "According to the passage, losers are most likely to accept an election defeat when:",
+        "options": [
+          "A) the defeat is large enough to leave no doubt about the result, whatever the fairness of the process or the loser’s chances in future",
+          "B) the process seems fair, the loss is not total and there is a credible prospect of winning at a later election",
+          "C) the winner has promised in advance to share power with the losing side by giving its members places in the new government",
+          "D) the courts have the power to overturn the result of an election if the losing side can show that the count was irregular"
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Paragraph 2 says a loser concedes when the cost is bearable: when the defeat is not total, the process seems fair and, above all, there is a credible chance of winning next time.<br><br>• <strong>Why Option A is Wrong:</strong> The passage says fairness and future prospects matter; size alone is not the condition.<br><br>• <strong>Why Option C is Wrong:</strong> Power-sharing promises are not mentioned.<br><br>• <strong>Why Option D is Wrong:</strong> The author says a claim must show an irregularity that could have changed the result, but does not make the existence of such a power the condition for acceptance.<br><br><strong>💡 Approach:</strong> Find the sentence that lists the conditions. Distractors add conditions the passage never names."
+      },
+      {
+        "id": "q2",
+        "question": "The author notes that both campaigns had asked for the two-hour extension of voting (paragraph 3) in order to suggest that:",
+        "options": [
+          "A) a challenge to the extension is hard to call partisan, although the question of whether it affected the result remains",
+          "B) the extension was justified because transport disruption and severe weather are sufficient reasons to extend voting in any election",
+          "C) the electoral court acted improperly in suspending its count, since both campaigns had agreed that voting should continue",
+          "D) Mr Bolsonaro’s call for annulment is certain to fail because the courts will not hear a case brought by a party that requested a remedy"
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The author says a party that requested a remedy has difficulty complaining that it was granted, and that the extension was nationwide; but the test of whether an irregularity could have changed the result is separate.<br><br>• <strong>Why Option B is Wrong:</strong> The passage does not say that such reasons are sufficient in any election.<br><br>• <strong>Why Option C is Wrong:</strong> The suspension of the count is described as procedural, not improper.<br><br>• <strong>Why Option D is Wrong:</strong> 'Certain to fail' overstates; the author says the argument is difficult, not that the courts will refuse to hear it.<br><br><strong>💡 Approach:</strong> Read the sentences that follow the observation. The author qualifies the point with the materiality test, so absolute options are traps."
+      },
+      {
+        "id": "q3",
+        "question": "Which of the following, if true, would most weaken the author’s claim in paragraph 4 that a lead changing hands during the count is not evidence of manipulation?",
+        "options": [
+          "A) Regions that reported later in the evening are more populous than regions that reported early, and have voted more heavily for Lula in recent elections.",
+          "B) In the previous election the lead also changed hands during the count, though the winner of the election was the candidate who led at the start.",
+          "C) Mr Bolsonaro’s campaign has said that its own observers did not report any irregularity in the counting at polling stations in the regions concerned.",
+          "D) Batches of ballots from regions that reported late were added to the count after the deadline and do not appear in the electoral court’s logs."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The author’s claim is that a change in the lead reflects only the order in which regions were counted. Evidence that late batches were added after the deadline and left no record would suggest an irregularity in the count itself, weakening the claim.<br><br>• <strong>Why Option A is Wrong:</strong> This supports the author’s explanation: later-reporting regions favour the other candidate for reasons of geography.<br><br>• <strong>Why Option B is Wrong:</strong> This is not clearly relevant, since the example concerns a different election and the lead at the start.<br><br>• <strong>Why Option C is Wrong:</strong> Reports of no irregularities by the campaign’s own observers support the author.<br><br><strong>💡 Approach:</strong> To weaken an explanation, supply evidence of the rival explanation (an irregularity). Options that support the geography explanation strengthen the claim."
+      },
+      {
+        "id": "q4",
+        "question": "The author’s point that a partial count is ‘an ordered sample, not a random one’ is most closely paralleled by:",
+        "options": [
+          "A) A teacher who marks a few answers at random from each script and finds that the marks she awards are generally fair",
+          "B) A restaurant that compares its customers’ opinions with those of a rival restaurant in the same city and finds that its own customers are more satisfied",
+          "C) A market researcher who interviews only the first shoppers of the morning, who differ from later arrivals, and reports all shoppers’ views",
+          "D) A weather forecaster who bases tomorrow’s forecast on the average of the past few years, and finds that the forecast was inaccurate for the whole week"
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The first shoppers are an ordered, unrepresentative sample because of when they arrive, just as the first regions to report are unrepresentative because of where they are. Reporting them as the whole mirrors reading an early lead as the result.<br><br>• <strong>Why Option A is Wrong:</strong> Random marking is the opposite of an ordered sample.<br><br>• <strong>Why Option B is Wrong:</strong> This compares two restaurants and does not involve an unrepresentative early sample.<br><br>• <strong>Why Option D is Wrong:</strong> This concerns a forecast method and past averages, not an ordered sample.<br><br><strong>💡 Approach:</strong> Extract the structure: early arrivals differ from later ones, so a partial result misleads if read as the total."
+      },
+      {
+        "id": "q5",
+        "question": "All of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) During the count, Lula led from the first returns to the last, and Mr Bolsonaro was never ahead at any stage of the evening.",
+          "B) The two-round system allowed the loser of the first round to rebuild his coalition and to win the second round.",
+          "C) A challenge to an election result must show an irregularity that could have affected the outcome in order to justify annulment.",
+          "D) A government that is accepted as legitimate but has a hostile legislature may be unable to pass its laws without negotiation."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Paragraph 4 says Mr Bolsonaro led 50.3 to 49.7 with about 37 per cent counted, and Lula took the lead only at about 70 per cent. Option A contradicts this.<br><br>• <strong>Why Option B is Wrong:</strong> Paragraph 5 says a two-round system gives the first-round loser a chance to rebuild.<br><br>• <strong>Why Option C is Wrong:</strong> Paragraph 3 says an irregularity can justify annulment only if it could have changed the result.<br><br>• <strong>Why Option D is Wrong:</strong> Paragraph 6 says a president who is accepted but cannot pass laws has won a contest and not yet a mandate.<br><br><strong>💡 Approach:</strong> EXCEPT questions: the false option reverses a stated fact. Here it reverses who led during the count."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following best captures the author’s conclusion?",
+        "options": [
+          "A) The election was won by fraud and the electoral court should have refused to declare Lula the winner until all complaints had been heard",
+          "B) Mr Bolsonaro has no right to challenge the result, and his refusal to concede shows that he has no commitment to democratic institutions",
+          "C) Democratic stability in Brazil depends on a strong president who can govern without the consent of a hostile legislature or of the losing side",
+          "D) Democracies endure when institutions are quick and transparent and defeat is bearable; the loser may petition but must in the end accept"
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The last paragraph says the test is proportion, that democracies endure when institutions are quick and transparent and defeat is bearable, and that a system in which the loser may petition but is expected to accept is not weak.<br><br>• <strong>Why Option A is Wrong:</strong> The author does not say the election was won by fraud and rejects the idea that a changing lead shows manipulation.<br><br>• <strong>Why Option B is Wrong:</strong> The author says Mr Bolsonaro has a legal right to petition and that the case does not need to be settled by sympathy for either side.<br><br>• <strong>Why Option C is Wrong:</strong> The author says consent matters twice, including when the winner tries to govern, and does not praise a president who governs without consent.<br><br><strong>💡 Approach:</strong> Conclusion questions on contested events: the correct option stays even-handed and states the author's own test."
+      }
+    ]
   }
 ]
