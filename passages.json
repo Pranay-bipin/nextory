@@ -7854,5 +7854,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The last paragraph says the test is proportion, that democracies endure when institutions are quick and transparent and defeat is bearable, and that a system in which the loser may petition but is expected to accept is not weak.<br><br>• <strong>Why Option A is Wrong:</strong> The author does not say the election was won by fraud and rejects the idea that a changing lead shows manipulation.<br><br>• <strong>Why Option B is Wrong:</strong> The author says Mr Bolsonaro has a legal right to petition and that the case does not need to be settled by sympathy for either side.<br><br>• <strong>Why Option C is Wrong:</strong> The author says consent matters twice, including when the winner tries to govern, and does not praise a president who governs without consent.<br><br><strong>💡 Approach:</strong> Conclusion questions on contested events: the correct option stays even-handed and states the author's own test."
       }
     ]
+  },
+  {
+    "id": "rc-2026-10-29",
+    "date": "2026-10-29",
+    "title": "Electrification Without Decarbonisation? The COP31 Pledge Debate",
+    "genre": "Current Affairs / Environment & Policy",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1060 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "fanciful",
+          "type": "adjective",
+          "def": "Imaginative but unrealistic; far-fetched. Synonyms: whimsical, unrealistic, chimerical. Antonyms: realistic, practical, down-to-earth.",
+          "ex": "The plan to relocate the capital within a year was dismissed as fanciful."
+        },
+        {
+          "word": "concede",
+          "type": "verb",
+          "def": "To admit something is true, often reluctantly; to yield. Synonyms: acknowledge, grant, admit. Antonyms: deny, dispute, contest.",
+          "ex": "Even her critics conceded that the policy had lowered prices."
+        },
+        {
+          "word": "laudable",
+          "type": "adjective",
+          "def": "Deserving praise, even if the result is limited. Synonyms: commendable, praiseworthy, admirable. Antonyms: blameworthy, deplorable, contemptible.",
+          "ex": "The aim was laudable, but the funding was far too small."
+        },
+        {
+          "word": "ambivalent",
+          "type": "adjective",
+          "def": "Having mixed or contradictory feelings about something. Synonyms: undecided, equivocal, torn. Antonyms: decided, unequivocal, certain.",
+          "ex": "Investors remained ambivalent about the merger."
+        },
+        {
+          "word": "inexorable",
+          "type": "adjective",
+          "def": "Impossible to stop or prevent; relentless. Synonyms: unstoppable, relentless, inevitable. Antonyms: avoidable, preventable, yielding.",
+          "ex": "The inexorable rise in sea levels threatens coastal cities."
+        },
+        {
+          "word": "tokenism",
+          "type": "noun",
+          "def": "A symbolic gesture made to give the appearance of effort without real change. Synonyms: window-dressing, lip service, pretence. Antonyms: genuine commitment, substantive reform.",
+          "ex": "Critics called the one-woman committee mere tokenism."
+        },
+        {
+          "word": "rhetoric",
+          "type": "noun",
+          "def": "Persuasive or grand language, often lacking real substance. Synonyms: oratory, bombast, grandiloquence. Antonyms: plain speech, substance, action.",
+          "ex": "The minister’s rhetoric far outran the government’s record."
+        },
+        {
+          "word": "pitfall",
+          "type": "noun",
+          "def": "A hidden danger or difficulty. Synonyms: snag, trap, hazard. Antonyms: advantage, benefit, safeguard.",
+          "ex": "A key pitfall of any single indicator is that it can be gamed."
+        },
+        {
+          "word": "bolster",
+          "type": "verb",
+          "def": "To strengthen or support. Synonyms: reinforce, buttress, shore up. Antonyms: undermine, weaken, erode.",
+          "ex": "New evidence bolstered the researchers’ claim."
+        },
+        {
+          "word": "caveat",
+          "type": "noun",
+          "def": "A warning or qualification attached to a statement. Synonyms: proviso, qualification, caution. Antonyms: unconditional assurance, guarantee.",
+          "ex": "The report praised the scheme but added one important caveat."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "leave the door open",
+          "def": "To keep a possibility alive or allow something to happen later. Often used for loopholes.",
+          "ex": "The vague wording left the door open for further delays."
+        },
+        {
+          "idiom": "cut both ways",
+          "def": "To have both positive and negative effects, or to help each side of an argument.",
+          "ex": "Stronger data rules cut both ways: they protect users but raise costs for start-ups."
+        },
+        {
+          "idiom": "move the goalposts",
+          "def": "To change the rules or targets unfairly during a process.",
+          "ex": "Once the firm met the target, the regulator moved the goalposts."
+        },
+        {
+          "idiom": "pay lip service to",
+          "def": "To express support in words without acting on it.",
+          "ex": "Many companies pay lip service to sustainability while cutting green budgets."
+        },
+        {
+          "idiom": "put the cart before the horse",
+          "def": "To do things in the wrong order.",
+          "ex": "Launching the ad campaign before the product was tested was putting the cart before the horse."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "sign up to",
+          "def": "To formally agree to join or support something. Synonym: subscribe to.",
+          "ex": "Forty governments signed up to the new pledge."
+        },
+        {
+          "verb": "water down",
+          "def": "To make something weaker or less forceful. Synonym: dilute.",
+          "ex": "Industry lobbying watered down the original bill."
+        },
+        {
+          "verb": "fall short of",
+          "def": "To fail to reach a required standard or target. Synonym: miss.",
+          "ex": "Current policies fall short of the emissions goal."
+        },
+        {
+          "verb": "hold back",
+          "def": "To restrain or prevent progress. Synonym: impede.",
+          "ex": "Weak grids are holding back the spread of solar power."
+        },
+        {
+          "verb": "factor in",
+          "def": "To include something as part of a calculation. Synonym: take into account.",
+          "ex": "Planners must factor in the cost of upgrading the grid."
+        }
+      ]
+    },
+    "passage": "When Türkiye’s COP31 presidency unveiled a voluntary pledge in September to lift electricity’s share of global final energy consumption to 35 per cent by 2035, some negotiators welcomed it as the first conference-level target that treats demand, rather than supply, as the lever of change. The present share is somewhere between a fifth and a quarter, depending on whose estimate is used, so the pledge asks the world to add roughly ten percentage points in a decade. The International Energy Agency, publishing its own analysis the same week, judged that existing technology could take the share to about 33 per cent at a cost markets would bear, while current policies alone reach only about 30. Hitting 35 per cent, it added, would trim the annual fuel-import bills of importing countries by several hundred billion dollars. On its face, then, the target is ambitious without being fanciful.\n\nThe intellectual case for the target rests on a physical fact that is easy to overlook: electric machines waste far less energy than combustion ones. A petrol engine discards most of the energy in its fuel as heat, whereas an electric motor discards only a small fraction; a heat pump does the same for a building. Swapping one technology for the other therefore reduces the total energy a society needs, and not merely the fuel it burns. Because gains of this kind are indifferent to how the electricity is generated, supporters argue that the benefits of electrification, namely lower import bills, cleaner urban air and insulation from volatile fuel markets, are secured even before the grid itself is cleaned. The conference’s own president has gone further, suggesting that wider electrification will “automatically” displace fossil fuels, since a more electric economy creates a larger market for cheap wind and solar power. The logic is one of momentum: once vehicles, factories and homes depend on the grid, every later improvement in that grid is passed on to all of them at once, and the political constituency for cleaner generation grows accordingly. On this reading, a country that electrifies first and cleans up second has not made a mistake of sequence but has merely chosen the more practical order.\n\nCritics concede the efficiency point and dispute the inference drawn from it. The pledge, as drafted, counts the share of electricity in consumption; it does not specify where that electricity comes from. Its text says only that the use of clean electricity will vary with national circumstances, and it refers to “diverse and sustainable” sources without defining either word. Campaigners therefore warn that the measure leaves a back door open: a government could meet the target by electrifying transport and heating while expanding gas-fired generation to supply them, and still report progress. The worry is sharpened by the fact that data centres are among the fastest-growing new sources of electricity demand, and their operators compete with other sectors for the same renewable supply. If a ratio is the yardstick, the critics note, it can be raised by genuine substitution of electricity for other fuels, but also by simply adding electricity-hungry activity that displaces nothing at all. Nor, they add, is the order of events harmless: infrastructure built around a fossil-fuelled grid tends to be long-lived, so a country that electrifies first may find that the cheapest way to meet its new demand is the one already in place, and that the promised clean-up is repeatedly postponed. Türkiye itself illustrates the unease: roughly a third of its electricity still comes from coal and a further fifth from gas, even as it targets nearly half of its power from renewables by 2030.\n\nDefenders of the pledge reply that this objection mistakes its purpose. The climate process already contains a separate, quantified goal on tripling renewable capacity, and a clean-power condition attached to the electrification target would duplicate it while narrowing the coalition prepared to sign. A voluntary pledge, they point out, is only as useful as the number of governments that join. A target loaded with conditions on the grid would be declined by precisely those countries whose economies depend most heavily on coal and gas, and whose electrification would matter most. A broad, modest commitment to a measurable indicator is, in this view, a platform on which stricter commitments can later be built, whereas a narrow and demanding one may never leave the drawing board. The point about data centres, they add, cuts the other way: a government that has publicly committed to a share target is better placed to demand that new load be matched by new clean supply than one that has committed to nothing. Having signed, such a government can be held to its word by its own electorate, by investors and by neighbouring states, and a public target gives all of them something specific to measure it against.\n\nNeither side’s argument is as strong as its proponents suppose. The critics’ scenario is possible rather than demonstrated: nothing in the pledge forces an expansion of gas, and the same pledge could as easily accompany a wave of solar and wind. Equally, the defenders’ claim that electrification will “automatically” displace fossil fuels is an assumption, not a finding, and the agency whose figures both camps cite cautions that electrification by itself is not enough. What the dispute really exposes is the difficulty of relying on any single indicator. A metric chosen because it is easy to observe tends, once it becomes a target, to attract effort towards whatever moves it most cheaply, and the share of electricity in consumption is no exception, since the cheapest way to raise it may differ from the way that most reduces emissions. This does not make the indicator worthless; a thermometer is not at fault when it is mistaken for a cure. It does mean that a government’s reported progress against the number should be treated as a starting point for scrutiny, and not as a conclusion. The pledge’s ultimate value will therefore depend less on its own wording than on whether it is read alongside commitments about the grid: how quickly coal and gas generation fall, and whether new demand arrives with new clean supply. Read in isolation, it measures how electric an economy has become; it says nothing about how clean that economy has become, and the second question is the one the climate negotiations were convened to answer.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the main conclusion of the passage?",
+        "options": [
+          "A) The pledge’s climate value hinges on whether it is read alongside commitments about how the electricity is generated.",
+          "B) The pledge is a flawed instrument because it allows governments to expand gas-fired generation while still reporting progress towards the target.",
+          "C) The pledge is best defended as a broad, voluntary platform, since conditions on the grid would deter the coal-dependent countries whose participation matters most.",
+          "D) The pledge rests on an efficiency fact that makes electrification beneficial regardless of source, so the critics’ concerns about the grid are misplaced."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The final paragraph says the pledge’s value “will depend less on its own wording than on whether it is read alongside commitments about the grid”, and that in isolation it measures how electric, not how clean, an economy is. This is the author’s own verdict after weighing both camps.<br><br>• <strong>Why Option B is Wrong:</strong> This is the critics’ position, reported in paragraph 3. The author explicitly calls their scenario “possible rather than demonstrated”, so it cannot be the author’s conclusion.<br><br>• <strong>Why Option C is Wrong:</strong> This is the defenders’ position from paragraph 4. The author reports it and says neither side’s argument is as strong as its proponents suppose.<br><br>• <strong>Why Option D is Wrong:</strong> This overstates the supporters’ efficiency point and flatly dismisses the critics. The author treats the “automatically” claim as an assumption, not a finding.<br><br><strong>💡 Approach:</strong> In an RC main-idea question, the answer is usually the author’s own judgement in the last paragraph, not a view the author merely reports. Eliminate options that belong to one of the two camps."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following, if true, would most weaken the critics’ claim that the pledge leaves a “back door open” for new fossil fuel use?",
+        "options": [
+          "A) Several governments that have signed the pledge have recently approved new gas-fired power stations intended to supply their electrified transport networks.",
+          "B) Data-centre operators in many countries have signed long-term contracts to buy electricity from gas-fired plants rather than from solar or wind farms.",
+          "C) Signatories must publish the generation mix behind their electricity each year, and independent bodies will rank them on it.",
+          "D) Electricity’s share of final energy consumption has risen steadily in most large economies over the past two decades, even without any pledge."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The critics’ worry is that a government could electrify, add gas, and still report progress without anyone noticing. Mandatory annual disclosure of the generation mix, with independent ranking, directly closes that gap, because any gas expansion would become visible and costly in reputation terms.<br><br>• <strong>Why Option A is Wrong:</strong> This strengthens the critics. It is an actual instance of governments pairing electrification with new gas plants.<br><br>• <strong>Why Option B is Wrong:</strong> This also strengthens the critics, because it shows the data-centre demand being met by fossil generation.<br><br>• <strong>Why Option D is Wrong:</strong> This is tempting but irrelevant. A historical rise in the share says nothing about whether the pledge’s wording allows fossil expansion to be hidden; if anything it suggests the share can rise without climate intent.<br><br><strong>💡 Approach:</strong> For a weaken question, first state the argument: pledge ignores the source, so fossil use can be hidden. Then look for the option that attacks the “hidden” part. Eliminate options that support the argument and options that are merely off-topic."
+      },
+      {
+        "id": "q3",
+        "question": "Each of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) Electricity’s share of consumption could be raised without any reduction in the amount of fossil fuel being used.",
+          "B) Electrifying transport in a coal-reliant country would necessarily raise that country’s emissions.",
+          "C) The efficiency benefits of replacing combustion engines with electric motors do not depend on how the electricity is produced.",
+          "D) The policies currently in place would leave the world short of the level of electrification the pledge envisages."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The passage never says electrification in a coal-reliant country would “necessarily” raise emissions. The critics only say a government could expand gas and still report progress, and the author calls such scenarios “possible rather than demonstrated”. The word “necessarily” is an unsupported absolute, so this is the one that cannot be inferred.<br><br>• <strong>Why Option A is Wrong:</strong> This can be inferred from paragraph 3: the ratio can be raised “by simply adding electricity-hungry activity that displaces nothing at all”, so fossil use need not fall.<br><br>• <strong>Why Option C is Wrong:</strong> This is stated in paragraph 2: efficiency gains are “indifferent to how the electricity is generated”.<br><br>• <strong>Why Option D is Wrong:</strong> This follows from paragraph 1: current policies reach only about 30 per cent, whereas the pledge asks for 35 per cent.<br><br><strong>💡 Approach:</strong> In an EXCEPT question, three options are supported and one is not. Hunt for absolutes such as “necessarily”, “always” and “all”, and check each remaining option against a specific sentence in the passage."
+      },
+      {
+        "id": "q4",
+        "question": "The author mentions the composition of Türkiye’s electricity supply in order to:",
+        "options": [
+          "A) expose the host country as hypocritical for proposing a target it has no intention of meeting itself.",
+          "B) demonstrate that coal and gas still dominate the electricity mix of every country likely to sign the pledge.",
+          "C) prove that the pledge will fail to reduce emissions in the very country that proposed it.",
+          "D) make the critics’ unease concrete by showing the host’s own grid still leans on fossil fuels."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The sentence is introduced with “Türkiye itself illustrates the unease”. It is an example attached to the critics’ argument, showing that a presidency promoting electrification still has a substantial fossil-fuelled grid.<br><br>• <strong>Why Option A is Wrong:</strong> “Hypocritical” and “no intention” attribute motives that the passage never mentions. The country also has a stated renewable target for 2030.<br><br>• <strong>Why Option B is Wrong:</strong> “Every country likely to sign” is a sweeping generalisation drawn from a single example.<br><br>• <strong>Why Option C is Wrong:</strong> “Prove” is far too strong. The author says the critics’ scenario is possible, not demonstrated, and the Türkiye figures only illustrate a risk.<br><br><strong>💡 Approach:</strong> For purpose questions, read the sentence that frames the detail (“illustrates the unease”) and match the strength of the option to the strength of the evidence. A single example can illustrate but never prove a general claim."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following, if true, would most strengthen the defenders’ argument in paragraph 4?",
+        "options": [
+          "A) Looser climate pledges have historically drawn wide sign-ups that later tightened, while strict ones were largely ignored.",
+          "B) A majority of the countries expected to sign the pledge already generate most of their electricity from renewable sources and need no further incentive to clean their grids.",
+          "C) Independent analysts have found that the share of electricity in consumption is a poor predictor of national emissions in the years when it changes most sharply.",
+          "D) The group of governments that agreed to the earlier goal on tripling renewable capacity is broadly the same group that has now said it is willing to sign the electrification pledge."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The defenders argue that a broad, modest pledge is a platform for stricter commitments later, whereas a narrow, demanding one may never get going. A historical pattern in which loose pledges attract many signatories who later tighten, and strict ones are ignored, supports both halves of that claim.<br><br>• <strong>Why Option B is Wrong:</strong> This does not support the argument. If the likely signatories already have clean grids, conditions on the grid would not deter them, which undercuts the claim that such conditions would narrow the coalition.<br><br>• <strong>Why Option C is Wrong:</strong> This attacks the usefulness of the indicator itself, which weakens the defenders’ case for a pledge built around it.<br><br>• <strong>Why Option D is Wrong:</strong> If the same governments are already prepared to sign, a clean-power condition would not narrow the coalition, so the defenders’ deterrence argument is weakened, not strengthened.<br><br><strong>💡 Approach:</strong> To strengthen, restate the argument’s key claim (broad beats strict) and pick the option that supplies evidence for it. Eliminate options that quietly show the opposite."
+      },
+      {
+        "id": "q6",
+        "question": "The author’s remark that a metric which becomes a target “attracts effort towards whatever moves it most cheaply” is best illustrated by which of the following?",
+        "options": [
+          "A) A hospital lowers its mortality rate by training its surgeons better and by upgrading the equipment in its intensive-care wards.",
+          "B) A city cuts road accidents by lowering speed limits and enforcing them with cameras on its busiest roads.",
+          "C) A school lifts its pass rate by discouraging weaker pupils from sitting the final examination.",
+          "D) A government reduces unemployment by funding retraining programmes that move workers into new and growing industries."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The school improves the number being measured, the pass rate, by the cheapest route, which is removing weaker candidates, and not by improving learning. This is exactly the gap the author describes between what moves a metric most cheaply and what delivers the underlying goal.<br><br>• <strong>Why Option A is Wrong:</strong> Here the improved number reflects a genuine improvement in the underlying goal, which is better care. There is no gap between the metric and the goal.<br><br>• <strong>Why Option B is Wrong:</strong> Fewer accidents because of slower, enforced traffic is a real gain in safety, so the metric and the goal move together.<br><br>• <strong>Why Option D is Wrong:</strong> Retraining workers into growing industries lowers unemployment in substance, not only in the reported figure.<br><br><strong>💡 Approach:</strong> For application questions, identify the logical structure (a number is improved by a shortcut that leaves the real goal untouched) and find the option with the same structure. Reject options where the improvement is genuine."
+      }
+    ]
   }
 ]
