@@ -3446,5 +3446,600 @@
       "explanation": "<strong>Explanation:</strong> 'Impervious' takes 'to'."
     }
   ]
-}
+},
+  [
+ {
+  "id": "sec-2026-10-29",
+  "date": "2026-10-29",
+  "title": "IPMAT Indore VA Sectional – 29th Oct 2026",
+  "durationMinutes": 40,
+  "totalQuestions": 45,
+  "questions": [
+   {
+    "id": "q1",
+    "type": "Vocabulary",
+    "options": [
+     "laudatory",
+     "scathing",
+     "dispassionate",
+     "indulgent"
+    ],
+    "answer": 1,
+    "question": "The critic's ________ review, which praised nothing and ridiculed everything, said more about his temper than about the film.",
+    "explanation": "'Scathing' means harshly critical, matching a review that 'praised nothing and ridiculed everything'. 'Laudatory' (praising), 'dispassionate' (neutral) and 'indulgent' (lenient) contradict the clue."
+   },
+   {
+    "id": "q2",
+    "type": "Vocabulary",
+    "options": [
+     "bolster",
+     "impugn",
+     "corroborate",
+     "exalt"
+    ],
+    "answer": 1,
+    "question": "Having no evidence of its own, the defence could only ________ the credibility of the prosecution's witnesses.",
+    "explanation": "To 'impugn' is to challenge or call into question, which is all a defence without evidence of its own can do. 'Bolster', 'corroborate' and 'exalt' all mean to support or praise."
+   },
+   {
+    "id": "q3",
+    "type": "Vocabulary",
+    "options": [
+     "categorical",
+     "nebulous",
+     "pedantic",
+     "stringent"
+    ],
+    "answer": 1,
+    "question": "The treaty was drafted in deliberately ________ language, so that each side could claim victory.",
+    "explanation": "'Nebulous' means vague and open to interpretation, which lets each side read the treaty in its own favour. 'Categorical' (absolute) and 'stringent' (strict) would leave no room for both to claim victory; 'pedantic' means overly fussy about detail."
+   },
+   {
+    "id": "q4",
+    "type": "Vocabulary",
+    "options": [
+     "bury the hatchet",
+     "fan the flames",
+     "cut corners",
+     "rock the boat"
+    ],
+    "answer": 0,
+    "question": "The two rival firms, long at each other's throats, finally decided to ________ and merge.",
+    "explanation": "'Bury the hatchet' means to end a quarrel and make peace, which fits rivals who then merge. 'Fan the flames' is to worsen a conflict, 'cut corners' is to do something carelessly cheaply, and 'rock the boat' is to disturb a stable situation."
+   },
+   {
+    "id": "q5",
+    "type": "Vocabulary",
+    "options": [
+     "weight; inevitable; futile",
+     "paucity; inevitable; futile",
+     "weight; doubtful; promising",
+     "weight; inevitable; promising"
+    ],
+    "answer": 0,
+    "question": "The ________ of the evidence made the verdict ________, and even the defence conceded that an appeal would be ________.",
+    "explanation": "Overwhelming 'weight' of evidence makes the verdict 'inevitable' and an appeal 'futile'. 'Paucity' (scarcity) would not make a verdict inevitable; 'doubtful' and 'promising' contradict the defence conceding."
+   },
+   {
+    "id": "q6",
+    "type": "Vocabulary",
+    "options": [
+     "flustered; anxious; clipped",
+     "serene; relaxed; clipped",
+     "serene; anxious; clipped",
+     "anxious; serene; clipped"
+    ],
+    "answer": 2,
+    "question": "Though outwardly ________, the chairman was ________ inside, and his ________ replies concealed a growing alarm.",
+    "explanation": "'Though outwardly serene' sets up the contrast 'anxious inside', and 'clipped' (curt) replies concealed alarm. 'Flustered' contradicts 'though outwardly'; 'relaxed' contradicts 'alarm'; the last option reverses the contrast."
+   },
+   {
+    "id": "q7",
+    "type": "Vocabulary",
+    "options": [
+     "scintillating; eloquence; memorable",
+     "soporific; eloquence; memorable",
+     "soporific; length; forgettable",
+     "soporific; eloquence; tedious"
+    ],
+    "answer": 1,
+    "question": "The professor's lecture, so ________ that half the audience fell asleep, was redeemed only by the ________ of its closing remarks, which were ________ and moving.",
+    "explanation": "A lecture that sent people to sleep was 'soporific'; it was 'redeemed' by the 'eloquence' of closing remarks that were 'memorable and moving'. 'Scintillating' contradicts the audience sleeping; 'forgettable' and 'tedious' contradict 'redeemed' and 'moving'."
+   },
+   {
+    "id": "q8",
+    "type": "Vocabulary",
+    "options": [
+     "resolute; formidable; pressure",
+     "pliant; formidable; pressure",
+     "resolute; poor; pressure",
+     "pliant; poor; pressure"
+    ],
+    "answer": 3,
+    "question": "Her ________ nature made her a ________ negotiator: she gave up ground at the first sign of ________.",
+    "explanation": "A 'pliant' (yielding) person who gives up ground at the first 'pressure' is a 'poor' negotiator. 'Resolute' (firm) and 'formidable' contradict giving up ground."
+   },
+   {
+    "id": "q9",
+    "type": "Vocabulary",
+    "options": [
+     "moderate; contempt; principle",
+     "fanatical; passion; compromise",
+     "fanatical; passion; conviction",
+     "tepid; passion; compromise"
+    ],
+    "answer": 1,
+    "question": "The reformer's ________ zeal alienated allies, who found that his ________ for purity left no room for ________.",
+    "explanation": "'Fanatical' zeal alienates allies because a passion for purity leaves no room for 'compromise'. 'Moderate' and 'tepid' zeal would not alienate allies; 'no room for conviction' does not follow from a passion for purity."
+   },
+   {
+    "id": "q10",
+    "type": "Grammar",
+    "options": [
+     "finished when",
+     "finishing when",
+     "had finished when",
+     "did finish than"
+    ],
+    "answer": 0,
+    "question": "Replace the part in [square brackets] with the best alternative:\n\nHardly had the speaker [finished than] the audience began to applaud.",
+    "explanation": "'Hardly' is followed by 'when', not 'than': 'Hardly had the speaker finished when...'. (The same applies to 'scarcely'; 'than' goes with 'no sooner'.)"
+   },
+   {
+    "id": "q11",
+    "type": "Grammar",
+    "options": [
+     "are",
+     "is",
+     "have been",
+     "were being"
+    ],
+    "answer": 1,
+    "question": "Replace the part in [square brackets] with the best alternative:\n\nNeither of the two proposals [were] acceptable to the board.",
+    "explanation": "'Neither' is singular and takes a singular verb: 'Neither of the two proposals is acceptable'."
+   },
+   {
+    "id": "q12",
+    "type": "Grammar",
+    "options": [
+     "resigned",
+     "resign",
+     "will resign",
+     "resigning"
+    ],
+    "answer": 1,
+    "question": "Replace the part in [square brackets] with the best alternative:\n\nThe committee recommended that the director [resigns] immediately.",
+    "explanation": "After verbs of recommendation or suggestion, the subjunctive (base form) is used: 'recommended that the director resign'."
+   },
+   {
+    "id": "q13",
+    "type": "Grammar",
+    "options": [
+     "inspire",
+     "inspires",
+     "has inspired",
+     "is inspiring"
+    ],
+    "answer": 0,
+    "question": "Replace the part in [square brackets] with the best alternative:\n\nShe is one of those teachers who [inspires] their students.",
+    "explanation": "In 'one of those teachers who...', the relative pronoun 'who' refers to the plural 'teachers', so the verb is plural: 'who inspire'."
+   },
+   {
+    "id": "q14",
+    "type": "Vocabulary",
+    "options": [
+     "The committee's ruling was upheld after an exhaustive review of the facts.",
+     "The hotel's spartan rooms, hung with silk drapes and gilded mirrors, delighted the guests.",
+     "Years of drought had left the reservoir nearly depleted.",
+     "The newspaper was sued for printing a libellous claim about the senator."
+    ],
+    "answer": 1,
+    "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+    "explanation": "'Spartan' means plain and austere, which contradicts silk drapes and gilded mirrors; 'opulent' is intended. 'Exhaustive' (thorough), 'depleted' (used up) and 'libellous' (defamatory) are correct."
+   },
+   {
+    "id": "q15",
+    "type": "Vocabulary",
+    "options": [
+     "The apparent contradiction dissolved once the terms were properly defined.",
+     "The negotiators reached an impasse and talks were suspended.",
+     "His cogent argument was dismissed as rambling and incoherent.",
+     "The widow inherited a modest estate from her late husband."
+    ],
+    "answer": 2,
+    "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+    "explanation": "'Cogent' means clear, logical and convincing, so it cannot describe an argument dismissed as rambling and incoherent. 'Dissolved', 'impasse' (deadlock) and 'modest' are used correctly."
+   },
+   {
+    "id": "q16",
+    "type": "Vocabulary",
+    "options": [
+     "The tycoon's parsimonious donations, running into millions, made him the city's greatest benefactor.",
+     "The explorer's perilous journey took two years.",
+     "The council tried to placate the angry residents with a promise of repairs.",
+     "The two accounts were so similar that it seemed they had been copied from a common source."
+    ],
+    "answer": 0,
+    "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+    "explanation": "'Parsimonious' means miserly, which contradicts donations running into millions; 'munificent' or 'lavish' is intended. 'Perilous' (dangerous), 'placate' (soothe) and the last sentence are correct."
+   },
+   {
+    "id": "q17",
+    "type": "ParaCompletion",
+    "options": [
+     "Central banks in most countries aim to keep the rate of inflation close to a low and stable target.",
+     "Wages in many industries have risen faster than prices over the past several decades.",
+     "The prices of electronic goods have fallen steadily as manufacturers have found cheaper methods of production.",
+     "But its effects fall unevenly, depending on what households actually buy."
+    ],
+    "answer": 3,
+    "question": "Complete the paragraph logically:\n\nInflation is usually discussed as a rise in the general price level. ____________________. A shopper does not meet 'the price level' but particular prices, and a family that spends most of its income on food and fuel may suffer much more than the official figure suggests when those prices rise fastest.",
+    "explanation": "The sentences that follow show that different households experience inflation differently depending on their spending, so the blank must introduce this unevenness. The other options discuss central bank targets, wages and electronics, which the paragraph does not develop."
+   },
+   {
+    "id": "q18",
+    "type": "ParaCompletion",
+    "options": [
+     "Beyond a certain level of pressure, performance declines rather than improves.",
+     "Most people work better when they are given no deadlines of any kind by their employers.",
+     "Students who start their work early generally earn higher marks than those who start it late.",
+     "Professionals are usually given longer deadlines than students, as their work is more complex."
+    ],
+    "answer": 0,
+    "question": "Complete the paragraph logically:\n\nA deadline concentrates the mind, but only up to a point. ____________________. Studies of students and professionals find that moderate time pressure improves output, whereas severe pressure raises errors and drives out the careful thinking that hard problems need.",
+    "explanation": "The studies show that moderate pressure helps but severe pressure harms, which restates 'only up to a point'. The other options contradict or ignore this finding."
+   },
+   {
+    "id": "q19",
+    "type": "ParaCompletion",
+    "options": [
+     "Proverbs are generally older than the books in which they were first collected and written down.",
+     "Collections of proverbs from different countries tend to be very similar in the lessons they teach.",
+     "Their advice depends on context, and no proverb tells us which context we are in.",
+     "Most proverbs are false, and should be avoided by anyone who wishes to make sound decisions."
+    ],
+    "answer": 2,
+    "question": "Complete the paragraph logically:\n\nProverbs seem to offer timeless wisdom, but they often come in contradictory pairs. ____________________. 'Look before you leap' is answered by 'He who hesitates is lost', and 'Many hands make light work' by 'Too many cooks spoil the broth'. Each fits some situations and not others.",
+    "explanation": "The paired examples show that each proverb fits some situations and not others, so the blank states that advice depends on context. The other options discuss age, similarity across countries, or falsehood, none of which the paragraph supports."
+   },
+   {
+    "id": "q20",
+    "type": "RC",
+    "options": [
+     "the trials were conducted for periods that were too short for any benefits to appear",
+     "the firms that took part volunteered and tended to be those expecting to benefit",
+     "most of the firms in the trials were large factories with fixed shift patterns",
+     "the staff who took part were paid less than they had been paid previously"
+    ],
+    "answer": 1,
+    "question": "PASSAGE:\nCONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nIra Banerjee (Host, Work Matters): Several firms have moved to a four-day week with no cut in pay. Is it too good to be true?\n\nProf. Sameer Joshi (labour economist): In the trials so far, mostly it has worked, but notice who took part. Firms volunteered, and firms that volunteer tend to be those that expect to benefit, such as small knowledge-work businesses with flexible schedules. Hospitals and factories that must be staffed continuously cannot simply close for a day.\n\nIra Banerjee: So where does the extra productivity come from?\n\nProf. Sameer Joshi: Partly from cutting waste: fewer meetings, less time spent on low-value tasks. Partly from rested staff who take fewer sick days. But some of the gain is probably a one-time novelty effect, when everyone is determined to prove the experiment succeeds. Whether it lasts for years is not yet known.\n\nIra Banerjee: What would you advise a firm to do?\n\nProf. Sameer Joshi: Pilot it, measure output and not just morale, and decide in advance what result would count as failure.\n\n--------------------\nQUESTION: Prof. Joshi cautions that the trial results may overstate the benefits of a four-day week because",
+    "explanation": "He says 'Firms volunteered, and firms that volunteer tend to be those that expect to benefit'. The trials were not described as too short, as factory-based, or as involving pay cuts (the host says there was no cut in pay)."
+   },
+   {
+    "id": "q21",
+    "type": "RC",
+    "options": [
+     "fewer meetings",
+     "fewer sick days among rested staff",
+     "a one-time novelty effect",
+     "a reduction in the rates of pay of the staff"
+    ],
+    "answer": 3,
+    "question": "PASSAGE:\nCONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nIra Banerjee (Host, Work Matters): Several firms have moved to a four-day week with no cut in pay. Is it too good to be true?\n\nProf. Sameer Joshi (labour economist): In the trials so far, mostly it has worked, but notice who took part. Firms volunteered, and firms that volunteer tend to be those that expect to benefit, such as small knowledge-work businesses with flexible schedules. Hospitals and factories that must be staffed continuously cannot simply close for a day.\n\nIra Banerjee: So where does the extra productivity come from?\n\nProf. Sameer Joshi: Partly from cutting waste: fewer meetings, less time spent on low-value tasks. Partly from rested staff who take fewer sick days. But some of the gain is probably a one-time novelty effect, when everyone is determined to prove the experiment succeeds. Whether it lasts for years is not yet known.\n\nIra Banerjee: What would you advise a firm to do?\n\nProf. Sameer Joshi: Pilot it, measure output and not just morale, and decide in advance what result would count as failure.\n\n--------------------\nQUESTION: Each of the following is mentioned by Prof. Joshi as a source of extra productivity EXCEPT",
+    "explanation": "He mentions cutting waste (fewer meetings), fewer sick days, and a novelty effect. Pay reductions are not mentioned; the host notes the trials involved no cut in pay."
+   },
+   {
+    "id": "q22",
+    "type": "RC",
+    "options": [
+     "pilot it, measure output and not only morale, and define failure in advance",
+     "adopt it immediately because the early trials have all been successful",
+     "avoid it altogether because the gains are certain to be only temporary",
+     "ask its employees to vote on the proposal before testing it in practice"
+    ],
+    "answer": 0,
+    "question": "PASSAGE:\nCONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nIra Banerjee (Host, Work Matters): Several firms have moved to a four-day week with no cut in pay. Is it too good to be true?\n\nProf. Sameer Joshi (labour economist): In the trials so far, mostly it has worked, but notice who took part. Firms volunteered, and firms that volunteer tend to be those that expect to benefit, such as small knowledge-work businesses with flexible schedules. Hospitals and factories that must be staffed continuously cannot simply close for a day.\n\nIra Banerjee: So where does the extra productivity come from?\n\nProf. Sameer Joshi: Partly from cutting waste: fewer meetings, less time spent on low-value tasks. Partly from rested staff who take fewer sick days. But some of the gain is probably a one-time novelty effect, when everyone is determined to prove the experiment succeeds. Whether it lasts for years is not yet known.\n\nIra Banerjee: What would you advise a firm to do?\n\nProf. Sameer Joshi: Pilot it, measure output and not just morale, and decide in advance what result would count as failure.\n\n--------------------\nQUESTION: Prof. Joshi advises a firm considering a four-day week to",
+    "explanation": "He says: 'Pilot it, measure output and not just morale, and decide in advance what result would count as failure.' He does not advise immediate adoption, avoidance, or a staff vote."
+   },
+   {
+    "id": "q23",
+    "type": "ParaJumble_TITA",
+    "options": [
+     "2413",
+     "4213",
+     "4231",
+     "2143"
+    ],
+    "answer": 1,
+    "question": "Rearrange the four sentences into a logical sequence. Choose the correct order:\n\n1. This placeholder, however, was not yet a number: it could not be added, subtracted or multiplied.\n2. Babylonian scribes marked an empty position in their numerals with a small symbol.\n3. Indian mathematicians later gave zero rules of its own, and from India it travelled to the Arab world and Europe.\n4. Writing large numbers clearly requires some way of showing that a place has nothing in it.",
+    "explanation": "Sentence 4 states the general need. Sentence 2 gives the early solution (Babylonian symbol). Sentence 1 ('This placeholder, however') notes its limitation. Sentence 3 ('later') describes the Indian advance. Order: 4-2-1-3."
+   },
+   {
+    "id": "q24",
+    "type": "ParaJumble_TITA",
+    "options": [
+     "23145",
+     "32415",
+     "23415",
+     "24315"
+    ],
+    "answer": 2,
+    "question": "Rearrange the five sentences into a logical sequence. Choose the correct order:\n\n1. Reefs may recover if the water cools quickly enough for the algae to return.\n2. Corals draw most of their food from algae living inside their tissues.\n3. When the sea grows too warm, the corals expel these algae and turn white.\n4. Bleaching is therefore a sign of starvation and not of death itself, at least at first.\n5. But if the heat persists, the starving coral dies.",
+    "explanation": "Sentence 2 introduces the coral-algae relationship. Sentence 3 describes the expulsion. Sentence 4 ('therefore') draws the consequence. Sentence 1 gives the hopeful case. Sentence 5 ('But if the heat persists') gives the contrasting outcome. Order: 2-3-4-1-5."
+   },
+   {
+    "id": "q25",
+    "type": "ParaJumble_TITA",
+    "options": [
+     "2134",
+     "2314",
+     "3214",
+     "2341"
+    ],
+    "answer": 1,
+    "question": "Rearrange the four sentences into a logical sequence. Choose the correct order:\n\n1. The protection extends even to those who cannot be vaccinated, such as newborns.\n2. When enough of a population is immune to a disease, outbreaks cannot spread easily.\n3. This is known as herd immunity.\n4. It weakens, however, if vaccination rates fall below the threshold needed to keep chains of infection broken.",
+    "explanation": "Sentence 2 states the condition. Sentence 3 ('This is known as') names it. Sentence 1 ('The protection') describes its benefit. Sentence 4 ('however') adds the limit. Order: 2-3-1-4."
+   },
+   {
+    "id": "q26",
+    "type": "ParaJumble_TITA",
+    "options": [
+     "13524",
+     "31254",
+     "35124",
+     "31524"
+    ],
+    "answer": 3,
+    "question": "Rearrange the five sentences into a logical sequence. Choose the correct order:\n\n1. Ships no longer had to sail around the southern tip of Africa.\n2. Its closure in 1967, after a war, therefore sent shockwaves through the shipping industry.\n3. Opened in 1869, the Suez Canal cut the sea route between Europe and Asia by thousands of kilometres.\n4. It remained shut for eight years, and the long detour around Africa returned.\n5. The saving in time and fuel transformed the economics of trade between the two continents.",
+    "explanation": "Sentence 3 introduces the canal. Sentence 1 explains the shortened route. Sentence 5 states the economic effect. Sentence 2 ('therefore... closure') follows from that dependence. Sentence 4 ('It remained shut') continues. Order: 3-1-5-2-4."
+   },
+   {
+    "id": "q27",
+    "type": "ParaJumble_TITA",
+    "options": [
+     "2431",
+     "3241",
+     "2341",
+     "2314"
+    ],
+    "answer": 2,
+    "question": "Rearrange the four sentences into a logical sequence. Choose the correct order:\n\n1. The prisoner's dilemma is the best-known example: both players defect, though both would be better off cooperating.\n2. Game theorists call a set of strategies stable when no player can gain by changing his own choice alone.\n3. Such a stable set is called a Nash equilibrium, after the mathematician John Nash.\n4. Stability, however, is not the same as desirability, since equilibria may leave everyone worse off than another outcome would.",
+    "explanation": "Sentence 2 defines stability. Sentence 3 names it. Sentence 4 ('however') distinguishes stability from desirability. Sentence 1 gives the example that illustrates it. Order: 2-3-4-1."
+   },
+   {
+    "id": "q28",
+    "type": "RC",
+    "options": [
+     "Hardin's tragedy of the commons is a law of nature, and shared resources must therefore be privatised or controlled by the state",
+     "Ostrom showed that the tragedy is not inevitable but arises under particular conditions, and that communities can manage shared resources",
+     "Ostrom proved that Hardin's essay is worthless, since commons never fail when they are managed by communities",
+     "Open-ocean fisheries and the atmosphere can be managed by local communities as easily as alpine meadows can"
+    ],
+    "answer": 1,
+    "question": "PASSAGE:\nIn 1968 the ecologist Garrett Hardin published an essay that gave social science one of its most durable metaphors. A pasture open to all, he argued, will be overgrazed: each herdsman gains the full benefit of adding one more animal while the cost of the depleted grass is shared among everyone, so that individually rational choices produce collective ruin. The 'tragedy of the commons' was widely taken to show that shared resources must be either privatised or placed under state control. Elinor Ostrom, who later won the Nobel Prize in economics, spent decades examining the claim against the evidence and found that it described a narrower case than Hardin supposed. Hardin had imagined an unmanaged commons, a resource to which anyone may come and in which no one answers to anyone else. Real commons, from Swiss alpine meadows to Japanese forests to irrigation systems in the Philippines, were rarely like this. They were governed by communities that knew who was entitled to use the resource, set limits on use, monitored one another and punished violators, and some had survived for centuries. Ostrom's conclusion was not that commons never fail; many do, especially when the group is large, anonymous or recently thrown together, or when outsiders can ignore its rules. It was that failure is a consequence of particular conditions rather than a law of nature, and that the choice is not confined to the market and the state. This did not make Hardin's essay worthless. It identified a real incentive problem and a real class of resources, such as open-ocean fisheries and the atmosphere, where the conditions for community management are hard to meet. What Ostrom showed is that the metaphor works best as a warning about what happens when rules are absent, not as a prediction of what must happen whenever a resource is shared.\n\n--------------------\nQUESTION: Which of the following best states the main point of the passage?",
+    "explanation": "The passage says failure 'is a consequence of particular conditions rather than a law of nature' and that the choice is not confined to market and state. (A) is the view Ostrom challenged; (C) is rejected ('did not make Hardin's essay worthless'; many commons do fail); (D) contradicts the claim that conditions are hard to meet."
+   },
+   {
+    "id": "q29",
+    "type": "RC",
+    "options": [
+     "the herdsmen do not know that additional animals damage the pasture",
+     "the state does not enforce any limits on the numbers of animals",
+     "each herdsman gains the full benefit of an extra animal while the cost of the damage is shared",
+     "pastures regrow too slowly to support any herd, however small"
+    ],
+    "answer": 2,
+    "question": "PASSAGE:\nIn 1968 the ecologist Garrett Hardin published an essay that gave social science one of its most durable metaphors. A pasture open to all, he argued, will be overgrazed: each herdsman gains the full benefit of adding one more animal while the cost of the depleted grass is shared among everyone, so that individually rational choices produce collective ruin. The 'tragedy of the commons' was widely taken to show that shared resources must be either privatised or placed under state control. Elinor Ostrom, who later won the Nobel Prize in economics, spent decades examining the claim against the evidence and found that it described a narrower case than Hardin supposed. Hardin had imagined an unmanaged commons, a resource to which anyone may come and in which no one answers to anyone else. Real commons, from Swiss alpine meadows to Japanese forests to irrigation systems in the Philippines, were rarely like this. They were governed by communities that knew who was entitled to use the resource, set limits on use, monitored one another and punished violators, and some had survived for centuries. Ostrom's conclusion was not that commons never fail; many do, especially when the group is large, anonymous or recently thrown together, or when outsiders can ignore its rules. It was that failure is a consequence of particular conditions rather than a law of nature, and that the choice is not confined to the market and the state. This did not make Hardin's essay worthless. It identified a real incentive problem and a real class of resources, such as open-ocean fisheries and the atmosphere, where the conditions for community management are hard to meet. What Ostrom showed is that the metaphor works best as a warning about what happens when rules are absent, not as a prediction of what must happen whenever a resource is shared.\n\n--------------------\nQUESTION: According to Hardin's argument, individually rational choices lead to collective ruin because",
+    "explanation": "The passage says each herdsman 'gains the full benefit of adding one more animal while the cost of the depleted grass is shared among everyone'. Ignorance, state enforcement and regrowth rates are not given as the reason."
+   },
+   {
+    "id": "q30",
+    "type": "RC",
+    "options": [
+     "were open to anyone who wished to use them",
+     "were governed by communities that set limits, monitored use and punished violators",
+     "were owned by the state and managed by officials",
+     "had been divided among individuals into private plots"
+    ],
+    "answer": 1,
+    "question": "PASSAGE:\nIn 1968 the ecologist Garrett Hardin published an essay that gave social science one of its most durable metaphors. A pasture open to all, he argued, will be overgrazed: each herdsman gains the full benefit of adding one more animal while the cost of the depleted grass is shared among everyone, so that individually rational choices produce collective ruin. The 'tragedy of the commons' was widely taken to show that shared resources must be either privatised or placed under state control. Elinor Ostrom, who later won the Nobel Prize in economics, spent decades examining the claim against the evidence and found that it described a narrower case than Hardin supposed. Hardin had imagined an unmanaged commons, a resource to which anyone may come and in which no one answers to anyone else. Real commons, from Swiss alpine meadows to Japanese forests to irrigation systems in the Philippines, were rarely like this. They were governed by communities that knew who was entitled to use the resource, set limits on use, monitored one another and punished violators, and some had survived for centuries. Ostrom's conclusion was not that commons never fail; many do, especially when the group is large, anonymous or recently thrown together, or when outsiders can ignore its rules. It was that failure is a consequence of particular conditions rather than a law of nature, and that the choice is not confined to the market and the state. This did not make Hardin's essay worthless. It identified a real incentive problem and a real class of resources, such as open-ocean fisheries and the atmosphere, where the conditions for community management are hard to meet. What Ostrom showed is that the metaphor works best as a warning about what happens when rules are absent, not as a prediction of what must happen whenever a resource is shared.\n\n--------------------\nQUESTION: Ostrom found that many real commons differed from Hardin's model because they",
+    "explanation": "The passage says real commons 'were governed by communities that knew who was entitled to use the resource, set limits on use, monitored one another and punished violators'. State ownership and private plots are the options Ostrom's work went beyond."
+   },
+   {
+    "id": "q31",
+    "type": "RC",
+    "options": [
+     "show that Ostrom's findings apply to every kind of shared resource",
+     "prove that Hardin was wrong about the pasture",
+     "argue that resources of this kind should be privatised",
+     "give examples where Hardin's concern remains real because community management is hard to arrange"
+    ],
+    "answer": 3,
+    "question": "PASSAGE:\nIn 1968 the ecologist Garrett Hardin published an essay that gave social science one of its most durable metaphors. A pasture open to all, he argued, will be overgrazed: each herdsman gains the full benefit of adding one more animal while the cost of the depleted grass is shared among everyone, so that individually rational choices produce collective ruin. The 'tragedy of the commons' was widely taken to show that shared resources must be either privatised or placed under state control. Elinor Ostrom, who later won the Nobel Prize in economics, spent decades examining the claim against the evidence and found that it described a narrower case than Hardin supposed. Hardin had imagined an unmanaged commons, a resource to which anyone may come and in which no one answers to anyone else. Real commons, from Swiss alpine meadows to Japanese forests to irrigation systems in the Philippines, were rarely like this. They were governed by communities that knew who was entitled to use the resource, set limits on use, monitored one another and punished violators, and some had survived for centuries. Ostrom's conclusion was not that commons never fail; many do, especially when the group is large, anonymous or recently thrown together, or when outsiders can ignore its rules. It was that failure is a consequence of particular conditions rather than a law of nature, and that the choice is not confined to the market and the state. This did not make Hardin's essay worthless. It identified a real incentive problem and a real class of resources, such as open-ocean fisheries and the atmosphere, where the conditions for community management are hard to meet. What Ostrom showed is that the metaphor works best as a warning about what happens when rules are absent, not as a prediction of what must happen whenever a resource is shared.\n\n--------------------\nQUESTION: The author mentions open-ocean fisheries and the atmosphere in order to",
+    "explanation": "They are cited as 'a real class of resources... where the conditions for community management are hard to meet'. The passage does not claim Ostrom's findings apply universally, nor does it recommend privatisation."
+   },
+   {
+    "id": "q32",
+    "type": "RC",
+    "options": [
+     "one shared by a large group of strangers, where outsiders can ignore its rules",
+     "an irrigation system run by a long-established community that monitors use",
+     "alpine meadows in which communities decide who may graze and how many animals",
+     "a forest whose users know one another and punish those who exceed the limits"
+    ],
+    "answer": 0,
+    "question": "PASSAGE:\nIn 1968 the ecologist Garrett Hardin published an essay that gave social science one of its most durable metaphors. A pasture open to all, he argued, will be overgrazed: each herdsman gains the full benefit of adding one more animal while the cost of the depleted grass is shared among everyone, so that individually rational choices produce collective ruin. The 'tragedy of the commons' was widely taken to show that shared resources must be either privatised or placed under state control. Elinor Ostrom, who later won the Nobel Prize in economics, spent decades examining the claim against the evidence and found that it described a narrower case than Hardin supposed. Hardin had imagined an unmanaged commons, a resource to which anyone may come and in which no one answers to anyone else. Real commons, from Swiss alpine meadows to Japanese forests to irrigation systems in the Philippines, were rarely like this. They were governed by communities that knew who was entitled to use the resource, set limits on use, monitored one another and punished violators, and some had survived for centuries. Ostrom's conclusion was not that commons never fail; many do, especially when the group is large, anonymous or recently thrown together, or when outsiders can ignore its rules. It was that failure is a consequence of particular conditions rather than a law of nature, and that the choice is not confined to the market and the state. This did not make Hardin's essay worthless. It identified a real incentive problem and a real class of resources, such as open-ocean fisheries and the atmosphere, where the conditions for community management are hard to meet. What Ostrom showed is that the metaphor works best as a warning about what happens when rules are absent, not as a prediction of what must happen whenever a resource is shared.\n\n--------------------\nQUESTION: Which of the following commons would Ostrom's analysis most likely predict to be at risk of failure?",
+    "explanation": "The passage says commons fail 'especially when the group is large, anonymous or recently thrown together, or when outsiders can ignore its rules'. The other options describe the conditions under which commons have survived."
+   },
+   {
+    "id": "q33",
+    "type": "RC",
+    "options": [
+     "dismissive: it has been disproved and should be abandoned",
+     "uncritical: it is a reliable prediction for every shared resource",
+     "balanced: it identified a real problem, but works as a warning and not as a prediction",
+     "indifferent: the passage merely lists two scholars' views without taking a position"
+    ],
+    "answer": 2,
+    "question": "PASSAGE:\nIn 1968 the ecologist Garrett Hardin published an essay that gave social science one of its most durable metaphors. A pasture open to all, he argued, will be overgrazed: each herdsman gains the full benefit of adding one more animal while the cost of the depleted grass is shared among everyone, so that individually rational choices produce collective ruin. The 'tragedy of the commons' was widely taken to show that shared resources must be either privatised or placed under state control. Elinor Ostrom, who later won the Nobel Prize in economics, spent decades examining the claim against the evidence and found that it described a narrower case than Hardin supposed. Hardin had imagined an unmanaged commons, a resource to which anyone may come and in which no one answers to anyone else. Real commons, from Swiss alpine meadows to Japanese forests to irrigation systems in the Philippines, were rarely like this. They were governed by communities that knew who was entitled to use the resource, set limits on use, monitored one another and punished violators, and some had survived for centuries. Ostrom's conclusion was not that commons never fail; many do, especially when the group is large, anonymous or recently thrown together, or when outsiders can ignore its rules. It was that failure is a consequence of particular conditions rather than a law of nature, and that the choice is not confined to the market and the state. This did not make Hardin's essay worthless. It identified a real incentive problem and a real class of resources, such as open-ocean fisheries and the atmosphere, where the conditions for community management are hard to meet. What Ostrom showed is that the metaphor works best as a warning about what happens when rules are absent, not as a prediction of what must happen whenever a resource is shared.\n\n--------------------\nQUESTION: The author's attitude to Hardin's metaphor is best described as",
+    "explanation": "The author says the essay 'identified a real incentive problem' yet 'the metaphor works best as a warning... not as a prediction'. That is a qualified, balanced judgement; the other options are too extreme or ignore the author's conclusion."
+   },
+   {
+    "id": "q34",
+    "type": "RC",
+    "options": [
+     "Nudging is manipulation and should be prohibited because it bypasses the reasoning of citizens",
+     "Nudges are harmless because they leave all options open, and critics' objections have been fully answered",
+     "Nudges are legitimate only when they give citizens financial incentives to choose what the state prefers",
+     "Nudging raises a dispute about autonomy, and transparency may be a better test of legitimacy than mere influence"
+    ],
+    "answer": 3,
+    "question": "PASSAGE:\nA nudge, in the phrase popularised by Richard Thaler and Cass Sunstein, is any feature of the environment that steers people towards a choice without forbidding alternatives or changing their incentives much. Placing fruit at eye level in a canteen is a nudge; banning sweets is not. The most powerful nudges exploit inertia. When employees are enrolled in a pension scheme by default and must act to leave it, participation rises dramatically, though the choices on offer have not changed; the same is true of organ donation in countries where consent is presumed. Supporters argue that since every environment must arrange its options in some order, and every default must be something, there is no neutral design from which nudging departs. The question is not whether to nudge but towards what. Critics reply that this overlooks a difference between an arrangement that happens to influence and one that is designed to. A nudge that works only because people do not notice it, they say, treats citizens as mechanisms to be adjusted rather than as agents to be persuaded, and when its designers are the very officials whom citizens are meant to hold to account, the arrangement is troubling even if its aims are kind. The reply from supporters is that the best nudges survive publicity: a default enrolment can be announced on the form that carries it, and people who object can leave at the cost of a tick in a box. Whether a nudge passes this test of transparency is therefore a better guide to its legitimacy than whether it influences behaviour, which almost everything does. It remains unsettled how much weight to give the interests of those who would choose differently if they had paused to reflect, since their reflective choice is exactly what a nudge is designed to anticipate and what its critics fear it will replace.\n\n--------------------\nQUESTION: Which of the following best states the main point of the passage?",
+    "explanation": "The passage sets out supporters and critics, proposes transparency as 'a better guide to its legitimacy', and ends by noting the matter is 'unsettled'. (A) and (B) take one side; (C) contradicts the definition of a nudge, which does not change incentives much."
+   },
+   {
+    "id": "q35",
+    "type": "RC",
+    "options": [
+     "removes the right of employees to leave the scheme",
+     "raises participation although the choices on offer have not changed",
+     "works only if employees are offered a financial incentive to remain",
+     "is a ban disguised as a nudge"
+    ],
+    "answer": 1,
+    "question": "PASSAGE:\nA nudge, in the phrase popularised by Richard Thaler and Cass Sunstein, is any feature of the environment that steers people towards a choice without forbidding alternatives or changing their incentives much. Placing fruit at eye level in a canteen is a nudge; banning sweets is not. The most powerful nudges exploit inertia. When employees are enrolled in a pension scheme by default and must act to leave it, participation rises dramatically, though the choices on offer have not changed; the same is true of organ donation in countries where consent is presumed. Supporters argue that since every environment must arrange its options in some order, and every default must be something, there is no neutral design from which nudging departs. The question is not whether to nudge but towards what. Critics reply that this overlooks a difference between an arrangement that happens to influence and one that is designed to. A nudge that works only because people do not notice it, they say, treats citizens as mechanisms to be adjusted rather than as agents to be persuaded, and when its designers are the very officials whom citizens are meant to hold to account, the arrangement is troubling even if its aims are kind. The reply from supporters is that the best nudges survive publicity: a default enrolment can be announced on the form that carries it, and people who object can leave at the cost of a tick in a box. Whether a nudge passes this test of transparency is therefore a better guide to its legitimacy than whether it influences behaviour, which almost everything does. It remains unsettled how much weight to give the interests of those who would choose differently if they had paused to reflect, since their reflective choice is exactly what a nudge is designed to anticipate and what its critics fear it will replace.\n\n--------------------\nQUESTION: According to the passage, enrolling employees in a pension scheme by default",
+    "explanation": "The passage says participation 'rises dramatically, though the choices on offer have not changed', and employees 'must act to leave', so the right to leave remains. Incentives and bans are not mentioned."
+   },
+   {
+    "id": "q36",
+    "type": "RC",
+    "options": [
+     "any arrangement of options influences choices, so the real question is what to nudge towards",
+     "nudges are always harmless to the autonomy of citizens",
+     "officials should avoid arranging options at all",
+     "critics are right that nudges are inherently manipulative"
+    ],
+    "answer": 0,
+    "question": "PASSAGE:\nA nudge, in the phrase popularised by Richard Thaler and Cass Sunstein, is any feature of the environment that steers people towards a choice without forbidding alternatives or changing their incentives much. Placing fruit at eye level in a canteen is a nudge; banning sweets is not. The most powerful nudges exploit inertia. When employees are enrolled in a pension scheme by default and must act to leave it, participation rises dramatically, though the choices on offer have not changed; the same is true of organ donation in countries where consent is presumed. Supporters argue that since every environment must arrange its options in some order, and every default must be something, there is no neutral design from which nudging departs. The question is not whether to nudge but towards what. Critics reply that this overlooks a difference between an arrangement that happens to influence and one that is designed to. A nudge that works only because people do not notice it, they say, treats citizens as mechanisms to be adjusted rather than as agents to be persuaded, and when its designers are the very officials whom citizens are meant to hold to account, the arrangement is troubling even if its aims are kind. The reply from supporters is that the best nudges survive publicity: a default enrolment can be announced on the form that carries it, and people who object can leave at the cost of a tick in a box. Whether a nudge passes this test of transparency is therefore a better guide to its legitimacy than whether it influences behaviour, which almost everything does. It remains unsettled how much weight to give the interests of those who would choose differently if they had paused to reflect, since their reflective choice is exactly what a nudge is designed to anticipate and what its critics fear it will replace.\n\n--------------------\nQUESTION: The supporters' claim that 'there is no neutral design' implies that",
+    "explanation": "Supporters say 'every environment must arrange its options in some order, and every default must be something', so 'the question is not whether to nudge but towards what'. The other options are not implied."
+   },
+   {
+    "id": "q37",
+    "type": "RC",
+    "options": [
+     "are too costly for governments to design and administer",
+     "leave citizens with no alternative to the option that is favoured",
+     "treat people as mechanisms to be adjusted rather than agents to be persuaded",
+     "have never been shown to change anyone's behaviour"
+    ],
+    "answer": 2,
+    "question": "PASSAGE:\nA nudge, in the phrase popularised by Richard Thaler and Cass Sunstein, is any feature of the environment that steers people towards a choice without forbidding alternatives or changing their incentives much. Placing fruit at eye level in a canteen is a nudge; banning sweets is not. The most powerful nudges exploit inertia. When employees are enrolled in a pension scheme by default and must act to leave it, participation rises dramatically, though the choices on offer have not changed; the same is true of organ donation in countries where consent is presumed. Supporters argue that since every environment must arrange its options in some order, and every default must be something, there is no neutral design from which nudging departs. The question is not whether to nudge but towards what. Critics reply that this overlooks a difference between an arrangement that happens to influence and one that is designed to. A nudge that works only because people do not notice it, they say, treats citizens as mechanisms to be adjusted rather than as agents to be persuaded, and when its designers are the very officials whom citizens are meant to hold to account, the arrangement is troubling even if its aims are kind. The reply from supporters is that the best nudges survive publicity: a default enrolment can be announced on the form that carries it, and people who object can leave at the cost of a tick in a box. Whether a nudge passes this test of transparency is therefore a better guide to its legitimacy than whether it influences behaviour, which almost everything does. It remains unsettled how much weight to give the interests of those who would choose differently if they had paused to reflect, since their reflective choice is exactly what a nudge is designed to anticipate and what its critics fear it will replace.\n\n--------------------\nQUESTION: The critics' main objection to nudges that go unnoticed is that they",
+    "explanation": "The critics say a nudge that works only because people do not notice it 'treats citizens as mechanisms to be adjusted rather than as agents to be persuaded'. Nudges by definition do not forbid alternatives, and the passage says they do change behaviour."
+   },
+   {
+    "id": "q38",
+    "type": "RC",
+    "options": [
+     "a default enrolment announced on the form and reversible by a tick",
+     "a fruit display that canteen staff openly explain to customers",
+     "a presumed-consent rule that is published and open to opt-out",
+     "a scheme whose effect depends on people not knowing that a default has been set"
+    ],
+    "answer": 3,
+    "question": "PASSAGE:\nA nudge, in the phrase popularised by Richard Thaler and Cass Sunstein, is any feature of the environment that steers people towards a choice without forbidding alternatives or changing their incentives much. Placing fruit at eye level in a canteen is a nudge; banning sweets is not. The most powerful nudges exploit inertia. When employees are enrolled in a pension scheme by default and must act to leave it, participation rises dramatically, though the choices on offer have not changed; the same is true of organ donation in countries where consent is presumed. Supporters argue that since every environment must arrange its options in some order, and every default must be something, there is no neutral design from which nudging departs. The question is not whether to nudge but towards what. Critics reply that this overlooks a difference between an arrangement that happens to influence and one that is designed to. A nudge that works only because people do not notice it, they say, treats citizens as mechanisms to be adjusted rather than as agents to be persuaded, and when its designers are the very officials whom citizens are meant to hold to account, the arrangement is troubling even if its aims are kind. The reply from supporters is that the best nudges survive publicity: a default enrolment can be announced on the form that carries it, and people who object can leave at the cost of a tick in a box. Whether a nudge passes this test of transparency is therefore a better guide to its legitimacy than whether it influences behaviour, which almost everything does. It remains unsettled how much weight to give the interests of those who would choose differently if they had paused to reflect, since their reflective choice is exactly what a nudge is designed to anticipate and what its critics fear it will replace.\n\n--------------------\nQUESTION: Which of the following would fail the transparency test described in the passage?",
+    "explanation": "The test is whether a nudge 'survives publicity'. A scheme that works only if people are unaware of it fails; the other options are announced openly and can be reversed."
+   },
+   {
+    "id": "q39",
+    "type": "RC",
+    "options": [
+     "placing fruit at eye level in a canteen",
+     "enrolling employees in a pension scheme by default",
+     "presuming consent to organ donation",
+     "banning sweets from a canteen"
+    ],
+    "answer": 3,
+    "question": "PASSAGE:\nA nudge, in the phrase popularised by Richard Thaler and Cass Sunstein, is any feature of the environment that steers people towards a choice without forbidding alternatives or changing their incentives much. Placing fruit at eye level in a canteen is a nudge; banning sweets is not. The most powerful nudges exploit inertia. When employees are enrolled in a pension scheme by default and must act to leave it, participation rises dramatically, though the choices on offer have not changed; the same is true of organ donation in countries where consent is presumed. Supporters argue that since every environment must arrange its options in some order, and every default must be something, there is no neutral design from which nudging departs. The question is not whether to nudge but towards what. Critics reply that this overlooks a difference between an arrangement that happens to influence and one that is designed to. A nudge that works only because people do not notice it, they say, treats citizens as mechanisms to be adjusted rather than as agents to be persuaded, and when its designers are the very officials whom citizens are meant to hold to account, the arrangement is troubling even if its aims are kind. The reply from supporters is that the best nudges survive publicity: a default enrolment can be announced on the form that carries it, and people who object can leave at the cost of a tick in a box. Whether a nudge passes this test of transparency is therefore a better guide to its legitimacy than whether it influences behaviour, which almost everything does. It remains unsettled how much weight to give the interests of those who would choose differently if they had paused to reflect, since their reflective choice is exactly what a nudge is designed to anticipate and what its critics fear it will replace.\n\n--------------------\nQUESTION: Which of the following is NOT given in the passage as an example of a nudge?",
+    "explanation": "The passage says 'Placing fruit at eye level in a canteen is a nudge; banning sweets is not.' The pension default and presumed consent are both cited as nudges."
+   },
+   {
+    "id": "q40",
+    "type": "RC",
+    "options": [
+     "The term 'Dark Ages' is accurate, since the centuries after Rome's fall saw a general collapse of civilisation",
+     "Period labels are claims that can be tested, and 'Dark Ages' fails by generalising from one region and one kind of evidence",
+     "Historians should stop dividing the past into periods, since the boundaries are always arbitrary",
+     "Nothing was lost after the fall of Rome, and evidence of decline reflects modern prejudice"
+    ],
+    "answer": 1,
+    "question": "PASSAGE:\nHistorians divide the past into periods as geographers divide land into regions: the boundaries are drawn for convenience, and the temptation is to forget this. The 'Dark Ages', a phrase coined by Petrarch in the fourteenth century to describe the centuries after Rome's fall, was originally a literary judgement, a complaint that good Latin had been lost, but it hardened into a claim about civilisation as such. Modern scholarship has largely retired the term. It points to the work of Byzantine and Islamic scholars who preserved and extended classical learning, to technical advances in agriculture such as the heavy plough and the water mill, and to the gradual creation of the universities and legal systems of later Europe. The label also flattered those who invented it, since to call the preceding age dark is to cast oneself as the bringer of light. Yet the opposite extreme is no better. To insist that nothing was lost is to ignore evidence of real contraction: in many parts of western Europe, towns shrank, long-distance trade dwindled, and literacy retreated to a narrow clerical class. Archaeologists find fewer coins, thinner pottery and smaller buildings. The more defensible claim is that change was uneven, with decline in some regions and some activities, and continuity or growth in others. This does not mean that periods are useless. A period is a claim that certain features cluster together in time, and like any claim it can be tested; the objection to 'Dark Ages' is not that it divides history but that it divides it badly, by taking the fortunes of one region and one kind of record for the fortunes of a civilisation. Better periods are those which say what changed, where, and for whom.\n\n--------------------\nQUESTION: Which of the following best states the main point of the passage?",
+    "explanation": "The author says a period 'is a claim... and like any claim it can be tested' and objects to 'Dark Ages' for 'taking the fortunes of one region and one kind of record for the fortunes of a civilisation'. (A), (C) and (D) are rejected by the passage."
+   },
+   {
+    "id": "q41",
+    "type": "RC",
+    "options": [
+     "a description of the decline of trade across western Europe",
+     "a tribute to the scholars who preserved classical learning",
+     "a literary judgement, a complaint that good Latin had been lost",
+     "a claim that agriculture had collapsed after the fall of Rome"
+    ],
+    "answer": 2,
+    "question": "PASSAGE:\nHistorians divide the past into periods as geographers divide land into regions: the boundaries are drawn for convenience, and the temptation is to forget this. The 'Dark Ages', a phrase coined by Petrarch in the fourteenth century to describe the centuries after Rome's fall, was originally a literary judgement, a complaint that good Latin had been lost, but it hardened into a claim about civilisation as such. Modern scholarship has largely retired the term. It points to the work of Byzantine and Islamic scholars who preserved and extended classical learning, to technical advances in agriculture such as the heavy plough and the water mill, and to the gradual creation of the universities and legal systems of later Europe. The label also flattered those who invented it, since to call the preceding age dark is to cast oneself as the bringer of light. Yet the opposite extreme is no better. To insist that nothing was lost is to ignore evidence of real contraction: in many parts of western Europe, towns shrank, long-distance trade dwindled, and literacy retreated to a narrow clerical class. Archaeologists find fewer coins, thinner pottery and smaller buildings. The more defensible claim is that change was uneven, with decline in some regions and some activities, and continuity or growth in others. This does not mean that periods are useless. A period is a claim that certain features cluster together in time, and like any claim it can be tested; the objection to 'Dark Ages' is not that it divides history but that it divides it badly, by taking the fortunes of one region and one kind of record for the fortunes of a civilisation. Better periods are those which say what changed, where, and for whom.\n\n--------------------\nQUESTION: According to the passage, Petrarch's phrase 'Dark Ages' was originally",
+    "explanation": "The passage says it 'was originally a literary judgement, a complaint that good Latin had been lost'. The other options are not given as its origin."
+   },
+   {
+    "id": "q42",
+    "type": "RC",
+    "options": [
+     "calling the earlier age dark cast the speaker as the bringer of light",
+     "it praised their knowledge of Latin and of classical writers",
+     "it showed that they had studied the evidence of archaeologists",
+     "it proved that the Middle Ages had produced no learning"
+    ],
+    "answer": 0,
+    "question": "PASSAGE:\nHistorians divide the past into periods as geographers divide land into regions: the boundaries are drawn for convenience, and the temptation is to forget this. The 'Dark Ages', a phrase coined by Petrarch in the fourteenth century to describe the centuries after Rome's fall, was originally a literary judgement, a complaint that good Latin had been lost, but it hardened into a claim about civilisation as such. Modern scholarship has largely retired the term. It points to the work of Byzantine and Islamic scholars who preserved and extended classical learning, to technical advances in agriculture such as the heavy plough and the water mill, and to the gradual creation of the universities and legal systems of later Europe. The label also flattered those who invented it, since to call the preceding age dark is to cast oneself as the bringer of light. Yet the opposite extreme is no better. To insist that nothing was lost is to ignore evidence of real contraction: in many parts of western Europe, towns shrank, long-distance trade dwindled, and literacy retreated to a narrow clerical class. Archaeologists find fewer coins, thinner pottery and smaller buildings. The more defensible claim is that change was uneven, with decline in some regions and some activities, and continuity or growth in others. This does not mean that periods are useless. A period is a claim that certain features cluster together in time, and like any claim it can be tested; the objection to 'Dark Ages' is not that it divides history but that it divides it badly, by taking the fortunes of one region and one kind of record for the fortunes of a civilisation. Better periods are those which say what changed, where, and for whom.\n\n--------------------\nQUESTION: The author says the label 'Dark Ages' 'flattered those who invented it' because",
+    "explanation": "The passage explains: 'to call the preceding age dark is to cast oneself as the bringer of light'. The other options are not stated."
+   },
+   {
+    "id": "q43",
+    "type": "RC",
+    "options": [
+     "Byzantine and Islamic scholars preserved classical learning",
+     "agriculture advanced through the heavy plough and water mill",
+     "universities and legal systems were founded in later Europe",
+     "there was real contraction in many regions after Rome's fall"
+    ],
+    "answer": 3,
+    "question": "PASSAGE:\nHistorians divide the past into periods as geographers divide land into regions: the boundaries are drawn for convenience, and the temptation is to forget this. The 'Dark Ages', a phrase coined by Petrarch in the fourteenth century to describe the centuries after Rome's fall, was originally a literary judgement, a complaint that good Latin had been lost, but it hardened into a claim about civilisation as such. Modern scholarship has largely retired the term. It points to the work of Byzantine and Islamic scholars who preserved and extended classical learning, to technical advances in agriculture such as the heavy plough and the water mill, and to the gradual creation of the universities and legal systems of later Europe. The label also flattered those who invented it, since to call the preceding age dark is to cast oneself as the bringer of light. Yet the opposite extreme is no better. To insist that nothing was lost is to ignore evidence of real contraction: in many parts of western Europe, towns shrank, long-distance trade dwindled, and literacy retreated to a narrow clerical class. Archaeologists find fewer coins, thinner pottery and smaller buildings. The more defensible claim is that change was uneven, with decline in some regions and some activities, and continuity or growth in others. This does not mean that periods are useless. A period is a claim that certain features cluster together in time, and like any claim it can be tested; the objection to 'Dark Ages' is not that it divides history but that it divides it badly, by taking the fortunes of one region and one kind of record for the fortunes of a civilisation. Better periods are those which say what changed, where, and for whom.\n\n--------------------\nQUESTION: The archaeological finds of fewer coins, thinner pottery and smaller buildings are cited to show that",
+    "explanation": "The finds are offered as 'evidence of real contraction' against the claim that nothing was lost. The other options are the evidence against the 'Dark Ages' label."
+   },
+   {
+    "id": "q44",
+    "type": "RC",
+    "options": [
+     "The centuries after Rome's fall were uniformly dark in every region of Europe",
+     "Change in this period was uneven, with decline in some places and growth in others",
+     "There is no evidence of any decline in towns, trade or literacy",
+     "Periods are useless to historians and should be dropped"
+    ],
+    "answer": 1,
+    "question": "PASSAGE:\nHistorians divide the past into periods as geographers divide land into regions: the boundaries are drawn for convenience, and the temptation is to forget this. The 'Dark Ages', a phrase coined by Petrarch in the fourteenth century to describe the centuries after Rome's fall, was originally a literary judgement, a complaint that good Latin had been lost, but it hardened into a claim about civilisation as such. Modern scholarship has largely retired the term. It points to the work of Byzantine and Islamic scholars who preserved and extended classical learning, to technical advances in agriculture such as the heavy plough and the water mill, and to the gradual creation of the universities and legal systems of later Europe. The label also flattered those who invented it, since to call the preceding age dark is to cast oneself as the bringer of light. Yet the opposite extreme is no better. To insist that nothing was lost is to ignore evidence of real contraction: in many parts of western Europe, towns shrank, long-distance trade dwindled, and literacy retreated to a narrow clerical class. Archaeologists find fewer coins, thinner pottery and smaller buildings. The more defensible claim is that change was uneven, with decline in some regions and some activities, and continuity or growth in others. This does not mean that periods are useless. A period is a claim that certain features cluster together in time, and like any claim it can be tested; the objection to 'Dark Ages' is not that it divides history but that it divides it badly, by taking the fortunes of one region and one kind of record for the fortunes of a civilisation. Better periods are those which say what changed, where, and for whom.\n\n--------------------\nQUESTION: With which of the following statements would the author most likely agree?",
+    "explanation": "The author calls the 'more defensible claim' that 'change was uneven, with decline in some regions and some activities, and continuity or growth in others'. The other options are rejected."
+   },
+   {
+    "id": "q45",
+    "type": "RC",
+    "options": [
+     "last as short a time as possible",
+     "name a single event as their beginning",
+     "match the dates used by earlier historians",
+     "say what changed, where, and for whom"
+    ],
+    "answer": 3,
+    "question": "PASSAGE:\nHistorians divide the past into periods as geographers divide land into regions: the boundaries are drawn for convenience, and the temptation is to forget this. The 'Dark Ages', a phrase coined by Petrarch in the fourteenth century to describe the centuries after Rome's fall, was originally a literary judgement, a complaint that good Latin had been lost, but it hardened into a claim about civilisation as such. Modern scholarship has largely retired the term. It points to the work of Byzantine and Islamic scholars who preserved and extended classical learning, to technical advances in agriculture such as the heavy plough and the water mill, and to the gradual creation of the universities and legal systems of later Europe. The label also flattered those who invented it, since to call the preceding age dark is to cast oneself as the bringer of light. Yet the opposite extreme is no better. To insist that nothing was lost is to ignore evidence of real contraction: in many parts of western Europe, towns shrank, long-distance trade dwindled, and literacy retreated to a narrow clerical class. Archaeologists find fewer coins, thinner pottery and smaller buildings. The more defensible claim is that change was uneven, with decline in some regions and some activities, and continuity or growth in others. This does not mean that periods are useless. A period is a claim that certain features cluster together in time, and like any claim it can be tested; the objection to 'Dark Ages' is not that it divides history but that it divides it badly, by taking the fortunes of one region and one kind of record for the fortunes of a civilisation. Better periods are those which say what changed, where, and for whom.\n\n--------------------\nQUESTION: According to the author, better periods are those that",
+    "explanation": "The final sentence says: 'Better periods are those which say what changed, where, and for whom.' The other options are not mentioned."
+   }
+  ]
+ }
 ]
