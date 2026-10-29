@@ -8055,5 +8055,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The school improves the number being measured, the pass rate, by the cheapest route, which is removing weaker candidates, and not by improving learning. This is exactly the gap the author describes between what moves a metric most cheaply and what delivers the underlying goal.<br><br>• <strong>Why Option A is Wrong:</strong> Here the improved number reflects a genuine improvement in the underlying goal, which is better care. There is no gap between the metric and the goal.<br><br>• <strong>Why Option B is Wrong:</strong> Fewer accidents because of slower, enforced traffic is a real gain in safety, so the metric and the goal move together.<br><br>• <strong>Why Option D is Wrong:</strong> Retraining workers into growing industries lowers unemployment in substance, not only in the reported figure.<br><br><strong>💡 Approach:</strong> For application questions, identify the logical structure (a number is improved by a shortcut that leaves the real goal untouched) and find the option with the same structure. Reject options where the improvement is genuine."
       }
     ]
+  },
+  {
+    "id": "rc-2026-10-30",
+    "date": "2026-10-30",
+    "title": "The Weather Premium: El Niño and the Price of Food",
+    "genre": "Current Affairs / Economics & Climate",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1034 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "amplify",
+          "type": "verb",
+          "def": "To make something stronger, louder or greater. Synonyms: magnify, intensify, boost. Antonyms: dampen, weaken, reduce.",
+          "ex": "Social media can amplify small rumours into national panics."
+        },
+        {
+          "word": "speculative",
+          "type": "adjective",
+          "def": "Based on guesswork or conjecture rather than firm evidence; also, involving risky financial bets. Synonyms: conjectural, hypothetical, tentative. Antonyms: proven, factual, certain.",
+          "ex": "The report was criticised as speculative, since it offered no data."
+        },
+        {
+          "word": "imminent",
+          "type": "adjective",
+          "def": "About to happen; impending. Synonyms: impending, looming, forthcoming. Antonyms: distant, remote, unlikely.",
+          "ex": "Analysts warned that a price correction was imminent."
+        },
+        {
+          "word": "discernible",
+          "type": "adjective",
+          "def": "Able to be noticed or perceived. Synonyms: perceptible, noticeable, detectable. Antonyms: imperceptible, invisible, indistinct.",
+          "ex": "There was no discernible change in demand after the tax cut."
+        },
+        {
+          "word": "alleviate",
+          "type": "verb",
+          "def": "To make a problem or suffering less severe. Synonyms: ease, relieve, mitigate. Antonyms: aggravate, worsen, intensify.",
+          "ex": "Subsidised grain was meant to alleviate hunger in the drought-hit districts."
+        },
+        {
+          "word": "precipitate",
+          "type": "verb",
+          "def": "To cause something to happen suddenly or sooner than expected. (As an adjective: hasty.) Synonyms: trigger, hasten, provoke. Antonyms: delay, postpone, prevent.",
+          "ex": "The bank’s collapse precipitated a wider financial panic."
+        },
+        {
+          "word": "resilient",
+          "type": "adjective",
+          "def": "Able to withstand or recover quickly from difficulties. Synonyms: robust, hardy, adaptable. Antonyms: fragile, vulnerable, brittle.",
+          "ex": "A diversified economy is more resilient to commodity shocks."
+        },
+        {
+          "word": "conjecture",
+          "type": "noun",
+          "def": "An opinion or conclusion formed on incomplete information. Synonyms: guess, surmise, speculation. Antonyms: fact, certainty, proof.",
+          "ex": "Her explanation for the price fall was pure conjecture."
+        },
+        {
+          "word": "blunt",
+          "type": "verb",
+          "def": "To weaken the force or effect of something. (As an adjective: direct, or not sharp.) Synonyms: dull, soften, dampen. Antonyms: sharpen, intensify, heighten.",
+          "ex": "Strong reserves helped blunt the impact of the currency crisis."
+        },
+        {
+          "word": "contingent",
+          "type": "adjective",
+          "def": "Dependent on something else that may or may not happen. Synonyms: conditional, dependent, reliant. Antonyms: independent, unconditional, absolute.",
+          "ex": "The loan was contingent on the government cutting its deficit."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "the tip of the iceberg",
+          "def": "A small, visible part of a much larger problem.",
+          "ex": "The first few defaults were just the tip of the iceberg."
+        },
+        {
+          "idiom": "a double-edged sword",
+          "def": "Something that has both advantages and disadvantages.",
+          "ex": "Export curbs are a double-edged sword: they calm home prices but unsettle world markets."
+        },
+        {
+          "idiom": "a perfect storm",
+          "def": "A rare combination of circumstances that produces an especially bad outcome.",
+          "ex": "Drought, high fuel costs and war created a perfect storm for farmers."
+        },
+        {
+          "idiom": "the writing on the wall",
+          "def": "A clear sign that something unpleasant is going to happen.",
+          "ex": "With stocks falling for months, the writing was on the wall for the firm."
+        },
+        {
+          "idiom": "a drop in the ocean",
+          "def": "A very small amount compared with what is needed.",
+          "ex": "The relief package was a drop in the ocean given the scale of the crop loss."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "set off",
+          "def": "To cause a series of events to begin. Synonym: trigger.",
+          "ex": "The announcement set off a rush to buy grain."
+        },
+        {
+          "verb": "bring about",
+          "def": "To cause something to happen. Synonym: produce.",
+          "ex": "Only deep reform can bring about lasting change in farm incomes."
+        },
+        {
+          "verb": "play down",
+          "def": "To make something seem less important than it is. Synonym: downplay.",
+          "ex": "Officials played down fears of a food shortage."
+        },
+        {
+          "verb": "give rise to",
+          "def": "To cause something to exist or happen. Synonym: lead to.",
+          "ex": "Uncertain weather gave rise to wild swings in sugar prices."
+        },
+        {
+          "verb": "run out of",
+          "def": "To use up the whole supply of something. Synonym: exhaust.",
+          "ex": "Several districts ran out of stored grain before the harvest."
+        }
+      ]
+    },
+    "passage": "The Food and Agriculture Organization’s price index rose to 136.0 points in September, its highest reading since November 2022, an increase of roughly 1.5 per cent on the month and nearly 6 per cent on the year. Sugar prices climbed by more than six per cent and cereals by more than five, while meat edged down on ample supplies of pig and poultry meat. The agency’s own explanation was cautious and plural: it pointed to transport disruptions and weather concerns that constrained availability, and its chief economist linked the pressure to disruptions in the Strait of Hormuz and the Black Sea as well as to climate shocks. The phrase “weather concerns” is worth pausing on. It describes a worry about the future, not a measured loss in the present, and yet it appears in an explanation of prices that have already moved. A careful reader should therefore ask two separate questions: how much of the increase reflects things that have actually happened to supply, and how much reflects what buyers and sellers now expect to happen. The two are easily confused, because a headline index records only the price, and a price carries no label saying which of the two forces produced it.\n\nThat ordering of events is exactly what a growing body of market commentary stresses. A strengthening El Niño, the warm phase of a Pacific climate cycle, is likely to persist into November, and one widely read asset manager’s note warns that, together with costlier fertiliser and greater use of crops for fuel, it could set off “rolling waves” of commodity-driven inflation that peak in 2027. The note concedes that its sharpest numbers are scenarios and not forecasts, but it is explicit about the mechanism. El Niño typically brings weaker monsoon rains and above-normal heat to South Asia, and past episodes have cut sugar output in India and Thailand by roughly 20 to 30 per cent. Rice, wheat, sugar and cocoa, it argues, are the crops on which the risk factors overlap most heavily. For importing countries with large populations and thin reserves, this is not an abstract concern, since staples such as rice and sugar make up a far larger share of household spending in emerging economies than in rich ones, and a given rise in world prices therefore does proportionally more damage there.\n\nThe sceptical case begins from the same sources. The link between El Niño and agricultural prices, the authors of that note admit, is neither strong nor direct; it improves only when the effect of energy prices is stripped out of food indices, and their own analysis overstated El Niño’s impact on food prices in 2023. The market monitor released alongside the FAO index is similarly measured. Global rice yields during El Niño events typically run only one to one-and-a-half per cent below trend, soybean yields are often above trend, and wheat and maize are generally close to normal. A shock of that size is real but modest, and it is unevenly distributed across crops. On this view, attributing September’s rise chiefly to El Niño would be a category mistake. The cereal increases, which matter most to the staple diets of poorer households, trace to Black Sea logistics, dry weather in North America and lower export availability from Brazil, none of which is an El Niño effect. If the sceptics are right, the danger is not only that analysts misread the present but that policymakers, persuaded that the cause is climatic and therefore beyond their reach, neglect the logistical and financial problems that are within it. A diagnosis that is too fatalistic can be as costly as one that is too complacent.\n\nYet the sceptical case has a gap of its own. Prices are forward-looking. A trader deciding today whether to hold sugar stocks cares less about this season’s harvest than about the next, and a rational market will mark prices up on the expectation of a shortfall long before any field fails. The result is what analysts call a weather premium, a component of price that reflects risk rather than loss. Such a premium has two awkward properties. It can evaporate: if the El Niño proves mild, or its effects fall elsewhere, prices may drift back without any crop having been lost. And it can harden into reality: importers who fear scarcity may build stocks, exporters may restrict shipments to protect domestic consumers, and each such response makes the scarcity it anticipates more likely. A fear that begins as a regional scare can in this way become a global price, which is why the modest yield figures in the sceptics’ evidence do not settle the matter. What matters is not only the size of the shock but how many participants act on the belief that it is coming.\n\nThe most defensible reading, then, assigns El Niño the role of amplifier, not originator. The index was already under pressure from shipping disruptions, a fertiliser market upset by the same chokepoint, and weather problems in more than one hemisphere. Into this fragile setting, the prospect of a strong El Niño arrives as an additional reason for caution, and the markets price it accordingly. That is not irrational behaviour; it is what one would expect when buffers are thin and a second shock would find few cushions in place. This framing has a practical consequence that the louder forecasts obscure. If weather were the principal cause, policy would properly concentrate on forecasting and on drought-resistant seed; if the underlying cause is a supply chain with little slack, the more urgent tasks are larger buffer stocks, diversified shipping routes and restraint in export controls, all of which would blunt a price shock whatever its origin. Forecasts of a near-doubling of food prices, being conditional on historical relationships that the forecasters themselves call imperfect, deserve to be read as warnings about the tail of the distribution and not as predictions about its centre. The sensible stance for a government or a household is neither to dismiss the premium as speculation nor to treat it as destiny, but to recognise that the cost of preparing for a shock that does not come is far smaller than the cost of ignoring one that does.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "options": [
+          "A) The rise in the FAO index shows that fears about El Niño, rather than any actual loss of crops, are the main cause of higher global food prices.",
+          "B) Forecasts of sharply higher food prices should be dismissed, because the historical link between El Niño and farm prices is too weak to rely on.",
+          "C) El Niño fears amplify price pressures that already exist, so the resilience of supply chains matters as much as weather forecasting.",
+          "D) Prices that rise ahead of any harvest failure are a market distortion that governments should counter with export controls and larger buffer stocks."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The final paragraph calls El Niño an “amplifier, not originator” acting on an already fragile supply chain, and draws the policy consequence that buffer stocks, shipping routes and restraint in export controls matter as much as forecasting. This is the author’s own synthesis of the two camps.<br><br>• <strong>Why Option A is Wrong:</strong> This overstates the “weather premium” idea. The author says the index was already under pressure from shipping disruptions, fertiliser and weather in more than one hemisphere, so El Niño fears are not “the main cause”.<br><br>• <strong>Why Option B is Wrong:</strong> This is the sceptics’ position and is rejected as incomplete: paragraph 4 argues that the sceptics’ evidence “does not settle the matter” because prices are forward-looking. The author also warns against dismissing the premium as speculation.<br><br>• <strong>Why Option D is Wrong:</strong> The author never calls the premium a distortion. Moreover, the passage recommends restraint in export controls, not their use, since exporters’ restrictions can make scarcity worse.<br><br><strong>💡 Approach:</strong> In a central-argument question, look for the option that captures the author’s final synthesis and the policy implication, not the view of either camp. Reject options with strong words such as “main cause”, “dismissed” and “distortion”."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following, if true, would most weaken the sceptics’ claim that attributing September’s rise chiefly to El Niño would be a “category mistake”?",
+        "options": [
+          "A) Wheat and maize prices rose in September mainly because of disruptions to shipping across the Black Sea and dry weather in North America.",
+          "B) In past El Niño episodes, global rice yields have fallen by only one to one-and-a-half per cent below their long-run trend.",
+          "C) The asset manager’s own analysis overstated El Niño’s effect on food prices in 2023, so its present scenarios may also be too high.",
+          "D) An independent analysis finds that most of September’s rise came from commodities whose traders cited El Niño supply fears."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The sceptics claim that the rise cannot be chiefly due to El Niño. If most of the rise came in commodities whose prices were driven by El Niño-related supply fears, that claim is directly undermined, and it fits the “weather premium” logic of paragraph 4.<br><br>• <strong>Why Option A is Wrong:</strong> This supports the sceptics: it assigns the cereal increases to causes other than El Niño.<br><br>• <strong>Why Option B is Wrong:</strong> This also supports the sceptics, since it shows that the typical yield effect of El Niño is modest.<br><br>• <strong>Why Option C is Wrong:</strong> This is a point about the reliability of a forecaster’s scenarios, which the sceptics already use; it strengthens their case and does not weaken it.<br><br><strong>💡 Approach:</strong> For a weaken question, state the claim being attacked (El Niño is not the chief cause) and find the option that makes it more plausible that El Niño is. Eliminate any option that the sceptics could happily cite."
+      },
+      {
+        "id": "q3",
+        "question": "Each of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) El Niño reduced demand for poultry, which is why meat prices edged down.",
+          "B) The FAO’s explanation of September’s rise attributes it to several causes and not to weather alone.",
+          "C) A rise in the price of a commodity can occur before any loss of crops has actually been measured.",
+          "D) A strong El Niño would not affect all crops in the same way or to the same degree."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The passage says meat prices edged down “on ample supplies of pig and poultry meat”. It never links El Niño to poultry demand, so this causal claim is unsupported and cannot be inferred.<br><br>• <strong>Why Option B is Wrong:</strong> This is stated in paragraph 1: the explanation was “cautious and plural”, naming transport disruptions, weather concerns, the Strait of Hormuz and the Black Sea.<br><br>• <strong>Why Option C is Wrong:</strong> This is the point of paragraph 1’s observation about “weather concerns” and of paragraph 4’s weather premium, a price component reflecting risk rather than loss.<br><br>• <strong>Why Option D is Wrong:</strong> This follows from paragraph 3: rice yields fall below trend, soybean yields are often above it, and wheat and maize are near normal.<br><br><strong>💡 Approach:</strong> In an EXCEPT question, find the option that attaches a cause the passage never mentions. Here, “El Niño” is dragged into the poultry detail although the passage gives a different reason (ample supply)."
+      },
+      {
+        "id": "q4",
+        "question": "The author mentions that the asset manager’s own analysis overstated El Niño’s impact on food prices in 2023 in order to:",
+        "options": [
+          "A) show that the asset manager has been unreliable in every attempt it has made to forecast food prices over several years.",
+          "B) show, from the forecasters’ own record, why scenarios built on historical relationships deserve caution.",
+          "C) establish that El Niño has no measurable influence on agricultural prices and that the current warnings are baseless.",
+          "D) argue that markets overreacted to El Niño forecasts in 2023 and are likely to be making the same error again now."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The detail appears in the sceptical case as an admission by the forecasters themselves that their historical relationships are imperfect. It illustrates why scenario numbers deserve caution, which fits the final paragraph’s remark that such forecasts should be read as warnings about the tail, not predictions about the centre.<br><br>• <strong>Why Option A is Wrong:</strong> “Unreliable in every attempt” generalises from a single episode. The passage gives only one instance of overstatement.<br><br>• <strong>Why Option C is Wrong:</strong> The passage says the link is “neither strong nor direct”, not absent. The author goes on to defend the weather premium, so the warnings are not called baseless.<br><br>• <strong>Why Option D is Wrong:</strong> The passage says the analysis overstated the impact; it says nothing about markets overreacting in 2023, and it does not predict a repeat of any error.<br><br><strong>💡 Approach:</strong> For a purpose question, ask what the detail is used for in its paragraph. Here it is the forecasters’ own admission of imprecision. Reject options that generalise (“every”, “no”) or add claims about markets that the passage never makes."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following uses reasoning most similar to the author’s reasoning about the role of El Niño in the rise in food prices?",
+        "options": [
+          "A) A heatwave strains an electricity grid, and the regulator concludes that heatwaves are the sole cause of outages and that grid investment is therefore unnecessary.",
+          "B) A company’s share price falls after a rumour spreads, and analysts conclude that the rumour was false because the price later recovered.",
+          "C) A drought reduces a river’s flow, and the government concludes that more dams will be needed only if droughts become more frequent.",
+          "D) A storm brings down power lines already weakened by age, so the utility concludes that replacing old lines matters more than forecasting storms."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The structure matches the author’s: a trigger (storm; El Niño) acts on an already fragile base (ageing lines; a supply chain with little slack), so the trigger is an amplifier, not the origin, and the main remedy is to strengthen the base rather than refine prediction of the trigger.<br><br>• <strong>Why Option A is Wrong:</strong> This treats the trigger as the sole cause and rejects action on the underlying system, the opposite of the author’s view.<br><br>• <strong>Why Option B is Wrong:</strong> This reasons from a later recovery to the falsity of the rumour. It has nothing to do with a trigger acting on a fragile base.<br><br>• <strong>Why Option C is Wrong:</strong> This is a conditional claim about future investment and says nothing about an existing weakness that a trigger amplifies.<br><br><strong>💡 Approach:</strong> In a parallel-reasoning question, strip away the subject matter and write the skeleton: trigger + pre-existing weakness = outcome, so fix the weakness. Then match that skeleton, not the surface theme (climate, power, water)."
+      },
+      {
+        "id": "q6",
+        "question": "With which of the following statements would the author most likely agree?",
+        "options": [
+          "A) A government that holds grain buffers and keeps shipping routes open would be better protected against a price shock whatever its cause.",
+          "B) Because a weather premium reflects risk rather than loss, governments can safely ignore it until crops actually fail in the major producing regions.",
+          "C) A strong El Niño will almost certainly double food prices, so governments should spend primarily on weather forecasting rather than on buffer stocks.",
+          "D) The FAO’s decision to attribute September’s rise to several causes is evidence that the agency is unwilling to commit to any explanation of prices."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The last paragraph says buffer stocks, diversified shipping routes and restraint in export controls “would blunt a price shock whatever its origin”. This option restates that point in different words.<br><br>• <strong>Why Option B is Wrong:</strong> The author warns that the premium “can harden into reality” through stockpiling and export curbs, and says the sensible stance is not to dismiss it as speculation.<br><br>• <strong>Why Option C is Wrong:</strong> The author treats the near-doubling as a conditional scenario about the tail, not a near-certainty, and favours buffers over a primary focus on forecasting.<br><br>• <strong>Why Option D is Wrong:</strong> The author calls the agency’s explanation “cautious and plural”, which is neutral to mildly approving; nothing suggests the agency is unwilling to commit.<br><br><strong>💡 Approach:</strong> For an agree-with question, find the sentence in the passage that the correct option paraphrases. Eliminate options that contradict the author’s stated stance or attribute motives the passage never mentions."
+      }
+    ]
   }
 ]
