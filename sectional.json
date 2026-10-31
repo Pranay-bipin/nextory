@@ -4160,5 +4160,596 @@
     {"id": "q44", "type": "RC", "passageId": "RC3", "question": "The 'further objection' mentioned in the passage is that the term", "options": ["is too technical for people who are not trained as geologists", "was proposed by a chemist and not by a geologist", "implies that humanity as a whole is responsible, though emissions have fallen unevenly across nations and classes", "ignores the fact that extinction rates have been high throughout the history of the Earth"], "answer": 2, "explanation": "The passage says the term 'implies that humanity as a whole is responsible, although the burden of emissions has fallen very unevenly across nations and classes'."},
     {"id": "q45", "type": "RC", "passageId": "RC3", "question": "The author's concluding view is that", "options": ["the term should be dropped because the committee has rejected it", "the term should be accepted as a formal epoch despite the objections", "the term is useful only to geologists and has no value in everyday speech", "the term can serve both as a formal unit and as a description if it is clear which is meant"], "answer": 3, "explanation": "The author says 'Both uses can survive, provided it is clear which one is meant'. The committee's verdict does not affect its wider use as a description."}
   ]
+},
+{
+ "id": "sec-2026-11-01",
+ "date": "2026-11-01",
+ "title": "IPMAT Indore VA Sectional – 1st Nov 2026 (Advanced Analytical)",
+ "durationMinutes": 45,
+ "totalQuestions": 45,
+ "passages": {
+  "RC1": "Every wave of automation provokes the same forecast: that machines will take the jobs. The forecast has so far been wrong in aggregate and right in particulars. Power looms did destroy the livelihoods of hand-weavers, yet total employment in textiles, and in the economy at large, rose over the following century. The comfortable conclusion is that technology always creates more work than it destroys. But that conclusion rests on a pattern, not a law, and the pattern has depended on conditions that each new technology may or may not satisfy.\n\nThe current debate about generative artificial intelligence is notable for how it has inverted the usual expectation. Earlier machines displaced routine manual work; the tasks most exposed to today's systems, such as drafting, summarising, coding, translating and analysing documents, are performed disproportionately by graduates in well-paid occupations. Economists therefore find it more useful to ask not which jobs will vanish but which tasks within them can be done by a machine, since an occupation is a bundle of tasks and the bundle can be unpicked. A radiologist who no longer spends hours measuring tumours may spend them instead on judgement and on speaking to patients; or the hospital may decide that fewer radiologists are needed. Which outcome occurs depends on whether demand for the service is elastic. If cheaper scans lead to many more scans, employment may rise; if demand is already saturated, it will fall.\n\nA second distinction concerns whether the technology complements or substitutes for human skill. Evidence from early deployments suggests that the answer varies with the worker. In studies of customer-support staff and programmers given AI assistants, output rose most among the least experienced, whose work was lifted towards the standard of their more skilled colleagues. This is a hopeful finding for inequality within a profession, since it compresses differences in performance. The finding comes with a caution, however: these were short studies in settings where quality could be measured easily, and it is unclear how far the result extends to work whose quality is harder to judge, such as legal advice or strategy. It also carries a darker corollary. If a machine can transmit the tacit knowledge of experts to novices, the premium that experience commanded may erode, and with it the wages of the very people whose knowledge trained the system. The gains from compression are shared among those who remain employed; the cost falls on those whose scarcity was the source of their pay.\n\nNor does the history of productivity support easy optimism about timing. Electricity was available in factories by the 1890s, but its effect on output appeared only decades later, once owners realised that a layout designed around a single central steam engine could be reorganised around individual electric motors. Technology yields its gains only when organisations change to exploit it, and that change is slow, costly and often resisted. An economy might therefore experience a long interval in which displacement is visible and productivity gains are not, a period in which workers bear the costs of the transition while the benefits remain promised. Governments, accustomed to measuring the benefits of technology in aggregate output, are poorly equipped to notice such intervals.\n\nThe distribution of gains is a matter of institutions as much as of engineering. If the returns to a system accrue to the few firms that own the models and the data, then even large increases in output need not raise the wages of ordinary workers; if they are diffused through competition, they may. Even within a single firm, the question is who bargains for the gains: workers whose output is easily replicated have little to bargain with, while those who supervise the systems may have a great deal. Countries that export services which can now be automated face a particular risk. India's information-technology sector, built on the premise that skilled labour is cheaper in Bengaluru than in Boston, must ask what remains of the advantage when the marginal cost of routine analysis approaches zero. The sector may move up towards design and integration, or it may contract; the point is that neither outcome is dictated by the technology itself.\n\nIt would be a mistake to treat either the optimists or the pessimists as simply wrong. The optimists are right that demand for human work has repeatedly proved larger than anyone imagined; the pessimists are right that the transitions have been painful, unevenly shared and slower to resolve than the aggregate figures suggest. The more useful stance is conditional. The effect of AI on employment will depend on the elasticity of demand for the goods produced, on whether the tools complement or replace skills, on how quickly organisations reorganise, and on who captures the gains. These are empirical and institutional questions, and a forecast that ignores them in favour of a slogan, whether of abundance or of ruin, tells us more about the forecaster than about the future.",
+  "RC2": "In January 2026 the European Union's Carbon Border Adjustment Mechanism entered its definitive phase. For three years importers of steel, aluminium, cement, fertilisers, electricity and hydrogen had merely reported the carbon emitted in making their goods; now they must account financially for it, on the same footing as the carbon price that European producers already pay. The mechanism is presented as a technical instrument, a tariff in all but name whose purpose is not to shield industry from competition but to correct a particular distortion. Its critics, among them India, China and the other BRICS economies, have called it unilateral and punitive. Both descriptions contain some truth, which is why the dispute is so difficult to resolve.\n\nThe case for the mechanism begins with carbon leakage. If one jurisdiction prices carbon and its trading partners do not, energy-intensive production may simply migrate to the unpriced jurisdiction, and global emissions will not fall; they may even rise if the new site is dirtier. A border adjustment removes the incentive to relocate by charging imports the carbon price that domestic producers bear. It also protects the political viability of carbon pricing at home, since industries that would otherwise lobby against the price can no longer claim that it hands their market to foreign rivals. In this sense the border charge is the condition for the domestic one to survive.\n\nThe objections are of several kinds, and they should not be confused. The first is legal: whether a charge on embedded emissions is consistent with the non-discrimination rules of the world trading system, which in principle forbid treating like products differently according to how they were produced. The second is a matter of principle, arising from the climate regime's long-standing recognition of common but differentiated responsibilities. Rich countries industrialised first and produced most of the carbon already in the atmosphere; to ask poorer countries to bear a price calibrated to European conditions, critics argue, reverses the allocation of obligations agreed in the climate negotiations. The third objection is distributional and practical. Exporters of carbon-intensive goods from India or Mozambique face a charge that a Swedish or Finnish producer, drawing on cleaner grids, does not, while the revenue accrues to the importing bloc.\n\nDefenders respond to each. On legality, they note that the charge is designed to apply the same price to imports as to domestic goods, which is arguably non-discriminatory in effect: the importer pays only what a European producer would have paid. On principle, they point out that an exporter whose country has its own carbon price may deduct what it has already paid, so that the mechanism gives other countries an incentive to adopt such prices and keep the revenue at home. On distribution, they observe that the alternative to a border charge is not a free market but a world in which Europe either abandons carbon pricing or protects its industry by subsidy, neither of which helps developing countries.\n\nThis last argument deserves attention, because it exposes a feature of the dispute that the rhetoric of fairness obscures: the real contest is over who collects the carbon revenue. A carbon charge on steel will be paid by someone. If India imposes an equivalent domestic price, the money stays in India and the border charge falls away; if it does not, the money goes to Brussels. The mechanism therefore turns a question of climate ethics into one of fiscal sovereignty. For an exporter that is already building a domestic carbon market, as India has begun to, the strategic response is hardly to resist the principle but to move quickly enough to retain the revenue. For an exporter that lacks the administrative capacity to measure the emissions of its factories, the burden is greater, and here the argument from fairness has real force: the cost of data may fall most heavily on those least able to bear it.\n\nTwo things follow. The first is that the mechanism, whatever its merits, shifts the burden of proof. Exporters can no longer treat their emissions as an externality that someone else will measure; they must demonstrate them. The second is that its long-term effect on global emissions will depend on whether it induces other governments to price carbon or merely induces trade diversion, with clean producers selling to Europe and dirty ones to everyone else. The latter outcome would leave global emissions unchanged while rearranging the map of trade. Whether the mechanism proves a catalyst for coordination or a source of retaliation will depend less on its design than on the willingness of the countries involved to treat carbon pricing as a shared project and not as a weapon. A third consideration is timing: because the charge is phased in while free allowances to European producers are withdrawn, exporters face a rising cost, and the incentive to invest in cleaner production grows with the expected size of the charge.",
+  "RC3": "In April 2025 China announced that exports of seven medium and heavy rare earth elements would require licences; it later announced a still wider regime. Rare earths are not rare in the crust; they are, despite the name, fairly abundant. They are scarce in a different sense: a handful of countries mine them, and one country, China, performs most of the processing, the chemical separation of mixed ores into usable oxides and magnets. The licences brought home a lesson that analysts had long stated and policy-makers had long deferred: that interdependence, which economists have celebrated as a source of peace and efficiency, can be turned into a means of coercion. The significance of the episode lies less in the shortage it caused, which was brief and partial, than in the demonstration that the supply of an input can be used as an instrument of foreign policy.\n\nThe phrase weaponised interdependence, coined by two political scientists, describes the mechanism. In a network of trade, some nodes are more central than others. The state that hosts such a node can see the flows that pass through it and can choke them. Dependence is therefore not symmetrical even when trade is balanced in value: a country that buys a hundred billion dollars of cars and sells a hundred billion of magnets has not bargained on equal terms, since cars can be sourced from many places and the magnets used in electric motors, wind turbines and guided weapons cannot. The relevant measure of leverage is not the volume of trade but the cost of substitution.\n\nThat cost is high for reasons that are as much industrial as geological. Processing capacity cannot be built quickly: separation plants take years to design, require skilled chemists and generate toxic waste whose management is expensive, which is partly why Western firms abandoned the activity when Chinese producers undercut them. The market, in other words, did what markets do; it allocated production to the cheapest supplier, and the cost of resilience, which is a cost incurred against a risk that has not yet occurred, was not priced. A rational firm will not pay for insurance that its competitors decline to buy, which is why the problem was one that private choice could not solve. There is also a problem of scale. Even if new mines and refineries are opened elsewhere, the magnets and alloys they produce must pass the quality standards of manufacturers who have spent years qualifying a single supplier, and few will risk their production lines by switching quickly to an untried one.\n\nGovernments have responded with the familiar instruments of industrial policy: subsidies for domestic processing, price floors to protect new entrants from dumping, strategic stockpiles, and partnerships with resource-rich countries in Africa, Latin America and Australia. Each has weaknesses. Subsidies may sustain firms that survive only so long as the subsidy lasts. Price floors raise costs for downstream manufacturers who must compete in world markets. Stockpiles buy time but not capacity. And partnerships with producing countries risk repeating the pattern in which the processing, and the profit, is done elsewhere, which is why resource-rich economies such as Indonesia have restricted the export of raw ore to compel investment in domestic refining. Such restrictions are themselves a form of the leverage that the importing countries deplore.\n\nIndia's position is instructive. It has substantial reserves of some minerals and little processing capacity, depends on imported magnets for its electric-vehicle ambitions, and has launched a national critical minerals mission to close the gap. Its dependence is a particular example of a general condition, since most large economies draw their critical inputs from a few places. Yet its situation also illustrates the limits of self-sufficiency as a goal. No country can be self-sufficient across the hundred or so materials in a modern economy, and the pursuit of complete autonomy would impose costs far greater than the risks it removes. The better objective is diversification: to make sure that no single supplier can impose a prohibitive cost on the country if it chooses to cut off supply. That is a more modest goal than independence, but it is achievable, and it can be pursued without abandoning trade.\n\nThere is a deeper difficulty, which is that diversification is itself a collective action problem. A country that spends to build a second source gains little if its rivals, free-riding, continue to buy from the cheapest one; and a buyers' club that agrees to pay higher prices to sustain alternative supply will be tempted to defect when prices fall. The history of oil stockpiling, which succeeded because the members of the International Energy Agency bound themselves to shared rules, suggests that the solution lies in institutions that make commitments credible. Without them, the lesson of the licences will be learnt, as most lessons about risk are learnt, in a crisis and at greater cost.",
+  "CA1": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nNikhil Verma (Host, Economy Explained): The central bank has cut its policy rate several times. Why haven't my loan rates fallen by the same amount?\n\nDr. Latika Sen (monetary economist): Because the policy rate is only the start of a chain. Banks fund themselves largely from deposits, and deposit rates are sticky: customers withdraw if they are cut sharply, and many deposits were taken at higher rates and still have to be paid for. So a bank's cost of funds falls slowly, and a loan rate cannot fall much faster without squeezing its margin.\n\nNikhil Verma: Are loans linked directly to the policy rate?\n\nDr. Latika Sen: Increasingly, for new floating-rate loans, yes, which speeds things up. But much of the existing stock of lending is priced off the bank's own cost of funds, and fixed-rate loans do not change at all. So cuts pass through quickly to borrowers whose loans are linked to the policy rate and slowly to those whose loans are not, and the difference depends on the type of loan, not on the bank's goodwill.\n\nNikhil Verma: Does that weaken the central bank?\n\nDr. Latika Sen: It delays it. The effect of a cut on spending arrives with a lag, and the lag is longer when pass-through is partial. A central bank that reads weak pass-through as a failure of its tool may cut too far, and then find that inflation returns when the effect finally arrives."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "Vocabulary",
+   "question": "The minister's ________ argument, plausible on the surface but hollow beneath, was dismantled within minutes by the opposition.",
+   "options": [
+    "specious",
+    "unassailable",
+    "candid",
+    "cogent"
+   ],
+   "answer": 0,
+   "explanation": "'Specious' means superficially plausible but actually unsound, matching 'plausible on the surface but hollow beneath'. 'Cogent' (convincing) and 'unassailable' (impossible to attack) contradict its being dismantled; 'candid' means frank."
+  },
+  {
+   "id": "q2",
+   "type": "Vocabulary",
+   "question": "The scheme's early success proved ________: within two years the gains had evaporated.",
+   "options": [
+    "durable",
+    "substantial",
+    "cumulative",
+    "ephemeral"
+   ],
+   "answer": 3,
+   "explanation": "'Ephemeral' means short-lived, which fits gains that evaporated within two years. 'Durable' and 'cumulative' suggest lasting or growing benefits; 'substantial' means large, not brief."
+  },
+  {
+   "id": "q3",
+   "type": "Vocabulary",
+   "question": "Having been passed over twice, she decided to ________ and resign rather than wait for a third slight.",
+   "options": [
+    "bide her time",
+    "throw in the towel",
+    "keep her powder dry",
+    "play second fiddle"
+   ],
+   "answer": 1,
+   "explanation": "'Throw in the towel' means to give up. 'Bide her time' and 'keep her powder dry' mean to wait or stay prepared, which the sentence rejects; 'play second fiddle' means to accept a subordinate role."
+  },
+  {
+   "id": "q4",
+   "type": "Vocabulary",
+   "question": "Far from being a ________ of change, the new statute merely codified practices that had been customary for decades.",
+   "options": [
+    "harbinger",
+    "sequel",
+    "anachronism",
+    "epitaph"
+   ],
+   "answer": 0,
+   "explanation": "A 'harbinger' is a sign of something to come; the statute merely recorded existing practice, so it heralded no change. 'Epitaph' (inscription for the dead), 'sequel' and 'anachronism' (something out of its time) do not fit the contrast."
+  },
+  {
+   "id": "q5",
+   "type": "Vocabulary",
+   "question": "The ________ of the regime lay in its ________: it could not tolerate dissent, yet it lacked the ________ to suppress it.",
+   "options": [
+    "fragility; flexibility; means",
+    "fragility; rigidity; desire",
+    "fragility; rigidity; means",
+    "strength; rigidity; means"
+   ],
+   "answer": 2,
+   "explanation": "A regime that cannot tolerate dissent but lacks the 'means' to suppress it is fragile because of its rigidity. 'Strength' and 'flexibility' contradict intolerance; 'desire' contradicts 'could not tolerate dissent'."
+  },
+  {
+   "id": "q6",
+   "type": "Vocabulary",
+   "question": "Although the memoir was ________ as candid, historians found it studiously ________ on every point where the author's own conduct was in question.",
+   "options": [
+    "billed; forthright",
+    "praised; revealing",
+    "dismissed; evasive",
+    "billed; evasive"
+   ],
+   "answer": 3,
+   "explanation": "'Although' sets up a contrast: advertised ('billed') as candid but evasive where the author's conduct was concerned. 'Dismissed as candid' is illogical; 'forthright' and 'revealing' remove the contrast."
+  },
+  {
+   "id": "q7",
+   "type": "Vocabulary",
+   "question": "Her ________ prose, pared of every ornament, ________ the reader to attend to meaning alone.",
+   "options": [
+    "ornate; invites",
+    "spare; distracts",
+    "florid; compels",
+    "spare; compels"
+   ],
+   "answer": 3,
+   "explanation": "Prose 'pared of every ornament' is 'spare', and so 'compels' attention to meaning. 'Florid' and 'ornate' mean heavily decorated; 'distracts' contradicts the effect of stripped-down prose."
+  },
+  {
+   "id": "q8",
+   "type": "Vocabulary",
+   "question": "The accord, hailed as a ________, proved a mere ________: neither side kept its word beyond the first month, and the guns resumed.",
+   "options": [
+    "breakthrough; settlement",
+    "setback; interlude",
+    "breakthrough; interlude",
+    "stalemate; interlude"
+   ],
+   "answer": 2,
+   "explanation": "Hailed as a 'breakthrough' but proving a mere 'interlude' (a pause) before fighting resumed. 'Setback' and 'stalemate' would not be hailed; 'settlement' implies a lasting resolution, contradicting the resumption of fighting."
+  },
+  {
+   "id": "q9",
+   "type": "Vocabulary",
+   "question": "To call the policy a failure would be ________, for although it fell short of its targets it ________ a modest improvement.",
+   "options": [
+    "premature; forfeited",
+    "unwarranted; secured",
+    "apt; secured",
+    "unwarranted; forfeited"
+   ],
+   "answer": 1,
+   "explanation": "If the policy secured a modest gain, calling it a failure is 'unwarranted' (unjustified). 'Apt' (fitting) contradicts the 'for' clause; 'forfeited' (lost) contradicts 'a modest improvement'."
+  },
+  {
+   "id": "q10",
+   "type": "Grammar",
+   "question": "Seldom <u>one finds</u> such candour in public life.",
+   "options": [
+    "does one find",
+    "one would find",
+    "one has found",
+    "finds one"
+   ],
+   "answer": 0,
+   "explanation": "A sentence beginning with a negative adverb such as 'seldom' needs inversion with an auxiliary: 'Seldom does one find'. The other options keep normal word order or lack the auxiliary."
+  },
+  {
+   "id": "q11",
+   "type": "Grammar",
+   "question": "The minister promised to cut taxes, <u>to reduce spending, and that he would reform</u> the civil service.",
+   "options": [
+    "reducing spending, and that he would reform",
+    "to reduce spending, and to reform",
+    "to reduce spending, and for reforming",
+    "that spending would fall, and reforming"
+   ],
+   "answer": 1,
+   "explanation": "The sentence needs parallel structure: 'to cut taxes, to reduce spending, and to reform'. The other options mix infinitives, gerunds and clauses."
+  },
+  {
+   "id": "q12",
+   "type": "Grammar",
+   "question": "<u>Having been warned repeatedly, the order was ignored by the manager.</u>",
+   "options": [
+    "Having been warned repeatedly, the order was ignored by the manager's decision.",
+    "The order, having been warned repeatedly, was ignored by the manager.",
+    "Having been warned repeatedly, the manager's ignoring of the order continued.",
+    "The manager, having been warned repeatedly, ignored the order."
+   ],
+   "answer": 3,
+   "explanation": "The participial phrase 'Having been warned' must modify the person warned, the manager. In the original and the other options it dangles onto 'the order' or 'the manager's ignoring'."
+  },
+  {
+   "id": "q13",
+   "type": "Grammar",
+   "question": "He is <u>as tall, if not taller than</u>, his brother.",
+   "options": [
+    "as tall as, if not taller than",
+    "as tall, if not taller as",
+    "as tall as, if not more tall than",
+    "tall as, if not taller than"
+   ],
+   "answer": 0,
+   "explanation": "The comparison needs both halves complete: 'as tall as, if not taller than'. The first 'as tall' needs its second 'as'; 'more tall than' is incorrect for a one-syllable adjective."
+  },
+  {
+   "id": "q14",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "A disinterested referee, he had bet heavily on the result and watched it with anxious attention.",
+    "The firm's profits fell precipitously after the merger, wiping out the gains of the preceding five years.",
+    "The minister's remarks were a veiled allusion to the scandal that had cost his predecessor his post.",
+    "The committee's recommendation was adopted without demur, to the evident relief of the chairman and his staff."
+   ],
+   "answer": 0,
+   "explanation": "'Disinterested' means impartial, which contradicts having bet heavily on the result ('interested' is needed). 'Allusion' (indirect reference), 'demur' (objection) and 'precipitously' (steeply) are used correctly."
+  },
+  {
+   "id": "q15",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "The explorer's account was largely apocryphal, though it was widely believed for several generations.",
+    "The late monsoon will mitigate against a good harvest this year, farmers fear.",
+    "Her cooperation with the inquiry may mitigate the penalty that is eventually imposed on her by the court.",
+    "The treaty was ratified by the legislature after a lengthy debate and a number of amendments."
+   ],
+   "answer": 1,
+   "explanation": "'Mitigate' means to lessen; the intended word is 'militate against' (to work against). 'Mitigate the penalty', 'ratified' (formally approved) and 'apocryphal' (of doubtful authenticity) are correct."
+  },
+  {
+   "id": "q16",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "The child's ingenuous question exposed the hypocrisy of the adults who had gathered in the room.",
+    "The ceasefire proved tenuous and collapsed within days of being announced by the two governments.",
+    "The engineer's ingenuous solution saved the company millions in its first year of use.",
+    "The tribunal exonerated the accused of all blame after a hearing that lasted several weeks."
+   ],
+   "answer": 2,
+   "explanation": "'Ingenuous' means innocent and frank; a clever solution is 'ingenious'. 'Ingenuous' is correct for the child, 'tenuous' (flimsy) for the ceasefire, and 'exonerated' (cleared) for the tribunal."
+  },
+  {
+   "id": "q17",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nEconomists distinguish between a price and a cost. ____________________. A subsidised train ticket may cost the passenger little, yet the fare conceals the cost of the track, the staff and the alternative uses of the public money. Treating the price as the cost leads to systematic misjudgement, in particular to the conclusion that anything cheap is cheap.",
+   "options": [
+    "The price is what the buyer pays; the cost is what society gives up to provide the good.",
+    "Prices in a free market are set by sellers alone, whatever the number of buyers who are willing to pay them.",
+    "Costs are easier to measure than prices, since they appear in the accounts of every firm that sells a product.",
+    "Public transport is run at a loss in most countries because governments set fares below what buyers would pay."
+   ],
+   "answer": 0,
+   "explanation": "The following sentences show a low price concealing a larger social cost, so the blank must define the two terms. The other options make claims about sellers, public transport losses or accounting that the paragraph does not develop."
+  },
+  {
+   "id": "q18",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nA statistical average can mislead as easily as it informs. ____________________. If a village's ten households earn one rupee each and one rich household earns a million, the mean income is large, yet nine in ten households are poor; for skewed distributions, the median is the more honest summary.",
+   "options": [
+    "Statisticians have abandoned the mean in favour of the median in every field in which data are collected.",
+    "It describes the centre of a distribution but can conceal its shape.",
+    "Averages cannot be computed for incomes, because the earnings of rich households vary too widely to be added.",
+    "The mean is always a more reliable summary than the median, since it uses every observation in the data."
+   ],
+   "answer": 1,
+   "explanation": "The village example shows a mean hiding a skewed distribution, so the blank must say that an average conceals shape. The other options contradict the example or overstate."
+  },
+  {
+   "id": "q19",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nWhy do tariffs so often fail to achieve their stated purpose? ____________________. A tariff on steel protects steel producers but raises costs for every firm that uses steel, and these firms, being many and dispersed, rarely organise to resist; the protected few lobby hard to keep the duty. Policy thus drifts towards concentrated interests even when the diffuse loss exceeds the concentrated gain.",
+   "options": [
+    "Part of the answer lies in who gains and who loses, and how well organised each group is.",
+    "Tariffs fail because foreign producers always lower their prices by exactly the amount of the duty that is imposed.",
+    "Governments impose tariffs only on goods that are not produced at home, and so they cannot protect any domestic industry.",
+    "Consumers who pay the higher prices are always aware of the tariff, and they organise quickly to demand its removal."
+   ],
+   "answer": 0,
+   "explanation": "The paragraph explains failure through unequal organisation of gainers and losers, so the blank introduces that explanation. The other options are not developed and the last contradicts 'rarely organise'."
+  },
+  {
+   "id": "q20",
+   "type": "RC",
+   "question": "According to Dr. Sen, loan rates fall more slowly than the policy rate mainly because",
+   "passageId": "CA1",
+   "options": [
+    "the central bank's cut is not communicated to commercial banks until several months have passed",
+    "customers repay old loans faster whenever the policy rate is lowered, which reduces the income of banks",
+    "banks deliberately keep loan rates high in order to build up profits at the expense of their borrowers",
+    "deposit rates are sticky, so a bank's cost of funds falls slowly"
+   ],
+   "answer": 3,
+   "explanation": "She says deposit rates are sticky, so 'a bank's cost of funds falls slowly, and a loan rate cannot fall much faster without squeezing its margin'. She explicitly rejects bank 'goodwill' as the explanation; the other reasons are not given."
+  },
+  {
+   "id": "q21",
+   "type": "RC",
+   "question": "Which borrowers benefit fastest from a cut in the policy rate, according to Dr. Sen?",
+   "passageId": "CA1",
+   "options": [
+    "those whose loans are priced off the bank's own cost of funds, not off any external benchmark",
+    "those with fixed-rate loans taken before the cut was announced to the banks and their customers",
+    "those whose banks fund themselves mainly from deposits taken at higher rates in earlier years",
+    "those with new floating-rate loans linked to the policy rate"
+   ],
+   "answer": 3,
+   "explanation": "She says cuts pass through quickly to 'borrowers whose loans are linked to the policy rate'. Fixed-rate loans do not change, and loans priced off a bank's own cost of funds adjust slowly."
+  },
+  {
+   "id": "q22",
+   "type": "RC",
+   "question": "Dr. Sen warns that a central bank may err if it",
+   "passageId": "CA1",
+   "options": [
+    "lets banks link all their loans to the policy rate without any control over their margins",
+    "raises the policy rate in order to speed up the pass-through of earlier cuts to borrowers",
+    "waits for banks to lower their deposit rates before it announces any further change in policy",
+    "reads weak pass-through as a failure and cuts too far"
+   ],
+   "answer": 3,
+   "explanation": "She says a bank that 'reads weak pass-through as a failure of its tool may cut too far, and then find that inflation returns when the effect finally arrives'. The other errors are not mentioned."
+  },
+  {
+   "id": "q23",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Central banks therefore watch not only current inflation but what households and firms expect it to be.\n2. If people expect prices to rise, they demand higher wages and set higher prices, and the expectation fulfils itself.\n3. Inflation is, in part, a self-fulfilling prophecy.\n4. A credible commitment to a target can thus hold inflation down at lower cost than repeated tightening.",
+   "answer": "3214",
+   "explanation": "Sentence 3 states the idea. Sentence 2 explains the mechanism. Sentence 1 ('therefore') draws the policy consequence. Sentence 4 ('thus') gives the final benefit. Order: 3-2-1-4."
+  },
+  {
+   "id": "q24",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. A platform becomes more valuable to each user as more users join it.\n2. This makes it hard for a newcomer to dislodge an established rival, even a better one.\n3. Once a few platforms dominate, the question for regulators shifts from how to promote entry to how to prevent abuse of position.\n4. Economists call this a network effect.\n5. Such markets therefore tend to concentrate in the hands of one or two firms.",
+   "answer": "14253",
+   "explanation": "Sentence 1 states the feature. Sentence 4 ('this') names it. Sentence 2 gives the consequence for newcomers. Sentence 5 ('therefore') generalises to concentration. Sentence 3 ('Once a few platforms dominate') gives the regulatory implication. Order: 1-4-2-5-3."
+  },
+  {
+   "id": "q25",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Insurance, by protecting people from the consequences of risk, may make them less careful.\n2. Insurers respond with deductibles, which make the insured bear a share of any loss.\n3. Economists call this moral hazard.\n4. A driver with full cover, for instance, may park less carefully than one who must pay for the damage.",
+   "answer": "1432",
+   "explanation": "Sentence 1 states the claim. Sentence 4 ('for instance') gives an example. Sentence 3 ('this') names the phenomenon. Sentence 2 gives the insurers' response. Order: 1-4-3-2."
+  },
+  {
+   "id": "q26",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Of the remaining 9,990, about 100 also test positive, by error.\n2. Suppose a test for a rare disease is 99 per cent accurate and a person tests positive.\n3. Most people overlook how rare the disease is, and so overestimate the chance.\n4. In a group of 10,000 people, perhaps 10 have the disease and nearly all of them test positive.\n5. The chance that a person who tests positive is really ill is therefore only about one in eleven, not 99 in 100.",
+   "answer": "24153",
+   "explanation": "Sentence 2 sets up the problem. Sentence 4 counts the true positives. Sentence 1 ('Of the remaining') counts the false positives. Sentence 5 ('therefore') draws the result. Sentence 3 explains the common error. Order: 2-4-1-5-3."
+  },
+  {
+   "id": "q27",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. The law fixing the rate is to blame, since it ignores the true metal content of the coins.\n2. When two coins circulate at a fixed rate of exchange, people spend the one that is worth less in metal and hoard the other.\n3. This is the sense of the saying that bad money drives out good.\n4. The debased coin thus passes from hand to hand while the good coin disappears.",
+   "answer": "2431",
+   "explanation": "Sentence 2 describes the behaviour. Sentence 4 ('thus') gives the result. Sentence 3 ('This is the sense of the saying') names it. Sentence 1 gives the cause. Order: 2-4-3-1."
+  },
+  {
+   "id": "q28",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC1",
+   "options": [
+    "The pessimists are right that AI will cause lasting unemployment, because technological transitions have always been painful and unevenly shared",
+    "The effect of AI on employment is conditional on demand, skill complementarity, organisational change and who captures the gains",
+    "Generative AI differs from earlier technologies in that it will eliminate graduate occupations, leaving employment mainly to manual workers",
+    "Automation has always created more jobs than it destroyed, so generative AI will do likewise once organisations have adapted to it"
+   ],
+   "answer": 1,
+   "explanation": "The final paragraph says the effect 'will depend on' demand elasticity, whether tools complement or replace skills, speed of reorganisation and who captures gains. The first option is the pattern the author calls 'not a law'; the others are one-sided."
+  },
+  {
+   "id": "q29",
+   "type": "RC",
+   "question": "The example of the radiologist is used to show that",
+   "passageId": "RC1",
+   "options": [
+    "cheaper scans necessarily lead to many more scans, so that employment in radiology must rise as a result of automation",
+    "hospitals will always replace radiologists with machines wherever the cost of scanning can be reduced without a loss of accuracy",
+    "specialised occupations are safer from automation than routine ones, because they require judgement and contact with patients",
+    "the employment effect of automating a task depends on how demand for the service responds"
+   ],
+   "answer": 3,
+   "explanation": "The author says the outcome 'depends on whether demand for the service is elastic': more scans may raise employment, saturated demand will lower it. The other options state outcomes as certain."
+  },
+  {
+   "id": "q30",
+   "type": "RC",
+   "question": "The 'darker corollary' mentioned in the third paragraph is that",
+   "passageId": "RC1",
+   "options": [
+    "customer-support staff and programmers will be replaced first, because their output is easy to measure and to compare",
+    "the premium that experience commands may erode, hurting the experts whose knowledge trained the system",
+    "AI assistants widen the gap between the best and the worst performers, which in turn increases inequality within a profession",
+    "novices who are lifted by AI assistance will eventually be paid more than the experienced colleagues whose methods they have copied"
+   ],
+   "answer": 1,
+   "explanation": "The author says that if machines transmit experts' tacit knowledge, 'the premium that experience commanded may erode, and with it the wages of the very people whose knowledge trained the system'. The other options are not stated or reverse the finding."
+  },
+  {
+   "id": "q31",
+   "type": "RC",
+   "question": "The author cites the history of electricity in factories to suggest that",
+   "passageId": "RC1",
+   "options": [
+    "governments should delay the introduction of a new technology until its effect on output can be measured with accuracy",
+    "steam engines were more efficient than electric motors, which is why the gains from electricity took decades to appear",
+    "gains from a technology may lag behind its adoption until organisations are redesigned to exploit it",
+    "factories that adopted electricity early gained a permanent advantage over those that adopted it only after several decades"
+   ],
+   "answer": 2,
+   "explanation": "The passage says the effect appeared 'only decades later, once owners realised that a layout designed around a single central steam engine could be reorganised'. The other options are not claimed."
+  },
+  {
+   "id": "q32",
+   "type": "RC",
+   "question": "The passage mentions India's information-technology sector in order to suggest that",
+   "passageId": "RC1",
+   "options": [
+    "a labour-cost advantage may vanish, though what follows is not fixed by the technology alone",
+    "India's IT firms have already moved decisively towards design and integration, and are no longer exposed to automation",
+    "labour-cost arbitrage is the only source of advantage available to an economy that exports services to richer countries",
+    "countries that export services should prohibit their firms from using AI tools, so as to protect employment at home"
+   ],
+   "answer": 0,
+   "explanation": "The author says the sector 'may move up... or it may contract; the point is that neither outcome is dictated by the technology itself'. The other options are absolute claims or recommendations the passage does not make."
+  },
+  {
+   "id": "q33",
+   "type": "RC",
+   "question": "The author's stance towards the optimists and the pessimists is best described as",
+   "passageId": "RC1",
+   "options": [
+    "sympathetic to the optimists, since history shows that technology has always created more work than it has destroyed",
+    "even-handed: each is right about part of the story, so forecasts should be conditional",
+    "sympathetic to the pessimists, who are right that AI will produce mass unemployment among graduates",
+    "dismissive of both: forecasts about technology have always proved wrong and are not worth making at all"
+   ],
+   "answer": 1,
+   "explanation": "The author says 'It would be a mistake to treat either... as simply wrong' and recommends a 'conditional' stance. The author calls the optimists' conclusion a pattern, not a law, and does not predict mass unemployment."
+  },
+  {
+   "id": "q34",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC2",
+   "options": [
+    "CBAM will reduce global emissions by moving energy-intensive production from Europe to countries with cleaner electricity grids",
+    "CBAM is a protectionist measure disguised as climate policy, and developing countries are right to retaliate against the European Union",
+    "CBAM is disputed on legal and ethical grounds, but the real contest is over who collects the carbon revenue",
+    "CBAM is a legitimate climate tool that developing countries should accept without objection, since it applies the same price to imports as to domestic goods"
+   ],
+   "answer": 2,
+   "explanation": "The author sets out the objections and replies and then says 'the real contest is over who collects the carbon revenue'; the long-run effect is left open. The other options adopt one side or invent claims."
+  },
+  {
+   "id": "q35",
+   "type": "RC",
+   "question": "According to the passage, carbon leakage occurs when",
+   "passageId": "RC2",
+   "options": [
+    "carbon pricing at home pushes production abroad, leaving global emissions unreduced",
+    "a country that prices carbon buys emission permits from poorer countries in order to cover its own output",
+    "carbon is released into the atmosphere during the transport of goods between exporting and importing countries",
+    "importers evade the carbon price by declaring their goods under a different category of product at the border"
+   ],
+   "answer": 0,
+   "explanation": "The passage says production 'may simply migrate to the unpriced jurisdiction, and global emissions will not fall'. The other options describe transport emissions, evasion and permit purchases, none of which is mentioned."
+  },
+  {
+   "id": "q36",
+   "type": "RC",
+   "question": "The statement that the border charge is 'the condition for the domestic one to survive' implies that",
+   "passageId": "RC2",
+   "options": [
+    "European industries would no longer need a carbon price once the border charge had been introduced in full",
+    "foreign producers would be driven out of the European market whether or not they paid the charge at the border",
+    "domestic industries would resist the carbon price if it seemed to hand their markets to foreign rivals",
+    "the European carbon price cannot be collected unless importers have first paid the border charge at the frontier of the bloc"
+   ],
+   "answer": 2,
+   "explanation": "The preceding sentence says industries 'can no longer claim that it hands their market to foreign rivals' once the border charge exists; without it they would lobby against the price."
+  },
+  {
+   "id": "q37",
+   "type": "RC",
+   "question": "Each of the following is mentioned as an objection to CBAM EXCEPT that",
+   "passageId": "RC2",
+   "options": [
+    "exporters from poorer countries face a charge that exporters with cleaner grids do not",
+    "it makes European steel dearer than steel made in China",
+    "it reverses the allocation of obligations recognised in the climate negotiations",
+    "it may be inconsistent with the non-discrimination rules of world trade"
+   ],
+   "answer": 1,
+   "explanation": "The legal, principle-based and distributional objections appear in the third paragraph. The effect on the price of European steel relative to Chinese steel is never mentioned."
+  },
+  {
+   "id": "q38",
+   "type": "RC",
+   "question": "According to the defenders, the mechanism meets the objection of principle by",
+   "passageId": "RC2",
+   "options": [
+    "requiring European producers to pay a higher carbon price than the one that is applied at the border to imports",
+    "passing the revenue from the charge to a fund that finances clean energy projects in the poorest exporting countries",
+    "letting an exporter deduct a carbon price already paid at home, which encourages other countries to adopt one",
+    "exempting the exports of every developing country from the charge until its emissions per head reach the European level"
+   ],
+   "answer": 2,
+   "explanation": "The passage says an exporter 'whose country has its own carbon price may deduct what it has already paid, so that the mechanism gives other countries an incentive to adopt such prices'. The other options are not mentioned."
+  },
+  {
+   "id": "q39",
+   "type": "RC",
+   "question": "The author's analysis of who collects the revenue suggests that an exporter building a domestic carbon market should",
+   "passageId": "RC2",
+   "options": [
+    "shift its carbon-intensive factories to countries that the mechanism does not yet cover under its present rules",
+    "oppose the principle of border adjustment in every international forum until Europe withdraws the mechanism altogether",
+    "measure its emissions less precisely, so that the charge on its exports is reduced at the European border",
+    "price carbon at home quickly enough to retain the revenue"
+   ],
+   "answer": 3,
+   "explanation": "The author says that for such an exporter 'the strategic response is hardly to resist the principle but to move quickly enough to retain the revenue'. The other options are not recommended."
+  },
+  {
+   "id": "q40",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC3",
+   "options": [
+    "Interdependence can be turned into leverage, and managing the risk requires diversification backed by cooperation",
+    "Countries should aim at complete self-sufficiency in critical minerals, since only independence can protect them from coercion by suppliers",
+    "Rare earth minerals are scarce in the Earth's crust, and governments must therefore stockpile them to avoid shortages in the future",
+    "Markets always fail to allocate resources efficiently, and governments should therefore take over the production of critical materials"
+   ],
+   "answer": 0,
+   "explanation": "The passage argues that interdependence can be weaponised, that self-sufficiency is the wrong goal, and that diversification needs credible institutions. The passage says rare earths are 'fairly abundant', rejecting complete autonomy, and does not call for state takeover."
+  },
+  {
+   "id": "q41",
+   "type": "RC",
+   "question": "The example of the country that buys cars and sells magnets is meant to show that",
+   "passageId": "RC3",
+   "options": [
+    "countries that buy more than they sell are always in a weaker position than the countries that sell to them",
+    "balanced trade guarantees that two countries bargain on equal terms, whatever the goods that they exchange between them",
+    "leverage depends on how hard a good is to replace, not on the value of trade",
+    "trade in magnets is more valuable than trade in cars, and so gives the seller of magnets the stronger bargaining position"
+   ],
+   "answer": 2,
+   "explanation": "The author says dependence is not symmetrical even when trade is balanced in value because cars can be sourced widely while magnets cannot: 'The relevant measure of leverage is... the cost of substitution'."
+  },
+  {
+   "id": "q42",
+   "type": "RC",
+   "question": "The author says the vulnerability could not be solved by private choice because",
+   "passageId": "RC3",
+   "options": [
+    "the governments of the countries that mine rare earths had forbidden private firms from entering the processing industry",
+    "no firm will pay for insurance against a risk that its competitors decline to insure against",
+    "private firms could not afford the toxic waste that separation plants produce, however profitable the activity might be",
+    "Western firms lacked the chemists needed to separate the mixed ores that were mined in Africa and Latin America"
+   ],
+   "answer": 1,
+   "explanation": "The passage says 'A rational firm will not pay for insurance that its competitors decline to buy'. The cost of resilience was unpriced, not forbidden or lacking in expertise."
+  },
+  {
+   "id": "q43",
+   "type": "RC",
+   "question": "Each of the following is mentioned as a weakness of the governments' responses EXCEPT that",
+   "passageId": "RC3",
+   "options": [
+    "price floors raise costs for downstream manufacturers who compete in world markets",
+    "partnerships may leave the processing, and the profit, elsewhere",
+    "subsidies may sustain firms that survive only while the subsidy lasts",
+    "stockpiles lose their value as the minerals stored in them deteriorate"
+   ],
+   "answer": 3,
+   "explanation": "The fourth paragraph mentions the first three weaknesses. It says stockpiles 'buy time but not capacity', not that they deteriorate."
+  },
+  {
+   "id": "q44",
+   "type": "RC",
+   "question": "The author mentions Indonesia's restriction on raw ore exports in order to show that",
+   "passageId": "RC3",
+   "options": [
+    "resource-rich countries have no interest in developing domestic refining industries of their own",
+    "restrictions on exports have always succeeded in persuading foreign firms to invest in refining at home",
+    "producing countries can use the kind of leverage that importing countries deplore",
+    "Indonesia has become self-sufficient in the whole range of critical materials that a modern economy requires"
+   ],
+   "answer": 2,
+   "explanation": "The passage says 'Such restrictions are themselves a form of the leverage that the importing countries deplore'. The restriction was intended to 'compel investment in domestic refining', contradicting the first option."
+  },
+  {
+   "id": "q45",
+   "type": "RC",
+   "question": "The reference to oil stockpiling suggests that",
+   "passageId": "RC3",
+   "options": [
+    "stockpiles of oil were of more value to importing countries than stockpiles of rare earths have been",
+    "the International Energy Agency should now take over the stockpiling of critical minerals from governments",
+    "credible shared rules can overcome the collective action problem of diversification",
+    "countries that hold large oil reserves cannot be coerced by any supplier of critical minerals"
+   ],
+   "answer": 2,
+   "explanation": "The author says the stockpiling 'succeeded because the members... bound themselves to shared rules', so 'the solution lies in institutions that make commitments credible'. The other options are not claimed."
+  }
+ ]
 }
 ]
