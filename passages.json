@@ -8256,5 +8256,407 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The last paragraph says buffer stocks, diversified shipping routes and restraint in export controls “would blunt a price shock whatever its origin”. This option restates that point in different words.<br><br>• <strong>Why Option B is Wrong:</strong> The author warns that the premium “can harden into reality” through stockpiling and export curbs, and says the sensible stance is not to dismiss it as speculation.<br><br>• <strong>Why Option C is Wrong:</strong> The author treats the near-doubling as a conditional scenario about the tail, not a near-certainty, and favours buffers over a primary focus on forecasting.<br><br>• <strong>Why Option D is Wrong:</strong> The author calls the agency’s explanation “cautious and plural”, which is neutral to mildly approving; nothing suggests the agency is unwilling to commit.<br><br><strong>💡 Approach:</strong> For an agree-with question, find the sentence in the passage that the correct option paraphrases. Eliminate options that contradict the author’s stated stance or attribute motives the passage never mentions."
       }
     ]
+  },
+  {
+    "id": "rc-2026-10-31",
+    "date": "2026-10-31",
+    "title": "A Port, a Claim and a Quarrel: Ethiopia’s Red Sea Question",
+    "genre": "Current Affairs / International Relations",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1067 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "leverage",
+          "type": "noun",
+          "def": "Power or influence used to gain an advantage in a negotiation. Synonyms: clout, influence, sway. Antonyms: powerlessness, weakness, impotence.",
+          "ex": "Control of the only port gave the neighbouring state great leverage."
+        },
+        {
+          "word": "entitlement",
+          "type": "noun",
+          "def": "A belief that one has a right to something; the right itself. Synonyms: right, claim, prerogative. Antonyms: obligation, duty, deprivation.",
+          "ex": "He treated the promotion as an entitlement, not as something to be earned."
+        },
+        {
+          "word": "brinkmanship",
+          "type": "noun",
+          "def": "The practice of pushing a dangerous situation to the edge of disaster to force an opponent to yield. Synonyms: risk-taking, escalation, gamesmanship. Antonyms: caution, de-escalation, restraint.",
+          "ex": "The talks collapsed after weeks of diplomatic brinkmanship."
+        },
+        {
+          "word": "reciprocity",
+          "type": "noun",
+          "def": "A mutual exchange of favours or privileges. Synonyms: mutuality, exchange, give-and-take. Antonyms: one-sidedness, unilateralism.",
+          "ex": "The treaty rests on reciprocity: each side grants the other port rights."
+        },
+        {
+          "word": "intractable",
+          "type": "adjective",
+          "def": "Hard to control, solve or deal with. Synonyms: stubborn, unmanageable, obstinate. Antonyms: tractable, manageable, compliant.",
+          "ex": "The border dispute has proved intractable for decades."
+        },
+        {
+          "word": "bellicose",
+          "type": "adjective",
+          "def": "Eager to fight; aggressive in attitude. Synonyms: belligerent, warlike, combative. Antonyms: peaceable, conciliatory, pacific.",
+          "ex": "The minister’s bellicose speech alarmed the neighbouring states."
+        },
+        {
+          "word": "rapprochement",
+          "type": "noun",
+          "def": "A restoration of friendly relations, especially between states. Synonyms: reconciliation, detente, thaw. Antonyms: estrangement, rift, hostility.",
+          "ex": "The 2018 agreement raised hopes of a lasting rapprochement."
+        },
+        {
+          "word": "apprehension",
+          "type": "noun",
+          "def": "Anxiety or fear about something that may happen; also, an arrest. Synonyms: unease, foreboding, dread. Antonyms: confidence, composure, calm.",
+          "ex": "Investors viewed the merger with apprehension."
+        },
+        {
+          "word": "flashpoint",
+          "type": "noun",
+          "def": "A place or event at which trouble is likely to break out. Synonyms: trouble spot, powder keg, hotspot. Antonyms: haven, calm spot.",
+          "ex": "The disputed island has become a flashpoint between the two navies."
+        },
+        {
+          "word": "salient",
+          "type": "adjective",
+          "def": "Most noticeable or important. Synonyms: prominent, conspicuous, striking. Antonyms: inconspicuous, minor, unimportant.",
+          "ex": "The most salient feature of the report was its warning about debt."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "play with fire",
+          "def": "To take a foolish risk that may have dangerous consequences.",
+          "ex": "Threatening a blockade is playing with fire."
+        },
+        {
+          "idiom": "rattle the sabre",
+          "def": "To make a show of military strength or threaten force.",
+          "ex": "The government rattled the sabre but stopped short of mobilising troops."
+        },
+        {
+          "idiom": "a bone of contention",
+          "def": "A subject or issue that causes continued disagreement.",
+          "ex": "Water rights remain a bone of contention between the two countries."
+        },
+        {
+          "idiom": "back to square one",
+          "def": "Back at the beginning, with no progress made.",
+          "ex": "When the ceasefire collapsed, negotiators were back to square one."
+        },
+        {
+          "idiom": "burn one’s bridges",
+          "def": "To destroy any chance of returning to a former position or relationship.",
+          "ex": "By insulting the mediators, the delegation burned its bridges."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "back down",
+          "def": "To withdraw a claim or demand after opposition. Synonym: yield.",
+          "ex": "Neither side was willing to back down."
+        },
+        {
+          "verb": "rule out",
+          "def": "To exclude something as a possibility. Synonym: preclude.",
+          "ex": "The minister ruled out the use of force."
+        },
+        {
+          "verb": "drag on",
+          "def": "To continue for an unpleasantly long time. Synonym: persist.",
+          "ex": "The negotiations dragged on for months."
+        },
+        {
+          "verb": "flare up",
+          "def": "To suddenly start or become more intense. Synonym: erupt.",
+          "ex": "Fighting flared up along the border."
+        },
+        {
+          "verb": "hold out for",
+          "def": "To refuse to accept less than what one wants. Synonym: insist on.",
+          "ex": "The delegation held out for a guarantee of port access."
+        }
+      ]
+    },
+    "passage": "Early in October, Ethiopia’s prime minister, Abiy Ahmed, renewed his government’s demand for access to the Red Sea, insisting on the point even as warnings of a wider regional conflict multiplied. The demand is not new, but its repetition has coincided with a hardening of tone on both sides of the border with Eritrea, whose government accuses Addis Ababa of planning a war to gain a port, while Ethiopian officials say they seek no conflict. Observers have long identified the Eritrean port of Assab as the likeliest focus of the dispute. The facts that frame the quarrel are not themselves in contention. Ethiopia, home to well over a hundred million people, became landlocked in 1993, when Eritrea won independence, and since then the bulk of its imports and exports has passed through a single neighbour, Djibouti, whose port fees and capacity Ethiopia cannot control. Much of the commentary has treated the matter as a contest between a hungry giant and a small, suspicious neighbour. That picture is tidy, but it hides the real structure of the argument, which consists of several claims of unequal weight, each resting on different assumptions about what states are entitled to and what they have reason to fear.\n\nThe case for the Ethiopian demand has three strands, and they should be kept apart because they are not equally strong. The first is economic. A country of that size that depends on one corridor for nearly all of its trade is exposed in two ways: a disruption on the route can halt its economy, and the state that owns the route holds a standing source of leverage in every negotiation. Landlocked economies, moreover, tend to face higher trade costs than their coastal peers. The second strand is historical: Ethiopia had a coastline until 1993, and some of its politicians describe the loss as an accident of the century’s politics, not a settled verdict. The third is strategic. The Red Sea is a crowded and increasingly militarised waterway, and a state without a presence on it may fear that its interests will be decided by others. Taken together, these strands make the demand intelligible, even to those who reject it. But intelligibility is not the same as justification: each strand establishes that Ethiopia has a problem, and none, taken alone, establishes that the solution lies in the particular form of the demand now being pressed.\n\nThe case against is equally serious. Borders in Africa were drawn, for the most part, by colonial administrators who paid little attention to the people on either side, and in 1964 the continent’s leaders resolved nonetheless to respect them as they stood. The principle is imperfect, but it has arguably spared the continent many interstate wars, because it removes the temptation for any large state to claim a neighbour’s territory on the ground of need. If hardship alone justified revision, the list of claimants would be long. Eritrea’s own history adds a layer of apprehension: it fought a bitter border war with Ethiopia between 1998 and 2000, and although a peace agreement in 2018 raised hopes of rapprochement, relations are reported to have deteriorated again after the civil war in Tigray ended in 2022. A government that has seen its neighbour’s army cross the border before is unlikely to read a demand for its coast as a mere negotiating position. There is also a precedent problem that reaches well beyond these two states. If a government that accepted a neighbour’s independence were later to argue that its own hardship entitled it to part of the neighbour’s coast, every small state with a larger and more powerful neighbour would have reason to doubt that its borders were secure, and the cost of that doubt would fall on the weakest.\n\nWhat is rarely noticed is that the demand bundles together two distinct goals. One is access: the ability to move goods at predictable cost and without fear of interruption. The other is ownership: sovereignty over a stretch of coast. These are often confused because, historically, the second has been the surest way to obtain the first. But they are separable. Many landlocked states, Switzerland among them, enjoy dependable access to the sea through treaties, leases and shared management of ports, such as those governing navigation on the Rhine, and prosper without owning a metre of coastline. A transit treaty, a long lease or a jointly run terminal could in principle give Ethiopia most of what its economic argument requires. The difficulty, of course, is that such arrangements are only as secure as the relationship that underlies them, and Ethiopia’s experience of dependence on a single neighbour is precisely an experience of insecure trust. The question is therefore less one of geography than of confidence. Seen in this light, the real choice is not between owning a port and having none, but between an arrangement whose guarantees are written into treaties that both sides have an interest in preserving, and a dependence that remains hostage to the temper of one government.\n\nThat is why the manner in which the demand is made matters as much as its content. When one government insists publicly on a goal and the other publicly accuses it of preparing for war, each side’s defensive step is liable to be read by the other as preparation for attack, and the cycle feeds itself. Leaders who have described a goal as an entitlement, or as existential, also find it harder later to accept a smaller outcome without appearing to retreat. The tragedy of the present dispute is thus not that Ethiopia’s need is imaginary; it is that the way the need has been framed makes the cheapest and most practical solution, a commercial arrangement with a willing partner, politically the hardest to reach. A settlement would require Addis Ababa to present access as a service it is prepared to pay for and guarantee, and Asmara to treat that offer as an opportunity and not as a pretext. Neither step is easy, but both are cheaper than the alternative. Outside parties, including the neighbours who depend on the same waterway for their own trade, have an interest in encouraging such a bargain, since a war over one port would disturb shipping lanes far beyond the two countries concerned. Mediation is most useful, in these circumstances, when it offers each side a way to accept less without appearing to have lost.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "options": [
+          "A) Ethiopia’s claim to a Red Sea coast is historically justified, so the principle of fixed borders should yield to the needs of a large landlocked state.",
+          "B) Eritrea’s fear of invasion is exaggerated, since Ethiopia has repeatedly said it seeks no conflict and has no designs on any neighbour’s territory.",
+          "C) Ethiopia’s need for dependable sea access is real, but framing it as a territorial claim obstructs the arrangements that could meet it.",
+          "D) Landlocked states can never be secure without sovereign ports, so a negotiated settlement between Ethiopia and Eritrea is effectively impossible."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The last paragraph says the need “is not imaginary” but that the way it has been framed makes “the cheapest and most practical solution, a commercial arrangement” the hardest to reach. Paragraph 4 separates access from ownership. This is the author’s synthesis.<br><br>• <strong>Why Option A is Wrong:</strong> The author presents the historical argument as one of three strands, not as decisive, and gives the case against it equal weight. The author does not say the principle of fixed borders should yield.<br><br>• <strong>Why Option B is Wrong:</strong> The author treats Eritrea’s apprehension as understandable, citing the 1998–2000 war, and does not call it exaggerated.<br><br>• <strong>Why Option D is Wrong:</strong> This contradicts paragraph 4, which argues that landlocked states such as Switzerland prosper without owning any coastline, and the conclusion that a settlement is possible, though hard.<br><br><strong>💡 Approach:</strong> For a central-argument question, pick the option that reproduces the author’s final judgement, which comes after both sides have been presented. Reject options that adopt one side outright or use absolutes such as “never” and “impossible”."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following, if true, would most weaken the author’s suggestion that commercial arrangements could give Ethiopia dependable access to the sea?",
+        "options": [
+          "A) Coastal states have often suspended transit agreements with landlocked neighbours during political disputes.",
+          "B) Switzerland and Austria have moved goods through neighbouring countries’ ports for decades without any dispute over who owns those ports.",
+          "C) The fees charged by Djibouti for Ethiopian cargo have fallen over the past decade as new terminals have opened and competition has increased.",
+          "D) Ethiopia’s exports have grown faster than the average for landlocked countries since the bulk of its trade began to pass through Djibouti."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The author’s suggestion rests on the assumption that treaties and leases will be honoured. If coastal states often suspend such agreements when relations sour, then dependable access cannot be secured by contract alone, which is the doubt the passage itself acknowledges but does not resolve.<br><br>• <strong>Why Option B is Wrong:</strong> This supports the author, since it shows access without ownership working in practice.<br><br>• <strong>Why Option C is Wrong:</strong> Falling fees suggest that commercial arrangements can improve access, so this strengthens the author’s view.<br><br>• <strong>Why Option D is Wrong:</strong> This indicates that dependence on a single neighbour has not prevented growth, which is, if anything, supportive of the claim that ownership is not essential.<br><br><strong>💡 Approach:</strong> To weaken, find the assumption that carries the argument (agreements are reliably honoured) and choose the option that attacks it. Eliminate options that show the arrangement working."
+      },
+      {
+        "id": "q3",
+        "question": "Each of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) A large share of Ethiopia’s foreign trade depends on a port controlled by another state.",
+          "B) Ethiopia’s demand for sea access is a long-standing one and not a recent invention.",
+          "C) Public statements by both governments could deepen each side’s suspicion of the other.",
+          "D) Eritrea has agreed in principle to lease Assab to Ethiopia."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The passage says Eritrea’s government accuses Ethiopia of planning war to gain a port, and the author hopes a settlement could emerge. It never says Eritrea has agreed to any lease, so this cannot be inferred.<br><br>• <strong>Why Option A is Wrong:</strong> This is stated in paragraph 1: the bulk of trade passes through Djibouti, whose fees and capacity Ethiopia cannot control.<br><br>• <strong>Why Option B is Wrong:</strong> Paragraph 1 says “The demand is not new”, and the historical strand of paragraph 2 supports this.<br><br>• <strong>Why Option C is Wrong:</strong> This follows from paragraph 5: each side’s defensive step may be read as preparation for attack, and the cycle feeds itself.<br><br><strong>💡 Approach:</strong> In an EXCEPT question, three options are supported by specific lines. The odd one out usually states an outcome (here, an agreement) which the passage only describes as a possibility."
+      },
+      {
+        "id": "q4",
+        "question": "The author refers to Switzerland and the treaties governing the Rhine in order to:",
+        "options": [
+          "A) suggest that Ethiopia should adopt Switzerland’s policy of neutrality in its dealings with its neighbours.",
+          "B) show that dependable sea access need not require owning a port.",
+          "C) prove that Ethiopia’s existing arrangement with Djibouti is as secure as that of any landlocked country in Europe.",
+          "D) argue that treaty arrangements for access have never failed landlocked states in any region of the world."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The example appears in the paragraph separating access from ownership. It is offered as evidence that a landlocked state can prosper through treaties, leases and shared management without owning coastline.<br><br>• <strong>Why Option A is Wrong:</strong> Neutrality is not mentioned. The example concerns trade access, not foreign policy.<br><br>• <strong>Why Option C is Wrong:</strong> The author says Ethiopia’s experience of dependence on a single neighbour is one of insecure trust, so equating its position with Europe’s is not a claim the passage makes.<br><br>• <strong>Why Option D is Wrong:</strong> “Never failed … in any region” is an absolute. The author even admits that such arrangements are only as secure as the relationship behind them.<br><br><strong>💡 Approach:</strong> For a purpose question, locate the sentence’s job in its paragraph (here, separating two goals) and reject options that import new topics or absolute claims."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following most closely parallels the author’s reasoning about the dispute?",
+        "options": [
+          "A) A tenant insists on buying his shop when a long lease would secure his business, and his insistence leads the landlord to refuse even the lease.",
+          "B) A manufacturer buys its parts supplier outright after the supplier raises prices, and the purchase lowers the manufacturer’s production costs considerably.",
+          "C) A student who needs a reference book borrows it from the college library and returns it before the deadline without any difficulty.",
+          "D) A company negotiates a ten-year supply contract with a vendor, and both parties honour its terms throughout the contract’s length."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The structure is the same as the author’s: the real need (secure use of premises; dependable access) could be met by a lesser arrangement (a lease; a transit treaty), but insisting on ownership as an entitlement makes that cheaper arrangement harder to reach.<br><br>• <strong>Why Option B is Wrong:</strong> Here ownership is a successful solution, the opposite of the author’s point that ownership is not required.<br><br>• <strong>Why Option C is Wrong:</strong> This describes a smoothly working loan with no insistence on ownership and no obstruction.<br><br>• <strong>Why Option D is Wrong:</strong> This shows an arrangement working well, but it has no element of ownership being insisted upon, so it misses the central logic.<br><br><strong>💡 Approach:</strong> In parallel reasoning, write the skeleton first: need → lesser arrangement would do → insistence on ownership blocks it. Then match the skeleton and ignore the surface topic."
+      },
+      {
+        "id": "q6",
+        "question": "With which of the following statements would the author most likely agree?",
+        "options": [
+          "A) Public demands of this kind are made only when a government has already decided to use force if the demand is refused.",
+          "B) Eritrea’s suspicion of Ethiopia is groundless, since Ethiopia’s need for access could be met without any change to existing borders.",
+          "C) The African principle of respecting colonial-era borders has prevented every interstate conflict on the continent.",
+          "D) A leader who calls a goal existential may later find it harder to settle for a smaller outcome."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Paragraph 5 says leaders who have described a goal as an entitlement or as existential “find it harder later to accept a smaller outcome without appearing to retreat”. This option restates that claim.<br><br>• <strong>Why Option A is Wrong:</strong> The author says Ethiopian officials seek no conflict and treats escalation as a cycle of suspicion, not a settled decision to use force; the word “only” is also an unsupported absolute.<br><br>• <strong>Why Option B is Wrong:</strong> The author calls Eritrea’s history one of apprehension, which is understandable, and the word “groundless” contradicts that.<br><br>• <strong>Why Option C is Wrong:</strong> The author says the principle has “arguably spared” many wars, which is far weaker than preventing every conflict.<br><br><strong>💡 Approach:</strong> For an agree-with question, find the sentence the correct option paraphrases. Be suspicious of “only”, “every”, “groundless” and similar absolutes."
+      }
+    ]
+  },
+  {
+    "id": "rc-2026-11-01",
+    "date": "2026-11-01",
+    "title": "The Arithmetic of Panic: Why Bond Yields Matter",
+    "genre": "Current Affairs / Economics",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1099 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "benign",
+          "type": "adjective",
+          "def": "Gentle, harmless or favourable; (of a tumour) not cancerous. Synonyms: harmless, mild, favourable. Antonyms: malignant, harmful, hostile.",
+          "ex": "Low interest rates created a benign environment for borrowers."
+        },
+        {
+          "word": "capricious",
+          "type": "adjective",
+          "def": "Given to sudden, unpredictable changes of mood or behaviour. Synonyms: fickle, erratic, whimsical. Antonyms: steady, consistent, dependable.",
+          "ex": "Investors proved capricious, abandoning the stock overnight."
+        },
+        {
+          "word": "austerity",
+          "type": "noun",
+          "def": "Strict economy; government policy of cutting spending to reduce deficits. Synonyms: frugality, retrenchment, thrift. Antonyms: extravagance, indulgence, largesse.",
+          "ex": "Years of austerity left public services stretched."
+        },
+        {
+          "word": "solvency",
+          "type": "noun",
+          "def": "The ability to pay one’s debts in the long run. Synonyms: financial soundness, creditworthiness. Antonyms: insolvency, bankruptcy.",
+          "ex": "The audit confirmed the firm’s solvency."
+        },
+        {
+          "word": "fickle",
+          "type": "adjective",
+          "def": "Changing often, especially in loyalties or affections. Synonyms: capricious, volatile, unreliable. Antonyms: constant, loyal, steadfast.",
+          "ex": "Fickle investors moved their money to safer assets."
+        },
+        {
+          "word": "sanguine",
+          "type": "adjective",
+          "def": "Optimistic, especially in a difficult situation. Synonyms: hopeful, confident, buoyant. Antonyms: pessimistic, despondent, gloomy.",
+          "ex": "Officials were sanguine about the recovery despite weak data."
+        },
+        {
+          "word": "perilous",
+          "type": "adjective",
+          "def": "Full of danger or risk. Synonyms: hazardous, dangerous, precarious. Antonyms: safe, secure, harmless.",
+          "ex": "The country’s finances were in a perilous state."
+        },
+        {
+          "word": "retrench",
+          "type": "verb",
+          "def": "To reduce costs or spending, especially in difficult times. Synonyms: economise, cut back, curtail. Antonyms: expand, splurge, extend.",
+          "ex": "The company was forced to retrench after two bad years."
+        },
+        {
+          "word": "backstop",
+          "type": "noun",
+          "def": "A safeguard or last line of support that prevents a bad outcome. Synonyms: safety net, safeguard, fallback. Antonyms: exposure, vulnerability.",
+          "ex": "The central bank acted as a backstop for the banking system."
+        },
+        {
+          "word": "onerous",
+          "type": "adjective",
+          "def": "Involving a heavy burden or great effort. Synonyms: burdensome, oppressive, taxing. Antonyms: easy, light, effortless.",
+          "ex": "The loan carried onerous conditions."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "sword of Damocles",
+          "def": "A constant threat of impending disaster.",
+          "ex": "The unpaid debt hung over the firm like a sword of Damocles."
+        },
+        {
+          "idiom": "a vicious circle",
+          "def": "A situation in which a problem makes itself worse through its own effects.",
+          "ex": "Falling revenue led to cuts, which cut revenue further: a vicious circle."
+        },
+        {
+          "idiom": "on thin ice",
+          "def": "In a risky or precarious position.",
+          "ex": "With such high debt, the government was on thin ice."
+        },
+        {
+          "idiom": "the elephant in the room",
+          "def": "An obvious, uncomfortable problem that everyone avoids discussing.",
+          "ex": "The deficit was the elephant in the room at the budget talks."
+        },
+        {
+          "idiom": "a house of cards",
+          "def": "A structure or plan that is unstable and likely to collapse.",
+          "ex": "The scheme was a house of cards that collapsed once rates rose."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "roll over",
+          "def": "To renew or extend a debt when it falls due. Synonym: refinance.",
+          "ex": "The government rolled over its maturing bonds."
+        },
+        {
+          "verb": "pile up",
+          "def": "To accumulate steadily in large quantities. Synonym: accumulate.",
+          "ex": "Debts piled up during the downturn."
+        },
+        {
+          "verb": "run up",
+          "def": "To accumulate a debt or bill quickly. Synonym: incur.",
+          "ex": "The state ran up large deficits to fund the programme."
+        },
+        {
+          "verb": "claw back",
+          "def": "To recover money that has been paid out or lost. Synonym: recoup.",
+          "ex": "The treasury clawed back part of the subsidy."
+        },
+        {
+          "verb": "tide over",
+          "def": "To help someone through a difficult period. Synonym: sustain.",
+          "ex": "A short-term loan tided the firm over until harvest."
+        }
+      ]
+    },
+    "passage": "In mid-October, according to market reports, the yield on France’s ten-year government bonds rose by more than it had at any time since March 2025, as investors reacted to doubts about the government’s plans to repair its budget. To the casual reader, a rise of a fraction of a percentage point in a borrowing cost is hardly an emergency. Governments do not borrow at a single moment; they refinance their debts gradually, and a higher yield on a new bond raises the interest bill only as old bonds mature. Yet finance ministries and central banks treat movements of this size with an attention that seems out of proportion to their immediate cost. The explanation lies in a piece of arithmetic that makes small changes in yields matter greatly for countries that already owe a great deal.\n\nThe ratio of a government’s debt to national output rises whenever the interest rate on the debt exceeds the rate at which the economy grows, unless the government runs a surplus before interest payments, known as a primary surplus. The surplus needed to hold the ratio steady equals the gap between the interest rate and the growth rate, multiplied by the existing debt ratio. When debt is small, the gap barely matters. When a country owes more than a year’s output, however, an extra percentage point of interest requires a primary surplus larger by roughly one per cent of national output or more, a sum that in practice means painful tax rises or spending cuts. The arithmetic also works in a benign direction: if growth stays above the interest rate, a debt can be sustained indefinitely without any adjustment at all. Everything therefore hinges on a gap that no government fully controls and no forecaster predicts with confidence. A government that borrows at a rate below its growth rate for a decade may come to regard its debt as costless, only to find that a change in monetary policy, a recession or a shift in investors’ appetite for risk reverses the sign of the gap within a few quarters. The danger of high debt is therefore not that it is always unsustainable, but that its sustainability depends on conditions that can change faster than budgets can be adjusted.\n\nOne school of thought treats the bond market as a disciplinarian. On this view, investors are the only creditors with a financial stake in the government’s honesty, and a rise in yields is the earliest and clearest warning that a budget is on an unsustainable path. Politicians, who gain from spending today and are rarely punished for the bills that fall due later, are unlikely to correct course unprompted; the market supplies the penalty that the ballot box does not. Defenders of this view point out that yields tend to rise first and loudest for governments whose deficits are already large, and conclude that the pain of a rate shock is the price of a lesson that would otherwise go unlearned. The implied policy advice is simple: respond to the signal quickly, and cut accordingly. Its proponents add that governments which postpone adjustment tend to face a harder task later, since interest costs compound while political patience wears thin, and that the cost of early correction is therefore lower than that of delay.\n\nA second school objects that markets are less like teachers than like crowds. Because the interest rate itself enters the arithmetic, a loss of confidence can validate itself: investors who fear that a government cannot pay demand a higher yield, the higher yield enlarges the surplus the government must find, and the larger surplus makes default look likelier still. The same debt can thus be sustainable if investors believe it is and unsustainable if they do not. Evidence that markets are capricious is easy to find. Countries with identical debt ratios have borrowed on very different terms for years, and a debt that was tolerated without complaint for a decade may be punished abruptly, not because the arithmetic has changed but because the mood has. A central bank that stands ready to buy a government’s bonds can break such a spiral, since it removes the panic without the need for any fiscal change, but critics reply that this backstop invites governments to relax their efforts once they know it exists. The dilemma is real: a backstop that is conditional may arrive too late to stop a panic, while one that is unconditional may weaken the incentive to reform that the disciplinarians prize.\n\nNeither school is entirely right, and the difference between them is best expressed in terms of two questions that are often confused. The first is solvency: can the government, under plausible assumptions about growth and interest rates, stabilise its debt with a surplus that voters will actually tolerate? The second is liquidity: can it keep borrowing, from day to day, at a price it can bear? A market panic is mainly a threat to liquidity, and a central bank can often address it. A genuine solvency problem is not, and no backstop will make a plan that voters reject politically feasible. What the market is really pricing, therefore, is not the arithmetic alone but a judgement about whether the government will deliver the surplus the arithmetic demands. That judgement turns on credibility, which a government can build with a believable medium-term plan and can destroy with a sudden reversal.\n\nThis has an uncomfortable implication for the advice to cut quickly. Because growth appears in the arithmetic as well as interest rates, abrupt austerity that depresses output can raise the debt ratio even as it improves the budget balance: the numerator falls, but the denominator falls faster. A government that panics at the first rise in yields and slashes spending may therefore do itself more harm than good, while one that announces a credible path of gradual consolidation may calm markets without sacrificing growth. The lesson of a yield spike is thus not that the government must cut at once, but that it must persuade investors that it will, over time, do what is needed. That is a matter of politics and institutions as much as of mathematics. Independent fiscal councils, binding multi-year budget rules and a record of meeting past targets all help, because each gives investors a reason to believe a promise before it has been kept. Where such credibility is missing, even a sound plan may be priced as though it were a bluff, and the government may find that the cost of earning trust is higher than the cost of the cuts it was trying to avoid.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best captures the central argument of the passage?",
+        "options": [
+          "A) Bond markets punish heavy borrowers fairly and promptly, so governments should cut spending sharply whenever their yields begin to rise.",
+          "B) Market reactions to heavy debt reflect credibility as much as arithmetic, which favours credible plans over abrupt cuts.",
+          "C) Because loss of confidence can be self-fulfilling, bond markets are irrational and central banks should buy unlimited quantities of government bonds.",
+          "D) Since debt can be sustained indefinitely when growth exceeds the interest rate, rises in government bond yields matter little for any country."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The passage concludes that the market is “pricing … a judgement about whether the government will deliver the surplus the arithmetic demands”, that credibility is what counts, and that a gradual, believable plan is preferable to abrupt cuts. This is the author’s synthesis of both schools.<br><br>• <strong>Why Option A is Wrong:</strong> This is the disciplinarian view, which the final paragraph qualifies: panicked, abrupt cuts can raise the debt ratio.<br><br>• <strong>Why Option C is Wrong:</strong> The author calls neither school entirely right and does not call markets irrational. A central bank can help with a liquidity panic, but the author also notes that it cannot cure a solvency problem.<br><br>• <strong>Why Option D is Wrong:</strong> This picks up the benign case in paragraph 2 but ignores the paragraph’s point that growth is not controlled by any government and that high debt makes small rate rises matter greatly.<br><br><strong>💡 Approach:</strong> In central-argument questions, the answer is usually the synthesis in the last two paragraphs. Reject options that adopt one school or turn a qualified point into an absolute (“irrational”, “unlimited”, “any country”)."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following, if true, would most weaken the second school’s claim that a loss of confidence can validate itself?",
+        "options": [
+          "A) A country’s yields fell sharply after its central bank announced that it would buy the country’s bonds, even though the government’s budget was unchanged.",
+          "B) Two countries with identical debt ratios and deficits have paid very different yields on their ten-year bonds for several years in a row.",
+          "C) Investors’ holdings of a government’s bonds have been found to move together in the days immediately before a sharp rise in its yields.",
+          "D) In every past episode of sharp yield rises, the country’s primary balance had been deteriorating for years beforehand."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The self-validating claim says panic alone, without any change in fundamentals, can turn a sustainable debt into an unsustainable one. If every sharp rise has been preceded by years of deteriorating primary balances, the rises look like responses to fundamentals, which weakens the claim that confidence alone drives them.<br><br>• <strong>Why Option A is Wrong:</strong> This supports the second school: the central bank’s action calmed markets without any fiscal change.<br><br>• <strong>Why Option B is Wrong:</strong> This also supports the claim that markets can be capricious and that moods matter independently of the arithmetic.<br><br>• <strong>Why Option C is Wrong:</strong> Herd-like movement in holdings is consistent with a crowd psychology that can feed on itself, so it strengthens the claim.<br><br><strong>💡 Approach:</strong> For a weaken question, define what would show the opposite of the claim: here, that fundamentals, not mood, explain the rises. Eliminate any option that the second school would happily cite."
+      },
+      {
+        "id": "q3",
+        "question": "Each of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) A government that runs a primary surplus cannot see its debt ratio rise.",
+          "B) A rise in yields increases a government’s total interest bill only gradually, as older bonds are replaced.",
+          "C) A debt ratio can be stable without any adjustment if economic growth stays above the interest rate.",
+          "D) The same level of debt may be treated very differently by investors at different times."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The passage says the surplus needed to hold the ratio steady equals the interest–growth gap multiplied by the existing debt ratio. A primary surplus smaller than that amount would still allow the ratio to rise, so the statement is not supported.<br><br>• <strong>Why Option B is Wrong:</strong> This follows from paragraph 1: governments refinance gradually, so a higher yield raises the bill only as old bonds mature.<br><br>• <strong>Why Option C is Wrong:</strong> This is stated in paragraph 2: if growth stays above the interest rate, debt can be sustained indefinitely without adjustment.<br><br>• <strong>Why Option D is Wrong:</strong> This follows from paragraph 4: a debt tolerated for a decade can be punished abruptly because the mood has changed.<br><br><strong>💡 Approach:</strong> In an EXCEPT question, look for the option that turns a condition into a guarantee. “Cannot see its debt ratio rise” ignores the size of the surplus relative to the required one."
+      },
+      {
+        "id": "q4",
+        "question": "The author’s observation in the first paragraph that governments refinance their debts gradually serves mainly to:",
+        "options": [
+          "A) argue that rising yields are harmless and that the attention they receive is exaggerated by markets and ministries alike.",
+          "B) show that governments deliberately stagger their refinancing in order to avoid scrutiny from bond investors each year.",
+          "C) pose a puzzle about why modest yield rises cause concern, which the arithmetic of debt later resolves.",
+          "D) prove that the cost to France of the October rise in yields will be limited to the next few years at most."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The observation makes the concern look disproportionate (“out of proportion to their immediate cost”) and is followed by “The explanation lies in a piece of arithmetic…”. Its function is to set up the puzzle that paragraph 2 answers.<br><br>• <strong>Why Option A is Wrong:</strong> The author is not dismissing the concern; the passage goes on to explain why it is justified.<br><br>• <strong>Why Option B is Wrong:</strong> The passage gives no motive for staggering refinancing, and there is no suggestion that governments do it to avoid scrutiny.<br><br>• <strong>Why Option D is Wrong:</strong> The author makes no estimate of the cost to France and does not “prove” anything about its duration.<br><br><strong>💡 Approach:</strong> For a function question, read the sentences before and after. The sentence after (“The explanation lies in…”) shows that the earlier point sets up a puzzle. Beware of options that attribute motives or predict outcomes."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following, if true, would most strengthen the author’s claim in the final paragraph that abrupt austerity can backfire?",
+        "options": [
+          "A) Heavily indebted countries have repeatedly been forced by markets to adopt spending cuts within weeks of a sharp rise in their yields.",
+          "B) Central banks have usually been willing to buy government bonds whenever yields on those bonds have risen sharply in a short time.",
+          "C) Debt ratios in several quickly growing countries have fallen over the past decade even though their budgets remained in deficit.",
+          "D) After sharp spending cuts in several countries, output contracted by enough to raise their debt-to-output ratios."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The author’s claim is that abrupt austerity can lower output enough to raise the debt ratio even as the budget improves. Real cases in which cuts were followed by output falls large enough to raise the ratio directly support it.<br><br>• <strong>Why Option A is Wrong:</strong> This describes what markets have done (forcing cuts), not whether the cuts worked, so it says nothing about the effect on the ratio.<br><br>• <strong>Why Option B is Wrong:</strong> This concerns the backstop and liquidity, not the effect of austerity on the debt ratio.<br><br>• <strong>Why Option C is Wrong:</strong> This supports the benign growth-versus-interest point from paragraph 2 but does not address austerity.<br><br><strong>💡 Approach:</strong> To strengthen, restate the claim precisely (cuts reduce output enough to raise the ratio) and choose the option that supplies evidence for that causal chain, not merely a related fact."
+      },
+      {
+        "id": "q6",
+        "question": "Based on the passage, which of the following countries would be MOST vulnerable to a further rise in its borrowing costs?",
+        "options": [
+          "A) A country with low debt and a primary deficit, whose economy is growing so quickly that its growth rate is well above the interest rate.",
+          "B) A country whose debt exceeds a year’s output, with slowing growth and only a small primary surplus.",
+          "C) A country with moderate debt and falling yields, which runs a large primary surplus but has rising unemployment this year.",
+          "D) A country with a high debt ratio whose growth comfortably exceeds the interest rate and whose primary balance is in surplus."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> With debt above a year’s output, each extra point of interest demands a large extra surplus. Slowing growth narrows the gap between growth and interest, and a small surplus offers little cushion. All three conditions point to vulnerability.<br><br>• <strong>Why Option A is Wrong:</strong> Low debt means the interest–growth gap matters little, and growth well above the interest rate is the benign case.<br><br>• <strong>Why Option C is Wrong:</strong> Moderate debt, falling yields and a large primary surplus all reduce vulnerability, so rising unemployment does not outweigh them.<br><br>• <strong>Why Option D is Wrong:</strong> A high debt ratio is a risk, but growth comfortably above interest and a surplus together make the debt sustainable.<br><br><strong>💡 Approach:</strong> For an application question, translate the passage’s rule into a checklist: high debt ratio, narrow or negative growth-minus-interest gap, small primary surplus. Then count how many of the three each option meets."
+      }
+    ]
   }
 ]
