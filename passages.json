@@ -8658,5 +8658,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> With debt above a year’s output, each extra point of interest demands a large extra surplus. Slowing growth narrows the gap between growth and interest, and a small surplus offers little cushion. All three conditions point to vulnerability.<br><br>• <strong>Why Option A is Wrong:</strong> Low debt means the interest–growth gap matters little, and growth well above the interest rate is the benign case.<br><br>• <strong>Why Option C is Wrong:</strong> Moderate debt, falling yields and a large primary surplus all reduce vulnerability, so rising unemployment does not outweigh them.<br><br>• <strong>Why Option D is Wrong:</strong> A high debt ratio is a risk, but growth comfortably above interest and a surplus together make the debt sustainable.<br><br><strong>💡 Approach:</strong> For an application question, translate the passage’s rule into a checklist: high debt ratio, narrow or negative growth-minus-interest gap, small primary surplus. Then count how many of the three each option meets."
       }
     ]
+  },
+  {
+    "id": "rc-2026-11-02",
+    "date": "2026-11-02",
+    "title": "The Hand That Life Chose: Chemistry’s 2026 Nobel",
+    "genre": "Current Affairs / Science",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1027 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "nominal",
+          "type": "adjective",
+          "def": "Existing in name only; very small compared with the real value. Synonyms: titular, token, symbolic. Antonyms: actual, real, substantial.",
+          "ex": "The firm charged only a nominal fee for the service."
+        },
+        {
+          "word": "inert",
+          "type": "adjective",
+          "def": "Lacking the ability to move or react; chemically inactive. Synonyms: inactive, unreactive, passive. Antonyms: active, reactive, dynamic.",
+          "ex": "Argon is an inert gas and rarely forms compounds."
+        },
+        {
+          "word": "minuscule",
+          "type": "adjective",
+          "def": "Extremely small. Synonyms: tiny, microscopic, minute. Antonyms: huge, enormous, gigantic.",
+          "ex": "The difference between the two samples was minuscule."
+        },
+        {
+          "word": "plausible",
+          "type": "adjective",
+          "def": "Seeming reasonable or probable. Synonyms: credible, believable, tenable. Antonyms: implausible, far-fetched, unlikely.",
+          "ex": "Her plausible explanation satisfied the committee."
+        },
+        {
+          "word": "tentative",
+          "type": "adjective",
+          "def": "Not certain or fixed; cautious. Synonyms: provisional, hesitant, exploratory. Antonyms: definite, confident, firm.",
+          "ex": "The researchers offered only a tentative conclusion."
+        },
+        {
+          "word": "enigma",
+          "type": "noun",
+          "def": "A person or thing that is mysterious or difficult to understand. Synonyms: mystery, puzzle, riddle. Antonyms: certainty, clarity, explanation.",
+          "ex": "The origin of life remains a profound enigma."
+        },
+        {
+          "word": "elucidate",
+          "type": "verb",
+          "def": "To make something clear by explaining it. Synonyms: clarify, explain, illuminate. Antonyms: obscure, confuse, muddle.",
+          "ex": "The study helped elucidate how the protein folds."
+        },
+        {
+          "word": "refute",
+          "type": "verb",
+          "def": "To prove a statement or theory to be wrong. Synonyms: disprove, rebut, debunk. Antonyms: confirm, prove, substantiate.",
+          "ex": "New data refuted the earlier hypothesis."
+        },
+        {
+          "word": "provisional",
+          "type": "adjective",
+          "def": "Arranged for the present, possibly to be changed later. Synonyms: temporary, interim, tentative. Antonyms: permanent, final, definitive.",
+          "ex": "The agency issued a provisional approval pending further tests."
+        },
+        {
+          "word": "incremental",
+          "type": "adjective",
+          "def": "Increasing by small, regular steps. Synonyms: gradual, step-by-step, piecemeal. Antonyms: sudden, drastic, radical.",
+          "ex": "Science often advances through incremental gains."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "a shot in the dark",
+          "def": "A guess made with little or no information.",
+          "ex": "Her estimate was only a shot in the dark."
+        },
+        {
+          "idiom": "the missing piece of the puzzle",
+          "def": "The final fact needed to understand something.",
+          "ex": "The fossil was the missing piece of the puzzle."
+        },
+        {
+          "idiom": "a leap of faith",
+          "def": "Acceptance of something without proof or evidence.",
+          "ex": "Believing the claim required a leap of faith."
+        },
+        {
+          "idiom": "the proof of the pudding",
+          "def": "The real test of something is how it works in practice.",
+          "ex": "The proof of the pudding is in the clinical trial results."
+        },
+        {
+          "idiom": "the thin end of the wedge",
+          "def": "A small first step that leads to larger, usually unwelcome, changes.",
+          "ex": "Critics called the minor fee the thin end of the wedge."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "account for",
+          "def": "To explain or be the reason for something. Synonym: explain.",
+          "ex": "No theory could fully account for the observed pattern."
+        },
+        {
+          "verb": "build on",
+          "def": "To use something as a base for further progress. Synonym: develop.",
+          "ex": "The team built on earlier results to design the new catalyst."
+        },
+        {
+          "verb": "single out",
+          "def": "To choose one person or thing from a group for special attention. Synonym: pick out.",
+          "ex": "The committee singled out his early experiments for praise."
+        },
+        {
+          "verb": "work out",
+          "def": "To find a solution or understand something by reasoning. Synonym: figure out.",
+          "ex": "Researchers are still working out how the reaction began."
+        },
+        {
+          "verb": "pin down",
+          "def": "To identify or establish something exactly. Synonym: determine.",
+          "ex": "Scientists could not pin down the source of the imbalance."
+        }
+      ]
+    },
+    "passage": "This October the Nobel Prize in Chemistry went to Henri Kagan and Kenso Soai for work on what the Royal Swedish Academy described as non-linear effects and autocatalysis in asymmetric synthesis. The phrase is forbidding, but the problem behind it is old and concrete. Many molecules exist in two forms that are mirror images of each other, like a left hand and a right. These forms, called enantiomers, share nearly all of their physical properties, yet living systems, built almost entirely from one-handed building blocks, treat them as different substances: a medicine, a flavour or a pesticide may act through one form and be inert, or even harmful, in the other. A chemist who can make only an equal mixture of the two has made, in effect, a product half of which is wasted. Producing one form selectively, known as asymmetric synthesis, is therefore among the central ambitions of modern chemistry. It is also a demanding one, because the two forms are so alike that no ordinary physical test, and no ordinary chemical reaction, can tell them apart. A reaction must be given some reason to prefer one hand over the other, and finding that reason, cheaply and reliably, has occupied chemists for decades.\n\nThe obvious way to make one form selectively is to use a catalyst that is itself one-handed, a handed key for a handed lock. A natural expectation follows: a catalyst that is ninety per cent pure in one hand should yield a product that is ninety per cent pure in that hand. Kagan showed, in the 1980s, that this proportionality often fails. In some systems a modestly impure catalyst gave a product purer than expected; in others, less pure. His explanation, now widely accepted, is that catalyst molecules can bind to each other in pairs. Pairs of matching hands and pairs of opposite hands differ in stability and in activity, and if the mismatched pairs are inactive, they tie up an equal number of molecules of each hand and leave the surplus of the majority form free to do the work. The catalyst’s effective purity is then higher than its nominal purity. The lesson is that purity at the input does not fix purity at the output: the internal structure of the system can amplify or diminish it.\n\nSoai took the idea further. In the mid-1990s he found a reaction in which the product, a one-handed compound, is also the catalyst for its own formation, so that each molecule made helps to make more of its own hand. In such a self-catalysing, or autocatalytic, reaction, a vanishingly small initial imbalance can be multiplied with every round, and in repeated runs an excess too small to detect at the start grows towards near-total purity of one form. The result was startling because it showed that a system could manufacture strong asymmetry from almost none, with no outside force favouring either hand. Even a chance fluctuation, of the kind that must occur in any real mixture, was enough to tip the outcome one way or the other. In this sense the reaction behaves less like a machine that makes a chosen product than like a pencil balanced on its point: the direction in which it eventually falls is determined by a disturbance too small to notice, and once the fall begins it gathers pace on its own.\n\nThe practical value of such discoveries is plain. Understanding non-linear effects allows chemists to design catalysts that deliver pure products from impure inputs, which lowers cost and waste. The larger claim attached to Soai’s work is more speculative. Life on Earth uses one hand almost exclusively for its amino acids and the opposite hand for its sugars, and how this uniformity arose is one of the oldest puzzles in the study of life’s origins. A mixture of the two hands is what simple chemistry, left alone, would be expected to produce, so a living world built from one hand needs explaining. Soai’s reaction is often presented as a model of how a tiny, accidental imbalance on the early Earth could have been amplified into the uniformity seen today. The appeal of the idea is easy to understand: it replaces an apparent miracle with a mechanism, and mechanisms, unlike miracles, can be examined in a laboratory.\n\nHere a distinction is needed between three claims that enthusiasts often run together. The first is that amplification of a small imbalance is physically possible. Soai’s reaction proves it, and thereby removes an objection that such uniformity could not arise without a strong outside bias. The second is that amplification of this kind could have occurred under the conditions of the early Earth. The reaction works with particular, unnatural reagents in carefully controlled solvents, and no one has shown a counterpart among the simple molecules thought to have been present. The third is that it did occur, and that it is the way life’s handedness actually arose. Nothing in the experiments bears on that claim, which concerns history and can only be tested against evidence about the past. An existence proof is not an historical account: showing that a lock can be opened with a given key says little about whether that key was ever used.\n\nThe origin of the initial imbalance also remains unexplained. A random fluctuation, a bias in the surface of a mineral, and polarised light from space have all been proposed as the first nudge, and none has won general agreement. Amplification, however efficient, cannot select between these candidates, because it operates on whatever imbalance it is given. This is why the most cautious reading treats the work as having changed the question and not answered it. Before Soai, the difficulty was to see how uniformity could arise at all. After him, the difficulty is to decide which of several possible routes was actually taken. The first was a problem for chemistry. The second is a problem for geology, astronomy and history as well, and it may never be settled by experiments in a flask. None of this diminishes the prize: recognising a principle can be a lasting achievement even when its application to the deepest question remains open.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "options": [
+          "A) Kagan and Soai have solved the puzzle of how life came to use one-handed molecules, and the prize recognises that solution.",
+          "B) Asymmetric synthesis is too costly for industry to adopt, so the prize rewards work of purely theoretical interest.",
+          "C) Because Soai’s reaction needs unnatural reagents and controlled solvents, it has no scientific value and the prize is not justified.",
+          "D) The work is of lasting importance, but its bearing on life’s handedness shows only what is possible, not what happened."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The passage credits the work with practical value and with removing a theoretical objection, but separates three claims and says that nothing in the experiments bears on whether amplification actually occurred. It concludes that the work “changed the question and not answered it” while insisting the prize is not diminished.<br><br>• <strong>Why Option A is Wrong:</strong> The author states that the origin of the initial imbalance remains unexplained and that the work has not answered the question of how life’s handedness arose.<br><br>• <strong>Why Option B is Wrong:</strong> The passage says the practical value is “plain”, since understanding non-linear effects lowers cost and waste. Industry adoption is not criticised.<br><br>• <strong>Why Option C is Wrong:</strong> The unnatural conditions are used to limit the second claim, not to deny the work’s value. The author states “None of this diminishes the prize”.<br><br><strong>💡 Approach:</strong> In a central-argument question, find the author’s final stance, here the balance between the achievement and its limits. Reject options that take an extreme position (solved; no value; too costly)."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following, if true, would most weaken the author’s claim that Soai’s experiments do not show that amplification could have occurred under the conditions of the early Earth?",
+        "options": [
+          "A) Soai’s reaction proceeds only when the reagents are kept free of water and the temperature is held steady throughout the experiment.",
+          "B) A similar self-amplifying reaction is shown to work with simple molecules thought to have been abundant on the early Earth.",
+          "C) Several natural minerals have surfaces that bind one hand of certain molecules more strongly than they bind the other hand.",
+          "D) Polarised light from space has been detected in regions where star-forming clouds of dust and gas are especially common."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author’s second claim says no one has shown a counterpart of Soai’s reaction among the simple molecules thought to have been present. Such a demonstration would supply the missing counterpart and directly weaken the claim.<br><br>• <strong>Why Option A is Wrong:</strong> This strengthens the author’s claim by stressing how special the laboratory conditions are.<br><br>• <strong>Why Option C is Wrong:</strong> This concerns a possible source of the initial imbalance (discussed in the final paragraph), not whether amplification could have occurred, so it is irrelevant to the claim.<br><br>• <strong>Why Option D is Wrong:</strong> This also concerns the source of an imbalance, not the amplification step, and so does not touch the author’s claim.<br><br><strong>💡 Approach:</strong> For a weaken question, identify precisely which link of the argument is under attack (amplification under early-Earth conditions) and reject options that address a different link (the origin of the imbalance)."
+      },
+      {
+        "id": "q3",
+        "question": "Each of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) A catalyst ninety per cent pure in one hand must give a product less pure than that.",
+          "B) Two mirror-image forms of a molecule may behave differently inside living systems.",
+          "C) A very small excess of one form may grow over repeated rounds of an autocatalytic reaction.",
+          "D) Pairs of catalyst molecules of matching and of opposite hands may differ in their activity."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Kagan’s non-linear effects show the opposite: a modestly impure catalyst sometimes yields a product purer than expected. The word “must” turns a common expectation into a certainty that the passage rejects.<br><br>• <strong>Why Option B is Wrong:</strong> This is stated in paragraph 1: living systems treat the two forms as different substances.<br><br>• <strong>Why Option C is Wrong:</strong> This is the essence of Soai’s result in paragraph 3: a vanishingly small initial imbalance can be multiplied with every round.<br><br>• <strong>Why Option D is Wrong:</strong> This follows from paragraph 2: pairs of matching and of opposite hands differ in stability and activity.<br><br><strong>💡 Approach:</strong> In an EXCEPT question, look for the option that contradicts a point the passage makes explicitly. Here the passage says the proportional expectation “often fails”, so a “must” claim based on it cannot be inferred."
+      },
+      {
+        "id": "q4",
+        "question": "The author’s statement that “showing that a lock can be opened with a given key says little about whether that key was ever used” serves mainly to:",
+        "options": [
+          "A) argue that Soai’s reaction could not have operated in nature because it requires one specific set of reagents.",
+          "B) explain how a one-handed catalyst fits a one-handed reaction in the way that a key fits a lock.",
+          "C) illustrate that showing something to be possible does not show that it happened.",
+          "D) suggest that the claim about life’s origin is false because no key has been found to fit the lock of history."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The sentence follows “An existence proof is not an historical account” and is an analogy for it: demonstrating possibility is different from demonstrating actuality.<br><br>• <strong>Why Option A is Wrong:</strong> The author does not say the reaction could not have operated in nature, only that its relevance is unproved.<br><br>• <strong>Why Option B is Wrong:</strong> The lock-and-key image in paragraph 2 explained catalyst handedness; this later use serves a different logical purpose.<br><br>• <strong>Why Option D is Wrong:</strong> The author does not call the claim false, only unsupported by these experiments. The lock-and-key sentence is about possibility versus actuality, not about a missing key.<br><br><strong>💡 Approach:</strong> For a function question, read the sentence just before it (“An existence proof is not an historical account”). The analogy restates that point in other words."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following, if true, would most strengthen the explanation of non-linear effects given in the second paragraph?",
+        "options": [
+          "A) Spectroscopic measurements show that mismatched pairs of catalyst molecules are present in large numbers and are catalytically inactive.",
+          "B) Chemists have found that adding more of a one-handed catalyst increases the speed of the reaction in nearly every system studied.",
+          "C) Pharmaceutical firms have adopted asymmetric synthesis widely since the 1980s because it lowers the cost of producing single-handed medicines.",
+          "D) The catalyst molecules in these systems have been found to remain separate and never to bind to one another during the reaction."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Kagan’s explanation depends on catalyst molecules forming mismatched pairs that are inactive and so remove equal amounts of each hand from the active pool. Direct evidence that such pairs exist in quantity and are inactive supports it.<br><br>• <strong>Why Option B is Wrong:</strong> A faster reaction with more catalyst says nothing about pairing or inactivity of mismatched pairs.<br><br>• <strong>Why Option C is Wrong:</strong> This concerns commercial adoption, not the mechanism of non-linear effects.<br><br>• <strong>Why Option D is Wrong:</strong> This contradicts the explanation, which requires the molecules to bind in pairs.<br><br><strong>💡 Approach:</strong> To strengthen an explanation, find its key mechanism (inactive mismatched pairs) and choose the option that provides evidence for that mechanism. Reject commercial or general facts."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following situations is most analogous to the amplification described in Soai’s reaction?",
+        "options": [
+          "A) A thermostat holds a room at a steady temperature by switching a heater on whenever the air grows too cool and off when it grows too warm.",
+          "B) A single infected animal starts an outbreak in which each infected animal infects several others, so a tiny initial number grows large.",
+          "C) A filter removes impurities from a stream of water in one pass, leaving the water clean and fit for drinking without further treatment.",
+          "D) A teacher repeats a lesson to a class again and again until every student in the room has memorised its content completely."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> In Soai’s reaction each product molecule helps make more of itself, so a tiny initial imbalance grows with every round. An outbreak is the same self-reinforcing growth in which each case produces more cases.<br><br>• <strong>Why Option A is Wrong:</strong> A thermostat is a stabilising (negative) feedback system that cancels deviations, the opposite of amplification.<br><br>• <strong>Why Option C is Wrong:</strong> A single-pass filter removes something without any self-reinforcing growth.<br><br>• <strong>Why Option D is Wrong:</strong> Repetition by an outside teacher is an external force, whereas Soai’s amplification occurs with no outside force favouring either hand.<br><br><strong>💡 Approach:</strong> For an analogy question, reduce the original to its logical core (a product that promotes its own formation, so small differences grow) and choose the option with the same structure. Reject options that stabilise or involve outside intervention."
+      }
+    ]
   }
 ]
