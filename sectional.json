@@ -4751,5 +4751,596 @@
    "explanation": "The author says the stockpiling 'succeeded because the members... bound themselves to shared rules', so 'the solution lies in institutions that make commitments credible'. The other options are not claimed."
   }
  ]
+},
+  {
+ "id": "sec-2026-11-02",
+ "date": "2026-11-02",
+ "title": "IPMAT Indore VA Sectional – 2nd Nov 2026 (Advanced Analytical)",
+ "durationMinutes": 45,
+ "totalQuestions": 45,
+ "passages": {
+  "RC1": "When photographs first became evidence, they inherited the authority of the eye. A picture of an event seemed to be the event itself, and courts, newspapers and governments built their practices of proof on that assumption. Generative artificial intelligence, which can now produce convincing images, voices and video of events that never occurred, has attacked the assumption at its root. The obvious danger is that fabrications will be believed. The less obvious danger, which legal scholars have called the liar's dividend, is that genuine recordings will be disbelieved.\n\nThe mechanism is simple. Once the public knows that any recording can be faked, anyone caught in a real one acquires a ready defence: it is a fabrication. A politician recorded accepting a bribe, a company executive heard disparaging customers, a soldier filmed committing an atrocity, can all claim that the evidence was synthesised, and the claim need not be believed by everyone to be effective. It need only create enough doubt among enough supporters to relieve them of the need to change their minds. The dividend therefore accrues to the powerful, who have the means to contest evidence, and the cost falls on the weak, whose only proof was the recording. The asymmetry is worth stating plainly. A liar who is believed gains the benefit of the lie; a liar who is merely doubted gains the benefit of the doubt, and the second outcome is far cheaper to achieve, since it requires no fabrication at all, only the assertion that fabrication is possible.\n\nThe usual proposed remedy is technical. Detection tools could identify synthetic media, and provenance standards could attach to genuine images a cryptographic record of when, where and with what device they were taken. Both have merit, but both face a structural difficulty. Detection is an arms race in which the forger needs to beat the detector only once and the detector must succeed every time; and it produces false positives, so that a genuine recording flagged as fake becomes a weapon in the hands of those it exposes. Provenance works better, since it authenticates rather than detects, but only if most genuine content carries it. A recording made on an old phone, or sent through a messaging service that strips metadata, will arrive without the credential, and the absence of a credential will itself be treated as suspicious. A system that certifies the authentic risks stigmatising everything it cannot certify.\n\nA further complication is that the harm is not confined to deception. Studies of political persuasion suggest that people are less moved by individual falsehoods than is commonly feared, since most already hold views that determine which claims they accept. The deeper effect of a flood of synthetic material may be to degrade the shared background of trust against which any claim is judged. If a citizen can no longer assume that a video is probably genuine, she may retreat to the simpler heuristic of believing whatever comes from a source she already trusts. The result is not a population deceived by particular lies but one that has lost a common means of settling disputes, which is a harm of a different and arguably graver kind. Where trust in institutions was already low, as it is in many democracies, synthetic media do not so much create distrust as supply it with a vocabulary.\n\nLaw offers partial responses. Fraud, defamation and impersonation are already offences, and several jurisdictions, India among them, have begun to consider rules requiring that synthetic content be labelled and that platforms remove non-consensual deepfakes promptly. These measures address the cases in which a victim and a perpetrator can be identified. They are far less effective against the diffuse erosion of trust, and they carry their own risks: a broad prohibition on false content invites governments to define falsity in their own interest, and labelling mandates may be applied selectively to critics. The tension is familiar from the regulation of speech, but it is sharper here because the speed and volume of synthetic output exceed the capacity of any review process, public or private.\n\nIt follows that institutions, not tools alone, will have to bear the weight. Courts are likely to demand corroboration of recordings, such as witnesses, logs and independent copies, in place of treating them as self-authenticating. Newsrooms may rely more heavily on the reputations of named reporters than on the apparent authenticity of footage. Individuals may learn to ask where a recording came from before asking what it shows. None of this restores the old confidence in the photograph, and it should not try to. The lesson of the liar's dividend is that evidence has always depended on trust in the chain that carries it, and that technology has merely made the dependence visible. The adjustments will be uneven: well-resourced institutions will adapt first, and ordinary citizens, who lack access to forensic experts, will be left to rely on their own judgement.",
+  "RC2": "Across much of the world, women are having fewer children than at any time in recorded history. In South Korea the total fertility rate, the average number of births per woman over her lifetime, has fallen below one; in much of Europe and East Asia it is far under the replacement level of about two, at which a population neither grows nor shrinks in the long run. India, long regarded as the emblem of rapid population growth, has itself fallen to roughly replacement level, and several of its southern states are below it. The change is among the most important of the century, and it is widely misunderstood.\n\nThe first misunderstanding is that falling fertility signals an immediate crisis of population size. Population does not respond at once to a change in fertility, because of what demographers call momentum: a country with many young adults will continue to add people for decades even after the number of children per woman has fallen to replacement, since the large cohort of prospective parents is still working its way through life. India's population is therefore expected to keep growing for some time before it peaks. The relevant variable for economic planning is not the total but the age structure, and here the consequences are slower, larger and more certain. Even the statistic is less simple than it looks, since the total fertility rate is a snapshot of one year and can mislead when women are postponing births that they will later have; some of the recent decline may be a delay and not a permanent reduction in family size.\n\nAs fertility falls, the share of the population of working age first rises, because there are fewer children to support and the elderly are not yet numerous. This is the demographic dividend, and it is a possibility and not a guarantee. It becomes a gain only if the additional workers find productive employment; where they do not, a young population is a source of unrest and not of growth. East Asian economies are the standard example of success, since their dividend coincided with a rapid expansion of manufacturing and education. Others, with similar age structures but weaker job creation, saw little benefit. The dividend is a window that opens and closes, and its use depends on policy rather than on demography. India's own states illustrate the point, since those that invested early in schooling and health have seen their dividends mature earlier than those that did not.\n\nThe window closes because the same process that creates it eventually produces ageing. A country with a long-lived and shrinking cohort of workers must support a growing number of pensioners, and the ratio of workers to dependants, which rose for decades, begins to fall. The arithmetic of pay-as-you-go pensions, in which current workers finance current retirees, then turns adverse. Options exist but none is painless: higher taxes, later retirement, lower benefits, more immigration or higher productivity. Countries that began ageing while rich, as Japan and much of Europe did, face the problem with accumulated assets and mature institutions. India will meet it at a much lower level of income, a fact that has led some economists to warn that it may grow old before it grows rich.\n\nThe explanations offered for falling fertility are numerous, and the evidence is disputed. Rising education for women, urbanisation, the cost of housing and child-rearing, the spread of contraception, and the changing meaning of marriage have each been proposed. A notable puzzle is that pro-natal policies, from cash bonuses to generous leave, have had modest effects. Hungary and South Korea have spent heavily with limited results, suggesting that the decision to have a child depends less on transient incentives than on deeper conditions: secure employment, affordable housing, an expectation that the burden of care will be shared. Where such conditions are absent, a payment is a small compensation for a large commitment. The cost to women is not merely financial: where employment is insecure and domestic work is unevenly shared, an additional child falls disproportionately on the mother's career, and women respond rationally by having fewer. Where they are present, as in the Nordic countries, fertility has tended to be higher than elsewhere in Europe, though still below replacement.\n\nThe sober conclusion is that population ageing is neither a catastrophe nor something to be wished away. It is a slow structural shift whose costs depend on choices made decades earlier: on whether workers were educated and employed, on whether pension systems were funded, and on whether care for the old was organised. A country that treats the dividend as a permanent asset will find that it was a loan. A country that uses it to build skills, savings and institutions will meet the later years with resources. The decisive variable is not fertility itself but what a society does during the interval in which it still has time to act.",
+  "RC3": "A stablecoin is a digital token that promises to be redeemable at par for a national currency, usually the United States dollar, and is typically backed by reserves of short-term government securities and bank deposits. In 2025 the United States enacted a federal framework for payment stablecoins, and issuers, banks and technology firms have since moved to offer them. Supporters say that they will make cross-border payments cheaper and faster than the correspondent banking system, which routes payments through chains of intermediaries, each of which takes a fee and imposes a delay. Critics warn of a quieter consequence: that dollar-denominated tokens could spread across the world and weaken the ability of other countries to run their own monetary policy.\n\nThe concern has a name, currency substitution. When residents of a country hold and transact in a foreign currency, the central bank loses control of part of the money supply, and its interest-rate decisions bind a smaller share of economic activity. Emerging economies with a history of inflation, such as Argentina or Turkey, have long experienced this in the form of physical dollars. Stablecoins lower the cost of holding dollars to the price of a mobile application, and so extend the possibility to millions who could never have kept a bank account abroad. A country need not lose monetary sovereignty by decree to lose it in practice; it may do so through the accumulation of private choices.\n\nDefenders of stablecoins reply that the choices reveal something. People turn to a foreign currency because their own is unreliable, and if a stablecoin is attractive, the cause is the weakness of the domestic currency, not the existence of the token. On this view the proper response to dollarisation is a better domestic currency, not a ban on its competitors. The argument is correct as far as it goes, but it ignores a subtlety: even a well-managed currency is subject to network effects. The value of any money depends on how many people accept it, and a rival with an established network can attract users whose reasons are unrelated to quality. A stable local currency may therefore be undermined by a more widely accepted foreign one, even if it is in no way inferior.\n\nCentral banks have responded with digital currencies of their own, which are claims on the central bank in electronic form. The Reserve Bank of India has run pilots of a digital rupee, and other countries have experimented, yet adoption has generally been slow. One reason is that a digital central bank currency adds little where a good alternative already exists. India's Unified Payments Interface, which enables instant transfers between bank accounts at negligible cost, already offers consumers most of what a digital currency would provide, and it does so without requiring them to move deposits out of banks. A further reason is that retail users care about acceptance at the shop counter and not about the legal form of the money, so that a product succeeds only when it is cheaper or easier than what people already use. This illustrates a general point: the best defence of monetary sovereignty may be a payment system so convenient that no foreign substitute is needed.\n\nA second area of concern is financial stability. If stablecoins are backed by government bonds, a loss of confidence could force issuers to sell the bonds quickly, with effects on the bond market. If they are backed by bank deposits, a run on a stablecoin could become a run on the banks that hold its reserves. Regulators therefore insist on full reserves, frequent audits and a right of redemption, in essence the rules that were developed for money market funds after earlier crises. These rules reduce risk but do not eliminate it, and they have the side effect of making stablecoins resemble the banks they were supposed to replace, with the costs of regulation to match.\n\nThe debate is often presented as a contest between innovation and control, but it is better understood as a question about who bears risk and who captures the revenue. Issuers earn interest on the reserves that back the tokens, and that revenue accrues to the private firm, and indirectly to the issuing country's government through the demand for its bonds, not to the holder or to the country in which the token circulates. For a country whose residents hold such tokens, the effect is a transfer of seigniorage abroad. Whether that cost is outweighed by cheaper payments is a quantitative matter on which the evidence is still thin. What is not in doubt is that the issue has moved from the margins of technology policy to the centre of monetary policy, where it will have to be settled by the institutions that have always been responsible for the integrity of money.",
+  "CA1": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nPooja Arora (Host, Policy Pulse): Every November the air in north India turns toxic, and every year there is a fresh ban. Why does nothing seem to work?\n\nDr. Rakesh Menon (environmental scientist): Partly because we ask the wrong question. November pollution is the product of two things: how much is emitted and how much the atmosphere can disperse. In winter, cold air near the ground sits beneath warmer air above it, so pollutants cannot rise and spread, and a given quantity of emissions produces much higher concentrations than it would in July.\n\nPooja Arora: So the weather is to blame?\n\nDr. Rakesh Menon: The weather sets the multiplier; it does not create the pollution. The sources are many: vehicles, construction dust, industry, domestic burning, and, for a few weeks, the burning of crop residue in neighbouring states. Their shares vary from day to day. Any single ban targets one source, and the others fill the gap. A ban on firecrackers helps on the night it is enforced, but it cannot clear a season.\n\nPooja Arora: What would work?\n\nDr. Rakesh Menon: A sustained reduction across all the sources through the year, not an emergency in November. The measures that matter, cleaner fuels for industry and homes, public transport, alternatives to burning residue, are slow and unglamorous, which is why emergency bans are preferred: they are visible."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "Vocabulary",
+   "question": "The defendant's ________ demeanour in the dock, so at odds with the gravity of the charge, unsettled the court.",
+   "options": [
+    "insouciant",
+    "apprehensive",
+    "bewildered",
+    "contrite"
+   ],
+   "answer": 0,
+   "explanation": "'Insouciant' means casually unconcerned, which is at odds with the gravity of the charge. 'Contrite' (remorseful), 'apprehensive' (anxious) and 'bewildered' would suit the gravity, not clash with it."
+  },
+  {
+   "id": "q2",
+   "type": "Vocabulary",
+   "question": "Critics accused the board of ________, since it deferred every hard decision to the next quarter.",
+   "options": [
+    "temerity",
+    "exuberance",
+    "vindictiveness",
+    "dilatoriness"
+   ],
+   "answer": 3,
+   "explanation": "'Dilatoriness' means habitual delay, matching the deferral of every hard decision. 'Temerity' (rashness), 'exuberance' and 'vindictiveness' (vengefulness) do not describe delay."
+  },
+  {
+   "id": "q3",
+   "type": "Vocabulary",
+   "question": "Unable to agree on the price, buyer and seller finally decided to ________ and conclude the deal.",
+   "options": [
+    "cross the Rubicon",
+    "split the difference",
+    "play devil's advocate",
+    "carry coals to Newcastle"
+   ],
+   "answer": 1,
+   "explanation": "'Split the difference' means to settle midway between two positions. 'Cross the Rubicon' is to take an irrevocable step, 'play devil's advocate' is to argue the opposite side, and 'carry coals to Newcastle' is to do something pointless."
+  },
+  {
+   "id": "q4",
+   "type": "Vocabulary",
+   "question": "Her ________ remarks, ostensibly in praise, were understood by all present as a rebuke.",
+   "options": [
+    "barbed",
+    "fulsome",
+    "laudatory",
+    "effusive"
+   ],
+   "answer": 0,
+   "explanation": "'Barbed' means pointedly hurtful, fitting remarks that were really a rebuke. 'Fulsome' (excessively flattering), 'effusive' and 'laudatory' would be genuine praise and would not be read as a rebuke."
+  },
+  {
+   "id": "q5",
+   "type": "Vocabulary",
+   "question": "The ________ of the treaty's language allowed each signatory to ________ its obligations narrowly, so that a document meant to ________ conduct in practice constrained very little.",
+   "options": [
+    "vagueness; expand; govern",
+    "vagueness; construe; encourage",
+    "vagueness; construe; govern",
+    "precision; construe; govern"
+   ],
+   "answer": 2,
+   "explanation": "Vague language lets each party 'construe' (interpret) its duties narrowly, so a treaty meant to 'govern' conduct constrained little. 'Precision' would not allow narrow readings; 'expand' contradicts 'narrowly'; 'encourage' does not fit 'constrained'."
+  },
+  {
+   "id": "q6",
+   "type": "Vocabulary",
+   "question": "The speaker's ________ was a rhetorical device: he feigned hesitation in order to ________ the audience's attention before delivering his main point.",
+   "options": [
+    "diffidence; squander",
+    "candour; command",
+    "bombast; command",
+    "diffidence; command"
+   ],
+   "answer": 3,
+   "explanation": "Feigned hesitation is 'diffidence' (shyness), used to 'command' attention. 'Bombast' (inflated speech) and 'candour' (frankness) are not hesitation; 'squander' would defeat the device."
+  },
+  {
+   "id": "q7",
+   "type": "Vocabulary",
+   "question": "A ________ observer of the market, she predicted the collapse months before it occurred, though few ________ her warnings at the time.",
+   "options": [
+    "myopic; heeded",
+    "naive; heeded",
+    "shrewd; ignored",
+    "shrewd; heeded"
+   ],
+   "answer": 3,
+   "explanation": "An observer who predicted a collapse is 'shrewd'; 'though few heeded her warnings' sets up the contrast. 'Naive' and 'myopic' (short-sighted) contradict an accurate prediction; 'few ignored' would not contrast with it."
+  },
+  {
+   "id": "q8",
+   "type": "Vocabulary",
+   "question": "The ________ of the new policy was soon apparent: far from ________ the problem, it aggravated it.",
+   "options": [
+    "folly; aggravating",
+    "success; alleviating",
+    "folly; alleviating",
+    "wisdom; compounding"
+   ],
+   "answer": 2,
+   "explanation": "'Far from alleviating the problem, it aggravated it' shows the policy's 'folly'. 'Success' and 'wisdom' contradict aggravation; 'far from aggravating... it aggravated' is illogical."
+  },
+  {
+   "id": "q9",
+   "type": "Vocabulary",
+   "question": "He was ________ by nature, preferring the company of books to that of people, and he ________ every invitation to dinner.",
+   "options": [
+    "convivial; accepted",
+    "reclusive; declined",
+    "gregarious; declined",
+    "reclusive; accepted"
+   ],
+   "answer": 1,
+   "explanation": "A man who prefers books to people is 'reclusive' and would 'decline' invitations. 'Gregarious' and 'convivial' mean sociable; 'accepted' contradicts the preference."
+  },
+  {
+   "id": "q10",
+   "type": "Grammar",
+   "question": "It is imperative that every candidate <u>submits</u> the form.",
+   "options": [
+    "submit",
+    "has submitted",
+    "submitted",
+    "will submit"
+   ],
+   "answer": 0,
+   "explanation": "After expressions of necessity or urgency such as 'imperative that', the subjunctive (base form) is used: 'that every candidate submit'."
+  },
+  {
+   "id": "q11",
+   "type": "Grammar",
+   "question": "She is <u>incapable to understand</u> the problem.",
+   "options": [
+    "incapable to understanding",
+    "incapable of understanding",
+    "not capable at understanding",
+    "incapable for understand"
+   ],
+   "answer": 1,
+   "explanation": "'Incapable' takes 'of' followed by a gerund: 'incapable of understanding'."
+  },
+  {
+   "id": "q12",
+   "type": "Grammar",
+   "question": "<u>Neither the manager nor the employees was</u> aware of the change.",
+   "options": [
+    "Neither the manager nor the employees has been",
+    "Neither of the manager nor the employees were",
+    "Neither the manager or the employees was",
+    "Neither the manager nor the employees were"
+   ],
+   "answer": 3,
+   "explanation": "With 'neither... nor' the verb agrees with the nearer subject, 'the employees' (plural): 'were'. 'Nor', not 'or', must pair with 'neither'."
+  },
+  {
+   "id": "q13",
+   "type": "Grammar",
+   "question": "The more he practised, <u>better he became</u>.",
+   "options": [
+    "the better he became",
+    "he became the better",
+    "better did he become",
+    "he was becoming better"
+   ],
+   "answer": 0,
+   "explanation": "The construction 'The more..., the better...' requires 'the' before the comparative in both clauses: 'the better he became'."
+  },
+  {
+   "id": "q14",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "The preacher's unctuous warmth won over the congregation, who trusted his sincerity.",
+    "A palpable tension filled the room as the results of the vote were read out slowly by the returning officer.",
+    "The explanation was lucid enough that even the novices followed every step of the argument that was put forward.",
+    "The tenant was obliged to vacate the premises within thirty days of the notice having been served upon him."
+   ],
+   "answer": 0,
+   "explanation": "'Unctuous' means oily and insincere, so it cannot describe warmth that won the congregation's trust in his sincerity. 'Lucid' (clear), 'vacate' and 'palpable' (tangible) are used correctly."
+  },
+  {
+   "id": "q15",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "The singer's voice had an ethereal quality that seemed scarcely to belong to this world at all.",
+    "The councillor's rhetoric was bellicose, urging the two sides to settle peacefully.",
+    "The report's findings were corroborated by three independent studies carried out in different countries.",
+    "The magistrate was lenient with first offenders, believing that a harsh sentence would only harden them."
+   ],
+   "answer": 1,
+   "explanation": "'Bellicose' means eager to fight, which contradicts urging a peaceful settlement; 'conciliatory' is intended. 'Corroborated' (confirmed), 'lenient' (merciful) and 'ethereal' (delicate, heavenly) are correct."
+  },
+  {
+   "id": "q16",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "The old man's reticence made him a poor witness, since he volunteered nothing and answered only direct questions.",
+    "The two companies agreed to a merger that was advantageous to the shareholders on both sides of the deal.",
+    "The merchant's avarice was well known; he gave generously to every charity in the town.",
+    "She felt a profound ennui during the long lecture and counted the minutes until it came to an end."
+   ],
+   "answer": 2,
+   "explanation": "'Avarice' means greed, which contradicts generous giving; 'munificence' or 'generosity' is intended. 'Reticence' (reserve), 'advantageous' and 'ennui' (boredom) are correct."
+  },
+  {
+   "id": "q17",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nOpinion polls are often treated as measurements, but they are better understood as estimates. ____________________. A poll of a thousand people can describe a country of a billion only if the sample resembles it, and the margin of error that accompanies a poll covers sampling chance but not the bias that arises when some kinds of people refuse to answer.",
+   "options": [
+    "Their accuracy depends less on the size of the sample than on how well it represents the population.",
+    "A larger sample always produces a more accurate estimate, whatever the manner in which the respondents have been chosen.",
+    "Margins of error are reported for the benefit of newspapers, since they have no bearing on the reliability of any poll.",
+    "Pollsters have no means of correcting for the fact that some people decline to answer the questions that are put to them."
+   ],
+   "answer": 0,
+   "explanation": "The following sentences stress representativeness and non-response bias over sample size. The other options contradict this or overstate."
+  },
+  {
+   "id": "q18",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nEconomists use the term 'sticky' for prices and wages that adjust slowly. ____________________. If wages were perfectly flexible, a fall in demand would simply lower wages and leave employment intact; because employers and workers resist nominal pay cuts, the adjustment falls instead on jobs, which is why downturns produce unemployment.",
+   "options": [
+    "Flexible wages guarantee full employment, and so governments should abolish minimum wages in every sector of the economy.",
+    "Stickiness matters because it shifts the burden of adjustment from prices on to quantities.",
+    "Prices that adjust slowly are always a sign that a market is controlled by a single seller or by a small group of firms.",
+    "Wages are sticky only in countries where trade unions are strong enough to prevent employers from cutting pay."
+   ],
+   "answer": 1,
+   "explanation": "The example shows adjustment falling on employment (quantity) rather than wages (price), which the correct option states. The other options introduce unions, monopoly or policy advice not discussed."
+  },
+  {
+   "id": "q19",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nHeritage conservation is usually defended as a duty to the past. ____________________. Choosing which buildings to preserve is a decision about which pasts are worth keeping, and since resources are limited, each preserved structure displaces some other use of the land. The question is therefore as much about present priorities as about history.",
+   "options": [
+    "It is, however, equally a choice made by the present, with costs borne by the present.",
+    "Old buildings are always more valuable than new ones, and so must be preserved wherever they are found in a city.",
+    "Governments conserve heritage only when the buildings in question are owned by the state and open to the public.",
+    "The cost of conservation is usually met by private donors, and so it does not compete with other uses of public money."
+   ],
+   "answer": 0,
+   "explanation": "The following sentences stress present choices and trade-offs. The other options make claims about value, ownership or funding that the paragraph does not support, and the last contradicts 'displaces some other use'."
+  },
+  {
+   "id": "q20",
+   "type": "RC",
+   "question": "According to Dr. Menon, a given quantity of emissions produces higher concentrations in winter because",
+   "passageId": "CA1",
+   "options": [
+    "people burn more fuel for heating in the winter months than in any other season of the year at all",
+    "the wind speed is highest in winter, and it carries pollutants from the neighbouring states into the city",
+    "winter is the season in which most of the pollution in north India is actually emitted by the various sources",
+    "cold air near the ground lies beneath warmer air, trapping pollutants"
+   ],
+   "answer": 3,
+   "explanation": "He says 'cold air near the ground sits beneath warmer air above it, so pollutants cannot rise and spread'. He does not say winter emissions are higher or that winds are stronger."
+  },
+  {
+   "id": "q21",
+   "type": "RC",
+   "question": "Dr. Menon's remark that the weather 'sets the multiplier' means that the weather",
+   "passageId": "CA1",
+   "options": [
+    "multiplies the number of sources of pollution that are active on any given day during the winter season",
+    "is the main source of the pollution that appears in north India every November, together with crop burning",
+    "has no influence on pollution levels, which depend wholly on the quantity of emissions from all sources",
+    "amplifies the effect of emissions without creating the pollution itself"
+   ],
+   "answer": 3,
+   "explanation": "He adds immediately 'it does not create the pollution'; the atmosphere's capacity to disperse changes how much the same emissions concentrate. The other options contradict this."
+  },
+  {
+   "id": "q22",
+   "type": "RC",
+   "question": "According to Dr. Menon, emergency bans are preferred to lasting measures because they",
+   "passageId": "CA1",
+   "options": [
+    "are supported by scientific evidence that the measures that matter have failed in other countries",
+    "are certain to reduce pollution from every source within a few days of their being announced",
+    "cost the government less than the measures that would reduce emissions throughout the year",
+    "are visible, whereas the measures that matter are slow and unglamorous"
+   ],
+   "answer": 3,
+   "explanation": "He says the lasting measures are 'slow and unglamorous, which is why emergency bans are preferred: they are visible'. He does not say they work from every source, or cost less."
+  },
+  {
+   "id": "q23",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Regulators depend on the industries they oversee for information and, often, for later employment.\n2. Concentrated interests are well funded and persistent, whereas the public's interest is diffuse.\n3. Over time, the regulator may come to see problems through the eyes of the regulated.\n4. Economists call this regulatory capture.",
+   "answer": "2134",
+   "explanation": "Sentence 2 states why pressure runs one way. Sentence 1 adds the regulator's dependence. Sentence 3 ('Over time') gives the outcome. Sentence 4 ('this') names it. Order: 2-1-3-4."
+  },
+  {
+   "id": "q24",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Economists therefore adjust such figures to remove regular seasonal patterns.\n2. Retail sales jump every December and unemployment among young people rises each summer.\n3. The adjusted series reveals whether the underlying trend is genuinely rising or falling.\n4. Comparing December with November would therefore mislead.\n5. These movements are predictable, and say nothing about the underlying trend.",
+   "answer": "25413",
+   "explanation": "Sentence 2 gives the examples. Sentence 5 ('These movements') comments on them. Sentence 4 ('therefore') draws a consequence. Sentence 1 ('therefore adjust') gives the remedy. Sentence 3 gives the result. Order: 2-5-4-1-3."
+  },
+  {
+   "id": "q25",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. For decades the observation held, driving falling costs and rising performance across the electronics industry.\n2. It was not a law of nature but a target that the industry adopted and organised its research around.\n3. As transistors approach atomic dimensions, the doubling has slowed and the old pace can no longer be assumed.\n4. Gordon Moore observed in 1965 that the number of transistors on a chip was doubling at regular intervals.",
+   "answer": "4123",
+   "explanation": "Sentence 4 states the observation. Sentence 1 ('the observation held') describes its decades of success. Sentence 2 explains it as a self-adopted target. Sentence 3 ('As transistors approach...') gives the present limit. Order: 4-1-2-3."
+  },
+  {
+   "id": "q26",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. If everyone saves more at once, spending falls and firms cut output and jobs.\n2. Incomes then fall, and the savings that people hoped to accumulate shrink with them.\n3. Saving is a virtue for the individual household.\n4. This is the paradox of thrift: what is prudent for each can be harmful for all.\n5. For the economy as a whole, however, the picture changes.",
+   "answer": "35124",
+   "explanation": "Sentence 3 states the household view. Sentence 5 ('however') shifts to the economy. Sentence 1 gives the mechanism. Sentence 2 ('then') follows the chain. Sentence 4 ('This is the paradox') names it. Order: 3-5-1-2-4."
+  },
+  {
+   "id": "q27",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. A fair test must include the failures as well as the successes.\n2. Yet the firms that took similar risks and failed have disappeared from the sample.\n3. Studies of successful firms often conclude that bold risk-taking explains their success.\n4. This is survivorship bias: conclusions are drawn from the survivors alone.",
+   "answer": "3241",
+   "explanation": "Sentence 3 states the common conclusion. Sentence 2 ('Yet') points to the missing failures. Sentence 4 ('This is') names the bias. Sentence 1 gives the remedy. Order: 3-2-4-1."
+  },
+  {
+   "id": "q28",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC1",
+   "options": [
+    "Laws against fraud and defamation are sufficient, and no new rules are needed to deal with deepfakes of private individuals",
+    "Synthetic media erode trust in evidence generally, and technical fixes alone cannot restore it",
+    "Detection tools and provenance standards will solve the problem of synthetic media once they are adopted widely enough by manufacturers",
+    "Deepfakes are dangerous chiefly because they persuade large numbers of voters to believe falsehoods that they would otherwise have rejected"
+   ],
+   "answer": 1,
+   "explanation": "The author argues that fakes and the liar's dividend damage trust, that both detection and provenance have structural limits, and that institutions must bear the weight. The other options are rejected: persuasion is said to be limited, the tools are not a full solution, and law is only a partial response."
+  },
+  {
+   "id": "q29",
+   "type": "RC",
+   "question": "The 'liar's dividend' refers to the fact that",
+   "passageId": "RC1",
+   "options": [
+    "companies gain by selling detection tools to those who fear that they will be targeted by forgeries",
+    "politicians can profit by paying for fabricated recordings that damage their opponents during election campaigns",
+    "audiences become more sceptical of fabricated recordings, and so are rarely deceived by them in practice",
+    "genuine recordings can be dismissed as fabrications by those they incriminate"
+   ],
+   "answer": 3,
+   "explanation": "The passage defines it as the risk that 'genuine recordings will be disbelieved', since anyone caught in a real one can claim it is fake. The other options are not described."
+  },
+  {
+   "id": "q30",
+   "type": "RC",
+   "question": "The author calls detection 'an arms race' because",
+   "passageId": "RC1",
+   "options": [
+    "every detector eventually becomes a generator, since both kinds of tool depend on the same training data",
+    "the forger need beat the detector only once, while the detector must succeed every time",
+    "forgers have access to far more computing power than the organisations that build the detection tools",
+    "detectors are developed by governments, which cannot share their methods with the firms that build generation tools"
+   ],
+   "answer": 1,
+   "explanation": "The passage says 'the forger needs to beat the detector only once and the detector must succeed every time'. The other reasons are not given."
+  },
+  {
+   "id": "q31",
+   "type": "RC",
+   "question": "The author's concern about provenance standards is that",
+   "passageId": "RC1",
+   "options": [
+    "they work only for video, and cannot be applied to still photographs or to recordings of speech",
+    "they require every user to disclose the place and time of every photograph that he or she takes",
+    "recordings lacking a credential may be treated as suspect, stigmatising what cannot be certified",
+    "cryptographic records can be forged more easily than the images that they are intended to authenticate"
+   ],
+   "answer": 2,
+   "explanation": "The passage says 'the absence of a credential will itself be treated as suspicious' and 'a system that certifies the authentic risks stigmatising everything it cannot certify'."
+  },
+  {
+   "id": "q32",
+   "type": "RC",
+   "question": "Each of the following is mentioned as a limitation of legal responses EXCEPT that",
+   "passageId": "RC1",
+   "options": [
+    "judges are unwilling to admit recordings as evidence in criminal trials",
+    "broad bans on false content invite governments to define falsity in their own interest",
+    "they do little against the diffuse erosion of trust",
+    "labelling mandates may be applied selectively to critics"
+   ],
+   "answer": 0,
+   "explanation": "The first three limits appear in the fifth paragraph. The passage never says judges refuse to admit recordings; it says courts are likely to demand corroboration."
+  },
+  {
+   "id": "q33",
+   "type": "RC",
+   "question": "The author's concluding view is that",
+   "passageId": "RC1",
+   "options": [
+    "the harm of synthetic media is confined to the deception of individuals and can be met by punishing the guilty",
+    "evidence has always rested on trust in the chain that carries it, which technology has made visible",
+    "the old confidence in the photograph can be restored if courts adopt strict technical standards for recordings",
+    "photographs should no longer be admitted as evidence, and newsrooms should publish no footage that cannot be authenticated"
+   ],
+   "answer": 1,
+   "explanation": "The last paragraph says 'None of this restores the old confidence in the photograph, and it should not try to' and that technology 'has merely made the dependence visible'."
+  },
+  {
+   "id": "q34",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC2",
+   "options": [
+    "Pro-natal policies have failed because governments have spent too little, and larger payments would restore fertility to replacement level",
+    "The demographic dividend guarantees rapid growth in any country whose share of working-age people rises, whatever the state of its economy",
+    "Ageing is a slow structural shift whose costs depend on what societies do while the dividend lasts",
+    "Falling fertility threatens a collapse of India's population within a decade, and governments must therefore introduce generous birth incentives immediately"
+   ],
+   "answer": 2,
+   "explanation": "The author concludes that ageing is 'neither a catastrophe nor something to be wished away' and that the decisive variable is what a society does during the interval. The other options are contradicted: momentum keeps population growing, the dividend is not guaranteed, and the puzzle is that spending has had limited effect."
+  },
+  {
+   "id": "q35",
+   "type": "RC",
+   "question": "Population momentum explains why",
+   "passageId": "RC2",
+   "options": [
+    "a country's population can keep growing for decades after fertility has fallen to replacement",
+    "countries with many young adults must have higher fertility rates than countries with many elderly people",
+    "fertility rates fall faster in countries with large populations than in countries with small populations of similar age",
+    "populations stop growing at the moment when fertility falls to the replacement level of about two children"
+   ],
+   "answer": 0,
+   "explanation": "The passage says a country with many young adults 'will continue to add people for decades even after... fertility has fallen to replacement'. The other options misstate this."
+  },
+  {
+   "id": "q36",
+   "type": "RC",
+   "question": "The statement that the dividend is 'a possibility and not a guarantee' means that",
+   "passageId": "RC2",
+   "options": [
+    "a young population is always a source of unrest unless the government has first raised the retirement age",
+    "it occurs only in countries where manufacturing is expanding more rapidly than the services sector",
+    "it becomes a gain only if the additional workers find productive employment",
+    "East Asian economies are the only countries in which the share of working-age people has ever risen"
+   ],
+   "answer": 2,
+   "explanation": "The passage says 'It becomes a gain only if the additional workers find productive employment'. The other options are not claimed."
+  },
+  {
+   "id": "q37",
+   "type": "RC",
+   "question": "The warning that India 'may grow old before it grows rich' suggests that",
+   "passageId": "RC2",
+   "options": [
+    "Japan and Europe became rich only after their populations had begun to age in earnest and to decline",
+    "it will face ageing at a much lower level of income than Japan or Europe did",
+    "its pension systems will collapse as soon as its fertility rate falls to the replacement level of about two",
+    "its population will begin to fall before its national income reaches the level of the poorest countries in the world"
+   ],
+   "answer": 1,
+   "explanation": "The passage says countries that began ageing while rich 'face the problem with accumulated assets', whereas 'India will meet it at a much lower level of income'."
+  },
+  {
+   "id": "q38",
+   "type": "RC",
+   "question": "According to the passage, pro-natal policies have had modest effects because",
+   "passageId": "RC2",
+   "options": [
+    "such incentives are cancelled by the contraceptive measures that governments continue to subsidise in those countries",
+    "couples in Hungary and South Korea prefer to remain childless because of the high rate of taxation there",
+    "the decision to have a child depends on deeper conditions such as secure work, housing and shared care",
+    "governments have spent too little, and the payments offered have been smaller than the cost of raising a child"
+   ],
+   "answer": 2,
+   "explanation": "The passage says the decision 'depends less on transient incentives than on deeper conditions: secure employment, affordable housing, an expectation that the burden of care will be shared'."
+  },
+  {
+   "id": "q39",
+   "type": "RC",
+   "question": "Each of the following is mentioned as a way of meeting the strain of ageing EXCEPT",
+   "passageId": "RC2",
+   "options": [
+    "allowing workers to retire later in life than before",
+    "raising taxes on the workers who finance pensions",
+    "admitting more immigrants of working age to the country",
+    "abolishing pensions in favour of charity"
+   ],
+   "answer": 3,
+   "explanation": "The passage lists 'higher taxes, later retirement, lower benefits, more immigration or higher productivity'. Replacing pensions with charity is not mentioned."
+  },
+  {
+   "id": "q40",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC3",
+   "options": [
+    "Dollar stablecoins raise questions of monetary sovereignty and stability that sound domestic money and institutions must answer",
+    "Stablecoins are harmless to emerging economies, since people adopt them only when their own currencies are unreliable",
+    "Stablecoins will replace national currencies within a decade, and central banks should therefore stop issuing money of their own accord",
+    "Central bank digital currencies have failed because the public prefers private tokens to claims on a central bank"
+   ],
+   "answer": 0,
+   "explanation": "The author discusses substitution, network effects, stability and revenue, and suggests a convenient domestic payment system is a defence. The other options are one-sided or contradict the passage."
+  },
+  {
+   "id": "q41",
+   "type": "RC",
+   "question": "'Currency substitution' refers to a situation in which",
+   "passageId": "RC3",
+   "options": [
+    "a central bank issues a digital form of its currency in order to compete with private tokens at home",
+    "residents exchange their savings for gold in order to protect themselves from the effects of inflation",
+    "residents hold a foreign currency, so the central bank's rate decisions bind less of the economy",
+    "a government replaces its own currency by decree with the currency of a larger and more stable trading partner"
+   ],
+   "answer": 2,
+   "explanation": "The passage says that when residents 'hold and transact in a foreign currency, the central bank loses control of part of the money supply, and its interest-rate decisions bind a smaller share of economic activity'."
+  },
+  {
+   "id": "q42",
+   "type": "RC",
+   "question": "The argument from network effects implies that",
+   "passageId": "RC3",
+   "options": [
+    "foreign currencies become widely accepted only where the local currency has already been abandoned by its government",
+    "a good local currency can lose users to a foreign one that is more widely accepted",
+    "network effects raise the cost of holding foreign currency, and so protect domestic money from its rivals",
+    "a currency's value depends on the quality of the institutions that issue it and not on how many people accept it"
+   ],
+   "answer": 1,
+   "explanation": "The author says 'A stable local currency may therefore be undermined by a more widely accepted foreign one, even if it is in no way inferior'."
+  },
+  {
+   "id": "q43",
+   "type": "RC",
+   "question": "The example of India's Unified Payments Interface is used to show that",
+   "passageId": "RC3",
+   "options": [
+    "instant transfers between bank accounts are possible only if the payment is routed through a central bank",
+    "the Reserve Bank of India has abandoned its pilots of a digital rupee because they proved too costly",
+    "digital central bank currencies are unnecessary only in countries that have adopted the digital rupee",
+    "a convenient domestic payment system can reduce the appeal of a foreign substitute"
+   ],
+   "answer": 3,
+   "explanation": "The author says UPI already offers most of what a digital currency would, and concludes 'the best defence of monetary sovereignty may be a payment system so convenient that no foreign substitute is needed'."
+  },
+  {
+   "id": "q44",
+   "type": "RC",
+   "question": "Each of the following is mentioned as a stability concern about stablecoins EXCEPT that",
+   "passageId": "RC3",
+   "options": [
+    "issuers might be forced to sell bonds quickly after a loss of confidence",
+    "regulation may make stablecoins resemble the banks they were meant to replace",
+    "issuers are barred from holding government securities as reserves",
+    "a run on a stablecoin could become a run on the banks that hold its reserves"
+   ],
+   "answer": 2,
+   "explanation": "The fifth paragraph mentions the first three concerns. The passage says stablecoins are 'typically backed by' government securities, so they are not barred from holding them."
+  },
+  {
+   "id": "q45",
+   "type": "RC",
+   "question": "The author describes the effect on a country whose residents hold such tokens as",
+   "passageId": "RC3",
+   "options": [
+    "a reduction in the interest rate paid on its government bonds",
+    "an increase in domestic inflation caused by the spread of the tokens",
+    "a transfer of seigniorage abroad",
+    "a gain in the form of cheaper cross-border payments"
+   ],
+   "answer": 2,
+   "explanation": "The passage says 'For a country whose residents hold such tokens, the effect is a transfer of seigniorage abroad', while noting that cheaper payments may or may not outweigh it."
+  }
+ ]
 }
 ]
