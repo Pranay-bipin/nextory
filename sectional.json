@@ -5342,5 +5342,596 @@
    "explanation": "The passage says 'For a country whose residents hold such tokens, the effect is a transfer of seigniorage abroad', while noting that cheaper payments may or may not outweigh it."
   }
  ]
+},
+  {
+ "id": "sec-2026-11-03",
+ "date": "2026-11-03",
+ "title": "IPMAT Indore VA Sectional – 3rd Nov 2026 (Advanced Analytical)",
+ "durationMinutes": 45,
+ "totalQuestions": 45,
+ "passages": {
+  "RC1": "In much of north-west India the water table has been falling for decades. The Green Revolution, which made the region the country's granary, rested on tube wells, and tube wells in turn rested on a pricing arrangement that is easy to defend in each of its parts and ruinous in combination: electricity for farm pumps is free or heavily subsidised, water drawn from beneath a farmer's land is effectively unpriced, and crops are procured at assured prices. Each measure was introduced to help farmers. Together they tell a farmer that the marginal cost of pumping another hour is zero and that the return from a thirsty crop such as paddy is guaranteed. The result is what economists would predict: the resource is used until it is nearly gone.\n\nThe standard diagnosis is a tragedy of the commons, since an aquifer is shared and each farmer who pumps more reduces the water available to the others. That description is correct but incomplete. The commons problem would arise even if electricity were priced; what the subsidy adds is a further distortion that makes pumping artificially cheap, so that the problem is worsened by policy and not merely by nature. The distinction matters because it identifies who can act. A commons problem needs coordination among users; a subsidy problem needs a decision by government, and governments have found it the harder of the two to take. Calling the aquifer a commons also hides a difference between farmers, since those with deeper wells can keep pumping after shallower ones have failed, so that the fall in the water table sorts cultivators by capital as well as by luck.\n\nThe difficulty is political, and the political economy is instructive. The beneficiaries of free power are numerous, concentrated in particular regions and organised as voters, whereas the costs are diffuse, deferred and borne by future cultivators and by those downstream. A government that removes the subsidy imposes a visible loss on a large group today in exchange for a benefit that will be enjoyed, if at all, by someone else later. Attempts at reform have therefore tended to be partial: metering that is not enforced, tariffs that are announced and then reversed, or schemes that pay farmers in cash for the electricity they save. The last of these is the most promising, because it converts the subsidy from a price distortion into a transfer, preserving the farmer's income while restoring the incentive to economise.\n\nCash for saving power is an application of a general principle: it is better to support people's incomes directly than to support them by distorting the prices they face. A farmer who receives a fixed payment regardless of how much water he pumps is as well off as before but now treats an extra hour of pumping as a cost. The principle is sound, but its application is not trivial. A transfer must be large enough to compensate, credibly permanent, and delivered reliably; farmers who doubt that the payment will continue have good reason to resist the loss of the subsidy they know. Trust in the state's promises is, in this sense, a precondition for reform and not an afterthought.\n\nPricing alone will not settle the matter. Water that is not priced to reflect its scarcity is wasted, but water that is priced without regard to equity may be withheld from those who cannot pay, and the same tube well that pumps for a large landowner may be the only source for a smallholder. Technical remedies exist, among them drip irrigation, laser levelling and diversification away from paddy, but each requires capital and information that the poorest farmers lack, and each saves water at the level of the farm without necessarily reducing the total drawn from the aquifer. Efficiency gains in the field can even raise consumption: when water is used more productively, farmers may irrigate a larger area, a phenomenon known as the rebound effect. A programme that counts litres saved per hectare, and not litres drawn from the aquifer, may therefore report success while the water table continues to fall.\n\nThe lesson is that conservation is as much a problem of institutions as of engineering. Programmes that treat the aquifer as a shared asset, with local rules on drawing and community monitoring of levels, have had some success where trust among users was high and the rules were enforced. Programmes that merely distribute equipment have had less. A durable solution is likely to combine three things: a pricing reform that restores the incentive to economise, a transfer that protects the incomes of those who lose, and local institutions that make the limit on extraction credible to those who must observe it. None is sufficient alone, and each is politically costly. That is why the water table has continued to fall: not because the remedy is unknown, but because the people who must adopt it have so much to lose by acting first.",
+  "RC2": "Over the past few years a number of Indian states have introduced unconditional cash transfers to women, paid monthly into their bank accounts and justified as recognition of unpaid household work, as protection against rising prices, or simply as a means of putting purchasing power in the hands of those who spend it on their families. The schemes are popular and, in the electoral calendar, remarkably effective. They have also reopened an old debate about the form that welfare should take: whether the state should provide goods and services, such as food grain, schooling and health care, or should give people money and allow them to choose.\n\nThe case for cash begins with respect for the recipient. A household knows its own needs better than any ministry, and a transfer lets it buy what it lacks, which may be medicine in one household and school fees in another. Cash also tends to be cheaper to deliver, since it avoids the storage, transport and leakage that attend physical goods, and the expansion of digital payments and bank accounts has lowered the cost further. Evidence from several countries suggests that, contrary to a persistent suspicion, recipients do not in general squander transfers on temptation goods; many spend them on food, children's education and small investments. A further advantage is that cash lets the recipient decide when to spend, which matters to households with irregular incomes who must cope with sudden costs such as a hospital bill or a failed harvest.\n\nThe case against cash is less often stated than it deserves to be. The first objection is that some goods have benefits that extend beyond the buyer. A household deciding whether to vaccinate a child, or to send her to school, weighs private costs and benefits; it does not count the benefit to neighbours who are protected from disease or to a society that gains from educated citizens. Where such spillovers are large, a transfer in kind or a conditional payment may be justified. The second objection is that cash is vulnerable to inflation: a fixed sum buys less each year unless it is indexed, while a guaranteed quantity of grain does not. The third is fiscal: a transfer paid to a large fraction of households is a large and recurring commitment, and states that adopt it may find themselves cutting capital spending or the provision of services to pay for it.\n\nThese objections can be exaggerated. The argument from spillovers supports a conditional transfer, not a refusal to give cash, and where conditions have been tried they have often worked, though they impose administrative costs and may exclude the poorest households, who find them hardest to meet. The argument from inflation supports indexation. The fiscal argument is the most serious, but it concerns scale and affordability and not the form of the transfer: a state that cannot afford a cash scheme cannot necessarily afford an equivalent scheme in kind. The fair conclusion is that the choice between cash and kind cannot be settled in the abstract; it depends on what the household is likely to buy, on whether the market for the good is competitive, and on how much the state trusts its capacity to deliver.\n\nA subtler question concerns targeting. A universal scheme avoids the errors of identifying the poor, which are of two kinds: the deserving are excluded, and the undeserving are included. Exclusion errors are the more troubling, since they deprive people of what they need and are hard to correct, as many who are poor lack the documents that establish eligibility. A universal transfer eliminates them but at greater cost, and much of the money goes to those who do not need it. Targeted schemes are cheaper per beneficiary but are subject to political decay: programmes for the poor tend to be poor programmes, since the middle class, which does not benefit, has little interest in defending their quality. The choice between universal and targeted schemes is therefore not only a matter of arithmetic but of who will speak up for the scheme once it has been introduced.\n\nThe electoral dimension complicates the analysis. A transfer is visible, personal and attributable to a particular government, which makes it an unusually effective instrument of politics and therefore one that governments are tempted to expand in the run-up to elections and to withdraw quietly after them. That is an argument not against cash but for rules: transfers whose size, indexation and eligibility are set in law are less prone to manipulation than those announced as favours. Welfare of any form is a promise, and its value to the recipient depends on whether the promise can be relied on. Whether a state gives cash or kind, the quality of its institutions determines whether the benefit arrives, and whether it lasts.",
+  "RC3": "Since 2025 the United States has raised tariffs on most of its trading partners, and the stated reason has often been the trade deficit: the United States buys more from the world than it sells, and a tariff, it is argued, will bring the figures into balance. The claim rests on an intuition that a deficit with a country is a loss inflicted by that country, a debt owed by one's own people to another's. The intuition is powerful and, as economists have patiently explained for two centuries, largely mistaken, though not in the way that its critics sometimes suppose.\n\nA country's trade balance is an accounting identity as much as a measure of competitiveness. It equals the difference between what the country saves and what it invests at home. If a country invests more than it saves, it must borrow the difference from abroad, and the means by which foreigners lend is by selling it more than they buy: a current-account deficit is the other face of a capital-account surplus. On this view the American deficit reflects low domestic saving, a large government deficit and the willingness of the world to hold dollar assets, and not the cunning of exporters. A tariff on imports does not change these underlying quantities directly; unless it raises saving or reduces investment, the deficit will simply reappear in another form, perhaps through a stronger dollar that makes the remaining imports cheaper.\n\nIt follows that bilateral deficits are poor guides to anything. Countries do not trade with one another in pairs; they trade in a network, and a country may run a deficit with one partner and a surplus with another without any imbalance overall. India's own pattern shows the point: it has long run a deficit with China, from which it imports electronics and machinery, and a surplus with the United States, to which it exports services and goods. To demand that each bilateral account be balanced is to demand that a country buy from each partner exactly what it sells, a condition that would shrink trade and impoverish everyone, and which no economy has ever met.\n\nThe identity, however, is easily misused in the opposite direction. To say that deficits reflect saving and investment is not to say that trade policy is irrelevant or that all deficits are benign. Persistent deficits financed by short-term borrowing can make a country vulnerable to a sudden loss of confidence, as emerging economies have found. Tariffs also have effects that go beyond the headline balance. They raise prices for consumers and for firms that use imported inputs, they invite retaliation, and they redistribute income from consumers and exporters to protected producers. A tariff on steel may save jobs in steel while costing more jobs in the industries that buy steel, and the gains, being concentrated and visible, are easier to claim than the losses, which are dispersed and hard to trace. Nor is retaliation a simple answer, since a country that raises tariffs in response may merely add to the damage done to its own consumers while failing to change the policy of its partner.\n\nThere is a respectable argument for tariffs which the macroeconomic identity does not dispose of. If a country depends on foreign suppliers for goods whose interruption would be dangerous, such as medicines, semiconductors or defence components, it may reasonably pay a premium to produce them at home, and a tariff is one way to do so. The argument is about security and resilience and not about the deficit, and it should be assessed on its own terms: how critical is the good, how likely is a disruption, and what is the cheapest means of insuring against it? A subsidy or a stockpile may achieve the same end at less cost to consumers. The question of scale also matters: few countries can make everything, and the list of goods described as strategic tends to lengthen whenever a protected industry finds that the label is useful. A tariff defended as protection against a deficit and a tariff defended as insurance are different measures, and confusing them leads to poor policy.\n\nThe episode illustrates how an economic claim can persist because it is intuitively appealing and politically useful, whatever its merits. A deficit is easy to describe as a loss, a tariff easy to describe as a remedy, and the link between them requires a chain of reasoning that few voters have the time to follow. Those who defend open trade are therefore under an obligation that its critics are not: to explain, patiently, why a simple story is wrong and a complicated one right. They are also under an obligation to concede what is true in the simple story. Trade creates winners and losers, the losers are often concentrated in particular regions, and a policy that ignores them leaves the field open to those who promise relief, whether or not their remedies work.",
+  "CA1": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nSiddharth Rao (Host, Market Matters): The rupee has weakened again. Is that bad news?\n\nDr. Anjali Deshpande (international economist): It depends on who you are. A weaker rupee raises the price of imports, including oil, which feeds into inflation and hurts households and firms that have borrowed in dollars. But it makes exports cheaper abroad, which helps exporters and the workers they employ. So depreciation is not good or bad in itself; it is a transfer between groups.\n\nSiddharth Rao: Then why does the central bank spend reserves to defend the currency?\n\nDr. Anjali Deshpande: Usually not to defend a level but to smooth a movement. A slow decline allows firms to adjust; a sudden one can trigger panic, because people rush to buy dollars before the price rises further, and the panic then causes the very fall that was feared. Reserves are a buffer against that self-fulfilling spiral, not a guarantee of any particular rate.\n\nSiddharth Rao: Could the bank simply hold the rate fixed?\n\nDr. Anjali Deshpande: For a time. But holding a rate that markets think is too strong burns reserves, and when the reserves run low the adjustment is abrupt and costly. The honest position is to let the rate reflect fundamentals and use reserves to prevent disorder, not to deny the adjustment."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "Vocabulary",
+   "question": "The committee's ________ report, which skirted every contentious issue, satisfied no one and informed no one.",
+   "options": [
+    "anodyne",
+    "comprehensive",
+    "provocative",
+    "incisive"
+   ],
+   "answer": 0,
+   "explanation": "'Anodyne' means bland and inoffensive, matching a report that skirted contentious issues. 'Incisive', 'comprehensive' and 'provocative' would address the issues and inform readers."
+  },
+  {
+   "id": "q2",
+   "type": "Vocabulary",
+   "question": "With characteristic ________, the veteran negotiator conceded a minor point in order to secure a major one.",
+   "options": [
+    "intransigence",
+    "impetuosity",
+    "nonchalance",
+    "finesse"
+   ],
+   "answer": 3,
+   "explanation": "'Finesse' means subtle skill in handling a situation, fitting a calculated concession. 'Intransigence' (refusal to yield) contradicts conceding; 'impetuosity' (rashness) and 'nonchalance' (casual indifference) do not suggest calculation."
+  },
+  {
+   "id": "q3",
+   "type": "Vocabulary",
+   "question": "The new rules were meant to curb abuses, but they only ________: the offenders simply found other loopholes.",
+   "options": [
+    "bear fruit",
+    "scratch the surface",
+    "turn the tables",
+    "burn the candle at both ends"
+   ],
+   "answer": 1,
+   "explanation": "'Scratch the surface' means to deal with a problem only superficially. 'Bear fruit' is to succeed, 'turn the tables' is to reverse a situation, and 'burn the candle at both ends' is to exhaust oneself."
+  },
+  {
+   "id": "q4",
+   "type": "Vocabulary",
+   "question": "Though the chairman's praise sounded ________, those who knew him well recognised it as a calculated gesture.",
+   "options": [
+    "heartfelt",
+    "perfunctory",
+    "insincere",
+    "half-hearted"
+   ],
+   "answer": 0,
+   "explanation": "'Though' sets up a contrast: it sounded 'heartfelt' (sincere) but was calculated. 'Perfunctory', 'half-hearted' and 'insincere' would not contrast with a calculated gesture."
+  },
+  {
+   "id": "q5",
+   "type": "Vocabulary",
+   "question": "The reforms, ________ as bold, proved ________: they altered the language of the regulations but left the ________ of power exactly as it was.",
+   "options": [
+    "condemned; cosmetic; distribution",
+    "hailed; cosmetic; terminology",
+    "hailed; cosmetic; distribution",
+    "hailed; radical; distribution"
+   ],
+   "answer": 2,
+   "explanation": "Reforms 'hailed as bold' that only changed wording were 'cosmetic' and left the 'distribution' of power unchanged. 'Radical' contradicts the reforms leaving power as it was; 'condemned as bold' breaks the contrast; 'terminology' of power does not fit."
+  },
+  {
+   "id": "q6",
+   "type": "Vocabulary",
+   "question": "Her ________ scepticism, extended to every claim without distinction, was less a method than a ________: it required no evidence to ________ any proposition.",
+   "options": [
+    "indiscriminate; discipline; reject",
+    "indiscriminate; reflex; embrace",
+    "discerning; reflex; reject",
+    "indiscriminate; reflex; reject"
+   ],
+   "answer": 3,
+   "explanation": "Scepticism applied 'without distinction' is 'indiscriminate', and is a 'reflex' that needs no evidence to 'reject' any claim. 'Discerning' contradicts 'without distinction'; 'discipline' contradicts 'less a method'; 'embrace' reverses scepticism."
+  },
+  {
+   "id": "q7",
+   "type": "Vocabulary",
+   "question": "The explorer's diary is a ________ source: it was written years later, from memory, and reads in places like a work of fiction.",
+   "options": [
+    "indispensable",
+    "contemporaneous",
+    "authoritative",
+    "dubious"
+   ],
+   "answer": 3,
+   "explanation": "'Dubious' means open to doubt, which fits a source written later from memory. 'Authoritative', 'contemporaneous' (of the same time) and 'indispensable' contradict the description."
+  },
+  {
+   "id": "q8",
+   "type": "Vocabulary",
+   "question": "After weeks of rallying, the markets were acutely ________ to bad news, and even a ________ rumour was enough to send prices tumbling.",
+   "options": [
+    "sensitive; reassuring",
+    "indifferent; flimsy",
+    "sensitive; flimsy",
+    "immune; baseless"
+   ],
+   "answer": 2,
+   "explanation": "Markets 'acutely sensitive' to bad news fall even on a 'flimsy' rumour. 'Indifferent' and 'immune' contradict the fall; a 'reassuring' rumour would not send prices tumbling."
+  },
+  {
+   "id": "q9",
+   "type": "Vocabulary",
+   "question": "He was ________ in his dealings, never promising what he could not deliver and never concealing what he knew.",
+   "options": [
+    "ingratiating",
+    "scrupulous",
+    "devious",
+    "capricious"
+   ],
+   "answer": 1,
+   "explanation": "'Scrupulous' means careful to be honest and correct. 'Devious' (deceitful), 'capricious' (unpredictable) and 'ingratiating' (flattering for advantage) contradict the description."
+  },
+  {
+   "id": "q10",
+   "type": "Grammar",
+   "question": "I wish I <u>would have studied</u> harder.",
+   "options": [
+    "had studied",
+    "have studied",
+    "would study",
+    "studied"
+   ],
+   "answer": 0,
+   "explanation": "A wish about the past takes the past perfect: 'I wish I had studied'. 'Would have' is not used after 'wish' in this way."
+  },
+  {
+   "id": "q11",
+   "type": "Grammar",
+   "question": "She is <u>more cleverer than</u> her sister.",
+   "options": [
+    "more clever as",
+    "cleverer than",
+    "clever than",
+    "most clever than"
+   ],
+   "answer": 1,
+   "explanation": "'Clever' forms its comparative with '-er', so 'more cleverer' is a double comparative; the correct form is 'cleverer than'."
+  },
+  {
+   "id": "q12",
+   "type": "Grammar",
+   "question": "<u>Walking down the street, the accident was seen by him.</u>",
+   "options": [
+    "Walking down the street, the accident was seen by him at that moment.",
+    "The accident, walking down the street, was seen by him.",
+    "While walking, the street's accident was noticed by him.",
+    "Walking down the street, he saw the accident."
+   ],
+   "answer": 3,
+   "explanation": "'Walking down the street' must modify the person walking, so 'he' must be the subject. In the original and the other options the modifier dangles."
+  },
+  {
+   "id": "q13",
+   "type": "Grammar",
+   "question": "The committee <u>has been discussing since two hours</u> the proposal.",
+   "options": [
+    "has been discussing for two hours",
+    "has discussed since two hours",
+    "has been discussing from two hours",
+    "is discussing since two hours"
+   ],
+   "answer": 0,
+   "explanation": "'Since' marks a starting point in time; a period of time takes 'for': 'has been discussing for two hours'."
+  },
+  {
+   "id": "q14",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "Their fortuitous discovery, the result of years of planned searching, made headlines.",
+    "Her ambivalence about the job offer, torn between pay and place, delayed her reply for several days.",
+    "The critic was scathing about the film's plot but admired its photography and the quality of its acting.",
+    "The old fort stood on a precipice overlooking the sea, and the view from its walls was magnificent."
+   ],
+   "answer": 0,
+   "explanation": "'Fortuitous' means happening by chance, which contradicts years of planned searching. 'Scathing' (harshly critical), 'precipice' (steep cliff) and 'ambivalence' (mixed feelings) are correct."
+  },
+  {
+   "id": "q15",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "A sudden downpour forced the match to be abandoned, to the dismay of the spectators.",
+    "The bill was passed with alacrity, though the debate dragged on for months.",
+    "The auditor was meticulous, checking every entry in the ledgers against the receipts that supported it.",
+    "The sculptor worked in marble, and her figures had a stillness that seemed almost serene."
+   ],
+   "answer": 1,
+   "explanation": "'Alacrity' means brisk eagerness, which contradicts a debate that dragged on for months. 'Meticulous' (careful), 'serene' (calm) and 'abandoned' are used correctly."
+  },
+  {
+   "id": "q16",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "The surgeon performed the operation with remarkable dexterity, finishing well within the time allowed for it.",
+    "A pervasive sense of unease had settled over the town since the factory closed down in the spring.",
+    "The jury found the witness credulous, since his account was consistent and supported by documents.",
+    "The treaty obliges both parties to refrain from any act that might inflame the situation on the border."
+   ],
+   "answer": 2,
+   "explanation": "'Credulous' means too ready to believe; a consistent, documented account is 'credible'. 'Dexterity' (skill), 'pervasive' (widespread) and 'refrain' are correct."
+  },
+  {
+   "id": "q17",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nWhy do economists so often cite the lighthouse? ____________________. A lighthouse benefits every passing ship whether or not it pays, and the keeper cannot easily exclude non-payers, so private provision is hard even though the service is valuable. Economists use the example to illustrate public goods, while historians point out that some lighthouses were in fact privately financed through port fees.",
+   "options": [
+    "Because it is a service whose benefits cannot easily be confined to those who pay for it.",
+    "Because lighthouses were the first structures built by governments with the purpose of improving navigation at sea.",
+    "Because lighthouse keepers were among the first public employees whose salaries depended on the tolls collected.",
+    "Because a lighthouse warns ships against rocks, and ships that are warned never suffer from any shipwreck."
+   ],
+   "answer": 0,
+   "explanation": "The following sentences explain non-excludability, the defining feature of a public good. The other options introduce government history, shipwrecks or salaries, which the paragraph does not develop."
+  },
+  {
+   "id": "q18",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nA forecast is not a prediction of a single future. ____________________. A weather forecaster who says there is a seventy per cent chance of rain is right if it rains on seventy of a hundred such days, so that judging one forecast by one outcome is a mistake.",
+   "options": [
+    "Probabilities cannot be applied to events such as rain, which depend on too many causes to be calculated.",
+    "It assigns probabilities to outcomes, and is judged by its record over many cases.",
+    "Forecasters who give probabilities do so only to avoid being held accountable for the outcomes that follow.",
+    "A forecast that does not come true on a particular day is shown by that fact alone to have been wrong."
+   ],
+   "answer": 1,
+   "explanation": "The weather example shows a probabilistic forecast being assessed over many cases. The other options contradict this or are not supported."
+  },
+  {
+   "id": "q19",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nCities with identical populations can differ greatly in how crowded they feel. ____________________. Density measures people per unit of land, but what residents experience is determined by how the land is used, how tall the buildings are and how well the transport works. A city of tall towers with open space around them can feel less crowded than a low-rise city built wall to wall.",
+   "options": [
+    "The number of people is a poor guide to the experience of crowding.",
+    "Large cities are always more crowded than small ones, since they contain a greater number of people.",
+    "Tall buildings are the main cause of crowding in cities, and should be forbidden wherever land is scarce.",
+    "Residents of large cities generally complain about crowding more than residents of small towns do."
+   ],
+   "answer": 0,
+   "explanation": "The following sentences show that land use and design, not population, shape the experience. The other options contradict the example or add unsupported claims."
+  },
+  {
+   "id": "q20",
+   "type": "RC",
+   "question": "According to Dr. Deshpande, the effect of a weaker rupee is",
+   "passageId": "CA1",
+   "options": [
+    "beneficial to every group in the economy, since it makes exports cheaper in the markets of other countries",
+    "neutral, since the gains of exporters are exactly cancelled by the losses of consumers within a given year",
+    "harmful to every group in the economy, since it raises the price of oil and of goods that are imported",
+    "a transfer between groups: importers and dollar borrowers lose, while exporters gain"
+   ],
+   "answer": 3,
+   "explanation": "She says depreciation 'is not good or bad in itself; it is a transfer between groups'. Higher import prices and dollar debts hurt some, while cheaper exports help others."
+  },
+  {
+   "id": "q21",
+   "type": "RC",
+   "question": "Dr. Deshpande says that the central bank uses reserves mainly to",
+   "passageId": "CA1",
+   "options": [
+    "guarantee that firms which have borrowed in dollars are able to repay their debts without any loss",
+    "defend a particular level of the exchange rate for as long as the reserves of the bank allow it",
+    "reduce the price of oil and so to bring down inflation among households in the country",
+    "smooth a movement and prevent a self-fulfilling panic"
+   ],
+   "answer": 3,
+   "explanation": "She says reserves are used 'Usually not to defend a level but to smooth a movement' and are 'a buffer against that self-fulfilling spiral, not a guarantee of any particular rate'."
+  },
+  {
+   "id": "q22",
+   "type": "RC",
+   "question": "According to Dr. Deshpande, holding the exchange rate fixed for long is unwise because",
+   "passageId": "CA1",
+   "options": [
+    "the central bank is legally forbidden from holding any exchange rate fixed for more than a few months",
+    "markets always believe that a fixed rate is too weak, and so they withdraw their money from the country",
+    "a fixed rate makes exports cheaper abroad and so raises inflation among the households of the country",
+    "it burns reserves, and the eventual adjustment is abrupt and costly"
+   ],
+   "answer": 3,
+   "explanation": "She says holding a rate markets think too strong 'burns reserves, and when the reserves run low the adjustment is abrupt and costly'. She does not say markets always think it too weak, or that it is forbidden."
+  },
+  {
+   "id": "q23",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Money received now can be invested and earn a return, whereas money promised later cannot.\n2. The higher the rate of return available, the smaller the present value of any given future sum.\n3. A rupee today is worth more than a rupee a year from now.\n4. Economists therefore discount future sums to find their present value.",
+   "answer": "3142",
+   "explanation": "Sentence 3 states the idea. Sentence 1 explains why. Sentence 4 ('therefore') gives the practice. Sentence 2 gives the consequence of the rate. Order: 3-1-4-2."
+  },
+  {
+   "id": "q24",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. The breeders, left with worthless snakes, released them, and the cobra population rose.\n2. The story has become shorthand for a policy that worsens the problem it was meant to solve.\n3. Enterprising residents began to breed cobras in order to claim the reward.\n4. The colonial government of Delhi, it is said, offered a bounty for dead cobras.\n5. When the government discovered the scheme, it cancelled the bounty.",
+   "answer": "43512",
+   "explanation": "Sentence 4 starts the story. Sentence 3 describes the response. Sentence 5 ('When the government discovered') follows. Sentence 1 gives the outcome. Sentence 2 ('The story') generalises. Order: 4-3-5-1-2."
+  },
+  {
+   "id": "q25",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Output still rises, but at a decreasing rate, and may eventually fall.\n2. This is the law of diminishing returns.\n3. The first worker added to a farm contributes a great deal.\n4. Beyond a point, each additional worker adds less than the last, since they share the same land and tools.",
+   "answer": "3421",
+   "explanation": "Sentence 3 gives the starting case. Sentence 4 ('Beyond a point') shows the change. Sentence 2 ('This is') names it. Sentence 1 states the consequence for output. Order: 3-4-2-1."
+  },
+  {
+   "id": "q26",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Investors often follow the crowd.\n2. Prices then rise or fall far beyond what the underlying facts justify.\n3. Each assumes that others have information that he lacks.\n4. This is why bubbles form and burst more abruptly than fundamentals alone would explain.\n5. When the mood turns, the same logic drives a sudden retreat.",
+   "answer": "13254",
+   "explanation": "Sentence 1 states the behaviour. Sentence 3 ('Each assumes') explains why. Sentence 2 ('then') gives the price effect. Sentence 5 ('When the mood turns') gives the reversal. Sentence 4 ('This is why') concludes. Order: 1-3-2-5-4."
+  },
+  {
+   "id": "q27",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Anchoring, as the effect is called, shows that even irrelevant numbers can sway judgement.\n2. The wheel, they knew, was random.\n3. In one experiment, people were asked to estimate the share of African countries in the United Nations after spinning a wheel of fortune.\n4. Yet those who saw a high number on the wheel gave higher estimates than those who saw a low one.",
+   "answer": "3241",
+   "explanation": "Sentence 3 sets up the experiment. Sentence 2 ('The wheel') notes its randomness. Sentence 4 ('Yet') gives the surprising result. Sentence 1 ('as the effect is called') names the conclusion. Order: 3-2-4-1."
+  },
+  {
+   "id": "q28",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC1",
+   "options": [
+    "The subsidy on farm electricity should be withdrawn at once, since farmers have shown that they will conserve water whenever pumping becomes costly",
+    "Groundwater depletion stems from distorted incentives and weak institutions, and needs several remedies together",
+    "Technical remedies such as drip irrigation and laser levelling are sufficient to halt the fall of the water table without any change in policy",
+    "Groundwater depletion is a tragedy of the commons that can be solved only by dividing the aquifer into private plots owned by individual farmers"
+   ],
+   "answer": 1,
+   "explanation": "The author blames the combination of free power, unpriced water and assured procurement, and concludes that pricing reform, transfers and local institutions are all needed. The other options adopt a single remedy that the passage rejects or does not support."
+  },
+  {
+   "id": "q29",
+   "type": "RC",
+   "question": "The author distinguishes the commons problem from the subsidy problem in order to show that",
+   "passageId": "RC1",
+   "options": [
+    "farmers are responsible for the fall of the water table in a way that the government cannot be said to be",
+    "the aquifer would not be depleted if electricity were priced, since pumping would then cost farmers too much to continue",
+    "a commons problem can be solved by government alone, whereas a subsidy problem requires coordination among the users",
+    "the subsidy worsens the problem and can be removed by a decision of the government"
+   ],
+   "answer": 3,
+   "explanation": "The author says the commons problem 'would arise even if electricity were priced', that the subsidy 'worsened' it, and that the subsidy problem 'needs a decision by government'. The other options reverse this."
+  },
+  {
+   "id": "q30",
+   "type": "RC",
+   "question": "According to the passage, attempts at reform have tended to be partial because",
+   "passageId": "RC1",
+   "options": [
+    "the costs of reform fall on future cultivators, who are unable to vote against any government in power today",
+    "the beneficiaries of free power are numerous and organised, while the costs are diffuse and deferred",
+    "the technology needed to meter the use of water from tube wells has not yet been developed anywhere",
+    "farmers have no use for the cash payments that governments offer in return for the electricity that they save"
+   ],
+   "answer": 1,
+   "explanation": "The passage says 'The beneficiaries of free power are numerous, concentrated in particular regions and organised as voters, whereas the costs are diffuse, deferred'. The other reasons are not given."
+  },
+  {
+   "id": "q31",
+   "type": "RC",
+   "question": "The author thinks that paying farmers in cash for the electricity they save is the most promising reform because it",
+   "passageId": "RC1",
+   "options": [
+    "ensures that the amount of water drawn from the aquifer will fall by exactly the amount of electricity saved",
+    "makes pumping a free activity again, and so encourages farmers to adopt drip irrigation and laser levelling",
+    "turns the subsidy into a transfer, protecting income while restoring the incentive to economise",
+    "removes the need for farmers to trust the promises that the state makes about the payments that it will deliver"
+   ],
+   "answer": 2,
+   "explanation": "The passage says it 'converts the subsidy from a price distortion into a transfer, preserving the farmer's income while restoring the incentive to economise'. It adds that trust is a precondition, not something the scheme removes."
+  },
+  {
+   "id": "q32",
+   "type": "RC",
+   "question": "The 'rebound effect' mentioned in the passage is the tendency for",
+   "passageId": "RC1",
+   "options": [
+    "efficiency gains in the field to raise total consumption if farmers irrigate a larger area",
+    "crops that need little water to be replaced by crops that need more, as the price of paddy falls",
+    "farmers who receive cash for saving electricity to start pumping again once the payments are stopped",
+    "the water table to recover quickly once a community has agreed on rules for drawing water"
+   ],
+   "answer": 0,
+   "explanation": "The passage says 'when water is used more productively, farmers may irrigate a larger area', so savings per hectare may not reduce what is drawn from the aquifer."
+  },
+  {
+   "id": "q33",
+   "type": "RC",
+   "question": "Each of the following is mentioned as a condition for a cash transfer to succeed EXCEPT that it",
+   "passageId": "RC1",
+   "options": [
+    "is delivered reliably",
+    "has been approved by farmers in a referendum",
+    "is credibly permanent",
+    "is large enough to compensate for the subsidy"
+   ],
+   "answer": 1,
+   "explanation": "The fourth paragraph says a transfer 'must be large enough to compensate, credibly permanent, and delivered reliably'. A referendum is never mentioned."
+  },
+  {
+   "id": "q34",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC2",
+   "options": [
+    "Universal welfare schemes are preferable to targeted schemes because they cost less per beneficiary and exclude no one",
+    "Unconditional cash transfers to women should be abandoned, since they are used mainly to win elections",
+    "Whether cash or kind is better depends on context, and institutional quality matters more than the form of welfare",
+    "Cash transfers are always superior to benefits in kind, since households know their own needs better than any ministry"
+   ],
+   "answer": 2,
+   "explanation": "The author weighs cash against kind, concludes it 'cannot be settled in the abstract', and ends by stressing institutions. The other options adopt one side or misstate the costs of universal schemes."
+  },
+  {
+   "id": "q35",
+   "type": "RC",
+   "question": "The author mentions vaccination and schooling in order to show that",
+   "passageId": "RC2",
+   "options": [
+    "a household's decision may ignore benefits to others, which can justify conditional or in-kind support",
+    "the benefits of vaccination and schooling accrue only to the households that pay for them directly",
+    "households never spend cash transfers on vaccination or schooling unless they are forced to do so by the state",
+    "governments are better judges than parents of the value of vaccination and schooling for children"
+   ],
+   "answer": 0,
+   "explanation": "The passage says the household 'does not count the benefit to neighbours who are protected... or to a society that gains from educated citizens', so 'a transfer in kind or a conditional payment may be justified'."
+  },
+  {
+   "id": "q36",
+   "type": "RC",
+   "question": "The author's response to the objection from inflation is that it",
+   "passageId": "RC2",
+   "options": [
+    "can be ignored, since recipients of cash are able to protect themselves from inflation by saving",
+    "is overcome by the fact that inflation is lower in states that give cash than in states that give goods",
+    "supports indexing the transfer, and does not show cash to be inferior",
+    "proves that grain is always a better form of welfare than cash in any country that is affected by rising prices"
+   ],
+   "answer": 2,
+   "explanation": "The passage says 'The argument from inflation supports indexation'. The other options are not stated."
+  },
+  {
+   "id": "q37",
+   "type": "RC",
+   "question": "According to the author, exclusion errors in targeting are the more troubling because they",
+   "passageId": "RC2",
+   "options": [
+    "affect the middle class, which then withdraws its support from every welfare scheme in the country",
+    "deprive needy people of benefits and are hard to correct, since many lack documents",
+    "are made only by officials who are corrupt, and they can be eliminated by the use of digital payments",
+    "cost the state more than inclusion errors do, since they require repeated verification of the beneficiaries"
+   ],
+   "answer": 1,
+   "explanation": "The passage says exclusion errors 'deprive people of what they need and are hard to correct, as many who are poor lack the documents that establish eligibility'."
+  },
+  {
+   "id": "q38",
+   "type": "RC",
+   "question": "The remark that 'programmes for the poor tend to be poor programmes' implies that",
+   "passageId": "RC2",
+   "options": [
+    "the poor are less able than other citizens to judge whether a scheme has delivered what it promised",
+    "schemes that are targeted at the poor are more expensive to run than schemes that are universal",
+    "the middle class has little interest in defending the quality of schemes that do not benefit it",
+    "programmes for the poor are always badly designed by officials who have no experience of poverty"
+   ],
+   "answer": 2,
+   "explanation": "The passage explains: 'the middle class, which does not benefit, has little interest in defending their quality'."
+  },
+  {
+   "id": "q39",
+   "type": "RC",
+   "question": "Which of the following is NOT given in the passage as a feature or advantage of cash transfers?",
+   "passageId": "RC2",
+   "options": [
+    "households can spend them according to their own needs",
+    "they avoid the storage, transport and leakage that attend physical goods",
+    "recipients seldom squander them on temptation goods",
+    "they rise automatically with inflation"
+   ],
+   "answer": 3,
+   "explanation": "The first three are given in the second paragraph. The passage says cash is 'vulnerable to inflation' unless indexed, so it does not rise automatically."
+  },
+  {
+   "id": "q40",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC3",
+   "options": [
+    "A trade deficit reflects saving and investment, so tariffs mislead as a remedy, though some can be defended as insurance",
+    "Bilateral trade deficits are the best measure of whether a country is being treated fairly by each of its trading partners",
+    "Trade deficits are harmless in every case, and governments should never use tariffs or other trade policy to protect any domestic industry",
+    "Tariffs are justified as a remedy for deficits, since they reduce imports and so raise saving in the country that imposes them"
+   ],
+   "answer": 0,
+   "explanation": "The author argues from the saving-investment identity that tariffs do not cure deficits, but allows a security argument. The other options contradict this: the author says not all deficits are benign, rejects bilateral balances, and doubts tariffs raise saving."
+  },
+  {
+   "id": "q41",
+   "type": "RC",
+   "question": "The saving-investment identity implies that a tariff will not reduce a country's deficit unless it",
+   "passageId": "RC3",
+   "options": [
+    "is matched by tariffs of equal size imposed by the countries that sell goods to the country",
+    "raises the price of imported goods by more than the price of goods produced at home",
+    "changes the country's saving or investment",
+    "is imposed on every one of the country's trading partners at the same time and at the same rate"
+   ],
+   "answer": 2,
+   "explanation": "The passage says a tariff 'does not change these underlying quantities directly; unless it raises saving or reduces investment, the deficit will simply reappear in another form'."
+  },
+  {
+   "id": "q42",
+   "type": "RC",
+   "question": "India's pattern of trade with China and the United States is cited to show that",
+   "passageId": "RC3",
+   "options": [
+    "every country that imports electronics and machinery must run a deficit with the supplier of those goods",
+    "a country can run a deficit with one partner and a surplus with another without overall imbalance",
+    "bilateral deficits are the most reliable indicator of the fairness with which a country is treated",
+    "India's trade with China is more harmful to its economy than its trade with the United States is beneficial"
+   ],
+   "answer": 1,
+   "explanation": "The passage says 'a country may run a deficit with one partner and a surplus with another without any imbalance overall' and gives India's pattern as an illustration."
+  },
+  {
+   "id": "q43",
+   "type": "RC",
+   "question": "The author says the identity is 'easily misused in the opposite direction' to warn that",
+   "passageId": "RC3",
+   "options": [
+    "the identity is false for emerging economies, which should therefore adopt tariffs to reduce their deficits",
+    "tariffs always raise saving, and so they cannot fail to reduce the deficit of the country that imposes them",
+    "a country that borrows from abroad will inevitably suffer a sudden collapse in the confidence of its lenders",
+    "it does not follow that deficits are always harmless or that trade policy is irrelevant"
+   ],
+   "answer": 3,
+   "explanation": "The passage says 'To say that deficits reflect saving and investment is not to say that trade policy is irrelevant or that all deficits are benign'."
+  },
+  {
+   "id": "q44",
+   "type": "RC",
+   "question": "According to the author, the security argument for tariffs",
+   "passageId": "RC3",
+   "options": [
+    "is the only argument for tariffs that the saving-investment identity can be said to have refuted",
+    "applies to all goods equally, and so justifies a general tariff on all the imports of the country",
+    "should be judged as insurance, since a subsidy or stockpile may achieve the same end more cheaply",
+    "is strongest when a tariff is defended as protection against the deficit with a particular country"
+   ],
+   "answer": 2,
+   "explanation": "The author says the argument 'is about security and resilience and not about the deficit' and that 'A subsidy or a stockpile may achieve the same end at less cost to consumers'."
+  },
+  {
+   "id": "q45",
+   "type": "RC",
+   "question": "The author's final paragraph suggests that defenders of open trade should",
+   "passageId": "RC3",
+   "options": [
+    "claim that the losers from trade are fewer than critics suggest, and that they are not concentrated anywhere",
+    "accept that tariffs are the best remedy for the losses that trade imposes on particular regions",
+    "concede that trade creates losers, often concentrated in particular regions, and not ignore them",
+    "avoid explaining the economics of trade to voters, since the chain of reasoning is too long for them to follow"
+   ],
+   "answer": 2,
+   "explanation": "The passage says defenders are 'under an obligation... to concede what is true in the simple story. Trade creates winners and losers, the losers are often concentrated in particular regions, and a policy that ignores them leaves the field open'."
+  }
+ ]
 }
 ]
