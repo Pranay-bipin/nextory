@@ -8859,5 +8859,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> In Soai’s reaction each product molecule helps make more of itself, so a tiny initial imbalance grows with every round. An outbreak is the same self-reinforcing growth in which each case produces more cases.<br><br>• <strong>Why Option A is Wrong:</strong> A thermostat is a stabilising (negative) feedback system that cancels deviations, the opposite of amplification.<br><br>• <strong>Why Option C is Wrong:</strong> A single-pass filter removes something without any self-reinforcing growth.<br><br>• <strong>Why Option D is Wrong:</strong> Repetition by an outside teacher is an external force, whereas Soai’s amplification occurs with no outside force favouring either hand.<br><br><strong>💡 Approach:</strong> For an analogy question, reduce the original to its logical core (a product that promotes its own formation, so small differences grow) and choose the option with the same structure. Reject options that stabilise or involve outside intervention."
       }
     ]
+  },
+  {
+    "id": "rc-2026-11-03",
+    "date": "2026-11-03",
+    "title": "The Midterm Penalty: Why Presidents’ Parties Lose Ground",
+    "genre": "Current Affairs / Political Science",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1023 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "incumbent",
+          "type": "noun/adjective",
+          "def": "A person currently holding an office; currently in office. Synonyms: officeholder, current holder, sitting. Antonyms: challenger, former, ex-.",
+          "ex": "The incumbent senator faced a strong challenger."
+        },
+        {
+          "word": "peripheral",
+          "type": "adjective",
+          "def": "Of secondary importance; on the edge. Synonyms: marginal, secondary, outlying. Antonyms: central, core, primary.",
+          "ex": "The issue was peripheral to the main debate."
+        },
+        {
+          "word": "ephemeral",
+          "type": "adjective",
+          "def": "Lasting for a very short time. Synonyms: fleeting, transient, short-lived. Antonyms: enduring, permanent, lasting.",
+          "ex": "His popularity proved ephemeral."
+        },
+        {
+          "word": "entrenched",
+          "type": "adjective",
+          "def": "Firmly established and hard to change. Synonyms: ingrained, deep-rooted, established. Antonyms: temporary, shallow, new.",
+          "ex": "Entrenched habits made reform difficult."
+        },
+        {
+          "word": "cyclical",
+          "type": "adjective",
+          "def": "Occurring in regular cycles or repeating patterns. Synonyms: recurrent, periodic, rhythmic. Antonyms: one-off, irregular, linear.",
+          "ex": "Economic growth is cyclical, not constant."
+        },
+        {
+          "word": "mandate",
+          "type": "noun",
+          "def": "Authority to act given to a government by an electorate; an official order. Synonyms: authority, commission, directive. Antonyms: prohibition, veto.",
+          "ex": "The party claimed a mandate for tax reform."
+        },
+        {
+          "word": "wane",
+          "type": "verb",
+          "def": "To decrease gradually in strength or size. Synonyms: decline, fade, dwindle. Antonyms: wax, grow, increase.",
+          "ex": "Public enthusiasm for the policy began to wane."
+        },
+        {
+          "word": "robust",
+          "type": "adjective",
+          "def": "Strong and able to withstand stress; sturdy. Synonyms: sturdy, resilient, vigorous. Antonyms: fragile, weak, flimsy.",
+          "ex": "The finding proved robust across several data sets."
+        },
+        {
+          "word": "concomitant",
+          "type": "adjective",
+          "def": "Naturally accompanying or associated. Synonyms: accompanying, attendant, related. Antonyms: unrelated, separate, independent.",
+          "ex": "Rapid growth brought a concomitant rise in inflation."
+        },
+        {
+          "word": "vestige",
+          "type": "noun",
+          "def": "A trace or remnant of something that no longer exists. Synonyms: remnant, trace, relic. Antonyms: whole, entirety, totality.",
+          "ex": "The law was a vestige of an older system."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "sit on the fence",
+          "def": "To avoid taking sides in a dispute.",
+          "ex": "Many voters were still sitting on the fence a week before the election."
+        },
+        {
+          "idiom": "ride the coattails",
+          "def": "To gain success from the popularity of another person.",
+          "ex": "Several candidates rode the coattails of the popular leader."
+        },
+        {
+          "idiom": "a foregone conclusion",
+          "def": "A result that is certain before it happens.",
+          "ex": "The outcome seemed a foregone conclusion, but the race tightened."
+        },
+        {
+          "idiom": "the pendulum swings",
+          "def": "Opinion or fashion moves from one extreme to the other.",
+          "ex": "The pendulum swung back towards tighter regulation."
+        },
+        {
+          "idiom": "dig in one’s heels",
+          "def": "To refuse stubbornly to change one’s position.",
+          "ex": "The senator dug in her heels and blocked the bill."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "swing back",
+          "def": "To return to an earlier position or state. Synonym: revert.",
+          "ex": "Support swung back to the opposition."
+        },
+        {
+          "verb": "turn out",
+          "def": "To attend or take part, especially to vote; to prove to be. Synonym: show up.",
+          "ex": "Fewer people turned out to vote in the midterm."
+        },
+        {
+          "verb": "carry over",
+          "def": "To continue or transfer from one situation to another. Synonym: transfer.",
+          "ex": "The momentum carried over from the previous election."
+        },
+        {
+          "verb": "hang on to",
+          "def": "To keep or retain something. Synonym: retain.",
+          "ex": "The party struggled to hang on to its majority."
+        },
+        {
+          "verb": "fall away",
+          "def": "To decrease or disappear gradually. Synonym: dwindle.",
+          "ex": "Support fell away once the scandal emerged."
+        }
+      ]
+    },
+    "passage": "Voters across the United States go to the polls today in midterm elections that place all 435 seats in the House of Representatives, and 35 Senate races, on the ballot. Whatever the outcome in any particular contest, one pattern is so familiar that commentators treat it almost as a law of nature: the party of the sitting president tends to lose seats. In nearly every midterm of the postwar era the president’s party has lost ground in the House, and the exceptions are few enough to be counted on one hand. The regularity is puzzling because its most obvious explanation, that the president has become unpopular, does not always hold. Presidents who were broadly well regarded have lost seats too, and the pattern has survived changes in the economy, in the parties and in the media. A regularity that persists through so many changes of circumstance suggests a structural cause, and political scientists have offered several.\n\nThe simplest explanation treats the midterm as a referendum on the president. Voters who are satisfied tend to feel little urgency to vote, whereas those who are dissatisfied are driven by grievance; the verdict delivered at the ballot box is therefore harsher than the verdict expressed in opinion surveys. The theory fits one observation well: the size of the loss tends to rise as presidential approval falls. But it fits another poorly. If the midterm were purely a referendum, a popular president should be rewarded with gains, and yet even popular presidents rarely gain more than a handful of seats. The referendum account explains the variation in the size of the loss better than it explains the loss’s existence. A further difficulty is that approval is itself partly a product of the same partisan loyalties that shape the vote, so the correlation between the two may be weaker evidence of a verdict on performance than it first appears: a voter who dislikes the president because of his party may simply be reporting his party preference twice.\n\nA second explanation shifts attention from what voters think to who votes. A presidential election draws a large electorate, including many peripheral voters who pay little attention to politics and who are swayed by the appeal of the candidate at the top of the ticket. When that candidate wins, some of these voters also support his or her party further down the ballot, lending it a temporary surge. Two years later, with no presidential contest to draw them out, most of these voters stay at home, and the party’s vote declines towards its underlying level. On this account the midterm loss is not a punishment at all but a return to normal. The theory has an attractive corollary: the bigger the presidential victory, the bigger the surge, and therefore the larger the subsequent decline. It also implies that a party which wins many seats on a wave will find itself defending districts it held only because of the wave, and will therefore be unusually exposed.\n\nThe third explanation holds that voters act deliberately to restrain the president. Fearful that a single party in control of both the White House and Congress will govern too far in one direction, they vote for the other side in order to produce divided government, much as a thermostat switches off the heating when the room becomes too warm. The theory is elegant, but its weakness lies in what it demands of voters. It requires that they know which party controls which institution, and that they cast their ballots with the overall balance in mind, whereas surveys regularly find that large numbers of voters cannot say which party holds a majority in Congress. Defenders reply that voters need not know the details: a general sense that the president’s side has had its turn may be enough to nudge them towards the opposition, just as a person can adjust a thermostat without understanding the boiler. Even so, the defence carries a cost. The more loosely the theory is stated, the less it forbids, and a claim that forbids little is hard to test: almost any shift against the president’s party can be described, after the event, as a vote for balance.\n\nThese accounts are often presented as rivals, but they are better understood as operating at different levels. Surge and decline describes a change in the composition of the electorate; the referendum account describes the mood of those who vote; balancing describes intentions that some of them may hold. Each can contribute to the same result without excluding the others, which is one reason the pattern is so robust: it has several independent causes, any of which could produce it. It also explains why the pattern has proved so hard to dislodge by evidence. A test that cuts against one theory leaves the others standing, and a finding that fits one theory is rarely able to exclude the rest. The accumulation of partial explanations can create an impression of understanding that is stronger than the evidence warrants. A modest sceptic might add that a pattern with so many available explanations is also one for which no single explanation is needed, since the regularity could survive the failure of any one of them.\n\nThe context, moreover, is not fixed. Over recent decades voters have become more consistently loyal to one party, fewer of them split their tickets between the presidential and House ballots, and congressional contests have increasingly been fought over national and not local issues. Such changes ought to weaken the mechanisms that depend on swing voters, notably surge and decline and balancing, while leaving untouched those that depend on differences in enthusiasm between the satisfied and the aggrieved. If so, the penalty may remain, but its causes may shift in emphasis from the first group to the second. The lesson for observers is a double one: to expect a penalty, since the structural causes are many, but to be cautious about any single story that purports to account for its size. A theory that can explain every outcome after the fact, as each of these can, has not yet been tested by predicting the next one.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "options": [
+          "A) The midterm penalty is explained mainly by presidential unpopularity, and the other theories merely restate this point in technical language.",
+          "B) Voters deliberately create divided government, and the evidence that many voters lack political knowledge is therefore irrelevant to the pattern.",
+          "C) The midterm penalty is a robust pattern with several overlapping causes, so no single explanation should be trusted to account for its size.",
+          "D) The midterm penalty is disappearing because voters have become more loyal to their parties, and future presidents can expect to hold their seats."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The final paragraphs argue that the three accounts operate at different levels, that the pattern has several independent causes, and that observers should expect a penalty while being cautious about any single story of its size. This is the author’s own conclusion.<br><br>• <strong>Why Option A is Wrong:</strong> The first paragraph says the unpopularity explanation does not always hold, since popular presidents have lost seats too. The other theories are not treated as restatements of it.<br><br>• <strong>Why Option B is Wrong:</strong> This is the balancing theory, which the author criticises for what it demands of voters. The author does not dismiss the evidence about voters’ knowledge as irrelevant.<br><br>• <strong>Why Option D is Wrong:</strong> The author says the penalty “may remain” though its causes may shift. The passage does not claim it is disappearing or that presidents can expect to hold their seats.<br><br><strong>💡 Approach:</strong> In central-argument questions, use the closing paragraph, where the author weighs the theories. Reject options that adopt one theory or turn a cautious “may” into a prediction."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following, if true, would most weaken the surge-and-decline explanation?",
+        "options": [
+          "A) Many voters who take part only in presidential elections say that they follow politics very little between elections.",
+          "B) Surveys show that voters who take part only in presidential years split almost evenly between the parties in House races.",
+          "C) A party that wins many seats on a wave in a presidential year has been found to hold a large number of closely contested districts afterwards.",
+          "D) The decline in turnout between presidential and midterm years has been larger in recent decades than it was in the middle of the twentieth century."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Surge and decline requires that the voters who drop out after a presidential year leaned towards the president’s party down the ballot. If they split evenly, their absence would not change the balance between the parties and the mechanism fails.<br><br>• <strong>Why Option A is Wrong:</strong> This is consistent with the idea that these are peripheral voters, so it supports the theory.<br><br>• <strong>Why Option C is Wrong:</strong> This describes the “exposure” corollary and supports the theory.<br><br>• <strong>Why Option D is Wrong:</strong> A larger fall in turnout strengthens the possibility of a larger decline, so it supports the theory.<br><br><strong>💡 Approach:</strong> To weaken a mechanism, find the assumption on which its causal chain depends (the absent voters leaned towards the president’s party) and choose the option that denies it."
+      },
+      {
+        "id": "q3",
+        "question": "Each of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) The size of a midterm loss tends to be larger when presidential approval is lower.",
+          "B) The theories discussed can be true together without contradicting one another.",
+          "C) Evidence that is damaging to one explanation may leave the other explanations unharmed.",
+          "D) The president’s party has lost House seats in every postwar midterm."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The passage says “nearly every midterm of the postwar era” and refers to a few exceptions. “Every” is therefore not supported.<br><br>• <strong>Why Option A is Wrong:</strong> This is stated in paragraph 2: the size of the loss tends to rise as approval falls.<br><br>• <strong>Why Option B is Wrong:</strong> This is stated in paragraph 5: each theory can contribute to the same result without excluding the others.<br><br>• <strong>Why Option C is Wrong:</strong> This is stated in paragraph 5: a test that cuts against one theory leaves the others standing.<br><br><strong>💡 Approach:</strong> In an EXCEPT question, compare each option’s quantifier with the passage’s. “Nearly every” versus “every” is the standard trap."
+      },
+      {
+        "id": "q4",
+        "question": "The author mentions that many voters cannot say which party holds a majority in Congress in order to:",
+        "options": [
+          "A) challenge an assumption on which the balancing explanation depends.",
+          "B) show that voters are uninterested in the outcome of midterm elections.",
+          "C) prove that midterm results are determined by chance and not by any systematic cause.",
+          "D) argue that the referendum explanation is better than the surge-and-decline explanation."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The detail appears in the discussion of balancing, which requires voters to know which party controls which institution. The survey finding casts doubt on that requirement, which the author calls the theory’s weakness.<br><br>• <strong>Why Option B is Wrong:</strong> Lack of knowledge about who holds a majority is not the same as lack of interest in the outcome, and the author draws no such conclusion.<br><br>• <strong>Why Option C is Wrong:</strong> The author argues that the pattern has several systematic causes and never suggests that chance explains it.<br><br>• <strong>Why Option D is Wrong:</strong> The detail is used in relation to the balancing theory and has no bearing on a comparison of the referendum and surge-and-decline theories.<br><br><strong>💡 Approach:</strong> For a purpose question, check where the detail appears and what the surrounding sentences do with it. Here it is the “weakness” of one named theory."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following, if true, would most strengthen the author’s claim in the last paragraph that the causes of the penalty may be shifting in emphasis?",
+        "options": [
+          "A) Political scientists have proposed several additional explanations for the midterm penalty that are not discussed in the passage.",
+          "B) Midterm elections draw smaller electorates than presidential elections in almost every democracy with fixed terms.",
+          "C) Presidents with very high approval ratings have in recent decades suffered losses of the same size as presidents with low ratings.",
+          "D) Ticket-splitting has declined in recent decades, while the enthusiasm gap between satisfied and aggrieved voters has persisted."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The author claims that changes in voter loyalty weaken mechanisms that depend on swing voters while leaving enthusiasm-based mechanisms untouched. Evidence of fewer ticket-splitters and a persistent enthusiasm gap supports both halves of this claim.<br><br>• <strong>Why Option A is Wrong:</strong> More explanations in the literature say nothing about the relative weight of the existing causes over time.<br><br>• <strong>Why Option B is Wrong:</strong> This is a cross-national fact about turnout and does not address a change in the emphasis among causes.<br><br>• <strong>Why Option C is Wrong:</strong> Equal losses for popular and unpopular presidents would undermine the referendum theory’s claim about size, but it does not speak to a shift from swing-voter mechanisms to enthusiasm-based ones.<br><br><strong>💡 Approach:</strong> To strengthen, restate the claim precisely (swing-voter mechanisms weaken, enthusiasm mechanisms remain) and select the option supporting both parts."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following observations would be hardest for the balancing explanation to account for?",
+        "options": [
+          "A) Voters who describe themselves as moderate say in surveys that they prefer divided government.",
+          "B) Voters who say that they want a check on the president are more likely to switch to the opposition at midterms.",
+          "C) Voters who cannot say which party controls Congress shift against the president’s party at the same rate as voters who can.",
+          "D) The proportion of voters shifting against the president’s party is larger when one party controls both Congress and the White House."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> Balancing depends on voters’ awareness of who controls what. If uninformed voters shift against the president’s party at the same rate as informed ones, then awareness plays no role, and the theory cannot explain why they do so.<br><br>• <strong>Why Option A is Wrong:</strong> This is consistent with a taste for divided government and supports the theory.<br><br>• <strong>Why Option B is Wrong:</strong> This directly links the intention to restrain the president with the switch in votes, so it supports the theory.<br><br>• <strong>Why Option D is Wrong:</strong> A larger shift when one party controls both branches is just what a desire for balance would predict.<br><br><strong>💡 Approach:</strong> For a “hardest to explain” question, find the option that contradicts the theory’s key premise (voter awareness) while the others are consistent with it."
+      }
+    ]
   }
 ]
