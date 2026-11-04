@@ -606,11 +606,11 @@
         try { savedItems = JSON.parse(localStorage.getItem('nextory_saved')) || []; } catch (e) { savedItems = []; }
         let vocabRegistry = []; // lets buttons reference items by index instead of inlining text into onclick
 
-        // Sectional State
+        // Sectional State (40 minutes = 2400 seconds)
         let allSectionals = [];
         let todaySectional = null;
         let sectionalUserAnswers = {};
-        let sectionalSeconds = 2400; // 40 Mins
+        let sectionalSeconds = 2400; 
         let sectionalTimerInterval = null;
         let isSectionalSubmitted = false;
         let isSectionalTimerActive = false;
@@ -702,12 +702,12 @@
             `).join('');
         }
 
-        // Single place that starts a fresh sectional attempt (used by both "Start" and archive)
+        // Single place that starts a fresh sectional attempt (uses 40 mins = 2400 seconds)
         function beginSectionalAttempt() {
             secCurrentQIndex = 0;
             sectionalUserAnswers = {};
             isSectionalSubmitted = false;
-            sectionalSeconds = (todaySectional.durationMinutes || 40) * 60;
+            sectionalSeconds = 2400; // Strictly set to 40 minutes (2400 seconds)
             if (window.__saReset) window.__saReset(); // clears per-question timing + hides "View Analysis"
 
             renderSectionalContainerLayout();
@@ -977,7 +977,7 @@
                 <div class="hero-banner" style="background: linear-gradient(135deg, #d1fae5 0%, #ecfdf5 100%); border-color: var(--green-border);">
                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px;">
                         <span class="sub-tag">LIVE MOCK TEST</span>
-                        <span style="font-weight:700; color:var(--green-hover); font-size:0.85rem;">⏱️ ${esc(todaySectional.durationMinutes || 40)} MINS | Total Questions: ${totalQs} Questions Loaded</span>
+                        <span style="font-weight:700; color:var(--green-hover); font-size:0.85rem;">⏱️ 40 MINS | Total Questions: ${totalQs} Questions Loaded</span>
                     </div>
                     <h1>${esc(todaySectional.title)}</h1>
                     <p style="margin-bottom:20px;">Strict IPMAT Indore pattern (RCs, Para Jumbles, Verbal Reasoning, Grammar & Vocab).</p>
@@ -1043,13 +1043,11 @@
             if (btn) btn.innerText = isSectionalTimerActive ? "Pause" : "Resume";
         }
 
-        // Find the passage for an RC question. NEVER falls back to the daily RC.
         function isRCType(q) { return !!(q && q.type && String(q.type).toUpperCase().includes('RC')); }
 
         function getSectionalPassage(q, idx) {
             if (q.passage) return q.passage;
 
-            // Optional shared passages: sectional.passages as object {id: text} or array [{id, text|passage}]
             const store = todaySectional && todaySectional.passages;
             const pid = q.passageId || q.passage_id;
             if (store && pid !== undefined) {
@@ -1062,7 +1060,6 @@
                 }
             }
 
-            // Consecutive RC questions often share the passage printed on the first one
             const list = todaySectional.questions;
             for (let i = idx - 1; i >= 0; i--) {
                 if (!isRCType(list[i])) break;
@@ -1194,7 +1191,6 @@
             sectionalUserAnswers[secCurrentQIndex] = val.trim();
         }
 
-        // Clear option handlers
         function clearReadingAnswer() {
             if (isSubmitted) return;
             delete userAnswers[currentQIndex];
@@ -1236,7 +1232,6 @@
         function generateAdvancedDashboard(title, qList, userAnswersMap, timeTakenSeconds, isSectional = false) {
             if (!qList || qList.length === 0) return;
 
-            // Sectionals get the detailed analysis modal (defined in the second script)
             if (isSectional && window.showSectionalAnalysis) {
                 window.showSectionalAnalysis(title, qList, userAnswersMap, timeTakenSeconds);
                 return;
@@ -1271,7 +1266,7 @@
                     topics[catKey].correct++;
                 } else {
                     incorrect++;
-                    if (!tita) incorrectMcq++; // TITA has no negative marking
+                    if (!tita) incorrectMcq++;
                 }
             });
 
@@ -1328,7 +1323,6 @@
             const canvasEl = document.getElementById('accuracyChart');
             if (!canvasEl) return;
 
-            // Chart.js comes from a CDN: if offline, show a plain-text fallback instead of a blank box
             if (typeof Chart === 'undefined') {
                 const box = document.getElementById('accuracy-chart-box');
                 if (box && !box.querySelector('.chart-fallback')) {
@@ -1373,8 +1367,7 @@
         function submitSectionalTest() {
             pauseSectionalTimer();
             isSectionalSubmitted = true;
-            const total = (todaySectional.durationMinutes || 40) * 60;
-            const timeSpent = Math.max(0, total - Math.max(sectionalSeconds, 0));
+            const timeSpent = Math.max(0, 2400 - Math.max(sectionalSeconds, 0));
             generateAdvancedDashboard(todaySectional.title || "IPMAT Sectional", todaySectional.questions, sectionalUserAnswers, timeSpent, true);
             renderSectionalQuestion();
         }
@@ -1460,7 +1453,6 @@
             if (tabName === 'saved') renderSavedHub();
         }
 
-        /* ---------- Saved items (index-based: no text is ever inlined into onclick) ---------- */
         function persistSaved() {
             try { localStorage.setItem('nextory_saved', JSON.stringify(savedItems)); } catch (e) { console.warn("Could not persist saved items", e); }
             updateSavedBadge();
@@ -1685,7 +1677,6 @@
   }
   const fmt = s => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, '0')}`;
 
-  // Per-question time tracking (reset by beginSectionalAttempt via window.__saReset)
   let qTime = {};
   setInterval(() => {
     try {
@@ -1737,7 +1728,6 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // Called at the start of EVERY sectional attempt (fresh start or opened from the archive)
   window.__saReset = function () {
     qTime = {};
     modal.classList.remove('active');
@@ -1855,7 +1845,6 @@
 
     charts.forEach(c => c.destroy()); charts = [];
 
-    // Offline / CDN blocked: replace chart boxes with a short note instead of leaving them blank
     if (typeof Chart === 'undefined') {
       modal.querySelectorAll('.sa-chart').forEach(d => {
         d.innerHTML = '<p style="font-size:.85rem;color:var(--text-muted);padding-top:20px;text-align:center">Charts are unavailable offline. The table and insights above have the same data.</p>';
