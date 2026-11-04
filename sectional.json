@@ -4756,7 +4756,7 @@
  "id": "sec-2026-11-02",
  "date": "2026-11-02",
  "title": "IPMAT Indore VA Sectional – 2nd Nov 2026 (Advanced Analytical)",
- "durationMinutes": 45,
+ "durationMinutes": 40,
  "totalQuestions": 45,
  "passages": {
   "RC1": "When photographs first became evidence, they inherited the authority of the eye. A picture of an event seemed to be the event itself, and courts, newspapers and governments built their practices of proof on that assumption. Generative artificial intelligence, which can now produce convincing images, voices and video of events that never occurred, has attacked the assumption at its root. The obvious danger is that fabrications will be believed. The less obvious danger, which legal scholars have called the liar's dividend, is that genuine recordings will be disbelieved.\n\nThe mechanism is simple. Once the public knows that any recording can be faked, anyone caught in a real one acquires a ready defence: it is a fabrication. A politician recorded accepting a bribe, a company executive heard disparaging customers, a soldier filmed committing an atrocity, can all claim that the evidence was synthesised, and the claim need not be believed by everyone to be effective. It need only create enough doubt among enough supporters to relieve them of the need to change their minds. The dividend therefore accrues to the powerful, who have the means to contest evidence, and the cost falls on the weak, whose only proof was the recording. The asymmetry is worth stating plainly. A liar who is believed gains the benefit of the lie; a liar who is merely doubted gains the benefit of the doubt, and the second outcome is far cheaper to achieve, since it requires no fabrication at all, only the assertion that fabrication is possible.\n\nThe usual proposed remedy is technical. Detection tools could identify synthetic media, and provenance standards could attach to genuine images a cryptographic record of when, where and with what device they were taken. Both have merit, but both face a structural difficulty. Detection is an arms race in which the forger needs to beat the detector only once and the detector must succeed every time; and it produces false positives, so that a genuine recording flagged as fake becomes a weapon in the hands of those it exposes. Provenance works better, since it authenticates rather than detects, but only if most genuine content carries it. A recording made on an old phone, or sent through a messaging service that strips metadata, will arrive without the credential, and the absence of a credential will itself be treated as suspicious. A system that certifies the authentic risks stigmatising everything it cannot certify.\n\nA further complication is that the harm is not confined to deception. Studies of political persuasion suggest that people are less moved by individual falsehoods than is commonly feared, since most already hold views that determine which claims they accept. The deeper effect of a flood of synthetic material may be to degrade the shared background of trust against which any claim is judged. If a citizen can no longer assume that a video is probably genuine, she may retreat to the simpler heuristic of believing whatever comes from a source she already trusts. The result is not a population deceived by particular lies but one that has lost a common means of settling disputes, which is a harm of a different and arguably graver kind. Where trust in institutions was already low, as it is in many democracies, synthetic media do not so much create distrust as supply it with a vocabulary.\n\nLaw offers partial responses. Fraud, defamation and impersonation are already offences, and several jurisdictions, India among them, have begun to consider rules requiring that synthetic content be labelled and that platforms remove non-consensual deepfakes promptly. These measures address the cases in which a victim and a perpetrator can be identified. They are far less effective against the diffuse erosion of trust, and they carry their own risks: a broad prohibition on false content invites governments to define falsity in their own interest, and labelling mandates may be applied selectively to critics. The tension is familiar from the regulation of speech, but it is sharper here because the speed and volume of synthetic output exceed the capacity of any review process, public or private.\n\nIt follows that institutions, not tools alone, will have to bear the weight. Courts are likely to demand corroboration of recordings, such as witnesses, logs and independent copies, in place of treating them as self-authenticating. Newsrooms may rely more heavily on the reputations of named reporters than on the apparent authenticity of footage. Individuals may learn to ask where a recording came from before asking what it shows. None of this restores the old confidence in the photograph, and it should not try to. The lesson of the liar's dividend is that evidence has always depended on trust in the chain that carries it, and that technology has merely made the dependence visible. The adjustments will be uneven: well-resourced institutions will adapt first, and ordinary citizens, who lack access to forensic experts, will be left to rely on their own judgement.",
@@ -5931,6 +5931,597 @@
    ],
    "answer": 2,
    "explanation": "The passage says defenders are 'under an obligation... to concede what is true in the simple story. Trade creates winners and losers, the losers are often concentrated in particular regions, and a policy that ignores them leaves the field open'."
+  }
+ ]
+  },
+  {
+ "id": "sec-2026-11-04",
+ "date": "2026-11-04",
+ "title": "IPMAT Indore VA Sectional – 4th Nov 2026 (Advanced Analytical)",
+ "durationMinutes": 45,
+ "totalQuestions": 45,
+ "passages": {
+  "RC1": "Antibiotics are among the most valuable inventions in the history of medicine, and the market for them barely works. A new antibiotic that is effective against resistant infections is, from a medical standpoint, precisely the drug that should be used as little as possible: doctors reserve it for cases in which every older drug has failed, so that resistance to it develops slowly and its usefulness lasts. But the same restraint ensures that sales are small. A firm that spends upwards of a billion dollars developing such a drug may earn less in a decade than a manufacturer of a cholesterol tablet earns in a year. It is therefore unsurprising that most large pharmaceutical companies have withdrawn from the field, and that the few new antibiotics that emerge come largely from small firms, many of which go bankrupt after approval.\n\nThe failure is of an unusual kind. In most markets, a valuable product attracts producers because buyers will pay for it in proportion to use. Here the social value of a drug lies largely in what it prevents: in having it available, unused, as insurance against infections that would otherwise be untreatable. Insurance has value even when no claim is made, but no patient pays for the existence of an unused drug, and so the price mechanism sends no signal. Resistance compounds the difficulty, since each use of an antibiotic by one patient makes the drug slightly less useful for the next, a cost the prescriber does not bear. The economist's term for this is a negative externality, and its effect is to push consumption above the level that would be best for society while pushing the incentive to innovate below it.\n\nThe remedies proposed fall into two classes. Push incentives lower the cost of developing a drug, through public funding of early research, grants to small firms and shared clinical trial networks. They help, but they do not address the fundamental problem that a successful drug is a poor investment. Pull incentives reward success: a government or consortium might guarantee a fixed annual payment for access to any approved antibiotic, regardless of the quantity sold, so that revenue is delinked from volume. The subscription scheme pioneered in Britain, in which the health service pays for access, is the best-known example, and several other countries are considering variants. In effect, the state buys insurance on behalf of its citizens, which is what the market could not do.\n\nThese proposals raise questions of their own. A subscription must be large enough to attract investment but not so large as to reward drugs that offer little advantage over existing ones, and judging a drug's value requires a forecast of how resistance will evolve, which no one can supply with confidence. There is also the question of who pays. Resistance respects no border, so a drug developed with British money protects patients everywhere, and a country that does not contribute gains the benefit regardless. This is the classic free-rider problem, and it explains why global arrangements have been slower to materialise than national ones. For countries such as India, where the burden of drug-resistant infection is heavy and the means to pay for new drugs limited, the question is acute: they may receive the new medicines late, or at prices that few can afford.\n\nNone of this removes the need for stewardship, the discipline of using existing antibiotics only when necessary. Resistance is driven not only by the human use of medicines but by their use in livestock and by the release of residues into water. Agricultural use is a significant source of the problem, since antibiotics given to animals to promote growth or to prevent disease in crowded conditions select for resistant bacteria that can later reach people through food, water and contact. A system that pays for new drugs while tolerating careless use of old ones would be like refilling a bath without fixing the drain. The sound approach combines the two: paying for innovation in a way that does not depend on volume, and reducing demand through regulation, diagnostics and public information. It is a more complicated policy than either alone, but the nature of the problem requires it. A drug that works today is a shared resource whose value depends on how it is used by everyone tomorrow.",
+  "RC2": "In late 2025 Australia became the first country to prohibit children under sixteen from holding accounts on major social media platforms, placing on the companies, and not on parents or children, the duty to enforce the ban. Other governments, in Europe and elsewhere, have since considered similar measures, and the debate has acquired the intensity of a moral campaign. Supporters point to rising rates of anxiety and depression among adolescents and to testimony from parents who feel powerless against the platforms. Opponents warn of censorship, of intrusive age verification and of the isolation of young people who find community online. Both sides invoke science, and the science, as often, is less decisive than either would like.\n\nThe central difficulty is causation. Adolescent mental health did deteriorate in several countries during the years in which smartphones spread, and some researchers have argued that the timing is no coincidence. But other things changed too: academic pressure, economic insecurity, a pandemic, changes in how distress is recognised and reported. Studies that follow individuals over time generally find small associations between heavy social media use and later distress, and the direction of cause is disputed, since unhappy teenagers may use platforms more as well as being made unhappy by them. Some researchers have gone further, suggesting that the effects on sleep, attention and self-image are better established than the effects on diagnosed illness, and that the most credible harms come from specific features such as endless feeds and public metrics of popularity. Averages also conceal variation: use appears harmful to some groups, such as girls with existing difficulties, and harmless or helpful to others. A ban is a blunt instrument for a problem that may be concentrated in particular uses and particular individuals.\n\nDefenders of a ban reply that the standard of proof is misplaced. A product that is used by hundreds of millions of children and designed to maximise time spent on it is not an experimental drug; the burden of showing that it is safe, they argue, lies with its makers, as it does with toys and food. They add that the harm of a platform is not only individual but collective: when most classmates are on a service, a child who stays off pays a social price, so that families cannot opt out alone. A rule applying to everyone solves the coordination problem that no household can solve for itself. This argument does not depend on proof that social media is the principal cause of distress; it depends only on the claim that parents are in a position of structural disadvantage.\n\nThe practical objections are, however, serious. A ban can be enforced only by verifying age, which means that every user, adult or child, must prove who he is, and the methods available range from uploading a government identity document to submitting to facial analysis. Each creates a store of sensitive data and a risk of leakage. Determined teenagers can circumvent controls with borrowed accounts or virtual private networks, and those who do so are likely to be driven to less moderated corners of the internet. The measure may also shift behaviour in ways that are hard to foresee: time that was spent on one platform may be spent on another that falls outside the definition. Those who support the ban reply that no rule is perfectly enforced, and that laws against underage drinking remain useful even though some minors drink. Whether the costs outweigh the benefits is an empirical matter that evidence from the first jurisdictions to try it will eventually help to settle.\n\nA sensible position is to treat the ban as an experiment and not as a verdict. Its advocates should accept that it will be judged by measurable outcomes, such as the reported wellbeing of the affected cohorts and the displacement of use to other services, and its opponents should accept that if the outcomes are favourable, the objection from principle weakens. Meanwhile, less sweeping measures deserve attention: design standards that curb features built to encourage compulsive use, defaults that protect minors' privacy, and restrictions on the algorithmic promotion of harmful content. These target the mechanism rather than the age of the user, and they would apply to adults as well, who are not immune to the same pressures.",
+  "RC3": "Electricity demand in advanced economies, flat for nearly two decades, has begun to rise, and the principal reason is the computing power required to train and run artificial intelligence. The scale is considerable: some projections suggest that data centres could account for a significant share of new electricity demand in coming years, and utilities that planned for flat consumption now scramble to build. Data centres need electricity at all hours, with very high reliability, and the technology firms that build them have started to sign long-term contracts with nuclear operators, to restart closed reactors, and to fund the development of small modular reactors. The move is remarkable because these firms have also made public commitments to cut emissions, and wind and solar, though cheap, do not generate when the wind is slack and the sun has set. Nuclear power, which produces large amounts of firm, low-carbon electricity, seems to fit both their needs and their pledges.\n\nThe fit is, however, less perfect than it appears. Nuclear power's difficulty has never been technical so much as economic. Large reactors built in recent decades in Europe and the United States ran years late and billions over budget, because each was in effect a bespoke project, with design changes during construction, a depleted supply chain and a workforce that had not built a reactor in a generation. Cost overruns are not a law of nuclear physics; South Korea and China have built reactors at far lower cost by building many to a standard design. The lesson is that nuclear costs fall with repetition, and rise sharply with novelty.\n\nSmall modular reactors are intended to exploit that lesson. Instead of constructing a large plant on site, a manufacturer would build standardised units in a factory and ship them, so that cost reductions come from learning by doing, as they have in solar panels and batteries. The logic is attractive, but it has a catch. Learning by doing requires volume, and volume requires orders, and orders require confidence that the technology works at a competitive price, which cannot be demonstrated until the first units are built. Regulatory approval is a further variable: a reactor of a novel design must be licensed by authorities who have no experience of it, and the process can take years. The first reactors will therefore be expensive, and someone must pay for them. Technology firms, which have large cash reserves and a willingness to pay a premium for clean, reliable power, are well placed to be early customers, and their orders may do for nuclear what government subsidies did for solar.\n\nA critic would add that the arrangement raises questions beyond cost. If a data centre contracts for the output of an existing reactor, the electricity is withdrawn from the public grid, and consumers may have to replace it with power from gas or coal; the firm has bought clean energy on paper, but the system as a whole may be dirtier than before. Only new capacity adds to the supply of clean power. Another reservation is concentration: if a few technology firms secure most of the available nuclear output, other industries and households may find the supply of clean power scarcer and dearer. There is also the long-standing problem of waste, which every reactor produces and no country has yet disposed of permanently, and the question of who bears liability if something goes wrong. These are not reasons to refuse nuclear power, but they are reasons to examine the claim that it is a simple answer to the energy needs of computing.\n\nIndia, which has set a target of substantially expanding its nuclear capacity while meeting growing demand from its own digital economy, faces the same choices. It can build large reactors, whose costs it has found hard to control, or invest in smaller designs whose economics are unproven; it can seek private investment, which requires clear rules on liability, or rely on public utilities, which have been slow. What the experience of other countries suggests is that the decisive variables are not the choice of technology but the discipline of repetition, the clarity of regulation and the willingness of someone to commit to the first units. Technology firms may supply the third; the first two must come from governments.",
+  "CA1": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nKavya Menon (Host, Street Smart): This IPO was subscribed over a hundred times, yet it listed barely above its issue price. How is that possible?\n\nDr. Rohit Sinha (finance professor): Subscription measures demand at the issue price, not the price the market will pay later. If the offer is priced low, demand is huge; but once shares begin to trade, the price rises only to the level investors think is fair. Oversubscription can mean the offer was cheap, or that the issue was fashionable, and the two are not the same.\n\nKavya Menon: So why do investors apply in such large numbers?\n\nDr. Rohit Sinha: Because allotment to small investors is by lot, and applying costs almost nothing. If you expect a listing gain, you apply for more, which inflates the subscription figure further. It becomes a signal that mostly measures how many people expect others to apply.\n\nKavya Menon: What should an investor look at instead?\n\nDr. Rohit Sinha: The valuation relative to earnings and peers, what the company will do with the money, whether it is growth or an exit for early investors, and how long it will take to be profitable. The subscription number is a measure of excitement, not of value."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "Vocabulary",
+   "question": "The senator's ________ speech, rich in sonorous phrases but poor in facts, left his audience impressed and uninformed.",
+   "options": [
+    "orotund",
+    "pedestrian",
+    "circumspect",
+    "laconic"
+   ],
+   "answer": 0,
+   "explanation": "'Orotund' means pompous and resonant in delivery, matching a speech rich in sonorous phrases but poor in facts. 'Laconic' (brief), 'pedestrian' (dull) and 'circumspect' (cautious) would not impress an audience with sonorous phrases."
+  },
+  {
+   "id": "q2",
+   "type": "Vocabulary",
+   "question": "The firm's ________ approach to risk, which bet the company on a single product, was admired in good years and condemned in bad ones.",
+   "options": [
+    "prudent",
+    "conservative",
+    "diversified",
+    "cavalier"
+   ],
+   "answer": 3,
+   "explanation": "'Cavalier' means casually careless of risk, fitting a bet on a single product. 'Prudent', 'conservative' and 'diversified' describe the opposite approach."
+  },
+  {
+   "id": "q3",
+   "type": "Vocabulary",
+   "question": "Having heard both sides, the arbitrator tried to ________ and find a settlement acceptable to each.",
+   "options": [
+    "stir the pot",
+    "steer a middle course",
+    "rock the boat",
+    "throw caution to the winds"
+   ],
+   "answer": 1,
+   "explanation": "'Steer a middle course' means to follow a moderate path between extremes, which suits an arbitrator seeking a settlement. 'Stir the pot' and 'rock the boat' mean to stir up trouble; 'throw caution to the winds' is to act recklessly."
+  },
+  {
+   "id": "q4",
+   "type": "Vocabulary",
+   "question": "The explanation was ________: it accounted for every fact but could never be shown to be false, and therefore explained nothing.",
+   "options": [
+    "tautological",
+    "testable",
+    "comprehensive",
+    "refutable"
+   ],
+   "answer": 0,
+   "explanation": "'Tautological' means true by definition, so incapable of being shown false and explaining nothing. 'Testable' and 'refutable' mean capable of being shown false; 'comprehensive' does not capture the flaw."
+  },
+  {
+   "id": "q5",
+   "type": "Vocabulary",
+   "question": "The minister's ________ assurances, repeated with ________ confidence, only deepened the suspicion that he had something to ________.",
+   "options": [
+    "emphatic; unwavering; reveal",
+    "muted; unwavering; disclose",
+    "emphatic; unwavering; conceal",
+    "tentative; unwavering; conceal"
+   ],
+   "answer": 2,
+   "explanation": "Over-insistent ('emphatic') assurances repeated with 'unwavering' confidence deepen suspicion that he has something to 'conceal'. 'Tentative' and 'muted' assurances would not be 'repeated with confidence'; 'reveal' and 'disclose' do not fit a suspicion of hiding."
+  },
+  {
+   "id": "q6",
+   "type": "Vocabulary",
+   "question": "Far from being ________ by the setback, the team treated it as a spur, and its ________ only grew.",
+   "options": [
+    "daunted; despair",
+    "spurred; resolve",
+    "encouraged; resolve",
+    "daunted; resolve"
+   ],
+   "answer": 3,
+   "explanation": "'Far from being daunted' (discouraged) sets up the contrast, and the team's 'resolve' grew. 'Encouraged' and 'spurred' repeat rather than contrast; 'despair' contradicts treating the setback as a spur."
+  },
+  {
+   "id": "q7",
+   "type": "Vocabulary",
+   "question": "The ________ force of the evidence, each piece reinforcing the next, made the conclusion hard to resist.",
+   "options": [
+    "isolated",
+    "contradictory",
+    "incidental",
+    "cumulative"
+   ],
+   "answer": 3,
+   "explanation": "'Cumulative' means building up through addition, fitting evidence in which each piece reinforces the next. 'Incidental', 'contradictory' and 'isolated' contradict reinforcement."
+  },
+  {
+   "id": "q8",
+   "type": "Vocabulary",
+   "question": "Though critics found the novel ________, its slow pace and dense allusions repaying only the patient, it found a devoted readership.",
+   "options": [
+    "entertaining",
+    "accessible",
+    "forbidding",
+    "straightforward"
+   ],
+   "answer": 2,
+   "explanation": "'Forbidding' means unwelcoming or difficult, matching a slow, dense novel that repays only the patient. 'Accessible', 'entertaining' and 'straightforward' contradict this."
+  },
+  {
+   "id": "q9",
+   "type": "Vocabulary",
+   "question": "A man of ________ habits, he rose at five, walked for an hour, and wrote until noon, without exception, for forty years.",
+   "options": [
+    "unpredictable",
+    "methodical",
+    "erratic",
+    "dissolute"
+   ],
+   "answer": 1,
+   "explanation": "'Methodical' means orderly and systematic, fitting a fixed daily routine kept for forty years. 'Erratic', 'dissolute' (immoral) and 'unpredictable' contradict it."
+  },
+  {
+   "id": "q10",
+   "type": "Grammar",
+   "question": "He is one of the few players who <u>has</u> scored a century in both formats.",
+   "options": [
+    "have",
+    "had",
+    "is having",
+    "having"
+   ],
+   "answer": 0,
+   "explanation": "In 'one of the few players who...', 'who' refers to the plural 'players', so the verb is plural: 'who have scored'."
+  },
+  {
+   "id": "q11",
+   "type": "Grammar",
+   "question": "She has been working here <u>since five years</u>.",
+   "options": [
+    "from five years",
+    "for five years",
+    "by five years",
+    "since five years ago"
+   ],
+   "answer": 1,
+   "explanation": "'Since' marks a starting point; a period of time takes 'for': 'for five years'."
+  },
+  {
+   "id": "q12",
+   "type": "Grammar",
+   "question": "The prize was shared between <u>she and I</u>.",
+   "options": [
+    "she and me",
+    "hers and mine",
+    "her and I",
+    "her and me"
+   ],
+   "answer": 3,
+   "explanation": "After a preposition ('between') the object forms are used: 'between her and me'."
+  },
+  {
+   "id": "q13",
+   "type": "Grammar",
+   "question": "The new policy is <u>both expensive and it is unfair</u>.",
+   "options": [
+    "both expensive and unfair",
+    "both expensive and also it is unfair",
+    "expensive both and unfair",
+    "both expensive as well as unfair too"
+   ],
+   "answer": 0,
+   "explanation": "'Both... and' requires parallel structure: 'both expensive and unfair'. The other options break parallelism or are redundant."
+  },
+  {
+   "id": "q14",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "She took out a policy to ensure her jewellery against theft.",
+    "The novel's denouement ties together the threads of the plot with unexpected and satisfying neatness.",
+    "The accountant's findings were disinterested, as he stood to gain nothing from the outcome of the audit.",
+    "The explorers' provisions were dwindling, and they rationed what remained with great care and discipline."
+   ],
+   "answer": 0,
+   "explanation": "To protect against loss by paying a premium is to 'insure'; 'ensure' means to make certain. 'Disinterested' (impartial), 'dwindling' and 'denouement' (resolution) are used correctly."
+  },
+  {
+   "id": "q15",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "The two rivals reached an uneasy detente after years of open hostility between their supporters.",
+    "The shrub is a perennial, flowering for a single week and then dying for good.",
+    "The boy's precocious talent for mathematics astonished his teachers when he was only eight years old.",
+    "The emperor's decree was promulgated throughout the provinces within a month of its signing by him."
+   ],
+   "answer": 1,
+   "explanation": "A 'perennial' plant lives for several years, which contradicts dying after one week; 'annual' or 'ephemeral' is intended. 'Precocious', 'promulgated' (made public) and 'detente' (easing of tension) are correct."
+  },
+  {
+   "id": "q16",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "The senator's equivocal reply, open to two readings, satisfied neither his supporters nor his critics.",
+    "Her obstinate refusal to compromise, even after the facts had changed, cost her the support of allies.",
+    "The lecturer's discursive style, which kept strictly to the point, was praised by all.",
+    "The new law supersedes the earlier act, which is hereby repealed in its entirety by the legislature."
+   ],
+   "answer": 2,
+   "explanation": "'Discursive' means wandering from point to point, which contradicts keeping strictly to the point; 'concise' or 'focused' is intended. 'Equivocal', 'obstinate' and 'supersedes' are correct."
+  },
+  {
+   "id": "q17",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nEconomists distinguish between short-run and long-run effects. ____________________. A minimum wage rise may raise earnings for those who keep their jobs immediately, while its effect on hiring, which depends on firms adjusting their plans, unfolds over years; judging the policy by the first year alone may therefore mislead.",
+   "options": [
+    "Policies often have different effects at different horizons, and the first to appear may not be the largest.",
+    "A policy that has no effect in the first year can be assumed to have no effect in any later year at all.",
+    "Economists disagree about the effect of a minimum wage because they use different definitions of the short and the long run.",
+    "Long-run effects are always larger than short-run effects, and so only the long run should count in a policy decision."
+   ],
+   "answer": 0,
+   "explanation": "The example shows an immediate effect and a slower one on hiring, so the blank states that effects differ across horizons. The other options contradict or overstate this."
+  },
+  {
+   "id": "q18",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nTranslation errors in diplomacy have occasionally been blamed for crises. ____________________. Historians who have examined such cases usually find that the misunderstanding lay less in a word than in the expectations of the listener: a phrase was read as a threat because a threat was already feared.",
+   "options": [
+    "Interpreters are rarely trained to render the nuances of political speech and are not held to account for mistakes.",
+    "The explanation, however, is often too convenient, since it places the blame on words and not on policies.",
+    "Every crisis in the history of diplomacy has been caused by an error of translation made by an interpreter.",
+    "Diplomats are generally unable to speak the languages of the countries to which they are sent as representatives."
+   ],
+   "answer": 1,
+   "explanation": "'However' signals a challenge to the translation-error explanation, which the following sentences develop. The other options are unsupported or overstated."
+  },
+  {
+   "id": "q19",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nA museum's collection is rarely a neutral record of the past. ____________________. Objects enter museums through purchase, gift, conquest and excavation, and each route favours some kinds of object and some owners over others; what visitors see is therefore a record of what was collectable, and by whom.",
+   "options": [
+    "It reflects the history of who collected, and on what terms, as much as the history of what was made.",
+    "Museums choose their exhibits at random, and visitors should therefore not draw any conclusions from what they see.",
+    "Most museums are funded by governments that decide which periods of history are to be displayed to the public.",
+    "The objects in a museum are always exact copies of originals that were destroyed or lost in the course of time."
+   ],
+   "answer": 0,
+   "explanation": "The following sentences explain how routes of acquisition shape collections, so the blank says collections reflect collecting history. The other options are not supported."
+  },
+  {
+   "id": "q20",
+   "type": "RC",
+   "question": "According to Dr. Sinha, subscription figures for an IPO measure",
+   "passageId": "CA1",
+   "options": [
+    "the value of the company as judged by investors who have studied its earnings and its prospects",
+    "the number of shares that are allotted to small investors, as against those given to large institutions",
+    "the price at which the shares will trade once they begin to be bought and sold on the stock exchange",
+    "demand at the issue price, which need not match the price the market will pay later"
+   ],
+   "answer": 3,
+   "explanation": "He says 'Subscription measures demand at the issue price, not the price the market will pay later'. It is a measure of excitement, not of value."
+  },
+  {
+   "id": "q21",
+   "type": "RC",
+   "question": "According to Dr. Sinha, investors apply in very large numbers because",
+   "passageId": "CA1",
+   "options": [
+    "the shares are always sold below their true value, and so every application is certain to succeed",
+    "they have studied the company's accounts and are certain that its shares will rise sharply after listing",
+    "regulators require every investor to apply for at least as many shares as the issue is offering",
+    "applying costs little and allotment is by lot, so people apply for more, inflating the figure"
+   ],
+   "answer": 3,
+   "explanation": "He says 'allotment to small investors is by lot, and applying costs almost nothing', so expecting a gain 'you apply for more, which inflates the subscription figure further'."
+  },
+  {
+   "id": "q22",
+   "type": "RC",
+   "question": "Dr. Sinha says that an investor should look instead at",
+   "passageId": "CA1",
+   "options": [
+    "the opinions of other investors about whether the issue is likely to be popular with the public",
+    "the listing gain that the shares have earned on the first day of trading after the issue",
+    "how many times the issue has been subscribed in comparison with other issues in the same year",
+    "valuation, the use of the proceeds and the path to profit"
+   ],
+   "answer": 3,
+   "explanation": "He recommends 'The valuation relative to earnings and peers, what the company will do with the money... and how long it will take to be profitable'."
+  },
+  {
+   "id": "q23",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Advantage, once gained, therefore tends to accumulate.\n2. Sociologists call this the Matthew effect, after the line in the Gospel that to those who have, more will be given.\n3. Recognition then brings resources, which produce further results and further recognition.\n4. In science, a well-known researcher's paper tends to receive more credit than an identical paper by an unknown one.",
+   "answer": "4231",
+   "explanation": "Sentence 4 gives the observation. Sentence 2 ('this') names it. Sentence 3 ('then') gives the mechanism. Sentence 1 ('therefore') concludes. Order: 4-2-3-1."
+  },
+  {
+   "id": "q24",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Yet total coal consumption rose, because cheaper power opened new uses for it.\n2. In 1865 William Stanley Jevons observed that more efficient steam engines had not reduced the use of coal.\n3. The pattern is now known as the Jevons paradox.\n4. Efficiency lowers the cost of a service, and demand for the service may grow by more than the saving.\n5. Its modern relevance is clear in the debate about energy efficiency and the demand for computing.",
+   "answer": "21435",
+   "explanation": "Sentence 2 gives the observation. Sentence 1 ('Yet total coal consumption rose') gives the surprise. Sentence 4 explains it. Sentence 3 names it. Sentence 5 ('Its modern relevance') applies it. Order: 2-1-4-3-5."
+  },
+  {
+   "id": "q25",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Yet it says nothing about fairness, since a state in which one person owns everything may satisfy it.\n2. It is therefore a minimum standard for a good outcome and not a sufficient one.\n3. An outcome is Pareto efficient if no one can be made better off without making someone else worse off.\n4. The criterion is attractive because it requires no comparison of different people's happiness.",
+   "answer": "3412",
+   "explanation": "Sentence 3 defines the term. Sentence 4 ('The criterion') gives its appeal. Sentence 1 ('Yet') gives the limit. Sentence 2 ('therefore') concludes. Order: 3-4-1-2."
+  },
+  {
+   "id": "q26",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Banks that are solvent but short of cash may otherwise fail, and their failure spreads to others.\n2. These two conditions discourage banks from relying on rescue.\n3. A run on banks is self-fulfilling, since fear of failure makes depositors withdraw and so causes failure.\n4. He added that such lending should be at a penalty rate and against good collateral.\n5. Walter Bagehot argued in the nineteenth century that in a panic the central bank should lend freely.",
+   "answer": "35142",
+   "explanation": "Sentence 3 describes the problem (a run). Sentence 5 gives Bagehot's advice. Sentence 1 explains why. Sentence 4 ('He added') gives the conditions. Sentence 2 ('These two conditions') comments on them. Order: 3-5-1-4-2."
+  },
+  {
+   "id": "q27",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Psychologists call this moral licensing.\n2. Good conduct, in other words, can become a reason for later lapses.\n3. A shopper who has bought organic food, for instance, may feel free to indulge in an extravagant treat.\n4. People who have done something virtuous often feel entitled to behave worse afterwards.",
+   "answer": "4312",
+   "explanation": "Sentence 4 states the pattern. Sentence 3 ('for instance') gives an example. Sentence 1 ('this') names it. Sentence 2 ('in other words') restates it. Order: 4-3-1-2."
+  },
+  {
+   "id": "q28",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC1",
+   "options": [
+    "Resistance can be controlled by stewardship alone, and the development of new antibiotics is therefore unnecessary for medicine",
+    "The antibiotic market fails because its value lies in preserved access, so rewards must be delinked from sales volume",
+    "Governments should fund the early research of antibiotics, since this alone will ensure that firms bring new drugs to the market",
+    "Pharmaceutical firms have withdrawn from antibiotics because regulators have refused to approve drugs that are effective against resistant infections"
+   ],
+   "answer": 1,
+   "explanation": "The author explains that the social value of an antibiotic lies in availability and that pull incentives pay for access regardless of volume, while stewardship is also needed. The other options contradict the passage."
+  },
+  {
+   "id": "q29",
+   "type": "RC",
+   "question": "According to the passage, sales of a new antibiotic are small because",
+   "passageId": "RC1",
+   "options": [
+    "patients prefer older antibiotics, since these have been tested for a longer time and are known to be safe",
+    "it is far more expensive than older drugs, and few health systems can afford to buy it in any quantity",
+    "regulators allow it to be prescribed only in hospitals that have been approved to use it for the purpose",
+    "doctors reserve it for cases in which older drugs have failed, so as to slow resistance"
+   ],
+   "answer": 3,
+   "explanation": "The passage says 'doctors reserve it for cases in which every older drug has failed, so that resistance to it develops slowly... But the same restraint ensures that sales are small'."
+  },
+  {
+   "id": "q30",
+   "type": "RC",
+   "question": "The 'negative externality' of antibiotic use is that",
+   "passageId": "RC1",
+   "options": [
+    "firms that sell antibiotics must bear the cost of destroying drugs that have passed their expiry date",
+    "each use makes the drug less useful for the next patient, a cost the prescriber does not bear",
+    "antibiotics given to one patient cause harmful side effects in other patients who are in the same ward",
+    "the price of an antibiotic rises each time that a doctor prescribes it for a patient in a hospital"
+   ],
+   "answer": 1,
+   "explanation": "The passage says 'each use of an antibiotic by one patient makes the drug slightly less useful for the next, a cost the prescriber does not bear'."
+  },
+  {
+   "id": "q31",
+   "type": "RC",
+   "question": "The author describes pull incentives as ones that",
+   "passageId": "RC1",
+   "options": [
+    "penalise doctors who prescribe new antibiotics when older drugs would have been enough",
+    "require firms to supply an antibiotic at a fixed price to every health system that requests it",
+    "reward success by paying for access regardless of the quantity sold",
+    "lower the cost of developing a drug through public funding of research and shared trials"
+   ],
+   "answer": 2,
+   "explanation": "The passage says 'Pull incentives reward success: a government or consortium might guarantee a fixed annual payment for access... regardless of the quantity sold'. The first option describes push incentives."
+  },
+  {
+   "id": "q32",
+   "type": "RC",
+   "question": "The free-rider problem in the passage arises because",
+   "passageId": "RC1",
+   "options": [
+    "a non-contributing country still gains, since resistance respects no border",
+    "firms that develop new antibiotics sell them at lower prices to countries that have not funded their development",
+    "countries that fund new drugs are not allowed to prevent other countries from using them in any way",
+    "poorer countries refuse to pay for new medicines until the prices of older medicines have fallen to a low level"
+   ],
+   "answer": 0,
+   "explanation": "The passage says 'a drug developed with British money protects patients everywhere, and a country that does not contribute gains the benefit regardless'."
+  },
+  {
+   "id": "q33",
+   "type": "RC",
+   "question": "Each of the following is mentioned as a part of the stewardship problem EXCEPT",
+   "passageId": "RC1",
+   "options": [
+    "the use of regulation, diagnostics and public information to reduce demand",
+    "a ban on the use of antibiotics in treating human infections",
+    "the release of residues into water",
+    "the use of antibiotics in livestock"
+   ],
+   "answer": 1,
+   "explanation": "The passage mentions livestock use, water residues, and regulation, diagnostics and public information. A ban on treating human infections is never suggested."
+  },
+  {
+   "id": "q34",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC2",
+   "options": [
+    "Parents are responsible for children's use of social media, and governments have no business to impose rules on the platforms",
+    "A ban on social media for children is unworkable and should be abandoned, since age verification cannot be made to function at all",
+    "Evidence for the benefits of an age limit is uncertain, so it should be treated as an experiment alongside measures aimed at design",
+    "Social media is the main cause of the rise in adolescent anxiety, and a ban is therefore the only effective remedy that governments have"
+   ],
+   "answer": 2,
+   "explanation": "The author discusses weak causal evidence, the coordination argument, practical objections and concludes the ban should be treated 'as an experiment and not as a verdict'. The other options adopt one side."
+  },
+  {
+   "id": "q35",
+   "type": "RC",
+   "question": "The author says the direction of cause is disputed because",
+   "passageId": "RC2",
+   "options": [
+    "unhappy teenagers may use platforms more as well as being made unhappy by them",
+    "adolescent mental health has improved in every country in which smartphones have become widely used",
+    "social media use among teenagers has been falling at the same time as rates of anxiety have been rising",
+    "most studies have been paid for by the companies that own the platforms, and cannot be trusted"
+   ],
+   "answer": 0,
+   "explanation": "The passage says 'unhappy teenagers may use platforms more as well as being made unhappy by them'."
+  },
+  {
+   "id": "q36",
+   "type": "RC",
+   "question": "The defenders' argument about classmates being on a service shows that",
+   "passageId": "RC2",
+   "options": [
+    "a ban on social media is easier to enforce at school than it is to enforce at home among the children",
+    "social media is harmful to children only when most of their classmates are also on the same service",
+    "parents face a coordination problem that families cannot solve alone",
+    "children who stay off social media are less happy than children who use it, as studies have shown"
+   ],
+   "answer": 2,
+   "explanation": "The passage says 'a child who stays off pays a social price, so that families cannot opt out alone. A rule applying to everyone solves the coordination problem that no household can solve for itself'."
+  },
+  {
+   "id": "q37",
+   "type": "RC",
+   "question": "Each of the following is mentioned as a practical objection to the ban EXCEPT that",
+   "passageId": "RC2",
+   "options": [
+    "use may shift to platforms that fall outside the definition",
+    "platforms would be unable to afford the cost of enforcing it",
+    "teenagers can circumvent controls with borrowed accounts or virtual private networks",
+    "age verification creates a store of sensitive data"
+   ],
+   "answer": 1,
+   "explanation": "The first three appear in the fourth paragraph. The cost of enforcement to the platforms is never mentioned."
+  },
+  {
+   "id": "q38",
+   "type": "RC",
+   "question": "The comparison with toys and food is meant to suggest that",
+   "passageId": "RC2",
+   "options": [
+    "parents are better able to judge the safety of a toy than the safety of a social media platform",
+    "children are more likely to be harmed by toys and food than they are by social media",
+    "the burden of showing that a widely used product is safe lies with its makers",
+    "social media should be sold only to adults, as alcohol and tobacco are sold in most countries"
+   ],
+   "answer": 2,
+   "explanation": "The passage says 'the burden of showing that it is safe, they argue, lies with its makers, as it does with toys and food'."
+  },
+  {
+   "id": "q39",
+   "type": "RC",
+   "question": "The 'less sweeping measures' suggested in the last paragraph are described as ones that",
+   "passageId": "RC2",
+   "options": [
+    "replace the need for any form of age verification by the companies that run the platforms",
+    "apply only to children under the age of sixteen who hold accounts on the major platforms",
+    "depend on parents deciding which features of a platform their children may use",
+    "target the mechanism rather than the age of the user"
+   ],
+   "answer": 3,
+   "explanation": "The passage says 'These target the mechanism rather than the age of the user, and they would apply to adults as well'."
+  },
+  {
+   "id": "q40",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC3",
+   "options": [
+    "Nuclear power for data centres is promising, but its success depends on repetition, clear rules and early commitment",
+    "Nuclear power cannot meet the needs of data centres, since reactors are too dangerous and produce waste that no country can store",
+    "Technology firms have solved the problem of cost overruns in nuclear power, and reactors can now be built quickly and cheaply everywhere",
+    "Wind and solar power are unable to supply the electricity that data centres need, and nuclear power is the only alternative"
+   ],
+   "answer": 0,
+   "explanation": "The author says costs fall with repetition, SMRs face a volume catch, deals may not add clean supply, and the decisive variables are 'repetition, the clarity of regulation and the willingness of someone to commit to the first units'."
+  },
+  {
+   "id": "q41",
+   "type": "RC",
+   "question": "According to the passage, large reactors ran over budget because",
+   "passageId": "RC3",
+   "options": [
+    "governments in Europe and the United States forbade firms from building reactors to a standard design",
+    "workers in the nuclear industry demanded higher wages than workers in other industries of construction",
+    "each was in effect a bespoke project, with design changes and a depleted supply chain",
+    "the laws of nuclear physics make it impossible to build a reactor within a fixed budget"
+   ],
+   "answer": 2,
+   "explanation": "The passage says 'each was in effect a bespoke project, with design changes during construction, a depleted supply chain and a workforce that had not built a reactor in a generation'."
+  },
+  {
+   "id": "q42",
+   "type": "RC",
+   "question": "South Korea and China are mentioned to show that",
+   "passageId": "RC3",
+   "options": [
+    "the cost overruns in Europe and the United States were caused by the poor skills of their workers",
+    "costs fall when many reactors are built to a standard design",
+    "small modular reactors are cheaper to build than large reactors in any country that tries to build them",
+    "nuclear reactors can be built cheaply only in countries where the government owns all the power companies"
+   ],
+   "answer": 1,
+   "explanation": "The passage says they 'have built reactors at far lower cost by building many to a standard design', and concludes that 'nuclear costs fall with repetition'."
+  },
+  {
+   "id": "q43",
+   "type": "RC",
+   "question": "The 'catch' in the case for small modular reactors is that",
+   "passageId": "RC3",
+   "options": [
+    "learning by doing has been shown not to reduce costs in industries such as solar panels or batteries",
+    "technology firms are unwilling to pay a premium for power that is clean and reliable at all hours",
+    "factory-built units must be shipped to the site, which makes them dearer than reactors built on the site itself",
+    "volume requires orders, but confidence in the price cannot be shown until the first units are built"
+   ],
+   "answer": 3,
+   "explanation": "The passage says 'Learning by doing requires volume, and volume requires orders, and orders require confidence that the technology works at a competitive price, which cannot be demonstrated until the first units are built'."
+  },
+  {
+   "id": "q44",
+   "type": "RC",
+   "question": "The critic's objection to a data centre contracting for an existing reactor's output is that",
+   "passageId": "RC3",
+   "options": [
+    "the data centre would pay too much for the electricity, which would raise the cost of computing for its customers",
+    "nuclear power cannot be used by firms that have made public commitments to cut their emissions of carbon",
+    "the public grid loses clean power, and may replace it with gas or coal, leaving the system dirtier",
+    "existing reactors are too old to supply the electricity that a data centre requires at all hours of the day"
+   ],
+   "answer": 2,
+   "explanation": "The passage says 'the electricity is withdrawn from the public grid, and consumers may have to replace it with power from gas or coal; the firm has bought clean energy on paper, but the system as a whole may be dirtier than before'."
+  },
+  {
+   "id": "q45",
+   "type": "RC",
+   "question": "According to the author, the decisive variables for India's nuclear expansion are",
+   "passageId": "RC3",
+   "options": [
+    "the amount of private investment that the government can attract from technology firms abroad",
+    "the speed with which waste can be disposed of and the liability of firms for accidents are settled",
+    "repetition, clear regulation and a willingness to commit to the first units",
+    "the choice between large reactors and small modular reactors, and the size of the budget for each"
+   ],
+   "answer": 2,
+   "explanation": "The last paragraph says 'the decisive variables are not the choice of technology but the discipline of repetition, the clarity of regulation and the willingness of someone to commit to the first units'."
   }
  ]
 }
