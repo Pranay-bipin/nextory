@@ -9060,5 +9060,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> Balancing depends on voters’ awareness of who controls what. If uninformed voters shift against the president’s party at the same rate as informed ones, then awareness plays no role, and the theory cannot explain why they do so.<br><br>• <strong>Why Option A is Wrong:</strong> This is consistent with a taste for divided government and supports the theory.<br><br>• <strong>Why Option B is Wrong:</strong> This directly links the intention to restrain the president with the switch in votes, so it supports the theory.<br><br>• <strong>Why Option D is Wrong:</strong> A larger shift when one party controls both branches is just what a desire for balance would predict.<br><br><strong>💡 Approach:</strong> For a “hardest to explain” question, find the option that contradicts the theory’s key premise (voter awareness) while the others are consistent with it."
       }
     ]
+  },
+  {
+    "id": "rc-2026-11-04",
+    "date": "2026-11-04",
+    "title": "Teaching Machines to Read: Who Pays for the Library?",
+    "genre": "Current Affairs / Technology & Law",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1032 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "remuneration",
+          "type": "noun",
+          "def": "Payment for work or services. Synonyms: pay, compensation, wages. Antonyms: nonpayment, forfeiture.",
+          "ex": "The contract promised fair remuneration for the writers."
+        },
+        {
+          "word": "proprietary",
+          "type": "adjective",
+          "def": "Owned by a private person or company; relating to ownership. Synonyms: patented, owned, exclusive. Antonyms: public, open, generic.",
+          "ex": "The firm guarded its proprietary software closely."
+        },
+        {
+          "word": "derivative",
+          "type": "adjective",
+          "def": "Imitative of an original and not new; (noun) something derived from another. Synonyms: unoriginal, imitative, secondary. Antonyms: original, innovative, groundbreaking.",
+          "ex": "Critics found the film derivative of earlier thrillers."
+        },
+        {
+          "word": "appropriate",
+          "type": "verb",
+          "def": "To take something for one’s own use, usually without permission. (Adjective: suitable.) Synonyms: seize, commandeer, borrow. Antonyms: return, relinquish, donate.",
+          "ex": "The company was accused of appropriating local designs."
+        },
+        {
+          "word": "viable",
+          "type": "adjective",
+          "def": "Capable of working or succeeding; feasible. Synonyms: workable, feasible, practicable. Antonyms: unworkable, impractical, unrealistic.",
+          "ex": "No viable alternative to the licence scheme was proposed."
+        },
+        {
+          "word": "equitable",
+          "type": "adjective",
+          "def": "Fair and impartial. Synonyms: just, fair, even-handed. Antonyms: unfair, biased, inequitable.",
+          "ex": "The committee sought an equitable division of the revenue."
+        },
+        {
+          "word": "arbitrary",
+          "type": "adjective",
+          "def": "Based on random choice or personal whim, not on reason. Synonyms: capricious, random, whimsical. Antonyms: reasoned, systematic, principled.",
+          "ex": "The deadline seemed arbitrary and unrelated to the work."
+        },
+        {
+          "word": "stifle",
+          "type": "verb",
+          "def": "To restrain or suppress; to prevent from developing. Synonyms: suppress, smother, curb. Antonyms: encourage, foster, nurture.",
+          "ex": "Heavy regulation can stifle innovation."
+        },
+        {
+          "word": "nascent",
+          "type": "adjective",
+          "def": "Just beginning to develop; emerging. Synonyms: emerging, budding, embryonic. Antonyms: mature, established, developed.",
+          "ex": "The nascent industry needed clear rules."
+        },
+        {
+          "word": "gatekeeper",
+          "type": "noun",
+          "def": "A person or organisation that controls access to something. Synonyms: guardian, controller, doorkeeper. Antonyms: facilitator, enabler.",
+          "ex": "Platforms became gatekeepers of the digital market."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "level the playing field",
+          "def": "To create conditions in which all competitors have a fair chance.",
+          "ex": "The new rule was meant to level the playing field for small publishers."
+        },
+        {
+          "idiom": "open the floodgates",
+          "def": "To allow a large number of things, usually unwelcome, to happen.",
+          "ex": "Critics feared the ruling would open the floodgates to lawsuits."
+        },
+        {
+          "idiom": "the lion’s share",
+          "def": "The largest part of something.",
+          "ex": "Large platforms took the lion’s share of the advertising revenue."
+        },
+        {
+          "idiom": "reinvent the wheel",
+          "def": "To waste effort redoing something that already exists.",
+          "ex": "Regulators need not reinvent the wheel; existing models can be adapted."
+        },
+        {
+          "idiom": "a grey area",
+          "def": "A situation not clearly governed by rules or definitions.",
+          "ex": "The use of scraped data remains a legal grey area."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "draw on",
+          "def": "To use something as a resource. Synonym: utilise.",
+          "ex": "The model draws on millions of documents."
+        },
+        {
+          "verb": "hand over",
+          "def": "To give control or possession of something to someone else. Synonym: surrender.",
+          "ex": "Creators refused to hand over their archives without payment."
+        },
+        {
+          "verb": "weigh up",
+          "def": "To consider the merits of something carefully. Synonym: assess.",
+          "ex": "Regulators must weigh up the benefits and the risks."
+        },
+        {
+          "verb": "sign off on",
+          "def": "To give official approval to something. Synonym: approve.",
+          "ex": "The ministry signed off on the framework."
+        },
+        {
+          "verb": "rely on",
+          "def": "To depend on someone or something. Synonym: depend upon.",
+          "ex": "Smaller developers rely on open datasets."
+        }
+      ]
+    },
+    "passage": "India’s Department for Promotion of Industry and Internal Trade has been consulting on how copyright law should treat generative artificial intelligence, and it extended the consultation to allow more stakeholders to respond. The question it faces is being asked in many countries at once. The systems in question learn by processing very large collections of text, images and sound, much of it protected by copyright, and in the process they make copies of the material. Whether those copies require the permission of the people who made the works is a legal question, but the answer will also decide who pays for the raw material of a new industry. Rules written too loosely may allow the value created by many writers, artists and musicians to be captured by a few firms; rules written too tightly may leave the technology to those who can afford the licences, or to those who train their systems in more permissive countries.\n\nThe developers’ case rests on an analogy. A person who reads a thousand novels and then writes one of her own has not infringed anyone’s copyright, even though her writing has been shaped by everything she has read. A model, on this view, does the same thing in a different medium: it extracts patterns of language and style, which copyright has never protected, and does not store or reproduce the works themselves. Training is therefore a transformative use, and the copies made along the way are a technical step, not a commercial exploitation of anyone’s expression. Developers add a practical point. A system trained on millions of works by authors who are often impossible to identify cannot realistically obtain permission one work at a time, so a rule requiring consent would amount to a ban. Some jurisdictions have accordingly adopted exceptions for text and data mining, and others allow rights-holders to opt out. Underlying these arguments is a concern about competitiveness: if one country demands consent and another does not, developers can simply move their training to the more permissive place, and the stricter country will have burdened its own developers without shielding its creators from the technology’s effects.\n\nCreators answer that the analogy flatters the technology. A person reads at human speed, a few thousand works in a lifetime, and writes at human speed; a model ingests millions of works in weeks and can then generate unlimited output in the same genres at almost no cost. The value of the system lies in what it has absorbed, and the people who produced that value have not been asked or paid. Creators also dispute that outputs are merely patterns: models have been shown, in some circumstances, to reproduce passages of their training data, and even where they do not, the outputs compete for the same readers, buyers and commissions as the works on which they were trained. The harm, on this view, is the substitution of cheap machine output for paid human work, and a transformative use that destroys the market for the original cannot be called harmless. There is also a question of fairness that does not depend on proof of lost sales. A writer who spent years developing a distinctive voice may reasonably object that a machine has been built, in part, from the product of that effort, and that others will earn from it while she is neither consulted nor rewarded.\n\nThe two cases seem to talk past each other because they answer different questions. There are at least three. The first concerns the input: is it lawful to copy works for the purpose of training? The second concerns the output: does the model reproduce protected expression? The third concerns the market: do the outputs substitute for the works used to build the model? Legal doctrine in several countries gives the third question considerable weight, and it is the one on which evidence is thinnest, because the technology is young and its effects on incomes are only beginning to be measured. The reading analogy, moreover, answers the first question and says nothing about the third. A use can be transformative and still harmful; the two properties are independent. Equally, the creators’ complaint about unpaid value is a claim about fairness and does not by itself show that copyright law, which protects expression and not effort, is the right instrument for addressing it. Each side tends to answer the question it prefers, and the disagreement persists because the questions are different.\n\nPolicy options fall between two extremes. A broad exception favours developers and leaves creators unpaid; a consent requirement favours creators and may be unworkable. Between them lie opt-out systems and licensing schemes, each with costs. An opt-out system places the burden of acting on creators, and those with the fewest resources are least likely to notice or to have the means to object. A licensing system can pay creators, but only if there is a body able to identify works, collect fees and distribute them fairly, and the fees themselves could harden into a barrier that only the largest firms can clear, entrenching the very concentration that critics fear. None of these problems is a decisive objection to any option, but together they show that the merit of a rule depends on facts that are not yet in: how far outputs substitute for human work, and how well payment systems can be administered. A further consideration is time. Rules adopted now will shape how the industry grows, and rules that prove mistaken will be hard to undo once business models, investments and expectations have formed around them. That is an argument for caution, but it cuts in both directions, because delay is itself a decision that favours whoever benefits from the present arrangement.\n\nThe debate would therefore be better conducted as a search for evidence than as a contest of analogies. Whichever rule is chosen, it should be designed to track the harm it is meant to address, and it should be revisited as the evidence accumulates. A rule that treats the technology as a reader will understate the burden placed on creators; a rule that treats it as a photocopier will overstate it. Neither image is wholly mistaken, and neither is sufficient.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "options": [
+          "A) Developers are right that training is transformative, so copyright law should be amended to exempt AI training from any requirement of consent or payment.",
+          "B) No single analogy can settle the dispute, and sound rules depend on separating the questions of input, output and market harm, and on evidence.",
+          "C) Creators are right that AI outputs destroy the market for human work, so every use of copyrighted works in training should require a licence.",
+          "D) The dispute over AI and copyright is purely legal, and the question of who bears the cost of the technology is a separate matter for economists."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The last two paragraphs argue that the cases talk past each other, that three distinct questions are involved, and that the debate should be a search for evidence in which neither the reader image nor the photocopier image is sufficient.<br><br>• <strong>Why Option A is Wrong:</strong> The author says a transformative use can still be harmful and that a broad exception leaves creators unpaid. The author does not endorse exemption.<br><br>• <strong>Why Option C is Wrong:</strong> The author says evidence of substitution is thin and that a consent requirement may be unworkable, so a universal licence rule is not endorsed.<br><br>• <strong>Why Option D is Wrong:</strong> The first paragraph says the legal answer will also decide who pays for the raw material of a new industry, so the two matters are linked.<br><br><strong>💡 Approach:</strong> For a central-argument question, use the author’s concluding stance. Reject options that adopt the position of one side or that deny a link the passage asserts."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following, if true, would most weaken the creators’ claim that AI outputs substitute for human work in the market?",
+        "options": [
+          "A) Several publishers have reported a fall in the income they receive from licensing their archives since generative AI tools became widely available.",
+          "B) Developers have signed paid licensing agreements with a number of publishers whose works were already included in their training data.",
+          "C) Surveys of buyers show that AI-generated text and images are rarely purchased in place of works by human creators.",
+          "D) Models have been shown, when prompted in particular ways, to reproduce long passages from some of the works used to train them."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The creators’ harm argument is about substitution. Evidence that buyers rarely choose AI output over human work directly undercuts it.<br><br>• <strong>Why Option A is Wrong:</strong> This is consistent with substitution and supports the creators.<br><br>• <strong>Why Option B is Wrong:</strong> Paid licences show that a licensing market exists, which does not address whether outputs substitute for human work.<br><br>• <strong>Why Option D is Wrong:</strong> Reproduction of training data supports the creators’ separate point about outputs, not the claim in question, and in any case does not weaken it.<br><br><strong>💡 Approach:</strong> To weaken a claim about substitution, find the option that shows buyers are not substituting. Reject options that support it or concern a different point."
+      },
+      {
+        "id": "q3",
+        "question": "Each of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) The author believes that requiring licences would chiefly benefit small developers.",
+          "B) The analogy between training and human reading is challenged on the ground of scale.",
+          "C) Opt-out systems may place the heaviest burden on creators with the fewest resources.",
+          "D) Whether outputs substitute for original works is presented as an unsettled empirical question."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The passage says licensing fees could harden into a barrier that only the largest firms can clear, so the author suggests that licences would, if anything, disadvantage small developers. The option reverses this.<br><br>• <strong>Why Option B is Wrong:</strong> This is stated in paragraph 3: a model ingests millions of works in weeks and generates unlimited output.<br><br>• <strong>Why Option C is Wrong:</strong> This is stated in paragraph 5: those with the fewest resources are least likely to notice or to object.<br><br>• <strong>Why Option D is Wrong:</strong> This follows from paragraph 4 (“the one on which evidence is thinnest”) and the last paragraph.<br><br><strong>💡 Approach:</strong> In an EXCEPT question, one option usually reverses the passage’s direction. Here the passage says licences may entrench large firms, so “chiefly benefit small developers” is the reverse."
+      },
+      {
+        "id": "q4",
+        "question": "The author’s statement that “A use can be transformative and still harmful” serves to:",
+        "options": [
+          "A) argue that transformative uses should never be protected by copyright law in any jurisdiction.",
+          "B) support the claim that the training of generative AI systems on copyrighted works should be banned outright.",
+          "C) suggest that courts in several countries have rejected the doctrine of transformative use.",
+          "D) show that a point favouring developers does not settle the question of harm."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The sentence follows the observation that the reading analogy says nothing about the market question. It shows that transformation (the developers’ point) and harm (the creators’ concern) are independent properties.<br><br>• <strong>Why Option A is Wrong:</strong> The author does not say transformative uses should never be protected, only that transformation does not exclude harm.<br><br>• <strong>Why Option B is Wrong:</strong> The author never argues for a ban and describes a consent requirement as possibly unworkable.<br><br>• <strong>Why Option C is Wrong:</strong> The passage says that legal doctrine gives weight to the market question, but not that courts have rejected the doctrine of transformative use.<br><br><strong>💡 Approach:</strong> For a function question, ask what relationship the sentence establishes. “Independent” properties means one cannot settle the other."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following, if true, would most strengthen the author’s concern about licensing systems expressed in paragraph 5?",
+        "options": [
+          "A) Licence fees paid so far represent a small share of the developers’ total spending on computing power and on engineering staff.",
+          "B) Collective bodies in other fields have proved able to distribute payments to creators within a year of collecting fees from users.",
+          "C) Only a handful of firms have afforded licences so far, and several smaller developers have stopped training new models.",
+          "D) Large developers have lobbied in favour of broad exceptions to copyright for the training of generative AI systems."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The author’s concern is that fees could become a barrier that only the largest firms can clear. If only a few firms have afforded licences and smaller developers have stopped training, that is the barrier effect in action.<br><br>• <strong>Why Option A is Wrong:</strong> Small fees relative to total spending would suggest that the barrier is low, which weakens the concern.<br><br>• <strong>Why Option B is Wrong:</strong> This concerns administration of payments, which is a separate issue from entrenchment of large firms.<br><br>• <strong>Why Option D is Wrong:</strong> Lobbying for broad exceptions shows a preference of large developers but gives no evidence on how licensing would affect market concentration.<br><br><strong>💡 Approach:</strong> To strengthen, locate the exact concern (fees entrench large firms) and choose the option that shows it happening, not a related issue."
+      },
+      {
+        "id": "q6",
+        "question": "Based on the author’s framework, which of the following cases would present the strongest argument for compensating creators?",
+        "options": [
+          "A) A model trained on a novelist’s books produces new novels in her style, which then sell in the same market at lower prices.",
+          "B) A model trained on millions of web pages is used by a meteorological agency to summarise daily weather reports for the public.",
+          "C) A model that learns the rules of grammar from texts in the public domain is used to correct the spelling of student essays.",
+          "D) A research model trained on works for a one-off analysis of linguistic patterns is never released and generates no commercial output."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> This case combines all three elements the author identifies as relevant: the works were used for training, the output resembles the originals’ style, and the output competes with them in the same market at lower prices, so substitution is present.<br><br>• <strong>Why Option B is Wrong:</strong> There is no evidence of competition with the creators of the training material, since weather summaries do not substitute for their work.<br><br>• <strong>Why Option C is Wrong:</strong> Public-domain texts carry no copyright, so there is no claim to compensation.<br><br>• <strong>Why Option D is Wrong:</strong> Without any commercial output, there is no market substitution, so the market-harm argument is absent.<br><br><strong>💡 Approach:</strong> For an application question, convert the author’s framework into a checklist (input, output, market effect) and choose the case that satisfies the most items."
+      }
+    ]
   }
 ]
