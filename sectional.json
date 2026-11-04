@@ -6524,5 +6524,596 @@
    "explanation": "The last paragraph says 'the decisive variables are not the choice of technology but the discipline of repetition, the clarity of regulation and the willingness of someone to commit to the first units'."
   }
  ]
+},
+  {
+ "id": "sec-2026-11-05",
+ "date": "2026-11-05",
+ "title": "IPMAT Indore VA Sectional – 5th Nov 2026 (Advanced Analytical)",
+ "durationMinutes": 45,
+ "totalQuestions": 45,
+ "passages": {
+  "RC1": "Gross domestic product is the most quoted number in economics and one of the least understood. It is the market value of final goods and services produced within a country in a year, and its growth rate is treated as the pulse of the nation. Governments celebrate it, markets move on it, and a revision of a decimal point can become headline news. Yet GDP was never designed as a measure of welfare. Its architects in the 1930s and 1940s, working to mobilise wartime production, wanted to know how much an economy could produce, and its construction reflects that purpose. The difficulty arises when a measure built for one question is used to answer another.\n\nThree kinds of problem recur. The first is what GDP omits. Unpaid work, such as caring for children and the elderly or cooking at home, which is performed mostly by women, contributes nothing to the figure, although the same work becomes part of GDP the moment it is paid for. The second is what GDP counts that it arguably should not: spending on repairing the damage caused by pollution or accidents raises output, though it merely restores what had been lost. The third is what GDP cannot see. Digital services that are free to the user, such as search, maps and messaging, create large benefits but little recorded output, since no price is paid; and improvements in quality, such as a phone far more capable than its predecessor at a similar price, are only partly captured by the statistician's adjustments. Even the measurement of prices poses puzzles, since a rise in recorded output may reflect a rise in prices rather than in quantities, and deflating nominal figures requires price indices whose weights may no longer match what households buy.\n\nFor a developing economy like India's there is a further problem, the informal sector. A large majority of workers earn their living in enterprises that are unregistered and unrecorded, from street vendors to small workshops, and statisticians must estimate their output by extrapolating from surveys taken infrequently. Between surveys, the informal share is typically assumed to move in line with the formal one. This convenience is dangerous in periods of shock: when a sudden policy change or a pandemic hits small enterprises harder than large ones, the assumption overstates growth because the damage is concentrated where it is least visible. Rebasing exercises, in which statisticians update the year against which prices are compared and the surveys on which estimates rest, can change the level and the growth rate of the series, which is why such revisions attract attention. Economists who dispute official growth figures are often arguing, in effect, about how much weight to give this assumption, and the argument cannot be resolved without better data on the sector in question.\n\nDefenders of GDP respond that its limitations are well known and that no alternative has displaced it. They are right in one respect: GDP correlates strongly with many things that people value, including life expectancy, schooling and income, and a rise in output generally accompanies a fall in poverty. A critic who dismisses it as irrelevant is guilty of the opposite error. But the correlation is imperfect and varies across countries, and an economy may grow quickly while the benefits are narrowly shared. Averages conceal distribution: if the incomes of the top tenth rise sharply while the rest stagnate, GDP per head will rise even though the typical household is no better off. A statistic that cannot distinguish between these cases should not be treated as a verdict on them.\n\nThe sensible response is neither to abolish GDP nor to venerate it but to supplement it. Measures of median household income, of inequality, of health and education, and of environmental depletion capture dimensions that the headline figure misses, and several governments now publish dashboards that report them alongside output. Such dashboards have their own difficulties, since a basket of indicators invites selective quotation, and a single index that combines them requires value judgements about weights that statisticians cannot make on behalf of citizens. These difficulties are not an argument for retaining a single number. They are an argument for asking, of any figure offered as the measure of success, what it includes, what it leaves out, and who is in a position to say.",
+  "RC2": "Climate policy has for three decades been organised around mitigation, the reduction of greenhouse-gas emissions, on the logic that the surest way to limit harm is to prevent the warming that causes it. Adaptation, the adjustment of societies to the changes already under way, was regarded as a secondary and almost embarrassing subject, since to discuss it seemed to concede that mitigation had failed. That attitude has become untenable. Heatwaves, floods and droughts are now frequent enough that their costs are visible in public budgets and household incomes, and every annual round of climate negotiations now includes disputes over who should pay for adaptation, how much, and to whom.\n\nThe economics of the two differ in ways that explain why adaptation is neglected. Mitigation is a global public good: a tonne of carbon avoided anywhere benefits everyone, so that each country is tempted to let others bear the cost. Adaptation, by contrast, is largely a local good, since a sea wall protects the city that builds it, and one might therefore expect it to be provided without international coordination. That is true in rich countries, which can finance defences from taxation and insurance. Insurance markets, which might in principle spread the risk, withdraw from areas where losses have become too frequent to price. The countries most exposed to climate risk are often those with the least capacity to borrow, and for them adaptation is a public good only in the sense that the world has an interest in their survival, and a moral responsibility to help. The outcome is a gap between need and funding that estimates put at many times the amount currently provided.\n\nThe gap is complicated by the difficulty of measuring what counts. A road rebuilt to withstand floods is adaptation, but it is also simply a better road, and agencies differ in how much of its cost they report as climate finance. Loans are counted alongside grants, though a loan must be repaid and burdens a country already struggling with debt. Funds are sometimes diverted from existing development budgets, so that money for schools or vaccines is relabelled and not supplemented. Different donors also apply different definitions, which makes comparisons across countries and years unreliable. These accounting questions are not trivial, because they decide whether pledges made in one year are met in the next, and whether the recipients can trust a promise on which their planning depends. Distrust, in turn, makes negotiators from poorer countries less willing to accept compromises on emissions.\n\nBeyond finance lies a question of what adaptation should be. Some measures are technical, such as drought-resistant seeds, early-warning systems and cooling centres, and can be inexpensive and effective. Others are structural, such as moving people away from coasts or rivers, and these raise questions of justice that engineering cannot answer. Who decides which neighbourhood is protected and which abandoned? Typically the poorest communities, living on the cheapest and most vulnerable land, are the last to be protected, so that adaptation, if left to markets and local politics, may entrench existing inequalities. A further complication is that adaptation by the better-off can transfer risk to others: a district that raises its embankments may push floodwater on to its neighbours. For outdoor workers in cities like Delhi or Ahmedabad, in construction, farming and delivery, the heat is an economic hazard as well as a physical one, and the rules that govern working hours and wages are as important as any technology.\n\nNone of this makes mitigation less necessary. Adaptation has limits: some changes, such as the loss of low-lying islands or the disappearance of glaciers that feed rivers, cannot be adapted to at any price, and the cost of adaptation rises steeply with the degree of warming. The two are therefore complements, not alternatives, and the temptation to treat adaptation as a cheaper substitute should be resisted. There is also a political risk: a donor that has committed to adaptation may feel entitled to reduce its ambition on emissions. What the present debate shows is that a climate policy that attends only to emissions neglects the people who are already living with the consequences. A fair settlement would treat the two as parts of one obligation, with those who have contributed most to the problem accepting responsibility for both.",
+  "RC3": "Generative AI systems are trained on vast quantities of text, images and code, much of it scraped from the internet without the permission of those who produced it. Authors, artists, news organisations and software developers have sued, and in several cases courts have begun to rule, though the answers so far are partial and sometimes contradictory. The dispute is often described as a clash between innovation and the rights of creators, but that description hides how many distinct questions it contains: whether the act of copying works in order to train a model infringes copyright; whether the outputs of the model infringe; and whether, even if the law permits the training, the practice is fair.\n\nThe legal argument for the developers rests on the idea that copyright protects expression and not ideas or facts. A system that learns statistical patterns from millions of works, they argue, is akin to a student who reads widely and then writes in her own words; the use is transformative, since the model does not store or reproduce the works but extracts something different from them. The creators' reply is that the analogy fails: a student does not copy a library in an afternoon, does not compete in the market with the authors she has read, and does not produce at scale. Where a model can generate passages that closely resemble its sources, or substitutes for the very works on which it was trained, the argument that its use is harmless to the market becomes hard to sustain.\n\nThe economic argument is subtler. Training data are an input to a product whose value depends on their quantity and quality. If the law allowed free use, creators would receive none of the value they helped to create, and the incentive to produce new work would weaken, which in the long run would starve the models of the fresh material they require. If, on the other hand, every use required a licence, developers would face enormous transaction costs in negotiating with millions of rights-holders, and only a handful of firms with the means to do so would be able to build competitive systems. The first outcome risks harming creators; the second risks entrenching the incumbents. A further difficulty is that the value of any single work to a model is tiny and hard to measure, which makes a payment proportional to contribution almost impossible to calculate. A rule that avoids both outcomes is hard to design, but collective licensing, in which payments are pooled and distributed through intermediaries, as music royalties have long been, offers a model worth considering.\n\nDifferent jurisdictions are likely to settle the question differently, and the differences matter. Some countries have broad exceptions for text and data mining, intended to encourage research; others require permission or provide for opt-outs by rights-holders. India's copyright law, which has narrower exceptions than that of the United States, may be less hospitable to developers, although its courts have not yet had many occasions to apply it to these systems. Where rules differ, firms may train models in the most permissive jurisdiction and sell the products everywhere, a form of regulatory arbitrage that makes unilateral strictness costly. Developers may also respond to restrictions by turning to synthetic data generated by earlier models, which would avoid the problem of rights but raises the question of quality. International coordination is possible, as the history of copyright treaties shows, but it is slow, and the technology will not wait for it.\n\nIt would be a mistake to see the matter as one in which one side must simply win. The interest of creators in being paid and the interest of the public in useful tools are both legitimate, and what is needed is a mechanism by which each is respected. That mechanism may take the form of licences, levies, transparency about training data, or rules that distinguish between uses that serve research and uses that substitute for the author. Transparency has a practical use as well, since a creator cannot claim a payment for a use that cannot be seen. Each mechanism has costs, and none will satisfy everyone. But the choice among them should be made by deliberate policy, based on evidence about market effects, and not left to the accident of which lawsuits happen to reach judgment first.",
+  "CA1": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nRhea Kapoor (Host, Money Matters): Gold has hit record highs again. Is it a sign that something is wrong?\n\nDr. Arvind Nair (commodities economist): Gold is a hedge, so its price tends to rise when people fear something. But the main driver in recent years has been less fear than the cost of holding gold relative to the alternatives. Gold pays no interest, so when the real interest rate, which is the rate after inflation, falls, the cost of holding it falls too, and demand rises.\n\nRhea Kapoor: And what about central banks buying it?\n\nDr. Arvind Nair: That has been significant. Central banks, especially in emerging economies, have bought gold to diversify their reserves away from the dollar, partly out of concern that dollar assets can be frozen in a sanctions regime. Such buying is steady and insensitive to price, unlike speculative buying, and it provides a floor under the price.\n\nRhea Kapoor: Should Indian households buy more?\n\nDr. Arvind Nair: Gold protects against some risks, but it produces no income and its price can fall for years. A household that holds it as insurance is sensible; one that holds it as its only investment is exposed. And buying at a record high is not the same as buying a hedge."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC1",
+   "options": [
+    "GDP is a useful but limited measure built for another purpose, and should be supplemented, not abolished or venerated",
+    "GDP growth guarantees a fall in poverty, and critics who point to its limitations ignore the evidence of its correlations",
+    "Official growth figures for India are overstated because statisticians have deliberately ignored the informal sector in their estimates",
+    "GDP is an unreliable measure that should be abandoned in favour of a single index of national wellbeing that all countries adopt"
+   ],
+   "answer": 0,
+   "explanation": "The author says GDP was built to measure production, has real limits, but correlates with things people value, so the response is 'neither to abolish GDP nor to venerate it but to supplement it'. The other options are rejected or not claimed."
+  },
+  {
+   "id": "q2",
+   "type": "RC",
+   "question": "The example of unpaid work shows that GDP",
+   "passageId": "RC1",
+   "options": [
+    "is unreliable because women are paid less than men for the work that they do outside the home",
+    "counts only goods that are made in factories, and not services of any kind provided to households",
+    "overstates growth in countries where families depend on the unpaid work of their older relatives",
+    "excludes work done at home, although identical work counts once it is paid for"
+   ],
+   "answer": 3,
+   "explanation": "The passage says unpaid work 'contributes nothing to the figure, although the same work becomes part of GDP the moment it is paid for'."
+  },
+  {
+   "id": "q3",
+   "type": "RC",
+   "question": "According to the passage, informal-sector output is estimated by",
+   "passageId": "RC1",
+   "options": [
+    "counting the number of registered enterprises and multiplying it by the average output of the formal sector",
+    "assuming it moves with the formal sector between surveys, which can overstate growth",
+    "relying on the tax returns of small enterprises, which are filed each year by street vendors and workshops",
+    "asking large firms to report the value of the goods that they buy from small enterprises during the year"
+   ],
+   "answer": 1,
+   "explanation": "The passage says 'the informal share is typically assumed to move in line with the formal one', which 'overstates growth because the damage is concentrated where it is least visible'."
+  },
+  {
+   "id": "q4",
+   "type": "RC",
+   "question": "The author says that a critic who dismisses GDP as irrelevant is guilty of 'the opposite error' because",
+   "passageId": "RC1",
+   "options": [
+    "GDP correlates with many things that people value, such as life expectancy and schooling",
+    "GDP measures the production of goods more accurately than any other statistic available to governments",
+    "the figure rises whenever the benefits of growth are shared among the households of a country",
+    "no alternative to GDP has ever been proposed by economists in any country of the world"
+   ],
+   "answer": 0,
+   "explanation": "The passage says 'GDP correlates strongly with many things that people value, including life expectancy, schooling and income'. The author does not say the figure rises with sharing or that no alternative has been proposed."
+  },
+  {
+   "id": "q5",
+   "type": "RC",
+   "question": "The author's remark that 'averages conceal distribution' implies that",
+   "passageId": "RC1",
+   "options": [
+    "median household income is always lower than GDP per head in every country that is growing",
+    "the top tenth of households receives most of the benefit in every economy that grows quickly",
+    "GDP per head can rise while the typical household is no better off",
+    "a country with a high GDP per head must have a low level of inequality among its households"
+   ],
+   "answer": 2,
+   "explanation": "The passage says 'if the incomes of the top tenth rise sharply while the rest stagnate, GDP per head will rise even though the typical household is no better off'."
+  },
+  {
+   "id": "q6",
+   "type": "RC",
+   "question": "The author's view of dashboards of indicators is that they",
+   "passageId": "RC1",
+   "options": [
+    "are inferior to GDP, since a basket of indicators can always be quoted selectively by those who use it",
+    "should replace GDP in every country, because a single index cannot be combined from several measures",
+    "solve the problem of GDP, since they report health and education alongside output without any value judgement",
+    "have difficulties, which are not an argument for keeping a single number"
+   ],
+   "answer": 3,
+   "explanation": "The author says dashboards 'have their own difficulties' but 'These difficulties are not an argument for retaining a single number'."
+  },
+  {
+   "id": "q7",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC2",
+   "options": [
+    "Adaptation is a local good that rich countries can provide for themselves, so that international finance for it is not needed",
+    "Mitigation has failed, and the money now spent on reducing emissions should be diverted to the funding of adaptation in poorer countries",
+    "Adaptation is a cheaper substitute for mitigation, and countries should therefore spend their money on adaptation before they cut emissions",
+    "Adaptation has been neglected, but it complements mitigation, and fairness requires both to be funded and honestly counted"
+   ],
+   "answer": 3,
+   "explanation": "The author argues that adaptation is neglected, that its finance is poorly measured, and that the two are 'complements, not alternatives'. The other options are rejected by the passage."
+  },
+  {
+   "id": "q8",
+   "type": "RC",
+   "question": "According to the passage, adaptation finance falls short mainly because",
+   "passageId": "RC2",
+   "options": [
+    "rich countries have refused to provide any finance for adaptation in the countries that are most exposed to risk",
+    "adaptation is a global public good, so that each country is tempted to leave the cost to others in the world",
+    "the most exposed countries have the least capacity to borrow, and the need is many times the funding provided",
+    "insurance markets have expanded into the areas where losses are frequent, and have reduced the need for finance"
+   ],
+   "answer": 2,
+   "explanation": "The passage says exposed countries 'are often those with the least capacity to borrow' and that the gap is 'many times the amount currently provided'. It calls mitigation, not adaptation, the global public good."
+  },
+  {
+   "id": "q9",
+   "type": "RC",
+   "question": "Each of the following is mentioned as a problem in counting climate finance EXCEPT that",
+   "passageId": "RC2",
+   "options": [
+    "funds are relabelled from existing development budgets",
+    "pledges are quoted in different currencies",
+    "a flood-proof road is also simply a better road",
+    "loans are counted alongside grants"
+   ],
+   "answer": 1,
+   "explanation": "The third paragraph mentions the road, loans counted with grants, and relabelled funds, and that donors use different definitions. Exchange rates are never mentioned."
+  },
+  {
+   "id": "q10",
+   "type": "RC",
+   "question": "The question 'Who decides which neighbourhood is protected and which abandoned?' is raised to show that",
+   "passageId": "RC2",
+   "options": [
+    "structural adaptation involves questions of justice, and may entrench existing inequalities",
+    "technical measures such as early-warning systems are of less value than the building of sea walls",
+    "engineers are better qualified than politicians to decide which communities should be protected",
+    "poor communities refuse to move away from the coasts and rivers on which their livelihoods depend"
+   ],
+   "answer": 0,
+   "explanation": "The passage says structural measures 'raise questions of justice that engineering cannot answer' and that, left to markets and politics, adaptation 'may entrench existing inequalities'."
+  },
+  {
+   "id": "q11",
+   "type": "RC",
+   "question": "The reference to outdoor workers in Delhi and Ahmedabad suggests that",
+   "passageId": "RC2",
+   "options": [
+    "workers in these cities are better protected from heat than workers in rural areas of the country",
+    "rules on working hours and wages matter as much as technology in adapting to heat",
+    "the heat has reduced the number of outdoor workers in construction, farming and delivery",
+    "cooling centres are enough to protect outdoor workers from the economic hazard of heat"
+   ],
+   "answer": 1,
+   "explanation": "The passage says 'the heat is an economic hazard as well as a physical one, and the rules that govern working hours and wages are as important as any technology'."
+  },
+  {
+   "id": "q12",
+   "type": "RC",
+   "question": "The author thinks adaptation cannot replace mitigation because",
+   "passageId": "RC2",
+   "options": [
+    "adaptation is always more expensive than the cost of reducing emissions in the countries that are most exposed",
+    "donors who fund adaptation will insist on a higher level of ambition on emissions than they could accept",
+    "poorer countries have no use for adaptation measures such as seeds, early-warning systems and cooling centres",
+    "some changes cannot be adapted to at any price, and the cost of adaptation rises steeply with warming"
+   ],
+   "answer": 3,
+   "explanation": "The passage says 'some changes... cannot be adapted to at any price, and the cost of adaptation rises steeply with the degree of warming'. It warns of donors reducing, not raising, ambition on emissions."
+  },
+  {
+   "id": "q13",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC3",
+   "options": [
+    "The AI training dispute raises several distinct questions, and deliberate policy should balance the interests",
+    "Developers of AI systems should be allowed to train on any work, since the use is transformative and harms no creator",
+    "Every use of a work for training should require a licence, since otherwise creators will stop producing new work at all",
+    "The courts will soon settle the dispute, and legislatures need not take any action on the use of works for training"
+   ],
+   "answer": 0,
+   "explanation": "The author separates three questions, weighs both sides, and concludes that the choice should be 'made by deliberate policy, based on evidence'. The other options adopt one side or ignore the policy conclusion."
+  },
+  {
+   "id": "q14",
+   "type": "RC",
+   "question": "The creators' reply to the student analogy is that",
+   "passageId": "RC3",
+   "options": [
+    "a student does not copy a library, compete with authors, or produce at scale",
+    "a student reads only the works that she has been given by a teacher who has obtained the permission",
+    "a student is always required to pay for the books that she reads, while a model is not so required",
+    "a student cannot write in her own words, whereas a model can reproduce a work in full at will"
+   ],
+   "answer": 0,
+   "explanation": "The passage says 'a student does not copy a library in an afternoon, does not compete in the market with the authors she has read, and does not produce at scale'."
+  },
+  {
+   "id": "q15",
+   "type": "RC",
+   "question": "The economic argument shows that each extreme outcome has a cost: free use",
+   "passageId": "RC3",
+   "options": [
+    "benefits the public, while universal licensing harms it by raising the price of every model",
+    "weakens the incentive to create, while universal licensing may entrench the incumbents",
+    "raises the cost of models for developers, while universal licensing lowers the cost for creators",
+    "helps the creators, while universal licensing helps the developers who can afford to negotiate"
+   ],
+   "answer": 1,
+   "explanation": "The passage says free use would 'weaken' the incentive to produce new work, while universal licensing would leave 'only a handful of firms' able to build competitive systems."
+  },
+  {
+   "id": "q16",
+   "type": "RC",
+   "question": "Collective licensing is offered as a model because it",
+   "passageId": "RC3",
+   "options": [
+    "requires every developer to negotiate separately with each of the millions of rights-holders concerned",
+    "allows creators to refuse the use of their works by any developer that is not licensed in their country",
+    "pools payments and distributes them through intermediaries, as music royalties have been",
+    "replaces the need for any payment, since the use of works for training is held to be transformative"
+   ],
+   "answer": 2,
+   "explanation": "The passage says 'collective licensing, in which payments are pooled and distributed through intermediaries, as music royalties have long been, offers a model worth considering'."
+  },
+  {
+   "id": "q17",
+   "type": "RC",
+   "question": "'Regulatory arbitrage' in the passage refers to the fact that",
+   "passageId": "RC3",
+   "options": [
+    "firms may train models in the most permissive jurisdiction and sell the products everywhere",
+    "India's copyright law is stricter than that of the United States, which developers find hard to apply",
+    "courts in different countries give the same rulings on whether training infringes copyright",
+    "developers are forced to move their companies to countries which have no laws on copyright"
+   ],
+   "answer": 0,
+   "explanation": "The passage says 'firms may train models in the most permissive jurisdiction and sell the products everywhere, a form of regulatory arbitrage that makes unilateral strictness costly'."
+  },
+  {
+   "id": "q18",
+   "type": "RC",
+   "question": "The author's closing view is that the choice among mechanisms should be",
+   "passageId": "RC3",
+   "options": [
+    "postponed until international treaties on copyright have been revised to deal with AI systems in every country",
+    "made by deliberate policy based on evidence, not left to the accident of which lawsuits are decided first",
+    "decided by developers, who understand the technology better than the creators or the governments of any country",
+    "left to the courts, which are best placed to decide how the interests of creators and the public are to be balanced"
+   ],
+   "answer": 1,
+   "explanation": "The last sentence says the choice 'should be made by deliberate policy, based on evidence about market effects, and not left to the accident of which lawsuits happen to reach judgment first'."
+  },
+  {
+   "id": "q19",
+   "type": "RC",
+   "question": "According to Dr. Nair, the main driver of gold prices in recent years has been",
+   "passageId": "CA1",
+   "options": [
+    "the falling cost of holding gold relative to alternatives, as real interest rates fall",
+    "fear among investors about the possibility of a crisis in the world economy in the near future",
+    "speculative buying by households that expect the price to continue to rise to still higher levels",
+    "a shortage of gold, caused by a fall in the quantity that is produced by the mines of the world"
+   ],
+   "answer": 0,
+   "explanation": "He says the main driver 'has been less fear than the cost of holding gold relative to the alternatives', and that when real interest rates fall 'demand rises'."
+  },
+  {
+   "id": "q20",
+   "type": "RC",
+   "question": "Dr. Nair says buying by central banks has been significant because it is",
+   "passageId": "CA1",
+   "options": [
+    "aimed at raising the value of the dollar assets that central banks hold in their foreign reserves",
+    "confined to the emerging economies, which hold less gold than the advanced economies do",
+    "speculative, and therefore likely to push the price of gold up in the short run, whatever the cause",
+    "steady and insensitive to price, and so provides a floor under the price"
+   ],
+   "answer": 3,
+   "explanation": "He says 'Such buying is steady and insensitive to price, unlike speculative buying, and it provides a floor under the price'."
+  },
+  {
+   "id": "q21",
+   "type": "RC",
+   "question": "Dr. Nair's advice to households is that gold",
+   "passageId": "CA1",
+   "options": [
+    "is certain to rise in price over a period of years, whatever the level at which it is bought",
+    "should be bought at a record high, since a record high is a sign that the price will keep rising",
+    "should be avoided, since it pays no interest and cannot protect a household against any risk",
+    "is sensible as insurance but risky as the only investment"
+   ],
+   "answer": 3,
+   "explanation": "He says 'A household that holds it as insurance is sensible; one that holds it as its only investment is exposed. And buying at a record high is not the same as buying a hedge'."
+  },
+  {
+   "id": "q22",
+   "type": "Vocabulary",
+   "question": "The diplomat's ________ reply, vague enough to be read as agreement or refusal, committed his government to nothing.",
+   "options": [
+    "forthcoming",
+    "unequivocal",
+    "categorical",
+    "equivocal"
+   ],
+   "answer": 3,
+   "explanation": "'Equivocal' means open to more than one interpretation, matching a reply that could be read as agreement or refusal. 'Unequivocal' and 'categorical' mean clear and absolute; 'forthcoming' means open and willing to give information."
+  },
+  {
+   "id": "q23",
+   "type": "Vocabulary",
+   "question": "The reformer's ________ campaign, waged against corruption with no thought for his own safety, made him a hero to some and a target to others.",
+   "options": [
+    "half-hearted",
+    "intrepid",
+    "cautious",
+    "pusillanimous"
+   ],
+   "answer": 1,
+   "explanation": "'Intrepid' means fearless, fitting a campaign waged with no thought for safety. 'Pusillanimous' (timid), 'cautious' and 'half-hearted' contradict it."
+  },
+  {
+   "id": "q24",
+   "type": "Vocabulary",
+   "question": "After years of ________, the committee finally came to the point and announced its decision.",
+   "options": [
+    "leaving no stone unturned",
+    "hitting the nail on the head",
+    "going the extra mile",
+    "beating about the bush"
+   ],
+   "answer": 3,
+   "explanation": "'Beating about the bush' means avoiding the main point, which 'finally came to the point' contrasts with. The other idioms mean being exactly right, making extra effort, and searching thoroughly."
+  },
+  {
+   "id": "q25",
+   "type": "Vocabulary",
+   "question": "The treaty was ________ rather than substantive: it proclaimed lofty aims but created no obligations.",
+   "options": [
+    "comprehensive",
+    "hollow",
+    "enforceable",
+    "binding"
+   ],
+   "answer": 1,
+   "explanation": "'Hollow' means lacking real substance, matching a treaty that created no obligations. 'Binding', 'enforceable' and 'comprehensive' describe a treaty with substance."
+  },
+  {
+   "id": "q26",
+   "type": "Vocabulary",
+   "question": "The ________ of the evidence, much of it ________ by the prosecution's own witnesses, left the jury with a ________ doubt.",
+   "options": [
+    "inadequacy; undermined; inconsiderable",
+    "inadequacy; supplied; reasonable",
+    "inadequacy; undermined; reasonable",
+    "abundance; undermined; reasonable"
+   ],
+   "answer": 2,
+   "explanation": "Thin evidence ('inadequacy'), 'undermined' by the prosecution's own witnesses, leaves a 'reasonable' doubt. 'Abundance' would not produce doubt; 'supplied' does not suit being undermined; 'negligible' doubt would not trouble the jury."
+  },
+  {
+   "id": "q27",
+   "type": "Vocabulary",
+   "question": "Her ________ wit, sharpened by years in opposition, could ________ a pompous colleague in a sentence without once raising her voice.",
+   "options": [
+    "acerbic; deflate",
+    "acerbic; reassure",
+    "genial; deflate",
+    "insipid; deflate"
+   ],
+   "answer": 0,
+   "explanation": "An 'acerbic' (sharp) wit can 'deflate' a pompous colleague. 'Genial' and 'insipid' (dull) wit would not; 'reassure' does not suit a pompous colleague or sharp wit."
+  },
+  {
+   "id": "q28",
+   "type": "Vocabulary",
+   "question": "The company's rapid expansion proved ________: it had grown faster than its management could ________, and within two years it was in difficulty.",
+   "options": [
+    "inevitable; encourage",
+    "unsustainable; control",
+    "unsustainable; undervalue",
+    "remarkable; control"
+   ],
+   "answer": 1,
+   "explanation": "Growth faster than management could 'control' proved 'unsustainable'. 'Remarkable' does not explain the difficulty; 'undervalue' and 'encourage' do not fit growing faster than management could handle."
+  },
+  {
+   "id": "q29",
+   "type": "Vocabulary",
+   "question": "Critics regarded the exhibition as ________: a collection of curiosities without any ________ idea to hold them together.",
+   "options": [
+    "focused; unifying",
+    "incoherent; disruptive",
+    "incoherent; unifying",
+    "comprehensive; unifying"
+   ],
+   "answer": 2,
+   "explanation": "A collection 'without any unifying idea' is 'incoherent'. 'Comprehensive' and 'focused' contradict the criticism; 'disruptive' idea does not fit 'hold them together'."
+  },
+  {
+   "id": "q30",
+   "type": "Vocabulary",
+   "question": "He bore the disappointment with ________, neither complaining nor allowing it to affect his work.",
+   "options": [
+    "equanimity",
+    "indignation",
+    "petulance",
+    "resentment"
+   ],
+   "answer": 0,
+   "explanation": "'Equanimity' means calmness under strain, matching someone who neither complains nor lets it affect his work. 'Petulance', 'resentment' and 'indignation' all involve visible displeasure."
+  },
+  {
+   "id": "q31",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "She was elated at the news, and the whole household shared in her happiness for days.",
+    "The village lay in a hollow, sheltered on three sides by steep and wooded hills.",
+    "The wine was a perfect compliment to the meal.",
+    "The minister's candour surprised the press, who had expected the usual evasions from him."
+   ],
+   "answer": 2,
+   "explanation": "A thing that completes another is a 'complement'; 'compliment' means praise. 'Candour' (frankness), 'hollow' (low-lying land) and 'elated' (delighted) are used correctly."
+  },
+  {
+   "id": "q32",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "The bridge, though old, remains structurally sound and is used daily by thousands of commuters.",
+    "The new tax will have a negative affect on small traders.",
+    "A faint odour of smoke lingered in the corridor long after the fire had been put out.",
+    "The committee will adjudicate the dispute between the two companies at its next meeting."
+   ],
+   "answer": 1,
+   "explanation": "As a noun meaning result, the word is 'effect'; 'affect' is normally a verb (to influence). 'Adjudicate' (judge), 'odour' (smell) and 'structurally sound' are correct."
+  },
+  {
+   "id": "q33",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "Floodwater had receded by morning, leaving a thick layer of silt over the fields near the river.",
+    "The lawyer's argument was ingenious, though a few of the judges found it rather far-fetched in places.",
+    "The school's principle, a stern woman, addressed the pupils at assembly.",
+    "He refused the bribe as a matter of principle, though he was in great financial difficulty at the time."
+   ],
+   "answer": 2,
+   "explanation": "The head of a school is the 'principal'; 'principle' means a rule or belief. 'Principle' in the second sentence, 'ingenious' (clever) and 'receded' (drew back) are correct."
+  },
+  {
+   "id": "q34",
+   "type": "Grammar",
+   "question": "<u>Should he will come</u>, tell him to wait.",
+   "options": [
+    "If should he come",
+    "Should he comes",
+    "Should he came",
+    "Should he come"
+   ],
+   "answer": 3,
+   "explanation": "An inverted conditional ('Should he...') takes the bare infinitive: 'Should he come, tell him to wait'."
+  },
+  {
+   "id": "q35",
+   "type": "Grammar",
+   "question": "The news <u>are</u> better than expected.",
+   "options": [
+    "is",
+    "are being",
+    "were",
+    "have been"
+   ],
+   "answer": 0,
+   "explanation": "'News' is an uncountable noun taking a singular verb: 'The news is better than expected'."
+  },
+  {
+   "id": "q36",
+   "type": "Grammar",
+   "question": "She <u>suggested me to</u> apply for the post.",
+   "options": [
+    "suggested to me applying for",
+    "suggested me for applying to",
+    "suggested that I apply for",
+    "suggested me applying for"
+   ],
+   "answer": 2,
+   "explanation": "'Suggest' is not followed by an object and 'to' + infinitive; it takes 'that' + subjunctive or a gerund: 'suggested that I apply for'."
+  },
+  {
+   "id": "q37",
+   "type": "Grammar",
+   "question": "The more you <u>will practise</u>, the better you will play.",
+   "options": [
+    "would practise",
+    "practise",
+    "have practised",
+    "are practising"
+   ],
+   "answer": 1,
+   "explanation": "In 'the more... the better...' the first clause uses the present simple for future time: 'The more you practise'."
+  },
+  {
+   "id": "q38",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nPrices in a competitive market carry information. ____________________. When a drought raises the price of wheat, millions of buyers and sellers who know nothing of the drought adjust their behaviour: some eat less wheat, others plant more, and the scarce grain is directed to its more valuable uses without any central plan.",
+   "options": [
+    "Competitive markets work only if every buyer and seller knows the causes of every change in the price of goods.",
+    "The price of wheat rises in a drought because producers collude to restrict supply and to increase their profits.",
+    "Prices in a market are set by governments, which publish them so that buyers and sellers can plan their purchases.",
+    "A price tells people how scarce something is, and induces them to respond without being told why."
+   ],
+   "answer": 3,
+   "explanation": "The example shows people responding to a price without knowing the cause, so the blank must state the informational role of prices. The other options contradict the example."
+  },
+  {
+   "id": "q39",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nA scientific theory is judged by its predictions. ____________________. Newton's mechanics predicted the return of Halley's comet; it was the failure to predict the orbit of Mercury that, in time, helped to bring about its supersession by relativity.",
+   "options": [
+    "A theory that makes no predictions is the best kind, since it can never be shown to be mistaken by any observation.",
+    "Relativity was accepted because it predicted the return of Halley's comet more accurately than Newton's theory.",
+    "Predictions that succeed support a theory, while one that fails can help to overturn it.",
+    "Newton's mechanics was abandoned as soon as the first prediction that it made had been shown to be incorrect."
+   ],
+   "answer": 2,
+   "explanation": "The following sentences give a success (Halley's comet) and a failure (Mercury), so the blank states both roles. The other options contradict the example."
+  },
+  {
+   "id": "q40",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nPublic libraries are often justified by the books they lend. ____________________. For many users the library is also a quiet place to study, a source of internet access and a space in which people of different backgrounds meet, services that no online catalogue can supply.",
+   "options": [
+    "Most public libraries lend only books that are out of print and cannot be obtained from any other source.",
+    "Libraries are funded by readers who pay a fee for each book that they borrow from the collection.",
+    "Their value, however, lies at least as much in the place as in the collection.",
+    "Libraries have become unnecessary now that most books can be bought cheaply or read online without payment."
+   ],
+   "answer": 2,
+   "explanation": "'Also' in the next sentence signals value beyond the books, so the blank introduces the importance of the place. The other options contradict this."
+  },
+  {
+   "id": "q41",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Each onlooker assumes that someone else will help.\n2. In an emergency with many witnesses, any one person is less likely to act than if alone.\n3. This is the bystander effect.\n4. Responsibility, in other words, is diluted by numbers.",
+   "answer": "2134",
+   "explanation": "Sentence 2 states the finding. Sentence 1 explains why. Sentence 3 ('This') names it. Sentence 4 ('in other words') restates it. Order: 2-1-3-4."
+  },
+  {
+   "id": "q42",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Manufacturers therefore have an incentive to design products that wear out or become outdated quickly.\n2. Critics call the practice planned obsolescence.\n3. Replacement sales are the source of much of their revenue.\n4. Whoever is right, the environmental cost of discarded goods is borne by society and not by the seller.\n5. Defenders reply that consumers value novelty and cheapness more than durability.",
+   "answer": "31254",
+   "explanation": "Sentence 3 gives the revenue fact. Sentence 1 ('therefore') gives the incentive. Sentence 2 ('the practice') names it. Sentence 5 ('Defenders reply') answers the critics. Sentence 4 ('Whoever is right') concludes. Order: 3-1-2-5-4."
+  },
+  {
+   "id": "q43",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Its force depends on the assumption that people are cautious.\n2. The thought experiment is meant to make fairness the product of impartial reasoning.\n3. Behind such a veil of ignorance, he argued, they would choose rules that protect the worst-off, since anyone might end up there.\n4. Rawls asked what rules people would choose for society if they did not know their own place in it.",
+   "answer": "4321",
+   "explanation": "Sentence 4 poses the question. Sentence 3 gives his answer. Sentence 2 ('The thought experiment') describes its purpose. Sentence 1 ('Its force') notes its assumption. Order: 4-3-2-1."
+  },
+  {
+   "id": "q44",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Economists call this the Dutch disease, after the effect of gas discoveries on the Netherlands in the 1960s.\n2. Manufacturers then lose markets, and when the boom ends they cannot easily return.\n3. Resource booms can harm the rest of the economy.\n4. The remedy lies in saving part of the windfall abroad, so as to hold the exchange rate down.\n5. The inflow of foreign currency raises the exchange rate, making other exports dearer abroad.",
+   "answer": "35214",
+   "explanation": "Sentence 3 states the claim. Sentence 5 gives the mechanism. Sentence 2 ('then') gives the effect. Sentence 1 ('this') names it. Sentence 4 gives the remedy. Order: 3-5-2-1-4."
+  },
+  {
+   "id": "q45",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. A voter who distrusts a politician notices his failures and forgets his successes.\n2. The remedy is to look deliberately for evidence that would prove oneself wrong.\n3. People tend to seek and favour information that confirms what they already believe.\n4. This is confirmation bias, and it is hard to correct because it feels like good judgement.",
+   "answer": "3142",
+   "explanation": "Sentence 3 states the tendency. Sentence 1 gives an example. Sentence 4 ('This is') names it. Sentence 2 gives the remedy. Order: 3-1-4-2."
+  }
+ ]
 }
 ]
