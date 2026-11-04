@@ -9261,5 +9261,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> This case combines all three elements the author identifies as relevant: the works were used for training, the output resembles the originals’ style, and the output competes with them in the same market at lower prices, so substitution is present.<br><br>• <strong>Why Option B is Wrong:</strong> There is no evidence of competition with the creators of the training material, since weather summaries do not substitute for their work.<br><br>• <strong>Why Option C is Wrong:</strong> Public-domain texts carry no copyright, so there is no claim to compensation.<br><br>• <strong>Why Option D is Wrong:</strong> Without any commercial output, there is no market substitution, so the market-harm argument is absent.<br><br><strong>💡 Approach:</strong> For an application question, convert the author’s framework into a checklist (input, output, market effect) and choose the case that satisfies the most items."
       }
     ]
+  },
+  {
+    "id": "rc-2026-11-05",
+    "date": "2026-11-05",
+    "title": "After the Midterms: Gridlock or Bargain?",
+    "genre": "Current Affairs / Political Science",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1022 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "obstreperous",
+          "type": "adjective",
+          "def": "Noisy and difficult to control; stubbornly defiant. Synonyms: unruly, rowdy, recalcitrant. Antonyms: docile, compliant, tractable.",
+          "ex": "The obstreperous minority delayed the vote for hours."
+        },
+        {
+          "word": "perfunctory",
+          "type": "adjective",
+          "def": "Carried out with minimum effort or interest; superficial. Synonyms: cursory, token, desultory. Antonyms: thorough, painstaking, meticulous.",
+          "ex": "The committee gave the proposal only a perfunctory glance."
+        },
+        {
+          "word": "tendentious",
+          "type": "adjective",
+          "def": "Promoting a particular cause or point of view in a biased way. Synonyms: partisan, biased, one-sided. Antonyms: impartial, objective, neutral.",
+          "ex": "The report was criticised as tendentious and selective with its facts."
+        },
+        {
+          "word": "quiescent",
+          "type": "adjective",
+          "def": "In a state of inactivity or dormancy. Synonyms: dormant, inert, latent. Antonyms: active, restless, agitated.",
+          "ex": "After the election, the dispute lay quiescent for months."
+        },
+        {
+          "word": "ameliorate",
+          "type": "verb",
+          "def": "To make something bad or unsatisfactory better. Synonyms: improve, remedy, redress. Antonyms: worsen, aggravate, impair.",
+          "ex": "The new law was meant to ameliorate conditions for tenants."
+        },
+        {
+          "word": "desultory",
+          "type": "adjective",
+          "def": "Lacking a plan or purpose; going from one thing to another halfheartedly. Synonyms: aimless, haphazard, half-hearted. Antonyms: methodical, purposeful, systematic.",
+          "ex": "The debate was desultory and produced no decision."
+        },
+        {
+          "word": "egregious",
+          "type": "adjective",
+          "def": "Outstandingly bad; shocking. Synonyms: flagrant, glaring, atrocious. Antonyms: minor, trivial, admirable.",
+          "ex": "The audit found egregious errors in the accounts."
+        },
+        {
+          "word": "inveterate",
+          "type": "adjective",
+          "def": "Having a habit, feeling or practice that is long-established and unlikely to change. Synonyms: habitual, chronic, ingrained. Antonyms: occasional, newfound, temporary.",
+          "ex": "He was an inveterate opponent of every tax proposal."
+        },
+        {
+          "word": "recalcitrant",
+          "type": "adjective",
+          "def": "Obstinately resisting authority or control. Synonyms: defiant, unruly, intractable. Antonyms: obedient, cooperative, amenable.",
+          "ex": "The recalcitrant senators refused to attend the session."
+        },
+        {
+          "word": "abeyance",
+          "type": "noun",
+          "def": "A state of temporary disuse or suspension. Synonyms: suspension, dormancy, remission. Antonyms: activity, operation, continuation.",
+          "ex": "The reform was held in abeyance until the funding was secured."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "a Pyrrhic victory",
+          "def": "A win gained at such great cost that it is almost a defeat.",
+          "ex": "The vote was a Pyrrhic victory, leaving the party deeply divided."
+        },
+        {
+          "idiom": "the tail wagging the dog",
+          "def": "A situation in which a small or unimportant part controls the whole.",
+          "ex": "Letting a minor faction dictate policy is the tail wagging the dog."
+        },
+        {
+          "idiom": "hoist with one’s own petard",
+          "def": "Harmed by the very device or plan one intended to use against others.",
+          "ex": "The senator was hoist with his own petard when the rule he proposed was used against him."
+        },
+        {
+          "idiom": "a lame duck",
+          "def": "An elected official in the final period of office whose influence has weakened.",
+          "ex": "As a lame duck, the president struggled to win support for new initiatives."
+        },
+        {
+          "idiom": "between Scylla and Charybdis",
+          "def": "Facing two equally dangerous choices.",
+          "ex": "The government was caught between Scylla and Charybdis: cut spending or risk default."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "bog down",
+          "def": "To become stuck or delayed in something. Synonym: stall.",
+          "ex": "The talks bogged down over minor details."
+        },
+        {
+          "verb": "hash out",
+          "def": "To discuss something at length to reach a decision or agreement. Synonym: thrash out.",
+          "ex": "Negotiators hashed out a compromise late at night."
+        },
+        {
+          "verb": "brush aside",
+          "def": "To dismiss something as unimportant. Synonym: disregard.",
+          "ex": "The chairman brushed aside the objections."
+        },
+        {
+          "verb": "iron out",
+          "def": "To resolve small difficulties or differences. Synonym: settle.",
+          "ex": "The staff ironed out the final differences in the draft."
+        },
+        {
+          "verb": "hold up",
+          "def": "To delay or obstruct something. Synonym: impede.",
+          "ex": "A single senator held up the nomination for weeks."
+        }
+      ]
+    },
+    "passage": "Whatever the final tallies, the days after an American midterm election bring a familiar question: how will the country be governed if control of the White House and the two chambers of Congress is divided between the parties? Such splits have been common in the postwar era, and the conventional answer is gloomy. A president whose opponents control even one chamber, the argument runs, will find his programme blocked, his appointments delayed and his budget picked apart, while the opposition will find that denying him achievements is more rewarding than sharing them. The result is said to be gridlock, a word that has acquired the status of a diagnosis. Yet the diagnosis rests on an assumption that deserves to be examined: that the number of laws a divided government passes is the right measure of how well it governs. A government might pass few laws because it is wisely restrained, or many because it is indiscriminately busy; the count, taken alone, cannot distinguish the two. The better question is what a divided government manages to accomplish, at what cost, and by what means, and on these points the evidence is more mixed than the slogan suggests.\n\nThe case for gridlock is not trivial. The American system is built on veto points. A bill must clear both chambers, which may be controlled by different parties; in the Senate, most legislation needs sixty votes to overcome a filibuster; and the president can veto what survives. Congress also holds the power of the purse, so that spending bills which must pass to keep the government open become instruments of leverage. A minority that is willing to let a deadline pass can extract concessions or, failing that, impose costs on its opponents. Appointments to the courts and the executive branch require Senate consent, and a Senate of the opposite party can leave them unfilled. Each of these powers makes agreement harder, and together they give a determined opposition ample means of obstruction. These powers, moreover, are not merely theoretical: they are used, and the expectation that they will be used shapes what is proposed in the first place. A president who anticipates a hostile Senate may avoid nominating a candidate he would otherwise prefer, and a committee chairman who anticipates a veto may never schedule a hearing.\n\nAgainst this stands a well-known finding by the political scientist David Mayhew, who counted the landmark laws enacted between 1946 and 1990 and found that they passed at roughly the same rate whether government was unified or divided. His explanation was that politicians of both parties want credit for solving problems, that some problems command broad support, and that presidents, who are judged on their record, have a strong incentive to strike bargains. Divided government could even make large measures easier to pass, since a law supported by both parties is harder to repeal and harder to attack at the next election. On this view, gridlock is less a consequence of divided control than a grievance that the losing side voices whichever party is in power. That each party denounces obstruction when it holds office and practises it when it does not is, in this reading, one of the most predictable features of the system, and it is a reason to treat the complaint with some scepticism before accepting it as evidence of a breakdown.\n\nThe finding, though, has limits that its admirers sometimes overlook. A count of laws is blind to what never reaches the floor: proposals shelved in advance because they would not survive, and problems left unaddressed because no one expects agreement. It is also blind to how laws are made. A funding bill that passes at the last hour, after a shutdown, is counted in the same way as one that passes quietly in the spring, though the first imposes costs of uncertainty and disruption that the second does not. More important, the period Mayhew studied was one in which the parties overlapped ideologically: there were conservative Democrats and liberal Republicans, and cross-party coalitions formed naturally. As that overlap has vanished, the middle ground on which such coalitions were built has shrunk. A result obtained when the parties overlapped may not hold when they are far apart, and the evidence that would show whether it does is only beginning to accumulate.\n\nIf Congress cannot act, other institutions will. A president blocked in the legislature can turn to executive orders and agency rules, and the opposition in Congress can turn to investigation and the issuing of subpoenas, which have become a principal weapon of a House controlled by the president’s opponents. Courts, too, are drawn in as combatants fight over whether a given executive action exceeds the president’s authority. This displacement has an irony. Gridlock in the legislature does not so much stop policy as relocate it to forums whose products are easier to reverse. A rule issued by one administration can be withdrawn by the next, whereas a statute endures until Congress itself repeals it, and policy made by decree therefore tends to oscillate with each change of government, leaving businesses and citizens less certain about what the rules will be. The framers, who gave Congress the lawmaking power and the president the duty to execute it, did not design a system in which the executive and the judiciary would routinely settle the questions on which the legislature cannot agree. Yet this is the arrangement that a prolonged stalemate tends to produce.\n\nThe sensible conclusion is that divided government changes how governing happens more than whether it happens. The decisive variable is not which party controls which chamber but how far apart the parties stand and how many members sit in the space between them. Where that space is wide, divided government can produce bargains that last; where it is narrow or empty, the same arrangement will produce standoffs, brinkmanship and a drift of power towards the executive and the courts. Observers would do well to ask not whether divided government yields gridlock, but under what conditions it does, and to watch the funding deadlines and the size of the middle ground for the answer.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "options": [
+          "A) Divided government reliably produces gridlock, and the finding that it does not is the result of counting laws that did not matter.",
+          "B) Divided government is no different from unified government in its results, and the common fear of gridlock is simply a partisan grievance.",
+          "C) Divided government is less harmful than unified government, because laws that pass with support from both parties are harder to repeal.",
+          "D) Divided government changes how governing happens more than whether it happens, and its effects depend on how far apart the parties are."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The last paragraph states the conclusion directly: divided government changes how governing happens more than whether it happens, and the decisive variable is the distance between the parties and the size of the middle ground.<br><br>• <strong>Why Option A is Wrong:</strong> This adopts the gridlock view and mischaracterises Mayhew’s count, which the author criticises for its limits but does not say counts irrelevant laws.<br><br>• <strong>Why Option B is Wrong:</strong> The author qualifies Mayhew’s finding and describes real costs, such as brinkmanship, delay and the relocation of policy to forums where it is easier to reverse. The claim of “no difference” is too strong.<br><br>• <strong>Why Option C is Wrong:</strong> The argument about durability is one point made in support of Mayhew’s view, not the author’s overall conclusion, and the author does not compare the two arrangements in terms of harm.<br><br><strong>💡 Approach:</strong> In a central-argument question, take the author’s final statement and check it against the options. Reject options that adopt one side’s position wholesale or turn one supporting point into the thesis."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following, if true, would most weaken the author’s suggestion that growing ideological distance between the parties may limit the relevance of Mayhew’s finding?",
+        "options": [
+          "A) In recent divided Congresses, major bills passed at rates like the earlier period’s, often with large cross-party majorities.",
+          "B) The number of members who vote with the other party on important bills has fallen sharply since the middle of the twentieth century.",
+          "C) Funding bills in recent decades have more often been passed at the last moment, after a lapse in government operations, than in earlier years.",
+          "D) Presidents in recent decades have issued more executive orders on matters that Congress was unable to resolve than in earlier years."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The author’s suggestion is that wider ideological distance may have made the earlier finding obsolete. If major bills still pass at similar rates with cross-party majorities, the finding appears to survive the change, which weakens the suggestion.<br><br>• <strong>Why Option B is Wrong:</strong> This supports the author, since it shows that the overlap between the parties has shrunk.<br><br>• <strong>Why Option C is Wrong:</strong> This also supports the idea that the situation has worsened for divided government.<br><br>• <strong>Why Option D is Wrong:</strong> Increased use of executive action fits the author’s account of displacement and so supports the suggestion.<br><br><strong>💡 Approach:</strong> To weaken, find the option that shows the old result still holds in the new conditions. Eliminate options that show the conditions have changed for the worse."
+      },
+      {
+        "id": "q3",
+        "question": "Each of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) A count of laws passed may fail to reveal the costs of delay and brinkmanship that precede some of them.",
+          "B) Presidents facing a divided Congress always govern chiefly by executive order.",
+          "C) Executive actions are generally easier for a later administration to reverse than statutes are.",
+          "D) The period Mayhew studied included legislators whose views overlapped across party lines."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The passage says a blocked president “can turn to” executive orders, which is a possibility, not a rule. “Always … chiefly” is an unsupported absolute.<br><br>• <strong>Why Option A is Wrong:</strong> This follows from paragraph 4: a count is blind to how laws are made, and a last-hour funding bill after a shutdown is counted the same as a quiet one.<br><br>• <strong>Why Option C is Wrong:</strong> This is stated in paragraph 5: a rule can be withdrawn by the next administration, whereas a statute endures until Congress repeals it.<br><br>• <strong>Why Option D is Wrong:</strong> This is stated in paragraph 4: there were conservative Democrats and liberal Republicans in that period.<br><br><strong>💡 Approach:</strong> In an EXCEPT question, the false option often upgrades a possibility (“can turn to”) into a certainty (“always”)."
+      },
+      {
+        "id": "q4",
+        "question": "The author contrasts a funding bill passed at the last hour after a shutdown with one passed quietly in the spring in order to:",
+        "options": [
+          "A) argue that shutdowns are the principal cause of gridlock and should be prohibited by statute.",
+          "B) show that funding bills are more important than any other category of legislation considered by Congress.",
+          "C) show that a count of laws can conceal costs that differ between laws counted equally.",
+          "D) prove that unified government never produces last-minute agreement on funding legislation."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The contrast appears in the discussion of the count’s limits: the two bills are counted alike, though the first imposes costs of uncertainty and disruption that the second does not. It illustrates that a count conceals differences in cost.<br><br>• <strong>Why Option A is Wrong:</strong> The author does not say that shutdowns are the principal cause of gridlock, nor that they should be prohibited.<br><br>• <strong>Why Option B is Wrong:</strong> No ranking of funding bills against other legislation is made in the passage.<br><br>• <strong>Why Option D is Wrong:</strong> “Never” is an absolute that the passage does not support, and the passage makes no claims about unified government in this context.<br><br><strong>💡 Approach:</strong> For a function question, read the sentence’s own conclusion (“counted in the same way … though the first imposes costs”). Reject options that import claims about causes, rankings or absolutes."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following, if true, would most strengthen the author’s claim in paragraph 5 that policy made by decree tends to oscillate?",
+        "options": [
+          "A) Several rules issued through executive action were reversed within months by a successor, while statutes on the same subjects stayed in force.",
+          "B) Executive orders have been used more frequently in recent decades than they were in the middle of the twentieth century, according to several counts.",
+          "C) Courts have struck down some executive actions on the ground that they exceeded the authority which the Constitution gives the president.",
+          "D) Many voters say in surveys that they prefer a president who acts without waiting for Congress to resolve its disagreements."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The claim is that decree-based policy changes with each administration, whereas statutes endure. Cases in which rules were reversed quickly while statutes stayed are direct evidence of that contrast.<br><br>• <strong>Why Option B is Wrong:</strong> More frequent use says nothing about whether the resulting policies are reversed.<br><br>• <strong>Why Option C is Wrong:</strong> Judicial invalidation is a different reason for instability and does not show oscillation between administrations.<br><br>• <strong>Why Option D is Wrong:</strong> Voter preferences are irrelevant to whether policy made by decree is durable.<br><br><strong>💡 Approach:</strong> To strengthen, restate the claim (decree policies are reversed more easily than statutes) and select the option that gives instances of it."
+      },
+      {
+        "id": "q6",
+        "question": "Based on the passage, which of the following would be the strongest sign that divided government is likely to be unproductive?",
+        "options": [
+          "A) The party opposing the president controls one chamber of Congress by a very narrow margin.",
+          "B) A deadline for funding the government is approaching in the next few months.",
+          "C) The president’s approval rating is below fifty per cent in most national surveys taken during the year.",
+          "D) A wide gap between the parties, with almost no members positioned between them."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The conclusion identifies the decisive variable as the distance between the parties and the number of members in the space between them. A wide gap with an empty middle is the condition under which divided government produces standoffs.<br><br>• <strong>Why Option A is Wrong:</strong> The size of the opposition’s margin is not identified as decisive; the author stresses the distance between the parties.<br><br>• <strong>Why Option B is Wrong:</strong> Funding deadlines are a point to watch, but a deadline alone does not show that agreement will fail.<br><br>• <strong>Why Option C is Wrong:</strong> Presidential approval is not discussed as a factor in the passage.<br><br><strong>💡 Approach:</strong> For an application question, return to the author’s stated key variable and choose the option that matches it. Reject plausible but unmentioned factors."
+      }
+    ]
   }
 ]
