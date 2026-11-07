@@ -7115,5 +7115,596 @@
    "explanation": "Sentence 3 states the tendency. Sentence 1 gives an example. Sentence 4 ('This is') names it. Sentence 2 gives the remedy. Order: 3-1-4-2."
   }
  ]
+},
+{
+ "id": "sec-2026-11-06",
+ "date": "2026-11-06",
+ "title": "IPMAT Indore VA Sectional – 6th Nov 2026 (Advanced Analytical)",
+ "durationMinutes": 45,
+ "totalQuestions": 45,
+ "passages": {
+  "RC1": "A class of drugs originally developed for diabetes has become the most discussed medicines in the world. Semaglutide and its relatives, which mimic a gut hormone that signals fullness, produce weight loss of a magnitude that diet and exercise rarely achieve for most people, and trials suggest benefits for the heart and kidneys beyond the loss of weight. Their success has also exposed how little was known about the biology of appetite, which had long been treated as a matter of character. In India, where domestic firms have begun to market lower-priced versions of semaglutide, the drugs have moved from a niche concern of the wealthy to a question of public policy. Enthusiasts speak of a revolution in the treatment of obesity; sceptics point to cost, side effects and the likelihood that patients who stop the drug regain the weight.\n\nThe economics of such a drug are unusual. Obesity is a chronic condition, so treatment may be lifelong, and the number of people who could benefit is enormous: hundreds of millions worldwide. Even a modest price per patient therefore implies a very large total bill. A health system that treated every eligible adult would find the cost exceeding that of almost any other programme, and would have to decide whom to treat first. Supply is a further constraint: until manufacturing capacity expands, rationing by price is inevitable. The question is complicated by the fact that the benefits of treatment accrue largely in the future, as fewer heart attacks, less diabetes and fewer joint replacements, while the costs fall immediately. Budgets that are set annually, and politicians who think in electoral cycles, are poorly suited to investments whose returns arrive over decades.\n\nCost-effectiveness analysis offers a way to organise the problem. It asks how much it costs to gain a year of healthy life, and compares the answer with a threshold that a society regards as acceptable. At the prices charged in wealthy countries, the drugs fall above the threshold for many patients and below it for some, such as those with established heart disease. Lower prices alter the calculation sharply, which is why the arrival of cheaper versions matters so much. But the analysis rests on assumptions about how long patients stay on treatment and what happens when they stop, and the evidence on both is thin. If most patients discontinue within a year, as some real-world data suggest, the spending buys less than the trials imply. The answer also depends on what is counted: if the drug reduces other costs, such as hospital admissions, part of the price is recovered, but if it extends life, other costs of old age are incurred.\n\nA deeper question is whether pharmacological treatment diverts attention from prevention. Obesity reflects food environments, urban design, advertising and income, as well as individual choice, and a drug does nothing to alter these. A society that responds by prescribing may feel that the problem has been dealt with while the conditions that produced it remain in place. Defenders reply that the two are not alternatives: patients who are already ill cannot wait for the transformation of cities, and treating them does not prevent a government from regulating food. The reply is correct in logic, though in practice budgets are limited, and the political energy spent on one may be unavailable for the other. There is also a question of fairness, since a treatment available chiefly to those who can pay may widen health gaps even as it narrows them in the aggregate.\n\nFor India the stakes are high. The country faces a large and growing burden of diabetes alongside persistent undernutrition, a combination that strains any health system. Its public hospitals are underfunded, and most health spending is out of pocket, which means that access to the new drugs will depend on household incomes unless the state intervenes. The sensible course is probably to target treatment at those whose gain is greatest, such as patients with diabetes and heart disease, to monitor outcomes and persistence, and to pair any public programme with measures on food and activity. A medicine that works is not the same as a policy that works, and the difference lies in who receives it, for how long, and what else is done.",
+  "RC2": "Every large city that has tried to cure traffic by building roads has learnt the same lesson: new capacity fills up. The paradox is known as induced demand: cheaper travel invites more travel. Economists have an explanation, which is that road space is free at the point of use and so is consumed until it becomes congested. Each driver who enters a crowded road imposes delay on all the others, a cost he does not pay, and the result is more traffic than is in anyone's interest. Congestion pricing, which charges drivers for entering busy areas at busy times, is an attempt to make them pay for the delay they cause. London, Singapore and Stockholm have used it for years, and New York introduced a charge on entry to the busiest part of Manhattan in 2025.\n\nThe evidence from cities that have adopted it is broadly favourable. Traffic volumes fall, speeds rise, buses run faster and revenue becomes available for public transport. The effect on the economy of the charged area is generally small, contrary to the fears of shopkeepers, who tend to overestimate how many of their customers arrive by car. The theory also explains why the charge is efficient: those who value a trip most highly will pay, while those for whom it is of marginal importance will travel at another time, by another mode or not at all, so that the scarce road space goes to its most valuable uses.\n\nYet congestion pricing is among the most politically difficult policies in urban economics, and the reason is distributional. A flat charge is a larger burden on a poor driver than on a rich one, and is paid in addition to the taxes and costs of owning a vehicle. Critics call it a tax on the poor and a licence for the rich to drive. The reply is that in most cities the people who drive into the centre are on average richer than those who travel by bus or on foot, so that the charge falls mainly on the better-off, while its benefits, in faster buses and cleaner air, accrue to everyone. This is empirically plausible for cities in rich countries, where the very poor are unlikely to drive. It is less certain where the poor depend on two-wheelers, or live on the outskirts and have no alternative to a vehicle. The question of who benefits is not merely distributional but political, since a policy perceived as a transfer from motorists to the state will lose support even if the arithmetic favours the majority.\n\nThe design of the scheme determines whether it is fair. Exemptions for low-income drivers, discounts for residents and the use of revenue to subsidise public transport can change a regressive charge into a progressive package, but each complicates administration and reduces the effect on traffic. Trust matters as well: citizens must believe that the revenue will be used for the purpose promised, and a scheme whose proceeds disappear into general funds invites suspicion. A deeper difficulty is that pricing works only where alternatives exist. A driver who can switch to a train responds to the charge by changing his behaviour; a driver who cannot simply pays, and the charge becomes a levy and not an incentive. Cities that introduce pricing before providing the alternatives therefore invite resentment and may fail to reduce traffic. This is the strongest argument for sequencing: improve the bus, then charge for the car.\n\nFor Indian cities, where roads are crowded with vehicles of many kinds and public transport is uneven, the lessons are mixed. Technology now makes the charge easy to administer, through cameras and electronic tolls, and parking charges, which are a simpler form of the same idea, are underused. Local governments also lack the powers and the revenue to build alternatives, which makes coordination between layers of government a precondition. But the political cost may be high, since the cars in Indian cities belong to a more prosperous minority who are also the most vocal. The experience elsewhere suggests that opposition falls after the scheme begins, when its effects become visible, and rises sharply before. A scheme is easiest to defend after it has worked, which is precisely when it is hardest to begin.",
+  "RC3": "In 2024 and 2025 India's market regulator published studies of individual traders in equity futures and options, the products that allow bets on the direction of share prices with borrowed leverage. The finding was stark: roughly nine in ten individual traders lost money over the period studied, and the losses ran to many thousands of crores of rupees. The same period saw a sharp rise in the number of retail participants in these products, aided by cheap smartphones, instant account opening and online platforms that made trading as easy as shopping. India is not alone: similar patterns have been reported in other countries where retail option trading has grown. Regulators responded with tighter rules on contract sizes and margins. The episode raises an old question in a new form: how far should a government protect adults from risks that they choose to take?\n\nThe standard economic answer favours freedom. Adults are presumed to know their own interests, and a trade between consenting parties is presumed to benefit both. Markets also depend on speculators, who provide liquidity and make prices more informative. Against this, behavioural economists have documented systematic errors that matter in precisely this setting. People are overconfident about their own skill, mistaking luck in a rising market for judgement; they are loss-averse and so hold losing positions too long and sell winners too soon; and they are attracted to products with a small chance of a large gain, which is how options are marketed. Where errors are predictable, the presumption that adults know their own interests needs qualification.\n\nThe case for intervention is strengthened by the structure of the industry. Brokers earn fees on volume, whether the client wins or loses, and so have an incentive to encourage frequent trading. The exchanges and platforms profit similarly, and platforms, which depend on the engagement of users, are tempted to use design features, such as notifications and rewards, that encourage frequent activity. A product whose providers make money when customers trade, and whose customers lose money when they trade, has a conflict of interest built into its design. Because the losses are concentrated among those who trade most frequently and with the least experience, while a small number of professional firms make consistent profits, the market resembles a transfer from the many to the few more than a contest of equals. This is a failure of a kind that the presumption in favour of freedom was never meant to protect.\n\nThe case for caution is, however, also real. Restrictions that raise the cost of trading may drive participants to unregulated offshore platforms, where protection is weaker. Higher minimum contract sizes protect small investors from losses but also exclude them from hedging, which has legitimate uses. And paternalism has a cost in autonomy and in the quality of regulation itself: regulators, like traders, are subject to error, and the evidence that nine in ten traders lose is not by itself evidence that they should be forbidden to trade. Some people trade for entertainment, as others gamble, and are prepared to pay for it. A further difficulty is that data about who trades and why are limited, so that policy must be made on the basis of studies that cover only part of the market. A policy that treats all traders as victims of fraud misunderstands the problem as much as one that treats them all as sophisticated investors.\n\nThe more promising path lies between prohibition and indifference. Disclosure of the actual record of traders, in a form that reaches the person at the moment of decision, is more effective than a general warning. Limits on leverage, cooling-off periods and restrictions on the sale of the riskiest products to those without evidence of experience reduce harm while leaving the market open. Platforms can be required to disclose how they earn from client activity. Such measures should also be evaluated, since a rule that appears sensible may change behaviour in ways its authors did not intend. None of these measures eliminates losses, and none should be expected to, since risk is the nature of the activity. Their purpose is to ensure that those who take risks understand them, and that the people who profit from risk-taking do not do so by exploiting the very errors that make the activity attractive.",
+  "CA1": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nArjun Bhatt (Host, Roadmap): Electric vehicles are on every hoarding, but not on many roads. Why is adoption slower than predicted?\n\nDr. Meenal Iyer (transport economist): The usual explanation is price, and it is part of the story: an electric car still costs more upfront than a petrol equivalent, even if it costs less to run. But the more interesting problem is what economists call a chicken-and-egg problem. Buyers hesitate because charging points are few; operators hesitate to build them because there are too few vehicles to use them.\n\nArjun Bhatt: Yet electric two-wheelers and three-wheelers seem to be doing better.\n\nDr. Meenal Iyer: Exactly, and that is instructive. Those vehicles are cheap, run short daily distances, and can be charged at home or at the depot, so they do not depend on a public network. Where the use case fits the technology, adoption has been quick. For cars, which are bought for the occasional long trip as much as for the daily commute, the network matters more.\n\nArjun Bhatt: What should policy do?\n\nDr. Meenal Iyer: Subsidies on purchase help, but they are expensive and the benefit goes to those who would have bought anyway. A better use of public money is to solve the coordination problem: guarantee a basic charging network on highways and in apartment complexes, so that the decision to buy a car no longer depends on a decision by someone else."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC1",
+   "options": [
+    "Obesity drugs work, but whether they make good policy depends on cost, persistence, fairness and complementary action",
+    "Obesity drugs distract societies from prevention, and public money should therefore be spent only on changing food environments",
+    "Obesity drugs are overrated, since trials have shown that patients who take them gain no benefit beyond the loss of weight",
+    "Obesity drugs are so effective that governments should provide them to every eligible adult, whatever the size of the resulting bill"
+   ],
+   "answer": 0,
+   "explanation": "The author weighs cost, evidence on persistence, prevention and fairness, and concludes that 'A medicine that works is not the same as a policy that works'. The other options adopt one side or contradict the passage, which notes benefits for the heart and kidneys."
+  },
+  {
+   "id": "q2",
+   "type": "RC",
+   "question": "According to the passage, even a modest price per patient implies a very large total bill because",
+   "passageId": "RC1",
+   "options": [
+    "the drugs must be imported at high prices from the few countries that have the patents",
+    "patients must be treated in hospitals, which are the most expensive part of any health system",
+    "manufacturers charge higher prices to public health systems than they charge to private buyers",
+    "obesity is chronic and the number of people who could benefit is enormous"
+   ],
+   "answer": 3,
+   "explanation": "The passage says 'Obesity is a chronic condition, so treatment may be lifelong, and the number of people who could benefit is enormous'."
+  },
+  {
+   "id": "q3",
+   "type": "RC",
+   "question": "The remark that budgets are set annually and politicians think in electoral cycles implies that",
+   "passageId": "RC1",
+   "options": [
+    "governments are unwilling to pay for any treatment whose price has not been approved by the voters",
+    "investments whose returns come over decades are poorly suited to such budgets",
+    "the costs of the drugs will fall as soon as the next election has been held in the country",
+    "politicians prefer to spend public money on prevention because its benefits are visible at once"
+   ],
+   "answer": 1,
+   "explanation": "The passage says the benefits arrive 'in the future' while costs 'fall immediately', and that such budgets are 'poorly suited to investments whose returns arrive over decades'."
+  },
+  {
+   "id": "q4",
+   "type": "RC",
+   "question": "The author says the cost-effectiveness of the drugs is uncertain because",
+   "passageId": "RC1",
+   "options": [
+    "evidence is thin on how long patients stay on treatment and what happens after",
+    "no threshold has been agreed by any society for the cost of gaining a year of healthy life",
+    "trials have not been carried out on a sufficient number of patients in any wealthy country",
+    "the drugs are effective only for patients who already suffer from heart disease or diabetes"
+   ],
+   "answer": 0,
+   "explanation": "The passage says the analysis 'rests on assumptions about how long patients stay on treatment and what happens when they stop, and the evidence on both is thin'."
+  },
+  {
+   "id": "q5",
+   "type": "RC",
+   "question": "The author's view of the relationship between treatment and prevention is that",
+   "passageId": "RC1",
+   "options": [
+    "prevention should come first, and no patient should be treated until the food environment has been reformed",
+    "the two are rivals, and a government that funds one will always find that the other has been abandoned",
+    "the two are not alternatives in logic, but political energy and budgets are limited in practice",
+    "treatment makes prevention unnecessary, since the conditions that cause obesity are matters of individual choice"
+   ],
+   "answer": 2,
+   "explanation": "The author says the defenders' reply is 'correct in logic, though in practice budgets are limited, and the political energy spent on one may be unavailable for the other'."
+  },
+  {
+   "id": "q6",
+   "type": "RC",
+   "question": "Each of the following is recommended in the passage as a course for India EXCEPT",
+   "passageId": "RC1",
+   "options": [
+    "monitoring outcomes and persistence",
+    "pairing any public programme with measures on food and activity",
+    "targeting treatment at those whose gain is greatest",
+    "banning cheaper versions of the drugs"
+   ],
+   "answer": 3,
+   "explanation": "The last paragraph recommends the first three. The passage never suggests withholding cheaper versions."
+  },
+  {
+   "id": "q7",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC2",
+   "options": [
+    "Congestion pricing is easy to introduce in India, because technology makes the charge simple and drivers do not object to it",
+    "Congestion pricing has failed in the cities that tried it, since traffic volumes have not fallen and shops have lost customers",
+    "Congestion pricing is a tax on the poor, and cities should therefore build more roads to reduce the delays that drivers suffer",
+    "Congestion pricing is efficient, but its fairness and acceptance depend on design and on alternatives existing first"
+   ],
+   "answer": 3,
+   "explanation": "The author argues the charge is efficient but contested, that design determines fairness, and that 'improve the bus, then charge for the car'. The other options contradict the passage."
+  },
+  {
+   "id": "q8",
+   "type": "RC",
+   "question": "'Induced demand' in the passage refers to the fact that",
+   "passageId": "RC2",
+   "options": [
+    "congestion charges persuade drivers to use public transport, which increases the demand for buses",
+    "drivers travel less when the price of petrol rises, whatever the state of the roads in a city",
+    "new road capacity fills up, since cheaper travel invites more travel",
+    "cities build roads only where the demand for them has been shown by studies of the traffic"
+   ],
+   "answer": 2,
+   "explanation": "The passage says 'new capacity fills up. The paradox is known as induced demand: cheaper travel invites more travel'."
+  },
+  {
+   "id": "q9",
+   "type": "RC",
+   "question": "The reply to the charge that congestion pricing is a tax on the poor is that",
+   "passageId": "RC2",
+   "options": [
+    "poor drivers are able to pay the charge since they have lower costs of owning a vehicle than rich ones do",
+    "in most cities those who drive into the centre are on average richer than those who go by bus or on foot",
+    "the poor are exempt from the charge in every city that has introduced such a scheme of pricing for roads",
+    "the revenue from the charge is always spent on the roads that poor drivers use most frequently"
+   ],
+   "answer": 1,
+   "explanation": "The passage says 'in most cities the people who drive into the centre are on average richer than those who travel by bus or on foot, so that the charge falls mainly on the better-off'."
+  },
+  {
+   "id": "q10",
+   "type": "RC",
+   "question": "The author says the distributional reply is 'less certain' in some places because",
+   "passageId": "RC2",
+   "options": [
+    "the poor may rely on two-wheelers or live on the outskirts",
+    "poor people in such places do not use public transport, since they prefer to travel by car",
+    "the cost of administering the charge is greater in poorer cities than it is in richer cities",
+    "the revenue collected from the charge is spent on public transport that only the rich can use"
+   ],
+   "answer": 0,
+   "explanation": "The passage says 'It is less certain where the poor depend on two-wheelers, or live on the outskirts and have no alternative to a vehicle'."
+  },
+  {
+   "id": "q11",
+   "type": "RC",
+   "question": "A charge becomes 'a levy and not an incentive' when",
+   "passageId": "RC2",
+   "options": [
+    "the revenue is paid into general funds and not spent on public transport in the charged area",
+    "a driver who has no alternative simply pays, instead of changing behaviour",
+    "drivers who are exempt from the charge are permitted to use the roads at the busiest hours",
+    "the charge is set so low that most drivers fail to notice that they have been charged at all"
+   ],
+   "answer": 1,
+   "explanation": "The passage says 'A driver who can switch to a train responds to the charge by changing his behaviour; a driver who cannot simply pays, and the charge becomes a levy and not an incentive'."
+  },
+  {
+   "id": "q12",
+   "type": "RC",
+   "question": "The statement that a scheme 'is easiest to defend after it has worked, which is precisely when it is hardest to begin' means that",
+   "passageId": "RC2",
+   "options": [
+    "a scheme that has worked should be dropped, since it is no longer needed by the city that adopted it",
+    "a scheme cannot be shown to work until the opposition to it has been overcome by the government",
+    "governments should begin schemes only after the opposition has been defeated in a public debate",
+    "opposition is strongest before the effects are visible, and falls once they appear"
+   ],
+   "answer": 3,
+   "explanation": "The previous sentence says 'opposition falls after the scheme begins, when its effects become visible, and rises sharply before'."
+  },
+  {
+   "id": "q13",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC3",
+   "options": [
+    "Heavy retail losses justify some intervention, but disclosure and limits are preferable to prohibition",
+    "Retail traders should be forbidden to trade in futures and options, since nine in ten of them lose money in the market",
+    "Retail traders know their own interests, and regulators have no justification for any rule that restricts their activity",
+    "Brokers and exchanges are the only cause of retail losses, and a ban on their fees would remove the problem at once"
+   ],
+   "answer": 0,
+   "explanation": "The author says there is a case for intervention and a case for caution, and that 'the more promising path lies between prohibition and indifference'. The other options are extremes."
+  },
+  {
+   "id": "q14",
+   "type": "RC",
+   "question": "Each of the following is cited as a behavioural error of retail traders EXCEPT",
+   "passageId": "RC3",
+   "options": [
+    "excessive caution about risk",
+    "attraction to products with a small chance of a large gain",
+    "overconfidence about their own skill",
+    "holding losing positions too long and selling winners too soon"
+   ],
+   "answer": 0,
+   "explanation": "The passage cites overconfidence, loss aversion and attraction to long-shot gains. Excessive caution is not mentioned."
+  },
+  {
+   "id": "q15",
+   "type": "RC",
+   "question": "The conflict of interest in the industry arises because",
+   "passageId": "RC3",
+   "options": [
+    "platforms are required by law to show clients the products with the greatest chance of a large gain",
+    "brokers earn fees on volume whether the client wins or loses, and so encourage frequent trading",
+    "brokers are paid by the regulator to report the record of the clients who have lost the most money",
+    "exchanges are owned by professional firms that make consistent profits from the trades of their clients"
+   ],
+   "answer": 1,
+   "explanation": "The passage says 'Brokers earn fees on volume, whether the client wins or loses, and so have an incentive to encourage frequent trading'."
+  },
+  {
+   "id": "q16",
+   "type": "RC",
+   "question": "The author warns that higher costs of trading may",
+   "passageId": "RC3",
+   "options": [
+    "persuade all small investors to leave the market and to invest their savings in fixed deposits instead",
+    "raise the profits of professional firms, which trade in much larger volumes than individual investors do",
+    "drive participants to unregulated offshore platforms, where protection is weaker",
+    "reduce the information in prices, since fewer speculators would be present in the market to supply it"
+   ],
+   "answer": 2,
+   "explanation": "The passage says 'Restrictions that raise the cost of trading may drive participants to unregulated offshore platforms, where protection is weaker'."
+  },
+  {
+   "id": "q17",
+   "type": "RC",
+   "question": "The author says that the evidence that nine in ten traders lose is 'not by itself evidence that they should be forbidden to trade' because",
+   "passageId": "RC3",
+   "options": [
+    "some people trade for entertainment and are prepared to pay for it, and regulators can err too",
+    "traders who lose money in one year are certain to recover their losses in the years that follow",
+    "the studies by the regulator were carried out in a period when the market was falling steadily",
+    "the losses of traders are paid to the government in taxes, and are therefore used for the public good"
+   ],
+   "answer": 0,
+   "explanation": "The passage says 'Some people trade for entertainment, as others gamble, and are prepared to pay for it' and that 'regulators, like traders, are subject to error'."
+  },
+  {
+   "id": "q18",
+   "type": "RC",
+   "question": "According to the passage, the purpose of the measures it recommends is to ensure that",
+   "passageId": "RC3",
+   "options": [
+    "brokers and exchanges earn the same fees from clients, whether the clients trade frequently or seldom",
+    "those who take risks understand them, and profit is not made by exploiting their errors",
+    "only experienced traders are allowed to take part in the market for futures and options at any time",
+    "no trader can lose money in the market, since every loss would be repaid by the platform concerned"
+   ],
+   "answer": 1,
+   "explanation": "The last sentence says the purpose is 'to ensure that those who take risks understand them, and that the people who profit from risk-taking do not do so by exploiting the very errors that make the activity attractive'."
+  },
+  {
+   "id": "q19",
+   "type": "RC",
+   "question": "According to Dr. Iyer, the main reason for slow adoption of electric cars, beyond price, is",
+   "passageId": "CA1",
+   "options": [
+    "a chicken-and-egg problem: buyers wait for chargers, and operators wait for buyers",
+    "a shortage of batteries, which has made it difficult for manufacturers to meet the demand for cars",
+    "the high cost of running an electric car, which is greater than that of a petrol car",
+    "a lack of interest among buyers, who prefer petrol cars because they are quieter and more comfortable"
+   ],
+   "answer": 0,
+   "explanation": "She says 'Buyers hesitate because charging points are few; operators hesitate to build them because there are too few vehicles to use them'. She says an electric car costs less to run."
+  },
+  {
+   "id": "q20",
+   "type": "RC",
+   "question": "Dr. Iyer explains the faster adoption of two-wheelers and three-wheelers by saying that they",
+   "passageId": "CA1",
+   "options": [
+    "are used mainly for long trips, for which a public network of charging points is not needed",
+    "are bought by richer households, who can afford to pay for a private charging point of their own",
+    "receive larger subsidies than cars, and so cost less to buy than petrol vehicles of any kind",
+    "are cheap, run short distances and can be charged at home or at the depot"
+   ],
+   "answer": 3,
+   "explanation": "She says 'Those vehicles are cheap, run short daily distances, and can be charged at home or at the depot, so they do not depend on a public network'."
+  },
+  {
+   "id": "q21",
+   "type": "RC",
+   "question": "Dr. Iyer thinks public money is better spent on",
+   "passageId": "CA1",
+   "options": [
+    "advertising campaigns that inform the public of the lower running costs of electric vehicles in daily use",
+    "subsidies on the purchase of electric cars, since these persuade more buyers to give up petrol cars",
+    "research into batteries that would reduce the upfront cost of an electric car below that of a petrol car",
+    "guaranteeing a basic charging network, not purchase subsidies"
+   ],
+   "answer": 3,
+   "explanation": "She says subsidies 'are expensive and the benefit goes to those who would have bought anyway', and that a better use is to 'guarantee a basic charging network'."
+  },
+  {
+   "id": "q22",
+   "type": "Vocabulary",
+   "question": "The lawyer's ________ cross-examination, pressing each inconsistency in turn, left the witness visibly shaken.",
+   "options": [
+    "indulgent",
+    "perfunctory",
+    "desultory",
+    "relentless"
+   ],
+   "answer": 3,
+   "explanation": "'Relentless' means unyielding, fitting a cross-examination that pressed each inconsistency in turn. 'Perfunctory' (done without care), 'desultory' (aimless) and 'indulgent' (lenient) would not shake a witness."
+  },
+  {
+   "id": "q23",
+   "type": "Vocabulary",
+   "question": "The theory's ________ appeal lay in its simplicity; closer study revealed that the simplicity was bought by ignoring most of the facts.",
+   "options": [
+    "systematic",
+    "seductive",
+    "enduring",
+    "profound"
+   ],
+   "answer": 1,
+   "explanation": "'Seductive' means attractive in a way that misleads, fitting an appeal that collapsed under study. 'Profound', 'enduring' and 'systematic' would not be undone by closer study."
+  },
+  {
+   "id": "q24",
+   "type": "Vocabulary",
+   "question": "Their rivalry, long concealed, finally ________ when the two men clashed in public.",
+   "options": [
+    "broke the ice",
+    "went by the board",
+    "fell on deaf ears",
+    "came to a head"
+   ],
+   "answer": 3,
+   "explanation": "'Came to a head' means reached a crisis point. 'Went by the board' means was abandoned, 'fell on deaf ears' means was ignored, and 'broke the ice' means eased social tension."
+  },
+  {
+   "id": "q25",
+   "type": "Vocabulary",
+   "question": "The minister's ________ remark, dropped carelessly, ________ a storm of protest that he had not foreseen.",
+   "options": [
+    "tactful; provoked",
+    "inflammatory; provoked",
+    "inflammatory; forestalled",
+    "soothing; provoked"
+   ],
+   "answer": 1,
+   "explanation": "An 'inflammatory' remark 'provoked' a storm of protest. 'Soothing' and 'tactful' remarks would not cause a storm; 'forestalled' (prevented) contradicts the storm."
+  },
+  {
+   "id": "q26",
+   "type": "Vocabulary",
+   "question": "Although the report was ________ in tone, its conclusions were ________: it found the department's record ________ on every count.",
+   "options": [
+    "measured; damning; exemplary",
+    "measured; flattering; wanting",
+    "measured; damning; wanting",
+    "strident; damning; wanting"
+   ],
+   "answer": 2,
+   "explanation": "'Although' sets up the contrast: a 'measured' tone but 'damning' conclusions, finding the record 'wanting'. 'Strident' removes the contrast; 'flattering' and 'exemplary' contradict a damning finding."
+  },
+  {
+   "id": "q27",
+   "type": "Vocabulary",
+   "question": "To describe the ruling as a ________ would be an overstatement; it was at most a ________ concession.",
+   "options": [
+    "triumph; token",
+    "triumph; sweeping",
+    "setback; token",
+    "disaster; token"
+   ],
+   "answer": 0,
+   "explanation": "The ruling was no 'triumph' but at most a 'token' (symbolic) concession. 'Setback' and 'disaster' do not suit 'overstatement' of a good outcome; 'sweeping' contradicts 'at most'."
+  },
+  {
+   "id": "q28",
+   "type": "Vocabulary",
+   "question": "The scandal, far from ________ the minister, seemed to ________ his popularity among supporters who saw him as a victim.",
+   "options": [
+    "damaging; undermine",
+    "damaging; enhance",
+    "damaging; erode",
+    "strengthening; enhance"
+   ],
+   "answer": 1,
+   "explanation": "'Far from damaging the minister, seemed to enhance his popularity' fits supporters who saw him as a victim. 'Strengthening' removes the contrast; 'erode' and 'undermine' mean reduce, contradicting 'far from'."
+  },
+  {
+   "id": "q29",
+   "type": "Vocabulary",
+   "question": "Her ________ nature meant she was never angry for long: grudges, she said, were a burden to the one who carried them.",
+   "options": [
+    "irascible",
+    "truculent",
+    "forgiving",
+    "vindictive"
+   ],
+   "answer": 2,
+   "explanation": "'Forgiving' fits someone never angry for long. 'Vindictive' (vengeful), 'truculent' (aggressive) and 'irascible' (quick-tempered) contradict this."
+  },
+  {
+   "id": "q30",
+   "type": "Vocabulary",
+   "question": "The economist's ________ forecasts, which gave no figure and no date, could never be proved wrong and so were of no use.",
+   "options": [
+    "nebulous",
+    "quantified",
+    "precise",
+    "falsifiable"
+   ],
+   "answer": 0,
+   "explanation": "'Nebulous' means vague, fitting forecasts with no figure or date that could never be proved wrong. 'Precise', 'falsifiable' and 'quantified' are the opposite."
+  },
+  {
+   "id": "q31",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "A series of minor tremors preceded the earthquake by several days in the region around the capital.",
+    "The scholar's learning was formidable, and his manuscripts were consulted by specialists everywhere.",
+    "The speaker inferred that the policy had failed, though he never said so.",
+    "The committee has deferred the decision until its next session in the spring of next year."
+   ],
+   "answer": 2,
+   "explanation": "To suggest without saying is to 'imply'; 'infer' means to deduce. 'Deferred' (postponed), 'formidable' and 'preceded' are used correctly."
+  },
+  {
+   "id": "q32",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "The report was commissioned to evaluate the safety of the dam after the heavy rains of the previous autumn.",
+    "The factory's continual hum, which never stopped day or night, kept the neighbours awake.",
+    "The negotiations reached a delicate stage, and neither side was willing to make the first concession to the other.",
+    "Continual interruptions from the audience forced the speaker to abandon the text he had prepared for the evening."
+   ],
+   "answer": 1,
+   "explanation": "'Continual' means recurring repeatedly with breaks; a hum that never stopped is 'continuous'. 'Continual interruptions', 'delicate' and 'evaluate' are correct."
+  },
+  {
+   "id": "q33",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "A faint smile of satisfaction crossed his face as the verdict was announced to the crowded courtroom.",
+    "The mayor's decision to postpone the election was widely criticised as undemocratic and hasty in the extreme.",
+    "The police found an elicit stock of weapons in the warehouse.",
+    "The survey was designed to elicit honest opinions from respondents without causing them embarrassment of any kind."
+   ],
+   "answer": 2,
+   "explanation": "'Illicit' means unlawful; 'elicit' means to draw out. 'Elicit' in the second sentence, 'undemocratic' and 'verdict' are used correctly."
+  },
+  {
+   "id": "q34",
+   "type": "Grammar",
+   "question": "I would rather you <u>will</u> not go.",
+   "options": [
+    "do",
+    "would",
+    "should",
+    "did"
+   ],
+   "answer": 3,
+   "explanation": "After 'would rather' with a different subject, the past form is used for present or future reference: 'I would rather you did not go'."
+  },
+  {
+   "id": "q35",
+   "type": "Grammar",
+   "question": "She is <u>good in</u> mathematics.",
+   "options": [
+    "good at",
+    "good with",
+    "good on",
+    "good for"
+   ],
+   "answer": 0,
+   "explanation": "The correct collocation is 'good at' a subject or skill."
+  },
+  {
+   "id": "q36",
+   "type": "Grammar",
+   "question": "A large number of students <u>was</u> absent.",
+   "options": [
+    "has been",
+    "was being",
+    "were",
+    "is"
+   ],
+   "answer": 2,
+   "explanation": "'A number of' takes a plural verb: 'A large number of students were absent'."
+  },
+  {
+   "id": "q37",
+   "type": "Grammar",
+   "question": "He <u>has been knowing</u> her for ten years.",
+   "options": [
+    "had been knowing",
+    "has known",
+    "is knowing",
+    "knows"
+   ],
+   "answer": 1,
+   "explanation": "'Know' is a stative verb that is not used in continuous tenses; with 'for ten years' the present perfect is used: 'has known'."
+  },
+  {
+   "id": "q38",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nEconomists call a good non-rival when one person's use does not reduce what is left for others. ____________________. Knowledge is the classic example: when a teacher shares a theorem, she still has it, and the next student can learn it at no extra cost to the first. This is why knowledge is hard to sell and why it fuels growth.",
+   "options": [
+    "A good that is not used up by consumption has no value, and so economists do not study such goods at all.",
+    "Rival goods are those which a government forbids private firms to sell to the public at any price at all.",
+    "Non-rival goods are always provided by governments, since private firms cannot produce goods that are not used up.",
+    "Such goods can be shared at almost no additional cost, which makes them hard to charge for."
+   ],
+   "answer": 3,
+   "explanation": "The knowledge example shows a good shared at no extra cost and hard to sell. The other options contradict this or are unsupported."
+  },
+  {
+   "id": "q39",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nElection forecasts are often judged by whether they called the winner. ____________________. A forecast that gives a candidate a sixty per cent chance and sees him lose has not been proved wrong; it said that a loss was likely four times in ten. To test it, one must look at many forecasts and ask whether events given sixty per cent happened about sixty per cent of the time.",
+   "options": [
+    "A forecast that names the winner is right in every case, since the winner is the only fact that voters care about.",
+    "The winner of an election is always the candidate whom the polls had placed ahead in the weeks before the voting.",
+    "That is the wrong test, since a probabilistic forecast cannot be refuted by a single outcome.",
+    "Forecasters who give probabilities are less accurate than those who simply name a winner and stand by the name."
+   ],
+   "answer": 2,
+   "explanation": "The following sentences explain why one outcome cannot refute a probability. The other options contradict this."
+  },
+  {
+   "id": "q40",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nLanguages change faster than their speakers notice. ____________________. A reader of Chaucer needs a glossary, though English has changed in only some six centuries, and the speakers of every generation have felt that they were speaking the same language as their grandparents.",
+   "options": [
+    "The English of Chaucer's time was a different language from that of his parents, as the evidence of his poems shows.",
+    "Speakers of a language are always aware of changes in its vocabulary and grammar as they occur in daily speech.",
+    "Small changes in each generation accumulate until the speech of distant ancestors becomes strange.",
+    "Languages change only when they are written down by scholars who have studied the speech of earlier generations."
+   ],
+   "answer": 2,
+   "explanation": "The Chaucer example shows gradual change that no generation notices. The other options contradict this."
+  },
+  {
+   "id": "q41",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. For them, a higher price may signal status, and so raise demand.\n2. Economists call such luxury goods Veblen goods, after the economist who described conspicuous consumption.\n3. A few goods, however, are bought partly because they are expensive.\n4. For most goods, a rise in price reduces the quantity demanded.",
+   "answer": "4312",
+   "explanation": "Sentence 4 states the normal rule. Sentence 3 ('however') gives the exception. Sentence 1 ('For them') explains it. Sentence 2 ('such luxury goods') names it. Order: 4-3-1-2."
+  },
+  {
+   "id": "q42",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. The belief owes much to the symbols on packaging, which suggest that every item can be reprocessed.\n2. Reducing the production of single-use plastics is therefore at least as important as improving recycling.\n3. Recycling is widely believed to solve the problem of plastic waste.\n4. Only a small fraction of all plastic ever made has been recycled, and most of the rest lies in landfills or the environment.\n5. Most plastics, however, cannot be recycled indefinitely, since each cycle shortens the fibres.",
+   "answer": "31542",
+   "explanation": "Sentence 3 states the belief. Sentence 1 ('The belief') explains its source. Sentence 5 ('however') gives the limit. Sentence 4 gives the figure. Sentence 2 ('therefore') concludes. Order: 3-1-5-4-2."
+  },
+  {
+   "id": "q43",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Trade, by contrast, can benefit both parties, since each gives up what it values less for what it values more.\n2. Many arguments for protection assume the first picture and ignore the second.\n3. In a zero-sum game, one player's gain is exactly another's loss.\n4. Treating trade as a zero-sum contest therefore leads to mistaken policy.",
+   "answer": "3142",
+   "explanation": "Sentence 3 defines a zero-sum game. Sentence 1 ('by contrast') gives the contrasting picture of trade. Sentence 2 ('the first picture... the second') links the two. Sentence 4 ('therefore') concludes. Order: 3-1-2-4."
+  },
+  {
+   "id": "q44",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Some of these changes may be irreversible on any human timescale.\n2. Scientists use the term tipping point for a threshold beyond which a system shifts into a new state.\n3. The melting of ice sheets, once begun, may continue even if warming stops.\n4. The danger is that the threshold cannot be known in advance, and is recognised only after it has been crossed.\n5. Prudence therefore argues for acting before the evidence is complete.",
+   "answer": "23145",
+   "explanation": "Sentence 2 defines the term. Sentence 3 gives an example. Sentence 1 ('these changes') generalises. Sentence 4 states the danger. Sentence 5 ('therefore') concludes. Order: 2-3-1-4-5."
+  },
+  {
+   "id": "q45",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Even so, the alignment is imperfect, and the agent may pursue his own aims.\n2. A principal who hires an agent cannot observe all that the agent does.\n3. Contracts therefore try to align the agent's interest with the principal's, through bonuses and penalties.\n4. A shareholder, for instance, cannot watch every decision of a manager.",
+   "answer": "2431",
+   "explanation": "Sentence 2 states the problem. Sentence 4 ('for instance') gives an example. Sentence 3 ('therefore') gives the response. Sentence 1 ('Even so') notes its limit. Order: 2-4-3-1."
+  }
+ ]
 }
 ]
