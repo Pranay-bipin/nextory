@@ -9663,5 +9663,207 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The dilemma, as described, is that a ruler who knows surrender means a trial has less reason to surrender. A choice between safe exile that ends the conflict and a trial that may prolong it fits this directly.<br><br>• <strong>Why Option A is Wrong:</strong> A late conviction of a retired leader involves no trade-off between ending a conflict and securing justice.<br><br>• <strong>Why Option B is Wrong:</strong> Full cooperation with a tribunal shows no conflict between the two aims.<br><br>• <strong>Why Option D is Wrong:</strong> This concerns jurisdiction and sovereignty, not a trade-off between ending a conflict and securing justice.<br><br><strong>💡 Approach:</strong> For an application question, extract the logical structure (a trial may remove a ruler’s reason to stand down) and select the case that has that trade-off."
       }
     ]
+  },
+  [
+  {
+    "id": "rc-2026-11-07",
+    "date": "2026-11-07",
+    "title": "The Conference of Delivery: What COP31 Must Prove",
+    "genre": "Current Affairs / Environment & Policy",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1033 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "specious",
+          "type": "adjective",
+          "def": "Superficially plausible but actually wrong or misleading. Synonyms: fallacious, misleading, deceptive. Antonyms: sound, valid, genuine.",
+          "ex": "The minister’s specious argument fooled few economists."
+        },
+        {
+          "word": "vacuous",
+          "type": "adjective",
+          "def": "Having or showing a lack of thought or content; empty. Synonyms: empty, inane, hollow. Antonyms: meaningful, substantive, profound.",
+          "ex": "The communiqué was long on rhetoric and vacuous in content."
+        },
+        {
+          "word": "dilatory",
+          "type": "adjective",
+          "def": "Slow to act; intended to cause delay. Synonyms: tardy, procrastinating, sluggish. Antonyms: prompt, diligent, expeditious.",
+          "ex": "Dilatory tactics held up the negotiations for weeks."
+        },
+        {
+          "word": "hortatory",
+          "type": "adjective",
+          "def": "Strongly encouraging or urging; exhorting. Synonyms: exhortative, urging, inciting. Antonyms: discouraging, dissuasive.",
+          "ex": "The declaration was hortatory, urging action but requiring none."
+        },
+        {
+          "word": "temporise",
+          "type": "verb",
+          "def": "To avoid making a decision or committing oneself in order to gain time. Synonyms: stall, procrastinate, hedge. Antonyms: commit, decide, act.",
+          "ex": "The government temporised while the deadline passed."
+        },
+        {
+          "word": "fatuous",
+          "type": "adjective",
+          "def": "Silly and pointless; foolishly self-satisfied. Synonyms: inane, foolish, asinine. Antonyms: sensible, shrewd, intelligent.",
+          "ex": "His fatuous remarks irritated the delegates."
+        },
+        {
+          "word": "nugatory",
+          "type": "adjective",
+          "def": "Of no value or importance; futile. Synonyms: worthless, trifling, inoperative. Antonyms: valuable, important, significant.",
+          "ex": "A pledge without a deadline is nugatory."
+        },
+        {
+          "word": "sedulous",
+          "type": "adjective",
+          "def": "Showing dedication and diligence; persevering. Synonyms: diligent, assiduous, industrious. Antonyms: lazy, negligent, indolent.",
+          "ex": "The sedulous negotiator tracked every clause of the draft."
+        },
+        {
+          "word": "apposite",
+          "type": "adjective",
+          "def": "Strikingly appropriate to the matter at hand. Synonyms: apt, pertinent, fitting. Antonyms: irrelevant, inapt, unsuitable.",
+          "ex": "Her apposite comparison clarified the dispute."
+        },
+        {
+          "word": "prevaricate",
+          "type": "verb",
+          "def": "To speak or act evasively; to avoid giving a direct answer. Synonyms: equivocate, dodge, hedge. Antonyms: speak plainly, commit, answer.",
+          "ex": "The delegate prevaricated when asked about funding."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "walk the talk",
+          "def": "To act in accordance with what one says; to do what one has promised.",
+          "ex": "Governments must walk the talk on emissions."
+        },
+        {
+          "idiom": "the devil is in the detail",
+          "def": "The important problems of a plan lie in its small specifics.",
+          "ex": "The treaty sounds broad, but the devil is in the detail."
+        },
+        {
+          "idiom": "put one’s money where one’s mouth is",
+          "def": "To back one’s words with real action or payment.",
+          "ex": "Rich nations were urged to put their money where their mouth is."
+        },
+        {
+          "idiom": "cry wolf",
+          "def": "To raise a false alarm so often that real warnings are ignored.",
+          "ex": "Repeated false deadlines made critics say the agency was crying wolf."
+        },
+        {
+          "idiom": "close ranks",
+          "def": "To unite in order to defend common interests.",
+          "ex": "The bloc closed ranks against the proposal."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "follow through on",
+          "def": "To carry out a promise or plan completely. Synonym: implement.",
+          "ex": "The government failed to follow through on its pledge."
+        },
+        {
+          "verb": "live up to",
+          "def": "To meet the standard or expectations set. Synonym: fulfil.",
+          "ex": "The conference did not live up to expectations."
+        },
+        {
+          "verb": "scale up",
+          "def": "To increase in size, amount or extent. Synonym: expand.",
+          "ex": "Countries must scale up investment in clean power."
+        },
+        {
+          "verb": "phase in",
+          "def": "To introduce something gradually. Synonym: introduce.",
+          "ex": "The carbon levy will be phased in over five years."
+        },
+        {
+          "verb": "fall through",
+          "def": "To fail to happen or be completed. Synonym: collapse.",
+          "ex": "The financing deal fell through at the last minute."
+        }
+      ]
+    },
+    "passage": "On 9 November, delegates from nearly two hundred countries open the thirty-first United Nations climate conference in Antalya, Türkiye, which runs until 20 November. Two features set it apart. The first is its presidency, shared between Türkiye as host and Australia, which, together with Pacific island states, convened a preparatory ministerial meeting in Fiji in early October. The second is its theme: organisers have said that the previous conference, in Belém, marked a shift to implementation, and they describe this one as the occasion on which the policy outcomes of the Paris Agreement are to be put into action on the ground. The emphasis is understandable, but it invites a question that is easy to ask and hard to answer. After thirty conferences of pledges, what would it mean for a conference to be about delivery?\n\nThe difficulty begins with the structure of the Paris Agreement itself. Under it, each country sets its own national target, reports on its progress, and submits a more ambitious target every five years. There are no penalties for missing a target; the system depends on transparency, comparison and the discomfort of being seen to fall behind. Such a design makes pledging cheap and delivery expensive. An announcement costs a government little, and its costs, if any, fall on the successors who must carry it out; delivery, by contrast, requires present governments to spend money, displace industries and absorb the anger of those affected, usually within an electoral cycle shorter than the horizon of the target. A system that rewards announcement and defers the bill will, other things equal, produce more of the former than the latter, and the gap between them has been the standing complaint of climate diplomacy for years. The problem is not unique to climate. Wherever the beneficiaries of a policy are diffuse and distant, and its costs fall on concentrated and immediate interests, governments find it easier to adopt the policy in principle than to implement it in practice, and the more demanding the policy, the wider the gap tends to be.\n\nNowhere is that gap more contested than in finance. Developing countries argue that much of what they have promised depends on money and technology from richer ones, and that their own commitments cannot be deepened without it. At the conference in Baku in 2024, governments agreed a goal of at least 300 billion dollars a year by 2035, a figure that developing countries regarded as too low and wealthier ones as already demanding. The present conference has a two-year work programme on climate finance on its agenda, and the disputes it must settle are as much about accounting as about amounts. Does a loan count in the same way as a grant? Is money that was already planned for development “new”? Is a sum announced the same as a sum delivered? Each side suspects the other of counting generously when it pays and strictly when it receives, and the suspicion is itself an obstacle, because commitments that cannot be checked invite their own discounting. Wealthier governments, for their part, point to strained public budgets and argue that private investment must supply a large share of the total, which requires conditions that only recipient governments can create. Each argument has merit, and each is hard to verify from outside.\n\nThere are two ways to read the turn towards implementation. The benign reading is that it reflects maturity. The era of drafting rules is largely over, the argument runs, and what remains is the unglamorous work of building grids, reforming subsidies and training workers, most of which happens in national capitals and not in conference halls. The sceptical reading is that the shift offers a convenient way of avoiding harder questions. Most assessments find that existing national targets fall short of what the goal of keeping warming to 1.5 degrees requires. To emphasise the carrying out of existing pledges, rather than the raising of inadequate ones, may be to change the subject from the problem of ambition to the problem of administration, and to let governments claim credit for effort while the shortfall remains. There is a respectable defence, however: ambition that is not matched by capacity to deliver is only a larger pledge, and a larger pledge that is later broken may do more damage to the credibility of the whole process than a modest one that is kept.\n\nThese readings are not exclusive, and the decisive test lies not in the rhetoric of a conference but in what it can make checkable. Delivery, unlike announcement, can be measured: megawatts of clean capacity actually connected to the grid, subsidies actually withdrawn, money actually transferred. A conference committed to implementation is therefore one that insists on reporting that tracks outputs rather than intentions, and on finance commitments specific enough to be audited. The shared presidency raises a related point. It may broaden the range of governments that trust the process, since neither host nor co-president can be seen as speaking for a single bloc. But it may also blur accountability: when the outcome disappoints, each can point to the other, and the participants are left without a single office to which complaints are addressed. The practical lesson is that a presidency’s influence rests heavily on the clarity of its drafting, since in a diffuse process the text is the only place where responsibility can be assigned in advance.\n\nNone of this means that a conference focused on delivery is misguided. It means that its worth cannot be judged from its theme. The relevant questions are practical ones: whether the reports it demands can be verified, whether the finance it promises can be traced, and whether its decisions give later conferences something definite to inspect. The pattern of earlier meetings suggests that the devil is, as usual, in the detail, and that the difference between a conference about delivery and a conference about the word delivery will be found in the footnotes of its final text. Readers of that text would do well to look first for numbers, dates and named reporting obligations, and to treat adjectives such as “ambitious” and “urgent” as decoration until they are attached to something that can be counted.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "options": [
+          "A) A climate conference devoted to implementation is a retreat from ambition, designed to let governments avoid the harder task of raising inadequate targets.",
+          "B) A conference’s claim to focus on delivery is meaningful only if it makes commitments, especially on finance, checkable.",
+          "C) The Paris Agreement should be replaced by a system of penalties, because pledges without enforcement have produced more announcements than action.",
+          "D) The finance dispute between developing and wealthier countries is the only real obstacle to delivery, and a better definition of climate finance would resolve it."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The passage argues that the two readings of the “implementation” theme are not exclusive, that the test is what a conference can make checkable (reports that track outputs, finance that can be audited), and that its worth cannot be judged from its theme alone.<br><br>• <strong>Why Option A is Wrong:</strong> This is the sceptical reading, which the author presents as one of two and says is not exclusive of the other.<br><br>• <strong>Why Option C is Wrong:</strong> The author describes the lack of penalties as a feature of the structure but does not propose replacing the agreement.<br><br>• <strong>Why Option D is Wrong:</strong> The author calls finance the most contested gap but not the only obstacle, and does not say that a better definition would resolve it.<br><br><strong>💡 Approach:</strong> In central-argument questions, the author’s verdict in the closing paragraphs wins over any single supporting claim. Reject options that adopt one reading or use words such as “only”."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following, if true, would most weaken the sceptical reading that emphasising implementation is a way of avoiding harder questions about ambition?",
+        "options": [
+          "A) Several governments have said that existing national targets should not be reopened at the conference.",
+          "B) The conference’s draft decisions contain no language on revising national targets before the next five-year review.",
+          "C) Many countries have delivered less than half of the emissions cuts that they promised in their previous commitments.",
+          "D) Governments that tabled stronger targets before the conference are pressing hardest for delivery to be tracked."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The sceptical reading holds that governments emphasise implementation to avoid raising ambition. If those who have raised their ambition are the very ones demanding that delivery be tracked, implementation and ambition are being pursued together, which weakens the claim that one is a cover for avoiding the other.<br><br>• <strong>Why Option A is Wrong:</strong> This supports the sceptics, since it shows that governments want to avoid revisiting targets.<br><br>• <strong>Why Option B is Wrong:</strong> This also supports the sceptics by showing that ambition is absent from the draft.<br><br>• <strong>Why Option C is Wrong:</strong> This shows that delivery has been poor, which is consistent with both readings and does not address whether the emphasis on implementation is a diversion.<br><br><strong>💡 Approach:</strong> To weaken, identify what the sceptic claims (implementation is a diversion from ambition) and choose the option that shows the two going together. Reject options that fit the sceptic’s picture or are neutral."
+      },
+      {
+        "id": "q3",
+        "question": "Each of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) The conference presidency is shared between Türkiye and Australia.",
+          "B) Disagreements over climate finance include whether loans should count in the same way as grants.",
+          "C) Penalties for missed targets are applied automatically under the Paris Agreement.",
+          "D) On most assessments, existing national targets fall short of what the 1.5 degree goal requires."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The passage states that “there are no penalties for missing a target”. The option reverses this.<br><br>• <strong>Why Option A is Wrong:</strong> This is stated in paragraph 1.<br><br>• <strong>Why Option B is Wrong:</strong> This is stated in paragraph 3 as one of the questions the finance dispute must settle.<br><br>• <strong>Why Option D is Wrong:</strong> This is stated in paragraph 4: most assessments find existing targets fall short.<br><br><strong>💡 Approach:</strong> In an EXCEPT question, one option contradicts the passage outright. Search for a clear negation in the passage (“no penalties”)."
+      },
+      {
+        "id": "q4",
+        "question": "The author contrasts the cost of announcing a pledge with the cost of delivering it in order to:",
+        "options": [
+          "A) explain why pledges tend to outrun delivery in a system without penalties.",
+          "B) argue that governments make announcements in bad faith and never intend to deliver on them.",
+          "C) prove that delivery is impossible within the electoral cycle of any democratic government.",
+          "D) show that developing countries are more reluctant to deliver on their pledges than richer ones."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The contrast follows the description of a system with no penalties and concludes that such a system will produce more announcements than delivery. It explains the gap.<br><br>• <strong>Why Option B is Wrong:</strong> The author makes no claim about bad faith; the explanation is structural.<br><br>• <strong>Why Option C is Wrong:</strong> “Prove” and “impossible” go well beyond the passage’s claim that delivery is costly and often falls within an electoral cycle.<br><br>• <strong>Why Option D is Wrong:</strong> The passage does not compare developing and richer countries on this point.<br><br><strong>💡 Approach:</strong> For a function question, ask what conclusion the author draws from the contrast. Here it is that “a system that rewards announcement … will produce more of the former”."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following, if true, would most strengthen the author’s concern about the shared presidency?",
+        "options": [
+          "A) Both presidencies have published a joint statement of the priorities that they intend to pursue during the conference.",
+          "B) The preparatory meeting in Fiji was attended by a larger number of ministers than any previous preparatory meeting.",
+          "C) Co-presidencies in other international negotiations have broadened participation in the preparatory meetings that preceded them.",
+          "D) At earlier conferences led by two presidents, governments disputed which was responsible for the weakest parts of the text."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The author’s concern is that a shared presidency may blur accountability, so that each can point to the other. Evidence that governments have previously disputed who was responsible for weak outcomes under two presidents is that very blurring.<br><br>• <strong>Why Option A is Wrong:</strong> A joint statement of priorities suggests coordination, which would reduce the concern.<br><br>• <strong>Why Option B is Wrong:</strong> Attendance at the Fiji meeting concerns participation and not accountability.<br><br>• <strong>Why Option C is Wrong:</strong> This supports the benefit of broader trust that the author acknowledges, not the concern about accountability.<br><br><strong>💡 Approach:</strong> To strengthen a concern, find an example of that concern materialising. Reject options that support the opposing benefit or discuss something else."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following would the author most likely regard as the strongest evidence of genuine implementation?",
+        "options": [
+          "A) A new announcement of a more ambitious emissions target for 2040, made by a group of large economies at the conference.",
+          "B) Reports of clean power capacity actually connected to grids and of subsidies actually withdrawn.",
+          "C) A statement of intent, signed by a large number of governments, committing them to deliver on their existing pledges.",
+          "D) A promise by wealthier governments to increase their financial support for developing countries, without a schedule of payments."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author says delivery can be measured by outputs such as megawatts of capacity connected to the grid and subsidies withdrawn. Reports of both are the type of evidence the author favours.<br><br>• <strong>Why Option A is Wrong:</strong> A new target is an announcement, which is the cheap kind of commitment the passage contrasts with delivery.<br><br>• <strong>Why Option C is Wrong:</strong> A statement of intent is also an announcement, not a measured output.<br><br>• <strong>Why Option D is Wrong:</strong> A promise without a schedule is not specific enough to be audited, which the author says finance commitments must be.<br><br><strong>💡 Approach:</strong> For an application question, take the author’s own criterion (outputs, not intentions) and choose the option that meets it. Reject options that are announcements."
+      }
+    ]
   }
 ]
