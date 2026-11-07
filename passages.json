@@ -9462,5 +9462,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The conclusion identifies the decisive variable as the distance between the parties and the number of members in the space between them. A wide gap with an empty middle is the condition under which divided government produces standoffs.<br><br>• <strong>Why Option A is Wrong:</strong> The size of the opposition’s margin is not identified as decisive; the author stresses the distance between the parties.<br><br>• <strong>Why Option B is Wrong:</strong> Funding deadlines are a point to watch, but a deadline alone does not show that agreement will fail.<br><br>• <strong>Why Option C is Wrong:</strong> Presidential approval is not discussed as a factor in the passage.<br><br><strong>💡 Approach:</strong> For an application question, return to the author’s stated key variable and choose the option that matches it. Reject plausible but unmentioned factors."
       }
     ]
+  },
+  {
+    "id": "rc-2026-11-06",
+    "date": "2026-11-06",
+    "title": "Law Without Police: What a Peace Prize for a Judge Reveals",
+    "genre": "Current Affairs / International Relations",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1084 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "obloquy",
+          "type": "noun",
+          "def": "Strong public condemnation; disgrace resulting from it. Synonyms: censure, vilification, opprobrium. Antonyms: praise, honour, acclaim.",
+          "ex": "The disgraced minister died in obloquy."
+        },
+        {
+          "word": "polemic",
+          "type": "noun",
+          "def": "A strong written or spoken attack on a person, doctrine or institution. Synonyms: diatribe, tirade, invective. Antonyms: eulogy, panegyric, tribute.",
+          "ex": "His book was less a study than a polemic against the court."
+        },
+        {
+          "word": "unimpeachable",
+          "type": "adjective",
+          "def": "Not open to doubt or criticism; completely trustworthy. Synonyms: irreproachable, impeccable, blameless. Antonyms: dubious, questionable, tainted.",
+          "ex": "The judge’s integrity was unimpeachable."
+        },
+        {
+          "word": "arraign",
+          "type": "verb",
+          "def": "To call someone before a court to answer a criminal charge. Synonyms: indict, charge, accuse. Antonyms: acquit, exonerate, absolve.",
+          "ex": "The general was arraigned on charges of war crimes."
+        },
+        {
+          "word": "expiate",
+          "type": "verb",
+          "def": "To atone for guilt or wrongdoing. Synonyms: atone, redeem, make amends. Antonyms: aggravate, compound, perpetuate.",
+          "ex": "He tried to expiate his role in the atrocity by testifying."
+        },
+        {
+          "word": "obdurate",
+          "type": "adjective",
+          "def": "Stubbornly refusing to change one’s opinion or course of action. Synonyms: stubborn, adamant, intransigent. Antonyms: flexible, yielding, compliant.",
+          "ex": "The obdurate regime ignored every appeal."
+        },
+        {
+          "word": "magisterial",
+          "type": "adjective",
+          "def": "Having or showing great authority; (of a work) comprehensive and authoritative. Synonyms: authoritative, commanding, imperious. Antonyms: tentative, unassuming, diffident.",
+          "ex": "Her magisterial survey of international law became a standard text."
+        },
+        {
+          "word": "panegyric",
+          "type": "noun",
+          "def": "A public speech or text of high praise. Synonyms: eulogy, tribute, encomium. Antonyms: diatribe, invective, censure.",
+          "ex": "The speech was a panegyric to the retiring judge."
+        },
+        {
+          "word": "quixotic",
+          "type": "adjective",
+          "def": "Extremely idealistic, unrealistic and impractical. Synonyms: idealistic, visionary, impractical. Antonyms: realistic, pragmatic, practical.",
+          "ex": "The campaign for a world court once seemed quixotic."
+        },
+        {
+          "word": "ostracise",
+          "type": "verb",
+          "def": "To exclude someone from a group or society. Synonyms: shun, banish, blacklist. Antonyms: welcome, embrace, include.",
+          "ex": "States that defy the court risk being ostracised."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "speak truth to power",
+          "def": "To state unwelcome facts openly to those in authority.",
+          "ex": "She built her career on speaking truth to power."
+        },
+        {
+          "idiom": "a double standard",
+          "def": "A rule applied more strictly to one group than to another.",
+          "ex": "Critics see a double standard in who is prosecuted."
+        },
+        {
+          "idiom": "hold someone’s feet to the fire",
+          "def": "To pressure someone to meet their commitments or accept responsibility.",
+          "ex": "Activists vowed to hold the government’s feet to the fire."
+        },
+        {
+          "idiom": "tilt at windmills",
+          "def": "To fight imaginary enemies or pursue unrealistic aims.",
+          "ex": "Sceptics said campaigners were tilting at windmills."
+        },
+        {
+          "idiom": "a moral compass",
+          "def": "An inner sense of right and wrong that guides one’s actions.",
+          "ex": "The committee praised her firm moral compass."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "call out",
+          "def": "To criticise someone publicly for wrongdoing. Synonym: denounce.",
+          "ex": "Activists called out the government for ignoring the ruling."
+        },
+        {
+          "verb": "speak out",
+          "def": "To state one’s opinion publicly, often against something. Synonym: protest.",
+          "ex": "Few officials dared to speak out against the regime."
+        },
+        {
+          "verb": "weigh in",
+          "def": "To contribute to a discussion or dispute. Synonym: intervene.",
+          "ex": "Several governments weighed in on the ruling."
+        },
+        {
+          "verb": "back up",
+          "def": "To support or confirm something. Synonym: corroborate.",
+          "ex": "Witnesses backed up the prosecutor’s account."
+        },
+        {
+          "verb": "stand down",
+          "def": "To resign from a position or withdraw from a contest. Synonym: step aside.",
+          "ex": "The president agreed to stand down in return for immunity."
+        }
+      ]
+    },
+    "passage": "On 9 October the Norwegian Nobel Committee awarded the 2026 Peace Prize to Navanethem Pillay, an 85-year-old South African jurist born in Durban into a family of Indian Tamil origin, for what it called her efforts to promote peace and international law. Her career, as the committee traced it, runs from defending opponents of apartheid, among them Nelson Mandela, to service as a judge of the International Criminal Tribunal for Rwanda and as the United Nations High Commissioner for Human Rights. The committee observed that the number of wars is rising and that judges and institutions of international law are themselves under political attack. The award was welcomed by the president of the International Criminal Court; it was condemned by Israel’s foreign ministry, because Pillay had chaired a United Nations inquiry whose findings on Gaza Israel rejects. The contrast between welcome in one capital and denunciation in another is a fair summary of the standing of international justice itself: widely invoked, but unevenly accepted.\n\nThe case for treating international law as a pillar of peace begins with a simple observation about the alternative. Where no common rules exist, disputes between states are settled by whoever is stronger, and the weak have no recourse but to submit or to arm. Law replaces that arrangement with something more predictable: a set of standards that all states claim to accept, and a forum in which claims can be argued and recorded. The tribunals created after the Second World War, and those established for Rwanda and the former Yugoslavia, are credited with several lasting contributions. They established that individuals, including heads of state, can be held responsible for atrocities; they produced judicial records that make denial harder; and they developed doctrines, such as the recognition that sexual violence can constitute a component of genocide, that later courts have followed. A judge who contributes to such rulings contributes to a body of precedent, and precedent, once established, binds more reliably than any single act of diplomacy. There is, too, a quieter benefit that is easy to overlook: the existence of a forum gives victims and their families a lawful alternative to revenge, and a society that has heard the evidence in open court is better placed to accept a settled account of what happened than one left with rival memories.\n\nThe sceptical case is equally old and, in some respects, stronger on the evidence. Courts without police depend on the cooperation of states to arrest suspects, and states cooperate when it suits them. The most powerful governments can shield themselves and their allies, through the veto in the Security Council or by declining to join the courts at all, with the result that those actually brought to trial have tended to be the leaders of weaker states or of defeated parties. Sceptics add that justice may sometimes prolong conflict: a ruler who knows that surrender means a trial has less reason to surrender. The vulnerability of the institutions was illustrated this year by reports that the American president has imposed sanctions on thirteen staff members of the International Criminal Court, including prosecutors and judges, a step that its supporters regard as an attack on judicial independence and its critics as a legitimate response to overreach. Whatever one’s view of that dispute, it shows how dependent a court is on the goodwill of states it cannot compel.\n\nThese two cases are often argued as if they were answers to a single question, but they address different ones. The first is a claim about legitimacy: that law is the proper basis for relations between states. The second is a claim about effectiveness: that, in practice, law restrains the powerful rarely and the weak often. Both can be true at once. The evidence on deterrence, in particular, is hard to read, since the wars that did not occur because a leader feared prosecution leave no trace, and those that did occur do not by themselves show that law is useless; they may simply be the cases in which the fear was insufficient. Defenders sometimes reply that enforcement need not be complete to be worthwhile: a police force that catches only some burglars still deters many. The analogy has force, but it hides a condition. Burglars do not ordinarily suspect that the police choose whom to pursue according to the power of the suspect’s family. Where partial enforcement appears to track power and not chance, it damages the very legitimacy on which compliance depends.\n\nA Peace Prize awarded to a jurist is itself a statement of a view about peace: that it rests on institutions as much as on negotiations, and that those who build and defend such institutions deserve recognition. Critics respond that prizes are political acts, that the choice of a laureate who has chaired a contested inquiry will inevitably be read as taking sides in a conflict, and that a committee cannot strengthen a court by honouring one of its judges. Both points have some validity. A prize cannot enforce a verdict. What it can do is direct attention, and attention is a form of capital for institutions whose authority is moral before it is practical. It is also worth noting that the judges of international courts are, by profession, the least free of any public figures to answer their critics, and that the honour may therefore serve as a rare occasion on which the case for their work is made aloud.\n\nThe sensible way to assess international justice is therefore neither to count the wars it has failed to prevent nor to celebrate its symbolic victories, but to ask two questions of any institution or ruling. Does it make it more likely that future violators will be held to account, even if slowly? And does the process treat like cases alike, so that the law is seen to apply to the strong as to the weak? On the first, the record is a patient accumulation of norms rather than a series of dramatic interventions; on the second, the record is mixed, and the mixture is the reason for the controversy that the prize has stirred. Law, in this view, is neither a fraud nor a cure but a long and imperfect project, whose progress is best measured over generations, not news cycles. Impatience, in this field, is a more reliable source of disillusion than failure, because the promises made on behalf of international law have usually been larger than the institutions could deliver in the time allowed to them.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "options": [
+          "A) International courts have failed because they lack the power to enforce their rulings, so the prize rewards a cause that cannot succeed.",
+          "B) The prize is a political act that harms international justice by drawing the courts into controversies over particular conflicts.",
+          "C) International justice has real value, but should be judged by consistency and long-run norm-building, not by wars it fails to stop.",
+          "D) International justice deters wars effectively, so the criticism that it is applied selectively has little bearing on its authority."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The last paragraph proposes two tests (whether it makes future accountability likelier, and whether like cases are treated alike) and describes law as “a long and imperfect project” to be measured over generations. This is the author’s conclusion.<br><br>• <strong>Why Option A is Wrong:</strong> The author accepts that courts depend on states’ cooperation but does not conclude that the cause is a lost one; the passage describes slow accumulation of norms.<br><br>• <strong>Why Option B is Wrong:</strong> The author says critics of the prize have “some validity”, but does not say that the prize harms international justice; it can direct attention.<br><br>• <strong>Why Option D is Wrong:</strong> The author says the evidence on deterrence is hard to read, and that selective enforcement damages legitimacy. The claim that selectivity has little bearing contradicts the passage.<br><br><strong>💡 Approach:</strong> In central-argument questions, find the author’s closing assessment and check each option against it. Reject options built on a single supporting claim or on an absolute."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following, if true, would most weaken the defenders’ police analogy as the author qualifies it?",
+        "options": [
+          "A) Research finds that people obey laws less when they believe that enforcement targets some groups and spares others.",
+          "B) Surveys show that most people believe the police would catch them if they committed a burglary in their own neighbourhood.",
+          "C) Police forces that catch only a fraction of burglars still report lower burglary rates than similar areas without any police presence.",
+          "D) Studies find that publicising a small number of convictions deters other potential offenders in nearly all communities."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The author’s qualification is that partial enforcement works only if it does not appear to track power. Evidence that perceived selectivity reduces compliance backs the qualification and shows the analogy fails where enforcement looks selective, which weakens the defenders’ use of it.<br><br>• <strong>Why Option B is Wrong:</strong> This concerns perceived likelihood of capture, which is consistent with the analogy and does not address selectivity.<br><br>• <strong>Why Option C is Wrong:</strong> This supports the analogy’s core claim that partial enforcement deters.<br><br>• <strong>Why Option D is Wrong:</strong> This also supports the analogy by showing that a few convictions can deter many.<br><br><strong>💡 Approach:</strong> To weaken an analogy, show that the condition on which it depends does not hold. Reject options that confirm the analogy’s basic claim."
+      },
+      {
+        "id": "q3",
+        "question": "Each of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) Those who have actually been tried by international tribunals have tended to be leaders of weaker states or defeated parties.",
+          "B) The Nobel Committee said that international courts have ended the wars they addressed.",
+          "C) The effects of deterrence by law are difficult to observe because the events prevented leave no trace.",
+          "D) The prize was welcomed by the head of an international court and condemned by a government."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The committee is reported as saying that wars are rising and that judges and institutions are under attack. It is not reported as claiming that courts have ended wars, so the statement cannot be inferred.<br><br>• <strong>Why Option A is Wrong:</strong> This is stated in paragraph 3: those brought to trial have tended to be leaders of weaker states or of defeated parties.<br><br>• <strong>Why Option C is Wrong:</strong> This is stated in paragraph 4: wars that did not occur leave no trace.<br><br>• <strong>Why Option D is Wrong:</strong> This is stated in paragraph 1: welcomed by the ICC’s president, condemned by Israel’s foreign ministry.<br><br><strong>💡 Approach:</strong> In an EXCEPT question, check whether the attributed claim appears in the passage at all. Reject an option that puts a claim in the mouth of a party who was not reported to make it."
+      },
+      {
+        "id": "q4",
+        "question": "The author’s remark about welcome in one capital and denunciation in another serves mainly to:",
+        "options": [
+          "A) show that the Nobel Committee made an error of judgement in choosing a laureate who divides international opinion.",
+          "B) prove that international justice is rejected by a majority of states, which is why the courts cannot enforce their rulings.",
+          "C) argue that the controversy surrounding the prize is a reason to abolish the International Criminal Court.",
+          "D) illustrate that international justice is widely invoked but unevenly accepted."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The remark is introduced as a summary of the standing of international justice itself and is followed by the words “widely invoked, but unevenly accepted”. It serves as an illustration, not as an argument about the Nobel Committee or the courts’ abolition.<br><br>• <strong>Why Option A is Wrong:</strong> The author does not criticise the committee’s choice and later says the critics’ points have only some validity.<br><br>• <strong>Why Option B is Wrong:</strong> “Prove” and “majority of states” go well beyond two reactions and the passage makes no such claim.<br><br>• <strong>Why Option C is Wrong:</strong> Nothing in the passage proposes abolishing the court.<br><br><strong>💡 Approach:</strong> For a function question, read the sentence’s own gloss (“widely invoked, but unevenly accepted”) and choose the option that restates it. Reject options that make strong inferences from two data points."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following, if true, would most strengthen the claim that international courts influence the law mainly through slow, indirect norm-setting?",
+        "options": [
+          "A) Surveys show that most citizens in many countries are unaware of the decisions of international tribunals and of their reasoning.",
+          "B) Standards first set by tribunals have later been written into national laws and treaties, often decades afterwards.",
+          "C) The number of arrest warrants issued by international courts has fallen in recent years, according to several counts.",
+          "D) Several states have withdrawn from treaties that created international courts, citing concerns over national sovereignty."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The claim is that influence works through norm-setting that is slow and indirect. Standards from tribunals later codified in national law and treaties, often decades later, is exactly that pattern.<br><br>• <strong>Why Option A is Wrong:</strong> Public unawareness is consistent with slow influence but does not show that tribunals’ standards have shaped the law.<br><br>• <strong>Why Option C is Wrong:</strong> A fall in warrants says nothing about the way in which courts influence law.<br><br>• <strong>Why Option D is Wrong:</strong> Withdrawals show resistance, which tends to weaken the claim about norm-setting influence, if anything.<br><br><strong>💡 Approach:</strong> To strengthen a claim about a mechanism, choose the option that demonstrates the mechanism at work (standards set, then adopted later). Reject options that merely show awareness, activity or resistance."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following best illustrates the dilemma between justice and peace that the author mentions?",
+        "options": [
+          "A) A court convicts a former head of state many years after he has left office and settled in another country.",
+          "B) A government cooperates fully with a tribunal and arrests its former officials who are accused of atrocities.",
+          "C) A ruler is offered safe exile in exchange for stepping down, while prosecutors insist that he stand trial.",
+          "D) A state refuses to join an international court and argues that its own courts are able to try its citizens."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The dilemma, as described, is that a ruler who knows surrender means a trial has less reason to surrender. A choice between safe exile that ends the conflict and a trial that may prolong it fits this directly.<br><br>• <strong>Why Option A is Wrong:</strong> A late conviction of a retired leader involves no trade-off between ending a conflict and securing justice.<br><br>• <strong>Why Option B is Wrong:</strong> Full cooperation with a tribunal shows no conflict between the two aims.<br><br>• <strong>Why Option D is Wrong:</strong> This concerns jurisdiction and sovereignty, not a trade-off between ending a conflict and securing justice.<br><br><strong>💡 Approach:</strong> For an application question, extract the logical structure (a trial may remove a ruler’s reason to stand down) and select the case that has that trade-off."
+      }
+    ]
   }
 ]
