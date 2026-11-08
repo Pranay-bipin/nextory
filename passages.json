@@ -9664,7 +9664,6 @@
       }
     ]
   },
-  [
   {
     "id": "rc-2026-11-07",
     "date": "2026-11-07",
@@ -9863,6 +9862,208 @@
         ],
         "answer": 1,
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author says delivery can be measured by outputs such as megawatts of capacity connected to the grid and subsidies withdrawn. Reports of both are the type of evidence the author favours.<br><br>• <strong>Why Option A is Wrong:</strong> A new target is an announcement, which is the cheap kind of commitment the passage contrasts with delivery.<br><br>• <strong>Why Option C is Wrong:</strong> A statement of intent is also an announcement, not a measured output.<br><br>• <strong>Why Option D is Wrong:</strong> A promise without a schedule is not specific enough to be audited, which the author says finance commitments must be.<br><br><strong>💡 Approach:</strong> For an application question, take the author’s own criterion (outputs, not intentions) and choose the option that meets it. Reject options that are announcements."
+      }
+    ]
+  },
+  [
+  {
+    "id": "rc-2026-11-08",
+    "date": "2026-11-08",
+    "title": "The Rain and the Record: Reading Delhi’s Air-Quality Statistics",
+    "genre": "Current Affairs / Environment & Statistics",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1058 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "spurious",
+          "type": "adjective",
+          "def": "Not genuine or valid; based on false reasoning or a false connection. Synonyms: bogus, fallacious, counterfeit. Antonyms: genuine, authentic, valid.",
+          "ex": "The apparent link between the two trends proved spurious."
+        },
+        {
+          "word": "salutary",
+          "type": "adjective",
+          "def": "Producing a beneficial effect, especially after something unpleasant. Synonyms: beneficial, wholesome, instructive. Antonyms: harmful, detrimental, pernicious.",
+          "ex": "The audit was a salutary reminder of how easily figures mislead."
+        },
+        {
+          "word": "aberration",
+          "type": "noun",
+          "def": "A departure from what is normal or expected. Synonyms: anomaly, deviation, quirk. Antonyms: norm, regularity, conformity.",
+          "ex": "One wet month is an aberration, not a trend."
+        },
+        {
+          "word": "extrapolate",
+          "type": "verb",
+          "def": "To extend known data to estimate or infer something unknown. Synonyms: project, infer, deduce. Antonyms: ascertain, verify, observe.",
+          "ex": "It is unsafe to extrapolate a year’s trend from one month."
+        },
+        {
+          "word": "disparate",
+          "type": "adjective",
+          "def": "Essentially different and not allowing comparison. Synonyms: dissimilar, divergent, incongruous. Antonyms: similar, alike, uniform.",
+          "ex": "The report combined disparate sources of data."
+        },
+        {
+          "word": "corollary",
+          "type": "noun",
+          "def": "A natural consequence or result that follows from something. Synonyms: consequence, implication, upshot. Antonyms: cause, premise.",
+          "ex": "A corollary of the finding is that the policy needs retesting."
+        },
+        {
+          "word": "bellwether",
+          "type": "noun",
+          "def": "An indicator or leading sign of future trends. Synonyms: indicator, harbinger, barometer. Antonyms: laggard, afterthought.",
+          "ex": "The city’s data served as a bellwether for other metros."
+        },
+        {
+          "word": "confound",
+          "type": "verb",
+          "def": "To confuse or mix up; (in research) to distort a result by an unaccounted factor. Synonyms: baffle, perplex, muddle. Antonyms: clarify, enlighten, explain.",
+          "ex": "Heavy rain confounded attempts to measure the policy’s effect."
+        },
+        {
+          "word": "unalloyed",
+          "type": "adjective",
+          "def": "Complete and unmixed; pure. Synonyms: pure, unmitigated, wholehearted. Antonyms: qualified, mixed, tempered.",
+          "ex": "The cleaner air was an unalloyed benefit to residents."
+        },
+        {
+          "word": "cavalier",
+          "type": "adjective",
+          "def": "Showing a lack of proper concern; offhand. Synonyms: offhand, flippant, casual. Antonyms: careful, serious, scrupulous.",
+          "ex": "He took a cavalier attitude to the data."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "cherry-pick",
+          "def": "To choose only the evidence that supports one’s case and ignore the rest.",
+          "ex": "Critics accused the minister of cherry-picking the figures."
+        },
+        {
+          "idiom": "lies, damned lies and statistics",
+          "def": "A saying that statistics can be used to make any argument seem convincing.",
+          "ex": "It was a case of lies, damned lies and statistics."
+        },
+        {
+          "idiom": "a flash in the pan",
+          "def": "Something that shows early promise but does not last.",
+          "ex": "Experts feared the clean month was a flash in the pan."
+        },
+        {
+          "idiom": "clear the air",
+          "def": "To remove misunderstanding or tension by open discussion.",
+          "ex": "A public hearing helped clear the air."
+        },
+        {
+          "idiom": "take with a pinch of salt",
+          "def": "To regard a claim with scepticism.",
+          "ex": "Take the headline figure with a pinch of salt."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "boil down to",
+          "def": "To be reduced to a key point. Synonym: come down to.",
+          "ex": "The dispute boils down to the choice of baseline."
+        },
+        {
+          "verb": "sift through",
+          "def": "To examine a large amount of material carefully. Synonym: comb through.",
+          "ex": "Analysts sifted through years of daily bulletins."
+        },
+        {
+          "verb": "stack up",
+          "def": "To compare favourably or unfavourably with something. Synonym: measure up.",
+          "ex": "How does this year’s record stack up against earlier ones?"
+        },
+        {
+          "verb": "play out",
+          "def": "To develop or happen over time. Synonym: unfold.",
+          "ex": "The effects will play out over the winter."
+        },
+        {
+          "verb": "tease out",
+          "def": "To extract or separate something with effort. Synonym: disentangle.",
+          "ex": "Researchers tried to tease out the effect of the policy."
+        }
+      ]
+    },
+    "passage": "Delhi’s October ended with a statistic that officials and residents alike were glad to see. According to an analysis by the Centre for Research on Energy and Clean Air, the capital’s average air quality index for the month was about 167, the lowest for any October since 2015, the first year for which comparable records exist, and well below the figures of 223 in 2025 and 234 in 2024. Its highest reading was 245, the lowest monthly peak in the same period, and on the last day of the month the index fell to 60, the cleanest October day in four years. Such figures are routinely cited as evidence that the city’s control measures, including the graded restrictions that come into force as pollution worsens, are working. The inference is natural. It is also, as the analysts themselves cautioned, premature. Reading an index requires some familiarity with its scale. In India’s system a reading of 101 to 200 is classed as moderate, 201 to 300 as poor, and anything above that as very poor or severe, so an October average of about 167 is not a clean month in any absolute sense; it is cleaner than recent Octobers, which is a different claim.\n\nThe month was exceptionally wet. The Safdarjung observatory recorded about 123 millimetres of rain against a normal of 15, more than eight times the usual amount and the fourth-highest October total since 1954. On the final day more than 61 millimetres fell in twenty-four hours, and the index dropped to 60 as it did. Rain cleans the air by washing particles out of it, and it also changes the conditions that govern how pollution behaves: wind and moist air disperse pollutants, whereas the cold, still, dry air of late autumn traps them near the ground. The researcher quoted in the report therefore advised that meteorological influences be accounted for before any policy is credited. The statement does not deny that policy may have helped. It says that the data, as presented, cannot separate the effect of the policy from that of the weather. The problem is a familiar one in statistics, where it is called confounding: two things changed at once, and the outcome cannot be assigned to either. A city that introduces a measure in a year of unusual weather learns very little about the measure from that year, however favourable the result.\n\nA different analysis, by a civil-society group working from the official daily bulletins, reached a gloomier conclusion about the year as a whole. It found that the average index for January to September was 167.6, against 164.3 in 2025, and that several months, July among them, were worse than a year earlier. The group also noted that the statutory commission responsible for air quality in the region had, in its latest release, left out the nine-month average, and had begun its comparison series in 2022 and not in 2018, a choice that alters what the comparison shows. An opposition leader who took up the matter asked the commission to restore the earlier series and to correct a statement about particulate levels. These are allegations by critics, and the commission may well have an account of its own choices; the point to notice is that the dispute concerns not the measurements themselves but the way in which they are selected and compared.\n\nIt would be tempting to conclude that one side must be right. In fact the two sets of findings are quite compatible. They describe different windows of time, and a single month is a noisy basis for judging a trend: a very wet October can lower the average without telling us anything about the other eleven months. The difference between the two January-to-September averages, about three points on a scale that runs to five hundred, is also small enough to be explained by the ordinary variation of weather from year to year, so it cannot by itself prove deterioration, any more than the October record can prove improvement. Neither statistic, taken alone, settles whether the city’s air is getting better. There is a further point about the way such figures travel. A number that has been qualified in the report that produced it is often stripped of its qualifications when it reaches a headline, and a headline in turn becomes a talking point, so that a cautious finding about one month is soon quoted as a verdict on a policy.\n\nThe deeper difficulty is that every air-quality statistic depends on three choices: the window over which it is averaged, the baseline against which it is compared, and the extent to which weather has been taken out. Each choice can be defended, and each can be made so as to flatter. A government benefits from good news and an opposition from bad, and a figure that happens to suit one side will be circulated by it without reference to the choices behind it. What would settle the matter is not a better slogan but a better method: a long series published in full, with a baseline fixed in advance, and an estimate of what pollution would have been under average weather, obtained by statistical models that are now routine in atmospheric science. Such a method has an additional advantage: because it is fixed before the results are known, it cannot be adjusted afterwards to suit them, and a body that commits to it in advance can be held to it by anyone who cares to check.\n\nThe stakes are not abstract. October’s average, even in so good a year, was about one and a half times September’s, and the months of colder and stiller air, when pollution has historically been worst, were still to come. A good month in autumn is welcome, but it does not reduce the exposure of those who live through the winter, and a public that mistakes a lucky month for a solved problem may relax its pressure for the changes that matter. A statistic is an answer to a question, and the question must be stated before the answer can be trusted. Asked plainly, the question about October is not whether the air was cleaner than in previous years, which it was, but whether it was cleaner for reasons that will survive a dry autumn, and to that question the available figures offer no answer yet.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "options": [
+          "A) One month’s air-quality record cannot show whether policy works; sound conclusions need a long series, a fixed baseline and weather adjustment.",
+          "B) Delhi’s air quality has improved because of its control measures, and critics who dispute this are relying on figures that have been selectively chosen.",
+          "C) Delhi’s air quality has worsened over the year, and the October record is a misleading product of unusually heavy rainfall during the month.",
+          "D) Air-quality statistics are so easily manipulated by governments and their opponents that no figure about the city’s pollution deserves any trust at all."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The author says that the two sets of findings are compatible, that every statistic depends on the choice of window, baseline and weather adjustment, and that a long, published series with a fixed baseline and weather-adjusted estimates would settle the matter.<br><br>• <strong>Why Option B is Wrong:</strong> This takes the government side. The author says that the inference of policy success is premature, since weather was exceptional.<br><br>• <strong>Why Option C is Wrong:</strong> This takes the critics’ side. The author says that the nine-month difference is small enough to be explained by ordinary year-to-year variation and so cannot prove deterioration.<br><br>• <strong>Why Option D is Wrong:</strong> “No figure deserves any trust at all” is an overreach; the author recommends a better method, not the abandonment of statistics.<br><br><strong>💡 Approach:</strong> In central-argument questions, find the author’s balancing conclusion. Reject options that take one party’s side or end in an absolute (“no figure”, “any trust at all”)."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following, if true, would most weaken the claim that October’s low average was mainly the result of unusually heavy rain?",
+        "options": [
+          "A) The index fell sharply on the days when heavy rain fell and rose again once the rain had stopped.",
+          "B) Other cities that had above-normal rainfall in October also recorded lower average indexes than in drier months.",
+          "C) The commission’s graded restrictions were imposed only after the middle of the month, when the index was already low.",
+          "D) Two earlier Octobers with equally heavy rainfall recorded average indexes well above this year’s."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> If equally wet Octobers in the past still had much higher averages, rain alone cannot account for this year’s low figure, so some other factor (such as policy) is likely to have contributed. This weakens the claim.<br><br>• <strong>Why Option A is Wrong:</strong> This supports the weather explanation by showing the index moving with the rain.<br><br>• <strong>Why Option B is Wrong:</strong> This also supports it, since rain is associated with lower indexes in other cities.<br><br>• <strong>Why Option C is Wrong:</strong> If restrictions came after the index was already low, they cannot explain the low index, which makes the weather explanation more likely.<br><br><strong>💡 Approach:</strong> To weaken a cause-and-effect claim, show that the supposed cause was present without the effect. Past wet Octobers with high averages do exactly that."
+      },
+      {
+        "id": "q3",
+        "question": "Each of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) Rainfall at the main observatory in October was many times the normal amount.",
+          "B) Different windows of time can leave different impressions about whether air quality is improving.",
+          "C) The analysts concluded that the control measures played no part in October’s improvement.",
+          "D) The index fell to its lowest level of the month on the day of the heaviest rain."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The researcher advised that weather be accounted for before policy is credited and said the data “cannot separate” the two. That is not a conclusion that the measures played no part, so the option goes beyond the passage.<br><br>• <strong>Why Option A is Wrong:</strong> This is stated in paragraph 2: about 123 mm against a normal of 15 mm.<br><br>• <strong>Why Option B is Wrong:</strong> This follows from paragraph 4: the two findings describe different windows and are compatible.<br><br>• <strong>Why Option D is Wrong:</strong> This is stated in paragraph 2: more than 61 mm fell on the final day, and the index dropped to 60, the cleanest October day in four years.<br><br><strong>💡 Approach:</strong> In an EXCEPT question, look for an option that turns a caution (“cannot separate”) into a firm negative conclusion. The passage never says the measures had no effect."
+      },
+      {
+        "id": "q4",
+        "question": "The author mentions that the difference between the two January-to-September averages is about three points on a scale that runs to five hundred in order to:",
+        "options": [
+          "A) show that the critics’ figures are fabricated and should therefore not be taken seriously by the general public at all.",
+          "B) show that it is too small to prove deterioration, as the October record cannot prove improvement.",
+          "C) prove that the city’s air quality has improved steadily over the whole of the year.",
+          "D) argue that the commission has deliberately hidden the true size of the difference."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The sentence says the difference is small enough to be explained by ordinary variation, so it “cannot by itself prove deterioration, any more than the October record can prove improvement”. It is used for symmetry between the two claims.<br><br>• <strong>Why Option A is Wrong:</strong> The author does not call the critics’ figures fabricated; the analysis is reported as using official bulletins.<br><br>• <strong>Why Option C is Wrong:</strong> The author makes no claim of steady improvement; the point is that neither statistic settles the trend.<br><br>• <strong>Why Option D is Wrong:</strong> The author notes that the commission may have an account of its choices and does not allege deliberate concealment.<br><br><strong>💡 Approach:</strong> For a function question, read the clause that follows the detail (“any more than the October record can prove improvement”). The detail serves to establish a parallel between the two claims."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following, if true, would most strengthen the author’s proposal that pollution trends be judged using weather-adjusted long series?",
+        "options": [
+          "A) Residents of Delhi say that they find it easier to breathe in months when heavy rain falls.",
+          "B) Several large cities publish a daily bulletin of their air quality on public websites.",
+          "C) Policy makers generally prefer simple summary figures to complex statistical models when briefing the public.",
+          "D) Weather-adjusted models have given trends that differ from unadjusted averages in several cities."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The author’s proposal assumes that adjusting for weather can change the picture. Evidence that adjusted and unadjusted trends differ in several cities shows that the adjustment matters, which supports the proposal.<br><br>• <strong>Why Option A is Wrong:</strong> Residents’ comfort says nothing about whether adjusted trends differ from unadjusted ones.<br><br>• <strong>Why Option B is Wrong:</strong> Publication of daily bulletins is a separate matter from the method of analysing trends.<br><br>• <strong>Why Option C is Wrong:</strong> This describes a preference of policy makers and gives no evidence that adjusted series are better.<br><br><strong>💡 Approach:</strong> To strengthen a proposal, show that its key premise holds. The premise here is that weather adjustment changes the conclusion."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following would, on the author’s reasoning, be the most reliable evidence that a set of control measures reduced pollution?",
+        "options": [
+          "A) The average index over the single wettest month of the year, compared with the average over the driest month.",
+          "B) The lowest reading of this year compared with the lowest reading of the previous year, as reported by the commission.",
+          "C) Pollution levels on days with similar weather before and after the measures took effect.",
+          "D) The average over the three months before the measures compared with the average over the three months after them."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> Comparing days with similar weather holds the main confounder constant, so a difference is more likely to reflect the measures. This matches the author’s call to account for meteorological influences.<br><br>• <strong>Why Option A is Wrong:</strong> This compares months with very different weather, so the comparison is dominated by the weather.<br><br>• <strong>Why Option B is Wrong:</strong> A single lowest reading is a noisy extreme and says little about a trend.<br><br>• <strong>Why Option D is Wrong:</strong> Adjacent three-month windows may fall in different seasons, so the weather differs and the comparison is confounded.<br><br><strong>💡 Approach:</strong> For an application question, apply the author’s own standard (hold weather constant) to each option. Reject comparisons in which weather, season or extremes differ."
       }
     ]
   }
