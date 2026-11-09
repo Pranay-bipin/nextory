@@ -10066,5 +10066,407 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> Comparing days with similar weather holds the main confounder constant, so a difference is more likely to reflect the measures. This matches the author’s call to account for meteorological influences.<br><br>• <strong>Why Option A is Wrong:</strong> This compares months with very different weather, so the comparison is dominated by the weather.<br><br>• <strong>Why Option B is Wrong:</strong> A single lowest reading is a noisy extreme and says little about a trend.<br><br>• <strong>Why Option D is Wrong:</strong> Adjacent three-month windows may fall in different seasons, so the weather differs and the comparison is confounded.<br><br><strong>💡 Approach:</strong> For an application question, apply the author’s own standard (hold weather constant) to each option. Reject comparisons in which weather, season or extremes differ."
       }
     ]
+  },  
+  {
+    "id": "rc-2026-11-09",
+    "date": "2026-11-09",
+    "title": "From Algae to the Brain: The Curious Path of Optogenetics",
+    "genre": "Current Affairs / Science",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1053 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "fecund",
+          "type": "adjective",
+          "def": "Producing or capable of producing much; fertile. Synonyms: fertile, prolific, fruitful. Antonyms: barren, sterile, unproductive.",
+          "ex": "Basic research proved a fecund source of new tools."
+        },
+        {
+          "word": "propitious",
+          "type": "adjective",
+          "def": "Giving or indicating a good chance of success; favourable. Synonyms: auspicious, favourable, promising. Antonyms: inauspicious, unfavourable, ominous.",
+          "ex": "The timing of the discovery was propitious."
+        },
+        {
+          "word": "adventitious",
+          "type": "adjective",
+          "def": "Happening by chance or coming from outside; not inherent. Synonyms: accidental, chance, fortuitous. Antonyms: intrinsic, planned, inherent.",
+          "ex": "The discovery was adventitious, not planned."
+        },
+        {
+          "word": "tractable",
+          "type": "adjective",
+          "def": "Easy to deal with, manage or control. Synonyms: manageable, docile, amenable. Antonyms: intractable, unmanageable, stubborn.",
+          "ex": "The problem proved more tractable than expected."
+        },
+        {
+          "word": "inchoate",
+          "type": "adjective",
+          "def": "Just begun and not yet fully formed; rudimentary. Synonyms: incipient, undeveloped, nascent. Antonyms: developed, mature, complete.",
+          "ex": "The idea was still inchoate when first proposed."
+        },
+        {
+          "word": "perspicacious",
+          "type": "adjective",
+          "def": "Having a ready insight into things; shrewd. Synonyms: astute, discerning, shrewd. Antonyms: obtuse, undiscerning, dull.",
+          "ex": "A perspicacious reviewer spotted the flaw in the design."
+        },
+        {
+          "word": "recondite",
+          "type": "adjective",
+          "def": "Little known; abstruse and difficult to understand. Synonyms: obscure, arcane, abstruse. Antonyms: familiar, clear, accessible.",
+          "ex": "The paper dealt with recondite points of membrane physics."
+        },
+        {
+          "word": "efficacious",
+          "type": "adjective",
+          "def": "Successful in producing a desired result; effective. Synonyms: effective, potent, productive. Antonyms: ineffective, futile, useless.",
+          "ex": "The treatment proved efficacious in the trial."
+        },
+        {
+          "word": "moot",
+          "type": "adjective",
+          "def": "Open to debate; (in practice) no longer relevant. Synonyms: debatable, arguable, academic. Antonyms: settled, certain, undisputed.",
+          "ex": "Whether the result is general remains a moot point."
+        },
+        {
+          "word": "ineffable",
+          "type": "adjective",
+          "def": "Too great or extreme to be expressed in words. Synonyms: inexpressible, indescribable, unspeakable. Antonyms: expressible, describable, definable.",
+          "ex": "The ineffable complexity of the brain defies simple models."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "blue-sky thinking",
+          "def": "Creative thinking unconstrained by practical limits.",
+          "ex": "The lab encouraged blue-sky thinking among its young researchers."
+        },
+        {
+          "idiom": "a needle in a haystack",
+          "def": "Something very hard to find.",
+          "ex": "Finding the right protein was like finding a needle in a haystack."
+        },
+        {
+          "idiom": "a eureka moment",
+          "def": "A sudden moment of discovery or insight.",
+          "ex": "The team had a eureka moment when the cells responded to light."
+        },
+        {
+          "idiom": "back to basics",
+          "def": "Returning to the fundamental principles of something.",
+          "ex": "After the failure, the group went back to basics."
+        },
+        {
+          "idiom": "open a can of worms",
+          "def": "To start something that creates many unforeseen problems.",
+          "ex": "The ethical debate opened a can of worms."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "stumble on",
+          "def": "To find something by chance. Synonym: chance upon.",
+          "ex": "Researchers stumbled on the protein while studying algae."
+        },
+        {
+          "verb": "hit upon",
+          "def": "To discover or think of something suddenly. Synonym: come across.",
+          "ex": "She hit upon a way of delivering the gene."
+        },
+        {
+          "verb": "branch out",
+          "def": "To extend one’s activities into a new area. Synonym: diversify.",
+          "ex": "The lab branched out into clinical work."
+        },
+        {
+          "verb": "spin off",
+          "def": "To develop as a by-product or separate enterprise. Synonym: derive.",
+          "ex": "Several companies spun off from the university lab."
+        },
+        {
+          "verb": "set out",
+          "def": "To begin an undertaking with a particular aim. Synonym: embark.",
+          "ex": "They set out to understand how algae sense light."
+        }
+      ]
+    },
+    "passage": "On 5 October the Nobel Assembly at the Karolinska Institute awarded the 2026 Prize in Physiology or Medicine to Karl Deisseroth of Stanford University, Peter Hegemann of Humboldt University in Berlin and Georg Nagel of the University of Würzburg, for the discovery of light-gated ion channels and the technique known as optogenetics. The Assembly’s secretary-general said that the method makes it possible to switch on or off the activity of individual nerve cells in a living brain, and the chair of the prize committee said it offers a way of mapping the brain that scientists could once only dream of. The story behind the technique is unusual. The molecules on which it depends were not found in the brain at all. They come from single-celled green algae, which use light-sensitive proteins to detect light and swim towards it. For these organisms the proteins are a means of finding the brightest water in which to photosynthesise; for neuroscientists, as it turned out, they were a switch. The distance between those two descriptions is the distance that the prize is meant to measure, and it is worth asking how such a leap was made, and what it implies about the way in which science should be organised and judged.\n\nTo see why the technique mattered, it helps to recall the tools it improved upon. An electrode delivers current to every cell near its tip, whatever the type of cell, and so cannot be used to ask what a particular kind of neuron does. Drugs can be directed at particular receptors, but they act slowly and spread through the whole brain. Optogenetics avoids both limitations. The gene for an algal light-gated channel is inserted into one chosen type of cell; light shone on the tissue then opens the channel in those cells alone, activating them within milliseconds, and variants of the channel can be used to silence cells instead. Experimenters can therefore ask causal questions: if these cells are switched on, what happens to the animal’s behaviour? The method is now used in laboratories around the world to study learning, fear, addiction and movement. Its speed is a part of its value as well as its selectivity: nerve cells communicate in milliseconds, and a tool that works on that timescale can follow the order in which events occur, which is often what distinguishes a cause from an accompaniment.\n\nThe episode is often told as a vindication of curiosity-driven research. No funding body, the argument runs, would have supported work on algae in the hope of understanding the brain, since nobody knew that the two were connected, and a research programme aimed directly at controlling neurons with light could hardly have been conceived before the channels were found. The most valuable tools, on this view, often come from unexpected places, and a research system that funds only what it can already justify will miss them. The moral drawn is that basic research should be funded generously and left to follow its own questions. Such an argument carries particular weight in an age of tight budgets, when each grant must be defended by the practical return that it promises and the open-ended inquiry that produced this technique is the first casualty of an insistence on defined outcomes.\n\nThe moral is sound, but the story that supports it is told with the benefit of hindsight. We hear about the algae that led to a tool; we do not hear about the many curiosity-driven projects that led nowhere, because nothing came of them to be celebrated. A single success cannot show that curiosity pays. The justification for basic research rests on the portfolio, on the likelihood that a broad and varied programme will produce a few outstanding discoveries, and not on any one project. The tale is also incomplete. The step from a molecule in algae to a working tool in mammalian neurons required a deliberate effort to show that the channel would function in nerve cells and to deliver it to chosen cells. The route ran through both curiosity and targeted engineering, and the lesson for funding is that the two are partners, not rivals.\n\nAdmiration for the technique should not obscure its limits, which are of two kinds. The first concerns interpretation. Switching on a group of cells and observing a behaviour shows that the cells are sufficient to produce it; it does not show that they are the cells that normally do so. A lamp can be lit by touching a wire to a battery, but this does not show that a battery is how it is ordinarily powered. Light patterns delivered to the brain are, moreover, artificial in strength and timing, and the brain’s own signals are neither. The second kind is practical. Genes must be delivered to the right cells, and light must be delivered to the right place, which in the brain usually means implanting a fibre. Clinical applications are being explored, for example in some forms of blindness, and the committee spoke of hopes that finer stimulation of the auditory nerve might improve cochlear implants, but hopes are not results, and the move from the laboratory mouse to the patient has proved slow. Each additional step, whether in gene delivery, immune response or the safety of light in living tissue, brings its own uncertainties, and the history of medicine contains many methods that worked beautifully in animals and disappointed in people.\n\nThe prize therefore honours a tool, and the worth of a tool lies in the questions it allows to be asked and in the care with which the answers are read. The easier part of that work, the building of the instrument, has been done and honoured. The harder part is interpretive: deciding what a response to artificial stimulation tells us about the working of an organ that evolved without any such stimulation. Of that, the Nobel Assembly’s own remark, that the technique has fundamentally altered our understanding of the brain, is both a tribute and a challenge, because the understanding must still be earned, experiment by experiment. A prize can mark the end of one chapter of a field, but in this case it more nearly marks the point at which the questions became answerable, and the experimenters, rather than the committee, will determine how much of that promise is kept.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "options": [
+          "A) Optogenetics is the clearest proof that basic research should be funded without any expectation of practical results, and its limits are of minor importance.",
+          "B) Optogenetics is a powerful tool born of curiosity plus targeted engineering, and its value depends on careful interpretation.",
+          "C) Optogenetics has already produced effective treatments for several brain disorders, and the main task now is to extend them to more patients.",
+          "D) The Nobel Prize for optogenetics is undeserved, since the algal proteins were discovered by others and the technique has few real uses."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The passage credits the technique’s power, shows that its origin involved both curiosity and deliberate engineering, and ends by saying that the harder task is interpreting results and that understanding “must still be earned”.<br><br>• <strong>Why Option A is Wrong:</strong> The author qualifies the vindication-of-curiosity story with hindsight and says the limits are real, so “clearest proof” and “minor importance” contradict the passage.<br><br>• <strong>Why Option C is Wrong:</strong> The author says that clinical applications are being explored and that “hopes are not results”, so effective treatments are not claimed.<br><br>• <strong>Why Option D is Wrong:</strong> The author describes the prize as honouring a tool and nowhere suggests it is undeserved.<br><br><strong>💡 Approach:</strong> For a central-argument question, find the option that keeps both the praise and the qualification. Reject options that take one extreme, such as “clearest proof” or “undeserved”."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following, if true, would most weaken the claim that a research programme aimed directly at controlling neurons with light could hardly have been conceived before the algal channels were found?",
+        "options": [
+          "A) The first light-gated channels were found in algae by researchers who were studying how the algae detect light.",
+          "B) Few funding bodies in the early 2000s supported research on single-celled algae for any purpose beyond basic biology.",
+          "C) Before 2002, well-funded programmes were explicitly seeking light-sensitive proteins to control neurons.",
+          "D) Most of the early work on the channels in algae was carried out in laboratories that did not study the nervous system."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> If programmes explicitly aimed at controlling neurons with light existed before the channels were found, then such a project could be conceived, and the claim is weakened.<br><br>• <strong>Why Option A is Wrong:</strong> This describes the actual path of discovery and supports the claim that the finding came from curiosity about algae.<br><br>• <strong>Why Option B is Wrong:</strong> This supports the claim that nobody was funding algae research for brain-related purposes.<br><br>• <strong>Why Option D is Wrong:</strong> This also supports the claim, since it shows that the early work was not aimed at the nervous system.<br><br><strong>💡 Approach:</strong> To weaken a claim of impossibility, show that the supposedly impossible thing existed. Reject options that repeat the path the author already describes."
+      },
+      {
+        "id": "q3",
+        "question": "Each of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) Optogenetics has been shown in large clinical trials to cure forms of blindness.",
+          "B) Electrodes cannot, by themselves, select a particular type of neuron to stimulate.",
+          "C) A tool’s origin in curiosity-driven work does not by itself show that curiosity usually pays.",
+          "D) Showing that a group of cells can produce a behaviour does not show that they normally do."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The passage says clinical applications are “being explored” in some forms of blindness and that “hopes are not results”. It makes no claim of large clinical trials or cures, so the statement cannot be inferred.<br><br>• <strong>Why Option B is Wrong:</strong> This follows from paragraph 2: an electrode delivers current to every cell near its tip, whatever the type.<br><br>• <strong>Why Option C is Wrong:</strong> This follows from paragraph 4: a single success cannot show that curiosity pays.<br><br>• <strong>Why Option D is Wrong:</strong> This follows from paragraph 5: switching on cells shows they are sufficient, not that they normally do so.<br><br><strong>💡 Approach:</strong> In an EXCEPT question, find the option that upgrades a hope or an exploration into an achievement (“cure”, “large trials”)."
+      },
+      {
+        "id": "q4",
+        "question": "The author’s observation that “we do not hear about the many curiosity-driven projects that led nowhere” is intended to:",
+        "options": [
+          "A) argue that curiosity-driven research is wasteful and should receive no public funding, since most of it fails.",
+          "B) suggest that the researchers who won the prize concealed earlier experiments that had failed.",
+          "C) prove that targeted research always produces better results than research that follows curiosity.",
+          "D) qualify the claim that curiosity pays by showing that one success can be misleading."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The sentence introduces the author’s point about hindsight: a single success cannot show that curiosity pays, and the case for basic research rests on the portfolio. It qualifies the vindication story without rejecting it.<br><br>• <strong>Why Option A is Wrong:</strong> The author says the moral is sound and defends basic research as a portfolio, so the passage does not say it should receive no funding.<br><br>• <strong>Why Option B is Wrong:</strong> No suggestion of concealment is made anywhere in the passage.<br><br>• <strong>Why Option C is Wrong:</strong> The author says that curiosity and targeted engineering are partners, not that targeted research is better.<br><br><strong>💡 Approach:</strong> For a function question, read the sentence that follows (“A single success cannot show that curiosity pays”). The observation is a qualification, not a rejection."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following, if true, would most strengthen the author’s caution that switching on cells shows sufficiency but not the cells’ natural role?",
+        "options": [
+          "A) A behaviour was produced by activating cells that stay silent when the animal normally performs it.",
+          "B) Light-gated channels have been successfully inserted into many different types of neuron in a variety of animals.",
+          "C) Electrodes have been used to stimulate parts of the brain in patients for several decades.",
+          "D) The behaviour appeared only when the light delivered to the tissue was extremely bright."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> If artificial activation of a group of cells produces a behaviour even though those same cells were silent when the animal normally performed it, then sufficiency has been shown without natural involvement. That is exactly the caution the author raises.<br><br>• <strong>Why Option B is Wrong:</strong> Wide use of the method does not bear on whether sufficiency implies natural role.<br><br>• <strong>Why Option C is Wrong:</strong> Older stimulation methods have nothing to do with the distinction between sufficient and normal causes.<br><br>• <strong>Why Option D is Wrong:</strong> Very bright light would suggest artificiality of the stimulus, but does not show that the cells play no natural part.<br><br><strong>💡 Approach:</strong> To strengthen a caution about inference, choose the option that shows a case where the inference would have failed."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following contains reasoning most like the error that the author warns against in paragraph 5?",
+        "options": [
+          "A) A mechanic replaces a part in an engine and the engine then runs better, so he concludes that the old part was faulty.",
+          "B) An engineer makes a lamp glow by connecting a battery and concludes that a battery is its normal source of power.",
+          "C) A teacher observes that pupils who study more tend to score higher and concludes that study raises scores.",
+          "D) A chemist heats a sample of liquid until it boils and records the temperature at which this happens."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The engineer reasons from the fact that something can produce an effect to the claim that it is the normal producer of that effect. This is the sufficiency-to-natural-role error the author warns of, and the passage uses the same lamp-and-battery image.<br><br>• <strong>Why Option A is Wrong:</strong> This is a reasonable inference from a change followed by an improvement; it is not the sufficiency error.<br><br>• <strong>Why Option C is Wrong:</strong> This infers causation from association, which is a different error.<br><br>• <strong>Why Option D is Wrong:</strong> This is a straightforward measurement and involves no inference about natural causes.<br><br><strong>💡 Approach:</strong> For an application question, identify the logical form of the error (it can, therefore it normally does) and choose the option with that form."
+      }
+    ]
+  },
+  {
+    "id": "rc-2026-11-10",
+    "date": "2026-11-10",
+    "title": "A Shelf of Her Own: Genre, Translation and the Nobel Prize in Literature",
+    "genre": "Current Affairs / Literature & Culture",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1069 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "oeuvre",
+          "type": "noun",
+          "def": "The body of work of an artist, composer or writer. Synonyms: body of work, canon, output. Antonyms: fragment, single piece.",
+          "ex": "Her oeuvre ranges from translation to opera libretti."
+        },
+        {
+          "word": "pastiche",
+          "type": "noun",
+          "def": "A work that imitates the style of earlier works, often as a blend or tribute. Synonyms: medley, imitation, patchwork. Antonyms: original, innovation.",
+          "ex": "The novel is a pastiche of Victorian detective fiction."
+        },
+        {
+          "word": "idiosyncratic",
+          "type": "adjective",
+          "def": "Peculiar to one person; individual and unconventional. Synonyms: eccentric, distinctive, quirky. Antonyms: conventional, typical, orthodox.",
+          "ex": "The poet’s idiosyncratic punctuation puzzled editors."
+        },
+        {
+          "word": "protean",
+          "type": "adjective",
+          "def": "Tending to change frequently or easily in form; versatile. Synonyms: versatile, mutable, variable. Antonyms: fixed, constant, unchanging.",
+          "ex": "Her protean talent spanned poetry, essays and translation."
+        },
+        {
+          "word": "syncretic",
+          "type": "adjective",
+          "def": "Combining different beliefs, styles or traditions. Synonyms: blended, hybrid, fused. Antonyms: pure, unmixed, uniform.",
+          "ex": "The film is a syncretic blend of myth and modern romance."
+        },
+        {
+          "word": "iconoclast",
+          "type": "noun",
+          "def": "A person who attacks cherished beliefs or institutions. Synonyms: rebel, dissenter, heretic. Antonyms: conformist, traditionalist, devotee.",
+          "ex": "As an iconoclast, he mocked every literary convention."
+        },
+        {
+          "word": "rarefied",
+          "type": "adjective",
+          "def": "Distant from the lives of ordinary people; esoteric and refined. Synonyms: elevated, exclusive, esoteric. Antonyms: commonplace, ordinary, accessible.",
+          "ex": "The critic wrote for a rarefied audience of specialists."
+        },
+        {
+          "word": "polymath",
+          "type": "noun",
+          "def": "A person of wide knowledge or learning in many fields. Synonyms: scholar, savant, renaissance figure. Antonyms: dilettante, specialist, ignoramus.",
+          "ex": "The classicist-poet was a true polymath."
+        },
+        {
+          "word": "erudite",
+          "type": "adjective",
+          "def": "Having or showing great knowledge gained from study. Synonyms: learned, scholarly, well-read. Antonyms: ignorant, unlettered, uneducated.",
+          "ex": "The erudite essays assumed a deep knowledge of Greek."
+        },
+        {
+          "word": "abstruse",
+          "type": "adjective",
+          "def": "Difficult to understand; obscure. Synonyms: obscure, arcane, cryptic. Antonyms: clear, lucid, straightforward.",
+          "ex": "The poem’s abstruse references defeated most readers."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "break the mould",
+          "def": "To do something in a way that is completely new and different from what came before.",
+          "ex": "The writer broke the mould by blending verse with prose."
+        },
+        {
+          "idiom": "march to the beat of one’s own drum",
+          "def": "To act in an independent, unconventional way.",
+          "ex": "She has always marched to the beat of her own drum."
+        },
+        {
+          "idiom": "a square peg in a round hole",
+          "def": "A person who does not fit into a particular situation or group.",
+          "ex": "In the genre-bound publishing world, he was a square peg in a round hole."
+        },
+        {
+          "idiom": "stand the test of time",
+          "def": "To remain valued or relevant over a long period.",
+          "ex": "Only a few prize-winners stand the test of time."
+        },
+        {
+          "idiom": "read between the lines",
+          "def": "To perceive a meaning that is not openly stated.",
+          "ex": "Readers must read between the lines of the elegy."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "cut across",
+          "def": "To transcend or ignore the usual boundaries. Synonym: transcend.",
+          "ex": "Her writing cuts across the boundaries of genre."
+        },
+        {
+          "verb": "riff on",
+          "def": "To produce a creative variation based on something existing. Synonym: improvise on.",
+          "ex": "The performance riffs on a Greek tragedy."
+        },
+        {
+          "verb": "take up",
+          "def": "To begin or adopt an activity or idea. Synonym: adopt.",
+          "ex": "Younger poets have taken up her fragmentary form."
+        },
+        {
+          "verb": "hark back to",
+          "def": "To refer to or recall something from the past. Synonym: recall.",
+          "ex": "The title harks back to an ancient myth."
+        },
+        {
+          "verb": "strike out",
+          "def": "To set off on a new, independent course. Synonym: venture.",
+          "ex": "She struck out on her own, rejecting every school."
+        }
+      ]
+    },
+    "passage": "On 8 October the Swedish Academy awarded the 2026 Nobel Prize in Literature to Anne Carson, a 76-year-old Canadian poet and essayist who has taught classics at universities in Canada and the United States. The citation praised her “bold and inventive oeuvre” which, “in playful dialogue with the classical tradition,” has created “new forms for contemporary literature.” The Academy described her work as centred on the intersection between the philologist’s obsession with words and the poet’s desire for new meaning, and named, among other works, Autobiography of Red, a verse novel published in 1998, and Nox, an elegy for her brother that takes the form of a single folded sheet of pictures, letters and texts. Her output also includes translations from Greek, opera libretti, criticism and a performance piece, Norma Jeane Baker of Troy, which blends Euripides’ Helen with Marilyn Monroe. A member of the committee remarked that genre is “something for booksellers” and that her books sit on “a shelf of her own.”\n\nThe remark about booksellers is more than a witticism, for it points to a real puzzle about how we judge literature. We usually read a book with expectations formed by its category. A reader who takes up a novel expects a plot and characters, a reader who takes up a poem expects compression and music, and a reviewer who finds neither will say that the book has failed. Genre, in this sense, is a set of standards, and to say that a work is good is, in part, to say that it meets the standards of its kind. A writer who crosses categories therefore poses a difficulty for the critic. If a book is a verse novel, should it be judged by the standards of a novel, of a poem, or of neither? The question has no obvious answer, and the temptation is to avoid it by calling the work unclassifiable, which is a way of declining to assess it. The difficulty is not peculiar to the present. Each generation of writers who found a new form was first accused of failing to write in an old one, and the accusation was usually withdrawn only when readers had learned the new form well enough to see what it could do.\n\nThe way out lies in distinguishing two uses of classification. One is practical: the bookseller or librarian places a book where the readers who might want it will find it, and for that purpose any sensible label will do, since the label is a convenience. The other is evaluative: the critic decides what the book is trying to do and whether it succeeds. The Academy’s phrase, that Carson has created new forms, suggests that her work should be judged by the second use and not by the first, and by a standard that is internal to each book. A work in an unfamiliar form can be asked whether the form serves its purpose; an elegy printed on a folding sheet, for example, can be asked whether the unfolding enacts the experience of loss, or merely decorates it. The shelf on which it is sold has no bearing on the matter. Confusion arises when the label of the first kind is used for the judgement of the second, as when a reviewer faults a verse novel for lacking the density of a lyric poem.\n\nTranslation raises a related question. The Academy remarked that her translations from classical Greek may be regarded as independent works in their own right, a claim that sits uneasily with a common view of translation as a secondary activity, a faithful carrying across of someone else’s work. There are at least two ways of seeing the matter. On the first, the translator’s task is self-effacement: the better the translation, the less one is aware of the translator. On the second, every translation is a series of choices about tone, rhythm and emphasis that no original dictates, and a translator who makes those choices with enough force and consistency creates a work that can be read, and judged, in its own right. The two views are not wholly opposed; the second concerns what is achieved, the first what is owed. But they lead to different assessments, and an academy that grants translations independent status is taking sides. The position has some risk, since it invites readers who know no Greek to admire a version they cannot check, and it asks them to trust that the invention they enjoy is the translator’s and not a distortion; yet that risk is the price of treating translation as an art and not merely a service.\n\nThe Academy’s choices have long been criticised, sometimes for overlooking great writers and sometimes for selecting obscure ones; defenders reply that part of its role is to bring lesser-known work to a wider public. Carson’s selection will be argued within this familiar quarrel. Her own remark, that she is not interested in relevance, is a reminder that prizes are often discussed as though they ought to reward writers for engaging with the concerns of the moment, whereas an author who draws on ancient sources may hope for a different kind of endurance. Whether such a hope is justified cannot be known in the year of the award. A prize records a judgement made in a particular present, and the judgement of later readers is the only one that finally counts. The history of such prizes offers little reassurance in either direction: some laureates were read eagerly for a generation and then forgotten, while others, honoured late or doubtfully, have grown in stature with time, so the verdict of the committee has never been a reliable guide to the verdict of posterity.\n\nWhat can be said now is limited but not trivial. The worth of a prize of this kind is not demonstrated by the reasoning of its citation, however elegant, but by whether it sends readers to the books. If it does, the unclassifiable writer will have been given what classification denies her: readers prepared to meet each work on its own terms. If it does not, the citation will stand as one more compliment to a shelf that few visit. The test, in either case, is applied by readers, who are under no obligation to follow a committee, and whose curiosity, once aroused, will do more to establish a writer’s standing than any statement about her place in literary history.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "options": [
+          "A) Genre labels help readers find books but should not judge them, so writers who cross genres are best assessed by how well form serves purpose.",
+          "B) Writers who cross genres cannot be judged at all, since every standard of literary quality is relative to a genre and so cannot apply to such work.",
+          "C) The Nobel Committee made a mistake in honouring Carson, since a prize for an author without a clear genre cannot be justified by any argument.",
+          "D) Translation is the highest form of literary creation, and prizes should be given only to authors whose translations are independent works."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The passage distinguishes practical classification (finding books) from evaluative classification (judging them), argues that Carson’s work should be judged by a standard internal to each book (does the form serve its purpose?), and concludes that a prize’s worth lies in sending readers to the books.<br><br>• <strong>Why Option B is Wrong:</strong> The passage says the puzzle can be resolved by using an internal standard; it does not say such work cannot be judged. It also calls “unclassifiable” a way of declining to assess a work.<br><br>• <strong>Why Option C is Wrong:</strong> The passage does not call the award a mistake; it says the judgement will be tested by later readers.<br><br>• <strong>Why Option D is Wrong:</strong> The author discusses translation as one issue and says the two views are not wholly opposed; the passage makes no claim that it is the highest form of creation.<br><br><strong>💡 Approach:</strong> In central-argument questions, find the option that reproduces the author’s resolution of the central puzzle. Reject options built on an absolute (“cannot be judged at all”, “highest form”)."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following, if true, would most weaken the claim that a translation can be an independent work in its own right?",
+        "options": [
+          "A) Her versions of Greek poems have been staged and published as works under her own name.",
+          "B) Reviewers have praised her translations for choices of tone and rhythm that are not found in the Greek originals.",
+          "C) Her translations follow the Greek so closely that readers cannot tell them from other translators’ versions.",
+          "D) Several scholars of Greek have argued that her translations show a distinctive sense of rhythm and emphasis."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The claim depends on the translator’s choices creating a distinctive work. If her translations are indistinguishable from others’, they show no independent creative contribution, and the claim is weakened.<br><br>• <strong>Why Option A is Wrong:</strong> Publication as her own works supports the claim.<br><br>• <strong>Why Option B is Wrong:</strong> Praise for choices not in the originals supports the claim, because those choices are what make the translation independent.<br><br>• <strong>Why Option D is Wrong:</strong> A distinctive sense of rhythm and emphasis is the quality on which the second view relies, so this supports the claim.<br><br><strong>💡 Approach:</strong> To weaken a claim of independence, show that the supposed independent element is absent. Reject options that give evidence of distinctive choices."
+      },
+      {
+        "id": "q3",
+        "question": "Each of the following can be inferred from the passage EXCEPT:",
+        "options": [
+          "A) A reviewer who judges a verse novel by the standards of a lyric poem may be applying the wrong standard.",
+          "B) The Swedish Academy has been criticised both for overlooking important writers and for choosing obscure ones.",
+          "C) A translator’s choices of tone and rhythm can, on one view, make a translation a work in its own right.",
+          "D) Carson has said that relevance to contemporary concerns is her main aim."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The passage reports Carson as saying that she is not interested in relevance. The option reverses this.<br><br>• <strong>Why Option A is Wrong:</strong> This follows from paragraph 3, where a reviewer faults a verse novel for lacking the density of a lyric poem.<br><br>• <strong>Why Option B is Wrong:</strong> This is stated in paragraph 5.<br><br>• <strong>Why Option C is Wrong:</strong> This is the second view of translation in paragraph 4.<br><br><strong>💡 Approach:</strong> In an EXCEPT question, one option contradicts a reported statement. Here the reversal (“main aim” versus “not interested”) is exact."
+      },
+      {
+        "id": "q4",
+        "question": "The author’s opening discussion of the committee member’s remark about booksellers serves mainly to:",
+        "options": [
+          "A) mock the committee member for treating a serious matter as a joke about commerce.",
+          "B) suggest that classification serves selling and shelving more than evaluation.",
+          "C) prove that genres have no effect on how readers form their expectations.",
+          "D) show that booksellers have more influence over literary reputations than critics do."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author says the remark “points to a real puzzle” and later distinguishes classification for finding books from classification for judging them. The booksellers’ remark introduces that distinction.<br><br>• <strong>Why Option A is Wrong:</strong> The author calls the remark “more than a witticism”, treating it as pointing to a real puzzle.<br><br>• <strong>Why Option C is Wrong:</strong> The author says readers do form expectations from genre; the passage describes genre as a set of standards.<br><br>• <strong>Why Option D is Wrong:</strong> The passage makes no claim about the relative influence of booksellers and critics.<br><br><strong>💡 Approach:</strong> For a function question, read the author’s own comment on the item (“more than a witticism … a real puzzle”) and follow the argument it opens."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following, if true, would most strengthen the author’s claim that a writer who crosses genres poses a difficulty for the critic?",
+        "options": [
+          "A) Different booksellers shelve her books in different sections, depending on the size and layout of their shops.",
+          "B) The Academy’s citation describes her work as bold and inventive and as in dialogue with the classical tradition.",
+          "C) Reviewers disagree over whether a book is poetry, essay or novel and give it very different marks.",
+          "D) Many readers say that they enjoy her books whichever category they happen to be placed in by the publisher."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The difficulty is that the standards for judging depend on genre. Sharp disagreement among reviewers about which standard applies, leading to very different marks, is evidence of that difficulty.<br><br>• <strong>Why Option A is Wrong:</strong> Shelving differences concern the practical use of classification, not the problem of judging.<br><br>• <strong>Why Option B is Wrong:</strong> This is praise from the Academy and says nothing about difficulty for the critic.<br><br>• <strong>Why Option D is Wrong:</strong> Enjoyment by readers shows no difficulty in evaluation; it suggests classification does not matter to readers.<br><br><strong>💡 Approach:</strong> To strengthen a claim about difficulty, find evidence that the difficulty is actually experienced, such as critics who disagree because the applicable standard is unclear."
+      },
+      {
+        "id": "q6",
+        "question": "Which of the following would the author most likely regard as a misuse of genre classification?",
+        "options": [
+          "A) A critic refuses to consider a book as a novel because a librarian has shelved it with the poetry.",
+          "B) A bookseller places a book in the poetry section so that readers interested in poetry will find it.",
+          "C) A critic compares a novel with other novels in order to judge the strength of its plot and characters.",
+          "D) A publisher lists a book under two categories in order to reach more readers than a single label would."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The author warns against using a classification of the first, practical kind (shelving) to settle a judgement of the second kind (how the book should be assessed). The critic in this option does exactly that.<br><br>• <strong>Why Option B is Wrong:</strong> This is the proper practical use of classification, as the author describes it.<br><br>• <strong>Why Option C is Wrong:</strong> Comparing a novel with novels to judge its plot is an ordinary evaluative use and does not rely on a shelving label.<br><br>• <strong>Why Option D is Wrong:</strong> Listing a book under two categories is a practical device for reaching readers and is a legitimate use.<br><br><strong>💡 Approach:</strong> For a misuse question, apply the author’s two-use distinction: the misuse is the transfer of a practical label into an evaluative decision."
+      }
+    ]
   }
 ]
