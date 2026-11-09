@@ -588,4 +588,596 @@
    "explanation": "Sentence 1 defines the free rider. Sentence 3 ('If everyone reasons in this way') gives the consequence. Sentence 4 gives examples. Sentence 2 ('therefore') gives the remedy. Order: 1-3-4-2."
   }
  ]
+},
+{
+ "id": "sec-2026-11-08",
+ "date": "2026-11-08",
+ "title": "IPMAT Indore VA Sectional – 8th Nov 2026 (Advanced Analytical)",
+ "durationMinutes": 45,
+ "totalQuestions": 45,
+ "passages": {
+  "RC1": "Household borrowing in India has grown faster than household income for several years, and an increasing share of it is unsecured: personal loans, credit-card balances and small digital loans disbursed within minutes through mobile applications. Banks and non-bank lenders alike have competed to lend to new borrowers, and the speed of approval has become a selling point. The regulator has responded with tighter risk weights on such loans and with rules for digital lenders, and lenders themselves have begun to report rising delinquencies in some segments. The episode revives an old question about credit: when does access to borrowing help households, and when does it merely postpone and enlarge a problem? The answer matters for policy, because credit expansion is often celebrated as financial inclusion, and the figures of loans disbursed are quoted as evidence of success.\n\nThe case for credit is strong in principle. A household that can borrow can smooth its consumption across good and bad years, invest in education or a business, and buy durable goods that improve its life. For families that were previously excluded from formal finance and depended on moneylenders charging punishing rates, a regulated lender with transparent terms is plainly an improvement. Digital technology lowers the cost of assessing borrowers by using data from payments and mobile usage, which enables lenders to reach people with no collateral and no credit history. Seen in this light, the growth of small loans is not a symptom of distress but a sign that a market that once did not exist now works.\n\nThe difficulty is that credit is only as good as the use to which it is put. A loan that finances a machine or a course creates the income with which it can be repaid; a loan that finances consumption, or the repayment of another loan, does not. Surveys suggest that a large share of small digital loans are used for current expenses, which is not necessarily imprudent, since many borrowers face irregular incomes, but it means that repayment depends on future earnings that may not arrive. Even a prudent borrower may be caught by a shock, such as illness or the loss of a job, which turns a manageable loan into an unmanageable one. When households borrow to repay earlier borrowing, the debt grows by compound interest, and what began as a bridge becomes a trap. Behavioural economists add that easy credit is especially tempting to those who overweigh the present, and that frictionless processes, which remove the pause in which a person might reconsider, make borrowing more likely.\n\nLenders have their own incentives, which do not always coincide with those of borrowers. A lender that earns fees and high interest from short-term loans may benefit from a borrower's repeated need, and automated systems that raise credit limits when a borrower repays promptly can lead households steadily deeper into debt. Aggressive collection practices, including the use of contact lists to shame defaulters, have caused public alarm and prompted regulation. A further problem is information: borrowers often do not understand the effective annual rate of a loan quoted as a small daily or monthly charge, and a loan advertised as cheap may cost many times its principal over a year. Lenders also compete on speed and not on price, so that borrowers who need money quickly are least likely to compare terms. Regulators have responded with requirements for standardised disclosure and for a cooling-off period, but the effect of such measures depends on whether borrowers read and understand them.\n\nThe sensible stance is neither to celebrate nor to condemn the expansion of credit but to ask what it finances and who bears the risk. Measures of financial inclusion that count accounts and loans should be supplemented by measures of what happens to borrowers: whether their incomes rise, whether they fall behind, and how much of their income goes to servicing debt. A system that rewards lenders for volume and ignores outcomes will produce volume. Regulation should target the practices that exploit weakness rather than lending as such, and should recognise that the harm of over-indebtedness falls disproportionately on those least able to bear it. Credit is a tool, which can build or destroy; the task of policy is to make the first outcome more likely and the second more visible before it spreads.",
+  "RC2": "Hosting the Olympic Games, or a comparable global sporting event, is regularly described as a prize. India, which has been awarded the Commonwealth Games of 2030 and has expressed interest in hosting the Olympics later, is in good company in seeking the honour. Advocates promise tourism, infrastructure, jobs and national prestige. Economists, who have studied the experience of earlier hosts, are less enthusiastic. Their studies find little evidence that mega-events produce lasting economic gains for the host, and a good deal of evidence that they produce lasting costs. The costs are incurred years ahead while the benefits, if any, accrue slowly. The mismatch between the rhetoric and the record is itself a subject of study.\n\nSeveral mechanisms account for it. The first is the winner's curse. Cities bid against one another for the right to host, and the winner is typically the bidder who most overestimated the benefits or underestimated the costs, so that the successful bid is, in expectation, a mistake. The second is cost overrun: venues are built to a fixed date that cannot be postponed, which weakens the bargaining power of the host against contractors, and the final bill has exceeded the budget in nearly every recent Games. Security spending is a further item that grows unpredictably after the host is chosen. The third is the problem of use: stadiums built for a fortnight of competition may stand idle, costing money to maintain, and the neighbourhoods built around them may not attract the residents they were meant for.\n\nDefenders reply that the accounts are incomplete. A mega-event may accelerate investments in transport, housing and urban renewal that would have been desirable anyway, and a deadline concentrates political will that ordinary planning lacks. These benefits are real in some cases: Barcelona's transformation after 1992 is the usual example. But the argument has a weakness: if the investments are worthwhile in themselves, they could be made without the event, and the event adds only the costs of the stadiums and the security. It is a mistake, too, to treat the building of a stadium as an investment in the way that the building of a railway is, since a railway serves users every day. The fair test is whether the investments would have been made in the event's absence, and it is difficult to answer, since the counterfactual cannot be observed.\n\nA further class of benefits is intangible: national pride, a sense of occasion, and the pleasure of watching sport. Economists treat such benefits seriously, since a society may reasonably spend money on things that people value, and methods exist to estimate their size by asking people how much they would pay. The estimates are often substantial but they are also fragile, depending on how the question is asked. Another unmeasured cost is the displacement of other activity: during the Games, ordinary tourists and businesses may avoid the city, so that the visitors who come are partly offset by those who stay away. More importantly, the question of who enjoys the benefit and who pays is distinct from the size of the total: the pride may be widely shared, while the costs fall on taxpayers, and on residents displaced by construction, who in earlier Games have often been poor and poorly compensated. A project whose benefits are diffuse and whose costs are concentrated is a poor subject of democratic consent.\n\nNone of this argues that cities should never host such events. It suggests that they should do so on better terms. Cities can reduce the risk by using existing venues, by sharing the Games among several locations, and by committing in advance to a legacy plan that specifies what will be done with each structure. They can also insist on transparent budgets and independent audits, since the costs reported at the outset have been consistently too low. Perhaps most important, bidding processes could be changed so as to cap the sums spent in competing, which would soften the winner's curse. Several cities have withdrawn bids after local opposition, and so have in effect reached the same conclusion. A decision to host should be treated as an investment to be justified by its returns, and not as a trophy to be won at any price.",
+  "RC3": "For most of human history, living standards barely changed from one generation to the next. Then, in the last two centuries, incomes in some countries began to rise by a few per cent a year, a rate that doubles a society's wealth within a generation or two. Economists have long debated why. The answer that has come to dominate the field, and has been recognised by a Nobel prize, is that sustained growth comes from innovation, the continued production of new ideas, techniques and products, and not merely from the accumulation of capital or labour. Understanding the source of growth matters because it determines what policy can do: if growth comes from accumulation it will eventually fade, whereas innovation, in principle, has no fixed limit. The question that follows is harder: what makes a society innovate, and what causes it to stop?\n\nOne influential account stresses what the economist Joseph Schumpeter called creative destruction. A new product or process does not simply add to the economy; it displaces what existed before. Cars replaced horse-drawn carriages, digital cameras replaced film, and in each case the gains from the new were bought at the cost of firms, workers and skills made obsolete. The process is the engine of growth because it channels resources from less to more productive uses, but it is also the source of resistance, since those who stand to lose are concentrated and identifiable, while those who stand to gain are diffuse and often do not yet exist. The same process explains the unease that technological change produces even in times of general prosperity.\n\nThis asymmetry explains why innovation is frequently opposed by the very groups with the power to block it. Incumbent firms may lobby for regulation that protects their positions, guilds restrict entry to trades, and workers resist technologies that threaten their jobs. The historical record is full of examples, from the opposition of weavers to mechanised looms to the licensing rules that restrict competitors in modern service industries. A society's capacity to innovate therefore depends not only on its supply of ingenuity but on whether its institutions permit losers to be overruled, or compensated, and let newcomers compete. Countries that have grown fast have tended to be those that managed this balance, and those that have stagnated often ones in which incumbents were able to preserve their positions.\n\nThe theory has implications for policy that are easily misread. It does not follow that governments should leave creative destruction entirely to the market, since the workers it displaces suffer real harm, often concentrated in particular places, and the costs of adjustment are borne unequally. Nor does it follow that the state should shelter incumbents, which would stifle the process. The more defensible conclusion is that policy should protect workers and not jobs: provide support during transitions, finance retraining, and make it easy for people and capital to move, while keeping markets open to entry. Such policies make innovation politically sustainable by reducing the number of those who have reason to oppose it, and the compensation they provide can be justified because the gains from growth are large enough to pay for it.\n\nAnother lesson concerns the role of competition in research. Innovation requires large investments whose returns are uncertain, and firms will make them only if they expect to profit, which requires some protection through patents. But too much protection allows a successful firm to block rivals, and so slows the very process on which growth depends. The design of patent and competition law is therefore an attempt to find a balance, and it has no permanent answer, since the balance shifts with technology. The rise of a handful of firms that dominate the digital economy has revived the question of whether the balance has been lost. India's debates on e-commerce, on telecom and on start-up regulation each turn on how to protect competition without discouraging investment. Whatever the answer, the theory suggests that a country's long-run prosperity depends less on its stock of resources than on the willingness of its institutions to let the new displace the old.",
+  "CA1": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nNeha Joshi (Host, Numbers Desk): Unemployment in the official survey looks low, yet young graduates complain that they cannot find work. Who is right?\n\nDr. Sanjay Pillai (labour economist): Both, because they are measuring different things. The survey counts someone as employed if they did any work for even an hour in the past week, including unpaid help in a family business or farm. By that standard, very few people are unemployed in a country where most people cannot afford to be.\n\nNeha Joshi: So the figure hides the problem?\n\nDr. Sanjay Pillai: It conceals the quality of work, not its existence. The problem in India is less that people have no work than that much of it is low-paid, insecure and below their skills. A graduate stocking shelves is employed in the survey, but is unemployed in the sense that matters to her. Better indicators would measure underemployment, earnings and the match of work to education.\n\nNeha Joshi: Is the unemployment rate useless, then?\n\nDr. Sanjay Pillai: Not useless, but it answers a narrow question. In rich countries with unemployment insurance, being jobless is a state a person can afford to be in while searching, and so the rate is informative. Where there is no safety net, a person must take whatever work is available, and a low rate tells you about necessity, not about opportunity."
+ },
+ "questions": [
+  {
+   "id": "q1",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC1",
+   "options": [
+    "Credit's value depends on what it finances, so policy should track outcomes and target exploitative practices",
+    "Unsecured lending should be prohibited, since borrowers who take small digital loans are invariably unable to repay them",
+    "Lenders are solely responsible for over-indebtedness, and borrowers who fall behind on their loans should not be held to account",
+    "Credit expansion is a clear sign of financial inclusion, and the number of loans disbursed is the best measure of its success"
+   ],
+   "answer": 0,
+   "explanation": "The author weighs the case for credit against its risks and concludes that policy should ask 'what it finances and who bears the risk' and target exploitative practices. The other options are one-sided."
+  },
+  {
+   "id": "q2",
+   "type": "RC",
+   "question": "According to the passage, digital technology has helped to expand lending because it",
+   "passageId": "RC1",
+   "options": [
+    "has replaced the regulator, so that digital lenders are not required to follow any rules in lending",
+    "has lowered the interest rates that moneylenders charge to the families that had no access to banks",
+    "allows borrowers to compare the terms of every lender in the market before choosing among them",
+    "lets lenders assess borrowers from payments and mobile data, reaching those with no history"
+   ],
+   "answer": 3,
+   "explanation": "The passage says digital technology 'lowers the cost of assessing borrowers by using data from payments and mobile usage, which enables lenders to reach people with no collateral and no credit history'."
+  },
+  {
+   "id": "q3",
+   "type": "RC",
+   "question": "The author thinks borrowing for consumption is risky because",
+   "passageId": "RC1",
+   "options": [
+    "consumption loans carry higher rates of interest than loans taken to finance a business or a course",
+    "repayment depends on future earnings that may not arrive, and borrowing to repay loans compounds debt",
+    "households that borrow for consumption are generally less prudent than those that borrow for education",
+    "regulators have forbidden lenders to give loans for consumption without a guarantee from the household"
+   ],
+   "answer": 1,
+   "explanation": "The passage says such repayment 'depends on future earnings that may not arrive', and that when households borrow to repay earlier borrowing 'the debt grows by compound interest'."
+  },
+  {
+   "id": "q4",
+   "type": "RC",
+   "question": "The passage suggests that a lender may benefit from",
+   "passageId": "RC1",
+   "options": [
+    "a borrower's repeated need for short-term loans",
+    "a borrower's prompt repayment of a loan at the end of the first month in which it was taken",
+    "a borrower's understanding of the effective annual rate on the loan that has been taken",
+    "a borrower's decision to stop borrowing and to rely on the savings that the household has built"
+   ],
+   "answer": 0,
+   "explanation": "The passage says 'A lender that earns fees and high interest from short-term loans may benefit from a borrower's repeated need'."
+  },
+  {
+   "id": "q5",
+   "type": "RC",
+   "question": "The author says borrowers may misjudge the cost of a loan because",
+   "passageId": "RC1",
+   "options": [
+    "the interest on small loans is calculated only on the amount that has been repaid by the borrower",
+    "most borrowers do not read the terms of a loan, which are written in a language that they cannot read",
+    "it is quoted as a small daily or monthly charge, hiding the effective annual rate",
+    "lenders are not permitted to disclose the rate of interest until after the loan has been approved"
+   ],
+   "answer": 2,
+   "explanation": "The passage says borrowers 'often do not understand the effective annual rate of a loan quoted as a small daily or monthly charge'."
+  },
+  {
+   "id": "q6",
+   "type": "RC",
+   "question": "The author's last paragraph recommends that measures of financial inclusion be",
+   "passageId": "RC1",
+   "options": [
+    "abandoned, since counting accounts and loans does not measure the success of any financial policy",
+    "limited to the loans disbursed by banks, and not those disbursed by non-bank lenders in the country",
+    "replaced by a count of the number of borrowers who have fallen behind on the loans they have taken",
+    "supplemented by measures of what happens to borrowers, such as incomes and debt servicing"
+   ],
+   "answer": 3,
+   "explanation": "The paragraph says such measures 'should be supplemented by measures of what happens to borrowers: whether their incomes rise, whether they fall behind, and how much of their income goes to servicing debt'."
+  },
+  {
+   "id": "q7",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC2",
+   "options": [
+    "Hosting mega-events brings lasting economic gains, but the gains are shared mainly by tourists and not by residents of the host",
+    "Cities should never bid to host mega-events, since the costs of every such event have been far greater than any benefit",
+    "Hosting mega-events is always a sound investment, since the national pride that they generate exceeds the costs that they impose",
+    "Hosting mega-events seldom pays, so cities should host on better terms, with open budgets and legacy plans"
+   ],
+   "answer": 3,
+   "explanation": "The author finds little evidence of lasting gains, explains why, and recommends hosting 'on better terms'. The other options adopt extreme positions or reverse the evidence."
+  },
+  {
+   "id": "q8",
+   "type": "RC",
+   "question": "The 'winner's curse' in the passage refers to the fact that",
+   "passageId": "RC2",
+   "options": [
+    "the city that loses a bid suffers more than the city that wins, since it has spent money without any return",
+    "the host city receives a prize which is worth less than the sums that it has paid for the right to hold the event",
+    "the winning bidder is typically the one who most overestimated the benefits or underestimated the costs",
+    "the bidders who spend the most on their bids are those who are the most likely to be chosen by the organisers"
+   ],
+   "answer": 2,
+   "explanation": "The passage says 'the winner is typically the bidder who most overestimated the benefits or underestimated the costs, so that the successful bid is, in expectation, a mistake'."
+  },
+  {
+   "id": "q9",
+   "type": "RC",
+   "question": "The weakness in the defenders' argument about infrastructure is that",
+   "passageId": "RC2",
+   "options": [
+    "a deadline reduces political will, which ordinary planning is able to maintain for much longer",
+    "if the investments are worthwhile in themselves, they could be made without the event",
+    "transport and housing cannot be improved by the building of the venues that the event requires",
+    "the investments that the event brings are always made in the wrong part of the host city"
+   ],
+   "answer": 1,
+   "explanation": "The passage says 'if the investments are worthwhile in themselves, they could be made without the event, and the event adds only the costs of the stadiums and the security'."
+  },
+  {
+   "id": "q10",
+   "type": "RC",
+   "question": "The author contrasts a stadium with a railway to show that",
+   "passageId": "RC2",
+   "options": [
+    "a stadium may stand idle after the event, while a railway serves users every day",
+    "a stadium can be used by the public only for sport, while a railway serves many different purposes",
+    "a railway is a better investment than a stadium, since it costs less to build and to maintain",
+    "the building of a railway is a mistake, since few cities can afford to repay the loans that it needs"
+   ],
+   "answer": 0,
+   "explanation": "The passage says it is a mistake to treat a stadium as an investment as a railway is, 'since a railway serves users every day', while stadiums 'may stand idle'."
+  },
+  {
+   "id": "q11",
+   "type": "RC",
+   "question": "The author calls a project whose benefits are diffuse and costs concentrated 'a poor subject of democratic consent' because",
+   "passageId": "RC2",
+   "options": [
+    "the voters of a city will always reject a project that costs more than the sums announced at the outset",
+    "those who pay the costs gain little, and may never have agreed to bear them",
+    "the benefits of such a project are always smaller than the costs that the residents are required to pay",
+    "a project of this kind is certain to be completed after the date fixed for the event by the organisers"
+   ],
+   "answer": 1,
+   "explanation": "The passage says pride may be widely shared 'while the costs fall on taxpayers, and on residents displaced by construction'."
+  },
+  {
+   "id": "q12",
+   "type": "RC",
+   "question": "Each of the following is recommended as a way of reducing the risk of hosting EXCEPT",
+   "passageId": "RC2",
+   "options": [
+    "using existing venues rather than building new ones",
+    "committing in advance to a legacy plan for each structure",
+    "sharing the Games among several locations",
+    "building new stadiums for tourists"
+   ],
+   "answer": 3,
+   "explanation": "The fifth paragraph recommends the first three. Building new stadiums to attract tourists is never suggested."
+  },
+  {
+   "id": "q13",
+   "type": "RC",
+   "question": "Which of the following best states the main point of the passage?",
+   "passageId": "RC3",
+   "options": [
+    "Growth comes from innovation, which displaces the old, so institutions must let the new replace it while workers are protected",
+    "Growth comes chiefly from the accumulation of capital and labour, and innovation adds little to the wealth of nations",
+    "Governments should leave creative destruction entirely to the market, since the compensation of those who lose is a waste of money",
+    "Patents should be abolished, since protection for inventors slows the progress of innovation in the whole economy"
+   ],
+   "answer": 0,
+   "explanation": "The author argues that innovation drives growth, that creative destruction provokes resistance, and that policy should protect workers while keeping markets open. The other options contradict this."
+  },
+  {
+   "id": "q14",
+   "type": "RC",
+   "question": "'Creative destruction' refers to the fact that",
+   "passageId": "RC3",
+   "options": [
+    "a new product displaces what existed before, at the cost of firms, workers and skills made obsolete",
+    "new technologies destroy the value of capital but never reduce the demand for labour in an economy",
+    "firms destroy their rivals by lowering prices until the rivals are unable to continue to trade",
+    "governments destroy old industries in order to make way for the new industries that they have planned"
+   ],
+   "answer": 0,
+   "explanation": "The passage says 'A new product or process does not simply add to the economy; it displaces what existed before' and the gains are 'bought at the cost of firms, workers and skills made obsolete'."
+  },
+  {
+   "id": "q15",
+   "type": "RC",
+   "question": "The passage says innovation is often opposed because",
+   "passageId": "RC3",
+   "options": [
+    "the gains from innovation are smaller than the losses that it imposes on the economy in the long run",
+    "losers are concentrated and identifiable, while gainers are diffuse and may not yet exist",
+    "most workers prefer old technologies, which they understand better than the new technologies that replace them",
+    "governments are generally unwilling to allow new firms to compete with the firms that are already established"
+   ],
+   "answer": 1,
+   "explanation": "The passage says 'those who stand to lose are concentrated and identifiable, while those who stand to gain are diffuse and often do not yet exist'."
+  },
+  {
+   "id": "q16",
+   "type": "RC",
+   "question": "The author's policy conclusion is that governments should",
+   "passageId": "RC3",
+   "options": [
+    "protect jobs in the industries that are threatened, so that no worker is ever required to change occupations",
+    "leave workers to find new jobs without help, since support for them would stifle creative destruction",
+    "protect workers and not jobs, supporting transitions while keeping markets open to entry",
+    "protect incumbent firms from competition until the new industries have grown large enough to replace them"
+   ],
+   "answer": 2,
+   "explanation": "The passage says 'policy should protect workers and not jobs: provide support during transitions, finance retraining, and make it easy for people and capital to move, while keeping markets open to entry'."
+  },
+  {
+   "id": "q17",
+   "type": "RC",
+   "question": "The author says that too much patent protection is harmful because it",
+   "passageId": "RC3",
+   "options": [
+    "allows a successful firm to block rivals, and so slows the process on which growth depends",
+    "makes it impossible for firms to recover the cost of the research which led to their inventions",
+    "encourages firms to spend more on research than is justified by the returns they are likely to earn",
+    "raises the price of new products so high that few consumers are able to buy them in any country"
+   ],
+   "answer": 0,
+   "explanation": "The passage says 'too much protection allows a successful firm to block rivals, and so slows the very process on which growth depends'."
+  },
+  {
+   "id": "q18",
+   "type": "RC",
+   "question": "The author's final sentence suggests that long-run prosperity depends mainly on",
+   "passageId": "RC3",
+   "options": [
+    "the protection that the government gives to established firms against competition from abroad",
+    "the willingness of institutions to let the new displace the old",
+    "the number of patents that are granted to inventors by the authorities of the country",
+    "the size of the stock of natural resources that a country has at its disposal"
+   ],
+   "answer": 1,
+   "explanation": "The last sentence says prosperity 'depends less on its stock of resources than on the willingness of its institutions to let the new displace the old'."
+  },
+  {
+   "id": "q19",
+   "type": "RC",
+   "question": "Dr. Pillai says that the survey and the graduates are both right because",
+   "passageId": "CA1",
+   "options": [
+    "the survey counts any work, including unpaid family help, while graduates speak of quality",
+    "the survey counts only workers in the formal sector, while graduates count workers in every sector",
+    "the survey is conducted yearly, while graduates look for work at different times of the year",
+    "the survey measures wages, while graduates are concerned with the number of hours that they work"
+   ],
+   "answer": 0,
+   "explanation": "He says the survey counts anyone who did even an hour of work in the past week 'including unpaid help in a family business or farm', but the problem is that work is 'low-paid, insecure and below their skills'."
+  },
+  {
+   "id": "q20",
+   "type": "RC",
+   "question": "According to Dr. Pillai, the main problem of the Indian labour market is that",
+   "passageId": "CA1",
+   "options": [
+    "too many graduates are produced by the colleges, and they refuse to take any work that is offered",
+    "wages are too high, which makes firms unwilling to employ the number of workers that they need",
+    "too few people are willing to work, since most households do not need a second income",
+    "much of the work is low-paid, insecure and below workers' skills"
+   ],
+   "answer": 3,
+   "explanation": "He says 'The problem in India is less that people have no work than that much of it is low-paid, insecure and below their skills'."
+  },
+  {
+   "id": "q21",
+   "type": "RC",
+   "question": "Dr. Pillai says a low unemployment rate is less informative in India because",
+   "passageId": "CA1",
+   "options": [
+    "the rate has been falling for many years, and is no longer a useful guide to the state of the economy",
+    "unemployment insurance in India is so generous that people can afford to wait for the work that they want",
+    "the survey does not count people who are searching for work, and so understates unemployment",
+    "without a safety net people must take whatever work is available, so the rate reflects necessity"
+   ],
+   "answer": 3,
+   "explanation": "He says 'Where there is no safety net, a person must take whatever work is available, and a low rate tells you about necessity, not about opportunity'."
+  },
+  {
+   "id": "q22",
+   "type": "Vocabulary",
+   "question": "The speaker's ________ delivery, flat and unvarying, drained even the most interesting subject of life.",
+   "options": [
+    "animated",
+    "vibrant",
+    "exuberant",
+    "listless"
+   ],
+   "answer": 3,
+   "explanation": "'Listless' means lacking energy, fitting a flat and unvarying delivery. 'Vibrant', 'exuberant' and 'animated' describe lively speech."
+  },
+  {
+   "id": "q23",
+   "type": "Vocabulary",
+   "question": "The reformers' ________ plan, which sought to change everything at once, collapsed under its own weight.",
+   "options": [
+    "pragmatic",
+    "grandiose",
+    "incremental",
+    "modest"
+   ],
+   "answer": 1,
+   "explanation": "'Grandiose' means impressively ambitious beyond what is practical, fitting a plan to change everything at once. 'Modest', 'incremental' and 'pragmatic' describe cautious plans."
+  },
+  {
+   "id": "q24",
+   "type": "Vocabulary",
+   "question": "The two firms had been rivals for decades, but the threat from a much larger competitor made them ________.",
+   "options": [
+    "bite the dust",
+    "go their separate ways",
+    "lock horns",
+    "make common cause"
+   ],
+   "answer": 3,
+   "explanation": "'Make common cause' means to unite for a shared aim. 'Go their separate ways' is to part, 'lock horns' is to clash, and 'bite the dust' is to fail."
+  },
+  {
+   "id": "q25",
+   "type": "Vocabulary",
+   "question": "His ________ remarks, though meant to wound, revealed more about his own insecurity than about his target.",
+   "options": [
+    "tentative",
+    "caustic",
+    "benevolent",
+    "conciliatory"
+   ],
+   "answer": 1,
+   "explanation": "'Caustic' means bitingly critical, fitting remarks meant to wound. 'Conciliatory', 'benevolent' and 'tentative' would not be meant to wound."
+  },
+  {
+   "id": "q26",
+   "type": "Vocabulary",
+   "question": "The ________ of the evidence was such that even the ________ conceded that the case against the defendant was ________.",
+   "options": [
+    "weight; sceptics; negligible",
+    "weight; believers; overwhelming",
+    "weight; sceptics; overwhelming",
+    "paucity; sceptics; overwhelming"
+   ],
+   "answer": 2,
+   "explanation": "Heavy evidence makes even the 'sceptics' concede the case was 'overwhelming'. 'Paucity' (scarcity) would not persuade sceptics; 'believers' conceding would be unremarkable; 'negligible' contradicts 'conceded'."
+  },
+  {
+   "id": "q27",
+   "type": "Vocabulary",
+   "question": "To the ________ observer the two policies appeared identical; only a close reading ________ the ________ differences between them.",
+   "options": [
+    "casual; revealed; subtle",
+    "casual; concealed; subtle",
+    "careful; revealed; subtle",
+    "casual; revealed; apparent"
+   ],
+   "answer": 0,
+   "explanation": "A 'casual' observer sees them as identical; only close reading 'revealed' the 'subtle' differences. 'Careful' observers would not see them as identical; 'concealed' contradicts 'close reading'; 'apparent' differences would be obvious."
+  },
+  {
+   "id": "q28",
+   "type": "Vocabulary",
+   "question": "The new manager's ________ style, which welcomed disagreement, surprised staff who were used to silent obedience.",
+   "options": [
+    "domineering",
+    "inclusive",
+    "peremptory",
+    "autocratic"
+   ],
+   "answer": 1,
+   "explanation": "'Inclusive' means welcoming others' views, contrasting with silent obedience. 'Autocratic', 'peremptory' and 'domineering' describe the opposite style."
+  },
+  {
+   "id": "q29",
+   "type": "Vocabulary",
+   "question": "Having survived three wars, the old general was ________ about the dangers of the new peace, which he thought would breed complacency.",
+   "options": [
+    "sanguine",
+    "oblivious",
+    "wary",
+    "blithe"
+   ],
+   "answer": 2,
+   "explanation": "'Wary' means cautious about danger, fitting a general who thought peace would breed complacency. 'Blithe', 'oblivious' and 'sanguine' (optimistic) contradict this."
+  },
+  {
+   "id": "q30",
+   "type": "Vocabulary",
+   "question": "Their ________ reply, a polite refusal that gave no reason, ended the matter without offending anyone.",
+   "options": [
+    "tactful",
+    "contumelious",
+    "brusque",
+    "impertinent"
+   ],
+   "answer": 0,
+   "explanation": "'Tactful' means careful not to offend, fitting a polite refusal. 'Brusque' (abrupt), 'impertinent' (rude) and 'contumelious' (insulting) would offend."
+  },
+  {
+   "id": "q31",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "A faint sense of unease had settled upon the household since the departure of the eldest son.",
+    "The committee's report was unanimous in its criticism of the department's accounts for the last year.",
+    "Please precede to the main hall, where the ceremony will begin shortly.",
+    "Heavy rains preceded the flood by several days, giving the villagers some warning of the danger."
+   ],
+   "answer": 2,
+   "explanation": "'Proceed' means to go forward; 'precede' means to come before. 'Preceded' in the second sentence, 'unanimous' and 'unease' are correct."
+  },
+  {
+   "id": "q32",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "The company expanded its operations into three new states within the space of a single year of trade.",
+    "The minister was not adverse to compromise, and he welcomed the proposal.",
+    "Her testimony, though brief, was decisive and left no room for further doubt in the minds of the jury.",
+    "The drought had an adverse effect on the yield of crops across the whole of the region this year."
+   ],
+   "answer": 1,
+   "explanation": "'Averse' means opposed; 'adverse' means harmful. 'Adverse effect', 'decisive' and 'expanded' are used correctly."
+  },
+  {
+   "id": "q33",
+   "type": "Vocabulary",
+   "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+   "options": [
+    "Opposition to the plan had been largely overcome by the time the final vote took place in the assembly.",
+    "A heavy silence fell over the room as the results of the examination were announced by the principal.",
+    "The lawyer gave his client wise council before the hearing began.",
+    "The village council met on Sunday to decide how the funds should be spent on the repairs to the school."
+   ],
+   "answer": 2,
+   "explanation": "Advice is 'counsel'; a 'council' is an assembly. 'Council' in the second sentence, 'silence' and 'overcome' are used correctly."
+  },
+  {
+   "id": "q34",
+   "type": "Grammar",
+   "question": "Hardly <u>he had</u> reached home when it began to rain.",
+   "options": [
+    "did he have",
+    "he had hardly",
+    "he was just",
+    "had he"
+   ],
+   "answer": 3,
+   "explanation": "After 'hardly' at the start of a sentence, the auxiliary comes before the subject: 'Hardly had he reached home when it began to rain'."
+  },
+  {
+   "id": "q35",
+   "type": "Grammar",
+   "question": "<u>Having finished the work, the lights were switched off.</u>",
+   "options": [
+    "Having finished the work, we switched off the lights.",
+    "The work having finished, the lights switched off by us.",
+    "Having finished the work, the lights were switched off by us at once.",
+    "Having finished the work, the switching off of the lights was done."
+   ],
+   "answer": 0,
+   "explanation": "'Having finished' must modify the people who finished, so 'we' must be the subject. In the original and the other options the modifier dangles or the structure is faulty."
+  },
+  {
+   "id": "q36",
+   "type": "Grammar",
+   "question": "I <u>am living</u> in this city since 2015.",
+   "options": [
+    "am being living",
+    "had been living since",
+    "have been living",
+    "lived"
+   ],
+   "answer": 2,
+   "explanation": "'Since' with a starting point takes the present perfect (continuous): 'I have been living in this city since 2015'."
+  },
+  {
+   "id": "q37",
+   "type": "Grammar",
+   "question": "The quality of the apples <u>are</u> poor.",
+   "options": [
+    "are being",
+    "is",
+    "have been",
+    "were"
+   ],
+   "answer": 1,
+   "explanation": "The subject is 'quality', which is singular, so the verb is 'is'."
+  },
+  {
+   "id": "q38",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nSpecialisation increases output. ____________________. A worker who makes only one part of a pin becomes far faster at it than one who makes the whole, but a country in which everyone does only one narrow task is dependent on a long chain of exchange, and a break anywhere in the chain halts production.",
+   "options": [
+    "A pin factory is unable to function unless every worker has been trained to make the whole pin himself.",
+    "Countries that specialise never trade with one another, since each produces everything that its people need.",
+    "Specialisation reduces output, since workers who do only one task soon become too bored to work at all.",
+    "Its cost is dependence, since each specialist relies on others for everything outside his task."
+   ],
+   "answer": 3,
+   "explanation": "The following sentences move from the gain to the dependence it creates. The other options contradict the paragraph."
+  },
+  {
+   "id": "q39",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nRankings of universities are widely followed. ____________________. Because they combine many measures with weights chosen by the compilers, a change in the weights can reorder the list without any change in the universities themselves, and institutions then change their behaviour to climb the list, as Goodhart's law predicts.",
+   "options": [
+    "Rankings are compiled by the universities themselves, which have no interest in the order in which they are placed.",
+    "Rankings are of no interest to students, who choose their universities entirely on the basis of the fees charged.",
+    "Their apparent precision, however, conceals judgements about what to measure and how much each measure matters.",
+    "A university that is ranked higher always provides a better education to each of its students than one ranked lower."
+   ],
+   "answer": 2,
+   "explanation": "'However' contrasts popularity with weakness; the next sentence explains how weights are chosen by compilers. The other options contradict this."
+  },
+  {
+   "id": "q40",
+   "type": "ParaCompletion",
+   "question": "Complete the paragraph logically:\n\nA good question is often more valuable than an answer. ____________________. An answer ends inquiry; a question that reframes a problem can open lines of inquiry that no existing answer could reach, which is why scientists remember Einstein's questions about simultaneity as much as his answers.",
+   "options": [
+    "Einstein asked no questions about simultaneity, since the answers were already known to physicists of his time.",
+    "A question that has no answer should not be asked by scientists, since it can never advance human knowledge.",
+    "Progress frequently comes from asking something no one has asked, not from solving what everyone has.",
+    "Answers are of no use to scientists, who learn only from the questions that they put to themselves."
+   ],
+   "answer": 2,
+   "explanation": "The next sentences contrast ending inquiry with opening it, so the blank states that progress comes from new questions. The other options contradict the Einstein example."
+  },
+  {
+   "id": "q41",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Kahneman and Tversky called this the planning fallacy.\n2. The remedy is to consult the record of comparable projects, instead of imagining how this one will go.\n3. The Sydney Opera House, finished a decade late and many times over budget, is a famous example.\n4. People consistently underestimate how long a task will take, even when they have been late on similar tasks before.",
+   "answer": "4132",
+   "explanation": "Sentence 4 states the tendency. Sentence 1 ('this') names it. Sentence 3 gives an example. Sentence 2 gives the remedy. Order: 4-1-3-2."
+  },
+  {
+   "id": "q42",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Individual tolerance, in other words, does not guarantee a mixed society.\n2. Thomas Schelling showed that mild preferences can produce stark segregation.\n3. When a few households move, others find that the threshold is no longer met, and they move too.\n4. Suppose each household is content in a neighbourhood so long as a third of its neighbours are like itself.\n5. The result is a pattern of near-complete separation that no one wanted.",
+   "answer": "24351",
+   "explanation": "Sentence 2 states the claim. Sentence 4 ('Suppose') sets up the model. Sentence 3 gives the dynamic. Sentence 5 ('The result') gives the outcome. Sentence 1 ('in other words') concludes. Order: 2-4-3-5-1."
+  },
+  {
+   "id": "q43",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Economists call the value of keeping that choice open the option value.\n2. A decision that cannot be undone destroys the option of choosing differently when more is known.\n3. It is highest when the stakes are large and the uncertainty is likely to be resolved soon.\n4. Sometimes the best decision is to wait.",
+   "answer": "4213",
+   "explanation": "Sentence 4 states the idea. Sentence 2 explains why. Sentence 1 ('that choice') names it. Sentence 3 ('It') states when it is highest. Order: 4-2-1-3."
+  },
+  {
+   "id": "q44",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Sharing sales data along the chain reduces it.\n2. Each firm in the chain, uncertain about demand, orders a little more than it expects to need.\n3. This is called the bullwhip effect.\n4. The distortions add up as they pass upstream, so that a factory sees swings far larger than any shop did.\n5. Small changes in consumer demand can cause large swings in orders further up the supply chain.",
+   "answer": "52431",
+   "explanation": "Sentence 5 states the phenomenon. Sentence 2 explains the cause. Sentence 4 gives the accumulation. Sentence 3 ('This') names it. Sentence 1 ('it') gives the remedy. Order: 5-2-4-3-1."
+  },
+  {
+   "id": "q45",
+   "type": "ParaJumble_TITA",
+   "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Employers cannot observe ability directly, and so rely on credentials that are hard for the less able to obtain.\n2. A degree may signal ability to employers rather than add to it.\n3. This is the signalling theory of education.\n4. If so, education can be valuable to the individual while adding little to the output of society.",
+   "answer": "2134",
+   "explanation": "Sentence 2 makes the claim. Sentence 1 gives the reason. Sentence 3 ('This') names the theory. Sentence 4 ('If so') draws the implication. Order: 2-1-3-4."
+  }
+ ]
 }
+]
