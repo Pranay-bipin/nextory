@@ -465,7 +465,7 @@
       {
         "id": "q34",
         "type": "Grammar",
-        "question": "He insisted to pay the bill.",
+        "question": "He insisted <u>to pay</u> the bill.",
         "options": [
           "to be paying",
           "for paying",
@@ -478,7 +478,7 @@
       {
         "id": "q35",
         "type": "Grammar",
-        "question": "If it will rain tomorrow, the match will be cancelled.",
+        "question": "If it <u>will rain</u> tomorrow, the match will be cancelled.",
         "options": [
           "rains",
           "rained",
@@ -491,7 +491,7 @@
       {
         "id": "q36",
         "type": "Grammar",
-        "question": "The books that was lost have been found.",
+        "question": "The books <u>that was</u> lost have been found.",
         "options": [
           "who were",
           "which was being",
@@ -504,7 +504,7 @@
       {
         "id": "q37",
         "type": "Grammar",
-        "question": "She cannot hardly hear the speaker.",
+        "question": "She <u>cannot hardly</u> hear the speaker.",
         "options": [
           "cannot barely",
           "can hardly",
@@ -1056,7 +1056,7 @@
       {
         "id": "q34",
         "type": "Grammar",
-        "question": "Hardly he had reached home when it began to rain.",
+        "question": "Hardly <u>he had</u> reached home when it began to rain.",
         "options": [
           "did he have",
           "he had hardly",
@@ -1069,7 +1069,7 @@
       {
         "id": "q35",
         "type": "Grammar",
-        "question": "Having finished the work, the lights were switched off.",
+        "question": "<u>Having finished the work, the lights were switched off.</u>",
         "options": [
           "Having finished the work, we switched off the lights.",
           "The work having finished, the lights switched off by us.",
@@ -1082,7 +1082,7 @@
       {
         "id": "q36",
         "type": "Grammar",
-        "question": "I am living in this city since 2015.",
+        "question": "I <u>am living</u> in this city since 2015.",
         "options": [
           "am being living",
           "had been living since",
@@ -1095,7 +1095,7 @@
       {
         "id": "q37",
         "type": "Grammar",
-        "question": "The quality of the apples are poor.",
+        "question": "The quality of the apples <u>are</u> poor.",
         "options": [
           "are being",
           "is",
@@ -1147,37 +1147,37 @@
       {
         "id": "q41",
         "type": "ParaJumble_TITA",
-        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Kahneman and Tversky called this the planning fallacy.\n2. The remedy is to consult the record of comparable projects, instead of imagining how this one will go.\n3. The Sydney Opera House, finished a decade late and many times over budget, is a famous example.\n4. People consistently underestimate how long a task will take, even when they have been late on similar tasks before.",
-        "answer": "4132",
-        "explanation": "Sentence 4 states the tendency. Sentence 1 ('this') names it. Sentence 3 gives an example. Sentence 2 gives the remedy. Order: 4-1-3-2."
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. It explains why rising incomes have not always made societies happier.\n2. Psychologists call this the hedonic treadmill: people adapt to improvements and want more.\n3. A raise or a new house brings a burst of satisfaction.\n4. Yet within months, most return to roughly their earlier level of happiness.",
+        "answer": "3421",
+        "explanation": "Sentence 3 gives the first effect. Sentence 4 ('Yet') gives the reversal. Sentence 2 ('this') names it. Sentence 1 ('It explains') draws the implication. Order: 3-4-2-1."
       },
       {
         "id": "q42",
         "type": "ParaJumble_TITA",
-        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Individual tolerance, in other words, does not guarantee a mixed society.\n2. Thomas Schelling showed that mild preferences can produce stark segregation.\n3. When a few households move, others find that the threshold is no longer met, and they move too.\n4. Suppose each household is content in a neighbourhood so long as a third of its neighbours are like itself.\n5. The result is a pattern of near-complete separation that no one wanted.",
-        "answer": "24351",
-        "explanation": "Sentence 2 states the claim. Sentence 4 ('Suppose') sets up the model. Sentence 3 gives the dynamic. Sentence 5 ('The result') gives the outcome. Sentence 1 ('in other words') concludes. Order: 2-4-3-5-1."
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Whether subsidies can reproduce the advantages of scale and experience remains uncertain.\n2. Such concentration, however, creates a risk for every country that depends on the chips.\n3. A single firm in Taiwan makes most of the world's most advanced chips.\n4. Governments elsewhere, anxious about dependence, have begun to subsidise plants at home.\n5. The reason is that fabrication has enormous fixed costs and rewards scale and learning.",
+        "answer": "35241",
+        "explanation": "Sentence 3 states the fact. Sentence 5 ('The reason') explains it. Sentence 2 ('however') gives the risk. Sentence 4 gives the response. Sentence 1 questions its success. Order: 3-5-2-4-1."
       },
       {
         "id": "q43",
         "type": "ParaJumble_TITA",
-        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Economists call the value of keeping that choice open the option value.\n2. A decision that cannot be undone destroys the option of choosing differently when more is known.\n3. It is highest when the stakes are large and the uncertainty is likely to be resolved soon.\n4. Sometimes the best decision is to wait.",
-        "answer": "4213",
-        "explanation": "Sentence 4 states the idea. Sentence 2 explains why. Sentence 1 ('that choice') names it. Sentence 3 ('It') states when it is highest. Order: 4-2-1-3."
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. He replied that he had dropped them in the park, but the light was better here.\n2. A man searching for his keys under a street lamp, the story goes, was asked where he had dropped them.\n3. Researchers are prone to the same error when they study what is easy to measure and not what matters.\n4. This is called the streetlight effect.",
+        "answer": "2143",
+        "explanation": "Sentence 2 begins the story. Sentence 1 ('He replied') gives the punchline. Sentence 4 ('This') names the pattern. Sentence 3 ('the same error') applies it. Order: 2-1-4-3."
       },
       {
         "id": "q44",
         "type": "ParaJumble_TITA",
-        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Sharing sales data along the chain reduces it.\n2. Each firm in the chain, uncertain about demand, orders a little more than it expects to need.\n3. This is called the bullwhip effect.\n4. The distortions add up as they pass upstream, so that a factory sees swings far larger than any shop did.\n5. Small changes in consumer demand can cause large swings in orders further up the supply chain.",
-        "answer": "52431",
-        "explanation": "Sentence 5 states the phenomenon. Sentence 2 explains the cause. Sentence 4 gives the accumulation. Sentence 3 ('This') names it. Sentence 1 ('it') gives the remedy. Order: 5-2-4-3-1."
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. It applies to things that do not age in the way living things do.\n2. This is sometimes called the Lindy effect.\n3. A book still read after a century is more likely to be read a century hence than one published last year.\n4. The longer a book, a technology or an institution has survived, the longer it is likely to go on surviving.\n5. The logic is that survival is itself evidence of robustness.",
+        "answer": "43251",
+        "explanation": "Sentence 4 states the principle. Sentence 3 gives an example. Sentence 2 ('This') names it. Sentence 5 explains the logic. Sentence 1 ('It applies') states its scope. Order: 4-3-2-5-1."
       },
       {
         "id": "q45",
         "type": "ParaJumble_TITA",
-        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Employers cannot observe ability directly, and so rely on credentials that are hard for the less able to obtain.\n2. A degree may signal ability to employers rather than add to it.\n3. This is the signalling theory of education.\n4. If so, education can be valuable to the individual while adding little to the output of society.",
-        "answer": "2134",
-        "explanation": "Sentence 2 makes the claim. Sentence 1 gives the reason. Sentence 3 ('This') names the theory. Sentence 4 ('If so') draws the implication. Order: 2-1-3-4."
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. A free rider enjoys the benefit of a good without sharing the cost.\n2. Governments therefore tax everyone to pay for such goods, instead of relying on voluntary contributions.\n3. If everyone reasons in this way, the good is not provided.\n4. Clean air and national defence are classic examples of goods that invite free riding.",
+        "answer": "1342",
+        "explanation": "Sentence 1 defines the free rider. Sentence 3 ('If everyone reasons in this way') gives the consequence. Sentence 4 gives examples. Sentence 2 ('therefore') gives the remedy. Order: 1-3-4-2."
       }
     ]
   }
