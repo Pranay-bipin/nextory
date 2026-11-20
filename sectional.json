@@ -1180,5 +1180,596 @@
         "explanation": "Sentence 1 defines the free rider. Sentence 3 ('If everyone reasons in this way') gives the consequence. Sentence 4 gives examples. Sentence 2 ('therefore') gives the remedy. Order: 1-3-4-2."
       }
     ]
+  },
+  {
+    "id": "sec-2026-11-21",
+    "date": "2026-11-21",
+    "title": "IPMAT Indore VA Sectional – 21st Nov 2026 (Advanced Analytical – High Difficulty)",
+    "durationMinutes": 45,
+    "totalQuestions": 45,
+    "passages": {
+      "RC1": "When the rupee slid past ninety-four to the dollar earlier this year, as war in West Asia put shipping through the Strait of Hormuz at risk, commentary split along a familiar line. One camp read the fall as a verdict on the economy's weakness; the other welcomed it as a cushion that a trading nation ought to want. Each is half right, and the quarrel is instructive precisely because the same exchange rate is a cost to one part of the economy and a gain to another. A cheaper rupee raises the rupee price of every barrel of crude, every tonne of coal and every imported component; it also raises the rupee earnings of everyone who is paid in dollars, from software exporters to families receiving remittances from abroad.\n\nThe textbook case for depreciation is that it corrects a trade deficit: exports become cheaper to foreign buyers, imports dearer at home, and demand shifts towards domestic output. But the argument depends on how quickly and how fully quantities respond to prices, and in India's present circumstances both are doubtful. Volumes adjust slowly, so the import bill typically rises before exports respond, a pattern that economists call the J-curve. More important, the largest item in the bill is crude oil, of which India buys the great bulk from abroad, and demand for it barely falls when the price rises; a weaker rupee therefore inflates the bill with little reduction in the quantity bought. A rise in the rupee price of crude, moreover, passes quickly into transport costs, so the shock does not stay inside the oil bill. Nor are exports a clean beneficiary, since many of them, from refined fuels to electronics and jewellery, embody imported inputs whose cost rises along with the dollar.\n\nThe distribution of gains and losses deserves separate notice. Those who gain most from a weaker currency, namely software and services exporters and households with relatives abroad, belong to parts of the economy that were already doing well and are in no great need of adjustment. Those who lose, namely refiners, fertiliser importers and the consumers who buy fuel and food, belong to parts that can least easily change what they buy. A cushion that is thickest where it is least needed is a poor cushion, and the claim that depreciation will rebalance the economy assumes that its benefits flow to the sectors whose output must grow.\n\nThe second channel runs through prices and balance sheets. Dearer imports feed into inflation, though the pass-through to consumers is rarely immediate, since firms absorb part of the cost for a while; the delay merely postpones the adjustment. Firms that borrowed in dollars find their debts heavier in rupee terms. The Reserve Bank can lean against the slide by selling dollars, which smooths volatility and gives households and firms time to adjust. But intervention cannot alter the balance of payments that is causing the pressure. If the pressure stems from a lasting increase in the oil bill, defending a level merely converts a price adjustment into a drain on reserves, and a market that suspects the defence cannot last will bet against it, making it costlier still. Foreign investors who withdraw funds as a currency weakens add to the pressure and so make the weakening worse, which is why a fall can feed on itself.\n\nIt follows that fixation on a particular number mistakes the thermometer for the fever. The level of the rupee is a symptom of a deeper condition: a heavy dependence on imported energy, and an export base too narrow and too import-intensive to respond briskly to a cheaper currency. A flexible exchange rate is best treated as a shock absorber, allowed to take some of the strain so that the real economy takes less. The lasting remedies lie elsewhere, in lowering the energy intensity of growth and widening the range of what India sells abroad, so that the next oil shock poses less of a threat to the currency. Policy that is anxious only about the level treats the symptom and leaves the cause free to produce the next one.",
+      "RC2": "A year ago, four labour codes replaced twenty-nine central statutes, and the debate has since moved from whether such consolidation was wise to whether it works. The most novel feature is the recognition of gig and platform workers, among them delivery riders, ride-hailing drivers and freelancers, who had no settled place in labour law. A rider is not quite an employee, since no firm hires her for a wage, yet she is hardly independent, since an app sets her routes, her prices and her ratings. The Social Security Code gives such workers a legal name and a route to benefits, funded in part by contributions from the aggregators that use their labour, with entitlements meant to travel with the worker from one platform to another.\n\nThe significance of this is clearer against its background. The great majority of India's workers are informal, with no pension, insurance or sick pay, and a country that wishes to widen social protection cannot do so through formal employment contracts alone, since most workers will never hold one. Work done through apps has grown quickly in recent years, yet the legal vocabulary available to describe it has not. Recognition is an attempt to extend protection to work as it is, not as the statute books once imagined it. That is an ambition worth defending, whatever one thinks of the details.\n\nYet design choices carry incentives. Draft rules tied eligibility to a minimum number of days of engagement with an aggregator, a sensible device for confining benefits to those who depend on the platform. Any threshold, however, invites behaviour at its edge; tax systems and welfare schemes everywhere face the same temptation to cluster just below a line. A platform that must contribute for workers above the line has reason to rotate its workforce so that few cross it, while a worker who needs the benefit may take on more days than is good for her health. The rule meant to measure dependence ends by shaping it.\n\nA second difficulty is who bears the cost. Aggregators insist that rigid obligations will raise prices or reduce the number of jobs they can offer, and some of this will be true; they add, with some justice, that many riders prize the freedom to log in when they wish, and that rules written for factory shifts could destroy what attracts them. But the argument cuts both ways. Economists have long noted that the burden of a levy does not depend on whom the law makes pay it: a contribution that a platform is required to make may be recovered in part through lower per-trip rates, leaving workers to finance their own benefits. Whether that happens depends on how much bargaining power workers have, which for a rider replaceable by the next person at the next signal is not much.\n\nThese problems are not reasons to reject the codes, which mark a real advance in recognising how many Indians earn their living. They do show that success will be decided less by the text than by administration. Portability, in particular, depends on data: a record of days worked and contributions made, held in a form that every platform and every state can read. Because states frame their own rules alongside the Centre's, and have moved at different speeds, a worker who crosses a state boundary may find that the entitlement meant to travel has stayed behind. A law that recognises a worker whom the state cannot identify, register and reach protects no one. The test will be whether, in the next few years, registered workers actually receive benefits that follow them across platforms, and whether those benefits are paid by the platforms or quietly shifted onto the workers they were meant to protect.",
+      "RC3": "Climate summits are remembered for headline numbers, and the number that has haunted recent ones is a promise. At Belém last year, governments called for efforts to at least triple finance for adaptation in developing countries by 2035. The figure was a concession to the countries most exposed to floods, droughts and rising seas, and its wording matters as much as its size. At this month's conference in Antalya, the opening session turned on whether that promise deserved an agenda item of its own, and the proposal was dropped in a compromise. It is tempting to dismiss such wrangling as procedure. But an agenda is where priorities are ranked, and what is left off it tends to be postponed.\n\nThe difficulty of adaptation finance is structural. Money for mitigation flows relatively easily, because a wind farm sells electricity and its lenders can be repaid from the proceeds, and because the emissions it avoids can be counted in tonnes. A sea wall, an early-warning system or a drought-resistant seed variety earns nothing; its benefit is a disaster that did not occur, which no one can invoice. Such goods are public and their returns diffuse, so they depend on grants, which in turn depend on the politics of donor governments. The difference is also one of geography: the benefit of cutting emissions accrues to everyone, wherever the cut is made, whereas the benefit of a sea wall accrues only to the town behind it. Estimates of developing countries' annual needs by 2035 run to several hundred billion dollars, against international public flows of about thirty billion in recent years. Even tripling the latter would leave much of the need unmet.\n\nA second difficulty is that the target itself is vague. Tripling from what? Earlier drafts named a base year, but the agreed wording does not. Without a baseline, a method of counting and a means of tracking, the promise can be met on paper by relabelling existing flows, by counting loans at face value as though they were grants, or by choosing a flattering starting point. Each of these devices is permitted by the vague wording, and none requires a donor to give a single additional dollar. A promise that cannot be measured cannot be broken, and donors have little reason to hurry towards precision.\n\nThe question of loans deserves emphasis. A flood-hit country that borrows to rebuild its bridges has received finance in the accounting sense, but it has also added to a debt burden that limits its capacity to respond to the next flood. Adaptation financed by borrowing places much of the cost on those who contributed least to the problem, and is a poor fulfilment of the principle that the polluter should pay. Grants, by contrast, carry no repayment and no interest, which is why recipients prefer them and why donors, who must find the money in annual budgets, supply them reluctantly. This is why developing countries, India among them, press for a standalone work programme on finance and for clear rules on what counts.\n\nThe summit's credibility will therefore rest on dull things: baselines, definitions and tracking. They lack the drama of a declaration, yet they are what turn a declaration into an obligation. Donors may reply that rigid definitions would constrain budgets they do not fully control, and that is a fair worry; but a target loose enough to suit every budget will bind none. For India, with a long coastline, a large farming population and a monsoon that grows more erratic, the stake is plain: it gains from adaptation finance that is real, and loses from finance that is merely reported. Whether Antalya supplies the missing detail, or leaves the promise as unmeasured as before, will say more about its worth than any communiqué.",
+      "CA1": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nRiya Sen (Host, Tech & Society): Since 13 November, India's data protection law has recognised a new kind of intermediary, the consent manager. Isn't that just one more app?\n\nDr. Arvind Kulkarni (privacy lawyer): It is meant to be the opposite. Today every service asks for your consent on its own terms, in its own interface. A consent manager is a registered entity through which you can give, review and withdraw consent across services from one place, and it acts as your agent: its job is to carry your instruction, not to look at your data.\n\nRiya Sen: But people click 'accept' without reading. Doesn't a dashboard only make clicking faster?\n\nDr. Arvind Kulkarni: That is the honest worry. Convenience cuts both ways. Withdrawing consent becomes as easy as giving it, which is a gain; but a single tap that grants ten permissions at once would be a loss. The test is whether the manager makes the choices granular and visible, or merely bundles them. And a manager that earned money from the services it connects you to would have a conflict of interest, which is why the rules insist on its independence.\n\nRiya Sen: Whom do I hold responsible if something goes wrong?\n\nDr. Arvind Kulkarni: The manager answers to you, not to the company, and that is a real shift. Under the old arrangement each company held your consent and, in effect, marked its own homework. But the larger test comes in May 2027, when the main duties of companies begin. Until then, the manager is plumbing waiting for obligations that give it something to enforce."
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "type": "RC",
+        "question": "Which of the following best states the central argument of the passage?",
+        "passageId": "RC1",
+        "options": [
+          "A weaker rupee is chiefly beneficial because it cheapens exports and corrects the deficit, so the Reserve Bank should keep out of the market entirely",
+          "A weaker rupee is chiefly harmful because it raises import costs and inflation, so the Reserve Bank should defend a fixed level whatever the cost",
+          "A weaker rupee mirrors structural weaknesses, so policy should let it absorb shocks while reducing energy dependence and broadening exports",
+          "The rupee's fate is decided by events in West Asia alone, so domestic policy can do nothing to lessen the effect of such shocks on the currency"
+        ],
+        "answer": 2,
+        "explanation": "Answer: the option saying that a weak rupee mirrors structural weaknesses and the rate should act as a shock absorber while energy dependence and the narrow export base are fixed. Why: the last paragraph is the author's conclusion. The rupee's level is 'a symptom of a deeper condition', the exchange rate is best treated as 'a shock absorber', and the 'lasting remedies' are lower energy intensity and wider exports. Why the others fail: 'chiefly beneficial' and 'chiefly harmful' each pick one camp, but paragraph 1 says each camp is only 'half right'. The option blaming West Asia alone ignores the remedies the author lists. Tip: in main-idea questions, read the last paragraph first and reject options that take an extreme, one-sided position."
+      },
+      {
+        "id": "q2",
+        "type": "RC",
+        "question": "According to the passage, the textbook case for depreciation is weak in India's present circumstances chiefly because",
+        "passageId": "RC1",
+        "options": [
+          "demand for oil barely falls when its price rises, so a weaker rupee swells the import bill without reducing the quantity bought",
+          "a weaker rupee fails to make Indian exports any cheaper for foreign buyers, whatever the prices at which they are sold abroad",
+          "households that receive remittances from abroad lose income whenever the rupee falls, which reduces the demand for domestic goods",
+          "the Reserve Bank is forbidden from selling dollars to slow a fall, so that the currency cannot be steadied even in the short run"
+        ],
+        "answer": 0,
+        "explanation": "Answer: oil demand barely falls when its price rises, so the bill swells without any cut in quantity. Why: paragraph 2 says the largest item in the import bill is crude oil and that 'a weaker rupee therefore inflates the bill with little reduction in the quantity bought'. Why the others fail: exports DO become cheaper for foreign buyers (that is the textbook point, which the author accepts in principle), so the first wrong option reverses the passage. Remittance-receiving households are said to GAIN from a weaker rupee, not lose. And paragraph 4 says the Reserve Bank can sell dollars, so it is not forbidden to do so."
+      },
+      {
+        "id": "q3",
+        "type": "RC",
+        "question": "The author's remark that fixation on a particular number 'mistakes the thermometer for the fever' implies that",
+        "passageId": "RC1",
+        "options": [
+          "the exchange rate is a faulty indicator whose readings policy-makers should therefore disregard when they frame their policies",
+          "a precise target for the currency is easy to announce but impossible to measure with any degree of accuracy at all",
+          "frequent readings of the currency's value distort the real economy that the exchange rate is meant to describe",
+          "the exchange rate indicates an underlying condition and is not, by itself, the condition that needs to be treated"
+        ],
+        "answer": 3,
+        "explanation": "Answer: the exchange rate points to an underlying problem but is not the problem itself. How to decode the image: a thermometer only reads the temperature; the fever (the illness) is the real condition. The next sentence in the passage translates it: the rupee's level is 'a symptom of a deeper condition', namely energy dependence and a narrow export base. Why the others fail: 'faulty indicator to be disregarded' goes too far, since the author still wants the rate treated as a shock absorber, not ignored. The other two take the metaphor literally and say things the passage never says. Tip: for metaphor questions, put the image into plain words and check it against the sentence that follows."
+      },
+      {
+        "id": "q4",
+        "type": "RC",
+        "question": "Each of the following is offered as a reason why depreciation may not quickly improve India's trade balance EXCEPT that",
+        "passageId": "RC1",
+        "options": [
+          "quantities bought and sold respond to changes in price only slowly, so the import bill may rise before exports do",
+          "foreign buyers prefer to pay for Indian goods in their own currencies, which blunts any change in relative prices",
+          "many Indian exports contain imported inputs whose cost rises when the rupee weakens against the dollar",
+          "demand for crude oil, which is the largest import, is largely insensitive to changes in its price"
+        ],
+        "answer": 1,
+        "explanation": "Answer: the option about foreign buyers preferring to pay in their own currencies. The passage never says this. The other three are all in paragraph 2: volumes 'adjust slowly' (the J-curve), many exports 'embody imported inputs', and demand for oil 'barely falls when the price rises'. Tip: in EXCEPT questions, find three options in the text and tick them off. The one left over is the answer. Do not choose an option just because it sounds wrong; choose the one the passage does not support."
+      },
+      {
+        "id": "q5",
+        "type": "RC",
+        "question": "The passage suggests that intervention by the Reserve Bank is",
+        "passageId": "RC1",
+        "options": [
+          "useful for smoothing volatility and gaining time, but unable to cure a pressure that stems from a lasting rise in the oil bill",
+          "futile in every circumstance, since markets invariably bet against a central bank that tries to defend the level of the currency",
+          "a lasting solution, provided that the reserves available to the central bank are large enough to sustain it for long enough",
+          "harmful chiefly because the sale of dollars raises the rupee price of the crude oil that the refiners have to buy"
+        ],
+        "answer": 0,
+        "explanation": "Answer: useful for smoothing and buying time, but no cure for a lasting pressure. Why: paragraph 4 says intervention 'smooths volatility and gives households and firms time to adjust', but it 'cannot alter the balance of payments', and defending a level 'converts a price adjustment into a drain on reserves'. Why the others fail: 'futile in every circumstance' ignores the benefits the author grants, and the word 'invariably' is too strong. 'A lasting solution' contradicts 'cannot alter the balance of payments'. The last option invents a harm (higher crude prices) that the passage does not mention."
+      },
+      {
+        "id": "q6",
+        "type": "RC",
+        "question": "The author's attitude to the two camps described in the first paragraph is best described as",
+        "passageId": "RC1",
+        "options": [
+          "dismissive of both, since neither camp has understood how the exchange rate affects the different parts of the economy",
+          "sympathetic to the first, since the fall in the rupee is plainly a verdict on the economy's underlying weakness",
+          "even-handed, since each is treated as partly right and the dispute is used to bring out a wider point",
+          "sympathetic to the second, since a cheaper currency is, on balance, a gain that a trading nation should welcome"
+        ],
+        "answer": 2,
+        "explanation": "Answer: even-handed. Why: the first paragraph says 'Each is half right' and calls the quarrel 'instructive', which signals balance, not dismissal. The author then uses it to show that the same rate is a cost to one part of the economy and a gain to another. Why the others fail: 'dismissive of both' is too harsh, and the two 'sympathetic' options each pick a side the author refuses to pick. Tip: tone questions are answered by the author's own evaluative words ('half right', 'instructive')."
+      },
+      {
+        "id": "q7",
+        "type": "RC",
+        "question": "Which of the following best states the main point of the passage?",
+        "passageId": "RC2",
+        "options": [
+          "The codes have failed, since gig workers cannot receive social security benefits unless the platforms classify them as full employees",
+          "Recognising gig workers is a real advance, but incentives, the incidence of costs and administrative capacity will decide whether it protects them",
+          "The codes will succeed on their own terms, since aggregators have accepted the duty to fund benefits for the workers whom they use",
+          "The codes matter little, since the great majority of Indian workers are informal and lie beyond the reach of any statute"
+        ],
+        "answer": 1,
+        "explanation": "Answer: recognition is a real advance, but incentives, who bears the cost and administration will decide the outcome. Why: the final paragraph says the problems 'are not reasons to reject the codes, which mark a real advance' and that 'success will be decided less by the text than by administration'. Paragraphs 3 and 4 supply the incentive and cost problems. Why the others fail: 'have failed' contradicts 'a real advance'. 'Will succeed on their own terms' contradicts 'success will be decided by administration'. 'Matter little' ignores the author's praise of recognition in paragraph 2."
+      },
+      {
+        "id": "q8",
+        "type": "RC",
+        "question": "According to the passage, a threshold based on days of engagement could have which unintended effect?",
+        "passageId": "RC2",
+        "options": [
+          "Workers may leave the platforms altogether, since the threshold is set higher than any worker could reasonably hope to reach",
+          "Aggregators may withdraw from the cities in which the workers are unable to satisfy the minimum number of days of engagement",
+          "Platforms may lower the prices that they charge to customers in order to attract workers who are close to the threshold",
+          "Platforms may rotate workers to keep few above the line, while workers who need benefits may work more days than is healthy"
+        ],
+        "answer": 3,
+        "explanation": "Answer: rotation of workers by platforms, and overwork by workers who need the benefit. Why: paragraph 3 says a platform 'has reason to rotate its workforce so that few cross' the line, while a needy worker 'may take on more days than is good for her health'. The closing line sums it up: 'The rule meant to measure dependence ends by shaping it.' Why the others fail: none of the other three effects (workers leaving, platforms leaving cities, lower customer prices) is mentioned anywhere in the passage."
+      },
+      {
+        "id": "q9",
+        "type": "RC",
+        "question": "The statement that 'the burden of a levy does not depend on whom the law makes pay it' suggests that",
+        "passageId": "RC2",
+        "options": [
+          "workers may end up bearing part of a contribution that the law formally places on the platforms",
+          "platforms will bear the whole cost of any contribution that the law requires them to make on behalf of their workers",
+          "consumers will always bear the entire cost, since prices are raised in step with every levy that is imposed on a firm",
+          "the law should therefore require workers rather than platforms to make the contributions that fund their own benefits"
+        ],
+        "answer": 0,
+        "explanation": "Answer: workers may bear part of a cost that the law puts on platforms. Why: the very next sentence gives the example: a platform's contribution 'may be recovered in part through lower per-trip rates, leaving workers to finance their own benefits'. The legal payer (the platform) and the real payer (the worker) can differ. Why the others fail: 'platforms will bear the whole cost' is exactly what the author doubts. 'Consumers always bear the entire cost' is too absolute and is never said. The author never proposes that workers should pay."
+      },
+      {
+        "id": "q10",
+        "type": "RC",
+        "question": "The author mentions that a rider can be 'replaced by the next person at the next signal' in order to",
+        "passageId": "RC2",
+        "options": [
+          "prove that riders are in reality employees, since platforms select and dismiss them at will as any other employer would",
+          "argue that the supply of riders is too small to meet the demand, which gives each rider great power over her rates of pay",
+          "show that workers' weak bargaining power makes it hard for them to resist having costs passed on to them",
+          "suggest that riders prefer to change platforms often, and so have little interest in benefits that they cannot carry with them"
+        ],
+        "answer": 2,
+        "explanation": "Answer: to show weak bargaining power. Why: the sentence before it says whether costs get passed on 'depends on how much bargaining power workers have', and the phrase about the next person at the next signal explains why that power is small: there is always a replacement. Why the others fail: the passage says in paragraph 1 that a rider is 'not quite an employee', so the 'prove they are employees' option contradicts it. A rider who is easily replaced implies a plentiful supply of riders, the opposite of 'supply too small'. Nothing suggests riders like switching platforms."
+      },
+      {
+        "id": "q11",
+        "type": "RC",
+        "question": "Which of the following would the author most likely regard as the best evidence that the codes are working?",
+        "passageId": "RC2",
+        "options": [
+          "A rising number of firms are registering themselves as aggregators under the Code on Social Security this year",
+          "Twenty-nine statutes have been merged into four codes, with a corresponding fall in the burden of compliance",
+          "The prices that platforms charge for each trip or delivery have fallen since the codes came into force",
+          "Registered gig workers receive benefits that move with them across platforms and are actually paid by the platforms"
+        ],
+        "answer": 3,
+        "explanation": "Answer: registered workers actually receiving portable benefits that the platforms pay for. Why: the final sentence names the test: 'whether registered workers actually receive benefits that follow them across platforms, and whether those benefits are paid by the platforms or quietly shifted onto the workers'. Why the others fail: counting registered firms or merged statutes measures paperwork, not protection. Falling prices say nothing about workers' benefits and may even mean the cost was shifted onto workers. Tip: the best 'evidence' option usually echoes the author's own stated test."
+      },
+      {
+        "id": "q12",
+        "type": "RC",
+        "question": "The author's attitude to the labour codes is best described as",
+        "passageId": "RC2",
+        "options": [
+          "enthusiastic, since the codes have already solved the problem of classifying workers who are employed through platforms",
+          "appreciative but guarded, since the gains depend on how well the codes are administered",
+          "hostile, since the codes impose costs on aggregators that the platforms will be unable either to absorb or to pass on",
+          "indifferent, since the codes do little more than repeat the provisions of the statutes that they have replaced"
+        ],
+        "answer": 1,
+        "explanation": "Answer: appreciative but guarded. Why: the author calls the recognition of gig workers 'a real advance' and 'an ambition worth defending' (appreciative), yet repeatedly warns about incentives, hidden cost-shifting and administration (guarded). Why the others fail: 'enthusiastic' and 'solved' ignore the many difficulties raised. 'Hostile' contradicts the praise. 'Indifferent' contradicts the author's own praise: the passage presents the recognition of workers who 'had no settled place in labour law' as new, not as a repeat of earlier statutes."
+      },
+      {
+        "id": "q13",
+        "type": "RC",
+        "question": "Which of the following best states the main point of the passage?",
+        "passageId": "RC3",
+        "options": [
+          "Adaptation finance lags because its benefits yield no revenue and its target is loosely defined, so baselines and rules matter more than declarations",
+          "Adaptation finance has been secured, since governments at Belém agreed to triple it, and what remains in dispute is only a matter of procedure",
+          "Mitigation deserves less funding than adaptation, since wind farms can repay their lenders without help from any public source whatever",
+          "Climate summits are futile, since no declaration agreed at one of them has ever led to finance for developing countries"
+        ],
+        "answer": 0,
+        "explanation": "Answer: adaptation finance lags because its benefits earn no revenue and its target is vague, so baselines and rules matter more than declarations. Why: paragraph 2 explains the revenue problem, paragraph 3 the vagueness, and the last paragraph concludes that 'baselines, definitions and tracking' turn 'a declaration into an obligation'. Why the others fail: 'has been secured' contradicts the whole argument. The mitigation option is never argued. 'Futile' is far too extreme and the passage never says that no declaration has ever produced finance."
+      },
+      {
+        "id": "q14",
+        "type": "RC",
+        "question": "According to the passage, mitigation projects attract private money more readily than adaptation projects because",
+        "passageId": "RC3",
+        "options": [
+          "they cost less than adaptation projects, and so require no support from the public purse in any developing country",
+          "adaptation projects are located only in developing countries, where private investors are legally barred from lending",
+          "they produce revenue from which lenders can be repaid, whereas adaptation yields avoided losses that no one can invoice",
+          "the emissions that mitigation avoids are larger in volume than the disasters that adaptation is able to prevent"
+        ],
+        "answer": 2,
+        "explanation": "Answer: mitigation earns revenue, adaptation yields avoided losses. Why: paragraph 2 says a wind farm 'sells electricity and its lenders can be repaid', whereas an adaptation project's 'benefit is a disaster that did not occur, which no one can invoice'. Why the others fail: the passage never compares costs, never says investors are legally barred, and never compares the volume of emissions with the scale of disasters. Tip: when a question says 'according to the passage', the answer is always something stated in the text, not something merely plausible."
+      },
+      {
+        "id": "q15",
+        "type": "RC",
+        "question": "'A promise that cannot be measured cannot be broken' implies that",
+        "passageId": "RC3",
+        "options": [
+          "donors are legally bound to deliver any promise that has been expressed in the form of a number or a date",
+          "a target without a baseline or a method of counting allows donors to claim compliance whatever they actually provide",
+          "promises that can be measured are certain to be kept by every donor that has made them at a summit",
+          "developing countries have no interest in having the promise defined, counted and tracked in any detail"
+        ],
+        "answer": 1,
+        "explanation": "Answer: a vague target lets donors claim they have complied whatever they provide. How to decode it: you can only accuse someone of breaking a promise if you can show how far short they fell; without a baseline and counting method, no shortfall can be shown. The preceding sentences list how the promise can be 'met on paper': relabelling flows, counting loans as grants, choosing a flattering start. Why the others fail: they bring in legal obligation, certainty of compliance or developing countries' indifference, none of which the passage says. In fact developing countries 'press for' clear rules."
+      },
+      {
+        "id": "q16",
+        "type": "RC",
+        "question": "The author regards the counting of loans as adaptation finance as",
+        "passageId": "RC3",
+        "options": [
+          "a sound practice, since loans provide larger sums than grants and so do more to help the countries that receive them",
+          "an irrelevant matter, since projects to adapt to climate change are never financed by borrowing in any country",
+          "an acceptable practice only for countries that have already received large grants from the developed countries",
+          "a practice that can burden vulnerable countries with debt and dilute the principle that the polluter should pay"
+        ],
+        "answer": 3,
+        "explanation": "Answer: a practice that burdens vulnerable countries with debt and weakens the polluter-pays principle. Why: paragraph 4 says a borrowing country 'has also added to a debt burden', that the cost falls 'on those who contributed least', and that this is 'a poor fulfilment of the principle that the polluter should pay'. Why the others fail: 'sound practice' and 'acceptable only if grants were received' are never said. 'Irrelevant' contradicts the paragraph, which is about exactly such borrowing."
+      },
+      {
+        "id": "q17",
+        "type": "RC",
+        "question": "Each of the following is mentioned as a weakness of the tripling promise EXCEPT that",
+        "passageId": "RC3",
+        "options": [
+          "it lacks an agreed baseline against which the tripling could be checked by the countries that are to receive the money",
+          "it could be met on paper by counting loans at their face value as though they were the same thing as grants",
+          "it covers only finance for mitigation and so leaves out projects such as sea walls and early-warning systems",
+          "it would, even if it were fully met, leave much of the estimated need of developing countries unmet"
+        ],
+        "answer": 2,
+        "explanation": "Answer: the option saying the promise covers only mitigation finance. The promise is about ADAPTATION finance (sea walls and early-warning systems are the passage's own examples of adaptation), so this option is wrong on its face and is never claimed. The other three are stated: paragraph 3 mentions the missing baseline and the counting of loans 'at face value', and paragraph 2 says 'Even tripling the latter would leave much of the need unmet'. Tip: in EXCEPT questions, look for the option that contradicts or is absent from the text."
+      },
+      {
+        "id": "q18",
+        "type": "RC",
+        "question": "The author mentions the dispute over the agenda in order to",
+        "passageId": "RC3",
+        "options": [
+          "show that decisions about what is discussed determine which issues receive negotiating time and attention",
+          "argue that procedural quarrels are the main reason why summits fail to agree on figures for climate finance",
+          "criticise the opening session for having been held in Antalya instead of being held in a developing country",
+          "suggest that the dropped proposal mattered little to developing countries, which accepted the compromise gladly"
+        ],
+        "answer": 0,
+        "explanation": "Answer: to show that agenda decisions decide which issues get attention. Why: right after describing the dispute the author says 'an agenda is where priorities are ranked, and what is left off it tends to be postponed'. Why the others fail: the passage never says procedure is the MAIN reason summits fail. It says nothing about the choice of Antalya as a venue. And the passage says developing countries, India among them, press hard on finance, so the idea that they gladly accepted the compromise is unsupported."
+      },
+      {
+        "id": "q19",
+        "type": "RC",
+        "question": "According to Dr. Kulkarni, a consent manager differs from 'one more app' chiefly because it",
+        "passageId": "CA1",
+        "options": [
+          "collects and stores a person's data so that companies need not ask for it again and again in each of their services",
+          "replaces the company that holds the data and takes over that company's duty to keep the data secure from misuse",
+          "pays a person each time that a company uses the data that she has agreed to share with it for some purpose",
+          "lets a person give, review and withdraw consent across many services from one place, acting as her agent"
+        ],
+        "answer": 3,
+        "explanation": "Answer: it lets a person manage consent across services from one place, acting as her agent. Why: Dr. Kulkarni says it is 'a registered entity through which you can give, review and withdraw consent across services from one place, and it acts as your agent'. Why the others fail: he says its job is 'to carry your instruction, not to look at your data', so it does not collect or store data. It does not replace the company or take over security duties, and payment to users is never mentioned."
+      },
+      {
+        "id": "q20",
+        "type": "RC",
+        "question": "Dr. Kulkarni says that the convenience of a dashboard 'cuts both ways' because",
+        "passageId": "CA1",
+        "options": [
+          "it makes consent faster for companies to obtain, though it makes the same consent slower for people to give",
+          "withdrawal becomes as easy as giving consent, but a single tap may grant many permissions at once",
+          "it protects data from the companies that hold it, though it exposes the same data to the manager that handles it",
+          "it removes the need to read notices, though it greatly increases the number of notices that people receive"
+        ],
+        "answer": 1,
+        "explanation": "Answer: easy withdrawal is a gain, but a one-tap grant of many permissions is a loss. Why: he says 'Withdrawing consent becomes as easy as giving it, which is a gain; but a single tap that grants ten permissions at once would be a loss.' Why the others fail: he never compares speed for companies and people. He says the manager does not look at data, so 'exposes data to the manager' contradicts him. The notices option is never mentioned. Tip: 'cuts both ways' always means one good effect and one bad effect, so look for both in the text."
+      },
+      {
+        "id": "q21",
+        "type": "RC",
+        "question": "Which of the following can be inferred from the last part of the conversation?",
+        "passageId": "CA1",
+        "options": [
+          "Companies are already bound by all of their main duties, and consent managers are enforcing those duties in full",
+          "The framework will lapse unless consent managers begin to earn revenue from the companies that they connect to users",
+          "Until companies' main duties begin in May 2027, consent managers will have few obligations to enforce on a person's behalf",
+          "Consent managers answer to no one until 2027, since their accountability begins only when companies' duties begin"
+        ],
+        "answer": 2,
+        "explanation": "Answer: before May 2027 consent managers have little to enforce. Why: Dr. Kulkarni says 'the larger test comes in May 2027, when the main duties of companies begin. Until then, the manager is plumbing waiting for obligations that give it something to enforce.' Why the others fail: the main duties have NOT yet begun, so 'already bound' is wrong. The framework lapsing is never said, and he warns against revenue from connected services as a conflict of interest. He also says the manager 'answers to you', so 'answers to no one' is wrong."
+      },
+      {
+        "id": "q22",
+        "type": "Vocabulary",
+        "question": "At the eleventh hour, the two parties, who had refused to speak to one another for months, agreed to ________ and sign the accord.",
+        "options": [
+          "bury the hatchet",
+          "throw down the gauntlet",
+          "fan the flames",
+          "rake over the coals"
+        ],
+        "answer": 0,
+        "explanation": "Answer: 'bury the hatchet' means to make peace and end a quarrel, which fits parties who had refused to speak but now sign an accord. The others: 'throw down the gauntlet' means to issue a challenge (the opposite of making peace); 'fan the flames' means to make a conflict worse; 'rake over the coals' means to scold someone severely. Tip: the sentence says they SIGN an accord, so the idiom must mean reconciliation."
+      },
+      {
+        "id": "q23",
+        "type": "Vocabulary",
+        "question": "Her ________ praise, hedged with so many reservations that the author could not tell whether she had been complimented or criticised, left him more anxious than before.",
+        "options": [
+          "effusive",
+          "unstinting",
+          "gratuitous",
+          "equivocal"
+        ],
+        "answer": 3,
+        "explanation": "Answer: 'equivocal' means open to more than one interpretation, which matches praise so hedged that it could be read as criticism. The others: 'effusive' (gushing) and 'unstinting' (given generously) would both leave NO doubt that he was complimented; 'gratuitous' (uncalled-for) says nothing about being unclear. Tip: the clue is 'could not tell whether', which signals ambiguity."
+      },
+      {
+        "id": "q24",
+        "type": "Vocabulary",
+        "question": "The scandal, far from toppling the minister, ________ his reputation among his supporters, who saw him as the victim of a hostile press.",
+        "options": [
+          "tarnished",
+          "burnished",
+          "besmirched",
+          "undermined"
+        ],
+        "answer": 1,
+        "explanation": "Answer: 'burnished' means polished or enhanced. 'Far from toppling' signals that the scandal did the opposite of harming him, and his supporters saw him as a victim, so his reputation improved among them. The others: 'tarnished', 'besmirched' and 'undermined' all mean damaged, which the phrase 'far from toppling' rules out. Tip: when three options are near-synonyms, the odd one out is usually the answer."
+      },
+      {
+        "id": "q25",
+        "type": "Vocabulary",
+        "question": "The truce was ________ at best: its terms were so ________ that each side could ________ them to suit its own purposes.",
+        "options": [
+          "tenuous; ambiguous; construe",
+          "tenable; precise; construe",
+          "tenuous; precise; flout",
+          "tenable; ambiguous; enforce"
+        ],
+        "answer": 0,
+        "explanation": "Answer: tenuous; ambiguous; construe. Step by step. Blank 2: if each side can bend the terms to suit itself, the terms must be vague, so 'ambiguous' (not 'precise'). Blank 3: sides that read the terms in their own favour 'construe' (interpret) them; 'flout' (disobey openly) and 'enforce' do not fit 'to suit its own purposes'. Blank 1: a truce with vague terms is 'tenuous' (weak, flimsy). 'Tenable' means defensible, a different word often confused with it. Tip: solve the blank you are surest of first, then eliminate options."
+      },
+      {
+        "id": "q26",
+        "type": "Vocabulary",
+        "question": "Far from being ________ by the criticism, the regulator ________ its stance, arguing that the objections were ________ and ignored the evidence.",
+        "options": [
+          "emboldened; softened; cogent",
+          "chastened; softened; cogent",
+          "chastened; hardened; tendentious",
+          "emboldened; hardened; tendentious"
+        ],
+        "answer": 2,
+        "explanation": "Answer: chastened; hardened; tendentious. Step by step. 'Far from X, Y' needs Y to be the OPPOSITE of X. Criticism normally chastens (humbles) a person, so 'far from being chastened' leads to 'hardened its stance'. Blank 3: objections that 'ignored the evidence' are 'tendentious' (biased, pushing a one-sided view); 'cogent' (convincing) cannot go with 'ignored the evidence'. The pair 'emboldened; hardened' fails because hardening is not the opposite of being emboldened, so 'far from' would make no sense. The pair 'chastened; softened' fails for the same reason: softening IS being chastened, not the opposite."
+      },
+      {
+        "id": "q27",
+        "type": "Vocabulary",
+        "question": "Because demand for oil is ________, a rise in its price raises the import bill almost one-for-one; a weaker rupee therefore ________ the bill and does little to ________ the volumes bought.",
+        "options": [
+          "elastic; inflates; curb",
+          "inelastic; inflates; curb",
+          "inelastic; trims; curb",
+          "elastic; trims; boost"
+        ],
+        "answer": 1,
+        "explanation": "Answer: inelastic; inflates; curb. Step by step. If the price rises and the bill rises 'almost one-for-one', buyers are NOT cutting quantity, so demand is 'inelastic' (not responsive to price); 'elastic' demand would cut volumes and the bill would not rise so much. A weaker rupee makes oil costlier in rupees, so it 'inflates' (not 'trims') the bill, and it does little to 'curb' (reduce) volumes. Tip: in economics sentences, check each blank against the logic of cause and effect."
+      },
+      {
+        "id": "q28",
+        "type": "Vocabulary",
+        "question": "Her ________ wit, which spared no reputation, won her admirers but also made her ________ in a profession that prized collegiality.",
+        "options": [
+          "genial; mistrusted",
+          "mordant; esteemed",
+          "genial; envied",
+          "mordant; mistrusted"
+        ],
+        "answer": 3,
+        "explanation": "Answer: mordant; mistrusted. Step by step. A wit that 'spared no reputation' is biting and sharp: 'mordant' (not 'genial', which means warm and friendly). 'But also' signals a negative result: in a profession that prized collegiality, a cutting wit would make her 'mistrusted'. 'Esteemed' is positive and breaks the contrast. 'Envied' is possible for a genial person, but the first blank is already wrong."
+      },
+      {
+        "id": "q29",
+        "type": "Vocabulary",
+        "question": "The monograph is so ________ that only a handful of specialists can follow it, yet its central claim is ________ enough to be stated in a single sentence.",
+        "options": [
+          "recondite; simple",
+          "lucid; simple",
+          "recondite; abstruse",
+          "lucid; abstruse"
+        ],
+        "answer": 0,
+        "explanation": "Answer: recondite; simple. Step by step. 'Only a handful of specialists can follow it' means the book is hard to understand: 'recondite' (obscure, deep). 'Lucid' (clear) contradicts this. 'Yet' signals contrast, so the central claim must be easy to state: 'simple'. 'Abstruse' is a synonym of 'recondite' (hard to understand), so it would give no contrast after 'yet'. Tip: 'yet', 'but' and 'although' mean the second blank should be the opposite of the first."
+      },
+      {
+        "id": "q30",
+        "type": "Vocabulary",
+        "question": "The auditor's ________ inquiries were meant to ________ the truth about the ________ transfers of funds.",
+        "options": [
+          "discrete; elicit; illicit",
+          "discreet; illicit; elicit",
+          "discreet; elicit; illicit",
+          "discrete; illicit; elicit"
+        ],
+        "answer": 2,
+        "explanation": "Answer: discreet; elicit; illicit. Three homophone pairs. DISCREET = careful and tactful (a discreet inquiry); DISCRETE = separate and distinct. ELICIT = to draw out (elicit the truth); ILLICIT = unlawful (illicit transfers). 'Discrete inquiries' would mean separate inquiries, which does not suit 'meant to elicit the truth quietly'. 'Illicit the truth' and 'elicit transfers' make no sense. Memory trick: i-llicit has an 'ill' in it, meaning unlawful and bad."
+      },
+      {
+        "id": "q31",
+        "type": "Vocabulary",
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "The college principal addressed the assembly on the first day of term.",
+          "The manager was loath to dismiss an employee who had served the firm for decades.",
+          "The critic praised the director's flair for staging crowd scenes.",
+          "The central principal of the scheme, that those who benefit most should pay most, won wide acceptance."
+        ],
+        "answer": 3,
+        "explanation": "Answer: the first-named sentence. A rule or basic belief is a 'principle', so it should read 'central principle'. 'Principal' means chief, the head of a school, or a sum of money. The others are correct: 'college principal' (head of the college), 'loath' (an adjective meaning reluctant, different from the verb 'loathe', to hate) and 'flair' (natural talent). Memory trick: a princi-PAL is your pal, the head of the school; a princi-PLE is a rule."
+      },
+      {
+        "id": "q32",
+        "type": "Vocabulary",
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "The monarch's long reign saw the kingdom grow rich on trade.",
+          "The founder was reluctant to hand over the reigns of the company to his son.",
+          "Heavy rain delayed the arrival of the delegation by several hours.",
+          "The tribunal's ruling set a precedent for similar claims."
+        ],
+        "answer": 1,
+        "explanation": "Answer: the sentence with 'reigns of the company'. The idiom comes from horse riding: you hold or hand over the 'reins' (the straps used to control a horse). 'Reign' is a monarch's period of rule, which is correctly used in the monarch sentence. 'Rain' (weather) and 'precedent' (an earlier case that guides later ones, not to be confused with 'president') are also correct. Memory trick: reins = control straps, reign = rule of a king or queen."
+      },
+      {
+        "id": "q33",
+        "type": "Vocabulary",
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "The board voted to censor the chairman for misusing company funds.",
+          "The film was cleared by the censor board after three scenes were cut.",
+          "The sensor fitted to the door detects movement within two metres.",
+          "Journalists complained that officials had tried to censor the report before its release."
+        ],
+        "answer": 0,
+        "explanation": "Answer: the sentence about the board. To criticise someone formally and officially is to 'censure' them, so it should read 'censure the chairman'. To 'censor' is to remove or suppress parts of a work, as in the film and report sentences. A 'sensor' is a device that detects something. Three similar words: censure (blame), censor (cut or suppress), sensor (detector)."
+      },
+      {
+        "id": "q34",
+        "type": "Grammar",
+        "question": "Not only <u>the minister resigned</u>, but he also apologised to the House.",
+        "options": [
+          "the minister did resign",
+          "the minister has resigned",
+          "did the minister resign",
+          "resigned the minister"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'Not only did the minister resign'. Rule: when a sentence begins with a negative or restrictive phrase such as 'Not only', 'Hardly', 'Never' or 'Seldom', the auxiliary verb comes BEFORE the subject (inversion), and the main verb returns to its base form: 'did + subject + resign'. The other options either keep normal word order ('the minister did resign', 'the minister has resigned') or invert wrongly ('resigned the minister')."
+      },
+      {
+        "id": "q35",
+        "type": "Grammar",
+        "question": "The committee demanded that the report <u>is submitted</u> before the board meets.",
+        "options": [
+          "was submitted",
+          "be submitted",
+          "has been submitted",
+          "will be submitted"
+        ],
+        "answer": 1,
+        "explanation": "Answer: 'be submitted'. Rule: after verbs of demand, request or recommendation (demand, insist, suggest, recommend, require, propose) followed by 'that', the verb takes the subjunctive, which is the base form of the verb with no -s and no tense: 'demanded that the report BE submitted'. The other options use ordinary tenses, which do not fit a demand about something still to be done."
+      },
+      {
+        "id": "q36",
+        "type": "Grammar",
+        "question": "Delhi is larger than <u>any city</u> in northern India.",
+        "options": [
+          "any cities",
+          "all the city",
+          "most any city",
+          "any other city"
+        ],
+        "answer": 3,
+        "explanation": "Answer: 'any other city'. Rule: when something is compared with the group it belongs to, you must exclude it from the group with 'other'. Delhi is itself a city in northern India, so 'larger than any city' would compare Delhi with itself. 'Any other city' compares it with the rest. The remaining options are ungrammatical: 'any' needs a singular noun, 'all the city' mixes quantifier and noun, and 'most any' is not standard English."
+      },
+      {
+        "id": "q37",
+        "type": "Grammar",
+        "question": "He is one of those leaders who <u>inspires</u> loyalty without ever demanding it.",
+        "options": [
+          "inspire",
+          "has inspired",
+          "is inspiring",
+          "inspiring"
+        ],
+        "answer": 0,
+        "explanation": "Answer: 'inspire'. Rule: in the pattern 'one of those (plural noun) who/that ...', the relative pronoun 'who' refers back to the PLURAL noun 'leaders', not to 'one', so the verb is plural: 'leaders who inspire'. Quick test: rewrite as 'Of those leaders who inspire loyalty, he is one.' The other options either stay singular ('has inspired', 'is inspiring') or leave the clause without a verb ('inspiring')."
+      },
+      {
+        "id": "q38",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nHeadline growth figures are easily quoted and easily misread. ____________________. A country can grow at seven per cent a year while the incomes of its poorest households stagnate, if the gains go mainly to the top; the average rises, though few households experience it.",
+        "options": [
+          "Growth figures are always manipulated by governments, so that no statistic of this kind can be trusted by anyone at all.",
+          "A high rate of growth guarantees that the income of every household will rise by roughly the same proportion each year.",
+          "Because averages mislead, economists have abandoned the measurement of national income as a guide to policy altogether.",
+          "An average describes the economy as a whole and says nothing about how its gains are shared among the households within it."
+        ],
+        "answer": 3,
+        "explanation": "Answer: the option about an average saying nothing about how gains are shared. Why: the sentence after the blank gives the example of growth rising while the poorest stagnate, 'the average rises, though few households experience it'. So the blank must state the general idea behind it: averages hide distribution. Why the others fail: 'always manipulated' is never hinted at; 'guarantees every household rises' is the opposite of the example; 'economists have abandoned' is extreme and unsupported. Tip: the blank must set up the example that follows it."
+      },
+      {
+        "id": "q39",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nDefaults shape behaviour more than most people admit. ____________________. When enrolment in a pension plan is automatic and people must act in order to leave, participation is far higher than when they must act in order to join, although the choices on offer are identical.",
+        "options": [
+          "People always prefer to choose for themselves and reject any arrangement that they have not personally selected.",
+          "Inertia is powerful: people tend to stay with whatever arrangement asks nothing of them, even when alternatives are open.",
+          "Participation in pension plans is high only where employers compel their staff to join, whatever the default may be.",
+          "Defaults matter only when the options differ greatly in cost, and not when they differ merely in who must act first."
+        ],
+        "answer": 1,
+        "explanation": "Answer: the 'inertia' option. Why: the example shows that when staying in requires no action, more people stay in, even though the choices are identical. That proves people stick with what asks nothing of them. Why the others fail: 'always prefer to choose for themselves' is the opposite of the evidence; 'only where employers compel' contradicts the example, in which nobody is compelled; 'only when options differ greatly in cost' is contradicted by the words 'the choices on offer are identical'."
+      },
+      {
+        "id": "q40",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nThe internet was built to move information, not to protect it. ____________________. Privacy law therefore arrives late and must retrofit protections onto systems whose economics reward collecting as much data as possible.",
+        "options": [
+          "Privacy law arrived early, before the network had developed any business model worth the attention of a regulator.",
+          "Systems that are built to protect information have always proved more profitable than systems built to move it.",
+          "Security and privacy were added afterwards, once the habits and business models of the network had already hardened around openness.",
+          "The designers of the network regarded privacy as its most important feature and therefore built it into the network first."
+        ],
+        "answer": 2,
+        "explanation": "Answer: protections were added afterwards, after openness had hardened. Why: the sentence after the blank begins 'Privacy law therefore arrives late', and 'therefore' means it follows from the blank, so the blank must say protection came late. Why the others fail: 'arrived early', 'built into the network first' and 'always more profitable' all contradict 'arrives late' and the idea that the network was built to move, not protect, information."
+      },
+      {
+        "id": "q41",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. A name, however, is only the first step, because benefits must be funded, and funding raises the question of who pays.\n2. That question, more than the definition itself, will decide whether recognition turns into protection.\n3. For years, the delivery rider has occupied an awkward place in Indian law.\n4. The Code on Social Security tries to resolve this by giving such workers a legal name and a claim on benefits.\n5. She is not an employee, since no firm hires her for a wage, yet she is hardly independent, since an app sets her routes, prices and ratings.",
+        "answer": "35412",
+        "explanation": "Answer: 3-5-4-1-2. Step by step. Sentence 3 is the opener: it introduces the topic ('the delivery rider') and nothing in it refers back. Sentence 5 starts with 'She', which needs the rider already named, and it explains what the 'awkward place' is. Sentence 4 says 'resolve this' (the awkward place) and 'such workers', so it follows 5. Sentence 1 begins 'A name, however', picking up 'a legal name' from sentence 4. Sentence 2 starts 'That question', which refers to 'who pays' at the end of sentence 1. Tip: pronouns (She, this, that) and linkers (however) show which sentence must come after which."
+      },
+      {
+        "id": "q42",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. This helps to explain why the gap between needs and flows is so wide, and why summits spend so long on how the flows should be counted.\n2. Money for clean energy flows relatively easily, because a solar farm sells electricity and can repay its lenders.\n3. Such quarrels over counting are not mere pedantry: whoever defines the target decides whether it can ever be missed.\n4. A sea wall or an early-warning system, by contrast, earns nothing; its benefit is the disaster that fails to happen.\n5. Adaptation therefore depends largely on public grants, which rise and fall with the politics of donor countries.",
+        "answer": "24513",
+        "explanation": "Answer: 2-4-5-1-3. Step by step. Sentence 2 sets up the first idea (clean energy attracts money) and needs no earlier sentence. Sentence 4 begins 'by contrast', so it must follow 2 and describe the opposite case. Sentence 5 begins 'therefore' and draws the conclusion that adaptation depends on grants. Sentence 1 begins 'This helps to explain', referring to the grants-and-politics point. Sentence 3 begins 'Such quarrels over counting', which refers back to 'how the flows should be counted' at the end of sentence 1. Tip: 'by contrast' needs something to contrast with; 'therefore' needs a reason before it."
+      },
+      {
+        "id": "q43",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. When the officials, discovering this, cancelled the scheme, the breeders released their now worthless snakes, and the cobra population grew.\n2. Colonial Delhi, the story goes, had too many cobras, so the government offered a bounty for every dead snake.\n3. The episode gives economists their name for a remedy that worsens the problem it was meant to cure: the cobra effect.\n4. Enterprising residents promptly began to breed cobras in order to collect the reward.",
+        "answer": "2413",
+        "explanation": "Answer: 2-4-1-3. Step by step. Sentence 2 starts the story and introduces the bounty. Sentence 4 shows the reaction to it ('the reward' refers to the bounty). Sentence 1 begins 'When the officials, discovering this', and 'this' is the breeding in sentence 4. Sentence 3 starts 'The episode', a summing-up phrase that must come after the whole story, and it gives the lesson. Tip: stories follow time order (offer, reaction, result), and the moral usually comes last."
+      },
+      {
+        "id": "q44",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. The Reserve Bank can slow the spiral by selling dollars, but only for as long as its reserves last.\n2. That raises the demand for dollars, and the rupee weakens.\n3. Lasting relief therefore requires that the underlying bill fall, whether through lower prices or lower consumption.\n4. When oil prices rise, India pays more dollars for the same barrels.\n5. A weaker rupee, in turn, makes the next shipment dearer in rupee terms, so the pressure feeds on itself.",
+        "answer": "42513",
+        "explanation": "Answer: 4-2-5-1-3. Step by step. Sentence 4 states the starting cause (oil price rises) and has no backward link. Sentence 2 begins 'That raises the demand for dollars', where 'That' is the extra dollars paid. Sentence 5 says 'A weaker rupee, in turn', picking up 'the rupee weakens'. Sentence 1 refers to 'the spiral', the self-feeding pressure described in sentence 5, and offers a partial remedy. Sentence 3 begins 'therefore' and draws the final conclusion. Tip: build the chain cause, effect, feedback, response, conclusion."
+      },
+      {
+        "id": "q45",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. In practice, the notices are long, the choices are bundled, and the alternative to agreeing is to go without the service.\n2. A consent manager tries to restore meaning to the ritual by putting every grant and withdrawal in one place where it can be seen and reversed.\n3. Consent, in such conditions, is a ritual rather than a decision.\n4. Privacy laws rest on a comfortable fiction: that a user who clicks 'I agree' has understood what she agreed to.\n5. Whether it succeeds will depend on whether the choices it displays are genuinely granular, and not merely a longer list of boxes to tick.",
+        "answer": "41325",
+        "explanation": "Answer: 4-1-3-2-5. Step by step. Sentence 4 introduces the 'comfortable fiction' (the claim that clicking means understanding). Sentence 1 begins 'In practice', which contrasts reality with that fiction. Sentence 3 begins 'Consent, in such conditions', where 'such conditions' are the long notices and bundled choices of sentence 1, and it names the result: a 'ritual'. Sentence 2 says 'restore meaning to the ritual', which needs 'ritual' to have appeared in sentence 3. Sentence 5 starts 'Whether it succeeds', where 'it' is the consent manager of sentence 2. Tip: a word such as 'ritual' that is used with 'the' in one sentence must have been introduced in an earlier one."
+      }
+    ]
   }
 ]
