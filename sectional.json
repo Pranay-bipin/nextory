@@ -1771,5 +1771,596 @@
         "explanation": "Answer: 4-1-3-2-5. Step by step. Sentence 4 introduces the 'comfortable fiction' (the claim that clicking means understanding). Sentence 1 begins 'In practice', which contrasts reality with that fiction. Sentence 3 begins 'Consent, in such conditions', where 'such conditions' are the long notices and bundled choices of sentence 1, and it names the result: a 'ritual'. Sentence 2 says 'restore meaning to the ritual', which needs 'ritual' to have appeared in sentence 3. Sentence 5 starts 'Whether it succeeds', where 'it' is the consent manager of sentence 2. Tip: a word such as 'ritual' that is used with 'the' in one sentence must have been introduced in an earlier one."
       }
     ]
+  },
+  {
+    "id": "sec-2026-11-22",
+    "date": "2026-11-22",
+    "title": "IPMAT Indore VA Sectional – 22nd Nov 2026 (Advanced Analytical – High Difficulty)",
+    "durationMinutes": 45,
+    "totalQuestions": 45,
+    "passages": {
+      "RC1": "Aggregate figures about artificial intelligence and jobs tend to reassure. A World Bank report this year estimates that generative AI is automating only about 4.5 per cent of jobs in low- and middle-income countries, India among them, against about 14 per cent in rich ones. The fear that machines will empty India's offices, on this evidence, is overdrawn. But an aggregate is a verdict on the building, not on any one of its floors. Staffing data show that openings for technology workers with up to two years' experience have fallen by more than two-fifths in a year, even as postings for AI skills have risen. The labour market is not shrinking evenly; it is losing its lowest rung. A reader who looks only at the national total will see a modest number and conclude that there is little to discuss; a graduate looking for a first job will see something quite different, because the burden of change has fallen on those who have had no time to build a record.\n\nThe lowest rung matters for a reason that has little to do with the output it produces. Entry-level work has always served two purposes at once: it gets routine tasks done, and it trains the person who does them. Seniors do not arrive from nowhere: every experienced reviewer was once a novice whose errors were caught by someone else. A junior who writes test scripts, fixes minor bugs or drafts a first report is paid partly in practice, and from that practice judgement grows. Generative AI performs many of these routine tasks faster and more cheaply than a fresher can. A firm that hands them to a machine saves money this year, but it may find in ten years that it has stopped producing the seniors it needs.\n\nThat risk is a collective one, which is what makes it hard to correct. The saving from automating junior work belongs to the firm that automates it, whereas the shortage of experienced people, if it comes, will be felt by the whole industry, and a firm that trains juniors at its own expense may see them leave for a rival. Each firm, reasoning sensibly on its own account, may therefore choose to train fewer people, and the result of many sensible choices is a pipeline that nobody decided to narrow. Because no single firm chose the outcome, no single firm feels responsible for repairing it, and waiting for the market to correct itself may mean waiting until the shortage has already arrived.\n\nOptimists reply that tasks, not jobs, are being automated, and that new roles will appear. The head of one large firm's India operations has argued that freshers are not disappearing but that their jobs are changing, and his company has said that it will go on hiring them. This is plausible, and need not be denied. But the new roles tend to ask for skills, such as supervising a model's output and spotting its errors, which are themselves built on experience, and so are not easily filled by someone who has not yet had the chance to acquire it. A graduate who is asked to supervise a model's output before ever having produced such output by hand is being asked to check work that she has never learned to do. Nor are the new roles always permanent ones; some are contract work.\n\nIndia's IT services industry was built on a pyramid, with a wide base of freshers supporting a narrow top, and revenue rose roughly in step with headcount. When the country's largest firm reports a fall of more than twenty-three thousand in its workforce over a year, while firms say that revenue growth now depends less on headcount, the pyramid is clearly being reshaped. The sensible response is neither alarm nor comfort. Institutions that train graduates should teach them to check what a machine produces, and firms should treat junior hiring as an investment in a pipeline that they all draw on, not as a cost to be trimmed whenever a cheaper substitute appears. The question for policy is not whether the pyramid will survive in its old shape, which it probably will not, but whether something will replace its training function.",
+      "RC2": "When a trade deal between two countries is announced, the headline usually reports a tariff, and the tariff, taken alone, tells an exporter less than it seems. An Indian garment-maker selling in the United States does not compete against American tailors; she competes against producers in other poor countries who ship to the same shops. What matters to her is therefore not the duty she pays but how that duty compares with the duty her rivals pay. A cut that is matched by cuts for every competitor leaves her where she was. A smaller cut that is not matched can transform her business. The same arithmetic applies to every exporter in every industry: the value of a concession is relative, and a concession that is also granted to everyone else is worth very little.\n\nThis is the logic behind the assurances that India has recently sought and, according to its ministers, received from Washington: that Indian goods will enter the American market with lower duties than those of competing countries. The two sides announced a framework in February, and an American official said last month that the agreement was ninety-eight or ninety-nine per cent complete. Yet it remains unsigned. A ruling of the American Supreme Court against the tariff regime then in force has forced the structure of duties to be reconsidered, and India's commerce secretary has said that India awaits clarity on that structure before it signs. For exporters, such an assurance is the substance of the understanding, since it is the margin, not the headline duty, that they will price into their contracts.\n\nIndia's caution can look like needless delay, but it follows from the arithmetic of preference. A margin over rivals is measured against a structure of tariffs, and when the structure is rewritten, the margin may shrink or vanish even though the text of the agreement has not changed. A margin is not fixed once and for all; it is a gap between two numbers, and either of the two can move. If the new structure lowers duties on every exporter, India's edge is diluted; if it raises duties on some, the edge may widen. To sign before knowing which is to buy a margin whose size is undecided. A negotiator may rationally prefer to wait, even when most of the document has been agreed.\n\nThere is a second reason why the final stretch of a negotiation is slow. The percentage of a deal that is complete is not an average of equally difficult items. Negotiators settle what is easy first, and what is left is, by selection, the hardest: the sectors in which each side's domestic politics resist concession. To say that ninety-eight per cent of a deal is done is therefore to say less than it sounds. The remaining two per cent may carry most of the weight, because it holds the issues on which the two governments disagree most. Seen this way, a slow final stretch is not evidence that the talks are failing, any more than a slow last mile shows that a journey has gone wrong; it is what one would expect when the hard part has been left for the end.\n\nNone of this makes the delay costless. Exporters who must plan shipments and sign contracts need certainty, and uncertainty itself acts as a kind of tariff, raising the cost of commitments that cannot easily be reversed. A firm that holds back orders until the position is clear loses sales in the interval, and a buyer abroad who cannot be sure of the duty may turn to a supplier whose position is more certain. But the choice facing India is not between a deal and no deal. It is between a deal whose value is known and one whose value depends on decisions yet to be taken elsewhere, and in making that choice the cost of waiting must be set against the cost of a margin that proves illusory.",
+      "RC3": "Two statements about India and tuberculosis appeared in the same week this month, and each can be defended. The first is that deaths from the disease have fallen by 38 per cent since 2015, a faster decline than the world as a whole has achieved. The second is that India still accounts for almost a quarter of the world's cases. A reader who sees only one of the two will form a very different picture from one who sees both, and the difference lies in what each statement measures. Both statements rest on the same underlying data, and neither is misleading in itself; the trouble begins only when one of them is offered as if it were the whole account.\n\nThe first statement is about change, the second about level. A change is measured against one's own past, a level against everybody else's present, and the two need not move together. A country can improve faster than the world and still hold the largest share of the problem, if it began with a large share. Indeed a high starting point makes rapid improvement easier, since the first reductions, achieved by extending treatment to people who were previously unreached, are cheaper than the last, which require finding the hardest cases. The next ten per cent will not be as easy as the first. A claim of change is also sensitive to the year chosen as the base, since a decline measured from a bad year looks better than one measured from an ordinary year.\n\nLevel, in turn, can be measured in two ways. A share of the world's cases is an absolute figure, and it will tend to be large for a country that is large, so that a populous country can appear at the head of the table without being the one in which a given individual runs the greatest risk. A rate per hundred thousand people corrects for size, and may give a different ranking. Neither is wrong; they answer different questions. The share tells a health system how much work lies ahead, whereas the rate tells a citizen how likely he is to fall ill. A small country with a high rate may barely register in the share, while a large country with a modest rate can dominate it.\n\nWhich figure matters depends on who is asking. To reward and sustain effort, progress should be measured as change: a programme that cannot show improvement will lose its funding and its staff. To allocate resources, burden should be measured as level: the districts and the groups with the most cases need the most help, however fast they are improving. The danger lies in using the wrong measure for the purpose. A government that cites only the fall may relax while a very large number of people remain ill; a critic who cites only the share may overlook the fact that the effort is working. The two audiences are not rivals: a ministry needs the first measure to keep a programme alive and the second to decide where its next rupee should go.\n\nHonest reporting would give both, together with a sense of how fast the gap between them is closing. A fall of 38 per cent is cause for pride, and a quarter of the world's cases is cause for urgency. Neither figure, quoted alone, is false, but each invites a conclusion that the full account would not support, and it is that invited conclusion, more than any number, that shapes public attitudes and the budgets that follow from them. The two are consistent, and only a public that is shown both will be able to hold on to the first without losing sight of the second.",
+      "CA1": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nMeera Rao (Host, Public Affairs): Cyclone Akvan was expected to cross the Andhra Pradesh coast on 20 November, yet Odisha planned to move more than two lakh people and suspended beach tourism. Wasn't that overkill?\n\nDr. Sanjay Mahapatra (disaster-risk specialist): It would be, if forecasts told us exactly where a storm will land. They do not. A track forecast has a cone of uncertainty, and the effects of a cyclone, such as storm surge and heavy rain, reach well beyond the point where the eye crosses the coast. So the authorities are weighing two mistakes. Moving people who turn out to have been safe costs a few days of disruption. Leaving people who turn out to have been in danger costs lives. When the costs are that unequal, a sensible authority accepts some unnecessary evacuations.\n\nMeera Rao: But if the storm weakens, people will say the alarm was exaggerated.\n\nDr. Sanjay Mahapatra: That is the paradox of prevention. When preparation works, the outcome looks uneventful, and uneventfulness is mistaken for proof that the effort was unnecessary. There is a second risk, which is warning fatigue: if people are moved too often for storms that do little harm, they begin to ignore the next order. So the answer is not to evacuate more, but to be specific, to say who must move and why, so that the public can believe the next warning.\n\nMeera Rao: How, then, should preparedness be judged?\n\nDr. Sanjay Mahapatra: Not by the damage visible afterwards, since a storm's strength varies. By whether lives were lost relative to what the hazard could have caused, and whether the most vulnerable, such as the elderly, the disabled and fishing families, were reached in time."
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "type": "RC",
+        "question": "Which of the following best states the central argument of the passage?",
+        "passageId": "RC1",
+        "options": [
+          "Generative AI will soon automate most jobs in India, so that graduates would be wise to avoid the technology sector altogether and look elsewhere",
+          "Reassuring aggregate figures hide a loss of entry-level work, which threatens the training pipeline that industry later depends on and calls for deliberate responses",
+          "The World Bank's estimate shows that fears about AI and jobs in India are baseless, and that firms may safely ignore the question of entry-level hiring",
+          "Firms that automate junior work are acting irrationally, since the machine that replaces a fresher always turns out to cost more than the fresher did"
+        ],
+        "answer": 1,
+        "explanation": "Answer: reassuring aggregates hide the loss of entry-level work, which threatens the training pipeline and calls for deliberate responses. Why: paragraph 1 says the labour market 'is losing its lowest rung'; paragraphs 2 and 3 explain why that endangers the supply of future seniors; paragraph 5 recommends responses. Why the others fail: the passage never says AI will automate most jobs. It accepts the World Bank figure and only says it does not tell the whole story, so 'baseless' is wrong. And it says AI does routine work 'more cheaply' than a fresher, the opposite of 'always costs more'. Tip: the main idea must cover the whole passage, not one paragraph."
+      },
+      {
+        "id": "q2",
+        "type": "RC",
+        "question": "The author says that 'an aggregate is a verdict on the building, not on any one of its floors'. This implies that",
+        "passageId": "RC1",
+        "options": [
+          "figures about buildings are more reliable than figures about the labour market, which cannot be measured with any accuracy at all",
+          "the World Bank has measured the wrong countries, and its estimate should therefore be replaced by figures for India alone",
+          "freshers are the only workers who are affected by generative AI, while every other group in the labour market is untouched",
+          "an overall figure can be low even when a particular group, such as freshers, is being hit hard"
+        ],
+        "answer": 3,
+        "explanation": "Answer: an overall figure can be low even when one group is hit hard. How to decode the image: the 'building' is the whole labour market (the average), and a 'floor' is one group inside it. The sentences that follow prove it: overall automation is small, yet entry-level openings fell by more than two-fifths. Why the others fail: the author never compares buildings with labour data, accepts the World Bank figure (so it is not 'wrong countries'), and never says freshers are the ONLY group affected, only the one most clearly hit. Tip: translate every metaphor into plain words before checking the options."
+      },
+      {
+        "id": "q3",
+        "type": "RC",
+        "question": "According to the passage, each firm may train fewer juniors even though all firms would suffer from a later shortage of experienced people, because",
+        "passageId": "RC1",
+        "options": [
+          "the saving from automation goes to the individual firm, the shortage would be borne by the whole industry, and trained juniors may leave for rivals",
+          "firms are legally forbidden from training workers who may later join a competitor, so that the cost of training cannot be recovered",
+          "machines are so much better at training workers than senior staff are that spending money on human training would be wasteful",
+          "senior staff refuse to share their experience with juniors, out of a fear that the juniors would one day take their jobs"
+        ],
+        "answer": 0,
+        "explanation": "Answer: the saving goes to the firm while the shortage is shared, and trained juniors may leave. Why: paragraph 3 says 'The saving ... belongs to the firm that automates it, whereas the shortage ... will be felt by the whole industry', and a firm that trains juniors 'may see them leave for a rival'. This is called a collective-action problem: what is sensible for one firm is harmful for all. Why the others fail: no law against training is mentioned, the passage never says machines train better than seniors, and it never mentions seniors refusing to share experience."
+      },
+      {
+        "id": "q4",
+        "type": "RC",
+        "question": "Each of the following is offered in the passage as a reason for concern about entry-level hiring EXCEPT that",
+        "passageId": "RC1",
+        "options": [
+          "entry-level work trains the person who does it, as well as producing output, and that training could be lost",
+          "the new roles often ask for skills that are themselves built on experience, which freshers have not yet had a chance to acquire",
+          "graduates lack the formal degrees that the new AI-related roles are said to require",
+          "the benefit of automating junior work goes to the individual firm, while the cost of a later shortage falls on the entire industry"
+        ],
+        "answer": 2,
+        "explanation": "Answer: the option about graduates lacking formal degrees. The passage never mentions degrees. The other three are in the text: paragraph 2 (entry-level work trains as well as produces), paragraph 4 (new roles need skills built on experience) and paragraph 3 (the saving goes to the firm, the shortage is shared). Tip: in EXCEPT questions, find three options in the text and tick them off. The leftover is the answer."
+      },
+      {
+        "id": "q5",
+        "type": "RC",
+        "question": "The author's attitude to the optimists described in the fourth paragraph is best described as",
+        "passageId": "RC1",
+        "options": [
+          "contemptuous, since their view ignores the evidence of job losses that has been reported by the largest firms",
+          "fully convinced, since at least one large firm has said that it will go on hiring freshers in the future",
+          "evasive, since the author declines to say whether any new roles will in fact appear for graduates",
+          "willing to concede that their view is plausible, while pointing out limits to what it can show"
+        ],
+        "answer": 3,
+        "explanation": "Answer: willing to concede plausibility while pointing out limits. Why: paragraph 4 says 'This is plausible, and need not be denied. But the new roles tend to ask for skills ... built on experience'. A concession followed by 'But' signals a balanced, qualified response. Why the others fail: 'contemptuous' and 'evasive' do not fit the calm, reasoned tone, and 'fully convinced' ignores the 'But' and the author's wider warnings. Tip: when an author concedes a point and then says 'but', the attitude is almost never one of full agreement or full rejection."
+      },
+      {
+        "id": "q6",
+        "type": "RC",
+        "question": "Which of the following would the author most likely endorse?",
+        "passageId": "RC1",
+        "options": [
+          "Banning firms from using generative AI for any routine task until the new roles have actually appeared",
+          "Treating junior hiring as a shared investment, and teaching graduates to check what AI systems produce",
+          "Leaving the matter to each firm, since the market can always be relied on to match skills with jobs",
+          "Advising graduates to avoid AI-related roles, since these are certain to be temporary and insecure"
+        ],
+        "answer": 1,
+        "explanation": "Answer: treating junior hiring as shared investment and teaching verification. Why: the final paragraph says institutions 'should teach them to check what a machine produces' and firms 'should treat junior hiring as an investment in a pipeline that they all draw on'. Why the others fail: the author asks for 'neither alarm nor comfort', so an outright ban is too drastic; 'leave it to each firm' contradicts the collective-action argument in paragraph 3; and the passage says AI-skill roles are growing, so advising people to avoid them is unsupported."
+      },
+      {
+        "id": "q7",
+        "type": "RC",
+        "question": "Which of the following best states the main point of the passage?",
+        "passageId": "RC2",
+        "options": [
+          "The worth of a trade deal lies in the margin it gives over rivals, which depends on a tariff structure that is itself unsettled, so India's delay is defensible",
+          "India is delaying out of weakness and should sign at once, since the agreement is nearly complete and any remaining gap is bound to be small",
+          "Tariffs matter little to exporters, whose success depends on the quality of what they sell and not on the duties that are imposed on it",
+          "The American court ruling has made trade agreements impossible, and India should therefore turn to partners who do not use tariffs at all"
+        ],
+        "answer": 0,
+        "explanation": "Answer: a deal's worth lies in the margin over rivals, which depends on a tariff structure that is unsettled, so India's delay is defensible. Why: paragraph 1 says what matters is how one's duty compares with rivals'; paragraph 3 says 'A negotiator may rationally prefer to wait'; paragraph 5 weighs the cost of waiting. Why the others fail: 'sign at once' contradicts paragraph 3; 'tariffs matter little' contradicts paragraph 1; and the ruling is said to have forced the duty structure to be reconsidered, not to make agreements impossible."
+      },
+      {
+        "id": "q8",
+        "type": "RC",
+        "question": "The example of the Indian garment-maker in the first paragraph is meant to show that",
+        "passageId": "RC2",
+        "options": [
+          "an exporter's main competitors in a foreign market are usually the producers of that foreign country itself",
+          "any reduction in a tariff, however small and whoever else may benefit from it, will transform an exporter's business",
+          "a tariff cut helps an exporter only to the extent that it improves her position relative to her rivals",
+          "garment-makers in poor countries are better placed to gain from trade deals than exporters in any other industry"
+        ],
+        "answer": 2,
+        "explanation": "Answer: a tariff cut helps only to the extent that it improves her position relative to rivals. Why: the passage says 'What matters to her is ... how that duty compares with the duty her rivals pay', and that a matched cut 'leaves her where she was'. Why the others fail: the example says explicitly that she does NOT compete against American tailors; 'any reduction ... will transform' contradicts the line about matched cuts; and the passage makes no comparison between garments and other industries."
+      },
+      {
+        "id": "q9",
+        "type": "RC",
+        "question": "The author suggests that the statement 'ninety-eight per cent of the deal is done' says less than it sounds because",
+        "passageId": "RC2",
+        "options": [
+          "the percentage is worked out only for those sectors that matter to India, and the rest of the deal is left uncounted",
+          "the items that remain are the hardest ones, since negotiators settle the easy items first",
+          "negotiators usually exaggerate how far they have got, in order to put pressure on the other side to concede",
+          "items that have been settled are generally reopened as soon as an agreement has been announced to the public"
+        ],
+        "answer": 1,
+        "explanation": "Answer: the remaining items are the hardest, since the easy ones are settled first. Why: paragraph 4 says the percentage 'is not an average of equally difficult items' and that what is left is 'by selection, the hardest'. Why the others fail: nothing in the passage says the percentage covers only sectors important to India, that negotiators exaggerate on purpose, or that settled items are reopened. Tip: 'according to the author' questions are answered by what the text says, not by what is generally true of negotiations."
+      },
+      {
+        "id": "q10",
+        "type": "RC",
+        "question": "Each of the following is mentioned as a reason for India's caution in signing the agreement EXCEPT that",
+        "passageId": "RC2",
+        "options": [
+          "a margin over rivals may shrink or vanish if the structure of tariffs against which it is measured is rewritten",
+          "a ruling of the American Supreme Court has forced the structure of duties to be reconsidered by Washington",
+          "India's officials are waiting for clarity on the American tariff structure before they put their signatures to the text",
+          "the framework that was announced in February has since been withdrawn by the American government"
+        ],
+        "answer": 3,
+        "explanation": "Answer: the option saying the framework has been withdrawn. The passage says the framework was announced in February and the agreement 'remains unsigned', but never that it was withdrawn. The other three appear in the text: paragraph 3 (the margin may shrink or vanish), paragraph 2 (the court ruling forced a reconsideration) and paragraph 2 (India awaits clarity). Tip: be careful with options that sound dramatic; EXCEPT answers are often an overstatement of something the passage says only mildly."
+      },
+      {
+        "id": "q11",
+        "type": "RC",
+        "question": "The statement that 'uncertainty itself acts as a kind of tariff' means that",
+        "passageId": "RC2",
+        "options": [
+          "the government in fact imposes a formal duty on any exporter who signs contracts before the agreement is concluded",
+          "exporters in rival countries are made to pay higher duties whenever the position of India's own exporters is unclear",
+          "uncertainty raises the cost of making commitments that are hard to reverse, much as a duty on trade would",
+          "uncertainty lowers the duties that exporters have to pay on goods which are shipped under contracts that were signed earlier"
+        ],
+        "answer": 2,
+        "explanation": "Answer: uncertainty raises the cost of making hard-to-reverse commitments, as a duty on trade would. Why: the sentence itself explains it: exporters 'need certainty', and uncertainty raises 'the cost of commitments that cannot easily be reversed'. 'A kind of' signals a comparison, not a literal tax. Why the others fail: no formal duty is imposed, rivals' duties are not said to depend on India's position, and uncertainty is never said to lower any duties."
+      },
+      {
+        "id": "q12",
+        "type": "RC",
+        "question": "The author's view on India's decision to wait is best described as",
+        "passageId": "RC2",
+        "options": [
+          "defensible but not free of cost, since the price of waiting has to be weighed against the risk of an illusory margin",
+          "mistaken, since the cost of waiting is certain to be greater than any margin that India could hope to gain over its rivals",
+          "wholly justified, since waiting costs exporters nothing as long as they have planned their shipments well in advance",
+          "irrelevant, since the value of a trade agreement does not in any way depend on the structure of tariffs around it"
+        ],
+        "answer": 0,
+        "explanation": "Answer: defensible but not costless. Why: paragraph 3 calls waiting something a negotiator 'may rationally prefer'; paragraph 5 opens 'None of this makes the delay costless' and ends by saying the cost of waiting 'must be set against the cost of a margin that proves illusory'. Why the others fail: 'mistaken' and 'wholly justified' each ignore half of that balance; 'irrelevant' contradicts the whole argument about the tariff structure."
+      },
+      {
+        "id": "q13",
+        "type": "RC",
+        "question": "Which of the following best states the main point of the passage?",
+        "passageId": "RC3",
+        "options": [
+          "India's record on tuberculosis is better than the figures suggest, since a fall of 38 per cent is faster than any other country has achieved",
+          "The share of the world's cases is a misleading figure that should be dropped in favour of the rate per hundred thousand people",
+          "A fall in deaths proves that tuberculosis will soon be eliminated in India, so that the burden need no longer be a cause for concern",
+          "Progress and burden are different measures that answer different questions, and sound reporting and policy require both of them"
+        ],
+        "answer": 3,
+        "explanation": "Answer: progress and burden measure different things, and both are needed. Why: paragraph 2 separates change from level; paragraph 3 shows level itself has two measures; paragraph 4 says 'Which figure matters depends on who is asking'; the last paragraph says honest reporting 'would give both'. Why the others fail: the passage says the decline is faster than the world's, not than every country's; it says neither share nor rate is wrong, so dropping one is not argued; and it warns that the 'next ten per cent will not be as easy', so 'soon eliminated' is unsupported."
+      },
+      {
+        "id": "q14",
+        "type": "RC",
+        "question": "The author says that 'a high starting point makes rapid improvement easier'. This is because",
+        "passageId": "RC3",
+        "options": [
+          "countries with a large share of the problem receive more money from international bodies than other countries do",
+          "the first gains come from reaching people who were untreated, which is cheaper than finding the hardest cases later",
+          "a high starting point means that the figures were recorded wrongly, so that any later figure is bound to look better",
+          "the world as a whole improves at the same speed as any single country, whatever its starting point happens to be"
+        ],
+        "answer": 1,
+        "explanation": "Answer: early gains come from reaching the untreated, which is cheaper than finding hard cases later. Why: paragraph 2 says 'the first reductions, achieved by extending treatment to people who were previously unreached, are cheaper than the last, which require finding the hardest cases'. Why the others fail: international funding, mistaken records and equal speeds of improvement are all unmentioned. In fact the passage says India improved FASTER than the world."
+      },
+      {
+        "id": "q15",
+        "type": "RC",
+        "question": "According to the passage, a country's share of the world's cases tends to be large if the country is populous because",
+        "passageId": "RC3",
+        "options": [
+          "populous countries are known to have weaker health systems than countries whose populations are small",
+          "the figure is always calculated by the country itself, which has a reason to overstate the extent of the disease",
+          "it is an absolute count, so that size inflates it regardless of the risk run by any given individual",
+          "a rate per hundred thousand people ignores the size of a country, whereas an absolute figure takes it into account"
+        ],
+        "answer": 2,
+        "explanation": "Answer: it is an absolute count, so size inflates it whatever the individual's risk. Why: paragraph 3 says a share 'is an absolute figure, and it will tend to be large for a country that is large', while a rate per hundred thousand 'corrects for size'. Why the others fail: health-system quality and self-reporting are never mentioned, and the last option reverses the passage, which says the RATE corrects for size."
+      },
+      {
+        "id": "q16",
+        "type": "RC",
+        "question": "Each of the following is stated or implied in the passage EXCEPT that",
+        "passageId": "RC3",
+        "options": [
+          "a government should publish only the fall in deaths, since the share of cases might alarm the public needlessly",
+          "measuring progress as change helps to sustain the funding and the staff of a programme that can show improvement",
+          "measuring burden as level helps to decide which districts and groups should receive the most help",
+          "a government that cites only the fall may relax even though a very large number of people remain ill"
+        ],
+        "answer": 0,
+        "explanation": "Answer: the option saying a government should publish only the fall. The passage argues the opposite: paragraph 4 warns that a government citing only the fall 'may relax', and the last paragraph says honest reporting 'would give both'. The other three are in paragraph 4: progress measures sustain effort, burden measures guide resources, and citing only the fall risks complacency. Tip: in EXCEPT questions, the odd one out often contradicts the author's own recommendation."
+      },
+      {
+        "id": "q17",
+        "type": "RC",
+        "question": "The last paragraph suggests that",
+        "passageId": "RC3",
+        "options": [
+          "the public cannot hold two facts in mind at once, so that one of the two statements ought to be left out of reports",
+          "pride in progress and urgency about the burden can be held together, provided the public is shown both facts",
+          "pride and urgency are in conflict, and a government must therefore choose between celebrating and warning",
+          "the World Health Organization's figures are inconsistent and ought not to be quoted in any report on the disease"
+        ],
+        "answer": 1,
+        "explanation": "Answer: pride and urgency can coexist if the public sees both facts. Why: the paragraph says 'The two are consistent, and only a public that is shown both will be able to hold on to the first without losing sight of the second.' Why the others fail: the author asks for BOTH facts to be reported, never for one to be hidden; says the statements are 'consistent', not in conflict; and never questions the WHO's figures."
+      },
+      {
+        "id": "q18",
+        "type": "RC",
+        "question": "The author remarks that 'the next ten per cent will not be as easy as the first' in order to",
+        "passageId": "RC3",
+        "options": [
+          "criticise the government for having stopped its programmes as soon as the first ten per cent had been achieved",
+          "predict that the fall in deaths will soon be reversed, and that the earlier gains will be entirely lost",
+          "warn that continued improvement will grow costlier and is not guaranteed by past success",
+          "argue that percentage figures of this kind are always unreliable, whoever may be the body that compiles them"
+        ],
+        "answer": 2,
+        "explanation": "Answer: to warn that further improvement will be costlier and is not guaranteed. Why: it follows the point that the first reductions are cheap and 'the last ... require finding the hardest cases'. Why the others fail: the passage never says programmes were stopped, never predicts a reversal, and never calls percentage figures unreliable. Tip: when a sentence is an example or a warning inside an argument, ask what point the sentence before it was making."
+      },
+      {
+        "id": "q19",
+        "type": "RC",
+        "question": "According to Dr. Mahapatra, evacuating people from beyond the expected landfall point is defensible chiefly because",
+        "passageId": "CA1",
+        "options": [
+          "forecast tracks are uncertain, and wrongly leaving people in danger costs far more than moving people who were safe",
+          "forecasts can now say exactly where a storm will land, so that evacuation of any wider area is purely a matter of caution",
+          "unnecessary evacuations help the public to remember warnings better, which makes the next order easier to enforce",
+          "beach tourism and water sports are the main source of danger, and their suspension alone would not protect lives"
+        ],
+        "answer": 0,
+        "explanation": "Answer: tracks are uncertain, and the cost of leaving people in danger is far greater than the cost of moving people unnecessarily. Why: he says forecasts do not tell us exactly where a storm will land, the effects 'reach well beyond' the landfall point, and 'When the costs are that unequal, a sensible authority accepts some unnecessary evacuations.' Why the others fail: he says forecasts do NOT give exact landfall; he warns that too many needless moves cause warning fatigue; and he never says tourism is the main danger."
+      },
+      {
+        "id": "q20",
+        "type": "RC",
+        "question": "The 'paradox of prevention' described by Dr. Mahapatra is that",
+        "passageId": "CA1",
+        "options": [
+          "the more people are evacuated, the more people are likely to be harmed by the storm during the evacuation itself",
+          "storms that are forecast with the greatest care are the ones that go on to cause the most damage to the coast",
+          "authorities that prepare well are praised for it, which tempts them to prepare less thoroughly the next time",
+          "successful preparation makes the outcome look uneventful, which invites the belief that the effort was unnecessary"
+        ],
+        "answer": 3,
+        "explanation": "Answer: success looks like nothing happened, so people think the effort was unnecessary. Why: he says 'When preparation works, the outcome looks uneventful, and uneventfulness is mistaken for proof that the effort was unnecessary.' Why the others fail: harm during evacuation, damage increasing with careful forecasting, and authorities being praised into complacency are never mentioned. Tip: a 'paradox' is a result that seems to contradict common sense; here, doing the job well makes the job look pointless."
+      },
+      {
+        "id": "q21",
+        "type": "RC",
+        "question": "Dr. Mahapatra would most likely regard the fact that few lives were lost after a large evacuation as",
+        "passageId": "CA1",
+        "options": [
+          "conclusive proof that the evacuation was excessive, since a well-judged order would have moved fewer people",
+          "no proof by itself that the evacuation was needless, since preparedness should be judged against the hazard and the reach to the vulnerable",
+          "evidence that warning fatigue has been avoided, since the public obeyed the order and suffered no loss",
+          "an indication that the forecast was wrong, since a correct forecast always leads to a large number of deaths"
+        ],
+        "answer": 1,
+        "explanation": "Answer: not proof that the evacuation was needless. Why: in his last answer he says preparedness should not be judged 'by the damage visible afterwards' but by 'whether lives were lost relative to what the hazard could have caused' and whether the vulnerable 'were reached in time'. Why the others fail: 'conclusive proof of excess' is exactly the mistake the paradox of prevention describes; warning fatigue is a separate risk that this fact cannot settle; and a correct forecast does not 'always' mean many deaths."
+      },
+      {
+        "id": "q22",
+        "type": "Vocabulary",
+        "question": "The new chief executive's promise to cut costs sharply without losing a single job was widely seen as an attempt to ________.",
+        "options": [
+          "cross the Rubicon",
+          "turn a blind eye",
+          "move the goalposts",
+          "square the circle"
+        ],
+        "answer": 3,
+        "explanation": "Answer: 'square the circle' means to attempt something that is impossible, or self-contradictory. Cutting costs sharply while losing no jobs is that kind of contradiction. The others: 'cross the Rubicon' means to take a step that cannot be undone; 'turn a blind eye' means to pretend not to notice something; 'move the goalposts' means to change the rules in the middle of a contest."
+      },
+      {
+        "id": "q23",
+        "type": "Vocabulary",
+        "question": "The minister's ________ remarks, delivered with studied indifference, belied the anxiety that his aides privately described.",
+        "options": [
+          "vehement",
+          "pensive",
+          "nonchalant",
+          "guileless"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'nonchalant' means casually unconcerned, which fits 'studied indifference'. 'Belied' means contradicted or gave a false impression of, so the remarks looked calm while he was anxious. The others: 'vehement' (forceful) contradicts indifference; 'pensive' (deeply thoughtful) does not suggest indifference; 'guileless' (innocent, without deceit) clashes with the word 'studied', which suggests a deliberate act."
+      },
+      {
+        "id": "q24",
+        "type": "Vocabulary",
+        "question": "Having been ________ by years of unkept promises, the villagers greeted the new scheme with polite scepticism.",
+        "options": [
+          "jaded",
+          "galvanised",
+          "mollified",
+          "gratified"
+        ],
+        "answer": 0,
+        "explanation": "Answer: 'jaded' means worn out in enthusiasm after long experience of disappointment, which explains their scepticism. The others: 'galvanised' (stirred into action), 'mollified' (calmed down) and 'gratified' (pleased) all describe positive or calming reactions that do not lead to scepticism. Tip: the phrase 'years of unkept promises' tells you the effect on the villagers was negative."
+      },
+      {
+        "id": "q25",
+        "type": "Vocabulary",
+        "question": "The economy looks ________ on the surface, yet its growth is so ________ that a shock to a single sector could prove ________.",
+        "options": [
+          "buoyant; broad; ruinous",
+          "sluggish; narrow; ruinous",
+          "buoyant; narrow; negligible",
+          "buoyant; narrow; ruinous"
+        ],
+        "answer": 3,
+        "explanation": "Answer: buoyant; narrow; ruinous. Step by step. 'Yet' signals contrast: the economy LOOKS good (buoyant, meaning cheerful and growing), but something underneath is weak. Growth concentrated in few sectors is 'narrow', so a shock to one sector could be 'ruinous' (disastrous). 'Broad' growth would not make a single-sector shock ruinous; 'sluggish' would not need 'yet' because there would be no contrast; 'negligible' contradicts the worry in the sentence."
+      },
+      {
+        "id": "q26",
+        "type": "Vocabulary",
+        "question": "Critics called the scheme ________: its benefits were ________ to a few, while its costs were ________ across the many.",
+        "options": [
+          "regressive; confined; diffused",
+          "progressive; confined; diffused",
+          "regressive; diffused; confined",
+          "progressive; diffused; confined"
+        ],
+        "answer": 0,
+        "explanation": "Answer: regressive; confined; diffused. Step by step. A 'regressive' scheme burdens the many and favours the few (a progressive one does the reverse). Benefits 'confined' to a few and costs 'diffused' (spread widely) across the many describes exactly that. The pairs with 'progressive' contradict the criticism. The pair 'diffused; confined' reverses the benefits and costs, making the scheme help the many at the cost of the few, which would not be a criticism."
+      },
+      {
+        "id": "q27",
+        "type": "Vocabulary",
+        "question": "Though the evidence was ________, the committee, anxious to avoid giving offence, chose to ________ its findings and ________ any firm recommendation.",
+        "options": [
+          "damning; sharpen; withhold",
+          "damning; soften; withhold",
+          "inconclusive; soften; withhold",
+          "damning; soften; announce"
+        ],
+        "answer": 1,
+        "explanation": "Answer: damning; soften; withhold. Step by step. 'Though' signals contrast: strong ('damning', meaning severely incriminating) evidence, yet the committee backed away. Anxious to avoid offence, it would 'soften' (not sharpen) its findings and 'withhold' (not announce) a firm recommendation. 'Inconclusive' would remove the contrast that 'though' requires, since weak evidence would naturally lead to a mild report."
+      },
+      {
+        "id": "q28",
+        "type": "Vocabulary",
+        "question": "Far from ________ the shortage, the new rationing rules only ________ it, since hoarding rose sharply.",
+        "options": [
+          "aggravating; mitigated",
+          "mitigating; mitigated",
+          "mitigating; aggravated",
+          "aggravating; aggravated"
+        ],
+        "answer": 2,
+        "explanation": "Answer: mitigating; aggravated. Step by step. Hoarding rose sharply, so the shortage got WORSE: the rules 'aggravated' it. 'Far from X, only Y' needs Y to be the opposite of X, so X must be 'mitigating' (easing). 'Aggravating; aggravated' gives no contrast, and the pairs that end in 'mitigated' contradict the fact that hoarding rose. Tip: 'mitigate' = make less severe; 'aggravate' = make worse."
+      },
+      {
+        "id": "q29",
+        "type": "Vocabulary",
+        "question": "A judge must be ________, having no personal stake in the outcome, but never ________ in the case before him.",
+        "options": [
+          "disinterested; uninterested",
+          "uninterested; disinterested",
+          "disinterested; disinterested",
+          "uninterested; uninterested"
+        ],
+        "answer": 0,
+        "explanation": "Answer: disinterested; uninterested. Step by step. 'Disinterested' means impartial, with no personal stake, which is what 'no personal stake' describes. 'Uninterested' means bored or not caring, which is what a judge must never be. The reversed pair would say a judge should be bored and never impartial. The pairs with the same word twice cannot work, since the sentence contrasts the two qualities. Tip: dis-interested = fair; un-interested = indifferent."
+      },
+      {
+        "id": "q30",
+        "type": "Vocabulary",
+        "question": "The speaker agreed to ________ the usual notice period, and the bill, despite loud ________ from a few members, received the President's ________ within a week.",
+        "options": [
+          "wave; descent; ascent",
+          "waive; descent; assent",
+          "waive; dissent; assent",
+          "wave; dissent; ascent"
+        ],
+        "answer": 2,
+        "explanation": "Answer: waive; dissent; assent. Three homophone pairs. WAIVE = give up a requirement (waive the notice period); WAVE = move the hand or a flowing line of water. DISSENT = disagreement; DESCENT = a going down. ASSENT = formal approval (the President's assent); ASCENT = a climb upward. Each correct word is fixed by the meaning: you waive a rule, members dissent, and the President gives assent. Memory trick: assent and approve both begin with 'a-s/a-p'; ascent has a 'c' like 'climb'."
+      },
+      {
+        "id": "q31",
+        "type": "Vocabulary",
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "The tenants withheld their rent until the repairs were made.",
+          "The central tenant of the policy is that growth must be shared by all.",
+          "The lawyer cited an earlier ruling in support of her argument.",
+          "The site of the new airport was chosen after a long survey."
+        ],
+        "answer": 1,
+        "explanation": "Answer: the sentence with 'central tenant'. A 'tenet' is a principle or belief held by a group, so it should read 'central tenet'. A 'tenant' is a person who rents a property, which is correctly used in the first of the other sentences. 'Cited' (quoted as authority) and 'site' (a place) are also correct. Memory trick: tenet has two e's like 'belief'; tenant has 'ant' for the person living in the flat."
+      },
+      {
+        "id": "q32",
+        "type": "Vocabulary",
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "The lorry remained stationary at the crossing for an hour.",
+          "The dessert was served only after the main course had been cleared.",
+          "The committee's report was a model of brevity and clarity.",
+          "The clerk ordered fresh stationary, including pens, ledgers and envelopes."
+        ],
+        "answer": 3,
+        "explanation": "Answer: the sentence with 'fresh stationary'. 'Stationery' (with an 'e') means writing materials such as pens and paper; 'stationary' (with an 'a') means not moving. So the lorry sentence is correct. 'Dessert' (the sweet course, two s's) is correctly used, as is 'brevity'. Memory trick: stationEry = envElopes; stationAry = stAying in one place."
+      },
+      {
+        "id": "q33",
+        "type": "Vocabulary",
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "The city council approved the revised budget on Friday.",
+          "The defendant was advised by counsel not to comment.",
+          "The minister sought the council of senior jurists before drafting the bill.",
+          "The audience listened in rapt silence to the speaker."
+        ],
+        "answer": 2,
+        "explanation": "Answer: the sentence with 'sought the council of senior jurists'. 'Counsel' means advice (or a lawyer), so the minister should have sought their 'counsel'. A 'council' is a group of people who govern or advise, as in 'city council'. 'Counsel' is correct in the defendant sentence, and 'rapt' (completely absorbed) is correct in the last one. Memory trick: counsel = advice, as in 'counsellor'; council = a committee that meets."
+      },
+      {
+        "id": "q34",
+        "type": "Grammar",
+        "question": "No sooner had the minister reached the venue <u>when</u> the protest began.",
+        "options": [
+          "then",
+          "than",
+          "that",
+          "as"
+        ],
+        "answer": 1,
+        "explanation": "Answer: 'than'. Rule: 'No sooner' is always followed by 'than' (No sooner had he arrived than it began to rain), while 'hardly' and 'scarcely' go with 'when' (Hardly had he arrived when it began to rain). 'No sooner' also takes inversion: 'had + subject + past participle'. 'Then', 'that' and 'as' do not complete this fixed pattern. Memory trick: sooner/than are both comparisons, so 'than' completes the comparison."
+      },
+      {
+        "id": "q35",
+        "type": "Grammar",
+        "question": "Having studied the evidence for months, <u>the verdict seemed unjust to the judges</u>.",
+        "options": [
+          "the verdict appeared unjust to them",
+          "an unjust verdict was what the judges thought",
+          "the unjust verdict was found by the judges",
+          "the judges found the verdict unjust"
+        ],
+        "answer": 3,
+        "explanation": "Answer: 'the judges found the verdict unjust'. Rule: a participle phrase at the start ('Having studied the evidence') must describe the subject of the main clause. Who studied the evidence? The judges, not the verdict. So the judges must be the subject right after the comma. In the other options the subject is 'the verdict', 'an unjust verdict' or 'the unjust verdict', so the opening phrase wrongly seems to describe a verdict (a dangling modifier)."
+      },
+      {
+        "id": "q36",
+        "type": "Grammar",
+        "question": "He spoke softly lest <u>he woke</u> the sleeping child.",
+        "options": [
+          "he should wake",
+          "he would wake",
+          "he will wake",
+          "he was waking"
+        ],
+        "answer": 0,
+        "explanation": "Answer: 'he should wake'. Rule: 'lest' means 'for fear that', and it already carries a negative sense, so it is followed by 'should + base verb' (or the bare subjunctive 'he wake'), never by a plain past tense, 'will' or 'would'. Thus 'He spoke softly lest he should wake the child.' Do not add 'not' after lest: 'lest he should not wake' would be a double negative."
+      },
+      {
+        "id": "q37",
+        "type": "Grammar",
+        "question": "She is not only brilliant <u>but also works hard</u>.",
+        "options": [
+          "but also a hard worker",
+          "but she also works hard",
+          "but also hardworking",
+          "but also does work hard"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'but also hardworking'. Rule: with 'not only ... but also', the two parts must be grammatically parallel. 'Brilliant' is an adjective, so what follows 'but also' must also be an adjective: 'hardworking'. 'A hard worker' is a noun phrase, 'she also works hard' and 'does work hard' are full verb clauses. Quick test: delete 'not only' and 'but also' and see whether the two items can stand side by side: 'brilliant, hardworking'."
+      },
+      {
+        "id": "q38",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nA test that is 95 per cent accurate sounds reliable. ____________________. If the condition affects one person in a thousand, most positive results will still be false alarms.",
+        "options": [
+          "But accuracy alone does not say how often a positive result is correct; that depends also on how rare the condition is.",
+          "A test of that kind is therefore wrong ninety-five times out of a hundred whenever it reports a positive result.",
+          "Rare conditions are never worth testing for, since the results of any test for them will always be unreliable.",
+          "Because the test is accurate, its positive results can be trusted whatever the number of people who have the condition."
+        ],
+        "answer": 0,
+        "explanation": "Answer: the option that accuracy alone does not say how often a positive is correct, because that also depends on how rare the condition is. Why: the sentence after the blank gives the example of a rare condition producing mostly false alarms. So the blank must introduce the idea that rarity matters. Why the others fail: 'wrong ninety-five times out of a hundred' is false; 'never worth testing' is an extreme claim the passage does not make; 'can be trusted whatever the number' is the opposite of the example. Tip: the blank must set up the example that follows."
+      },
+      {
+        "id": "q39",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nProjects are rarely abandoned when they should be. ____________________. Having spent years and large sums on a dam or a metro line, planners feel that stopping would turn the money already spent into waste, though that money is gone whichever way they decide.",
+        "options": [
+          "Planners abandon projects too readily, because the costs already incurred always exceed the benefits that are still to come.",
+          "Past spending is the best guide to the future value of a project, and so it should weigh most heavily in the decision.",
+          "Large projects are seldom abandoned because they are always worth completing, no matter what they have cost so far.",
+          "The reluctance comes from treating past costs as a reason to continue, when only future costs and benefits ought to count."
+        ],
+        "answer": 3,
+        "explanation": "Answer: the option about treating past costs as a reason to continue. Why: the next sentence describes planners who feel stopping would 'waste' money already spent, 'though that money is gone whichever way they decide'. That is the sunk-cost fallacy: only future costs and benefits matter. Why the others fail: 'abandon too readily' contradicts the first sentence; 'past spending ... should weigh most' endorses the very error the passage criticises; 'always worth completing' contradicts 'when they should be'."
+      },
+      {
+        "id": "q40",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nA notification costs its sender almost nothing and costs its receiver a moment of attention. ____________________. Multiplied across hundreds of senders, those moments add up to a tax on attention that no one voted for.",
+        "options": [
+          "Receivers therefore prize notifications highly, since each one is a gift that costs them nothing to accept.",
+          "The sender therefore has little reason to economise, because the cost of the interruption falls entirely on someone else.",
+          "Senders therefore bear the full cost of every interruption, and so they send only those messages that matter.",
+          "Attention is a resource that cannot be wasted, and so no number of messages could ever harm a receiver."
+        ],
+        "answer": 1,
+        "explanation": "Answer: the sender has little reason to economise because the cost falls on someone else. Why: the blank must connect 'costs its sender almost nothing' to the final sentence about a 'tax on attention' that many senders impose together. If the cost is borne by receivers, senders have no incentive to hold back (an externality). Why the others fail: receivers do not 'prize' notifications, since the passage calls the effect a tax; 'senders bear the full cost' contradicts the first sentence; and the last option contradicts the idea that attention is being drained."
+      },
+      {
+        "id": "q41",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. A firm that hands such work to a machine saves money this year but may find that it has stopped producing the seniors it will need in ten.\n2. Every skilled engineer was once a beginner who was given dull work to do.\n3. The saving belongs to the firm; the shortage, if it comes, will belong to the whole industry.\n4. Generative AI now performs much of that routine work faster and more cheaply than a fresher can.\n5. Routine testing, simple bug fixes and first drafts of reports gave juniors the practice from which judgement grows.",
+        "answer": "25413",
+        "explanation": "Answer: 2-5-4-1-3. Step by step. Sentence 2 is the opener: it introduces the idea of a beginner given dull work and needs no earlier sentence. Sentence 5 names that 'dull work' (routine testing, bug fixes) and says what it gave juniors. Sentence 4 says 'that routine work', which refers to the routine work in 5. Sentence 1 says 'such work' (the routine work now done by machines) and states the cost to a firm. Sentence 3 begins 'The saving', which refers to the money saved in 1, and closes the argument. Tip: 'that', 'such' and 'the saving' are pointers back to something already named."
+      },
+      {
+        "id": "q42",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. What matters is how the new duty compares with the duties paid by rival exporters selling the same goods.\n2. Such a margin, however, is measured against a tariff structure, and if that structure is itself struck down or rewritten, the margin can vanish overnight.\n3. This is why negotiators may rationally delay signing until the structure is clear, even when most of the text has been agreed.\n4. A tariff cut is worth little to an exporter in isolation.\n5. A margin of preference over rivals, therefore, is the real prize of a trade deal.",
+        "answer": "41523",
+        "explanation": "Answer: 4-1-5-2-3. Step by step. Sentence 4 states the starting claim (a cut alone is worth little). Sentence 1 explains what does matter: comparison with rivals' duties. Sentence 5 begins 'therefore' and draws the conclusion: the real prize is a margin over rivals. Sentence 2 begins 'Such a margin, however', which needs the margin to have been named in 5, and adds a complication. Sentence 3 begins 'This is why', explaining a consequence of that complication (delay in signing). Tip: 'however' introduces a problem with what came before; 'This is why' introduces a result."
+      },
+      {
+        "id": "q43",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Both are true, and they measure different things: the direction of travel, and the distance still to cover.\n2. The first: deaths have fallen by 38 per cent since 2015, faster than the global rate.\n3. Consider two statements about India's tuberculosis record.\n4. The second: India still accounts for nearly a quarter of the world's cases.",
+        "answer": "3241",
+        "explanation": "Answer: 3-2-4-1. Step by step. Sentence 3 introduces 'two statements' and so must come first. Sentences 2 and 4 are those two statements, and 'The first' must precede 'The second', so 2 comes before 4. Sentence 1 begins 'Both are true', which refers to both statements and so must come after them, as the conclusion. Tip: ordinal words (first, second) and words like 'both' fix the order almost automatically."
+      },
+      {
+        "id": "q44",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Some benefits reach people who should not receive them, as when one household is counted twice.\n2. A good system is therefore judged not by one error rate but by how it balances both.\n3. Others fail to reach people who should, as when a genuine claimant is rejected for want of a matching record.\n4. Welfare schemes go wrong in two opposite ways.\n5. Tightening verification reduces the first error but tends to increase the second.",
+        "answer": "41352",
+        "explanation": "Answer: 4-1-3-5-2. Step by step. Sentence 4 states the overall claim (two opposite ways of going wrong). Sentence 1 begins 'Some benefits', giving the first way. Sentence 3 begins 'Others', which only makes sense after 'Some', giving the second way. Sentence 5 refers to 'the first error' and 'the second', so it must follow both. Sentence 2 begins 'therefore' and 'both', and draws the final conclusion. Tip: pairs such as 'some ... others' and 'the first ... the second' fix the order."
+      },
+      {
+        "id": "q45",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. In a large economy, however, buyers and sellers are strangers, and acquaintance cannot carry the weight.\n2. They allow a stranger's promise to be relied upon without anyone having to know the stranger.\n3. A shopkeeper in a small town needs no contract to sell on credit to a neighbour.\n4. Trust comes cheaply among people who know one another.\n5. Institutions such as courts, credit agencies and regulators are the substitutes that societies invent.",
+        "answer": "43152",
+        "explanation": "Answer: 4-3-1-5-2. Step by step. Sentence 4 states the general idea (trust is cheap among acquaintances). Sentence 3 is an example of it (the small-town shopkeeper). Sentence 1 begins 'In a large economy, however', contrasting with the small-town case. Sentence 5 introduces institutions as 'substitutes' for acquaintance, which only makes sense after the problem in 1. Sentence 2 begins 'They', which refers to the institutions in 5. Tip: 'however' marks a turn in the argument, and a bare 'They' must have a plural noun just before it."
+      }
+    ]
   }
-]
+  ]
