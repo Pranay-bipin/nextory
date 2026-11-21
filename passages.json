@@ -10668,5 +10668,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The structure matches: voluntary giving shows capacity, while accepting binding rules tests willingness to be held to account. Both measures matter and neither substitutes for the other.<br><br>• <strong>Why Option A is Wrong:</strong> This is about advertising and quality; it shows an inference from announcement to substance but not a pairing of two measures answering different questions.<br><br>• <strong>Why Option B is Wrong:</strong> This also merely treats an announcement as an outcome; it lacks the second, complementary measure.<br><br>• <strong>Why Option D is Wrong:</strong> This is a naive trust in a promise, again lacking a second measure of a different kind.<br><br><strong>💡 Approach:</strong> Parallel questions: reduce the passage to a skeleton (two measures, one of capacity and one of acceptance of obligation, each needing the other) and choose the option with both halves."
       }
     ]
+  },
+  {
+    "id": "rc-2026-11-22",
+    "date": "2026-11-22",
+    "title": "The Arithmetic of Tripling: Reading Climate Finance Ratios",
+    "genre": "Current Affairs / Data Reasoning",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1022 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "ineluctable",
+          "type": "adjective",
+          "def": "Impossible to avoid or escape",
+          "ex": "The ineluctable logic of the numbers forced the ministry to act."
+        },
+        {
+          "word": "meretricious",
+          "type": "adjective",
+          "def": "Superficially attractive but without real value",
+          "ex": "The report’s meretricious charts hid thin evidence."
+        },
+        {
+          "word": "peremptory",
+          "type": "adjective",
+          "def": "Insisting on immediate obedience; brusque and commanding",
+          "ex": "His peremptory tone silenced the room."
+        },
+        {
+          "word": "jejune",
+          "type": "adjective",
+          "def": "Naive, simplistic and lacking depth",
+          "ex": "The jejune proposal ignored every practical obstacle."
+        },
+        {
+          "word": "penurious",
+          "type": "adjective",
+          "def": "Extremely poor, or unwilling to spend money",
+          "ex": "The penurious agency could not fund even basic surveys."
+        },
+        {
+          "word": "febrile",
+          "type": "adjective",
+          "def": "Feverishly excited or nervous",
+          "ex": "The febrile mood of the final night made compromise harder."
+        },
+        {
+          "word": "disingenuous",
+          "type": "adjective",
+          "def": "Pretending to be candid or naive when not",
+          "ex": "It was disingenuous to claim he had not seen the figures."
+        },
+        {
+          "word": "laconic",
+          "type": "adjective",
+          "def": "Using very few words",
+          "ex": "Her laconic reply ended the debate."
+        },
+        {
+          "word": "ostensible",
+          "type": "adjective",
+          "def": "Apparent or stated, but not necessarily real",
+          "ex": "The ostensible aim of the fund was relief, though its terms said otherwise."
+        },
+        {
+          "word": "assiduous",
+          "type": "adjective",
+          "def": "Showing great care and persistent effort",
+          "ex": "Assiduous checking caught the error in the table."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "sleight of hand",
+          "def": "Clever trickery that hides what is really happening",
+          "ex": "Counting loans as grants was accounting sleight of hand."
+        },
+        {
+          "idiom": "back of the envelope",
+          "def": "A rough, quick calculation",
+          "ex": "A back-of-the-envelope sum showed the gap was huge."
+        },
+        {
+          "idiom": "keep one’s powder dry",
+          "def": "To stay prepared and hold resources for later",
+          "ex": "The delegation kept its powder dry for the final night."
+        },
+        {
+          "idiom": "cook the books",
+          "def": "To falsify financial records",
+          "ex": "The firm was accused of cooking the books to hide losses."
+        },
+        {
+          "idiom": "rob Peter to pay Paul",
+          "def": "To take from one need to cover another",
+          "ex": "Shifting aid budgets to fund climate pledges robs Peter to pay Paul."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "add up to",
+          "def": "To amount to a total; or to make sense overall",
+          "ex": "The pledges add up to far less than the need."
+        },
+        {
+          "verb": "make up for",
+          "def": "To compensate for a loss or shortfall",
+          "ex": "Higher grants could make up for earlier cuts."
+        },
+        {
+          "verb": "fall behind",
+          "def": "To fail to keep pace with something",
+          "ex": "Funding has fallen behind rising needs."
+        },
+        {
+          "verb": "scale back",
+          "def": "To reduce the size or scope of something",
+          "ex": "Donors scaled back their promises."
+        },
+        {
+          "verb": "top up",
+          "def": "To add more to bring something to a full or desired level",
+          "ex": "The fund was topped up with new pledges."
+        }
+      ]
+    },
+    "passage": "As COP31 in Antalya moved through its second week, one number kept resurfacing in the adaptation talks: three. Developing countries had pressed for a stand-alone agenda item on tripling adaptation finance, and on 9 November the opening plenary adopted an agenda without it, leaving the topic to be handled under other headings, according to one outlet’s account of the session. A week later, at his final COP press conference before leaving office at the end of the year, the UN Secretary-General, Antonio Guterres, put a second number beside the first. “Even tripling adaptation finance,” he said, “would meet less than 30 per cent of what is needed.” The figures behind the remark are the UNEP Adaptation Gap Report 2026’s estimate that developing countries need about $305 billion a year by 2035 for adaptation, and a reported range of $28.2 billion to $31.7 billion for international public adaptation finance flowing from developed to developing countries in 2024.\n\nThe remark invites a check, and the check is instructive. Tripling the lower figure gives about $85 billion; tripling the upper gives about $95 billion. Divided by $305 billion, these come to roughly 28 and 31 per cent. Guterres’s “less than 30 per cent” is therefore comfortably true at the bottom of the range and marginally false at the top, which is to say that it is a fair rounding of an answer that straddles the line. Nothing about this is scandalous. A speaker at a press conference is entitled to a round number. But the exercise shows how much a single tidy ratio hides, because every ratio rests on three choices: what goes in the numerator, what goes in the denominator, and which year the comparison is made in. Change any of them modestly and the headline moves across the very threshold on which the sentence depends.\n\nTake the denominator first. A need of $305 billion is an estimate, built from assumptions about which adaptation measures are adequate, where and for whom, and it is an estimate for a future year. Needs are not static: they rise as warming advances and as exposed assets accumulate, so a sum that looked adequate against today’s estimate may fall short of a later one. A ratio of two uncertain quantities inherits the uncertainty of both, and quoting it to the nearest percentage point conveys a precision that neither input can support. This is not a complaint against estimates, which are indispensable; it is a reminder that the right way to read “about 30 per cent” is as an order of magnitude, a statement that the gap is large rather than a measurement of how large.\n\nThe numerator is subtler. “Tripling” from what? A single year’s flow, an average over several years, a promised figure and a delivered one can differ materially, and the choice of base can add or subtract several billion dollars before any tripling takes place. What counts is as disputed as what is counted: international public finance includes loans as well as grants, and a debt-stressed country that receives a tripled sum largely in loans has received something different from one that receives it in grants. The Climate Action Network’s demand for at least $120 billion in public, grant-based finance well ahead of 2035 is, among other things, an argument about the nature of the numerator. Whether money is genuinely new or repackaged from existing aid, and whether it arrives in time to protect the people it is meant for, are further questions that no headline multiple can answer.\n\nTiming adds a fourth variable that the ratio quietly flattens. The target year, 2035, is nine years away, and a multiple reached only at the end of that period is a very different thing from one reached early and sustained. A programme that lifts flows slowly, and arrives at triple the baseline in the final year, will have delivered far less cumulative protection than one that reaches the same level in the middle of the period, even though both can truthfully report the same multiple on the closing date. Adaptation is also lumpy and local: a sea wall, a flood-warning system or a drought-resistant seed programme protects people only when it is finished and maintained, so money that arrives late, or in pieces too small to complete anything, buys less than its face value. A ratio computed for a single year cannot see any of this, and the same is true of the headline sentence quoted above.\n\nWhy, then, does the multiple have such appeal? Because it is simple. A target to “meet needs” would require agreement on a needs figure, which is exactly what is contested; a target to “triple” can be stated in a word, remembered by a delegate, and checked by anyone with a calculator. Its defenders add that an achievable target which is met is worth more than an ideal one that is missed, and that donors, who must persuade finance ministries, can sell a multiple more easily than an open-ended bill. Its critics respond that a multiple can become the goal itself, detached from the need that justified it, allowing success to be declared while the gap remains. Guterres’s remark is aimed squarely at that risk. A third view, which seems to me the most defensible, is that the two are not rivals at all: a multiple is a milestone, and need is the destination, and trouble begins only when the first is mistaken for the second.\n\nIt would be easy, and wrong, to treat the Secretary-General’s figure as a refutation of the tripling proposal or as a vindication of it. It does neither. At best it establishes that tripling, on the reported baseline, is necessary but not sufficient, a conclusion that holds at any reasonable choice of numerator and denominator. Whether tripling then becomes a ceiling or a floor depends on what follows it: on whether reviews keep measuring delivery against need, whether the money arrives as grants, and whether the baseline is stated honestly. The negotiations have not settled any of these questions, and a reader would do well to distrust any account, optimistic or alarmed, that pretends otherwise.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best captures the central argument of the passage?",
+        "options": [
+          "A) Guterres’s claim that tripling would meet under 30 per cent of need is false, and the tripling proposal should therefore be abandoned in favour of a target tied directly to needs.",
+          "B) A tidy ratio such as “less than 30 per cent” depends on contestable choices, so it is best read as an order of magnitude, and a multiple is a milestone rather than a destination.",
+          "C) Developing countries were wrong to seek a stand-alone agenda item on tripling adaptation finance, because the multiple chosen is too imprecise to guide negotiators in any useful way.",
+          "D) Estimates of adaptation need are so unreliable that every figure quoted in climate negotiations should be disregarded until a definitive and universally accepted measure is found."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The passage walks through numerator, denominator and year to show the ratio’s fragility, reads “about 30 per cent” as an order of magnitude, and ends by calling a multiple a milestone and need the destination. B joins both strands.<br><br>• <strong>Why Option A is Wrong:</strong> The author says the remark is “a fair rounding” and that it neither refutes nor vindicates tripling. “False” and “abandoned” contradict this.<br><br>• <strong>Why Option C is Wrong:</strong> The agenda item is mentioned only as background, and the author never says developing countries were wrong; the multiple is defended as a milestone.<br><br>• <strong>Why Option D is Wrong:</strong> The author says estimates are “indispensable” and “not a complaint”. Disregarding every figure is far beyond the claim.<br><br><strong>💡 Approach:</strong> Central-argument questions: choose the option that keeps the author’s qualifications. Options that flip a balanced verdict into abandonment or dismissal are usually extreme."
+      },
+      {
+        "id": "q2",
+        "question": "Based on the figures in the passage, which of the following is correct?",
+        "options": [
+          "A) Tripling the lower 2024 flow figure would give a sum above 30 per cent of the estimated need, so the Secretary-General’s statement is false at both ends of the range.",
+          "B) Tripling either end of the reported range would cover roughly half of the $305 billion need, which makes the Secretary-General’s claim an understatement.",
+          "C) Tripling the upper end of the range gives a share slightly above 30 per cent, so the statement holds on the lower baseline but only marginally fails on the upper.",
+          "D) Tripling the lower end gives about $85 billion and the upper about $95 billion, shares that are both comfortably under 25 per cent of the estimated need."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> 3 × 28.2 ≈ 84.6 and 3 × 31.7 ≈ 95.1; divided by 305 these are about 27.7% and 31.2%. The statement is true at the lower end and just fails at the upper, as the passage says.<br><br>• <strong>Why Option A is Wrong:</strong> The lower end yields about 28%, which is below 30%, so the statement is true there. The option is wrong about the lower end.<br><br>• <strong>Why Option B is Wrong:</strong> $85–95 billion is roughly 28–31%, not half. Half of $305 billion would be about $150 billion.<br><br>• <strong>Why Option D is Wrong:</strong> The sums are right but the shares are about 28% and 31%, not under 25%.<br><br><strong>💡 Approach:</strong> Numerical questions: do the arithmetic before reading options. Two of the four options usually fail on a single calculation."
+      },
+      {
+        "id": "q3",
+        "question": "Each of the following is offered in the passage as a reason that the “less than 30 per cent” figure should be handled with care, EXCEPT:",
+        "options": [
+          "A) The estimated need for adaptation finance may rise as warming advances.",
+          "B) The base year from which tripling is calculated can shift the result.",
+          "C) International public finance can include loans, which differ in effect from grants.",
+          "D) Developed countries have deliberately understated their 2024 adaptation flows."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> Nothing in the passage alleges deliberate understatement. It mentions a “reported range” and the risk of repackaged money, but never accuses donors of understating flows.<br><br>• <strong>Why Option A is Wrong:</strong> Offered in the third paragraph: needs “rise as warming advances”.<br><br>• <strong>Why Option B is Wrong:</strong> Offered in the fourth paragraph: the choice of base can add or subtract billions before tripling.<br><br>• <strong>Why Option C is Wrong:</strong> Offered in the fourth paragraph: loans differ from grants for debt-stressed countries.<br><br><strong>💡 Approach:</strong> In EXCEPT questions, each true option can be matched to a sentence. The odd one out usually adds an accusation or motive that the passage avoids."
+      },
+      {
+        "id": "q4",
+        "question": "Which of the following, if true, would most weaken the author’s concern that a multiple can become the goal, detached from need?",
+        "options": [
+          "A) Past multiple-based pledges were routinely followed by reviews measuring delivery against assessed need and pressing for more.",
+          "B) Many finance ministries find a simple multiple easier to approve than an open-ended commitment whose eventual size cannot be fixed.",
+          "C) Adaptation needs estimates have been revised upward in several recent assessments as exposure and asset values have grown.",
+          "D) Some donors have counted loans toward their pledges, which delivers far less benefit to recipients than grants of the same size."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The worry is that success is declared on the multiple while need goes unmet. If reviews routinely benchmark against need and push for more, the multiple does not detach from need, which directly weakens the worry.<br><br>• <strong>Why Option B is Wrong:</strong> This explains the appeal of multiples, which the author already grants; it does not address detachment from need.<br><br>• <strong>Why Option C is Wrong:</strong> Rising need widens the gap and, if anything, supports the concern.<br><br>• <strong>Why Option D is Wrong:</strong> This is a further reason the multiple may mislead, so it strengthens the concern.<br><br><strong>💡 Approach:</strong> Weaken: identify the exact claim (a multiple can replace need as the goal) and look for evidence that something keeps linking the two."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following most closely parallels the problem the author raises about the numerator?",
+        "options": [
+          "A) A school announces that it will triple its library budget and, because the budget is small, the increase seems modest to parents.",
+          "B) A hospital promises faster treatment and publishes waiting times only for patients who arrive in the morning.",
+          "C) A city pledges to triple affordable housing but counts flats let at near-market rents, so the total says little about need.",
+          "D) A company triples its safety training budget and then finds that the injury rate has remained unchanged in the following year."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The numerator problem is that what is counted (loans, repackaged money) can inflate the multiple without meeting the need. C has the same structure: a tripled total that includes items which do not serve the purpose.<br><br>• <strong>Why Option A is Wrong:</strong> This is about perceived size, not about what is counted in the figure.<br><br>• <strong>Why Option B is Wrong:</strong> This is selective reporting of a statistic, which is not the same as inflating a total with items that do not serve the purpose.<br><br>• <strong>Why Option D is Wrong:</strong> This is an outcome failing after a genuine increase, with no problem in what counts toward the number.<br><br><strong>💡 Approach:</strong> Parallel: strip the passage’s issue to its skeleton (a headline total padded with items that do not serve the purpose) and ignore surface similarities such as “triple”."
+      },
+      {
+        "id": "q6",
+        "question": "With which of the following would the author most likely agree?",
+        "options": [
+          "A) A target that falls short of the need it addresses is of no value, since it allows donors to declare success prematurely.",
+          "B) A target can be a worthwhile milestone even if known to fall short of need, provided it is not mistaken for the destination.",
+          "C) The better course is to adopt only targets that match an agreed needs figure, since any other target will be misused by donors.",
+          "D) The Secretary-General’s figure shows that tripling adaptation finance is an inadequate goal and should be replaced by a larger multiple."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author’s “most defensible” view is that a multiple is a milestone and need the destination, and that trouble comes only when the two are confused.<br><br>• <strong>Why Option A is Wrong:</strong> “No value” and the assumption of premature declarations contradict the author’s defence of milestones.<br><br>• <strong>Why Option C is Wrong:</strong> This is an absolute (“only”, “any other”) that the author does not endorse, noting that needs figures are themselves contested.<br><br>• <strong>Why Option D is Wrong:</strong> The author says the figure neither refutes nor vindicates tripling, and proposes no larger multiple.<br><br><strong>💡 Approach:</strong> Agree-with: the author’s own balanced conclusion is the anchor. Options with “no value”, “only” or “replace” are usually extreme."
+      }
+    ]
   }
 ]
