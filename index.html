@@ -276,6 +276,27 @@
         .archive-item:hover { border-color: var(--green-primary); transform: translateX(4px); box-shadow: var(--shadow-subtle); }
 
         .notice-box { padding: 14px 16px; border-radius: 10px; background: #fffbeb; border: 1px solid #fde68a; color: #92400e; font-size: 0.88rem; }
+
+        /* ---------- SAVED ATTEMPTS ---------- */
+        .att-badge { display: inline-block; background: var(--green-bg); color: var(--green-hover); border: 1px solid var(--green-border); font-size: 0.72rem; font-weight: 700; padding: 2px 9px; border-radius: 20px; }
+        .att-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; margin: 18px 0; }
+        .att-chips { display: flex; gap: 8px; flex-wrap: wrap; margin: 6px 0 16px; }
+        .att-chip { background: #ffffff; border: 1px solid var(--border-light); color: var(--text-body); padding: 7px 14px; border-radius: 20px; font-size: 0.82rem; font-weight: 700; cursor: pointer; transition: all 0.15s ease; }
+        .att-chip:hover { border-color: var(--green-primary); }
+        .att-chip.active { background: var(--green-hover); border-color: var(--green-hover); color: #ffffff; }
+        .att-card { background: #ffffff; border: 1px solid var(--border-light); border-radius: 12px; padding: 16px 18px; margin-bottom: 12px; box-shadow: var(--shadow-subtle); }
+        .att-card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
+        .att-title { font-weight: 800; color: var(--text-heading); font-size: 0.98rem; }
+        .att-sub { font-size: 0.78rem; color: var(--text-muted); margin-top: 3px; }
+        .att-metrics { display: flex; gap: 18px; flex-wrap: wrap; margin: 12px 0; font-size: 0.84rem; color: var(--text-body); }
+        .att-metrics b { color: var(--text-heading); font-size: 1rem; }
+        .att-metrics span.lbl { display: block; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); font-weight: 700; }
+        .att-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+        .att-actions .primary-btn, .att-actions .secondary-btn { padding: 8px 16px; font-size: 0.82rem; }
+        .att-danger { color: var(--status-wrong) !important; }
+        .att-up { color: var(--status-correct); font-weight: 800; }
+        .att-down { color: var(--status-wrong); font-weight: 800; }
+        .att-best { background: #fffbeb; color: #b45309; border: 1px solid #fde68a; font-size: 0.7rem; font-weight: 800; padding: 2px 8px; border-radius: 20px; margin-left: 6px; }
     </style>
 </head>
 <body>
@@ -291,6 +312,7 @@
             <button id="btn-dilr" class="nav-btn" onclick="navigateTab('dilr')">📊 Daily DI/LR</button>
             <button id="btn-sectional" class="nav-btn" onclick="navigateTab('sectional')">⚡ Sectionals</button>
             <button id="btn-sec-archive" class="nav-btn" onclick="navigateTab('sec-archive')">📂 Past Sectionals</button>
+            <button id="btn-attempts" class="nav-btn" onclick="navigateTab('attempts')">📈 My Attempts (<span id="attempts-count">0</span>)</button>
             <button id="btn-saved" class="nav-btn" onclick="navigateTab('saved')">🔖 Saved Hub (<span id="saved-count">0</span>)</button>
             <button id="btn-archive" class="nav-btn" onclick="navigateTab('archive')">📂 Past RCs</button>
         </div>
@@ -357,6 +379,7 @@
                             <button id="next-btn" class="nav-btn" onclick="navQuestion(1)">Next →</button>
                         </div>
                         <button id="submit-test-btn" class="submit-btn" onclick="confirmSubmission('reading')">🚀 Submit Test</button>
+                        <button id="retake-btn" class="primary-btn" style="width:100%; margin-top:10px; display:none;" onclick="retakeReading()">🔁 Attempt Again</button>
                     </div>
                 </div>
             </div>
@@ -385,6 +408,24 @@
             <div class="question-card">
                 <h2 style="margin-bottom: 15px; color: var(--text-heading);">Past Sectionals Archive (IPMAT Indore Standard)</h2>
                 <div id="sec-archive-container">Loading Past Sectionals...</div>
+            </div>
+        </div>
+
+        <!-- MY ATTEMPTS TAB -->
+        <div id="panel-attempts" class="view-panel">
+            <div class="question-card">
+                <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:12px;">
+                    <div>
+                        <h2 style="color: var(--text-heading);">📈 My Attempts</h2>
+                        <p style="color:var(--text-muted); font-size:0.9rem; margin-top:4px;">Every sectional, reading passage and DI/LR set you submit is saved here on this device. Review the solutions and analysis any time, or attempt a test again.</p>
+                    </div>
+                    <div style="display:flex; gap:8px; flex-wrap:wrap;">
+                        <button class="secondary-btn" onclick="exportAttempts()" title="Download a backup file of all your attempts">⬇️ Backup</button>
+                        <label class="secondary-btn" style="cursor:pointer;" title="Restore attempts from a backup file">⬆️ Restore<input type="file" accept="application/json,.json" style="display:none;" onchange="importAttempts(this)"></label>
+                        <button class="secondary-btn att-danger" onclick="clearAllAttempts()">🗑️ Clear all</button>
+                    </div>
+                </div>
+                <div id="attempts-container">Loading attempts...</div>
             </div>
         </div>
 
@@ -688,6 +729,7 @@
         }
 
         function renderSectionalArchive(sectionalsList) {
+            secArchiveList = sectionalsList;
             const container = document.getElementById('sec-archive-container');
             if (!container) return;
 
@@ -696,6 +738,7 @@
                     <div>
                         <strong style="color:var(--text-heading);">${esc(s.title)}</strong>
                         <div style="font-size:0.8rem; color:var(--text-muted); margin-top:4px;">Duration: ${esc(s.durationMinutes || 40)} Mins | Date: ${esc(s.date || 'Practice Set')}</div>
+                        ${attemptBadge('sectional', s)}
                     </div>
                     <span class="sub-tag">Open Test</span>
                 </div>
@@ -877,7 +920,10 @@
                                 <button class="nav-btn" onclick="navDILRQ(-1)">← Previous</button>
                                 <button class="nav-btn" onclick="navDILRQ(1)">Next →</button>
                             </div>
-                            <button class="submit-btn" onclick="confirmSubmission('dilr')" style="margin-top: 20px;">🚀 Submit DI/LR Set</button>
+                            ${isDILRSubmitted
+                                ? `<button class="primary-btn" style="width:100%; margin-top:20px;" onclick="retakeDILR()">🔁 Attempt Again</button>
+                                   <button class="secondary-btn" style="width:100%; margin-top:10px;" onclick="navigateTab('attempts')">📈 My Attempts</button>`
+                                : `<button class="submit-btn" onclick="confirmSubmission('dilr')" style="margin-top: 20px;">🚀 Submit DI/LR Set</button>`}
                         </div>
                     </div>
                 </div>`;
@@ -981,6 +1027,7 @@
                     </div>
                     <h1>${esc(todaySectional.title)}</h1>
                     <p style="margin-bottom:20px;">Strict IPMAT Indore pattern (RCs, Para Jumbles, Verbal Reasoning, Grammar & Vocab).</p>
+                    ${attemptBadge('sectional', todaySectional) ? `<div style="margin:-8px 0 16px;">${attemptBadge('sectional', todaySectional)} <a href="#" onclick="navigateTab('attempts'); return false;" style="font-size:0.8rem; font-weight:700; color:var(--green-hover);">View in My Attempts →</a></div>` : ''}
                     <button class="primary-btn" onclick="startFullSectionalTest()">🚀 Start Sectional Test</button>
                 </div>`;
         }
@@ -1149,7 +1196,10 @@
                     <button class="secondary-btn" style="flex: 1;" onclick="clearSectionalAnswer()">🧹 Clear Option</button>
                     <button class="nav-btn" onclick="navSectionalQ(1)">Next →</button>
                 </div>
-                <button class="submit-btn" onclick="confirmSubmission('sectional')" style="margin-top: 20px;">🚀 Submit Sectional Test</button>`;
+                ${isSectionalSubmitted
+                    ? `<button class="primary-btn" style="width:100%; margin-top:20px;" onclick="beginSectionalAttempt()">🔁 Attempt Again</button>
+                       <button class="secondary-btn" style="width:100%; margin-top:10px;" onclick="navigateTab('attempts')">📈 My Attempts</button>`
+                    : `<button class="submit-btn" onclick="confirmSubmission('sectional')" style="margin-top: 20px;">🚀 Submit Sectional Test</button>`}`;
 
             const passageText = (q.passage || isRCType(q)) ? getSectionalPassage(q, secCurrentQIndex) : null;
 
@@ -1365,23 +1415,29 @@
         }
 
         function submitSectionalTest() {
+            if (isSectionalSubmitted || !todaySectional) return;
             pauseSectionalTimer();
             isSectionalSubmitted = true;
             const timeSpent = Math.max(0, 2400 - Math.max(sectionalSeconds, 0));
+            saveAttempt('sectional', todaySectional, sectionalUserAnswers, timeSpent);
             generateAdvancedDashboard(todaySectional.title || "IPMAT Sectional", todaySectional.questions, sectionalUserAnswers, timeSpent, true);
             renderSectionalQuestion();
         }
 
         function submitDILRSet() {
+            if (isDILRSubmitted || !currentDILR) return;
             pauseDILRTimer();
             isDILRSubmitted = true;
+            saveAttempt('dilr', currentDILR, dilrUserAnswers, dilrSecondsElapsed);
             generateAdvancedDashboard(currentDILR.title || "Daily DI/LR Set", currentDILR.questions, dilrUserAnswers, dilrSecondsElapsed, false);
             renderDILRSet();
         }
 
         function submitTest() {
+            if (isSubmitted || !currentRC) return;
             pauseTimer();
             isSubmitted = true;
+            saveAttempt('reading', currentRC, userAnswers, secondsElapsed);
             generateAdvancedDashboard(currentRC.title || "Daily Reading Passage", currentRC.questions, userAnswers, secondsElapsed, false);
             renderQuestion();
         }
@@ -1451,6 +1507,7 @@
                 else if (!isDILRSubmitted && currentDILR) startDILRTimer();
             }
             if (tabName === 'saved') renderSavedHub();
+            if (tabName === 'attempts') renderAttemptsHub();
         }
 
         function persistSaved() {
@@ -1583,6 +1640,8 @@
             document.getElementById('q-progress').innerText = `Q ${currentQIndex + 1} of ${qList.length}`;
             document.getElementById('q-text').innerText = q.question;
             
+            const retakeBtn = document.getElementById('retake-btn');
+            if (retakeBtn) retakeBtn.style.display = isSubmitted ? 'block' : 'none';
             const expBox = document.getElementById('q-explanation');
             if (isSubmitted) {
                 expBox.style.display = 'block';
@@ -1629,11 +1688,13 @@
 
         function renderArchive(availablePassages) {
             const listToRender = availablePassages || allPassages;
+            rcArchiveList = listToRender;
             const archiveHtml = listToRender.map(p => `
                 <div class="archive-item" data-id="${esc(p.id)}" onclick="selectArchiveRC(this.dataset.id)">
                     <div>
                         <strong style="color:var(--text-heading);">${esc(p.title)}</strong>
                         <div style="font-size:0.8rem; color:var(--text-muted); margin-top:4px;">${esc(p.genre)} | ${esc(p.date || 'IPMAT Practice Set')}</div>
+                        ${attemptBadge('reading', p)}
                     </div>
                     <span class="sub-tag">Open Test</span>
                 </div>
@@ -1649,6 +1710,385 @@
             renderVocab(currentRC.vocab);
             navigateTab('reading');
         }
+
+        /* =====================================================
+           SAVED ATTEMPTS (stored in this browser's localStorage)
+           ===================================================== */
+        const ATTEMPTS_KEY = 'nextory_attempts_v1';
+        const ATTEMPTS_MAX = 300;
+        let attemptsFilter = 'all';
+        let secArchiveList = [];
+        let rcArchiveList = [];
+        let attemptsTrendChart = null;
+
+        function loadAttempts() {
+            try {
+                const a = JSON.parse(localStorage.getItem(ATTEMPTS_KEY));
+                return Array.isArray(a) ? a : [];
+            } catch (e) { return []; }
+        }
+
+        function storeAttempts(list) {
+            try { localStorage.setItem(ATTEMPTS_KEY, JSON.stringify(list)); return true; }
+            catch (e) { console.warn('Could not save attempts', e); return false; }
+        }
+
+        // Stable identity of a test: its id, or date + title when it has no id
+        function testKey(t) {
+            if (!t) return '';
+            return String(t.id !== undefined && t.id !== null && t.id !== '' ? t.id : ((t.date || '') + '|' + (t.title || '')));
+        }
+
+        function updateAttemptsBadge() {
+            const el = document.getElementById('attempts-count');
+            if (el) el.innerText = loadAttempts().length;
+        }
+
+        function refreshArchives() {
+            try {
+                if (secArchiveList.length) renderSectionalArchive(secArchiveList);
+                if (rcArchiveList.length) renderArchive(rcArchiveList);
+            } catch (e) { console.warn(e); }
+        }
+
+        function saveAttempt(kind, test, answers, timeSpent) {
+            try {
+                if (!test || !test.questions) return;
+                let correct = 0, incorrect = 0, unattempted = 0, score = 0;
+                test.questions.forEach((q, i) => {
+                    const a = answers[i];
+                    if (!isAttemptedAns(a)) { unattempted++; return; }
+                    if (isAnswerCorrect(q, a)) { correct++; score += 4; }
+                    else { incorrect++; if (!isTitaQ(q)) score -= 1; }
+                });
+                const list = loadAttempts();
+                const key = testKey(test);
+                const attemptNo = list.filter(x => x.kind === kind && x.testKey === key).length + 1;
+                list.push({
+                    id: 'a' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+                    kind: kind,
+                    testKey: key,
+                    title: test.title || 'Untitled test',
+                    testDate: test.date || '',
+                    savedAt: new Date().toISOString(),
+                    timeSpent: Math.max(0, Math.round(timeSpent || 0)),
+                    answers: Object.assign({}, answers),
+                    times: (kind === 'sectional' && window.__saGetTimes) ? window.__saGetTimes() : null,
+                    qCount: test.questions.length,
+                    correct: correct, incorrect: incorrect, unattempted: unattempted,
+                    score: score, maxScore: test.questions.length * 4,
+                    attemptNo: attemptNo
+                });
+                while (list.length > ATTEMPTS_MAX) list.shift();
+                storeAttempts(list);
+                updateAttemptsBadge();
+                refreshArchives();
+            } catch (e) { console.warn('Attempt not saved', e); }
+        }
+
+        function attemptBadge(kind, t) {
+            const key = testKey(t);
+            const mine = loadAttempts().filter(x => x.kind === kind && x.testKey === key);
+            if (!mine.length) return '';
+            const best = Math.max.apply(null, mine.map(x => Number(x.score) || 0));
+            return `<div style="margin-top:6px;"><span class="att-badge">✓ Attempted ×${mine.length} · Best ${best}/${Number(mine[0].maxScore) || 0}</span></div>`;
+        }
+
+        function findTestForAttempt(rec) {
+            const pool = rec.kind === 'sectional' ? allSectionals : rec.kind === 'reading' ? allPassages : allDILRSets;
+            return (pool || []).find(t => testKey(t) === rec.testKey) || null;
+        }
+
+        // Protect an unfinished attempt from being overwritten
+        function confirmDiscardInProgress() {
+            const busy =
+                (!isSectionalSubmitted && Object.keys(sectionalUserAnswers).length > 0) ||
+                (!isSubmitted && Object.keys(userAnswers).length > 0) ||
+                (!isDILRSubmitted && Object.keys(dilrUserAnswers).length > 0);
+            return busy ? confirm('You have a test in progress. Opening another test will discard those unsaved answers. Continue?') : true;
+        }
+
+        function reviewAttempt(id) {
+            const rec = loadAttempts().find(x => x.id === id);
+            if (!rec) return;
+            const test = findTestForAttempt(rec);
+            if (!test || !test.questions) {
+                alert('This test is no longer on the site, so it cannot be reopened. Your score summary stays saved here.');
+                return;
+            }
+            if (test.questions.length !== rec.qCount &&
+                !confirm('This test was edited after you attempted it, so some answers may not line up. Review anyway?')) return;
+            if (!confirmDiscardInProgress()) return;
+
+            const answers = Object.assign({}, rec.answers);
+            if (rec.kind === 'sectional') {
+                clearInterval(sectionalTimerInterval);
+                isSectionalTimerActive = false;
+                todaySectional = test;
+                sectionalUserAnswers = answers;
+                isSectionalSubmitted = true;
+                sectionalSeconds = Math.max(0, 2400 - (Number(rec.timeSpent) || 0));
+                secCurrentQIndex = 0;
+                if (window.__saSetTimes) window.__saSetTimes(rec.times || {});
+                navigateTab('sectional');
+                renderSectionalContainerLayout();
+                renderSectionalQuestion();
+                if (window.showSectionalAnalysis) window.showSectionalAnalysis(test.title || 'IPMAT Sectional', test.questions, answers, Number(rec.timeSpent) || 0);
+            } else if (rec.kind === 'reading') {
+                currentRC = test;
+                renderReadingTest(test, true);
+                renderVocab(test.vocab);
+                userAnswers = answers;
+                isSubmitted = true;
+                secondsElapsed = Number(rec.timeSpent) || 0;
+                updateTimerDisplay();
+                navigateTab('reading');
+                renderQuestion();
+                generateAdvancedDashboard(test.title || 'Daily Reading Passage', test.questions, answers, secondsElapsed, false);
+            } else {
+                pauseDILRTimer();
+                isDILRComingSoon = false;
+                currentDILR = test;
+                dilrQIndex = 0;
+                dilrUserAnswers = answers;
+                isDILRSubmitted = true;
+                dilrSecondsElapsed = Number(rec.timeSpent) || 0;
+                navigateTab('dilr');
+                renderDILRSet();
+                generateAdvancedDashboard(test.title || 'Daily DI/LR Set', test.questions, answers, dilrSecondsElapsed, false);
+            }
+        }
+
+        function retakeFromAttempt(id) {
+            const rec = loadAttempts().find(x => x.id === id);
+            if (!rec) return;
+            const test = findTestForAttempt(rec);
+            if (!test || !test.questions) {
+                alert('This test is no longer on the site, so it cannot be attempted again.');
+                return;
+            }
+            if (!confirmDiscardInProgress()) return;
+
+            if (rec.kind === 'sectional') {
+                todaySectional = test;
+                navigateTab('sectional');
+                beginSectionalAttempt();
+            } else if (rec.kind === 'reading') {
+                currentRC = test;
+                renderReadingTest(test, true);
+                renderVocab(test.vocab);
+                navigateTab('reading'); // starts the timer for a fresh attempt
+            } else {
+                pauseDILRTimer();
+                isDILRComingSoon = false;
+                currentDILR = test;
+                dilrQIndex = 0;
+                dilrUserAnswers = {};
+                isDILRSubmitted = false;
+                dilrSecondsElapsed = 0;
+                navigateTab('dilr');
+                renderDILRSet();
+            }
+        }
+
+        // "Attempt Again" buttons inside the test screens
+        function retakeReading() {
+            if (!currentRC) return;
+            renderReadingTest(currentRC, true);
+            startTimer();
+        }
+
+        function retakeDILR() {
+            if (!currentDILR) return;
+            pauseDILRTimer();
+            dilrQIndex = 0;
+            dilrUserAnswers = {};
+            isDILRSubmitted = false;
+            dilrSecondsElapsed = 0;
+            startDILRTimer();
+            renderDILRSet();
+        }
+
+        function deleteAttempt(id) {
+            if (!confirm('Delete this saved attempt? This cannot be undone.')) return;
+            storeAttempts(loadAttempts().filter(x => x.id !== id));
+            updateAttemptsBadge();
+            refreshArchives();
+            renderAttemptsHub();
+        }
+
+        function clearAllAttempts() {
+            if (!loadAttempts().length) return;
+            if (!confirm('Delete ALL saved attempts on this device? This cannot be undone. (Use Backup first if you want to keep a copy.)')) return;
+            storeAttempts([]);
+            updateAttemptsBadge();
+            refreshArchives();
+            renderAttemptsHub();
+        }
+
+        function setAttemptsFilter(f) {
+            attemptsFilter = f;
+            renderAttemptsHub();
+        }
+
+        function exportAttempts() {
+            const blob = new Blob([JSON.stringify({ app: 'nextory', version: 1, exportedAt: new Date().toISOString(), attempts: loadAttempts() }, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'nextory-attempts-backup.json';
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+            setTimeout(() => URL.revokeObjectURL(url), 1000);
+        }
+
+        function importAttempts(input) {
+            const file = input.files && input.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = () => {
+                try {
+                    const data = JSON.parse(reader.result);
+                    const incoming = Array.isArray(data) ? data : data.attempts;
+                    if (!Array.isArray(incoming)) throw new Error('bad file');
+                    const cur = loadAttempts();
+                    const ids = new Set(cur.map(x => x.id));
+                    let added = 0;
+                    incoming.forEach(x => {
+                        if (x && typeof x.id === 'string' && ['sectional', 'reading', 'dilr'].includes(x.kind) &&
+                            typeof x.testKey === 'string' && typeof x.savedAt === 'string' && x.answers && typeof x.answers === 'object' && !ids.has(x.id)) {
+                            cur.push(x); ids.add(x.id); added++;
+                        }
+                    });
+                    storeAttempts(cur);
+                    updateAttemptsBadge();
+                    refreshArchives();
+                    renderAttemptsHub();
+                    alert(added + ' attempt(s) restored.');
+                } catch (e) {
+                    alert('That file is not a valid attempts backup.');
+                }
+                input.value = '';
+            };
+            reader.readAsText(file);
+        }
+
+        function fmtAttemptTime(sec) {
+            sec = Math.max(0, Math.round(Number(sec) || 0));
+            return Math.floor(sec / 60) + ':' + String(sec % 60).padStart(2, '0');
+        }
+
+        function renderAttemptsHub() {
+            const box = document.getElementById('attempts-container');
+            if (!box) return;
+
+            if (attemptsTrendChart) { try { attemptsTrendChart.destroy(); } catch (e) {} attemptsTrendChart = null; }
+
+            const all = loadAttempts()
+                .filter(x => x && x.id && x.kind && x.savedAt)
+                .sort((a, b) => String(a.savedAt).localeCompare(String(b.savedAt)));
+
+            if (!all.length) {
+                box.innerHTML = `<div class="notice-box" style="margin-top:20px;">No saved attempts yet. Submit a sectional, a reading passage or a DI/LR set and it will appear here automatically.</div>`;
+                return;
+            }
+
+            const acc = r => {
+                const att = (Number(r.correct) || 0) + (Number(r.incorrect) || 0);
+                return att ? Math.round((Number(r.correct) || 0) / att * 100) : 0;
+            };
+            const pct = r => (Number(r.maxScore) ? Math.round((Number(r.score) || 0) / Number(r.maxScore) * 100) : 0);
+
+            const prevOf = {}, bestOf = {};
+            const groups = {};
+            all.forEach(r => { const g = r.kind + '||' + r.testKey; (groups[g] = groups[g] || []).push(r); });
+            Object.keys(groups).forEach(g => {
+                let best = -Infinity;
+                groups[g].forEach((r, i) => {
+                    prevOf[r.id] = i > 0 ? groups[g][i - 1] : null;
+                    best = Math.max(best, Number(r.score) || 0);
+                });
+                bestOf[g] = { best: best, n: groups[g].length };
+            });
+
+            const avgAcc = Math.round(all.reduce((s, r) => s + acc(r), 0) / all.length);
+            const bestPct = Math.max.apply(null, all.map(pct));
+            const totalMin = Math.round(all.reduce((s, r) => s + (Number(r.timeSpent) || 0), 0) / 60);
+            const distinct = Object.keys(groups).length;
+
+            const counts = { all: all.length, sectional: 0, reading: 0, dilr: 0 };
+            all.forEach(r => { if (counts[r.kind] !== undefined) counts[r.kind]++; });
+            const chip = (key, label) => `<button class="att-chip ${attemptsFilter === key ? 'active' : ''}" onclick="setAttemptsFilter('${key}')">${label} (${counts[key]})</button>`;
+
+            const kindLabel = { sectional: '⚡ Sectional', reading: '📑 Reading', dilr: '📊 DI/LR' };
+            const shown = (attemptsFilter === 'all' ? all : all.filter(r => r.kind === attemptsFilter)).slice().reverse();
+
+            const cards = shown.map(r => {
+                const g = r.kind + '||' + r.testKey;
+                const when = new Date(r.savedAt);
+                const whenTxt = isNaN(when) ? '' : when.toLocaleString('en-IN', { day: 'numeric', month: 'short', year: 'numeric', hour: 'numeric', minute: '2-digit' });
+                const prev = prevOf[r.id];
+                let delta = '';
+                if (prev) {
+                    const d = (Number(r.score) || 0) - (Number(prev.score) || 0);
+                    delta = d > 0 ? `<span class="att-up">▲ +${d} vs previous</span>` : d < 0 ? `<span class="att-down">▼ ${d} vs previous</span>` : `<span style="color:var(--text-muted); font-weight:700;">= same as previous</span>`;
+                }
+                const isBest = bestOf[g].n > 1 && (Number(r.score) || 0) === bestOf[g].best;
+                return `
+                <div class="att-card">
+                    <div class="att-card-top">
+                        <div>
+                            <div class="att-title">${esc(r.title)} ${isBest ? '<span class="att-best">🏆 Best</span>' : ''}</div>
+                            <div class="att-sub">${esc(kindLabel[r.kind] || r.kind)} · Attempt #${esc(r.attemptNo || 1)} · ${esc(whenTxt)}${r.testDate ? ' · Test date ' + esc(r.testDate) : ''}</div>
+                        </div>
+                        <div>${delta}</div>
+                    </div>
+                    <div class="att-metrics">
+                        <div><span class="lbl">Score</span><b>${esc(Number(r.score) || 0)}/${esc(Number(r.maxScore) || 0)}</b></div>
+                        <div><span class="lbl">Accuracy</span><b>${acc(r)}%</b></div>
+                        <div><span class="lbl">Correct</span><b style="color:var(--status-correct)">${esc(Number(r.correct) || 0)}</b></div>
+                        <div><span class="lbl">Wrong</span><b style="color:var(--status-wrong)">${esc(Number(r.incorrect) || 0)}</b></div>
+                        <div><span class="lbl">Skipped</span><b>${esc(Number(r.unattempted) || 0)}</b></div>
+                        <div><span class="lbl">Time</span><b>${fmtAttemptTime(r.timeSpent)}</b></div>
+                    </div>
+                    <div class="att-actions">
+                        <button class="primary-btn" data-id="${esc(r.id)}" onclick="reviewAttempt(this.dataset.id)">🔍 Review &amp; Analysis</button>
+                        <button class="secondary-btn" data-id="${esc(r.id)}" onclick="retakeFromAttempt(this.dataset.id)">🔁 Attempt Again</button>
+                        <button class="secondary-btn att-danger" data-id="${esc(r.id)}" onclick="deleteAttempt(this.dataset.id)">Delete</button>
+                    </div>
+                </div>`;
+            }).join('');
+
+            box.innerHTML = `
+                <div class="att-summary">
+                    <div class="stat-box"><div class="stat-val">${all.length}</div><div class="stat-lbl">Attempts</div></div>
+                    <div class="stat-box"><div class="stat-val">${distinct}</div><div class="stat-lbl">Different tests</div></div>
+                    <div class="stat-box"><div class="stat-val" style="color:var(--status-correct)">${avgAcc}%</div><div class="stat-lbl">Avg accuracy</div></div>
+                    <div class="stat-box"><div class="stat-val">${bestPct}%</div><div class="stat-lbl">Best score</div></div>
+                    <div class="stat-box"><div class="stat-val">${totalMin}m</div><div class="stat-lbl">Practice time</div></div>
+                </div>
+                ${all.length >= 2 ? `<div class="chart-container" style="margin-bottom:18px; align-items:stretch;"><h4 style="font-size:0.82rem; font-weight:800; text-transform:uppercase; color:var(--text-muted); margin-bottom:10px;">Accuracy trend (last ${Math.min(all.length, 20)} attempts)</h4><div style="position:relative; height:200px;"><canvas id="attempts-trend"></canvas></div></div>` : ''}
+                <div class="att-chips">${chip('all', 'All')}${chip('sectional', '⚡ Sectionals')}${chip('reading', '📑 Reading')}${chip('dilr', '📊 DI/LR')}</div>
+                ${cards || `<div class="notice-box">No attempts in this category yet.</div>`}
+                <p style="font-size:0.78rem; color:var(--text-muted); margin-top:14px;">Attempts are stored in this browser only. Clearing site data or switching device will not carry them over, so use <b>Backup</b> now and then to keep a copy.</p>`;
+
+            if (all.length >= 2 && typeof Chart !== 'undefined') {
+                try {
+                    const recent = all.slice(-20);
+                    attemptsTrendChart = new Chart(document.getElementById('attempts-trend'), {
+                        type: 'line',
+                        data: {
+                            labels: recent.map((r, i) => '#' + (all.length - recent.length + i + 1)),
+                            datasets: [{ label: 'Accuracy %', data: recent.map(acc), borderColor: '#047857', backgroundColor: 'rgba(16,185,129,.15)', fill: true, tension: 0.3, pointRadius: 3 }]
+                        },
+                        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { min: 0, max: 100 } } }
+                    });
+                } catch (e) { console.warn('Trend chart skipped', e); }
+            }
+        }
+
+        updateAttemptsBadge();
 
         loadData();
     </script>
@@ -1727,6 +2167,9 @@
     renderSectionalQuestion();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+
+  window.__saGetTimes = function () { return Object.assign({}, qTime); };
+  window.__saSetTimes = function (t) { qTime = Object.assign({}, t || {}); };
 
   window.__saReset = function () {
     qTime = {};
