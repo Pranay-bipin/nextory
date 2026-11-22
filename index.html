@@ -322,6 +322,30 @@
         .prac-card { background: #fafdfb; border: 1px solid var(--green-border); border-radius: 14px; padding: 20px; margin: 18px 0; }
         .prac-row { display: grid; grid-template-columns: 1.3fr 2fr auto; gap: 14px; align-items: center; padding: 10px 0; border-top: 1px solid var(--border-light); font-size: 0.85rem; }
         @media (max-width: 760px) { .prac-row { grid-template-columns: 1fr; } }
+
+        /* ---------- VOCAB STUDY ---------- */
+        .vq-bar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; background: var(--green-bg); border: 1px solid var(--green-border); border-radius: 12px; padding: 12px 14px; margin-bottom: 22px; }
+        .vq-bar select { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border-light); font-weight: 700; background: #fff; color: var(--text-heading); }
+        .vq-bar .primary-btn, .vq-bar .secondary-btn { padding: 9px 16px; font-size: 0.84rem; }
+        .vq-box { background: #ffffff; border-radius: 18px; border: 1px solid var(--border-light); padding: 26px; max-width: 640px; width: 100%; margin: auto; max-height: 92vh; overflow-y: auto; box-shadow: 0 25px 50px -12px rgba(15, 41, 30, 0.25); }
+        .vq-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 14px; }
+        .vq-head h3 { font-size: 1rem; color: var(--text-heading); }
+        .vq-x { background: transparent; border: none; font-size: 1.3rem; cursor: pointer; color: var(--text-muted); line-height: 1; }
+        .vq-card { min-height: 210px; border: 2px solid var(--green-border); border-radius: 16px; padding: 26px; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px; cursor: pointer; background: var(--green-bg); user-select: none; transition: background 0.2s ease; }
+        .vq-card.back { background: #ffffff; border-color: var(--green-primary); }
+        .vq-term { font-size: 1.7rem; font-weight: 800; color: var(--text-heading); }
+        .vq-def { font-size: 1.05rem; color: var(--text-heading); line-height: 1.6; }
+        .vq-ex { font-size: 0.92rem; color: var(--text-muted); font-style: italic; }
+        .vq-hint { font-size: 0.78rem; color: var(--text-muted); }
+        .vq-actions { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; }
+        .vq-actions button { flex: 1; min-width: 130px; }
+        .vq-prompt { font-size: 1.05rem; font-weight: 700; color: var(--text-heading); line-height: 1.7; margin: 6px 0 12px; }
+        .vq-fb { margin-top: 14px; padding: 14px 16px; border-radius: 10px; font-size: 0.88rem; line-height: 1.6; background: var(--green-bg); border-left: 4px solid var(--green-hover); color: #064e3b; }
+        .vq-fb.wrong { background: #fef2f2; border-left-color: var(--status-wrong); color: #7f1d1d; }
+        .vq-badge { font-size: 0.68rem; font-weight: 800; padding: 2px 8px; border-radius: 12px; margin-left: 6px; border: 1px solid transparent; vertical-align: middle; }
+        .vq-badge.ok { background: #f0fdf4; color: #16a34a; border-color: #bbf7d0; }
+        .vq-badge.mid { background: #fffbe3; color: #b45309; border-color: #fef08a; }
+        .vq-badge.bad { background: #fef2f2; color: #dc2626; border-color: #fecaca; }
     </style>
 </head>
 <body>
@@ -331,6 +355,7 @@
             <span class="logo-box">NX</span> NEXTORY
             <span class="sub-tag">IPMAT Prep Portal</span>
             <span id="streak-pill" class="sub-tag" style="cursor:pointer; background:#fff7ed; color:#c2410c; border-color:#fed7aa;" onclick="navigateTab('attempts')" title="Your practice streak">🔥 0</span>
+            <span id="due-pill" class="sub-tag" style="display:none; cursor:pointer; background:#eff6ff; color:#1d4ed8; border-color:#bfdbfe;" onclick="navigateTab('attempts')" title="Questions due for spaced revision">📚 0 due</span>
         </div>
         <div class="nav-items">
             <button id="btn-vocab" class="nav-btn active" onclick="navigateTab('vocab')">📖 Daily Vocab</button>
@@ -352,6 +377,8 @@
                 <h1>Master High-Frequency Vocabulary, Idioms & Phrasal Verbs for IPMAT</h1>
                 <p>Strengthen your verbal reasoning, reading speed, and comprehension foundation before diving into today's IPMAT Advanced Standard Reading Practice test.</p>
                 <button class="primary-btn" onclick="navigateTab('reading')">Proceed to Daily RC Test →</button>
+                <button class="secondary-btn" style="margin-left:8px;" onclick="startFlashcards('today')">🃏 Flashcards</button>
+                <button class="secondary-btn" style="margin-left:8px;" onclick="startVocabQuiz('today')">🧠 Quiz me on today's vocab</button>
             </div>
 
             <div class="section-header">
@@ -469,7 +496,19 @@
         <div id="panel-saved" class="view-panel">
             <div class="question-card">
                 <h2 style="margin-bottom: 6px; color: var(--text-heading);">🔖 Saved Vocab Hub</h2>
-                <p style="color:var(--text-muted); margin-bottom: 24px; font-size: 0.9rem;">Categorized list of your saved words, idioms, and phrasal verbs for easy revision.</p>
+                <p style="color:var(--text-muted); margin-bottom: 16px; font-size: 0.9rem;">Categorized list of your saved words, idioms, and phrasal verbs for easy revision.</p>
+
+                <div class="vq-bar">
+                    <select id="vs-cat" onchange="updateVocabStudyBar()" title="Which saved items to study">
+                        <option value="all">All saved items</option>
+                        <option value="Word">Words only</option>
+                        <option value="Idiom">Idioms only</option>
+                        <option value="Phrasal Verb">Phrasal verbs only</option>
+                    </select>
+                    <button class="primary-btn" onclick="startFlashcards('saved')">🃏 Flashcards</button>
+                    <button class="secondary-btn" onclick="startVocabQuiz('saved')">🧠 Quick Quiz (10 Qs)</button>
+                    <span id="vs-hint" style="font-size:0.8rem; color:var(--text-muted);"></span>
+                </div>
                 
                 <div class="section-header" style="border-bottom: 1px solid var(--border-light); padding-bottom: 8px; color: var(--green-hover);">
                     Saved Vocabulary Words (<span id="saved-words-count">0</span>)
@@ -733,6 +772,7 @@
                 renderReadingTest(currentRC, false);
                 renderArchive(available.length > 0 ? byDateDesc(available) : byDateDesc(allPassages));
                 updateSavedBadge();
+                updateAttemptsBadge();
             }
 
             loadSectionalData();
@@ -755,6 +795,7 @@
                     
                     renderSectionalBanner();
                     renderSectionalArchive(available.length > 0 ? byDateDesc(available) : byDateDesc(allSectionals));
+                    updateAttemptsBadge();
                 } else {
                     renderNoSectionalBanner();
                 }
@@ -1597,7 +1638,7 @@
                 return list.map(item => `
                     <div class="vocab-card">
                         <button class="save-btn saved" onclick="removeSavedIdx(${item._i})">Remove</button>
-                        <span class="word-title">${esc(item.title)}</span> <span class="word-type">(${esc(item.type)})</span>
+                        <span class="word-title">${esc(item.title)}</span> <span class="word-type">(${esc(item.type)})</span>${vocabBadge(item)}
                         <div class="word-def">${esc(item.def)}</div>
                         <div class="word-ex">"${esc(item.ex)}"</div>
                     </div>
@@ -1607,6 +1648,7 @@
             document.getElementById('saved-words-grid').innerHTML = renderCardList(wordsList);
             document.getElementById('saved-idioms-grid').innerHTML = renderCardList(idiomsList);
             document.getElementById('saved-verbs-grid').innerHTML = renderCardList(verbsList);
+            updateVocabStudyBar();
         }
 
         function renderVocab(vocab) {
@@ -2117,7 +2159,7 @@
                 </div>`;
             }).join('');
 
-            box.innerHTML = streakCardHtml() + practiceCardHtml() + `
+            box.innerHTML = streakCardHtml() + revisionCardHtml() + practiceCardHtml() + `
                 <div class="att-summary">
                     <div class="stat-box"><div class="stat-val">${all.length}</div><div class="stat-lbl">Attempts</div></div>
                     <div class="stat-box"><div class="stat-val">${distinct}</div><div class="stat-lbl">Different tests</div></div>
@@ -2470,6 +2512,11 @@
             const today = (a.days[dayKeyOf(new Date())] || { q: 0 }).q;
             el.innerText = '🔥 ' + a.current;
             el.title = a.current + '-day streak · ' + today + '/' + getDailyGoal() + ' questions today';
+            try {
+                const sp = computeSpaced();
+                const dp = document.getElementById('due-pill');
+                if (dp) { dp.style.display = sp.due.length ? 'inline-block' : 'none'; dp.innerText = '📚 ' + sp.due.length + ' due'; }
+            } catch (e) { console.warn('Due pill skipped', e); }
         }
 
         function streakCardHtml() {
@@ -2513,6 +2560,7 @@
                             </label>
                         </div>
                         <div class="progress-bar-bg" style="margin-top:8px;"><div class="progress-bar-fill" style="width:${pct}%; background:${done >= goal ? '#16a34a' : '#f97316'};"></div></div>
+                        ${dueLineHtml()}
                     </div>
                     <div>
                         <div class="cal-grid">${heads}${cells.join('')}</div>
@@ -2520,6 +2568,394 @@
                     </div>
                 </div>`;
         }
+
+        /* =====================================================
+           SPACED REVISION  (wrong answers return after 1, 3 and 7 days)
+           ===================================================== */
+        const SPACED_DAYS = [1, 3, 7];
+
+        function addDaysKey(iso, n) {
+            const d = new Date(iso);
+            if (isNaN(d)) return null;
+            return dayKeyOf(new Date(d.getFullYear(), d.getMonth(), d.getDate() + n));
+        }
+
+        // Replays every saved attempt in order and works out which questions are due.
+        // Wrong answer -> due in 1 day. Right on/after the due day -> next gap (3, then 7 days), then done.
+        // A wrong answer at any point restarts the cycle. Skipped questions only restart it inside practice sets.
+        function computeSpaced() {
+            const attempts = loadAttempts()
+                .filter(x => x && x.id && x.savedAt && (x.kind === 'sectional' || x.kind === 'reading' || x.kind === 'practice'))
+                .sort((a, b) => String(a.savedAt).localeCompare(String(b.savedAt)));
+            const st = {};
+            const visit = (kind, tkey, qi, q, ans, r) => {
+                if (!q) return;
+                const status = !isAttemptedAns(ans) ? 's' : (isAnswerCorrect(q, ans) ? 'c' : 'w');
+                const key = kind + '|' + tkey + '|' + qi;
+                const due0 = addDaysKey(r.savedAt, SPACED_DAYS[0]);
+                const dayK = dayKeyOf(new Date(r.savedAt));
+                if (status === 'w' || (status === 's' && r.kind === 'practice')) {
+                    st[key] = { kind: kind, testKey: tkey, qIndex: qi, topic: questionTopic(kind, q), box: 0, dueKey: due0, done: false };
+                } else if (status === 'c' && st[key] && !st[key].done && dayK >= st[key].dueKey) {
+                    const x = st[key];
+                    x.box++;
+                    if (x.box >= SPACED_DAYS.length) x.done = true;
+                    else x.dueKey = addDaysKey(r.savedAt, SPACED_DAYS[x.box]);
+                }
+            };
+            attempts.forEach(r => {
+                const ans = r.answers || {};
+                if (r.kind === 'practice') {
+                    (r.refs || []).forEach((ref, i) => {
+                        const src = findTestByRef(ref);
+                        if (src && src.questions) visit(ref.kind, ref.testKey, ref.qIndex, src.questions[ref.qIndex], ans[i], r);
+                    });
+                } else {
+                    const test = findTestForAttempt(r);
+                    if (test && test.questions) test.questions.forEach((q, i) => visit(r.kind, r.testKey, i, q, ans[i], r));
+                }
+            });
+            const now = new Date().toISOString();
+            const todayKey = dayKeyOf(new Date());
+            const tomorrowKey = addDaysKey(now, 1);
+            const weekKey = addDaysKey(now, 7);
+            const all = Object.keys(st).map(k => st[k]);
+            const active = all.filter(x => !x.done);
+            const due = active.filter(x => x.dueKey <= todayKey).sort((a, b) => a.dueKey.localeCompare(b.dueKey));
+            return {
+                due: due,
+                tomorrow: active.filter(x => x.dueKey === tomorrowKey).length,
+                week: active.filter(x => x.dueKey > todayKey && x.dueKey <= weekKey).length,
+                mastered: all.filter(x => x.done).length,
+                active: active.length
+            };
+        }
+
+        function dueLineHtml() {
+            let sp;
+            try { sp = computeSpaced(); } catch (e) { return ''; }
+            if (sp.due.length) {
+                return `<div class="goal-row" style="margin-top:12px; padding:10px 12px; background:#eff6ff; border:1px solid #bfdbfe; border-radius:10px;">
+                    <span>📚 ${sp.due.length} question${sp.due.length === 1 ? '' : 's'} due for revision today</span>
+                    <button class="primary-btn" style="padding:7px 14px; font-size:0.8rem;" onclick="startRevision()">Revise now</button>
+                </div>`;
+            }
+            if (sp.active) return `<div style="font-size:0.8rem; color:var(--text-muted); margin-top:12px;">📚 Nothing due for revision today${sp.tomorrow ? ' · ' + sp.tomorrow + ' coming tomorrow' : ''}.</div>`;
+            return '';
+        }
+
+        function revisionCardHtml() {
+            let sp;
+            try { sp = computeSpaced(); } catch (e) { return ''; }
+            if (!sp.active && !sp.mastered) return '';
+            const stat = (v, l, col) => `<div class="stat-box"><div class="stat-val" style="color:${col || 'var(--text-heading)'}">${v}</div><div class="stat-lbl">${l}</div></div>`;
+            return `
+                <div class="prac-card" style="background:#f8fbff; border-color:#bfdbfe;">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:12px;">
+                        <div>
+                            <h3 style="color:var(--text-heading); font-size:1.1rem;">📚 Spaced Revision</h3>
+                            <p style="color:var(--text-muted); font-size:0.85rem; margin-top:4px; max-width:560px;">A question you get wrong comes back after <b>1 day</b>, then <b>3 days</b>, then <b>7 days</b>. Get it right each time and it is marked mastered; a wrong answer starts that question's cycle again.</p>
+                        </div>
+                        ${sp.due.length ? `<button class="primary-btn" onclick="startRevision()">📚 Revise ${Math.min(sp.due.length, 20)} due question${Math.min(sp.due.length, 20) === 1 ? '' : 's'}</button>` : ''}
+                    </div>
+                    <div class="att-summary" style="margin-bottom:4px;">
+                        ${stat(sp.due.length, 'Due today', sp.due.length ? '#1d4ed8' : null)}
+                        ${stat(sp.tomorrow, 'Due tomorrow')}
+                        ${stat(sp.week, 'Next 7 days')}
+                        ${stat(sp.mastered, 'Mastered', 'var(--status-correct)')}
+                    </div>
+                    ${sp.due.length > 20 ? `<div style="font-size:0.78rem; color:var(--text-muted);">Revision comes in sets of 20, most overdue first. Run it again for the rest.</div>` : ''}
+                </div>`;
+        }
+
+        function startRevision() {
+            const sp = computeSpaced();
+            if (!sp.due.length) { alert('Nothing is due for revision right now.'); return; }
+            const picked = sp.due.slice(0, 20); // most overdue first
+            picked.sort((a, b) => TOPIC_ORDER.indexOf(a.topic) - TOPIC_ORDER.indexOf(b.topic) || a.testKey.localeCompare(b.testKey) || a.qIndex - b.qIndex);
+            const refs = picked.map(i => ({ kind: i.kind, testKey: i.testKey, qIndex: i.qIndex }));
+            startPractice(refs, 'Spaced Revision · ' + refs.length + ' Qs');
+        }
+
+        /* =====================================================
+           VOCAB STUDY: FLASHCARDS + QUICK QUIZ
+           ===================================================== */
+        const VOCAB_PROGRESS_KEY = 'nextory_vocab_progress_v1';
+        let vq = null;
+
+        const vqModal = document.createElement('div');
+        vqModal.id = 'vocab-modal';
+        vqModal.className = 'modal-overlay';
+        document.body.appendChild(vqModal);
+
+        function vocabKey(it) { return String(it.category || '') + '|' + String(it.title || ''); }
+        function loadVocabProgress() {
+            try { const o = JSON.parse(localStorage.getItem(VOCAB_PROGRESS_KEY)); return (o && typeof o === 'object') ? o : {}; }
+            catch (e) { return {}; }
+        }
+        function bumpVocab(it, ok) {
+            try {
+                const p = loadVocabProgress();
+                const k = vocabKey(it);
+                const o = p[k] || { streak: 0, seen: 0 };
+                o.seen++;
+                o.streak = ok ? o.streak + 1 : 0;
+                o.last = new Date().toISOString();
+                p[k] = o;
+                localStorage.setItem(VOCAB_PROGRESS_KEY, JSON.stringify(p));
+            } catch (e) { console.warn('Vocab progress not saved', e); }
+        }
+        function vocabStreak(it) { const o = loadVocabProgress()[vocabKey(it)]; return o ? (o.streak || 0) : 0; }
+        function vocabBadge(it) {
+            const o = loadVocabProgress()[vocabKey(it)];
+            if (!o || !o.seen) return '';
+            if (o.streak >= 3) return '<span class="vq-badge ok">✓ Mastered</span>';
+            if (o.streak >= 1) return '<span class="vq-badge mid">Learning</span>';
+            return '<span class="vq-badge bad">Needs work</span>';
+        }
+
+        function vqShuffle(a) {
+            a = a.slice();
+            for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+            return a;
+        }
+
+        function vocabFromPassage(v) {
+            if (!v) return [];
+            return []
+                .concat((v.words || []).map(w => ({ title: w.word, def: w.def, ex: w.ex, type: w.type || 'word', category: 'Word' })))
+                .concat((v.idioms || []).map(i => ({ title: i.idiom, def: i.def, ex: i.ex, type: 'Idiom', category: 'Idiom' })))
+                .concat((v.phrasalVerbs || []).map(p => ({ title: p.verb, def: p.def, ex: p.ex, type: 'Phrasal Verb', category: 'Phrasal Verb' })))
+                .filter(x => x.title && x.def);
+        }
+
+        // Everything the site knows: used to draw wrong options for the quiz
+        function vocabPool() {
+            const seen = new Set(), out = [];
+            const add = it => {
+                if (!it || !it.title || !it.def) return;
+                const k = vocabKey(it).toLowerCase();
+                if (seen.has(k)) return;
+                seen.add(k); out.push(it);
+            };
+            savedItems.forEach(add);
+            (allPassages || []).forEach(p => vocabFromPassage(p.vocab).forEach(add));
+            return out;
+        }
+
+        function vocabSource(source) {
+            if (source === 'today') return currentRC ? vocabFromPassage(currentRC.vocab) : [];
+            const sel = document.getElementById('vs-cat');
+            const cat = sel ? sel.value : 'all';
+            return savedItems.filter(i => i && i.title && i.def && (cat === 'all' || i.category === cat));
+        }
+
+        function updateVocabStudyBar() {
+            const hint = document.getElementById('vs-hint');
+            if (!hint) return;
+            const n = vocabSource('saved').length;
+            hint.innerText = n ? n + ' item' + (n === 1 ? '' : 's') + ' selected' : 'Save items with 🔖 on the Daily Vocab tab to study them here';
+        }
+
+        function vqOpen() { vqModal.classList.add('active'); }
+        function vqClose() {
+            vqModal.classList.remove('active');
+            vq = null;
+            if (activeTab === 'saved') renderSavedHub();
+        }
+
+        /* ---------------- Flashcards ---------------- */
+        function startFlashcards(source, override) {
+            const items = override || vocabSource(source);
+            if (!items.length) {
+                alert(source === 'today' ? "Today's vocabulary has not loaded yet." : 'You have not saved anything in this selection yet. Tap 🔖 Save on a word, idiom or phrasal verb first.');
+                return;
+            }
+            // items you find hardest come up first
+            const deck = vqShuffle(items).sort((a, b) => vocabStreak(a) - vocabStreak(b));
+            vq = { mode: 'flash', source: source, srcItems: items, items: deck, idx: 0, flipped: false, known: [], missed: [] };
+            vqOpen();
+            vqRender();
+        }
+        function vqFlip() { if (vq && vq.mode === 'flash') { vq.flipped = !vq.flipped; vqRender(); } }
+        function vqMark(ok) {
+            if (!vq || vq.mode !== 'flash' || vq.idx >= vq.items.length) return;
+            const it = vq.items[vq.idx];
+            (ok ? vq.known : vq.missed).push(it);
+            bumpVocab(it, ok);
+            vq.idx++;
+            vq.flipped = false;
+            vqRender();
+        }
+
+        /* ---------------- Quick quiz ---------------- */
+        function escapeRegExp(t) { return String(t).replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+
+        function vqMakeQuestions(items) {
+            const pool = vocabPool();
+            const targets = vqShuffle(items).sort((a, b) => vocabStreak(a) - vocabStreak(b)).slice(0, 10);
+            const qs = [];
+            targets.forEach(t => {
+                const tl = t.title.toLowerCase();
+                const ok = p => p.title.toLowerCase() !== tl && p.def !== t.def;
+                let others = vqShuffle(pool.filter(p => p.category === t.category && ok(p)));
+                if (others.length < 3) others = others.concat(vqShuffle(pool.filter(p => p.category !== t.category && ok(p))));
+                if (others.length < 3) return;
+                const d = others.slice(0, 3);
+
+                const blankRe = t.ex ? new RegExp('\\b' + escapeRegExp(t.title) + '\\b', 'i') : null;
+                const formats = ['def2term', 'term2def'];
+                if (blankRe && blankRe.test(t.ex)) formats.push('blank');
+                const fmt = formats[Math.floor(Math.random() * formats.length)];
+
+                const kind = t.category === 'Idiom' ? 'idiom' : t.category === 'Phrasal Verb' ? 'phrasal verb' : 'word';
+                let prompt, correct, wrong;
+                if (fmt === 'term2def') {
+                    prompt = 'What does <b>' + esc(t.title) + '</b> mean?';
+                    correct = t.def; wrong = d.map(x => x.def);
+                } else if (fmt === 'blank') {
+                    const m = t.ex.match(blankRe);
+                    const at = m.index;
+                    prompt = 'Fill in the blank:<br>“' + esc(t.ex.slice(0, at)) + '<b>_______</b>' + esc(t.ex.slice(at + m[0].length)) + '”';
+                    correct = t.title; wrong = d.map(x => x.title);
+                } else {
+                    prompt = 'Which ' + kind + ' means: “' + esc(t.def) + '”?';
+                    correct = t.title; wrong = d.map(x => x.title);
+                }
+                const opts = vqShuffle([correct].concat(wrong));
+                if (new Set(opts).size !== 4) return; // never show duplicate options
+                qs.push({ fmt: fmt, prompt: prompt, options: opts, correct: opts.indexOf(correct), item: t });
+            });
+            return qs;
+        }
+
+        function startVocabQuiz(source, override) {
+            const items = override || vocabSource(source);
+            if (!items.length) {
+                alert(source === 'today' ? "Today's vocabulary has not loaded yet." : 'You have not saved anything in this selection yet. Tap 🔖 Save on a word, idiom or phrasal verb first.');
+                return;
+            }
+            const qs = vqMakeQuestions(items);
+            if (!qs.length) { alert('Not enough vocabulary on the site yet to build answer options.'); return; }
+            vq = { mode: 'quiz', source: source, srcItems: items, qs: qs, idx: 0, score: 0, answered: false, sel: null, missedItems: [] };
+            vqOpen();
+            vqRender();
+        }
+        function vqAnswer(i) {
+            if (!vq || vq.mode !== 'quiz' || vq.answered || vq.idx >= vq.qs.length) return;
+            const q = vq.qs[vq.idx];
+            if (i < 0 || i >= q.options.length) return;
+            vq.answered = true; vq.sel = i;
+            const ok = i === q.correct;
+            if (ok) vq.score++; else vq.missedItems.push(q.item);
+            bumpVocab(q.item, ok);
+            vqRender();
+        }
+        function vqNext() {
+            if (!vq || vq.mode !== 'quiz' || !vq.answered) return;
+            vq.idx++; vq.answered = false; vq.sel = null;
+            vqRender();
+        }
+        function vqRetryMissed(mode) {
+            if (!vq) return;
+            const list = mode === 'flash' ? vq.missed : (vq.missedItems || []);
+            const src = vq.source;
+            if (!list.length) return;
+            if (mode === 'flash' && vq.mode === 'flash') startFlashcards(src, list.slice());
+            else if (mode === 'flash') startFlashcards(src, list.slice());
+            else startVocabQuiz(src, list.slice());
+        }
+        function vqAgain() {
+            if (!vq) return;
+            const src = vq.source, items = vq.srcItems.slice(), mode = vq.mode;
+            if (mode === 'flash') startFlashcards(src, items); else startVocabQuiz(src, items);
+        }
+
+        /* ---------------- Rendering ---------------- */
+        function vqRender() {
+            if (!vq) return;
+            const head = (title, right) => `<div class="vq-head"><h3>${title}</h3><div style="display:flex; align-items:center; gap:12px;">${right || ''}<button class="vq-x" onclick="vqClose()" title="Close (Esc)">✕</button></div></div>`;
+            let body = '';
+
+            if (vq.mode === 'flash') {
+                const n = vq.items.length;
+                if (vq.idx >= n) {
+                    body = head('🃏 Flashcards complete') + `
+                        <div class="stats-grid">
+                            <div class="stat-box"><div class="stat-val" style="color:var(--status-correct)">${vq.known.length}</div><div class="stat-lbl">Got it</div></div>
+                            <div class="stat-box"><div class="stat-val" style="color:var(--status-wrong)">${vq.missed.length}</div><div class="stat-lbl">Still learning</div></div>
+                        </div>
+                        ${vq.missed.length ? `<div class="sa-h" style="font-size:0.78rem; font-weight:800; text-transform:uppercase; color:var(--text-muted); margin:6px 0 8px;">To revisit</div>` + vq.missed.map(m => `<div class="bm-opt"><b>${esc(m.title)}</b> — ${esc(m.def)}</div>`).join('') : '<p style="color:var(--status-correct); font-weight:700;">🎉 You knew every card.</p>'}
+                        <div class="vq-actions">
+                            ${vq.missed.length ? `<button class="primary-btn" onclick="vqRetryMissed('flash')">🔁 Review ${vq.missed.length} missed</button>` : ''}
+                            <button class="secondary-btn" onclick="vqAgain()">🔀 Shuffle &amp; restart</button>
+                            <button class="secondary-btn" onclick="vqClose()">Done</button>
+                        </div>`;
+                } else {
+                    const it = vq.items[vq.idx];
+                    const pct = Math.round(vq.idx / n * 100);
+                    body = head('🃏 Flashcards', `<span class="tag">${vq.idx + 1} / ${n}</span>`) + `
+                        <div class="progress-bar-bg" style="margin-bottom:14px;"><div class="progress-bar-fill" style="width:${pct}%; background:var(--green-primary);"></div></div>
+                        <div class="vq-card ${vq.flipped ? 'back' : ''}" onclick="vqFlip()">
+                            ${vq.flipped
+                                ? `<div class="vq-hint">${esc(it.title)}</div><div class="vq-def">${esc(it.def)}</div>${it.ex ? `<div class="vq-ex">“${esc(it.ex)}”</div>` : ''}`
+                                : `<span class="word-type" style="margin:0;">${esc(it.type || it.category)}</span><div class="vq-term">${esc(it.title)}</div><div class="vq-hint">Tap the card (or press Space) to see the meaning</div>`}
+                        </div>
+                        <div class="vq-actions">
+                            <button class="secondary-btn att-danger" onclick="vqMark(false)">😕 Still learning <span class="vq-hint">(1)</span></button>
+                            <button class="primary-btn" onclick="vqMark(true)">✅ Got it <span class="vq-hint" style="color:#d1fae5;">(2)</span></button>
+                        </div>`;
+                }
+            } else {
+                const n = vq.qs.length;
+                if (vq.idx >= n) {
+                    const pct = Math.round(vq.score / n * 100);
+                    body = head('🧠 Quiz complete') + `
+                        <div class="stats-grid">
+                            <div class="stat-box"><div class="stat-val" style="color:var(--status-correct)">${vq.score}/${n}</div><div class="stat-lbl">Score</div></div>
+                            <div class="stat-box"><div class="stat-val">${pct}%</div><div class="stat-lbl">Accuracy</div></div>
+                        </div>
+                        ${vq.missedItems.length ? `<div class="sa-h" style="font-size:0.78rem; font-weight:800; text-transform:uppercase; color:var(--text-muted); margin:6px 0 8px;">Review these</div>` + vq.missedItems.map(m => `<div class="bm-opt"><b>${esc(m.title)}</b> — ${esc(m.def)}${m.ex ? `<div class="vq-ex" style="margin-top:4px;">“${esc(m.ex)}”</div>` : ''}</div>`).join('') : '<p style="color:var(--status-correct); font-weight:700;">🎉 Perfect round!</p>'}
+                        <div class="vq-actions">
+                            ${vq.missedItems.length ? `<button class="primary-btn" onclick="vqRetryMissed('quiz')">🔁 Quiz me on the ${vq.missedItems.length} missed</button>` : ''}
+                            <button class="secondary-btn" onclick="vqAgain()">🧠 New quiz</button>
+                            <button class="secondary-btn" onclick="vqClose()">Done</button>
+                        </div>`;
+                } else {
+                    const q = vq.qs[vq.idx];
+                    const optsHtml = q.options.map((o, i) => {
+                        let cls = 'opt-btn';
+                        if (vq.answered) { if (i === q.correct) cls += ' correct'; else if (i === vq.sel) cls += ' wrong'; }
+                        return `<button class="${cls}" ${vq.answered ? 'disabled' : ''} onclick="vqAnswer(${i})"><span style="opacity:.6; margin-right:8px;">${i + 1}</span>${esc(o)}</button>`;
+                    }).join('');
+                    const it = q.item;
+                    const fb = vq.answered ? `
+                        <div class="vq-fb ${vq.sel === q.correct ? '' : 'wrong'}">
+                            <b>${vq.sel === q.correct ? '✅ Correct!' : '❌ Not quite.'}</b> <b>${esc(it.title)}</b>: ${esc(it.def)}
+                            ${it.ex ? `<div class="vq-ex" style="margin-top:4px; color:inherit;">“${esc(it.ex)}”</div>` : ''}
+                        </div>
+                        <button class="primary-btn" style="width:100%; margin-top:12px;" onclick="vqNext()">${vq.idx + 1 === n ? 'See results →' : 'Next question →'}</button>` : '';
+                    body = head('🧠 Quick Quiz', `<span class="tag">Q ${vq.idx + 1} / ${n} · Score ${vq.score}</span>`) + `
+                        <div class="vq-prompt">${q.prompt}</div>
+                        <div>${optsHtml}</div>
+                        ${fb}`;
+                }
+            }
+            vqModal.innerHTML = `<div class="vq-box">${body}</div>`;
+        }
+
+        document.addEventListener('keydown', function (e) {
+            if (!vq || !vqModal.classList.contains('active')) return;
+            if (e.key === 'Escape') { vqClose(); return; }
+            if (vq.mode === 'flash' && vq.idx < vq.items.length) {
+                if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); vqFlip(); }
+                else if (e.key === '1') vqMark(false);
+                else if (e.key === '2') vqMark(true);
+            } else if (vq.mode === 'quiz' && vq.idx < vq.qs.length) {
+                if (['1', '2', '3', '4'].includes(e.key) && !vq.answered) vqAnswer(Number(e.key) - 1);
+                else if ((e.key === 'Enter' || e.key === 'ArrowRight') && vq.answered) { e.preventDefault(); vqNext(); }
+            }
+        });
 
         updateAttemptsBadge();
 
