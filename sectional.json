@@ -2362,5 +2362,596 @@
         "explanation": "Answer: 4-3-1-5-2. Step by step. Sentence 4 states the general idea (trust is cheap among acquaintances). Sentence 3 is an example of it (the small-town shopkeeper). Sentence 1 begins 'In a large economy, however', contrasting with the small-town case. Sentence 5 introduces institutions as 'substitutes' for acquaintance, which only makes sense after the problem in 1. Sentence 2 begins 'They', which refers to the institutions in 5. Tip: 'however' marks a turn in the argument, and a bare 'They' must have a plural noun just before it."
       }
     ]
+  },
+  {
+    "id": "sec-2026-11-23",
+    "date": "2026-11-23",
+    "title": "IPMAT Indore VA Sectional – 23rd Nov 2026 (Advanced Analytical – High Difficulty)",
+    "durationMinutes": 45,
+    "totalQuestions": 45,
+    "passages": {
+      "RC1": "Every November, Delhi's air produces a ritual of blame, and in the ritual the blame usually has a single address: the farm fires of Punjab and Haryana. Satellites that count the fires and models that estimate their smoke do show a seasonal surge, so the habit is not baseless. But this year the script has been awkward to follow. Farm fires in Punjab between 15 September and 1 November numbered 1,514, against 2,084 in the corresponding period a year earlier, and on 31 October stubble contributed a mere 1.6 per cent of the city's fine particulate matter. Yet within days the air quality index stood at 389, the second stage of the Graded Response Action Plan had been imposed, and by mid-month the third stage was in force. Fewer fires and a worse smog appear to contradict one another.\n\nThey do so only if one confuses a contribution with a cause. The concentration of pollutants over a city depends on two things: how much is emitted, and how readily the air carries it away. In November the second factor collapses. Cold air settles near the ground under a warmer layer, winds drop, and whatever is emitted stays where it is. The same quantity of smoke that disappears in July therefore hangs over the city in winter. A pollution episode is thus a joint product of emissions and weather, and a fall in one of the two inputs can be more than cancelled by a deterioration in the other.\n\nThis is why the question of what adds to the pollution must be kept apart from the question of what turns an addition into a danger. Stubble is a partial answer to the first question for a few weeks each year; meteorology answers the second. Delhi's own emissions from traffic, dust, industry and the burning of waste are present every day, and they form a base on which the episodic contributions are stacked. Their relative size is visible in the data: on one early-November day the official decision-support system put transport at 15.8 per cent and stubble at 15.3 per cent, so that the two were of nearly equal weight. Stubble is an episodic contributor to a chronic problem, and a chronic problem cannot be explained by an episode.\n\nAverages can also mislead in the other direction. A source that contributes fifteen per cent on average may be decisive on the day when the air is already close to a threshold, because the index is a banded scale and policy is tied to the bands. Think of a glass that is nearly full: the last drop is not the reason for the overflow, yet removing it would have prevented the overflow that day, and removing it would do nothing for the next day, when the glass is filled again. The marginal contribution of a source on a bad day can thus be far larger than its share over the season. Those who wish to blame neighbouring states quote the peaks; those who wish to defend farmers quote the averages. Each side selects the statistic that suits a conclusion reached in advance.\n\nThe stages of the action plan are themselves triggered by the index, which is an outcome, and not by the source of the pollution. They restrict construction, diesel generators and certain vehicles, which are the things that lie within the city's control, and they are lifted when the index improves. They are therefore a way of managing the peak, not of lowering the base. A serious policy would separate three things: the base of year-round local emissions, the episodic additions such as stubble and firecrackers, and the weather that amplifies both. Only the first two can be controlled, and the first is the larger prize, since it is present on every day, including those on which nobody is watching the index. To quarrel over the share of one source on one day is to quarrel about the last drop.",
+      "RC2": "The phrase 'first made-in-India chip' has been promised so often in recent years that its arrival, in whatever form, tends to be received as an event. As of mid-2026 the government has approved twelve semiconductor projects worth about ₹1.64 lakh crore, and in February Micron's plant at Sanand was inaugurated, handing its first memory modules to Dell. The milestone is real. But a milestone names a moment, not a position. The journey from silicon to device has stages whose economics differ enormously, and being present at one of them says little about being present at the others.\n\nConsider the three stages. Design, the first, creates the blueprint of a chip, and it rewards intellectual property and talent with the highest margins and the least equipment. Fabrication, the middle stage, turns wafers into working circuits; it is the most capital-intensive, demanding plants that cost billions, ultra-pure water, unbroken power and a dense network of suppliers of materials and tools. Packaging, the last, cuts the finished wafers, encloses the chips and tests them; it needs far less capital and is far quicker to build. A country can therefore enter at the packaging end fast, producing output and jobs within a couple of years, while fabrication takes many years to mature. The price of the quick entry is a smaller share of the value: the wafers are generally imported, and so are the designs, and what remains for the packaging plant is the thinner margin of the last step.\n\nWhy enter at all, given the sums involved? The commercial argument is weak. Chips can usually be bought more cheaply from established producers, and the subsidy per job created is large. The strategic argument is stronger. Fabrication is concentrated in a very few places, and a country that has no capacity of its own is at the mercy of any disruption to them, whether by accident, by conflict or by policy. Seen in this light, the subsidy is better understood as an insurance premium than as an investment with a return. Its benefit lies in the disruption that does not happen, and a disruption that never happens is never seen, which is why the spending is so easily criticised in normal years. Insurance, however, works only if the cover is adequate to the risk. A small capacity in the wrong kind of chip protects against very little.\n\nIt is for this reason that the widening of the mission deserves attention. The second phase, announced this year, is reported to extend support beyond plants to design, equipment, research and talent. The logic is that of complementarity: a plant surrounded by suppliers, designers and trained engineers is worth more than the same plant standing alone, because each of these raises the value of the others. The first phase was occupied with getting plants approved and built. The second must build their neighbourhood. There is also a risk to be watched. Subsidies attract those investors who need them most, and a plant that exists only because of the subsidy may leave when the subsidy ends, taking its equipment and its know-how with it.\n\nJudging the mission by the date of the first chip therefore directs attention to the wrong thing. Better tests are available: what share of the value of the final product is retained in India, how many suppliers are domestic, whether Indian design firms have begun to use Indian plants, and whether any plant would stay if the support were withdrawn. By these tests the mission is at an early stage. That is not a failure, but nor is it yet a success; it is a beginning, and it should be called one.",
+      "RC3": "A payment that arrives in seconds has an unwelcome property: it also leaves in seconds. The instant systems, UPI and IMPS among them, that have made India's digital payments some of the most widely used in the world were designed to remove delay, and delay was what, in older systems, gave a bank time to notice a fraud and stop it. The Reserve Bank of India observed in a discussion paper released in April that a typical fraud in this setting may involve no breach of technical systems at all; it works through the manipulation of users, by social engineering, coercion or impersonation. Parliament was told in December that UPI frauds up to November of the last financial year were worth ₹805 crore across 10.64 lakh incidents. In many of these cases the customer has not been robbed in the ordinary sense. She has herself authorised the payment, believing it to be genuine. The regulators call this authorised push payment fraud.\n\nThat is what makes it hard to cure by the usual means. Stronger authentication, such as two-factor checks or the binding of an account to a device, establishes that the person sending the money is the account holder. In authorised fraud that check passes, because it is the account holder who is sending the money. The security is working perfectly, and the fraud succeeds. The weakness lies not in the lock but in the person holding the key, and what would help is not a better lock but something that interrupts that person's decision at the moment it is made.\n\nHence the measures the central bank is reported to be weighing: a short delay, perhaps an hour, on certain payments; wider controls in the hands of customers; and a mechanism to freeze a transfer that is suspected. What they have in common is that they add friction deliberately. Friction is ordinarily thought of as a defect to be engineered away, but here it is the product. A scammer's chief weapon is urgency. The message says that the account will be blocked within the hour, or that the arrest will follow within minutes, and the victim, hurried, does not stop to ask anyone. A pause gives the deceived time to consult a relative, to call the bank, to notice that the demand does not quite make sense. Time is the scammer's enemy.\n\nFriction, however, is not free, and its costs fall unevenly. A delay on every payment would tax the many honest users who pay a vegetable seller, or a hospital in an emergency, in order to protect the few who would otherwise be deceived. The obvious reply is to target it: to hold only the payments that look unusual, such as a first transfer to a new payee, a large sum, or an odd hour. Targeting lowers the cost, but it depends on a model of what is unusual, and the model will err in both directions, holding honest payments and missing dishonest ones. Fraudsters, moreover, adapt. If large transfers are held, they ask for several small ones.\n\nThere remains the question of who bears the loss when fraud succeeds. Where a bank must bear part of it, the bank has a reason to build better detection; where the whole of it falls on the customer, the reason is weaker. Rules that spread some of the loss to banks and payment providers are therefore not merely a matter of compensation but a part of the design. The problem is at bottom one of allocation. Someone must pay for the delay, in time or in money, and the real choice lies between many small costs borne by all users and a few large costs borne by victims.",
+      "CA1": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nRohan Mehta (Host, Business Desk): Tomato prices have doubled in several cities within a fortnight, and food inflation is leading the headlines. Shouldn't the central bank raise interest rates to cool this?\n\nProf. Anjali Deshpande (agricultural economist): Only if raising rates would bring back the tomatoes. A rate increase works by dampening demand across the economy. This spike comes from supply: heavy rain damaged the crop and disrupted transport. Cooling the demand for cars and homes will not grow a single tomato. A sensible central bank looks through a shock that is likely to reverse, and acts only if it begins to change what people expect about future prices.\n\nRohan Mehta: Why would it reverse?\n\nProf. Deshpande: Because vegetables are perishable and supply responds quickly. Farmers who see high prices plant more, and the new crop arrives in weeks, not years. Such prices swing sharply in both directions, which is why they make the headline figure jumpy while the core figure, which leaves out food and fuel, stays steadier.\n\nRohan Mehta: But a household cannot eat the core figure.\n\nProf. Deshpande: Quite right, and that is the second half of the answer. The central bank has the wrong tool, but the problem is real, especially for poorer families, who spend a larger share of their income on food. The useful responses are on the supply side: storage and transport that smooth a local glut or shortage, and information that stops farmers from planting in a herd. There is a further puzzle. When consumers pay double, farmers rarely receive double. Much of the increase is captured in the middle, by transport, wholesale and retail margins.\n\nRohan Mehta: So who gains?\n\nProf. Deshpande: Often neither the farmer nor the consumer."
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "type": "RC",
+        "question": "Which of the following best states the central argument of the passage?",
+        "passageId": "RC1",
+        "options": [
+          "Stubble burning in Punjab and Haryana is no longer a significant source of Delhi's pollution, and the neighbouring states should be absolved of all blame",
+          "Delhi's air quality index is an unreliable measure of pollution, and that is why the stages of the action plan are triggered at the wrong times",
+          "Weather is the only real cause of Delhi's winter smog, since the emissions of the city remain exactly the same throughout the whole year",
+          "Delhi's smog comes from a chronic base of local emissions, episodic additions and winter weather, so blaming one source misreads the problem and misdirects policy"
+        ],
+        "answer": 3,
+        "explanation": "Answer: the smog has three parts (base emissions, episodic additions, weather), so blaming one source misdirects policy. Why: paragraph 2 says an episode is a 'joint product of emissions and weather'; paragraph 3 separates the year-round base from episodic additions; the last paragraph names 'three things' to be separated. Why the others fail: the author never says stubble is insignificant, only that it is one contributor (paragraph 3 gives it a share of about 15 per cent); the index is never called unreliable, it is called an outcome; and 'weather is the only cause' contradicts the 'joint product' idea. Tip: main-idea answers must cover the whole passage, and extreme words such as 'only' and 'no longer' are red flags."
+      },
+      {
+        "id": "q2",
+        "type": "RC",
+        "question": "The passage says that fewer farm fires and a worse smog 'appear to contradict one another' but do so 'only if one confuses a contribution with a cause'. This is because",
+        "passageId": "RC1",
+        "options": [
+          "the satellites that count the fires are known to understate the number of fires in Punjab, so the official count of fires is unreliable",
+          "the concentration of pollutants depends on how much is emitted and also on how readily the air disperses it, and winter conditions reduce the latter",
+          "the restrictions under the action plan themselves add to emissions during the first few days after they have been imposed on the city",
+          "the smoke from farm fires travels more slowly in winter than in other seasons, and so reaches the city only after a long delay"
+        ],
+        "answer": 1,
+        "explanation": "Answer: pollution depends on emissions AND dispersal, and winter reduces dispersal. Why: paragraph 2 says 'The concentration of pollutants over a city depends on two things: how much is emitted, and how readily the air carries it away', and in November 'the second factor collapses' (cold air near the ground, low winds). So a fall in one input (fires) can be more than cancelled by a worse second input (weather). Why the others fail: no unreliability of satellites, no extra emissions from the action plan, and no slower travel of smoke is mentioned. Tip: when a passage says two facts 'seem to contradict', the answer is usually a hidden third factor."
+      },
+      {
+        "id": "q3",
+        "type": "RC",
+        "question": "The image of the nearly full glass in the fourth paragraph implies that",
+        "passageId": "RC1",
+        "options": [
+          "a source with a modest average share can still decide whether a threshold is crossed on a particular day",
+          "the source that contributes least to the pollution should be the first one to be dealt with by policy",
+          "removing a single source would permanently prevent every episode of smog in the city in later years",
+          "an average taken over a whole season is a more reliable guide than the reading on any single bad day"
+        ],
+        "answer": 0,
+        "explanation": "Answer: a modest-share source can decide whether a threshold is crossed on a given day. How to decode the image: the glass is the air near its limit, the last drop is a source with a small share. Removing it prevents the overflow that day (the marginal effect), but the glass is filled again next day, so the base still matters. The text confirms: 'The marginal contribution of a source on a bad day can thus be far larger than its share over the season.' Why the others fail: the image does not rank sources for policy, does not promise a permanent cure (the glass fills again), and the passage says averages can mislead. Tip: translate every metaphor into plain words, then check the options."
+      },
+      {
+        "id": "q4",
+        "type": "RC",
+        "question": "The author's attitude to those who blame neighbouring states and those who defend farmers is best described as",
+        "passageId": "RC1",
+        "options": [
+          "approving, because each side quotes figures that are accurate and thereby helps the public to see the whole picture",
+          "indifferent, because the peaks and the averages in any case lead to the same conclusion about whom to blame",
+          "critical, because each side selects the statistic that suits a conclusion it had reached in advance",
+          "alarmed, because both sides are said in the passage to have altered the data that they present to the public"
+        ],
+        "answer": 2,
+        "explanation": "Answer: critical, because each side picks a statistic to fit a conclusion decided in advance. Why: paragraph 4 says 'Those who wish to blame neighbouring states quote the peaks; those who wish to defend farmers quote the averages. Each side selects the statistic that suits a conclusion reached in advance.' Why the others fail: the author does not approve (selecting a number to fit a conclusion is a fault), the peaks and averages do NOT lead to the same conclusion, and no one is accused of altering data, only of selecting it."
+      },
+      {
+        "id": "q5",
+        "type": "RC",
+        "question": "Each of the following is stated or implied in the passage EXCEPT that",
+        "passageId": "RC1",
+        "options": [
+          "on one early-November day transport and stubble burning had nearly equal shares in the city's pollution",
+          "farm fires in Punjab rose this year compared with the corresponding period of the previous year",
+          "winter weather lets pollutants stay where they are emitted, since cold air settles and the winds drop",
+          "the stages of the action plan are triggered by the index and not by the source of the pollution"
+        ],
+        "answer": 1,
+        "explanation": "Answer: the option saying farm fires rose. Paragraph 1 says the opposite: 1,514 fires against 2,084 a year earlier, so they FELL. The others are in the text: paragraph 3 (transport 15.8 per cent, stubble 15.3 per cent), paragraph 2 (cold air settles near the ground and winds drop) and paragraph 5 (the stages are triggered by the index, 'an outcome'). Tip: in EXCEPT questions, the odd one out is often the direct reverse of a number or fact in the text, so recheck the figures."
+      },
+      {
+        "id": "q6",
+        "type": "RC",
+        "question": "Which of the following policies would the author most likely endorse?",
+        "passageId": "RC1",
+        "options": [
+          "Lifting the restrictions of the action plan earlier, since they are costly and bring relief only at the peaks",
+          "Concentrating policy on stubble burning, since it is the only source that lies outside the city's control",
+          "Waiting for the weather to improve, since the emissions themselves cannot be controlled by any authority",
+          "Lowering the year-round local emissions, since they form a base that is present even when nobody is watching the index"
+        ],
+        "answer": 3,
+        "explanation": "Answer: lowering the year-round local emissions. Why: the last paragraph says the base of local emissions is 'the larger prize, since it is present on every day, including those on which nobody is watching the index'. Why the others fail: the author does not ask for restrictions to be lifted (they manage the peak, which is still useful); the passage never says stubble is the ONLY source outside the city's control, and the author calls it episodic; and the author says the base and the episodic additions CAN be controlled, only the weather cannot."
+      },
+      {
+        "id": "q7",
+        "type": "RC",
+        "question": "Which of the following best states the main point of the passage?",
+        "passageId": "RC2",
+        "options": [
+          "India's semiconductor mission has failed, since the plants that have been approved capture only the thinnest part of the value of a chip",
+          "The strategic case for subsidising chips is weak, and the money would be better spent on buying chips from established producers",
+          "A first chip is a milestone and not proof of position; the mission should be judged by the value and ecosystem India retains, and by these tests it is still at a beginning",
+          "Chip design is the only stage worth entering, and the mission should therefore give up fabrication and packaging altogether"
+        ],
+        "answer": 2,
+        "explanation": "Answer: a first chip is only a milestone; judge the mission by value and ecosystem retained; by those tests it is a beginning. Why: paragraph 1 says 'a milestone names a moment, not a position', and the last paragraph ends 'it is a beginning'. Why the others fail: the author says 'That is not a failure'; the strategic case is called 'stronger' than the commercial one, so it is not weak; and the author never says design is the only stage worth entering."
+      },
+      {
+        "id": "q8",
+        "type": "RC",
+        "question": "The statement that 'a milestone names a moment, not a position' means that",
+        "passageId": "RC2",
+        "options": [
+          "reaching a single event, such as a first shipment, does not show where a country stands in the whole chain of chip-making",
+          "the dates of milestones are often announced wrongly by officials, so that the progress of the mission cannot be measured",
+          "a country can take a position in the chain only after it has passed all of the milestones that have been set for it",
+          "milestones matter only to the officials who announce them, and not to the industry that is supposed to benefit from them"
+        ],
+        "answer": 0,
+        "explanation": "Answer: one event does not show where a country stands in the whole chain. Decode: a 'moment' is a single event (the first memory modules to Dell); a 'position' is where one stands across design, fabrication and packaging. The next sentence says so: 'being present at one of them says little about being present at the others.' Why the others fail: the passage does not say that officials announce dates wrongly, does not tie positions to passing milestones, and never says that milestones matter only to officials."
+      },
+      {
+        "id": "q9",
+        "type": "RC",
+        "question": "According to the passage, entry at the packaging end is quicker but yields a smaller share of the value because",
+        "passageId": "RC2",
+        "options": [
+          "packaging demands more skilled engineers than fabrication does, and such engineers take several years to be trained",
+          "packaging plants are barred from selling their output to the firms that have designed the chips they are packaging",
+          "the chips that come from packaging plants are of lower quality than those that come from fabrication plants",
+          "packaging needs less capital and builds quickly, but works on wafers and designs that are mostly imported, which leaves the thinner margin of the last step"
+        ],
+        "answer": 3,
+        "explanation": "Answer: packaging needs less capital and is quick to build, but it works on imported wafers and designs, so it keeps only the thin margin of the last step. Why: paragraph 2 says 'The price of the quick entry is a smaller share of the value: the wafers are generally imported, and so are the designs.' Why the others fail: the passage never mentions engineers' skills, legal bars on selling, or lower quality of packaged chips."
+      },
+      {
+        "id": "q10",
+        "type": "RC",
+        "question": "Each of the following is stated or implied in the passage EXCEPT that",
+        "passageId": "RC2",
+        "options": [
+          "design earns the highest margins and needs the least equipment of the three stages",
+          "fabrication needs less capital than packaging, which is why the first phase began with the building of fabrication plants",
+          "fabrication depends on a dense network of suppliers of materials and tools",
+          "a plant that exists only because of a subsidy may leave when the subsidy ends"
+        ],
+        "answer": 1,
+        "explanation": "Answer: the option saying fabrication needs less capital than packaging. Paragraph 2 says fabrication is 'the most capital-intensive' stage and packaging 'needs far less capital'. The passage also says the first phase was occupied with getting plants approved and built, and does not say it began with fabrication. The other three are stated: paragraph 2 (design margins, suppliers) and paragraph 4 (a subsidised plant may leave). Tip: look for options that reverse a comparison."
+      },
+      {
+        "id": "q11",
+        "type": "RC",
+        "question": "The comparison of the subsidy to an insurance premium implies that",
+        "passageId": "RC2",
+        "options": [
+          "its value lies in the risk it removes, which stays invisible in normal years, and it counts only if the cover is adequate",
+          "subsidies should be judged by the profit that the plants make in each normal year after they have begun production",
+          "any amount of capacity, however small, gives full protection against a disruption of the supply of chips",
+          "the spending is justified only if an actual disruption of supply takes place within the next few years"
+        ],
+        "answer": 0,
+        "explanation": "Answer: the value lies in the risk removed (invisible in normal years), and it counts only if the cover is adequate. Why: paragraph 3 says 'a disruption that never happens is never seen' and 'A small capacity in the wrong kind of chip protects against very little.' Why the others fail: judging by yearly profit misses the point of insurance; the passage says small capacity protects against 'very little', so it does not give full protection; and an insurance premium is not justified only by a disaster actually occurring."
+      },
+      {
+        "id": "q12",
+        "type": "RC",
+        "question": "Which of the following would the author regard as the best sign that the mission is succeeding?",
+        "passageId": "RC2",
+        "options": [
+          "The announcement by a minister that the first chip will be produced before the end of the current year",
+          "A rise in the number of projects approved under the mission and in the total sum that has been committed",
+          "A plant that stays and expands after support is withdrawn, together with growing use of it by Indian design firms",
+          "A rise in the size of the subsidy that is paid for each plant, so that more investors are attracted to it"
+        ],
+        "answer": 2,
+        "explanation": "Answer: a plant that stays and expands without support, and use of it by Indian design firms. Why: the last paragraph lists the tests: value retained, domestic suppliers, whether Indian design firms use Indian plants, 'and whether any plant would stay if the support were withdrawn'. Why the others fail: the author says judging by the date of the first chip 'directs attention to the wrong thing'; approvals and sums committed are inputs, not results; and a larger subsidy attracts the very investors who 'need it most', which the author treats as a risk."
+      },
+      {
+        "id": "q13",
+        "type": "RC",
+        "question": "Which of the following best states the central argument of the passage?",
+        "passageId": "RC3",
+        "options": [
+          "Digital payment fraud in India is rising so fast that the instant payment systems should now be abandoned in favour of slower ones",
+          "Because authorised fraud passes every authentication check, regulators are weighing deliberate friction, whose costs must be targeted and fairly allocated",
+          "Stronger authentication is the best cure for authorised fraud, and the regulators are right to go on strengthening it in every system",
+          "Banks should bear the whole of every loss from fraud, since customers cannot be expected to protect themselves in any way"
+        ],
+        "answer": 1,
+        "explanation": "Answer: authorised fraud passes authentication, so deliberate friction is being weighed, and its cost must be targeted and allocated. Why: paragraph 2 explains why authentication fails; paragraph 3 explains friction; paragraph 4 explains targeting; paragraph 5 says 'The problem is at bottom one of allocation.' Why the others fail: the author never suggests abandoning instant payments; authentication is said NOT to cure this kind of fraud; and banks bearing the 'whole' loss is not argued (the passage says 'part')."
+      },
+      {
+        "id": "q14",
+        "type": "RC",
+        "question": "According to the passage, stronger authentication fails against authorised push payment fraud because",
+        "passageId": "RC3",
+        "options": [
+          "the account holder herself approves the payment, so the check that she is the account holder is passed",
+          "authentication works only for card payments and does not apply to the instant transfers that are made through UPI",
+          "scammers are able to break into the systems of banks and thereby to pass the checks that are meant to stop them",
+          "authentication slows payments so much that users prefer to turn it off, and fraud then goes unchecked"
+        ],
+        "answer": 0,
+        "explanation": "Answer: the account holder herself approves the payment, so the check passes. Why: paragraph 2 says 'In authorised fraud that check passes, because it is the account holder who is sending the money', and compares it to a lock that works while the person holding the key is deceived. Why the others fail: nothing says authentication applies only to cards; paragraph 1 says such fraud 'may involve no breach of technical systems at all'; and users turning it off is not mentioned."
+      },
+      {
+        "id": "q15",
+        "type": "RC",
+        "question": "The author says that 'time is the scammer's enemy' because",
+        "passageId": "RC3",
+        "options": [
+          "a pause allows the bank to trace the physical location of the scammer before the money has been moved",
+          "scammers cannot hold the attention of their victims over any long period, and so they lose interest quickly",
+          "delays raise the cost of carrying out the fraud, since each scam then needs many more calls and messages",
+          "scams depend on urgency, and a pause gives the victim time to reflect or to consult someone else"
+        ],
+        "answer": 3,
+        "explanation": "Answer: scams depend on urgency, and a pause lets the victim reflect or consult. Why: paragraph 3 says 'A scammer's chief weapon is urgency', gives the examples of 'the account will be blocked within the hour', and says a pause gives time 'to consult a relative, to call the bank, to notice that the demand does not quite make sense'. Why the others fail: tracing the scammer, short attention spans and higher costs of operation are not mentioned."
+      },
+      {
+        "id": "q16",
+        "type": "RC",
+        "question": "Each of the following is stated or implied in the passage EXCEPT that",
+        "passageId": "RC3",
+        "options": [
+          "a delay on every payment would burden honest users, such as those who must pay a hospital in an emergency",
+          "a model of what is unusual will make errors in both directions, holding honest payments and missing dishonest ones",
+          "once a hold on unusual payments is introduced, it will reduce fraud to a negligible level without any further cost",
+          "fraudsters may respond to a hold on large sums by asking their victims to make several small transfers"
+        ],
+        "answer": 2,
+        "explanation": "Answer: the option claiming a hold will cut fraud to a negligible level at no cost. The passage argues the opposite: 'Friction, however, is not free', targeting depends on a fallible model, and fraudsters adapt. The other three are in paragraph 4: the burden on honest users, the errors in both directions, and the splitting of large transfers into small ones. Tip: options with absolute words such as 'negligible' and 'without any cost' usually go beyond what the author says."
+      },
+      {
+        "id": "q17",
+        "type": "RC",
+        "question": "The fifth paragraph suggests that",
+        "passageId": "RC3",
+        "options": [
+          "rules about compensation are relevant only after a fraud has taken place, and they cannot affect the design of systems",
+          "banks bear no loss in any case, since the payment has been authorised by the customer who made it",
+          "customers take more care when the whole loss falls on them, so that detection by banks becomes unnecessary",
+          "a bank has less reason to build better detection when the whole loss from fraud falls on the customer"
+        ],
+        "answer": 3,
+        "explanation": "Answer: a bank has less reason to build better detection if the whole loss falls on the customer. Why: paragraph 5 says 'Where a bank must bear part of it, the bank has a reason to build better detection; where the whole of it falls on the customer, the reason is weaker.' It adds that loss-sharing rules are 'a part of the design'. Why the others fail: that contradicts the 'part of the design' line; the paragraph deals with banks sharing loss, so 'no loss in any case' is wrong; and customer care is not claimed to make detection unnecessary."
+      },
+      {
+        "id": "q18",
+        "type": "RC",
+        "question": "The last sentence of the passage suggests that",
+        "passageId": "RC3",
+        "options": [
+          "some cost is unavoidable, and the open question is who should bear it and in what form",
+          "a design exists that would remove all cost from both honest users and the victims of fraud",
+          "the victims should always bear the cost, since they alone have made the payment in question",
+          "honest users should never be inconvenienced, even if the number of frauds were to go on rising"
+        ],
+        "answer": 0,
+        "explanation": "Answer: some cost is unavoidable; the question is who bears it. Why: the sentence says 'Someone must pay for the delay, in time or in money', and the choice is between 'many small costs borne by all users and a few large costs borne by victims'. Why the others fail: it says a cost must be paid, so a no-cost design does not exist; it does not say victims should always pay; and it does not say honest users must never be inconvenienced."
+      },
+      {
+        "id": "q19",
+        "type": "RC",
+        "question": "According to Prof. Deshpande, a rise in interest rates is not the right response to the tomato price spike chiefly because",
+        "passageId": "CA1",
+        "options": [
+          "interest rates have no effect at all on any kind of inflation, whatever the cause of the rise may be",
+          "tomatoes form too small a part of the index for the central bank to take any notice of their price",
+          "the spike comes from supply, whereas a rate rise works by dampening demand",
+          "the central bank is not permitted by the law to react to changes in the prices of food items"
+        ],
+        "answer": 2,
+        "explanation": "Answer: the spike comes from supply, while a rate rise works on demand. Why: she says 'A rate increase works by dampening demand across the economy. This spike comes from supply' and 'Cooling the demand for cars and homes will not grow a single tomato.' Why the others fail: she does not say interest rates never work, does not talk about the size of tomatoes in the index, and does not mention any legal bar."
+      },
+      {
+        "id": "q20",
+        "type": "RC",
+        "question": "Prof. Deshpande says a central bank should act on such a spike only if",
+        "passageId": "CA1",
+        "options": [
+          "the spike lasts for more than a fortnight in any one of the cities that are affected by it",
+          "it begins to change what people expect about future prices",
+          "the core figure rises above the headline figure for two months in a row after the spike",
+          "farmers decide to plant more of the crop because of the higher prices they have seen"
+        ],
+        "answer": 1,
+        "explanation": "Answer: if the spike begins to change what people expect about future prices. Why: she says a sensible central bank 'acts only if it begins to change what people expect about future prices'. Why the others fail: duration in a city, the core figure overtaking the headline figure and farmers planting more are not given as triggers; in fact farmers planting more is her reason why the spike will REVERSE."
+      },
+      {
+        "id": "q21",
+        "type": "RC",
+        "question": "Prof. Deshpande's last two remarks suggest that",
+        "passageId": "CA1",
+        "options": [
+          "the gain from higher retail prices is largely absorbed by intermediaries, so that farmers do not benefit in proportion",
+          "farmers gain much more from a sharp rise in prices than consumers lose by paying the higher prices",
+          "consumers benefit from price spikes, since farmers then plant more and later prices fall below earlier levels",
+          "intermediaries lose heavily when prices rise, because the margins that they are allowed to earn are fixed"
+        ],
+        "answer": 0,
+        "explanation": "Answer: intermediaries absorb much of the gain, so farmers do not gain in proportion. Why: she says 'When consumers pay double, farmers rarely receive double. Much of the increase is captured in the middle', and to 'who gains?' she answers 'Often neither the farmer nor the consumer.' Why the others fail: each contradicts one of these remarks (farmers gaining more than consumers lose, consumers benefiting, intermediaries losing)."
+      },
+      {
+        "id": "q22",
+        "type": "Vocabulary",
+        "question": "An ________ sceptic, she greeted every promise of reform with the same weary doubt.",
+        "options": [
+          "fledgling",
+          "ephemeral",
+          "inveterate",
+          "ingenuous"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'inveterate' means long-established in a habit, which fits someone who always meets promises with the same doubt. The others: 'fledgling' means new and inexperienced (the opposite of long-established); 'ephemeral' means short-lived; 'ingenuous' means innocent and trusting, which clashes with 'sceptic'. Tip: 'the same weary doubt' hints at habit built over time."
+      },
+      {
+        "id": "q23",
+        "type": "Vocabulary",
+        "question": "The regulator's ________ reply, neither approving the merger nor rejecting it, left both firms unsure how to proceed.",
+        "options": [
+          "categorical",
+          "equivocal",
+          "emphatic",
+          "unequivocal"
+        ],
+        "answer": 1,
+        "explanation": "Answer: 'equivocal' means open to more than one interpretation, deliberately unclear. The clue is 'neither approving nor rejecting', which left the firms unsure. The others: 'categorical' (absolute and clear), 'emphatic' (forceful) and 'unequivocal' (leaving no doubt) all describe clear replies, the opposite of what the sentence needs."
+      },
+      {
+        "id": "q24",
+        "type": "Vocabulary",
+        "question": "The new chief's frugality was ________ in a firm accustomed to lavish expense accounts, and it soon became a talking point.",
+        "options": [
+          "unremarkable",
+          "negligible",
+          "innocuous",
+          "conspicuous"
+        ],
+        "answer": 3,
+        "explanation": "Answer: 'conspicuous' means standing out, easily noticed. A frugal chief in a lavish firm would stand out, and that is why it became a talking point. The others: 'unremarkable' and 'negligible' describe something that does not attract notice, so it could not become a talking point; 'innocuous' means harmless, which does not explain the attention."
+      },
+      {
+        "id": "q25",
+        "type": "Vocabulary",
+        "question": "Although the new scheme was widely ________ as a breakthrough, its ________ was limited, for it reached only a small ________ of those it was meant to help.",
+        "options": [
+          "decried; impact; fraction",
+          "touted; impact; fraction",
+          "touted; impact; majority",
+          "touted; novelty; fraction"
+        ],
+        "answer": 1,
+        "explanation": "Answer: touted; impact; fraction. Step by step. 'Although' signals contrast: the scheme was praised ('touted') but its effect ('impact') was limited, because it reached only a small 'fraction'. 'Decried' (condemned) would not contrast with 'limited'; 'small majority' does not make sense for a limited reach; and 'novelty' is not made limited by reaching few people."
+      },
+      {
+        "id": "q26",
+        "type": "Vocabulary",
+        "question": "The orator was ________ rather than persuasive: his speech was long on ________ and short on ________.",
+        "options": [
+          "bombastic; rhetoric; substance",
+          "bombastic; substance; rhetoric",
+          "laconic; rhetoric; substance",
+          "lucid; rhetoric; substance"
+        ],
+        "answer": 0,
+        "explanation": "Answer: bombastic; rhetoric; substance. Step by step. 'Bombastic' means pompous and full of inflated words, the opposite of persuasive. Such a speech is long on 'rhetoric' (fine-sounding language) and short on 'substance' (real content). Reversing the last two would praise the content. 'Laconic' means using few words, which clashes with 'long on'; 'lucid' means clear, which would not be set against 'persuasive' in this way."
+      },
+      {
+        "id": "q27",
+        "type": "Vocabulary",
+        "question": "The treaty's language was deliberately ________: each side could claim victory because each could read into the text a meaning that ________ its own position, and the vagueness would ________ only when the first dispute arose.",
+        "options": [
+          "precise; vindicated; surface",
+          "ambiguous; contradicted; surface",
+          "ambiguous; vindicated; vanish",
+          "ambiguous; vindicated; surface"
+        ],
+        "answer": 3,
+        "explanation": "Answer: ambiguous; vindicated; surface. Step by step. Both sides claim victory, so the text must be open to two readings ('ambiguous', not 'precise'). Each reads a meaning that 'vindicated' (supported) its own position; a meaning that 'contradicted' it would not let it claim victory. The vagueness would 'surface' (come to the notice) only when a dispute arose; it would not 'vanish' at that point, since a dispute is exactly when the vagueness matters."
+      },
+      {
+        "id": "q28",
+        "type": "Vocabulary",
+        "question": "The auditor was ________ about the accounts, ________ every figure and ________ any entry that could not be traced to a source.",
+        "options": [
+          "cavalier; scrutinising; querying",
+          "scrupulous; overlooking; querying",
+          "scrupulous; scrutinising; querying",
+          "scrupulous; scrutinising; condoning"
+        ],
+        "answer": 2,
+        "explanation": "Answer: scrupulous; scrutinising; querying. Step by step. A careful auditor is 'scrupulous' (extremely careful about detail); 'cavalier' (careless) is the opposite. Such a person 'scrutinises' (examines closely), not 'overlooks', every figure, and 'queries' (questions) an untraceable entry rather than 'condoning' (accepting or forgiving) it."
+      },
+      {
+        "id": "q29",
+        "type": "Vocabulary",
+        "question": "The study ________ a strong correlation between the two, but it would be ________ to conclude that one causes the other, since both may depend on a third factor.",
+        "options": [
+          "disproved; unwarranted",
+          "documented; prudent",
+          "documented; unwarranted",
+          "documented; inevitable"
+        ],
+        "answer": 2,
+        "explanation": "Answer: documented; unwarranted. Step by step. 'But' signals a limit on what follows. The study 'documented' (recorded) a correlation, but to claim causation would be 'unwarranted' (without justification) because a third factor may explain both. 'Disproved' a correlation would not need 'but'; 'prudent' (wise) and 'inevitable' (certain) reverse the caution that the sentence expresses."
+      },
+      {
+        "id": "q30",
+        "type": "Vocabulary",
+        "question": "An ________ jurist warned that a constitutional crisis was ________ and urged members to ________ their usual debates.",
+        "options": [
+          "imminent; eminent; forgo",
+          "eminent; imminent; forego",
+          "eminent; immanent; forgo",
+          "eminent; imminent; forgo"
+        ],
+        "answer": 3,
+        "explanation": "Answer: eminent; imminent; forgo. Three confusable words. EMINENT = distinguished (an eminent jurist); IMMINENT = about to happen (a crisis that is imminent); IMMANENT = inherent, existing within. FORGO = do without, give up; FOREGO = go before, precede. So 'forgo their usual debates' means to give them up. Memory trick: imMINENT sounds like 'MINUTES away'; forGO = let go of something; foreGO = go FORE (before)."
+      },
+      {
+        "id": "q31",
+        "type": "Vocabulary",
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "The principle of the college addressed the graduating class.",
+          "The principal reason for the delay was a shortage of cement.",
+          "She refused to compromise her principles, even under pressure.",
+          "The judge based her ruling on a legal precedent."
+        ],
+        "answer": 0,
+        "explanation": "Answer: the sentence with 'The principle of the college'. A 'principal' is the head of an institution (and, as an adjective, 'main'); a 'principle' is a rule or belief. So the college has a 'principal'. The other sentences are correct: 'principal reason' (main reason), 'principles' (beliefs) and 'precedent' (an earlier ruling). Memory trick: the princiPAL is your PAL; a principLE is a ruLE."
+      },
+      {
+        "id": "q32",
+        "type": "Vocabulary",
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "The site chosen for the new factory was carefully surveyed.",
+          "The lawyer asked the witness to site the exact date of the incident.",
+          "The court cited an earlier ruling in support of its view.",
+          "The old man was gradually losing his sight."
+        ],
+        "answer": 1,
+        "explanation": "Answer: the sentence with 'to site the exact date'. To 'cite' means to mention or quote as evidence, so the witness should 'cite' (name) the date. A 'site' is a place, correctly used in the first of the other options; 'cited' is correctly used in the second; and 'sight' (the ability to see) is correct in the last. Memory trick: CITE = CITation; SITE = a SITuation or place; SIGHT = eyesight."
+      },
+      {
+        "id": "q33",
+        "type": "Vocabulary",
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "The jockey tightened the reins before the start of the race.",
+          "Heavy rain delayed the match for nearly two hours.",
+          "The new queen's reign began in the spring.",
+          "The dictator's rein of terror ended only with his exile."
+        ],
+        "answer": 3,
+        "explanation": "Answer: the sentence with 'rein of terror'. A period of rule is a 'reign'. A 'rein' is the strap used to control a horse, correctly used in the jockey sentence; 'rain' is water from the sky, correct in the third; 'reign' is correct in the last. Memory trick: reiGN has a 'g' like 'governor' and 'king'; a reIN is what you hold to steer a horse."
+      },
+      {
+        "id": "q34",
+        "type": "Grammar",
+        "question": "Neither the manager nor his assistants <u>was</u> aware of the change.",
+        "options": [
+          "is",
+          "has been",
+          "were",
+          "was being"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'were'. Rule: with 'neither ... nor', the verb agrees with the subject NEAREST to it. The nearest subject is 'assistants' (plural), so the verb is 'were'. (If the order were 'Neither his assistants nor the manager', the verb would be singular: 'was'.) 'Is' and 'has been' are singular and present or perfect forms that do not match the past sense; 'was being' is a continuous form that makes no sense with 'aware'."
+      },
+      {
+        "id": "q35",
+        "type": "Grammar",
+        "question": "Each of the proposals, along with their costings, <u>have been</u> examined.",
+        "options": [
+          "has been",
+          "are being",
+          "were",
+          "being"
+        ],
+        "answer": 0,
+        "explanation": "Answer: 'has been'. Rule: 'Each' is singular, so the verb must be singular. The phrase 'along with their costings' is parenthetical and does not change the number of the subject. So 'Each of the proposals ... has been examined.' 'Are being' and 'were' are plural, and 'being' alone leaves the sentence without a finite verb."
+      },
+      {
+        "id": "q36",
+        "type": "Grammar",
+        "question": "I wish the committee <u>would have</u> published the report earlier.",
+        "options": [
+          "has published",
+          "had published",
+          "would publish",
+          "will have published"
+        ],
+        "answer": 1,
+        "explanation": "Answer: 'had published'. Rule: 'wish' about a past event takes the past perfect (I wish he had come). 'Would have' is not used in the clause that follows 'wish' for a past regret. 'Has published' and 'will have published' do not express a wish about the past, and 'would publish' refers to the future."
+      },
+      {
+        "id": "q37",
+        "type": "Grammar",
+        "question": "The profits of this year are higher than <u>last year</u>.",
+        "options": [
+          "that of last year",
+          "what last year was",
+          "those of last year",
+          "last year are"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'those of last year'. Rule: comparisons must compare like with like. 'Profits' are being compared with 'profits', not with a 'year'. The pronoun 'those' stands for 'profits' (plural). 'That of' would need a singular noun; the other options are ungrammatical. Tip: ask 'what is being compared with what?' and make both sides the same kind of thing."
+      },
+      {
+        "id": "q38",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nA survey of train passengers measures the satisfaction of those who chose to travel. ____________________. A company that polls only its current customers will therefore learn little about why others left.",
+        "options": [
+          "It leaves out those who were put off and never boarded, whose views may differ sharply from those of the travellers.",
+          "It shows that most people who use trains are satisfied, and it proves that those who stay away must be satisfied as well.",
+          "It is the only reliable measure of satisfaction, since those who have not travelled have no views that are worth collecting.",
+          "It is useful because it counts the views of every person in the country, whether the person uses trains or does not."
+        ],
+        "answer": 0,
+        "explanation": "Answer: the survey leaves out those who were put off and never boarded. Why: the next sentence says a company polling only current customers 'will therefore learn little about why others left', so the blank must point to the missing group. This is selection bias: the sample excludes the people who matter most. Why the others fail: each treats the sample as complete or as proof about non-users. Tip: the blank must lead logically to 'therefore' in the next sentence."
+      },
+      {
+        "id": "q39",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nWhen a measure becomes a target, people begin to work on the measure rather than on the thing it was meant to capture. ____________________. A school judged by its pass rate may coach pupils for the test and neglect understanding, so that the pass rate rises while learning does not.",
+        "options": [
+          "The measure then becomes more accurate, because everyone is now trying hard to improve the figure that is being counted.",
+          "The measure then stops tracking what it was chosen to track, because behaviour has been bent to fit it.",
+          "The measure should therefore be replaced by one that no one has ever seen, since a hidden figure cannot be gamed.",
+          "The thing that was meant to be captured improves at once, since attention has at last been turned to it."
+        ],
+        "answer": 1,
+        "explanation": "Answer: the measure stops tracking what it was meant to track, because behaviour is bent to fit it. Why: the example that follows says the pass rate rises 'while learning does not', i.e. the measure and the thing have come apart. (This idea is known as Goodhart's law.) Why the others fail: 'more accurate' and 'improves at once' contradict the example, and the 'hidden figure' suggestion is a policy proposal that the example does not support."
+      },
+      {
+        "id": "q40",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nA tax on a good raises its price for the buyer, but the burden does not always fall on the buyer. ____________________. When buyers can easily switch to substitutes, sellers must absorb much of the tax to keep their sales.",
+        "options": [
+          "The burden always falls on the seller, because the law requires the seller to pay the tax to the government.",
+          "The burden is divided equally between buyer and seller, whatever may be the nature of the good that is taxed.",
+          "The burden falls on the party with the larger income, since a tax is meant to be paid by those who can afford it.",
+          "How the burden divides depends on who finds it easier to walk away from the transaction."
+        ],
+        "answer": 3,
+        "explanation": "Answer: the burden divides according to who finds it easier to walk away. Why: the next sentence gives one case: if buyers can easily switch, sellers must absorb the tax. So the blank states the general rule behind the case: the party with the easier exit bears less. Why the others fail: 'always the seller' and 'divided equally' are fixed rules that the example contradicts, and the income-based rule is not what the example shows."
+      },
+      {
+        "id": "q41",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Entry at packaging is therefore quicker and cheaper, but the value it keeps is correspondingly smaller.\n2. Design, the first, creates the blueprint of the chip and earns the highest margins for the least equipment.\n3. A country can enter the chain of chip-making at several points, and the point it chooses shapes what it earns.\n4. Packaging, the last, cuts the wafers and encloses the chips, and needs far less capital than fabrication.\n5. Fabrication, the middle stage, turns wafers into working circuits and demands the greatest capital.",
+        "answer": "32541",
+        "explanation": "Answer: 3-2-5-4-1. Step by step. Sentence 3 is the opener: it introduces 'several points' of entry. Sentences 2, 5 and 4 describe those points in the order the passage names them: 'the first' (design), 'the middle stage' (fabrication) and 'the last' (packaging). Sentence 1 begins 'therefore' and draws the conclusion about packaging, so it must come last. Tip: ordinal words (first, middle, last) and 'therefore' fix the order almost automatically."
+      },
+      {
+        "id": "q42",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Such a hold, of course, taxes honest users as well, and so it must be targeted.\n2. Regulators are therefore weighing deliberate friction, such as a short hold on unusual payments.\n3. Instant payment has made transfers convenient, and it has made fraud quick.\n4. A scammer's chief weapon is urgency, which is why a pause can defeat him.\n5. The delay that instant systems removed was precisely what once gave a bank time to intervene.",
+        "answer": "35421",
+        "explanation": "Answer: 3-5-4-2-1. Step by step. Sentence 3 opens with the general fact (instant payment: convenient and quick fraud). Sentence 5 explains why fraud is quick: the delay has been removed. Sentence 4 links delay ('a pause') to the scammer's weapon, urgency. Sentence 2 begins 'therefore' and draws the policy conclusion (friction). Sentence 1 begins 'Such a hold', which refers back to 'a short hold' in sentence 2, and adds the cost. Tip: 'therefore' and 'such a ...' are pointers to what came just before."
+      },
+      {
+        "id": "q43",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. The result is a figure that is correct, and yet says little about whether any single day is dangerous.\n2. Averages fold the peaks and troughs of a series into a single figure.\n3. Take, for instance, the annual average of air quality in a city that suffers one week of heavy smog.\n4. The week that sends people to hospital is thus diluted by the fifty-one weeks in which the air is tolerable.",
+        "answer": "2341",
+        "explanation": "Answer: 2-3-4-1. Step by step. Sentence 2 states the general principle (averages fold peaks and troughs). Sentence 3 begins 'Take, for instance', so it must follow a general statement and give the example. Sentence 4 begins 'thus', drawing the effect of averaging in that example. Sentence 1 begins 'The result', which refers to the averaged figure, and gives the final judgement. Tip: 'for instance' needs a general rule before it, and 'thus' needs a cause before it."
+      },
+      {
+        "id": "q44",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. The test, however, is whether the cover is adequate to the risk it was bought against.\n2. A firm pays an insurance premium to be protected against a loss that may never occur.\n3. For that reason the subsidy is often criticised, since in a normal year it buys no visible return.\n4. Its benefit lies in the disruption that does not happen, and a disruption that never happens is never seen.\n5. A nation that subsidises a strategic industry may be understood in the same way.",
+        "answer": "25431",
+        "explanation": "Answer: 2-5-4-3-1. Step by step. Sentence 2 introduces insurance. Sentence 5 says a nation's subsidy 'may be understood in the same way', so it follows 2. Sentence 4 begins 'Its benefit', referring to the subsidy just named. Sentence 3 begins 'For that reason', which explains the criticism that follows from the benefit being unseen (4). Sentence 1 begins 'The test, however', adding a final caution. Tip: 'in the same way', 'its' and 'for that reason' are chain links; follow them one by one."
+      },
+      {
+        "id": "q45",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Raising interest rates, the usual cure for inflation, would make homes and cars dearer to buy.\n2. The sensible response, therefore, lies in storage, transport and information, and not in the interest rate.\n3. That is because a shock that comes from supply cannot be cured by cooling demand.\n4. Heavy rain destroys a tomato crop and delays the trucks, so that prices rise in the cities.",
+        "answer": "4132",
+        "explanation": "Answer: 4-1-3-2. Step by step. Sentence 4 states the event (rain destroys the crop). Sentence 1 turns to the usual cure (raising rates) and its effect (homes and cars dearer, which acts on demand). Sentence 3 begins 'That is because', explaining why that cure fails: the shock is from supply. Sentence 2 begins 'therefore', drawing the final conclusion. Tip: 'That is because' must follow the claim it explains, and 'therefore' closes the argument."
+      }
+    ]
   }
-  ]
+]
