@@ -297,6 +297,31 @@
         .att-up { color: var(--status-correct); font-weight: 800; }
         .att-down { color: var(--status-wrong); font-weight: 800; }
         .att-best { background: #fffbeb; color: #b45309; border: 1px solid #fde68a; font-size: 0.7rem; font-weight: 800; padding: 2px 8px; border-radius: 20px; margin-left: 6px; }
+
+        /* ---------- BOOKMARKS ---------- */
+        .bm-btn { background: #ffffff; border: 1px solid var(--border-light); color: var(--text-body); font-size: 0.74rem; font-weight: 700; padding: 4px 10px; border-radius: 20px; cursor: pointer; margin-left: 8px; vertical-align: middle; transition: all 0.15s ease; }
+        .bm-btn:hover { border-color: #f59e0b; color: #b45309; }
+        .bm-btn.on { background: #fffbeb; border-color: #f59e0b; color: #b45309; }
+        .bm-opt { padding: 8px 12px; border: 1px solid var(--border-light); border-radius: 8px; margin-top: 6px; font-size: 0.88rem; background: var(--bg-subtle); color: var(--text-heading); }
+        .bm-opt.ok { background: #f0fdf4; border-color: var(--status-correct); color: var(--status-correct); font-weight: 700; }
+        .att-card details { margin-top: 10px; }
+        .att-card summary { cursor: pointer; font-weight: 700; font-size: 0.84rem; color: var(--green-hover); }
+        /* ---------- STREAK, GOAL, PRACTICE ---------- */
+        .streak-card { display: grid; grid-template-columns: 1fr auto; gap: 20px; align-items: center; background: linear-gradient(135deg, #fff7ed 0%, #ecfdf5 100%); border: 1px solid #fed7aa; border-radius: 14px; padding: 20px; margin: 18px 0; }
+        @media (max-width: 760px) { .streak-card { grid-template-columns: 1fr; } }
+        .streak-num { font-size: 2.2rem; font-weight: 800; color: #c2410c; line-height: 1.1; }
+        .streak-facts { font-size: 0.82rem; color: var(--text-body); margin-top: 4px; }
+        .goal-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin-top: 14px; font-size: 0.85rem; font-weight: 700; color: var(--text-heading); }
+        .goal-row select { padding: 4px 8px; border-radius: 6px; border: 1px solid var(--border-light); font-weight: 700; background: #fff; }
+        .cal-grid { display: grid; grid-template-columns: repeat(7, 22px); gap: 4px; }
+        .cal-h { font-size: 0.62rem; text-align: center; color: var(--text-muted); font-weight: 700; }
+        .cal-cell { width: 22px; height: 22px; border-radius: 5px; background: #e8f0eb; }
+        .cal-cell.l1 { background: #a7f3d0; } .cal-cell.l2 { background: #34d399; } .cal-cell.l3 { background: #047857; }
+        .cal-cell.today { outline: 2px solid #0f291e; outline-offset: 1px; }
+        .cal-cell.pad { background: transparent; }
+        .prac-card { background: #fafdfb; border: 1px solid var(--green-border); border-radius: 14px; padding: 20px; margin: 18px 0; }
+        .prac-row { display: grid; grid-template-columns: 1.3fr 2fr auto; gap: 14px; align-items: center; padding: 10px 0; border-top: 1px solid var(--border-light); font-size: 0.85rem; }
+        @media (max-width: 760px) { .prac-row { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
@@ -305,6 +330,7 @@
         <div class="brand">
             <span class="logo-box">NX</span> NEXTORY
             <span class="sub-tag">IPMAT Prep Portal</span>
+            <span id="streak-pill" class="sub-tag" style="cursor:pointer; background:#fff7ed; color:#c2410c; border-color:#fed7aa;" onclick="navigateTab('attempts')" title="Your practice streak">🔥 0</span>
         </div>
         <div class="nav-items">
             <button id="btn-vocab" class="nav-btn active" onclick="navigateTab('vocab')">📖 Daily Vocab</button>
@@ -313,6 +339,7 @@
             <button id="btn-sectional" class="nav-btn" onclick="navigateTab('sectional')">⚡ Sectionals</button>
             <button id="btn-sec-archive" class="nav-btn" onclick="navigateTab('sec-archive')">📂 Past Sectionals</button>
             <button id="btn-attempts" class="nav-btn" onclick="navigateTab('attempts')">📈 My Attempts (<span id="attempts-count">0</span>)</button>
+            <button id="btn-bookmarks" class="nav-btn" onclick="navigateTab('bookmarks')">⭐ Bookmarks (<span id="bookmarks-count">0</span>)</button>
             <button id="btn-saved" class="nav-btn" onclick="navigateTab('saved')">🔖 Saved Hub (<span id="saved-count">0</span>)</button>
             <button id="btn-archive" class="nav-btn" onclick="navigateTab('archive')">📂 Past RCs</button>
         </div>
@@ -368,7 +395,7 @@
                             </div>
                         </div>
 
-                        <span id="q-progress" class="tag" style="margin-bottom:12px; display:inline-block;">Q 1 of 6</span>
+                        <span id="q-progress" class="tag" style="margin-bottom:12px; display:inline-block;">Q 1 of 6</span><span id="rc-bm-slot"></span>
                         <div id="q-text" style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading);">Loading question...</div>
                         <div id="q-options"></div>
                         <div id="q-explanation" class="explanation-box"></div>
@@ -426,6 +453,15 @@
                     </div>
                 </div>
                 <div id="attempts-container">Loading attempts...</div>
+            </div>
+        </div>
+
+        <!-- BOOKMARKS TAB -->
+        <div id="panel-bookmarks" class="view-panel">
+            <div class="question-card">
+                <h2 style="color: var(--text-heading);">⭐ Bookmarked Questions</h2>
+                <p style="color:var(--text-muted); font-size:0.9rem; margin-top:4px;">Tap ☆ Bookmark on any question, during a test or while reviewing, and it is kept here for revision.</p>
+                <div id="bookmarks-container" style="margin-top:16px;">Loading bookmarks...</div>
             </div>
         </div>
 
@@ -651,7 +687,7 @@
         let allSectionals = [];
         let todaySectional = null;
         let sectionalUserAnswers = {};
-        let sectionalSeconds = 2400; 
+        let sectionalSeconds = 2400; let sectionalTotalSeconds = 2400; 
         let sectionalTimerInterval = null;
         let isSectionalSubmitted = false;
         let isSectionalTimerActive = false;
@@ -750,7 +786,8 @@
             secCurrentQIndex = 0;
             sectionalUserAnswers = {};
             isSectionalSubmitted = false;
-            sectionalSeconds = 2400; // Strictly set to 40 minutes (2400 seconds)
+            sectionalTotalSeconds = (todaySectional && todaySectional.practiceSeconds) ? todaySectional.practiceSeconds : 2400; // 40 mins for sectionals, ~55s/question for practice sets
+            sectionalSeconds = sectionalTotalSeconds;
             if (window.__saReset) window.__saReset(); // clears per-question timing + hides "View Analysis"
 
             renderSectionalContainerLayout();
@@ -903,7 +940,7 @@
                         <div class="question-card">
                             ${timerHeaderHtml}
                             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
-                                <span class="tag">Q ${dilrQIndex + 1} of ${qList.length}</span>
+                                <span><span class="tag">Q ${dilrQIndex + 1} of ${qList.length}</span>${bmBtnHtml('dilr', dilrQIndex)}</span>
                                 <span style="font-weight:700; font-size:0.82rem; color:var(--text-muted);">${attemptedCount}/${qList.length} Attempted</span>
                             </div>
                             <div style="font-weight: 700; margin-bottom: 15px; color: var(--text-heading); font-size: 1rem; line-height: 1.6;">${sanitizeHTML(q.question)}</div>
@@ -1127,7 +1164,7 @@
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 1px solid var(--border-light); padding-bottom: 15px;">
                     <div>
                         <h3 style="color:var(--text-heading); font-size: 1.1rem;">${esc(todaySectional.title)}</h3>
-                        <span id="sec-q-progress" class="tag" style="margin-top:4px; display:inline-block;">Q ${secCurrentQIndex + 1} of ${qList.length}</span>
+                        <span id="sec-q-progress" class="tag" style="margin-top:4px; display:inline-block;">Q ${secCurrentQIndex + 1} of ${qList.length}</span>${bmBtnHtml('sectional', secCurrentQIndex)}
                     </div>
                     <div class="timer-badge-box">
                         <span id="sec-timer-display" class="timer-badge-text">⏱️ ${curMins}:${curSecs}</span>
@@ -1418,8 +1455,12 @@
             if (isSectionalSubmitted || !todaySectional) return;
             pauseSectionalTimer();
             isSectionalSubmitted = true;
-            const timeSpent = Math.max(0, 2400 - Math.max(sectionalSeconds, 0));
-            saveAttempt('sectional', todaySectional, sectionalUserAnswers, timeSpent);
+            const timeSpent = Math.max(0, sectionalTotalSeconds - Math.max(sectionalSeconds, 0));
+            if (todaySectional.isPractice) {
+                saveAttempt('practice', todaySectional, sectionalUserAnswers, timeSpent, { refs: todaySectional.refs, testKey: 'practice:' + hashStr(JSON.stringify(todaySectional.refs)), title: todaySectional.title });
+            } else {
+                saveAttempt('sectional', todaySectional, sectionalUserAnswers, timeSpent);
+            }
             generateAdvancedDashboard(todaySectional.title || "IPMAT Sectional", todaySectional.questions, sectionalUserAnswers, timeSpent, true);
             renderSectionalQuestion();
         }
@@ -1508,6 +1549,7 @@
             }
             if (tabName === 'saved') renderSavedHub();
             if (tabName === 'attempts') renderAttemptsHub();
+            if (tabName === 'bookmarks') renderBookmarksHub();
         }
 
         function persistSaved() {
@@ -1638,6 +1680,8 @@
 
             const q = qList[currentQIndex];
             document.getElementById('q-progress').innerText = `Q ${currentQIndex + 1} of ${qList.length}`;
+            const bmSlot = document.getElementById('rc-bm-slot');
+            if (bmSlot) bmSlot.innerHTML = bmBtnHtml('reading', currentQIndex);
             document.getElementById('q-text').innerText = q.question;
             
             const retakeBtn = document.getElementById('retake-btn');
@@ -1742,6 +1786,8 @@
         function updateAttemptsBadge() {
             const el = document.getElementById('attempts-count');
             if (el) el.innerText = loadAttempts().length;
+            updateStreakPill();
+            updateBookmarksBadge();
         }
 
         function refreshArchives() {
@@ -1751,7 +1797,7 @@
             } catch (e) { console.warn(e); }
         }
 
-        function saveAttempt(kind, test, answers, timeSpent) {
+        function saveAttempt(kind, test, answers, timeSpent, extra) {
             try {
                 if (!test || !test.questions) return;
                 let correct = 0, incorrect = 0, unattempted = 0, score = 0;
@@ -1762,22 +1808,23 @@
                     else { incorrect++; if (!isTitaQ(q)) score -= 1; }
                 });
                 const list = loadAttempts();
-                const key = testKey(test);
+                const key = (extra && extra.testKey) || testKey(test);
                 const attemptNo = list.filter(x => x.kind === kind && x.testKey === key).length + 1;
                 list.push({
                     id: 'a' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
                     kind: kind,
                     testKey: key,
-                    title: test.title || 'Untitled test',
+                    title: (extra && extra.title) || test.title || 'Untitled test',
                     testDate: test.date || '',
                     savedAt: new Date().toISOString(),
                     timeSpent: Math.max(0, Math.round(timeSpent || 0)),
                     answers: Object.assign({}, answers),
-                    times: (kind === 'sectional' && window.__saGetTimes) ? window.__saGetTimes() : null,
+                    times: ((kind === 'sectional' || kind === 'practice') && window.__saGetTimes) ? window.__saGetTimes() : null,
                     qCount: test.questions.length,
                     correct: correct, incorrect: incorrect, unattempted: unattempted,
                     score: score, maxScore: test.questions.length * 4,
-                    attemptNo: attemptNo
+                    attemptNo: attemptNo,
+                    refs: (extra && extra.refs) || undefined
                 });
                 while (list.length > ATTEMPTS_MAX) list.shift();
                 storeAttempts(list);
@@ -1795,6 +1842,7 @@
         }
 
         function findTestForAttempt(rec) {
+            if (rec.kind === 'practice') return buildPracticeTest(rec.refs || [], rec.title);
             const pool = rec.kind === 'sectional' ? allSectionals : rec.kind === 'reading' ? allPassages : allDILRSets;
             return (pool || []).find(t => testKey(t) === rec.testKey) || null;
         }
@@ -1821,13 +1869,14 @@
             if (!confirmDiscardInProgress()) return;
 
             const answers = Object.assign({}, rec.answers);
-            if (rec.kind === 'sectional') {
+            if (rec.kind === 'sectional' || rec.kind === 'practice') {
                 clearInterval(sectionalTimerInterval);
                 isSectionalTimerActive = false;
                 todaySectional = test;
                 sectionalUserAnswers = answers;
                 isSectionalSubmitted = true;
-                sectionalSeconds = Math.max(0, 2400 - (Number(rec.timeSpent) || 0));
+                sectionalTotalSeconds = test.practiceSeconds || 2400;
+                sectionalSeconds = Math.max(0, sectionalTotalSeconds - (Number(rec.timeSpent) || 0));
                 secCurrentQIndex = 0;
                 if (window.__saSetTimes) window.__saSetTimes(rec.times || {});
                 navigateTab('sectional');
@@ -1869,7 +1918,7 @@
             }
             if (!confirmDiscardInProgress()) return;
 
-            if (rec.kind === 'sectional') {
+            if (rec.kind === 'sectional' || rec.kind === 'practice') {
                 todaySectional = test;
                 navigateTab('sectional');
                 beginSectionalAttempt();
@@ -1932,7 +1981,7 @@
         }
 
         function exportAttempts() {
-            const blob = new Blob([JSON.stringify({ app: 'nextory', version: 1, exportedAt: new Date().toISOString(), attempts: loadAttempts() }, null, 2)], { type: 'application/json' });
+            const blob = new Blob([JSON.stringify({ app: 'nextory', version: 1, exportedAt: new Date().toISOString(), attempts: loadAttempts(), bookmarks: loadBookmarks(), dailyGoal: getDailyGoal() }, null, 2)], { type: 'application/json' });
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
@@ -1956,12 +2005,20 @@
                     const ids = new Set(cur.map(x => x.id));
                     let added = 0;
                     incoming.forEach(x => {
-                        if (x && typeof x.id === 'string' && ['sectional', 'reading', 'dilr'].includes(x.kind) &&
+                        if (x && typeof x.id === 'string' && ['sectional', 'reading', 'dilr', 'practice'].includes(x.kind) &&
                             typeof x.testKey === 'string' && typeof x.savedAt === 'string' && x.answers && typeof x.answers === 'object' && !ids.has(x.id)) {
                             cur.push(x); ids.add(x.id); added++;
                         }
                     });
                     storeAttempts(cur);
+                    if (!Array.isArray(data) && Array.isArray(data.bookmarks)) {
+                        const bms = loadBookmarks();
+                        const bids = new Set(bms.map(b => b.id));
+                        data.bookmarks.forEach(b => {
+                            if (b && typeof b.id === 'string' && ['sectional', 'reading', 'dilr'].includes(b.kind) && typeof b.testKey === 'string' && b.snap && typeof b.snap === 'object' && !bids.has(b.id)) { bms.push(b); bids.add(b.id); }
+                        });
+                        storeBookmarks(bms);
+                    }
                     updateAttemptsBadge();
                     refreshArchives();
                     renderAttemptsHub();
@@ -1990,7 +2047,7 @@
                 .sort((a, b) => String(a.savedAt).localeCompare(String(b.savedAt)));
 
             if (!all.length) {
-                box.innerHTML = `<div class="notice-box" style="margin-top:20px;">No saved attempts yet. Submit a sectional, a reading passage or a DI/LR set and it will appear here automatically.</div>`;
+                box.innerHTML = streakCardHtml() + `<div class="notice-box" style="margin-top:20px;">No saved attempts yet. Submit a sectional, a reading passage or a DI/LR set and it will appear here automatically.</div>`;
                 return;
             }
 
@@ -2017,11 +2074,11 @@
             const totalMin = Math.round(all.reduce((s, r) => s + (Number(r.timeSpent) || 0), 0) / 60);
             const distinct = Object.keys(groups).length;
 
-            const counts = { all: all.length, sectional: 0, reading: 0, dilr: 0 };
+            const counts = { all: all.length, sectional: 0, reading: 0, dilr: 0, practice: 0 };
             all.forEach(r => { if (counts[r.kind] !== undefined) counts[r.kind]++; });
             const chip = (key, label) => `<button class="att-chip ${attemptsFilter === key ? 'active' : ''}" onclick="setAttemptsFilter('${key}')">${label} (${counts[key]})</button>`;
 
-            const kindLabel = { sectional: '⚡ Sectional', reading: '📑 Reading', dilr: '📊 DI/LR' };
+            const kindLabel = { sectional: '⚡ Sectional', reading: '📑 Reading', dilr: '📊 DI/LR', practice: '🎯 Practice' };
             const shown = (attemptsFilter === 'all' ? all : all.filter(r => r.kind === attemptsFilter)).slice().reverse();
 
             const cards = shown.map(r => {
@@ -2060,7 +2117,7 @@
                 </div>`;
             }).join('');
 
-            box.innerHTML = `
+            box.innerHTML = streakCardHtml() + practiceCardHtml() + `
                 <div class="att-summary">
                     <div class="stat-box"><div class="stat-val">${all.length}</div><div class="stat-lbl">Attempts</div></div>
                     <div class="stat-box"><div class="stat-val">${distinct}</div><div class="stat-lbl">Different tests</div></div>
@@ -2069,7 +2126,7 @@
                     <div class="stat-box"><div class="stat-val">${totalMin}m</div><div class="stat-lbl">Practice time</div></div>
                 </div>
                 ${all.length >= 2 ? `<div class="chart-container" style="margin-bottom:18px; align-items:stretch;"><h4 style="font-size:0.82rem; font-weight:800; text-transform:uppercase; color:var(--text-muted); margin-bottom:10px;">Accuracy trend (last ${Math.min(all.length, 20)} attempts)</h4><div style="position:relative; height:200px;"><canvas id="attempts-trend"></canvas></div></div>` : ''}
-                <div class="att-chips">${chip('all', 'All')}${chip('sectional', '⚡ Sectionals')}${chip('reading', '📑 Reading')}${chip('dilr', '📊 DI/LR')}</div>
+                <div class="att-chips">${chip('all', 'All')}${chip('sectional', '⚡ Sectionals')}${chip('reading', '📑 Reading')}${chip('dilr', '📊 DI/LR')}${chip('practice', '🎯 Practice')}</div>
                 ${cards || `<div class="notice-box">No attempts in this category yet.</div>`}
                 <p style="font-size:0.78rem; color:var(--text-muted); margin-top:14px;">Attempts are stored in this browser only. Clearing site data or switching device will not carry them over, so use <b>Backup</b> now and then to keep a copy.</p>`;
 
@@ -2086,6 +2143,382 @@
                     });
                 } catch (e) { console.warn('Trend chart skipped', e); }
             }
+        }
+
+        /* =====================================================
+           BOOKMARKS
+           ===================================================== */
+        const BOOKMARKS_KEY = 'nextory_bookmarks_v1';
+
+        function loadBookmarks() {
+            try { const a = JSON.parse(localStorage.getItem(BOOKMARKS_KEY)); return Array.isArray(a) ? a : []; }
+            catch (e) { return []; }
+        }
+        function storeBookmarks(list) {
+            try { localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(list)); return true; }
+            catch (e) { console.warn('Could not save bookmarks', e); return false; }
+        }
+        function updateBookmarksBadge() {
+            const el = document.getElementById('bookmarks-count');
+            if (el) el.innerText = loadBookmarks().length;
+        }
+
+        function hashStr(str) {
+            let h = 5381;
+            for (let i = 0; i < str.length; i++) h = ((h << 5) + h + str.charCodeAt(i)) | 0;
+            return (h >>> 0).toString(36);
+        }
+
+        function poolFor(kind) {
+            return kind === 'sectional' ? allSectionals : kind === 'reading' ? allPassages : kind === 'dilr' ? allDILRSets : [];
+        }
+        function findTestByRef(ref) {
+            return (poolFor(ref.kind) || []).find(t => testKey(t) === ref.testKey) || null;
+        }
+
+        // Passage / context text that belongs to a question, whatever kind of test it came from
+        function resolvePassageFor(kind, test, q) {
+            if (!test || !q) return null;
+            if (q.passage) return q.passage;
+            if (kind === 'reading') return test.passage || test.content || null;
+            if (kind === 'dilr') return test.setContext || test.passage || null;
+            const store = test.passages;
+            const pid = q.passageId || q.passage_id;
+            if (store && pid !== undefined) {
+                if (Array.isArray(store)) {
+                    const hit = store.find(p => String(p.id) === String(pid));
+                    if (hit) return hit.text || hit.passage || hit.content || null;
+                } else if (store[pid]) {
+                    const v = store[pid];
+                    return typeof v === 'string' ? v : (v.text || v.passage || v.content || null);
+                }
+            }
+            return null;
+        }
+
+        // Works out which real question is on screen (also inside practice sets)
+        function bmContext(kind, idx) {
+            const test = kind === 'sectional' ? todaySectional : kind === 'reading' ? currentRC : currentDILR;
+            if (!test || !test.questions) return null;
+            if (test.isPractice) {
+                const r = (test.refs || [])[idx];
+                const src = r ? findTestByRef(r) : null;
+                if (!src || !src.questions[r.qIndex]) return null;
+                return { kind: r.kind, testKey: r.testKey, qIndex: r.qIndex, testTitle: src.title || '', q: src.questions[r.qIndex] };
+            }
+            if (!test.questions[idx]) return null;
+            return { kind: kind, testKey: testKey(test), qIndex: idx, testTitle: test.title || '', q: test.questions[idx] };
+        }
+        function bmIndex(list, c) {
+            return list.findIndex(b => b.kind === c.kind && b.testKey === c.testKey && b.qIndex === c.qIndex);
+        }
+        function bmBtnHtml(kind, idx) {
+            const c = bmContext(kind, idx);
+            if (!c) return '';
+            const on = bmIndex(loadBookmarks(), c) > -1;
+            return `<button class="bm-btn ${on ? 'on' : ''}" onclick="toggleBookmark('${kind}', ${idx})" title="Bookmark this question for revision">${on ? '⭐ Bookmarked' : '☆ Bookmark'}</button>`;
+        }
+        function toggleBookmark(kind, idx) {
+            const c = bmContext(kind, idx);
+            if (!c) return;
+            const list = loadBookmarks();
+            const i = bmIndex(list, c);
+            if (i > -1) list.splice(i, 1);
+            else list.push({
+                id: 'b' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+                kind: c.kind, testKey: c.testKey, testTitle: c.testTitle, qIndex: c.qIndex,
+                savedAt: new Date().toISOString(),
+                snap: { type: c.q.type || '', question: c.q.question, options: c.q.options || null, answer: c.q.answer, explanation: c.q.explanation || c.q.rationale || '' }
+            });
+            storeBookmarks(list);
+            updateBookmarksBadge();
+            if (kind === 'sectional') renderSectionalQuestion();
+            else if (kind === 'reading') renderQuestion();
+            else renderDILRSet();
+        }
+        function removeBookmark(id) {
+            storeBookmarks(loadBookmarks().filter(b => b.id !== id));
+            updateBookmarksBadge();
+            renderBookmarksHub();
+        }
+
+        function renderBookmarksHub() {
+            const box = document.getElementById('bookmarks-container');
+            if (!box) return;
+            const list = loadBookmarks().filter(b => b && b.id && b.snap).sort((a, b) => String(b.savedAt).localeCompare(String(a.savedAt)));
+            if (!list.length) {
+                box.innerHTML = `<div class="notice-box">No bookmarks yet. While taking or reviewing a test, tap <b>☆ Bookmark</b> next to the question number.</div>`;
+                return;
+            }
+            const practicable = list.filter(b => b.kind !== 'dilr').length;
+            const kindLabel = { sectional: '⚡ Sectional', reading: '📑 Reading', dilr: '📊 DI/LR' };
+            const cards = list.map(b => {
+                const snap = b.snap;
+                const src = findTestByRef(b);
+                const passage = src ? resolvePassageFor(b.kind, src, src.questions[b.qIndex]) : null;
+                let opts;
+                if (Array.isArray(snap.options)) {
+                    const ci = mcqCorrectIndex(snap);
+                    opts = snap.options.map((o, i) => `<div class="bm-opt ${i === ci ? 'ok' : ''}">${i === ci ? '✓ ' : ''}${sanitizeHTML(o)}</div>`).join('');
+                } else {
+                    opts = `<div class="bm-opt ok">Answer: ${esc(snap.answer)}</div>`;
+                }
+                return `
+                <div class="att-card">
+                    <div class="att-card-top">
+                        <div>
+                            <div class="att-title">Q${esc((Number(b.qIndex) || 0) + 1)} · ${esc(b.testTitle || 'Test')}</div>
+                            <div class="att-sub">${esc(kindLabel[b.kind] || b.kind)}${snap.type ? ' · ' + esc(snap.type) : ''}</div>
+                        </div>
+                    </div>
+                    <div style="margin-top:12px; font-weight:700; color:var(--text-heading); white-space:pre-line; line-height:1.6;">${sanitizeHTML(snap.question || '')}</div>
+                    ${passage ? `<details><summary>Show passage</summary><div class="passage-body" style="font-size:0.9rem; margin-top:8px; max-height:320px; overflow-y:auto;">${sanitizeHTML(passage)}</div></details>` : ''}
+                    <details><summary>Show answer &amp; explanation</summary>
+                        <div style="margin-top:8px;">${opts}</div>
+                        <div class="explanation-box" style="display:block;">${sanitizeHTML(snap.explanation || 'No explanation available.')}</div>
+                    </details>
+                    <div class="att-actions" style="margin-top:12px;">
+                        <button class="secondary-btn att-danger" data-id="${esc(b.id)}" onclick="removeBookmark(this.dataset.id)">Remove bookmark</button>
+                    </div>
+                </div>`;
+            }).join('');
+            box.innerHTML = `
+                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px;">
+                    <span class="att-badge">${list.length} bookmarked</span>
+                    ${practicable ? `<button class="primary-btn" onclick="startBookmarkPractice()">🎯 Practise bookmarked questions (${Math.min(practicable, 30)})</button>` : ''}
+                </div>${cards}`;
+        }
+
+        /* =====================================================
+           WEAK-TOPIC PRACTICE
+           ===================================================== */
+        const TOPIC_NAMES = { RC: 'Reading Comprehension', PJ: 'Para Jumbles', PV: 'Para Completion', VO: 'Vocabulary', GR: 'Grammar' };
+        const TOPIC_ORDER = ['RC', 'PJ', 'PV', 'VO', 'GR'];
+
+        function questionTopic(kind, q) {
+            if (kind === 'reading') return 'RC';
+            const t = String((q && q.type) || '').toUpperCase();
+            if (t.includes('JUMBLE')) return 'PJ';
+            if (t.includes('RC')) return 'RC';
+            if (t.includes('PARA') || t.includes('ODD')) return 'PV';
+            if (t.includes('VOCAB')) return 'VO';
+            return 'GR';
+        }
+
+        // A practice set is a synthetic sectional built from references to real questions
+        function buildPracticeTest(refs, title) {
+            const questions = [], used = [];
+            (refs || []).forEach(ref => {
+                if (!ref || ref.kind === 'dilr') return;
+                const src = findTestByRef(ref);
+                if (!src || !src.questions || !src.questions[ref.qIndex]) return;
+                const q = src.questions[ref.qIndex];
+                const copy = Object.assign({}, q);
+                const passage = resolvePassageFor(ref.kind, src, q);
+                if (passage) copy.passage = passage;
+                delete copy.passageId; delete copy.passage_id;
+                if (ref.kind === 'reading' && !copy.type) copy.type = 'RC';
+                questions.push(copy);
+                used.push({ kind: ref.kind, testKey: ref.testKey, qIndex: ref.qIndex });
+            });
+            return {
+                id: 'practice', isPractice: true, title: title || 'Practice Set', date: '',
+                practiceSeconds: Math.max(300, questions.length * 55),
+                refs: used, questions: questions
+            };
+        }
+
+        function startPractice(refs, title) {
+            if (!confirmDiscardInProgress()) return;
+            const test = buildPracticeTest(refs, title);
+            if (!test.questions.length) { alert('Those questions are no longer available on the site.'); return; }
+            todaySectional = test;
+            navigateTab('sectional');
+            beginSectionalAttempt();
+        }
+
+        // Latest result for every question the student has ever attempted
+        function computeMastery() {
+            const attempts = loadAttempts().filter(x => x && x.id && x.kind && x.savedAt).sort((a, b) => String(a.savedAt).localeCompare(String(b.savedAt)));
+            const latest = {};
+            const note = (kind, tkey, qi, q, ans, at) => {
+                if (!q) return;
+                const st = !isAttemptedAns(ans) ? 's' : (isAnswerCorrect(q, ans) ? 'c' : 'w');
+                latest[kind + '|' + tkey + '|' + qi] = { kind: kind, testKey: tkey, qIndex: qi, topic: questionTopic(kind, q), status: st, at: at };
+            };
+            attempts.forEach(r => {
+                const ans = r.answers || {};
+                if (r.kind === 'practice') {
+                    (r.refs || []).forEach((ref, i) => {
+                        const src = findTestByRef(ref);
+                        if (src && src.questions) note(ref.kind, ref.testKey, ref.qIndex, src.questions[ref.qIndex], ans[i], r.savedAt);
+                    });
+                } else if (r.kind === 'sectional' || r.kind === 'reading') {
+                    const test = findTestForAttempt(r);
+                    if (test && test.questions) test.questions.forEach((q, i) => note(r.kind, r.testKey, i, q, ans[i], r.savedAt));
+                }
+            });
+            return Object.keys(latest).map(k => latest[k]);
+        }
+
+        function practiceCardHtml() {
+            let items;
+            try { items = computeMastery(); } catch (e) { return ''; }
+            if (!items.length) return '';
+            const by = {};
+            TOPIC_ORDER.forEach(k => by[k] = { c: 0, w: 0, s: 0 });
+            items.forEach(it => by[it.topic][it.status]++);
+            const weakTotal = items.filter(i => i.status !== 'c').length;
+            const rows = TOPIC_ORDER.filter(k => by[k].c + by[k].w + by[k].s > 0).map(k => {
+                const b = by[k], att = b.c + b.w;
+                return { k: k, b: b, acc: att ? Math.round(b.c / att * 100) : 0, weak: b.w + b.s };
+            }).sort((a, b) => a.acc - b.acc);
+
+            const rowHtml = rows.map((r, i) => `
+                <div class="prac-row">
+                    <div style="font-weight:800; color:var(--text-heading);">${esc(TOPIC_NAMES[r.k])} ${i === 0 && r.weak > 0 ? '<span class="badge-weak">Weakest</span>' : ''}</div>
+                    <div>
+                        <div style="font-size:0.78rem; color:var(--text-muted); margin-bottom:4px;">${r.acc}% accuracy · ${r.b.w} wrong · ${r.b.s} skipped · ${r.b.c} correct</div>
+                        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:${r.acc}%; background:${r.acc < 50 ? '#dc2626' : (r.acc < 75 ? '#d97706' : '#16a34a')};"></div></div>
+                    </div>
+                    <div>${r.weak > 0 ? `<button class="secondary-btn" style="padding:7px 14px; font-size:0.8rem;" onclick="startWeakPractice('${r.k}')">Practise ${Math.min(r.weak, 20)}</button>` : '<span class="badge-strong">All clear</span>'}</div>
+                </div>`).join('');
+
+            return `
+                <div class="prac-card">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:12px;">
+                        <div>
+                            <h3 style="color:var(--text-heading); font-size:1.1rem;">🎯 Weak-Topic Practice</h3>
+                            <p style="color:var(--text-muted); font-size:0.85rem; margin-top:4px;">${weakTotal ? `${weakTotal} question${weakTotal === 1 ? '' : 's'} you got wrong or skipped last time. Answer one correctly and it drops off this list.` : 'Nothing to revisit. Every question you have attempted was answered correctly last time.'}</p>
+                        </div>
+                        ${weakTotal ? `<button class="primary-btn" onclick="startWeakPractice('all')">🎯 Practise ${Math.min(weakTotal, 30)} weak questions</button>` : ''}
+                    </div>
+                    <div style="margin-top:12px;">${rowHtml}</div>
+                </div>`;
+        }
+
+        function startWeakPractice(topic) {
+            const items = computeMastery().filter(i => i.status !== 'c' && (topic === 'all' || i.topic === topic));
+            if (!items.length) { alert('Nothing to practise here yet.'); return; }
+            const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+            const limit = topic === 'all' ? 30 : 20;
+            // wrong answers first, then skipped; sorted so questions of one passage stay together
+            const picked = shuffle(items.filter(i => i.status === 'w')).concat(shuffle(items.filter(i => i.status === 's'))).slice(0, limit);
+            picked.sort((a, b) => TOPIC_ORDER.indexOf(a.topic) - TOPIC_ORDER.indexOf(b.topic) || a.testKey.localeCompare(b.testKey) || a.qIndex - b.qIndex);
+            const refs = picked.map(i => ({ kind: i.kind, testKey: i.testKey, qIndex: i.qIndex }));
+            startPractice(refs, 'Weak-Topic Practice · ' + (topic === 'all' ? 'Mixed' : TOPIC_NAMES[topic]) + ' · ' + refs.length + ' Qs');
+        }
+
+        function startBookmarkPractice() {
+            const refs = loadBookmarks().filter(b => b && b.kind !== 'dilr' && b.testKey).slice(0, 30)
+                .map(b => ({ kind: b.kind, testKey: b.testKey, qIndex: b.qIndex }));
+            if (!refs.length) { alert('No bookmarked verbal questions to practise.'); return; }
+            startPractice(refs, 'Bookmarked Questions · ' + refs.length + ' Qs');
+        }
+
+        /* =====================================================
+           STREAK + DAILY GOAL
+           ===================================================== */
+        const GOAL_KEY = 'nextory_goal_v1';
+
+        function getDailyGoal() {
+            try { const g = parseInt(localStorage.getItem(GOAL_KEY), 10); return g > 0 ? g : 30; } catch (e) { return 30; }
+        }
+        function setDailyGoal(v) {
+            const g = parseInt(v, 10);
+            if (!(g > 0 && g <= 500)) return;
+            try { localStorage.setItem(GOAL_KEY, String(g)); } catch (e) {}
+            updateStreakPill();
+            renderAttemptsHub();
+        }
+
+        function dayKeyOf(d) {
+            return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+        }
+
+        // Questions attempted per local calendar day, plus current / longest streak
+        function computeActivity() {
+            const days = {};
+            loadAttempts().forEach(r => {
+                const d = new Date(r.savedAt);
+                if (isNaN(d)) return;
+                const k = dayKeyOf(d);
+                const o = days[k] || (days[k] = { q: 0, n: 0 });
+                o.q += (Number(r.correct) || 0) + (Number(r.incorrect) || 0);
+                o.n++;
+            });
+            const now = new Date();
+            const d = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+            if (!days[dayKeyOf(d)]) d.setDate(d.getDate() - 1); // today not practised yet: the streak is still alive until midnight
+            let current = 0;
+            while (days[dayKeyOf(d)]) { current++; d.setDate(d.getDate() - 1); }
+            let longest = 0, run = 0, prev = null;
+            Object.keys(days).sort().forEach(k => {
+                const p = k.split('-').map(Number);
+                const dt = new Date(p[0], p[1] - 1, p[2]);
+                run = (prev && Math.round((dt - prev) / 86400000) === 1) ? run + 1 : 1;
+                longest = Math.max(longest, run);
+                prev = dt;
+            });
+            return { days: days, current: current, longest: longest, activeDays: Object.keys(days).length };
+        }
+
+        function updateStreakPill() {
+            const el = document.getElementById('streak-pill');
+            if (!el) return;
+            const a = computeActivity();
+            const today = (a.days[dayKeyOf(new Date())] || { q: 0 }).q;
+            el.innerText = '🔥 ' + a.current;
+            el.title = a.current + '-day streak · ' + today + '/' + getDailyGoal() + ' questions today';
+        }
+
+        function streakCardHtml() {
+            const a = computeActivity();
+            const goal = getDailyGoal();
+            const todayKey = dayKeyOf(new Date());
+            const done = (a.days[todayKey] || { q: 0 }).q;
+            const pct = Math.min(100, Math.round(done / goal * 100));
+
+            const options = [10, 20, 30, 45, 60, 90, 120];
+            if (!options.includes(goal)) options.push(goal);
+            options.sort((x, y) => x - y);
+
+            const now = new Date();
+            const start = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 34);
+            const cells = [];
+            const pad = (start.getDay() + 6) % 7; // week starts on Monday
+            for (let i = 0; i < pad; i++) cells.push('<div class="cal-cell pad"></div>');
+            for (let i = 0; i < 35; i++) {
+                const d = new Date(start.getFullYear(), start.getMonth(), start.getDate() + i);
+                const k = dayKeyOf(d);
+                const q = (a.days[k] || { q: 0 }).q;
+                const has = !!a.days[k];
+                const lvl = !has ? '' : q >= goal ? 'l3' : q >= goal / 2 ? 'l2' : 'l1';
+                cells.push(`<div class="cal-cell ${lvl} ${k === todayKey ? 'today' : ''}" title="${esc(d.toDateString())}: ${q} question${q === 1 ? '' : 's'}"></div>`);
+            }
+            const heads = ['M', 'T', 'W', 'T', 'F', 'S', 'S'].map(x => `<div class="cal-h">${x}</div>`).join('');
+
+            return `
+                <div class="streak-card">
+                    <div>
+                        <div style="display:flex; align-items:baseline; gap:10px; flex-wrap:wrap;">
+                            <span class="streak-num">🔥 ${a.current}</span>
+                            <span style="font-weight:800; color:var(--text-heading);">day streak</span>
+                        </div>
+                        <div class="streak-facts">Longest streak: <b>${a.longest}</b> · Days practised: <b>${a.activeDays}</b> · Submit at least one test a day to keep it going.</div>
+                        <div class="goal-row">
+                            <span>Today: ${done}/${goal} questions ${done >= goal ? '✅ goal met!' : ''}</span>
+                            <label style="font-weight:700; color:var(--text-muted); font-size:0.78rem;">Daily goal
+                                <select onchange="setDailyGoal(this.value)">${options.map(o => `<option value="${o}" ${o === goal ? 'selected' : ''}>${o} questions</option>`).join('')}</select>
+                            </label>
+                        </div>
+                        <div class="progress-bar-bg" style="margin-top:8px;"><div class="progress-bar-fill" style="width:${pct}%; background:${done >= goal ? '#16a34a' : '#f97316'};"></div></div>
+                    </div>
+                    <div>
+                        <div class="cal-grid">${heads}${cells.join('')}</div>
+                        <div style="font-size:0.68rem; color:var(--text-muted); margin-top:6px;">Last 5 weeks · darker = closer to your goal</div>
+                    </div>
+                </div>`;
         }
 
         updateAttemptsBadge();
