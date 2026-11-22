@@ -10869,5 +10869,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author’s “most defensible” view is that a multiple is a milestone and need the destination, and that trouble comes only when the two are confused.<br><br>• <strong>Why Option A is Wrong:</strong> “No value” and the assumption of premature declarations contradict the author’s defence of milestones.<br><br>• <strong>Why Option C is Wrong:</strong> This is an absolute (“only”, “any other”) that the author does not endorse, noting that needs figures are themselves contested.<br><br>• <strong>Why Option D is Wrong:</strong> The author says the figure neither refutes nor vindicates tripling, and proposes no larger multiple.<br><br><strong>💡 Approach:</strong> Agree-with: the author’s own balanced conclusion is the anchor. Options with “no value”, “only” or “replace” are usually extreme."
       }
     ]
+  },
+  {
+    "id": "rc-2026-11-23",
+    "date": "2026-11-23",
+    "title": "What Counts as an Advance? Reading Progress Statistics",
+    "genre": "Current Affairs / Data Reasoning",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1011 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "aver",
+          "type": "verb",
+          "def": "To state or assert confidently that something is true",
+          "ex": "The minister averred that the figures were accurate."
+        },
+        {
+          "word": "cavil",
+          "type": "verb",
+          "def": "To raise petty or trivial objections",
+          "ex": "Critics cavilled at the wording but not at the substance."
+        },
+        {
+          "word": "dissemble",
+          "type": "verb",
+          "def": "To hide one’s true feelings or intentions behind a pretence",
+          "ex": "He dissembled when asked about the missing funds."
+        },
+        {
+          "word": "fallacious",
+          "type": "adjective",
+          "def": "Based on a mistaken belief or faulty reasoning",
+          "ex": "The fallacious argument confused correlation with cause."
+        },
+        {
+          "word": "ingenuous",
+          "type": "adjective",
+          "def": "Innocent, trusting and without guile",
+          "ex": "His ingenuous question exposed the flaw in the plan."
+        },
+        {
+          "word": "jaundiced",
+          "type": "adjective",
+          "def": "Bitter or cynical from past disappointment",
+          "ex": "A jaundiced observer saw only another empty promise."
+        },
+        {
+          "word": "obfuscate",
+          "type": "verb",
+          "def": "To make something unclear or hard to understand",
+          "ex": "The report obfuscated the true cost with technical jargon."
+        },
+        {
+          "word": "pernicious",
+          "type": "adjective",
+          "def": "Having a harmful effect, often in a gradual or subtle way",
+          "ex": "Pernicious rumours slowly eroded trust."
+        },
+        {
+          "word": "sacrosanct",
+          "type": "adjective",
+          "def": "Too important or holy to be challenged or changed",
+          "ex": "The deadline was treated as sacrosanct."
+        },
+        {
+          "word": "wanton",
+          "type": "adjective",
+          "def": "Deliberate and unprovoked; showing a cruel disregard for consequences",
+          "ex": "The wanton waste of resources appalled the auditors."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "window dressing",
+          "def": "Something done only to create a good impression",
+          "ex": "Critics dismissed the pledge as mere window dressing."
+        },
+        {
+          "idiom": "raise the bar",
+          "def": "To set a higher standard",
+          "ex": "The new rules raise the bar for corporate disclosure."
+        },
+        {
+          "idiom": "the acid test",
+          "def": "A decisive test of real worth or quality",
+          "ex": "Delivery on the ground is the acid test of any pledge."
+        },
+        {
+          "idiom": "a moving target",
+          "def": "Something whose goal or position keeps changing, hard to hit",
+          "ex": "With shifting definitions, success became a moving target."
+        },
+        {
+          "idiom": "a tall order",
+          "def": "A task that is very hard to accomplish",
+          "ex": "Meeting the target in two years is a tall order."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "measure up",
+          "def": "To reach the required standard",
+          "ex": "Few of the plans measured up to their promises."
+        },
+        {
+          "verb": "peter out",
+          "def": "To fade away gradually and come to an end",
+          "ex": "Enthusiasm petered out after the first year."
+        },
+        {
+          "verb": "roll out",
+          "def": "To introduce or launch a plan or product gradually",
+          "ex": "The scheme will be rolled out across seven countries."
+        },
+        {
+          "verb": "bear out",
+          "def": "To support or confirm the truth of something",
+          "ex": "The data bear out the author’s claim."
+        },
+        {
+          "verb": "check off",
+          "def": "To mark an item as done on a list",
+          "ex": "Officials checked off each milestone as it was reached."
+        }
+      ]
+    },
+    "passage": "On Thursday 19 November, as COP31 in Antalya neared its close, the presidencies of COP30 and COP31, the High-Level Champions and the UNFCCC’s Executive Secretary held the closing event of the Global Climate Action Agenda under the title “Science Calls, the Climate Action Agenda Delivers”. The headline number, as relayed by a Brazilian government news agency republishing material from the COP30 Presidency, was that 87 per cent of the 120 Solution Acceleration Plans presented a year earlier in Belém had “recorded advances”. A headline on the same story put it slightly differently, saying that 87 per cent of the plans were “underway”. The figure comes from the Agenda’s own annual report and was presented by the former COP30 chief executive, Ana Toni. At first sight it is a satisfying statistic: roughly 104 plans out of 120, a reassuring distance from failure.\n\nSatisfying statistics deserve the most scrutiny, and the first question to put to this one is what an “advance” is. The report summarised in the news item does not say, so the reader cannot tell whether the word means a milestone achieved against a schedule, a new partner joining, a meeting held, or any movement at all. These are very different bars. A plan that holds a workshop has “advanced” in a sense that a plan that cuts emissions by its promised amount has also advanced, but nobody would regard the two as equivalent. The slippage between “recorded advances” and “underway”, which sound alike but are not the same claim, shows how easily a modest finding can be rounded into a bolder one on its way from a report to a headline.\n\nThe second question is what the figure is divided by. The 87 per cent refers to the original 120 plans, whereas 136 are now listed; the denominator therefore excludes newer plans, which have had less time to fail. This is a perfectly reasonable choice, since a plan launched last month cannot be expected to have advanced much, but it is a choice, and a different one would change the number. A related caution applies to the source: the data are self-reported, and nothing in the item mentions independent verification. Self-reporting is not dishonest by nature, and in a voluntary coalition it is often the only data available, but a body that grades its own homework will tend to grade generously, and the sensible reader discounts accordingly.\n\nWhat makes the exercise instructive is that the same report contains much more demanding measures, and they tell a more mixed story. Of the thirty objectives that organise the Agenda, sixteen are described as on track, three as mixed, three as stalled, and eight as lacking sufficient data. Sixteen of thirty is a little over half, and the eight with insufficient data deserve a note of their own: a lack of data is not evidence of progress, nor of its absence, but a quarter of the objectives that cannot be assessed is itself a finding about how well the effort is being measured. Of the forty plans that carry quantitative targets, only 38 per cent, about fifteen, are said to be on pace or ahead of it. Set beside 87 per cent, that is a sobering number, though the two are not contradictory. They answer different questions: the first asks whether anything has moved, and the second whether what has moved is moving fast enough.\n\nSome figures in the report are indeed concrete and encouraging. Sixty-five industrial plants reached a final investment decision, above the target of fifty set at COP28, and a forest-financing facility reached $8.3 billion in commitments during the conference. These are real achievements, and the first beats a stated target outright. But they too need care in reading, because a final investment decision is an input, a commitment of money, and not an outcome such as tonnes of emissions avoided; the plants must still be built, run and measured. A target that is met by a milestone upstream of the thing that matters is a useful sign and a poor proxy. Similarly, participation figures, such as some 190 countries and tens of thousands of companies belonging to at least one initiative, measure breadth of involvement and say nothing of depth.\n\nA further difficulty lies in the act of adding plans together at all. A percentage of plans treats each plan as one unit, whatever its size, so a modest scheme for a single sector counts exactly as much as an ambitious one that touches an entire supply chain. If a handful of the largest plans stalled while many small ones thrived, the percentage of plans advancing could stay high while the share of the problem addressed fell. Nothing in the item suggests that this is so, and it would be unfair to assert it; the point is only that a count of plans is a count of plans, and that the weighting which would make it a count of impact is exactly what the headline omits. Even a financing figure, such as a debt-clause facility that now covers $6.1 billion across seven countries, raises the same question about scale: whether the amount is large relative to the exposure it is meant to protect cannot be read from the number alone.\n\nNone of this amounts to an accusation. The Agenda is a voluntary effort, and it would be unreasonable to expect treaty-grade accounting from it. The point is rather about habit. When a statistic arrives in a press release, the useful reflex is to ask what result would have counted as failure. A measure that almost cannot fail, because it counts any movement as success, cannot tell us much when it succeeds; a measure that can fail, such as pace against a numerical target, is more informative precisely because it sometimes does. Read in that spirit, the Belém plans appear to have been launched, taken up and partly delivered, which is more than nothing and less than the headline suggests, and the proper conclusion is that the evidence for how much they have really changed remains to be gathered.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "options": [
+          "A) The Climate Action Agenda has plainly failed, since its own report shows that fewer than half of its plans with quantitative targets are progressing at the expected pace.",
+          "B) Self-reported statistics from voluntary climate coalitions are dishonest by nature and should be ignored by readers until independent auditors have verified every figure.",
+          "C) A headline such as “87 per cent advanced” says little until its definition, base and failure test are known, and the report’s tougher measures show a mixed picture.",
+          "D) The Agenda’s plans launched in Belém have achieved all of their stated targets, which shows that voluntary initiatives can deliver faster than treaty negotiations."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The passage questions the definition of “advance”, the denominator and the source, then contrasts 87% with harder measures (16 of 30 objectives on track; 38% of quantified plans on pace) and recommends asking what would count as failure. C joins these.<br><br>• <strong>Why Option A is Wrong:</strong> The author says the figures are “not contradictory” and that the effort is “more than nothing”; “plainly failed” overreaches. Also, 38% refers to plans on pace or ahead, not all plans.<br><br>• <strong>Why Option B is Wrong:</strong> The author says self-reporting “is not dishonest by nature” and is often the only data. “Dishonest” and “ignored” contradict this.<br><br>• <strong>Why Option D is Wrong:</strong> The passage reports only partial delivery, and says nothing comparing the Agenda with treaty negotiations. “All” is unsupported.<br><br><strong>💡 Approach:</strong> Central-argument questions: select the option reflecting both the critique and its limits. The author is sceptical but fair, so verdicts like “failed”, “dishonest” or “achieved all” are traps."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following can be correctly inferred from the passage?",
+        "options": [
+          "A) No more than 38 per cent of the plans with quantitative targets can be described as on pace or ahead of it.",
+          "B) Eighty-seven per cent of the forty plans with quantitative targets are on pace or ahead of schedule at the closing event.",
+          "C) The 87 per cent figure covers all 136 plans now listed in the Agenda, including the most recently launched ones.",
+          "D) The 87 per cent figure was independently verified by auditors outside the presidencies that organised the Agenda."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The passage says only 38 per cent of the forty quantified plans, about fifteen, are said to be on pace or ahead, so no more than that share can be so described.<br><br>• <strong>Why Option B is Wrong:</strong> 87% concerns plans that “recorded advances”, a much looser test than being on pace, and the 120 original plans, not the forty quantified ones.<br><br>• <strong>Why Option C is Wrong:</strong> The passage states that the 87 per cent refers to the original 120, while 136 are now listed.<br><br>• <strong>Why Option D is Wrong:</strong> The passage says nothing in the report mentions independent verification, and the data are self-reported.<br><br><strong>💡 Approach:</strong> Inference questions: match each option against the specific figure and its base. Mixing up the denominators (120, 136, 40) is the trap here."
+      },
+      {
+        "id": "q3",
+        "question": "The author mentions that 65 industrial plants reached a final investment decision, above a target of 50, mainly in order to:",
+        "options": [
+          "A) prove that voluntary climate coalitions routinely exceed the targets they set in advance of each conference",
+          "B) criticise the COP28 target of fifty plants as having been set at an unambitiously low level",
+          "C) show that participation figures in the Agenda are more reliable than figures on the progress of plans",
+          "D) illustrate a target clearly met that measures an input, not the outcome that matters"
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The author calls the result “real” and notes that it beats a stated target, then points out that a final investment decision is an input and not an outcome such as emissions avoided.<br><br>• <strong>Why Option A is Wrong:</strong> One example cannot prove a routine, and the author does not claim that targets are routinely exceeded.<br><br>• <strong>Why Option B is Wrong:</strong> The author says the achievement is real and never calls the target unambitious.<br><br>• <strong>Why Option C is Wrong:</strong> The author says participation figures measure breadth, not depth; there is no claim that they are more reliable.<br><br><strong>💡 Approach:</strong> Function questions: find what the author does with the detail immediately afterwards (“but they too need care”). That pivot reveals its purpose."
+      },
+      {
+        "id": "q4",
+        "question": "Which of the following, if true, would most weaken the author’s suggestion that “recorded advances” may set a low bar?",
+        "options": [
+          "A) Several of the 120 plans have been renamed or merged since they were first presented in Belém.",
+          "B) The report defines an advance as a verified milestone achieved against a published schedule.",
+          "C) The headline on the story described the 87 per cent of plans as “underway” rather than as having advanced.",
+          "D) The report’s authors are drawn largely from the presidencies that organised the Agenda being assessed."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author’s concern is that “advance” is undefined and may mean any movement. If it means a verified milestone against a published schedule, the bar is demanding, which directly weakens the suggestion.<br><br>• <strong>Why Option A is Wrong:</strong> Renaming or merging does not bear on how strict the definition of advance is.<br><br>• <strong>Why Option C is Wrong:</strong> This supports the author’s point about slippage between “advances” and “underway”.<br><br>• <strong>Why Option D is Wrong:</strong> This strengthens the author’s concern about self-reporting and generous grading.<br><br><strong>💡 Approach:</strong> Weaken: attack the premise (the bar is unclear and possibly low). Evidence that the bar is high and verified does so; evidence on other flaws supports the author."
+      },
+      {
+        "id": "q5",
+        "question": "The test the author recommends (“what result would have counted as failure?”) is most closely applied in which of the following?",
+        "options": [
+          "A) A sceptic hears that 90 per cent of pupils “showed improvement” and asks what outcome would have counted as none.",
+          "B) A reader learns that a company’s profit has risen and checks the company’s own website to find the amount of the rise.",
+          "C) A voter hears that a government built 500 new schools and asks whether the money could have been spent on hospitals.",
+          "D) A student gets a high mark and credits it to long hours of study rather than to an unusually easy exam."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The sceptic asks what outcome would have counted as failure, testing whether the measure can fail at all. That is the author’s reflex exactly.<br><br>• <strong>Why Option B is Wrong:</strong> This checks a figure’s size with the same source and does not test whether the measure can fail.<br><br>• <strong>Why Option C is Wrong:</strong> This is an opportunity-cost question, not a test of whether the statistic could have shown failure.<br><br>• <strong>Why Option D is Wrong:</strong> This is about attributing a result to its cause, a different issue.<br><br><strong>💡 Approach:</strong> Application questions: abstract the rule (can the measure fail?) and find the scenario that applies it, ignoring those that share only the theme of scrutiny."
+      },
+      {
+        "id": "q6",
+        "question": "With which of the following would the author most likely agree?",
+        "options": [
+          "A) A measure that counts nearly any movement as success is the most reliable guide to whether a programme is working.",
+          "B) Metrics on participation are the best evidence available of how deeply a coalition has changed behaviour on the ground.",
+          "C) Reports in which the data are self-reported should be disregarded, since a body will always overstate its own success.",
+          "D) Self-reported figures have some use if readers check definitions, denominators and whether the measure can fail."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The author accepts that self-reporting is often the only data and advises reading it with attention to what is counted, what it is divided by, and what could count as failure.<br><br>• <strong>Why Option A is Wrong:</strong> The author says the opposite: a measure that can hardly fail tells us little when it succeeds.<br><br>• <strong>Why Option B is Wrong:</strong> Participation measures breadth and “say nothing of depth”.<br><br>• <strong>Why Option C is Wrong:</strong> The author says self-reporting “is not dishonest by nature”; the advice is to discount, not to disregard.<br><br><strong>💡 Approach:</strong> Agree-with: rely on the author’s stated stance; extreme words (“most reliable”, “best”, “always”, “disregarded”) signal distractors."
+      }
+    ]
   }
 ]
