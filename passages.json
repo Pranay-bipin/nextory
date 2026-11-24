@@ -11070,5 +11070,206 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The author accepts that self-reporting is often the only data and advises reading it with attention to what is counted, what it is divided by, and what could count as failure.<br><br>• <strong>Why Option A is Wrong:</strong> The author says the opposite: a measure that can hardly fail tells us little when it succeeds.<br><br>• <strong>Why Option B is Wrong:</strong> Participation measures breadth and “say nothing of depth”.<br><br>• <strong>Why Option C is Wrong:</strong> The author says self-reporting “is not dishonest by nature”; the advice is to discount, not to disregard.<br><br><strong>💡 Approach:</strong> Agree-with: rely on the author’s stated stance; extreme words (“most reliable”, “best”, “always”, “disregarded”) signal distractors."
       }
     ]
+  },
+  {
+    "id": "rc-2026-11-24",
+    "date": "2026-11-24",
+    "title": "Tightening Against a Supply Shock: The Bank of England’s Dilemma",
+    "genre": "Current Affairs / Economics",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1006 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "abstemious",
+          "type": "adjective",
+          "def": "Moderate and restrained, especially in eating, drinking or spending",
+          "ex": "The abstemious governor urged restraint in public spending."
+        },
+        {
+          "word": "cogent",
+          "type": "adjective",
+          "def": "Clear, logical and convincing",
+          "ex": "She made a cogent case for acting early."
+        },
+        {
+          "word": "craven",
+          "type": "adjective",
+          "def": "Cowardly and lacking in courage",
+          "ex": "Critics called the retreat a craven surrender."
+        },
+        {
+          "word": "diffident",
+          "type": "adjective",
+          "def": "Modest or shy because of lack of self-confidence",
+          "ex": "The diffident analyst hesitated to challenge the forecast."
+        },
+        {
+          "word": "evanescent",
+          "type": "adjective",
+          "def": "Quickly fading or disappearing",
+          "ex": "The evanescent boom left little behind."
+        },
+        {
+          "word": "fastidious",
+          "type": "adjective",
+          "def": "Very attentive to accuracy and detail; hard to please",
+          "ex": "The fastidious auditor rechecked every figure."
+        },
+        {
+          "word": "histrionic",
+          "type": "adjective",
+          "def": "Overly dramatic or theatrical in manner",
+          "ex": "His histrionic speech added heat but no light."
+        },
+        {
+          "word": "iniquitous",
+          "type": "adjective",
+          "def": "Grossly unfair or morally wrong",
+          "ex": "The iniquitous tax fell hardest on the poor."
+        },
+        {
+          "word": "lugubrious",
+          "type": "adjective",
+          "def": "Looking or sounding sad and gloomy",
+          "ex": "The lugubrious forecast darkened the mood of the markets."
+        },
+        {
+          "word": "munificent",
+          "type": "adjective",
+          "def": "Very generous",
+          "ex": "A munificent donor funded the new research centre."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "behind the curve",
+          "def": "Slower to act than events require",
+          "ex": "Critics said the bank was behind the curve on inflation."
+        },
+        {
+          "idiom": "put on the brakes",
+          "def": "To slow something down sharply",
+          "ex": "Higher rates put the brakes on spending."
+        },
+        {
+          "idiom": "the genie is out of the bottle",
+          "def": "Something unleashed cannot be undone",
+          "ex": "Once expectations rise, the genie is out of the bottle."
+        },
+        {
+          "idiom": "ride out the storm",
+          "def": "To survive a difficult period without major harm",
+          "ex": "Firms with cash reserves can ride out the storm."
+        },
+        {
+          "idiom": "walk a tightrope",
+          "def": "To manage a delicate situation where any error is costly",
+          "ex": "Central banks walk a tightrope between inflation and recession."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "feed through",
+          "def": "To pass gradually into another part of a system",
+          "ex": "Higher fuel costs feed through to food prices."
+        },
+        {
+          "verb": "rein in",
+          "def": "To control or restrain something",
+          "ex": "The bank aims to rein in inflation."
+        },
+        {
+          "verb": "wait out",
+          "def": "To stay put until something unpleasant ends",
+          "ex": "Investors chose to wait out the volatility."
+        },
+        {
+          "verb": "bear down on",
+          "def": "To press or act forcefully against something",
+          "ex": "Tighter policy bears down on spending."
+        },
+        {
+          "verb": "kick in",
+          "def": "To begin to take effect",
+          "ex": "The effects of the rate rise will kick in next year."
+        }
+      ]
+    },
+    "passage": "On Thursday 5 November the Bank of England raised its Bank Rate from 3.75 per cent to 4 per cent, its first increase since August 2023. UK inflation had reached 3.5 per cent in September, an eleven-month high and well above the 2 per cent target, and the Bank’s forecasts have it climbing to a peak close to 5 per cent next year. The cause, in the Bank’s account, is not a boom in spending but a rise in energy costs linked to the war involving Iran, to bottlenecks in the Strait of Hormuz and, according to one report, to Ukrainian strikes on Russian refineries. The Federal Reserve and the European Central Bank have also raised rates in recent months, and S&P Global’s October survey data show prices rising at one of the fastest rates in four years. The Governor, Andrew Bailey, said there was “enough inflationary pressure in the pipeline” to warrant a rise, but added that it “shouldn’t be seen as the first in an inevitable long sequence of hikes”, and that unless the conflict in the Middle East is resolved the increase did not seem likely to be the last.\n\nTo anyone who has studied monetary policy, the decision poses a puzzle. Interest rates work mainly on demand: higher rates make borrowing dearer, cool spending and so, with a lag, restrain prices. An energy-price shock, however, is a supply shock. It raises prices without there being too much demand for anything, and no rate rise can produce another barrel of oil or reopen a strait. The conventional wisdom has therefore been that central banks should “look through” a one-off supply shock, accepting a temporary rise in measured inflation, because tightening policy adds the pain of lost output to the pain of lost purchasing power. Seen that way, a rate rise in the midst of a war-driven price surge looks like the wrong tool pointed at the wrong target.\n\nThe case for acting rests on a condition buried in the doctrine itself. Looking through a shock is sensible only if the shock is temporary and if people expect it to be. If households and firms conclude that prices will keep rising, workers ask for larger pay settlements and firms mark up prices in advance, and what began as a one-off jump in energy costs spreads into wages, services and goods. Economists call these “second-round effects”, and once they take hold they can persist long after the original shock has faded. Bailey’s reference to a “pipeline” points to a related mechanism: energy costs feed through to bills, transport and manufactured goods with a delay, so measured inflation can keep climbing for months even if oil prices stop rising. There is also a matter of credibility. The central banks that described the inflation of 2021 as “transitory” paid for that judgement, and the threshold at which a prudent bank is willing to look through a shock has since risen.\n\nThe case for restraint is equally serious. A household facing higher energy bills is already poorer, and a rate rise adds higher mortgage and loan costs to the burden. Because rates act on the economy with a lag of a year or more, a rise made now would bite hardest just when the shock might be fading: Brent crude, at about $96, had fallen by roughly $15 in the week of the decision, and if the conflict eased, inflation might decline unaided, leaving the Bank to have squeezed an economy for no purpose. The Bank’s own projections complicate the picture. It raised its growth forecasts to 1.6 per cent this year and 1.3 per cent next, helped in part by business investment connected with demand for artificial intelligence. One reading is that such resilience shows the economy can bear a quarter-point rise; another is that it shows demand is strong enough to need cooling. The data alone do not decide between them. Nor is the burden evenly shared: higher rates fall hardest on borrowers with variable-rate loans, while savers gain, so a policy defended in the language of the whole economy has distributional consequences that its defenders and critics weigh quite differently, and which no forecast of aggregate growth can capture. A bank that ignores these effects risks losing public support; one that is governed by them risks losing its independence.\n\nWhat the Bank cannot know it must therefore manage as a matter of risk. The two possible errors are not symmetrical. If it does too little and expectations drift upward, the damage is hard to reverse, and restoring credibility may later require much larger increases and a deeper slowdown. If it does too much, growth suffers, but the error can be corrected by cutting rates. When errors differ in cost, prudence favours a small early step, much as one pays an insurance premium against a loss one hopes will not occur. A quarter-point rise can be read in that light. It also carries a price, since Bailey’s guidance ties future decisions to a war that no central bank controls, which is honest but makes policy hostage to headlines and leaves markets to trade on every report from the Gulf.\n\nNone of this makes the hawks irrational or their critics naive. The dispute is really about two empirical questions: how much of the shock is already embedded in prices and pay, and how firmly expectations are anchored. Neither can be answered with confidence today, and the Bank itself has said as much by publishing a worst-case scenario alongside its central forecast. The temptation will be to judge the decision by what happens next, but outcome is a poor guide. If inflation falls, it may be because rates worked or because energy prices fell; if it rises, it may be because rates were too low or because the war escalated. The fair test is a counterfactual that nobody can observe: whether inflation fell by more than energy prices alone would have caused it to fall, and whether it did so at a tolerable cost in jobs and output.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "options": [
+          "A) The Bank of England erred in raising rates, because a supply shock cannot be cured by tightening and the conventional policy of looking through such shocks is always correct.",
+          "B) The rate rise was plainly justified, because second-round effects have already taken hold in wages and prices and the Bank’s forecasts leave no room for doubt.",
+          "C) Central banks should abandon the practice of looking through supply shocks altogether, since the experience of 2021 showed that every such shock turns into persistent inflation.",
+          "D) Raising rates against an energy-driven price surge is defensible yet contestable, since it hinges on unobservable matters and cannot be judged from outcomes alone."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The passage presents the puzzle, the case for acting, the case for restraint and risk management, then concludes that the dispute rests on two empirical questions that cannot be answered now and that outcome is a poor guide. D captures this.<br><br>• <strong>Why Option A is Wrong:</strong> The author calls the hawks “not irrational” and notes that looking through is conditional on expectations. “Erred” and “always” are unsupported.<br><br>• <strong>Why Option B is Wrong:</strong> The passage never says second-round effects have taken hold; it says the question cannot be answered with confidence.<br><br>• <strong>Why Option C is Wrong:</strong> The author says the threshold for looking through has “risen”, not that the practice should be abandoned, and “every” shock overgeneralises.<br><br><strong>💡 Approach:</strong> Central-argument questions: the balanced conclusion of the final paragraph is the anchor. Options that pick a side with absolutes (“always”, “plainly”, “every”) are traps."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following is most strongly supported by the passage?",
+        "options": [
+          "A) The Bank of England raised rates chiefly because spending in the UK economy had grown too strong for the economy’s capacity.",
+          "B) The Bank’s case for the rise depends partly on inflation expected to arrive, not only on inflation already recorded.",
+          "C) The Federal Reserve and the European Central Bank have promised further rate rises should the conflict in the Middle East continue.",
+          "D) The Bank’s forecast of growth was lowered in the period before the decision, because of the weight of higher energy bills."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The “pipeline” remark and the account of delayed pass-through show that the Bank is responding to inflation expected to arrive as energy costs feed through, as well as to the 3.5 per cent already recorded.<br><br>• <strong>Why Option A is Wrong:</strong> The first paragraph says the cause is “not a boom in spending” but energy costs; demand strength is raised only as one possible reading.<br><br>• <strong>Why Option C is Wrong:</strong> The passage says only that the Fed and ECB have raised rates, and makes no mention of promises of further rises.<br><br>• <strong>Why Option D is Wrong:</strong> The Bank raised its growth forecasts, to 1.6 per cent this year and 1.3 per cent next.<br><br><strong>💡 Approach:</strong> Support questions: each wrong option contradicts or goes beyond the text. Check the direction of the forecast and the stated cause."
+      },
+      {
+        "id": "q3",
+        "question": "The author mentions that Brent crude fell by roughly $15 in the week of the decision mainly in order to:",
+        "options": [
+          "A) show that the inflation outlook, and so the case for more rises, can change quickly with events",
+          "B) prove that the Bank of England’s rate rise was unnecessary because inflation was already starting to fall",
+          "C) suggest that the war involving Iran had been resolved and that energy prices had returned to normal",
+          "D) criticise the Bank’s forecasting for having failed to anticipate any decline in oil prices before November"
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The point is made in the case for restraint: if the conflict eased, inflation might decline unaided. The oil fall illustrates how quickly the outlook can shift, which is also why Bailey’s guidance is conditional.<br><br>• <strong>Why Option B is Wrong:</strong> The author says only that inflation “might” fall unaided; no proof of a fall is offered, and the Bank expects inflation to peak next year.<br><br>• <strong>Why Option C is Wrong:</strong> A fall to about $96 is not a return to normal, and the passage does not say the conflict has been resolved.<br><br>• <strong>Why Option D is Wrong:</strong> No criticism of the forecasting is made; the point concerns the sensitivity of the outlook.<br><br><strong>💡 Approach:</strong> Function questions: look at the sentence the detail supports (“if the conflict eased…”). The detail illustrates volatility, not a verdict."
+      },
+      {
+        "id": "q4",
+        "question": "Which of the following, if true, would most weaken the author’s suggestion that a small early rate rise works like cheap insurance?",
+        "options": [
+          "A) Several central banks that raised rates earlier this year have reported that inflation in their economies has since begun to ease.",
+          "B) Many households and firms in the economy say they expect prices to keep rising faster than the central bank’s target over the coming year.",
+          "C) Even a quarter-point rise pushes many heavily indebted households into default, and the damage cannot easily be repaired by later cuts.",
+          "D) Economic growth forecasts for the UK have been revised upward by several independent forecasters in recent months."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The insurance logic assumes that the cost of doing too much is mild and correctable by cutting rates. If a small rise causes lasting harm that cannot be repaired, the premium is not cheap and the asymmetry argument collapses.<br><br>• <strong>Why Option A is Wrong:</strong> Easing elsewhere is consistent with either view and does not touch the claim that the cost of over-tightening is small and reversible.<br><br>• <strong>Why Option B is Wrong:</strong> This strengthens the case for acting early, since drifting expectations are the risk the insurance is against.<br><br>• <strong>Why Option D is Wrong:</strong> Higher growth forecasts suggest the economy can bear a rise, which supports the author’s suggestion.<br><br><strong>💡 Approach:</strong> Weaken: identify the hidden assumption (the cost of error is small and reversible) and find the option that denies it."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following most closely parallels the author’s reasoning about why a small early rise may be prudent?",
+        "options": [
+          "A) A gambler doubles his stake after every loss, reasoning that one win will eventually repay everything he has lost.",
+          "B) A farmer pays a modest premium for flood insurance, accepting a small sure cost against a large loss that may not come.",
+          "C) A shopkeeper cuts prices whenever a rival does, reasoning that any lost sale is a mistake to be avoided at all costs.",
+          "D) A student studies only the subject in which she is strongest, reasoning that strengths are more rewarding than weaknesses."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author’s argument is that when the costs of two errors are unequal, a small, certain cost is worth paying against a large, hard-to-reverse loss, exactly like an insurance premium. B has the same structure.<br><br>• <strong>Why Option A is Wrong:</strong> Doubling after a loss increases exposure rather than limiting a large loss at small cost.<br><br>• <strong>Why Option C is Wrong:</strong> This is a reflexive reaction to rivals, not a risk-limiting trade-off between unequal costs.<br><br>• <strong>Why Option D is Wrong:</strong> This concerns focus on strengths, not the management of asymmetric risk.<br><br><strong>💡 Approach:</strong> Parallel: boil the argument down to a skeleton (pay a small, certain cost to avoid a large, hard-to-reverse harm) and ignore the surface subject."
+      },
+      {
+        "id": "q6",
+        "question": "With which of the following statements would the author most likely agree?",
+        "options": [
+          "A) Whether the rate rise was right cannot be judged simply by whether inflation later falls.",
+          "B) A central bank that follows a conditional policy path is acting irresponsibly in making policy hostage to events.",
+          "C) The rise in growth forecasts proves conclusively that demand in the economy is strong enough to need cooling.",
+          "D) Central banks that used the word “transitory” in 2021 should now have no say in decisions on supply shocks."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The final paragraph says that outcome is “a poor guide” since inflation might fall because rates worked or because energy prices fell, and the fair test is an unobservable counterfactual.<br><br>• <strong>Why Option B is Wrong:</strong> The author calls the conditional guidance “honest” while noting its cost; “irresponsibly” is not endorsed.<br><br>• <strong>Why Option C is Wrong:</strong> The author says growth resilience can be read two ways and that “the data alone do not decide”; “conclusively” contradicts this.<br><br>• <strong>Why Option D is Wrong:</strong> The passage says only that the credibility cost has raised the threshold for looking through; it suggests no exclusion from decisions.<br><br><strong>💡 Approach:</strong> Agree-with: use the author’s explicit last-paragraph stance; extreme options (“irresponsibly”, “proves conclusively”, “no say”) are traps."
+      }
+    ]
   }
 ]
