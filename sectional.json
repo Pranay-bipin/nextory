@@ -2953,5 +2953,596 @@
         "explanation": "Answer: 4-1-3-2. Step by step. Sentence 4 states the event (rain destroys the crop). Sentence 1 turns to the usual cure (raising rates) and its effect (homes and cars dearer, which acts on demand). Sentence 3 begins 'That is because', explaining why that cure fails: the shock is from supply. Sentence 2 begins 'therefore', drawing the final conclusion. Tip: 'That is because' must follow the claim it explains, and 'therefore' closes the argument."
       }
     ]
+  },
+  {
+    "id": "sec-2026-11-24",
+    "date": "2026-11-24",
+    "title": "IPMAT Indore VA Sectional – 24th Nov 2026 (Advanced Analytical – High Difficulty)",
+    "durationMinutes": 45,
+    "totalQuestions": 45,
+    "passages": {
+      "RC1": "When the rupee slipped past 94 to the dollar this month and bond yields hardened ahead of an auction, the commentary divided into two predictable camps. One saw a humiliation, a verdict on the economy's weakness; the other saw a useful adjustment that would help exporters. Both camps treat the exchange rate as a grade, either failing or passing. It is better understood as a price, and like any price it moves wealth from some people to others. The sensible question is therefore not whether a weaker rupee is good, but who gains, who loses, and over what period.\n\nBegin with the losers who are easiest to see. A country that buys most of its oil abroad pays for it in dollars, so a cheaper rupee raises the domestic cost of fuel unless the government absorbs the difference through lower taxes or refiners accept thinner margins. The same logic runs through every imported input, from edible oil to electronic components. The speed at which these costs reach consumers, which economists call pass-through, depends on the market's structure. Where a few firms dominate and demand is steady, the increase arrives quickly; where competition is fierce, firms swallow part of it and their profits, rather than the shopper, bear the loss.\n\nThe winners are less automatic than the optimistic camp assumes. An exporter gains only if its costs are mainly in rupees and its price is set in dollars, so that each dollar earned buys more labour and materials at home. An exporter of garments that imports its synthetic fibre and machinery gains much less than one that uses domestic cotton, and a software firm paying salaries in rupees gains more than either. Even then, the benefit is not immediate. In the first months after a depreciation the import bill often rises before export volumes respond, because contracts are already signed and orders take time to be won; the trade balance can worsen before it improves, a pattern described as the J-curve. Policy that is judged after one quarter will be judged on the worst stretch of the curve.\n\nThe weaker currency also reaches the bond market, which is why the two moved together. A falling rupee raises the cost of imports and so strengthens the expectation of higher inflation, and investors who expect to be repaid in a currency that buys less demand a higher yield as compensation. The government, which borrows heavily, then pays more to finance its deficit, and every firm whose loans are priced off the government's rate pays more as well. A depreciation that is celebrated in the export sector can therefore tighten credit at home, and the two effects do not cancel; they simply fall on different people at different times.\n\nA third group is easily overlooked: those who owe money in dollars. A firm that borrowed abroad at a low interest rate finds that every rupee of revenue now covers fewer dollars of debt, so the saving on interest may be swamped by the loss on repayment, unless the firm has hedged or earns in dollars. This is why central banks that appear to defend a currency are often defending balance sheets rather than a number. Their aim is frequently to slow the pace of the fall, giving borrowers time to adjust, rather than to fix a level that markets will in any case test.\n\nNone of this means the exchange rate is irrelevant to judging an economy. A persistent slide that reflects higher inflation than competitors, or capital quietly leaving, is a symptom worth heeding. But the same fall can also follow a rise in a trading partner's interest rates, which pulls funds towards it without any change in India's fundamentals. The number alone cannot distinguish the two. To read it properly one must ask what moved it, and then ask who holds the assets and debts that the movement revalues.",
+      "RC2": "In 1960 the journal Science carried an article under an unambiguous title: Doomsday, Friday, 13 November, A.D. 2026. Its authors had gathered estimates of the world's population going back to the first century and found that a single curve described them with startling accuracy. The curve was not exponential. In exponential growth the population doubles in a fixed time; in the curve they fitted, the time needed to double kept shrinking, and the equation allowed the population to become infinite on a definite date. The date has now arrived and the world remains crowded but finite. The more interesting question is why a model that fitted the past so well failed so completely as a guide to the future.\n\nThe answer begins with what the curve captured. For most of history, a larger population produced more ideas, more tools and more food, and these in turn supported a still larger population. Growth fed on itself, so that the rate of increase was tied to the existing size, and the faster-than-exponential curve was a faithful summary of that loop. The authors were not careless; they had identified a real mechanism and expressed it mathematically. Where they erred was in assuming that the mechanism would operate unchanged until the numbers became absurd. No process in nature continues until it reaches infinity, and any equation that predicts such an outcome is announcing the point at which something it has left out will start to matter.\n\nA second weakness lay in the evidence itself. The population figures for earlier centuries were estimates assembled from fragments, with wide margins of error, and a curve fitted to uncertain data can look convincing precisely because the uncertainty leaves it room. Many different curves would have passed through the same blurred points, and the authors chose the one whose shape promised the most dramatic conclusion. Accuracy in describing the distant past was thus partly an illusion produced by the roughness of the numbers, and it lent the forecast a confidence that the underlying record never justified.\n\nWhat mattered, as it turned out, was a change in behaviour that the equation had no place for. As incomes rose and children were more likely to survive, families began to choose to have fewer of them, and the link between wealth and fertility, once positive, turned negative. The feedback that had driven growth for centuries was replaced by one that restrained it. Nothing in the old data could have revealed this, because the new behaviour had not yet appeared in the observations. A curve fitted to a long period of one regime is silent about the next.\n\nThis does not make the paper foolish, and it has often been read as partly tongue in cheek, a demonstration of how far a tidy equation can be pushed rather than a sincere forecast. Its lasting value lies in the lesson it teaches about forecasting. A good fit shows that a formula summarises what has been observed; it does not show that the formula states the reason things happened. The distinction matters whenever a trend is extended, whether the subject is population, a company's sales or a technology's adoption. Extrapolation is safe only so long as the forces that produced the trend remain the same, and the forces most likely to change are the ones that the trend itself sets in motion.\n\nThe prudent forecaster therefore asks two questions of any curve. How well does it describe the past? That is a matter of arithmetic. And what would have to stay the same for it to continue? That is a matter of judgement, and it is the question that the doomsday equation never invited its readers to ask.",
+      "RC3": "A government that wishes to know how big its economy is counts what has been bought and sold and adds it up. The method served well when most output was something you could drop on your foot. It is less reliable for an economy in which much of the value lies in software, research, data and the skills of the workforce. A panel advising India's statistics ministry has now proposed a framework for measuring this knowledge economy, with dedicated accounts for artificial intelligence, research and human capital, built as a federation of sector-wise accounts rather than a single new aggregate. The proposal is modest in form, but it touches a long-standing argument about what a national account is for.\n\nThe difficulty is an old one. Traditional accounts treat the purchase of a machine as investment, an addition to the stock of capital that will yield returns for years. They have been slower to treat spending on a training programme, a database or a research team in the same way, though each may also yield returns for years. Such spending was recorded as a current expense, as if it had been consumed within the year. Over time, statisticians have moved some of it, notably research and software, into the investment column. The effect is to raise measured output, not because anything new has been produced, but because the same activity is now classified as building an asset rather than using something up.\n\nThat example shows why the choice of what to count is never merely technical. A firm that trains its engineers is creating capability that may walk out of the door when they leave, since the employer does not own it as it owns a machine. Data poses a different problem: it may be copied at almost no cost, so that its value to the owner depends on exclusivity rather than scarcity. An account for human capital, therefore, would have to decide whether to value people by what they earn, what it cost to educate them, or what they could produce; each gives a different answer, and none is plainly right.\n\nEven a decision to value an asset by its cost, which seems the safest course, has consequences. A research laboratory that spends heavily and produces nothing of use will show a large asset, while an inexpensive team that discovers something valuable will show a small one, so that measured capital rewards expense rather than success. Valuing the asset by what it later earns avoids this error, but only by waiting for evidence that may take a decade to arrive, and by crediting the laboratory with returns that may owe as much to luck or to other firms as to its own work.\n\nA federated design is an attempt to live with these disagreements. Each sector account can adopt concepts suited to its subject, while a common core of definitions allows the results to be set against the national totals and against one another. The price is a loss of the elegance that a single aggregate offers, and the risk that sector accounts will be built on definitions that do not quite fit together. Supporters answer that a loose fit which is honest about its assumptions is more useful than a single number that hides them.\n\nWhether a new account is worth the effort will depend on what it is used for. If the aim is to flatter growth figures by reclassifying existing spending, little is gained. If the aim is to show where a country is accumulating capabilities, and where it is merely consuming them, then even imperfect accounts may redirect policy, because what is measured is what ministries tend to manage.",
+      "CA1": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nMeera Kapoor (Host, Trade Desk): A report, citing unnamed sources, says that the effective tariff and tax on bulk Scotch whisky imported into India is now about 162.5 per cent, against 150 per cent before the India-UK trade pact. A trade agreement that raises the burden sounds like a contradiction. Is it?\n\nDr. Vikram Rao (trade economist): Not necessarily, but I would be careful before declaring it one. The first thing to remember is that the figure being quoted is an effective rate. It is not the headline customs duty alone but the sum of several layers, such as the basic duty, additional levies and a tax that is charged on the already inflated value. Because each layer is computed on the one before it, a change in a single layer can alter the total by more than the arithmetic of that layer suggests.\n\nMeera Kapoor: So a lower duty could still leave a higher bill?\n\nDr. Rao: It could, if another component rose or if the goods were classified differently. Industry bodies have asked customs to review how bulk whisky is classified, which tells you that the category into which a product falls, and not merely the rate attached to that category, can decide what an importer pays. I should add that I have only the reported figure, and the sources are unnamed. Until the official notification is read, any explanation is a hypothesis.\n\nMeera Kapoor: Does the figure matter beyond whisky?\n\nDr. Rao: It matters as an illustration. A trade pact announces reductions on a schedule, and the reductions are real, but a country that wishes to protect a sector has many instruments besides the headline duty. When people complain that a deal has not delivered, they are often comparing the promised cut with the final price at the dock, which is a different thing."
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "type": "RC",
+        "question": "Which of the following best captures the central claim of the passage?",
+        "passageId": "RC1",
+        "options": [
+          "A weaker rupee is on balance harmful to the economy, because its costs to consumers and to borrowers are larger than any benefit that exporters enjoy",
+          "The exchange rate is an unreliable guide to economic health, and policymakers would do better to ignore it altogether when they judge how the economy performs",
+          "Central banks should allow the rupee to fall without interference, since only a freely functioning market can fix the level of the currency correctly",
+          "A fall in the rupee redistributes gains and losses among groups and across time, so it should be judged by its cause and by who holds what"
+        ],
+        "answer": 3,
+        "explanation": "Answer: the fall redistributes gains and losses, so judge it by who holds what and by its cause. Why: paragraph 1 calls the rate 'a price' that 'moves wealth from some people to others' and says the question is 'who gains, who loses, and over what period'; the last paragraph adds 'ask what moved it' and 'who holds the assets and debts'. Why the others fail: the author never concludes that the fall is harmful on balance, and says the rate is NOT irrelevant (paragraph 5), so 'ignore it' is wrong; nothing recommends leaving the rate to the market, and paragraph 4 says central banks often slow the fall. Tip: a main-idea option must be broad enough to cover all paragraphs, and verdict-type answers are usually too strong for an analytical passage."
+      },
+      {
+        "id": "q2",
+        "type": "RC",
+        "question": "According to the passage, the speed with which a weaker rupee raises prices paid by shoppers depends on",
+        "passageId": "RC1",
+        "options": [
+          "whether the government has recently changed the rate of interest on its own borrowing in the bond market",
+          "how competitive the market is, since firms facing rivals may absorb part of the cost in their own profits",
+          "the share of the firm's workers who are paid in rupees and the size of its total wage bill in the year",
+          "the price at which the rupee was traded against the dollar in the years that came before the fall began"
+        ],
+        "answer": 1,
+        "explanation": "Answer: it depends on market structure and competition. Why: paragraph 2 defines pass-through and says that where a few firms dominate and demand is steady the increase arrives quickly, whereas 'where competition is fierce, firms swallow part of it'. Why the others fail: bond-market borrowing, wage bills and past exchange rates are not given as determinants of pass-through. Tip: when a question asks 'according to the passage', find the sentence that names the factor; do not bring in your own economics."
+      },
+      {
+        "id": "q3",
+        "type": "RC",
+        "question": "A garment exporter imports most of its synthetic fibre and machinery. On the basis of the passage, its gain from a weaker rupee is likely to be",
+        "passageId": "RC1",
+        "options": [
+          "smaller than that of a firm with mainly rupee costs, because many of its own costs rise as the currency falls",
+          "larger than that of a software firm, because it earns more dollars for every rupee of salary that it has to pay",
+          "negligible only in the first months, after which its gain equals the full fall in the value of the rupee",
+          "negative in every case, since a firm that buys inputs abroad must lose from any fall in the currency's value"
+        ],
+        "answer": 0,
+        "explanation": "Answer: smaller than that of firms with mainly rupee costs. Why: paragraph 3 says an exporter gains only if its costs are mainly in rupees and its price is in dollars, and that the garment exporter who imports fibre and machinery 'gains much less' than one using domestic cotton. Why the others fail: the software firm is said to gain MORE than either; the passage never says the gain becomes the full fall; and 'much less' is not 'negative in every case' (the extreme 'every case' is a trap). Tip: 'smaller/less' and 'none/negative' are different claims; match the degree the author states."
+      },
+      {
+        "id": "q4",
+        "type": "RC",
+        "question": "The passage describes the J-curve in order to show that",
+        "passageId": "RC1",
+        "options": [
+          "a depreciation never improves the trade balance and the apparent recovery later is produced by changes in the way figures are collected",
+          "exporters should delay signing contracts until the currency has stopped falling, so that they can price their goods correctly",
+          "a depreciation can make the trade balance worse in the short run before export volumes respond, so judging it early may mislead",
+          "an economy that is hurt in the first months must also recover fully within a quarter if its policy is sound"
+        ],
+        "answer": 2,
+        "explanation": "Answer: the trade balance may worsen before it improves, so early judgement misleads. Why: paragraph 3 says the import bill 'often rises before export volumes respond' because contracts are already signed, and that policy 'judged after one quarter will be judged on the worst stretch of the curve'. Why the others fail: the balance DOES improve later in the passage's account; there is no advice to delay contracts; and a full recovery within a quarter is the opposite of the point. Tip: look for the sentence that follows the technical term; it carries the author's purpose."
+      },
+      {
+        "id": "q5",
+        "type": "RC",
+        "question": "Which of the following is NOT stated or implied by the passage?",
+        "passageId": "RC1",
+        "options": [
+          "A fall in the currency may raise the interest rates paid by borrowers whose loans are tied to the government's rate",
+          "A government that borrows heavily gains from a weaker currency, because its debt is repaid in rupees that buy less",
+          "A central bank that slows a depreciation may be trying to protect borrowers who owe money in foreign currency",
+          "The same fall in the rupee could be caused by events abroad without any weakness in India's fundamentals"
+        ],
+        "answer": 1,
+        "explanation": "Answer: the claim that a heavily borrowing government gains from the fall. Why: paragraph 4 says the weaker currency raises inflation expectations so that investors demand higher yields, and 'the government, which borrows heavily, then pays more'; the passage never says it gains. Why the others ARE supported: paragraph 4 (loans priced off the government's rate pay more), paragraph 5 (central banks defend balance sheets and 'slow the pace of the fall') and the last paragraph (a rise in a partner's interest rates can pull funds away). Tip: in a NOT-question, three options are supported; find the one the text contradicts or never says."
+      },
+      {
+        "id": "q6",
+        "type": "RC",
+        "question": "The author's attitude to the two 'camps' described in the opening paragraph is best described as",
+        "passageId": "RC1",
+        "options": [
+          "sympathetic to the first camp, which has correctly seen in the fall a judgement on the economy's weakness",
+          "sympathetic to the second camp, whose belief in the benefit to exporters is shown to be right by the analysis",
+          "neutral between them, since the author thinks that neither view contains any element that is worth examining",
+          "critical of the assumption shared by both, that the rate can be treated as a grade of the economy"
+        ],
+        "answer": 3,
+        "explanation": "Answer: critical of the shared assumption that the rate is a grade. Why: the opening says 'Both camps treat the exchange rate as a grade, either failing or passing. It is better understood as a price.' The author disputes the common premise, not just one side. Why the others fail: the second camp's view about exporters is later qualified ('less automatic than the optimistic camp assumes'), and the first camp's 'verdict' reading is rejected; the author is not neutral, because the passage argues a position. Tip: when two camps are named, check whether the author rejects a premise they SHARE."
+      },
+      {
+        "id": "q7",
+        "type": "RC",
+        "question": "The primary purpose of the passage is to",
+        "passageId": "RC2",
+        "options": [
+          "argue that the population of the world will continue to grow without limit, as the equation in the 1960 article had suggested to its readers",
+          "criticise the authors of the 1960 article for carelessness in the collection and presentation of the evidence on which their curve was built",
+          "use a failed population curve to show that a good fit to past data does not explain a trend or guarantee its continuation",
+          "explain why families began to have fewer children as their incomes rose, and how that change altered the pattern of growth after 1960"
+        ],
+        "answer": 2,
+        "explanation": "Answer: to use the failed curve to show that a good fit does not prove the reason or the continuation. Why: paragraph 1 poses the question 'why a model that fitted the past so well failed so completely', and paragraph 4 draws the lesson: 'A good fit shows that a formula summarises what has been observed; it does not show that the formula states the reason.' Why the others fail: the author says population did NOT become infinite; paragraph 2 says the authors 'were not careless' and paragraph 4 says the paper is not foolish; the fertility change is one detail used in the argument, not the aim. Tip: purpose = what the whole passage is doing, not the topic of a single paragraph."
+      },
+      {
+        "id": "q8",
+        "type": "RC",
+        "question": "According to the passage, the curve fitted by the authors differed from exponential growth because",
+        "passageId": "RC2",
+        "options": [
+          "the time that the population needed to double kept getting shorter instead of staying fixed",
+          "the population in the earlier centuries was assumed by the authors to fall at a steady pace",
+          "the rate of growth was independent of the size of the existing population throughout the period",
+          "the doubling time was fixed, but the starting figure for the population was not well established"
+        ],
+        "answer": 0,
+        "explanation": "Answer: the doubling time kept shrinking. Why: paragraph 1 says 'In exponential growth the population doubles in a fixed time; in the curve they fitted, the time needed to double kept shrinking'. Why the others fail: growth independent of size contradicts paragraph 2, where growth 'fed on itself' so the rate was tied to size; a fixed doubling time reverses the stated fixed-versus-shrinking contrast; a steady fall in early population is not mentioned. Tip: contrast sentences ('In X..., in Y...') hold the answer to 'how did A differ from B'."
+      },
+      {
+        "id": "q9",
+        "type": "RC",
+        "question": "The passage suggests that the seemingly accurate fit of the curve to the earlier population figures was",
+        "passageId": "RC2",
+        "options": [
+          "conclusive proof that the mechanism assumed by the authors had operated unchanged from the first century to the twentieth",
+          "the result of deliberate falsification of the figures by authors who wished to predict a dramatic outcome for the world",
+          "evidence that the earlier estimates were more reliable than those collected in the twentieth century by modern methods",
+          "partly a result of the roughness of the data, which left room for many curves to fit the same points"
+        ],
+        "answer": 3,
+        "explanation": "Answer: partly due to rough data that gave many curves room to fit. Why: the paragraph on 'the evidence itself' says that a curve fitted to uncertain data 'can look convincing precisely because the uncertainty leaves it room' and that 'accuracy ... was thus partly an illusion produced by the roughness of the numbers'. Why the others fail: the passage says a good fit does NOT prove the mechanism; it says the authors chose the dramatic curve, which is selection, not falsification; and nothing says earlier figures were more reliable (they were 'assembled from fragments'). Tip: avoid options that accuse someone of dishonesty unless the text does."
+      },
+      {
+        "id": "q10",
+        "type": "RC",
+        "question": "Which of the following can be inferred from the sentence 'any equation that predicts such an outcome is announcing the point at which something it has left out will start to matter'?",
+        "passageId": "RC2",
+        "options": [
+          "Every equation that is used to describe a natural process must be discarded once it predicts a very large quantity",
+          "A prediction of an impossible result, such as infinite population, signals that the model omits a factor that will limit it",
+          "A model that has left out a factor can never describe the past correctly, since the omitted factor would have affected it",
+          "Scientists should avoid writing mathematical equations for populations, because the human behaviour that drives them is too unpredictable to model"
+        ],
+        "answer": 1,
+        "explanation": "Answer: an impossible prediction signals an omitted limiting factor. Why: the sentence follows 'No process in nature continues until it reaches infinity', so the absurd result marks where the unmodelled limit begins. Why the others fail: the passage values the equation as a summary of the loop (paragraph 2: they 'had identified a real mechanism'), so 'discard' is too strong; and the model DID describe the past well, which refutes the claim that an omission must spoil the past fit; the author never advises against equations. Tip: 'announcing the point at which' means 'telling us where the model breaks', not 'it is useless'."
+      },
+      {
+        "id": "q11",
+        "type": "RC",
+        "question": "In the final paragraph the author says the question 'What would have to stay the same for it to continue?' is 'a matter of judgement'. This is because",
+        "passageId": "RC2",
+        "options": [
+          "the answer cannot be computed from the past data alone and requires a view about which forces will change",
+          "the arithmetic needed to test the curve against the data is too complicated for most forecasters to carry out correctly",
+          "forecasters cannot agree on a method of measuring how well a curve describes the past population figures",
+          "the authors of the 1960 article refused to state the conditions under which their forecast would hold"
+        ],
+        "answer": 0,
+        "explanation": "Answer: it cannot be computed from past data and needs a view about which forces will change. Why: the paragraph contrasts 'How well does it describe the past? That is a matter of arithmetic' with the second question, which is 'a matter of judgement'; paragraph 3 explains that the old data 'could not have revealed' the new behaviour. Why the others fail: the arithmetic is the EASY part per the author; disagreement on measuring fit is not mentioned; and the passage ends by saying the equation 'never invited its readers to ask' the question, which is not a refusal to state conditions. Tip: when a passage sets 'arithmetic' against 'judgement', the second is what the data cannot supply."
+      },
+      {
+        "id": "q12",
+        "type": "RC",
+        "question": "Which of the following, if true, would most WEAKEN the author's explanation of why the 1960 forecast failed?",
+        "passageId": "RC2",
+        "options": [
+          "Population estimates for the first century were later shown to have been somewhat too high in several regions of the world",
+          "Medical advances after 1960 lowered the death rate in many poor countries and raised the number of children who survived",
+          "Fertility had begun to fall in most regions well before 1960, and the authors had data showing it but ignored it",
+          "Several later forecasters fitted other curves to the same data and also obtained predictions that proved inaccurate when tested"
+        ],
+        "answer": 2,
+        "explanation": "Answer: if the falling fertility was already visible in the data and ignored, the author's claim that nothing in the old data could have revealed the change is false. Why: paragraph 3 says 'Nothing in the old data could have revealed this, because the new behaviour had not yet appeared in the observations.' The option saying fertility was already falling and visible in the data attacks exactly that. Why the others do not weaken: higher estimates for the first century bear only on the early data and, if anything, support the 'uncertain evidence' point; falling death rates are consistent with the story that incomes and survival changed behaviour; other forecasters also failing supports, not weakens, the idea that extrapolation is unsafe. Tip: to weaken an explanation, attack the specific link the author relies on."
+      },
+      {
+        "id": "q13",
+        "type": "RC",
+        "question": "The main point made by the passage is that",
+        "passageId": "RC3",
+        "options": [
+          "a single new aggregate for the knowledge economy would be simpler and more reliable than the federation of accounts that the panel proposes, and should replace it",
+          "deciding how to count knowledge-based activity involves choices about definition and valuation that are not merely technical and that shape what policy attends to",
+          "the knowledge economy is already measured accurately in every important respect by existing national accounts, and so the proposed new accounts are unnecessary",
+          "spending on research and training should be classified as current expense, since its returns cannot be reliably predicted by firms"
+        ],
+        "answer": 1,
+        "explanation": "Answer: counting knowledge activity involves non-technical choices that shape policy. Why: paragraph 3 says 'the choice of what to count is never merely technical', and the last paragraph says 'what is measured is what ministries tend to manage'. Why the others fail: the author describes the single aggregate's elegance as a benefit of the single design but supports the federation as honest about assumptions; existing accounts are called 'less reliable' for this economy; and the passage says statisticians moved research and software INTO investment, without objecting. Tip: 'not merely technical' is the author's own signal for the thesis."
+      },
+      {
+        "id": "q14",
+        "type": "RC",
+        "question": "According to the passage, when research and software spending is reclassified from current expense to investment, measured output rises because",
+        "passageId": "RC3",
+        "options": [
+          "the same activity is now recorded as building an asset and not as something used up within the year",
+          "firms begin to spend more on research and software once the spending is treated as a form of investment",
+          "the new classification allows statisticians to count the returns that such spending yields over later years",
+          "the government is able to tax the spending at a higher rate when it is recorded as an addition to capital"
+        ],
+        "answer": 0,
+        "explanation": "Answer: the same activity is now recorded as building an asset. Why: paragraph 2 says the effect 'is to raise measured output, not because anything new has been produced, but because the same activity is now classified as building an asset rather than using something up.' Why the others fail: the passage explicitly says nothing new has been produced, which rules out more spending; counting later returns and taxation are not mentioned. Tip: 'not because X, but because Y' hands you the answer in Y."
+      },
+      {
+        "id": "q15",
+        "type": "RC",
+        "question": "The author mentions that data 'may be copied at almost no cost' in order to show that",
+        "passageId": "RC3",
+        "options": [
+          "data should be treated as a free resource because it is so easily copied, and so excluded from the national accounts altogether",
+          "workers who handle data are likely to leave their employers and take the data with them to rivals",
+          "the cost of producing data is always lower than the value that the owner of the data derives from it",
+          "its value to an owner depends on exclusive control and not on scarcity, which makes it hard to value like machinery"
+        ],
+        "answer": 3,
+        "explanation": "Answer: the value depends on exclusivity rather than scarcity, which makes valuation hard. Why: paragraph 3 says 'it may be copied at almost no cost, so that its value to the owner depends on exclusivity rather than scarcity' and introduces it as 'a different problem' from human capital. Why the others fail: the passage never calls data free or says exclude it; the workers who leave relate to human capital, not to data; and the cost-versus-value claim is not made. Tip: a 'so that' clause usually states the author's reason for an example."
+      },
+      {
+        "id": "q16",
+        "type": "RC",
+        "question": "Which of the following is a difficulty in valuing human capital that is mentioned in the passage?",
+        "passageId": "RC3",
+        "options": [
+          "Human capital is destroyed by the use of artificial intelligence and so cannot be added to a stock of capital",
+          "Statisticians have no reliable information about what workers earn in different sectors, and so cannot value them by their income",
+          "The capability created by training may leave with the employee, since the employer does not own it as it owns a machine",
+          "Firms refuse to disclose how much they spend on training for fear that rivals might copy their programmes and hire away their staff"
+        ],
+        "answer": 2,
+        "explanation": "Answer: the capability may walk out of the door as the employer does not own it. Why: paragraph 3 says a firm that trains engineers 'is creating capability that may walk out of the door when they leave, since the employer does not own it as it owns a machine'. Why the others fail: nothing says AI destroys human capital; the passage lists earnings as a possible basis for valuation, so the information exists; firms' secrecy is not mentioned. Tip: scan for the example attached to the phrase in the question."
+      },
+      {
+        "id": "q17",
+        "type": "RC",
+        "question": "The passage suggests that valuing a research laboratory by its cost rather than by what it later earns",
+        "passageId": "RC3",
+        "options": [
+          "is always more accurate than valuing by earnings, since costs can be observed at once and cannot be affected by luck",
+          "will show a small asset for a laboratory that spends a great deal, and a large asset for one that spends very little",
+          "avoids all error, because cost reflects the quality of the scientists whom the laboratory employs and the importance of their work",
+          "may reward spending over success, while valuing by earnings needs long waiting and may credit luck or others' work"
+        ],
+        "answer": 3,
+        "explanation": "Answer: cost-valuation rewards expense, earnings-valuation needs waiting and may credit luck. Why: the paragraph on cost says 'measured capital rewards expense rather than success', and then says valuing by later earnings 'avoids this error, but only by waiting for evidence that may take a decade' and by 'crediting the laboratory with returns that may owe as much to luck or to other firms'. Why the others fail: the option saying a heavy spender shows a small asset reverses the stated relationship (a heavy-spending laboratory shows a LARGE asset); the options claiming the cost method is always more accurate or error-free contradict the passage. Tip: two-sided trade-offs in a passage rarely have a one-sided correct answer."
+      },
+      {
+        "id": "q18",
+        "type": "RC",
+        "question": "The author's view of the federated design proposed by the panel is best described as",
+        "passageId": "RC3",
+        "options": [
+          "cautiously supportive, recognising its cost in elegance and fit while accepting the argument that honest assumptions are preferable to a hidden one",
+          "enthusiastic, because the design removes every disagreement over definitions between the different sector accounts and leaves the accounts with no further problems of fit",
+          "dismissive, since a loose fit between accounts makes the entire framework no better than the current system of accounts, and not worth the effort of building",
+          "indifferent, as the author thinks that the design of the accounts has no effect on how they are used or on the policies that follow"
+        ],
+        "answer": 0,
+        "explanation": "Answer: cautiously supportive. Why: paragraph 4 calls it 'an attempt to live with these disagreements', states its price (loss of elegance, risk of ill-fitting definitions) and records the supporters' answer; the opening calls the proposal 'modest in form' but significant. The final paragraph makes the value conditional on use. Why the others fail: the design does NOT remove disagreements (it lives with them); the author is not dismissive, since the last paragraph says imperfect accounts 'may redirect policy'; and 'indifferent' conflicts with 'what is measured is what ministries tend to manage'. Tip: a balanced treatment with stated costs and a conditional benefit is 'cautious support'."
+      },
+      {
+        "id": "q19",
+        "type": "RC",
+        "question": "Dr. Rao says a change in a single layer 'can alter the total by more than the arithmetic of that layer suggests'. This is because",
+        "passageId": "CA1",
+        "options": [
+          "the layers are fixed by different ministries, which seldom coordinate with one another on trade policy",
+          "the basic duty is the largest component, so that it overwhelms all of the other components in the total",
+          "each layer is calculated on the amount that includes the earlier layers, so changes compound through the structure",
+          "importers pass on every increase in a layer to consumers, who then reduce their purchases of whisky"
+        ],
+        "answer": 2,
+        "explanation": "Answer: each layer is computed on the one before it, so changes compound. Why: he says 'Because each layer is computed on the one before it' and that the tax is 'charged on the already inflated value'. Why the others fail: no ministries are mentioned; he lists the basic duty as ONE layer, not the largest; and consumer response is not discussed. Tip: 'because' in a speaker's line gives the reason directly."
+      },
+      {
+        "id": "q20",
+        "type": "RC",
+        "question": "Dr. Rao's remark that 'the category into which a product falls, and not merely the rate attached to that category, can decide what an importer pays' implies that",
+        "passageId": "CA1",
+        "options": [
+          "the published rate of duty on whisky is irrelevant, since importers can always negotiate it down with customs officials",
+          "a change in how goods are classified can alter the tax burden even when the published rates have not changed",
+          "customs officers have chosen the category for bulk whisky in order to raise the revenue that the government collects",
+          "importers of bottled whisky pay the same total tax as importers of bulk whisky under every possible classification"
+        ],
+        "answer": 1,
+        "explanation": "Answer: reclassification can change the burden even with unchanged rates. Why: he says the category 'can decide what an importer pays', and ties it to industry bodies asking customs to review classification. Why the others fail: 'irrelevant' and 'negotiate down' go beyond the text; he does not accuse officers of choosing a category to raise revenue and says any explanation is only a hypothesis; and bottled versus bulk is not compared. Tip: be careful with options that attribute motive; the speaker is deliberately cautious."
+      },
+      {
+        "id": "q21",
+        "type": "RC",
+        "question": "Which of the following best describes Dr. Rao's stance on whether the trade pact has contradicted itself?",
+        "passageId": "CA1",
+        "options": [
+          "He refuses to call it a contradiction before the official notification is read, offering possible explanations only as hypotheses",
+          "He is certain that the pact has failed, since a rise in the effective rate proves that the promised cuts were never made",
+          "He is certain that there is no contradiction, because effective rates and headline duties are unrelated to one another",
+          "He declines to comment, saying that the figures are unreliable and that no explanation of any kind can be offered"
+        ],
+        "answer": 0,
+        "explanation": "Answer: he withholds judgement until the official notification, treating explanations as hypotheses. Why: he says 'I would be careful before declaring it one', 'I have only the reported figure, and the sources are unnamed' and 'any explanation is a hypothesis'. Why the others fail: he does not say the pact failed, and in his final line he says the cuts are 'real'; he does not say the rates are unrelated (they are layers of the same total); and he does offer explanations, so he does not decline. Tip: speakers who hedge are testing whether you will over-read them."
+      },
+      {
+        "id": "q22",
+        "type": "Vocabulary",
+        "question": "The minister's ________ refusal to consider any amendment, even after the opposition had conceded its main demands, prolonged the stalemate for weeks.",
+        "options": [
+          "pliant",
+          "tentative",
+          "obdurate",
+          "gracious"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'obdurate' means stubbornly refusing to change one's mind. The clue is 'refusal to consider any amendment, even after' concessions, which describes unyielding stubbornness. The others: 'pliant' (easily bent or influenced) is the opposite; 'tentative' (hesitant, provisional) does not suit a firm refusal; 'gracious' (courteous) does not explain a stalemate. Tip: a 'refusal even after concessions' needs a word meaning stubborn."
+      },
+      {
+        "id": "q23",
+        "type": "Vocabulary",
+        "question": "Preferring to let the data speak, the economist was ________ in her answers, offering a single sentence where others would have offered a paragraph.",
+        "options": [
+          "voluble",
+          "laconic",
+          "grandiloquent",
+          "tendentious"
+        ],
+        "answer": 1,
+        "explanation": "Answer: 'laconic' means using very few words. The clue is 'a single sentence where others would have offered a paragraph'. The others: 'voluble' (talkative) and 'grandiloquent' (pompous in speech, using lofty language) are the opposite; 'tendentious' means promoting a particular, often biased, point of view, which is unrelated to length. Tip: a contrast phrase 'where others would have' signals the opposite of the common behaviour."
+      },
+      {
+        "id": "q24",
+        "type": "Vocabulary",
+        "question": "While investors were euphoric over a single quarter of strong growth, the governor remained ________, warning that one set of figures proves little about the trend.",
+        "options": [
+          "reckless",
+          "exultant",
+          "oblivious",
+          "circumspect"
+        ],
+        "answer": 3,
+        "explanation": "Answer: 'circumspect' means cautious and careful to consider the consequences. The clue is the governor 'warning that one set of figures proves little', in contrast with the euphoric investors. The others: 'reckless' (heedless of risk) and 'exultant' (triumphantly joyful) would match the investors, not contrast with them; 'oblivious' (unaware) does not fit someone who is actively issuing a warning. Tip: 'While X ... the governor remained ___' sets up a contrast with X."
+      },
+      {
+        "id": "q25",
+        "type": "Vocabulary",
+        "question": "Although the central bank's statement was widely ________ as a signal of a coming cut, its governor ________ any such intention, saying that the data would ________ the decision.",
+        "options": [
+          "construed; endorsed; dictate",
+          "construed; disavowed; dictate",
+          "disavowed; construed; dictate",
+          "construed; disavowed; obscure"
+        ],
+        "answer": 1,
+        "explanation": "Answer: construed; disavowed; dictate. Step by step. 'Although' signals contrast: the statement was interpreted ('construed') as a signal, but the governor denied ('disavowed') any such intention. The governor then says the data would decide ('dictate') the outcome. 'Endorsed' makes the governor agree with the reading, which does not contrast with 'Although'; swapping the first two words says the statement was 'disavowed' and the governor 'construed', which reverses the roles; 'obscure' (hide) the decision does not make sense. Tip: solve the contrast pair first, then the last blank."
+      },
+      {
+        "id": "q26",
+        "type": "Vocabulary",
+        "question": "Critics called the policy a ________ response to a structural problem: it ________ the symptoms for a season but left the cause ________, so the trouble was certain to return.",
+        "options": [
+          "palliative; alleviated; untouched",
+          "palliative; aggravated; untouched",
+          "curative; alleviated; untouched",
+          "palliative; alleviated; resolved"
+        ],
+        "answer": 0,
+        "explanation": "Answer: palliative; alleviated; untouched. Step by step. A response that eases symptoms but leaves the cause is 'palliative'; it 'alleviated' (eased) the symptoms; and the cause was left 'untouched', which explains why the trouble 'was certain to return'. 'Aggravated' (worsened) the symptoms conflicts with 'for a season'; 'curative' contradicts leaving the cause; 'resolved' would stop the trouble from returning."
+      },
+      {
+        "id": "q27",
+        "type": "Vocabulary",
+        "question": "The memoir is unusually ________: the author, far from ________ her own mistakes, dwells on them, and the result is a ________ account that spares neither her colleagues nor herself.",
+        "options": [
+          "candid; glossing over; evasive",
+          "reticent; glossing over; unflinching",
+          "candid; confessing; unflinching",
+          "candid; glossing over; unflinching"
+        ],
+        "answer": 3,
+        "explanation": "Answer: candid; glossing over; unflinching. Step by step. 'Far from ___ her mistakes, dwells on them' needs a word meaning hiding or smoothing over: 'glossing over'. A writer who dwells on her mistakes is 'candid' (frank), and an account that spares no one is 'unflinching' (not shrinking from the truth). 'Evasive' (avoiding the truth) contradicts 'spares neither'; 'reticent' (reserved) contradicts 'dwells on them'; 'confessing' would make 'far from confessing, dwells' illogical. Tip: 'far from ___ing' means the opposite of what follows."
+      },
+      {
+        "id": "q28",
+        "type": "Vocabulary",
+        "question": "A ________ legal framework, in which each rule contradicts another, invites ________ interpretation; firms with able lawyers ________ the gaps while smaller ones are left to bear the uncertainty.",
+        "options": [
+          "convoluted; impartial; exploit",
+          "transparent; opportunistic; exploit",
+          "convoluted; opportunistic; exploit",
+          "convoluted; opportunistic; rectify"
+        ],
+        "answer": 2,
+        "explanation": "Answer: convoluted; opportunistic; exploit. Step by step. Rules that contradict one another make the framework tangled ('convoluted'); such a framework invites self-serving ('opportunistic') interpretation; firms with able lawyers 'exploit' the gaps. 'Impartial' does not fit firms that take advantage; 'transparent' contradicts rules that conflict; 'rectify' (correct) the gaps would not leave smaller firms bearing uncertainty."
+      },
+      {
+        "id": "q29",
+        "type": "Vocabulary",
+        "question": "Far from being ________ by the early losses, the team ________ them as useful data, and its ________ approach to failure became the source of its later advantage.",
+        "options": [
+          "disheartened; mourned; dispassionate",
+          "elated; treated; dispassionate",
+          "disheartened; treated; dispassionate",
+          "disheartened; treated; emotional"
+        ],
+        "answer": 2,
+        "explanation": "Answer: disheartened; treated; dispassionate. Step by step. 'Far from being ___ by the early losses' needs a negative feeling the team did NOT have: 'disheartened'. Treating losses 'as useful data' is a calm, unemotional ('dispassionate') attitude, which gave it an advantage. 'Mourned' the losses contradicts 'as useful data'; 'elated' does not make sense for 'far from being ___ by early losses'; 'emotional' contradicts the idea of treating failure as data."
+      },
+      {
+        "id": "q30",
+        "type": "Vocabulary",
+        "question": "The ________ conducted a ________ inquiry, and its chairman was careful to ________ his remarks to the facts established.",
+        "options": [
+          "counsel; discrete; confine",
+          "council; discrete; define",
+          "counsel; discreet; confine",
+          "council; discreet; confine"
+        ],
+        "answer": 3,
+        "explanation": "Answer: council; discreet; confine. Three confusable pairs. COUNCIL is a body of people (the council conducted an inquiry); COUNSEL is advice or a lawyer. DISCREET means careful and tactful; DISCRETE means separate and distinct. An inquiry done with care is 'discreet'. 'Confine' (restrict) fits 'to the facts'; 'define' does not fit 'his remarks to the facts'. Tip: in 'discrete' the two e's are separated by the t, just as discrete things are separate."
+      },
+      {
+        "id": "q31",
+        "type": "Vocabulary",
+        "question": "The auditor's questions were meant to ________ an honest explanation, not to expose any ________ dealings, and she agreed to ________ the usual fee in return for early access to the files.",
+        "options": [
+          "elicit; illicit; waive",
+          "illicit; elicit; waive",
+          "elicit; illicit; wave",
+          "elicit; elicit; waive"
+        ],
+        "answer": 0,
+        "explanation": "Answer: elicit; illicit; waive. ELICIT (verb) means to draw out (an explanation); ILLICIT (adjective) means unlawful (dealings). WAIVE means to give up a right or a fee; WAVE is what you do with a hand or what the sea does. Swapping the first two words reads 'illicit an explanation' and 'elicit dealings'; 'wave' is wrong for 'waive'; using 'elicit' twice leaves 'elicit dealings'. Tip: elicit and illicit differ in part of speech and meaning; the 'i' in 'illicit' hints at 'ill' (bad)."
+      },
+      {
+        "id": "q32",
+        "type": "Vocabulary",
+        "question": "The new tax was a ________ to the existing system, not a substitute for it; it was introduced by the ________ of the finance ministry, who said that the ________ of a single rate was a goal for the future.",
+        "options": [
+          "compliment; personnel; adoption",
+          "complement; personnel; adoption",
+          "complement; personal; adoption",
+          "complement; personnel; adaption"
+        ],
+        "answer": 1,
+        "explanation": "Answer: complement; personnel; adoption. COMPLEMENT means something that completes or goes with; COMPLIMENT is praise. PERSONNEL means the people employed by an organisation; PERSONAL means private. ADOPTION means taking up (adopting a rate); ADAPTION and ADAPTATION mean adjusting. So 'a complement to the system', 'the personnel of the ministry', 'the adoption of a single rate'. Tip: the 'e' in complement matches 'complete'."
+      },
+      {
+        "id": "q33",
+        "type": "Vocabulary",
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "Volunteers canvassed the neighbourhood to ask residents about the proposed road.",
+          "The artist stretched a fresh canvas over a wooden frame before starting the portrait.",
+          "The union leader canvassed members on their willingness to accept the revised offer.",
+          "The journalist canvassed the plains in a straight line as she drove from city to city."
+        ],
+        "answer": 3,
+        "explanation": "Answer: the sentence 'canvassed the plains'. CANVASS (verb) means to seek opinions or votes, or to examine thoroughly; CANVAS (noun) is the strong cloth used for tents and paintings. In the incorrect sentence a driver crossing plains would 'traverse' or 'cross' them. The other sentences are right: 'canvassed the neighbourhood' (asked residents), 'canvas over a wooden frame' (the cloth) and 'canvassed members' (sought their views). Tip: ask whether the sentence is about opinions or about cloth."
+      },
+      {
+        "id": "q34",
+        "type": "Grammar",
+        "question": "The committee, having reviewed the evidence and heard the witnesses, <u>have decided</u> to postpone its final report.",
+        "options": [
+          "have decided",
+          "are deciding",
+          "has decided",
+          "were to decide"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'has decided'. Rule: 'committee' as a single body takes a singular verb, and the later pronoun 'its' confirms that the sentence treats it as one unit. 'Having reviewed...witnesses' is a participial phrase and does not change the subject. 'Have decided' would treat the committee as members acting separately, which conflicts with 'its'; 'are deciding' and 'were to decide' change the tense without reason. Tip: if the later pronoun is 'its', the verb must be singular."
+      },
+      {
+        "id": "q35",
+        "type": "Grammar",
+        "question": "Not only <u>the borrowers were</u> affected by the rate rise, but the banks were as well.",
+        "options": [
+          "were the borrowers",
+          "the borrowers had been",
+          "did the borrowers be",
+          "had the borrowers"
+        ],
+        "answer": 0,
+        "explanation": "Answer: 'were the borrowers'. Rule: when a sentence begins with 'Not only', the auxiliary verb comes before the subject (inversion): 'Not only were the borrowers affected'. Compare 'Never had I seen...'. 'The borrowers had been' keeps the normal order after 'Not only'; 'did the borrowers be' is ungrammatical; 'had the borrowers' inverts correctly but gives 'had the borrowers affected', which is not the passive meaning intended. Tip: negative or restrictive openers (not only, hardly, never, seldom) force inversion."
+      },
+      {
+        "id": "q36",
+        "type": "Grammar",
+        "question": "<u>Walking down the road</u>, the old temple came into view.",
+        "options": [
+          "Having walked down the road",
+          "As we walked down the road",
+          "Walking down the road, we saw",
+          "Down the road walking"
+        ],
+        "answer": 1,
+        "explanation": "Answer: 'As we walked down the road'. Rule: a dangling modifier. In the original, 'Walking down the road' must describe the subject 'the old temple', which cannot walk. The fix supplies a subject for the first clause: 'As we walked down the road, the old temple came into view'. 'Walking down the road, we saw' would join with the rest only if the main clause were 'we saw the old temple'; here the main clause stays 'the old temple came into view', so the result is garbled. 'Having walked down the road' keeps the same dangling fault, and 'Down the road walking' is ungrammatical."
+      },
+      {
+        "id": "q37",
+        "type": "Grammar",
+        "question": "If the government <u>would have raised</u> the duty last year, the shortage would have been less severe.",
+        "options": [
+          "raised",
+          "would raise",
+          "had raised",
+          "has raised"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'had raised'. Rule: in a third conditional (an unreal past), the 'if' clause takes the past perfect ('had raised'), and the main clause takes 'would have + past participle'. 'Would have' is never used in the 'if' clause. 'Raised' (simple past) belongs to a second conditional; 'would raise' and 'has raised' do not fit the time frame ('last year'). Tip: if ... had done, ... would have done."
+      },
+      {
+        "id": "q38",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nA currency that falls helps firms that sell abroad and hurts firms that buy from abroad. ____________________. For this reason, a single view on whether a weaker currency is good tells us little unless we know whose position is being discussed.",
+        "options": [
+          "Which effect dominates depends on the mix of exporters, importers and borrowers in the economy, since each group is affected differently.",
+          "A currency that falls is always an indication that the country's government has lost the confidence of its trading partners.",
+          "The only reliable way to judge the matter is to look at the average of all prices in the economy over a number of years.",
+          "Firms that sell abroad should therefore stop buying from abroad, so that they gain from the fall without bearing any loss."
+        ],
+        "answer": 0,
+        "explanation": "Answer: the net effect depends on the mix of groups, which are affected differently. Why: the closing sentence concludes that a single view 'tells us little unless we know whose position is being discussed', which requires the blank to say that effects differ by group. Why the others fail: the claim about lost confidence is political and unsupported; judging by an average is the opposite of 'whose position'; telling exporters to stop buying abroad is impractical advice that does not lead to the final sentence. Tip: the blank must lead into the 'For this reason' conclusion."
+      },
+      {
+        "id": "q39",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nA model that fits the past well may still fail in the future. ____________________. A model that is built on the reason for a pattern, however, can usually survive a change in conditions, because it tells us what will matter when they change.",
+        "options": [
+          "A model that is complicated will always fail, because the many numbers in it increase the chance of an error somewhere in the calculation.",
+          "A model that merely describes the pattern cannot tell when the forces behind it will shift, so it extends it too far.",
+          "The past is a poor guide to the future in every field, and no forecast based on earlier data deserves to be taken seriously by anyone.",
+          "A model that fits the past well must have been built on the correct reason, and is therefore unlikely ever to be wrong in its forecasts."
+        ],
+        "answer": 1,
+        "explanation": "Answer: a descriptive model cannot know when the forces will shift, so it extends the pattern beyond where it holds. Why: the next sentence contrasts it with 'a model built on the reason for a pattern ... however', so the blank must describe the opposite kind, a model that only describes. Why the others fail: complexity is never linked to failure; 'every field' is too extreme and conflicts with 'can usually survive' for good models; saying a good fit proves the reason is the very error being discussed. Tip: 'however' marks a contrast with the sentence before the blank."
+      },
+      {
+        "id": "q40",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nWhen spending on training is recorded as an expense, a firm that trains its staff looks less profitable in the year of spending. ____________________. The result is that accounts may discourage the very activity that builds a firm's lasting strength.",
+        "options": [
+          "The firm should therefore reduce its spending on training until the year in which its profits are known to be at their highest.",
+          "Training increases the profit of a firm in the same year, and so the accounts will correctly show an increase of profit.",
+          "Staff who have been trained are always paid more than other staff, and so the cost of the firm always rises in later years.",
+          "The benefit arrives over many years, so a measure that looks only at the year of spending counts the cost but not the return."
+        ],
+        "answer": 3,
+        "explanation": "Answer: the benefit arrives over many years, but the measure counts only the cost. Why: the sentence after the blank says accounts 'may discourage the very activity that builds a firm's lasting strength', which follows if cost is counted and return is not. Why the others fail: advice to cut training is not supported by the paragraph; saying training raises profit in the same year contradicts the first sentence; a higher pay rate is an unrelated point. Tip: check that the blank connects both to the previous sentence (the cost) and the next (the discouragement)."
+      },
+      {
+        "id": "q41",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Such a fall therefore redistributes wealth, and does not simply destroy or create it.\n2. A cheaper rupee raises the cost of everything that is bought from abroad.\n3. The exchange rate is best understood as a price, and not as a grade.\n4. The same fall, however, raises the rupee value of every dollar that an exporter earns.\n5. The first effect hurts importers and consumers; the second helps those who sell abroad.",
+        "answer": "32451",
+        "explanation": "Answer: 3-2-4-5-1. Step by step. Sentence 3 opens with the general idea (a price, not a grade). Sentence 2 gives the first effect (the cost of imports rises). Sentence 4 begins 'The same fall, however' and gives the contrasting second effect. Sentence 5 summarises 'The first effect...the second' and so must follow both. Sentence 1 begins 'Such a fall therefore' and draws the conclusion, so it comes last. Tip: 'however' and 'the first...the second' fix the middle; 'therefore' marks the end."
+      },
+      {
+        "id": "q42",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. The equation, though, could not account for a change in behaviour that the old data had never recorded.\n2. In 1960 two authors fitted a single curve to the world's population and predicted infinite numbers by 2026.\n3. Their prediction failed, and the failure is instructive.\n4. The curve described the past with remarkable accuracy, since growth had indeed fed on itself for centuries.\n5. When families began to choose fewer children, the feedback that drove the curve was replaced by one that restrained it.",
+        "answer": "24351",
+        "explanation": "Answer: 2-4-3-5-1. Step by step. Sentence 2 introduces the 1960 curve and the prediction. Sentence 4 states that the curve fitted the past accurately. Sentence 3 says the prediction nevertheless failed. Sentence 5 explains how: fertility fell and the feedback changed. Sentence 1 begins 'The equation, though' and closes by saying it could not account for that change. Tip: opener (2) introduces, 4 gives the good fit, 3 turns with 'failed', and 'though' in 1 refers back to the equation after the explanation."
+      },
+      {
+        "id": "q43",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. A national account that ignores them will therefore overstate how much the economy is consuming.\n2. Spending on software and research builds assets that yield returns for years.\n3. Statisticians have moved some of this spending into the investment column for that reason.\n4. Treating it as a current expense, as older accounts did, assumes it is used up within the year.",
+        "answer": "2413",
+        "explanation": "Answer: 2-4-1-3. Step by step. Sentence 2 opens with the basic fact (the spending builds assets). Sentence 4 gives the old treatment ('Treating it as a current expense'; 'it' refers to the spending in 2). Sentence 1 draws the consequence ('therefore overstate... consuming'), with 'them' referring to such assets. Sentence 3 begins 'for that reason', resolving the problem. Tip: pronouns ('it', 'them') tell you that the noun came earlier; 2 must precede 4 and 1."
+      },
+      {
+        "id": "q44",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. This can leave the effective rate higher even when a headline duty has been cut.\n2. Each layer is calculated on the amount that includes the layers before it.\n3. The total that an importer pays is made up of several layers, and not of a single duty.\n4. Until the official notification is read, any explanation remains a hypothesis.\n5. A change in classification can also alter which layers apply at all.",
+        "answer": "32514",
+        "explanation": "Answer: 3-2-5-1-4. Step by step. Sentence 3 introduces the layers. Sentence 2 explains how they are computed (on one another). Sentence 5 adds another source of change ('also') in classification. Sentence 1 begins 'This can leave the effective rate higher', which refers to the result of the compounding and classification just described. Sentence 4 is the cautious conclusion ('Until the official notification is read'). Tip: 'also' signals an additional point to the idea before it; a closing caution usually comes last."
+      },
+      {
+        "id": "q45",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. A forecast that rests on that reason can adapt when the conditions change.\n2. A good fit to the past shows only that a formula summarises what has been observed.\n3. It does not show that the formula states the reason things happened.\n4. The distinction matters whenever a trend is extended into the future.",
+        "answer": "2314",
+        "explanation": "Answer: 2-3-1-4. Step by step. Sentence 2 states what a good fit shows; 3 begins 'It does not show', continuing from 2; 1 turns to a forecast resting 'on that reason', which must follow the mention of 'the reason' in 3; 4 begins 'The distinction' (between a fit and a reason) and closes the thought by applying it to extension of trends. Tip: 'that reason' and 'The distinction' both point backward; the sentence with 'It does not show' must come right after the sentence it denies."
+      }
+    ]
   }
 ]
