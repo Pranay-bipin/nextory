@@ -4135,5 +4135,596 @@
         "explanation": "Answer: 3-1-2-4. Step by step. Sentence 3 opens with the general fact (effects arrive late). Sentence 1 begins 'therefore' and draws the consequence (act on a forecast, not today's figure). Sentence 2 begins 'That figure', which refers to 'the figure published today' in sentence 1, so it must follow it. Sentence 4 closes with the result for how a decision may look. Tip: 'That figure' needs the figure to have been mentioned just before."
       }
     ]
+  },
+  {
+    "id": "sec-2026-11-26",
+    "date": "2026-11-26",
+    "title": "IPMAT Indore VA Sectional – 26th Nov 2026 (Advanced Analytical – High Difficulty)",
+    "durationMinutes": 45,
+    "totalQuestions": 45,
+    "passages": {
+      "RC1": "Official figures for India's growth in the July-September quarter are due on 30 November, and the guessing has already produced a spread. The finance ministry's model puts growth at 7.35 per cent, the central bank had projected 7.2, and a research team at a large bank has estimated about 7.8, using a statistical model built on 54 high-frequency indicators. A gap of half a percentage point may look small, but in an economy of this size it represents a large sum of money. More interesting than the gap is what it reveals: the figure that will be announced is not simply read from a counter. It is assembled, and it is assembled late.\n\nThe delay arises because an economy cannot be measured while it is moving. To compute output for a quarter, statisticians need returns from firms, surveys of households and records of farm production, and these arrive weeks or months after the period has ended. Some are incomplete, and the missing parts are filled by estimates that are later revised. The first release of a figure is thus a provisional judgement, and it is not unusual for the revised number to differ from it by an amount that exceeds the gap between rival forecasters. Anyone who treats the first announcement as the settled truth has misunderstood what it is.\n\nForecasters have therefore turned to what is called nowcasting. Instead of waiting for the slow and complete data, they use fast and imperfect indicators that are available almost at once: electricity use, port traffic, tax collections, vehicle sales and credit growth. Each indicator is a poor guide taken singly, since electricity use can rise because of a hot summer and not because of a factory boom. But a model that combines dozens of them can find the pattern that they share, and when it works, it produces a figure weeks before the official one. The finance ministry has begun to publish such an estimate, and banks have built their own.\n\nWhy, then, do the models disagree? The reason is that each rests on choices. One must decide which indicators to include, how much weight each deserves, and how closely the past relationship between the indicators and output will hold in the present. A model trained on years in which formal firms dominated may misjudge a quarter in which informal activity behaved differently. Two skilled teams, looking at the same data and making reasonable choices, can arrive at different answers, and the disagreement is a fair measure of how much the data can tell us at this stage.\n\nA further source of confusion lies in the name of the figure itself. The headline number is gross domestic product, but analysts also quote gross value added, and the two can differ noticeably: the bank that estimates GDP growth at about 7.8 per cent expects value added to grow by between 8 and 8.2 per cent. The difference arises because GDP adds taxes on products and subtracts subsidies to the value that producers add. A quarter in which subsidies rise, or in which tax collections lag, can therefore widen the gap, and a reader who compares a forecast of one figure with the release of the other will believe that someone has erred when no one has.\n\nThe sensible reader of such forecasts will avoid two errors. The first is to treat the average of the forecasts as the truth, as though the errors of different models were certain to cancel; they may instead share a common blind spot, such as a sector that none of the indicators captures. The second is to treat the spread as a sign that forecasting is worthless. The spread, rather, is information: it tells us how uncertain the quarter is, and a wide spread should make the headline figure, when it comes, a subject of questions as much as of celebration.",
+      "RC2": "When this year's prize in economic sciences went to Robert Hall and Michael Woodford for their work on the microeconomic foundations of stabilising the economy, a member of the prize committee summed up the history in a few words: the Keynesian recipe worked well until it didn't. The recipe, as developed after the Great Depression, was simple. When demand falls and unemployment rises, the government should spend or cut taxes to raise demand; when demand surges and prices rise, it should do the reverse. For three decades the formula appeared to serve. Then came the 1970s, when prices and unemployment rose together, and the recipe seemed to have nothing to say.\n\nThe old method had relied on relationships measured in aggregate data: between spending and income, or between unemployment and inflation. It assumed that these relationships were stable, and that a policymaker could therefore use them as levers. The difficulty is that the relationships are not laws of nature. They are the outcome of millions of decisions by households and firms, and those decisions depend on what the people making them expect. When policy changes, expectations change, and the relationships that were measured under the old policy may shift beneath the policymaker's hand. A lever that moved the economy last year may do something else this year because people have learnt how it works.\n\nThe laureates' contribution was to rebuild the theory from the bottom. Instead of postulating a relationship between aggregates, they modelled how a household decides whether to save or spend and how a firm decides whether to change its prices, and then derived the aggregate behaviour from these decisions. Such an approach has a decisive advantage: it can predict how behaviour will respond to a new policy, since the model contains the reasons for the behaviour and not merely its past record. A model that knows why people act is better placed to say what they will do when circumstances change.\n\nOne result of this approach is the importance of what a central bank says. If households and firms form expectations about future interest rates, then a statement about the likely path of those rates can influence spending today, without any change in the rate itself. Woodford has argued that stabilisation cannot be treated as a matter of pulling levers independently of what people understand. In the years following the financial crisis of the late 2000s, when rates could not be cut much further, explicit statements about the future path of policy became a significant part of the response.\n\nAn example shows why this matters. Suppose a government believes that it can lower unemployment permanently by tolerating a little more inflation, because the data of the past show that the two have moved in opposite directions. If it acts on that belief, workers and firms will soon come to expect the higher inflation and will build it into their wage demands and prices. The old relationship then disappears, and the economy is left with the higher inflation and no lasting gain in jobs. The pattern in the data was real, but it depended on people not anticipating the policy that was designed to exploit it.\n\nNone of this means that the bottom-up approach is free of difficulty. A model built on decisions must make assumptions about how people reason, and if those assumptions are unrealistic, the elegance of the structure will not save it. The lesson of the prize is therefore a modest one. A theory that rests on the reasons for behaviour will usually travel better than one that rests on past correlations, but it travels well only if the reasons it assumes are close to the reasons that people really have.",
+      "RC3": "India's electric vehicle market offers a lesson in how to read growth. In October, total electric vehicle registrations reached 354,378, a rise of more than 51 per cent over the same month a year earlier. Electric cars alone have sold more than 30,000 units a month for five consecutive months, and the total for the first ten months of the year has reached 293,877. Yet in the same month, the share of electric vehicles in all vehicle sales fell, to about 11 per cent. Both statements are true. They are not in conflict, but they answer different questions, and a reader who confuses them will draw the wrong conclusion.\n\nThe first statistic measures volume: how many electric vehicles were sold. The second measures penetration: what fraction of all sales they formed. Volume can rise while penetration falls if the total market grows faster than the electric segment. This is what the figure for October signals, namely that overall vehicle sales expanded more quickly than electric sales did. The same arithmetic applies in any growing market. A shop whose sales of a product double is losing ground relative to its rivals if the whole market has tripled.\n\nThe choice between the two measures depends on what one wishes to know. For a manufacturer planning a factory or a government planning charging stations, volume is the relevant figure, since it determines the demand to be served. For a policy-maker concerned with emissions or oil imports, penetration matters more, because the change in fuel use depends on what share of the fleet is electric and not on how many electric vehicles are sold in a given month. A policy that is judged by volume may look successful even as it fails to alter the composition of the market.\n\nA related trap is the base effect. Growth is calculated against an earlier figure, and when that figure is small, a modest increase in absolute terms produces a large percentage. A month in which electric car sales rise from about 13,000 units to about 21,000 a year later shows growth of more than sixty per cent, and a market that adds the same number of units to a larger base will show far less. High growth rates in the early stage of a technology are therefore less impressive than they appear, and the slowing of growth later is not necessarily a sign of failure; it may be the arithmetic of a larger base.\n\nThe timing of growth deserves a similar caution. New technologies tend to follow an S-shaped path: adoption is slow while the product is costly and unfamiliar, then quickens as prices fall and charging points multiply, and finally levels off as the market approaches saturation. A reader who looks only at the steep middle of the curve may conclude that rapid growth will continue indefinitely, and a reader who looks only at the early flat stretch may dismiss the technology as a failure. Where on the curve a market currently stands matters at least as much as the rate at which it is moving.\n\nLast year offered a reminder that adoption also responds to its rivals. When indirect tax cuts made petrol and diesel vehicles cheaper, the momentum of electric two-wheelers cooled, even as electric cars and three-wheelers continued to grow. A technology's progress, in other words, depends on the relative price of what it competes with, as well as on its own merits. The disciplined analyst therefore asks three questions of any growth story: growth of what, measured against what, and relative to which alternative?",
+      "CA1": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nAarti Rao (Host, Careers Desk): A company has built a tool that screens résumés and recommends whom to interview. It was trained on ten years of the company's own hiring decisions, and the vendor says it matches the recruiters' choices ninety per cent of the time. That sounds impressive, doesn't it?\n\nDr. Kabir Anand (data scientist): It sounds impressive until you ask what the tool is being matched to. If it agrees with the recruiters ninety per cent of the time, then it has learnt to do what the recruiters did. That is a measure of imitation, not of quality. Whether those recruiters picked good employees is a separate question that the figure does not answer.\n\nAarti Rao: But surely past decisions are the only data we have.\n\nDr. Anand: They are the data we have, which is not the same as the data we need. Suppose that, for years, the firm rarely interviewed graduates of smaller colleges. The tool will learn that such graduates are rarely hired, and will rank them low, and we shall never learn whether they would have done well, because they were never given the chance. The pattern is reinforced by its own output.\n\nAarti Rao: So the tool is biased?\n\nDr. Anand: I would put it differently. The tool is faithful, and what it is faithful to may be flawed. The remedy is not to abandon such tools, but to test them against outcomes, such as how the people hired actually performed, and to allow a small number of candidates through who would have been screened out, so that the firm can find out whether it was right to screen them.\n\nAarti Rao: That costs the firm something.\n\nDr. Anand: It does, and it is the price of knowing."
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "type": "RC",
+        "question": "Which of the following best expresses the central idea of the passage?",
+        "passageId": "RC1",
+        "options": [
+          "Forecasters who use many indicators are always more accurate than the statisticians who prepare the official figure after the quarter has ended",
+          "The disagreement between forecasting teams shows that growth cannot be measured, so that official figures should not be published or discussed",
+          "A single bank's estimate of growth should be preferred over the others because its model uses a larger number of high-frequency indicators",
+          "An official growth figure is an assembled, provisional estimate, and the spread among forecasts is itself evidence of uncertainty"
+        ],
+        "answer": 3,
+        "explanation": "Answer: the official figure is assembled and provisional, and the spread of forecasts shows the uncertainty. Why: paragraph 1 says the figure 'is assembled, and it is assembled late'; paragraph 2 calls the first release 'a provisional judgement'; the last paragraph says 'The spread, rather, is information'. Why the others fail: the author never says forecasters are always more accurate (they may share blind spots); the author rejects the view that the spread makes forecasting 'worthless'; and no model is recommended over others. Tip: a main-idea answer should keep both the 'provisional' point and the 'spread is information' point."
+      },
+      {
+        "id": "q2",
+        "type": "RC",
+        "question": "According to the passage, the first announcement of a growth figure should not be treated as settled because",
+        "passageId": "RC1",
+        "options": [
+          "it is prepared by statisticians who have no access to the surveys of households or the records of farm production",
+          "it rests on late, incomplete returns whose gaps are estimated and later revised, sometimes by more than forecasters differ",
+          "it is always revised downward after a few weeks, when the missing returns from the informal sector have arrived",
+          "it is calculated from the same high-frequency indicators that the forecasting models use, and so shares their errors"
+        ],
+        "answer": 1,
+        "explanation": "Answer: it relies on late, incomplete returns, filled by estimates later revised, and the revision may exceed the forecasters' gap. Why: paragraph 2 says returns 'arrive weeks or months after the period has ended', 'the missing parts are filled by estimates that are later revised', and the revision may 'exceed the gap between rival forecasters'. Why the others fail: statisticians DO use surveys and farm records; the passage never says revision is always downward; and the official figure uses slow, complete data, in contrast to the fast indicators of nowcasting. Tip: 'always' and 'downward' are unsupported specifics."
+      },
+      {
+        "id": "q3",
+        "type": "RC",
+        "question": "The author says that electricity use is 'a poor guide taken singly' in order to show that",
+        "passageId": "RC1",
+        "options": [
+          "one indicator can move for reasons unrelated to output, so a model combines many to find their shared pattern",
+          "electricity use should be removed from nowcasting models because it is always unrelated to the growth of the economy",
+          "nowcasting is unreliable because every indicator that it uses can be affected by the weather in the quarter",
+          "factories that use a great deal of electricity are less important to the economy than those in the services sector"
+        ],
+        "answer": 0,
+        "explanation": "Answer: a single indicator can move for unrelated reasons, so models combine many to find the shared pattern. Why: paragraph 3 says electricity use 'can rise because of a hot summer and not because of a factory boom. But a model that combines dozens of them can find the pattern that they share'. Why the others fail: the author does not say electricity is always unrelated; 'every indicator' affected by weather overstates a single example; the sector comparison is not made. Tip: a 'But' sentence after an example states the author's conclusion."
+      },
+      {
+        "id": "q4",
+        "type": "RC",
+        "question": "Which of the following explains why two skilled teams might arrive at different forecasts from the same data?",
+        "passageId": "RC1",
+        "options": [
+          "One team must be using data that is incorrect, since competent forecasters examining the same figures would reach the same result",
+          "Some of the teams are required to publish their forecasts before the others and so cannot revise them after the data arrive",
+          "They may choose different indicators and weights, and differ on how far past relationships will hold now",
+          "The teams measure different things, such as the growth of the informal sector and the growth of the formal sector"
+        ],
+        "answer": 2,
+        "explanation": "Answer: different choices of indicators, weights and assumptions about the stability of past relationships. Why: paragraph 4 says 'each rests on choices: which indicators to include, how much weight each deserves, and how closely the past relationship ... will hold'. Why the others fail: the author says 'reasonable choices' can still lead to different answers, so incorrect data is not required; the order of publication is not mentioned; and the passage treats the models as forecasting the same quantity. Tip: look for the sentence that begins with 'The reason is that'."
+      },
+      {
+        "id": "q5",
+        "type": "RC",
+        "question": "Which of the following is NOT mentioned or implied as a way in which a reader might be misled by forecasts or releases?",
+        "passageId": "RC1",
+        "options": [
+          "Treating the average of several forecasts as the truth, although the models may share a common blind spot in some sector",
+          "Regarding the finance ministry's forecast as less reliable than a bank's, since the ministry has a stake in the result",
+          "Comparing a forecast of one measure of output with the release of a different measure of output, as though they were the same",
+          "Taking the first announcement as the final word, although later revisions may be larger than the gaps among forecasters"
+        ],
+        "answer": 1,
+        "explanation": "Answer: the idea that the ministry's forecast is less reliable because it has a stake. Why: nothing in the passage questions the ministry's motives or ranks forecasters by their interests. Why the others ARE mentioned: the last paragraph warns against treating the average as the truth (shared blind spot); the added paragraph on GDP and value added warns against comparing one with the other; paragraph 2 warns against taking the first announcement as settled. Tip: in NOT-questions, check each option against a specific paragraph."
+      },
+      {
+        "id": "q6",
+        "type": "RC",
+        "question": "The difference between GDP and gross value added, as explained in the passage, arises because",
+        "passageId": "RC1",
+        "options": [
+          "gross value added includes the informal sector, which gross domestic product leaves out because its output is not recorded",
+          "gross domestic product is revised several times after its release, whereas gross value added is calculated only once",
+          "gross value added is measured by nowcasting models, and gross domestic product is measured by the official statisticians",
+          "GDP adds product taxes and subtracts subsidies to producers' value added, so changes in these can alter the gap"
+        ],
+        "answer": 3,
+        "explanation": "Answer: GDP adds product taxes and subtracts subsidies to value added, so changes in these affect the gap. Why: the added paragraph says 'GDP adds taxes on products and subtracts subsidies to the value that producers add. A quarter in which subsidies rise, or in which tax collections lag, can therefore widen the gap'. Why the others fail: nothing says GDP excludes the informal sector; revision of one but not the other is not stated; and both figures are forecast and later officially measured. Tip: definitions in passages are usually given in a single sentence beginning with the term or its cause."
+      },
+      {
+        "id": "q7",
+        "type": "RC",
+        "question": "The primary purpose of the passage is to",
+        "passageId": "RC2",
+        "options": [
+          "argue that the Keynesian approach to economic stabilisation was mistaken from the beginning and has never served any government well",
+          "describe the lives and careers of the two economists who were awarded the prize for work on economic stabilisation this year",
+          "explain why models built on the reasons for behaviour can predict responses to new policies better than those built on past aggregates",
+          "show that central banks should avoid making statements about future interest rates because such statements confuse households"
+        ],
+        "answer": 2,
+        "explanation": "Answer: to explain why models built on reasons for behaviour predict policy responses better than those built on past aggregates. Why: paragraphs 2 and 3 contrast aggregate relationships that 'shift beneath the policymaker's hand' with a model that 'knows why people act'; the last paragraph says such theory 'will usually travel better'. Why the others fail: paragraph 1 says the recipe 'worked well' for three decades, so 'mistaken from the beginning' is wrong; the passage gives no biography; and paragraph 4 treats statements about future rates as a useful tool. Tip: purpose = what the whole passage does, not what its opening anecdote is about."
+      },
+      {
+        "id": "q8",
+        "type": "RC",
+        "question": "According to the passage, the old method failed in the 1970s because",
+        "passageId": "RC2",
+        "options": [
+          "it assumed that measured relationships between aggregates were stable levers, although they depended on expectations that change when policy changes",
+          "it assumed that households and firms would not change their spending when the government changed its taxes",
+          "it relied entirely on the models of individual households, which cannot describe how an economy behaves as a whole",
+          "it was applied only in the years after the Great Depression, when demand had fallen too far to be raised again"
+        ],
+        "answer": 0,
+        "explanation": "Answer: it treated measured aggregate relationships as stable levers, though they depend on expectations that shift when policy shifts. Why: paragraph 2 says the old method 'assumed that these relationships were stable' and that 'When policy changes, expectations change, and the relationships ... may shift'. Why the others fail: the failing method is the AGGREGATE one, not the household-based one the laureates built; there is no claim that the old approach assumed spending would not change; and paragraph 1 says the formula was used for three decades after the Depression. Tip: the 'difficulty' sentence is usually the cause the question asks for."
+      },
+      {
+        "id": "q9",
+        "type": "RC",
+        "question": "The example of a government that tolerates more inflation in order to reduce unemployment is used to show that",
+        "passageId": "RC2",
+        "options": [
+          "governments should never tolerate inflation, since it always fails to reduce unemployment even for a short time",
+          "workers and firms are unable to form expectations about prices unless the central bank announces its future rates",
+          "the relationship between inflation and unemployment has never existed in any country at any time in history",
+          "a pattern in past data may vanish once people anticipate a policy designed to exploit it"
+        ],
+        "answer": 3,
+        "explanation": "Answer: a pattern seen in past data may vanish when people anticipate the policy meant to exploit it. Why: the paragraph says the pattern 'was real, but it depended on people not anticipating the policy that was designed to exploit it'. Why the others fail: 'never' and 'always' overstate; the passage says the relationship was real in past data; and the central bank's announcements are a separate point in paragraph 4. Tip: 'was real, but' signals the author's qualification."
+      },
+      {
+        "id": "q10",
+        "type": "RC",
+        "question": "The passage suggests that a statement by a central bank about the likely path of interest rates can affect spending today because",
+        "passageId": "RC2",
+        "options": [
+          "the central bank has the legal power to compel households and firms to spend more than they would otherwise have chosen",
+          "households and firms form expectations about future rates, and these expectations influence decisions even if the current rate does not change",
+          "such a statement raises current interest rates directly by changing the price at which banks borrow from the central bank",
+          "households and firms ignore the current rate and therefore respond only to statements that concern the distant future"
+        ],
+        "answer": 1,
+        "explanation": "Answer: expectations about future rates shape decisions today even without a change in the current rate. Why: paragraph 4 says 'If households and firms form expectations about future interest rates, then a statement about the likely path of those rates can influence spending today, without any change in the rate itself.' Why the others fail: there is no compulsion; the statement works 'without any change in the rate'; and 'ignore the current rate' overstates the claim. Tip: 'without any change in' tells you what the effect does NOT depend on."
+      },
+      {
+        "id": "q11",
+        "type": "RC",
+        "question": "Which of the following can be inferred from the final paragraph?",
+        "passageId": "RC2",
+        "options": [
+          "A bottom-up model with unrealistic assumptions about how people reason may fail, however elegant its structure",
+          "Models built on past correlations are always less accurate than models built on the decisions of individuals",
+          "A model derived from household and firm decisions is free of the need to make any assumptions about behaviour",
+          "The laureates have conceded that their approach is no better than the older one that it replaced"
+        ],
+        "answer": 0,
+        "explanation": "Answer: a bottom-up model with unrealistic assumptions may fail, however elegant. Why: the paragraph says assumptions that are 'unrealistic' mean 'the elegance of the structure will not save it', and that such theory travels well 'only if the reasons it assumes are close to the reasons that people really have'. Why the others fail: it says such models 'usually' travel better, not always; the paragraph states that they DO need assumptions; and nothing says the laureates concede equality with the older approach. Tip: the words 'usually' and 'only if' set limits that wrong options remove."
+      },
+      {
+        "id": "q12",
+        "type": "RC",
+        "question": "Which of the following, if true, would most WEAKEN the author's argument that models built on the reasons for behaviour travel better than those built on past correlations?",
+        "passageId": "RC2",
+        "options": [
+          "Economists who use aggregate relationships are generally older than those who use models built on individual decisions",
+          "Households and firms in several countries changed their expectations after central banks began to publish their forecasts",
+          "Across many policy changes, models built on aggregate relationships predicted outcomes more accurately than models built on household decisions, whose assumptions about reasoning proved poor",
+          "A few central banks have stopped using any formal model and now rely on the judgement of their own senior officials alone"
+        ],
+        "answer": 2,
+        "explanation": "Answer: if aggregate models did better in practice because the bottom-up assumptions were poor, the author's claim is directly weakened. Why: the passage claims that reason-based models 'will usually travel better', but only if their assumptions are realistic; evidence that their assumptions failed in practice and aggregate models outperformed them attacks the claim itself. Why the others do not weaken: the age of economists is irrelevant; changing expectations after forecasts are published supports the expectations argument; and abandoning formal models says nothing about which kind is better. Tip: to weaken a comparison, show the opposite result in practice."
+      },
+      {
+        "id": "q13",
+        "type": "RC",
+        "question": "Which of the following best states the main point of the passage?",
+        "passageId": "RC3",
+        "options": [
+          "India's electric vehicle market has failed to grow in any meaningful way, because the share of electric vehicles in sales has fallen",
+          "Growth statistics answer different questions, such as volume and share, so ask growth of what, against what base, relative to which alternative",
+          "Governments should measure the success of their policies by the number of electric vehicles sold, and not by the share of all sales",
+          "Rapid growth of a new technology in its early stage is certain to continue until the technology has replaced every older rival"
+        ],
+        "answer": 1,
+        "explanation": "Answer: growth statistics answer different questions, so ask growth of what, against what base and relative to which alternative. Why: the opening says the two statements 'answer different questions'; the final sentence lists those three questions. Why the others fail: the passage says volume rose strongly, so 'failed to grow' is wrong; paragraph 3 says that for emissions policy, penetration matters more; and paragraph 5 warns that growth rates early in a technology's life are 'less impressive than they appear'. Tip: the closing question often summarises the passage."
+      },
+      {
+        "id": "q14",
+        "type": "RC",
+        "question": "According to the passage, penetration can fall even while volume rises if",
+        "passageId": "RC3",
+        "options": [
+          "the total market grows faster than the electric segment does",
+          "the government stops offering any support to buyers of electric vehicles in the later part of the year",
+          "the number of charging points grows more slowly than the number of electric vehicles on the road",
+          "manufacturers sell electric vehicles at a lower price than they charge for petrol and diesel vehicles"
+        ],
+        "answer": 0,
+        "explanation": "Answer: when the total market grows faster than the electric segment. Why: paragraph 2 says 'Volume can rise while penetration falls if the total market grows faster than the electric segment'. Why the others fail: policy support, charging points and relative prices are not given as the condition in this arithmetic; the passage later says relative prices matter, but for adoption, not for this ratio. Tip: when a question asks for the 'if' condition, find the sentence that states it."
+      },
+      {
+        "id": "q15",
+        "type": "RC",
+        "question": "The author mentions the shop whose sales of a product double while the market triples in order to show that",
+        "passageId": "RC3",
+        "options": [
+          "a shop that doubles its sales of a product has necessarily made the most successful decision in the whole market",
+          "a product whose market triples must be an electric vehicle, since only such a market can grow so quickly",
+          "the shop owner should be less concerned with the market than with the sales that he made in the previous year",
+          "growth in absolute terms can coexist with a loss of share, since what matters is the growth of the whole market"
+        ],
+        "answer": 3,
+        "explanation": "Answer: absolute growth can coexist with loss of share when the whole market grows faster. Why: paragraph 2 says the shop 'is losing ground relative to its rivals if the whole market has tripled'. Why the others fail: the shop has not necessarily done well; the example is generic ('any growing market'), not specific to electric vehicles; and the owner is not advised to ignore the market. Tip: an example generalises the previous sentence's arithmetic."
+      },
+      {
+        "id": "q16",
+        "type": "RC",
+        "question": "Which of the following is a likely consequence of judging a policy by volume alone, according to the passage?",
+        "passageId": "RC3",
+        "options": [
+          "The policy will be abandoned too early, because volume figures always understate the progress of a new technology in its early stage of growth",
+          "The policy will be judged by the wrong body, since volume figures are collected by manufacturers and not by the government",
+          "The policy may look successful without changing the market's composition, which is what matters for fuel use and emissions",
+          "The policy will be applied to a market that has already reached saturation, where further growth in volume is impossible"
+        ],
+        "answer": 2,
+        "explanation": "Answer: the policy may look successful without changing the market's composition. Why: paragraph 3 says 'A policy that is judged by volume may look successful even as it fails to alter the composition of the market', and that fuel use depends on the fleet's share. Why the others fail: volume figures are not said to understate; nothing is said about who collects them; and saturation is introduced later as a stage of the S-curve, not as a consequence of volume-based judgement. Tip: pick the consequence the paragraph itself states."
+      },
+      {
+        "id": "q17",
+        "type": "RC",
+        "question": "Which of the following best describes the 'base effect' discussed in the passage?",
+        "passageId": "RC3",
+        "options": [
+          "A decline in the share of a product in the market when the total market has grown faster than the product itself has done",
+          "The tendency of new technologies to grow slowly at first, then quickly, and finally to level off as they approach saturation in the market",
+          "The effect of a change in indirect taxes on the relative price of a technology and of the older products that compete with it",
+          "A modest increase on a small starting figure gives a large percentage growth, while the same increase on a larger base gives much less"
+        ],
+        "answer": 3,
+        "explanation": "Answer: a modest absolute increase on a small base gives a large percentage, and much less on a larger base. Why: paragraph 4 defines it: 'when that figure is small, a modest increase in absolute terms produces a large percentage'. Why the others fail: they describe, in turn, penetration (paragraph 2), the S-shaped path (the added paragraph) and the effect of tax cuts on rivals (the last paragraph). Tip: three of the options are other ideas from the same passage; match the definition to the term."
+      },
+      {
+        "id": "q18",
+        "type": "RC",
+        "question": "The reference to electric two-wheelers cooling after indirect tax cuts on petrol and diesel vehicles illustrates that",
+        "passageId": "RC3",
+        "options": [
+          "a technology's progress depends on the relative price of its rivals, as well as on its own merits",
+          "tax cuts on older products always prevent a new technology from achieving any growth in the market",
+          "electric cars and three-wheelers are less sensitive to price than two-wheelers because they are used for work",
+          "the share of electric vehicles in sales is unaffected by the price of petrol and diesel vehicles in the market"
+        ],
+        "answer": 0,
+        "explanation": "Answer: a technology's progress depends on the relative price of rivals, not only its own merits. Why: the final paragraph says 'A technology's progress, in other words, depends on the relative price of what it competes with, as well as on its own merits.' Why the others fail: it says momentum 'cooled' for two-wheelers while cars and three-wheelers continued to grow, so 'always prevent' is wrong; the explanation about work use is not given; and the share is shown to be affected. Tip: 'in other words' introduces the author's own summary of the example."
+      },
+      {
+        "id": "q19",
+        "type": "RC",
+        "question": "Dr. Anand's remark that the ninety per cent figure 'is a measure of imitation, not of quality' implies that",
+        "passageId": "CA1",
+        "options": [
+          "the tool is likely to be inaccurate, because it cannot match the decisions of recruiters in more than nine cases out of ten",
+          "the vendor has deliberately exaggerated the performance of the tool in order to persuade companies to buy it",
+          "agreement with past recruiters shows the tool copies them, and says nothing about whether they chose good employees",
+          "recruiters who have worked for many years always choose better employees than any statistical tool can choose"
+        ],
+        "answer": 2,
+        "explanation": "Answer: agreement with past recruiters shows imitation, and says nothing about whether those recruiters chose well. Why: he says 'it has learnt to do what the recruiters did' and 'Whether those recruiters picked good employees is a separate question that the figure does not answer'. Why the others fail: ninety per cent agreement is not described as inaccurate; he does not accuse the vendor of exaggeration; and he does not claim recruiters always choose better. Tip: when a speaker separates two questions, the wrong options merge them."
+      },
+      {
+        "id": "q20",
+        "type": "RC",
+        "question": "According to Dr. Anand, the pattern in which graduates of smaller colleges are ranked low is 'reinforced by its own output' because",
+        "passageId": "CA1",
+        "options": [
+          "the tool is programmed by the vendor to prefer graduates of larger colleges over all other candidates",
+          "such graduates are never interviewed, so the firm never learns how they would have performed, and the data keeps recording their absence",
+          "the graduates of smaller colleges perform badly after they are hired, and the tool has learnt from that record",
+          "recruiters are required by law to follow the tool's ranking and cannot interview candidates it has ranked low"
+        ],
+        "answer": 1,
+        "explanation": "Answer: such graduates are never interviewed, so the firm never learns how they would have done and the data keeps recording their absence. Why: he says 'we shall never learn whether they would have done well, because they were never given the chance'. Why the others fail: he does not say the vendor programmed a preference; there is no record of poor performance, since they were not hired; and legal compulsion is not mentioned. Tip: self-reinforcing patterns come from missing evidence, not from bad intent."
+      },
+      {
+        "id": "q21",
+        "type": "RC",
+        "question": "Dr. Anand's proposed remedy is to",
+        "passageId": "CA1",
+        "options": [
+          "test the tool against how those hired later performed, and let a few screened-out candidates through, at some cost",
+          "abandon such tools altogether, since their agreement with past decisions makes them unfit to be used by any firm",
+          "retrain the tool each year on the latest hiring decisions so that it agrees with recruiters more than ninety per cent of the time",
+          "ask the vendor to publish the method by which the tool was trained, so that any bias in it may be removed in advance"
+        ],
+        "answer": 0,
+        "explanation": "Answer: test against outcomes and let some screened-out candidates through, accepting the cost. Why: he says 'The remedy is not to abandon such tools, but to test them against outcomes ... and to allow a small number of candidates through who would have been screened out', and calls the cost 'the price of knowing'. Why the others fail: he explicitly rejects abandoning; retraining on recruiters' choices would deepen imitation; publication of method is not proposed. Tip: 'not X, but Y' means Y is the speaker's view."
+      },
+      {
+        "id": "q22",
+        "type": "Vocabulary",
+        "question": "His ________ inspection, a glance at the cover and a quick nod, was so careless that the forged signature on the last page went unnoticed.",
+        "options": [
+          "meticulous",
+          "exhaustive",
+          "perfunctory",
+          "rigorous"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'perfunctory' means done as a duty, with minimal care or effort. The clue is 'a glance at the cover and a quick nod' and the missed forgery. The others: 'meticulous' (extremely careful), 'exhaustive' (thorough, covering everything) and 'rigorous' (strict, thorough) are all opposite to careless. Tip: when the outcome is a missed detail, the blank is a word for carelessness."
+      },
+      {
+        "id": "q23",
+        "type": "Vocabulary",
+        "question": "The company's ________ attitude towards safety, in which it spent only the legal minimum and grudged even that, led to its being criticised by the inspectors.",
+        "options": [
+          "profligate",
+          "parsimonious",
+          "munificent",
+          "extravagant"
+        ],
+        "answer": 1,
+        "explanation": "Answer: 'parsimonious' means unwilling to spend, extremely thrifty. The clue is 'spent only the legal minimum and grudged even that'. The others: 'profligate' (wastefully extravagant), 'munificent' (very generous) and 'extravagant' (spending excessively) all describe spending freely. Tip: 'grudged' signals unwillingness to give or spend."
+      },
+      {
+        "id": "q24",
+        "type": "Vocabulary",
+        "question": "Being ________ about procedure, the clerk returned the entire application because a single date had been written in the wrong format.",
+        "options": [
+          "cavalier",
+          "lax",
+          "indifferent",
+          "punctilious"
+        ],
+        "answer": 3,
+        "explanation": "Answer: 'punctilious' means very careful about correct details and rules. The clue is that an entire application was returned over 'a single date ... in the wrong format'. The others: 'cavalier' (casual and dismissive), 'lax' (not strict) and 'indifferent' (not caring) would not lead someone to reject a form over such a detail. Tip: an extreme reaction to a tiny error signals extreme attention to detail."
+      },
+      {
+        "id": "q25",
+        "type": "Vocabulary",
+        "question": "The forecast was ________ with caveats: it gave a range and not a single figure, and the authors ________ readers not to treat the midpoint as a ________.",
+        "options": [
+          "hedged; urged; prediction",
+          "hedged; cautioned; prediction",
+          "unqualified; cautioned; prediction",
+          "hedged; cautioned; certainty"
+        ],
+        "answer": 1,
+        "explanation": "Answer: hedged; cautioned; prediction. Step by step. A forecast 'with caveats' that gives a range is 'hedged' (qualified); the authors 'cautioned' (warned) readers not to treat the midpoint as a single 'prediction'. 'Urged' readers not to would not make sense with 'not to treat'; 'unqualified' contradicts 'with caveats'; 'certainty' would make the warning odd, since a midpoint of a range is never described as a certainty. Tip: 'range and not a single figure' tells you the report is qualified."
+      },
+      {
+        "id": "q26",
+        "type": "Vocabulary",
+        "question": "A ________ market is one in which prices change sharply from day to day, so a trader who is ________ by one bad session may sell at the bottom and ________ a loss that patience would have avoided.",
+        "options": [
+          "volatile; unnerved; crystallise",
+          "volatile; reassured; crystallise",
+          "stagnant; unnerved; crystallise",
+          "volatile; unnerved; recoup"
+        ],
+        "answer": 0,
+        "explanation": "Answer: volatile; unnerved; crystallise. Step by step. Prices that change sharply make a 'volatile' market; a trader frightened ('unnerved') by one bad session sells at the bottom and thereby 'crystallises' (makes real) a loss. 'Reassured' would not lead to panic selling; 'stagnant' (not moving) contradicts sharp changes; 'recoup' (win back) contradicts 'a loss that patience would have avoided'. Tip: 'sell at the bottom' tells you the trader was frightened."
+      },
+      {
+        "id": "q27",
+        "type": "Vocabulary",
+        "question": "The minister's speech was full of ________ promises: each sounded generous, yet none was ________ by a date or a budget, so the audience had little reason to ________ that anything would change.",
+        "options": [
+          "amorphous; underwritten; doubt",
+          "concrete; underwritten; expect",
+          "amorphous; contradicted; expect",
+          "amorphous; underwritten; expect"
+        ],
+        "answer": 3,
+        "explanation": "Answer: amorphous; underwritten; expect. Step by step. Promises with no date or budget are shapeless and vague ('amorphous'); none was 'underwritten' (backed, guaranteed) by a date or a budget; so the audience had little reason to 'expect' change. 'Doubt' would reverse the logic of 'little reason to ...'; 'concrete' contradicts 'no date or budget'; 'contradicted' is not what the clause 'by a date or a budget' describes. Tip: 'little reason to ___' needs the thing that would normally be believed."
+      },
+      {
+        "id": "q28",
+        "type": "Vocabulary",
+        "question": "Although the study was widely cited as ________ proof that the programme worked, its sample was so small and so ________ that a careful reader would call its findings merely ________.",
+        "options": [
+          "irrefutable; unrepresentative; definitive",
+          "tentative; unrepresentative; suggestive",
+          "irrefutable; unrepresentative; suggestive",
+          "irrefutable; comprehensive; suggestive"
+        ],
+        "answer": 2,
+        "explanation": "Answer: irrefutable; unrepresentative; suggestive. Step by step. 'Although' signals contrast: cited as 'irrefutable' (impossible to disprove) proof, but with a small, 'unrepresentative' sample, so a careful reader would call the findings merely 'suggestive' (pointing towards but not proving). 'Definitive' would not be 'merely'; 'tentative' would not contrast with 'Although'; 'comprehensive' (covering everything) contradicts a small sample. Tip: 'merely' calls for a weaker word."
+      },
+      {
+        "id": "q29",
+        "type": "Vocabulary",
+        "question": "Far from ________ criticism, the editor ________ it, and the paper's reputation for accuracy grew because mistakes were corrected ________ and not buried.",
+        "options": [
+          "welcoming; solicited; promptly",
+          "resenting; ignored; promptly",
+          "resenting; solicited; promptly",
+          "resenting; solicited; grudgingly"
+        ],
+        "answer": 2,
+        "explanation": "Answer: resenting; solicited; promptly. Step by step. 'Far from ___ criticism' needs a negative attitude the editor did NOT have: 'resenting'. The editor 'solicited' (asked for) it, and mistakes were corrected 'promptly' and not buried. 'Welcoming' would not contrast with 'far from'; 'ignored' contradicts the growing reputation; 'grudgingly' contradicts the favourable picture. Tip: 'far from X-ing, did Y' means Y is the opposite of X."
+      },
+      {
+        "id": "q30",
+        "type": "Vocabulary",
+        "question": "The minister moved to ________ the tension, the report ________ to earlier failures without naming them, and the officials involved managed to ________ any blame.",
+        "options": [
+          "diffuse; alluded; elude",
+          "defuse; eluded; allude",
+          "diffuse; eluded; allude",
+          "defuse; alluded; elude"
+        ],
+        "answer": 3,
+        "explanation": "Answer: defuse; alluded; elude. DEFUSE means to make less dangerous (a tension, a bomb); DIFFUSE means to spread out. ALLUDE means to refer to indirectly; ELUDE means to escape or avoid. So the minister moves to 'defuse' tension, the report 'alluded' to failures without naming them, and the officials managed to 'elude' blame. Tip: you allude to a thing; you elude a pursuer."
+      },
+      {
+        "id": "q31",
+        "type": "Vocabulary",
+        "question": "The auditor chose to ________ the earlier ruling, visited the ________ of the dispute, and was shocked by the ________ that met her.",
+        "options": [
+          "cite; site; sight",
+          "site; cite; sight",
+          "cite; sight; site",
+          "sight; site; cite"
+        ],
+        "answer": 0,
+        "explanation": "Answer: cite; site; sight. CITE means to quote or refer to as evidence (a ruling); SITE is a place or location; SIGHT is something seen, or the faculty of seeing. So the auditor cites the ruling, visits the site and is shocked by the sight. Tip: a 'site' is a location; a 'sight' is something you see."
+      },
+      {
+        "id": "q32",
+        "type": "Vocabulary",
+        "question": "The new law will ________ the use of the chemical outright, though a doctor may still ________ a substitute, and the report did not ________ that the substitute was entirely harmless.",
+        "options": [
+          "prescribe; proscribe; imply",
+          "proscribe; prescribe; imply",
+          "proscribe; prescribe; infer",
+          "prescribe; prescribe; infer"
+        ],
+        "answer": 1,
+        "explanation": "Answer: proscribe; prescribe; imply. PROSCRIBE means to forbid; PRESCRIBE means to order or recommend (a medicine, a rule). A law forbids ('proscribe') the chemical; a doctor orders ('prescribe') a substitute. IMPLY means to suggest without stating; INFER means to conclude from evidence. The report did not 'imply' (suggest) harmlessness. The other options swap the first pair or use 'infer' for a writer's act. Tip: the writer implies; the reader infers."
+      },
+      {
+        "id": "q33",
+        "type": "Vocabulary",
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "Her long pause in reply seemed to imply that she disagreed.",
+          "The audience inferred from her long pause that she disagreed.",
+          "Do you mean to imply that the figures were altered?",
+          "From the long pause in her reply, the audience implied that she disagreed."
+        ],
+        "answer": 3,
+        "explanation": "Answer: the sentence 'the audience implied'. IMPLY is what a speaker or writer does (suggests without stating); INFER is what a listener or reader does (concludes from evidence). The audience, receiving the pause, 'inferred'. The other sentences are correct: 'her pause ... imply', 'the audience inferred' and 'mean to imply'. Tip: the sender implies; the receiver infers."
+      },
+      {
+        "id": "q34",
+        "type": "Grammar",
+        "question": "The prize was shared between <u>he and her</u>, who had worked together for twenty years.",
+        "options": [
+          "he and she",
+          "him and she",
+          "him and her",
+          "his and her"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'him and her'. Rule: after a preposition ('between'), pronouns take the object case: him and her. 'Between he and her' mixes cases; 'he and she' and 'him and she' use the subject form 'she' after a preposition; 'his and her' is possessive and has no noun to follow. Tip: after a preposition, use object pronouns (me, him, her, us, them)."
+      },
+      {
+        "id": "q35",
+        "type": "Grammar",
+        "question": "Hardly had the results been announced <u>than</u> the markets began to react.",
+        "options": [
+          "when",
+          "then",
+          "that",
+          "as soon"
+        ],
+        "answer": 0,
+        "explanation": "Answer: 'when'. Rule: 'Hardly' (and 'scarcely') takes 'when' (or 'before'); 'no sooner' takes 'than'. So 'Hardly had the results been announced when the markets began to react', or 'No sooner had the results been announced than ...'. 'Then' and 'that' are not correlatives of 'hardly'; 'as soon' is incomplete. Tip: hardly/scarcely ... when; no sooner ... than."
+      },
+      {
+        "id": "q36",
+        "type": "Grammar",
+        "question": "She is one of the few economists who <u>has</u> predicted the slowdown correctly.",
+        "options": [
+          "is",
+          "have",
+          "was being",
+          "having"
+        ],
+        "answer": 1,
+        "explanation": "Answer: 'have'. Rule: in 'one of the few economists who ...', the relative pronoun 'who' refers to the plural 'economists' (not to 'one'), so the verb is plural: 'who have predicted'. 'Is' and 'was being' do not fit the sense or the tense; 'having' is a participle and cannot be the main verb of the clause. Tip: 'one of the + plural noun + who/which + plural verb'."
+      },
+      {
+        "id": "q37",
+        "type": "Grammar",
+        "question": "This model is more accurate than <u>any other models</u> that the bank has used so far.",
+        "options": [
+          "all other model",
+          "any others models",
+          "any other model",
+          "any of other model"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'any other model'. Rule: a comparison of a thing with the rest of its class uses 'any other' followed by a SINGULAR noun ('any other model'), because 'any' picks out one at a time. 'Any other models' is a common error; 'all other model' mixes quantity and number; 'any others models' and 'any of other model' are ungrammatical. Tip: 'more ... than any other + singular noun'."
+      },
+      {
+        "id": "q38",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nTwo forecasting teams that use the same data can reach different estimates of growth. ____________________. For this reason, the spread among forecasts is better read as a measure of uncertainty than as a sign of error.",
+        "options": [
+          "Each team must choose its indicators, weights and assumptions, and reasonable choices can lead to different answers.",
+          "One of the teams must be careless, since competent teams that use the same data would always reach the same estimate.",
+          "The official statisticians will publish the same figure as the forecasters, since all of them use the same sources.",
+          "The differences disappear when the teams meet, because the true figure is already known to each of them in advance."
+        ],
+        "answer": 0,
+        "explanation": "Answer: each team makes choices, and reasonable choices can differ. Why: the closing sentence says the spread is 'uncertainty' not 'error', which follows only if the differences come from legitimate choices. Why the others fail: blaming carelessness is the opposite of 'not a sign of error'; the claim that official figures will match is unsupported; and a known true figure would make forecasts unnecessary. Tip: 'For this reason' draws a conclusion from the blank."
+      },
+      {
+        "id": "q39",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nSales of a product can double while its share of the market falls. ____________________. A reader who looks only at the sales will therefore miss that the product is losing ground.",
+        "options": [
+          "This happens only when the product is sold at a price that is lower than the price of every other product in the market.",
+          "This happens when the whole market grows faster than the product, so that the product's fraction of the total becomes smaller.",
+          "This cannot happen in practice, because a product whose sales have doubled must have gained share relative to the rest.",
+          "This happens because a falling share of the market always raises the sales of the product in the following year."
+        ],
+        "answer": 1,
+        "explanation": "Answer: it happens when the whole market grows faster than the product. Why: the next sentence says looking only at sales misses 'losing ground', which fits a case of faster overall growth. Why the others fail: price is irrelevant to the arithmetic; 'cannot happen' contradicts the opening sentence; and 'always raises sales' makes an unsupported causal claim. Tip: the blank must explain how the opening claim can be true."
+      },
+      {
+        "id": "q40",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nA screening tool that has been trained on past hiring decisions will learn the patterns in those decisions, including any unfairness in them. ____________________. The firm therefore needs to test the tool against how the people it hired later performed.",
+        "options": [
+          "Its agreement with past decisions proves that it is fair, since a tool that matches human choices cannot repeat their errors.",
+          "Its agreement with past decisions is of no importance, since a tool of this kind never uses data about earlier recruitment.",
+          "Its agreement with past decisions shows that recruiters will soon be unnecessary, since the tool can perform their work.",
+          "Its agreement with past decisions shows that it copies them, not that those decisions were sound."
+        ],
+        "answer": 3,
+        "explanation": "Answer: its agreement shows only that it copies past decisions, not that they were sound. Why: the next sentence says the firm must test the tool against later performance, because agreement with past choices cannot establish quality. Why the others fail: matching human choices means repeating their errors, so 'proves it is fair' is wrong; the tool DOES use past data; and replacing recruiters is a different point. Tip: 'therefore' in the following sentence signals that the blank states the problem to be tested."
+      },
+      {
+        "id": "q41",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. The first release is therefore a provisional judgement.\n2. Some of the returns arrive late and incomplete, and the gaps are filled by estimates.\n3. Official growth figures are not read from a counter; they are assembled.\n4. Those estimates are revised when the missing data come in.\n5. A forecaster should treat the first number as a starting point and not as the final answer.",
+        "answer": "32415",
+        "explanation": "Answer: 3-2-4-1-5. Step by step. Sentence 3 opens with the general claim (assembled). Sentence 2 says why (late, incomplete returns, estimates). Sentence 4 begins 'Those estimates' and continues from the estimates in 2. Sentence 1 begins 'therefore' and concludes (provisional). Sentence 5 gives the advice that follows. Tip: 'Those estimates' needs 'estimates' mentioned just before."
+      },
+      {
+        "id": "q42",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Volume and penetration therefore answer different questions.\n2. Electric vehicle sales rose sharply in October.\n3. Yet the share of electric vehicles in all sales fell in the same month.\n4. That happened because the whole market grew faster than the electric segment.\n5. A manufacturer planning a factory needs volume, while a policy-maker concerned with emissions needs share.",
+        "answer": "23415",
+        "explanation": "Answer: 2-3-4-1-5. Step by step. Sentence 2 states the first fact (sales rose). Sentence 3 begins 'Yet' and gives the contrasting fact (share fell). Sentence 4 begins 'That happened because' and explains the contrast. Sentence 1 begins 'therefore' and draws the conclusion (different questions). Sentence 5 applies the conclusion to two users. Tip: 'Yet' follows a fact and introduces a contrast; 'therefore' follows the explanation."
+      },
+      {
+        "id": "q43",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. The relationships it measured, however, depended on what people expected.\n2. The old method treated relationships between aggregates as stable levers.\n3. When policy changed, expectations changed, and the relationships shifted.\n4. A model built on the reasons for behaviour can anticipate such shifts.",
+        "answer": "2134",
+        "explanation": "Answer: 2-1-3-4. Step by step. Sentence 2 introduces the old method and its assumption. Sentence 1 begins 'however' and says the relationships depended on expectations ('it' = the method). Sentence 3 describes what happened when policy changed. Sentence 4 offers the improved alternative ('such shifts' refers to the shifts in 3). Tip: 'such shifts' needs the shifts to have been described just before."
+      },
+      {
+        "id": "q44",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. The firm never learns whether they would have performed well.\n2. A screening tool may rank graduates of smaller colleges low because they were rarely hired.\n3. Those graduates are therefore rarely interviewed.\n4. The tool's ranking then confirms itself, since the missing evidence is never collected.\n5. The remedy is to let a few candidates through and watch how they perform.",
+        "answer": "23145",
+        "explanation": "Answer: 2-3-1-4-5. Step by step. Sentence 2 introduces the ranking and its cause. Sentence 3 begins 'therefore' and gives the consequence (rarely interviewed). Sentence 1 follows: because they are not interviewed, the firm never learns how they would perform ('they' = those graduates). Sentence 4 says the pattern confirms itself, since evidence is missing. Sentence 5 offers the remedy. Tip: the remedy usually comes last."
+      },
+      {
+        "id": "q45",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. A single indicator, such as electricity use, may move for reasons unrelated to output.\n2. Nowcasting therefore combines many indicators that are available quickly.\n3. Official data on output arrive weeks or months after a quarter ends.\n4. A model of this kind can find the pattern that the indicators share.",
+        "answer": "3124",
+        "explanation": "Answer: 3-1-2-4. Step by step. Sentence 3 opens with the problem (official data arrive late). Sentence 1 introduces the quick substitute and its weakness (a single indicator is unreliable). Sentence 2 begins 'therefore' and presents the solution (combine many indicators). Sentence 4 begins 'A model of this kind' and says what the combined model can do. Tip: 'of this kind' follows the mention of the model type, here 'Nowcasting ... combines'."
+      }
+    ]
   }
 ]
