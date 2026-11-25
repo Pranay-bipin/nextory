@@ -3544,5 +3544,596 @@
         "explanation": "Answer: 2-3-1-4. Step by step. Sentence 2 states what a good fit shows; 3 begins 'It does not show', continuing from 2; 1 turns to a forecast resting 'on that reason', which must follow the mention of 'the reason' in 3; 4 begins 'The distinction' (between a fit and a reason) and closes the thought by applying it to extension of trends. Tip: 'that reason' and 'The distinction' both point backward; the sentence with 'It does not show' must come right after the sentence it denies."
       }
     ]
+  },
+  {
+    "id": "sec-2026-11-25",
+    "date": "2026-11-25",
+    "title": "IPMAT Indore VA Sectional – 25th Nov 2026 (Advanced Analytical – High Difficulty)",
+    "durationMinutes": 45,
+    "totalQuestions": 45,
+    "passages": {
+      "RC1": "When the Reserve Bank's Monetary Policy Committee raised the repo rate from 5.25 to 5.5 per cent this autumn, the move was a mere quarter of a percentage point. Yet it was reported as a turning point, and the size of the reaction needs explaining. A quarter point on a loan of ten lakh rupees changes the monthly instalment by a sum that most households would barely notice. The importance of a rate decision, therefore, cannot lie in its arithmetic alone. It lies in the route by which the decision travels through the economy, and in what people infer from it.\n\nConsider the route first. The repo rate is the price at which banks borrow from the central bank, and it moves overnight lending rates almost at once. But the rates that matter to households and firms are those on loans and deposits, and these respond unevenly. A loan that is explicitly linked to the repo rate reprices quickly, sometimes within a quarter. A fixed-rate loan does not reprice at all until it is renewed, and a deposit rate is changed only when a bank decides that its funding costs justify the trouble. The policy therefore reaches different borrowers at different times, and some of them only after the central bank has already changed course.\n\nThe second channel is less visible and, in the view of many economists, more powerful. A central bank that is believed can influence prices partly by what it says. If firms and households expect inflation to be contained, they will ask for smaller wage increases and set smaller price increases, and their expectation helps to bring about the very outcome that was expected. A rate rise can serve as evidence of resolve. It can also be read as a sign of alarm, if the market concludes that the bank knows something worrying that it has not stated. The same decision may thus calm one audience and unsettle another, and the central bank has limited control over which reading prevails.\n\nThe costs of a rise are also distributed unequally. Savers who hold deposits gain when deposit rates follow, though usually by less than borrowers lose, because banks are quicker to raise what they charge than what they pay. Sectors that live on credit, such as housing and small business, feel the effect first, while firms that finance themselves from profits barely notice it. A government that borrows heavily pays more on every new issue. None of these effects is an argument against a rise, but together they show that a single number in a policy statement conceals a long list of winners and losers.\n\nBecause the effects arrive late, the central bank cannot steer by the inflation figure published today. That figure describes decisions taken some months ago, and the bank must act on its forecast of prices a year or more ahead. The position resembles that of a ship's captain who must turn the wheel long before the vessel begins to change course, and who is blamed by passengers for the swell that was already under way. A decision that looks late or excessive on the day it is announced may be reasonable in the light of what the forecast showed.\n\nFinally, the success of a rate rise is peculiarly hard to judge. If inflation falls in the following months, the bank may claim credit, but prices might have fallen anyway, as a poor harvest was followed by a good one. If inflation remains high, critics may say that the policy failed, but it may have prevented a worse outcome that no one can see. The result that the policy aims at is a thing that does not happen, and a thing that does not happen leaves no record. The fair test is whether the outcome was better than what the bank itself had forecast without the rise, and that comparison depends on the quality of the forecast as much as on the policy.",
+      "RC2": "As negotiators gathered in Antalya for the climate conference, one statistic recurred in the opening documents: 163 countries had communicated new national climate targets by 9 November, and by 18 November the number had risen to 167. The figures are offered as progress, and in one sense they are. A target that has been submitted is a public commitment that others can read. But a count of submissions measures participation, and participation is not the same as ambition. To judge the number, one must ask what it counts, and what it leaves out.\n\nA count treats every submission alike. A country that promises deep cuts in its emissions and a country that promises to continue much as before each add one to the total. It resembles a school that reports how many pupils sat an examination, and not what they scored. The figure is not worthless, since a school in which nobody sits the paper would be in worse trouble, but it cannot distinguish between a class that has passed and a class that has merely turned up. The honest summary of a pledge is its size, its timing and its conditions, and these do not fit into a single tally.\n\nA second gap lies between what is promised and what is delivered. A pledge costs little on the day it is made, because the expense falls in later years and often on later governments. This is why pledges are easier to multiply than actions. The United Nations Environment Programme's report on adaptation this year was titled with a question and a one-word reply, Ready? Not., which suggests how wide the gap between intention and preparedness is judged to be. Implementation depends on money, and the finance negotiations in Antalya occupied delegates for entire days, as such talks have done at earlier conferences. A target that depends on funds that have not been agreed is a hope with a number attached.\n\nA third difficulty is that countries do not start from the same place. A wealthy country with a modern grid and abundant capital may adopt a target that looks bold in the tally and costs it little, while a poorer country with fewer resources may adopt a smaller number that demands a far greater effort relative to its means. Equal entries in the count therefore conceal unequal burdens. This is why negotiators argue about fairness as much as about quantity, and why a figure that satisfies one group as an achievement may strike another as an evasion of responsibility.\n\nWhy, then, keep counting? Because a universal system of reporting performs a quiet function. When every country must state its intentions in a common format, each can see what the others have offered, and a government that offers less than its neighbours must explain why. Comparison is a form of pressure that costs nothing to apply. The system also creates a baseline against which later efforts can be measured, so that a country that raises its target is visibly doing something, and not merely repeating an old promise. Such transparency does not guarantee action, but action is harder to avoid when everyone can watch.\n\nThe sensible way to read the figure of 167 is therefore as a necessary but insufficient measure. The questions that follow it matter more: how far the sum of the promises falls short of what the science demands, and how far the promises fall short of what is actually done. A conference that is judged by the first number alone will be tempted to produce more submissions, whereas one judged by the two gaps will be pushed to close them.",
+      "RC3": "A phase of India's data protection regime begins this month, when the framework for consent managers takes effect; the remaining obligations of the law are due to apply by May 2027. The law rests on a familiar idea: that a person should decide who may use information about him. The idea is attractive, since it treats the individual as the owner of his own data. In practice, however, most people have learnt to tick a box without reading what lies behind it, and a consent that is given without understanding is a poor safeguard.\n\nThe weakness is built into the arrangement. A person faces hundreds of services, each with a lengthy notice written by lawyers for the protection of the firm. The effort of reading all of them exceeds any benefit that one person can expect from reading any one, and so almost nobody does. The firm, meanwhile, knows exactly what it intends to do with the data, so that the two parties come to the bargain with unequal information. Economists call the result consent fatigue. The principle that the individual decides is sound, but the machinery of notice and tick-box ensures that the individual rarely does.\n\nThe consent manager is an attempt to repair the machinery. It is an intermediary, registered with the regulator, through which a person can give, review and withdraw permissions in one place, much as a customer can see all the standing payments on a single bank statement. The gain is plain: a person can discover who holds what and cancel an old permission without searching through dozens of sites. The risks are equally plain. An intermediary that stands between people and firms becomes a point of concentration, and if it is paid by the firms that want the data, its loyalty to the individual may be quietly weakened. The design therefore depends on rules that keep the intermediary's incentives aligned with those it serves.\n\nAnother weakness lies in the way consent is obtained. Interfaces can be designed so that agreeing takes a single tap while declining requires a search through several screens, a practice that has come to be known as a dark pattern. A permission obtained in this way records the designer's skill and not the user's wish. A sound regime would insist that withdrawing consent be as easy as giving it, and would treat the design of the choice as part of the choice itself. Without such a rule, even a well-run intermediary can only manage permissions that were obtained unfairly in the first place.\n\nA different safeguard does not depend on consent at all. The principle of purpose limitation requires a firm to collect only what is necessary for the purpose it has stated, and to use it for nothing else. This shifts the burden from the person, who cannot be expected to inspect every practice, to the firm, which can. A rule that restricts what may be collected works even when nobody reads the notice. For this reason several scholars regard purpose limitation as the sturdier of the two protections, and consent as the one that depends on conditions that may not exist.\n\nThe conditions that matter most can be stated simply. Consent means something only if the person can refuse and still obtain the service. Where refusing the data request means being shut out of a product on which one depends, the choice is a formality, however elegantly it is recorded. A law that wishes to protect should therefore examine less the number of consents obtained, and more the real cost to the individual of saying no.",
+      "CA1": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nNeha Bhatt (Host, Workplace Desk): A year ago, four new labour codes came into effect and replaced twenty-nine older laws. Has life become simpler for employers?\n\nDr. Suresh Menon (labour economist): On paper, yes. Having four codes instead of twenty-nine means fewer overlapping definitions, fewer registers and fewer inspections that a firm must prepare for. But I would separate the statute from the experience. A statute sets out principles; the rules framed under it, and the way states apply them, decide what a firm actually does on a Monday morning.\n\nNeha Bhatt: So the gains depend on the rules?\n\nDr. Menon: To a large extent. Labour is a concurrent subject, which means that both the Centre and the states may make rules, and states may differ. A firm that operates in five states may find that a single code has become five slightly different sets of procedure. Consolidation reduces the number of laws, but it does not by itself reduce the number of authorities.\n\nNeha Bhatt: And for workers?\n\nDr. Menon: The promise is wider coverage, especially for people in informal and platform work, who were outside most of the older laws. But coverage on paper is not protection in practice. It becomes real only when registration is easy, benefits can be carried from one employer to another, and someone checks that the contributions are being made. If those conditions are missing, the worker has a right and no way to use it.\n\nNeha Bhatt: So how should we judge the reform?\n\nDr. Menon: By outcomes a few years from now, not by the date of notification. I would look at how many people are registered, how long disputes take to settle, and whether small firms report a lighter burden. Those figures will tell us more than the announcement did."
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "type": "RC",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "passageId": "RC1",
+        "options": [
+          "A quarter-point rise in the repo rate is too small to affect households, and the reaction to it was therefore much exaggerated by the press",
+          "Central banks should avoid raising rates because the costs fall unequally and the benefits can never be shown to have been produced by the policy",
+          "The repo rate matters chiefly because it moves overnight lending, and all other effects of a rate decision are small by comparison with this one",
+          "A small rate rise matters because of how it travels through the economy and what people infer, and its success is hard to judge"
+        ],
+        "answer": 3,
+        "explanation": "Answer: a small rise matters through its route and its signal, and its success is hard to judge. Why: paragraph 1 says importance 'lies in the route by which the decision travels ... and in what people infer from it'; the last paragraph says success is 'peculiarly hard to judge'. Why the others fail: the author says the arithmetic is small but the reaction needs explaining, not that it was exaggerated; paragraph 4 says unequal costs are 'not an argument against a rise'; and the passage stresses the uneven later effects and the expectations channel, not the overnight rate alone. Tip: a main-idea answer must hold the opening problem and the closing difficulty together."
+      },
+      {
+        "id": "q2",
+        "type": "RC",
+        "question": "According to the passage, a fixed-rate loan differs from a loan linked to the repo rate in that it",
+        "passageId": "RC1",
+        "options": [
+          "responds to a change in the policy rate more slowly than a deposit, because banks are quicker to raise what they charge",
+          "does not respond to a policy rate change until it is renewed, whereas the linked loan can reprice within a quarter",
+          "falls in cost when the policy rate rises, because the bank wishes to attract borrowers whose loans are not linked to it",
+          "is repriced by the bank only after it has examined whether its funding costs justify the trouble of making the change"
+        ],
+        "answer": 1,
+        "explanation": "Answer: a fixed-rate loan does not reprice until renewal, a linked loan can within a quarter. Why: paragraph 2 says a linked loan 'reprices quickly, sometimes within a quarter', while a fixed-rate loan 'does not reprice at all until it is renewed'. Why the others fail: the 'funding costs' phrase in the passage is about DEPOSIT rates, not fixed loans; the passage never says fixed loans become cheaper; and the comparison with deposits is not the one drawn. Tip: check which instrument a quoted phrase actually belongs to."
+      },
+      {
+        "id": "q3",
+        "type": "RC",
+        "question": "The passage suggests that a rate rise may unsettle an audience instead of calming it when",
+        "passageId": "RC1",
+        "options": [
+          "the market suspects the bank knows something worrying that it has not stated, and reads the rise as a sign of alarm",
+          "the bank has stated clearly that it expects inflation to be contained and has raised the rate by a small margin",
+          "firms and households have already agreed to ask for smaller wage increases and smaller increases in their prices",
+          "savers discover that deposit rates have risen by less than the rates that banks charge to the borrowers they lend to"
+        ],
+        "answer": 0,
+        "explanation": "Answer: when the market reads the rise as alarm because the bank may know something it has not said. Why: paragraph 3 says a rise 'can also be read as a sign of alarm, if the market concludes that the bank knows something worrying that it has not stated'. Why the others fail: a clear statement of expected containment is the calming case; wage and price restraint is the intended outcome, not unsettlement; and the savers' result belongs to the distribution paragraph, not the signalling one. Tip: match the condition in the question to the sentence beginning 'if'."
+      },
+      {
+        "id": "q4",
+        "type": "RC",
+        "question": "The ship's captain analogy is used to illustrate that",
+        "passageId": "RC1",
+        "options": [
+          "central banks cannot control inflation at all, because the forces that move prices are as large as the ocean itself",
+          "the public should blame the central bank for the swell, since it is the bank that has set the course of the economy",
+          "a central bank must act on a forecast because its actions work slowly, and so may look late or excessive",
+          "a rate rise should be postponed until the published inflation figure shows clearly what the bank should do next"
+        ],
+        "answer": 2,
+        "explanation": "Answer: the bank must act on a forecast because effects are delayed, so a decision may look late or excessive. Why: the paragraph says the published figure 'describes decisions taken some months ago' and that a decision that 'looks late or excessive on the day it is announced may be reasonable in the light of what the forecast showed'. Why the others fail: the author does not say control is impossible; the captain is BLAMED unfairly, which the author does not endorse; and waiting for the published figure is the very error the paragraph warns against. Tip: analogies illustrate one feature; find the feature the paragraph states."
+      },
+      {
+        "id": "q5",
+        "type": "RC",
+        "question": "Which of the following is NOT supported by the passage?",
+        "passageId": "RC1",
+        "options": [
+          "Firms that finance themselves from profits are likely to feel the effect of a rate rise less than firms that depend on credit",
+          "Households that hold deposits always gain more from a rate rise than households that hold loans lose from it",
+          "A government that borrows heavily pays more on each new issue of its bonds when the policy rate rises",
+          "The effect of a rate rise on prices may come partly through the expectations that people form about future inflation"
+        ],
+        "answer": 1,
+        "explanation": "Answer: the claim that depositors always gain more than borrowers lose. Why: paragraph 4 says savers gain 'usually by less than borrowers lose', because banks raise what they charge faster than what they pay. Why the others ARE supported: paragraph 4 (self-financing firms barely notice; heavy borrowers pay more) and paragraph 3 (expectations). Tip: in NOT-questions, words such as 'always' are a red flag and the text usually says the opposite."
+      },
+      {
+        "id": "q6",
+        "type": "RC",
+        "question": "The author says the success of a rate rise is 'peculiarly hard to judge' because",
+        "passageId": "RC1",
+        "options": [
+          "inflation falls in the months after every rate rise, so critics and the bank can never disagree about the result",
+          "the bank itself publishes figures only for the months in which its own policy was clearly successful in lowering prices",
+          "the monthly instalment on a typical loan changes by so small a sum that households do not notice any difference in cost",
+          "the result sought is a non-event that leaves no record, and the fair comparison depends on the quality of a forecast"
+        ],
+        "answer": 3,
+        "explanation": "Answer: the aim is a non-event that leaves no record, and the fair test needs a forecast. Why: the last paragraph says 'The result that the policy aims at is a thing that does not happen, and a thing that does not happen leaves no record' and that the test is whether the outcome beat 'what the bank itself had forecast without the rise'. Why the others fail: the paragraph says inflation may stay high or fall for other reasons, so disagreement is possible; no selective publication is mentioned; and the instalment point belongs to paragraph 1 and concerns the size of the move, not the judging of success. Tip: use the author's own 'because' clause as the key."
+      },
+      {
+        "id": "q7",
+        "type": "RC",
+        "question": "The primary purpose of the passage is to",
+        "passageId": "RC2",
+        "options": [
+          "argue that the climate conference in Antalya failed because it relied on figures that were exaggerated by the host country",
+          "explain why wealthy countries should adopt larger climate targets than poorer countries that have fewer resources to spare",
+          "show that counting submitted targets measures participation and not ambition or delivery, while still having a real use",
+          "propose that international negotiators should stop collecting national targets and judge countries only by their actual emissions"
+        ],
+        "answer": 2,
+        "explanation": "Answer: to show that the count measures participation, not ambition or delivery, while explaining why it is still useful. Why: paragraph 1 says 'a count of submissions measures participation, and participation is not the same as ambition'; paragraph 4 begins 'Why, then, keep counting?' and defends the count's function; paragraph 5 calls it 'necessary but insufficient'. Why the others fail: the passage does not call the conference a failure or blame a host; fairness between rich and poor countries is one supporting point, not the aim; and the author does NOT propose abandoning the count. Tip: purpose questions need the whole arc, here a criticism followed by a defence and a balanced close."
+      },
+      {
+        "id": "q8",
+        "type": "RC",
+        "question": "The comparison with a school that reports how many pupils sat an examination is meant to show that",
+        "passageId": "RC2",
+        "options": [
+          "a tally of entries cannot tell a class that passed from one that merely turned up, though it is not worthless",
+          "the number of pupils who sit an examination is always a better guide to a school's quality than the marks they obtain",
+          "countries that submit their targets late should be treated in the same manner as pupils who arrive late to an examination",
+          "a school in which nobody sits the paper deserves no further assessment because it has already failed in its main purpose"
+        ],
+        "answer": 0,
+        "explanation": "Answer: a tally cannot tell a class that passed from one that turned up, but it is not worthless. Why: paragraph 2 says the figure 'is not worthless, since a school in which nobody sits the paper would be in worse trouble, but it cannot distinguish between a class that has passed and a class that has merely turned up'. Why the others fail: the analogy runs the other way (marks matter more than entries); lateness is not discussed; and the author says the zero-entry school is 'in worse trouble', not that it needs no assessment. Tip: analogies in this passage carry a concession ('not worthless') that wrong options drop."
+      },
+      {
+        "id": "q9",
+        "type": "RC",
+        "question": "According to the passage, pledges are 'easier to multiply than actions' because",
+        "passageId": "RC2",
+        "options": [
+          "the finance negotiations at the conference always end with an agreement that makes action possible for every country concerned",
+          "the United Nations Environment Programme has instructed countries to publish targets before they act on them in any manner",
+          "pledges can be made only by governments that have already secured the money needed to carry them out",
+          "a pledge costs little when made, as the expense falls in later years and on later governments"
+        ],
+        "answer": 3,
+        "explanation": "Answer: a pledge costs little now because the expense comes later, often for other governments. Why: paragraph 3 says 'A pledge costs little on the day it is made, because the expense falls in later years and often on later governments. This is why pledges are easier to multiply than actions.' Why the others fail: the passage says finance talks took days and a target may rest on 'funds that have not been agreed'; no instruction by the Environment Programme is mentioned; and the last option reverses the point, since a pledge can be made without funds. Tip: 'This is why' points straight back to the cause."
+      },
+      {
+        "id": "q10",
+        "type": "RC",
+        "question": "Which of the following can be inferred from the paragraph on the differing starting points of countries?",
+        "passageId": "RC2",
+        "options": [
+          "Poorer countries should be excused from adopting any target until richer countries have met theirs in full",
+          "Two countries with identical targets may make very different efforts, so the tally can hide unequal burdens",
+          "A wealthy country's target is always bolder than that of a poorer country because it has more resources available",
+          "Negotiators argue about fairness only because they have not understood that the count is a measure of quantity"
+        ],
+        "answer": 1,
+        "explanation": "Answer: equal targets can hide unequal effort. Why: the paragraph says 'Equal entries in the count therefore conceal unequal burdens' and that a wealthy country may adopt a target that 'looks bold in the tally and costs it little'. Why the others fail: the passage does not recommend excusing poorer countries; it says a rich country's target may LOOK bold but cost little, which refutes 'always bolder'; and negotiators argue about fairness for real reasons, not out of misunderstanding. Tip: inference answers restate the paragraph's logic without adding a policy."
+      },
+      {
+        "id": "q11",
+        "type": "RC",
+        "question": "The author's description of comparison as 'a form of pressure that costs nothing to apply' suggests that",
+        "passageId": "RC2",
+        "options": [
+          "a common format lets governments see what others offer, so one offering less must explain itself at no cost",
+          "pressure of this kind is useless, because a form of pressure that costs nothing cannot change what governments do",
+          "the common format should be abolished, because it forces governments to reveal information that they would prefer to withhold",
+          "countries that offer less than their neighbours will be punished by financial penalties imposed by the conference itself"
+        ],
+        "answer": 0,
+        "explanation": "Answer: a common format lets governments see what others offer, so one that offers less must explain itself, at no cost. Why: paragraph 4 says 'a government that offers less than its neighbours must explain why. Comparison is a form of pressure that costs nothing to apply.' It adds that transparency 'does not guarantee action, but action is harder to avoid when everyone can watch'. Why the others fail: the author does not call it useless; nothing says the format should be abolished; and no penalties are mentioned (the pressure is explicitly cost-free). Tip: 'costs nothing' praises the method as cheap, not as weak."
+      },
+      {
+        "id": "q12",
+        "type": "RC",
+        "question": "Which of the following, if true, would most strengthen the author's claim that a count of national targets is an incomplete measure of progress?",
+        "passageId": "RC2",
+        "options": [
+          "Every country that attended the conference in Antalya had submitted its new targets before the conference had begun",
+          "The number of countries submitting targets rose between the opening of the conference and the middle of its second week",
+          "Several countries that submitted targets on time later emitted more than promised, while some that submitted late cut sharply",
+          "Most countries that had submitted targets described them in public statements as ambitious and achievable at modest cost"
+        ],
+        "answer": 2,
+        "explanation": "Answer: if timely submitters later emitted more than promised while late submitters cut sharply, the count (who submitted) and the outcome (what happened) separate. Why: the passage argues that participation is not ambition and pledges are not actions; this evidence directly shows both gaps. Why the others do not strengthen: universal submission and a rising count are exactly what the count shows without testing outcomes; and public statements of ambition are self-description, not evidence of delivery. Tip: to strengthen 'X measures Y poorly', find evidence in which X and Y diverge."
+      },
+      {
+        "id": "q13",
+        "type": "RC",
+        "question": "Which of the following best states the main point of the passage?",
+        "passageId": "RC3",
+        "options": [
+          "Consent managers should replace the regulator, since an intermediary can protect individuals better than any public authority",
+          "Consent is weak unless refusal is genuinely possible, and limits on what firms may collect protect people more reliably",
+          "The data protection law is flawed because it permits firms to collect information without informing the individuals concerned",
+          "Individuals should read every notice carefully, since the entire protection offered by the law depends on informed consent"
+        ],
+        "answer": 1,
+        "explanation": "Answer: consent is weak unless refusal is possible, and limits on collection protect more reliably. Why: the opening says a consent given without understanding 'is a poor safeguard'; paragraph 5 says 'Consent means something only if the person can refuse and still obtain the service'; paragraph 5 on purpose limitation calls it 'the sturdier of the two protections'. Why the others fail: the manager is registered with the regulator and may itself pose risks; the law is not said to allow collection without notice; and the passage says almost nobody can reasonably read every notice. Tip: look for the claim that links the earlier paragraphs, here 'consent depends on conditions'."
+      },
+      {
+        "id": "q14",
+        "type": "RC",
+        "question": "According to the passage, 'consent fatigue' arises because",
+        "passageId": "RC3",
+        "options": [
+          "the effort of reading every notice exceeds the benefit of reading any one, so almost nobody reads them",
+          "firms are legally forbidden from using the data they collect for any purpose other than the stated one",
+          "the intermediary registered with the regulator is unable to cancel permissions that were given long ago",
+          "individuals are unwilling to share any information about themselves with firms that offer them a service"
+        ],
+        "answer": 0,
+        "explanation": "Answer: reading every notice costs more than any one is worth, so nobody reads. Why: paragraph 2 says 'The effort of reading all of them exceeds any benefit that one person can expect from reading any one, and so almost nobody does' and then 'Economists call the result consent fatigue'. Why the others fail: purpose limitation is a separate safeguard in a later paragraph; the consent manager is described as able to cancel old permissions; and the passage says people tick the box, so they are not unwilling to share. Tip: the sentence containing the term, or just before it, gives the definition."
+      },
+      {
+        "id": "q15",
+        "type": "RC",
+        "question": "The author raises the risk that an intermediary may be 'paid by the firms that want the data' to point out that",
+        "passageId": "RC3",
+        "options": [
+          "firms are legally forbidden from paying any fee to an intermediary that is registered with the regulator",
+          "an intermediary will always favour the firms because it cannot operate without payment from some source",
+          "individuals cannot use an intermediary unless they agree to pay a fee for each permission they manage",
+          "its loyalty to the individual may weaken, so the design needs rules that align its incentives with his"
+        ],
+        "answer": 3,
+        "explanation": "Answer: its loyalty may be weakened, so rules must align its incentives. Why: paragraph 3 says that if the intermediary is paid by firms 'its loyalty to the individual may be quietly weakened' and that 'The design therefore depends on rules that keep the intermediary's incentives aligned'. Why the others fail: no legal ban on fees is mentioned; 'always favour' overstates a risk the author calls only possible; and fees charged to individuals are not discussed. Tip: 'may' in the text should not become 'will always' in the answer."
+      },
+      {
+        "id": "q16",
+        "type": "RC",
+        "question": "Which of the following is a feature of a 'dark pattern' as described in the passage?",
+        "passageId": "RC3",
+        "options": [
+          "It requires the person to read and sign a long notice before any information about them may be used by the firm",
+          "It allows a person to withdraw consent at any time by a single tap in the application that obtained it from them",
+          "It makes agreeing quick and easy by a single tap, while making refusal depend on a long search through several different screens",
+          "It prevents a firm from collecting any information other than what is needed for the purpose that it has stated"
+        ],
+        "answer": 2,
+        "explanation": "Answer: it makes agreeing easy and refusing laborious. Why: the added paragraph says 'agreeing takes a single tap while declining requires a search through several screens' and calls this 'a dark pattern'. Why the others fail: a long signed notice is the opposite of a one-tap design; easy withdrawal is the safeguard the author recommends; and limiting collection is purpose limitation. Tip: match the definition's key contrast: easy to agree, hard to decline."
+      },
+      {
+        "id": "q17",
+        "type": "RC",
+        "question": "The passage implies that purpose limitation is a 'sturdier' protection than consent because it",
+        "passageId": "RC3",
+        "options": [
+          "asks each individual to review the practices of every firm and then to decide whether to grant a permission",
+          "depends on conditions such as the ease of refusal, which are present in most services that people use",
+          "replaces the regulator with a system in which firms are checked only by the intermediaries that serve individuals",
+          "places the burden on the firm, which can inspect its practices, and works even if no one reads the notice"
+        ],
+        "answer": 3,
+        "explanation": "Answer: the burden is on the firm, and it works even if nobody reads the notice. Why: the paragraph says purpose limitation 'shifts the burden from the person, who cannot be expected to inspect every practice, to the firm, which can' and 'works even when nobody reads the notice'. Why the others fail: individual review is the weakness of consent; the 'conditions' phrase describes consent, which 'depends on conditions that may not exist'; and nothing says intermediaries replace the regulator. Tip: sturdier means it relies on fewer fragile assumptions."
+      },
+      {
+        "id": "q18",
+        "type": "RC",
+        "question": "Which of the following would the author most likely regard as the best test of whether a data protection law truly protects people?",
+        "passageId": "RC3",
+        "options": [
+          "The cost to an individual of refusing a data request, in terms of the service that he would lose",
+          "How many consents have been recorded by the intermediaries that are registered with the regulator in the year",
+          "How long the notices that firms present to users are, and how carefully they have been drafted by lawyers",
+          "How many firms have applied to the regulator for the registration needed to operate as a consent manager"
+        ],
+        "answer": 0,
+        "explanation": "Answer: the cost to the individual of saying no. Why: the final sentence says a law should examine 'less the number of consents obtained, and more the real cost to the individual of saying no'. Why the others fail: the number of recorded consents is exactly what the author says to examine LESS; notice length and quality of drafting do not address real choice; and the number of applicants measures activity, not protection. Tip: the closing sentence often holds the author's own test."
+      },
+      {
+        "id": "q19",
+        "type": "RC",
+        "question": "Dr. Menon's distinction between 'the statute' and 'the experience' implies that",
+        "passageId": "CA1",
+        "options": [
+          "the statute is irrelevant to firms, since the experience of compliance is decided entirely by the officials who inspect them",
+          "the new codes have made no difference to firms, because the older laws were enforced in the same manner as the new codes",
+          "rules framed under a law and their state application decide what a firm does, so the text alone misleads",
+          "states should be prevented from framing their own rules so that the statute may govern the firm's daily conduct"
+        ],
+        "answer": 2,
+        "explanation": "Answer: rules and state application decide what a firm does, so the text alone is a poor guide. Why: he says 'A statute sets out principles; the rules framed under it, and the way states apply them, decide what a firm actually does on a Monday morning.' Why the others fail: he does not call the statute irrelevant; he grants that on paper the position is simpler; and he does not recommend limiting states, only notes that they may differ. Tip: contrast words ('separate X from Y') mark where the speaker places the weight."
+      },
+      {
+        "id": "q20",
+        "type": "RC",
+        "question": "Dr. Menon says that 'consolidation reduces the number of laws, but it does not by itself reduce the number of authorities'. This is because",
+        "passageId": "CA1",
+        "options": [
+          "each of the four codes is administered by a separate ministry, so the firm must deal with four offices instead of twenty-nine",
+          "labour is a concurrent subject, so Centre and states both make rules, and a multi-state firm may meet several procedures",
+          "the older laws were enforced by a single national authority, which the new codes have replaced with many state authorities",
+          "firms operating in several states are exempt from the codes and must follow the procedures of their home state alone"
+        ],
+        "answer": 1,
+        "explanation": "Answer: labour is a concurrent subject, so both Centre and states make rules, and multi-state firms may face several procedures. Why: he says 'Labour is a concurrent subject, which means that both the Centre and the states may make rules ... A firm that operates in five states may find that a single code has become five slightly different sets of procedure.' Why the others fail: separate ministries are not mentioned; a single national authority for the old laws is not claimed; and no exemption for multi-state firms is stated. Tip: the 'because' in the question is answered in the line immediately before the statement."
+      },
+      {
+        "id": "q21",
+        "type": "RC",
+        "question": "Which of the following best describes Dr. Menon's view of how the reform should be judged?",
+        "passageId": "CA1",
+        "options": [
+          "By outcomes some years later, such as registrations, dispute times and small-firm burden, not by the date of notification",
+          "By the number of old laws that have been repealed, since a smaller body of law is itself evidence of success",
+          "By the satisfaction of large firms, which are best placed to describe how the codes affect their daily operations",
+          "By the speed with which all states have notified their rules, since delay is the only real obstacle to the reform"
+        ],
+        "answer": 0,
+        "explanation": "Answer: by outcomes a few years later, not by the date of notification. Why: his closing line says 'By outcomes a few years from now, not by the date of notification' and lists registrations, dispute duration and small-firm burden. Why the others fail: he says consolidation reduces laws but not authorities, so the count of repealed laws is not the test; large firms are not singled out, and he mentions small firms; and rule notification is a means, while he names several obstacles including enforcement and portability. Tip: when a speaker says 'not by X', X is never the answer."
+      },
+      {
+        "id": "q22",
+        "type": "Vocabulary",
+        "question": "The company's early success proved ________, for the fashion that had made its product popular faded within a season and left it with unsold stock.",
+        "options": [
+          "enduring",
+          "venerable",
+          "ephemeral",
+          "robust"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'ephemeral' means lasting a very short time. The clue is 'faded within a season'. The others: 'enduring' (lasting) and 'robust' (strong, durable) are opposites of what the sentence describes; 'venerable' (worthy of respect because of age) does not suit something that vanished quickly. Tip: the clause after 'for' explains the blank."
+      },
+      {
+        "id": "q23",
+        "type": "Vocabulary",
+        "question": "The minister's reply was so ________ that reporters, after reading it twice, could still not say whether the proposal had been accepted or abandoned.",
+        "options": [
+          "incisive",
+          "nebulous",
+          "emphatic",
+          "forthright"
+        ],
+        "answer": 1,
+        "explanation": "Answer: 'nebulous' means vague and unclear in form. The clue is that the reporters 'could still not say' what the reply meant. The others: 'incisive' (sharp and clear), 'emphatic' (forceful and unmistakable) and 'forthright' (direct and frank) would all have made the meaning plain. Tip: when the outcome is confusion, the blank is a word for vagueness."
+      },
+      {
+        "id": "q24",
+        "type": "Vocabulary",
+        "question": "Having been repeatedly praised by those who stood to benefit from his favour, the director grew ________, and mistook flattery for honest assessment.",
+        "options": [
+          "vigilant",
+          "diffident",
+          "scrupulous",
+          "complacent"
+        ],
+        "answer": 3,
+        "explanation": "Answer: 'complacent' means smugly satisfied and unaware of any need for improvement. The clue is that he 'mistook flattery for honest assessment'. The others: 'vigilant' (watchful), 'diffident' (shy, lacking confidence) and 'scrupulous' (careful about what is right) do not follow from being praised or explain such a mistake. Tip: ask what attitude praise breeds when it is undeserved."
+      },
+      {
+        "id": "q25",
+        "type": "Vocabulary",
+        "question": "The report's findings were deliberately ________: it described the policy as 'broadly successful' while quietly ________ the figures that showed it had missed its main targets, so that readers were ________ without a single false statement.",
+        "options": [
+          "guarded; highlighting; misled",
+          "guarded; omitting; misled",
+          "candid; omitting; misled",
+          "guarded; omitting; informed"
+        ],
+        "answer": 1,
+        "explanation": "Answer: guarded; omitting; misled. Step by step. A report that says 'broadly successful' and hides unfavourable figures is 'guarded' (cautious in what it reveals); it 'omits' the figures that show missed targets; and readers are 'misled' without any false statement. 'Highlighting' the figures would contradict 'quietly'; 'candid' (frank) contradicts the hiding; 'informed' contradicts the point that readers were deceived by omission. Tip: 'without a single false statement' tells you the deception is by omission."
+      },
+      {
+        "id": "q26",
+        "type": "Vocabulary",
+        "question": "A leader who is ________ to criticism will seldom learn from error; the wiser course is to ________ dissent, since a colleague who disagrees may ________ a flaw that the leader has missed.",
+        "options": [
+          "impervious; welcome; expose",
+          "receptive; welcome; expose",
+          "impervious; suppress; expose",
+          "impervious; welcome; conceal"
+        ],
+        "answer": 0,
+        "explanation": "Answer: impervious; welcome; expose. Step by step. 'Seldom learn from error' needs someone closed to criticism: 'impervious' (not affected by it). 'The wiser course' is the opposite, to 'welcome' dissent, because a dissenting colleague may 'expose' (reveal) a flaw. 'Receptive' would make the first clause illogical; 'suppress' is the unwise course, not the wiser one; 'conceal' reverses the benefit of dissent. Tip: 'wiser course' signals an advice that opposes the first clause."
+      },
+      {
+        "id": "q27",
+        "type": "Vocabulary",
+        "question": "The treaty was a ________ achievement: it ended a war that had lasted a generation, yet its terms were so ________ that each side soon found grounds to ________ it.",
+        "options": [
+          "momentous; precise; contest",
+          "trivial; ambiguous; contest",
+          "momentous; ambiguous; honour",
+          "momentous; ambiguous; contest"
+        ],
+        "answer": 3,
+        "explanation": "Answer: momentous; ambiguous; contest. Step by step. Ending a generation-long war is 'momentous' (of great importance). 'Yet' signals a turn: its terms were 'ambiguous' (open to two readings), so each side found grounds to 'contest' (dispute) it. 'Precise' terms would leave no grounds for dispute; 'trivial' contradicts ending a long war; 'honour' contradicts 'yet' and the grounds each side found. Tip: 'yet' introduces a contrast with the praise before it."
+      },
+      {
+        "id": "q28",
+        "type": "Vocabulary",
+        "question": "The scheme, which was widely ________ as a model of efficiency, proved ________ on inspection: its savings were ________ by costs that had simply been moved to another department's account.",
+        "options": [
+          "hailed; genuine; offset",
+          "dismissed; illusory; offset",
+          "hailed; illusory; offset",
+          "hailed; illusory; confirmed"
+        ],
+        "answer": 2,
+        "explanation": "Answer: hailed; illusory; offset. Step by step. A scheme widely 'hailed' (praised) as efficient, which on inspection proved 'illusory' (not real), because its savings were 'offset' (cancelled) by costs moved elsewhere. 'Genuine' contradicts the moved costs; 'dismissed' does not fit 'widely ... as a model of efficiency'; 'confirmed' would mean the costs supported the savings, the opposite of the point. Tip: the 'on inspection' contrast tells you the first word is positive and the second negative."
+      },
+      {
+        "id": "q29",
+        "type": "Vocabulary",
+        "question": "Because the data were ________, the analyst refused to draw a firm conclusion; she preferred to ________ judgement until further evidence arrived rather than ________ a theory on figures that might later be revised.",
+        "options": [
+          "inconclusive; hasten; stake",
+          "decisive; suspend; stake",
+          "inconclusive; suspend; stake",
+          "inconclusive; suspend; abandon"
+        ],
+        "answer": 2,
+        "explanation": "Answer: inconclusive; suspend; stake. Step by step. Refusing a firm conclusion means the data did not settle the matter: 'inconclusive'. She would 'suspend' (put off) judgement and not 'stake' (risk, rest) a theory on figures that might be revised. 'Decisive' data would not justify refusing; 'hasten' judgement contradicts 'until further evidence'; 'abandon' a theory does not fit 'rather than ... a theory on figures that might later be revised', which needs a word for committing. Tip: 'rather than' marks the unwanted action."
+      },
+      {
+        "id": "q30",
+        "type": "Vocabulary",
+        "question": "The ________ vehicle blocked the road while the clerk, who had gone to buy ________ for the office, argued about the ________ of the parking order.",
+        "options": [
+          "stationery; stationary; validity",
+          "stationary; stationary; validity",
+          "stationary; stationery; validation",
+          "stationary; stationery; validity"
+        ],
+        "answer": 3,
+        "explanation": "Answer: stationary; stationery; validity. STATIONARY (adjective) means not moving (a stationary vehicle); STATIONERY (noun) means paper, pens and office supplies (the 'e' in 'paper' and 'envelope' helps you remember it). VALIDITY means the state of being legally or logically sound (the validity of an order); VALIDATION means the act of confirming. Swapping the first two words reads 'stationery vehicle' and 'stationary for the office'. Tip: 'stationEry' goes with 'envElopes'."
+      },
+      {
+        "id": "q31",
+        "type": "Vocabulary",
+        "question": "The speaker's steady ________ of the platform drew the crowd's ________, and after a final ________ from the chair, the motion was carried.",
+        "options": [
+          "ascent; assent; assent",
+          "ascent; assent; ascent",
+          "assent; ascent; assent",
+          "ascent; ascent; assent"
+        ],
+        "answer": 0,
+        "explanation": "Answer: ascent; assent; assent. ASCENT is the act of climbing, so the speaker's steady 'ascent' of the platform; ASSENT is agreement, so the crowd's 'assent' and the chair's final 'assent'. The other combinations put 'assent' where a climb is meant, or 'ascent' where agreement is meant. Tip: ASCENT has 'sc' as in 'scale' (to climb); ASSENT has 'ss' like a double yes."
+      },
+      {
+        "id": "q32",
+        "type": "Vocabulary",
+        "question": "The minister's aides tried to ________ the report before publication, but the court ruled that officials may not ________ news of public interest, and a formal ________ of the aides was recorded.",
+        "options": [
+          "censure; suppress; censor",
+          "censor; suppress; censure",
+          "censor; suppress; censor",
+          "censor; surpass; censure"
+        ],
+        "answer": 1,
+        "explanation": "Answer: censor; suppress; censure. CENSOR (verb) means to cut or ban material; CENSURE means formal criticism or disapproval; SUPPRESS means to hold back or put down; SURPASS means to exceed. The aides tried to 'censor' the report; officials may not 'suppress' news; and a formal 'censure' of the aides was recorded. The other options swap censor and censure or use 'surpass'. Tip: a censor cuts; a censure scolds."
+      },
+      {
+        "id": "q33",
+        "type": "Vocabulary",
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "The crisis taught the bank a costly lesson about lending without security.",
+          "Better hedging can lessen a firm's exposure to sudden currency swings.",
+          "The professor's lesson on inflation was attended by every student in the batch.",
+          "The new rule is intended to lesson the burden on small firms."
+        ],
+        "answer": 3,
+        "explanation": "Answer: the sentence 'to lesson the burden'. LESSEN (verb) means to reduce; LESSON (noun) is something taught or learnt. The rule is meant to 'lessen' the burden. The other sentences are correct: 'a costly lesson' (noun), 'lessen a firm's exposure' (verb) and 'The professor's lesson' (noun). Tip: after 'to', you need a verb, so the verb 'lessen'."
+      },
+      {
+        "id": "q34",
+        "type": "Grammar",
+        "question": "The policy aims to reduce costs, improve access, and <u>increasing</u> transparency across all branches.",
+        "options": [
+          "increased",
+          "to be increasing",
+          "increase",
+          "an increase in"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'increase'. Rule: parallel structure. After 'aims to', the three items must share one form: reduce, improve and increase. 'Increasing' is a different form and breaks the list; 'increased' is a past form; 'to be increasing' and 'an increase in' change the grammar of the item. Tip: items in a list must share one grammatical form."
+      },
+      {
+        "id": "q35",
+        "type": "Grammar",
+        "question": "The committee received <u>less</u> complaints this year than in any previous year since its founding.",
+        "options": [
+          "fewer",
+          "lesser",
+          "little",
+          "least"
+        ],
+        "answer": 0,
+        "explanation": "Answer: 'fewer'. Rule: use 'fewer' with countable plural nouns (complaints) and 'less' with uncountable nouns (less money, less time). 'Lesser' means smaller in importance; 'little' is used with uncountable nouns; 'least' is a superlative and does not fit the comparison with 'than'. Tip: if you can count them, use 'fewer'."
+      },
+      {
+        "id": "q36",
+        "type": "Grammar",
+        "question": "By the time the new rule is notified, most firms <u>will already adapt</u> their systems to the draft.",
+        "options": [
+          "have already adapted",
+          "will already have adapted",
+          "already adapted",
+          "would already adapt"
+        ],
+        "answer": 1,
+        "explanation": "Answer: 'will already have adapted'. Rule: the future perfect (will have + past participle) describes an action completed before a stated future time ('by the time the new rule is notified'). 'Have already adapted' is a present perfect and does not fit the future reference; 'already adapted' is a simple past; 'would already adapt' is a conditional and does not express completion. Tip: 'by the time' with a future event usually asks for the future perfect."
+      },
+      {
+        "id": "q37",
+        "type": "Grammar",
+        "question": "The regulator insisted that the firm <u>discloses</u> the data to the public before the end of the month.",
+        "options": [
+          "disclosed",
+          "will disclose",
+          "disclose",
+          "is disclosing"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'disclose'. Rule: after verbs of demand, request or insistence (insist, demand, recommend, require) that introduce a 'that' clause, English uses the subjunctive: the bare verb form regardless of the subject ('that the firm disclose'). 'Disclosed', 'will disclose' and 'is disclosing' are the indicative forms and do not express a demand. Tip: insist/demand/require + that + subject + base verb."
+      },
+      {
+        "id": "q38",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nA count of the countries that have submitted climate targets tells us how many have taken part. ____________________. A school that reports only the number of pupils who sat the examination has told us something, but not what we most wish to know.",
+        "options": [
+          "It does not tell us how ambitious the targets are, nor whether the governments that made them will carry them out in time.",
+          "It tells us exactly how much the world's emissions will fall, since every target that has been submitted will be met.",
+          "It shows that governments are indifferent to the problem, because no government would make a target if it cared.",
+          "It is of no use at all, because a country that submits a target has already done everything that is required."
+        ],
+        "answer": 0,
+        "explanation": "Answer: the count does not tell us the ambition or the delivery. Why: the following sentence compares the count to a school reporting only the number who sat the examination, 'something, but not what we most wish to know', which needs a blank saying what the count leaves out. Why the others fail: the count cannot tell exactly how emissions will fall; the cynical claim is unsupported; and 'of no use at all' contradicts 'has told us something'. Tip: the analogy afterwards must fit the blank in both directions."
+      },
+      {
+        "id": "q39",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nIf inflation falls after a rate rise, the central bank may claim the credit. ____________________. The fair test is therefore to compare the outcome with what would have happened without the rise, and that can only be estimated.",
+        "options": [
+          "Inflation always falls after a rate rise, so the central bank is right to claim the credit in every case.",
+          "But prices may have fallen for other reasons, such as a good harvest, so the fall alone proves little.",
+          "The central bank should therefore avoid publishing any forecast, so that no one can compare its outcomes with it.",
+          "A fall in inflation is evidence that the rise was unnecessary, since prices would have fallen of their own accord."
+        ],
+        "answer": 1,
+        "explanation": "Answer: prices may have fallen for other reasons, so the fall alone does not show the policy worked. Why: the next sentence calls for comparison with 'what would have happened without the rise', which follows from doubting that the fall proves success. Why the others fail: 'always falls' contradicts the passage's logic and makes the next sentence pointless; publishing no forecast contradicts the need for comparison; and 'unnecessary' goes too far, since the fall might equally be due to the rise. Tip: 'therefore' in the following sentence draws on a doubt raised in the blank."
+      },
+      {
+        "id": "q40",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nA person who is asked to consent faces hundreds of long notices. ____________________. This is why, in practice, a consent is often a formality and not a decision.",
+        "options": [
+          "Each notice is short, clear and easy to understand, and so most people read it carefully before they agree to it.",
+          "The firms that write the notices are legally required to explain every term to each person in a face-to-face meeting.",
+          "People who refuse to tick the box are always given the service on the same terms as those who agree to the notice.",
+          "The effort needed to read them all exceeds the benefit of reading any one, so most people tick without reading."
+        ],
+        "answer": 3,
+        "explanation": "Answer: the effort to read them exceeds the benefit, so most tick without reading. Why: the closing sentence says consent is 'often a formality and not a decision', which follows if people do not read. Why the others fail: short and clear notices would make reading likely, contradicting the conclusion; face-to-face explanation is an unsupported invention; and equal terms for refusers would make consent a real choice, the opposite of a formality. Tip: the final sentence usually states what the blank must lead to."
+      },
+      {
+        "id": "q41",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Savers gain, but usually by less than borrowers lose.\n2. A rise in the policy rate does not fall evenly on everyone.\n3. Firms that depend on credit feel it first, while those that finance themselves from profits barely notice it.\n4. The decision in the policy statement therefore hides a long list of winners and losers.\n5. Banks are quicker to raise what they charge than what they pay.",
+        "answer": "21534",
+        "explanation": "Answer: 2-1-5-3-4. Step by step. Sentence 2 opens with the general claim (it does not fall evenly). Sentence 1 gives the first case (savers gain, but by less). Sentence 5 explains why ('Banks are quicker...'). Sentence 3 turns to a second case (firms that depend on credit). Sentence 4 begins 'therefore' and concludes. Tip: an explanation ('why') usually follows the statement it explains, and 'therefore' closes."
+      },
+      {
+        "id": "q42",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. A target is a public commitment that others can read.\n2. Such a count measures participation, and not ambition.\n3. More countries had submitted new targets by November than by the start of the month.\n4. Yet the figure cannot show whether the promises are large, or whether they will be kept.\n5. The count is therefore a necessary measure, but an insufficient one.",
+        "answer": "31245",
+        "explanation": "Answer: 3-1-2-4-5. Step by step. Sentence 3 opens with the fact (more countries have submitted). Sentence 1 says what a target is and why the count matters. Sentence 2 begins 'Such a count' and gives the limit (participation, not ambition). Sentence 4 begins 'Yet the figure' and adds the further limits. Sentence 5 begins 'therefore' and concludes. Tip: 'Such a ...' and 'the figure' refer back to the count introduced earlier."
+      },
+      {
+        "id": "q43",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. Even then, a person who cannot refuse without losing the service has no real choice.\n2. A person is asked to consent through a long notice that almost nobody reads.\n3. An intermediary that lets people manage permissions in one place may help.\n4. The remedy, however, must address the design of the choice and not merely its record.",
+        "answer": "2314",
+        "explanation": "Answer: 2-3-1-4. Step by step. Sentence 2 states the problem (consent through unread notices). Sentence 3 proposes an improvement (an intermediary). Sentence 1 begins 'Even then' and says the improvement is not enough if refusal costs the service. Sentence 4 begins 'The remedy, however' and states the real requirement. Tip: 'Even then' follows a remedy and points to its limit."
+      },
+      {
+        "id": "q44",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. A labour statute sets out principles, but the rules under it decide what a firm does.\n2. Four codes now stand where twenty-nine laws once did.\n3. Because states may frame their own rules, a firm in five states may meet five procedures.\n4. The reform should therefore be judged by outcomes some years from now.\n5. On paper, the consolidation makes life simpler for employers.",
+        "answer": "25134",
+        "explanation": "Answer: 2-5-1-3-4. Step by step. Sentence 2 states the fact (four codes replaced twenty-nine laws). Sentence 5 draws the paper conclusion (simpler). Sentence 1 qualifies with the contrast between statute and rules. Sentence 3 begins 'Because states may frame their own rules' and gives the example of the difficulty. Sentence 4 begins 'therefore' and concludes how to judge. Tip: 'On paper' invites a later 'but' idea, which sentence 1 supplies."
+      },
+      {
+        "id": "q45",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. A central bank must therefore act on a forecast, and not on the figure published today.\n2. That figure describes the effects of decisions taken some months earlier.\n3. The effects of a rate rise arrive late.\n4. A decision that looks excessive today may be reasonable in the light of the forecast.",
+        "answer": "3124",
+        "explanation": "Answer: 3-1-2-4. Step by step. Sentence 3 opens with the general fact (effects arrive late). Sentence 1 begins 'therefore' and draws the consequence (act on a forecast, not today's figure). Sentence 2 begins 'That figure', which refers to 'the figure published today' in sentence 1, so it must follow it. Sentence 4 closes with the result for how a decision may look. Tip: 'That figure' needs the figure to have been mentioned just before."
+      }
+    ]
   }
 ]
