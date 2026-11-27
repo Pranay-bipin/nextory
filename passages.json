@@ -11472,5 +11472,608 @@
         "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The author reports each side’s stated position with attribution, presents rival expert views on who is paying more, and draws a conclusion about the structure of the standoff, not about blame.<br><br>• <strong>Why Option A is Wrong:</strong> Iran’s conditions are reported, not endorsed; the author does not call them fair.<br><br>• <strong>Why Option B is Wrong:</strong> The choice of pressure is reported neutrally; no criticism is made.<br><br>• <strong>Why Option C is Wrong:</strong> The author says mediation provides a “partial remedy” by letting each side explore terms and save face.<br><br><strong>💡 Approach:</strong> Tone questions: an author who attributes every claim and weighs rival views is neutral. Options assigning approval or blame to a party are traps."
       }
     ]
+  },
+  {
+    "id": "rc-2026-11-26",
+    "date": "2026-11-26",
+    "title": "Same Shock, Different Patients: Italy’s Steel Mills and Energy Prices",
+    "genre": "Current Affairs / Economics",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1006 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "sclerotic",
+          "type": "adjective",
+          "def": "Rigid and unable to adapt; hardened with age",
+          "ex": "The sclerotic industry failed to respond to cheap imports."
+        },
+        {
+          "word": "attenuate",
+          "type": "verb",
+          "def": "To weaken or reduce the force or effect of something",
+          "ex": "Subsidies may attenuate the impact of higher power costs."
+        },
+        {
+          "word": "autarky",
+          "type": "noun",
+          "def": "Economic self-sufficiency; a policy of not trading with others",
+          "ex": "Few modern economies could survive a policy of autarky."
+        },
+        {
+          "word": "fungible",
+          "type": "adjective",
+          "def": "Interchangeable with other goods of the same kind",
+          "ex": "Standard steel is a fungible commodity, so price decides the sale."
+        },
+        {
+          "word": "precarious",
+          "type": "adjective",
+          "def": "Not securely held or dependent on chance; unstable",
+          "ex": "The mill’s finances were precarious after two weak years."
+        },
+        {
+          "word": "stringent",
+          "type": "adjective",
+          "def": "Strict, precise and severe in requirements",
+          "ex": "Stringent rules limited what the state could offer."
+        },
+        {
+          "word": "exacerbate",
+          "type": "verb",
+          "def": "To make a problem or bad situation worse",
+          "ex": "Weak demand exacerbated the effect of costlier power."
+        },
+        {
+          "word": "laissez-faire",
+          "type": "adjective",
+          "def": "Letting things take their own course, with minimal state interference",
+          "ex": "A laissez-faire approach would leave weak mills to fail."
+        },
+        {
+          "word": "insolvent",
+          "type": "adjective",
+          "def": "Unable to pay debts owed",
+          "ex": "The insolvent firm was wound up by its creditors."
+        },
+        {
+          "word": "parsimonious",
+          "type": "adjective",
+          "def": "Extremely unwilling to spend money; stingy",
+          "ex": "The parsimonious treasury refused further aid."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "feel the pinch",
+          "def": "To experience financial hardship",
+          "ex": "Small mills were the first to feel the pinch."
+        },
+        {
+          "idiom": "pass the buck",
+          "def": "To shift responsibility to someone else",
+          "ex": "Ministers were accused of passing the buck to Brussels."
+        },
+        {
+          "idiom": "the straw that broke the camel’s back",
+          "def": "A final small burden that causes collapse",
+          "ex": "The October price spike was the straw that broke the camel’s back."
+        },
+        {
+          "idiom": "a double whammy",
+          "def": "Two severe blows occurring together",
+          "ex": "Weak demand and costly power were a double whammy."
+        },
+        {
+          "idiom": "cut one’s losses",
+          "def": "To stop an unprofitable activity to avoid further loss",
+          "ex": "Several mills decided to cut their losses and shut."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "shut down",
+          "def": "To stop operating, permanently or temporarily",
+          "ex": "The furnace was shut down for the winter."
+        },
+        {
+          "verb": "pass on",
+          "def": "To transfer a cost to someone else, such as a customer",
+          "ex": "Mills could not pass on higher costs."
+        },
+        {
+          "verb": "price out",
+          "def": "To make something too expensive for someone to afford or compete",
+          "ex": "High power bills priced the mill out of the market."
+        },
+        {
+          "verb": "run down",
+          "def": "To reduce gradually the stock or activity of something",
+          "ex": "The firm ran down its reserves over two years."
+        },
+        {
+          "verb": "cut back",
+          "def": "To reduce spending or output",
+          "ex": "The plant cut back production in December."
+        }
+      ]
+    },
+    "passage": "On Tuesday 10 November, Federacciai, the Italian steel industry’s trade body, said in a statement that “major Italian steelmakers have halted or are progressively shutting down production”, because surging electricity and gas prices had made operations economically unsustainable. It did not name the companies. It attributed the squeeze to low European gas storage and to disruption linked to the Iran war, which pushed the Dutch front-month gas benchmark above €104 per megawatt-hour in October, and it added that Italy’s steel sector is among Europe’s most decarbonised yet also among the hardest hit by energy costs. The Italian government approved measures the day before to limit the effect of gas prices on household and business power bills, but critics say the impact will be marginal. One mill, AFV Beltrame, has announced stoppages for the rest of November and for December.\n\nThe episode contains a puzzle that is worth stating plainly. According to figures compiled by the trade publication SteelOrbis, Italy’s wholesale electricity price averaged about €154 per megawatt-hour from January to October 2026, closed October at €230.8, and rose to an average of about €271 in the first week of November, touching €313.5 on 9 November. These are high figures. But in 2022, the year of the last great European energy shock, the annual average was about €304 and the August average reached €543. Gas, similarly, averaged about €64 per megawatt-hour in August 2026, far below the roughly €230 of a typical summer month in 2022. If prices are lower than in 2022, why are mills closing now, when most of them survived then?\n\nThe first part of the answer lies in what the mills brought with them to each crisis. In 2022, SteelOrbis notes, producers entered the shock with reserves built up in good years such as 2018, 2019 and 2021, and in a market that allowed them to raise selling prices. In 2026, they enter it after weak years in 2023 and 2024 and a modest recovery in 2025, with margins already eroded and demand soft enough to restrict their ability to pass higher costs on to customers. The same price, in other words, is a different burden for a business with a cushion and a business without one. A shock is therefore not measured by its size alone but by the resilience of those who absorb it, and a smaller shock can be more damaging to a weaker patient.\n\nThe second part concerns relative, not absolute, prices. A cost that falls equally on every competitor is, in the end, passed on to buyers, since all producers must charge more. A cost that falls more heavily on one country’s producers than on its rivals’ cannot be passed on, because rival producers undercut it. Eurostat figures cited in the same report put industrial electricity prices for large consumers in the first half of 2026 at about €149 per megawatt-hour in Italy, against about €138 in Germany, €92 in Spain and €79 in France. The gap with France is large enough to matter for any trade in an ordinary commodity such as steel. The chief executive of one company, Ori Martin, added that cheap Chinese imports were a second, compounding problem. Whatever the origin of the Italian premium, a premium over neighbours is what turns a cost into a loss of market share.\n\nA third factor is the technical nature of the plants. AFV Beltrame has said that its continuous-cycle operations cannot be paused for a few hours at peak prices, unlike some competitors that can shift consumption to cheaper hours. An average price conceals the daily and weekly swings in which flexible users profit and inflexible ones suffer, and the reading of €313.5 on a single day shows how volatile the series can be. Two firms facing the same average may thus face very different bills, and a policy that quotes only the average will misjudge who needs help and who does not, a risk that matters whenever aid is scarce.\n\nPolicy responses are bound to be contentious. Supporters of aid argue that closures are costly to reverse: a mill that has shut down loses skilled workers, customers and supply contracts, and restarting it is neither quick nor cheap, so a temporary price spike may produce a permanent loss of capacity. Sceptics reply that support for firms that are already unprofitable merely delays adjustment and may shift costs to taxpayers, and that the Italian economy minister’s own acknowledgement that international competition is hard at present levels is not an argument for any particular remedy. A further irony deserves note: Federacciai’s remark that Italian steel is among Europe’s most decarbonised sectors presumably reflects heavy reliance on electricity, and it is that reliance which exposes it to power prices. A cleaner industry, on this reading, is a more electricity-exposed one, so the energy transition does not make the sector immune to price shocks, and may, in the short run, increase its vulnerability.\n\nThe lesson of the episode is methodological, and it applies well beyond steel. Headlines about prices tend to report a number and a direction, up or down, and invite the reader to supply a verdict; but the number is only the beginning of the analysis, and the verdict depends on the context in which the number is read. A price that would be shrugged off by a diversified conglomerate with reserves can be fatal to a single-site producer with thin margins and a fixed production schedule. When a price headline arrives, it is worth asking three questions of it: higher relative to what, whether to rivals or to the past; borne by whom, with what reserves and what ability to pass costs on; and measured how, as an average or as the peaks that inflexible users must pay. The answers, taken together, explain why a smaller shock can close mills that a larger one did not, and they suggest that the most useful public data would report not only the price but also the distribution of its burden across firms, regions and hours of the day.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "options": [
+          "A) The Italian government’s measures to limit gas prices are the main reason that Italian steelmakers have continued to halt production this month.",
+          "B) A price shock’s damage depends on relative prices, the resilience of those affected and plant flexibility, so a smaller shock can hurt more than a larger one.",
+          "C) Italian steelmakers are shutting down because electricity prices in 2026 have risen above the levels reached in 2022 during the previous energy shock in Europe.",
+          "D) Support for energy-intensive firms is unjustified in every case, since any aid delays adjustment and merely shifts costs on to taxpayers at large."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The passage opens with a puzzle (lower prices than 2022, yet closures) and resolves it through three factors: reserves and pass-through, relative prices against rivals, and plant flexibility. B states the thesis.<br><br>• <strong>Why Option A is Wrong:</strong> The government measures were approved to help; the critics’ view that they are marginal does not make them the cause of the closures.<br><br>• <strong>Why Option C is Wrong:</strong> This is false on the passage’s own figures: the 2022 averages (€304 annual, €543 in August) were well above 2026’s (about €154 for the year to October).<br><br>• <strong>Why Option D is Wrong:</strong> The author presents both the case for and against aid and endorses neither. “Every case” is an unsupported absolute.<br><br><strong>💡 Approach:</strong> Central-argument questions: the thesis resolves the puzzle the passage sets up. Reject options that contradict the figures or turn a balanced debate into a verdict."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following can be inferred from the passage?",
+        "options": [
+          "A) Italy’s electricity prices in 2026 have never at any point been higher than the levels recorded in 2022.",
+          "B) Every Italian steelmaker has halted production because of high energy costs, according to the statement by the industry body.",
+          "C) A firm able to move its power consumption to cheaper hours is less exposed to an unchanged average price than one that is not.",
+          "D) Italian industrial electricity is cheaper than French industrial electricity, because Italian mills use more electric arc furnaces than French mills."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The third factor says continuous-cycle plants cannot shift to cheaper hours, unlike some competitors, and that an average price conceals swings. Firms that can shift are therefore less exposed.<br><br>• <strong>Why Option A is Wrong:</strong> The passage reports 2026 gas prices and monthly electricity levels lower than 2022 but does not claim that no 2026 reading ever exceeded any 2022 reading.<br><br>• <strong>Why Option B is Wrong:</strong> Federacciai said “major” steelmakers have halted or are progressively shutting down, not every producer.<br><br>• <strong>Why Option D is Wrong:</strong> Italian prices (about €149) exceed French (about €79); the option reverses the comparison and invents a cause.<br><br><strong>💡 Approach:</strong> Inference questions: each correct inference restates something in the text. Check comparisons for direction and avoid invented causal links."
+      },
+      {
+        "id": "q3",
+        "question": "The author mentions that mills in 2022 had reserves built up in earlier good years mainly in order to:",
+        "options": [
+          "A) show that one price shock can be a different burden depending on the cushion of those who bear it",
+          "B) argue that the mills that survived in 2022 were better managed than the mills that have closed in 2026",
+          "C) suggest that the producers should have saved more during the years 2023 and 2024 to prepare for a future shock",
+          "D) prove that energy prices in 2022 were lower than energy prices in 2026 in each month of the year in question"
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The author concludes that “the same price … is a different burden for a business with a cushion and a business without one”; the reserves detail supports exactly this point.<br><br>• <strong>Why Option B is Wrong:</strong> No judgement about management quality is made; the difference is attributed to circumstances (reserves, demand).<br><br>• <strong>Why Option C is Wrong:</strong> The author does not criticise the mills’ saving behaviour; 2023 and 2024 are described as weak market years.<br><br>• <strong>Why Option D is Wrong:</strong> The passage says the opposite: 2022 prices were generally higher than those of 2026.<br><br><strong>💡 Approach:</strong> Function questions: find the sentence that draws the conclusion from the detail."
+      },
+      {
+        "id": "q4",
+        "question": "Which of the following, if true, would most weaken the author’s suggestion that Italy’s price premium over its neighbours helps explain the closures?",
+        "options": [
+          "A) Italian producers have been importing larger quantities of raw materials from countries outside the European Union.",
+          "B) Italian steel demand has been weak for several years, and margins at most mills were already low before this year’s price rise.",
+          "C) Mills in France and Spain, where power is far cheaper, have shut down production at about the same rate as Italian mills.",
+          "D) Italian industrial customers have been seeking longer-term contracts for the supply of steel from domestic producers."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> If mills in much cheaper countries are closing at the same rate, the relative price premium cannot be what distinguishes Italian mills’ fate, so the suggestion is weakened.<br><br>• <strong>Why Option A is Wrong:</strong> Raw-material sourcing is not connected to the power-price premium argument.<br><br>• <strong>Why Option B is Wrong:</strong> Weak demand and thin margins are the author’s first explanation and fit with, not against, the premium explanation as an additional cause.<br><br>• <strong>Why Option D is Wrong:</strong> Longer-term domestic contracts say nothing about whether the premium contributes to closures.<br><br><strong>💡 Approach:</strong> Weaken: find the link between premium and closure and choose the evidence that breaks it—here, a comparison group that should have been spared."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following most closely parallels the author’s reasoning about the 2022 and 2026 energy shocks?",
+        "options": [
+          "A) Two runners finish a race in identical times, and the judges conclude that they must have trained in identical ways.",
+          "B) A rent rise is absorbed by a household with savings but evicts one without, though a larger past rise was absorbed.",
+          "C) A shop reduces its prices and its sales rise, so the owner concludes that every price cut will raise sales in the future.",
+          "D) A student receives a low mark in one exam and a high mark in another and attributes the whole difference to mere luck."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author argues that the impact of a shock depends on the buffers of those bearing it, so a smaller shock can do more damage. B has the same structure: unequal buffers produce unequal outcomes even where the first shock was bigger.<br><br>• <strong>Why Option A is Wrong:</strong> This infers identical causes from identical outcomes, a different reasoning pattern.<br><br>• <strong>Why Option C is Wrong:</strong> This is an overgeneralisation from one instance, not a point about buffers.<br><br>• <strong>Why Option D is Wrong:</strong> This attributes differences to a single factor; the author attributes the closures to several.<br><br><strong>💡 Approach:</strong> Parallel questions: restate the argument skeleton (same shock, different buffers, different outcome) and choose the option that fits."
+      },
+      {
+        "id": "q6",
+        "question": "With which of the following would the author most likely agree?",
+        "options": [
+          "A) Comparing price levels with past crises is a poor guide to a shock’s severity unless the condition of those bearing it is considered.",
+          "B) Energy transition policy has made the Italian steel sector immune to energy price shocks, since cleaner plants no longer depend on gas.",
+          "C) Government support for energy-intensive industry should be withdrawn at once, since closures are easily reversed once prices fall again.",
+          "D) The average of a price series is a better indicator of a firm’s costs than the variation within the series, which is irrelevant to firms."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The final paragraph asks of any headline: relative to what, borne by whom, measured how. The central lesson is that price comparisons alone mislead without the condition of those affected.<br><br>• <strong>Why Option B is Wrong:</strong> The author argues the opposite: a cleaner, more electricity-reliant sector may be more exposed in the short run.<br><br>• <strong>Why Option C is Wrong:</strong> The author says closures are costly to reverse; “easily reversed” contradicts this.<br><br>• <strong>Why Option D is Wrong:</strong> The author says averages conceal swings that inflexible users must pay, so variation is relevant.<br><br><strong>💡 Approach:</strong> Agree-with: the closing paragraph states the author’s method; options contradicting earlier claims are traps."
+      }
+    ]
+  },
+  {
+    "id": "rc-2026-11-27",
+    "date": "2026-11-27",
+    "title": "Guarding the Vault, Watching the Window: The Logic of the Chip Rule",
+    "genre": "Current Affairs / Technology Policy",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1029 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "porous",
+          "type": "adjective",
+          "def": "Allowing things to pass through; not tightly controlled",
+          "ex": "The porous border let goods slip through unchecked."
+        },
+        {
+          "word": "prescient",
+          "type": "adjective",
+          "def": "Having knowledge of events before they happen",
+          "ex": "Her prescient warning about loopholes proved right."
+        },
+        {
+          "word": "chimerical",
+          "type": "adjective",
+          "def": "Unreal, fanciful or impossible to achieve",
+          "ex": "A perfectly sealed border is a chimerical goal."
+        },
+        {
+          "word": "circumvent",
+          "type": "verb",
+          "def": "To find a way around a rule or obstacle",
+          "ex": "Firms tried to circumvent the licence requirement."
+        },
+        {
+          "word": "proscribe",
+          "type": "verb",
+          "def": "To forbid, especially by law",
+          "ex": "The law proscribes sales to listed entities."
+        },
+        {
+          "word": "nebulous",
+          "type": "adjective",
+          "def": "Vague, unclear or ill-defined",
+          "ex": "The nebulous wording left firms unsure of their duties."
+        },
+        {
+          "word": "redoubtable",
+          "type": "adjective",
+          "def": "Formidable and commanding respect",
+          "ex": "The agency is a redoubtable enforcer."
+        },
+        {
+          "word": "ubiquitous",
+          "type": "adjective",
+          "def": "Present or found everywhere",
+          "ex": "Cloud computing is now ubiquitous."
+        },
+        {
+          "word": "stratagem",
+          "type": "noun",
+          "def": "A plan or scheme intended to outwit an opponent",
+          "ex": "Renaming the firm was a transparent stratagem."
+        },
+        {
+          "word": "collusion",
+          "type": "noun",
+          "def": "Secret or illegal cooperation to deceive others",
+          "ex": "Investigators suspected collusion between the two firms."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "draw a line in the sand",
+          "def": "To set a limit that must not be crossed",
+          "ex": "The agency drew a line in the sand on remote access."
+        },
+        {
+          "idiom": "a game of cat and mouse",
+          "def": "A contest in which one side tries to catch the other",
+          "ex": "Export control became a game of cat and mouse."
+        },
+        {
+          "idiom": "tighten the screws",
+          "def": "To increase pressure on someone",
+          "ex": "Washington tightened the screws on suppliers."
+        },
+        {
+          "idiom": "slip through the net",
+          "def": "To escape being caught or included",
+          "ex": "Smaller shipments slipped through the net."
+        },
+        {
+          "idiom": "a game of whack-a-mole",
+          "def": "A task in which a problem reappears as soon as it is dealt with",
+          "ex": "Enforcement is a game of whack-a-mole."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "crack down on",
+          "def": "To act firmly against something illegal or undesirable",
+          "ex": "Officials cracked down on evasion."
+        },
+        {
+          "verb": "clamp down on",
+          "def": "To impose strict control on something",
+          "ex": "The agency clamped down on resale."
+        },
+        {
+          "verb": "route through",
+          "def": "To send something by way of an intermediate place",
+          "ex": "Orders were routed through third countries."
+        },
+        {
+          "verb": "close off",
+          "def": "To block access to something",
+          "ex": "The rule closes off a loophole."
+        },
+        {
+          "verb": "spill over",
+          "def": "To spread to affect another area",
+          "ex": "Tension spilled over into trade talks."
+        }
+      ]
+    },
+    "passage": "On Monday 16 November the Bureau of Industry and Security (BIS), part of the US Commerce Department, issued an interim final rule aimed at stopping Chinese companies from renting American AI chips through data centres in other countries. The rule has two parts. The first requires suppliers to obtain a licence for any data centre, anywhere, that serves customers headquartered in China, Macau or other countries in the same restricted export group, above a threshold of more than 12 million units of aggregate processing power; data centres already serving such customers would have 90 days from the rule’s start to obtain one. The second requires exporters to obtain a licence to ship advanced chips to Indonesia, Malaysia, Singapore, Thailand and Brazil, which the rule treats as carrying an elevated risk of diversion; American-headquartered companies are exempt if they file monthly reports. The rule takes effect on publication in the Federal Register and is followed by a 60-day public comment period. Singapore’s government said it is “studying the details of this new measure carefully”, and added that it does not condone companies using Singapore to circumvent other countries’ laws.\n\nTo see what is new, it helps to ask a simple question about any export control: what exactly is being controlled? The earlier approach controlled the object. A chip could not be shipped to a firm in China, and a licence was required if it was. But an AI chip is valuable for the computation it performs, and computation can be sold as a service. A company that cannot buy a chip can rent time on one in a data centre elsewhere, and the chip need never cross a border it is forbidden to cross. Controlling the object while ignoring the service is like guarding the vault door while leaving the window open; the rule is an attempt to extend the guard to the window. BIS itself called the change a “logical extension” of the existing licence requirement for chip exports to China-based firms.\n\nThe rule thus shifts the unit of control from the object to the customer. What matters is no longer only where the chip is, but who is using the computation, and the test chosen is where that user is headquartered. This has a clear advantage: it follows the thing the policy-makers care about. But it has a cost, which is that it requires a regime of identification. A licensing authority must determine where a customer is headquartered, whether a company with a Singapore address and Chinese owners counts, and how to treat subsidiaries, intermediaries and customers of customers. Each judgement invites the kind of structuring that regulation of this kind always meets, in which a customer reorganises itself so that it falls on the right side of a line. The rule’s own exemption for American companies that file monthly reports shows both the problem and a response: trust is extended on the basis of a status, and then verified by reporting.\n\nThe second part of the rule uses a third unit, the place. By requiring licences for shipments to five named countries, the rule treats geography as a proxy for risk. A country-based test is easy to administer and hard to evade by changing a company’s form, but it is blunt. It captures legitimate businesses, local and foreign, whose only fault is to be located in a country listed as high risk. That is why reactions have been sharp in some quarters. Chris McGuire of the Council on Foreign Relations called the rule “a major step forward”, while noting that loopholes remain, including some that cover activity inside the United States. His colleague Joshua Kurlantzick told Fortune that “for Malaysia, the controls could be disastrous”, and analysts quoted in reports say the rule could hurt Southeast Asian countries that want to host data centres for Chinese customers. Singapore’s careful phrasing, with its simultaneous promise to study the measure and its disavowal of circumvention, reads like the language of a government that expects to be asked to demonstrate good behaviour.\n\nSeen as a whole, the rule illustrates a recurring structure in regulation, sometimes called whack-a-mole: each tightening produces an adaptation, which in turn calls for a further tightening. BIS appears to expect this, since it has said that Commerce will watch for countries that tolerate evasion and that possible consequences include import restrictions, new licence requirements and listings on the Entity List. The rule also formally ends the AI Diffusion Rule that the previous administration had adopted but never enforced, replacing a broad framework of tiers of countries with a narrower set of targeted measures. Whether narrower is better is a matter of judgement. Narrow rules are easier to justify and administer, but they leave more gaps; broad rules close gaps but sweep in more bystanders.\n\nWhat, then, should a reader take from it? The first thing is humility about the facts. The rule was announced on a Monday, was issued as an interim final rule that will be open to comment for sixty days, and has not yet been tested by the behaviour of the firms and governments it addresses; judgements delivered in the first week, whether triumphant or alarmed, are therefore forecasts and not findings. The second thing is clarity about the questions. That the debate cannot sensibly be conducted as a contest between those who want security and those who want trade, since both sides recognise that the policy involves trade-offs; the real questions are about design. Which unit of control, object, customer or place, best matches the harm one wishes to prevent? How much collateral damage to bystanders is acceptable in return for the gain in security? And how will the regime be monitored, given that it depends on facts about customers that the regulator cannot directly observe? A rule can be judged a success only against evidence of what was prevented, and the nature of evasion is that it tries not to leave evidence. That is why commentators who welcome the rule and those who fear its side-effects may both turn out to be right: it may close one route while pushing demand into others, and the verdict will take months to emerge.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "options": [
+          "A) The new BIS rule has permanently ended Chinese access to advanced American AI computing, since remote access through data centres abroad has now been fully blocked.",
+          "B) Export controls on AI chips are unjustified in principle, because rules that are written by security agencies always harm trade more than they protect national security.",
+          "C) Singapore, Malaysia and the other listed countries are the main losers from the rule, since every data centre they host will be forced to close as a consequence.",
+          "D) The rule shifts control from the chip to the customer and place, with gains and costs, so its merit lies in design, not security versus trade."
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The passage frames the rule as a shift in the unit of control (object to customer and place), analyses each unit’s advantages and costs, and concludes that the debate is about design. D captures this.<br><br>• <strong>Why Option A is Wrong:</strong> The author notes loopholes and an expected adaptation (whack-a-mole). “Permanently” and “fully” are contradicted.<br><br>• <strong>Why Option B is Wrong:</strong> The author treats the rule as a matter of trade-offs and does not say controls are unjustified. “Always” is an unsupported absolute.<br><br>• <strong>Why Option C is Wrong:</strong> The passage says the rule “could” hurt such countries, quoting analysts; it never says every data centre will close.<br><br><strong>💡 Approach:</strong> Central-argument questions: find the thesis that recurs (unit of control). Reject absolutes and options that treat quoted opinion as fact."
+      },
+      {
+        "id": "q2",
+        "question": "Which of the following can be inferred from the passage?",
+        "options": [
+          "A) The rule applies only to chips that are physically shipped, and leaves the rental of computing time unaffected.",
+          "B) A firm may be treated differently under the rule by headquarters as well as by where its data centre stands.",
+          "C) The earlier AI Diffusion Rule had been enforced vigorously and was found to have caused serious harm to American companies.",
+          "D) Commerce has already imposed import restrictions on all five of the countries named in the rule as risks of diversion."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> Part one of the rule turns on where the customer is headquartered (China, Macau and similar), while part two turns on the destination country. Treatment can therefore depend on headquarters as well as location.<br><br>• <strong>Why Option A is Wrong:</strong> The rule’s main purpose is to cover remote access, i.e. the rental of computing time.<br><br>• <strong>Why Option C is Wrong:</strong> The passage says the earlier framework was adopted but never enforced.<br><br>• <strong>Why Option D is Wrong:</strong> Import restrictions are listed only as a possible future consequence for countries that tolerate evasion.<br><br><strong>💡 Approach:</strong> Inference: match each option to what the text says; opposites of the stated facts are common traps."
+      },
+      {
+        "id": "q3",
+        "question": "The author compares the control of chips alone to “guarding the vault door while leaving the window open” in order to:",
+        "options": [
+          "A) show that the earlier rules were poorly designed by officials who did not understand how chips operate",
+          "B) argue that data centres abroad are the main source of the thefts of advanced chips from American firms",
+          "C) illustrate that controlling the object but not the service leaves a way round the rule",
+          "D) suggest that the new rule is certain to close every route of access that Chinese companies might use"
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The image follows the explanation that a company which cannot buy a chip can rent time on one; controlling only the object leaves the service route open.<br><br>• <strong>Why Option A is Wrong:</strong> No criticism of officials’ understanding is offered; the earlier approach is described as controlling objects.<br><br>• <strong>Why Option B is Wrong:</strong> The passage speaks of remote access and renting computation, not thefts.<br><br>• <strong>Why Option D is Wrong:</strong> The metaphor describes the gap in the earlier approach; the author says loopholes remain under the new rule.<br><br><strong>💡 Approach:</strong> Function: read the sentence before the metaphor; the figure of speech illustrates the point just made."
+      },
+      {
+        "id": "q4",
+        "question": "Which of the following, if true, would most weaken the author’s concern that a customer-based test requires a demanding regime of identification?",
+        "options": [
+          "A) Companies seeking to avoid the rule can easily reorganise themselves so that they appear to be headquartered outside China.",
+          "B) Every company renting AI computing must list its headquarters, owners and customers in a verified public database.",
+          "C) Several of the named countries have asked for more time to consider the effects of the rule on their economies.",
+          "D) Chinese AI developers are able to rent computing power from providers located in countries not named in the rule."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> If a verified database already records headquarters, ownership and customers, identification is no longer demanding, which weakens the concern.<br><br>• <strong>Why Option A is Wrong:</strong> Easy reorganisation supports the author’s concern about structuring.<br><br>• <strong>Why Option C is Wrong:</strong> Requests for more time concern effects on economies, not the difficulty of identification.<br><br>• <strong>Why Option D is Wrong:</strong> This raises a different issue (loopholes by place) and does not address identification.<br><br><strong>💡 Approach:</strong> Weaken: the claim is that the test is hard to administer. Evidence that the facts are easy to check weakens it."
+      },
+      {
+        "id": "q5",
+        "question": "The author’s discussion of what the rule controls is most closely parallel to which of the following?",
+        "options": [
+          "A) A city bans the sale of fireworks but not their use, then finds that residents buy them in a neighbouring town.",
+          "B) A school bans mobile phones in its classrooms and later extends the ban to smartwatches that perform the same functions.",
+          "C) A bank checks the identity of each person who opens an account but does not check the source of the money deposited.",
+          "D) A shop offers a discount to loyal customers and then discovers that many customers have registered several cards."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Controlling the sale of the object while leaving use unaffected, so that the restriction is avoided by obtaining the object elsewhere, mirrors controlling chips alone while remote access remains. A also shows the “whack-a-mole” adaptation.<br><br>• <strong>Why Option B is Wrong:</strong> This is an extension to an equivalent object, not a shift between object, customer and place.<br><br>• <strong>Why Option C is Wrong:</strong> This concerns checks on source of funds, not the choice of unit of control.<br><br>• <strong>Why Option D is Wrong:</strong> This is gaming of a discount scheme and does not involve shifting the unit of control.<br><br><strong>💡 Approach:</strong> Parallel: abstract the structure (control one stage, behaviour moves to another) and match."
+      },
+      {
+        "id": "q6",
+        "question": "With which of the following would the author most likely agree?",
+        "options": [
+          "A) Security-minded and trade-minded observers can both be partly right, since the rule involves trade-offs not settled in advance.",
+          "B) Country-based tests are superior to customer-based tests in every respect, because they are so difficult for firms to evade by changing form.",
+          "C) The rule will be a success only if it prevents every future attempt by Chinese firms to obtain computing power in the countries named.",
+          "D) The evidence of the rule’s success will be easily available, because evasion normally leaves a clear record for officials to examine."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The final paragraph says the debate is not a simple contest, that both camps may turn out to be right, and that the verdict will take months.<br><br>• <strong>Why Option B is Wrong:</strong> The author calls place-based tests blunt and notes the collateral damage; “superior in every respect” is contradicted.<br><br>• <strong>Why Option C is Wrong:</strong> The author says a rule can be judged only against evidence of what was prevented and does not demand perfection.<br><br>• <strong>Why Option D is Wrong:</strong> The author says evasion tries not to leave evidence, so evidence will be hard to obtain.<br><br><strong>💡 Approach:</strong> Agree-with: the conclusion’s balanced stance is the anchor; absolutes are traps."
+      }
+    ]
+  },
+  {
+    "id": "rc-2026-11-28",
+    "date": "2026-11-28",
+    "title": "Trusted Chains and Open Doors: The Club Logic of Pax Silica",
+    "genre": "Current Affairs / International Economics",
+    "difficulty": "IPMAT Extreme Standard",
+    "wordCount": "1014 words",
+    "vocab": {
+      "words": [
+        {
+          "word": "suzerainty",
+          "type": "noun",
+          "def": "Control by a dominant state over another state’s foreign affairs",
+          "ex": "The smaller state resented Ottoman suzerainty."
+        },
+        {
+          "word": "fealty",
+          "type": "noun",
+          "def": "A sworn loyalty to a lord, leader or cause",
+          "ex": "The members swore fealty to the common standard."
+        },
+        {
+          "word": "vassal",
+          "type": "noun",
+          "def": "A person or state in a subordinate position to another",
+          "ex": "No country wished to be seen as a vassal."
+        },
+        {
+          "word": "concord",
+          "type": "noun",
+          "def": "Agreement or harmony between people or nations",
+          "ex": "The talks ended in concord."
+        },
+        {
+          "word": "amity",
+          "type": "noun",
+          "def": "A friendly relationship, especially between states",
+          "ex": "A treaty of amity bound the two nations."
+        },
+        {
+          "word": "enmity",
+          "type": "noun",
+          "def": "A state of deep-seated hostility",
+          "ex": "Old enmity soured the negotiations."
+        },
+        {
+          "word": "comity",
+          "type": "noun",
+          "def": "Courteous and considerate behaviour between nations",
+          "ex": "The summit was marked by comity, not confrontation."
+        },
+        {
+          "word": "détente",
+          "type": "noun",
+          "def": "The easing of strained relations between countries",
+          "ex": "A détente followed years of tension."
+        },
+        {
+          "word": "entente",
+          "type": "noun",
+          "def": "A friendly understanding between states, short of an alliance",
+          "ex": "They formed an entente on technology."
+        },
+        {
+          "word": "vicissitude",
+          "type": "noun",
+          "def": "A change of circumstances, usually unwelcome",
+          "ex": "The treaty survived the vicissitudes of politics."
+        }
+      ],
+      "idioms": [
+        {
+          "idiom": "put all one’s eggs in one basket",
+          "def": "To risk everything on a single venture",
+          "ex": "Relying on one supplier means putting all your eggs in one basket."
+        },
+        {
+          "idiom": "hedge one’s bets",
+          "def": "To reduce risk by backing more than one option",
+          "ex": "India hedged its bets between several partners."
+        },
+        {
+          "idiom": "strange bedfellows",
+          "def": "Unlikely allies brought together by circumstance",
+          "ex": "Trade rivalry made strange bedfellows of the two states."
+        },
+        {
+          "idiom": "play both sides",
+          "def": "To deal with opposing parties for one’s own advantage",
+          "ex": "The country was accused of playing both sides."
+        },
+        {
+          "idiom": "take sides",
+          "def": "To support one party in a dispute",
+          "ex": "The minister refused to take sides."
+        }
+      ],
+      "phrasalVerbs": [
+        {
+          "verb": "team up",
+          "def": "To join with others for a shared purpose",
+          "ex": "Ten countries teamed up on supply-chain security."
+        },
+        {
+          "verb": "line up with",
+          "def": "To align one’s position with another’s",
+          "ex": "India lined up with partners on the declaration."
+        },
+        {
+          "verb": "opt in",
+          "def": "To choose to take part in something",
+          "ex": "Members may opt in to individual working groups."
+        },
+        {
+          "verb": "buy into",
+          "def": "To accept or believe in an idea or plan",
+          "ex": "Not every member bought into the proposal."
+        },
+        {
+          "verb": "lean on",
+          "def": "To rely on, or to pressure, someone",
+          "ex": "Smaller states lean on larger partners for chips."
+        }
+      ]
+    },
+    "passage": "On 15 November, at a retreat of the US-led Pax Silica initiative, ten countries signed the San Francisco Declaration on the Secure Foundations of Enduring Prosperity. The signatories are India, the United States, Australia, Israel, Japan, South Korea, Qatar, Singapore, the United Arab Emirates and the United Kingdom, and the meeting was convened by the American Under-Secretary of State for Economic Affairs, Jacob Helberg. According to the State Department’s framing, as reported by Inc42, the declaration treats “economic security” as “fundamental to national security” and describes the safeguarding of artificial-intelligence supply chains as a “shared endeavour”. Its signatories commit to pursue resilience through diversified and trusted supply chains, to coordinate responses to disruptions and to “non-market policies” that distort the AI market, to protect private investment, and to cooperate on enforcing national policies that shield sensitive technologies and critical infrastructure from “undue access, influence, or control”. Five working groups are proposed, covering policy frameworks, adoption of AI in key sectors, cooperation across the AI stack, safe harbours and security hubs, and AI security and resilience.\n\nCommentators have framed the initiative as a counterweight to China, a reading encouraged by the labels attached to it in the press, though the summary of the declaration reviewed for this passage does not name any country, and nothing in it describes binding obligations. A reader may reasonably treat it as a political declaration of intent, to be judged by what its working groups eventually produce. For India, which according to reports had also joined an earlier Pax Silica declaration this year, the attraction is evident: the platform offers a way to coordinate with other economies on AI supply chains while the country builds up its own capacity in semiconductors and advanced computing, and to reduce its dependence on foreign components and equipment.\n\nThe logic of such an arrangement is that of a club. A club offers its members benefits that outsiders do not get: privileged access to technology, shared early warning of disruptions, coordinated action against pressure, and a larger market in which to invest. In exchange, it asks members to accept rules. The benefits depend on the rules being observed, and the rules depend on the membership being limited, since a club open to anyone could not guarantee that the trust on which its supply chains rest actually exists. This is why the key word in the declaration is “trusted”. A trusted supply chain is one in which each link is assumed not to be a channel for pressure or leakage, and trust, unlike price, cannot be settled by the market: it must be judged, and the judgement is political.\n\nThat is where the difficulties begin. “Non-market policies” and “undue influence” are phrases whose meaning depends on who is applying them. One government’s industrial policy is another’s distortion, and a subsidy that looks like ordinary support to its giver can look like unfair competition to everyone else. A club that leaves such terms undefined must decide, case by case, who is inside the standard and who outside, and members that differ in size and interests will not always agree. There is also a tension between the aim of diversification and the form of the club. Resilience comes from having many suppliers, yet a group of ten countries is by nature a smaller set of suppliers than the whole world, and supply chains concentrated among members may be less resilient than they appear if a shock hits the club as a whole.\n\nThe costs to non-members, and to members who also trade with them, are a further consideration. Technology rules that favour insiders tend to encourage outsiders to build parallel arrangements, and the world may drift towards rival blocs with separate standards, suppliers and finance. Supporters answer that fragmentation has already arrived and that the choice is between organised and disorganised versions of it; critics respond that a world divided into camps is poorer, and that members who rely on both sides for trade could find themselves pressed to choose. The point matters particularly to a country such as India, whose foreign policy has traditionally valued strategic autonomy, meaning freedom to deal with several partners without being committed to any single bloc. For such a country, membership of a club is not an alliance, and the question is how far it can enjoy the club’s benefits without incurring the obligations that a hard bloc would impose.\n\nStrategic autonomy is sometimes described as hedging, and hedging has its own logic. A state that hedges accepts a measure of cooperation with each of several powers in the hope of gaining from all and being dominated by none. Its risk is that each power will come to see the hedger as unreliable, while its reward is that no power can take its cooperation for granted. A declaration without binding commitments is an ideal instrument for such a policy, since it signals alignment on goals and leaves the country free to interpret the details. It follows that the declaration’s value to India and to other members will depend less on its text than on the working groups, which will decide whether words become standards, funds and joint projects.\n\nWhat, then, does this episode tell a reader trying to understand the news? It would be a mistake to expect a quick verdict, since a declaration signed in mid-November has not yet produced any visible outcome, and the first reports of such events are written before their consequences can be seen. First, that “supply-chain security” is a policy area in which economics and strategy merge, so that a measure may be judged either as a market arrangement or as a security one, and the two judgements can disagree. Second, that groupings of this kind should be assessed by the questions they leave open: who defines trust, how members are admitted or excluded, and what members give up. Third, that the same declaration can be read, with equal plausibility, as a step towards greater resilience and as a step towards a more divided world; the evidence that would settle the question lies in the future.",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Which of the following best expresses the central argument of the passage?",
+        "options": [
+          "A) Declarations like Pax Silica bring benefits but rest on undefined terms and judgements of trust, so their value depends on later implementation.",
+          "B) The San Francisco Declaration is a binding military alliance against China, and every signatory has agreed to cut trade ties with countries outside the group.",
+          "C) India has abandoned its tradition of strategic autonomy by joining the declaration, which proves that it now takes the side of the United States in every dispute.",
+          "D) Supply-chain clubs are certain to make the world more resilient, because diversification among ten members always protects them from any shock to supply."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> The passage describes the declaration, its club logic and the vagueness of key terms, then the diversification tension, costs to non-members and India’s hedging, and concludes that value depends on working-group outcomes. A captures this.<br><br>• <strong>Why Option B is Wrong:</strong> The passage says nothing in the summary describes binding obligations or names any country, and no ban on trade with outsiders is mentioned.<br><br>• <strong>Why Option C is Wrong:</strong> The author says membership of a club is not an alliance and that a declaration without binding commitments suits hedging; “abandoned” and “every dispute” are unsupported.<br><br>• <strong>Why Option D is Wrong:</strong> The author warns that supply chains concentrated among members may be less resilient. “Certain” and “always” contradict this.<br><br><strong>💡 Approach:</strong> Central-argument: choose the option that carries both the benefits and the caveats the author stresses."
+      },
+      {
+        "id": "q2",
+        "question": "According to the passage, why is the word “trusted” central to the logic of the club?",
+        "options": [
+          "A) Because trust can be established by the market in the same way that prices are, so officials need not be involved",
+          "B) Because only countries that already hold a large share of global chip production are able to qualify as trusted",
+          "C) Because the declaration defines trust in a precise legal formula that every signatory has already accepted in advance",
+          "D) Because no link may be a channel for pressure or leakage, and trust must be judged politically"
+        ],
+        "answer": 3,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option D is Correct:</strong> The third paragraph says a trusted chain is one where no link is a channel for pressure or leakage, and that trust, unlike price, cannot be settled by the market: it must be judged, politically.<br><br>• <strong>Why Option A is Wrong:</strong> The passage says the opposite: trust, unlike price, cannot be settled by the market.<br><br>• <strong>Why Option B is Wrong:</strong> Nothing in the passage ties trust to a share of chip production.<br><br>• <strong>Why Option C is Wrong:</strong> The author says the terms are left undefined and depend on who applies them.<br><br><strong>💡 Approach:</strong> Detail questions: return to the paragraph and match the exact reasoning."
+      },
+      {
+        "id": "q3",
+        "question": "The author raises the distinction between “market arrangement” and “security” judgements in the last paragraph in order to:",
+        "options": [
+          "A) argue that economic analysis is irrelevant to supply-chain policy because only strategic considerations affect the outcome",
+          "B) show that the same measure can be read in different ways, so one cannot settle the debate by labelling it",
+          "C) criticise the signatories for having failed to decide whether the declaration is economic or strategic in nature",
+          "D) prove that the declaration will achieve resilience for each of its signatories in the next few years"
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The author says the two judgements can disagree and that the declaration can be read as a step towards resilience or towards division; the labelling does not settle the issue.<br><br>• <strong>Why Option A is Wrong:</strong> The author says economics and strategy merge; neither is irrelevant.<br><br>• <strong>Why Option C is Wrong:</strong> No criticism of the signatories is made.<br><br>• <strong>Why Option D is Wrong:</strong> The author says the evidence lies in the future and offers no such proof.<br><br><strong>💡 Approach:</strong> Function: link the distinction to the following sentences about equally plausible readings."
+      },
+      {
+        "id": "q4",
+        "question": "Which of the following, if true, would most weaken the author’s concern about concentration among the ten members?",
+        "options": [
+          "A) The members have different views on what counts as a non-market policy and have not agreed on a common definition.",
+          "B) Several non-members have begun to build their own parallel arrangements with separate standards and finance.",
+          "C) Suppliers inside the club are spread out and face unrelated risks, so a shock to one rarely touches the others.",
+          "D) India has traditionally valued strategic autonomy and avoided binding commitments to any single group of countries."
+        ],
+        "answer": 2,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option C is Correct:</strong> The concern is that a shock may hit the club as a whole. If members’ suppliers are spread out and face unrelated risks, concentration poses less danger, which weakens the concern.<br><br>• <strong>Why Option A is Wrong:</strong> Disagreement about definitions concerns trust and rules, not concentration of supply.<br><br>• <strong>Why Option B is Wrong:</strong> Parallel arrangements concern fragmentation and do not weaken the concentration concern.<br><br>• <strong>Why Option D is Wrong:</strong> India’s policy tradition has no bearing on whether concentration reduces resilience.<br><br><strong>💡 Approach:</strong> Weaken: the premise is that members’ risks are correlated. Evidence of independence defeats it."
+      },
+      {
+        "id": "q5",
+        "question": "Which of the following most closely parallels the author’s account of hedging by a state?",
+        "options": [
+          "A) A farmer sells to two buyers, hoping to gain from both and be controlled by neither, though each may doubt his loyalty.",
+          "B) A student studies one subject all year and neglects the others, hoping for a miraculous result in the final week of term.",
+          "C) A company pays its entire workforce the same salary in order to avoid any appearance of favouritism.",
+          "D) A traveller carries only cash and no cards, so as to avoid having to rely on any one bank."
+        ],
+        "answer": 0,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option A is Correct:</strong> Hedging means cooperating with several parties to gain from each and be dominated by none, at the risk that each sees the hedger as unreliable. The farmer matches all three elements.<br><br>• <strong>Why Option B is Wrong:</strong> Concentrating on one subject is the opposite of spreading dependence.<br><br>• <strong>Why Option C is Wrong:</strong> Uniform pay concerns fairness, not spreading dependence among partners.<br><br>• <strong>Why Option D is Wrong:</strong> Carrying only cash avoids reliance on one bank but has no counterparty who could judge the traveller unreliable.<br><br><strong>💡 Approach:</strong> Parallel: list the elements (several partners, gain from all, dominance by none, risk of distrust) and match the option that has them all."
+      },
+      {
+        "id": "q6",
+        "question": "With which of the following would the author most likely agree?",
+        "options": [
+          "A) A declaration with undefined key terms should be dismissed at once, since only treaties with binding clauses can have any lasting effect.",
+          "B) The initiative’s success cannot be judged from its text alone, since working groups decide whether words become standards and projects.",
+          "C) Fragmentation into blocs is a danger that arises only because of arrangements such as Pax Silica, and would not exist without them.",
+          "D) A country that wants to preserve its autonomy should refuse to take part in any grouping whose members share common goals."
+        ],
+        "answer": 1,
+        "explanation": "<strong>🧠 Detailed Option Analysis:</strong><br><br>• <strong>Why Option B is Correct:</strong> The sixth paragraph says the declaration’s value will depend less on its text than on the working groups, which decide whether words become standards, funds and joint projects.<br><br>• <strong>Why Option A is Wrong:</strong> The author treats a non-binding declaration as a useful instrument and says it should be judged by what follows, not dismissed.<br><br>• <strong>Why Option C is Wrong:</strong> The author reports that supporters say fragmentation has already arrived; the claim that it arises only from such arrangements is not endorsed.<br><br>• <strong>Why Option D is Wrong:</strong> The author says membership of a club is not an alliance, and that hedging involves cooperation with several powers, not refusal.<br><br><strong>💡 Approach:</strong> Agree-with: the author’s balanced conclusion and the “depends on working groups” point guide the answer."
+      }
+    ]
   }
 ]
