@@ -4726,5 +4726,596 @@
         "explanation": "Answer: 3-1-2-4. Step by step. Sentence 3 opens with the problem (official data arrive late). Sentence 1 introduces the quick substitute and its weakness (a single indicator is unreliable). Sentence 2 begins 'therefore' and presents the solution (combine many indicators). Sentence 4 begins 'A model of this kind' and says what the combined model can do. Tip: 'of this kind' follows the mention of the model type, here 'Nowcasting ... combines'."
       }
     ]
+  },
+  {
+    "id": "sec-2026-11-27",
+    "date": "2026-11-27",
+    "title": "IPMAT Indore VA Sectional – 27th Nov 2026 (Advanced Analytical – High Difficulty)",
+    "durationMinutes": 45,
+    "totalQuestions": 45,
+    "passages": {
+      "RC1": "For decades, an Indian family that wanted a foreign degree for a child had one option, which was to send the child abroad. The University Grants Commission's regulations of November 2023 offered a second: allow foreign institutions ranked in the world's top 500 to open campuses in India. By June 2026, five foreign universities, among them British and Australian institutions, had received letters of approval, and by August three branch campuses were physically operating. The numbers are small beside a system with tens of millions of students. The question worth asking is not whether the campuses are numerous, but what problem they are expected to solve and whether they can.\n\nThe first problem is outward spending. Indian students abroad pay tuition and living costs in foreign currency, a sum often described as tens of billions of dollars, and a campus at home could keep part of this expenditure inside the country. The argument is plausible, but it contains an assumption. It supposes that a student who would have left will instead enrol at the local campus. If the campus is mainly attractive to students who could never have afforded a foreign degree, it expands access without recovering any spending, which is a gain of a different sort.\n\nThe second problem is quality. A degree has value partly because employers trust the institution that awards it, and a famous name is a form of shorthand for that trust. The regulation's ranking criterion is a way of borrowing such trust for Indian students. Yet reputation attaches to a university's home faculty, laboratories and peers, and a branch campus may reproduce the syllabus without reproducing the surroundings. Critics warn that a regime that is easy to enter could attract weak operators who use a recognised name as a marketing device. The ranking threshold and the requirement of prior approval for new courses are the regulator's answer, but a rule at the point of entry says little about what happens ten years later.\n\nA third difficulty concerns where the campuses are located. Those that have opened are concentrated in a few places, such as a special financial zone in Gujarat and the city of Mumbai, where a wealthy minority can bear the fees. A campus is a business, and it will go where the paying students are. If the policy is expected to widen access in smaller cities, it must either offer incentives to locate there or accept that its benefit will be narrow. Neither outcome is a defect of the campuses themselves; each follows from asking a single policy to serve several purposes.\n\nThe effect on existing Indian institutions is harder to predict. Competition may force domestic universities to improve their teaching and to pay their faculty more, since the best teachers now have additional employers. But it may also draw away the students who can afford high fees and leave the public institutions with the rest, a pattern that could widen differences within the system. Defenders say the answer lies in tying the campuses to research and partnerships with local universities, so that the visitor's expertise is shared and not merely sold.\n\nThe sensible verdict, in short, is that foreign campuses are a useful addition and an incomplete solution. They will help certain families and certain subjects, and they will not by themselves repair the shortage of good places that sends students overseas in the first place. A policy that sets out to do too much invites disappointment, and a policy judged against a modest purpose may deserve a fairer hearing than it will receive from those who expected a transformation.",
+      "RC2": "A major international study has reported that a simple blood test can help predict Alzheimer's-related cognitive decline years before symptoms appear. The finding was welcomed, and it should be. But the headline says nothing about the question that most affects a person who is offered the test: if the result is positive, how likely is it that I will really develop the disease? The answer depends on arithmetic that is seldom taught and often neglected, and that arithmetic should be understood before screening becomes routine.\n\nConsider a test that is accurate in the ordinary sense. Suppose that it correctly identifies ninety per cent of the people who will develop the condition, and correctly clears ninety per cent of those who will not. Those figures describe the test's sensitivity and its specificity, and they seem to promise that a positive result is nearly decisive. They do not. What a positive result means depends on a third quantity, which is how common the condition is in the group being tested. If one person in a hundred will develop it, then out of a thousand people tested, ten will, and nine of them will be caught. Of the remaining nine hundred and ninety, ten per cent, or ninety-nine, will be wrongly flagged. Of the 108 who test positive, only nine are truly at risk, so a positive result is wrong about eleven times in twelve.\n\nThis is the base-rate problem, and it explains why the same test can be useful in one setting and misleading in another. Applied to people who are already at high risk, in whom the condition is common, a positive result is reliable. Applied to the general population, it generates a crowd of false alarms. Researchers know this, which is why studies of such tests usually report their results for specified groups, and why the phrase 'the highest-risk individuals', which appears in accounts of the study, matters more than it may seem. A finding about those at the top of the risk scale is not a finding about everyone.\n\nA second, independent test changes the arithmetic considerably. If the 108 people flagged in the example are tested again, about eight of the nine who are truly at risk will be flagged a second time, together with about ten of the ninety-nine who are not. Of the eighteen or so positives that remain, a little under half are real. Repeating the test has turned a result that was wrong eleven times in twelve into one that is wrong a little more than half the time, and a third test would improve matters further. Confirmation, in other words, is not a luxury; it is how a weak signal is turned into a usable one.\n\nThe consequences of a false alarm are not trivial. A person told that he is likely to develop a serious illness may suffer anxiety, change his plans, or face discrimination if the result becomes known, and all of this happens before any treatment is available to offset the cost. When effective treatment exists, the balance shifts, because early knowledge allows action. Where it does not, the case for screening rests on weaker ground: the information may have value for planning and for research, but its value to the individual is less obvious. A test that predicts a disease which cannot yet be prevented offers knowledge without remedy.\n\nNone of this is an argument against the research. A reliable early marker is exactly what trials of new treatments require, since they need to enrol people before the damage is done. The argument is for care in how results are communicated. A responsible account of a screening test will report not only how well it performs, but in whom, at what prevalence and with what follow-up. Without these particulars, the statement that a test is 'ninety per cent accurate' sounds like a promise and conceals the fact that it may be a gamble.",
+      "RC3": "Retail investors pulled nearly 234 billion rupees out of Indian equities in October and November, according to exchange data reported by a business daily, even as the benchmark indices rose. The pairing of rising prices with net selling by small investors invites explanation, and the explanations on offer say as much about the people who propose them as about the market. It is a useful case in which to ask what a statistic can and cannot prove.\n\nThe most natural reading is that small investors are taking profits. Having watched prices climb, they sell to lock in a gain, much as a farmer sells a crop when prices are high. This account is consistent with the data, but so are others. Some investors may be selling because they need cash, for weddings, school fees or debts, and the timing of the market is incidental. Others may be moving their savings from direct holdings into mutual funds, in which case the money has not left the market at all; it has changed hands. A net outflow from one category of investor does not tell us why it occurred.\n\nThe identity of the buyers on the other side is equally important. Every share sold must be bought, so that if retail investors are net sellers, someone else must be net buyers: domestic institutions, foreign funds, or the promoters of companies themselves. If the buyers are institutions managing the regular contributions of millions of savers, the market is being supported by steady money, and the retail outflow may be unimportant. If the buyers are foreign funds that can leave quickly, the position is more precarious. The retail figure, taken alone, is half of a transaction, and half a transaction is difficult to interpret.\n\nThere is also the matter of what is counted. A figure for 'retail investors' is a construction. Depending on the definition, it may include or exclude small investors who hold shares through funds, those who trade through brokers' platforms, and those whose holdings are small but numerous. A change in the definition, or in the rules for reporting, can alter the apparent trend without any change in behaviour. It is prudent to ask how the category was defined before drawing a conclusion from a movement in it.\n\nThe period itself deserves a caution. Two months is a short window for flows that are noisy by nature, and monthly figures for small investors can swing with the calendar, with the timing of public share offerings and with festival-season spending. A pattern that looks like a decision may be a fluctuation, and the surest way to be misled is to explain a fluctuation as though it were a trend. Analysts who observe an outflow in one month and an inflow in the next will, with equal confidence, offer a reason for each.\n\nThat tendency to supply a reason for whatever happens leads to a further trap. A commentator who is bullish will read the outflow as healthy rotation, by which cautious money leaves and confident money enters. A commentator who is bearish will read the same figure as a loss of faith. The data cannot decide between them, because each story was built to fit the figure after it appeared. A disciplined analyst states in advance what result would show that her view is wrong; one who cannot do so is describing a belief, not testing a theory.\n\nFinally, behaviour of this kind raises a question about whether small investors are wise. Studies of individual investors in many countries suggest that they often buy after prices have risen and sell after they have fallen, to their cost. If that pattern applied here, then selling into a rally would be the unusual exception, and the more common error would be the opposite. But a single two-month figure cannot settle a question that requires years of evidence on how individual portfolios actually perform. The measured response to such a statistic is to treat it as a prompt for questions, and not as an answer.",
+      "CA1": "CONVERSATION ANALYSIS: Read the following transcript and choose the answer that is closest to each of the questions that are based on the transcript.\n\nRitu Sen (Host, Workplace Desk): A mid-sized firm ran a six-month pilot of a four-day work week. At the end, it reported that productivity was unchanged and that ninety per cent of employees wanted to continue. Does that settle the matter?\n\nProf. Anil Verma (organisational researcher): It is encouraging, but I would want to know how the pilot was set up. First, who took part? If the teams volunteered, they are probably the ones who were already well organised and most likely to make the arrangement work. A result from volunteers tells us about volunteers.\n\nRitu Sen: And the ninety per cent?\n\nProf. Verma: That is the number most easily misread. People who are given a benefit for six months will naturally say they like it. The question that matters is whether the work was done as well, and that needs a measure that does not depend on their own opinion. Customer complaints, error rates, delivery times: these are harder to flatter.\n\nRitu Sen: Might the participants simply have worked harder because they knew they were being watched?\n\nProf. Verma: That is possible, and the effect has a name. People who know they are observed often change their behaviour, and the change fades once the novelty has passed. Six months is long enough to reduce it, but not necessarily long enough to remove it.\n\nRitu Sen: So the pilot is worthless?\n\nProf. Verma: Not at all. It shows that the arrangement can work under good conditions, which is a real finding. What it does not show is that it will work in every team. For that, I would extend it to teams chosen at random and compare them with teams that stay on the old schedule."
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "type": "RC",
+        "question": "Which of the following best captures the central argument of the passage?",
+        "passageId": "RC1",
+        "options": [
+          "Foreign campuses will end the outward flow of Indian students, since a degree from a famous name can now be earned at home",
+          "Foreign campuses should be discouraged, because they lower quality and draw the best students away from public institutions",
+          "The number of foreign campuses is too small to matter, and so the policy that permits them is a failure of the government",
+          "Foreign campuses are a useful but incomplete answer, since one policy is asked to serve purposes it cannot fully meet"
+        ],
+        "answer": 3,
+        "explanation": "Answer: useful but incomplete, since one policy is asked to serve several purposes. Why: the opening asks 'what problem they are expected to solve and whether they can'; paragraph 4 says each outcome 'follows from asking a single policy to serve several purposes'; the last paragraph calls them 'a useful addition and an incomplete solution'. Why the others fail: the author says they 'will not by themselves repair the shortage'; the author does not call for discouraging them; and the opening says the question is not whether the campuses are numerous, so 'too small to matter' misses the argument. Tip: a verdict-style main idea should echo the author's own balanced conclusion."
+      },
+      {
+        "id": "q2",
+        "type": "RC",
+        "question": "The passage says that the argument that a campus at home would recover outward spending 'contains an assumption'. The assumption is that",
+        "passageId": "RC1",
+        "options": [
+          "every foreign university that is ranked in the top 500 will open a campus in India within a few years of approval",
+          "a student who would have gone abroad will enrol at the local campus instead",
+          "the fees at a campus in India will be lower than the cost of tuition and living abroad for the same degree",
+          "Indian students abroad spend their money mainly on tuition and very little on their living costs in foreign countries"
+        ],
+        "answer": 1,
+        "explanation": "Answer: that students who would have left will enrol locally. Why: paragraph 2 says 'It supposes that a student who would have left will instead enrol at the local campus', and adds that if the campus attracts those who could never have afforded a foreign degree, it 'expands access without recovering any spending'. Why the others fail: the number of campuses and the level of fees are not the stated assumption; and the passage says students pay both tuition and living costs. Tip: find the sentence beginning 'It supposes' or 'assumes'."
+      },
+      {
+        "id": "q3",
+        "type": "RC",
+        "question": "According to the passage, a rule at the point of entry, such as a ranking threshold, is of limited help in ensuring quality because",
+        "passageId": "RC1",
+        "options": [
+          "it says little about later conduct, and reputation attaches to the home faculty and peers",
+          "employers do not trust any institution that has been approved by the regulator, whatever its ranking in the world",
+          "the ranking threshold applies only to universities that are located in the cities where branch campuses are permitted",
+          "weak operators are unable to use a recognised name as a marketing device once the regulator has approved them"
+        ],
+        "answer": 0,
+        "explanation": "Answer: an entry rule says little about later conduct, and reputation belongs to the home institution. Why: paragraph 3 says 'reputation attaches to a university's home faculty, laboratories and peers' and that 'a rule at the point of entry says little about what happens ten years later'. Why the others fail: employers' trust is described as based on the name; the threshold is not linked to cities; and the passage warns that weak operators may use a name for marketing. Tip: when the question asks 'because', quote-match the sentence that explains the limit."
+      },
+      {
+        "id": "q4",
+        "type": "RC",
+        "question": "Which of the following can be inferred from the paragraph about the location of the campuses?",
+        "passageId": "RC1",
+        "options": [
+          "Campuses located in Mumbai and Gujarat are better than campuses that might be set up in smaller cities of the country",
+          "Foreign universities are unwilling to open campuses anywhere in India except in the cities where they have alumni",
+          "To widen access in smaller cities, the policy must offer incentives for locating there, since campuses go where paying students are",
+          "A campus that charges high fees cannot be regarded as a business, and so has no need to consider where students are"
+        ],
+        "answer": 2,
+        "explanation": "Answer: to widen access to smaller cities the policy needs incentives, since campuses go where paying students are. Why: paragraph 4 says 'A campus is a business, and it will go where the paying students are' and that the policy 'must either offer incentives to locate there or accept that its benefit will be narrow'. Why the others fail: no comparison of quality between cities is made; alumni are not mentioned; and the passage explicitly calls a campus a business. Tip: inference = the conclusion that follows from the author's logic, without adding new facts."
+      },
+      {
+        "id": "q5",
+        "type": "RC",
+        "question": "Which of the following is NOT mentioned in the passage as a possible effect of foreign campuses on existing Indian institutions?",
+        "passageId": "RC1",
+        "options": [
+          "Pressure on domestic universities to improve their teaching and to pay their faculty more",
+          "A fall in the fees charged by public institutions, because they must match the lower fees that foreign campuses charge",
+          "A loss of fee-paying students from public institutions, widening differences within the system",
+          "Greater sharing of expertise if the campuses are tied to research and partnerships with local universities"
+        ],
+        "answer": 1,
+        "explanation": "Answer: the claim that public institutions would cut fees to match foreign campuses. Why: paragraph 5 never says foreign campuses charge lower fees, and fees at public institutions are not discussed. Why the others ARE mentioned: paragraph 5 says competition may force domestic universities to improve and pay faculty more; that students who can afford high fees may leave, widening differences; and that defenders propose partnerships so expertise is shared. Tip: in NOT-questions, check each option against the paragraph; the odd one out is the one with no source."
+      },
+      {
+        "id": "q6",
+        "type": "RC",
+        "question": "The author's tone in the final paragraph is best described as",
+        "passageId": "RC1",
+        "options": [
+          "enthusiastic, since the author believes the campuses will solve the shortage of good places that sends students overseas",
+          "dismissive, since the author thinks that the campuses are of no use to any family or any subject of study",
+          "alarmed, since the author fears that the campuses will cause serious harm to every institution in the system",
+          "balanced, recognising real benefits while warning that a modest purpose should not be judged against hopes of a transformation"
+        ],
+        "answer": 3,
+        "explanation": "Answer: balanced. Why: the paragraph says campuses 'will help certain families and certain subjects, and they will not by themselves repair the shortage', and says a policy 'judged against a modest purpose may deserve a fairer hearing'. Why the others fail: 'enthusiastic' contradicts 'incomplete solution'; 'dismissive' contradicts 'a useful addition'; 'alarmed' is not supported, since the author also finds benefits. Tip: tone questions are answered by the qualifiers, such as 'certain' and 'by themselves'."
+      },
+      {
+        "id": "q7",
+        "type": "RC",
+        "question": "The primary purpose of the passage is to",
+        "passageId": "RC2",
+        "options": [
+          "argue that blood tests for early signs of the disease are unreliable and that research into them should be stopped at once",
+          "explain how the sensitivity and specificity of a medical test are calculated by researchers in the laboratories that develop it",
+          "show that what a positive result means depends on how common the condition is, and to urge care in reporting",
+          "persuade the public that early knowledge of a serious illness is always harmful when no effective treatment is yet available"
+        ],
+        "answer": 2,
+        "explanation": "Answer: to show that a positive result's meaning depends on how common the condition is, and to urge care in reporting. Why: paragraph 2 says what a positive result means 'depends on a third quantity, which is how common the condition is'; the last paragraph says 'The argument is for care in how results are communicated'. Why the others fail: the last paragraph says 'None of this is an argument against the research'; the passage defines sensitivity and specificity only in passing; and it says the case for screening rests on 'weaker ground', not that knowledge is 'always harmful'. Tip: purpose includes the call to action in the final paragraph."
+      },
+      {
+        "id": "q8",
+        "type": "RC",
+        "question": "In the passage's example, out of a thousand people tested, the number who are wrongly flagged is",
+        "passageId": "RC2",
+        "options": [
+          "ninety-nine, because ten per cent of the nine hundred and ninety who will not develop the condition test positive",
+          "ten, because one person in a hundred is wrongly told that he will develop the condition by the test",
+          "nine, because ninety per cent of the ten people who will develop the condition are caught by the test",
+          "ninety, because ten per cent of the thousand people who are tested are wrongly flagged as positive"
+        ],
+        "answer": 0,
+        "explanation": "Answer: ninety-nine. Why: the passage says one in a hundred will develop it (10 of 1,000); 990 will not; ten per cent of 990 is 99 'wrongly flagged'. Why the others fail: ten is the number who will develop the condition; nine is the number correctly caught; ninety applies the ten per cent to all 1,000, forgetting that only those who will not develop the condition can be wrongly flagged. Tip: apply the false-positive rate only to the people without the condition."
+      },
+      {
+        "id": "q9",
+        "type": "RC",
+        "question": "Suppose the condition were present in one person in ten instead of one in a hundred, with the same sensitivity and specificity. According to the passage's reasoning, a positive result would then be correct about",
+        "passageId": "RC2",
+        "options": [
+          "nine times in ten, since the test correctly identifies ninety per cent of the people who will develop the condition",
+          "one time in twelve, since a positive result is correct about as often as in the passage's original example",
+          "one time in five, since the proportion of the population who are affected has risen by a factor of ten",
+          "half the time, since ninety true positives are matched by ninety false ones"
+        ],
+        "answer": 3,
+        "explanation": "Answer: about half the time. Working: 1,000 people; 100 affected, of whom 90 are caught; 900 unaffected, of whom 10 per cent, or 90, are wrongly flagged; so 180 positives, of which 90 are true: one in two. Why the others fail: 'nine in ten' confuses sensitivity with the value of a positive result; 'one in twelve' is the original, lower-prevalence case; and 'one in five' has no basis in the calculation. Tip: when prevalence rises, a positive result becomes more reliable, but never as reliable as the test's headline accuracy."
+      },
+      {
+        "id": "q10",
+        "type": "RC",
+        "question": "The author mentions 'the highest-risk individuals' in accounts of the study in order to show that",
+        "passageId": "RC2",
+        "options": [
+          "the study was conducted only on people who already had symptoms of the disease at the time of the test",
+          "a finding for people at the top of the risk scale, where the condition is common, does not apply to the general population",
+          "journalists who reported the study deliberately exaggerated its findings in order to attract public attention",
+          "the blood test is more accurate for the highest-risk individuals because they have a larger quantity of the marker"
+        ],
+        "answer": 1,
+        "explanation": "Answer: a finding for the high-risk group does not carry over to the general population. Why: paragraph 3 says applied to high-risk people 'a positive result is reliable' but to the general population 'it generates a crowd of false alarms', and that 'A finding about those at the top of the risk scale is not a finding about everyone.' Why the others fail: the study's aim was to predict decline BEFORE symptoms; no exaggeration by journalists is alleged; and the reason given is prevalence, not a larger quantity of the marker. Tip: the difference lies in the base rate, not in the test."
+      },
+      {
+        "id": "q11",
+        "type": "RC",
+        "question": "Which of the following is the best statement of the effect of a second, independent test, as described in the passage?",
+        "passageId": "RC2",
+        "options": [
+          "It raises the share of true cases among positives, since most false alarms are not flagged again",
+          "It guarantees that every person who is flagged twice will develop the condition, and removes the need for any other evidence",
+          "It doubles the number of false alarms, since each person who tests positive is wrongly flagged a second time as well",
+          "It shows that the first test was useless, because a test that must be repeated cannot have been accurate in the first place"
+        ],
+        "answer": 0,
+        "explanation": "Answer: it raises the share of true cases among positives because most false alarms are not flagged again. Why: the added paragraph says about eight of nine true cases and about ten of 99 false ones are flagged again, leaving 'a little under half' real, and concludes 'Confirmation ... is how a weak signal is turned into a usable one'. Why the others fail: 'guarantees' overstates (under half remain real after one retest); false alarms are reduced, not doubled; and a repeat does not show the first was useless. Tip: avoid 'guarantee' and 'useless' options."
+      },
+      {
+        "id": "q12",
+        "type": "RC",
+        "question": "Which of the following, if true, would most weaken the author's claim that screening for a disease with no effective treatment rests on 'weaker ground'?",
+        "passageId": "RC2",
+        "options": [
+          "Many people who have a positive result later discover that they were wrongly flagged by the test",
+          "Researchers need people who have not yet been damaged by the disease to enrol in trials of new treatments",
+          "Early knowledge lets people plan their finances and care, and they report less distress than others",
+          "Several screening tests for other diseases have been abandoned because they produced too many false alarms"
+        ],
+        "answer": 2,
+        "explanation": "Answer: if early knowledge improves outcomes through planning even without treatment, the claim that the case is weak is directly challenged. Why: the passage says the case rests on weaker ground because the information's 'value to the individual is less obvious'; evidence of benefit to the individual removes that. Why the others do not weaken: wrongly flagged people support the weakness; trial enrolment is the research argument the author already grants separately; abandoned tests for other diseases point the same way. Tip: to weaken 'X has little value', show X has value."
+      },
+      {
+        "id": "q13",
+        "type": "RC",
+        "question": "Which of the following best states the main point of the passage?",
+        "passageId": "RC3",
+        "options": [
+          "Retail investors in India are unwise, since they sell shares when prices are rising and buy them when prices are falling",
+          "A single statistic about retail selling cannot show why it occurred, so it should be treated as a prompt for further questions",
+          "The net outflow by retail investors proves that confidence in the market has been lost despite the rise in the benchmark indices",
+          "Institutions and foreign funds, and not retail investors, determine the direction of the market in every month of the year"
+        ],
+        "answer": 1,
+        "explanation": "Answer: one statistic cannot show why, so treat it as a prompt for questions. Why: the opening says the case asks 'what a statistic can and cannot prove', and the last paragraph says 'treat it as a prompt for questions, and not as an answer'. Why the others fail: the passage says a two-month figure cannot settle whether small investors are wise; it says the data cannot decide between 'loss of faith' and 'rotation'; and it never claims institutions determine the market in every month. Tip: the final sentence often states the thesis."
+      },
+      {
+        "id": "q14",
+        "type": "RC",
+        "question": "The passage mentions investors moving savings from direct holdings into mutual funds in order to show that",
+        "passageId": "RC3",
+        "options": [
+          "an outflow from direct holdings may not mean money has left the market, since it has changed hands",
+          "mutual funds are a safer form of investment than direct holdings and should be preferred by every small investor",
+          "retail investors who sell their shares are certain to reinvest the money in a mutual fund within a few months",
+          "the data on retail outflows are false, because exchange data cannot record a movement from one holding to another"
+        ],
+        "answer": 0,
+        "explanation": "Answer: an outflow from direct holdings may not mean money has left the market. Why: paragraph 2 says in that case 'the money has not left the market at all; it has changed hands'. Why the others fail: safety is not discussed; 'certain' overstates a possibility; and the passage does not call the data false. Tip: a possibility offered in a list of explanations should not be turned into a certainty."
+      },
+      {
+        "id": "q15",
+        "type": "RC",
+        "question": "According to the passage, why is the retail figure, 'taken alone', difficult to interpret?",
+        "passageId": "RC3",
+        "options": [
+          "Because retail investors do not report their transactions to the exchanges on which the shares are bought and sold",
+          "Because retail investors always sell shares on the same day on which the institutions buy them in the market",
+          "Because the retail figure is calculated in a different currency from the figure for institutions and foreign funds",
+          "Because every share sold must be bought by someone, so the retail figure is half of a transaction and the identity of the buyers matters too"
+        ],
+        "answer": 3,
+        "explanation": "Answer: because every share sold must be bought, so the retail figure is half a transaction. Why: paragraph 3 says 'The retail figure, taken alone, is half of a transaction, and half a transaction is difficult to interpret.' Why the others fail: the data come from exchange data; same-day timing is not mentioned; and currency is irrelevant. Tip: the question's own quoted phrase leads to the sentence that explains it."
+      },
+      {
+        "id": "q16",
+        "type": "RC",
+        "question": "The passage implies that if the buyers on the other side of retail selling were foreign funds that can leave quickly, then",
+        "passageId": "RC3",
+        "options": [
+          "the benchmark indices would be certain to fall within the next two months as the foreign funds left the market",
+          "the retail outflow would be of no importance at all, since foreign funds are better informed than retail investors",
+          "the position would be more precarious than if the buyers were institutions managing the regular contributions of millions of savers",
+          "domestic institutions would be forced to sell their holdings, because foreign funds would no longer provide steady money"
+        ],
+        "answer": 2,
+        "explanation": "Answer: the position would be more precarious than with steady institutional buyers. Why: paragraph 3 says institutional money from regular contributions is 'steady money' and 'If the buyers are foreign funds that can leave quickly, the position is more precarious.' Why the others fail: 'certain to fall' overstates; the passage says nothing about foreign funds being better informed; and no forced selling by institutions is mentioned. Tip: 'more precarious' is comparative, not a prediction."
+      },
+      {
+        "id": "q17",
+        "type": "RC",
+        "question": "Which of the following best explains why the author says analysts 'will, with equal confidence, offer a reason for each' month's figure?",
+        "passageId": "RC3",
+        "options": [
+          "Because analysts are paid by the exchanges to publish an explanation of every movement in the figures each month",
+          "Because the flows of retail investors are always caused by a single reason that does not change from month to month",
+          "Because analysts have access to the private accounts of retail investors and can therefore see their reasons directly",
+          "Because commentators supply a reason for whatever happens, and a story built afterwards fits any figure"
+        ],
+        "answer": 3,
+        "explanation": "Answer: because explanations built after the fact fit any movement. Why: the added paragraphs say that 'each story was built to fit the figure after it appeared' and that the data 'cannot decide between them'. Why the others fail: payment by exchanges, a single unchanging cause and access to private accounts are invented. Tip: wrong options often add outside facts the passage never gives."
+      },
+      {
+        "id": "q18",
+        "type": "RC",
+        "question": "Which of the following would the author most likely regard as the mark of a disciplined analyst?",
+        "passageId": "RC3",
+        "options": [
+          "Stating in advance what result would show that her own view is wrong, and so testing it and not merely asserting it",
+          "Offering a confident reason for every movement in the data as soon as the figures are published",
+          "Explaining a monthly fluctuation as a trend so that the reader gains a clear picture of the market",
+          "Preferring the view that is widely held by commentators because the majority is seldom mistaken"
+        ],
+        "answer": 0,
+        "explanation": "Answer: stating in advance what result would prove her wrong. Why: the paragraph says 'A disciplined analyst states in advance what result would show that her view is wrong; one who cannot do so is describing a belief, not testing a theory.' Why the others fail: confident reasons for every movement and treating fluctuations as trends are the errors the passage warns about; following the majority is not endorsed. Tip: the answer is often a near-quotation of the passage's positive statement."
+      },
+      {
+        "id": "q19",
+        "type": "RC",
+        "question": "Professor Verma says that 'a result from volunteers tells us about volunteers'. This means that",
+        "passageId": "CA1",
+        "options": [
+          "volunteers always perform better than employees who are assigned to a pilot by the management of the firm",
+          "the pilot should have been restricted to volunteers because only volunteers will make the arrangement work",
+          "the teams that volunteered were probably already well organised, so their success may not show how other teams would manage",
+          "the firm should not have reported the pilot's results to anyone outside the group that had volunteered"
+        ],
+        "answer": 2,
+        "explanation": "Answer: volunteers were probably already well organised, so their success may not generalise. Why: he says 'If the teams volunteered, they are probably the ones who were already well organised and most likely to make the arrangement work.' Why the others fail: 'always' overstates; he does not recommend restricting the pilot (he recommends random selection later); and he does not say the results should be withheld. Tip: self-selection limits generalisation."
+      },
+      {
+        "id": "q20",
+        "type": "RC",
+        "question": "Professor Verma regards the ninety per cent figure as 'the number most easily misread' because",
+        "passageId": "CA1",
+        "options": [
+          "ninety per cent is too small a proportion of employees to be of any use in assessing a pilot of this kind",
+          "people given a benefit say they like it, which does not show the work was done as well",
+          "employees who disliked the arrangement were not permitted to answer the survey at the end of the six months",
+          "the figure was calculated by the firm's management and not by an independent body of organisational researchers"
+        ],
+        "answer": 1,
+        "explanation": "Answer: people given a benefit say they like it, and this does not show the work was done as well. Why: he says 'People who are given a benefit for six months will naturally say they like it. The question that matters is whether the work was done as well', and suggests complaints, error rates and delivery times. Why the others fail: he does not call ninety per cent too small; nothing says dissenters were barred; and independence of the calculator is not his point. Tip: opinions measure satisfaction, not performance."
+      },
+      {
+        "id": "q21",
+        "type": "RC",
+        "question": "Which of the following best describes Professor Verma's final assessment of the pilot?",
+        "passageId": "CA1",
+        "options": [
+          "A real finding that it can work under good conditions, though not proof for every team",
+          "It is worthless, because the firm's employees knew that they were being observed during the six months of the pilot",
+          "It is conclusive, because productivity was unchanged and nine out of ten employees wished the arrangement to continue",
+          "It is premature, and the firm should abandon the pilot and begin again with teams chosen at random from the start"
+        ],
+        "answer": 0,
+        "explanation": "Answer: a real finding under good conditions, not proof for every team. Why: he says 'Not at all' to 'worthless' and 'It shows that the arrangement can work under good conditions, which is a real finding. What it does not show is that it will work in every team.' Why the others fail: he rejects 'worthless'; the findings are not 'conclusive'; and he suggests EXTENDING the pilot to random teams, not abandoning it. Tip: 'Not at all' is a direct rejection of the extreme option."
+      },
+      {
+        "id": "q22",
+        "type": "Vocabulary",
+        "question": "The ________ chairman rejected every compromise, even those that met all of the conditions that he himself had laid down at the start of the negotiations.",
+        "options": [
+          "amenable",
+          "conciliatory",
+          "recalcitrant",
+          "accommodating"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'recalcitrant' means stubbornly resisting authority or persuasion. The clue is that he 'rejected every compromise, even those that met all of the conditions' he had set. The others: 'amenable' (willing to agree), 'conciliatory' (seeking to make peace) and 'accommodating' (willing to oblige) are opposite. Tip: rejecting even what satisfies one's own conditions shows obstinacy."
+      },
+      {
+        "id": "q23",
+        "type": "Vocabulary",
+        "question": "The danger of the scheme was ________: no single step looked harmful, yet together the steps gradually eroded the protections that the law had once provided.",
+        "options": [
+          "conspicuous",
+          "insidious",
+          "benign",
+          "transient"
+        ],
+        "answer": 1,
+        "explanation": "Answer: 'insidious' means proceeding gradually and subtly, with harmful effects. The clue is 'no single step looked harmful' but together they 'gradually eroded' the protections. The others: 'conspicuous' (easily seen) contradicts 'no single step looked harmful'; 'benign' (harmless) contradicts the erosion; 'transient' (short-lived) does not match gradual damage. Tip: harm that creeps in unnoticed is insidious."
+      },
+      {
+        "id": "q24",
+        "type": "Vocabulary",
+        "question": "The failure proved a ________ lesson for the firm: it ended years of complacency and led to reforms that made it stronger than before.",
+        "options": [
+          "detrimental",
+          "gratuitous",
+          "spurious",
+          "salutary"
+        ],
+        "answer": 3,
+        "explanation": "Answer: 'salutary' means beneficial, especially though unpleasant. The clue is that the failure 'ended years of complacency' and 'led to reforms that made it stronger'. The others: 'detrimental' (harmful) contradicts the good result; 'gratuitous' (uncalled-for) and 'spurious' (false, not genuine) do not describe a lesson with these effects. Tip: an unpleasant event with good results is salutary."
+      },
+      {
+        "id": "q25",
+        "type": "Vocabulary",
+        "question": "The researchers were careful to ________ their claim: the result held only for the group that was ________, and it would be ________ to assume that it applied to the whole population.",
+        "options": [
+          "qualify; ignored; unwarranted",
+          "qualify; studied; unwarranted",
+          "exaggerate; studied; unwarranted",
+          "qualify; studied; essential"
+        ],
+        "answer": 1,
+        "explanation": "Answer: qualify; studied; unwarranted. Step by step. Careful researchers 'qualify' (limit) a claim; the result held only for the group that was 'studied'; assuming it applied to everyone would be 'unwarranted' (not justified). 'Ignored' would make the result hold for a group no one looked at; 'exaggerate' contradicts 'careful'; 'essential' contradicts the warning. Tip: the 'only for' clause tells you the limit."
+      },
+      {
+        "id": "q26",
+        "type": "Vocabulary",
+        "question": "A ________ regulator waits until harm is visible before acting, whereas a ________ one watches for early signs; the first approach is cheaper in the short run but ________ in the long run.",
+        "options": [
+          "reactive; proactive; costlier",
+          "proactive; reactive; costlier",
+          "reactive; proactive; cheaper",
+          "reactive; passive; costlier"
+        ],
+        "answer": 0,
+        "explanation": "Answer: reactive; proactive; costlier. Step by step. One that waits until harm is visible is 'reactive'; one that watches for early signs is 'proactive'. The first is cheaper in the short run but 'costlier' later, since harm has grown. Reversing the first two words contradicts the definitions; 'cheaper' repeats the short-run point instead of contrasting; 'passive' does not pair with 'whereas ... watches for early signs'. Tip: 'cheaper in the short run but ___' needs an opposite."
+      },
+      {
+        "id": "q27",
+        "type": "Vocabulary",
+        "question": "The speaker's tone was ________: she praised the achievements of the department, yet her careful choice of words ________ that she expected little from its leadership and was ________ of the claims made on its behalf.",
+        "options": [
+          "ironic; stated; sceptical",
+          "sincere; implied; sceptical",
+          "ironic; implied; trusting",
+          "ironic; implied; sceptical"
+        ],
+        "answer": 3,
+        "explanation": "Answer: ironic; implied; sceptical. Step by step. Praise that carries the opposite meaning is 'ironic'; 'careful choice of words' suggests rather than states, so 'implied'; and someone who expects little is 'sceptical' of the claims. 'Stated' contradicts 'careful choice of words'; 'sincere' contradicts the contrast signalled by 'yet'; 'trusting' contradicts 'expected little'. Tip: 'yet' marks a contrast between the surface and the meaning."
+      },
+      {
+        "id": "q28",
+        "type": "Vocabulary",
+        "question": "Although the sales figures were ________ by the festive season, the manager was ________ about the future, warning that the boost was ________ and would not last into the new year.",
+        "options": [
+          "inflated; wary; permanent",
+          "depressed; wary; temporary",
+          "inflated; wary; temporary",
+          "inflated; delighted; temporary"
+        ],
+        "answer": 2,
+        "explanation": "Answer: inflated; wary; temporary. Step by step. 'Although' signals contrast: figures were 'inflated' (artificially raised) by the season, yet the manager was 'wary' (cautious), warning the boost was 'temporary' and would not last. 'Permanent' contradicts 'would not last'; 'depressed' (lowered) does not fit a 'boost'; 'delighted' does not contrast with 'Although' and conflicts with 'warning'. Tip: a boost that 'would not last' is temporary."
+      },
+      {
+        "id": "q29",
+        "type": "Vocabulary",
+        "question": "The contract was so ________ that either side could ________ it to its own advantage; a lawyer who read it ________ called it an invitation to dispute.",
+        "options": [
+          "ambiguous; ignore; fairly",
+          "explicit; construe; fairly",
+          "ambiguous; construe; fairly",
+          "ambiguous; construe; reluctantly"
+        ],
+        "answer": 2,
+        "explanation": "Answer: ambiguous; construe; fairly. Step by step. A contract that either side can read to its own advantage is 'ambiguous' (open to more than one meaning); each side can 'construe' (interpret) it in its own favour; and a lawyer could 'fairly' (justly) call it an invitation to dispute. 'Ignore' does not give an advantage; 'explicit' (clear) contradicts the problem; 'reluctantly' does not fit 'called it an invitation to dispute'. Tip: 'to its own advantage' points to interpretation."
+      },
+      {
+        "id": "q30",
+        "type": "Vocabulary",
+        "question": "The new rules should ________ that firms disclose their fees, ________ customers that their money is safe, and ________ deposits against loss.",
+        "options": [
+          "assure; ensure; insure",
+          "ensure; insure; assure",
+          "insure; assure; ensure",
+          "ensure; assure; insure"
+        ],
+        "answer": 3,
+        "explanation": "Answer: ensure; assure; insure. ENSURE means to make certain (that firms disclose fees); ASSURE means to tell someone confidently so as to remove doubt (assure customers); INSURE means to cover with insurance (insure deposits). The other orders put the verbs in the wrong senses. Tip: you assure a person, ensure an outcome and insure an asset."
+      },
+      {
+        "id": "q31",
+        "type": "Vocabulary",
+        "question": "The reform aims to ________ a lasting change in behaviour, but its ________ on prices will be small, and it may adversely ________ small firms.",
+        "options": [
+          "effect; effect; affect",
+          "affect; effect; affect",
+          "effect; affect; affect",
+          "affect; affect; effect"
+        ],
+        "answer": 0,
+        "explanation": "Answer: effect; effect; affect. As a verb, EFFECT means to bring about (effect a change); as a noun, EFFECT means a result (its effect on prices); AFFECT as a verb means to influence (affect small firms). Tip: 'effect a change' brings it about; 'affect' something influences it; a noun after 'its' is usually 'effect'."
+      },
+      {
+        "id": "q32",
+        "type": "Vocabulary",
+        "question": "A ________ hum from the machines, ________ interruptions by visitors, and a long day made it hard to concentrate, though the team still gave a ________ performance.",
+        "options": [
+          "continual; continuous; creditable",
+          "continuous; continual; creditable",
+          "continuous; continuous; credible",
+          "continuous; continual; credible"
+        ],
+        "answer": 1,
+        "explanation": "Answer: continuous; continual; creditable. CONTINUOUS means without a break (a hum); CONTINUAL means recurring frequently, with breaks (interruptions). CREDITABLE means deserving praise; CREDIBLE means believable. So a continuous hum, continual interruptions and a creditable performance. Tip: continuous = unbroken; continual = repeated."
+      },
+      {
+        "id": "q33",
+        "type": "Vocabulary",
+        "question": "One of the statements below contains a word used incorrectly or inappropriately. Choose the option which has the incorrect or inappropriate usage of the word.",
+        "options": [
+          "The two teams meet on alternate Fridays.",
+          "The firm is looking for an alternative supplier.",
+          "Students must alternate between theory and practice.",
+          "The committee has no other alternate but to accept the offer."
+        ],
+        "answer": 3,
+        "explanation": "Answer: 'no other alternate but'. ALTERNATIVE (noun) means another choice or option, so the sentence should read 'no other alternative but to accept'. ALTERNATE (adjective) means every second one; (verb) to switch between two things. The other sentences are correct: 'alternate Fridays', 'an alternative supplier' and 'alternate between theory and practice'. Tip: a choice is an alternative; a rotation is an alternate."
+      },
+      {
+        "id": "q34",
+        "type": "Grammar",
+        "question": "I wish the government <u>was</u> more open about how the numbers were calculated.",
+        "options": [
+          "is",
+          "had",
+          "were",
+          "would be"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'were'. Rule: after 'wish' (for an unreal present situation), English uses the subjunctive 'were' for all persons: 'I wish the government were more open'. 'Is' states a fact and does not express a wish; 'had' needs a participle; 'would be' is used for wishes about changes to come, and the sentence then changes meaning. Tip: wish + were."
+      },
+      {
+        "id": "q35",
+        "type": "Grammar",
+        "question": "The number of applicants <u>have</u> risen sharply this year.",
+        "options": [
+          "has",
+          "are",
+          "were",
+          "have been"
+        ],
+        "answer": 0,
+        "explanation": "Answer: 'has'. Rule: 'The number of' takes a singular verb, because the subject is 'number'; compare 'A number of applicants have ...', where the verb is plural. 'Are' and 'were' are plural; 'have been' is plural. Tip: the number is; a number are."
+      },
+      {
+        "id": "q36",
+        "type": "Grammar",
+        "question": "She prefers working on weekdays <u>than</u> on weekends, because the office is quieter.",
+        "options": [
+          "rather than to work",
+          "to working",
+          "over to work",
+          "more than working"
+        ],
+        "answer": 1,
+        "explanation": "Answer: 'to working'. Rule: 'prefer' takes 'to', not 'than' or 'over': 'prefers working on weekdays to working on weekends'. 'Rather than to work' is not the construction required after 'prefers X'; 'over to work' and 'more than working' are not standard with 'prefer'. Tip: prefer X to Y."
+      },
+      {
+        "id": "q37",
+        "type": "Grammar",
+        "question": "Neither the manager nor the employees <u>was</u> aware of the change in the rules.",
+        "options": [
+          "is",
+          "has been",
+          "were",
+          "being"
+        ],
+        "answer": 2,
+        "explanation": "Answer: 'were'. Rule: with 'neither ... nor', the verb agrees with the noun closer to it; here 'the employees' is plural, so 'were'. 'Is' and 'has been' are singular; 'being' is a participle and cannot be the main verb. Tip: with either/or and neither/nor, agree with the nearer subject."
+      },
+      {
+        "id": "q38",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nA screening test that is correct nine times in ten can still mislead. ____________________. This is why the same test can be reliable for a high-risk group and misleading for the general population.",
+        "options": [
+          "When a condition is rare, the people wrongly flagged can outnumber those correctly flagged, so a positive result is often wrong.",
+          "When a condition is rare, the test becomes more accurate, since there are fewer people who can be wrongly flagged.",
+          "When a condition is common, the test becomes less accurate, since the people who are affected are harder to identify.",
+          "The accuracy of the test is unaffected by how common the condition is, since it is a property of the blood sample."
+        ],
+        "answer": 0,
+        "explanation": "Answer: when a condition is rare, false positives can outnumber true positives. Why: the final sentence contrasts high-risk groups (condition common) with the general population (rare), and says the test misleads in the latter; the blank must explain that rarity produces false alarms. Why the others fail: a rare condition does not make the test more accurate; a common condition makes a positive more reliable; and the passage says the meaning of a result depends on prevalence. Tip: 'This is why' summarises the blank's point."
+      },
+      {
+        "id": "q39",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nA pilot that is run with volunteers may succeed because the volunteers were well organised. ____________________. A fairer test would assign teams to the new arrangement at random and compare them with teams that stay as before.",
+        "options": [
+          "The success then proves that the arrangement will work in every team, since volunteers are a fair sample of all teams.",
+          "The success then says little about teams that did not volunteer, since the result may reflect the volunteers and not the arrangement.",
+          "The success then shows that organised teams should be excluded from future pilots, since they are not typical of the firm.",
+          "The success then depends on the number of days worked, since a pilot of a shorter week is always certain to succeed."
+        ],
+        "answer": 1,
+        "explanation": "Answer: the success says little about non-volunteers, since it may reflect the volunteers. Why: the next sentence proposes random assignment, which is the remedy for self-selection. Why the others fail: volunteers are not a fair sample; excluding organised teams is not proposed; and the number of days is unrelated to the self-selection problem. Tip: the remedy in the next sentence tells you the problem the blank states."
+      },
+      {
+        "id": "q40",
+        "type": "ParaCompletion",
+        "question": "Complete the paragraph logically:\n\nForeign campuses may help certain families and certain subjects. ____________________. A fair judgement of the policy will therefore ask what it was designed to achieve before asking whether it has achieved more.",
+        "options": [
+          "They will, however, repair the shortage of good places by themselves, so the policy deserves to be judged a great success.",
+          "They cannot help any families at all, so the policy should be judged by its effect on the public institutions alone.",
+          "They are, however, certain to harm every domestic university, so the policy cannot be defended on any ground.",
+          "They cannot, however, repair the shortage of good places by themselves, so judging them against that larger aim would be unfair."
+        ],
+        "answer": 3,
+        "explanation": "Answer: they cannot repair the shortage by themselves, so judging them against that larger aim is unfair. Why: the closing sentence says to ask 'what it was designed to achieve before asking whether it has achieved more', which follows if the campuses are being unfairly judged against an aim larger than their purpose. Why the others fail: they contradict the first sentence ('may help certain families') or give extreme claims ('will repair', 'certain to harm every'). Tip: 'therefore' signals that the blank supplies the premise for a measured judgement."
+      },
+      {
+        "id": "q41",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Of the thousand people tested, ten will develop it, and nine of them are caught.\n2. Suppose that one person in a hundred will develop the condition.\n3. A positive result is therefore wrong about eleven times in twelve.\n4. The test also wrongly flags ten per cent of the nine hundred and ninety who will not.\n5. That is ninety-nine false alarms against nine true cases.",
+        "answer": "21453",
+        "explanation": "Answer: 2-1-4-5-3. Step by step. Sentence 2 sets the assumption (one in a hundred). Sentence 1 gives the consequence for a thousand people (ten affected, nine caught). Sentence 4 begins 'also' and adds the false positives. Sentence 5 begins 'That is' and totals them (99 false against 9 true). Sentence 3 begins 'therefore' and concludes. Tip: 'That is' totals the preceding numbers; 'therefore' closes."
+      },
+      {
+        "id": "q42",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. Some of them may be selling because they need cash.\n2. Small investors sold shares even as prices rose.\n3. Others may simply be moving their savings into mutual funds.\n4. Several explanations fit this fact equally well.\n5. A single figure cannot tell us which of them is correct.",
+        "answer": "24135",
+        "explanation": "Answer: 2-4-1-3-5. Step by step. Sentence 2 states the fact. Sentence 4 says several explanations fit it. Sentence 1 gives the first ('Some of them'). Sentence 3 gives the second ('Others'). Sentence 5 concludes that one figure cannot tell which is right. Tip: 'Some ... Others ...' pairs go together, and a conclusion about 'which of them' comes after both."
+      },
+      {
+        "id": "q43",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. A campus is a business, and it goes where the paying students are.\n2. The campuses that have opened are concentrated in a few places.\n3. If the aim is to widen access, incentives for other locations are needed.\n4. Fees in those places can be borne by a wealthy minority.",
+        "answer": "2413",
+        "explanation": "Answer: 2-4-1-3. Step by step. Sentence 2 states the fact (concentrated in a few places). Sentence 4 begins 'in those places' and says the fees there can be borne by a wealthy minority. Sentence 1 explains why campuses go there (a business goes where paying students are). Sentence 3 begins 'If the aim is to widen access' and gives the policy implication. Tip: 'those places' needs 'a few places' to come first."
+      },
+      {
+        "id": "q44",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the five sentences (1-5) into a logical sequence (Type the 5-digit sequence as answer):\n\n1. People who know they are observed often change their behaviour.\n2. Productivity in the pilot was unchanged.\n3. That change fades as the novelty passes.\n4. The result may therefore partly reflect being watched.\n5. A longer pilot would reduce the effect, though not necessarily remove it.",
+        "answer": "21345",
+        "explanation": "Answer: 2-1-3-4-5. Step by step. Sentence 2 states the result. Sentence 1 introduces a possible influence (being observed). Sentence 3 begins 'That change' and says it fades. Sentence 4 begins 'therefore' and draws the conclusion about the result. Sentence 5 offers the remedy (a longer pilot). Tip: 'That change' must follow the sentence that mentions a change."
+      },
+      {
+        "id": "q45",
+        "type": "ParaJumble_TITA",
+        "question": "Rearrange the four sentences (1-4) into a logical sequence (Type the 4-digit sequence as answer):\n\n1. A degree has value partly because employers trust the institution.\n2. A branch campus may copy the syllabus but not the surroundings.\n3. A famous name is shorthand for that trust.\n4. Reputation, however, attaches to the home faculty and peers.",
+        "answer": "1342",
+        "explanation": "Answer: 1-3-4-2. Step by step. Sentence 1 introduces the idea of trust in the institution. Sentence 3 says a famous name is shorthand for 'that trust'. Sentence 4 begins 'however' and qualifies: reputation attaches to the home faculty. Sentence 2 applies the qualification to a branch campus. Tip: 'that trust' needs 'trust' mentioned immediately before."
+      }
+    ]
   }
 ]
